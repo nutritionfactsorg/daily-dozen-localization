@@ -6,7 +6,6 @@
 [Localization Workflow](#localization-workflow-) •
 [File Name Convention](#file-name-convention-) •
 [Language Support](#language-support-) •
-[Android & Apple Mapping](#andoi-support-) •
 [Resources](#resources-)
 
 ## Localization Workflow <a id="localization-workflow-"></a><sup>[▴](#contents)</sup>

@@ -1,0 +1,59 @@
+### see: https://github.com/github/gitignore  # example templates
+
+## place for local-only notes.
+*__LOCAL
+
+#################
+## Apple macOS ##
+#################
+.DS_Store
+
+## SourceTree "Iconr" which is really "Icon\r"
+## or add 0a 49 63 6e 6e 0d 0d 0a in binhex editor.  The extra 0a brackets the 'Icon\r\r' 
+Icon?
+
+## Build generated
+build/
+DerivedData/
+
+## Various settings
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+
+## Other
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+
+## Obj-C/Swift specific
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+## Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager
+#
+# Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
+# Packages/
+# Package.pins
+.build/
+
+## Office Documents
+*.doc  #
+*.docx #
+*.xls  # Excel Spreadsheet
+*.xlsb # Excel Binary Workbook
+*.xlsm # Excel Macro-Enabled Workbook
+*.xlsx # Excel Workbook
+*.xltx # Excel Template
