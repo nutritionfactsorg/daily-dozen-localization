@@ -66,7 +66,7 @@ _Existing Translations_
 | Russian     | `ru` | ✓       |        |
 | Spanish     | `es` | ✓       | ✓      |  
 
-_User Submissions_
+_Community Submissions_
 
 | Language|Code|Android|iOS| Notes
 |---------|:--:|:--:|:--:|:-------
@@ -81,8 +81,6 @@ _User Submissions_
 [PR#120]:https://github.com/nutritionfactsorg/daily-dozen-android/pull/120
 [PR#123]:https://github.com/nutritionfactsorg/daily-dozen-android/pull/123
 [PR#138]:https://github.com/nutritionfactsorg/daily-dozen-android/pull/138
-
-> Note: The community submitted pull requests may based on the Daily Dozen and not yet have the 21 Tweaks translation.
 
 ## Resources <a id="resources-"></a><sup>[▴](#contents)</sup>
 
