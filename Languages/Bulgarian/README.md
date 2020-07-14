@@ -1,4 +1,4 @@
-# [daily-dozen-localization: Bulgarian (bg)][t]
+# [daily-dozen-localization: Bulgarian][t]
 [t]:https://github.com/nutritionfactsorg
 
 * [Apple App Store: Dr. Greger's Daily Dozen (България, bg) ⇗](https://apps.apple.com/bg/app/dr-gregers-daily-dozen/id1060700802)

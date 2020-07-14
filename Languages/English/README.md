@@ -1,7 +1,7 @@
-# [daily-dozen-localization: English (en)][t]
+# [daily-dozen-localization: English][t]
 [t]:https://github.com/nutritionfactsorg
 
-* [Apple App Store: Dr. Greger's Daily Dozen (en) ⇗](https://apps.apple.com/us/app/dr-gregers-daily-dozen/id1060700802)
+* [Apple App Store: Dr. Greger's Daily Dozen (us) ⇗](https://apps.apple.com/us/app/dr-gregers-daily-dozen/id1060700802)
 * [Google Play: Dr. Greger's Daily Dozen (en) ⇗](https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen&hl=en)
 
 **Title**
