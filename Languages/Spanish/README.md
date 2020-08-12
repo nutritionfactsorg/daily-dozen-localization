@@ -9,6 +9,10 @@
 
 **Title:**  Dr. Greger's Daily Dozen
 
+**Subtitle:** `Track the foods reco…` Note: this text gets cut off.
+
+**App Name:** `Daily Dozen` (app name as seen on device after installation)
+
 **Keywords:** vegan, nutrition, food, vegetarian, health, healthy
 
 **Support URL:** https://nutritionfacts.org/es/contactanos/
