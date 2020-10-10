@@ -1,0 +1,477 @@
+key_droid	key_apple	base_value	lang_value	base_comment
+beverages	dozeBeverages	Beverages	Ροφήματα	
+whole_grains	dozeWholeGrains	Whole Grains	Ολικής Αλέσεως	
+beans	dozeBeans	Beans	Όσπρια	
+other_vegetables	dozeVegetablesOther	Other Vegetables	Άλλα Λαχανικά	
+exercise	dozeExercise	Exercise	Γυμναστική	
+other_fruits	dozeFruitsOther	Other Fruits	Άλλα Φρούτα	
+spices	dozeSpices	Herbs and Spices	Μπαχαρικά	
+greens	dozeGreens	Greens	Πράσινα Φυλλώδη	
+berries	dozeBerries	Berries	Μούρα	
+cruciferous_vegetables	dozeVegetablesCruciferous	Cruciferous Vegetables	Σταυρανθή Λαχανικά	
+nuts	dozeNuts	Nuts and Seeds	Ξηροί Καρποί	
+vitamin_b12	otherVitaminB12	Vitamin B12	Βιταμίνη B12	
+flaxseeds	dozeFlaxseeds	Flaxseeds	Λιναρόσπορος	
+food_info_serving_sizes_beans[imperial][0]	dozeBeansServing[imperial][0]	¼ cup of hummus or bean dip	¼ φλιτζάνι χούμους ή ντιπ φασολιού	  
+food_info_serving_sizes_beans[metric][0]	dozeBeansServing[metric][0]	60 g of hummus or bean dip	60 γραμμάρια χούμους ή ντιπ φασολιού	  
+food_info_serving_sizes_beans[imperial][1]	dozeBeansServing[imperial][1]	½ cup cooked beans, split peas, lentils, tofu, or tempeh	½ φλιτζάνι μαγειρεμένα φασόλια, φάβα, φακές, τόφου, ή τέμπε	  
+food_info_serving_sizes_beans[metric][1]	dozeBeansServing[metric][1]	130 g cooked beans, split peas, lentils, tofu, or tempeh	130 γραμμάρια μαγειρεμένα φασόλια, φάβα, φακές, τόφου, ή τέμπε	  
+food_info_serving_sizes_beans[imperial][2]	dozeBeansServing[imperial][2]	1 cup of fresh peas or sprouted lentils	1 φλιτζάνι αρακά ή φακές φυτρωμένες	  
+food_info_serving_sizes_beans[metric][2]	dozeBeansServing[metric][2]	150 g of fresh peas or sprouted lentils	150 γραμμάρια αρακά ή φακές φυτρωμένες	  
+food_info_serving_sizes_flaxseeds[imperial][0]	dozeFlaxseedsServing[imperial][0]	1 tablespoon ground	1 κουταλιά της σούπας αλεσμένο	  
+food_info_serving_sizes_flaxseeds[metric][0]	dozeFlaxseedsServing[metric][0]	1 tablespoon ground	1 κουταλιά της σούπας αλεσμένο	  
+food_info_serving_sizes_beverages[imperial][0]	dozeBeveragesServing[imperial][0]	One glass (12 ounces)	Ένα ποτήρι (12 Ουγγιές)	  
+food_info_serving_sizes_beverages[metric][0]	dozeBeveragesServing[metric][0]	One glass (350 ml)	Ένα ποτήρι (350 ml)	  
+food_info_serving_sizes_spices[imperial][0]	dozeSpicesServing[imperial][0]	¼ teaspoon of turmeric	¼ κουταλάκι του γλυκού κουρκουμά	  
+food_info_serving_sizes_spices[metric][0]	dozeSpicesServing[metric][0]	¼ teaspoon of turmeric	¼ κουταλάκι του γλυκού κουρκουμά	  
+food_info_serving_sizes_spices[imperial][1]	dozeSpicesServing[imperial][1]	Any other (salt-free) herbs and spices you enjoy	Ότι άλλο (χωρίς αλάτι) βότανο και μπαχαρικό σας αρέσει	  
+food_info_serving_sizes_spices[metric][1]	dozeSpicesServing[metric][1]	Any other (salt-free) herbs and spices you enjoy	Ότι άλλο (χωρίς αλάτι) βότανο και μπαχαρικό σας αρέσει	  
+food_info_serving_sizes_exercise[imperial][0]	dozeExerciseServing[imperial][0]	90 minutes of moderate-intensity activity	90 λεπτά δραστηριότητα μέτριας έντασης	  
+food_info_serving_sizes_exercise[metric][0]	dozeExerciseServing[metric][0]	90 minutes of moderate-intensity activity	90 λεπτά δραστηριότητα μέτριας έντασης	  
+food_info_serving_sizes_exercise[imperial][1]	dozeExerciseServing[imperial][1]	40 minutes of vigorous-intensity activity	40 λεπτά δραστηριότητα έντονης έντασης	  
+food_info_serving_sizes_exercise[metric][1]	dozeExerciseServing[metric][1]	40 minutes of vigorous-intensity activity	40 λεπτά δραστηριότητα έντονης έντασης	  
+food_info_serving_sizes_berries[imperial][0]	dozeBerriesServing[imperial][0]	½ cup fresh or frozen	½ φλιτζάνι φρέσκα ή κατεψυγμένα	  
+food_info_serving_sizes_berries[metric][0]	dozeBerriesServing[metric][0]	60 g fresh or frozen	60 γραμμάρια φρέσκα ή κατεψυγμένα	  
+food_info_serving_sizes_berries[imperial][1]	dozeBerriesServing[imperial][1]	¼ cup dried	¼ φλιτζανιού αποξηραμένα	  
+food_info_serving_sizes_berries[metric][1]	dozeBerriesServing[metric][1]	40 g dried	40 γραμμάρια αποξηραμένα	  
+food_info_serving_sizes_nuts[imperial][0]	dozeNutsServing[imperial][0]	¼ cup nuts or seeds	¼ φλιτζάνι ξηρούς καρπούς ή σπόρους	  
+food_info_serving_sizes_nuts[metric][0]	dozeNutsServing[metric][0]	30 g nuts or seeds	30 γραμμάρια ξηρούς καρπούς ή σπόρους	  
+food_info_serving_sizes_nuts[imperial][1]	dozeNutsServing[imperial][1]	2 tablespoons nut or seed butter	2 κουταλιές βούτηρο ξηρών καρπών ή σπόρων	  
+food_info_serving_sizes_nuts[metric][1]	dozeNutsServing[metric][1]	2 tablespoons nut or seed butter	2 κουταλιές βούτηρο ξηρών καρπών ή σπόρων	  
+food_info_serving_sizes_greens[imperial][0]	dozeGreensServing[imperial][0]	1 cup raw	1 φλιτζάνι ωμά	  
+food_info_serving_sizes_greens[metric][0]	dozeGreensServing[metric][0]	60 g raw	60 γραμμάρια ωμά	  
+food_info_serving_sizes_greens[imperial][1]	dozeGreensServing[imperial][1]	½ cup cooked	½ φλιτζάνι μαγειρεμένα	  
+food_info_serving_sizes_greens[metric][1]	dozeGreensServing[metric][1]	90 g cooked	90 γραμμάρια μαγειρεμένα	  
+food_info_serving_sizes_cruciferous_vegetables[imperial][0]	dozeVegetablesCruciferousServing[imperial][0]	½ cup chopped	½ φλιτζάνι ψιλοκομμένα	  
+food_info_serving_sizes_cruciferous_vegetables[metric][0]	dozeVegetablesCruciferousServing[metric][0]	30–80 g chopped	30–80 γραμμάρια ψιλοκομμένα	  
+food_info_serving_sizes_cruciferous_vegetables[imperial][1]	dozeVegetablesCruciferousServing[imperial][1]	¼ cup Brussels or broccoli sprouts	¼ φλιτζάνι λαχανάκι Βρυξέλλών ή φύτρα μπρόκολου	  
+food_info_serving_sizes_cruciferous_vegetables[metric][1]	dozeVegetablesCruciferousServing[metric][1]	12 g Brussels or broccoli sprouts	12 γραμμάρια λαχανάκι Βρυξέλλών ή φύτρα μπρόκολου	  
+food_info_serving_sizes_cruciferous_vegetables[imperial][2]	dozeVegetablesCruciferousServing[imperial][2]	1 tablespoon horseradish	1 κουταλιά της σούπας χρένο	  
+food_info_serving_sizes_cruciferous_vegetables[metric][2]	dozeVegetablesCruciferousServing[metric][2]	1 tablespoon horseradish	1 κουταλιά της σούπας χρένο	  
+food_info_serving_sizes_other_vegetables[imperial][0]	dozeVegetablesOtherServing[imperial][0]	1 cup raw leafy vegetables	1 φλιτζάνι ωμά φυλλώδη λαχανικά	  
+food_info_serving_sizes_other_vegetables[metric][0]	dozeVegetablesOtherServing[metric][0]	60 g raw leafy vegetables	60 γραμμάρια ωμά φυλλώδη λαχανικά	  
+food_info_serving_sizes_other_vegetables[imperial][1]	dozeVegetablesOtherServing[imperial][1]	½ cup raw or cooked nonleafy vegetables	½ φλιτζάνι ωμά ή μαγειρεμένα μη φυλλώδη λαχανικά	  
+food_info_serving_sizes_other_vegetables[metric][1]	dozeVegetablesOtherServing[metric][1]	50 g raw or cooked nonleafy vegetables	50 γραμμάρια ωμά ή μαγειρεμένα μη φυλλώδη λαχανικά	  
+food_info_serving_sizes_other_vegetables[imperial][2]	dozeVegetablesOtherServing[imperial][2]	½ cup vegetable juice	½ φλιτζάνι χυμό λαχανικών	  
+food_info_serving_sizes_other_vegetables[metric][2]	dozeVegetablesOtherServing[metric][2]	125 ml vegetable juice	125 ml χυμό λαχανικών	  
+food_info_serving_sizes_other_vegetables[imperial][3]	dozeVegetablesOtherServing[imperial][3]	¼ cup dried mushrooms	¼ φλιτζάνι αποξηραμένα μανιτάρια	  
+food_info_serving_sizes_other_vegetables[metric][3]	dozeVegetablesOtherServing[metric][3]	7 g dried mushrooms	7 γραμμάρια αποξηραμένα μανιτάρια	  
+food_info_serving_sizes_whole_grains[imperial][0]	dozeWholeGrainsServing[imperial][0]	½ cup hot cereal or cooked grains, pasta, or corn kernels	½ φλιτζάνι ζεστά δημητριακά ή μαγειρεμένα, ζυμαρικά, ή πυρήνες καλαμποκιού	  
+food_info_serving_sizes_whole_grains[metric][0]	dozeWholeGrainsServing[metric][0]	100 g hot cereal or cooked grains, pasta, or corn kernels	100 γραμμάρια ζεστά δημητριακά ή μαγειρεμένα, ζυμαρικά, ή πυρήνες καλαμποκιού	  
+food_info_serving_sizes_whole_grains[imperial][1]	dozeWholeGrainsServing[imperial][1]	1 cup cold cereal	1 φλιτζάνι κρύα δημητριακά	  
+food_info_serving_sizes_whole_grains[metric][1]	dozeWholeGrainsServing[metric][1]	50 g cold cereal	50 γραμμάρια κρύα δημητριακά	  
+food_info_serving_sizes_whole_grains[imperial][2]	dozeWholeGrainsServing[imperial][2]	1 tortilla or slice of bread	1 τορτίγια ή φέτα ψωμί	  
+food_info_serving_sizes_whole_grains[metric][2]	dozeWholeGrainsServing[metric][2]	1 tortilla or slice of bread	1 τορτίγια ή φέτα ψωμί	  
+food_info_serving_sizes_whole_grains[imperial][3]	dozeWholeGrainsServing[imperial][3]	½ a bagel or English muffin	½ κουλούρι ή αγγλικό μάφιν	  
+food_info_serving_sizes_whole_grains[metric][3]	dozeWholeGrainsServing[metric][3]	½ a bagel or English muffin	½ κουλούρι ή αγγλικό μάφιν	  
+food_info_serving_sizes_whole_grains[imperial][4]	dozeWholeGrainsServing[imperial][4]	3 cups popped popcorn	3 φλιτζάνια ποπ κορν	  
+food_info_serving_sizes_whole_grains[metric][4]	dozeWholeGrainsServing[metric][4]	30 g popped popcorn	30 γραμμάρια ποπ κορν	  
+food_info_serving_sizes_other_fruits[imperial][0]	dozeFruitsOtherServing[imperial][0]	1 medium-sized fruit	1 μεσαίου μεγέθους φρούτο	  
+food_info_serving_sizes_other_fruits[metric][0]	dozeFruitsOtherServing[metric][0]	1 medium-sized fruit	1 μεσαίου μεγέθους φρούτο	  
+food_info_serving_sizes_other_fruits[imperial][1]	dozeFruitsOtherServing[imperial][1]	1 cup cut-up fruit	1 φλυτζάνι κομμένο φρούτο	  
+food_info_serving_sizes_other_fruits[metric][1]	dozeFruitsOtherServing[metric][1]	120 g cut-up fruit	120 γραμμάρια κομμένο φρούτο	  
+food_info_serving_sizes_other_fruits[imperial][2]	dozeFruitsOtherServing[imperial][2]	¼ cup dried fruit	¼ φλιτζάνι αποξηραμένο φρούτο	  
+food_info_serving_sizes_other_fruits[metric][2]	dozeFruitsOtherServing[metric][2]	40 g dried fruit	40 γραμμάρια αποξηραμένο φρούτο	  
+food_info_types_beverages[0]	dozeBeveragesVarietyText[0]	Black tea	Μαύρο τσάι	  
+food_info_types_beverages[1]	dozeBeveragesVarietyText[1]	Chai tea	Τσάι μασάλα	  
+food_info_types_beverages[2]	dozeBeveragesVarietyText[2]	Vanilla chamomile tea	Βανίλια χαμομήλι	  
+food_info_types_beverages[3]	dozeBeveragesVarietyText[3]	Coffee	Καφές	  
+food_info_types_beverages[4]	dozeBeveragesVarietyText[4]	Earl grey tea	Τσάι Earl Grey	  
+food_info_types_beverages[5]	dozeBeveragesVarietyText[5]	Green tea	Πράσινο τσάι	  
+food_info_types_beverages[6]	dozeBeveragesVarietyText[6]	Hibiscus tea	Τσάι υβίσκου	  
+food_info_types_beverages[7]	dozeBeveragesVarietyText[7]	Hot chocolate	Ζεστή σοκολάτα	  
+food_info_types_beverages[8]	dozeBeveragesVarietyText[8]	Jasmine tea	Τσάι γιασεμί	  
+food_info_types_beverages[9]	dozeBeveragesVarietyText[9]	Lemon balm tea	Τσάι με λεμόνι βάλσαμο	  
+food_info_types_beverages[10]	dozeBeveragesVarietyText[10]	Matcha tea	Τσάι μάτσα	  
+food_info_types_beverages[11]	dozeBeveragesVarietyText[11]	Almond blossom oolong tea	Τσάι ούλονγκ	  
+food_info_types_beverages[12]	dozeBeveragesVarietyText[12]	Peppermint tea	Τσάι μίνθη	  
+food_info_types_beverages[13]	dozeBeveragesVarietyText[13]	Rooibos tea	Τσάι Ρόιμπος	  
+food_info_types_beverages[14]	dozeBeveragesVarietyText[14]	Water	Νερό	  
+food_info_types_beverages[15]	dozeBeveragesVarietyText[15]	White tea	Λευκό τσάι	  
+food_info_types_exercise[0]	dozeExerciseVarietyText[0]	Bicycling	Ποδηλασία	  
+food_info_types_exercise[1]	dozeExerciseVarietyText[1]	Canoeing	Κωπηλασία με κανό	  
+food_info_types_exercise[2]	dozeExerciseVarietyText[2]	Dancing	Χορός	  
+food_info_types_exercise[3]	dozeExerciseVarietyText[3]	Dodgeball	Ντότζμπολ	  
+food_info_types_exercise[4]	dozeExerciseVarietyText[4]	Downhill skiing	Κατάβαση	  
+food_info_types_exercise[5]	dozeExerciseVarietyText[5]	Fencing	Ξιφασκία	  
+food_info_types_exercise[6]	dozeExerciseVarietyText[6]	Hiking	Πεζοπορία	  
+food_info_types_exercise[7]	dozeExerciseVarietyText[7]	Housework	Δουλειες του σπιτιού	  
+food_info_types_exercise[8]	dozeExerciseVarietyText[8]	Ice-skating	Σκέϊτ στον πάγο	  
+food_info_types_exercise[9]	dozeExerciseVarietyText[9]	Inline skating	Πατίνια ρόλλερ	  
+food_info_types_exercise[10]	dozeExerciseVarietyText[10]	Juggling	Ζογκλερικά	  
+food_info_types_exercise[11]	dozeExerciseVarietyText[11]	Jumping on a trampoline	Άλματα σε τραμπολίνο	  
+food_info_types_exercise[12]	dozeExerciseVarietyText[12]	Paddle boating	Κουπί βαρκάδα	  
+food_info_types_exercise[13]	dozeExerciseVarietyText[13]	Playing frisbee	Φρίσμπι	  
+food_info_types_exercise[14]	dozeExerciseVarietyText[14]	Roller-skating	Ρόλερ Πατινάζ	  
+food_info_types_exercise[15]	dozeExerciseVarietyText[15]	Shooting baskets	Kαλάθια Σκοποβολή	  
+food_info_types_exercise[16]	dozeExerciseVarietyText[16]	Shoveling light snow	Ελαφρύ φτυαρίσμα χιονιού	  
+food_info_types_exercise[17]	dozeExerciseVarietyText[17]	Skateboarding	Σκέιτμπορντ	  
+food_info_types_exercise[18]	dozeExerciseVarietyText[18]	Snorkeling	Περιήγηση επιφανείας	  
+food_info_types_exercise[19]	dozeExerciseVarietyText[19]	Surfing	Σέρφινγκ	  
+food_info_types_exercise[20]	dozeExerciseVarietyText[20]	Swimming recreationally	Κολύμβηση αναψυχής	  
+food_info_types_exercise[21]	dozeExerciseVarietyText[21]	Tennis (doubles)	Τένις (διπλό)	  
+food_info_types_exercise[22]	dozeExerciseVarietyText[22]	Treading water	Όρθιο κολύμπι	  
+food_info_types_exercise[23]	dozeExerciseVarietyText[23]	Walking briskly (4 mph)	Ζωηρό βάδισμα (6 χλμ)	  
+food_info_types_exercise[24]	dozeExerciseVarietyText[24]	Water aerobics	Αεροβική στο νερό	  
+food_info_types_exercise[25]	dozeExerciseVarietyText[25]	Waterskiing	Θαλάσσιο σκι	  
+food_info_types_exercise[26]	dozeExerciseVarietyText[26]	Yard work	Δουλειά κήπου	  
+food_info_types_exercise[27]	dozeExerciseVarietyText[27]	Yoga	Γιόγκα	  
+food_info_types_exercise[28]	dozeExerciseVarietyText[28]	Backpacking	Σακίδιο στην πλάτη	  
+food_info_types_exercise[29]	dozeExerciseVarietyText[29]	Basketball	Καλαθοσφαίρηση	  
+food_info_types_exercise[30]	dozeExerciseVarietyText[30]	Bicycling uphill	Ποδηλασία σε ανηφόρα	  
+food_info_types_exercise[31]	dozeExerciseVarietyText[31]	Circuit weight training	Κυκλική προπόνηση με βάρη	  
+food_info_types_exercise[32]	dozeExerciseVarietyText[32]	Cross-country skiing	Σκι cross-country	  
+food_info_types_exercise[33]	dozeExerciseVarietyText[33]	Football	Ποδόσφαιρο	  
+food_info_types_exercise[34]	dozeExerciseVarietyText[34]	Hockey	Χόκεϊ	  
+food_info_types_exercise[35]	dozeExerciseVarietyText[35]	Jogging	Στίβος	  
+food_info_types_exercise[36]	dozeExerciseVarietyText[36]	Jumping jacks	Άλματα	  
+food_info_types_exercise[37]	dozeExerciseVarietyText[37]	Jumping rope	Σχοινάκι	  
+food_info_types_exercise[38]	dozeExerciseVarietyText[38]	Lacrosse	Λακρός	  
+food_info_types_exercise[39]	dozeExerciseVarietyText[39]	Push-ups	Κάμψεις	  
+food_info_types_exercise[40]	dozeExerciseVarietyText[40]	Pull-ups	Έλξεις	  
+food_info_types_exercise[41]	dozeExerciseVarietyText[41]	Racquetball	Ράκετμπολ	  
+food_info_types_exercise[42]	dozeExerciseVarietyText[42]	Rock climbing	Αναρρίχηση	  
+food_info_types_exercise[43]	dozeExerciseVarietyText[43]	Rugby	Ράγκμπι	  
+food_info_types_exercise[44]	dozeExerciseVarietyText[44]	Running	Τρέξιμο	  
+food_info_types_exercise[45]	dozeExerciseVarietyText[45]	Scuba diving	Κατάδυση	  
+food_info_types_exercise[46]	dozeExerciseVarietyText[46]	Tennis (singles)	Τένις (μονό)	  
+food_info_types_exercise[47]	dozeExerciseVarietyText[47]	Soccer	Ποδόσφαιρο	  
+food_info_types_exercise[48]	dozeExerciseVarietyText[48]	Speed skating	Πατινάζ ταχύτητας	  
+food_info_types_exercise[49]	dozeExerciseVarietyText[49]	Squash	Καθίσματα	  
+food_info_types_exercise[50]	dozeExerciseVarietyText[50]	Step aerobics	Αεροβική step	  
+food_info_types_exercise[51]	dozeExerciseVarietyText[51]	Swimming laps	Γύροι κολύμβησης	  
+food_info_types_exercise[52]	dozeExerciseVarietyText[52]	Walking briskly uphill	Ζωηρό βάδισμα σε ανηφόρα	  
+food_info_types_exercise[53]	dozeExerciseVarietyText[53]	Water jogging	Τζόκινγκ νερού	  
+food_info_types_flaxseeds[0]	dozeFlaxseedsVarietyText[0]	Brown flaxseeds	Λιναρόσπορος καφέ	  
+food_info_types_flaxseeds[1]	dozeFlaxseedsVarietyText[1]	Golden flaxseeds	Λιναρόσπορος χρυσός	  
+food_info_types_berries[0]	dozeBerriesVarietyText[0]	Acai berries	Ασάι	  
+food_info_types_berries[1]	dozeBerriesVarietyText[1]	Barberries	Βερβερίς	  
+food_info_types_berries[2]	dozeBerriesVarietyText[2]	Blackberries	Βατόμουρα	  
+food_info_types_berries[3]	dozeBerriesVarietyText[3]	Blueberries	Μύρτιλα	  
+food_info_types_berries[4]	dozeBerriesVarietyText[4]	Cherries (sweet or tart)	Κεράσια (γλυκά ή ξινά)	  
+food_info_types_berries[5]	dozeBerriesVarietyText[5]	Concord grapes	Κονκόρντ σταφύλια	  
+food_info_types_berries[6]	dozeBerriesVarietyText[6]	Cranberries	Φίγγι	  
+food_info_types_berries[7]	dozeBerriesVarietyText[7]	Goji berries	Γκότζι μπέρι	  
+food_info_types_berries[8]	dozeBerriesVarietyText[8]	Kumquats	Φορτουνέλλα	  
+food_info_types_berries[9]	dozeBerriesVarietyText[9]	Mulberries	Μορέα	  
+food_info_types_berries[10]	dozeBerriesVarietyText[10]	Raspberries (black or red)	Βατόμουρα (μαύρα ή κόκκινα)	  
+food_info_types_berries[11]	dozeBerriesVarietyText[11]	Strawberries	Φράουλες	  
+food_info_types_whole_grains[0]	dozeWholeGrainsVarietyText[0]	Barley	Κριθάρι	  
+food_info_types_whole_grains[1]	dozeWholeGrainsVarietyText[1]	Buckwheat	Φαγόπυρο	  
+food_info_types_whole_grains[2]	dozeWholeGrainsVarietyText[2]	Millet	Κεχρί	  
+food_info_types_whole_grains[3]	dozeWholeGrainsVarietyText[3]	Oats	Βρώμη	  
+food_info_types_whole_grains[4]	dozeWholeGrainsVarietyText[4]	Popcorn	Ποπ κορν	  
+food_info_types_whole_grains[5]	dozeWholeGrainsVarietyText[5]	Quinoa	Κινόα	  
+food_info_types_whole_grains[6]	dozeWholeGrainsVarietyText[6]	Rye	Σίκαλη	  
+food_info_types_whole_grains[7]	dozeWholeGrainsVarietyText[7]	Teff	Τεφ	  
+food_info_types_whole_grains[8]	dozeWholeGrainsVarietyText[8]	Whole-wheat pasta	Ζυμαρικά ολικής αλέσεως	  
+food_info_types_greens[0]	dozeGreensVarietyText[0]	Arugula	Ρόκα	  
+food_info_types_greens[1]	dozeGreensVarietyText[1]	Beet greens	Χόρτα τεύτλων	  
+food_info_types_greens[2]	dozeGreensVarietyText[2]	Collard greens	Φύλλα Λαχανίδας	  
+food_info_types_greens[3]	dozeGreensVarietyText[3]	Kale (black, green, and red)	Κέιλ (μαύρο, πράσινο και κόκκινο)	  
+food_info_types_greens[4]	dozeGreensVarietyText[4]	Mesclun mix (assorted young salad greens)	Σαλάτα μείγμα (διάφορα είδη πράσινων)	  
+food_info_types_greens[5]	dozeGreensVarietyText[5]	Mustard greens	Φύλλα μουστάρδας	  
+food_info_types_greens[6]	dozeGreensVarietyText[6]	Sorrel	Λάπαθο	  
+food_info_types_greens[7]	dozeGreensVarietyText[7]	Spinach	Σπανάκι	  
+food_info_types_greens[8]	dozeGreensVarietyText[8]	Swiss chard	Σέσκουλο	  
+food_info_types_greens[9]	dozeGreensVarietyText[9]	Turnip greens	Φύλλα γογγύλιων	  
+food_info_types_cruciferous_vegetables[0]	dozeVegetablesCruciferousVarietyText[0]	Arugula	Ρόκα	  
+food_info_types_cruciferous_vegetables[1]	dozeVegetablesCruciferousVarietyText[1]	Bok choy	Μποκ τσόι	  
+food_info_types_cruciferous_vegetables[2]	dozeVegetablesCruciferousVarietyText[2]	Broccoli (incl. Romanesco)	Μπρόκολο (και το Romanesco)	  
+food_info_types_cruciferous_vegetables[3]	dozeVegetablesCruciferousVarietyText[3]	Brussels sprouts	Λαχανάκια Βρυξελλών	  
+food_info_types_cruciferous_vegetables[4]	dozeVegetablesCruciferousVarietyText[4]	Cabbage (green, red and savoy)	Λάχανο (πράσινο, κόκκινο, σπαράγγι λάχανο)	  
+food_info_types_cruciferous_vegetables[5]	dozeVegetablesCruciferousVarietyText[5]	Cauliflower (white, green, orange and purple)	Κουνουπίδι (λευκό, πράσινο, πορτοκαλί, μοβ)	  
+food_info_types_cruciferous_vegetables[6]	dozeVegetablesCruciferousVarietyText[6]	Collard greens	Λαχανίδες	  
+food_info_types_cruciferous_vegetables[7]	dozeVegetablesCruciferousVarietyText[7]	Horseradish	Χρένο	  
+food_info_types_cruciferous_vegetables[8]	dozeVegetablesCruciferousVarietyText[8]	Kale (black, green, and red)	Κέιλ (μαύρο, πράσινο και κόκκινο)	  
+food_info_types_cruciferous_vegetables[9]	dozeVegetablesCruciferousVarietyText[9]	Kohlrabi (green and purple)	Γογγυλοκράμβες (πράσινο, μωβ)	  
+food_info_types_cruciferous_vegetables[10]	dozeVegetablesCruciferousVarietyText[10]	Mustard greens	Πράσινα μουστάρδας	  
+food_info_types_cruciferous_vegetables[11]	dozeVegetablesCruciferousVarietyText[11]	Radishes	Ραπανάκια	  
+food_info_types_cruciferous_vegetables[12]	dozeVegetablesCruciferousVarietyText[12]	Turnip greens	Πράσινα γογγύλια	  
+food_info_types_cruciferous_vegetables[13]	dozeVegetablesCruciferousVarietyText[13]	Watercress	Κάρδαμο	  
+food_info_types_spices[0]	dozeSpicesVarietyText[0]	Allspice	Μπαχάρι	  
+food_info_types_spices[1]	dozeSpicesVarietyText[1]	Barberries	Βερβερίς	  
+food_info_types_spices[2]	dozeSpicesVarietyText[2]	Basil	Βασίλικος	  
+food_info_types_spices[3]	dozeSpicesVarietyText[3]	Bay leaves	Φύλλα δάφνης	  
+food_info_types_spices[4]	dozeSpicesVarietyText[4]	Cardamom	Κάρδαμο	  
+food_info_types_spices[5]	dozeSpicesVarietyText[5]	Chili powder	Τσίλι σε σκόνη	  
+food_info_types_spices[6]	dozeSpicesVarietyText[6]	Cilantro	Κόλιαντρο	  
+food_info_types_spices[7]	dozeSpicesVarietyText[7]	Cinnamon	Κανέλα	  
+food_info_types_spices[8]	dozeSpicesVarietyText[8]	Cloves	Γαρίφαλο	  
+food_info_types_spices[9]	dozeSpicesVarietyText[9]	Coriander	Κολίανδρο	  
+food_info_types_spices[10]	dozeSpicesVarietyText[10]	Cumin	Κύμινο	  
+food_info_types_spices[11]	dozeSpicesVarietyText[11]	Curry powder	Κάρυ	  
+food_info_types_spices[12]	dozeSpicesVarietyText[12]	Dill	Άνηθος	  
+food_info_types_spices[13]	dozeSpicesVarietyText[13]	Fenugreek	Τριγωνέλλα	  
+food_info_types_spices[14]	dozeSpicesVarietyText[14]	Garlic	Σκόρδο	  
+food_info_types_spices[15]	dozeSpicesVarietyText[15]	Ginger	Τζίντζερ	  
+food_info_types_spices[16]	dozeSpicesVarietyText[16]	Horseradish	Χρένο	  
+food_info_types_spices[17]	dozeSpicesVarietyText[17]	Lemongrass	Κυμβοπώγων	  
+food_info_types_spices[18]	dozeSpicesVarietyText[18]	Marjoram	Μαντζουράνα	  
+food_info_types_spices[19]	dozeSpicesVarietyText[19]	Mustard powder	Σκόνη μουστάρδας	  
+food_info_types_spices[20]	dozeSpicesVarietyText[20]	Nutmeg	Μοσχοκάρυδο	  
+food_info_types_spices[21]	dozeSpicesVarietyText[21]	Oregano	Ρίγανη	  
+food_info_types_spices[22]	dozeSpicesVarietyText[22]	Smoked paprika	Καπνιστή πάπρικα	  
+food_info_types_spices[23]	dozeSpicesVarietyText[23]	Parsley	Μαϊντανός	  
+food_info_types_spices[24]	dozeSpicesVarietyText[24]	Pepper	Πιπέρι	  
+food_info_types_spices[25]	dozeSpicesVarietyText[25]	Peppermint	Μέντα	  
+food_info_types_spices[26]	dozeSpicesVarietyText[26]	Rosemary	Δενδρολίβανο	  
+food_info_types_spices[27]	dozeSpicesVarietyText[27]	Saffron	Σαφράνι	  
+food_info_types_spices[28]	dozeSpicesVarietyText[28]	Sage	Φασκόμηλο	  
+food_info_types_spices[29]	dozeSpicesVarietyText[29]	Thyme	Θυμάρι	  
+food_info_types_spices[30]	dozeSpicesVarietyText[30]	Turmeric	Κουρκουμάς	  
+food_info_types_spices[31]	dozeSpicesVarietyText[31]	Vanilla	Βανίλια	  
+food_info_types_nuts[0]	dozeNutsVarietyText[0]	Almonds	Αμύγδαλα	  
+food_info_types_nuts[1]	dozeNutsVarietyText[1]	Brazil nuts	Καρυδιά Βραζιλίας	  
+food_info_types_nuts[2]	dozeNutsVarietyText[2]	Cashews	Κάσιους	  
+food_info_types_nuts[3]	dozeNutsVarietyText[3]	Chia seeds	Σπόροι τσία	  
+food_info_types_nuts[4]	dozeNutsVarietyText[4]	Hazelnuts	Φουντούκια	  
+food_info_types_nuts[5]	dozeNutsVarietyText[5]	Hemp seeds	Σπόροι κάνναβης	  
+food_info_types_nuts[6]	dozeNutsVarietyText[6]	Macadamia nuts	Μακαδάμια	  
+food_info_types_nuts[7]	dozeNutsVarietyText[7]	Pecans	Πεκάν	  
+food_info_types_nuts[8]	dozeNutsVarietyText[8]	Pistachios	Φιστίκια Αιγίνης	  
+food_info_types_nuts[9]	dozeNutsVarietyText[9]	Pumpkin seeds	Κολοκυθόσποροι	  
+food_info_types_nuts[10]	dozeNutsVarietyText[10]	Sesame seeds	Σουσάμι	  
+food_info_types_nuts[11]	dozeNutsVarietyText[11]	Sunflower seeds	Ηλιόσποροι	  
+food_info_types_nuts[12]	dozeNutsVarietyText[12]	Walnuts	Καρύδια	  
+food_info_types_other_fruits[0]	dozeFruitsOtherVarietyText[0]	Apples	Μήλα	  
+food_info_types_other_fruits[1]	dozeFruitsOtherVarietyText[1]	Dried apricots	Αποξηραμένα βερίκοκα	  
+food_info_types_other_fruits[2]	dozeFruitsOtherVarietyText[2]	Avocados	Αβοκάντο	  
+food_info_types_other_fruits[3]	dozeFruitsOtherVarietyText[3]	Bananas	Μπανάνες	  
+food_info_types_other_fruits[4]	dozeFruitsOtherVarietyText[4]	Cantaloupe	Πεπονάκι	  
+food_info_types_other_fruits[5]	dozeFruitsOtherVarietyText[5]	Clementines	Κλημεντίνες	  
+food_info_types_other_fruits[6]	dozeFruitsOtherVarietyText[6]	Dates	Dates	  
+food_info_types_other_fruits[7]	dozeFruitsOtherVarietyText[7]	Dried figs	Ξερά σύκα	  
+food_info_types_other_fruits[8]	dozeFruitsOtherVarietyText[8]	Grapefruit	Φράπα	  
+food_info_types_other_fruits[9]	dozeFruitsOtherVarietyText[9]	Honeydew	Χάνεϊντιου	  
+food_info_types_other_fruits[10]	dozeFruitsOtherVarietyText[10]	Kiwifruit	Ακτινίδια	  
+food_info_types_other_fruits[11]	dozeFruitsOtherVarietyText[11]	Lemons	Λεμόνια	  
+food_info_types_other_fruits[12]	dozeFruitsOtherVarietyText[12]	Limes	Λάιμ	  
+food_info_types_other_fruits[13]	dozeFruitsOtherVarietyText[13]	Lychees	Λίτσι	  
+food_info_types_other_fruits[14]	dozeFruitsOtherVarietyText[14]	Mangos	Μάνγκο	  
+food_info_types_other_fruits[15]	dozeFruitsOtherVarietyText[15]	Nectarines	Νεκταρίνια	  
+food_info_types_other_fruits[16]	dozeFruitsOtherVarietyText[16]	Oranges	Πορτοκάλια	  
+food_info_types_other_fruits[17]	dozeFruitsOtherVarietyText[17]	Papaya	Παπάγια	  
+food_info_types_other_fruits[18]	dozeFruitsOtherVarietyText[18]	Passion fruit	Φρούτο του πάθους	  
+food_info_types_other_fruits[19]	dozeFruitsOtherVarietyText[19]	Peaches	Ροδάκινα	  
+food_info_types_other_fruits[20]	dozeFruitsOtherVarietyText[20]	Pears	Αχλάδια	  
+food_info_types_other_fruits[21]	dozeFruitsOtherVarietyText[21]	Pineapple	Ανανάς	  
+food_info_types_other_fruits[22]	dozeFruitsOtherVarietyText[22]	Plums (especially black plums)	Δαμάσκηνα (ειδικά μαύρα δαμάσκηνα)	  
+food_info_types_other_fruits[23]	dozeFruitsOtherVarietyText[23]	Pluots	Δαμασκηνοβερίκοκα	  
+food_info_types_other_fruits[24]	dozeFruitsOtherVarietyText[24]	Pomegranates	Ρόδια	  
+food_info_types_other_fruits[25]	dozeFruitsOtherVarietyText[25]	Prunes	Ξερά δαμάσκηνα	  
+food_info_types_other_fruits[26]	dozeFruitsOtherVarietyText[26]	Tangerines	Μανταρίνια	  
+food_info_types_other_fruits[27]	dozeFruitsOtherVarietyText[27]	Watermelon	Καρπούζι	  
+food_info_types_other_vegetables[0]	dozeVegetablesOtherVarietyText[0]	Artichokes	Αγκινάρες	  
+food_info_types_other_vegetables[1]	dozeVegetablesOtherVarietyText[1]	Asparagus	Σπαράγγια	  
+food_info_types_other_vegetables[2]	dozeVegetablesOtherVarietyText[2]	Beets	Παντζάρια	  
+food_info_types_other_vegetables[3]	dozeVegetablesOtherVarietyText[3]	Bell peppers	Πιπεριές	  
+food_info_types_other_vegetables[4]	dozeVegetablesOtherVarietyText[4]	Carrots	Καρότα	  
+food_info_types_other_vegetables[5]	dozeVegetablesOtherVarietyText[5]	Corn	Καλαμπόκι	  
+food_info_types_other_vegetables[6]	dozeVegetablesOtherVarietyText[6]	Garlic	Σκόρδο	  
+food_info_types_other_vegetables[7]	dozeVegetablesOtherVarietyText[7]	Mushrooms (button, oyster, portobello, and shiitake)	Μανιτάρια (κουμπί, στρείδι, πόρτομπέλο, και σιτάκε)	  
+food_info_types_other_vegetables[8]	dozeVegetablesOtherVarietyText[8]	Okra	Μπάμιες	  
+food_info_types_other_vegetables[9]	dozeVegetablesOtherVarietyText[9]	Onions	Κρεμμύδια	  
+food_info_types_other_vegetables[10]	dozeVegetablesOtherVarietyText[10]	Purple potatoes	Μωβ πατάτες	  
+food_info_types_other_vegetables[11]	dozeVegetablesOtherVarietyText[11]	Pumpkin	Κολοκύθα	  
+food_info_types_other_vegetables[12]	dozeVegetablesOtherVarietyText[12]	Sea vegetables (arame, dulse, and nori)	Φύκια (arame, κόκκινο φύκι, και Νόρι)	  
+food_info_types_other_vegetables[13]	dozeVegetablesOtherVarietyText[13]	Snap peas	Αρακάς	  
+food_info_types_other_vegetables[14]	dozeVegetablesOtherVarietyText[14]	Squash (delicata, summer, and spaghetti squash varieties)	Κολοκύθα (delicata, καλοκαιρινή, και ποικιλίες μακαρονιών κολοκύθας)	  
+food_info_types_other_vegetables[15]	dozeVegetablesOtherVarietyText[15]	Sweet potatoes/yams	Γλυκοπατάτες	  
+food_info_types_other_vegetables[16]	dozeVegetablesOtherVarietyText[16]	Tomatoes	Ντομάτες	  
+food_info_types_other_vegetables[17]	dozeVegetablesOtherVarietyText[17]	Zucchini	Κολοκυθάκι	  
+food_info_types_beans[0]	dozeBeansVarietyText[0]	Black beans	Μαύρα	  
+food_info_types_beans[1]	dozeBeansVarietyText[1]	Black-eyed peas	Μαυρομάτικα	  
+food_info_types_beans[2]	dozeBeansVarietyText[2]	Butter beans	Χάντρες (μπαρμπούνια)	  
+food_info_types_beans[3]	dozeBeansVarietyText[3]	Cannellini beans	Γίγαντες	  
+food_info_types_beans[4]	dozeBeansVarietyText[4]	Chickpeas	Ρεβίθια	  
+food_info_types_beans[5]	dozeBeansVarietyText[5]	Edamame	Ενταμάμε	  
+food_info_types_beans[6]	dozeBeansVarietyText[6]	English peas	Αρακάς	  
+food_info_types_beans[7]	dozeBeansVarietyText[7]	Garbanzo beans	Ρεβίθια	  
+food_info_types_beans[8]	dozeBeansVarietyText[8]	Great northern beans	Μεγάλα βόρεια	  
+food_info_types_beans[9]	dozeBeansVarietyText[9]	Kidney beans	Κόκκινα	  
+food_info_types_beans[10]	dozeBeansVarietyText[10]	Lentils (beluga, french, and red varieties)	Φακές (μαύρες beluga, γαλλικές, και κόκκινες ποικιλίες)	  
+food_info_types_beans[11]	dozeBeansVarietyText[11]	Miso	Μίσο	  
+food_info_types_beans[12]	dozeBeansVarietyText[12]	Navy beans	Νέιβι	  
+food_info_types_beans[13]	dozeBeansVarietyText[13]	Pinto beans	Πίντο	  
+food_info_types_beans[14]	dozeBeansVarietyText[14]	Small red beans	Μικρά κόκκινα	  
+food_info_types_beans[15]	dozeBeansVarietyText[15]	Split peas (yellow or green)	Φάβα (κίτρινη ή πράσινη)	  
+food_info_types_beans[16]	dozeBeansVarietyText[16]	Tempeh	Τέμπε	  
+daily_frontload[heading]	tweakDailyFrontLoad[heading]	Front-Load Your Calories	Μπροστά-Φορτώστε τις θερμίδες σας	
+daily_frontload[short]	tweakDailyFrontLoad[short]	Front-Load Your Calories	Μπροστά-Φορτώστε τις θερμίδες σας	
+daily_frontload[text]	tweakDailyFrontLoad[text]	There are metabolic benefits to distributing more calories to earlier in the day, so make breakfast (ideally) or lunch your largest meal of the day in true king/prince/pauper style.	Υπάρχουν μεταβολικά οφέλη για τη διανομή περισσότερων θερμίδων για νωρίτερα την ημέρα, ώστε να κάνετε το πρωινό (ιδανικά) ή το μεσημεριανό γεύμα σας το μεγαλύτερο γεύμα της ημέρας σε πραγματικό βασιλιά / πρίγκιπα / σμήνος.	
+
+meal_twentyminutes[heading]	tweakMeal20Minutes[heading]	Follow the Twenty-Minute Rule	Ακολουθήστε τον κανόνα είκοσι λεπτών	
+meal_twentyminutes[short]	tweakMeal20Minutes[short]	Follow the Twenty-Minute Rule	Ακολουθήστε τον κανόνα είκοσι λεπτών	
+meal_twentyminutes[text]	tweakMeal20Minutes[text]	Whether through increasing viscosity or the number of chews, or decreasing bite size and eating rate, dozens of studies have demonstrated that no matter how we boost the amount of time food is in our mouths, it can result in lower caloric intake. So extend meal duration to at least twenty minutes to allow your natural satiety signals to take full effect. How? By choosing foods that take longer to eat and eating them in a way that prolongs the time they stay in your mouth. Think bulkier, hardier, chewier foods in smaller, well-chewed bites.	Είτε με την αύξηση του ιξώδους ή τον αριθμό των μασών, είτε με το μειωμένο μέγεθος τσιμπήματος και με το ρυθμό κατανάλωσης, δεκάδες μελέτες έχουν αποδείξει ότι ανεξάρτητα από το πόσο αυξάνουμε την ποσότητα του χρόνου που υπάρχει στο στόμα μας, μπορεί να οδηγήσει σε χαμηλότερη θερμιδική πρόσληψη. Συνεπώς, παρατείνετε τη διάρκεια του γεύματος σε τουλάχιστον είκοσι λεπτά για να επιτρέψετε στα φυσικά σας σήματα κορεσμού να αποδώσουν πλήρως αποτελέσματα. Πως? Επιλέγοντας τρόφιμα που χρειάζονται περισσότερο χρόνο για φαγητό και φαγητό με τρόπο που παρατείνει το χρόνο που μένουν στο στόμα σας. Σκεφτείτε τα ογκώδη, σκληρότερα, chewier τρόφιμα σε μικρότερα, καλά-μασή δαγκώματα.	
+
+exercise_timing[heading]	tweakExerciseTiming[heading]	Optimize Exercise Timing	Βελτιστοποιήστε το χρονικό διάστημα άσκησης	
+exercise_timing[short]	tweakExerciseTiming[short]	Optimize Exercise Timing	Βελτιστοποιήστε το χρονικό διάστημα άσκησης	
+exercise_timing[text]	tweakExerciseTiming[text]	The Daily Dozen\'s recommendation for optimum exercise duration for longevity is ninety minutes of moderately intense activity a day, which is also the optimum exercise duration for weight loss. Anytime is good, and the more, the better, but there may be an advantage to exercising in a fasted state, at least six hours after your last meal. Typically, this would mean before breakfast, but if you timed it right, you could exercise midday before a late lunch or, if lunch is eaten early enough, before dinner. This is the timing for nondiabetics. Diabetics and prediabetics should instead start exercising thirty minutes after the start of a meal and ideally go for at least an hour to completely straddle the blood sugar peak. If you had to choose a single meal to exercise after, it would be dinner, due to the circadian rhythm of blood sugar control that wanes throughout the day. Ideally, though, breakfast would be the largest meal of the day, and you\'d exercise after that—or, even better, after every meal.	Η σύσταση του Daily Dozen για τη βέλτιστη διάρκεια άσκησης για τη μακροζωία είναι εννέα λεπτά μέτρια έντονη δραστηριότητα την ημέρα, η οποία είναι επίσης η βέλτιστη διάρκεια άσκησης για την απώλεια βάρους. Οποτεδήποτε είναι καλός, και τόσο περισσότερο, τόσο καλύτερα, αλλά μπορεί να υπάρξει πλεονέκτημα για την άσκηση σε κατάσταση νηστείας, τουλάχιστον έξι ώρες μετά το τελευταίο σας γεύμα. Συνήθως, αυτό θα σήμαινε πριν από το πρωινό, αλλά εάν το χρονομετρήσατε σωστά, θα μπορούσατε να ασκείτε το μεσημέρι πριν από ένα γεύμα αργά ή, εάν το μεσημεριανό φάτε αρκετά νωρίς, πριν το δείπνο. Αυτός είναι ο χρόνος για τη μη διαβητική. Οι διαβητικοί και οι prediabetics θα πρέπει να ξεκινήσουν να ασκούν τριάντα λεπτά μετά την έναρξη ενός γεύματος και ιδανικά να ακολουθήσουν τουλάχιστον μία ώρα για να ξεπεράσουν πλήρως την αιχμή του σακχάρου στο αίμα. Αν έπρεπε να επιλέξετε ένα μόνο γεύμα για να ασκήσετε μετά, θα ήταν δείπνο, λόγω του κιρκαδικού ρυθμού του ελέγχου του σακχάρου στο αίμα που πέφτει καθ \'όλη τη διάρκεια της ημέρας. Ιδανικά, όμως, το πρωινό θα ήταν το μεγαλύτερο γεύμα της ημέρας και θα ασκούσατε μετά από αυτό - ή ακόμα καλύτερα μετά από κάθε γεύμα.	
+
+daily_nutriyeast[heading]	tweakDailyNutriYeast[heading]	Nutritional Yeast (2 tsp)	Διατροφική ζύμη (2 κουταλιές της σούπας)	
+daily_nutriyeast[short]	tweakDailyNutriYeast[short]	Nutritional Yeast (2 tsp)	Διατροφική ζύμη (2 κουταλιές της σούπας)	
+daily_nutriyeast[text]	tweakDailyNutriYeast[text]	Two teaspoons of baker\'s, brewer\'s, or nutritional yeast contains roughly the amount of beta 1,3/1,6 glucans found in randomized, double-blind, placebo-controlled clinical trials to facilitate weight loss.	Δύο κουταλάκια του γλυκού ζύμης, ζυθοποιίας ή θρεπτικής ζύμης περιέχουν περίπου την ποσότητα βήτα 1,3 / 1,6 γλυκανών που βρέθηκαν σε τυχαιοποιημένες, διπλά τυφλές, ελεγχόμενες με εικονικό φάρμακο κλινικές δοκιμές για τη διευκόλυνση της απώλειας βάρους.	
+
+daily_garlic[heading]	tweakDailyGarlic[heading]	Garlic Powder (¼ tsp)	Σκόνη σκόρδου (¼ κουταλάκι σούπας)	
+daily_garlic[short]	tweakDailyGarlic[short]	Garlic Powder (¼ tsp)	Σκόνη σκόρδου (¼ κουταλάκι σούπας)	
+daily_garlic[text]	tweakDailyGarlic[text]	Randomized, double-blind, placebo-controlled studies have found that as little as a daily quarter teaspoon of garlic powder can reduce body fat at a cost of perhaps two cents a day.	Οι τυχαιοποιημένες, διπλά τυφλές, ελεγχόμενες με εικονικό φάρμακο μελέτες έχουν διαπιστώσει ότι μόλις ένα κουταλάκι του γλυκού σκόνη σκόρδου ημερησίως μπορεί να μειώσει το σωματικό λίπος με κόστος περίπου δύο λεπτών την ημέρα.	
+
+daily_cumin[heading]	tweakDailyCumin[heading]	Cumin (½ tsp with lunch and dinner)	Κύμινο (½ κουταλάκι με μεσημεριανό γεύμα και δείπνο)	
+daily_cumin[short]	tweakDailyCumin[short]	Cumin (Cuminum cyminum) (½ tsp with lunch and dinner)	Κύμινο (Cumin cyminum) (½ κουταλάκι του γλυκού με μεσημεριανό γεύμα και δείπνο)	
+daily_cumin[text]	tweakDailyCumin[text]	Overweight women randomized to add a half teaspoon of cumin to their lunches and dinners beat out the control group by four more pounds and an extra inch off their waists. There is also evidence to support the use of the spice saffron, but a pinch a day would cost a dollar, whereas a teaspoon of cumin costs less than ten cents.	Οι υπερβολικές γυναίκες που τυχαιοποιήθηκαν για να προσθέσουν μισό κουταλάκι του γλυκού κύμινο στα γεύματα και τα δείπνα τους χτύπησαν την ομάδα ελέγχου κατά τέσσερα κιλά περισσότερο και μια επιπλέον ίντσα από τις μέσες τους. Υπάρχουν επίσης στοιχεία που υποστηρίζουν τη χρήση του σαφράν μπαχαρικών, αλλά ένα τσίμπημα την ημέρα θα κοστίσει ένα δολάριο, ενώ ένα κουταλάκι του κουταλιού κοστίζει λιγότερο από δέκα λεπτά.	
+
+daily_deflourdiet[heading]	tweakDailyDeflourDiet[heading]	Deflour Your Diet	Ξεχώρα τη διατροφή σας	
+daily_deflourdiet[short]	tweakDailyDeflourDiet[short]	Deflour Your Diet	Ξεχώρα τη διατροφή σας	
+daily_deflourdiet[text]	tweakDailyDeflourDiet[text]	Check this box every day your whole grain servings are in the form of intact grains. The powdering of even 100 percent whole grains robs our microbiomes of the starch that would otherwise be ferried down to our colons enclosed in unbroken cell walls.	Ελέγξτε αυτό το κουτί κάθε μέρα οι ολόκληρες μερίδες σιτηρών σας έχουν τη μορφή άθικτων κόκκων. Η κονιοποίηση ακόμη και 100 τοις εκατό ολικής αλέσεως σκουπίζει τα μικροβιακά μας αμύλου τα οποία διαφορετικά θα μεταφερθούν προς τα κάτω στους πυρήνες μας που περικλείονται σε αδιαίρετα κυτταρικά τοιχώματα.	
+
+complete_intentions[heading]	tweakCompleteIntentions[heading]	Complete Your Implementation Intentions	Συμπληρώστε τις Προθέσεις σας εφαρμογής	
+complete_intentions[short]	tweakCompleteIntentions[short]	Complete Your Implementation Intentions	Συμπληρώστε τις Προθέσεις σας εφαρμογής	
+complete_intentions[text]	tweakCompleteIntentions[text]	Every two months, create three new implementation intentions—"if X, then Y" plans to perform a particular behavior in a specific context—and check each one of them off as you complete them every day.	Κάθε δύο μήνες, δημιουργήστε τρεις νέες προθέσεις υλοποίησης - "εάν το X, τότε το Y" σχεδιάζει να εκτελέσει μια συγκεκριμένη συμπεριφορά σε ένα συγκεκριμένο πλαίσιο - και ελέγξτε τον καθένα από αυτούς καθώς τις ολοκληρώνετε κάθε μέρα.	
+
+weigh_twice[heading]	tweakWeightTwice[heading]	Weigh Yourself Twice a Day	Ζυγίστε τον εαυτό σας δύο φορές την ημέρα	
+weigh_twice[short]	tweakWeightTwice[short]	Weigh Yourself Twice a Day	Ζυγίστε τον εαυτό σας δύο φορές την ημέρα	
+weigh_twice[text]	tweakWeightTwice[text]	Regular self-weighing is considered crucial for long-term weight control, but there is insufficient evidence to support a specific frequency of weighing. My recommendation is based on the one study that found that twice daily—upon waking and right before bed—appeared superior to once a day (about six versus two pounds of weight loss over twelve weeks).	Η τακτική αυτοβαρύτητα θεωρείται κρίσιμη για τον μακροπρόθεσμο έλεγχο βάρους, αλλά δεν υπάρχουν επαρκή στοιχεία για να υποστηριχθεί μια συγκεκριμένη συχνότητα ζύγισης. Η σύστασή μου βασίζεται στη μία μελέτη που διαπίστωσε ότι δύο φορές την ημέρα - κατά το ξύπνημα και αμέσως πριν από το κρεβάτι - εμφανίστηκε ανώτερη από μία φορά την ημέρα (περίπου έξι έναντι δύο κιλών απώλειας βάρους πάνω από δώδεκα εβδομάδες).	
+
+nightly_trendelenburg[heading]	tweakNightlyTrendelenbrug[heading]	Experiment with Mild Trendelenburg	Πειραματιστείτε με το Mild Trendelenburg	
+nightly_trendelenburg[short]	tweakNightlyTrendelenbrug[short]	Experiment with Mild Trendelenburg	Πειραματιστείτε με το Mild Trendelenburg	
+nightly_trendelenburg[text]	tweakNightlyTrendelenbrug[text]	Try spending at least four hours a night lying with your body tilted head-down six degrees by elevating the posts at the foot of your bed by eight inches (or by nine inches if you have a California king). Be extremely careful when you get out of bed, as this causes orthostatic intolerance in most people, even if you\'re young and healthy—meaning if you get up too fast, you can feel dizzy, faint, or light-headed and could fall and hurt yourself. So get up slowly. Drinking two cups of cold water thirty minutes before rising may also help prevent this potentially hazardous side effect.\n*IMPORTANT: Do not try this at home at all if you have any heart or lung issues, acid reflux, or problems with your brain (like head trauma) or eyes (even a family history of glaucoma disqualifies you). Also do not try this until you ask your physician if they think it\'s safe for you to sleep in mild Trendelenburg.*	Δοκιμάστε να ξοδέψετε τουλάχιστον τέσσερις ώρες μια νύχτα που βρίσκεται με το σώμα σας κεκλιμένο κεφάλι-κάτω έξι βαθμούς ανυψώνοντας τις θέσεις στους πρόποδες του κρεβατιού σας με οκτώ ίντσες (ή με εννέα ίντσες αν έχετε έναν βασιλιά της Καλιφόρνιας). Να είστε εξαιρετικά προσεκτικοί όταν παίρνετε από το κρεβάτι, καθώς αυτό προκαλεί ορθοστατική δυσανεξία στους περισσότερους ανθρώπους, ακόμη και αν είστε νέοι και υγιείς, δηλαδή εάν σηκωθείτε πολύ γρήγορα, μπορείτε να αισθανθείτε ζάλη, λιποθυμία ή φως πτώση και κακό. Έτσι σηκωθείτε αργά. Το να πίνετε δύο φλιτζάνια κρύο νερό τριάντα λεπτά πριν την άνοδο μπορεί επίσης να βοηθήσει στην πρόληψη αυτής της δυνητικά επικίνδυνης παρενέργειας. \ N * ΣΗΜΑΝΤΙΚΟ: Μην δοκιμάζετε αυτό στο σπίτι καθόλου εάν έχετε προβλήματα με την καρδιά ή το πνεύμονα, παλινδρόμηση οξέος ή προβλήματα με το μυαλό σας (όπως τραύμα του κεφαλιού) ή τα μάτια (ακόμη και ένα οικογενειακό ιστορικό γλαυκώματος σας αποκλείει). Επίσης, μην το δοκιμάζετε μέχρι να ρωτήσετε τον γιατρό σας εάν πιστεύουν ότι είναι ασφαλές για εσάς να κοιμηθείτε στο ήπιο Trendelenburg. *	
+
+meal_negcal[heading]	tweakMealNegCal[heading]	Preload with "Negative Calorie" Foods	Προεφοδιασμός με τρόφιμα με αρνητική θερμίδα	
+meal_negcal[short]	tweakMealNegCal[short]	Preload with "Negative Calorie" Foods	Προεφοδιασμός με τρόφιμα με αρνητική θερμίδα	
+meal_negcal[text]	tweakMealNegCal[text]	As the first course, start each meal with an apple or a Green Light soup or salad containing fewer than one hundred calories per cup.	Ως πρώτη σειρά μαθημάτων, ξεκινήστε κάθε γεύμα με μήλο ή σούπα πράσινου φωτός ή σαλάτα που περιέχει λιγότερες από εκατό θερμίδες ανά φλιτζάνι.	
+
+daily_timerestrict[heading]	tweakDailyTimeRestrict[heading]	Time-Restrict Your Eating	Χρόνος-Περιορισμός της κατανάλωσης	
+daily_timerestrict[short]	tweakDailyTimeRestrict[short]	Time-Restrict Your Eating	Χρόνος-Περιορισμός της κατανάλωσης	
+daily_timerestrict[text]	tweakDailyTimeRestrict[text]	Confine eating to a daily window of time of your choosing under twelve hours in length that you can stick to consistently, seven days a week. Given the circadian benefits of reducing evening food intake, the window should end before 7:00 p.m.	Περιορίστε το φαγητό σε ένα ημερήσιο παράθυρο χρόνου της επιλογής σας κάτω από δώδεκα ώρες σε μήκος που μπορείτε να κολλήσετε με συνέπεια, επτά ημέρες την εβδομάδα. Λαμβάνοντας υπόψη τα ημερήσια οφέλη από τη μείωση της πρόσληψης βραδινών τροφίμων, το παράθυρο πρέπει να λήξει πριν τις 7:00 μ.μ.	
+
+daily_blackcumin[heading]	tweakDailyBlackCumin[heading]	Black Cumin (¼ tsp)	Μαύρο Κύμινο (¼ κουταλάκι κλπ)	
+daily_blackcumin[short]	tweakDailyBlackCumin[short]	Black Cumin (Nigella sativa) (¼ tsp)	Μαύρη Κύμινο (Nigella sativa) (¼ κουταλάκι του γλυκού)	
+daily_blackcumin[text]	tweakDailyBlackCumin[text]	As noted in the Appetite Suppression section, a systematic review and meta-analysis of randomized, controlled weight-loss trials found that about a quarter teaspoon of black cumin powder every day appears to reduce body mass index within a span of a couple of months. Note that black cumin is different from regular cumin, for which the dosing is different.	Όπως αναφέρθηκε στην ενότητα Καταστολής της όρεξης, μια συστηματική ανασκόπηση και μετα-ανάλυση τυχαιοποιημένων, ελεγχόμενων δοκιμών απώλειας βάρους διαπίστωσε ότι περίπου το ένα τέταρτο κουταλάκι του γλυκού σκόνη μαύρου κύμινο κάθε μέρα φαίνεται ότι μειώνει τον δείκτη μάζας σώματος μέσα σε ένα διάστημα δύο μηνών. Σημειώστε ότι το μαύρο κύμινο είναι διαφορετικό από το κανονικό κύμινο, για το οποίο η δοσολογία είναι διαφορετική.	
+
+daily_greentea[heading]	tweakDailyGreenTea[heading]	Green Tea (3 cups)	Πράσινο Τσάι (3 φλιτζάνια)	
+daily_greentea[short]	tweakDailyGreenTea[short]	Green Tea (3 cups)	Πράσινο Τσάι (3 φλιτζάνια)	
+daily_greentea[text]	tweakDailyGreenTea[text]	Drink three cups a day between meals (waiting at least an hour after a meal so as to not interfere with iron absorption). During meals, drink water, black coffee, or hibiscus tea mixed 6:1 with lemon verbena, but never exceed three cups of fluid an hour (important given my water preloading advice). Take advantage of the reinforcing effect of caffeine by drinking your green tea along with something healthy you wish you liked more, but don\'t consume large amounts of caffeine within six hours of bedtime. Taking your tea without sweetener is best, but if you typically sweeten your tea with honey or sugar, try yacon syrup instead.	Πίνετε τρία φλιτζάνια την ημέρα μεταξύ των γευμάτων (περιμένετε τουλάχιστον μία ώρα μετά το γεύμα, ώστε να μην παρεμβαίνει στην απορρόφηση του σιδήρου). Κατά τη διάρκεια των γευμάτων, πίνετε νερό, μαύρο καφέ ή τσάι ιβίσκου που αναμιγνύεται 6: 1 με λεβέντα, αλλά ποτέ δεν υπερβαίνει τα τρία φλιτζάνια υγρών την ώρα. Επωφεληθείτε από την ενισχυτική επίδραση της καφεΐνης πίνοντας το πράσινο τσάι σας μαζί με κάτι υγιές που σας αρέσει να σας αρέσει περισσότερο, αλλά μην καταναλώνετε μεγάλες ποσότητες καφεΐνης μέσα σε έξι ώρες από την ώρα του ύπνου. Λαμβάνοντας το τσάι σας χωρίς γλυκαντικές ουσίες είναι καλύτερο, αλλά εάν τυπικά γλυκάτε το τσάι σας με μέλι ή ζάχαρη, δοκιμάστε το σιρόπι γιάκον.	
+
+meal_vinegar[heading]	tweakMealVinegar[heading]	Incorporate Vinegar (2 tsp with each meal)	Ενσωματώστε ξίδι (2 κουταλιές της σούπας με κάθε γεύμα)	
+meal_vinegar[short]	tweakMealVinegar[short]	Incorporate Vinegar (2 tsp with each meal)	Ενσωματώστε ξίδι (2 κουταλιές της σούπας με κάθε γεύμα)	
+meal_vinegar[text]	tweakMealVinegar[text]	Never drink vinegar straight. Instead, flavor meals or dress a side salad with any of the sweet and savory vinegars out there. If you want to drink it, make sure to mix it in a glass of water and, afterward, be sure to rinse your mouth out with water to protect your tooth enamel.	Ποτέ μην πίνετε ξύδι ευθεία. Αντ \'αυτού, τα γεύματα γεύσης ή ντύνονται μια πλευρά σαλάτα με οποιοδήποτε από τα γλυκά και αλμυρά ξίδια από εκεί έξω. Αν θέλετε να το πιείτε, βεβαιωθείτε ότι το ανακατεύετε σε ένα ποτήρι νερό και, στη συνέχεια, φροντίστε να ξεπλύνετε το στόμα σας με νερό για να προστατέψετε το σμάλτο των δοντιών σας.	
+
+meal_undistracted[heading]	tweakMealUndistracted[heading]	Enjoy Undistracted Meals	Απολαύστε ανεπιθύμητα γεύματα	
+meal_undistracted[short]	tweakMealUndistracted[short]	Enjoy Undistracted Meals	Απολαύστε ανεπιθύμητα γεύματα	
+meal_undistracted[text]	tweakMealUndistracted[text]	Don\'t eat while watching TV or playing on your phone. Give yourself a check for each meal you\'re able to eat without distraction.	Μην τρώτε ενώ παρακολουθείτε τηλεόραση ή παίζετε στο τηλέφωνό σας. Δώστε στον εαυτό σας μια επιταγή για κάθε γεύμα που μπορείτε να φάτε χωρίς να ξεσκεπάζετε.	
+
+nightly_fast[heading]	tweakNightlyFast[heading]	Fast After 7:00 pm	Γρήγορα μετά τις 7:00 μ.μ.	
+nightly_fast[short]	tweakNightlyFast[short]	Fast After 7:00 p.m.	Γρήγορα μετά τις 7:00 μ.μ.	
+nightly_fast[text]	tweakNightlyFast[text]	Due to our circadian rhythms, food eaten at night is more fattening than the exact same food eaten earlier in the day, so fast every night for at least twelve hours starting before 7:00 p.m. The fewer calories after sundown, the better.	Λόγω των κιρκαδικών μας ρυθμών, τα τρόφιμα που καταναλώνονται τη νύχτα είναι πιο παχύρρευστα από το ίδιο ακριβώς φαγητό που καταναλώνεται νωρίτερα την ημέρα, τόσο γρήγορα κάθε βράδυ για τουλάχιστον δώδεκα ώρες πριν από τις 7:00 μ.μ. Όσο λιγότερες θερμίδες μετά την δύση του ηλίου, τόσο το καλύτερο.	
+
+daily_hydrate[heading]	tweakDailyHydrate[heading]	Stay Hydrated	Μείνετε ενυδατωμένοι	
+daily_hydrate[short]	tweakDailyHydrate[short]	Stay Hydrated	Μείνετε ενυδατωμένοι	
+daily_hydrate[text]	tweakDailyHydrate[text]	Check this box if your urine never appears darker than a pale yellow. Note that if you\'re eating riboflavin-fortified foods (such as nutritional yeast), then base this instead on getting nine cups of unsweetened beverages a day for women (which would be taken care of by the green tea and water preloading recommendations) or thirteen cups a day for men. If you have heart or kidney issues, don\'t increase fluid intake at all without first talking with your physician. Remember, diet soda may be calorie-free, but it\'s not consequence-free, as we learned in the Low in Added Sugar section.	Επιλέξτε αυτό το πλαίσιο εάν τα ούρα σας δεν εμφανίζονται ποτέ πιο σκούρα από ένα ανοιχτό κίτρινο. Σημειώστε ότι εάν τρώτε εμπλουτισμένα με ριβοφλαβίνη τρόφιμα (όπως θρεπτική ζύμη), στη συνέχεια στηρίξτε αυτή την ουσία για να πάρετε εννέα φλυτζάνια ποτών χωρίς ζάχαρη ημερησίως για τις γυναίκες (οι οποίες θα ληφθούν μέριμνα από τις συστάσεις για την προφόρτιση του πράσινου τσαγιού και του νερού) ή δεκατρία φλιτζάνια την ημέρα για τους άνδρες. Εάν έχετε προβλήματα με την καρδιά ή τα νεφρά, μην αυξάνετε καθόλου την πρόσληψη υγρών χωρίς να μιλήσετε πρώτα με τον γιατρό σας. Θυμηθείτε ότι η σόδα διατροφής μπορεί να είναι χωρίς θερμίδες, αλλά δεν είναι χωρίς συνέπειες, όπως μάθαμε στο τμήμα Low in Sugar.	
+
+nightly_sleep[heading]	tweakNightlySleep[heading]	Get Sufficient Sleep	Αποκτήστε επαρκή ύπνο	
+nightly_sleep[short]	tweakNightlySleep[short]	Get Sufficient Sleep	Αποκτήστε επαρκή ύπνο	
+nightly_sleep[text]	tweakNightlySleep[text]	Check this box if you get at least seven hours of sleep at your regular bedtime.	Επιλέξτε αυτό το κουτάκι αν έχετε τουλάχιστον επτά ώρες ύπνου στον κανονικό ύπνο σας.	
+
+meal_water[heading]	tweakMealWater[heading]	Preload with Water	Προφόρτιση με νερό	
+meal_water[short]	tweakMealWater[short]	Preload with Water	Προφόρτιση με νερό	
+meal_water[text]	tweakMealWater[text]	Time your metabolism-boosting two cups of cool or cold unflavored water before each meal to also take advantage of its preload benefits.	Προχωρήστε στο μεταβολισμό σας-ενισχύοντας δύο φλιτζάνια δροσερό ή κρύο αρωματισμένο νερό πριν από κάθε γεύμα για να επωφεληθείτε επίσης από τα προφορικά του οφέλη.	
+
+daily_ginger[heading]	tweakDailyGinger[heading]	Ground Ginger (1 tsp) or Cayenne Pepper (½ tsp)	Ground Ginger (1 κουταλάκι του γλυκού) ή πιπέρι Cayenne (½ κουταλάκι του γλυκού)	
+daily_ginger[short]	tweakDailyGinger[short]	Ground Ginger (1 tsp) or Cayenne Pepper (½ tsp)	Ground Ginger (1 κουταλάκι του γλυκού) ή πιπέρι Cayenne (½ κουταλάκι του γλυκού)	
+daily_ginger[text]	tweakDailyGinger[text]	Randomized controlled trials have found that ¼ teaspoon to 1½ teaspoons a day of ground ginger significantly decreased body weight for just pennies a day. It can be as easy as stirring the ground spice into a cup of hot water. Note: Ginger may work better in the morning than evening. Chai tea is a tasty way to combine the green tea and ginger tricks into a single beverage. Alternately, for BAT activation, you can add one raw jalapeño pepper or a half teaspoon of red pepper powder (or, presumably, crushed red pepper flakes) into your daily diet. To help beat the heat, you can very thinly slice or finely chop the jalapeño to reduce its bite to little prickles, or mix the red pepper into soup or the whole-food vegetable smoothie I featured in one of my cooking videos on NutritionFacts.org.	Οι τυχαίες ελεγχόμενες δοκιμές έχουν διαπιστώσει ότι ¼ κουταλάκι του γλυκού έως 1½ κουταλάκια του γλυκού την ημέρα από το τζίντζερ εδάφους μειώνει σημαντικά το σωματικό βάρος μόνο για τις πένες την ημέρα. Μπορεί να είναι τόσο εύκολη όσο η ανάδευση του αλεσμένου μπαχαρικού σε ένα φλιτζάνι ζεστό νερό. Σημείωση: Το τζίντζερ μπορεί να λειτουργεί καλύτερα το πρωί από το βράδυ. Το τσάι Chai είναι ένας νόστιμος τρόπος για να συνδυάσετε το πράσινο τσάι και τα κόλπα τζίντζερ σε ένα μόνο ποτό. Εναλλακτικά, για την ενεργοποίηση των ΒΔΤ, μπορείτε να προσθέσετε ένα ασήμι jalapeño ή μισό κουταλάκι του γλυκού σκόνη κόκκινου πιπεριού (ή, ενδεχομένως, θρυμματισμένες νιφάδες κόκκινου πιπεριού) στην καθημερινή διατροφή σας. Για να βοηθήσετε να χτυπήσετε τη θερμότητα, μπορείτε να κόψετε πολύ ή να ψιλοκόψετε το jalapeño για να μειώσετε το δάγκωμά του σε μικρές τσιμπήματα ή να αναμίξετε το κόκκινο πιπέρι με τη σούπα ή με το λαχανικό λαχανικών ολόκληρου του τροφίμου που έχω δει σε ένα από τα μαγείρεμα βίντεο στο NutritionFacts.org .	
+
+app_name	DJR-bj-qUq.text	Daily Dozen	Daily Dozen	"""Daily Dozen"" application name"
+welcome_to_my_daily_dozen	19L-gq-W5M.text	Welcome to my Daily Dozen!	Welcome to my Daily Dozen!	
+activity_welcome_text	dwQ-CS-gz3.text	Use this app on a daily basis to keep track of the foods and advice I recommend for optimal health and longevity in my books How Not to Die and How Not to Diet.	Use this app on a daily basis to keep track of the foods and advice I recommend for optimal health and longevity in my books How Not to Die and How Not to Diet.	
+	gX5-vX-xBe.text	version 3.2.1	version 3.2.1	Application release version
+for_health_alone	atR-un-jgX.text	For Health Alone	For Health Alone	
+daily_dozen_only	ReM-AP-Fpp.normalTitle	Daily Dozen Only	Daily Dozen Only	
+for_health_and_weight_loss	OdG-YQ-lT8.text	For Health and Weight Loss	For Health and Weight Loss	
+daily_dozen_and_tweaks	Lef-Iw-Ywr.normalTitle	Daily Dozen + 21 Tweaks	Daily Dozen + 21 Tweaks	
+videos	xcg-0a-oqY.normalTitle	VIDEOS	VIDEOS	Keyword for link to video topics
+imperial		metric	metric	
+metric		imperial	imperial	
+	1K3-d9-Hfb.normalTitle	METRIC	METRIC	
+	M75-CQ-NVP.normalTitle	METRIC	METRIC	
+	1K3-d9-Hfb.normalTitle	METRIC	METRIC	
+	M75-CQ-NVP.normalTitle	METRIC	METRIC	
+	RLb-GV-4hh.segmentTitles[0]	Imperial	Imperial	"Part of ""Imperial/Metric/Toggle Units"" selector"
+	RLb-GV-4hh.segmentTitles[1]	Metric	Metric	"Part of ""Imperial/Metric/Toggle Units"" selector"
+	RLb-GV-4hh.segmentTitles[2]	Toggle Units	Toggle Units	"Part of ""Imperial/Metric/Toggle Units"" selector"
+units	3bd-8h-kcX.text	Units:	Units:	
+serving_sizes	eU6-je-hVN.text	Serving Sizes	Serving Sizes	
+types	YVI-sV-TDX.text	Types	Types	
+units	kho-9G-OWe.text	Units:	Units:	
+	YVI-sV-TDA.text	Activity	Activity	
+	YVI-sV-TDD.text	Description	Description	
+servings_all	S0Q-oB-VgE.text	All servings	All servings	
+servings_some	jBv-4d-ofX.text	Some servings	Some servings	
+history	sLd-Kq-bLv.text	History	History	
+latest_videos	uxH-8I-ydF.text	Latest Videos	Latest Videos	
+	zQy-Dn-WXM.text	Book: How Not to Die	Book: How Not to Die	
+	Cxo-5D-YUZ.text	Book: How Not to Die Cookbook	Book: How Not to Die Cookbook	
+	MWr-7S-G8N.text	Book: How Not to Diet	Book: How Not to Diet	
+daily_dozen_challenge	beF-Xl-TAq.text	Daily Dozen Challenge	Daily Dozen Challenge	
+donate	mqA-Vp-LZ7.text	Donate	Donate	
+subscribe	dRO-1W-3EK.text	Subscribe	Subscribe	
+open_source	qVR-SQ-jmS.text	Open Source	Open Source	
+about	qGY-wh-1gB.text	About	About	
+servings	1HM-mL-ZV9.text	Servings	Servings	
+out_of		out of	out of	"Part of ""0 out of 24"""
+format_num_days		%d days	%d days	Formatted string %d days
+	cW5-dD-Zy0.text	100 days	100 days	
+twenty_one_tweaks	5po-De-kCi.text	21 Tweaks	21 Tweaks	
+	NPC-if-gUf.text	0 / 37	0 / 37	
+format_num_days	Vbn-R9-kuu.text	100 days	100 days	
+back_to_today	7XY-Lo-Hwf.normalTitle	Back to today	Back to today	
+back_to_today	Qfe-bW-SP4.normalTitle	 Back to today	Back to today	
+back_to_today	OIQ-oh-3QN.normalTitle	 Back to today	 Back to today	
+	OC8-wt-JgC.normalTitle	Today	Today	
+	iHh-5a-01X.normalTitle	Today	Today	
+	6FY-X2-BdZ.normalTitle	Today	Today	
+	W2v-Cp-vcd.text	Supplements	Supplements	
+	Ebp-Lw-fWk.normalTitle	Advanced Utilities		
+				
+	IFs-g0-SPV.headerTitle	Measurement Units		
+	IFs-g0-SPV.footerTitle	Set to always be one unit type or enable the 'Units:' toggle button.	Set to always be one unit type or enable the 'Units:' toggle button.	
+	WdR-XV-IyP.headerTitle	21 Tweak Visibility	21 Tweak Visibility	
+daily_dozen_only	OZO-Xa-v5G.segmentTitles[0]	Daily Dozen Only	Daily Dozen Only	
+daily_dozen_and_tweaks	OZO-Xa-v5G.segmentTitles[1]	Daily Dozen + 21 Tweak	Daily Dozen + 21 Tweak	
+	WdR-XV-IyP.footerTitle	"For health alone, use ""Daily Dozen Only"". For health and weight loss use ""Daily Dozen + 21 Tweaks""."	"For health alone, use ""Daily Dozen Only"". For health and weight loss use ""Daily Dozen + 21 Tweaks""."	
+daily_reminder_title		Daily Dozen Reminder	Daily Dozen Reminder	
+	GiY-ao-2ee.headerTitle	Daily Reminder	Daily Reminder	
+daily_reminder_settings		Daily Reminder Settings		
+	itH-G7-Kal.text	Enable Reminders		
+	XFw-2q-BdT.text	On	On	"""On"" as in ""On or Off"""
+enable_daily_reminder		Enable Daily Reminders	Enable Daily Reminders	On/Off toggle label
+	pjz-An-Ls5.text	Enable Reminders	Enable Reminders	On/Off toggle label
+remind_me_at	kR3-Sa-Fpt.text	Remind me at:	Remind me at:	
+play_sound	YP6-dP-Y62.text	Play Sound	Play Sound	
+	NRG-eE-YhG.normalTitle	Clear	Clear	
+	7l0-os-Oqt.normalTitle	Clear	Clear	
+	Tgz-om-dEk.text	Weight (lbs)	Weight (lbs)	
+	8ed-5m-QMc.text	Weight (lbs)	Weight (lbs)	
+	FBJ-Im-BZk.text	Time	Time	
+	g3G-kp-d2S.text	Time	Time	
+	xCp-N8-5Uc.text	Morning (upon waking)	Morning (upon waking)	
+	77g-xa-ali.text	Evening (right before bed)	Evening (right before bed)	
+time_scale	27q-rq-qbu.text	Time Scale	Time Scale	
+time_scale	XdW-g4-ZUO.text	Time Scale	Time Scale	
+time_scale	v2E-Ao-OVz.text	Time Scale	Time Scale	
+	nRL-iG-Wnd.text	Month	Month	
+	UCg-Rc-mLf.text	Month	Month	
+	lTR-i5-Tn0.text	Month	Month	
+servings_time_scale_choices[0]	sM6-A9-KeP.segmentTitles[0]	Day	Day	Calendar view scale control
+servings_time_scale_choices[1]	sM6-A9-KeP.segmentTitles[1]	Month	Month	Calendar view scale control
+servings_time_scale_choices[2]	sM6-A9-KeP.segmentTitles[2]	Year	Year	Calendar view scale control
+servings_time_scale_choices[0]	vXy-0q-Ind.segmentTitles[0]	Day	Day	Calendar view scale control
+servings_time_scale_choices[1]	vXy-0q-Ind.segmentTitles[1]	Month	Month	Calendar view scale control
+servings_time_scale_choices[2]	vXy-0q-Ind.segmentTitles[2]	Year	Year	Calendar view scale control
+servings_time_scale_choices[0]	fcu-ZA-byN.segmentTitles[0]	Day	Day	Calendar view scale control
+servings_time_scale_choices[1]	fcu-ZA-byN.segmentTitles[1]	Month	Month	Calendar view scale control
+servings_time_scale_choices[2]	fcu-ZA-byN.segmentTitles[2]	Year	Year	Calendar view scale control
+	8ed-5m-QMc.text	Weight (lbs.)	Weight (lbs.)	
+	XYD-fX-adn.normalTitle	Edit Data	Edit Data	
+	NSHealthShareUsageDescription	The 21 Tweaks feature accesses your HealthKit data to provide updates to your daily weight measurements.	The 21 Tweaks feature accesses your HealthKit data to provide updates to your daily weight measurements.	
+	NSHealthUpdateUsageDescription	The 21 Tweaks feature can write weight data to HealthKit to help you keep track of your progress.	The 21 Tweaks feature can write weight data to HealthKit to help you keep track of your progress.	

@@ -1,0 +1,477 @@
+key_droid	key_apple	base_value	lang_value	base_comment
+other_vegetables	dozeVegetablesOther	Other Vegetables	Прочие Овощи	
+cruciferous_vegetables	dozeVegetablesCruciferous	Cruciferous Vegetables	Капустные	
+beans	dozeBeans	Beans	Бобовые	
+vitamin_b12	otherVitaminB12	Vitamin B12	Витамин B12	
+spices	dozeSpices	Herbs and Spices	Пряности	
+nuts	dozeNuts	Nuts and Seeds	Орехи	
+berries	dozeBerries	Berries	Ягоды	
+exercise	dozeExercise	Exercise	Физические Упражнения	
+other_fruits	dozeFruitsOther	Other Fruits	Фрукты	
+greens	dozeGreens	Greens	Листовые Овощи	
+beverages	dozeBeverages	Beverages	Напитки	
+flaxseeds	dozeFlaxseeds	Flaxseeds	Семена Льна	
+whole_grains	dozeWholeGrains	Whole Grains	Цельнозерновые Продукты	
+food_info_serving_sizes_berries[imperial][0]	dozeBerriesServing[imperial][0]	½ cup fresh or frozen	½ чашки свежих или замороженных	  
+food_info_serving_sizes_berries[metric][0]	dozeBerriesServing[metric][0]	60 g fresh or frozen	60 г свежих или замороженных	  
+food_info_serving_sizes_berries[imperial][1]	dozeBerriesServing[imperial][1]	¼ cup dried	¼ чашки сушёных	  
+food_info_serving_sizes_berries[metric][1]	dozeBerriesServing[metric][1]	40 g dried	40 г сушёных	  
+food_info_serving_sizes_spices[imperial][0]	dozeSpicesServing[imperial][0]	¼ teaspoon of turmeric	¼ чайной ложки куркумы	  
+food_info_serving_sizes_spices[metric][0]	dozeSpicesServing[metric][0]	¼ teaspoon of turmeric	¼ чайной ложки куркумы	  
+food_info_serving_sizes_spices[imperial][1]	dozeSpicesServing[imperial][1]	Any other (salt-free) herbs and spices you enjoy	Любые другие пряности (без соли), которые Вы любите	  
+food_info_serving_sizes_spices[metric][1]	dozeSpicesServing[metric][1]	Any other (salt-free) herbs and spices you enjoy	Любые другие пряности (без соли), которые Вы любите	  
+food_info_serving_sizes_nuts[imperial][0]	dozeNutsServing[imperial][0]	¼ cup nuts or seeds	¼ чашки орехов или семян	  
+food_info_serving_sizes_nuts[metric][0]	dozeNutsServing[metric][0]	30 g nuts or seeds	30 г орехов или семян	  
+food_info_serving_sizes_nuts[imperial][1]	dozeNutsServing[imperial][1]	2 tablespoons nut or seed butter	2 столовые ложки пасты из орехов или семян	  
+food_info_serving_sizes_nuts[metric][1]	dozeNutsServing[metric][1]	2 tablespoons nut or seed butter	2 столовые ложки пасты из орехов или семян	  
+food_info_serving_sizes_whole_grains[imperial][0]	dozeWholeGrainsServing[imperial][0]	½ cup hot cereal or cooked grains, pasta, or corn kernels	½ чашки горячих хлопьев или приготовленных злаков, макарон или кукурузных зёрен	  
+food_info_serving_sizes_whole_grains[metric][0]	dozeWholeGrainsServing[metric][0]	100 g hot cereal or cooked grains, pasta, or corn kernels	100 г горячих хлопьев или приготовленных злаков, макарон или кукурузных зёрен	  
+food_info_serving_sizes_whole_grains[imperial][1]	dozeWholeGrainsServing[imperial][1]	1 cup cold cereal	1 чашка неразогретых хлопьев	  
+food_info_serving_sizes_whole_grains[metric][1]	dozeWholeGrainsServing[metric][1]	50 g cold cereal	50 г неразогретых хлопьев	  
+food_info_serving_sizes_whole_grains[imperial][2]	dozeWholeGrainsServing[imperial][2]	1 tortilla or slice of bread	1 тортилья или ломтик хлеба	  
+food_info_serving_sizes_whole_grains[metric][2]	dozeWholeGrainsServing[metric][2]	1 tortilla or slice of bread	1 тортилья или ломтик хлеба	  
+food_info_serving_sizes_whole_grains[imperial][3]	dozeWholeGrainsServing[imperial][3]	½ a bagel or English muffin	½ бублика или английской булочки	  
+food_info_serving_sizes_whole_grains[metric][3]	dozeWholeGrainsServing[metric][3]	½ a bagel or English muffin	½ бублика или английской булочки	  
+food_info_serving_sizes_whole_grains[imperial][4]	dozeWholeGrainsServing[imperial][4]	3 cups popped popcorn	3 чашки приготовленного попкорна	  
+food_info_serving_sizes_whole_grains[metric][4]	dozeWholeGrainsServing[metric][4]	30 g popped popcorn	30 г приготовленного попкорна	  
+food_info_serving_sizes_other_fruits[imperial][0]	dozeFruitsOtherServing[imperial][0]	1 medium-sized fruit	1 фрукт среднего размера	  
+food_info_serving_sizes_other_fruits[metric][0]	dozeFruitsOtherServing[metric][0]	1 medium-sized fruit	1 фрукт среднего размера	  
+food_info_serving_sizes_other_fruits[imperial][1]	dozeFruitsOtherServing[imperial][1]	1 cup cut-up fruit	1 чашка нарезанного фрукта	  
+food_info_serving_sizes_other_fruits[metric][1]	dozeFruitsOtherServing[metric][1]	120 g cut-up fruit	120 г нарезанного фрукта	  
+food_info_serving_sizes_other_fruits[imperial][2]	dozeFruitsOtherServing[imperial][2]	¼ cup dried fruit	¼ чашки сушёного фрукта	  
+food_info_serving_sizes_other_fruits[metric][2]	dozeFruitsOtherServing[metric][2]	40 g dried fruit	40 г сушёного фрукта	  
+food_info_serving_sizes_other_vegetables[imperial][0]	dozeVegetablesOtherServing[imperial][0]	1 cup raw leafy vegetables	1 чашка сырых листовых овощей	  
+food_info_serving_sizes_other_vegetables[metric][0]	dozeVegetablesOtherServing[metric][0]	60 g raw leafy vegetables	60 г сырых листовых овощей	  
+food_info_serving_sizes_other_vegetables[imperial][1]	dozeVegetablesOtherServing[imperial][1]	½ cup raw or cooked nonleafy vegetables	½ чашки сырых или приготовленных нелистовых овощей	  
+food_info_serving_sizes_other_vegetables[metric][1]	dozeVegetablesOtherServing[metric][1]	50 g raw or cooked nonleafy vegetables	50 г сырых или приготовленных нелистовых овощей	  
+food_info_serving_sizes_other_vegetables[imperial][2]	dozeVegetablesOtherServing[imperial][2]	½ cup vegetable juice	½ чашки овощного сока	  
+food_info_serving_sizes_other_vegetables[metric][2]	dozeVegetablesOtherServing[metric][2]	125 ml vegetable juice	125 мл овощного сока	  
+food_info_serving_sizes_other_vegetables[imperial][3]	dozeVegetablesOtherServing[imperial][3]	¼ cup dried mushrooms	¼ чашки сушёных грибов	  
+food_info_serving_sizes_other_vegetables[metric][3]	dozeVegetablesOtherServing[metric][3]	7 g dried mushrooms	7 г сушёных грибов	  
+food_info_serving_sizes_cruciferous_vegetables[imperial][0]	dozeVegetablesCruciferousServing[imperial][0]	½ cup chopped	½ чашки нарубленного	  
+food_info_serving_sizes_cruciferous_vegetables[metric][0]	dozeVegetablesCruciferousServing[metric][0]	30–80 g chopped	30–80 г нарубленного	  
+food_info_serving_sizes_cruciferous_vegetables[imperial][1]	dozeVegetablesCruciferousServing[imperial][1]	¼ cup Brussels or broccoli sprouts	¼ чашки брюссельской капусты или брокколи	  
+food_info_serving_sizes_cruciferous_vegetables[metric][1]	dozeVegetablesCruciferousServing[metric][1]	12 g Brussels or broccoli sprouts	12 г брюссельской капусты или брокколи	  
+food_info_serving_sizes_cruciferous_vegetables[imperial][2]	dozeVegetablesCruciferousServing[imperial][2]	1 tablespoon horseradish	1 столовая ложка хрена	  
+food_info_serving_sizes_cruciferous_vegetables[metric][2]	dozeVegetablesCruciferousServing[metric][2]	1 tablespoon horseradish	1 столовая ложка хрена	  
+food_info_serving_sizes_beans[imperial][0]	dozeBeansServing[imperial][0]	¼ cup of hummus or bean dip	¼ чашки хумуса или бобового соуса	  
+food_info_serving_sizes_beans[metric][0]	dozeBeansServing[metric][0]	60 g of hummus or bean dip	60 г хумуса или бобового соуса	  
+food_info_serving_sizes_beans[imperial][1]	dozeBeansServing[imperial][1]	½ cup cooked beans, split peas, lentils, tofu, or tempeh	½ чашки готовых фасоли, колотого гороха, чечевицы, тофу или темпе	  
+food_info_serving_sizes_beans[metric][1]	dozeBeansServing[metric][1]	130 g cooked beans, split peas, lentils, tofu, or tempeh	130 г готовых фасоли, колотого гороха, чечевицы, тофу или темпе	  
+food_info_serving_sizes_beans[imperial][2]	dozeBeansServing[imperial][2]	1 cup of fresh peas or sprouted lentils	1 чашка свежего гороха или пророшенной чечевицы	  
+food_info_serving_sizes_beans[metric][2]	dozeBeansServing[metric][2]	150 g of fresh peas or sprouted lentils	150 г свежего гороха или пророшенной чечевицы	  
+food_info_serving_sizes_greens[imperial][0]	dozeGreensServing[imperial][0]	1 cup raw	1 чашка сырых	  
+food_info_serving_sizes_greens[metric][0]	dozeGreensServing[metric][0]	60 g raw	60 г сырых	  
+food_info_serving_sizes_greens[imperial][1]	dozeGreensServing[imperial][1]	½ cup cooked	½ чашки приготовленных	  
+food_info_serving_sizes_greens[metric][1]	dozeGreensServing[metric][1]	90 g cooked	90 г приготовленных	  
+food_info_serving_sizes_beverages[imperial][0]	dozeBeveragesServing[imperial][0]	One glass (12 ounces)	Один стакан (12 унций)	  
+food_info_serving_sizes_beverages[metric][0]	dozeBeveragesServing[metric][0]	One glass (350 ml)	Один стакан (350 мл)	  
+food_info_serving_sizes_exercise[imperial][0]	dozeExerciseServing[imperial][0]	90 minutes of moderate-intensity activity	90 минут средней нагрузки	  
+food_info_serving_sizes_exercise[metric][0]	dozeExerciseServing[metric][0]	90 minutes of moderate-intensity activity	90 минут средней нагрузки	  
+food_info_serving_sizes_exercise[imperial][1]	dozeExerciseServing[imperial][1]	40 minutes of vigorous-intensity activity	40 минут интенсивной нагрузки	  
+food_info_serving_sizes_exercise[metric][1]	dozeExerciseServing[metric][1]	40 minutes of vigorous-intensity activity	40 минут интенсивной нагрузки	  
+food_info_serving_sizes_flaxseeds[imperial][0]	dozeFlaxseedsServing[imperial][0]	1 tablespoon ground	1 столовая ложка измельчённых	  
+food_info_serving_sizes_flaxseeds[metric][0]	dozeFlaxseedsServing[metric][0]	1 tablespoon ground	1 столовая ложка измельчённых	  
+food_info_types_flaxseeds[0]	dozeFlaxseedsVarietyText[0]	Brown flaxseeds	Семена коричневого льна	  
+food_info_types_flaxseeds[1]	dozeFlaxseedsVarietyText[1]	Golden flaxseeds	Семена белого льна	  
+food_info_types_beans[0]	dozeBeansVarietyText[0]	Black beans	Чёрная фасоль	  
+food_info_types_beans[1]	dozeBeansVarietyText[1]	Black-eyed peas	Черноглазая фасоль	  
+food_info_types_beans[2]	dozeBeansVarietyText[2]	Butter beans	Фасоль Лима	  
+food_info_types_beans[3]	dozeBeansVarietyText[3]	Cannellini beans	Белая фасоль (каннеллини)	  
+food_info_types_beans[4]	dozeBeansVarietyText[4]	Chickpeas	Нут	  
+food_info_types_beans[5]	dozeBeansVarietyText[5]	Edamame	Эдамамэ	  
+food_info_types_beans[6]	dozeBeansVarietyText[6]	English peas	Садовый горох	  
+food_info_types_beans[7]	dozeBeansVarietyText[7]	Garbanzo beans	Нут	  
+food_info_types_beans[8]	dozeBeansVarietyText[8]	Great northern beans	Белая фасоль (великая северная)	  
+food_info_types_beans[9]	dozeBeansVarietyText[9]	Kidney beans	Красная фасоль (кидни)	  
+food_info_types_beans[10]	dozeBeansVarietyText[10]	Lentils (beluga, french, and red varieties)	Чечевица (чёрная "белуга", зеленая "французская", красная)	  
+food_info_types_beans[11]	dozeBeansVarietyText[11]	Miso	Мисо	  
+food_info_types_beans[12]	dozeBeansVarietyText[12]	Navy beans	Белая фасоль (флотская)	  
+food_info_types_beans[13]	dozeBeansVarietyText[13]	Pinto beans	Фасоль пинто	  
+food_info_types_beans[14]	dozeBeansVarietyText[14]	Small red beans	Мелкая красная фасоль	  
+food_info_types_beans[15]	dozeBeansVarietyText[15]	Split peas (yellow or green)	Горох колотый (жёлтый или зелёный)	  
+food_info_types_beans[16]	dozeBeansVarietyText[16]	Tempeh	Темпе	  
+food_info_types_greens[0]	dozeGreensVarietyText[0]	Arugula	Руккола	  
+food_info_types_greens[1]	dozeGreensVarietyText[1]	Beet greens	Ботва свеклы	  
+food_info_types_greens[2]	dozeGreensVarietyText[2]	Collard greens	Листовая капуста Коллард	  
+food_info_types_greens[3]	dozeGreensVarietyText[3]	Kale (black, green, and red)	Кудрявая капуста (тёмная, зелёная и красная)	  
+food_info_types_greens[4]	dozeGreensVarietyText[4]	Mesclun mix (assorted young salad greens)	Месклан (ассорти из молодых салатных листьев)	  
+food_info_types_greens[5]	dozeGreensVarietyText[5]	Mustard greens	Горчица листовая	  
+food_info_types_greens[6]	dozeGreensVarietyText[6]	Sorrel	Щавель	  
+food_info_types_greens[7]	dozeGreensVarietyText[7]	Spinach	Шпинат	  
+food_info_types_greens[8]	dozeGreensVarietyText[8]	Swiss chard	Мангольд	  
+food_info_types_greens[9]	dozeGreensVarietyText[9]	Turnip greens	Ботва репы	  
+food_info_types_other_fruits[0]	dozeFruitsOtherVarietyText[0]	Apples	Яблоки	  
+food_info_types_other_fruits[1]	dozeFruitsOtherVarietyText[1]	Dried apricots	Курага	  
+food_info_types_other_fruits[2]	dozeFruitsOtherVarietyText[2]	Avocados	Авокадо	  
+food_info_types_other_fruits[3]	dozeFruitsOtherVarietyText[3]	Bananas	Бананы	  
+food_info_types_other_fruits[4]	dozeFruitsOtherVarietyText[4]	Cantaloupe	Дыня Канталупа	  
+food_info_types_other_fruits[5]	dozeFruitsOtherVarietyText[5]	Clementines	Мандарины	  
+food_info_types_other_fruits[6]	dozeFruitsOtherVarietyText[6]	Dates	Финики	  
+food_info_types_other_fruits[7]	dozeFruitsOtherVarietyText[7]	Dried figs	Сушёный инжир	  
+food_info_types_other_fruits[8]	dozeFruitsOtherVarietyText[8]	Grapefruit	Грейпфрут	  
+food_info_types_other_fruits[9]	dozeFruitsOtherVarietyText[9]	Honeydew	Дыня Медовая	  
+food_info_types_other_fruits[10]	dozeFruitsOtherVarietyText[10]	Kiwifruit	Киви	  
+food_info_types_other_fruits[11]	dozeFruitsOtherVarietyText[11]	Lemons	Лимоны	  
+food_info_types_other_fruits[12]	dozeFruitsOtherVarietyText[12]	Limes	Лаймы	  
+food_info_types_other_fruits[13]	dozeFruitsOtherVarietyText[13]	Lychees	Личи	  
+food_info_types_other_fruits[14]	dozeFruitsOtherVarietyText[14]	Mangos	Манго	  
+food_info_types_other_fruits[15]	dozeFruitsOtherVarietyText[15]	Nectarines	Нектарины	  
+food_info_types_other_fruits[16]	dozeFruitsOtherVarietyText[16]	Oranges	Апельсины	  
+food_info_types_other_fruits[17]	dozeFruitsOtherVarietyText[17]	Papaya	Папайя	  
+food_info_types_other_fruits[18]	dozeFruitsOtherVarietyText[18]	Passion fruit	Маракуйя	  
+food_info_types_other_fruits[19]	dozeFruitsOtherVarietyText[19]	Peaches	Персики	  
+food_info_types_other_fruits[20]	dozeFruitsOtherVarietyText[20]	Pears	Груши	  
+food_info_types_other_fruits[21]	dozeFruitsOtherVarietyText[21]	Pineapple	Ананас	  
+food_info_types_other_fruits[22]	dozeFruitsOtherVarietyText[22]	Plums (especially black plums)	Сливы (особенно тёмные сливы)	  
+food_info_types_other_fruits[23]	dozeFruitsOtherVarietyText[23]	Pluots	Плумкот	  
+food_info_types_other_fruits[24]	dozeFruitsOtherVarietyText[24]	Pomegranates	Гранат	  
+food_info_types_other_fruits[25]	dozeFruitsOtherVarietyText[25]	Prunes	Чернослив	  
+food_info_types_other_fruits[26]	dozeFruitsOtherVarietyText[26]	Tangerines	Танжерины	  
+food_info_types_other_fruits[27]	dozeFruitsOtherVarietyText[27]	Watermelon	Арбуз	  
+food_info_types_cruciferous_vegetables[0]	dozeVegetablesCruciferousVarietyText[0]	Arugula	Руккола	  
+food_info_types_cruciferous_vegetables[1]	dozeVegetablesCruciferousVarietyText[1]	Bok choy	Пак-чой	  
+food_info_types_cruciferous_vegetables[2]	dozeVegetablesCruciferousVarietyText[2]	Broccoli (incl. Romanesco)	Брокколи (и романеско)	  
+food_info_types_cruciferous_vegetables[3]	dozeVegetablesCruciferousVarietyText[3]	Brussels sprouts	Брюссельская капуста	  
+food_info_types_cruciferous_vegetables[4]	dozeVegetablesCruciferousVarietyText[4]	Cabbage (green, red and savoy)	Капуста (белокочанная, красная и савойская)	  
+food_info_types_cruciferous_vegetables[5]	dozeVegetablesCruciferousVarietyText[5]	Cauliflower (white, green, orange and purple)	Цветная капуста (белая, зеленая, оранжевая, фиолетовая)	  
+food_info_types_cruciferous_vegetables[6]	dozeVegetablesCruciferousVarietyText[6]	Collard greens	Листовая капуста Коллард	  
+food_info_types_cruciferous_vegetables[7]	dozeVegetablesCruciferousVarietyText[7]	Horseradish	Хрен	  
+food_info_types_cruciferous_vegetables[8]	dozeVegetablesCruciferousVarietyText[8]	Kale (black, green, and red)	Кудрявая капуста (тёмная, зелёная и красная)	  
+food_info_types_cruciferous_vegetables[9]	dozeVegetablesCruciferousVarietyText[9]	Kohlrabi (green and purple)	Кольраби (зеленая и фиолетовая)	  
+food_info_types_cruciferous_vegetables[10]	dozeVegetablesCruciferousVarietyText[10]	Mustard greens	Горчица листовая	  
+food_info_types_cruciferous_vegetables[11]	dozeVegetablesCruciferousVarietyText[11]	Radishes	Редис	  
+food_info_types_cruciferous_vegetables[12]	dozeVegetablesCruciferousVarietyText[12]	Turnip greens	Ботва репы	  
+food_info_types_cruciferous_vegetables[13]	dozeVegetablesCruciferousVarietyText[13]	Watercress	Водяной кресс	  
+food_info_types_whole_grains[0]	dozeWholeGrainsVarietyText[0]	Barley	Ячмень	  
+food_info_types_whole_grains[1]	dozeWholeGrainsVarietyText[1]	Buckwheat	Гречневая крупа	  
+food_info_types_whole_grains[2]	dozeWholeGrainsVarietyText[2]	Millet	Пшено	  
+food_info_types_whole_grains[3]	dozeWholeGrainsVarietyText[3]	Oats	Овёс	  
+food_info_types_whole_grains[4]	dozeWholeGrainsVarietyText[4]	Popcorn	Попкорн	  
+food_info_types_whole_grains[5]	dozeWholeGrainsVarietyText[5]	Quinoa	Киноа	  
+food_info_types_whole_grains[6]	dozeWholeGrainsVarietyText[6]	Rye	Рожь	  
+food_info_types_whole_grains[7]	dozeWholeGrainsVarietyText[7]	Teff	Теф	  
+food_info_types_whole_grains[8]	dozeWholeGrainsVarietyText[8]	Whole-wheat pasta	Цельнозерновые макароны	  
+food_info_types_other_vegetables[0]	dozeVegetablesOtherVarietyText[0]	Artichokes	Артишоки	  
+food_info_types_other_vegetables[1]	dozeVegetablesOtherVarietyText[1]	Asparagus	Спаржа	  
+food_info_types_other_vegetables[2]	dozeVegetablesOtherVarietyText[2]	Beets	Свёкла	  
+food_info_types_other_vegetables[3]	dozeVegetablesOtherVarietyText[3]	Bell peppers	Сладкий перец	  
+food_info_types_other_vegetables[4]	dozeVegetablesOtherVarietyText[4]	Carrots	Морковь	  
+food_info_types_other_vegetables[5]	dozeVegetablesOtherVarietyText[5]	Corn	Кукуруза	  
+food_info_types_other_vegetables[6]	dozeVegetablesOtherVarietyText[6]	Garlic	Чеснок	  
+food_info_types_other_vegetables[7]	dozeVegetablesOtherVarietyText[7]	Mushrooms (button, oyster, portobello, and shiitake)	Грибы (шампиньоны, вёшенки, портобелло и шиитаке)	  
+food_info_types_other_vegetables[8]	dozeVegetablesOtherVarietyText[8]	Okra	Бамия (окра)	  
+food_info_types_other_vegetables[9]	dozeVegetablesOtherVarietyText[9]	Onions	Лук	  
+food_info_types_other_vegetables[10]	dozeVegetablesOtherVarietyText[10]	Purple potatoes	Фиолетовый картофель	  
+food_info_types_other_vegetables[11]	dozeVegetablesOtherVarietyText[11]	Pumpkin	Тыква	  
+food_info_types_other_vegetables[12]	dozeVegetablesOtherVarietyText[12]	Sea vegetables (arame, dulse, and nori)	Съедобные водоросли (араме, красные водоросли и нори)	  
+food_info_types_other_vegetables[13]	dozeVegetablesOtherVarietyText[13]	Snap peas	Стручковый горох (Snap peas)	  
+food_info_types_other_vegetables[14]	dozeVegetablesOtherVarietyText[14]	Squash (delicata, summer, and spaghetti squash varieties)	Сквош (летний и зимний, в т.ч. "деликата" и "спагетти")	  
+food_info_types_other_vegetables[15]	dozeVegetablesOtherVarietyText[15]	Sweet potatoes/yams	Батат/ямс	  
+food_info_types_other_vegetables[16]	dozeVegetablesOtherVarietyText[16]	Tomatoes	Помидоры	  
+food_info_types_other_vegetables[17]	dozeVegetablesOtherVarietyText[17]	Zucchini	Цуккини	  
+food_info_types_nuts[0]	dozeNutsVarietyText[0]	Almonds	Миндаль	  
+food_info_types_nuts[1]	dozeNutsVarietyText[1]	Brazil nuts	Бразильский орех	  
+food_info_types_nuts[2]	dozeNutsVarietyText[2]	Cashews	Кешью	  
+food_info_types_nuts[3]	dozeNutsVarietyText[3]	Chia seeds	Семена чиа	  
+food_info_types_nuts[4]	dozeNutsVarietyText[4]	Hazelnuts	Фундук	  
+food_info_types_nuts[5]	dozeNutsVarietyText[5]	Hemp seeds	Семена конопли	  
+food_info_types_nuts[6]	dozeNutsVarietyText[6]	Macadamia nuts	Макадамия (австралийский орех)	  
+food_info_types_nuts[7]	dozeNutsVarietyText[7]	Pecans	Орех пекан	  
+food_info_types_nuts[8]	dozeNutsVarietyText[8]	Pistachios	Фисташки	  
+food_info_types_nuts[9]	dozeNutsVarietyText[9]	Pumpkin seeds	Семена тыквы	  
+food_info_types_nuts[10]	dozeNutsVarietyText[10]	Sesame seeds	Кунжут	  
+food_info_types_nuts[11]	dozeNutsVarietyText[11]	Sunflower seeds	Семечки подсолнечника	  
+food_info_types_nuts[12]	dozeNutsVarietyText[12]	Walnuts	Грецкие орехи	  
+food_info_types_berries[0]	dozeBerriesVarietyText[0]	Acai berries	Ягоды асаи	  
+food_info_types_berries[1]	dozeBerriesVarietyText[1]	Barberries	Ягоды барбариса	  
+food_info_types_berries[2]	dozeBerriesVarietyText[2]	Blackberries	Ежевика	  
+food_info_types_berries[3]	dozeBerriesVarietyText[3]	Blueberries	Черника	  
+food_info_types_berries[4]	dozeBerriesVarietyText[4]	Cherries (sweet or tart)	Вишня (или черешня)	  
+food_info_types_berries[5]	dozeBerriesVarietyText[5]	Concord grapes	Виноград Конкорд	  
+food_info_types_berries[6]	dozeBerriesVarietyText[6]	Cranberries	Клюква	  
+food_info_types_berries[7]	dozeBerriesVarietyText[7]	Goji berries	Ягоды годжи	  
+food_info_types_berries[8]	dozeBerriesVarietyText[8]	Kumquats	Кумкват	  
+food_info_types_berries[9]	dozeBerriesVarietyText[9]	Mulberries	Шелковица	  
+food_info_types_berries[10]	dozeBerriesVarietyText[10]	Raspberries (black or red)	Малина (чёрная или красная)	  
+food_info_types_berries[11]	dozeBerriesVarietyText[11]	Strawberries	Клубника	  
+food_info_types_exercise[0]	dozeExerciseVarietyText[0]	Bicycling	Езда на велосипеде	  
+food_info_types_exercise[1]	dozeExerciseVarietyText[1]	Canoeing	Гребля	  
+food_info_types_exercise[2]	dozeExerciseVarietyText[2]	Dancing	Танцы	  
+food_info_types_exercise[3]	dozeExerciseVarietyText[3]	Dodgeball	Доджбол (вышибалы)	  
+food_info_types_exercise[4]	dozeExerciseVarietyText[4]	Downhill skiing	Горнолыжный спорт	  
+food_info_types_exercise[5]	dozeExerciseVarietyText[5]	Fencing	Фехтование	  
+food_info_types_exercise[6]	dozeExerciseVarietyText[6]	Hiking	Хайкинг (длительная прогулка, пешеходный туризм)	  
+food_info_types_exercise[7]	dozeExerciseVarietyText[7]	Housework	Работа по дому	  
+food_info_types_exercise[8]	dozeExerciseVarietyText[8]	Ice-skating	Катание на коньках	  
+food_info_types_exercise[9]	dozeExerciseVarietyText[9]	Inline skating	Роллерблейдинг (экстремальное катание на роликовых коньках)	  
+food_info_types_exercise[10]	dozeExerciseVarietyText[10]	Juggling	Жонглирование	  
+food_info_types_exercise[11]	dozeExerciseVarietyText[11]	Jumping on a trampoline	Прыжки на батуте	  
+food_info_types_exercise[12]	dozeExerciseVarietyText[12]	Paddle boating	Катание на водном велосипеде	  
+food_info_types_exercise[13]	dozeExerciseVarietyText[13]	Playing frisbee	Игра с летающим диском	  
+food_info_types_exercise[14]	dozeExerciseVarietyText[14]	Roller-skating	Катание на роликах	  
+food_info_types_exercise[15]	dozeExerciseVarietyText[15]	Shooting baskets	Броски мяча в корзину	  
+food_info_types_exercise[16]	dozeExerciseVarietyText[16]	Shoveling light snow	Сгребание лёгкого снега	  
+food_info_types_exercise[17]	dozeExerciseVarietyText[17]	Skateboarding	Скейтбординг	  
+food_info_types_exercise[18]	dozeExerciseVarietyText[18]	Snorkeling	Сноркелинг (ныряние с дыхательной трубкой)	  
+food_info_types_exercise[19]	dozeExerciseVarietyText[19]	Surfing	Сёрфинг	  
+food_info_types_exercise[20]	dozeExerciseVarietyText[20]	Swimming recreationally	Свободное плавание	  
+food_info_types_exercise[21]	dozeExerciseVarietyText[21]	Tennis (doubles)	Парный теннис	  
+food_info_types_exercise[22]	dozeExerciseVarietyText[22]	Treading water	Вертикальное удержание на плаву	  
+food_info_types_exercise[23]	dozeExerciseVarietyText[23]	Walking briskly (4 mph)	Быстрая ходьба (6–7 км/ч)	  
+food_info_types_exercise[24]	dozeExerciseVarietyText[24]	Water aerobics	Водная гимнастика	  
+food_info_types_exercise[25]	dozeExerciseVarietyText[25]	Waterskiing	Воднолыжный спорт	  
+food_info_types_exercise[26]	dozeExerciseVarietyText[26]	Yard work	Работа по саду	  
+food_info_types_exercise[27]	dozeExerciseVarietyText[27]	Yoga	Йога	  
+food_info_types_exercise[28]	dozeExerciseVarietyText[28]	Backpacking	Поход с рюкзаком	  
+food_info_types_exercise[29]	dozeExerciseVarietyText[29]	Basketball	Баскетбол	  
+food_info_types_exercise[30]	dozeExerciseVarietyText[30]	Bicycling uphill	Подъем в горку на велосипеде	  
+food_info_types_exercise[31]	dozeExerciseVarietyText[31]	Circuit weight training	Повторяемые упражнения с весом	  
+food_info_types_exercise[32]	dozeExerciseVarietyText[32]	Cross-country skiing	Лыжный бег	  
+food_info_types_exercise[33]	dozeExerciseVarietyText[33]	Football	Американский футбол	  
+food_info_types_exercise[34]	dozeExerciseVarietyText[34]	Hockey	Хоккей	  
+food_info_types_exercise[35]	dozeExerciseVarietyText[35]	Jogging	Бег трусцой	  
+food_info_types_exercise[36]	dozeExerciseVarietyText[36]	Jumping jacks	Прыжки "ноги вместе – ноги врозь"	  
+food_info_types_exercise[37]	dozeExerciseVarietyText[37]	Jumping rope	Прыжки со скакалкой	  
+food_info_types_exercise[38]	dozeExerciseVarietyText[38]	Lacrosse	Лакросс	  
+food_info_types_exercise[39]	dozeExerciseVarietyText[39]	Push-ups	Отжимания	  
+food_info_types_exercise[40]	dozeExerciseVarietyText[40]	Pull-ups	Подтягивания	  
+food_info_types_exercise[41]	dozeExerciseVarietyText[41]	Racquetball	Ракетбол	  
+food_info_types_exercise[42]	dozeExerciseVarietyText[42]	Rock climbing	Скалолазание	  
+food_info_types_exercise[43]	dozeExerciseVarietyText[43]	Rugby	Регби	  
+food_info_types_exercise[44]	dozeExerciseVarietyText[44]	Running	Бег	  
+food_info_types_exercise[45]	dozeExerciseVarietyText[45]	Scuba diving	Дайвинг с аквалангом	  
+food_info_types_exercise[46]	dozeExerciseVarietyText[46]	Tennis (singles)	Теннис	  
+food_info_types_exercise[47]	dozeExerciseVarietyText[47]	Soccer	Футбол ("соккер")	  
+food_info_types_exercise[48]	dozeExerciseVarietyText[48]	Speed skating	Конькобежный спорт	  
+food_info_types_exercise[49]	dozeExerciseVarietyText[49]	Squash	Сквош	  
+food_info_types_exercise[50]	dozeExerciseVarietyText[50]	Step aerobics	Гимнастика на степе	  
+food_info_types_exercise[51]	dozeExerciseVarietyText[51]	Swimming laps	Спортивное плавание	  
+food_info_types_exercise[52]	dozeExerciseVarietyText[52]	Walking briskly uphill	Быстрая ходьба в горку	  
+food_info_types_exercise[53]	dozeExerciseVarietyText[53]	Water jogging	Беговые движения на плаву	  
+food_info_types_spices[0]	dozeSpicesVarietyText[0]	Allspice	Душистый перец	  
+food_info_types_spices[1]	dozeSpicesVarietyText[1]	Barberries	Барбарис	  
+food_info_types_spices[2]	dozeSpicesVarietyText[2]	Basil	Базилик	  
+food_info_types_spices[3]	dozeSpicesVarietyText[3]	Bay leaves	Лавровый лист	  
+food_info_types_spices[4]	dozeSpicesVarietyText[4]	Cardamom	Кардамон	  
+food_info_types_spices[5]	dozeSpicesVarietyText[5]	Chili powder	Молотый чили	  
+food_info_types_spices[6]	dozeSpicesVarietyText[6]	Cilantro	Кориандр (кинза)	  
+food_info_types_spices[7]	dozeSpicesVarietyText[7]	Cinnamon	Корица	  
+food_info_types_spices[8]	dozeSpicesVarietyText[8]	Cloves	Гвоздика	  
+food_info_types_spices[9]	dozeSpicesVarietyText[9]	Coriander	Семена кориандра (кинзы)	  
+food_info_types_spices[10]	dozeSpicesVarietyText[10]	Cumin	Зира (тмин)	  
+food_info_types_spices[11]	dozeSpicesVarietyText[11]	Curry powder	Карри	  
+food_info_types_spices[12]	dozeSpicesVarietyText[12]	Dill	Укроп	  
+food_info_types_spices[13]	dozeSpicesVarietyText[13]	Fenugreek	Пажитник	  
+food_info_types_spices[14]	dozeSpicesVarietyText[14]	Garlic	Чеснок	  
+food_info_types_spices[15]	dozeSpicesVarietyText[15]	Ginger	Имбирь	  
+food_info_types_spices[16]	dozeSpicesVarietyText[16]	Horseradish	Хрен	  
+food_info_types_spices[17]	dozeSpicesVarietyText[17]	Lemongrass	Лимонное сорго	  
+food_info_types_spices[18]	dozeSpicesVarietyText[18]	Marjoram	Майоран	  
+food_info_types_spices[19]	dozeSpicesVarietyText[19]	Mustard powder	Горчичный порошок	  
+food_info_types_spices[20]	dozeSpicesVarietyText[20]	Nutmeg	Мускатный орех	  
+food_info_types_spices[21]	dozeSpicesVarietyText[21]	Oregano	Орегано (душица)	  
+food_info_types_spices[22]	dozeSpicesVarietyText[22]	Smoked paprika	Копченая паприка	  
+food_info_types_spices[23]	dozeSpicesVarietyText[23]	Parsley	Петрушка	  
+food_info_types_spices[24]	dozeSpicesVarietyText[24]	Pepper	Перец	  
+food_info_types_spices[25]	dozeSpicesVarietyText[25]	Peppermint	Перечная мята	  
+food_info_types_spices[26]	dozeSpicesVarietyText[26]	Rosemary	Розмарин	  
+food_info_types_spices[27]	dozeSpicesVarietyText[27]	Saffron	Шафран	  
+food_info_types_spices[28]	dozeSpicesVarietyText[28]	Sage	Шалфей	  
+food_info_types_spices[29]	dozeSpicesVarietyText[29]	Thyme	Тимьян (чабрец)	  
+food_info_types_spices[30]	dozeSpicesVarietyText[30]	Turmeric	Куркума	  
+food_info_types_spices[31]	dozeSpicesVarietyText[31]	Vanilla	Ваниль	  
+food_info_types_beverages[0]	dozeBeveragesVarietyText[0]	Black tea	Чёрный чай	  
+food_info_types_beverages[1]	dozeBeveragesVarietyText[1]	Chai tea	Чай масала (букв. "чай со специями")	  
+food_info_types_beverages[2]	dozeBeveragesVarietyText[2]	Vanilla chamomile tea	Ромашковый чай с ванилью	  
+food_info_types_beverages[3]	dozeBeveragesVarietyText[3]	Coffee	Кофе	  
+food_info_types_beverages[4]	dozeBeveragesVarietyText[4]	Earl grey tea	Чай Эрл Грей (чай с бергамотом)	  
+food_info_types_beverages[5]	dozeBeveragesVarietyText[5]	Green tea	Зелёный чай	  
+food_info_types_beverages[6]	dozeBeveragesVarietyText[6]	Hibiscus tea	Каркаде	  
+food_info_types_beverages[7]	dozeBeveragesVarietyText[7]	Hot chocolate	Горячий шоколад	  
+food_info_types_beverages[8]	dozeBeveragesVarietyText[8]	Jasmine tea	Чай с жасмином	  
+food_info_types_beverages[9]	dozeBeveragesVarietyText[9]	Lemon balm tea	Чай из мелиссы	  
+food_info_types_beverages[10]	dozeBeveragesVarietyText[10]	Matcha tea	Маття ("матча")	  
+food_info_types_beverages[11]	dozeBeveragesVarietyText[11]	Almond blossom oolong tea	Миндальный улун	  
+food_info_types_beverages[12]	dozeBeveragesVarietyText[12]	Peppermint tea	Чай из перечной мяты	  
+food_info_types_beverages[13]	dozeBeveragesVarietyText[13]	Rooibos tea	Ройбос	  
+food_info_types_beverages[14]	dozeBeveragesVarietyText[14]	Water	Вода	  
+food_info_types_beverages[15]	dozeBeveragesVarietyText[15]	White tea	Белый чай	  
+nightly_trendelenburg[heading]	tweakNightlyTrendelenbrug[heading]	Experiment with Mild Trendelenburg	Эксперимент с Милд Тренделенбург	
+nightly_trendelenburg[short]	tweakNightlyTrendelenbrug[short]	Experiment with Mild Trendelenburg	Эксперимент с Милд Тренделенбург	
+nightly_trendelenburg[text]	tweakNightlyTrendelenbrug[text]	Try spending at least four hours a night lying with your body tilted head-down six degrees by elevating the posts at the foot of your bed by eight inches (or by nine inches if you have a California king). Be extremely careful when you get out of bed, as this causes orthostatic intolerance in most people, even if you\'re young and healthy—meaning if you get up too fast, you can feel dizzy, faint, or light-headed and could fall and hurt yourself. So get up slowly. Drinking two cups of cold water thirty minutes before rising may also help prevent this potentially hazardous side effect.\n*IMPORTANT: Do not try this at home at all if you have any heart or lung issues, acid reflux, or problems with your brain (like head trauma) or eyes (even a family history of glaucoma disqualifies you). Also do not try this until you ask your physician if they think it\'s safe for you to sleep in mild Trendelenburg.*	Старайтесь проводить по крайней мере четыре часа в ночи, лежа с телом, наклоненным вниз на шесть градусов, подняв столбы у подножия кровати на восемь дюймов (или на девять дюймов, если у вас есть калифорнийский король). Будьте очень осторожны, когда встаете с постели, так как это вызывает ортостатическую нетерпимость у большинства людей, даже если вы молоды и здоровы, то есть, если вы встаете слишком быстро, вы можете чувствовать головокружение, слабость или головокружение и могут упасть и пораниться. Так что вставай медленно. Питье двух чашек холодной воды за тридцать минут до вставания может также помочь предотвратить этот потенциально опасный побочный эффект. \ N * ВАЖНО: не пытайтесь делать это дома вообще, если у вас есть проблемы с сердцем или легкими, кислотный рефлюкс или проблемы с мозгом (например, травма головы) или глаза (даже семейный анамнез глаукомы дисквалифицирует вас). Также не пытайтесь делать это, пока не спросите своего врача, считают ли они, что вам безопасно спать в мягком Тренделенбурге. *	
+
+daily_nutriyeast[heading]	tweakDailyNutriYeast[heading]	Nutritional Yeast (2 tsp)	Пищевые дрожжи (2 ч. Л.)	
+daily_nutriyeast[short]	tweakDailyNutriYeast[short]	Nutritional Yeast (2 tsp)	Пищевые дрожжи (2 ч. Л.)	
+daily_nutriyeast[text]	tweakDailyNutriYeast[text]	Two teaspoons of baker\'s, brewer\'s, or nutritional yeast contains roughly the amount of beta 1,3/1,6 glucans found in randomized, double-blind, placebo-controlled clinical trials to facilitate weight loss.	Две чайные ложки пекарских, пивоваренных или пищевых дрожжей содержат примерно количество бета 1,3 / 1,6 глюканов, обнаруженных в рандомизированных, двойных слепых, плацебо-контролируемых клинических испытаниях для облегчения потери веса.	
+
+exercise_timing[heading]	tweakExerciseTiming[heading]	Optimize Exercise Timing	Оптимизация времени выполнения	
+exercise_timing[short]	tweakExerciseTiming[short]	Optimize Exercise Timing	Оптимизация времени выполнения	
+exercise_timing[text]	tweakExerciseTiming[text]	The Daily Dozen\'s recommendation for optimum exercise duration for longevity is ninety minutes of moderately intense activity a day, which is also the optimum exercise duration for weight loss. Anytime is good, and the more, the better, but there may be an advantage to exercising in a fasted state, at least six hours after your last meal. Typically, this would mean before breakfast, but if you timed it right, you could exercise midday before a late lunch or, if lunch is eaten early enough, before dinner. This is the timing for nondiabetics. Diabetics and prediabetics should instead start exercising thirty minutes after the start of a meal and ideally go for at least an hour to completely straddle the blood sugar peak. If you had to choose a single meal to exercise after, it would be dinner, due to the circadian rhythm of blood sugar control that wanes throughout the day. Ideally, though, breakfast would be the largest meal of the day, and you\'d exercise after that—or, even better, after every meal.	Ежедневная дюжина рекомендаций по оптимальной продолжительности упражнений для долголетия составляет девяносто минут умеренно интенсивной активности в день, что также является оптимальной продолжительностью упражнений для похудения. В любое время хорошо, и чем больше, тем лучше, но может быть преимущество в том, что вы тренируетесь в голодном состоянии, по крайней мере, через шесть часов после вашего последнего приема пищи. Как правило, это будет означать до завтрака, но если вы правильно рассчитаете время, вы можете заняться спортом в полдень до позднего обеда или, если обед съели достаточно рано, до обеда. Это время для недиабетиков. Диабетики и преддиабетики должны вместо этого начать тренироваться через тридцать минут после начала приема пищи и в идеале, по крайней мере, час, чтобы полностью преодолеть пик сахара в крови. Если вам нужно было выбрать один прием пищи после тренировки, это был бы ужин из-за циркадного ритма контроля уровня сахара в крови, который снижается в течение дня. В идеале завтрак должен быть самым большим приемом пищи за день, и вы будете тренироваться после этого - или, что еще лучше, после каждого приема пищи.	
+
+nightly_sleep[heading]	tweakNightlySleep[heading]	Get Sufficient Sleep	Достаточно выспаться	
+nightly_sleep[short]	tweakNightlySleep[short]	Get Sufficient Sleep	Достаточно выспаться	
+nightly_sleep[text]	tweakNightlySleep[text]	Check this box if you get at least seven hours of sleep at your regular bedtime.	Установите этот флажок, если вы спите по крайней мере семь часов в обычное время сна.	
+
+daily_greentea[heading]	tweakDailyGreenTea[heading]	Green Tea (3 cups)	Зеленый чай (3 чашки)	
+daily_greentea[short]	tweakDailyGreenTea[short]	Green Tea (3 cups)	Зеленый чай (3 чашки)	
+daily_greentea[text]	tweakDailyGreenTea[text]	Drink three cups a day between meals (waiting at least an hour after a meal so as to not interfere with iron absorption). During meals, drink water, black coffee, or hibiscus tea mixed 6:1 with lemon verbena, but never exceed three cups of fluid an hour (important given my water preloading advice). Take advantage of the reinforcing effect of caffeine by drinking your green tea along with something healthy you wish you liked more, but don\'t consume large amounts of caffeine within six hours of bedtime. Taking your tea without sweetener is best, but if you typically sweeten your tea with honey or sugar, try yacon syrup instead.	Пейте три чашки в день между приемами пищи (подождите не менее часа после еды, чтобы не мешать усвоению железа). Во время еды пейте воду, черный кофе или чай из гибискуса, смешанный 6: 1 с лимонной вербеной, но никогда не превышайте три чашки жидкости в час (важно, учитывая мой совет по предварительной загрузке воды). Воспользуйтесь усиливающим эффектом кофеина, выпивая зеленый чай вместе с чем-то здоровым, которое вы хотели бы больше любить, но не употребляйте большое количество кофеина в течение шести часов перед сном. Лучше всего принимать чай без подсластителя, но если вы обычно подслащиваете его медом или сахаром, попробуйте вместо этого сироп с яконом.	
+
+daily_cumin[heading]	tweakDailyCumin[heading]	Cumin (½ tsp with lunch and dinner)	Тмин (½ чайной ложки с обедом и ужином)	
+daily_cumin[short]	tweakDailyCumin[short]	Cumin (Cuminum cyminum) (½ tsp with lunch and dinner)	Тмин (Cumin cyminum) (½ чайной ложки с обедом и ужином)	
+daily_cumin[text]	tweakDailyCumin[text]	Overweight women randomized to add a half teaspoon of cumin to their lunches and dinners beat out the control group by four more pounds and an extra inch off their waists. There is also evidence to support the use of the spice saffron, but a pinch a day would cost a dollar, whereas a teaspoon of cumin costs less than ten cents.	Женщины с избыточным весом случайным образом добавляли половину чайной ложки тмина к обедам и ужинам, выбивая контрольную группу еще на четыре фунта и на дюйм больше их талии. Существует также доказательство в поддержку использования специй шафран, но щепотка в день обойдется в доллар, тогда как чайная ложка тмина стоит менее десяти центов.	
+
+meal_water[heading]	tweakMealWater[heading]	Preload with Water	Предварительная загрузка с водой	
+meal_water[short]	tweakMealWater[short]	Preload with Water	Предварительная загрузка с водой	
+meal_water[text]	tweakMealWater[text]	Time your metabolism-boosting two cups of cool or cold unflavored water before each meal to also take advantage of its preload benefits.	Перед каждым приемом пищи добавьте две чашки прохладной или холодной неароматизированной воды, улучшающей обмен веществ, чтобы также воспользоваться преимуществами предварительной нагрузки.	
+
+meal_vinegar[heading]	tweakMealVinegar[heading]	Incorporate Vinegar (2 tsp with each meal)	Включите Уксус (2 ч. Л. С каждым приемом пищи)	
+meal_vinegar[short]	tweakMealVinegar[short]	Incorporate Vinegar (2 tsp with each meal)	Включите Уксус (2 ч. Л. С каждым приемом пищи)	
+meal_vinegar[text]	tweakMealVinegar[text]	Never drink vinegar straight. Instead, flavor meals or dress a side salad with any of the sweet and savory vinegars out there. If you want to drink it, make sure to mix it in a glass of water and, afterward, be sure to rinse your mouth out with water to protect your tooth enamel.	Никогда не пейте уксус прямо. Вместо этого, ароматизируйте блюда или заправьте гарнир любым из сладких и соленых уксусов. Если вы хотите его выпить, обязательно смешайте его в стакане воды, а затем обязательно прополощите рот водой, чтобы защитить зубную эмаль.	
+
+complete_intentions[heading]	tweakCompleteIntentions[heading]	Complete Your Implementation Intentions	Завершите свои намерения внедрения	
+complete_intentions[short]	tweakCompleteIntentions[short]	Complete Your Implementation Intentions	Завершите свои намерения внедрения	
+complete_intentions[text]	tweakCompleteIntentions[text]	Every two months, create three new implementation intentions—"if X, then Y" plans to perform a particular behavior in a specific context—and check each one of them off as you complete them every day.	Каждые два месяца создавайте три новых намерения реализации - «если X, то Y» планирует выполнить определенное поведение в определенном контексте - и проверяйте каждое из них по мере их выполнения каждый день.	
+
+meal_negcal[heading]	tweakMealNegCal[heading]	Preload with "Negative Calorie" Foods	Предварительная загрузка с продуктами "Negative Calorie"	
+meal_negcal[short]	tweakMealNegCal[short]	Preload with "Negative Calorie" Foods	Предварительная загрузка с продуктами "Negative Calorie"	
+meal_negcal[text]	tweakMealNegCal[text]	As the first course, start each meal with an apple or a Green Light soup or salad containing fewer than one hundred calories per cup.	В качестве первого блюда начинайте каждый прием пищи с яблочного супа или зеленого супа или салата, содержащего менее ста калорий на чашку.	
+
+meal_undistracted[heading]	tweakMealUndistracted[heading]	Enjoy Undistracted Meals	Наслаждайтесь безудержной едой	
+meal_undistracted[short]	tweakMealUndistracted[short]	Enjoy Undistracted Meals	Наслаждайтесь безудержной едой	
+meal_undistracted[text]	tweakMealUndistracted[text]	Don\'t eat while watching TV or playing on your phone. Give yourself a check for each meal you\'re able to eat without distraction.	Не ешьте во время просмотра телевизора или игры на телефоне. Дайте себе чек на каждый прием пищи, который вы можете есть без отвлечения.	
+
+daily_blackcumin[heading]	tweakDailyBlackCumin[heading]	Black Cumin (¼ tsp)	Черный тмин (¼ ч.л.)	
+daily_blackcumin[short]	tweakDailyBlackCumin[short]	Black Cumin (Nigella sativa) (¼ tsp)	Черный тмин (Nigella Sativa) (¼ ч.л.)	
+daily_blackcumin[text]	tweakDailyBlackCumin[text]	As noted in the Appetite Suppression section, a systematic review and meta-analysis of randomized, controlled weight-loss trials found that about a quarter teaspoon of black cumin powder every day appears to reduce body mass index within a span of a couple of months. Note that black cumin is different from regular cumin, for which the dosing is different.	Как отмечалось в разделе «Подавление аппетита», систематический обзор и мета-анализ рандомизированных контролируемых испытаний по снижению веса показал, что примерно четверть чайной ложки черного порошка тмина каждый день, по-видимому, снижает индекс массы тела в течение пары месяцев. Обратите внимание, что черный тмин отличается от обычного тмина, для которого дозировка отличается.	
+
+nightly_fast[heading]	tweakNightlyFast[heading]	Fast After 7:00 pm	Быстро после 7:00 вечера	
+nightly_fast[short]	tweakNightlyFast[short]	Fast After 7:00 p.m.	Быстро после 7:00 вечера.	
+nightly_fast[text]	tweakNightlyFast[text]	Due to our circadian rhythms, food eaten at night is more fattening than the exact same food eaten earlier in the day, so fast every night for at least twelve hours starting before 7:00 p.m. The fewer calories after sundown, the better.	Из-за наших циркадных ритмов пища, съедаемая ночью, является более жирной, чем та же самая пища, которую едят ранее днем, поэтому каждый вечер голодает не менее двенадцати часов, начиная с 7:00 вечера. Чем меньше калорий после захода солнца, тем лучше.	
+
+weigh_twice[heading]	tweakWeightTwice[heading]	Weigh Yourself Twice a Day	Взвешивайся дважды в день	
+weigh_twice[short]	tweakWeightTwice[short]	Weigh Yourself Twice a Day	Взвешивайся дважды в день	
+weigh_twice[text]	tweakWeightTwice[text]	Regular self-weighing is considered crucial for long-term weight control, but there is insufficient evidence to support a specific frequency of weighing. My recommendation is based on the one study that found that twice daily—upon waking and right before bed—appeared superior to once a day (about six versus two pounds of weight loss over twelve weeks).	Регулярное самостоятельное взвешивание считается критически важным для долгосрочного контроля веса, но нет достаточных данных для подтверждения конкретной частоты взвешивания. Моя рекомендация основана на одном исследовании, которое показало, что два раза в день - после пробуждения и непосредственно перед сном - оказалось лучше, чем один раз в день (около шести против двух фунтов потери веса в течение двенадцати недель).	
+
+meal_twentyminutes[heading]	tweakMeal20Minutes[heading]	Follow the Twenty-Minute Rule	Следуйте двадцатиминутному правилу	
+meal_twentyminutes[short]	tweakMeal20Minutes[short]	Follow the Twenty-Minute Rule	Следуйте двадцатиминутному правилу	
+meal_twentyminutes[text]	tweakMeal20Minutes[text]	Whether through increasing viscosity or the number of chews, or decreasing bite size and eating rate, dozens of studies have demonstrated that no matter how we boost the amount of time food is in our mouths, it can result in lower caloric intake. So extend meal duration to at least twenty minutes to allow your natural satiety signals to take full effect. How? By choosing foods that take longer to eat and eating them in a way that prolongs the time they stay in your mouth. Think bulkier, hardier, chewier foods in smaller, well-chewed bites.	Десятки исследований показали, что независимо от того, увеличивается ли вязкость или количество жеваний, или уменьшается размер прикуса и скорость приема пищи, независимо от того, как мы увеличиваем количество пищи во рту, это может привести к снижению потребления калорий. Поэтому продлите продолжительность приема пищи как минимум до двадцати минут, чтобы ваши естественные сигналы сытости вступили в силу. Как? Выбирая продукты, которые потребляют больше времени, и съедая их таким образом, чтобы продлить время, которое они остаются во рту. Подумайте о более объемной, твердой и жевательной пище в небольших, хорошо прожеванных кусочках.	
+
+daily_garlic[heading]	tweakDailyGarlic[heading]	Garlic Powder (¼ tsp)	Чесночный порошок (¼ ч.л.)	
+daily_garlic[short]	tweakDailyGarlic[short]	Garlic Powder (¼ tsp)	Чесночный порошок (¼ ч.л.)	
+daily_garlic[text]	tweakDailyGarlic[text]	Randomized, double-blind, placebo-controlled studies have found that as little as a daily quarter teaspoon of garlic powder can reduce body fat at a cost of perhaps two cents a day.	Рандомизированные, двойные слепые, плацебо-контролируемые исследования показали, что всего лишь четверть чайной ложки чесночного порошка в день может снизить содержание жира в организме по цене, возможно, в два цента в день.	
+
+daily_frontload[heading]	tweakDailyFrontLoad[heading]	Front-Load Your Calories	Фронтальная загрузка ваших калорий	
+daily_frontload[short]	tweakDailyFrontLoad[short]	Front-Load Your Calories	Фронтальная загрузка ваших калорий	
+daily_frontload[text]	tweakDailyFrontLoad[text]	There are metabolic benefits to distributing more calories to earlier in the day, so make breakfast (ideally) or lunch your largest meal of the day in true king/prince/pauper style.	Есть метаболические преимущества в распределении большего количества калорий в начале дня, поэтому сделайте завтрак (в идеале) или обед своей самой большой едой дня в стиле истинного короля / принца / нищего.	
+
+daily_deflourdiet[heading]	tweakDailyDeflourDiet[heading]	Deflour Your Diet	Ослабьте свою диету	
+daily_deflourdiet[short]	tweakDailyDeflourDiet[short]	Deflour Your Diet	Ослабьте свою диету	
+daily_deflourdiet[text]	tweakDailyDeflourDiet[text]	Check this box every day your whole grain servings are in the form of intact grains. The powdering of even 100 percent whole grains robs our microbiomes of the starch that would otherwise be ferried down to our colons enclosed in unbroken cell walls.	Установите этот флажок каждый день, когда все ваши порции зерна находятся в виде неповрежденных зерен. Измельчение даже 100% цельных зерен лишает наши микробиомы крахмала, который в противном случае был бы перенесен в наши двоеточия, заключенные в неразбитые клеточные стенки.	
+
+daily_timerestrict[heading]	tweakDailyTimeRestrict[heading]	Time-Restrict Your Eating	Ограничить время еды	
+daily_timerestrict[short]	tweakDailyTimeRestrict[short]	Time-Restrict Your Eating	Ограничить время еды	
+daily_timerestrict[text]	tweakDailyTimeRestrict[text]	Confine eating to a daily window of time of your choosing under twelve hours in length that you can stick to consistently, seven days a week. Given the circadian benefits of reducing evening food intake, the window should end before 7:00 p.m.	Ограничивайте прием пищи ежедневным интервалом времени по вашему выбору продолжительностью менее двенадцати часов, который вы можете придерживаться последовательно, семь дней в неделю. Учитывая циркадные преимущества сокращения вечернего приема пищи, окно должно заканчиваться до 7:00 вечера.	
+
+daily_hydrate[heading]	tweakDailyHydrate[heading]	Stay Hydrated	Оставайтесь гидратированными	
+daily_hydrate[short]	tweakDailyHydrate[short]	Stay Hydrated	Оставайтесь гидратированными	
+daily_hydrate[text]	tweakDailyHydrate[text]	Check this box if your urine never appears darker than a pale yellow. Note that if you\'re eating riboflavin-fortified foods (such as nutritional yeast), then base this instead on getting nine cups of unsweetened beverages a day for women (which would be taken care of by the green tea and water preloading recommendations) or thirteen cups a day for men. If you have heart or kidney issues, don\'t increase fluid intake at all without first talking with your physician. Remember, diet soda may be calorie-free, but it\'s not consequence-free, as we learned in the Low in Added Sugar section.	Установите этот флажок, если ваша моча никогда не выглядит темнее бледно-желтой. Обратите внимание, что если вы едите обогащенные рибофлавином продукты (например, пищевые дрожжи), то вместо этого основывайте это на потреблении девяти чашек несладких напитков в день для женщин (о которых позаботятся рекомендации по предварительной загрузке зеленого чая и воды) или тринадцать чашек в день для мужчин. Если у вас проблемы с сердцем или почками, не увеличивайте потребление жидкости, не посоветовавшись предварительно с врачом. Помните, что диетическая сода может быть без калорий, но не без последствий, как мы узнали в разделе «Низкий уровень добавленного сахара».	
+
+daily_ginger[heading]	tweakDailyGinger[heading]	Ground Ginger (1 tsp) or Cayenne Pepper (½ tsp)	Молотый имбирь (1 чайная ложка) или кайенский перец (½ чайной ложки)	
+daily_ginger[short]	tweakDailyGinger[short]	Ground Ginger (1 tsp) or Cayenne Pepper (½ tsp)	Молотый имбирь (1 чайная ложка) или кайенский перец (½ чайной ложки)	
+daily_ginger[text]	tweakDailyGinger[text]	Randomized controlled trials have found that ¼ teaspoon to 1½ teaspoons a day of ground ginger significantly decreased body weight for just pennies a day. It can be as easy as stirring the ground spice into a cup of hot water. Note: Ginger may work better in the morning than evening. Chai tea is a tasty way to combine the green tea and ginger tricks into a single beverage. Alternately, for BAT activation, you can add one raw jalapeño pepper or a half teaspoon of red pepper powder (or, presumably, crushed red pepper flakes) into your daily diet. To help beat the heat, you can very thinly slice or finely chop the jalapeño to reduce its bite to little prickles, or mix the red pepper into soup or the whole-food vegetable smoothie I featured in one of my cooking videos on NutritionFacts.org.	Рандомизированные контролируемые испытания показали, что ¼ чайной ложки на 1 ½ чайной ложки молотого имбиря в день значительно снижает массу тела всего на копейки в день. Это может быть так же просто, как размешать молотую специю в чашке с горячей водой. Примечание: имбирь может работать лучше утром, чем вечером. Чай Чай - вкусный способ объединить уловки зеленого чая и имбиря в один напиток. Кроме того, для активации BAT вы можете добавить в свой ежедневный рацион один сырой перец халапеньо или половину чайной ложки порошка красного перца (или, по-видимому, измельченные хлопья красного перца). Чтобы помочь справиться с жарой, вы можете очень тонко нарезать или мелко нарезать халапеньо, чтобы уменьшить его прикус до маленьких колючек, или смешать красный перец с супом или с овощным смузи из цельных продуктов, которые я показывал в одном из моих кулинарных видео на NutritionFacts.org. ,	
+app_name	DJR-bj-qUq.text	Daily Dozen	Daily Dozen	"""Daily Dozen"" application name"
+welcome_to_my_daily_dozen	19L-gq-W5M.text	Welcome to my Daily Dozen!	Welcome to my Daily Dozen!	
+activity_welcome_text	dwQ-CS-gz3.text	Use this app on a daily basis to keep track of the foods and advice I recommend for optimal health and longevity in my books How Not to Die and How Not to Diet.	Use this app on a daily basis to keep track of the foods and advice I recommend for optimal health and longevity in my books How Not to Die and How Not to Diet.	
+	gX5-vX-xBe.text	version 3.2.1	version 3.2.1	Application release version
+for_health_alone	atR-un-jgX.text	For Health Alone	For Health Alone	
+daily_dozen_only	ReM-AP-Fpp.normalTitle	Daily Dozen Only	Daily Dozen Only	
+for_health_and_weight_loss	OdG-YQ-lT8.text	For Health and Weight Loss	For Health and Weight Loss	
+daily_dozen_and_tweaks	Lef-Iw-Ywr.normalTitle	Daily Dozen + 21 Tweaks	Daily Dozen + 21 Tweaks	
+videos	xcg-0a-oqY.normalTitle	VIDEOS	VIDEOS	Keyword for link to video topics
+imperial		metric	metric	
+metric		imperial	imperial	
+	1K3-d9-Hfb.normalTitle	METRIC	METRIC	
+	M75-CQ-NVP.normalTitle	METRIC	METRIC	
+	1K3-d9-Hfb.normalTitle	METRIC	METRIC	
+	M75-CQ-NVP.normalTitle	METRIC	METRIC	
+	RLb-GV-4hh.segmentTitles[0]	Imperial	Imperial	"Part of ""Imperial/Metric/Toggle Units"" selector"
+	RLb-GV-4hh.segmentTitles[1]	Metric	Metric	"Part of ""Imperial/Metric/Toggle Units"" selector"
+	RLb-GV-4hh.segmentTitles[2]	Toggle Units	Toggle Units	"Part of ""Imperial/Metric/Toggle Units"" selector"
+units	3bd-8h-kcX.text	Units:	Units:	
+serving_sizes	eU6-je-hVN.text	Serving Sizes	Serving Sizes	
+types	YVI-sV-TDX.text	Types	Types	
+units	kho-9G-OWe.text	Units:	Units:	
+	YVI-sV-TDA.text	Activity	Activity	
+	YVI-sV-TDD.text	Description	Description	
+servings_all	S0Q-oB-VgE.text	All servings	All servings	
+servings_some	jBv-4d-ofX.text	Some servings	Some servings	
+history	sLd-Kq-bLv.text	History	History	
+latest_videos	uxH-8I-ydF.text	Latest Videos	Latest Videos	
+	zQy-Dn-WXM.text	Book: How Not to Die	Book: How Not to Die	
+	Cxo-5D-YUZ.text	Book: How Not to Die Cookbook	Book: How Not to Die Cookbook	
+	MWr-7S-G8N.text	Book: How Not to Diet	Book: How Not to Diet	
+daily_dozen_challenge	beF-Xl-TAq.text	Daily Dozen Challenge	Daily Dozen Challenge	
+donate	mqA-Vp-LZ7.text	Donate	Donate	
+subscribe	dRO-1W-3EK.text	Subscribe	Subscribe	
+open_source	qVR-SQ-jmS.text	Open Source	Open Source	
+about	qGY-wh-1gB.text	About	About	
+servings	1HM-mL-ZV9.text	Servings	Servings	
+out_of		out of	out of	"Part of ""0 out of 24"""
+format_num_days		%d days	%d days	Formatted string %d days
+	cW5-dD-Zy0.text	100 days	100 days	
+twenty_one_tweaks	5po-De-kCi.text	21 Tweaks	21 Tweaks	
+	NPC-if-gUf.text	0 / 37	0 / 37	
+format_num_days	Vbn-R9-kuu.text	100 days	100 days	
+back_to_today	7XY-Lo-Hwf.normalTitle	Back to today	Back to today	
+back_to_today	Qfe-bW-SP4.normalTitle	 Back to today	Back to today	
+back_to_today	OIQ-oh-3QN.normalTitle	 Back to today	 Back to today	
+	OC8-wt-JgC.normalTitle	Today	Today	
+	iHh-5a-01X.normalTitle	Today	Today	
+	6FY-X2-BdZ.normalTitle	Today	Today	
+	W2v-Cp-vcd.text	Supplements	Supplements	
+	Ebp-Lw-fWk.normalTitle	Advanced Utilities		
+				
+	IFs-g0-SPV.headerTitle	Measurement Units		
+	IFs-g0-SPV.footerTitle	Set to always be one unit type or enable the 'Units:' toggle button.	Set to always be one unit type or enable the 'Units:' toggle button.	
+	WdR-XV-IyP.headerTitle	21 Tweak Visibility	21 Tweak Visibility	
+daily_dozen_only	OZO-Xa-v5G.segmentTitles[0]	Daily Dozen Only	Daily Dozen Only	
+daily_dozen_and_tweaks	OZO-Xa-v5G.segmentTitles[1]	Daily Dozen + 21 Tweak	Daily Dozen + 21 Tweak	
+	WdR-XV-IyP.footerTitle	"For health alone, use ""Daily Dozen Only"". For health and weight loss use ""Daily Dozen + 21 Tweaks""."	"For health alone, use ""Daily Dozen Only"". For health and weight loss use ""Daily Dozen + 21 Tweaks""."	
+daily_reminder_title		Daily Dozen Reminder	Daily Dozen Reminder	
+	GiY-ao-2ee.headerTitle	Daily Reminder	Daily Reminder	
+daily_reminder_settings		Daily Reminder Settings		
+	itH-G7-Kal.text	Enable Reminders		
+	XFw-2q-BdT.text	On	On	"""On"" as in ""On or Off"""
+enable_daily_reminder		Enable Daily Reminders	Enable Daily Reminders	On/Off toggle label
+	pjz-An-Ls5.text	Enable Reminders	Enable Reminders	On/Off toggle label
+remind_me_at	kR3-Sa-Fpt.text	Remind me at:	Remind me at:	
+play_sound	YP6-dP-Y62.text	Play Sound	Play Sound	
+	NRG-eE-YhG.normalTitle	Clear	Clear	
+	7l0-os-Oqt.normalTitle	Clear	Clear	
+	Tgz-om-dEk.text	Weight (lbs)	Weight (lbs)	
+	8ed-5m-QMc.text	Weight (lbs)	Weight (lbs)	
+	FBJ-Im-BZk.text	Time	Time	
+	g3G-kp-d2S.text	Time	Time	
+	xCp-N8-5Uc.text	Morning (upon waking)	Morning (upon waking)	
+	77g-xa-ali.text	Evening (right before bed)	Evening (right before bed)	
+time_scale	27q-rq-qbu.text	Time Scale	Time Scale	
+time_scale	XdW-g4-ZUO.text	Time Scale	Time Scale	
+time_scale	v2E-Ao-OVz.text	Time Scale	Time Scale	
+	nRL-iG-Wnd.text	Month	Month	
+	UCg-Rc-mLf.text	Month	Month	
+	lTR-i5-Tn0.text	Month	Month	
+servings_time_scale_choices[0]	sM6-A9-KeP.segmentTitles[0]	Day	Day	Calendar view scale control
+servings_time_scale_choices[1]	sM6-A9-KeP.segmentTitles[1]	Month	Month	Calendar view scale control
+servings_time_scale_choices[2]	sM6-A9-KeP.segmentTitles[2]	Year	Year	Calendar view scale control
+servings_time_scale_choices[0]	vXy-0q-Ind.segmentTitles[0]	Day	Day	Calendar view scale control
+servings_time_scale_choices[1]	vXy-0q-Ind.segmentTitles[1]	Month	Month	Calendar view scale control
+servings_time_scale_choices[2]	vXy-0q-Ind.segmentTitles[2]	Year	Year	Calendar view scale control
+servings_time_scale_choices[0]	fcu-ZA-byN.segmentTitles[0]	Day	Day	Calendar view scale control
+servings_time_scale_choices[1]	fcu-ZA-byN.segmentTitles[1]	Month	Month	Calendar view scale control
+servings_time_scale_choices[2]	fcu-ZA-byN.segmentTitles[2]	Year	Year	Calendar view scale control
+	8ed-5m-QMc.text	Weight (lbs.)	Weight (lbs.)	
+	XYD-fX-adn.normalTitle	Edit Data	Edit Data	
+	NSHealthShareUsageDescription	The 21 Tweaks feature accesses your HealthKit data to provide updates to your daily weight measurements.	The 21 Tweaks feature accesses your HealthKit data to provide updates to your daily weight measurements.	
+	NSHealthUpdateUsageDescription	The 21 Tweaks feature can write weight data to HealthKit to help you keep track of your progress.	The 21 Tweaks feature can write weight data to HealthKit to help you keep track of your progress.	
+
