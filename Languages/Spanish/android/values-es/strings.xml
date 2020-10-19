@@ -25,9 +25,21 @@
     <string name="about">Conócenos</string>
     <string name="about_this_app">Sobre esta app</string>
     <string name="latest_videos">Videos más recientes</string>
+    <string name="url_latest_videos">http://nutritionfacts.org/es/videos/</string>
+    <string name="title_how_not_to_die">Comer para no morir</string>
+    <string name="url_how_not_to_die">https://nutritionfacts.org/es/comer-para-no-morir/</string>
+    <string name="title_cookbook">Libro de recetas</string>
+    <string name="url_cookbook">https://nutritionfacts.org/es/libro-de-recetas/</string>
+    <string name="title_how_not_to_diet">How Not to Diet</string>
+    <string name="url_how_not_to_diet">https://nutritionfacts.org/how-not-to-diet/</string>
+    <string name="daily_dozen_challenge">Objetivo Docena Diaria</string>
+    <string name="url_daily_dozen_challenge">https://nutritionfacts.org/es/objetivo-la-docena-diaria/</string>
     <string name="donate">Donación</string>
+    <string name="url_donate">https://nutritionfacts.org/es/dona-a-nutritionfacts-org/</string>
     <string name="subscribe">Suscríbete</string>
+    <string name="url_subscribe">https://nutritionfacts.org/es/suscribete/</string>
     <string name="open_source">Código abierto</string>
+    <string name="url_open_source">https://nutritionfacts.org/es/open-source/</string>
     <string name="library_butterknife">ButterKnife</string>
     <string name="permission_needed_to_write_storage">No puedes hacer copias de seguridad si no tienes permiso para guardarlas en el disco duro.</string>
     <string name="backup_failed">Copia de seguridad fallida</string>
@@ -610,6 +622,29 @@
     <string name="task_loading_weights_history_title">Cargando historial de peso</string>
     <string name="morning">Mañana</string>
     <string name="evening">Noche</string>
+    
+    <!--
+    NOTE: These strings are used to created the url to take the user to the overall food videos page. 
+    These strings are not be literial language translations.
+    These strings must be valid existing url addition to "http://nutritionfacts.org/".
+    If the language is not present on nutritionfacts.org, then the default English url is used.
+    -->
+    <string name="food_info_videos_beans">es/topics/legumbres-es</string>
+    <string name="food_info_videos_berries">es/topics/bayas-es</string>
+    <string name="food_info_videos_fruits">es/topics/fruta</string>
+    <string name="food_info_videos_cruciferous">es/topics/vegetales-cruciferos</string>
+    <string name="food_info_videos_greens">es/topics/verduras</string>
+    <string name="food_info_videos_vegetables">es/topics/vegetales</string>
+    <string name="food_info_videos_flaxseeds">es/topics/semillas-de-linaza</string>
+    <string name="food_info_videos_nuts">es/topics/nueces</string>
+    <string name="food_info_videos_spices">es/topics/especias</string>
+    <string name="food_info_videos_whole_grains">es/topics/granos</string>
+    <string name="food_info_videos_beverages">es/topics/bebidas/</string>
+    <string name="food_info_videos_exercise">es/topics/ejercicio</string>
+    <string name="food_info_videos_vitamin_b12">es/topics/vitamina-b12</string>
+    <string name="food_info_videos_vitamin_d">es/topics/suplementos-de-vitamina-d</string>
+    <string name="food_info_videos_omega3">es/topics/acidos-grasos-omega-3</string>
+    
     <string name="weight">Peso</string>
     <string name="tweak_group_meal">En cada comida</string>
     <string name="tweak_group_daily">Todos los días</string>
@@ -690,5 +725,207 @@
     <string name="for_health_alone">Solo para ganar salud</string>
     <string name="daily_dozen_and_tweaks">Docena Diaria y 21 potenciadores</string>
     <string name="daily_dozen_only">Solo Docena Diaria</string>
+
+    <!--
+    NOTE: These strings are used to created the url to take the user to the overall food videos page. 
+    These strings are to not be literial language translations.
+    These strings must be valid existing url addition to "http://nutritionfacts.org/".
+    If the language is not present on nutritionfacts.org, then the default English url is used.
+    -->
+    <string-array name="food_videos_beans">
+        <item/>
+        <item>es/topics/garbanzos</item>
+        <item>es/topics/edamame</item>
+        <item/>
+        <item>es/topics/garbanzo</item>
+        <item/>
+        <item>es/topics/frijoles-rojos</item>
+        <item>/es/topics/lentejas</item>
+        <item>es/topics/miso-es</item>
+        <item>es/topics/frijoles-blancos</item>
+        <item>es/topics/frijoles-pintos</item>
+        <item/>
+        <item>es/topics/guisantes-partidos</item>
+        <item>es/topics/tempeh-es</item>
+    </string-array>
+
+    <string-array name="food_videos_berries">    
+        <item>/es/topics/bayas-de-acai-es</item>
+        <item>es/topics/berberos-es</item>
+        <item>es/topics/moras</item>
+        <item>es/topics/arandanos-azules</item>
+        <item>es/topics/cerezas</item>
+        <item>es/topics/uvas-de-concordia-es</item>
+        <item>es/topics/arandanos-es</item>
+        <item>es/topics/goji</item>
+        <item/>
+        <item/>
+        <item>es/topics/frambuesas</item>
+        <item>es/topics/fresas</item>
+    </string-array>
+    
+    <string-array name="food_videos_other_fruits">
+        <item>es/topics/manzanas</item>
+        <item>es/topics/albaricoques</item>
+        <item>es/topics/aguacates</item>
+        <item>es/topics/bananos</item>
+        <item>es/topics/melon</item>
+        <item/>
+        <item>es/topics/datiles</item>
+        <item>es/topics/higos</item>
+        <item>es/topics/toronja</item>
+        <item/>
+        <item>es/topics/kiwi</item>
+        <item>topics/lemons</item>
+        <item>es/topics/limas</item>
+        <item/>
+        <item>es/topics/mango-es</item>
+        <item/>
+        <item>es/topics/naranjas</item>
+        <item>es/topics/papaya-es</item>
+        <item/>
+        <item>es/topics/duraznos-es</item>
+        <item>es/topics/peras-es</item>
+        <item>/es/topics/pinas</item>
+        <item>es/topics/ciruelas</item>
+        <item/>
+        <item>es/topics/granadas</item>
+        <item>es/topics/ciruelas-pasas</item>
+        <item/>
+        <item>es/topics/sandia</item>
+    </string-array>
+    
+    <string-array name="food_videos_cruciferous_vegetables">
+        <item/>
+        <item>es/topics/bok-choy-es</item>
+        <item>es/topics/brocoli</item>
+        <item>es/topics/coles-bruselas</item>
+        <item>es/topics/repollo</item>
+        <item>es/topics/coliflor</item>
+        <item>es/topics/acelgas-es</item>
+        <item/>
+        <item>es/topics/col-rizada-es</item>
+        <item>es/topics/colinabo</item>
+        <item>es/topics/hojas-de-mostaza</item>
+        <item>es/topics/rabanos</item>
+        <item>es/topics/nabos</item>
+        <item>es/topics/berros-es</item>
+    </string-array>
+    
+    <string-array name="food_videos_greens">
+        <item/>
+        <item>es/topics/hojas-de-remolacha-es</item>
+        <item/>
+        <item>es/topics/col-rizada-es</item>
+        <item>es/topics/ensalada-mesclun-es</item>
+        <item>es/topics/hojas-de-mostaza</item>
+        <item/>
+        <item>es/topics/espinaca</item>
+        <item>es/topics/acelga-es</item>
+        <item>es/topics/nabos</item>
+    </string-array>
+
+    <string-array name="food_videos_other_vegetables">
+        <item>es/topics/alcachofas</item>
+        <item>es/topics/esparragos</item>
+        <item>es/topics/remolachas-es</item>
+        <item>es/topics/pimientos</item>
+        <item>es/topics/zanahorias</item>
+        <item>es/topics/maiz</item>
+        <item>es/topics/ajo</item>
+        <item>es/topics/champinones</item>
+        <item>es/topics/okra-es</item>
+        <item>es/topics/cebollas</item>
+        <item>es/topics/patatas-moradas</item>
+        <item>es/topics/calabaza</item>
+        <item>es/topics/vegetales-marinos</item>
+        <item/>
+        <item>es/topics/calabaza-es</item>
+        <item>es/topics/camotes</item>
+        <item>es/topics/tomates</item>
+        <item>es/topics/calabacin-es</item>
+    </string-array>
+
+    <string-array name="food_videos_nuts">
+        <item>es/topics/almendras</item>
+        <item>es/topics/nueces-de-brasil-es</item>
+        <item>es/topics/anacardos</item>
+        <item>es/topics/semillas-de-chia</item>
+        <item>es/topics/avellanas-es</item>
+        <item/>
+        <item>es/topics/nueces-de-macadamia</item>
+        <item>es/topics/nuez-pecana</item>
+        <item>es/topics/pistachos</item>
+        <item>es/topics/semillas-de-calabaza</item>
+        <item>es/topics/ajonjoli</item>
+        <item>es/topics/semillas-de-girasol</item>
+        <item>es/topics/nueces-es</item>
+    </string-array>
+    
+    <string-array name="food_videos_spices">
+        <item/>
+        <item>es/topics/berberos-es</item>
+        <item>es/topics/albahaca</item>
+        <item/>
+        <item>es/topics/cardamomo</item>
+        <item/>
+        <item>es/topics/cilantro-es</item>
+        <item>es/topics/canela</item>
+        <item>es/topics/clavos-de-olor</item>
+        <item>es/topics/cilantro-es-2</item>
+        <item>es/topics/comino</item>
+        <item>es/topics/curry-en-polvo</item>
+        <item/>
+        <item>es/topics/fenogreco</item>
+        <item>es/topics/ajo</item>
+        <item>es/topics/jengibre</item>
+        <item/>
+        <item>es/topics/limoncillo-es</item>
+        <item>es/topics/mejorana</item>
+        <item>es/topics/mostaza-en-polvo</item>
+        <item>es/topics/nuez-moscada</item>
+        <item>es/topics/oregano-es</item>
+        <item/>
+        <item>es/topics/perejil</item>
+        <item>es/topics/pimienta</item>
+        <item>es/topics/menta-es</item>
+        <item>es/topics/romero</item>
+        <item>es/topics/azafran</item>
+        <item/>
+        <item>es/topics/tomillo</item>
+        <item>es/topics/curcuma</item>
+        <item/>
+    </string-array>
+
+    <string-array name="food_videos_whole_grains">
+        <item>es/topics/cebada</item>
+        <item>es/topics/trigo-sarraceno</item>
+        <item>es/topics/mijo</item>
+        <item>es/topics/avena-es</item>
+        <item>es/topics/palomitas-de-maiz</item>
+        <item>es/topics/quinoa-es</item>
+        <item>es/topics/centeno</item>
+        <item>es/topics/teff-es</item>
+        <item>es/topics/pasta-es</item>
+    </string-array>
+
+    <string-array name="food_videos_beverages">
+        <item>es/topics/te-negro</item>
+        <item>es/topics/te-chai</item>
+        <item>es/topics/te-de-manzanilla</item>
+        <item>es/topics/cafe</item>
+        <item>es/topics/te-earl-grey-es</item>
+        <item>es/topics/te-verde</item>
+        <item>es/topics/hibiscus-tea-es</item>
+        <item/>
+        <item>es/topics/te-de-jasmin</item>
+        <item/>
+        <item>es/topics/matcha-es</item>
+        <item>es/topics/te-oolong-es</item>
+        <item/>
+        <item>es/topics/te-rooibos-es</item>
+        <item>es/topics/agua</item>
+        <item>es/topics/te-blanco</item>
+    </string-array>
 
 </resources>

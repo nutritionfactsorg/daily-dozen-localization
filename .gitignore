@@ -2,6 +2,7 @@
 
 ## place for local-only notes.
 *__LOCAL
+*.numbers
 
 #################
 ## Apple macOS ##

@@ -25,23 +25,23 @@
     <string name="about">About</string>
     <string name="about_this_app">About this app</string>
     <string name="latest_videos">Latest Videos</string>
-    <string name="url_latest_videos" translatable="false">http://nutritionfacts.org/videos/</string>
-    <string name="title_how_not_to_die" translatable="false">How Not to Die</string>
-    <string name="url_how_not_to_die" translatable="false">http://nutritionfacts.org/book/</string>
-    <string name="title_cookbook" translatable="false">Cookbook</string>
-    <string name="url_cookbook" translatable="false">https://nutritionfacts.org/cookbook/</string>
-    <string name="title_how_not_to_diet" translatable="false">How Not to Diet</string>
-    <string name="url_how_not_to_diet" translatable="false">https://nutritionfacts.org/how-not-to-diet/</string>
-    <string name="daily_dozen_challenge" translatable="false">Daily Dozen Challenge</string>
-    <string name="url_daily_dozen_challenge" translatable="false">https://nutritionfacts.org/daily-dozen-challenge/</string>
+    <string name="url_latest_videos">http://nutritionfacts.org/videos/</string>
+    <string name="title_how_not_to_die">How Not to Die</string>
+    <string name="url_how_not_to_die">https://nutritionfacts.org/book/how-not-to-die/</string>
+    <string name="title_cookbook">Cookbook</string>
+    <string name="url_cookbook">https://nutritionfacts.org/book/how-not-to-die-cookbook/</string>
+    <string name="title_how_not_to_diet">How Not to Diet</string>
+    <string name="url_how_not_to_diet">https://nutritionfacts.org/how-not-to-diet/</string>
+    <string name="daily_dozen_challenge">Daily Dozen Challenge</string>
+    <string name="url_daily_dozen_challenge">https://nutritionfacts.org/daily-dozen-challenge/</string>
     <string name="donate">Donate</string>
-    <string name="url_donate" translatable="false">https://nutritionfacts.org/donate/</string>
+    <string name="url_donate">https://nutritionfacts.org/donate/</string>
     <string name="subscribe">Subscribe</string>
-    <string name="url_subscribe" translatable="false">http://nutritionfacts.org/subscribe/</string>
+    <string name="url_subscribe">https://nutritionfacts.org/subscribe/</string>
     <string name="open_source">Open Source</string>
-    <string name="url_open_source" translatable="false">http://nutritionfacts.org/open-source/</string>
+    <string name="url_open_source">http://nutritionfacts.org/open-source/</string>
     <string name="nutritionfacts_title" translatable="false">nutritionfacts.org</string>
-    <string name="url_nutritionfacts" translatable="false">http://nutritionfacts.org</string>
+    <string name="url_nutritionfacts" translatable="false">https://nutritionfacts.org</string>
     <string name="name_john_slavick" translatable="false">John Slavick</string>
     <string name="url_john_slavick" translatable="false">http://johnslavick.com</string>
     <string name="library_activeandroid" translatable="false">ActiveAndroid</string>
@@ -205,25 +205,35 @@
     <string name="daily_dozen_and_tweaks">Daily Dozen + 21 Tweaks</string>
     <string name="daily_dozen_only">Daily Dozen Only</string>
 
+    <string name="theme" translatable="false">Theme</string>
+    <string-array name="theme_options" translatable="false">
+        <item>System Default</item>
+        <item>Light</item>
+        <item>Dark</item>
+    </string-array>
+
     <!--
-    NOTE: These strings are used to created the url to take the user to the overall food videos page. These strings
-    must not be translated.
+    NOTE: These strings are used to created the url to take the user to the overall food videos page. 
+    These strings are to not be literial language translations.
+    These strings must be valid existing url addition to "http://nutritionfacts.org/".
+    If the language is not present on nutritionfacts.org, then the default English url is used.
     -->
-    <string name="food_info_videos_beans" translatable="false">beans</string>
-    <string name="food_info_videos_berries" translatable="false">berries</string>
-    <string name="food_info_videos_fruits" translatable="false">fruit</string>
-    <string name="food_info_videos_cruciferous" translatable="false">cruciferous-vegetables</string>
-    <string name="food_info_videos_greens" translatable="false">greens</string>
-    <string name="food_info_videos_vegetables" translatable="false">vegetables</string>
-    <string name="food_info_videos_flaxseeds" translatable="false">flax-seeds</string>
-    <string name="food_info_videos_nuts" translatable="false">nuts</string>
-    <string name="food_info_videos_spices" translatable="false">spices</string>
-    <string name="food_info_videos_whole_grains" translatable="false">grains</string>
-    <string name="food_info_videos_beverages" translatable="false">beverages</string>
-    <string name="food_info_videos_exercise" translatable="false">exercise</string>
-    <string name="food_info_videos_vitamin_b12" translatable="false">vitamin-b12</string>
-    <string name="food_info_videos_vitamin_d" translatable="false">vitamin-d-supplements</string>
-    <string name="food_info_videos_omega3" translatable="false">omega-3-fatty-acids</string>
+    <string name="food_info_videos_beans">topics/beans</string>
+    <string name="food_info_videos_berries">topics/berries</string>
+    <string name="food_info_videos_fruits">topics/fruit</string>
+    <string name="food_info_videos_cruciferous">topics/cruciferous-vegetables</string>
+    <string name="food_info_videos_greens">topics/greens</string>
+    <string name="food_info_videos_vegetables">topics/vegetables</string>
+    <string name="food_info_videos_flaxseeds">topics/flax-seeds</string>
+    <string name="food_info_videos_nuts">topics/nuts</string>
+    <string name="food_info_videos_spices">topics/spices</string>
+    <string name="food_info_videos_whole_grains">topics/grains</string>
+    <string name="food_info_videos_beverages">topics/beverages</string>
+    <string name="food_info_videos_exercise">topics/exercise</string>
+    <string name="food_info_videos_vitamin_b12">topics/vitamin-b12</string>
+    <string name="food_info_videos_vitamin_d">topics/vitamin-d-supplements</string>
+    <string name="food_info_videos_omega3">topics/omega-3-fatty-acids</string>
+    
     <string name="weight">Weight</string>
     <string name="tweak_group_meal">At Each Meal</string>
     <string name="tweak_group_daily">Every Day</string>
@@ -857,203 +867,209 @@
         <item/>
     </string-array>
 
-    <string-array name="food_videos_beans" translatable="false">
-        <item>black-beans</item>
+    <!--
+    NOTE: These strings are used to created the url to take the user to the overall food videos page. 
+    These strings are to not be literial language translations.
+    These strings must be valid existing url addition to "http://nutritionfacts.org/".
+    If the language is not present on nutritionfacts.org, then the default English url is used.
+    -->
+    <string-array name="food_videos_beans">
+        <item>topics/black-beans</item>
         <item/>
         <item/>
         <item/>
-        <item>chickpeas</item>
-        <item>edamame</item>
+        <item>topics/chickpeas</item>
+        <item>topics/edamame</item>
         <item/>
-        <item>garbanzo-beans</item>
+        <item>topics/garbanzo-beans</item>
         <item/>
-        <item>kidney-beans</item>
-        <item>lentils</item>
-        <item>miso</item>
-        <item>navy-beans</item>
-        <item>pinto-beans</item>
+        <item>topics/kidney-beans</item>
+        <item>topics/lentils</item>
+        <item>topics/miso</item>
+        <item>topics/navy-beans</item>
+        <item>topics/pinto-beans</item>
         <item/>
-        <item>split-peas</item>
-        <item>tempeh</item>
+        <item>topics/split-peas</item>
+        <item>topics/tempeh</item>
     </string-array>
 
-    <string-array name="food_videos_berries" translatable="false">
-        <item>acai-berries</item>
-        <item>barberries</item>
-        <item>blackberries</item>
-        <item>blueberries</item>
-        <item>cherries</item>
-        <item>concord-grapes</item>
-        <item>cranberries</item>
-        <item>goji-berries</item>
+    <string-array name="food_videos_berries">
+        <item>topics/acai-berries</item>
+        <item>topics/barberries</item>
+        <item>topics/blackberries</item>
+        <item>topics/blueberries</item>
+        <item>topics/cherries</item>
+        <item>topics/concord-grapes</item>
+        <item>topics/cranberries</item>
+        <item>topics/goji-berries</item>
         <item/>
         <item/>
-        <item>raspberries</item>
-        <item>strawberries</item>
+        <item>topics/raspberries</item>
+        <item>topics/strawberries</item>
     </string-array>
 
-    <string-array name="food_videos_other_fruits" translatable="false">
-        <item>apples</item>
-        <item>apricots</item>
-        <item>avocados</item>
-        <item>bananas</item>
-        <item>cantaloupe</item>
+    <string-array name="food_videos_other_fruits">
+        <item>topics/apples</item>
+        <item>topics/apricots</item>
+        <item>topics/avocados</item>
+        <item>topics/bananas</item>
+        <item>topics/cantaloupe</item>
         <item/>
-        <item>dates</item>
-        <item>figs</item>
-        <item>grapefruit</item>
+        <item>topics/dates</item>
+        <item>topics/figs</item>
+        <item>topics/grapefruit</item>
         <item/>
-        <item>kiwifruit</item>
-        <item>lemons</item>
-        <item>limes</item>
+        <item>topics/kiwifruit</item>
+        <item>topics/lemons</item>
+        <item>topics/limes</item>
         <item/>
-        <item>mango</item>
+        <item>topics/mango</item>
         <item/>
-        <item>oranges</item>
-        <item>papaya</item>
+        <item>topics/oranges</item>
+        <item>topics/papaya</item>
         <item/>
-        <item>peaches</item>
-        <item>pears</item>
-        <item>pineapples</item>
-        <item>plums</item>
+        <item>topics/peaches</item>
+        <item>topics/pears</item>
+        <item>topics/pineapples</item>
+        <item>topics/plums</item>
         <item/>
-        <item>pomegranates</item>
-        <item>prunes</item>
+        <item>topics/pomegranates</item>
+        <item>topics/prunes</item>
         <item/>
-        <item>watermelon</item>
+        <item>topics/watermelon</item>
     </string-array>
 
-    <string-array name="food_videos_cruciferous_vegetables" translatable="false">
+    <string-array name="food_videos_cruciferous_vegetables">
         <item/>
-        <item>bok-choy</item>
-        <item>broccoli</item>
-        <item>brussels-sprouts</item>
-        <item>cabbage</item>
-        <item>cauliflower</item>
-        <item>collard-greens</item>
+        <item>topics/bok-choy</item>
+        <item>topics/broccoli</item>
+        <item>topics/brussels-sprouts</item>
+        <item>topics/cabbage</item>
+        <item>topics/cauliflower</item>
+        <item>topics/collard-greens</item>
         <item/>
-        <item>kale</item>
-        <item>kohlrabi</item>
-        <item>mustard-greens</item>
-        <item>radishes</item>
-        <item>turnips</item>
-        <item>watercress</item>
+        <item>topics/kale</item>
+        <item>topics/kohlrabi</item>
+        <item>topics/mustard-greens</item>
+        <item>topics/radishes</item>
+        <item>topics/turnips</item>
+        <item>topics/watercress</item>
     </string-array>
 
-    <string-array name="food_videos_greens" translatable="false">
+    <string-array name="food_videos_greens">
         <item/>
-        <item>beet-greens</item>
-        <item>collard-greens</item>
-        <item>kale</item>
-        <item>mesclun-mix</item>
-        <item>mustard-greens</item>
+        <item>topics/beet-greens</item>
+        <item>topics/collard-greens</item>
+        <item>topics/kale</item>
+        <item>topics/mesclun-mix</item>
+        <item>topics/mustard-greens</item>
         <item/>
-        <item>spinach</item>
-        <item>swiss-chard</item>
-        <item>turnips</item>
+        <item>topics/spinach</item>
+        <item>topics/swiss-chard</item>
+        <item>topics/turnips</item>
     </string-array>
 
-    <string-array name="food_videos_other_vegetables" translatable="false">
-        <item>artichokes</item>
-        <item>asparagus</item>
-        <item>beets</item>
-        <item>bell-peppers</item>
-        <item>carrots</item>
-        <item>corn</item>
-        <item>garlic</item>
-        <item>mushrooms</item>
-        <item>okra</item>
-        <item>onions</item>
-        <item>purple-potatoes</item>
-        <item>pumpkin</item>
-        <item>sea-vegetables</item>
+    <string-array name="food_videos_other_vegetables">
+        <item>topics/artichokes</item>
+        <item>topics/asparagus</item>
+        <item>topics/beets</item>
+        <item>topics/bell-peppers</item>
+        <item>topics/carrots</item>
+        <item>topics/corn</item>
+        <item>topics/garlic</item>
+        <item>topics/mushrooms</item>
+        <item>topics/okra</item>
+        <item>topics/onions</item>
+        <item>topics/purple-potatoes</item>
+        <item>topics/pumpkin</item>
+        <item>topics/sea-vegetables</item>
         <item/>
-        <item>squash</item>
-        <item>sweet-potatoes</item>
-        <item>tomatoes</item>
-        <item>zucchini</item>
+        <item>topics/squash</item>
+        <item>topics/sweet-potatoes</item>
+        <item>topics/tomatoes</item>
+        <item>topics/zucchini</item>
     </string-array>
 
-    <string-array name="food_videos_nuts" translatable="false">
-        <item>almonds</item>
-        <item>brazil-nuts</item>
-        <item>cashews</item>
-        <item>chia-seeds</item>
-        <item>hazelnuts</item>
+    <string-array name="food_videos_nuts">
+        <item>topics/almonds</item>
+        <item>topics/brazil-nuts</item>
+        <item>topics/cashews</item>
+        <item>topics/chia-seeds</item>
+        <item>topics/hazelnuts</item>
         <item/>
-        <item>macadamia-nuts</item>
-        <item>pecans</item>
-        <item>pistachios</item>
-        <item>pumpkin-seeds</item>
-        <item>sesame-seeds</item>
-        <item>sunflower-seeds</item>
-        <item>walnuts</item>
+        <item>topics/macadamia-nuts</item>
+        <item>topics/pecans</item>
+        <item>topics/pistachios</item>
+        <item>topics/pumpkin-seeds</item>
+        <item>topics/sesame-seeds</item>
+        <item>topics/sunflower-seeds</item>
+        <item>topics/walnuts</item>
     </string-array>
 
-    <string-array name="food_videos_spices" translatable="false">
-        <item>allspice</item>
-        <item>barberries</item>
-        <item>basil</item>
+    <string-array name="food_videos_spices">
+        <item>topics/allspice</item>
+        <item>topics/barberries</item>
+        <item>topics/basil</item>
         <item/>
-        <item>cardamom</item>
+        <item>topics/cardamom</item>
         <item/>
-        <item>cilantro</item>
-        <item>cinnamon</item>
-        <item>cloves</item>
-        <item>coriander</item>
-        <item>cumin</item>
-        <item>curry-powder</item>
+        <item>topics/cilantro</item>
+        <item>topics/cinnamon</item>
+        <item>topics/cloves</item>
+        <item>topics/coriander</item>
+        <item>topics/cumin</item>
+        <item>topics/curry-powder</item>
         <item/>
-        <item>fenugreek</item>
-        <item>garlic</item>
-        <item>ginger</item>
+        <item>topics/fenugreek</item>
+        <item>topics/garlic</item>
+        <item>topics/ginger</item>
         <item/>
-        <item>lemongrass</item>
-        <item>marjoram</item>
-        <item>mustard-powder</item>
-        <item>nutmeg</item>
-        <item>oregano</item>
-        <item>paprika</item>
-        <item>parsley</item>
-        <item>pepper</item>
-        <item>peppermint</item>
-        <item>rosemary</item>
-        <item>saffron</item>
+        <item>topics/lemongrass</item>
+        <item>topics/marjoram</item>
+        <item>topics/mustard-powder</item>
+        <item>topics/nutmeg</item>
+        <item>topics/oregano</item>
+        <item>topics/paprika</item>
+        <item>topics/parsley</item>
+        <item>topics/pepper</item>
+        <item>topics/peppermint</item>
+        <item>topics/rosemary</item>
+        <item>topics/saffron</item>
         <item/>
-        <item>thyme</item>
-        <item>turmeric</item>
+        <item>topics/thyme</item>
+        <item>topics/turmeric</item>
         <item/>
     </string-array>
 
-    <string-array name="food_videos_whole_grains" translatable="false">
-        <item>barley</item>
-        <item>buckwheat</item>
-        <item>millet</item>
-        <item>oats</item>
-        <item>popcorn</item>
-        <item>quinoa</item>
-        <item>rye</item>
-        <item>teff</item>
-        <item>pasta</item>
+    <string-array name="food_videos_whole_grains">
+        <item>topics/barley</item>
+        <item>topics/buckwheat</item>
+        <item>topics/millet</item>
+        <item>topics/oats</item>
+        <item>topics/popcorn</item>
+        <item>topics/quinoa</item>
+        <item>topics/rye</item>
+        <item>topics/teff</item>
+        <item>topics/pasta</item>
     </string-array>
 
-    <string-array name="food_videos_beverages" translatable="false">
-        <item>black-tea</item>
-        <item>chai-tea</item>
-        <item>chamomile-tea</item>
-        <item>coffee</item>
-        <item>earl-grey-tea</item>
-        <item>green-tea</item>
-        <item>hibiscus-tea</item>
+    <string-array name="food_videos_beverages">
+        <item>topics/black-tea</item>
+        <item>topics/chai-tea</item>
+        <item>topics/chamomile-tea</item>
+        <item>topics/coffee</item>
+        <item>topics/earl-grey-tea</item>
+        <item>topics/green-tea</item>
+        <item>topics/hibiscus-tea</item>
         <item/>
-        <item>jasmine-tea</item>
-        <item>lemon-balm</item>
-        <item>matcha</item>
-        <item>oolong-tea</item>
+        <item>topics/jasmine-tea</item>
+        <item>topics/lemon-balm</item>
+        <item>topics/matcha</item>
+        <item>topics/oolong-tea</item>
         <item/>
-        <item>rooibos-tea</item>
-        <item>water</item>
-        <item>white-tea</item>
+        <item>topics/rooibos-tea</item>
+        <item>topics/water</item>
+        <item>topics/white-tea</item>
     </string-array>
 
 </resources>
