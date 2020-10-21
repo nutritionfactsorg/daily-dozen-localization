@@ -12,7 +12,7 @@
 _Base Development Language_
 
 | Language | Android | _Google Play_ | Apple | _App Binary_ | _App Store_ |
-|:------------|:---:|:----------:|:---:|:----------:|:----------:|
+|:------------|:---:|:---------:|:---:|:---------:|:-------------:|
 | [English_US][locale-en] | ✓  | [en][droid-en] | ✓ | `Base`, `en` | [Australia AU)][apple-en-au]<br>[Canada (CA)][apple-en-ca]<br>[Great Britain (GB)][apple-en-gb]<br>[USA (US)][apple-en-us] |
 
 [locale-en]:Languages/English_US/README.md
@@ -25,14 +25,14 @@ _Base Development Language_
 _App Localizations & Store Distribution_
 
 | Language | Android | _Google Play_ | Apple | _Apple<br>App Binary_ | _App Store<br>Region_ |
-|:------|:---:|:----:|:---:|:----:|:--------:|
+|:------|:---:|:-----:|:-----:|:------:|:-------------:|
 | [Afrikaans][locale-af]   |   | [af][droid-af]   |   | `af` | <!-- [Namibia (NA)][apple-af-NA]@en,<br>[South Africa (ZA)][apple-af-ZA]@en --> |
 | [Arabic][locale-ar]      |   | [ar][droid-ar]   |   | `ar` | [Egypt (ar-EG)][apple-ar-EG],<br>[Saudi Arabia (ar-SA)][apple-ar-SA], ... |
 | [Bhojpuri][locale-bho]   |   | [bho][droid-bho] |   |  --  | _(not available)_ |
 | [Bulgarian][locale-bg]   | ✓ | [bg][droid-bg]   |   | `bg` | [Bulgarian (BG)][apple-bg]
 | [Chinese_HongKong][locale-zh-HK]      |   | [zh-HK][droid-zh-HK]     |   | `zh-HK`   | [Hong Kong (HK)][apple-zh-HK]
-| [Chinese_Simplified][locale-zh-Hans]  |   | [zh-Hans][droid-zh-Hans] |   | `zh-Hans` | [China (CN)][apple-zh-Hans], [Singapore (SG)][apple-zh-Hans-SG]
-| [Chinese_Traditional][locale-zh-Hant] | ✓ | [zh-Hant][droid-zh-Hant] |   | `zh-Hant` | [Macau (MO)][apple-zh-Hant-MO], [Tiawan (TW)][apple-zh-Hant]
+| [Chinese_Simplified][locale-zh-Hans]  |   | [zh-Hans][droid-zh-Hans] |   | `zh-Hans` | [China (CN)][apple-zh-Hans],<br>[Singapore (SG)][apple-zh-Hans-SG]
+| [Chinese_Traditional][locale-zh-Hant] | ✓ | [zh-Hant][droid-zh-Hant] |   | `zh-Hant` | [Macau (MO)][apple-zh-Hant-MO],<br>[Tiawan (TW)][apple-zh-Hant]
 | [Czech][locale-cs]       |   | [cs][droid-cs] |   | `cs` | [Czech Republic (CZ)][apple-cs]
 | [Danish][locale-da]      |   | [da][droid-da] |   | `da` | [Denmark (DK)][apple-da]
 | [Dutch][locale-nl]       |   | [nl][droid-nl] |   | `nl` | [Netherlands (NL)][apple-nl]
@@ -142,12 +142,11 @@ _App Localizations & Store Distribution_
 [locale-fr]:Languages/French/README.md
 [droid-fr]:https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen&hl=fr
 [apple-fr]:https://apps.apple.com/fr/app/dr-gregers-daily-dozen/id1060700802
-[apple-fr-ca]:https://apps.apple.com/ca/app/dr-gregers-daily-dozen/id1060700802?l=fr
 
 <!-- French_Canada -->
 [locale-fr-CA]:Languages/French_Canada/README.md
 [droid-fr-CA]:https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen&hl=fr-CA
-[apple-fr-CA]:https://apps.apple.com/fr-CA/app/dr-gregers-daily-dozen/id1060700802
+[apple-fr-CA]:https://apps.apple.com/ca/app/dr-gregers-daily-dozen/id1060700802?l=fr
 
 <!-- Georgian -->
 [locale-ka]:Languages/Georgian/README.md
@@ -294,13 +293,15 @@ _App Localizations & Store Distribution_
 
 **Phase 1. Export.** The Android and Apple exported localization files are merged into a spreadsheet compatible Tab Separated Value (TSV) files.
 
-**Phase 2. Translation.** The Tab Separated Value (TSV) format and be convenient imported and exported with various popular spreadsheet programs for the translators' use.
+**Phase 2. Translation.** The Tab Separated Value (TSV) format can be conveniently imported and exported with various popular spreadsheet programs for the translators' use.
 
 Data in field columns with have header names which begin with `key_` or `base_` _are not to be translated_. In particular, the `key_android`, `key_apple` entries are used for mapping values back into the device specific localization files.
 
 The `base_comment` provides translation guidance in the development language (English). 
 
-Extra columns can be added for the translators' convenience. The extra column names should not begin with `key_`, `base_` or `lang_`. The extra columns will be ignored upon import back into the device specific format.
+The columns which begin with `lang_` are to be translated.
+
+Extra columns can be added for the translators' convenience. The extra column names should not begin with `key_`, `base_` or `lang_`. Any extra columns will be ignored upon import back into the device specific formats.
 
 **Phase 3. Import.** The completed TSV files are used to generate Android and Apple localization import files.
 
