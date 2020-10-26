@@ -9,7 +9,7 @@
 
 _The `nutritionfactsorg/daily-dozen-localization` repository supports the language translation work for the Daily Dozen applications on Android and Apple devices._
 
-_A Daily Dozen App Localization QuickStart Guide is located in the documents folder at [Documents/Quickstart.md](https://github.com/nutritionfactsorg/daily-dozen-localization/blob/master/Documents/Quickstart.md). The guide is intended to provide a process that is approachable by contributors without software development expertise. For example, it is sufficient to download, edit and submit a single file without creating a local clone or online fork of the git repository._
+_A Daily Dozen App Localization QuickStart Guide is located in the documentation folder at [Documentation/Quickstart.md](https://github.com/nutritionfactsorg/daily-dozen-localization/blob/master/Documentation/Quickstart.md). The guide is intended to provide a process that is approachable by contributors without software development expertise. For example, it is sufficient to download, edit and submit a single file without creating a local clone or online fork of the git repository._
 
 _Additionally, if you are interested to help create translated subtitles for NutritionFacts.org videos and help the NutritionFacts.org information reach more people all over the world, you can apply to be part of the Volunteer Translator Team at [https://nutritionfacts.org/volunteer](https://nutritionfacts.org/volunteer/)._
 
@@ -297,7 +297,7 @@ _App Localizations & Store Distribution_
 
 ## Localization Workflow <a id="localization-workflow-"></a><sup>[▴](#contents)</sup>
 
-Here is an overview of the general workflow for working with the TSV spreadsheet files. Please see the Daily Dozen App Localization QuickStart Guide for more detailed steps: [Documents/Quickstart.md](https://github.com/nutritionfactsorg/daily-dozen-localization/blob/master/Documents/Quickstart.md).
+Here is an overview of the general workflow for working with the TSV spreadsheet files. Please see the Daily Dozen App Localization QuickStart Guide for more detailed steps: [Documentation/Quickstart.md](https://github.com/nutritionfactsorg/daily-dozen-localization/blob/master/Documentation/Quickstart.md).
 
 **Phase 1. Export.** The Android and Apple exported localization files are merged into a spreadsheet compatible Tab Separated Value (TSV) files.
 
