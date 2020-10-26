@@ -1,4 +1,4 @@
-# daily-dozen-localization
+# [Daily Dozen Localization](https://github.com/nutritionfactsorg/daily-dozen-localization)
 
 ## Contents <a id="contents"></a>
 [Dashboard](#dashboard-) •
@@ -6,6 +6,12 @@
 [Resources](#resources-)
 
 <!-- [File Name Convention](#file-name-convention-) • -->
+
+_The `nutritionfactsorg/daily-dozen-localization` repository supports the language translation work for the Daily Dozen applications on Android and Apple devices._
+
+_A Daily Dozen App Localization QuickStart Guide is located in the documents folder at [Documents/Quickstart.md](https://github.com/nutritionfactsorg/daily-dozen-localization/blob/master/Documents/Quickstart.md). The guide is intended to provide a process that is approachable by contributors without software development expertise. For example, it is sufficient to download, edit and submit a single file without creating a local clone or online fork of the git repository._
+
+_Additionally, if you are interested to help create translated subtitles for NutritionFacts.org videos and help the NutritionFacts.org information reach more people all over the world, you can apply to be part of the Volunteer Translator Team at [https://nutritionfacts.org/volunteer](https://nutritionfacts.org/volunteer/)._
 
 ## Dashboard <a id="dashboard-"></a><sup>[▴](#contents)</sup>
 
@@ -15,7 +21,7 @@ _Base Development Language_
 |:------------|:---:|:---------:|:---:|:---------:|:-------------:|
 | [English_US][locale-en] | ✓  | [en][droid-en] | ✓ | `Base`, `en` | [Australia AU)][apple-en-au]<br>[Canada (CA)][apple-en-ca]<br>[Great Britain (GB)][apple-en-gb]<br>[USA (US)][apple-en-us] |
 
-[locale-en]:Languages/English_US/README.md
+[locale-en]:Languages/English_US
 [droid-en]:https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen&hl=en
 [apple-en-ca]:https://apps.apple.com/ca/app/dr-gregers-daily-dozen/id1060700802
 [apple-en-us]:https://apps.apple.com/us/app/dr-gregers-daily-dozen/id1060700802
@@ -72,56 +78,56 @@ _App Localizations & Store Distribution_
 
 
 <!-- Afrikaans: Namibia (af-NA), South Africa (af-ZA) -->
-[locale-af]:Languages/Afrikaans/README.md
+[locale-af]:Languages/Afrikaans
 [droid-af]:https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen&hl=af
 [apple-af-NA]:https://apps.apple.com/na/app/dr-gregers-daily-dozen/id1060700802?l=af
 [apple-af-ZA]:https://apps.apple.com/za/app/dr-gregers-daily-dozen/id1060700802?l=af
 
 <!-- Arabic:  -->
-[locale-ar]:Languages/Arabic/README.md
+[locale-ar]:Languages/Arabic
 [droid-ar]:https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen&hl=ar
 [apple-ar-EG]:https://apps.apple.com/eg/app/dr-gregers-daily-dozen/id1060700802?l=ar
 [apple-ar-SA]:https://apps.apple.com/sa/app/dr-gregers-daily-dozen/id1060700802?l=ar
 
 <!-- Bhojpuri -->
-[locale-bho]:Languages/Bhojpuri/README.md
+[locale-bho]:Languages/Bhojpuri
 [droid-bho]:https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen&hl=bho
 [apple-bho]:https://apps.apple.com/in/app/dr-gregers-daily-dozen/id1060700802?l=bho
 
 <!-- Bulgarian: -->
-[locale-bg]:Languages/Bulgarian/README.md
+[locale-bg]:Languages/Bulgarian
 [droid-bg]:https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen&hl=bg
 [apple-bg]:https://apps.apple.com/bg/app/dr-gregers-daily-dozen/id1060700802
 
 <!-- Chinese_HongKong -->
-[locale-zh-HK]:Languages/Chinese_HongKong/README.md
+[locale-zh-HK]:Languages/Chinese_HongKong
 [droid-zh-HK]:https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen&hl=zh-HK
 [apple-zh-HK]:https://apps.apple.com/hk/app/dr-gregers-daily-dozen/id1060700802
 
 <!-- Chinese_Simplified -->
-[locale-zh-Hans]:Languages/Chinese_Simplified/README.md
+[locale-zh-Hans]:Languages/Chinese_Simplified
 [droid-zh-Hans]:https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen&hl=zh-Hans
 [apple-zh-Hans]:https://apps.apple.com/cn/app/dr-gregers-daily-dozen/id1060700802
 [apple-zh-Hans-SG]:https://apps.apple.com/sg/app/dr-gregers-daily-dozen/id1060700802?l=zh
 
 <!-- Chinese_Traditional -->
-[locale-zh-Hant]:Languages/Chinese_Traditional/README.md
+[locale-zh-Hant]:Languages/Chinese_Traditional
 [droid-zh-Hant]:https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen&hl=zh-Hant
 [apple-zh-Hant]:https://apps.apple.com/tw/app/dr-gregers-daily-dozen/id1060700802
 [apple-zh-Hant-MO]:https://apps.apple.com/mo/app/dr-gregers-daily-dozen/id1060700802
 
 <!-- Czech -->
-[locale-cs]:Languages/Czech/README.md
+[locale-cs]:Languages/Czech
 [droid-cs]:https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen&hl=cs
-[apple-cs]:https://apps.apple.com/cz/app/dr-gregers-daily-dozen/id1060700802?cs
+[apple-cs]:https://apps.apple.com/cz/app/dr-gregers-daily-dozen/id1060700802?l=cs
 
 <!-- Danish -->
-[locale-da]:Languages/Danish/README.md
+[locale-da]:Languages/Danish
 [droid-da]:https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen&hl=da
 [apple-da]:https://apps.apple.com/dk/app/dr-gregers-daily-dozen/id1060700802?l=da
 
 <!-- Dutch -->
-[locale-nl]:Languages/Dutch/README.md
+[locale-nl]:Languages/Dutch
 [droid-nl]:https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen&hl=nl
 [apple-nl]:https://apps.apple.com/nl/app/dr-gregers-daily-dozen/id1060700802?l=nl
 
@@ -129,167 +135,169 @@ _App Localizations & Store Distribution_
 [droid-en-GB]:https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen&hl=en-rGB
 
 <!-- Estonian -->
-[locale-et]:Languages/Estonian/README.md
+[locale-et]:Languages/Estonian
 [droid-et]:https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen&hl=et
 [apple-et]:https://apps.apple.com/ee/app/dr-gregers-daily-dozen/id1060700802?l=et
 
 <!-- Finnish -->
-[locale-fi]:Languages/Finnish/README.md
+[locale-fi]:Languages/Finnish
 [droid-fi]:https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen&hl=fi
 [apple-fi]:https://apps.apple.com/fi/app/dr-gregers-daily-dozen/id1060700802?l=fi
 
 <!-- French: -->
-[locale-fr]:Languages/French/README.md
+[locale-fr]:Languages/French
 [droid-fr]:https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen&hl=fr
 [apple-fr]:https://apps.apple.com/fr/app/dr-gregers-daily-dozen/id1060700802
 
 <!-- French_Canada -->
-[locale-fr-CA]:Languages/French_Canada/README.md
+[locale-fr-CA]:Languages/French_Canada
 [droid-fr-CA]:https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen&hl=fr-CA
 [apple-fr-CA]:https://apps.apple.com/ca/app/dr-gregers-daily-dozen/id1060700802?l=fr
 
 <!-- Georgian -->
-[locale-ka]:Languages/Georgian/README.md
+[locale-ka]:Languages/Georgian
 [droid-ka]:https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen&hl=ka
 [apple-ka]:https://apps.apple.com/ge/app/dr-gregers-daily-dozen/id1060700802
 
 <!-- German -->
-[locale-de]:Languages/German/README.md
+[locale-de]:Languages/German
 [droid-de]:https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen&hl=de
 [apple-de]:https://apps.apple.com/de/app/dr-gregers-daily-dozen/id1060700802
 
 <!-- Greek -->
-[locale-el]:Languages/Greek/README.md
+[locale-el]:Languages/Greek
 [droid-el]:https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen&hl=el
 [apple-el-gr]:https://apps.apple.com/gr/app/dr-gregers-daily-dozen/id1060700802?l=el
 
 <!-- Hebrew -->
-[locale-he]:Languages/Hebrew/README.md
+[locale-he]:Languages/Hebrew
 [droid-he]:https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen&hl=he
 [apple-he-il]:https://apps.apple.com/il/app/dr-gregers-daily-dozen/id1060700802?l=he
 
 <!-- Hindi -->
-[locale-hi]:Languages/Hindi/README.md
+[locale-hi]:Languages/Hindi
 [droid-hi]:https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen&hl=hi
 [apple-hi-in]:https://apps.apple.com/in/app/dr-gregers-daily-dozen/id1060700802?l=hi
 
 <!-- Hungarian -->
-[locale-hu]:Languages/Hungarian/README.md
+[locale-hu]:Languages/Hungarian
 [droid-hu]:https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen&hl=hu
 [apple-hu]:https://apps.apple.com/hu/app/dr-gregers-daily-dozen/id1060700802?l=hu
 
 <!-- Italian -->
-[locale-it]:Languages/Italian/README.md
+[locale-it]:Languages/Italian
 [droid-it]:https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen&hl=it
 [apple-it]:https://apps.apple.com/it/app/dr-gregers-daily-dozen/id1060700802
 
 <!-- Japanese -->
-[locale-ja]:Languages/Japanese/README.md
+[locale-ja]:Languages/Japanese
 [droid-ja]:https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen&hl=ja
 [apple-ja-jp]:https://apps.apple.com/jp/app/dr-gregers-daily-dozen/id1060700802
 
 <!-- Kannada -->
-[locale-kn]:Languages/Kannada/README.md
+[locale-kn]:Languages/Kannada
 [droid-kn]:https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen&hl=kn
 
 <!-- Korean -->
-[locale-ko]:Languages/Korean/README.md
+[locale-ko]:Languages/Korean
 [droid-ko]:https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen&hl=ko
 [apple-ko-kr]:https://apps.apple.com/kr/app/dr-gregers-daily-dozen/id1060700802
 
 <!-- Lithuanian -->
-[locale-lt]:Languages/Lithuanian/README.md
+[locale-lt]:Languages/Lithuanian
 [droid-lt]:https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen&hl=lt
 
 <!-- Mongolian -->
-[locale-mn]:Languages/Mongolian/README.md
+[locale-mn]:Languages/Mongolian
 [droid-mn]:https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen&hl=mn
 
 <!-- Norwegian_nb -->
-[locale-nb]:Languages/Norwegian_nb/README.md
+[locale-nb]:Languages/Norwegian_nb
 [droid-nb]:https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen&hl=nb
 [apple-nb-no]:https://apps.apple.com/no/app/dr-gregers-daily-dozen/id1060700802?l=nb
 
 <!-- Persian -->
-[locale-fa]:Languages/Persian/README.md
+[locale-fa]:Languages/Persian
 [droid-fa]:https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen&hl=fa
 [apple-fa-ir]:https://apps.apple.com/ir/app/dr-gregers-daily-dozen/id1060700802
 
 <!-- Polish -->
-[locale-pl]:Languages/Polish/README.md
+[locale-pl]:Languages/Polish
 [droid-pl]:https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen&hl=pl
 [apple-pl]:https://apps.apple.com/pl/app/dr-gregers-daily-dozen/id1060700802?l=pl
 
 <!-- Portuguese -->
-[locale-pt]:Languages/Portuguese/README.md
+[locale-pt]:Languages/Portuguese
 [droid-pt]:https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen&hl=pt
 [apple-pt]:https://apps.apple.com/pt/app/dr-gregers-daily-dozen/id1060700802
 [apple-pt]:https://apps.apple.com/pt/app/dr-gregers-daily-dozen/id1060700802
 
 <!-- Portuguese_Brazil -->
-[locale-pt-BR]:Languages/Portuguese_Brazil/README.md
+[locale-pt-BR]:Languages/Portuguese_Brazil
 [droid-pt-BR]:https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen&hl=pt-BR
 [apple-pt-BR]:https://apps.apple.com/br/app/dr-gregers-daily-dozen/id1060700802
 
 <!-- Portuguese_Portugal -->
-[locale-pt-PT]:Languages/Portuguese_Portugal/README.md
+[locale-pt-PT]:Languages/Portuguese_Portugal
 [droid-pt-PT]:https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen&hl=pt-PT
 [apple-pt-PT]:https://apps.apple.com/pt/app/dr-gregers-daily-dozen/id1060700802
 
 <!-- Romanian -->
-[locale-ro]:Languages/Romanian/README.md
+[locale-ro]:Languages/Romanian
 [droid-ro]:https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen&hl=ro
 [apple-ro]:https://apps.apple.com/ro/app/dr-gregers-daily-dozen/id1060700802?l=ro
 
 <!-- Russian -->
-[locale-ru]:Languages/Russian/README.md
+[locale-ru]:Languages/Russian
 [droid-ru]:https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen&hl=ru
 [apple-ru]:https://apps.apple.com/ru/app/dr-gregers-daily-dozen/id1060700802
 
 <!-- Serbian_Cyrillic -->
-[locale-sr]:Languages/Serbian_Cyrillic/README.md
+[locale-sr]:Languages/Serbian_Cyrillic
 [droid-sr]:https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen&hl=sr
 
 <!-- Serbian_Latin -->
-[locale-sr-Latn]:Languages/Serbian_Latin/README.md
+[locale-sr-Latn]:Languages/Serbian_Latin
 [droid-sr-Latn]:https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen&hl=sr-Latn
 
 <!-- Slovak -->
-[locale-sk]:Languages/Slovak/README.md
+[locale-sk]:Languages/Slovak
 [droid-sk]:https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen&hl=sk
 [apple-sk]:https://apps.apple.com/sk/app/dr-gregers-daily-dozen/id1060700802?l=sk
 
 <!-- Slovenian (aka Slovene) -->
-[locale-sl]:Languages/Slovenian/README.md
+[locale-sl]:Languages/Slovenian
 [droid-sl]:https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen&hl=sl
 
 <!-- Spanish -->
-[locale-es]:Languages/Spanish/README.md
+[locale-es]:Languages/Spanish
 [droid-es]:https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen&hl=es
 [apple-es-mx]:https://apps.apple.com/mx/app/dr-gregers-daily-dozen/id1060700802
 [apple-es-es]:https://apps.apple.com/es/app/dr-gregers-daily-dozen/id1060700802
 
 <!-- Swedish -->
-[locale-sv]:Languages/Swedish/README.md
+[locale-sv]:Languages/Swedish
 [droid-sv]:https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen&hl=sv
 [apple-sv-se]:https://apps.apple.com/se/app/dr-gregers-daily-dozen/id1060700802?l=sv
 
 <!-- Thai -->
-[locale-th]:Languages/Thai/README.md
+[locale-th]:Languages/Thai
 [droid-th]:https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen&hl=th
 [apple-th]:https://apps.apple.com/th/app/dr-gregers-daily-dozen/id1060700802?l=th
 
 <!-- Turkish -->
-[locale-tr]:Languages/Turkish/README.md
+[locale-tr]:Languages/Turkish
 [droid-tr]:https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen&hl=tr
 [apple-tr]:https://apps.apple.com/tr/app/dr-gregers-daily-dozen/id1060700802?l=tr
 
 <!-- Vietnamese -->
-[locale-vi]:Languages/Vietnamese/README.md
+[locale-vi]:Languages/Vietnamese
 [droid-vi]:https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen&hl=vi
 [apple-vi-vn]:https://apps.apple.com/vn/app/dr-gregers-daily-dozen/id1060700802?l=vi
 
 ## Localization Workflow <a id="localization-workflow-"></a><sup>[▴](#contents)</sup>
+
+Here is an overview of the general workflow for working with the TSV spreadsheet files. Please see the Daily Dozen App Localization QuickStart Guide for more detailed steps: [Documents/Quickstart.md](https://github.com/nutritionfactsorg/daily-dozen-localization/blob/master/Documents/Quickstart.md).
 
 **Phase 1. Export.** The Android and Apple exported localization files are merged into a spreadsheet compatible Tab Separated Value (TSV) files.
 
@@ -329,14 +337,11 @@ _File Name Examples_
 * `ru-20200819-ReadyToImport-XYZ.tsv` A translation completed by person XYZ which is ready for automated import processing back to the device source code.
 -->
 
-## Apple App Store Localization
-
-Apple App Store regions: [https://www.apple.com/choose-country-region/](https://www.apple.com/choose-country-region/)
-
 ## Resources <a id="resources-"></a><sup>[▴](#contents)</sup>
 
 * Android Developer
     * ["Localize Your App" ⇗](https://developer.android.com/guide/topics/resources/localization)
+* Apple App Store regions: [https://www.apple.com/choose-country-region/](https://www.apple.com/choose-country-region/)
 * Apple Developer 
     * [Article: "Localizing Your App" ⇗](https://developer.apple.com/documentation/xcode/localizing_your_app)
     * App Store
