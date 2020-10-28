@@ -229,19 +229,18 @@ food_info_types_beans[0]	dozeBeansVarietyText[0]	Black beans	Черен боб
 food_info_types_beans[1]	dozeBeansVarietyText[1]	Black-eyed peas	Папуда	  
 food_info_types_beans[2]	dozeBeansVarietyText[2]	Butter beans	Жълт боб	  
 food_info_types_beans[3]	dozeBeansVarietyText[3]	Cannellini beans	Бял боб	  
-food_info_types_beans[4]	dozeBeansVarietyText[4]	Chickpeas	Нахут	  
+food_info_types_beans[4]	dozeBeansVarietyText[4]	Chickpeas/Garbanzo Beans	Нахут	  
 food_info_types_beans[5]	dozeBeansVarietyText[5]	Edamame	Едамаме	  
 food_info_types_beans[6]	dozeBeansVarietyText[6]	English peas	Английски грах	  
-food_info_types_beans[7]	dozeBeansVarietyText[7]	Garbanzo beans	Нахут тип Гарбанзо	  
-food_info_types_beans[8]	dozeBeansVarietyText[8]	Great northern beans	Едър боб	  
-food_info_types_beans[9]	dozeBeansVarietyText[9]	Kidney beans	Бъбрековиден боб	  
-food_info_types_beans[10]	dozeBeansVarietyText[10]	Lentils (beluga, french, and red varieties)	Леща (белуга, френска и червени сортове)	  
-food_info_types_beans[11]	dozeBeansVarietyText[11]	Miso	Мисо	  
-food_info_types_beans[12]	dozeBeansVarietyText[12]	Navy beans	Дребен боб	  
-food_info_types_beans[13]	dozeBeansVarietyText[13]	Pinto beans	Боб Пинто	  
-food_info_types_beans[14]	dozeBeansVarietyText[14]	Small red beans	Дребен червен боб	  
-food_info_types_beans[15]	dozeBeansVarietyText[15]	Split peas (yellow or green)	Белен грах (жълт или зелен)	  
-food_info_types_beans[16]	dozeBeansVarietyText[16]	Tempeh	Темпе	  
+food_info_types_beans[7]	dozeBeansVarietyText[7]	Great northern beans	Едър боб	  
+food_info_types_beans[8]	dozeBeansVarietyText[8]	Kidney beans	Бъбрековиден боб	  
+food_info_types_beans[9]	dozeBeansVarietyText[9]	Lentils (beluga, french, and red varieties)	Леща (белуга, френска и червени сортове)	  
+food_info_types_beans[10]	dozeBeansVarietyText[10]	Miso	Мисо	  
+food_info_types_beans[11]	dozeBeansVarietyText[11]	Navy beans	Дребен боб	  
+food_info_types_beans[12]	dozeBeansVarietyText[12]	Pinto beans	Боб Пинто	  
+food_info_types_beans[13]	dozeBeansVarietyText[13]	Small red beans	Дребен червен боб	  
+food_info_types_beans[14]	dozeBeansVarietyText[14]	Split peas (yellow or green)	Белен грах (жълт или зелен)	  
+food_info_types_beans[15]	dozeBeansVarietyText[15]	Tempeh	Темпе	  
 food_info_types_spices[0]	dozeSpicesVarietyText[0]	Allspice	Бахар	  
 food_info_types_spices[1]	dozeSpicesVarietyText[1]	Barberries	Кисел трън	  
 food_info_types_spices[2]	dozeSpicesVarietyText[2]	Basil	Босилек	  

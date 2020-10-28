@@ -250,19 +250,18 @@ food_info_types_beans[0]	dozeBeansVarietyText[0]	Black beans	Fagioli neri
 food_info_types_beans[1]	dozeBeansVarietyText[1]	Black-eyed peas	Fagioli dall’occhio nero	  
 food_info_types_beans[2]	dozeBeansVarietyText[2]	Butter beans	Fagioli	  
 food_info_types_beans[3]	dozeBeansVarietyText[3]	Cannellini beans	Fagioli Cannellini	  
-food_info_types_beans[4]	dozeBeansVarietyText[4]	Chickpeas	Ceci	  
+food_info_types_beans[4]	dozeBeansVarietyText[4]	Chickpeas/Garbanzo Beans	Ceci	  
 food_info_types_beans[5]	dozeBeansVarietyText[5]	Edamame	Fagioli di soia (edamame)	  
 food_info_types_beans[6]	dozeBeansVarietyText[6]	English peas	Piselli inglesi	  
-food_info_types_beans[7]	dozeBeansVarietyText[7]	Garbanzo beans	Ceci Garbanzo	  
-food_info_types_beans[8]	dozeBeansVarietyText[8]	Great northern beans	Fagioli grandi del nord	  
-food_info_types_beans[9]	dozeBeansVarietyText[9]	Kidney beans	Fagioli rossi	  
-food_info_types_beans[10]	dozeBeansVarietyText[10]	Lentils (beluga, french, and red varieties)	Lenticchie (beluga, francese e varietà rossa)	  
-food_info_types_beans[11]	dozeBeansVarietyText[11]	Miso	Miso	  
-food_info_types_beans[12]	dozeBeansVarietyText[12]	Navy beans	Fagioli tondini	  
-food_info_types_beans[13]	dozeBeansVarietyText[13]	Pinto beans	Fagiolo pinto	  
-food_info_types_beans[14]	dozeBeansVarietyText[14]	Small red beans	Piccoli fagioli rossi	  
-food_info_types_beans[15]	dozeBeansVarietyText[15]	Split peas (yellow or green)	Piselli Secchi (gialli o verdi)	  
-food_info_types_beans[16]	dozeBeansVarietyText[16]	Tempeh	Tempè	  
+food_info_types_beans[7]	dozeBeansVarietyText[7]	Great northern beans	Fagioli grandi del nord	  
+food_info_types_beans[8]	dozeBeansVarietyText[8]	Kidney beans	Fagioli rossi	  
+food_info_types_beans[9]	dozeBeansVarietyText[9]	Lentils (beluga, french, and red varieties)	Lenticchie (beluga, francese e varietà rossa)	  
+food_info_types_beans[10]	dozeBeansVarietyText[10]	Miso	Miso	  
+food_info_types_beans[11]	dozeBeansVarietyText[11]	Navy beans	Fagioli tondini	  
+food_info_types_beans[12]	dozeBeansVarietyText[12]	Pinto beans	Fagiolo pinto	  
+food_info_types_beans[13]	dozeBeansVarietyText[13]	Small red beans	Piccoli fagioli rossi	  
+food_info_types_beans[14]	dozeBeansVarietyText[14]	Split peas (yellow or green)	Piselli Secchi (gialli o verdi)	  
+food_info_types_beans[15]	dozeBeansVarietyText[15]	Tempeh	Tempè	  
 food_info_types_beverages[0]	dozeBeveragesVarietyText[0]	Black tea	Tè Nero	  
 food_info_types_beverages[1]	dozeBeveragesVarietyText[1]	Chai tea	Tè Chai	  
 food_info_types_beverages[2]	dozeBeveragesVarietyText[2]	Vanilla chamomile tea	Camomilla Vanilla	  

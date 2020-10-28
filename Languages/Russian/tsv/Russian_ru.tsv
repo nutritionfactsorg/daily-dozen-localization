@@ -78,19 +78,18 @@ food_info_types_beans[0]	dozeBeansVarietyText[0]	Black beans	Чёрная фас
 food_info_types_beans[1]	dozeBeansVarietyText[1]	Black-eyed peas	Черноглазая фасоль	  
 food_info_types_beans[2]	dozeBeansVarietyText[2]	Butter beans	Фасоль Лима	  
 food_info_types_beans[3]	dozeBeansVarietyText[3]	Cannellini beans	Белая фасоль (каннеллини)	  
-food_info_types_beans[4]	dozeBeansVarietyText[4]	Chickpeas	Нут	  
+food_info_types_beans[4]	dozeBeansVarietyText[4]	Chickpeas/Garbanzo Beans	Нут	  
 food_info_types_beans[5]	dozeBeansVarietyText[5]	Edamame	Эдамамэ	  
 food_info_types_beans[6]	dozeBeansVarietyText[6]	English peas	Садовый горох	  
-food_info_types_beans[7]	dozeBeansVarietyText[7]	Garbanzo beans	Нут	  
-food_info_types_beans[8]	dozeBeansVarietyText[8]	Great northern beans	Белая фасоль (великая северная)	  
-food_info_types_beans[9]	dozeBeansVarietyText[9]	Kidney beans	Красная фасоль (кидни)	  
-food_info_types_beans[10]	dozeBeansVarietyText[10]	Lentils (beluga, french, and red varieties)	Чечевица (чёрная "белуга", зеленая "французская", красная)	  
-food_info_types_beans[11]	dozeBeansVarietyText[11]	Miso	Мисо	  
-food_info_types_beans[12]	dozeBeansVarietyText[12]	Navy beans	Белая фасоль (флотская)	  
-food_info_types_beans[13]	dozeBeansVarietyText[13]	Pinto beans	Фасоль пинто	  
-food_info_types_beans[14]	dozeBeansVarietyText[14]	Small red beans	Мелкая красная фасоль	  
-food_info_types_beans[15]	dozeBeansVarietyText[15]	Split peas (yellow or green)	Горох колотый (жёлтый или зелёный)	  
-food_info_types_beans[16]	dozeBeansVarietyText[16]	Tempeh	Темпе	  
+food_info_types_beans[7]	dozeBeansVarietyText[7]	Great northern beans	Белая фасоль (великая северная)	  
+food_info_types_beans[8]	dozeBeansVarietyText[8]	Kidney beans	Красная фасоль (кидни)	  
+food_info_types_beans[9]	dozeBeansVarietyText[9]	Lentils (beluga, french, and red varieties)	Чечевица (чёрная "белуга", зеленая "французская", красная)	  
+food_info_types_beans[10]	dozeBeansVarietyText[10]	Miso	Мисо	  
+food_info_types_beans[11]	dozeBeansVarietyText[11]	Navy beans	Белая фасоль (флотская)	  
+food_info_types_beans[12]	dozeBeansVarietyText[12]	Pinto beans	Фасоль пинто	  
+food_info_types_beans[13]	dozeBeansVarietyText[13]	Small red beans	Мелкая красная фасоль	  
+food_info_types_beans[14]	dozeBeansVarietyText[14]	Split peas (yellow or green)	Горох колотый (жёлтый или зелёный)	  
+food_info_types_beans[15]	dozeBeansVarietyText[15]	Tempeh	Темпе	  
 food_info_types_greens[0]	dozeGreensVarietyText[0]	Arugula	Руккола	  
 food_info_types_greens[1]	dozeGreensVarietyText[1]	Beet greens	Ботва свеклы	  
 food_info_types_greens[2]	dozeGreensVarietyText[2]	Collard greens	Листовая капуста Коллард	  

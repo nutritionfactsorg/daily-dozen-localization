@@ -117,19 +117,18 @@ food_info_types_beans[0]	dozeBeansVarietyText[0]	Black beans	黑豆
 food_info_types_beans[1]	dozeBeansVarietyText[1]	Black-eyed peas	黑眼豆	  
 food_info_types_beans[2]	dozeBeansVarietyText[2]	Butter beans	利馬豆	  
 food_info_types_beans[3]	dozeBeansVarietyText[3]	Cannellini beans	白腰豆	  
-food_info_types_beans[4]	dozeBeansVarietyText[4]	Chickpeas	鷹嘴豆	  
+food_info_types_beans[4]	dozeBeansVarietyText[4]	Chickpeas/Garbanzo Beans	鷹嘴豆	  
 food_info_types_beans[5]	dozeBeansVarietyText[5]	Edamame	毛豆	  
 food_info_types_beans[6]	dozeBeansVarietyText[6]	English peas	麥豌豆	  
-food_info_types_beans[7]	dozeBeansVarietyText[7]	Garbanzo beans	鷹嘴豆	  
-food_info_types_beans[8]	dozeBeansVarietyText[8]	Great northern beans	北美腰豆	  
-food_info_types_beans[9]	dozeBeansVarietyText[9]	Kidney beans	菜豆	  
-food_info_types_beans[10]	dozeBeansVarietyText[10]	Lentils (beluga, french, and red varieties)	扁豆（包括黑扁豆、法國扁豆與紅扁豆等品種）	  
-food_info_types_beans[11]	dozeBeansVarietyText[11]	Miso	味噌	  
-food_info_types_beans[12]	dozeBeansVarietyText[12]	Navy beans	白豆	  
-food_info_types_beans[13]	dozeBeansVarietyText[13]	Pinto beans	花豆	  
-food_info_types_beans[14]	dozeBeansVarietyText[14]	Small red beans	小紅豆	  
-food_info_types_beans[15]	dozeBeansVarietyText[15]	Split peas (yellow or green)	豌豆（黃豌豆或綠豌豆）	  
-food_info_types_beans[16]	dozeBeansVarietyText[16]	Tempeh	天貝	  
+food_info_types_beans[7]	dozeBeansVarietyText[7]	Great northern beans	北美腰豆	  
+food_info_types_beans[8]	dozeBeansVarietyText[8]	Kidney beans	菜豆	  
+food_info_types_beans[9]	dozeBeansVarietyText[9]	Lentils (beluga, french, and red varieties)	扁豆（包括黑扁豆、法國扁豆與紅扁豆等品種）	  
+food_info_types_beans[10]	dozeBeansVarietyText[10]	Miso	味噌	  
+food_info_types_beans[11]	dozeBeansVarietyText[11]	Navy beans	白豆	  
+food_info_types_beans[12]	dozeBeansVarietyText[12]	Pinto beans	花豆	  
+food_info_types_beans[13]	dozeBeansVarietyText[13]	Small red beans	小紅豆	  
+food_info_types_beans[14]	dozeBeansVarietyText[14]	Split peas (yellow or green)	豌豆（黃豌豆或綠豌豆）	  
+food_info_types_beans[15]	dozeBeansVarietyText[15]	Tempeh	天貝	  
 food_info_types_exercise[0]	dozeExerciseVarietyText[0]	Bicycling	騎單車	  
 food_info_types_exercise[1]	dozeExerciseVarietyText[1]	Canoeing	劃獨木舟	  
 food_info_types_exercise[2]	dozeExerciseVarietyText[2]	Dancing	跳舞	  

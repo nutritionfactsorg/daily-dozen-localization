@@ -160,7 +160,6 @@
         <item>Garbanzos</item>
         <item>Edamame</item>
         <item>Guisantes</item>
-        <item>Garbanzos</item>
         <item>Frijoles Great Northern</item>
         <item>Frijoles rojos</item>
         <item>Lentejas (beluga, francesa, roja)</item>
@@ -733,11 +732,13 @@
     If the language is not present on nutritionfacts.org, then the default English url is used.
     -->
     <string-array name="food_videos_beans">
+        <item>es/topics/frijoles-negros</item>
+        <item/>
+        <item/>
         <item/>
         <item>es/topics/garbanzos</item>
         <item>es/topics/edamame</item>
         <item/>
-        <item>es/topics/garbanzo</item>
         <item/>
         <item>es/topics/frijoles-rojos</item>
         <item>/es/topics/lentejas</item>

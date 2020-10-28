@@ -284,19 +284,18 @@ food_info_types_beans[0]	dozeBeansVarietyText[0]	Black beans	Μαύρα
 food_info_types_beans[1]	dozeBeansVarietyText[1]	Black-eyed peas	Μαυρομάτικα	  
 food_info_types_beans[2]	dozeBeansVarietyText[2]	Butter beans	Χάντρες (μπαρμπούνια)	  
 food_info_types_beans[3]	dozeBeansVarietyText[3]	Cannellini beans	Γίγαντες	  
-food_info_types_beans[4]	dozeBeansVarietyText[4]	Chickpeas	Ρεβίθια	  
+food_info_types_beans[4]	dozeBeansVarietyText[4]	Chickpeas/Garbanzo Beans	Ρεβίθια	  
 food_info_types_beans[5]	dozeBeansVarietyText[5]	Edamame	Ενταμάμε	  
 food_info_types_beans[6]	dozeBeansVarietyText[6]	English peas	Αρακάς	  
-food_info_types_beans[7]	dozeBeansVarietyText[7]	Garbanzo beans	Ρεβίθια	  
-food_info_types_beans[8]	dozeBeansVarietyText[8]	Great northern beans	Μεγάλα βόρεια	  
-food_info_types_beans[9]	dozeBeansVarietyText[9]	Kidney beans	Κόκκινα	  
-food_info_types_beans[10]	dozeBeansVarietyText[10]	Lentils (beluga, french, and red varieties)	Φακές (μαύρες beluga, γαλλικές, και κόκκινες ποικιλίες)	  
-food_info_types_beans[11]	dozeBeansVarietyText[11]	Miso	Μίσο	  
-food_info_types_beans[12]	dozeBeansVarietyText[12]	Navy beans	Νέιβι	  
-food_info_types_beans[13]	dozeBeansVarietyText[13]	Pinto beans	Πίντο	  
-food_info_types_beans[14]	dozeBeansVarietyText[14]	Small red beans	Μικρά κόκκινα	  
-food_info_types_beans[15]	dozeBeansVarietyText[15]	Split peas (yellow or green)	Φάβα (κίτρινη ή πράσινη)	  
-food_info_types_beans[16]	dozeBeansVarietyText[16]	Tempeh	Τέμπε	  
+food_info_types_beans[7]	dozeBeansVarietyText[7]	Great northern beans	Μεγάλα βόρεια	  
+food_info_types_beans[8]	dozeBeansVarietyText[8]	Kidney beans	Κόκκινα	  
+food_info_types_beans[9]	dozeBeansVarietyText[9]	Lentils (beluga, french, and red varieties)	Φακές (μαύρες beluga, γαλλικές, και κόκκινες ποικιλίες)	  
+food_info_types_beans[10]	dozeBeansVarietyText[10]	Miso	Μίσο	  
+food_info_types_beans[11]	dozeBeansVarietyText[11]	Navy beans	Νέιβι	  
+food_info_types_beans[12]	dozeBeansVarietyText[12]	Pinto beans	Πίντο	  
+food_info_types_beans[13]	dozeBeansVarietyText[13]	Small red beans	Μικρά κόκκινα	  
+food_info_types_beans[14]	dozeBeansVarietyText[14]	Split peas (yellow or green)	Φάβα (κίτρινη ή πράσινη)	  
+food_info_types_beans[15]	dozeBeansVarietyText[15]	Tempeh	Τέμπε	  
 daily_frontload[heading]	tweakDailyFrontLoad[heading]	Front-Load Your Calories	Μπροστά-Φορτώστε τις θερμίδες σας	
 daily_frontload[short]	tweakDailyFrontLoad[short]	Front-Load Your Calories	Μπροστά-Φορτώστε τις θερμίδες σας	
 daily_frontload[text]	tweakDailyFrontLoad[text]	There are metabolic benefits to distributing more calories to earlier in the day, so make breakfast (ideally) or lunch your largest meal of the day in true king/prince/pauper style.	Υπάρχουν μεταβολικά οφέλη για τη διανομή περισσότερων θερμίδων για νωρίτερα την ημέρα, ώστε να κάνετε το πρωινό (ιδανικά) ή το μεσημεριανό γεύμα σας το μεγαλύτερο γεύμα της ημέρας σε πραγματικό βασιλιά / πρίγκιπα / σμήνος.	

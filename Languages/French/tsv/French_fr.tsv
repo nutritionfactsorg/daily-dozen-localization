@@ -213,19 +213,18 @@ food_info_types_beans[0]	dozeBeansVarietyText[0]	Black beans	Haricots noirs
 food_info_types_beans[1]	dozeBeansVarietyText[1]	Black-eyed peas	Haricots à oeil noir	  
 food_info_types_beans[2]	dozeBeansVarietyText[2]	Butter beans	Haricots de Lima	  
 food_info_types_beans[3]	dozeBeansVarietyText[3]	Cannellini beans	Cannellini haricots	  
-food_info_types_beans[4]	dozeBeansVarietyText[4]	Chickpeas	Pois chiches	  
+food_info_types_beans[4]	dozeBeansVarietyText[4]	Chickpeas/Garbanzo Beans	Pois chiches	  
 food_info_types_beans[5]	dozeBeansVarietyText[5]	Edamame	Edamame	  
 food_info_types_beans[6]	dozeBeansVarietyText[6]	English peas	Pois à écosser	  
-food_info_types_beans[7]	dozeBeansVarietyText[7]	Garbanzo beans	Pois chiches	  
-food_info_types_beans[8]	dozeBeansVarietyText[8]	Great northern beans	Haricots blancs	  
-food_info_types_beans[9]	dozeBeansVarietyText[9]	Kidney beans	Haricots rouges	  
-food_info_types_beans[10]	dozeBeansVarietyText[10]	Lentils (beluga, french, and red varieties)	Lentilles (variétés beluga, françaises et rouges)	  
-food_info_types_beans[11]	dozeBeansVarietyText[11]	Miso	Miso	  
-food_info_types_beans[12]	dozeBeansVarietyText[12]	Navy beans	Haricots blancs	  
-food_info_types_beans[13]	dozeBeansVarietyText[13]	Pinto beans	Haricots pinto	  
-food_info_types_beans[14]	dozeBeansVarietyText[14]	Small red beans	Petits haricots rouges	  
-food_info_types_beans[15]	dozeBeansVarietyText[15]	Split peas (yellow or green)	Pois cassés (jaune ou vert)	  
-food_info_types_beans[16]	dozeBeansVarietyText[16]	Tempeh	Tempeh	  
+food_info_types_beans[7]	dozeBeansVarietyText[7]	Great northern beans	Haricots blancs	  
+food_info_types_beans[8]	dozeBeansVarietyText[8]	Kidney beans	Haricots rouges	  
+food_info_types_beans[9]	dozeBeansVarietyText[9]	Lentils (beluga, french, and red varieties)	Lentilles (variétés beluga, françaises et rouges)	  
+food_info_types_beans[10]	dozeBeansVarietyText[10]	Miso	Miso	  
+food_info_types_beans[11]	dozeBeansVarietyText[11]	Navy beans	Haricots blancs	  
+food_info_types_beans[12]	dozeBeansVarietyText[12]	Pinto beans	Haricots pinto	  
+food_info_types_beans[13]	dozeBeansVarietyText[13]	Small red beans	Petits haricots rouges	  
+food_info_types_beans[14]	dozeBeansVarietyText[14]	Split peas (yellow or green)	Pois cassés (jaune ou vert)	  
+food_info_types_beans[15]	dozeBeansVarietyText[15]	Tempeh	Tempeh	  
 food_info_types_other_vegetables[0]	dozeVegetablesOtherVarietyText[0]	Artichokes	Artichauts	  
 food_info_types_other_vegetables[1]	dozeVegetablesOtherVarietyText[1]	Asparagus	Asperges	  
 food_info_types_other_vegetables[2]	dozeVegetablesOtherVarietyText[2]	Beets	Betteraves	  

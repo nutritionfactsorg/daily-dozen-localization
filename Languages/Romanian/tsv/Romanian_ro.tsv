@@ -127,19 +127,18 @@ food_info_types_beans[0]	dozeBeansVarietyText[0]	Black beans	Fasole neagră
 food_info_types_beans[1]	dozeBeansVarietyText[1]	Black-eyed peas	Fasole ochi negru	  
 food_info_types_beans[2]	dozeBeansVarietyText[2]	Butter beans	Fasole untoasă	  
 food_info_types_beans[3]	dozeBeansVarietyText[3]	Cannellini beans	Fasole cannellini	  
-food_info_types_beans[4]	dozeBeansVarietyText[4]	Chickpeas	Năut	  
+food_info_types_beans[4]	dozeBeansVarietyText[4]	Chickpeas/Garbanzo Beans	Năut	  
 food_info_types_beans[5]	dozeBeansVarietyText[5]	Edamame	Edamame (păstăi verzi de soia)	  
 food_info_types_beans[6]	dozeBeansVarietyText[6]	English peas	Mazăre englezească	  
-food_info_types_beans[7]	dozeBeansVarietyText[7]	Garbanzo beans	Năut garbanzo	  
-food_info_types_beans[8]	dozeBeansVarietyText[8]	Great northern beans	Fasole nordică cu bobul mare	  
-food_info_types_beans[9]	dozeBeansVarietyText[9]	Kidney beans	Fasole roșie cu bob în formă de rinichi	  
-food_info_types_beans[10]	dozeBeansVarietyText[10]	Lentils (beluga, french, and red varieties)	Linte (beluga, franceză și roșie)	  
-food_info_types_beans[11]	dozeBeansVarietyText[11]	Miso	Miso	  
-food_info_types_beans[12]	dozeBeansVarietyText[12]	Navy beans	Fasole albă	  
-food_info_types_beans[13]	dozeBeansVarietyText[13]	Pinto beans	Fasole pinto	  
-food_info_types_beans[14]	dozeBeansVarietyText[14]	Small red beans	Fasole roșie cu bobul mic	  
-food_info_types_beans[15]	dozeBeansVarietyText[15]	Split peas (yellow or green)	Mazăre uscată (galbenă sau verde)	  
-food_info_types_beans[16]	dozeBeansVarietyText[16]	Tempeh	Tempeh	  
+food_info_types_beans[7]	dozeBeansVarietyText[7]	Great northern beans	Fasole nordică cu bobul mare	  
+food_info_types_beans[8]	dozeBeansVarietyText[8]	Kidney beans	Fasole roșie cu bob în formă de rinichi	  
+food_info_types_beans[9]	dozeBeansVarietyText[9]	Lentils (beluga, french, and red varieties)	Linte (beluga, franceză și roșie)	  
+food_info_types_beans[10]	dozeBeansVarietyText[10]	Miso	Miso	  
+food_info_types_beans[11]	dozeBeansVarietyText[11]	Navy beans	Fasole albă	  
+food_info_types_beans[12]	dozeBeansVarietyText[12]	Pinto beans	Fasole pinto	  
+food_info_types_beans[13]	dozeBeansVarietyText[13]	Small red beans	Fasole roșie cu bobul mic	  
+food_info_types_beans[14]	dozeBeansVarietyText[14]	Split peas (yellow or green)	Mazăre uscată (galbenă sau verde)	  
+food_info_types_beans[15]	dozeBeansVarietyText[15]	Tempeh	Tempeh	  
 food_info_types_cruciferous_vegetables[0]	dozeVegetablesCruciferousVarietyText[0]	Arugula	Rucolă	  
 food_info_types_cruciferous_vegetables[1]	dozeVegetablesCruciferousVarietyText[1]	Bok choy	Varză chinezească	  
 food_info_types_cruciferous_vegetables[2]	dozeVegetablesCruciferousVarietyText[2]	Broccoli (incl. Romanesco)	Broccoli (Romanesco)	  

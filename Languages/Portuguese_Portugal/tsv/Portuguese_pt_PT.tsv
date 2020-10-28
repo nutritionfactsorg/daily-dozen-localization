@@ -229,19 +229,18 @@ food_info_types_beans[0]	dozeBeansVarietyText[0]	Black beans	Feijão preto
 food_info_types_beans[1]	dozeBeansVarietyText[1]	Black-eyed peas	Feijão frade	  
 food_info_types_beans[2]	dozeBeansVarietyText[2]	Butter beans	Feijão branco (Manteiga)	  
 food_info_types_beans[3]	dozeBeansVarietyText[3]	Cannellini beans	Feijão branco (Cannellini)	  
-food_info_types_beans[4]	dozeBeansVarietyText[4]	Chickpeas	Grão de bico	  
+food_info_types_beans[4]	dozeBeansVarietyText[4]	Chickpeas/Garbanzo Beans	Grão de bico	  
 food_info_types_beans[5]	dozeBeansVarietyText[5]	Edamame	Edamame	  
 food_info_types_beans[6]	dozeBeansVarietyText[6]	English peas	Ervilhas inglesas	  
-food_info_types_beans[7]	dozeBeansVarietyText[7]	Garbanzo beans	Grão de bico preto	  
-food_info_types_beans[8]	dozeBeansVarietyText[8]	Great northern beans	Feijão branco (Great Northern)	  
-food_info_types_beans[9]	dozeBeansVarietyText[9]	Kidney beans	Feijão vermelho grande	  
-food_info_types_beans[10]	dozeBeansVarietyText[10]	Lentils (beluga, french, and red varieties)	Lentilhas (variedades beluga, francesa e vermelha)	  
-food_info_types_beans[11]	dozeBeansVarietyText[11]	Miso	Miso	  
-food_info_types_beans[12]	dozeBeansVarietyText[12]	Navy beans	Feijão branco (Ervilha)	  
-food_info_types_beans[13]	dozeBeansVarietyText[13]	Pinto beans	Feijão catarino/carioca	  
-food_info_types_beans[14]	dozeBeansVarietyText[14]	Small red beans	Feijão vermelho pequeno	  
-food_info_types_beans[15]	dozeBeansVarietyText[15]	Split peas (yellow or green)	Ervilhas partidas (amarelas ou verdes)	  
-food_info_types_beans[16]	dozeBeansVarietyText[16]	Tempeh	Tempeh	  
+food_info_types_beans[7]	dozeBeansVarietyText[7]	Great northern beans	Feijão branco (Great Northern)	  
+food_info_types_beans[8]	dozeBeansVarietyText[8]	Kidney beans	Feijão vermelho grande	  
+food_info_types_beans[9]	dozeBeansVarietyText[9]	Lentils (beluga, french, and red varieties)	Lentilhas (variedades beluga, francesa e vermelha)	  
+food_info_types_beans[10]	dozeBeansVarietyText[10]	Miso	Miso	  
+food_info_types_beans[11]	dozeBeansVarietyText[11]	Navy beans	Feijão branco (Ervilha)	  
+food_info_types_beans[12]	dozeBeansVarietyText[12]	Pinto beans	Feijão catarino/carioca	  
+food_info_types_beans[13]	dozeBeansVarietyText[13]	Small red beans	Feijão vermelho pequeno	  
+food_info_types_beans[14]	dozeBeansVarietyText[14]	Split peas (yellow or green)	Ervilhas partidas (amarelas ou verdes)	  
+food_info_types_beans[15]	dozeBeansVarietyText[15]	Tempeh	Tempeh	  
 food_info_types_greens[0]	dozeGreensVarietyText[0]	Arugula	Rúcula	  
 food_info_types_greens[1]	dozeGreensVarietyText[1]	Beet greens	Folhas de beterraba	  
 food_info_types_greens[2]	dozeGreensVarietyText[2]	Collard greens	Couve galega	  

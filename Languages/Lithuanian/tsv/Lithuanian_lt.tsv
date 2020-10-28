@@ -217,19 +217,18 @@ food_info_types_beans[0]	dozeBeansVarietyText[0]	Black beans	Black beans
 food_info_types_beans[1]	dozeBeansVarietyText[1]	Black-eyed peas	Black-eyed peas	  
 food_info_types_beans[2]	dozeBeansVarietyText[2]	Butter beans	Butter beans	  
 food_info_types_beans[3]	dozeBeansVarietyText[3]	Cannellini beans	Cannellini beans	  
-food_info_types_beans[4]	dozeBeansVarietyText[4]	Chickpeas	Chickpeas	  
+food_info_types_beans[4]	dozeBeansVarietyText[4]	Chickpeas/Garbanzo Beans	Chickpeas	  
 food_info_types_beans[5]	dozeBeansVarietyText[5]	Edamame	Edamame	  
 food_info_types_beans[6]	dozeBeansVarietyText[6]	English peas	English peas	  
-food_info_types_beans[7]	dozeBeansVarietyText[7]	Garbanzo beans	Garbanzo beans	  
-food_info_types_beans[8]	dozeBeansVarietyText[8]	Great northern beans	Great northern beans	  
-food_info_types_beans[9]	dozeBeansVarietyText[9]	Kidney beans	Kidney beans	  
-food_info_types_beans[10]	dozeBeansVarietyText[10]	Lentils (beluga, french, and red varieties)	Lentils (beluga, french, and red varieties)	  
-food_info_types_beans[11]	dozeBeansVarietyText[11]	Miso	Miso	  
-food_info_types_beans[12]	dozeBeansVarietyText[12]	Navy beans	Navy beans	  
-food_info_types_beans[13]	dozeBeansVarietyText[13]	Pinto beans	Pinto beans	  
-food_info_types_beans[14]	dozeBeansVarietyText[14]	Small red beans	Small red beans	  
-food_info_types_beans[15]	dozeBeansVarietyText[15]	Split peas (yellow or green)	Split peas (yellow or green)	  
-food_info_types_beans[16]	dozeBeansVarietyText[16]	Tempeh	Tempeh	  
+food_info_types_beans[7]	dozeBeansVarietyText[7]	Great northern beans	Great northern beans	  
+food_info_types_beans[8]	dozeBeansVarietyText[8]	Kidney beans	Kidney beans	  
+food_info_types_beans[9]	dozeBeansVarietyText[9]	Lentils (beluga, french, and red varieties)	Lentils (beluga, french, and red varieties)	  
+food_info_types_beans[10]	dozeBeansVarietyText[10]	Miso	Miso	  
+food_info_types_beans[11]	dozeBeansVarietyText[11]	Navy beans	Navy beans	  
+food_info_types_beans[12]	dozeBeansVarietyText[12]	Pinto beans	Pinto beans	  
+food_info_types_beans[13]	dozeBeansVarietyText[13]	Small red beans	Small red beans	  
+food_info_types_beans[14]	dozeBeansVarietyText[14]	Split peas (yellow or green)	Split peas (yellow or green)	  
+food_info_types_beans[15]	dozeBeansVarietyText[15]	Tempeh	Tempeh	  
 food_info_types_greens[0]	dozeGreensVarietyText[0]	Arugula	Arugula	  
 food_info_types_greens[1]	dozeGreensVarietyText[1]	Beet greens	Beet greens	  
 food_info_types_greens[2]	dozeGreensVarietyText[2]	Collard greens	Collard greens	  

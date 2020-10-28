@@ -168,19 +168,18 @@ food_info_types_beans[0]	dozeBeansVarietyText[0]	Black beans	Frijoles negros
 food_info_types_beans[1]	dozeBeansVarietyText[1]	Black-eyed peas	Frijoles de ojo negro	  
 food_info_types_beans[2]	dozeBeansVarietyText[2]	Butter beans	Frijoles de mantequilla	  
 food_info_types_beans[3]	dozeBeansVarietyText[3]	Cannellini beans	Frijoles cannellini	  
-food_info_types_beans[4]	dozeBeansVarietyText[4]	Chickpeas	Garbanzos	  
+food_info_types_beans[4]	dozeBeansVarietyText[4]	Chickpeas/Garbanzo Beans	Garbanzos	  
 food_info_types_beans[5]	dozeBeansVarietyText[5]	Edamame	Edamame	  
 food_info_types_beans[6]	dozeBeansVarietyText[6]	English peas	Guisante Ingles	  
-food_info_types_beans[7]	dozeBeansVarietyText[7]	Garbanzo beans	Frijoles garbanzos	  
-food_info_types_beans[8]	dozeBeansVarietyText[8]	Great northern beans	Frijoles grandes del norte	  
-food_info_types_beans[9]	dozeBeansVarietyText[9]	Kidney beans	Frijoles	  
-food_info_types_beans[10]	dozeBeansVarietyText[10]	Lentils (beluga, french, and red varieties)	Lentejas (beluga, Francesa, y de variedades rojas)	  
-food_info_types_beans[11]	dozeBeansVarietyText[11]	Miso	Miso	  
-food_info_types_beans[12]	dozeBeansVarietyText[12]	Navy beans	Frijoles blancos	  
-food_info_types_beans[13]	dozeBeansVarietyText[13]	Pinto beans	Frijoles pintos	  
-food_info_types_beans[14]	dozeBeansVarietyText[14]	Small red beans	Frijoles rojos pequeños	  
-food_info_types_beans[15]	dozeBeansVarietyText[15]	Split peas (yellow or green)	Guisantes partidos (amarillos o verdes)	  
-food_info_types_beans[16]	dozeBeansVarietyText[16]	Tempeh	Tempeh	  
+food_info_types_beans[7]	dozeBeansVarietyText[7]	Great northern beans	Frijoles grandes del norte	  
+food_info_types_beans[8]	dozeBeansVarietyText[8]	Kidney beans	Frijoles	  
+food_info_types_beans[9]	dozeBeansVarietyText[9]	Lentils (beluga, french, and red varieties)	Lentejas (beluga, Francesa, y de variedades rojas)	  
+food_info_types_beans[10]	dozeBeansVarietyText[10]	Miso	Miso	  
+food_info_types_beans[11]	dozeBeansVarietyText[11]	Navy beans	Frijoles blancos	  
+food_info_types_beans[12]	dozeBeansVarietyText[12]	Pinto beans	Frijoles pintos	  
+food_info_types_beans[13]	dozeBeansVarietyText[13]	Small red beans	Frijoles rojos pequeños	  
+food_info_types_beans[14]	dozeBeansVarietyText[14]	Split peas (yellow or green)	Guisantes partidos (amarillos o verdes)	  
+food_info_types_beans[15]	dozeBeansVarietyText[15]	Tempeh	Tempeh	  
 food_info_types_berries[0]	dozeBerriesVarietyText[0]	Acai berries	Bayas de Acai	  
 food_info_types_berries[1]	dozeBerriesVarietyText[1]	Barberries	Agracejos	  
 food_info_types_berries[2]	dozeBerriesVarietyText[2]	Blackberries	Moras	  

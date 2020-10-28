@@ -98,19 +98,18 @@ food_info_types_beans[0]	dozeBeansVarietyText[0]	Black beans	Fekete bab
 food_info_types_beans[1]	dozeBeansVarietyText[1]	Black-eyed peas	Szembab	  
 food_info_types_beans[2]	dozeBeansVarietyText[2]	Butter beans	Vajbab	  
 food_info_types_beans[3]	dozeBeansVarietyText[3]	Cannellini beans	Cannellini bab	  
-food_info_types_beans[4]	dozeBeansVarietyText[4]	Chickpeas	Csicseriborsó	  
+food_info_types_beans[4]	dozeBeansVarietyText[4]	Chickpeas/Garbanzo Beans	Csicseriborsó	  
 food_info_types_beans[5]	dozeBeansVarietyText[5]	Edamame	Zöldbab	  
 food_info_types_beans[6]	dozeBeansVarietyText[6]	English peas	Zöldborsó	  
-food_info_types_beans[7]	dozeBeansVarietyText[7]	Garbanzo beans	Garbanzo bab (csicseriborsó)	  
-food_info_types_beans[8]	dozeBeansVarietyText[8]	Great northern beans	Nagy északi bab	  
-food_info_types_beans[9]	dozeBeansVarietyText[9]	Kidney beans	Kidney bab	  
-food_info_types_beans[10]	dozeBeansVarietyText[10]	Lentils (beluga, french, and red varieties)	Lencse (beluga, francia, vörös)	  
-food_info_types_beans[11]	dozeBeansVarietyText[11]	Miso	Miso	  
-food_info_types_beans[12]	dozeBeansVarietyText[12]	Navy beans	Fehér bab	  
-food_info_types_beans[13]	dozeBeansVarietyText[13]	Pinto beans	Tarka bab	  
-food_info_types_beans[14]	dozeBeansVarietyText[14]	Small red beans	Apró vörösbab	  
-food_info_types_beans[15]	dozeBeansVarietyText[15]	Split peas (yellow or green)	Feles (sárga vagy zöld) borsó	  
-food_info_types_beans[16]	dozeBeansVarietyText[16]	Tempeh	Tempe	  
+food_info_types_beans[7]	dozeBeansVarietyText[7]	Great northern beans	Nagy északi bab	  
+food_info_types_beans[8]	dozeBeansVarietyText[8]	Kidney beans	Kidney bab	  
+food_info_types_beans[9]	dozeBeansVarietyText[9]	Lentils (beluga, french, and red varieties)	Lencse (beluga, francia, vörös)	  
+food_info_types_beans[10]	dozeBeansVarietyText[10]	Miso	Miso	  
+food_info_types_beans[11]	dozeBeansVarietyText[11]	Navy beans	Fehér bab	  
+food_info_types_beans[12]	dozeBeansVarietyText[12]	Pinto beans	Tarka bab	  
+food_info_types_beans[13]	dozeBeansVarietyText[13]	Small red beans	Apró vörösbab	  
+food_info_types_beans[14]	dozeBeansVarietyText[14]	Split peas (yellow or green)	Feles (sárga vagy zöld) borsó	  
+food_info_types_beans[15]	dozeBeansVarietyText[15]	Tempeh	Tempe	  
 food_info_types_flaxseeds[0]	dozeFlaxseedsVarietyText[0]	Brown flaxseeds	Barna lenmag	  
 food_info_types_flaxseeds[1]	dozeFlaxseedsVarietyText[1]	Golden flaxseeds	Arany lenmag	  
 food_info_types_exercise[0]	dozeExerciseVarietyText[0]	Bicycling	Biciklizés	  

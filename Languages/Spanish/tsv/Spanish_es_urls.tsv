@@ -35,16 +35,15 @@ food_videos_beans[3]
 food_videos_beans[4]		topics/chickpeas	es/topics/garbanzos		https://nutritionfacts.org/es/topics/garbanzos
 food_videos_beans[5]		topics/edamame	es/topics/edamame		https://nutritionfacts.org/es/topics/edamame
 food_videos_beans[6]					
-food_videos_beans[7]		topics/garbanzo-beans	es/topics/garbanzo		https://nutritionfacts.org/es/topics/garbanzo
-food_videos_beans[8]					
-food_videos_beans[9]		topics/kidney-beans	es/topics/frijoles-rojos		https://nutritionfacts.org/es/topics/frijoles-rojos
-food_videos_beans[10]		topics/lentils	/es/topics/lentejas		https://nutritionfacts.org//es/topics/lentejas
-food_videos_beans[11]		topics/miso	es/topics/miso-es		https://nutritionfacts.org/es/topics/miso-es
-food_videos_beans[12]		topics/navy-beans	es/topics/frijoles-blancos		https://nutritionfacts.org/es/topics/frijoles-blancos
-food_videos_beans[13]		topics/pinto-beans	es/topics/frijoles-pintos		https://nutritionfacts.org/es/topics/frijoles-pintos
-food_videos_beans[14]					
-food_videos_beans[15]		topics/split-peas	es/topics/guisantes-partidos		https://nutritionfacts.org/es/topics/guisantes-partidos
-food_videos_beans[16]		topics/tempeh	es/topics/tempeh-es		https://nutritionfacts.org/es/topics/tempeh-es
+food_videos_beans[7]					
+food_videos_beans[8]		topics/kidney-beans	es/topics/frijoles-rojos		https://nutritionfacts.org/es/topics/frijoles-rojos
+food_videos_beans[9]		topics/lentils	/es/topics/lentejas		https://nutritionfacts.org//es/topics/lentejas
+food_videos_beans[10]		topics/miso	es/topics/miso-es		https://nutritionfacts.org/es/topics/miso-es
+food_videos_beans[11]		topics/navy-beans	es/topics/frijoles-blancos		https://nutritionfacts.org/es/topics/frijoles-blancos
+food_videos_beans[12]		topics/pinto-beans	es/topics/frijoles-pintos		https://nutritionfacts.org/es/topics/frijoles-pintos
+food_videos_beans[13]					
+food_videos_beans[14]		topics/split-peas	es/topics/guisantes-partidos		https://nutritionfacts.org/es/topics/guisantes-partidos
+food_videos_beans[15]		topics/tempeh	es/topics/tempeh-es		https://nutritionfacts.org/es/topics/tempeh-es
 					
 food_videos_berries[0]		topics/acai-berries	/es/topics/bayas-de-acai-es		https://nutritionfacts.org//es/topics/bayas-de-acai-es
 food_videos_berries[1]		topics/barberries	es/topics/berberos-es		https://nutritionfacts.org/es/topics/berberos-es

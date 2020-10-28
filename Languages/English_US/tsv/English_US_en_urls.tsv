@@ -35,16 +35,15 @@ food_videos_beans[3]
 food_videos_beans[4]		topics/chickpeas	topics/chickpeas		https://nutritionfacts.org/topics/chickpeas
 food_videos_beans[5]		topics/edamame	topics/edamame		https://nutritionfacts.org/topics/edamame
 food_videos_beans[6]					
-food_videos_beans[7]		topics/garbanzo-beans	topics/garbanzo-beans		https://nutritionfacts.org/topics/garbanzo-beans
-food_videos_beans[8]					
-food_videos_beans[9]		topics/kidney-beans	topics/kidney-beans		https://nutritionfacts.org/topics/kidney-beans
-food_videos_beans[10]		topics/lentils	topics/lentils		https://nutritionfacts.org/topics/lentils
-food_videos_beans[11]		topics/miso	topics/miso		https://nutritionfacts.org/topics/miso
-food_videos_beans[12]		topics/navy-beans	topics/navy-beans		https://nutritionfacts.org/topics/navy-beans
-food_videos_beans[13]		topics/pinto-beans	topics/pinto-beans		https://nutritionfacts.org/topics/pinto-beans
-food_videos_beans[14]					
-food_videos_beans[15]		topics/split-peas	topics/split-peas		https://nutritionfacts.org/topics/split-peas
-food_videos_beans[16]		topics/tempeh	topics/tempeh		https://nutritionfacts.org/topics/tempeh
+food_videos_beans[7]					
+food_videos_beans[8]		topics/kidney-beans	topics/kidney-beans		https://nutritionfacts.org/topics/kidney-beans
+food_videos_beans[9]		topics/lentils	topics/lentils		https://nutritionfacts.org/topics/lentils
+food_videos_beans[10]		topics/miso	topics/miso		https://nutritionfacts.org/topics/miso
+food_videos_beans[11]		topics/navy-beans	topics/navy-beans		https://nutritionfacts.org/topics/navy-beans
+food_videos_beans[12]		topics/pinto-beans	topics/pinto-beans		https://nutritionfacts.org/topics/pinto-beans
+food_videos_beans[13]					
+food_videos_beans[14]		topics/split-peas	topics/split-peas		https://nutritionfacts.org/topics/split-peas
+food_videos_beans[15]		topics/tempeh	topics/tempeh		https://nutritionfacts.org/topics/tempeh
 					
 food_videos_berries[0]		topics/acai-berries	topics/acai-berries		https://nutritionfacts.org/topics/acai-berries
 food_videos_berries[1]		topics/barberries	topics/barberries		https://nutritionfacts.org/topics/barberries

@@ -76,19 +76,18 @@ food_info_types_beans[0]	dozeBeansVarietyText[0]	Black beans
 food_info_types_beans[1]	dozeBeansVarietyText[1]	Black-eyed peas		  
 food_info_types_beans[2]	dozeBeansVarietyText[2]	Butter beans		  
 food_info_types_beans[3]	dozeBeansVarietyText[3]	Cannellini beans		  
-food_info_types_beans[4]	dozeBeansVarietyText[4]	Chickpeas		  
+food_info_types_beans[4]	dozeBeansVarietyText[4]	Chickpeas/Garbanzo Beans		  
 food_info_types_beans[5]	dozeBeansVarietyText[5]	Edamame		  
 food_info_types_beans[6]	dozeBeansVarietyText[6]	English peas		  
-food_info_types_beans[7]	dozeBeansVarietyText[7]	Garbanzo beans		  
-food_info_types_beans[8]	dozeBeansVarietyText[8]	Great northern beans		  
-food_info_types_beans[9]	dozeBeansVarietyText[9]	Kidney beans		  
-food_info_types_beans[10]	dozeBeansVarietyText[10]	Lentils (beluga, french, and red varieties)		  
-food_info_types_beans[11]	dozeBeansVarietyText[11]	Miso		  
-food_info_types_beans[12]	dozeBeansVarietyText[12]	Navy beans		  
-food_info_types_beans[13]	dozeBeansVarietyText[13]	Pinto beans		  
-food_info_types_beans[14]	dozeBeansVarietyText[14]	Small red beans		  
-food_info_types_beans[15]	dozeBeansVarietyText[15]	Split peas (yellow or green)		  
-food_info_types_beans[16]	dozeBeansVarietyText[16]	Tempeh		  
+food_info_types_beans[7]	dozeBeansVarietyText[7]	Great northern beans		  
+food_info_types_beans[8]	dozeBeansVarietyText[8]	Kidney beans		  
+food_info_types_beans[9]	dozeBeansVarietyText[9]	Lentils (beluga, french, and red varieties)		  
+food_info_types_beans[10]	dozeBeansVarietyText[10]	Miso		  
+food_info_types_beans[11]	dozeBeansVarietyText[11]	Navy beans		  
+food_info_types_beans[12]	dozeBeansVarietyText[12]	Pinto beans		  
+food_info_types_beans[13]	dozeBeansVarietyText[13]	Small red beans		  
+food_info_types_beans[14]	dozeBeansVarietyText[14]	Split peas (yellow or green)		  
+food_info_types_beans[15]	dozeBeansVarietyText[15]	Tempeh		  
 food_info_types_other_fruits[0]	dozeFruitsOtherVarietyText[0]	Apples		  
 food_info_types_other_fruits[1]	dozeFruitsOtherVarietyText[1]	Dried apricots		  
 food_info_types_other_fruits[2]	dozeFruitsOtherVarietyText[2]	Avocados		  
