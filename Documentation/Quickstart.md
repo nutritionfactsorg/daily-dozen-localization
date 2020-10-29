@@ -8,7 +8,6 @@ _This Daily Dozen App Localization QuickStart Guide is located in the documents 
 [Overview](#overview-) •
 [Setup](#setup-) •
 [Spreadsheet Files](#spreadsheet-files-) •
-[Markdown Text Files](#markdown-text-files-) •
 [Issue Discussions](#issue-discussions-) •
 [Resources](#resources-)
 
@@ -69,54 +68,6 @@ Extra columns can be added for the translators' convenience for status, note tak
 **Step 3. Submit TSV File** 
 
 Export the spreadsheet back to a TSV file format.  Add a `*.txt` extension to the translated file. GitHub requires the `*.txt` extension to accept the uploaded file.
-
-![](Quickstart_files/TSV_TXT_extension.png)
-
-Create a [nutritionfactsorg/daily-dozen-localization issue](https://github.com/nutritionfactsorg/daily-dozen-localization/issues) to submit the completed translation. Put the language (see folder name) at the beginning of the subject. Also add "translation submitted" to the subject.
-
-Drag and drop the file to the "Attached file ..." area.
-
-![](Quickstart_files/TSV_DnD_Translation.png)
-
-Click the "Submit new issue" button.
-
-![](Quickstart_files/TSV_submit_ready.png)
-
-## Markdown Text Files <a id="markdown-text-files-"></a><sup>[▴](#contents)</sup>
-
-**Step 1. Download README.md Markdown File** 
-
-Go to the [dashboard](https://github.com/nutritionfactsorg/daily-dozen-localization#dashboard-). Click on the language to be translated in the "Language" column of the dashboard.
-
-![](Quickstart_files/Dashboard_Language.png) 
-
-For example, a click on "Arabic" will go to the "daily-dozen-localization/Languages/Arabic" folder.
-
-![](Quickstart_files/LangFolderPath.png)
-
-The folder contents will contain a file named `README.md`.
-
-![](Quickstart_files/LangFolderList.png)
-
-Use the context menu "Save Link as..." to download the `README.md` file to your local machine.
-
-![](Quickstart_files/Markdown_SaveAs.png)
-
-**Step 2. Translate & Edit** 
-
-Use the [Languages/English_US file](https://github.com/nutritionfactsorg/daily-dozen-localization/blob/master/Languages/English_US/README.md) as a reference for the translation.
-
-![](Quickstart_files/Markdown_Pre.png)
-
-Edit the markdown file to be translated with a markdown editor or plain text file editor.
-
-![](Quickstart_files/Markdown_Post.png)
-
-Save the changes.
-
-**Step 3. Submit Markdown File** 
-
-Add a `*.txt` extension to the translated markdown readme file. GitHub requires the `*.txt` extension to accept the uploaded file.
 
 ![](Quickstart_files/TSV_TXT_extension.png)
 
