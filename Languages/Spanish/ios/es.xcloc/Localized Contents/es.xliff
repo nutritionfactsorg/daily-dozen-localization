@@ -2,7 +2,7 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
   <file original="DailyDozen/App/SupportingFiles/en.lproj/InfoPlist.strings" source-language="en" target-language="es" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.1" build-num="12A7403"/>
     </header>
     <body>
       <trans-unit id="CFBundleName" xml:space="preserve">
@@ -13,7 +13,7 @@
       <trans-unit id="DailyDozen" xml:space="preserve">
         <source>DailyDozen</source>
         <target>DailyDozen</target>
-        <note/>
+        <note>(No Comment)</note>
       </trans-unit>
       <trans-unit id="NSHealthShareUsageDescription" xml:space="preserve">
         <source>The 21 Tweaks feature accesses your HealthKit data to provide updates to your daily weight measurements.</source>
@@ -29,17 +29,22 @@
   </file>
   <file original="DailyDozen/App/Texts/LocalStrings/en.lproj/Localizable.strings" source-language="en" target-language="es" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.1" build-num="12A7403"/>
     </header>
     <body>
+      <trans-unit id="dateButtonTitle.today" xml:space="preserve">
+        <source>Today</source>
+        <target>Hoy</target>
+        <note>Records: Daily Tally</note>
+      </trans-unit>
       <trans-unit id="dozeBeans.heading" xml:space="preserve">
         <source>Beans</source>
-        <target>Frijoles</target>
+        <target>Legumbres</target>
         <note>***** Daily Dozen *****</note>
       </trans-unit>
       <trans-unit id="dozeBerries.heading" xml:space="preserve">
         <source>Berries</source>
-        <target>Bayas</target>
+        <target>Frutos rojos</target>
         <note>display heading.</note>
       </trans-unit>
       <trans-unit id="dozeBeverages.heading" xml:space="preserve">
@@ -64,12 +69,12 @@
       </trans-unit>
       <trans-unit id="dozeGreens.heading" xml:space="preserve">
         <source>Greens</source>
-        <target>Vegetales de hoja verde</target>
+        <target>Verduras de hoja verde</target>
         <note>display heading</note>
       </trans-unit>
       <trans-unit id="dozeNuts.heading" xml:space="preserve">
         <source>Nuts and Seeds</source>
-        <target>Nueces</target>
+        <target>Frutos secos</target>
         <note>display heading</note>
       </trans-unit>
       <trans-unit id="dozeOtherInfo.confirm" xml:space="preserve">
@@ -81,9 +86,9 @@
         <source>Vitamin B12 is essential for your health but does not count towards your daily servings.
 
 Vitamin B12 is included in this app to provide you with an easy way to track your intake.</source>
-        <target>La vitamina B12 es esencial para su salud, pero no cuenta para sus porciones diarias.
+        <target>La vitamina B12 es esencial para la salud, pero no cuenta para las porciones diarias.
 
-Vitamina B12 se incluye en esta aplicación para proporcionarle una manera fácil de realizar un seguimiento de su ingesta.</target>
+La Vitamina B12 se incluye en esta aplicación para proporcionarte una manera fácil de realizar un seguimiento de su ingesta.</target>
         <note>Daily Dozen other info message</note>
       </trans-unit>
       <trans-unit id="dozeOtherInfo.title" xml:space="preserve">
@@ -98,23 +103,23 @@ Vitamina B12 se incluye en esta aplicación para proporcionarle una manera fáci
       </trans-unit>
       <trans-unit id="dozeVegetablesCruciferous.heading" xml:space="preserve">
         <source>Cruciferous Vegetables</source>
-        <target>Vegetales crucíferos</target>
+        <target>Crucíferas</target>
         <note>display heading</note>
       </trans-unit>
       <trans-unit id="dozeVegetablesOther.heading" xml:space="preserve">
         <source>Other Vegetables</source>
-        <target>Otros vegetales</target>
+        <target>Otras verduras</target>
         <note>display heading</note>
       </trans-unit>
       <trans-unit id="dozeWholeGrains.heading" xml:space="preserve">
         <source>Whole Grains</source>
-        <target>Granos integrales</target>
+        <target>Cereales integrales</target>
         <note>display heading</note>
       </trans-unit>
       <trans-unit id="historyRecord.movingMean" xml:space="preserve">
         <source>Moving Average</source>
         <target>Media móvil</target>
-        <note>Records: Daily Tally</note>
+        <note/>
       </trans-unit>
       <trans-unit id="historyRecordDoze.heading" xml:space="preserve">
         <source>Servings History</source>
@@ -133,7 +138,7 @@ Vitamina B12 se incluye en esta aplicación para proporcionarle una manera fáci
       </trans-unit>
       <trans-unit id="historyRecordTweak.legend" xml:space="preserve">
         <source>Tweaks</source>
-        <target>Ajustes</target>
+        <target>21 Ajustes</target>
         <note>Tweaks</note>
       </trans-unit>
       <trans-unit id="historyRecordWeight.heading" xml:space="preserve">
@@ -143,12 +148,12 @@ Vitamina B12 se incluye en esta aplicación para proporcionarle una manera fáci
       </trans-unit>
       <trans-unit id="historyRecordWeight.legendEvening" xml:space="preserve">
         <source>Evening</source>
-        <target>La tarde</target>
+        <target>Noche</target>
         <note>Evening</note>
       </trans-unit>
       <trans-unit id="historyRecordWeight.legendMorning" xml:space="preserve">
         <source>Morning</source>
-        <target>La mañana</target>
+        <target>Mañana</target>
         <note>Morning</note>
       </trans-unit>
       <trans-unit id="historyRecordWeight.titleImperial" xml:space="preserve">
@@ -203,92 +208,92 @@ Vitamina B12 se incluye en esta aplicación para proporcionarle una manera fáci
       </trans-unit>
       <trans-unit id="tweakCompleteIntentions.heading" xml:space="preserve">
         <source>Complete Intentions</source>
-        <target>Complete sus intenciones de implementación</target>
+        <target>Completar tus metas</target>
         <note>display heading</note>
       </trans-unit>
       <trans-unit id="tweakDailyBlackCumin.heading" xml:space="preserve">
         <source>Black Cumin</source>
-        <target>Comino negro (¼ cucharadita)</target>
+        <target>Comino negro</target>
         <note>display heading</note>
       </trans-unit>
       <trans-unit id="tweakDailyCumin.heading" xml:space="preserve">
         <source>Cumin</source>
-        <target>Comino (½ cucharadita con almuerzo y cena)</target>
+        <target>Comino</target>
         <note>display heading</note>
       </trans-unit>
       <trans-unit id="tweakDailyDeflourDiet.heading" xml:space="preserve">
         <source>Deflour Diet</source>
-        <target>Granos intactos</target>
+        <target>Adiós a la harina</target>
         <note>display heading</note>
       </trans-unit>
       <trans-unit id="tweakDailyFrontLoad.heading" xml:space="preserve">
         <source>Front-load Calories</source>
-        <target>Carga frontal tus calorías</target>
+        <target>Anticipar calorías</target>
         <note>display heading</note>
       </trans-unit>
       <trans-unit id="tweakDailyGarlic.heading" xml:space="preserve">
         <source>Garlic Powder</source>
-        <target>Ajo en polvo (¼ cucharadita)</target>
+        <target>Ajo en polvo</target>
         <note>display heading</note>
       </trans-unit>
       <trans-unit id="tweakDailyGinger.heading" xml:space="preserve">
         <source>Ginger or Cayenne</source>
-        <target>Jengibre molido (1 cucharadita) o pimienta de cayena (½ cucharadita)</target>
+        <target>Jengibre o cayena</target>
         <note>display heading</note>
       </trans-unit>
       <trans-unit id="tweakDailyGreenTea.heading" xml:space="preserve">
         <source>Green Tea</source>
-        <target>Té verde (3 tazas)</target>
+        <target>Té verde</target>
         <note>display heading</note>
       </trans-unit>
       <trans-unit id="tweakDailyHydrate.heading" xml:space="preserve">
         <source>Stay Hydrated</source>
-        <target>Mantente hidratado</target>
+        <target>Hidratación</target>
         <note>display heading</note>
       </trans-unit>
       <trans-unit id="tweakDailyNutriYeast.heading" xml:space="preserve">
         <source>Nutritional Yeast</source>
-        <target>Levadura nutricional (2 cucharaditas)</target>
+        <target>Levadura nutricional</target>
         <note>display heading</note>
       </trans-unit>
       <trans-unit id="tweakDailyTimeRestrict.heading" xml:space="preserve">
         <source>Time-restrict Eating</source>
-        <target>Restrinja su tiempo de comer</target>
+        <target>Restricción del horario de comidas</target>
         <note>display heading</note>
       </trans-unit>
       <trans-unit id="tweakExerciseTiming.heading" xml:space="preserve">
         <source>Exercising Timing</source>
-        <target>Optimizar el tiempo de ejercicio</target>
+        <target>Ejercicio a buena hora</target>
         <note>display heading</note>
       </trans-unit>
       <trans-unit id="tweakMeal20Minutes.heading" xml:space="preserve">
         <source>Twenty-minute Rule</source>
-        <target>Siga la regla de veinte minutos</target>
+        <target>La regla de los veinte minutos</target>
         <note>display heading</note>
       </trans-unit>
       <trans-unit id="tweakMealNegCal.heading" xml:space="preserve">
         <source>Negative Calorie Preload</source>
-        <target>Precargar con alimentos de "calorías negativas"</target>
+        <target>Empezar con alimentos de calorías negativas</target>
         <note>display heading</note>
       </trans-unit>
       <trans-unit id="tweakMealUndistracted.heading" xml:space="preserve">
         <source>Undistracted Meals</source>
-        <target>Disfruta de comidas sin distracciones</target>
+        <target>Comidas sin distracciones</target>
         <note>display heading</note>
       </trans-unit>
       <trans-unit id="tweakMealVinegar.heading" xml:space="preserve">
         <source>Incorporate Vinegar</source>
-        <target>Incorporar vinagre (2 cucharaditas con cada comida)</target>
+        <target>Vinagre</target>
         <note>display heading</note>
       </trans-unit>
       <trans-unit id="tweakMealWater.heading" xml:space="preserve">
         <source>Preload Water</source>
-        <target>Precargar con agua</target>
+        <target>Empezar con agua</target>
         <note>***** 21 Tweaks *****</note>
       </trans-unit>
       <trans-unit id="tweakNightlyFast.heading" xml:space="preserve">
         <source>Fast After 7:00 p.m.</source>
-        <target>Ayuno después de las 7:00 p.m.</target>
+        <target>Ayuno después de las 7 P.M.</target>
         <note>display heading</note>
       </trans-unit>
       <trans-unit id="tweakNightlySleep.heading" xml:space="preserve">
@@ -298,12 +303,12 @@ Vitamina B12 se incluye en esta aplicación para proporcionarle una manera fáci
       </trans-unit>
       <trans-unit id="tweakNightlyTrendelenbrug.heading" xml:space="preserve">
         <source>Trendelenburg</source>
-        <target>Experimente con Trendelenburg leve</target>
+        <target>Trendelenburg</target>
         <note>display heading</note>
       </trans-unit>
       <trans-unit id="tweakWeightTwice.heading" xml:space="preserve">
         <source>Weigh Twice Daily</source>
-        <target>Pésate dos veces al día</target>
+        <target>Pesarse dos veces al día</target>
         <note>display heading</note>
       </trans-unit>
       <trans-unit id="unitToggle.imperial" xml:space="preserve">
@@ -371,11 +376,16 @@ Vitamina B12 se incluye en esta aplicación para proporcionarle una manera fáci
         <target>es/videos</target>
         <note>main info menu: videos</note>
       </trans-unit>
+      <trans-unit id="weightEntry.heading" xml:space="preserve">
+        <source>Weight</source>
+        <target>Peso</target>
+        <note>Weight entry heading</note>
+      </trans-unit>
     </body>
   </file>
   <file original="DailyDozen/App/Views/Base.lproj/FirstLaunch.storyboard" source-language="en" target-language="es" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.1" build-num="12A7403"/>
     </header>
     <body>
       <trans-unit id="Lef-Iw-Ywr.normalTitle" xml:space="preserve">
@@ -403,7 +413,7 @@ Vitamina B12 se incluye en esta aplicación para proporcionarle una manera fáci
   </file>
   <file original="DailyDozen/DozeSection/DozeDetail/Views/Base.lproj/DozeDetailLayout.storyboard" source-language="en" target-language="es" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.1" build-num="12A7403"/>
     </header>
     <body>
       <trans-unit id="iJb-Vn-TS0.text" xml:space="preserve">
@@ -430,7 +440,7 @@ Vitamina B12 se incluye en esta aplicación para proporcionarle una manera fáci
   </file>
   <file original="DailyDozen/DozeSection/DozeDetail/Views/Base.lproj/DozeDetailSizeHeader.xib" source-language="en" target-language="es" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.1" build-num="12A7403"/>
     </header>
     <body>
       <trans-unit id="eU6-je-hVN.text" xml:space="preserve">
@@ -442,7 +452,7 @@ Vitamina B12 se incluye en esta aplicación para proporcionarle una manera fáci
   </file>
   <file original="DailyDozen/DozeSection/DozeDetail/Views/Base.lproj/DozeDetailSizeUnitHeader.xib" source-language="en" target-language="es" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.1" build-num="12A7403"/>
     </header>
     <body>
       <trans-unit id="1K3-d9-Hfb.normalTitle" xml:space="preserve">
@@ -464,7 +474,7 @@ Vitamina B12 se incluye en esta aplicación para proporcionarle una manera fáci
   </file>
   <file original="DailyDozen/DozeSection/DozeDetail/Views/Base.lproj/DozeDetailTypeHeader.xib" source-language="en" target-language="es" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.1" build-num="12A7403"/>
     </header>
     <body>
       <trans-unit id="YVI-sV-TDX.text" xml:space="preserve">
@@ -476,7 +486,7 @@ Vitamina B12 se incluye en esta aplicación para proporcionarle una manera fáci
   </file>
   <file original="DailyDozen/DozeSection/DozeEntry/Views/Base.lproj/DozeEntryExtrasHeader.xib" source-language="en" target-language="es" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.1" build-num="12A7403"/>
     </header>
     <body>
       <trans-unit id="W2v-Cp-vcd.text" xml:space="preserve">
@@ -488,7 +498,7 @@ Vitamina B12 se incluye en esta aplicación para proporcionarle una manera fáci
   </file>
   <file original="DailyDozen/DozeSection/DozeEntry/Views/Base.lproj/DozeEntryLayout.storyboard" source-language="en" target-language="es" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.1" build-num="12A7403"/>
     </header>
     <body>
       <trans-unit id="1HM-mL-ZV9.text" xml:space="preserve">
@@ -515,7 +525,7 @@ Vitamina B12 se incluye en esta aplicación para proporcionarle una manera fáci
   </file>
   <file original="DailyDozen/DozeSection/DozeEntry/Views/Base.lproj/DozeEntryPagerLayout.storyboard" source-language="en" target-language="es" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.1" build-num="12A7403"/>
     </header>
     <body>
       <trans-unit id="OC8-wt-JgC.normalTitle" xml:space="preserve">
@@ -532,7 +542,7 @@ Vitamina B12 se incluye en esta aplicación para proporcionarle una manera fáci
   </file>
   <file original="DailyDozen/DozeSection/DozeHistory/Views/Base.lproj/DozeHistoryLayout.storyboard" source-language="en" target-language="es" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.1" build-num="12A7403"/>
     </header>
     <body>
       <trans-unit id="27q-rq-qbu.text" xml:space="preserve">
@@ -569,7 +579,7 @@ Vitamina B12 se incluye en esta aplicación para proporcionarle una manera fáci
   </file>
   <file original="DailyDozen/InfoMenu/InfoMenuAbout/Views/Base.lproj/InfoMenuAboutLayout.storyboard" source-language="en" target-language="es" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.1" build-num="12A7403"/>
     </header>
     <body>
       <trans-unit id="19L-gq-W5M.text" xml:space="preserve">
@@ -593,20 +603,20 @@ Vitamina B12 se incluye en esta aplicación para proporcionarle una manera fáci
         <note>Class = "UILabel"; text = "Use this app on a daily basis to keep track of the foods and advice I recommend for optimal health and longevity in my books How Not to Die and How Not to Diet."; ObjectID = "dwQ-CS-gz3";</note>
       </trans-unit>
       <trans-unit id="gX5-vX-xBe.text" xml:space="preserve">
-        <source>version 3.2.1</source>
-        <target>versión 3.2.1</target>
-        <note>Class = "UILabel"; text = "version 3.2.1"; ObjectID = "gX5-vX-xBe";</note>
+        <source>version 3.2.3</source>
+        <target>versión 3.2.3</target>
+        <note>Class = "UILabel"; text = "version 3.2.3"; ObjectID = "gX5-vX-xBe";</note>
       </trans-unit>
       <trans-unit id="pUm-f4-zm1.text" xml:space="preserve">
-        <source>The following open source libraries are used: RealmSwift, Charts, FSCalendar, SimpleAnimation and ActiveLabel.</source>
-        <target>Las siguientes open source libraries fueron utilizadas: RealmSwift, Charts, FSCalendar, SimpleAnimation and ActiveLabel.</target>
-        <note>Class = "UILabel"; text = "The following open source libraries are used: RealmSwift, Charts, FSCalendar, SimpleAnimation and ActiveLabel."; ObjectID = "pUm-f4-zm1";</note>
+        <source>The following open source libraries are used: RealmSwift, Charts, FSCalendar, SimpleAnimation and ActiveLabel.</source>
+        <target>Las siguientes open source libraries fueron utilizadas: RealmSwift, Charts, FSCalendar, SimpleAnimation and ActiveLabel.</target>
+        <note>Class = "UILabel"; text = "The following open source libraries are used: RealmSwift, Charts, FSCalendar, SimpleAnimation and ActiveLabel."; ObjectID = "pUm-f4-zm1";</note>
       </trans-unit>
     </body>
   </file>
   <file original="DailyDozen/InfoMenu/InfoMenuMain/Views/Base.lproj/InfoMenuMainLayout.storyboard" source-language="en" target-language="es" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.1" build-num="12A7403"/>
     </header>
     <body>
       <trans-unit id="Cxo-5D-YUZ.text" xml:space="preserve">
@@ -658,7 +668,7 @@ Vitamina B12 se incluye en esta aplicación para proporcionarle una manera fáci
   </file>
   <file original="DailyDozen/ItemHistory/Views/Base.lproj/ItemHistoryLayout.storyboard" source-language="en" target-language="es" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.1" build-num="12A7403"/>
     </header>
     <body>
       <trans-unit id="S0Q-oB-VgE.text" xml:space="preserve">
@@ -680,7 +690,7 @@ Vitamina B12 se incluye en esta aplicación para proporcionarle una manera fáci
   </file>
   <file original="DailyDozen/Settings/Views/Base.lproj/SettingsLayout.storyboard" source-language="en" target-language="es" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.1" build-num="12A7403"/>
     </header>
     <body>
       <trans-unit id="Ebp-Lw-fWk.normalTitle" xml:space="preserve">
@@ -710,10 +720,10 @@ solamente</target>
         <note>Class = "UISegmentedControl"; OZO-Xa-v5G.segmentTitles[0] = "Daily Dozen Only"; ObjectID = "OZO-Xa-v5G";</note>
       </trans-unit>
       <trans-unit id="OZO-Xa-v5G.segmentTitles[1]" xml:space="preserve">
-        <source>Daily Dozen + Twenty-One Tweaks</source>
+        <source>Daily Dozen + 21 Tweaks</source>
         <target>Docena Diaria +
 21 Ajustes</target>
-        <note>Class = "UISegmentedControl"; OZO-Xa-v5G.segmentTitles[1] = "Daily Dozen + Twenty-One Tweaks"; ObjectID = "OZO-Xa-v5G";</note>
+        <note>Class = "UISegmentedControl"; OZO-Xa-v5G.segmentTitles[1] = "Daily Dozen + 21 Tweaks"; ObjectID = "OZO-Xa-v5G";</note>
       </trans-unit>
       <trans-unit id="RLb-GV-4hh.segmentTitles[0]" xml:space="preserve">
         <source>Imperial</source>
@@ -732,7 +742,7 @@ solamente</target>
       </trans-unit>
       <trans-unit id="WdR-XV-IyP.footerTitle" xml:space="preserve">
         <source>For health alone, use "Daily Dozen Only". For health and weight loss use "Daily Dozen + 21 Tweaks".</source>
-        <target>Solo para la salud, use "Docena Diaria solamente". Para la salud y la pérdida de peso, use "Docena Diaria 21 Ajustes".</target>
+        <target>Solo para la salud, use "Docena Diaria solamente". Para la salud y la pérdida de peso, use "Docena Diaria + 21 Ajustes".</target>
         <note>Class = "UITableViewSection"; footerTitle = "For health alone, use \"Daily Dozen Only\". For health and weight loss use \"Daily Dozen + 21 Tweaks\"."; ObjectID = "WdR-XV-IyP";</note>
       </trans-unit>
       <trans-unit id="WdR-XV-IyP.headerTitle" xml:space="preserve">
@@ -769,7 +779,7 @@ solamente</target>
   </file>
   <file original="DailyDozen/TweakSection/TweakDetail/Views/Base.lproj/TweakDetailActivityHeader.xib" source-language="en" target-language="es" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.1" build-num="12A7403"/>
     </header>
     <body>
       <trans-unit id="YVI-sV-TDA.text" xml:space="preserve">
@@ -781,7 +791,7 @@ solamente</target>
   </file>
   <file original="DailyDozen/TweakSection/TweakDetail/Views/Base.lproj/TweakDetailActivityUnitHeader.xib" source-language="en" target-language="es" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.1" build-num="12A7403"/>
     </header>
     <body>
       <trans-unit id="M75-CQ-NVP.normalTitle" xml:space="preserve">
@@ -803,7 +813,7 @@ solamente</target>
   </file>
   <file original="DailyDozen/TweakSection/TweakDetail/Views/Base.lproj/TweakDetailDescriptionHeader.xib" source-language="en" target-language="es" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.1" build-num="12A7403"/>
     </header>
     <body>
       <trans-unit id="YVI-sV-TDD.text" xml:space="preserve">
@@ -815,7 +825,7 @@ solamente</target>
   </file>
   <file original="DailyDozen/TweakSection/TweakDetail/Views/Base.lproj/TweakDetailLayout.storyboard" source-language="en" target-language="es" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.1" build-num="12A7403"/>
     </header>
     <body>
       <trans-unit id="6m3-hV-PBi.text" xml:space="preserve">
@@ -837,7 +847,7 @@ solamente</target>
   </file>
   <file original="DailyDozen/TweakSection/TweakEntry/Views/Base.lproj/TweakEntryLayout.storyboard" source-language="en" target-language="es" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.1" build-num="12A7403"/>
     </header>
     <body>
       <trans-unit id="5po-De-kCi.text" xml:space="preserve">
@@ -864,7 +874,7 @@ solamente</target>
   </file>
   <file original="DailyDozen/TweakSection/TweakEntry/Views/Base.lproj/TweakEntryPagerLayout.storyboard" source-language="en" target-language="es" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.1" build-num="12A7403"/>
     </header>
     <body>
       <trans-unit id="7XY-Lo-Hwf.normalTitle" xml:space="preserve">
@@ -881,7 +891,7 @@ solamente</target>
   </file>
   <file original="DailyDozen/TweakSection/TweakHistory/Views/Base.lproj/TweakHistoryLayout.storyboard" source-language="en" target-language="es" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.1" build-num="12A7403"/>
     </header>
     <body>
       <trans-unit id="5eb-qC-Ke5.text" xml:space="preserve">
@@ -918,7 +928,7 @@ solamente</target>
   </file>
   <file original="DailyDozen/WeightSection/WeightEntry/Views/Base.lproj/WeightEntryLayout.storyboard" source-language="en" target-language="es" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.1" build-num="12A7403"/>
     </header>
     <body>
       <trans-unit id="7l0-os-Oqt.normalTitle" xml:space="preserve">
@@ -965,7 +975,7 @@ solamente</target>
   </file>
   <file original="DailyDozen/WeightSection/WeightEntry/Views/Base.lproj/WeightEntryPagerLayout.storyboard" source-language="en" target-language="es" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.1" build-num="12A7403"/>
     </header>
     <body>
       <trans-unit id="6FY-X2-BdZ.normalTitle" xml:space="preserve">
@@ -982,7 +992,7 @@ solamente</target>
   </file>
   <file original="DailyDozen/WeightSection/WeightHistory/Views/Base.lproj/WeightHistoryLayout.storyboard" source-language="en" target-language="es" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.5" build-num="11E608c"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.1" build-num="12A7403"/>
     </header>
     <body>
       <trans-unit id="8ed-5m-QMc.text" xml:space="preserve">
