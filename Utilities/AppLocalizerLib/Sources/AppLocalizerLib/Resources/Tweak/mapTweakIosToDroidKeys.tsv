@@ -1,0 +1,27 @@
+# TweakMap mapTweakIosToDroidKeys 
+# iOS to Android key pairs
+APPLE	DROID	ACTION	COMMENT
+//let mapTweakIosToDroidKeys: [String: String] = [
+//    "tweakMealWater	meal_water",
+//    "tweakMealNegCal	meal_negcal",
+//    "tweakMealVinegar	meal_vinegar",
+//    "tweakMealUndistracted	meal_undistracted",
+//    "tweakMeal20Minutes	meal_twentyminutes",
+//    "tweakDailyBlackCumin	daily_blackcumin",
+//    "tweakDailyGarlic	daily_garlic",
+//    "tweakDailyGinger	daily_ginger",
+//    "tweakDailyNutriYeast	daily_nutriyeast",
+//    "tweakDailyCumin	daily_cumin",
+//    "tweakDailyGreenTea	daily_greentea",
+//    "tweakDailyHydrate	daily_hydrate",
+//    "tweakDailyDeflourDiet	daily_deflourdiet",
+//    "tweakDailyFrontLoad	daily_frontload",
+//    "tweakDailyTimeRestrict	daily_timerestrict",
+//    "tweakExerciseTiming	exercise_timing",
+//    "tweakWeightTwice	weigh_twice",
+//    "tweakCompleteIntentions	complete_intentions",
+//    "tweakNightlyFast	nightly_fast",
+//    "tweakNightlySleep	nightly_sleep",
+//    "tweakNightlyTrendelenbrug	nightly_trendelenburg"
+//]
+

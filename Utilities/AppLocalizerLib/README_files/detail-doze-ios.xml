@@ -1,0 +1,29 @@
+<key>dozeFruitsOther</key>
+<dict>
+    <key>Sizes</key>
+    <dict>
+        <key>Metric</key>
+        <array>
+            <string>1 medium-sized fruit</string>
+            <string>40 g dried fruit</string>
+        </array>
+        <key>Imperial</key>
+        <array>
+            <string>1 medium-sized fruit</string>
+            <string>¼ cup dried fruit</string>
+        </array>
+    </dict>
+    <key>Types</key>
+    <array>
+        <dict>
+            <key>Apples</key>
+            <string>apples</string>  <!-- vido topic keyword --> 
+        </dict>
+        <dict>
+            <key>Clementines</key>
+            <string></string>
+        </dict>
+    </array>
+    <key>Topic</key>
+    <string>fruit</string>
+</dict>

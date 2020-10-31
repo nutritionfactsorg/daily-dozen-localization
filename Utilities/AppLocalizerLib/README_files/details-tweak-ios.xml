@@ -1,0 +1,23 @@
+<key>tweakNightlySleep</key>
+<dict>
+    <key>Sizes</key>
+    <dict>
+        <key>Metric</key>
+        <array>
+            <string>Every Night: Get Sufficient Sleep</string>
+        </array>
+        <key>Imperial</key>
+        <array>
+            <string>Every Night: Get Sufficient Sleep</string>
+        </array>
+    </dict>
+    <key>Types</key>
+    <array>
+        <dict>
+            <key>Check this box if …</key>
+            <string></string>
+        </dict>
+    </array>
+    <key>Topic</key>
+    <string>TOPIC_ITEM</string>
+</dict>

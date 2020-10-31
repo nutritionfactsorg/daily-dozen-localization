@@ -1,0 +1,26 @@
+# TweakMap mapTweakKeys 
+# Android to iOS key pairs
+DROID	APPLE	ACTION	COMMENT
+#
+meal_water	tweakMealWater		
+meal_negcal	tweakMealNegCal		
+meal_vinegar	tweakMealVinegar		
+meal_undistracted	tweakMealUndistracted		
+meal_twentyminutes	tweakMeal20Minutes		
+daily_blackcumin	tweakDailyBlackCumin		
+daily_garlic	tweakDailyGarlic		
+daily_ginger	tweakDailyGinger		
+daily_nutriyeast	tweakDailyNutriYeast		
+daily_cumin	tweakDailyCumin		
+daily_greentea	tweakDailyGreenTea		
+daily_hydrate	tweakDailyHydrate		
+daily_deflourdiet	tweakDailyDeflourDiet		
+daily_frontload	tweakDailyFrontLoad		
+daily_timerestrict	tweakDailyTimeRestrict		
+exercise_timing	tweakExerciseTiming		
+weigh_twice	tweakWeightTwice		
+complete_intentions	tweakCompleteIntentions		
+nightly_fast	tweakNightlyFast		
+nightly_sleep	tweakNightlySleep		
+nightly_trendelenburg	tweakNightlyTrendelenbrug		
+#

@@ -1,0 +1,33 @@
+### file: .gitattributes
+###
+### Work In Progress
+### TODO: github search "filename:.gitattributes fodt" for more examples.
+### DOCS: 
+
+### Documents
+
+# *.docx diff=astextplain
+# *.DOCX diff=astextplain
+*.pdf       binary
+
+### Document XML Formats
+*.fodt		binary  # Flat XML LibreOffice Document
+
+*.fodt filter=clean-odf-flat-xml
+*.fodp filter=clean-odf-flat-xml
+*.fodg filter=clean-odf-flat-xml
+*.fods filter=clean-odf-flat-xml
+*.xslt filter=clean-xml
+
+### Image Raster Formats
+## filename.png filter=lfs diff=lfs merge=lfs -text
+*.png		binary
+
+#*.jpg filter=lfs diff=lfs merge=lfs -text
+#*.png filter=lfs diff=lfs merge=lfs -text
+#*.jpeg filter=lfs diff=lfs merge=lfs -text
+#*.ogg filter=lfs diff=lfs merge=lfs -text
+
+# Image Vector Formats
+*.svg		binary
+# *.svg filter=clean-svg

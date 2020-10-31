@@ -1,0 +1,7 @@
+<string name="nightly_sleep">Get Sufficient Sleep</string>
+<string name="nightly_sleep_short">Get Sufficient Sleep</string>
+<string name="nightly_sleep_text">Check this box if …</string>
+<string-array name="tweak_names" translatable="false">
+    <item>@string/nightly_sleep</item>
+    <item>@string/nightly_trendelenburg</item>
+</string-array>

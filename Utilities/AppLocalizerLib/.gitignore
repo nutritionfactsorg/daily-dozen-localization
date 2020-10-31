@@ -1,0 +1,71 @@
+## Place to put notes that are not to be checked in.
+*__LOCAL
+
+#################
+## Apple macOS ##
+#################
+# see Icon as end of this file
+.DS_Store
+
+#################
+## Apple Xcode ##
+#################
+*.xcodeproj
+.swiftpm
+
+###########################
+## Swift Package Manager ##
+###########################
+/.build
+/Packages
+Package.resolved
+
+###########
+## C/C++ ##
+###########
+## For a project mostly in C, the following would be a good set of
+## exclude patterns (uncomment them if you want to use them):
+# *.[oa]
+# *~
+*~
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.ko
+*.obj
+*.elf
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.dll
+*.dylib
+*.so
+*.so.*
+
+# Compiled Static libraries
+*.lib
+*.a
+*.la
+*.lai
+*.lo
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+
+###########
+## Hidden SourceTree "Iconr" which is really "Icon\r"
+Icon?
+

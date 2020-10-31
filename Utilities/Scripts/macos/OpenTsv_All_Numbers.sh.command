@@ -1,0 +1,60 @@
+#!/bin/sh
+
+### cd /to-this-directory/Tools/Scripts/macos
+### ./OpenTsvFiles_InNumbers.sh
+
+SCRIPT_DIR="$( cd "$( dirname "$0" )" >/dev/null 2>&1 && pwd )"
+LANGUAGES="$SCRIPT_DIR/../../../Languages"
+
+### Application 
+open -a Numbers "$LANGUAGES/Afrikaans/tsv/Afrikaans_af.tsv"
+open -a Numbers "$LANGUAGES/Arabic/tsv/Arabic_ar.tsv"
+open -a Numbers "$LANGUAGES/Bhojpuri/tsv/Bhojpuri_bho.tsv"
+open -a Numbers "$LANGUAGES/Bulgarian/tsv/Bulgarian_bg.tsv"
+open -a Numbers "$LANGUAGES/Chinese_HongKong/tsv/Chinese_HongKong_zh_HK.tsv"
+open -a Numbers "$LANGUAGES/Chinese_Simplified/tsv/Chinese_Simplified_zh_Hans.tsv"
+open -a Numbers "$LANGUAGES/Chinese_Traditional/tsv/Chinese_Traditional_zh_Hant.tsv"
+open -a Numbers "$LANGUAGES/Czech/tsv/Czech_cs.tsv"
+open -a Numbers "$LANGUAGES/Danish/tsv/Danish_da.tsv"
+open -a Numbers "$LANGUAGES/Dutch/tsv/Dutch_nl.tsv"
+open -a Numbers "$LANGUAGES/English_GB/tsv/English_GB_en-GB.tsv"
+open -a Numbers "$LANGUAGES/English_US/tsv/English_US_en.tsv"
+open -a Numbers "$LANGUAGES/Estonian/tsv/Estonian_et.tsv"
+open -a Numbers "$LANGUAGES/Finnish/tsv/Finnish_fi.tsv"
+open -a Numbers "$LANGUAGES/French/tsv/French_fr.tsv"
+open -a Numbers "$LANGUAGES/French_Canada/tsv/French_Canada_fr_CA.tsv"
+open -a Numbers "$LANGUAGES/Georgian/tsv/Georgian_ka.tsv"
+open -a Numbers "$LANGUAGES/German/tsv/German_de.tsv"
+open -a Numbers "$LANGUAGES/Greek/tsv/Greek_el.tsv"
+open -a Numbers "$LANGUAGES/Hebrew/tsv/Hebrew_he.tsv"
+open -a Numbers "$LANGUAGES/Hindi/tsv/Hindi_hi.tsv"
+open -a Numbers "$LANGUAGES/Hungarian/tsv/Hungarian_hu.tsv"
+open -a Numbers "$LANGUAGES/Itialian/tsv/Itialian_it.tsv"
+open -a Numbers "$LANGUAGES/Japanese/tsv/Japanese_ja.tsv"
+open -a Numbers "$LANGUAGES/Kannada/tsv/Kannada_kn.tsv"
+open -a Numbers "$LANGUAGES/Korean/tsv/Korean_ko.tsv"
+open -a Numbers "$LANGUAGES/Lithuanian/tsv/Lithuanian_lt.tsv"
+open -a Numbers "$LANGUAGES/Mongolian/tsv/Mongolian_mn.tsv"
+open -a Numbers "$LANGUAGES/Norwegian_nb/tsv/Norwegian_nb.tsv"
+open -a Numbers "$LANGUAGES/Persian/tsv/Persian_fa.tsv"
+open -a Numbers "$LANGUAGES/Polish/tsv/Polish_pl.tsv"
+open -a Numbers "$LANGUAGES/Portuguese/tsv/Portuguese_pt.tsv"
+open -a Numbers "$LANGUAGES/Portuguese_Brazil/tsv/Portuguese_pt_BR.tsv"
+open -a Numbers "$LANGUAGES/Portuguese_Portugal/tsv/Portuguese_pt_PT.tsv"
+open -a Numbers "$LANGUAGES/Romanian/tsv/Romanian_ro.tsv"
+open -a Numbers "$LANGUAGES/Russian/tsv/Russian_ru.tsv"
+open -a Numbers "$LANGUAGES/Serbian_Cyrillic/tsv/Serbian_Cyrillic_sr.tsv"
+open -a Numbers "$LANGUAGES/Serbian_Latin/tsv/Serbian_Latin_sr_Latn.tsv"
+open -a Numbers "$LANGUAGES/Slovak/tsv/Slovak_sk.tsv"
+open -a Numbers "$LANGUAGES/Slovenian/tsv/Slovenian_sl.tsv"
+open -a Numbers "$LANGUAGES/Spanish/tsv/Spanish_es.tsv"
+open -a Numbers "$LANGUAGES/Swedish/tsv/Swedish_sv.tsv"
+open -a Numbers "$LANGUAGES/Thai/tsv/Thai_th.tsv"
+open -a Numbers "$LANGUAGES/Turkish/tsv/Turkish_tr.tsv"
+open -a Numbers "$LANGUAGES/Vietnamese/tsv/Vietnamese_vi.tsv"
+
+### Store 
+
+### URLs 
+open -a Numbers "$LANGUAGES/English_US/tsv/English_US_en_urls.tsv"
+open -a Numbers "$LANGUAGES/Spanish/tsv/Spanish_es_urls.tsv"
