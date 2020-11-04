@@ -56,8 +56,8 @@ let package = Package(
             //   to: AppLocalizerLib_AppLocalizerLibTests.bundle/Resources/*
             resources: [.copy("Resources")]
         ),
-    ],
-    swiftLanguageVersions: [.v5],
-    cLanguageStandard: .c11, // gnu11, iso9899_2011
-    cxxLanguageStandard: .cxx14 // cxx11, gnucxx11, cxx14, gnucxx14, cxx1z, gnucxx1z
+    ] //,
+    //swiftLanguageVersions: [.v5],
+    //cLanguageStandard: .c11, // gnu11, iso9899_2011
+    //cxxLanguageStandard: .cxx14 // cxx11, gnucxx11, cxx14, gnucxx14, cxx1z, gnucxx1z
 )

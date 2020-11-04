@@ -14,157 +14,157 @@
 ########################################################
 ### CREATE TSV: languages without prior translations ###
 ########################################################
-INPUT_BASE_ANDROID  ="English_US/android/values-en/strings.xml"
-INPUT_BASE_APPLE    ="English_US/ios/Localized Contents/en.xliff" 
+INPUT_BASE_ANDROID="English_US/android/values-en/strings.xml"
+INPUT_BASE_APPLE="English_US/ios/Localized Contents/en.xliff" 
 INPUT_TARGET_ANDROID=""
-INPUT_TARGET_APPLE =""
+INPUT_TARGET_APPLE=""
 
-OUTPUT_TSV   ="Afrikaans/tsv/Afrikaans_af.tsv"
+OUTPUT_TSV="Afrikaans/tsv/Afrikaans_af.tsv"
 DO_EXPORT_TSV              
 
-OUTPUT_TSV   ="Arabic/tsv/Arabic_ar.tsv"
+OUTPUT_TSV="Arabic/tsv/Arabic_ar.tsv"
 DO_EXPORT_TSV              
 
-OUTPUT_TSV   ="Chinese_HongKong/tsv/Chinese_HongKong_zh-HK.tsv"
+OUTPUT_TSV="Chinese_HongKong/tsv/Chinese_HongKong_zh-HK.tsv"
 DO_EXPORT_TSV              
 
-OUTPUT_TSV   ="Chinese_Simplified/tsv/Chinese_Simplified_zh-Hans.tsv"
+OUTPUT_TSV="Chinese_Simplified/tsv/Chinese_Simplified_zh-Hans.tsv"
 DO_EXPORT_TSV              
 
-OUTPUT_TSV   ="Czech/tsv/Czech_cs.tsv"
+OUTPUT_TSV="Czech/tsv/Czech_cs.tsv"
 DO_EXPORT_TSV              
 
-OUTPUT_TSV   ="Danish/tsv/Danish_da.tsv"
+OUTPUT_TSV="Danish/tsv/Danish_da.tsv"
 DO_EXPORT_TSV              
 
-OUTPUT_TSV   ="Dutch/tsv/Dutch_nl.tsv"
+OUTPUT_TSV="Dutch/tsv/Dutch_nl.tsv"
 DO_EXPORT_TSV              
 
-OUTPUT_TSV   ="Estonian/tsv/Estonian_et.tsv"
+OUTPUT_TSV="Estonian/tsv/Estonian_et.tsv"
 DO_EXPORT_TSV              
 
-OUTPUT_TSV   ="Finnish/tsv/Finnish_fi.tsv"
+OUTPUT_TSV="Finnish/tsv/Finnish_fi.tsv"
 DO_EXPORT_TSV              
 
-OUTPUT_TSV   ="French_Canada/tsv/French_Canada_fr-CA.tsv"
+OUTPUT_TSV="French_Canada/tsv/French_Canada_fr-CA.tsv"
 DO_EXPORT_TSV              
 
-OUTPUT_TSV   ="Georgian/tsv/Georgian_ka.tsv"
+OUTPUT_TSV="Georgian/tsv/Georgian_ka.tsv"
 DO_EXPORT_TSV              
 
-OUTPUT_TSV   ="Hebrew/tsv/Hebrew_he.tsv"
+OUTPUT_TSV="Hebrew/tsv/Hebrew_he.tsv"
 DO_EXPORT_TSV              
 
-OUTPUT_TSV   ="Hindi/tsv/Hindi_hi.tsv"
+OUTPUT_TSV="Hindi/tsv/Hindi_hi.tsv"
 DO_EXPORT_TSV              
 
-OUTPUT_TSV   ="Hungarian/tsv/Hungarian_hu.tsv"
+OUTPUT_TSV="Hungarian/tsv/Hungarian_hu.tsv"
 DO_EXPORT_TSV              
 
-OUTPUT_TSV   ="Japanese/tsv/Japanese_ja.tsv"
+OUTPUT_TSV="Japanese/tsv/Japanese_ja.tsv"
 DO_EXPORT_TSV              
 
-OUTPUT_TSV   ="Kannada/tsv/Kannada_kn.tsv"
+OUTPUT_TSV="Kannada/tsv/Kannada_kn.tsv"
 DO_EXPORT_TSV              
 
-OUTPUT_TSV   ="Korean/tsv/Korean_ko.tsv"
+OUTPUT_TSV="Korean/tsv/Korean_ko.tsv"
 DO_EXPORT_TSV              
 
-OUTPUT_TSV   ="Lithuanian/tsv/Lithuanian_lt.tsv"
+OUTPUT_TSV="Lithuanian/tsv/Lithuanian_lt.tsv"
 DO_EXPORT_TSV              
 
-OUTPUT_TSV   ="Mongolian/tsv/Mongolian_mn.tsv"
+OUTPUT_TSV="Mongolian/tsv/Mongolian_mn.tsv"
 DO_EXPORT_TSV              
 
-OUTPUT_TSV   ="Norwegian_nb/tsv/Norwegian_nb_nb.tsv"
+OUTPUT_TSV="Norwegian_nb/tsv/Norwegian_nb_nb.tsv"
 DO_EXPORT_TSV              
 
-OUTPUT_TSV   ="Persian/tsv/Persian_fa.tsv"
+OUTPUT_TSV="Persian/tsv/Persian_fa.tsv"
 DO_EXPORT_TSV              
 
-OUTPUT_TSV   ="Polish/tsv/Polish_pl.tsv"
+OUTPUT_TSV="Polish/tsv/Polish_pl.tsv"
 DO_EXPORT_TSV              
 
-OUTPUT_TSV   ="Serbian_Cyrillic/tsv/Serbian_Cyrillic_sr.tsv"
+OUTPUT_TSV="Serbian_Cyrillic/tsv/Serbian_Cyrillic_sr.tsv"
 DO_EXPORT_TSV              
 
-OUTPUT_TSV   ="Serbian_Latin/tsv/Serbian_Latin_sr-Latn.tsv"
+OUTPUT_TSV="Serbian_Latin/tsv/Serbian_Latin_sr-Latn.tsv"
 DO_EXPORT_TSV              
 
-OUTPUT_TSV   ="Slovak/tsv/Slovak_sk.tsv"
+OUTPUT_TSV="Slovak/tsv/Slovak_sk.tsv"
 DO_EXPORT_TSV              
 
-OUTPUT_TSV   ="Slovenian/tsv/Slovenian_sl.tsv"
+OUTPUT_TSV="Slovenian/tsv/Slovenian_sl.tsv"
 DO_EXPORT_TSV              
 
-OUTPUT_TSV   ="Swedish/tsv/Swedish_sv.tsv"
+OUTPUT_TSV="Swedish/tsv/Swedish_sv.tsv"
 DO_EXPORT_TSV              
 
-OUTPUT_TSV   ="Thai/tsv/Thai_th.tsv"
+OUTPUT_TSV="Thai/tsv/Thai_th.tsv"
 DO_EXPORT_TSV              
 
-OUTPUT_TSV   ="Turkish/tsv/Turkish_tr.tsv"
+OUTPUT_TSV="Turkish/tsv/Turkish_tr.tsv"
 DO_EXPORT_TSV              
 
-OUTPUT_TSV   ="Vietnamese/tsv/Vietnamese_vi.tsv"
+OUTPUT_TSV="Vietnamese/tsv/Vietnamese_vi.tsv"
 DO_EXPORT_TSV              
 
 #######################################################
 ### CREATE TSV: languages with Android translations ###
 #######################################################
-INPUT_BASE_ANDROID  ="English_US/android/values-en/strings.xml"
-INPUT_BASE_APPLE    ="English_US/ios/Localized Contents/en.xliff" 
-INPUT_TARGET_APPLE =""
+INPUT_BASE_ANDROID="English_US/android/values-en/strings.xml"
+INPUT_BASE_APPLE="English_US/ios/Localized Contents/en.xliff" 
+INPUT_TARGET_APPLE=""
 
 INPUT_TARGET_ANDROID="Bulgarian/android/values-bg/strings.xml"
-OUTPUT_TSV   ="Bulgarian/tsv/Bulgarian_bg.tsv"
+OUTPUT_TSV="Bulgarian/tsv/Bulgarian_bg.tsv"
 DO_EXPORT_TSV              
 
 # seed traditional Chinese translation with existing Android zh 
 INPUT_TARGET_ANDROID="Chinese_Traditional/android/values-zh/strings.xml"
-OUTPUT_TSV   ="Chinese_Traditional/tsv/Chinese_Traditional_zh-Hant.tsv"
+OUTPUT_TSV="Chinese_Traditional/tsv/Chinese_Traditional_zh-Hant.tsv"
 DO_EXPORT_TSV              
 
 INPUT_TARGET_ANDROID="German/android/values-de/strings.xml"
-OUTPUT_TSV   ="German/tsv/German_de.tsv"
+OUTPUT_TSV="German/tsv/German_de.tsv"
 DO_EXPORT_TSV              
 
 INPUT_TARGET_ANDROID="Greek/android/values-el/strings.xml"
-OUTPUT_TSV   ="Greek/tsv/Greek_el.tsv"
+OUTPUT_TSV="Greek/tsv/Greek_el.tsv"
 DO_EXPORT_TSV              
 
 INPUT_TARGET_ANDROID="Spanish/android/values-es/strings.xml"
-OUTPUT_TSV   ="Spanish/tsv/Spanish_es.tsv"
+OUTPUT_TSV="Spanish/tsv/Spanish_es.tsv"
 DO_EXPORT_TSV              
 
 INPUT_TARGET_ANDROID="French/android/values-fr/strings.xml"
-OUTPUT_TSV   ="French/tsv/French_fr.tsv"
+OUTPUT_TSV="French/tsv/French_fr.tsv"
 DO_EXPORT_TSV              
 
 INPUT_TARGET_ANDROID="Italian/android/values-it/strings.xml"
-OUTPUT_TSV   ="Italian/tsv/Italian_it.tsv"
+OUTPUT_TSV="Italian/tsv/Italian_it.tsv"
 DO_EXPORT_TSV              
 
 INPUT_TARGET_ANDROID="Portuguese/android/values-pt/strings.xml"
-OUTPUT_TSV   ="Portuguese/tsv/Portuguese_pt.tsv"
-DO_EXPORT_TSV              
-
-# continue to use existing Android Portuguese
-INPUT_TARGET_ANDROID="Portuguese/android/values-pt/strings.xml"
-OUTPUT_TSV   ="Portuguese_Brazil/tsv/Portuguese_Brazil_pt-BR.tsv"
+OUTPUT_TSV="Portuguese/tsv/Portuguese_pt.tsv"
 DO_EXPORT_TSV              
 
 # continue to use existing Android Portuguese
 INPUT_TARGET_ANDROID="Portuguese/android/values-pt/strings.xml"
-OUTPUT_TSV   ="Portuguese_Portugal/tsv/Portuguese_Portugal_pt-PT.tsv"
+OUTPUT_TSV="Portuguese_Brazil/tsv/Portuguese_Brazil_pt-BR.tsv"
+DO_EXPORT_TSV              
+
+# continue to use existing Android Portuguese
+INPUT_TARGET_ANDROID="Portuguese/android/values-pt/strings.xml"
+OUTPUT_TSV="Portuguese_Portugal/tsv/Portuguese_Portugal_pt-PT.tsv"
 DO_EXPORT_TSV              
 
 INPUT_TARGET_ANDROID="Romanian/android/values-ro/strings.xml"
-OUTPUT_TSV   ="Romanian/tsv/Romanian_ro.tsv"
+OUTPUT_TSV="Romanian/tsv/Romanian_ro.tsv"
 DO_EXPORT_TSV              
 
 INPUT_TARGET_ANDROID="Russian/android/values-ru/strings.xml"
-OUTPUT_TSV   ="Russian/tsv/Russian_ru.tsv"
+OUTPUT_TSV="Russian/tsv/Russian_ru.tsv"
 DO_EXPORT_TSV              
 
 ############
@@ -175,30 +175,13 @@ QUIT
 ###############################
 ### EXPORT FULL TRANSLATION ###
 ###############################
-INPUT_BASE_ANDROID  ="en"
-INPUT_BASE_APPLE    ="en"
+INPUT_BASE_ANDROID="en"
+INPUT_BASE_APPLE="en"
 INPUT_TARGET_ANDROID="de"
 # first pass, only Android has `de` translation
-INPUT_TARGET_APPLE =""
+INPUT_TARGET_APPLE=""
 # second pass, Android and Apple have `de` translation
-#INPUT_TARGET_APPLE ="de"   
-OUTPUT_TSV          ="de.tsv"
+#INPUT_TARGET_APPLE="de"   
+OUTPUT_TSV="de.tsv"
 DO_EXPORT_TSV
 
-##########################
-### IMPORT TRANSLATION ###
-##########################
-# Steps: 
-#   1. Read mapping files.
-#   2. Setup input & output files.
-#   3. Process each TSV input line. Last write wins.
-# Report:
-#   * For translations, report non-translated lines where BASE==TARGET. [NYI]
-#   * For `en`, report changed lines where BASE!=TARGET. [NYI]
-#   * Malformed lines [NYI]
-#   * Duplicate keys. Duplicate keys with differing associated values [NYI]
-INPUT_TSV     ="de.tsv"
-OUTPUT_ANDROID="de"    
-OUTPUT_APPLE  ="de"   
-DO_IMPORT_TSV          
-                       

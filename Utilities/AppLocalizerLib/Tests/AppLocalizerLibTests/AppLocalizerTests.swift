@@ -18,7 +18,8 @@ final class AppLocalizerTests: XCTestCase {
             .appendingPathComponent("AppLocalizerLibTests.bundle")
             .appendingPathComponent("Resources", isDirectory: true)
         let commandsFile = commandsDir
-            .appendingPathComponent("commands_a.txt", isDirectory: false)
+            .appendingPathComponent("commands_import.txt", isDirectory: false)
+            //.appendingPathComponent("commands_a.txt", isDirectory: false)
         print("commandsDir=\(commandsDir.absoluteString)")
         print("commandsFile=\(commandsFile.absoluteString)")
         

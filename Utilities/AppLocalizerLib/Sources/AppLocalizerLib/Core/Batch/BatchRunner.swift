@@ -74,9 +74,13 @@ struct BatchRunner {
                 outputApple = cmd.url
             } 
             else if cmd.key.hasPrefix("DO_IMPORT_TSV") {
-                doImport(inputTSV: inputTSV, 
-                         outputAndroid: outputAndroid, 
-                         outputApple: outputApple)
+                if let inputTSV = inputTSV {
+                    doImport(inputTSV: inputTSV, 
+                             outputAndroid: outputAndroid, 
+                             outputApple: outputApple)
+                } else {
+                    print(":ERROR: BatchRunner run() missing INPUT_TSV")
+                }
             }
             // Quit
             else if cmd.key.hasPrefix("QUIT") {
@@ -139,16 +143,25 @@ struct BatchRunner {
     }
     
     func doImport(
-        inputTSV: URL?, 
+        inputTSV: URL, 
         outputAndroid: URL?, 
         outputApple: URL?
     ) {
         print("""
         ### DO_IMPORT_TSV doImport() ###
-               inputTSV = \(inputTSV?.absoluteString ?? "nil")
+               inputTSV = \(inputTSV.absoluteString)
           outputAndroid = \(outputAndroid?.absoluteString ?? "nil")
             outputApple = \(outputApple?.absoluteString ?? "nil")
         """)
+        
+        // 1. TSV Input File
+        let sheet = TsvImportSheet(url: inputTSV)
+        print(sheet.toString())
+        
+        
+        // 2. Open Output Files
+        
+        // 3. Write translation string to output file
         
     }
     
