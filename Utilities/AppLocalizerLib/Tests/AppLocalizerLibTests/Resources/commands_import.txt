@@ -10,7 +10,9 @@
 #   * For `en`, report changed lines where BASE!=TARGET.
 #   * Malformed lines
 #   * Duplicate keys. Duplicate keys with differing associated values
-INPUT_TSV="German/tsv/German_de.tsv"
+# INPUT_TSV="German/tsv/German_de.tsv"
+# :TEST: INPUT_TSV="_Test/de_FourColumn.tsv"
+INPUT_TSV="_Test/testcases_01.tsv"
 OUTPUT_ANDROID="German/android/values-de/strings.xml"    
 OUTPUT_APPLE="German/ios/de.xcloc/Localized Contents/de.xliff"   
 DO_IMPORT_TSV

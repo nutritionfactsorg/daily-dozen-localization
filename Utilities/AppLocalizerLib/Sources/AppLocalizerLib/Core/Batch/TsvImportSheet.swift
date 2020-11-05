@@ -8,8 +8,10 @@ import Foundation
 
 struct TsvImportSheet {
     var recordList: [TsvImportRow] = []
+    var log = LogService()
     
     init(url: URL) {
+        log.logLevel = .verbose
         do {
             let content = try String(contentsOf: url, encoding: .utf8)
             // .split(whereSeparator: (Character) throws -> Bool)
@@ -26,20 +28,43 @@ struct TsvImportSheet {
             var escapeQuote = false
             var record: [[Character]] = []
             var field: [Character] = []
+            var countChar = 0
             var countLine = 1
             var countLineChar = 0
             for character in content {
+                countChar += 1
                 countLineChar += 1
+                //
+                var statusDetail = ""
+                insideQuote ? statusDetail.append("T ") : statusDetail.append("F ")  
+                escapeQuote ? statusDetail.append("T ") : statusDetail.append("F ")  
+                switch character {
+                case "\n":
+                    statusDetail.append(" \\N ")
+                case "\r":
+                    statusDetail.append(" \\R ")
+                case "\r\n":
+                    statusDetail.append(" RN ")
+                case "\t":
+                    statusDetail.append(" \\T ")
+                default:
+                    statusDetail.append("  \(character) ")
+                }
+                statusDetail.append(" :@\(countLine)/\(countLineChar)/[\(recordList.count)]")
+                log.verbose(statusDetail)
                 if countLine == 999 && countLineChar > 0 { // :DEBUG:
                     print(":@\(countLine)/\(countLineChar)/[\(recordList.count)]")
                 }
+                //
                 if character == "\r" {
-                    // Ingore "\r" part of Windows line ending "\r\n" 
+                    // Ignore "\r" part of Windows line ending "\r\n"
                     continue
-                } else if character == "\n" {
+                } else if character == "\n" || character == "\r\n" {
+                    // :NYI:???: maybe normalize line endings before processing 
                     if insideQuote {
                         field.append(character)
                     } else {
+                        record.append(field)
                         if record.count >= 4 {
                             let r = TsvImportRow(
                                 key_android: String(record[0]), 
@@ -72,7 +97,7 @@ struct TsvImportSheet {
                                 field.append(character)
                                 escapeQuote = false                                
                             } else {
-                                fatalError(":ERROR:@\(countLine)/\(countLineChar)/[\(recordList.count)]: TsvImportSheet escaped quote must preceed")
+                                fatalError(":ERROR:@\(countLine)/\(countLineChar)/[\(recordList.count)]: TsvImportSheet escaped quote must precede")
                             }
                         } else {
                             escapeQuote = true
