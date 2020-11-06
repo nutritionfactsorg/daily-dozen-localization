@@ -52,9 +52,12 @@ extension XMLNode.Kind {
 
 extension XMLNode {
     func toStringNode() -> String {
-        var s = "nodekind:'\(self.kind.toString())' "
-        s.append("tagname:'\(self.name ?? "nil")' ")
+        var s = ""
+        s.append("xPath:'\(self.xPath ?? "nilpath")' ")
+        s.append("kind:'\(self.kind.toString())' ") // node kind
+        s.append("name:'\(self.name ?? "nil")' ") // tagname
         s.append("level:\(self.level) ")
+        s.append("index:\(self.level) ")
         s.append("children:\(self.childCount) ")
         if self.childCount == 0 {
             s.append("nodevalue:'\(self.stringValue ?? "nil")' ")

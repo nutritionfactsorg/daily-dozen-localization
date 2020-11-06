@@ -155,13 +155,56 @@ struct BatchRunner {
         """)
         
         // 1. TSV Input File
-        let sheet = TsvImportSheet(url: inputTSV)
-        print(sheet.toString())
+        let sheet = TsvImportSheet(url: inputTSV, loglevel: .verbose)
+        //print(sheet.toString())    // :DEBUG:
+        //print(sheet.toStringDot()) // :DEBUG:
         
-        
-        // 2. Open Output Files
+        // 2. Open XMLDocument Output Files
+        guard 
+            //var droidXML = try? XMLDocument(contentsOf: outputAndroid, options: []),
+            let outputApple = outputApple,
+            var appleXmlDoc = try? XMLDocument(contentsOf: outputApple, options: []),
+            var appleXmlRoot = appleXmlDoc.rootElement()
+        else {
+            print(":FAIL: could not read outputAndroid or outputApple")
+            return
+        }
         
         // 3. Write translation string to output file
+        print("### ROOT XML ELEMENT ###")
+        print(appleXmlRoot.xPath ?? "nil") // "/xliff[1]"
+        if let generation1 = appleXmlRoot.children {
+            for node: XMLNode in generation1 {
+                print(node.toStringNode())
+                if let generation2 = node.children {
+                    for node: XMLNode in generation2 {
+                        print(node.toStringNode())    
+                        if let generation3 = node.children {
+                            for node: XMLNode in generation3 {
+                                print(node.toStringNode())
+                                if let generation4 = node.children {
+                                    for node: XMLNode in generation4 {
+                                        print(node.toStringNode())
+                                        if let generation5 = node.children {
+                                            for node: XMLNode in generation5 {
+                                                print(node.toStringNode())
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+        
+        for row: TsvImportRow in sheet.recordList {
+            if row.key_apple.isEmpty == false {
+                
+            }
+        }
         
     }
     
