@@ -99,7 +99,7 @@ struct BatchRunner {
             .trimmingCharacters(in: CharacterSet.whitespaces)
             .uppercased()
         var cmdValue = ""
-
+        
         if parts.count == 1 {
             return (cmdKey, nil)
         } 
@@ -155,50 +155,28 @@ struct BatchRunner {
         """)
         
         // 1. TSV Input File
-        let sheet = TsvImportSheet(url: inputTSV, loglevel: .verbose)
+        let sheet = TsvImportSheet(url: inputTSV, loglevel: .info)
         //print(sheet.toString())    // :DEBUG:
         //print(sheet.toStringDot()) // :DEBUG:
         
         // 2. Open XMLDocument Output Files
-        guard 
-            //var droidXML = try? XMLDocument(contentsOf: outputAndroid, options: []),
+        if 
             let outputApple = outputApple,
-            var appleXmlDoc = try? XMLDocument(contentsOf: outputApple, options: []),
-            var appleXmlRoot = appleXmlDoc.rootElement()
-        else {
-            print(":FAIL: could not read outputAndroid or outputApple")
-            return
+            let appleXmlDocument = try? XMLDocument(contentsOf: outputApple, options: []),
+            let appleRootXMLElement: XMLElement = appleXmlDocument.rootElement() {
+            processNodeAppleImport(node: appleRootXMLElement)
+            // printNodeTree(node: appleRootXMLElement)
+        }
+        
+        if 
+            let outputDroid = outputAndroid,
+            let droidXmlDocument = try? XMLDocument(contentsOf: outputDroid, options: []),
+            let droidRootXMLElement: XMLElement = droidXmlDocument.rootElement() {
+            processNodeDroidImport(node: droidRootXMLElement)
+            //printNodeTree(node: droidRootXMLElement)
         }
         
         // 3. Write translation string to output file
-        print("### ROOT XML ELEMENT ###")
-        print(appleXmlRoot.xPath ?? "nil") // "/xliff[1]"
-        if let generation1 = appleXmlRoot.children {
-            for node: XMLNode in generation1 {
-                print(node.toStringNode())
-                if let generation2 = node.children {
-                    for node: XMLNode in generation2 {
-                        print(node.toStringNode())    
-                        if let generation3 = node.children {
-                            for node: XMLNode in generation3 {
-                                print(node.toStringNode())
-                                if let generation4 = node.children {
-                                    for node: XMLNode in generation4 {
-                                        print(node.toStringNode())
-                                        if let generation5 = node.children {
-                                            for node: XMLNode in generation5 {
-                                                print(node.toStringNode())
-                                            }
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-        
         
         for row: TsvImportRow in sheet.recordList {
             if row.key_apple.isEmpty == false {
@@ -206,6 +184,71 @@ struct BatchRunner {
             }
         }
         
+    }
+    
+    func processNodeAppleImport(node :XMLNode) {
+        //print(node.toStringNode())
+        if let name = node.name, 
+           name == "trans-unit", 
+           let children = node.children,
+           let element = node as? XMLElement,
+           let id = element.attribute(forName: "id")?.stringValue
+        {
+            print(id)
+            var sourceValue: XMLNode!
+            var targetValue: XMLNode!
+            var noteValue: XMLNode?
+            for child in children {
+                switch child.name! {
+                case "source":
+                    sourceValue = child.children!.first
+                case "target":
+                    targetValue = child.children!.first
+                case "note":
+                    if let first = child.children?.first {
+                        noteValue = first
+                    } 
+                default:
+                    break
+                }
+            }
+            print("\(sourceValue.stringValue!) •• \(targetValue.stringValue!) •• \(noteValue?.stringValue ?? "nil")")
+        } else if let children = node.children {
+            for node: XMLNode in children {
+                processNodeAppleImport(node: node)
+            }
+        }
+    }
+    
+    func processNodeDroidImport(node :XMLNode) {
+        //print(node.toStringNode())
+        if let name = node.name, 
+           name == "string", 
+           let children = node.children,
+           let element = node as? XMLElement,
+           let keyId = element.attribute(forName: "name")?.stringValue {
+            print(keyId)
+        } else if let name = node.name, 
+                  name == "string-array", 
+                  let children = node.children,
+                  let element = node as? XMLElement,
+                  let keyId = element.attribute(forName: "name")?.stringValue {
+            print("\(keyId):\(children.count)")
+        } else if let children = node.children {
+            for node: XMLNode in children {
+                processNodeDroidImport(node: node)
+            }
+        }
+    }
+    
+    
+    func printNodeTree(node :XMLNode) {
+        print(node.toStringNode())
+        if let children = node.children {
+            for node: XMLNode in children {
+                printNodeTree(node: node)
+            }
+        }
     }
     
     func loadImportMapping() {

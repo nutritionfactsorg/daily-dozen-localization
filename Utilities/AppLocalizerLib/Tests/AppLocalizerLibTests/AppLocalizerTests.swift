@@ -18,7 +18,8 @@ final class AppLocalizerTests: XCTestCase {
             .appendingPathComponent("AppLocalizerLibTests.bundle")
             .appendingPathComponent("Resources", isDirectory: true)
         let commandsFile = commandsDir
-            .appendingPathComponent("commands_testcase_de.txt", isDirectory: false)
+            .appendingPathComponent("commands_testcase_es.txt", isDirectory: false)
+            //.appendingPathComponent("commands_testcase_de.txt", isDirectory: false)
             //.appendingPathComponent("commands_testcase_01.txt", isDirectory: false)
             //.appendingPathComponent("commands_import.txt", isDirectory: false)
             //.appendingPathComponent("commands_a.txt", isDirectory: false)
@@ -46,6 +47,32 @@ final class AppLocalizerTests: XCTestCase {
             mappingsUrl: mappingsDir
         )
         batch.run()
+    }
+    
+    func testXML() {
+        let root = XMLElement(name: "root")
+        let xml = XMLDocument(rootElement: root)
+        root.addChild(XMLElement(name: "language", stringValue:"de"))
+        print(xml.xmlString) 
+        
+        var child = root.children?.first! as! XMLElement
+        
+        xml.xmlData
+    }
+    
+    func createXMLDocumentFromFile(file: String) {
+        let furl = URL(fileURLWithPath: file)
+        // `documentTidyXML` Try to change malformed XML into valid XML
+        let options: XMLNode.Options = [.documentTidyXML] 
+        guard let xmlDoc = try? XMLDocument(contentsOf: furl, options: options) else {return}
+    }
+    
+    func createNewXMLDocument() {
+        let root = XMLElement(name: "translations")
+        var xmlDoc = XMLDocument(rootElement: root)
+        xmlDoc.version = "1.0"
+        xmlDoc.characterEncoding = "UTL-8"
+        root.addChild(XMLElement(name: "language", stringValue:"fr"))
     }
     
     /// :NYI: Exercise the CLI AppLocalizerTool 

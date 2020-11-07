@@ -1,0 +1,18 @@
+##########################
+### IMPORT TRANSLATION ###
+##########################
+# Steps: 
+#   1. Read mapping files.
+#   2. Setup input & output files.
+#   3. Process each TSV input line. Last write wins.
+# Report:
+#   * For translations, report non-translated lines where BASE==TARGET.
+#   * For `en`, report changed lines where BASE!=TARGET.
+#   * Malformed lines
+#   * Duplicate keys. Duplicate keys with differing associated values
+INPUT_TSV="_Test/testcase_de_4fields.tsv"
+OUTPUT_ANDROID="Spanish/android/values-es/strings.xml"    
+OUTPUT_APPLE="Spanish/ios/es.xcloc/Localized Contents/es.xliff"   
+DO_IMPORT_TSV
+
+
