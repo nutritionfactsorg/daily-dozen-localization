@@ -19,10 +19,10 @@ final class AppLocalizerTests: XCTestCase {
             .appendingPathComponent("Resources", isDirectory: true)
         let commandsFile = commandsDir
             .appendingPathComponent("commands_testcase_es.txt", isDirectory: false)
-            //.appendingPathComponent("commands_testcase_de.txt", isDirectory: false)
-            //.appendingPathComponent("commands_testcase_01.txt", isDirectory: false)
-            //.appendingPathComponent("commands_import.txt", isDirectory: false)
-            //.appendingPathComponent("commands_a.txt", isDirectory: false)
+        //.appendingPathComponent("commands_testcase_de.txt", isDirectory: false)
+        //.appendingPathComponent("commands_testcase_01.txt", isDirectory: false)
+        //.appendingPathComponent("commands_import.txt", isDirectory: false)
+        //.appendingPathComponent("commands_a.txt", isDirectory: false)
         print("commandsDir=\(commandsDir.absoluteString)")
         print("commandsFile=\(commandsFile.absoluteString)")
         
@@ -49,31 +49,109 @@ final class AppLocalizerTests: XCTestCase {
         batch.run()
     }
     
-    func testXML() {
-        let root = XMLElement(name: "root")
-        let xml = XMLDocument(rootElement: root)
-        root.addChild(XMLElement(name: "language", stringValue:"de"))
-        print(xml.xmlString) 
-        
-        var child = root.children?.first! as! XMLElement
-        
-        xml.xmlData
-    }
-    
+    // d1
     func createXMLDocumentFromFile(file: String) {
         let furl = URL(fileURLWithPath: file)
         // `documentTidyXML` Try to change malformed XML into valid XML
         let options: XMLNode.Options = [.documentTidyXML] 
-        guard let xmlDoc = try? XMLDocument(contentsOf: furl, options: options) else {return}
+        guard 
+            let xmlDoc = try? XMLDocument(contentsOf: furl, options: options) 
+        else { return }
     }
     
+    // d2
     func createNewXMLDocument() {
         let root = XMLElement(name: "translations")
-        var xmlDoc = XMLDocument(rootElement: root)
+        let xmlDoc = XMLDocument(rootElement: root)
         xmlDoc.version = "1.0"
         xmlDoc.characterEncoding = "UTL-8"
         root.addChild(XMLElement(name: "language", stringValue:"fr"))
     }
+    
+    // e1
+    func writeXmlToFile(xmlDoc: XMLDocument, fileUrl: URL) -> Bool {
+        let xmlOptions: XMLNode.Options = [.nodePrettyPrint]
+        let xmlData: Data = xmlDoc.xmlData(options: xmlOptions)
+        
+        let writingOptions: Data.WritingOptions = [.atomic]
+        
+        do {
+            try xmlData.write(to: fileUrl, options: writingOptions)
+        } catch {
+            print("Could not write document out... \(error)")
+            return false
+        }        
+        
+        return true
+    }
+    
+    // e2
+    func previewXmlDoc(xmlDoc: XMLDocument) -> String {
+        let options: XMLNode.Options = [.nodePrettyPrint]
+        let displayString = xmlDoc.xmlString(options: options)
+        return displayString
+    }
+    
+    // e3
+    func printXmlDoc(xmlDoc: XMLDocument) -> String? {
+        let arguments: [String : String]? = nil
+        var printDoc: XMLDocument? 
+        
+        let data = Data()
+        if let anyDoc = try? xmlDoc.object(byApplyingXSLT: data, arguments: arguments),
+           let transformedDoc = anyDoc as? XMLDocument {
+            printDoc = transformedDoc
+        }
+        
+        let xsltUrl = URL(fileURLWithPath: "xsltPath")
+        if let anyDoc = try? xmlDoc.objectByApplyingXSLT(at: xsltUrl, arguments: arguments),
+           let transformedDoc = anyDoc as? XMLDocument {
+            printDoc = transformedDoc
+        }
+        
+        let string = ""
+        if let anyDoc = try? xmlDoc.object(byApplyingXSLTString: string, arguments: arguments),
+           let transformedDoc = anyDoc as? XMLDocument {
+            printDoc = transformedDoc
+        } else { return nil }
+        
+        if let printDoc = printDoc {
+            let options: XMLNode.Options = [.nodePrettyPrint]
+            return printDoc.xmlString(options: options)
+        } else {
+            return nil
+        }
+    }
+    
+    // f1
+    func walkXmlTree(xmlDoc: XMLDocument) {
+        guard let aNode: XMLNode = xmlDoc.rootElement() else { return }
+        var translatorNotes: String = ""
+        
+        while var aNode = aNode.next {
+            if aNode.kind == .comment {
+                if let stringValue = aNode.stringValue {
+                    translatorNotes.append(stringValue)
+                    translatorNotes.append(" ========> ")
+                }
+                
+                if let nextNode = aNode.next {
+                    aNode = nextNode
+                    if let stringValue = aNode.stringValue {
+                        // element to be translated
+                        translatorNotes.append(stringValue)
+                    }
+                    translatorNotes.append("\n")
+                }
+            }
+        }
+        
+        if translatorNotes.isEmpty == false {
+            try? translatorNotes.write(toFile: "path/translator_notes.txt", atomically: true, encoding: String.Encoding.utf8)
+        }
+        
+    }
+    
     
     /// :NYI: Exercise the CLI AppLocalizerTool 
     //func testAppLocalizerTool() throws {        
