@@ -34,7 +34,19 @@ struct TsvImportSheet {
             var countLine = 1
             var countLineChar = 0
             
+            var watchValueFound = 0
             for character in content {
+                if String(field) == "Daily Dozen application nam" {
+                    print(":WATCH: Daily Dozen application nam")
+                    // app_nameⓉDJR-bj-qUq.textⓉDaily DozenⓉDaily DozenⓉDaily Dozen application name
+                    // welcome_to_my_daily_dozenⓉ
+                    print(":WATCH:\tinsideQuote\tescapeQuote\tcPrev\tcThis\tcNext")
+                    print(":WATCH:\t\(insideQuote)\t\(escapeQuote)\t\(cPrev)\t\(cThis)\t\(cNext)")   
+                    watchValueFound += 1
+                } else if watchValueFound > 0 && watchValueFound < 20 {
+                    print(":WATCH:\t\(insideQuote)\t\(escapeQuote)\t\(cPrev)\t\(cThis)\t\(cNext)")   
+                    watchValueFound += 1
+                }
                 cPrev = cThis
                 cThis = cNext
                 cNext = character
@@ -171,7 +183,7 @@ struct TsvImportSheet {
     func toStringDot() -> String {
         var s = ""
         for r in recordList {
-            s.append("\(r.toStringDot())Ⓝ")
+            s.append("Ⓝ\(r.toStringDot())\n")
         }
         return s
     } 

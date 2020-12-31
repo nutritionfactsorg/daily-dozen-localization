@@ -10,19 +10,20 @@ final class AppLocalizerTests: XCTestCase {
     
     /// Test AppLocalizerLib directly.
     func testAppLocalizerLib() {
-        guard #available(macOS 10.15, *) else { return }
+        guard #available(macOS 10.15, *) else {
+            XCTFail("testAppLocalizerLib() requires macOS 10.15 or higher")
+            return 
+        }
         
-        // …/AppLocalizerLibTests.bundle/Resources/commands_a.txt
+        // …/AppLocalizerLibTests.bundle/Resources/commands_*.txt
         // Content: batch commands file
         let commandsDir = productsDir
             .appendingPathComponent("AppLocalizerLibTests.bundle")
             .appendingPathComponent("Resources", isDirectory: true)
         let commandsFile = commandsDir
-            .appendingPathComponent("commands_testcase_es.txt", isDirectory: false)
-        //.appendingPathComponent("commands_testcase_de.txt", isDirectory: false)
-        //.appendingPathComponent("commands_testcase_01.txt", isDirectory: false)
-        //.appendingPathComponent("commands_import.txt", isDirectory: false)
-        //.appendingPathComponent("commands_a.txt", isDirectory: false)
+            // commands_testcase_01.txt: 01, es, de
+            // commands_import_de.txt: de, pl 
+            .appendingPathComponent("commands_import_pl.txt", isDirectory: false)
         print("commandsDir=\(commandsDir.absoluteString)")
         print("commandsFile=\(commandsFile.absoluteString)")
         
@@ -49,14 +50,19 @@ final class AppLocalizerTests: XCTestCase {
         batch.run()
     }
     
+    // /////////////////////// //
+    // XML Processing Routines //
+    // /////////////////////// //
+    
     // d1
-    func createXMLDocumentFromFile(file: String) {
+    func createXMLDocumentFromFile(file: String) -> XMLDocument? {
         let furl = URL(fileURLWithPath: file)
-        // `documentTidyXML` Try to change malformed XML into valid XML
+        // `documentTidyXML` Also attempts to fix malformed XML
         let options: XMLNode.Options = [.documentTidyXML] 
-        guard 
-            let xmlDoc = try? XMLDocument(contentsOf: furl, options: options) 
-        else { return }
+        if let xmlDoc = try? XMLDocument(contentsOf: furl, options: options) {
+            return xmlDoc
+        } 
+        return nil
     }
     
     // d2
@@ -152,6 +158,7 @@ final class AppLocalizerTests: XCTestCase {
         
     }
     
+    // ////////////////////////////////////////////////////////////////
     
     /// :NYI: Exercise the CLI AppLocalizerTool 
     //func testAppLocalizerTool() throws {        
@@ -190,6 +197,7 @@ final class AppLocalizerTests: XCTestCase {
         #endif
     }
     
+    /// Prints *.xctest product directory in context of all Bundle paths.
     func testProductsDirectory() {
         print("\n### testProductsDirectory() ###")
         var i = 0
