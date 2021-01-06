@@ -8,6 +8,11 @@ import AppLocalizerLib
 
 final class AppLocalizerTests: XCTestCase {
     
+    // commands_testcase_01.txt: 01, es, de
+    // commands_import_de.txt: de, pl 
+    // commands_import_pl.txt
+    let commandSet = "commands_testcase_01.txt"
+    
     /// Test AppLocalizerLib directly.
     func testAppLocalizerLib() {
         guard #available(macOS 10.15, *) else {
@@ -21,9 +26,7 @@ final class AppLocalizerTests: XCTestCase {
             .appendingPathComponent("AppLocalizerLibTests.bundle")
             .appendingPathComponent("Resources", isDirectory: true)
         let commandsFile = commandsDir
-            // commands_testcase_01.txt: 01, es, de
-            // commands_import_de.txt: de, pl 
-            .appendingPathComponent("commands_import_pl.txt", isDirectory: false)
+            .appendingPathComponent(commandSet, isDirectory: false)
         print("commandsDir=\(commandsDir.absoluteString)")
         print("commandsFile=\(commandsFile.absoluteString)")
         

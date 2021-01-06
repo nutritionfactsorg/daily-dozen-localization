@@ -11,8 +11,8 @@
 #   * Malformed lines
 #   * Duplicate keys. Duplicate keys with differing associated values
 INPUT_TSV="_Test/testcase_01.tsv"
-OUTPUT_ANDROID="German/android/values-de/strings.xml"    
-OUTPUT_APPLE="German/ios/de.xcloc/Localized Contents/de.xliff"   
+OUTPUT_ANDROID=""    
+OUTPUT_APPLE=""   
 DO_IMPORT_TSV
 
 

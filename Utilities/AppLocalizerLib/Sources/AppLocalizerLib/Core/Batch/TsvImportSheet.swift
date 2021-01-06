@@ -10,6 +10,53 @@ struct TsvImportSheet {
     var recordList: [TsvImportRow] = []
     var log = LogService()
     
+    // :WATCH: setup
+    fileprivate var _watchCharCount = 0
+    fileprivate let _watchCharLimit = 2000 // number of characters to check
+    fileprivate var _watchEnabled = true
+    fileprivate let _watchString = "K"
+    // "tweakDailyBlackCumin[short]"
+    //
+    // "Daily Dozen application nam"
+    // app_nameⓉDJR-bj-qUq.textⓉDaily DozenⓉDaily DozenⓉDaily Dozen application name
+    // welcome_to_my_daily_dozenⓉ    
+    
+    fileprivate mutating func _watchline(
+        recordIdx: Int,
+        recordFieldIdx: Int,
+        lineIdx: Int,
+        lineCharIdx: Int,
+        field: [Character],
+        insideQuote: Bool,
+        escapeQuote: Bool,
+        cPrev: Character?,
+        cThis: Character?,
+        cNext: Character?
+    ) {
+        if String(field) == _watchString && _watchCharCount == 0 {
+            print(":WATCH:START: \"\(_watchString)\"")
+            print(":WATCH:\trecordIdx\tlineIdx\tlineCharIdx\tinsideQuote\tescapeQuote\tcPrev\tcThis\tcNext")
+            _watchCharCount = 1
+        }
+        
+        if _watchCharCount > 0 && _watchCharCount <= _watchCharLimit {
+            var s = ":WATCH:"
+            s.append("\t\(recordIdx)[\(recordFieldIdx)]")
+            s.append("\t\(lineIdx)")
+            s.append("\t\(lineCharIdx)")
+            s.append("\t\(insideQuote)")
+            s.append("\t\(escapeQuote)")
+            s.append("\t\(toCharacterDot(character: cPrev))")
+            s.append("\t\(toCharacterDot(character: cThis))")
+            s.append("\t\(toCharacterDot(character: cNext))")
+            s.append("\t\(toStringDot(field:field))")
+            print(s)
+            _watchCharCount += 1
+        } else if _watchCharCount > _watchCharLimit {
+            _watchEnabled = false
+        }
+    }
+        
     init(url: URL, loglevel: LogServiceLevel = .info) {
         log.logLevel = loglevel
         do {
@@ -31,49 +78,18 @@ struct TsvImportSheet {
             var record: [[Character]] = []
             var field: [Character] = []
             var countChar = 0
-            var countLine = 1
-            var countLineChar = 0
+            var lineIdx = 1
+            var lineCharIdx = 0
             
-            var watchValueFound = 0
             for character in content {
-                if String(field) == "Daily Dozen application nam" {
-                    print(":WATCH: Daily Dozen application nam")
-                    // app_nameⓉDJR-bj-qUq.textⓉDaily DozenⓉDaily DozenⓉDaily Dozen application name
-                    // welcome_to_my_daily_dozenⓉ
-                    print(":WATCH:\tinsideQuote\tescapeQuote\tcPrev\tcThis\tcNext")
-                    print(":WATCH:\t\(insideQuote)\t\(escapeQuote)\t\(cPrev)\t\(cThis)\t\(cNext)")   
-                    watchValueFound += 1
-                } else if watchValueFound > 0 && watchValueFound < 20 {
-                    print(":WATCH:\t\(insideQuote)\t\(escapeQuote)\t\(cPrev)\t\(cThis)\t\(cNext)")   
-                    watchValueFound += 1
+                if _watchEnabled {
+                    _watchline(recordIdx: recordList.count, recordFieldIdx: record.count, lineIdx: lineIdx, lineCharIdx: lineCharIdx, field: field, insideQuote: insideQuote, escapeQuote: escapeQuote, cPrev: cPrev, cThis: cThis, cNext: cNext)
                 }
                 cPrev = cThis
                 cThis = cNext
                 cNext = character
                 countChar += 1
-                countLineChar += 1
-                //
-                var statusDetail = ""
-                insideQuote ? statusDetail.append("T ") : statusDetail.append("F ")  
-                escapeQuote ? statusDetail.append("T ") : statusDetail.append("F ")  
-                switch cThis {
-                case "\n":
-                    statusDetail.append(" \\N ")
-                case "\r":
-                    statusDetail.append(" \\R ")
-                case "\r\n":
-                    statusDetail.append(" RN ")
-                case "\t":
-                    statusDetail.append(" \\T ")
-                default:
-                    statusDetail.append("  \(cThis ?? "␀") ")
-                }
-                statusDetail.append(" :@\(countLine)/\(countLineChar)/[\(recordList.count)]")
-                log.verbose(statusDetail)
-                if countLine == 999 && countLineChar > 0 { // :DEBUG:
-                    print(":@\(countLine)/\(countLineChar)/[\(recordList.count)]")
-                }
-                //
+                lineCharIdx += 1
                 if cThis == "\r" {
                     // Ignore "\r" part of Windows line ending "\r\n"
                     continue
@@ -93,8 +109,8 @@ struct TsvImportSheet {
                                 )
                                 recordList.append(r)
                             }
-                            countLine += 1
-                            countLineChar = 0
+                            lineIdx += 1
+                            lineCharIdx = 0
                         }
                         field = []
                         record = []
@@ -117,7 +133,7 @@ struct TsvImportSheet {
                                 field.append("\"")
                                 escapeQuote = false                                
                             } else {
-                                fatalError(":ERROR:@\(countLine)/\(countLineChar)/[\(recordList.count)]: TsvImportSheet escaped quote must precede")
+                                fatalError(":ERROR:@\(lineIdx)/\(lineCharIdx)/[\(recordList.count)]: TsvImportSheet escaped quote must precede ::\(toStringDot(field:field))::")
                             }
                         } else {
                             if cNext == "\t" || cNext == "\n" || cNext == "\r\n" {
@@ -142,8 +158,6 @@ struct TsvImportSheet {
                         field.append(cThis)
                     }
                 }
-                
-                cPrev = cThis
             }
             
             // Handle last Character
@@ -187,5 +201,30 @@ struct TsvImportSheet {
         }
         return s
     } 
+    
+    /// Allows invisible characters to be seen on one line
+    func toStringDot(field: [Character]) -> String {
+        var s = ""
+        for c in field {
+            s.append(toCharacterDot(character: c))
+        }
+        return s
+    }
+
+    /// Allows invisible characters to be seen
+    func toCharacterDot(character: Character?) -> Character {
+        switch character {
+        case "\n":
+           return "Ⓝ"
+        case "\r":
+            return "Ⓡ"
+        case "\r\n":
+            return "Ⓧ"
+        case "\t":
+            return "Ⓣ"
+        default:
+            return character ?? "␀"
+        }
+    }
     
 }
