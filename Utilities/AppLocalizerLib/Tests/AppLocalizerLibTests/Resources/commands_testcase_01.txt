@@ -10,7 +10,7 @@
 #   * For `en`, report changed lines where BASE!=TARGET.
 #   * Malformed lines
 #   * Duplicate keys. Duplicate keys with differing associated values
-INPUT_TSV="_Test/testcase_01.tsv"
+INPUT_TSV="_Test/testcase_01rn.tsv"
 OUTPUT_ANDROID=""    
 OUTPUT_APPLE=""   
 DO_IMPORT_TSV

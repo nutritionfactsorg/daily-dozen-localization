@@ -13,13 +13,8 @@ struct TsvImportSheet {
     // :WATCH: setup
     fileprivate var _watchCharCount = 0
     fileprivate let _watchCharLimit = 2000 // number of characters to check
-    fileprivate var _watchEnabled = true
-    fileprivate let _watchString = "K"
-    // "tweakDailyBlackCumin[short]"
-    //
-    // "Daily Dozen application nam"
-    // app_nameⓉDJR-bj-qUq.textⓉDaily DozenⓉDaily DozenⓉDaily Dozen application name
-    // welcome_to_my_daily_dozenⓉ    
+    fileprivate var _watchEnabled = false
+    fileprivate let _watchString = "k" 
     
     fileprivate mutating func _watchline(
         recordIdx: Int,
@@ -59,6 +54,7 @@ struct TsvImportSheet {
         
     init(url: URL, loglevel: LogServiceLevel = .info) {
         log.logLevel = loglevel
+        let newline: Set<Character> = ["\n", "\r", "\r\n"]
         do {
             let content = try String(contentsOf: url, encoding: .utf8)
             // .split(whereSeparator: (Character) throws -> Bool)
@@ -90,17 +86,14 @@ struct TsvImportSheet {
                 cNext = character
                 countChar += 1
                 lineCharIdx += 1
-                if cThis == "\r" {
-                    // Ignore "\r" part of Windows line ending "\r\n"
-                    continue
-                } else if cThis == "\n" || cThis == "\r\n" {
-                    // :NYI:???: maybe normalize line endings before processing 
+                if let cThis = cThis, newline.contains(cThis) {
                     if insideQuote {
-                        field.append("\n") // :???: double check platform line endings
+                        field.append("\n")
                     } else {
-                        record.append(field)
+                        record.append(field) // Add last field to record. 
                         if record.count >= 4 {
                             if !record[0].isEmpty || !record[1].isEmpty || !record[2].isEmpty || !record[3].isEmpty {
+                                // Add non-empty record to list.
                                 let r = TsvImportRow(
                                     key_android: String(record[0]), 
                                     key_apple: String(record[1]), 
@@ -121,7 +114,7 @@ struct TsvImportSheet {
                     if insideQuote {
                         field.append("\t")
                     } else {
-                        record.append(field)
+                        record.append(field) // Add field to list.
                         field = []
                         escapeQuote = false
                         insideQuote = false
@@ -133,19 +126,22 @@ struct TsvImportSheet {
                                 field.append("\"")
                                 escapeQuote = false                                
                             } else {
-                                fatalError(":ERROR:@\(lineIdx)/\(lineCharIdx)/[\(recordList.count)]: TsvImportSheet escaped quote must precede ::\(toStringDot(field:field))::")
+                                fatalError(":ERROR:@line\(lineIdx)[\(lineCharIdx)]: TsvImportSheet escaped quote must precede ::\(toStringDot(field:field))::")
                             }
                         } else {
-                            if cNext == "\t" || cNext == "\n" || cNext == "\r\n" {
+                            if let cNext = cNext, newline.contains(cNext) || cNext == "\t" {
                                 insideQuote = false
                             } else {
                                 escapeQuote = true
                             }
                         }
                     } else {
-                        if cPrev == nil || cPrev == "\n" || cPrev == "\t" {
+                        if cPrev == nil {
                             insideQuote = true
                             escapeQuote = false
+                        } else if let cPrev = cPrev, newline.contains(cPrev) || cPrev == "\t" {
+                                insideQuote = true
+                                escapeQuote = false
                         } else {
                             // print(":CHECK:@\(position): TsvImportSheet double quote in \(field)")
                             if let cThis = cThis {
@@ -161,13 +157,11 @@ struct TsvImportSheet {
             }
             
             // Handle last Character
-            if let cNext = cNext {
-                if cNext != "\n" && cNext != "\r" && cNext != "\r\n" && cNext != "\t" {
-                    field.append(cNext)
-                }
+            if let cNext = cNext, !newline.contains(cNext) && cNext != "\t" {
+                field.append(cNext) // Add last character
             }
             if field.isEmpty == false {
-                record.append(field)
+                record.append(field) // Add last field
             }
             if !record[0].isEmpty || !record[1].isEmpty || !record[2].isEmpty || !record[3].isEmpty {
                 let r = TsvImportRow(
@@ -176,7 +170,7 @@ struct TsvImportSheet {
                     base_value: String(record[2]), 
                     lang_value: String(record[3])
                 )
-                recordList.append(r)
+                recordList.append(r) // Add last record
             }
             
         } catch {

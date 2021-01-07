@@ -380,7 +380,7 @@ daily_blackcumin[heading]	tweakDailyBlackCumin[heading]	Black Cumin (¼ tsp)	Cza
 daily_blackcumin[short]	tweakDailyBlackCumin[short]	Black Cumin (Nigella sativa) (¼ tsp)	Czarnuszka (Nigella sativa) (¼ łyżeczki)	
 daily_blackcumin[text]	tweakDailyBlackCumin[text]	As noted in the Appetite Suppression section, a systematic review and meta-analysis of randomized, controlled weight-loss trials found that about a quarter teaspoon of black cumin powder every day appears to reduce body mass index within a span of a couple of months. Note that black cumin is different from regular cumin, for which the dosing is different.	Jak zauważono w sekcji „Tłumienie apetytu”, systematyczny przegląd i metaanaliza randomizowanych, kontrolowanych badań na temat utraty wagi wykazały, że około ćwierć łyżeczki czarnuszki w proszku każdego dnia wydaje się obniżać wskaźnik masy ciała w ciągu kilku miesięcy.	Polish name for black cumin is totally different from cumin, so there is no need in my opinion to mention the last sentence.
 				
-app_name	DJR-bj-qUq.text	Daily Dozen	Daily Dozen	"Daily Dozen" application name
+app_name	DJR-bj-qUq.text	Daily Dozen	Daily Dozen	"""Daily Dozen"" application name"
 welcome_to_my_daily_dozen	19L-gq-W5M.text	Welcome to my Daily Dozen!	Witaj w moim Daily Dozen!	
 activity_welcome_text	dwQ-CS-gz3.text	Use this app on a daily basis to keep track of the foods and advice I recommend for optimal health and longevity in my books How Not to Die and How Not to Diet.	Korzystaj z tej aplikacji codziennie, aby śledzić żywność i porady, które polecam dla optymalnego zdrowia i długowieczności w moich książkach „Jak nie umrzeć przedwcześni” i „How Not to Diet”.	I left the English title for the second book - as there is no Polish edition yet (2020).
 	gX5-vX-xBe.text	version 3.2.1	wersja 3.2.1	Application release version
@@ -442,7 +442,7 @@ daily_reminder_title		Daily Dozen Reminder	Przypomnienie Daily Dozen
 	GiY-ao-2ee.headerTitle	Daily Reminder	Cozienne przypomnienie	
 daily_reminder_settings		Daily Reminder Settings	Ustawienia codziennych przypomnień	
 	itH-G7-Kal.text	Enable Reminders	Włącz przypomnienia	
-	XFw-2q-BdT.text	On	Włączone	"On" as in "On or Off"
+	XFw-2q-BdT.text	On	Włączone	"""On"" as in ""On or Off"""
 enable_daily_reminder		Enable Daily Reminders	Włącz codzienne przypomnienia	On/Off toggle label
 	pjz-An-Ls5.text	Enable Reminders	Włącz przypomnienia	On/Off toggle label
 remind_me_at	kR3-Sa-Fpt.text	Remind me at:	Przypomnij o:	
