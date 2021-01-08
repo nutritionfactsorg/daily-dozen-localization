@@ -194,7 +194,7 @@ struct BatchRunner {
            let element = node as? XMLElement,
            let id = element.attribute(forName: "id")?.stringValue
         {
-            print(id)
+            print("\(id) ••", terminator: "")
             var sourceValue: XMLNode!
             var targetValue: XMLNode!
             var noteValue: XMLNode?
@@ -221,19 +221,29 @@ struct BatchRunner {
     }
     
     func processNodeDroidImport(node :XMLNode) {
-        //print(node.toStringNode())
+        
+        //if node.children != nil {
+        //    print(node.toStringNode())
+        //} else {
+        //    // kind:element name:'string'
+        //    // kind:element name:'string-array'
+        //    // kind:element name:'integer-array' food_quantities, tweak_amounts
+        //    // kind:comment name:'nil'
+        //    print(node.toStringNode())  
+        //}
+        
         if let name = node.name, 
-           name == "string", 
-           let children = node.children,
+           let children = node.children, // has children
            let element = node as? XMLElement,
            let keyId = element.attribute(forName: "name")?.stringValue {
-            print(keyId)
-        } else if let name = node.name, 
-                  name == "string-array", 
-                  let children = node.children,
-                  let element = node as? XMLElement,
-                  let keyId = element.attribute(forName: "name")?.stringValue {
-            print("\(keyId):\(children.count)")
+            switch name {
+            case "string":
+                print(keyId)
+            case "string-array":
+                print("\(keyId):\(children.count)")
+            default:
+                break
+            }            
         } else if let children = node.children {
             for node: XMLNode in children {
                 processNodeDroidImport(node: node)
