@@ -45,7 +45,7 @@ final class AppLocalizerTests: XCTestCase {
             .appendingPathComponent("Resources", isDirectory: true)
         print("mappingsDir=\(mappingsDir.absoluteString)")
         
-        let batch = BatchRunner(
+        var batch = BatchRunner(
             commandsUrl: commandsFile, 
             languagesUrl: languagesDir, 
             mappingsUrl: mappingsDir

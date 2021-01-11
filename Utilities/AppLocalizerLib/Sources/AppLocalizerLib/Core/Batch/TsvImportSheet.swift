@@ -178,6 +178,106 @@ struct TsvImportSheet {
         }
     }
     
+    func checkKeyCoverageAndroid(xmlKeys: Set<String>) {
+        var tsvKeys = Set<String>()
+        var s = ""
+        for r in recordList {
+            let key = r.key_android
+            if tsvKeys.contains(key) {
+                s.append(" \(key)\n)")
+            } else {
+                tsvKeys.insert(key)
+            }
+        }
+        if s.isEmpty {
+            print("#####\nDuplicate TSV Android Keys: NONE\n")
+        } else {
+            print("#####\nDuplicate TSV Android Keys: \(s)\n#####\n")
+        }
+        
+        let tsvExtras = tsvKeys.subtracting(xmlKeys)
+        if tsvExtras.isEmpty {
+            print("#####\nExtra TSV Android Keys: NONE\n")
+        } else {
+            s = "#####\nExtra TSV Android Keys:\n"
+            for key in tsvExtras {
+                s.append(" \(key)\n")
+            }
+            s.append("#####\n")
+            print(s)
+        }
+        
+        let tsvMissing = xmlKeys.subtracting(tsvKeys)
+        if tsvMissing.isEmpty {
+            print("#####\nMissing TSV Android Keys: NONE\n")
+        } else {
+            s = "#####\nMissing TSV Android Keys:\n"
+            for key in tsvMissing {
+                s.append(" \(key)\n")
+            }
+            s.append("#####\n")
+            print(s)
+        }
+    }
+    
+    func checkKeyCoverageApple(xmlKeys: Set<String>) {
+        var tsvKeys = Set<String>()
+        var s = ""
+        for r in recordList {
+            let key = r.key_apple
+            if tsvKeys.contains(key) {
+                s.append(" \(key)\n)") 
+            } else {
+                tsvKeys.insert(key)
+            }
+        }
+        if s.isEmpty {
+            print("#####\nDuplicate TSV Apple Keys: NONE\n")
+        } else {
+            print("#####\nDuplicate TSV Apple Keys: \(s)\n#####\n")
+        }
+        
+        let tsvExtras = tsvKeys.subtracting(xmlKeys)
+        if tsvExtras.isEmpty {
+            print("#####\nExtra TSV Apple Keys: NONE\n")
+        } else {
+            s = "#####\nExtra TSV Apple Keys:\n"
+            for key in tsvExtras {
+                s.append(" \(key)\n")
+            }
+            s.append("#####\n")
+            print(s)
+        }
+        
+        let tsvMissing = xmlKeys.subtracting(tsvKeys)
+        if tsvMissing.isEmpty {
+            print("#####\nMissing TSV Apple Keys: NONE\n")
+        } else {
+            s = "#####\nMissing Apple TSV Keys:\n"
+            for key in tsvMissing {
+                s.append(" \(key)\n")
+            }
+            s.append("#####\n")
+            print(s)
+        }
+    }
+
+    func getLookupDictAndroid() -> [String: String] {
+        var d = [String: String]()
+        for r in recordList {
+            d[r.key_android] = r.lang_value
+        }
+        return d
+    }
+    
+    func getLookupDictApple() -> [String: String] {
+        var d = [String: String]()
+        for r in recordList {
+            d[r.key_apple] = r.lang_value
+        }
+        return d
+    }
+    
     func toString() -> String {
         var s = ""
         var index = 0

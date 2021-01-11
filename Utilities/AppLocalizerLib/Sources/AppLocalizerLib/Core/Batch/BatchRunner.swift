@@ -12,6 +12,9 @@ struct BatchRunner {
     let commandsUrl: URL
     let languagesUrl: URL
     let mappingsUrl: URL
+    // Internal 
+    private var _lookupTable: [String: String]! // *_key, value
+    private var _xmlKeysProcessed: Set<String>!    // *_key
     
     init(commandsUrl: URL, languagesUrl: URL, mappingsUrl: URL) {
         self.commandsUrl = commandsUrl
@@ -19,7 +22,7 @@ struct BatchRunner {
         self.mappingsUrl = mappingsUrl
     }
     
-    func run() {
+    mutating func run() {
         // Batch Export Parameters
         var inputBaseAndroid: URL?
         var inputBaseApple: URL?
@@ -142,7 +145,7 @@ struct BatchRunner {
         
     }
     
-    func doImport(
+    mutating func doImport(
         inputTSV: URL, 
         outputAndroid: URL?, 
         outputApple: URL?
@@ -159,25 +162,56 @@ struct BatchRunner {
         //print(sheet.toString())    // :DEBUG:
         //print(sheet.toStringDot()) // :DEBUG:
         
-        // 2. Open XMLDocument Output Files
+        // 2. Process XMLDocument Files
         if 
-            let outputApple = outputApple,
-            let appleXmlDocument = try? XMLDocument(contentsOf: outputApple, options: []),
+            let appleXmlUrl = outputApple,
+            let appleXmlDocument = try? XMLDocument(contentsOf: appleXmlUrl, options: [.nodePreserveAll]),
             let appleRootXMLElement: XMLElement = appleXmlDocument.rootElement() {
+            _lookupTable = sheet.getLookupDictApple()
+            _xmlKeysProcessed = Set<String>()
             processNodeAppleImport(node: appleRootXMLElement)
             // printNodeTree(node: appleRootXMLElement)
+            
+            // XMLDocument(contentsOf: URL, options: XMLNode.Options)
+            //      someXmlDocument.xmlData(options: XMLNode.Options)
+            
+            let options: XMLNode.Options = [.nodePreserveAll, .nodePrettyPrint]
+            let appleXmlData = appleXmlDocument.xmlData(options: options)
+            
+            let outputUrl = appleXmlUrl
+                .deletingPathExtension()
+                .appendingPathExtension("\(Date.datestampyyyyMMddHHmm).xliff")  
+            print(outputUrl.absoluteURL)
+            do {
+                try appleXmlData.write(to: outputUrl, options: [.atomic])
+            } catch {
+                print("Could not write document out…\n  …url=\(outputUrl)\n  …error='\(error)'")
+            }
         }
         
         if 
-            let outputDroid = outputAndroid,
-            let droidXmlDocument = try? XMLDocument(contentsOf: outputDroid, options: []),
+            let droidXmlUrl = outputAndroid,
+            let droidXmlDocument = try? XMLDocument(contentsOf: droidXmlUrl, options: [.nodePreserveAll, .nodePreserveWhitespace]),
             let droidRootXMLElement: XMLElement = droidXmlDocument.rootElement() {
+            _lookupTable = sheet.getLookupDictAndroid()
+            _xmlKeysProcessed = Set<String>()
             processNodeDroidImport(node: droidRootXMLElement)
             //printNodeTree(node: droidRootXMLElement)
+            
+            let options: XMLNode.Options = [.nodePreserveAll, .nodePrettyPrint, .nodePreserveWhitespace]
+            let droidXmlData = droidXmlDocument.xmlData(options: options)
+            
+            let outputUrl = droidXmlUrl
+                .deletingPathExtension()
+                .appendingPathExtension("\(Date.datestampyyyyMMddHHmm).xliff")  
+            print(outputUrl.absoluteURL)
+            do {
+                try droidXmlData.write(to: outputUrl, options: [.atomic])
+            } catch {
+                print("Could not write document out…\n  …url=\(outputUrl)\n  …error='\(error)'")
+            }
         }
-        
-        // 3. Write translation string to output file
-        
+                
         for row: TsvImportRow in sheet.recordList {
             if row.key_apple.isEmpty == false {
                 
@@ -186,7 +220,7 @@ struct BatchRunner {
         
     }
     
-    func processNodeAppleImport(node :XMLNode) {
+    mutating func processNodeAppleImport(node :XMLNode) {
         //print(node.toStringNode())
         if let name = node.name, 
            name == "trans-unit", 
@@ -194,25 +228,30 @@ struct BatchRunner {
            let element = node as? XMLElement,
            let id = element.attribute(forName: "id")?.stringValue
         {
-            print("\(id) ••", terminator: "")
-            var sourceValue: XMLNode!
-            var targetValue: XMLNode!
-            var noteValue: XMLNode?
+            print("• \(id) ••", terminator: "")
+            var sourceNode: XMLNode!
+            var targetNode: XMLNode!
+            var noteNode: XMLNode!
             for child in children {
-                switch child.name! {
+                guard let childname = child.name else { continue }
+                switch childname {
                 case "source":
-                    sourceValue = child.children!.first
+                    sourceNode = child
                 case "target":
-                    targetValue = child.children!.first
+                    targetNode = child
+                    if let value = _lookupTable[id] {
+                        targetNode.stringValue = value
+                        _xmlKeysProcessed.insert(id)
+                    } else {
+                        print(":WARNING: apple key not found lookup table '\(id)'")
+                    }
                 case "note":
-                    if let first = child.children?.first {
-                        noteValue = first
-                    } 
+                    noteNode = child
                 default:
                     break
                 }
             }
-            print("\(sourceValue.stringValue!) •• \(targetValue.stringValue!) •• \(noteValue?.stringValue ?? "nil")")
+            print("\(sourceNode.stringValue!) •• \(targetNode.stringValue!) •• \(noteNode.stringValue ?? "nil")")
         } else if let children = node.children {
             for node: XMLNode in children {
                 processNodeAppleImport(node: node)

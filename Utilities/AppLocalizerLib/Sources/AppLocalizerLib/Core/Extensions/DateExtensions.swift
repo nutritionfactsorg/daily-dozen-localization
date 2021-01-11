@@ -9,21 +9,24 @@ import Foundation
 public extension Date {
     
     /// Return yyyyMMdd based on the current locale.
-    var datestampyyyyMMdd: String {
+    static var datestampyyyyMMdd: String {
+        let now = Date()
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "yyyyMMdd"
-        return dateFormatter.string(from: self)
+        return dateFormatter.string(from: now)
     }
         
-    var datestampyyyyMMddHHmm: String {
+    static var datestampyyyyMMddHHmm: String {
+        let now = Date()
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "yyyyMMdd_HHmm"
-        return dateFormatter.string(from: self)
+        return dateFormatter.string(from: now)
     }
     
-    var datestampyyyyMMddHHmmssSSS: String {
+    static var datestampyyyyMMddHHmmssSSS: String {
+        let now = Date()
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "yyyyMMdd_HHmmss.SSS"
-        return dateFormatter.string(from: self)
+        return dateFormatter.string(from: now)
     }
 }

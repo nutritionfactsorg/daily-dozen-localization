@@ -42,7 +42,7 @@ public struct BatchJob {
     public init(workingDataDir: URL, language: Language) {
         /// from command line "dataPath="
         self.dataDir = workingDataDir
-        let datestamp = Date().datestampyyyyMMdd
+        let datestamp = Date.datestampyyyyMMdd
         
         /// …Languages/English (en)/android/values-en/strings.xml
         self.droidBaseXmlInputUrl = workingDataDir
