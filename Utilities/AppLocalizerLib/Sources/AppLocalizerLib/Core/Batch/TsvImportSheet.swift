@@ -9,51 +9,169 @@ import Foundation
 struct TsvImportSheet {
     var recordList: [TsvImportRow] = []
     var log = LogService()
-    
-    // :WATCH: setup
-    fileprivate var _watchCharCount = 0
-    fileprivate let _watchCharLimit = 2000 // number of characters to check
-    fileprivate var _watchEnabled = false
-    fileprivate let _watchString = "k" 
-    
-    fileprivate mutating func _watchline(
-        recordIdx: Int,
-        recordFieldIdx: Int,
-        lineIdx: Int,
-        lineCharIdx: Int,
-        field: [Character],
-        insideQuote: Bool,
-        escapeQuote: Bool,
-        cPrev: Character?,
-        cThis: Character?,
-        cNext: Character?
-    ) {
-        if String(field) == _watchString && _watchCharCount == 0 {
-            print(":WATCH:START: \"\(_watchString)\"")
-            print(":WATCH:\trecordIdx\tlineIdx\tlineCharIdx\tinsideQuote\tescapeQuote\tcPrev\tcThis\tcNext")
-            _watchCharCount = 1
-        }
-        
-        if _watchCharCount > 0 && _watchCharCount <= _watchCharLimit {
-            var s = ":WATCH:"
-            s.append("\t\(recordIdx)[\(recordFieldIdx)]")
-            s.append("\t\(lineIdx)")
-            s.append("\t\(lineCharIdx)")
-            s.append("\t\(insideQuote)")
-            s.append("\t\(escapeQuote)")
-            s.append("\t\(toCharacterDot(character: cPrev))")
-            s.append("\t\(toCharacterDot(character: cThis))")
-            s.append("\t\(toCharacterDot(character: cNext))")
-            s.append("\t\(toStringDot(field:field))")
-            print(s)
-            _watchCharCount += 1
-        } else if _watchCharCount > _watchCharLimit {
-            _watchEnabled = false
-        }
-    }
-        
+                
     init(url: URL, loglevel: LogServiceLevel = .info) {
         log.logLevel = loglevel
+        parseTsvFile(url: url)
+        parseUpdateAndroidKeys()
+        parseUpdateAppleKeys()
+        saveTsvFile(url: url)
+    }
+    
+    func checkKeyCoverageAndroid(xmlKeys: Set<String>) {
+        var tsvKeys = Set<String>()
+        var s = ""
+        for r in recordList {
+            let key = r.key_android
+            if tsvKeys.contains(key) {
+                s.append(" \(key)\n)")
+            } else {
+                tsvKeys.insert(key)
+            }
+        }
+        if s.isEmpty {
+            print("#####\nDuplicate TSV Android Keys: NONE\n")
+        } else {
+            print("#####\nDuplicate TSV Android Keys: \(s)\n#####\n")
+        }
+        
+        let tsvExtras = tsvKeys.subtracting(xmlKeys)
+        if tsvExtras.isEmpty {
+            print("#####\nExtra TSV Android Keys: NONE\n")
+        } else {
+            s = "#####\nExtra TSV Android Keys:\n"
+            for key in tsvExtras {
+                s.append(" \(key)\n")
+            }
+            s.append("#####\n")
+            print(s)
+        }
+        
+        let tsvMissing = xmlKeys.subtracting(tsvKeys)
+        if tsvMissing.isEmpty {
+            print("#####\nMissing TSV Android Keys: NONE\n")
+        } else {
+            s = "#####\nMissing TSV Android Keys:\n"
+            for key in tsvMissing {
+                s.append(" \(key)\n")
+            }
+            s.append("#####\n")
+            print(s)
+        }
+    }
+    
+    func checkKeyCoverageApple(xmlKeys: Set<String>) {
+        var tsvKeys = Set<String>()
+        var s = ""
+        for r in recordList {
+            let key = r.key_apple
+            if tsvKeys.contains(key) {
+                s.append(" \(key)\n)") 
+            } else {
+                tsvKeys.insert(key)
+            }
+        }
+        if s.isEmpty {
+            print("#####\nDuplicate TSV Apple Keys: NONE\n")
+        } else {
+            print("#####\nDuplicate TSV Apple Keys: \(s)\n#####\n")
+        }
+        
+        let tsvExtras = tsvKeys.subtracting(xmlKeys)
+        if tsvExtras.isEmpty {
+            print("#####\nExtra TSV Apple Keys: NONE\n")
+        } else {
+            s = "#####\nExtra TSV Apple Keys:\n"
+            for key in tsvExtras {
+                s.append(" \(key)\n")
+            }
+            s.append("#####\n")
+            print(s)
+        }
+        
+        let tsvMissing = xmlKeys.subtracting(tsvKeys)
+        if tsvMissing.isEmpty {
+            print("#####\nMissing TSV Apple Keys: NONE\n")
+        } else {
+            s = "#####\nMissing Apple TSV Keys:\n"
+            for key in tsvMissing {
+                s.append(" \(key)\n")
+            }
+            s.append("#####\n")
+            print(s)
+        }
+    }
+
+    func getLookupDictAndroid() -> [String: String] {
+        var d = [String: String]()
+        for r in recordList {
+            d[r.key_android] = r.lang_value
+        }
+        return d
+    }
+    
+    func getLookupDictApple() -> [String: String] {
+        var d = [String: String]()
+        for r in recordList {
+            d[r.key_apple] = r.lang_value
+        }
+        return d
+    }
+    
+    /// Allows invisible characters to be seen
+    func toCharacterDot(character: Character?) -> Character {
+        switch character {
+        case "\n":
+           return "Ⓝ"
+        case "\r":
+            return "Ⓡ"
+        case "\r\n":
+            return "Ⓧ"
+        case "\t":
+            return "Ⓣ"
+        default:
+            return character ?? "␀"
+        }
+    }
+
+    func toString() -> String {
+        var s = ""
+        var index = 0
+        for r in recordList {
+            s.append("record[\(index)]:\n\(r.toString())\n")
+            index += 1
+        }
+        return s
+    }
+    
+    func toStringDot() -> String {
+        var s = ""
+        for r in recordList {
+            s.append("Ⓝ\(r.toStringDot())\n")
+        }
+        return s
+    } 
+    
+    /// Allows invisible characters to be seen on one line
+    func toStringDot(field: [Character]) -> String {
+        var s = ""
+        for c in field {
+            s.append(toCharacterDot(character: c))
+        }
+        return s
+    }
+
+    func toTsv() -> String {
+        var s = ""
+        for r in recordList {
+            s.append(r.toTsv())
+        }
+        return s
+    } 
+    
+    // MARK:- Parsing
+    
+    mutating func parseTsvFile(url: URL) {
         let newline: Set<Character> = ["\n", "\r", "\r\n"]
         do {
             let content = try String(contentsOf: url, encoding: .utf8)
@@ -178,147 +296,96 @@ struct TsvImportSheet {
         }
     }
     
-    func checkKeyCoverageAndroid(xmlKeys: Set<String>) {
-        var tsvKeys = Set<String>()
-        var s = ""
-        for r in recordList {
-            let key = r.key_android
-            if tsvKeys.contains(key) {
-                s.append(" \(key)\n)")
-            } else {
-                tsvKeys.insert(key)
-            }
-        }
-        if s.isEmpty {
-            print("#####\nDuplicate TSV Android Keys: NONE\n")
-        } else {
-            print("#####\nDuplicate TSV Android Keys: \(s)\n#####\n")
-        }
-        
-        let tsvExtras = tsvKeys.subtracting(xmlKeys)
-        if tsvExtras.isEmpty {
-            print("#####\nExtra TSV Android Keys: NONE\n")
-        } else {
-            s = "#####\nExtra TSV Android Keys:\n"
-            for key in tsvExtras {
-                s.append(" \(key)\n")
-            }
-            s.append("#####\n")
-            print(s)
-        }
-        
-        let tsvMissing = xmlKeys.subtracting(tsvKeys)
-        if tsvMissing.isEmpty {
-            print("#####\nMissing TSV Android Keys: NONE\n")
-        } else {
-            s = "#####\nMissing TSV Android Keys:\n"
-            for key in tsvMissing {
-                s.append(" \(key)\n")
-            }
-            s.append("#####\n")
-            print(s)
-        }
-    }
-    
-    func checkKeyCoverageApple(xmlKeys: Set<String>) {
-        var tsvKeys = Set<String>()
-        var s = ""
-        for r in recordList {
-            let key = r.key_apple
-            if tsvKeys.contains(key) {
-                s.append(" \(key)\n)") 
-            } else {
-                tsvKeys.insert(key)
-            }
-        }
-        if s.isEmpty {
-            print("#####\nDuplicate TSV Apple Keys: NONE\n")
-        } else {
-            print("#####\nDuplicate TSV Apple Keys: \(s)\n#####\n")
-        }
-        
-        let tsvExtras = tsvKeys.subtracting(xmlKeys)
-        if tsvExtras.isEmpty {
-            print("#####\nExtra TSV Apple Keys: NONE\n")
-        } else {
-            s = "#####\nExtra TSV Apple Keys:\n"
-            for key in tsvExtras {
-                s.append(" \(key)\n")
-            }
-            s.append("#####\n")
-            print(s)
-        }
-        
-        let tsvMissing = xmlKeys.subtracting(tsvKeys)
-        if tsvMissing.isEmpty {
-            print("#####\nMissing TSV Apple Keys: NONE\n")
-        } else {
-            s = "#####\nMissing Apple TSV Keys:\n"
-            for key in tsvMissing {
-                s.append(" \(key)\n")
-            }
-            s.append("#####\n")
-            print(s)
+    mutating func parseUpdateAndroidKeys() {
+        for i in 0 ..< recordList.count {
+            recordList[i].key_android = recordList[i].key_android.replacingOccurrences(
+                of: "\\[(.*)\\]\\[(.*)\\]", 
+                with: ".$1.$2", 
+                options: .regularExpression)
+            recordList[i].key_android = recordList[i].key_android.replacingOccurrences(
+                of: "\\[(.*)\\]", 
+                with: ".$1", 
+                options: .regularExpression)
         }
     }
 
-    func getLookupDictAndroid() -> [String: String] {
-        var d = [String: String]()
-        for r in recordList {
-            d[r.key_android] = r.lang_value
+    mutating func parseUpdateAppleKeys() {
+        for i in 0 ..< recordList.count {
+            recordList[i].key_apple = recordList[i].key_apple.replacingOccurrences(
+                of: "\\[(.*)\\]\\[(.*)\\]", 
+                with: ".$1.$2", 
+                options: .regularExpression)
+            recordList[i].key_apple = recordList[i].key_apple.replacingOccurrences(
+                of: "\\[(.*)\\]", 
+                with: ".$1", 
+                options: .regularExpression)
+            recordList[i].key_apple = recordList[i].key_apple.replacingOccurrences(
+                of: "Serving.]", 
+                with: ".Serving.", 
+                options: .regularExpression)
+            recordList[i].key_apple = recordList[i].key_apple.replacingOccurrences(
+                of: "VarietyText.]", 
+                with: ".Variety.Text.", 
+                options: .regularExpression)
+            // :!!!:NYI: Tweak Activity
         }
-        return d
     }
     
-    func getLookupDictApple() -> [String: String] {
-        var d = [String: String]()
-        for r in recordList {
-            d[r.key_apple] = r.lang_value
+    func saveTsvFile(url: URL) {
+        let outputString = toTsv()
+        let outputUrl = url
+            .deletingPathExtension()
+            .appendingPathExtension("\(Date.datestampyyyyMMddHHmm).tsv")
+        do {
+            try outputString.write(to: outputUrl, atomically: true, encoding: .utf8)
+        } catch {
+            log.error(" \(error)")
         }
-        return d
     }
+        
+    // MARK:- Watch Parsing Lines
     
-    func toString() -> String {
-        var s = ""
-        var index = 0
-        for r in recordList {
-            s.append("record[\(index)]:\n\(r.toString())\n")
-            index += 1
-        }
-        return s
-    }
+    // :WATCH: setup
+    fileprivate var _watchCharCount = 0
+    fileprivate let _watchCharLimit = 2000 // number of characters to check
+    fileprivate var _watchEnabled = false
+    fileprivate let _watchString = "k" 
     
-    func toStringDot() -> String {
-        var s = ""
-        for r in recordList {
-            s.append("Ⓝ\(r.toStringDot())\n")
+    fileprivate mutating func _watchline(
+        recordIdx: Int,
+        recordFieldIdx: Int,
+        lineIdx: Int,
+        lineCharIdx: Int,
+        field: [Character],
+        insideQuote: Bool,
+        escapeQuote: Bool,
+        cPrev: Character?,
+        cThis: Character?,
+        cNext: Character?
+    ) {
+        if String(field) == _watchString && _watchCharCount == 0 {
+            print(":WATCH:START: \"\(_watchString)\"")
+            print(":WATCH:\trecordIdx\tlineIdx\tlineCharIdx\tinsideQuote\tescapeQuote\tcPrev\tcThis\tcNext")
+            _watchCharCount = 1
         }
-        return s
-    } 
-    
-    /// Allows invisible characters to be seen on one line
-    func toStringDot(field: [Character]) -> String {
-        var s = ""
-        for c in field {
-            s.append(toCharacterDot(character: c))
+        
+        if _watchCharCount > 0 && _watchCharCount <= _watchCharLimit {
+            var s = ":WATCH:"
+            s.append("\t\(recordIdx)[\(recordFieldIdx)]")
+            s.append("\t\(lineIdx)")
+            s.append("\t\(lineCharIdx)")
+            s.append("\t\(insideQuote)")
+            s.append("\t\(escapeQuote)")
+            s.append("\t\(toCharacterDot(character: cPrev))")
+            s.append("\t\(toCharacterDot(character: cThis))")
+            s.append("\t\(toCharacterDot(character: cNext))")
+            s.append("\t\(toStringDot(field:field))")
+            print(s)
+            _watchCharCount += 1
+        } else if _watchCharCount > _watchCharLimit {
+            _watchEnabled = false
         }
-        return s
     }
 
-    /// Allows invisible characters to be seen
-    func toCharacterDot(character: Character?) -> Character {
-        switch character {
-        case "\n":
-           return "Ⓝ"
-        case "\r":
-            return "Ⓡ"
-        case "\r\n":
-            return "Ⓧ"
-        case "\t":
-            return "Ⓣ"
-        default:
-            return character ?? "␀"
-        }
-    }
     
 }

@@ -1,11 +1,11 @@
 //
-//  TweakDetailsInfo.swift
+//  TweakDetailInfo.swift
 //  AppLocalizerLib
 //
 
 import Foundation
 
-struct TweakDetailsInfo: Codable {
+struct TweakDetailInfo: Codable {
     
     struct Item: Codable {
                 

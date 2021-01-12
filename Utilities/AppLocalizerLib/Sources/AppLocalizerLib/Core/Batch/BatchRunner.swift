@@ -14,7 +14,8 @@ struct BatchRunner {
     let mappingsUrl: URL
     // Internal 
     private var _lookupTable: [String: String]! // *_key, value
-    private var _xmlKeysProcessed: Set<String>!    // *_key
+    private var _xmlKeysProcessed: Set<String>! // *_key
+    private var _xmlKeysNotFound: [String]!
     
     init(commandsUrl: URL, languagesUrl: URL, mappingsUrl: URL) {
         self.commandsUrl = commandsUrl

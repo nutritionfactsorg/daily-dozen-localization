@@ -1,11 +1,11 @@
 //
-//  DozeDetailsInfo.swift
+//  DozeDetailInfo.swift
 //  AppLocalizerLib
 //
 
 import Foundation
 
-struct DozeDetailsInfo: Codable {
+struct DozeDetailInfo: Codable {
     
     struct Item: Codable {
                 

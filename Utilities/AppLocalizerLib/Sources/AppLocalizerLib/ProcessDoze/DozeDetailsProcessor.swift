@@ -345,25 +345,25 @@ struct DozeDetailsProcessor {
     }
     
     /// in target language
-    func convertAndroid2iPhone() -> DozeDetailsInfo {
-        var dozeDetailsInfo = DozeDetailsInfo()
+    func convertAndroid2iPhone() -> DozeDetailInfo {
+        var dozeDetailsInfo = DozeDetailInfo()
         
         for key in tsvMainRecords.keys {
             let android = androidLangRecords[key]!
             
-            var item = DozeDetailsInfo.Item()
+            var item = DozeDetailInfo.Item()
             item.heading = android.heading
             item.topic = android.topic
-            var servings = [DozeDetailsInfo.Item.Serving]()
+            var servings = [DozeDetailInfo.Item.Serving]()
             for s in android.servings {
                 let imperial = s.text.replacingOccurrences(of: "%s", with: s.imperial)
                 let metric = s.text.replacingOccurrences(of: "%s", with: s.metric)                
-                servings.append(DozeDetailsInfo.Item.Serving(imperial: imperial, metric: metric))
+                servings.append(DozeDetailInfo.Item.Serving(imperial: imperial, metric: metric))
             }
             
-            var varieties = [DozeDetailsInfo.Item.Variety]()
+            var varieties = [DozeDetailInfo.Item.Variety]()
             for v in android.varieties {
-                varieties.append(DozeDetailsInfo.Item.Variety(text: v.text, topic: v.topic))
+                varieties.append(DozeDetailInfo.Item.Variety(text: v.text, topic: v.topic))
             }
             dozeDetailsInfo.itemsDict[key] = item
         }
@@ -371,7 +371,7 @@ struct DozeDetailsProcessor {
     }
     
     func toStringJson() -> String {
-        var dozeDetailsInfo = DozeDetailsInfo()
+        var dozeDetailsInfo = DozeDetailInfo()
         
         for androidKey in tsvMainRecords.keys {
             let iphoneKey = mapDozeDetailsKeys[androidKey]!
@@ -379,22 +379,22 @@ struct DozeDetailsProcessor {
             let tsvServings = tsvServingRecords[androidKey]!
             let tsvVarieties = tsvVarietyRecords[androidKey]!
             
-            var item = DozeDetailsInfo.Item()
+            var item = DozeDetailInfo.Item()
             item.heading = tsvMain.base_value
             item.topic = tsvMain.base_topic
             
-            var servings = [DozeDetailsInfo.Item.Serving]()
+            var servings = [DozeDetailInfo.Item.Serving]()
             for s in tsvServings {
-                servings.append(DozeDetailsInfo.Item.Serving(
+                servings.append(DozeDetailInfo.Item.Serving(
                     imperial: s.lang_imperial_apple, 
                     metric: s.lang_metric_apple)
                 )
             }
             item.servings = servings
             
-            var varieties = [DozeDetailsInfo.Item.Variety]()
+            var varieties = [DozeDetailInfo.Item.Variety]()
             for v in tsvVarieties {
-                varieties.append(DozeDetailsInfo.Item.Variety(
+                varieties.append(DozeDetailInfo.Item.Variety(
                     text: v.lang_value_apple, 
                     topic: v.lang_topic_apple)
                 )

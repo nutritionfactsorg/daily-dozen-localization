@@ -65,6 +65,11 @@ Package.resolved
 # Debug files
 *.dSYM/
 
+#################
+## LibreOffice ##
+#################
+.~lock*
+
 ###########
 ## Hidden SourceTree "Iconr" which is really "Icon\r"
 Icon?

@@ -28,4 +28,8 @@ struct TsvImportRow {
         return "\(key_android)Ⓣ\(key_apple)Ⓣ\(base_value)Ⓣ\(lang_value)"
     }
     
+    func toTsv() -> String {
+        return "\(key_android)\t\(key_apple)\t\(base_value)\t\(lang_value)\r\n"
+    }
+    
 }

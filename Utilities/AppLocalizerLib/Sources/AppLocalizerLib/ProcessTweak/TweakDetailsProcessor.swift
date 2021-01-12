@@ -81,7 +81,7 @@ struct TweakDetailsProcessor {
     }
     
     func toStringJson() -> String {
-        var tweakDetailsInfo = TweakDetailsInfo()
+        var tweakDetailsInfo = TweakDetailInfo()
         
         for androidKey in tsvRecords.keys {
             let iphoneKey = mapTweakKeys[androidKey]!
@@ -91,9 +91,9 @@ struct TweakDetailsProcessor {
                     .replacingOccurrences(of: "\r", with: "\n")
                     .replacingOccurrences(of: "\n\n", with: "\n")
                     .components(separatedBy: "\n")
-                let item = TweakDetailsInfo.Item(
+                let item = TweakDetailInfo.Item(
                     heading: record.lang_value_heading_apple, 
-                    activity: TweakDetailsInfo.Item.Activity(
+                    activity: TweakDetailInfo.Item.Activity(
                         imperial: record.lang_value_short_apple_imperial, 
                         metric: record.lang_value_short_apple_metric
                     ), 

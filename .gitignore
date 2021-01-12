@@ -58,3 +58,8 @@ playground.xcworkspace
 *.xlsm # Excel Macro-Enabled Workbook
 *.xlsx # Excel Workbook
 *.xltx # Excel Template
+
+#################
+## LibreOffice ##
+#################
+.~lock*
