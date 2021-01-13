@@ -8,10 +8,10 @@ import Foundation
 
 struct TsvImportSheet {
     var recordList: [TsvImportRow] = []
-    var log = LogService()
+    var logger = LogService()
                 
     init(url: URL, loglevel: LogServiceLevel = .info) {
-        log.logLevel = loglevel
+        logger.logLevel = loglevel
         parseTsvFile(url: url)
         parseUpdateAndroidKeys()
         parseUpdateAppleKeys()
@@ -311,6 +311,7 @@ struct TsvImportSheet {
 
     mutating func parseUpdateAppleKeys() {
         for i in 0 ..< recordList.count {
+            //print(":BEFORE: \(recordList[i].key_apple)")
             recordList[i].key_apple = recordList[i].key_apple.replacingOccurrences(
                 of: "\\[(.*)\\]\\[(.*)\\]", 
                 with: ".$1.$2", 
@@ -320,14 +321,20 @@ struct TsvImportSheet {
                 with: ".$1", 
                 options: .regularExpression)
             recordList[i].key_apple = recordList[i].key_apple.replacingOccurrences(
-                of: "Serving.]", 
+                of: "Serving.", 
                 with: ".Serving.", 
                 options: .regularExpression)
             recordList[i].key_apple = recordList[i].key_apple.replacingOccurrences(
-                of: "VarietyText.]", 
+                of: "VarietyText.", 
                 with: ".Variety.Text.", 
                 options: .regularExpression)
+            recordList[i].key_apple = recordList[i].key_apple.replacingOccurrences(
+                of: "segmentTitles.(.)", 
+                with: "segmentTitles[$1]", 
+                options: .regularExpression)
             // :!!!:NYI: Tweak Activity
+            
+            //print(":AFTER:  \(recordList[i].key_apple)")
         }
     }
     
@@ -339,7 +346,7 @@ struct TsvImportSheet {
         do {
             try outputString.write(to: outputUrl, atomically: true, encoding: .utf8)
         } catch {
-            log.error(" \(error)")
+            logger.error(" \(error)")
         }
     }
         

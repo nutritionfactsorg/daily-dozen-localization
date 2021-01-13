@@ -21,7 +21,7 @@ public enum LogServiceLevel: Int, Comparable {
     case error      = 1
     case off        = 0
     
-    /// Get string description for log level.
+    /// Get string description for logger level.
     /// 
     /// - parameter logLevel: A LogLevel
     /// 
@@ -88,35 +88,35 @@ public class LogService {
     // public func message
     public func verbose(_ s: String) {
         if .verbose <= logLevel {
-            log(s)
+            logWrite(s)
         }
     }
     
     public func debug(_ s: String) {
         if .debug <= logLevel {
-            log(s)
+            logWrite(s)
         }
     }
     
     public func info(_ s: String) {
         if .info <= logLevel {
-            log(s)
+            logWrite(s)
         }
     }
     
     public func warning(_ s: String) {
         if .warning <= logLevel {
-            log(s)
+            logWrite(s)
         }
     }
     
     public func error(_ s: String) {
         if .error <= logLevel {
-            log(s)
+            logWrite(s)
         }
     }
     
-    private func log(_ string: String) {
+    private func logWrite(_ string: String) {
         lineCount += 1
         var logString = "[[\(lineCount)]] \(string)"
         #if DEBUG
