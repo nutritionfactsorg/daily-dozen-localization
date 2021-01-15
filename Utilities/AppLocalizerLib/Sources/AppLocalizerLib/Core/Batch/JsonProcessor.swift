@@ -8,21 +8,22 @@ import Foundation
 
 struct JsonProcessor {
     
-    //
+    /// Read in from JSON file
     var dozeInfo: DozeDetailInfo
     let dozeJsonUrl: URL
+    /// Read in from JSON file
     var tweakInfo: TweakDetailInfo
     let tweakJsonUrl: URL
     //
-    private var _lookupTable: [String: String]
-    private var _keysProcessed: Set<String> // apple_key
-    private var _keysNotFound: Set<String>  // apple_key
-    private var _keysExpected: Set<String>  // generated from JSON
+    private var _lookupTable: [String: String] // Provided TSV lookup table
+    var keysAppleJsonAll: Set<String>       // generated from JSON data
+    var keysAppleJsonMatched: Set<String>   // apple_key
+    var keysAppleJsonUnmatched: Set<String> // apple_key
     
     init(xliffUrl: URL, lookupTable: [String: String]) {
-        _keysProcessed = Set<String>()
-        _keysNotFound = Set<String>()
-        _keysExpected = Set<String>()
+        keysAppleJsonAll = Set<String>()
+        keysAppleJsonMatched = Set<String>()
+        keysAppleJsonUnmatched = Set<String>()
         _lookupTable = lookupTable
         
         let languageCode = xliffUrl
@@ -53,33 +54,34 @@ struct JsonProcessor {
             fatalError()
         }
         
-        // Expected JSON Keys
-        generateExpectedKeys()
-        let keysExpectedString = _keysExpected.joined(separator: "\n")
+        // All JSON Keys
+        queryAllAppleJsonKeys()
+        let keysExpectedString = keysAppleJsonAll.joined(separator: "\n")
         do {
             let url = xliffUrl
                 .deletingLastPathComponent()
-                .appendingPathComponent("keysExpectedJson_\(Date.datestampyyyyMMddHHmm).txt")
+                .appendingPathComponent("keysAppleJsonAll_\(Date.datestampyyyyMMddHHmm).txt")
             try keysExpectedString.write(to: url, atomically: true, encoding: .utf8)
         } catch {
            print("JsonProcessor init() writing expected keys. \(error)")
         }
     }
     
-    mutating func generateExpectedKeys() {
+    // Query all keys from data which has been read in from the JSON files. 
+    mutating func queryAllAppleJsonKeys() {
         for q in dozeInfo.itemsDict {
             let key = q.key
             guard let record = dozeInfo.itemsDict[key] else { continue }
             
-            _keysExpected.insert("\(key).heading")
-            _keysExpected.insert("\(key).topic")
+            keysAppleJsonAll.insert("\(key).heading")
+            keysAppleJsonAll.insert("\(key).topic")
             for i in 0 ..< record.servings.count {
-                _keysExpected.insert("\(key).Serving.Imperial.\(i)")                
-                _keysExpected.insert("\(key).Serving.Metric.\(i)")                
+                keysAppleJsonAll.insert("\(key).Serving.Imperial.\(i)")                
+                keysAppleJsonAll.insert("\(key).Serving.Metric.\(i)")                
             }
             for i in 0 ..< record.varieties.count {
-                _keysExpected.insert("\(key).Variety.Text.\(i)")                
-                _keysExpected.insert("\(key).Variety.Topic.\(i)")                
+                keysAppleJsonAll.insert("\(key).Variety.Text.\(i)")                
+                keysAppleJsonAll.insert("\(key).Variety.Topic.\(i)")                
             }
         }
         
@@ -87,12 +89,12 @@ struct JsonProcessor {
             let key = q.key
             guard let record = tweakInfo.itemsDict[key] else { continue }
             
-            _keysExpected.insert("\(key).heading")
-            _keysExpected.insert("\(key).topic")
-            _keysExpected.insert("\(key).Activity.Imperial")                
-            _keysExpected.insert("\(key).Activity.Metric")                
+            keysAppleJsonAll.insert("\(key).heading")
+            keysAppleJsonAll.insert("\(key).topic")
+            keysAppleJsonAll.insert("\(key).Activity.Imperial")                
+            keysAppleJsonAll.insert("\(key).Activity.Metric")                
             for i in 0 ..< record.description.count {
-                _keysExpected.insert("\(key).Description.\(i)")                
+                keysAppleJsonAll.insert("\(key).Description.\(i)")                
             }
         }
     }
@@ -114,7 +116,7 @@ struct JsonProcessor {
                 // :NOTE:NYI: "topic" URL not processing in this import file,
                 // so "heading" is the only case for parts.count == 1
                 dozeInfo.itemsDict[parts[0]]?.heading = value
-                _keysProcessed.insert(key)
+                keysAppleJsonMatched.insert(key)
                 return true
             } else if parts.count == 4 {
                 let key = parts[0]
@@ -125,11 +127,11 @@ struct JsonProcessor {
                     case "imperial":
                         // dozeBeans.Serving.imperial.1
                         dozeInfo.itemsDict[key]?.servings[idx].imperial = value
-                        _keysProcessed.insert(key)
+                        keysAppleJsonMatched.insert(key)
                     case "metric":
                         // dozeBeans.Serving.metric.1
                         dozeInfo.itemsDict[key]?.servings[idx].metric = value
-                        _keysProcessed.insert(key)
+                        keysAppleJsonMatched.insert(key)
                     default:
                         return false
                     }
@@ -139,12 +141,12 @@ struct JsonProcessor {
                     case "Text":
                         // dozeBerries.Variety.Text.5
                         dozeInfo.itemsDict[key]?.varieties[idx].text = value
-                        _keysProcessed.insert(key)
+                        keysAppleJsonMatched.insert(key)
                         return true                        
                     case "Topic":
                         // dozeBerries.Variety.Text.5
                         dozeInfo.itemsDict[key]?.varieties[idx].topic = value
-                        _keysProcessed.insert(key)
+                        keysAppleJsonMatched.insert(key)
                         return true                        
                     default:
                         return false
@@ -167,16 +169,16 @@ struct JsonProcessor {
                 switch parts[1] {
                 case "heading":
                     tweakInfo.itemsDict[parts[0]]?.heading = value
-                    _keysProcessed.insert(key)
+                    keysAppleJsonMatched.insert(key)
                     return true
                 case "short":
                     tweakInfo.itemsDict[key]?.activity.imperial = value
                     tweakInfo.itemsDict[key]?.activity.metric = value
-                    _keysProcessed.insert(key)
+                    keysAppleJsonMatched.insert(key)
                     return true
                 case "text":
                     tweakInfo.itemsDict[key]?.description = [value]
-                    _keysProcessed.insert(key)
+                    keysAppleJsonMatched.insert(key)
                     return true
                 default:
                     return false

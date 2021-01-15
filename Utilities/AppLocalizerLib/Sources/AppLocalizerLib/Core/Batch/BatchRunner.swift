@@ -15,10 +15,12 @@ struct BatchRunner {
     // Internal 
     private var _lookupTable = [String: String]()     // key_*, value
     private var _jsonProcessor: JsonProcessor!        // key_apple
-    private var _xmlKeysExpectedApple = Set<String>() // key_apple
-    private var _xmlKeysExpectedDroid = Set<String>() // key_droid
-    private var _xmlKeysProcessed = Set<String>()     // key_*
-    private var _xmlKeysNotFound = [String]()
+    var keysAppleXliffAll = Set<String>() // key_apple
+    var keysAppleXliffMatched = Set<String>()
+    var keysAppleXliffUnmatched = Set<String>()
+    var keysDroidXmlAll = Set<String>() // key_droid
+    var keysDroidXmlMatched = Set<String>()
+    var keysDroidXmlUnmatched = Set<String>()
     
     init(commandsUrl: URL, languagesUrl: URL, mappingsUrl: URL) {
         self.commandsUrl = commandsUrl
@@ -172,21 +174,21 @@ struct BatchRunner {
             _lookupTable = sheet.getLookupDictApple()
             for r in sheet.getLookupDictApple() {
                 if _jsonProcessor.process(key: r.key, value: r.value) {
-                    _xmlKeysProcessed.insert(r.key)
+                    keysDroidXmlMatched.insert(r.key)
                 }
             }
             _jsonProcessor.writeJsonFiles()
         }
         
-        // 2. Process Apple XMLDocument
+        // 2. Process Apple XLIFF XMLDocument
         if 
             let appleXmlUrl = outputApple,
             let appleXmlDocument = try? XMLDocument(contentsOf: appleXmlUrl, options: [.nodePreserveAll]),
             let appleRootXMLElement: XMLElement = appleXmlDocument.rootElement() {
             // Generate and save expected keys
-            _xmlKeysExpectedApple = Set<String>()
-            generateExpectedAppleKeys(node: appleRootXMLElement)
-            let keysExpectedString = _xmlKeysExpectedApple.joined(separator: "\n")
+            keysAppleXliffAll = Set<String>()
+            queryAllAppleXliffKeys(node: appleRootXMLElement)
+            let keysExpectedString = keysAppleXliffAll.joined(separator: "\n")
             do {
                 let url = appleXmlUrl
                     .deletingLastPathComponent()
@@ -195,7 +197,7 @@ struct BatchRunner {
             } catch { print(error) }
             // Process XML File          
             _lookupTable = sheet.getLookupDictApple()
-            _xmlKeysProcessed = Set<String>()
+            keysDroidXmlMatched = Set<String>()
             processNodeAppleImport(node: appleRootXMLElement)
             // printNodeTree(node: appleRootXMLElement)
             
@@ -223,18 +225,18 @@ struct BatchRunner {
             let droidXmlDocument = try? XMLDocument(contentsOf: droidXmlUrl, options: [.nodePreserveAll, .nodePreserveWhitespace]),
             let droidRootXMLElement: XMLElement = droidXmlDocument.rootElement() {
             // Generate and save expected keys
-            _xmlKeysExpectedDroid = Set<String>()
-            generateExpectedDroidKeys(node: droidRootXMLElement)
-            let keysExpectedString = _xmlKeysExpectedDroid.joined(separator: "\n")
+            keysDroidXmlAll = Set<String>()
+            queryAllDriodXmlKeys(node: droidRootXMLElement)
+            let keysDroidXmlAllString = keysDroidXmlAll.joined(separator: "\n")
             do {
                 let url = droidXmlUrl
                     .deletingLastPathComponent()
                     .appendingPathComponent("keysExpectedXml_\(Date.datestampyyyyMMddHHmm).txt")
-                try keysExpectedString.write(to: url, atomically: true, encoding: .utf8)
+                try keysDroidXmlAllString.write(to: url, atomically: true, encoding: .utf8)
             } catch { print(error) }
             // Process XML File          
             _lookupTable = sheet.getLookupDictAndroid()
-            _xmlKeysProcessed = Set<String>()
+            keysDroidXmlMatched = Set<String>()
             processNodeDroidImport(node: droidRootXMLElement)
             //printNodeTree(node: droidRootXMLElement)
             
@@ -252,41 +254,41 @@ struct BatchRunner {
             }
         }
                 
-        reportImportCoverage(tsvUrl: inputTSV)
+        writeReport(tsvUrl: inputTSV)
     }
     
-    mutating func generateExpectedAppleKeys(node :XMLNode) {
+    mutating func queryAllAppleXliffKeys(node :XMLNode) {
         if let name = node.name, 
            name == "trans-unit", 
            let element = node as? XMLElement,
            let id = element.attribute(forName: "id")?.stringValue
         {
-            _xmlKeysExpectedApple.insert(id)
+            keysAppleXliffAll.insert(id)
         } else if let children = node.children {
             for node: XMLNode in children {
-                generateExpectedAppleKeys(node: node)
+                queryAllAppleXliffKeys(node: node)
             }
         }
     }
     
-    mutating func generateExpectedDroidKeys(node :XMLNode) {
+    mutating func queryAllDriodXmlKeys(node :XMLNode) {
         if let name = node.name, 
            let children = node.children, // has children
            let element = node as? XMLElement,
            let keyId = element.attribute(forName: "name")?.stringValue {
             switch name {
             case "string":
-                _xmlKeysExpectedDroid.insert(keyId)
+                keysDroidXmlAll.insert(keyId)
             case "string-array":
                 for i in 0 ..< children.count {
-                    _xmlKeysExpectedDroid.insert("\(keyId).\(i)")
+                    keysDroidXmlAll.insert("\(keyId).\(i)")
                 }
             default:
                 break
             }            
         } else if let children = node.children {
             for node: XMLNode in children {
-                generateExpectedDroidKeys(node: node)
+                queryAllDriodXmlKeys(node: node)
             }
         }
     }
@@ -299,30 +301,31 @@ struct BatchRunner {
            let element = node as? XMLElement,
            let id = element.attribute(forName: "id")?.stringValue
         {
-            print("• \(id) ••", terminator: "")
-            var sourceNode: XMLNode!
+            //var sourceNode: XMLNode!
             var targetNode: XMLNode!
-            var noteNode: XMLNode!
+            //var noteNode: XMLNode!
             for child in children {
                 guard let childname = child.name else { continue }
                 switch childname {
                 case "source":
-                    sourceNode = child
+                    //sourceNode = child
+                    break
                 case "target":
                     targetNode = child
                     if let value = _lookupTable[id] {
                         targetNode.stringValue = value
-                        _xmlKeysProcessed.insert(id)
+                        keysAppleXliffMatched.insert(id)
                     } else {
-                        print(":WARNING: apple key not found lookup table '\(id)'")
+                        //print(":WARNING: \(id) apple key not found lookup table")
+                        keysAppleXliffUnmatched.insert(id)
                     }
                 case "note":
-                    noteNode = child
+                    //noteNode = child
+                    break
                 default:
                     break
                 }
             }
-            print("\(sourceNode.stringValue!) •• \(targetNode.stringValue!) •• \(noteNode.stringValue ?? "nil")")
         } else if let children = node.children {
             for node: XMLNode in children {
                 processNodeAppleImport(node: node)
@@ -351,12 +354,21 @@ struct BatchRunner {
                 print(keyId)
                 if let value = _lookupTable[keyId] {
                     node.stringValue = value
-                    _xmlKeysProcessed.insert(keyId)
+                    keysDroidXmlMatched.insert(keyId)
                 } else {
                     print(":WARNING: Android keyId not found _lookupTable '\(keyId)'")
                 }
             case "string-array":
-                print("\(keyId):\(children.count)")
+                for i in 0 ..< children.count {
+                    let id = "\(keyId).\(i)"
+                    print(id)
+                    if let value = _lookupTable[id] {
+                        node.stringValue = value
+                        keysDroidXmlMatched.insert(id)
+                    } else {
+                        print(":WARNING: Android keyId not found _lookupTable '\(keyId)'")
+                    }                    
+                }
             default:
                 break
             }            
@@ -380,18 +392,14 @@ struct BatchRunner {
         
     }
     
-    func loadExportMapping() {
-        
-    }
-    
-    func reportImportCoverage(tsvUrl: URL) {
+    func writeReport(tsvUrl: URL) {
         let datestamp = Date.datestampyyyyMMddHHmm
-        var s = "Coverage Report \(datestamp)\n"
+        var s = "Report \(datestamp)\n"
         let url = tsvUrl
             .deletingLastPathComponent()
-            .appendingPathComponent("CoverageReport_\(datestamp).txt")
+            .appendingPathComponent("Report_\(datestamp).txt")
         
-        s.append(_xmlKeysProcessed.joined(separator: "\n"))
+        s.append(keysDroidXmlMatched.joined(separator: "\n"))
         
         
         try? s.write(to: url, atomically: true, encoding: .utf8)

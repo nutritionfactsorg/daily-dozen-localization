@@ -163,8 +163,8 @@ struct TsvImportSheet {
 
     func toTsv() -> String {
         var s = ""
-        for r in recordList {
-            s.append(r.toTsv())
+        for tsvImportRow in recordList {
+            s.append(tsvImportRow.toTsv())
         }
         return s
     } 
@@ -209,14 +209,15 @@ struct TsvImportSheet {
                         field.append("\n")
                     } else {
                         record.append(field) // Add last field to record. 
-                        if record.count >= 4 {
+                        if record.count >= 5 {
                             if !record[0].isEmpty || !record[1].isEmpty || !record[2].isEmpty || !record[3].isEmpty {
                                 // Add non-empty record to list.
                                 let r = TsvImportRow(
                                     key_android: String(record[0]), 
                                     key_apple: String(record[1]), 
                                     base_value: String(record[2]), 
-                                    lang_value: String(record[3])
+                                    lang_value: String(record[3]),
+                                    comments: String(record[4])
                                 )
                                 recordList.append(r)
                             }
