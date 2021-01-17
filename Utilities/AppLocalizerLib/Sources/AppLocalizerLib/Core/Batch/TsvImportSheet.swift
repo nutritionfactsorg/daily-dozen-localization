@@ -7,104 +7,84 @@
 import Foundation
 
 struct TsvImportSheet {
-    var recordList: [TsvImportRow] = []
+    var recordListAll: [TsvImportRow] = []
     var logger = LogService()
-                
-    init(url: URL, loglevel: LogServiceLevel = .info) {
+        
+    enum platform {
+        case android
+        case apple
+    }
+    
+    init(urlList: [URL], loglevel: LogServiceLevel = .info) {
         logger.logLevel = loglevel
-        parseTsvFile(url: url)
-        parseUpdateAndroidKeys()
-        parseUpdateAppleKeys()
-        saveTsvFile(url: url)
-    }
-    
-    func checkKeyCoverageAndroid(xmlKeys: Set<String>) {
-        var tsvKeys = Set<String>()
-        var s = ""
-        for r in recordList {
-            let key = r.key_android
-            if tsvKeys.contains(key) {
-                s.append(" \(key)\n)")
-            } else {
-                tsvKeys.insert(key)
-            }
-        }
-        if s.isEmpty {
-            print("#####\nDuplicate TSV Android Keys: NONE\n")
-        } else {
-            print("#####\nDuplicate TSV Android Keys: \(s)\n#####\n")
-        }
-        
-        let tsvExtras = tsvKeys.subtracting(xmlKeys)
-        if tsvExtras.isEmpty {
-            print("#####\nExtra TSV Android Keys: NONE\n")
-        } else {
-            s = "#####\nExtra TSV Android Keys:\n"
-            for key in tsvExtras {
-                s.append(" \(key)\n")
-            }
-            s.append("#####\n")
-            print(s)
-        }
-        
-        let tsvMissing = xmlKeys.subtracting(tsvKeys)
-        if tsvMissing.isEmpty {
-            print("#####\nMissing TSV Android Keys: NONE\n")
-        } else {
-            s = "#####\nMissing TSV Android Keys:\n"
-            for key in tsvMissing {
-                s.append(" \(key)\n")
-            }
-            s.append("#####\n")
-            print(s)
+        for url in urlList {
+            var recordList = parseTsvFile(url: url)
+            recordList = parseTsvFile(url: url)
+            recordList = parseUpdateAndroidKeys(recordList: recordList)
+            recordList = parseUpdateAppleKeys(recordList: recordList)
+            saveTsvFile(url: url, recordList: recordList)
         }
     }
     
-    func checkKeyCoverageApple(xmlKeys: Set<String>) {
-        var tsvKeys = Set<String>()
-        var s = ""
-        for r in recordList {
-            let key = r.key_apple
-            if tsvKeys.contains(key) {
-                s.append(" \(key)\n)") 
+    /// Check for TSV keys not used
+    func checkTsvKeysNotused(platformKeysUsed: Set<String>, platform: TsvImportSheet.platform) -> Set<String> {
+        var tsvKeySet = Set<String>()
+        for r in recordListAll {
+            switch platform {
+            case .android:
+                tsvKeySet.insert(r.key_android)
+            case .apple:
+                tsvKeySet.insert(r.key_apple)
+            }
+        }
+        return tsvKeySet.subtracting(platformKeysUsed)
+    }
+    
+    /// Check of multiple instances of the same key.
+    /// If duplicate keys are present, then values are checks to be the same. 
+    func checkTsvKeysDuplicated(platform: TsvImportSheet.platform) -> Set<String> {
+        var tsvAllKeys = Set<String>()
+        var tsvDuplicateKeys = Set<String>()
+        for r in recordListAll {
+            let key = platform == .android ? r.key_android : r.key_apple
+            if tsvAllKeys.contains(key) {
+                tsvDuplicateKeys.insert(key)
             } else {
-                tsvKeys.insert(key)
+                tsvAllKeys.insert(key)
             }
         }
-        if s.isEmpty {
-            print("#####\nDuplicate TSV Apple Keys: NONE\n")
-        } else {
-            print("#####\nDuplicate TSV Apple Keys: \(s)\n#####\n")
-        }
-        
-        let tsvExtras = tsvKeys.subtracting(xmlKeys)
-        if tsvExtras.isEmpty {
-            print("#####\nExtra TSV Apple Keys: NONE\n")
-        } else {
-            s = "#####\nExtra TSV Apple Keys:\n"
-            for key in tsvExtras {
-                s.append(" \(key)\n")
-            }
-            s.append("#####\n")
-            print(s)
-        }
-        
-        let tsvMissing = xmlKeys.subtracting(tsvKeys)
-        if tsvMissing.isEmpty {
-            print("#####\nMissing TSV Apple Keys: NONE\n")
-        } else {
-            s = "#####\nMissing Apple TSV Keys:\n"
-            for key in tsvMissing {
-                s.append(" \(key)\n")
-            }
-            s.append("#####\n")
-            print(s)
-        }
+        // :NYI: verify values are consistant across any duplicate keys
+        return tsvDuplicateKeys
     }
 
+    /// Checks for cases where the base language and target language have the same value
+    func checkTsvKeysTargetValueSameAsBase() -> [TsvImportRow] {
+        var unchanged = [TsvImportRow]()
+        for r in recordListAll {
+            if !r.key_android.isEmpty || !r.key_apple.isEmpty {
+                if r.base_value == r.lang_value {
+                    unchanged.append(r)
+                }
+            }
+        }
+        return unchanged
+    }
+    
+    func checkTsvKeysTargetValueMissing() -> [TsvImportRow] {
+        var missing = [TsvImportRow]()
+        for r in recordListAll {
+            if !r.key_android.isEmpty || !r.key_apple.isEmpty {
+                if r.lang_value.isEmpty {
+                    missing.append(r)
+                }
+            }
+        }
+        return missing
+    }
+        
     func getLookupDictAndroid() -> [String: String] {
         var d = [String: String]()
-        for r in recordList {
+        for r in recordListAll {
             d[r.key_android] = r.lang_value
         }
         return d
@@ -112,7 +92,7 @@ struct TsvImportSheet {
     
     func getLookupDictApple() -> [String: String] {
         var d = [String: String]()
-        for r in recordList {
+        for r in recordListAll {
             d[r.key_apple] = r.lang_value
         }
         return d
@@ -137,7 +117,7 @@ struct TsvImportSheet {
     func toString() -> String {
         var s = ""
         var index = 0
-        for r in recordList {
+        for r in recordListAll {
             s.append("record[\(index)]:\n\(r.toString())\n")
             index += 1
         }
@@ -146,7 +126,7 @@ struct TsvImportSheet {
     
     func toStringDot() -> String {
         var s = ""
-        for r in recordList {
+        for r in recordListAll {
             s.append("Ⓝ\(r.toStringDot())\n")
         }
         return s
@@ -161,7 +141,7 @@ struct TsvImportSheet {
         return s
     }
 
-    func toTsv() -> String {
+    func toTsv(recordList: [TsvImportRow]) -> String {
         var s = ""
         for tsvImportRow in recordList {
             s.append(tsvImportRow.toTsv())
@@ -171,7 +151,8 @@ struct TsvImportSheet {
     
     // MARK:- Parsing
     
-    mutating func parseTsvFile(url: URL) {
+    mutating func parseTsvFile(url: URL) -> [TsvImportRow] {
+        var recordList = [TsvImportRow]()
         let newline: Set<Character> = ["\n", "\r", "\r\n"]
         do {
             let content = try String(contentsOf: url, encoding: .utf8)
@@ -180,7 +161,7 @@ struct TsvImportSheet {
             
             if content.count < 100 {
                 print(":ERROR: TsvImportSheet did not init with \(url.absoluteString)")
-                return
+                return recordList
             }
             
             var cPrev: Character? // Previous UTF-8 Character
@@ -287,7 +268,8 @@ struct TsvImportSheet {
                     key_android: String(record[0]), 
                     key_apple: String(record[1]), 
                     base_value: String(record[2]), 
-                    lang_value: String(record[3])
+                    lang_value: String(record[3]),
+                    comments: record.count > 4 ? String(record[4]) : ""
                 )
                 recordList.append(r) // Add last record
             }
@@ -295,9 +277,11 @@ struct TsvImportSheet {
         } catch {
             print(  "TsvImportSheet error:\n\(error)")
         }
+        return recordList
     }
     
-    mutating func parseUpdateAndroidKeys() {
+    mutating func parseUpdateAndroidKeys(recordList: [TsvImportRow]) -> [TsvImportRow] {
+        var recordList = recordList
         for i in 0 ..< recordList.count {
             recordList[i].key_android = recordList[i].key_android.replacingOccurrences(
                 of: "\\[(.*)\\]\\[(.*)\\]", 
@@ -308,9 +292,11 @@ struct TsvImportSheet {
                 with: ".$1", 
                 options: .regularExpression)
         }
+        return recordList
     }
 
-    mutating func parseUpdateAppleKeys() {
+    mutating func parseUpdateAppleKeys(recordList: [TsvImportRow]) -> [TsvImportRow] {
+        var recordList = recordList
         for i in 0 ..< recordList.count {
             //print(":BEFORE: \(recordList[i].key_apple)")
             recordList[i].key_apple = recordList[i].key_apple.replacingOccurrences(
@@ -337,10 +323,11 @@ struct TsvImportSheet {
             
             //print(":AFTER:  \(recordList[i].key_apple)")
         }
+        return recordList
     }
     
-    func saveTsvFile(url: URL) {
-        let outputString = toTsv()
+    func saveTsvFile(url: URL, recordList: [TsvImportRow]) {
+        let outputString = toTsv(recordList: recordList)
         let outputUrl = url
             .deletingPathExtension()
             .appendingPathExtension("\(Date.datestampyyyyMMddHHmm).tsv")

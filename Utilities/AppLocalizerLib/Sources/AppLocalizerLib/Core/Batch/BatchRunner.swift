@@ -13,8 +13,9 @@ struct BatchRunner {
     let languagesUrl: URL
     let mappingsUrl: URL
     // Internal 
-    private var _lookupTable = [String: String]()     // key_*, value
-    private var _jsonProcessor: JsonProcessor!        // key_apple
+    private var _lookupTableApple = [String: String]() // key_apple, value
+    private var _lookupTableDroid = [String: String]() // key_droid, value
+    private var _jsonProcessor: JsonProcessor!         // key_apple
     var keysAppleXliffAll = Set<String>() // key_apple
     var keysAppleXliffMatched = Set<String>()
     var keysAppleXliffUnmatched = Set<String>()
@@ -36,7 +37,7 @@ struct BatchRunner {
         var inputTargetApple: URL?
         var outputTSV: URL?
         // Batch Import Parameters
-        var inputTSV: URL?
+        var inputTSV: [URL]?
         var outputAndroid: URL?
         var outputApple: URL?
         
@@ -49,8 +50,29 @@ struct BatchRunner {
         for l in lines {
             guard let cmd = parseLine(l) else { continue }
             
+            // Clear
+            if cmd.key.hasPrefix("CLEAR_ALL") { // Clears Language Target URLs
+                _lookupTableApple = [String: String]() // key_apple, value
+                _lookupTableDroid = [String: String]() // key_droid, value
+                _jsonProcessor = nil 
+                keysAppleXliffAll = Set<String>() // key_apple
+                keysAppleXliffMatched = Set<String>()
+                keysAppleXliffUnmatched = Set<String>()
+                keysDroidXmlAll = Set<String>() // key_droid
+                keysDroidXmlMatched = Set<String>()
+                keysDroidXmlUnmatched = Set<String>()
+                inputBaseAndroid = nil
+                inputBaseApple = nil
+                inputTargetAndroid = nil
+                inputTargetApple = nil
+                outputTSV = nil
+                inputTSV = nil
+                outputAndroid = nil
+                outputApple = nil
+            } 
+            
             // Export
-            if cmd.key.hasPrefix("INPUT_BASE_ANDROID") {
+            else if cmd.key.hasPrefix("INPUT_BASE_ANDROID") {
                 inputBaseAndroid = cmd.url
             }
             else if cmd.key.hasPrefix("INPUT_BASE_APPLE") {
@@ -74,7 +96,12 @@ struct BatchRunner {
             } 
             // Import
             else if cmd.key.hasPrefix("INPUT_TSV") {
-                inputTSV = cmd.url
+                if let url = cmd.url {
+                    if inputTSV == nil {
+                        inputTSV = [URL]()
+                    }
+                    inputTSV?.append(url)
+                }
             } 
             else if cmd.key.hasPrefix("OUTPUT_ANDROID") {
                 outputAndroid = cmd.url
@@ -152,26 +179,26 @@ struct BatchRunner {
     }
     
     mutating func doImport(
-        inputTSV: URL, 
+        inputTSV: [URL], 
         outputAndroid: URL?, 
         outputApple: URL?
     ) {
         print("""
         ### DO_IMPORT_TSV doImport() ###
-               inputTSV = \(inputTSV.absoluteString)
+               inputTSV = \(inputTSV)
           outputAndroid = \(outputAndroid?.absoluteString ?? "nil")
             outputApple = \(outputApple?.absoluteString ?? "nil")
         """)
         
         // 1. TSV Input File
-        let sheet = TsvImportSheet(url: inputTSV, loglevel: .info)
+        let sheet = TsvImportSheet(urlList: inputTSV, loglevel: .info)
         //print(sheet.toString())    // :DEBUG:
         //print(sheet.toStringDot()) // :DEBUG:
         
         // *. Process Apple JSON Files
         if let appleXmlUrl = outputApple {
-            _jsonProcessor = JsonProcessor(xliffUrl: appleXmlUrl, lookupTable: _lookupTable)
-            _lookupTable = sheet.getLookupDictApple()
+            _jsonProcessor = JsonProcessor(xliffUrl: appleXmlUrl)
+            _lookupTableApple = sheet.getLookupDictApple()
             for r in sheet.getLookupDictApple() {
                 if _jsonProcessor.process(key: r.key, value: r.value) {
                     keysDroidXmlMatched.insert(r.key)
@@ -196,7 +223,7 @@ struct BatchRunner {
                 try keysExpectedString.write(to: url, atomically: true, encoding: .utf8)
             } catch { print(error) }
             // Process XML File          
-            _lookupTable = sheet.getLookupDictApple()
+            _lookupTableApple = sheet.getLookupDictApple()
             keysDroidXmlMatched = Set<String>()
             processNodeAppleImport(node: appleRootXMLElement)
             // printNodeTree(node: appleRootXMLElement)
@@ -235,7 +262,7 @@ struct BatchRunner {
                 try keysDroidXmlAllString.write(to: url, atomically: true, encoding: .utf8)
             } catch { print(error) }
             // Process XML File          
-            _lookupTable = sheet.getLookupDictAndroid()
+            _lookupTableDroid = sheet.getLookupDictAndroid()
             keysDroidXmlMatched = Set<String>()
             processNodeDroidImport(node: droidRootXMLElement)
             //printNodeTree(node: droidRootXMLElement)
@@ -254,7 +281,7 @@ struct BatchRunner {
             }
         }
                 
-        writeReport(tsvUrl: inputTSV)
+        writeReport(tsvSheet: sheet, tsvUrl: inputTSV[0])
     }
     
     mutating func queryAllAppleXliffKeys(node :XMLNode) {
@@ -312,11 +339,10 @@ struct BatchRunner {
                     break
                 case "target":
                     targetNode = child
-                    if let value = _lookupTable[id] {
+                    if let value = _lookupTableApple[id] {
                         targetNode.stringValue = value
                         keysAppleXliffMatched.insert(id)
                     } else {
-                        //print(":WARNING: \(id) apple key not found lookup table")
                         keysAppleXliffUnmatched.insert(id)
                     }
                 case "note":
@@ -351,22 +377,20 @@ struct BatchRunner {
            let keyId = element.attribute(forName: "name")?.stringValue {
             switch name {
             case "string":
-                print(keyId)
-                if let value = _lookupTable[keyId] {
+                if let value = _lookupTableDroid[keyId] {
                     node.stringValue = value
                     keysDroidXmlMatched.insert(keyId)
                 } else {
-                    print(":WARNING: Android keyId not found _lookupTable '\(keyId)'")
+                    keysDroidXmlUnmatched.insert(keyId)
                 }
             case "string-array":
                 for i in 0 ..< children.count {
                     let id = "\(keyId).\(i)"
-                    print(id)
-                    if let value = _lookupTable[id] {
+                    if let value = _lookupTableDroid[id] {
                         node.stringValue = value
                         keysDroidXmlMatched.insert(id)
                     } else {
-                        print(":WARNING: Android keyId not found _lookupTable '\(keyId)'")
+                        keysDroidXmlUnmatched.insert(id)
                     }                    
                 }
             default:
@@ -392,15 +416,68 @@ struct BatchRunner {
         
     }
     
-    func writeReport(tsvUrl: URL) {
+    func writeReport(tsvSheet: TsvImportSheet, tsvUrl: URL) {
         let datestamp = Date.datestampyyyyMMddHHmm
-        var s = "Report \(datestamp)\n"
         let url = tsvUrl
             .deletingLastPathComponent()
             .appendingPathComponent("Report_\(datestamp).txt")
         
+        var s = "Report: \(datestamp)\n"
+        s.append("\n")
+
+        // 
+        s.append("********************************\n")
+        s.append("** TSV: Target Language Empty **\n")
+        s.append("\n\n")
+        let missing = tsvSheet.checkTsvKeysTargetValueMissing()
+        for r in missing {
+            s.append("\(r.key_android)\t\(r.key_apple)\t\(r.base_value)\t\(r.lang_value)")
+        }
+            
+        s.append("\n\n")
+        s.append("*******************************************\n")
+        s.append("** TSV: Target Language == Base Language **\n")
+        let unchanged = tsvSheet.checkTsvKeysTargetValueSameAsBase()        
+        for r in unchanged {
+            s.append("\(r.key_android)\t\(r.key_apple)\t\(r.base_value)\t\(r.lang_value)")
+        }
+
+        s.append("\n\n")
+        s.append("*****************************************\n")
+        s.append("** TSV: Unused key_android in TSV file **\n")
+        let unusedDroid = tsvSheet.checkTsvKeysNotused(platformKeysUsed: keysDroidXmlMatched, platform: .android)
+        s.append(unusedDroid.joined(separator: "\n"))
+
+        s.append("\n\n")
+        s.append("*******************************************\n")
+        s.append("** TSV: Unused Apple Key **\n")
+        let unusedApple = tsvSheet.checkTsvKeysNotused(platformKeysUsed: keysDroidXmlMatched, platform: .apple)
+        s.append(unusedApple.joined(separator: "\n"))
+
+        s.append("\n\n")
+        s.append("******************************\n")
+        s.append("** Android XML Keys Matched **\n")
         s.append(keysDroidXmlMatched.joined(separator: "\n"))
-        
+        s.append("\n\n")
+        s.append("********************************\n")
+        s.append("** Android XML Keys UnMatched **\n")
+        s.append(keysDroidXmlUnmatched.joined(separator: "\n"))
+        s.append("\n\n")
+        s.append("******************************\n")
+        s.append("** Apple XLIFF Keys Matched **\n")
+        s.append(keysAppleXliffMatched.joined(separator: "\n"))
+        s.append("\n\n")
+        s.append("********************************\n")
+        s.append("** Apple XLIFF Keys UnMatched **\n")
+        s.append(keysAppleXliffUnmatched.joined(separator: "\n"))
+        s.append("\n\n")
+        s.append("*****************************\n")
+        s.append("** Apple JSON Keys Matched **\n")
+        s.append(_jsonProcessor.keysAppleJsonMatched.joined(separator: "\n"))
+        s.append("\n\n")
+        s.append("*******************************\n")
+        s.append("** Apple JSON Keys UnMatched **\n")
+        s.append(_jsonProcessor.keysAppleJsonUnmatched.joined(separator: "\n"))
         
         try? s.write(to: url, atomically: true, encoding: .utf8)
     }

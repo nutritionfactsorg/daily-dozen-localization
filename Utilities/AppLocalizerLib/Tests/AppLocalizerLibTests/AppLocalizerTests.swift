@@ -163,7 +163,7 @@ final class AppLocalizerTests: XCTestCase {
     
     // ////////////////////////////////////////////////////////////////
     
-    /// :NYI: Exercise the CLI AppLocalizerTool 
+    // // :NYI: Exercise the CLI AppLocalizerTool 
     //func testAppLocalizerTool() throws {        
     //    guard #available(macOS 10.15, *) else { return }
     //    

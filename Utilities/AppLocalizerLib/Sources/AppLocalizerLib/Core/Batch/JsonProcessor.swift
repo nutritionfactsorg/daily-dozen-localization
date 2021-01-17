@@ -15,16 +15,14 @@ struct JsonProcessor {
     var tweakInfo: TweakDetailInfo
     let tweakJsonUrl: URL
     //
-    private var _lookupTable: [String: String] // Provided TSV lookup table
     var keysAppleJsonAll: Set<String>       // generated from JSON data
     var keysAppleJsonMatched: Set<String>   // apple_key
     var keysAppleJsonUnmatched: Set<String> // apple_key
     
-    init(xliffUrl: URL, lookupTable: [String: String]) {
+    init(xliffUrl: URL) {
         keysAppleJsonAll = Set<String>()
         keysAppleJsonMatched = Set<String>()
         keysAppleJsonUnmatched = Set<String>()
-        _lookupTable = lookupTable
         
         let languageCode = xliffUrl
             .deletingPathExtension()
@@ -108,6 +106,10 @@ struct JsonProcessor {
         return false
     }
     
+    mutating func process(lookupTable: [String: String]) {
+        
+    }
+    
     private mutating func processJsonDoze(key: String, value: String) -> Bool {
         let parts = key.components(separatedBy: ".")
         
@@ -128,14 +130,15 @@ struct JsonProcessor {
                         // dozeBeans.Serving.imperial.1
                         dozeInfo.itemsDict[key]?.servings[idx].imperial = value
                         keysAppleJsonMatched.insert(key)
+                        return true
                     case "metric":
                         // dozeBeans.Serving.metric.1
                         dozeInfo.itemsDict[key]?.servings[idx].metric = value
                         keysAppleJsonMatched.insert(key)
+                        return true
                     default:
                         return false
                     }
-                    return true
                 case "Variety":
                     switch parts[2] {
                     case "Text":
