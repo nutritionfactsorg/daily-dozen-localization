@@ -97,17 +97,23 @@ struct JsonProcessor {
         }
     }
     
-    mutating func process(key: String, value: String) -> Bool {
-        if key.hasPrefix("doze") {
-            return processJsonDoze(key: key, value: value)
-        } else if key.hasPrefix("tweak") {
-            return processJsonTweak(key: key, value: value)
-        }
-        return false
-    }
-    
-    mutating func process(lookupTable: [String: String]) {
-        
+    mutating func process(lookupTable: [String: String]) {        
+        for (key, value) in lookupTable {
+            if key.hasPrefix("doze") {
+                if processJsonDoze(key: key, value: value) {
+                    keysAppleJsonMatched.insert(key)
+                } else {
+                    keysAppleJsonUnmatched.insert(key)
+                }
+            } else if key.hasPrefix("tweak") {
+                if processJsonTweak(key: key, value: value) {
+                    keysAppleJsonMatched.insert(key)
+                } else {
+                    keysAppleJsonUnmatched.insert(key)
+                }
+            } 
+            // Note: all JSON related keys begin with either "doze" or "tweak".
+        }        
     }
     
     private mutating func processJsonDoze(key: String, value: String) -> Bool {
