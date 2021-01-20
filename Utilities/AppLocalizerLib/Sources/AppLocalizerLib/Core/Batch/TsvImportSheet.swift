@@ -336,18 +336,20 @@ struct TsvImportSheet {
             //}
             
             // Drop List
-            if r.key_apple == "iHh-5a-01X.normalTitle" ||
-                r.key_apple == "6FY-X2-BdZ.normalTitle"
-            {
-                continue
-            }
+//            if 
+//                r.key_apple == "iHh-5a-01X.normalTitle" || // "dateButtonTitle.today" 
+//                r.key_apple == "6FY-X2-BdZ.normalTitle"    // "dateButtonTitle.today"
+//                    
+//            {
+//                continue
+//            }
             
             // Direct Remap
-            if r.key_apple == "OC8-wt-JgC.normalTitle" {
-                r.key_apple = "dateButtonTitle.today"
-                newRecordList.append(r)
-                continue
-            }
+//            if r.key_apple == "OC8-wt-JgC.normalTitle" {
+//                r.key_apple = "dateButtonTitle.today"
+//                newRecordList.append(r)
+//                continue
+//            }
 
             // Regex List
             // [a][b] -> .a.b

@@ -255,58 +255,80 @@ struct BatchRunner {
             s.append("## ANDROID CHECKS ##\n")
             s.append("####################\n")
             s.append("\n")
-            s.append("*****************************************\n")
-            s.append("** TSV: Unused key_android in TSV file **\n")
-            s.append("*****************************************\n")
+            s.append("********************************************\n")
+            s.append("** TSV: Android Key Unmatched (key_droid) **\n")
+            s.append("********************************************\n")
             let unusedDroid = tsvSheet.checkTsvKeysNotused(platformKeysUsed: processor.keysDroidXmlMatched, platform: .android)
-            s.append(unusedDroid.sorted().joined(separator: "\n"))
+            s.append(unusedDroid
+                        .sorted()
+                        .joined(separator: "\n"))
             s.append("\n\n")
             s.append("********************************\n")
             s.append("** Android XML Keys UnMatched **\n")
             s.append("********************************\n")
-            s.append(processor.keysDroidXmlUnmatched.sorted().joined(separator: "\n"))
+            s.append(processor
+                        .keysDroidXmlUnmatched
+                        .sorted()
+                        .joined(separator: "\n"))
             if verbose {
                 s.append("\n\n")
                 s.append("******************************\n")
                 s.append("** Android XML Keys Matched **\n")
                 s.append("******************************\n")
-                s.append(processor.keysDroidXmlMatched.sorted().joined(separator: "\n"))
+                s.append(processor
+                            .keysDroidXmlMatched
+                            .sorted()
+                            .joined(separator: "\n"))
             }
         }
         
-        if let processor = _xliffProcessor, let jprocessor = _jsonProcessor {
+        if let xliffProcessor = _xliffProcessor, let jsonprocessor = _jsonProcessor {
             s.append("\n\n")
             s.append("##################\n")
             s.append("## APPLE CHECKS ##\n")
             s.append("##################\n")
             s.append("\n")
-            s.append("***************************\n")
-            s.append("** TSV: Unused Apple Key **\n")
-            s.append("***************************\n")
-            let usedKeys = processor.keysAppleXliffMatched.union(jprocessor.keysAppleJsonMatched)
+            s.append("******************************************\n")
+            s.append("** TSV: Apple Key Unmatched (key_apple) **\n")
+            s.append("******************************************\n")
+            let usedKeys = xliffProcessor
+                .keysAppleXliffMatched
+                .union(jsonprocessor.keysAppleJsonMatched)
             let unusedApple = tsvSheet.checkTsvKeysNotused(platformKeysUsed: usedKeys, platform: .apple)
             s.append(unusedApple.sorted().joined(separator: "\n"))
             s.append("\n\n")
             s.append("*******************************\n")
             s.append("** Apple JSON Keys UnMatched **\n")
             s.append("*******************************\n")
-            s.append(jprocessor.keysAppleJsonUnmatched.sorted().joined(separator: "\n"))
+            s.append(jsonprocessor
+                        .keysAppleJsonUnmatched
+                        .sorted()
+                        .joined(separator: "\n"))
             s.append("\n\n")
             s.append("********************************\n")
             s.append("** Apple XLIFF Keys UnMatched **\n")
             s.append("********************************\n")
-            s.append(processor.keysAppleXliffUnmatched.sorted().joined(separator: "\n"))
+            s.append(xliffProcessor
+                        .keysAppleXliffUnmatched
+                        .sorted()
+                        .joined(separator: "\n"))
             if verbose {
                 s.append("\n\n")
                 s.append("*****************************\n")
                 s.append("** Apple JSON Keys Matched **\n")
                 s.append("*****************************\n")
-                s.append(jprocessor.keysAppleJsonMatched.sorted().joined(separator: "\n"))
+                s.append(jsonprocessor
+                            .keysAppleJsonMatched
+                            .sorted()
+                            .joined(separator: "\n"))
                 s.append("\n\n")
                 s.append("******************************\n")
                 s.append("** Apple XLIFF Keys Matched **\n")
                 s.append("******************************\n")
-                s.append(processor.keysAppleXliffMatched.sorted().joined(separator: "\n"))
+                s.append(xliffProcessor
+                            .keysAppleXliffMatched
+                            .sorted()
+                            .joined(separator: "\n"))
             }
         }
         

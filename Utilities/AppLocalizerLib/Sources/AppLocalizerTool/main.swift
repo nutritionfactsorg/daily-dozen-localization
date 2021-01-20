@@ -5,37 +5,52 @@ import AppLocalizerLib
 //print(getEnvironment())
 #endif
 
-var productsDirMain: URL = Bundle.main.bundleURL
-print("productsDirMain='\(productsDirMain)'")
-
-var workingExecDir: URL!  // …/Debug/ or 
-var workingMapDir: URL!   // AppLocalizerLib.bundle contains TSV mappings
-
-var workingDataDir: URL!  // Languages/*/android XML and /ios/*.xcloc/..
-
-workingExecDir = productsDirMain
-workingDataDir = productsDirMain
-    .appendingPathComponent("AppLocalizerData.bundle")
-    .appendingPathComponent("Resources", isDirectory: true)
-workingDataDir = productsDirMain
-    .appendingPathComponent("AppLocalizerCmd.bundle")
-    .appendingPathComponent("Resources", isDirectory: true)
-workingDataDir = productsDirMain
-    .appendingPathComponent("AppLocalizerMap.bundle")
-    .appendingPathComponent("Resources", isDirectory: true)
-
-for language in BatchJob.Language.allCases {
-    //let language = BatchJob.Language.es
-    let job = BatchJob(workingDataDir: workingDataDir, language: language)
-    let tool = AppLocalizer(job: job)
-
-    do {
-        try tool.run()
-        
-    } catch {
-        print("\n########################################")
-        print(  "AppLocalizerLib tool.run() error:\n\(error)")
-        exit(EXIT_FAILURE)
-    }    
+guard #available(macOS 10.15, *) else {
+    print("testAppLocalizerLib() requires macOS 10.15 or higher")
+    exit(EXIT_FAILURE) 
 }
+
+/// Returns path to the built products directory.
+var productsDir: URL {
+    #if os(macOS)
+    for bundle in Bundle.allBundles where bundle.bundlePath.hasSuffix(".xctest") {
+        return bundle.bundleURL.deletingLastPathComponent()
+    }
+    fatalError(":ERROR:TEST: build products directory `productsDir` not found")
+    #else
+    return Bundle.main.bundleURL
+    #endif
+}
+
+// :NYI: support `commandSet` as parameter. check for default file is no parameter.
+let commandSet = "commands_import_pl.txt"
+
+// …/AppLocalizerLibTests.bundle/Resources/commands_*.txt
+// Content: batch commands file
+let commandsDir = productsDir
+    .appendingPathComponent("AppLocalizerLibTests.bundle")
+    .appendingPathComponent("Resources", isDirectory: true)
+let commandsFile = commandsDir
+    .appendingPathComponent(commandSet, isDirectory: false)
+print("commandsDir=\(commandsDir.absoluteString)")
+print("commandsFile=\(commandsFile.absoluteString)")
+
+// …/AppLocalizerLibTests.bundle/Languages/ 
+// copy from daily-dozen-localization/Languages
+//  e.g. Languages/Spanish/android/, …ios/, …tsv/
+let languagesDir = productsDir
+    .appendingPathComponent("AppLocalizerLibTests.bundle")
+    .appendingPathComponent("Languages", isDirectory: true)
+print("languagesDir=\(languagesDir.absoluteString)")
+
+// …/AppLocalizerLib.bundle/Resources/ …Doze/ and …Tweak/
+// Content: Android <--> Apple mapping files 
+let mappingsDir = productsDir
+    .appendingPathComponent("AppLocalizerLib.bundle")
+    .appendingPathComponent("Resources", isDirectory: true)
+print("mappingsDir=\(mappingsDir.absoluteString)")
+
+let appLocalizer = AppLocalizer()
+appLocalizer.run(commandsUrl: commandsFile, languagesUrl: languagesDir, mappingsUrl: mappingsDir)
+
 exit(EXIT_SUCCESS)
