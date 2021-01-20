@@ -2,9 +2,13 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
   <file original="DailyDozen/App/SupportingFiles/en.lproj/InfoPlist.strings" source-language="en" target-language="es" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.1" build-num="12A7403"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
     </header>
     <body>
+      <trans-unit id="CFBundleDisplayName" xml:space="preserve">
+        <source>DailyDozen ML</source>
+        <note>Bundle display name</note>
+      </trans-unit>
       <trans-unit id="CFBundleName" xml:space="preserve">
         <source>DailyDozen</source>
         <target>DailyDozen</target>
@@ -29,9 +33,32 @@
   </file>
   <file original="DailyDozen/App/Texts/LocalStrings/en.lproj/Localizable.strings" source-language="en" target-language="es" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.1" build-num="12A7403"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
     </header>
     <body>
+      <trans-unit id="dailyReminder.settings" xml:space="preserve">
+        <source>Daily Reminder Settings</source>
+        <target>Ajustes del recordatorio diario</target>
+        <note>daily_reminder_settings</note>
+      </trans-unit>
+      <trans-unit id="dailyReminder.subtitle" xml:space="preserve">
+        <source>dailyReminder.subtitle</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="dailyReminder.text" xml:space="preserve">
+        <source>Update your servings for today</source>
+        <target>Actualiza las porciones de hoy</target>
+        <note>daily_reminder_text</note>
+      </trans-unit>
+      <trans-unit id="dailyReminder.title" xml:space="preserve">
+        <source>Daily Dozen Reminder</source>
+        <target>Recordatorio de la Docena Diaria</target>
+        <note>daily_reminder_title</note>
+      </trans-unit>
+      <trans-unit id="dateBackButtonTitle" xml:space="preserve">
+        <source>Back to today</source>
+        <note>Back to today</note>
+      </trans-unit>
       <trans-unit id="dateButtonTitle.today" xml:space="preserve">
         <source>Today</source>
         <target>Hoy</target>
@@ -385,7 +412,7 @@ La Vitamina B12 se incluye en esta aplicación para proporcionarte una manera f�
   </file>
   <file original="DailyDozen/App/Views/Base.lproj/FirstLaunch.storyboard" source-language="en" target-language="es" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.1" build-num="12A7403"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
     </header>
     <body>
       <trans-unit id="Lef-Iw-Ywr.normalTitle" xml:space="preserve">
@@ -413,7 +440,7 @@ La Vitamina B12 se incluye en esta aplicación para proporcionarte una manera f�
   </file>
   <file original="DailyDozen/DozeSection/DozeDetail/Views/Base.lproj/DozeDetailLayout.storyboard" source-language="en" target-language="es" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.1" build-num="12A7403"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
     </header>
     <body>
       <trans-unit id="iJb-Vn-TS0.text" xml:space="preserve">
@@ -440,7 +467,7 @@ La Vitamina B12 se incluye en esta aplicación para proporcionarte una manera f�
   </file>
   <file original="DailyDozen/DozeSection/DozeDetail/Views/Base.lproj/DozeDetailSizeHeader.xib" source-language="en" target-language="es" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.1" build-num="12A7403"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
     </header>
     <body>
       <trans-unit id="eU6-je-hVN.text" xml:space="preserve">
@@ -452,7 +479,7 @@ La Vitamina B12 se incluye en esta aplicación para proporcionarte una manera f�
   </file>
   <file original="DailyDozen/DozeSection/DozeDetail/Views/Base.lproj/DozeDetailSizeUnitHeader.xib" source-language="en" target-language="es" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.1" build-num="12A7403"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
     </header>
     <body>
       <trans-unit id="1K3-d9-Hfb.normalTitle" xml:space="preserve">
@@ -474,7 +501,7 @@ La Vitamina B12 se incluye en esta aplicación para proporcionarte una manera f�
   </file>
   <file original="DailyDozen/DozeSection/DozeDetail/Views/Base.lproj/DozeDetailTypeHeader.xib" source-language="en" target-language="es" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.1" build-num="12A7403"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
     </header>
     <body>
       <trans-unit id="YVI-sV-TDX.text" xml:space="preserve">
@@ -486,7 +513,7 @@ La Vitamina B12 se incluye en esta aplicación para proporcionarte una manera f�
   </file>
   <file original="DailyDozen/DozeSection/DozeEntry/Views/Base.lproj/DozeEntryExtrasHeader.xib" source-language="en" target-language="es" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.1" build-num="12A7403"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
     </header>
     <body>
       <trans-unit id="W2v-Cp-vcd.text" xml:space="preserve">
@@ -498,7 +525,7 @@ La Vitamina B12 se incluye en esta aplicación para proporcionarte una manera f�
   </file>
   <file original="DailyDozen/DozeSection/DozeEntry/Views/Base.lproj/DozeEntryLayout.storyboard" source-language="en" target-language="es" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.1" build-num="12A7403"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
     </header>
     <body>
       <trans-unit id="1HM-mL-ZV9.text" xml:space="preserve">
@@ -525,24 +552,22 @@ La Vitamina B12 se incluye en esta aplicación para proporcionarte una manera f�
   </file>
   <file original="DailyDozen/DozeSection/DozeEntry/Views/Base.lproj/DozeEntryPagerLayout.storyboard" source-language="en" target-language="es" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.1" build-num="12A7403"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
     </header>
     <body>
-      <trans-unit id="OC8-wt-JgC.normalTitle" xml:space="preserve">
-        <source>Today</source>
-        <target>Hoy</target>
-        <note>Class = "UIButton"; normalTitle = "Today"; ObjectID = "OC8-wt-JgC";</note>
-      </trans-unit>
       <trans-unit id="Qfe-bW-SP4.normalTitle" xml:space="preserve">
         <source>Back to today</source>
-        <target>Volver al día de hoy</target>
         <note>Class = "UIButton"; normalTitle = "Back to today"; ObjectID = "Qfe-bW-SP4";</note>
+      </trans-unit>
+      <trans-unit id="pYb-py-Qqh.text" xml:space="preserve">
+        <source>Today</source>
+        <note>Class = "UITextField"; text = "Today"; ObjectID = "pYb-py-Qqh";</note>
       </trans-unit>
     </body>
   </file>
   <file original="DailyDozen/DozeSection/DozeHistory/Views/Base.lproj/DozeHistoryLayout.storyboard" source-language="en" target-language="es" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.1" build-num="12A7403"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
     </header>
     <body>
       <trans-unit id="27q-rq-qbu.text" xml:space="preserve">
@@ -579,7 +604,7 @@ La Vitamina B12 se incluye en esta aplicación para proporcionarte una manera f�
   </file>
   <file original="DailyDozen/InfoMenu/InfoMenuAbout/Views/Base.lproj/InfoMenuAboutLayout.storyboard" source-language="en" target-language="es" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.1" build-num="12A7403"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
     </header>
     <body>
       <trans-unit id="19L-gq-W5M.text" xml:space="preserve">
@@ -593,9 +618,13 @@ La Vitamina B12 se incluye en esta aplicación para proporcionarte una manera f�
         <note>Class = "UILabel"; text = "Daily Dozen"; ObjectID = "DJR-bj-qUq";</note>
       </trans-unit>
       <trans-unit id="Zgt-w4-qQw.text" xml:space="preserve">
-        <source>This app was created by: - NutritionFacts.org - Christi Richards - Konstantin Khokhlov - Marc Campbell</source>
-        <target>Esta app fue creada por: - NutritionFacts.org - Christi Richards - Konstantin Khokhlov - Marc Campbell</target>
-        <note>Class = "UILabel"; text = "This app was created by: - NutritionFacts.org - Christi Richards - Konstantin Khokhlov - Marc Campbell"; ObjectID = "Zgt-w4-qQw";</note>
+        <source>This app was created by: - NutritionFacts.org - Christi Richards - Konstantin Khokhlov - Marc Campbell</source>
+        <target>Esta app fue creada por:
+- NutritionFacts.org
+- Christi Richards
+- Konstantin Khokhlov
+- Marc Campbell</target>
+        <note>Class = "UILabel"; text = "This app was created by: - NutritionFacts.org - Christi Richards - Konstantin Khokhlov - Marc Campbell"; ObjectID = "Zgt-w4-qQw";</note>
       </trans-unit>
       <trans-unit id="dwQ-CS-gz3.text" xml:space="preserve">
         <source>Use this app on a daily basis to keep track of the foods and advice I recommend for optimal health and longevity in my books How Not to Die and How Not to Diet.</source>
@@ -603,9 +632,9 @@ La Vitamina B12 se incluye en esta aplicación para proporcionarte una manera f�
         <note>Class = "UILabel"; text = "Use this app on a daily basis to keep track of the foods and advice I recommend for optimal health and longevity in my books How Not to Die and How Not to Diet."; ObjectID = "dwQ-CS-gz3";</note>
       </trans-unit>
       <trans-unit id="gX5-vX-xBe.text" xml:space="preserve">
-        <source>version 3.2.3</source>
-        <target>versión 3.2.3</target>
-        <note>Class = "UILabel"; text = "version 3.2.3"; ObjectID = "gX5-vX-xBe";</note>
+        <source>version 3.3.0</source>
+        <target>versión 3.3.0</target>
+        <note>Class = "UILabel"; text = "version 3.3.0"; ObjectID = "gX5-vX-xBe";</note>
       </trans-unit>
       <trans-unit id="pUm-f4-zm1.text" xml:space="preserve">
         <source>The following open source libraries are used: RealmSwift, Charts, FSCalendar, SimpleAnimation and ActiveLabel.</source>
@@ -616,7 +645,7 @@ La Vitamina B12 se incluye en esta aplicación para proporcionarte una manera f�
   </file>
   <file original="DailyDozen/InfoMenu/InfoMenuMain/Views/Base.lproj/InfoMenuMainLayout.storyboard" source-language="en" target-language="es" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.1" build-num="12A7403"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
     </header>
     <body>
       <trans-unit id="Cxo-5D-YUZ.text" xml:space="preserve">
@@ -668,7 +697,7 @@ La Vitamina B12 se incluye en esta aplicación para proporcionarte una manera f�
   </file>
   <file original="DailyDozen/ItemHistory/Views/Base.lproj/ItemHistoryLayout.storyboard" source-language="en" target-language="es" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.1" build-num="12A7403"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
     </header>
     <body>
       <trans-unit id="S0Q-oB-VgE.text" xml:space="preserve">
@@ -690,7 +719,7 @@ La Vitamina B12 se incluye en esta aplicación para proporcionarte una manera f�
   </file>
   <file original="DailyDozen/Settings/Views/Base.lproj/SettingsLayout.storyboard" source-language="en" target-language="es" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.1" build-num="12A7403"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
     </header>
     <body>
       <trans-unit id="Ebp-Lw-fWk.normalTitle" xml:space="preserve">
@@ -779,7 +808,7 @@ solamente</target>
   </file>
   <file original="DailyDozen/TweakSection/TweakDetail/Views/Base.lproj/TweakDetailActivityHeader.xib" source-language="en" target-language="es" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.1" build-num="12A7403"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
     </header>
     <body>
       <trans-unit id="YVI-sV-TDA.text" xml:space="preserve">
@@ -791,7 +820,7 @@ solamente</target>
   </file>
   <file original="DailyDozen/TweakSection/TweakDetail/Views/Base.lproj/TweakDetailActivityUnitHeader.xib" source-language="en" target-language="es" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.1" build-num="12A7403"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
     </header>
     <body>
       <trans-unit id="M75-CQ-NVP.normalTitle" xml:space="preserve">
@@ -813,7 +842,7 @@ solamente</target>
   </file>
   <file original="DailyDozen/TweakSection/TweakDetail/Views/Base.lproj/TweakDetailDescriptionHeader.xib" source-language="en" target-language="es" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.1" build-num="12A7403"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
     </header>
     <body>
       <trans-unit id="YVI-sV-TDD.text" xml:space="preserve">
@@ -825,7 +854,7 @@ solamente</target>
   </file>
   <file original="DailyDozen/TweakSection/TweakDetail/Views/Base.lproj/TweakDetailLayout.storyboard" source-language="en" target-language="es" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.1" build-num="12A7403"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
     </header>
     <body>
       <trans-unit id="6m3-hV-PBi.text" xml:space="preserve">
@@ -847,7 +876,7 @@ solamente</target>
   </file>
   <file original="DailyDozen/TweakSection/TweakEntry/Views/Base.lproj/TweakEntryLayout.storyboard" source-language="en" target-language="es" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.1" build-num="12A7403"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
     </header>
     <body>
       <trans-unit id="5po-De-kCi.text" xml:space="preserve">
@@ -874,24 +903,22 @@ solamente</target>
   </file>
   <file original="DailyDozen/TweakSection/TweakEntry/Views/Base.lproj/TweakEntryPagerLayout.storyboard" source-language="en" target-language="es" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.1" build-num="12A7403"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
     </header>
     <body>
       <trans-unit id="7XY-Lo-Hwf.normalTitle" xml:space="preserve">
         <source>Back to today</source>
-        <target>Volver al día de hoy</target>
         <note>Class = "UIButton"; normalTitle = "Back to today"; ObjectID = "7XY-Lo-Hwf";</note>
       </trans-unit>
-      <trans-unit id="iHh-5a-01X.normalTitle" xml:space="preserve">
+      <trans-unit id="YWB-e7-bAF.text" xml:space="preserve">
         <source>Today</source>
-        <target>Hoy</target>
-        <note>Class = "UIButton"; normalTitle = "Today"; ObjectID = "iHh-5a-01X";</note>
+        <note>Class = "UITextField"; text = "Today"; ObjectID = "YWB-e7-bAF";</note>
       </trans-unit>
     </body>
   </file>
   <file original="DailyDozen/TweakSection/TweakHistory/Views/Base.lproj/TweakHistoryLayout.storyboard" source-language="en" target-language="es" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.1" build-num="12A7403"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
     </header>
     <body>
       <trans-unit id="5eb-qC-Ke5.text" xml:space="preserve">
@@ -928,7 +955,7 @@ solamente</target>
   </file>
   <file original="DailyDozen/WeightSection/WeightEntry/Views/Base.lproj/WeightEntryLayout.storyboard" source-language="en" target-language="es" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.1" build-num="12A7403"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
     </header>
     <body>
       <trans-unit id="7l0-os-Oqt.normalTitle" xml:space="preserve">
@@ -975,24 +1002,22 @@ solamente</target>
   </file>
   <file original="DailyDozen/WeightSection/WeightEntry/Views/Base.lproj/WeightEntryPagerLayout.storyboard" source-language="en" target-language="es" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.1" build-num="12A7403"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
     </header>
     <body>
-      <trans-unit id="6FY-X2-BdZ.normalTitle" xml:space="preserve">
-        <source>Today</source>
-        <target>Hoy</target>
-        <note>Class = "UIButton"; normalTitle = "Today"; ObjectID = "6FY-X2-BdZ";</note>
-      </trans-unit>
       <trans-unit id="OIQ-oh-3QN.normalTitle" xml:space="preserve">
         <source>Back to today</source>
-        <target>Volver al día de hoy</target>
         <note>Class = "UIButton"; normalTitle = "Back to today"; ObjectID = "OIQ-oh-3QN";</note>
+      </trans-unit>
+      <trans-unit id="pKR-lY-XXM.text" xml:space="preserve">
+        <source>Today</source>
+        <note>Class = "UITextField"; text = "Today"; ObjectID = "pKR-lY-XXM";</note>
       </trans-unit>
     </body>
   </file>
   <file original="DailyDozen/WeightSection/WeightHistory/Views/Base.lproj/WeightHistoryLayout.storyboard" source-language="en" target-language="es" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.1" build-num="12A7403"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
     </header>
     <body>
       <trans-unit id="8ed-5m-QMc.text" xml:space="preserve">
