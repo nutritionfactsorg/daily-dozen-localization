@@ -259,26 +259,20 @@ struct BatchRunner {
             s.append("** TSV: Android Key Unmatched (key_droid) **\n")
             s.append("********************************************\n")
             let unusedDroid = tsvSheet.checkTsvKeysNotused(platformKeysUsed: processor.keysDroidXmlMatched, platform: .android)
-            s.append(unusedDroid
-                        .sorted()
-                        .joined(separator: "\n"))
+            s.append(unusedDroid.sorted().joined(separator: "\n"))
             s.append("\n\n")
             s.append("********************************\n")
             s.append("** Android XML Keys UnMatched **\n")
             s.append("********************************\n")
-            s.append(processor
-                        .keysDroidXmlUnmatched
-                        .sorted()
-                        .joined(separator: "\n"))
+            let unmatchedXmlKeys = processor.keysDroidXmlUnmatched.sorted()
+            s.append(unmatchedXmlKeys.joined(separator: "\n"))
             if verbose {
                 s.append("\n\n")
                 s.append("******************************\n")
                 s.append("** Android XML Keys Matched **\n")
                 s.append("******************************\n")
-                s.append(processor
-                            .keysDroidXmlMatched
-                            .sorted()
-                            .joined(separator: "\n"))
+                let matchedXmlKeys = processor.keysDroidXmlMatched.sorted()
+                s.append(matchedXmlKeys.joined(separator: "\n"))
             }
         }
         
@@ -295,40 +289,32 @@ struct BatchRunner {
                 .keysAppleXliffMatched
                 .union(jsonprocessor.keysAppleJsonMatched)
             let unusedApple = tsvSheet.checkTsvKeysNotused(platformKeysUsed: usedKeys, platform: .apple)
-            s.append(unusedApple.sorted().joined(separator: "\n"))
+            s.append(String.joinRandomStated(list: unusedApple.sorted()))
             s.append("\n\n")
             s.append("*******************************\n")
             s.append("** Apple JSON Keys UnMatched **\n")
             s.append("*******************************\n")
-            s.append(jsonprocessor
-                        .keysAppleJsonUnmatched
-                        .sorted()
-                        .joined(separator: "\n"))
+            let unmatchedJsonKeys = jsonprocessor.keysAppleJsonUnmatched.sorted()
+            s.append(unmatchedJsonKeys.joined(separator: "\n"))
             s.append("\n\n")
             s.append("********************************\n")
             s.append("** Apple XLIFF Keys UnMatched **\n")
             s.append("********************************\n")
-            s.append(xliffProcessor
-                        .keysAppleXliffUnmatched
-                        .sorted()
-                        .joined(separator: "\n"))
+            let unmatchedXliffKeys = xliffProcessor.keysAppleXliffUnmatched.sorted()
+            s.append(String.joinRandomStated(list: unmatchedXliffKeys))
             if verbose {
                 s.append("\n\n")
                 s.append("*****************************\n")
                 s.append("** Apple JSON Keys Matched **\n")
                 s.append("*****************************\n")
-                s.append(jsonprocessor
-                            .keysAppleJsonMatched
-                            .sorted()
-                            .joined(separator: "\n"))
+                let matchedJsonKeys = jsonprocessor.keysAppleJsonMatched.sorted()
+                s.append(matchedJsonKeys.joined(separator: "\n"))
                 s.append("\n\n")
                 s.append("******************************\n")
                 s.append("** Apple XLIFF Keys Matched **\n")
                 s.append("******************************\n")
-                s.append(xliffProcessor
-                            .keysAppleXliffMatched
-                            .sorted()
-                            .joined(separator: "\n"))
+                let matchedXliffKeys = xliffProcessor.keysAppleXliffMatched.sorted()
+                s.append(String.joinRandomStated(list: matchedXliffKeys))
             }
         }
         

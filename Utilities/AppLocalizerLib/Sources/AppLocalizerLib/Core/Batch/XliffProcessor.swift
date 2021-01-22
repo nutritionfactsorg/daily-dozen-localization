@@ -33,7 +33,8 @@ struct XliffProcessor {
         // Generate and save expected keys
         keysAppleXliffAll = Set<String>()
         queryAllAppleXliffKeys(node: appleRootXMLElement)
-        let keysExpectedString = keysAppleXliffAll.joined(separator: "\n")
+        let keysExpectedString = String.joinRandomStated(list: keysAppleXliffAll.sorted())
+        
         do {
             let url = appleXmlUrl
                 .deletingLastPathComponent()
@@ -42,61 +43,63 @@ struct XliffProcessor {
         } catch { print(error) }
         // Process XLIFF XML File
         keysAppleXliffMatched = Set<String>()
-        processNodeAppleImport(node: appleRootXMLElement)
+        processNodeAppleImport(element: appleRootXMLElement)
         
         // XMLDocument(contentsOf: URL, options: XMLNode.Options)
         //      someXmlDocument.xmlData(options: XMLNode.Options)
         
         let options: XMLNode.Options = [.nodePreserveAll, .nodePrettyPrint]
         let appleXmlData = appleXmlDocument.xmlData(options: options)
+        guard var appleXmlStr = String(data: appleXmlData, encoding: String.Encoding.utf8) else { return }
+        appleXmlStr = appleXmlStr.replacingOccurrences(of: "    ", with: "  ")
         
         let outputUrl = appleXmlUrl
             .deletingPathExtension()
             .appendingPathExtension("\(Date.datestampyyyyMMddHHmm).xliff")  
         print(outputUrl.absoluteURL)
         do {
-            try appleXmlData.write(to: outputUrl, options: [.atomic])
+            try appleXmlStr.write(to: outputUrl, atomically: true, encoding: .utf8)
         } catch {
             print("Could not write document out…\n  …url=\(outputUrl)\n  …error='\(error)'")
         }
     }
     
-    mutating func processNodeAppleImport(node :XMLNode) {
+    mutating func processNodeAppleImport(element :XMLElement) {
         //print(node.toStringNode())
-        if let name = node.name, 
+        if let name = element.name, 
            name == "trans-unit", 
-           let children = node.children,
-           let element = node as? XMLElement,
+           let children = element.children,
            var id = element.attribute(forName: "id")?.stringValue
         {
-            //var sourceNode: XMLNode!
-            var targetNode: XMLNode!
-            //var noteNode: XMLNode!
-            for child in children {
-                guard let childname = child.name else { continue }
-                switch childname {
-                case "source":
-                    //sourceNode = child
-                    break
-                case "target":
-                    targetNode = child
-                    id = normalizeAppleKey(id)
-                    if let value = _lookupTableApple[id] {
-                        targetNode.stringValue = value
+            id = normalizeAppleKey(id)
+            var targetNodeFound = false
+            for childNode in children {
+                guard let childName = childNode.name else { continue }
+                // child nodes "source" and "note" are not used here.
+                if childName == "target" {
+                    if let targetValue = _lookupTableApple[id] {
+                        childNode.stringValue = targetValue
                         keysAppleXliffMatched.insert(id)
                     } else {
                         keysAppleXliffUnmatched.insert(id)
                     }
-                case "note":
-                    //noteNode = child
-                    break
-                default:
-                    break
+                    targetNodeFound = true
                 }
             }
-        } else if let children = node.children {
-            for node: XMLNode in children {
-                processNodeAppleImport(node: node)
+            if targetNodeFound == false {
+                let newTargetNode = XMLElement()
+                newTargetNode.name = "target"
+                if let targetValue = _lookupTableApple[id] {
+                    newTargetNode.stringValue = targetValue
+                    element.insertChild(newTargetNode, at: 1)
+                    keysAppleXliffMatched.insert(id)
+                } else {
+                    keysAppleXliffUnmatched.insert(id)
+                }
+            }
+        } else if let children = element.children {
+            for element in children where element is XMLElement {
+                processNodeAppleImport(element: element as! XMLElement)
             }
         }
     }

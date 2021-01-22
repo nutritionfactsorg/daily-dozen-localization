@@ -147,7 +147,7 @@ struct TsvImportSheet {
     }
 
     func toTsv(recordList: [TsvImportRow]) -> String {
-        var s = ""
+        var s = "key_droid\tkey_apple\tbase_value\tlang_value\tbase_comment\r\n"
         for tsvImportRow in recordList {
             s.append(tsvImportRow.toTsv())
         }
@@ -310,6 +310,19 @@ struct TsvImportSheet {
                 newRecordList.append(r)
                 continue
             }
+            
+            // Check for keys to be dropped
+            if TsvRemapDroid.check.isDropped(r.key_android) == true {
+                continue
+            }
+            
+            // Check for keys to be replaced
+            if let newKey = TsvRemapDroid.check.isReplaced(r.key_android) {
+                r.key_apple = newKey
+                newRecordList.append(r)
+                continue
+            }
+
             // 
             r.key_android = r.key_android.replacingOccurrences(of: "[heading]", with: "", options: .literal)
             r.key_android = r.key_android.replacingOccurrences(of: "[short]", with: "_short", options: .literal)
@@ -335,21 +348,17 @@ struct TsvImportSheet {
             //    print(":WATCH:BEFORE: \(r.key_apple)")
             //}
             
-            // Drop List
-//            if 
-//                r.key_apple == "iHh-5a-01X.normalTitle" || // "dateButtonTitle.today" 
-//                r.key_apple == "6FY-X2-BdZ.normalTitle"    // "dateButtonTitle.today"
-//                    
-//            {
-//                continue
-//            }
+            // Check for keys to be dropped
+            if TsvRemapApple.check.isDropped(r.key_apple) == true {
+                continue
+            }
             
-            // Direct Remap
-//            if r.key_apple == "OC8-wt-JgC.normalTitle" {
-//                r.key_apple = "dateButtonTitle.today"
-//                newRecordList.append(r)
-//                continue
-//            }
+            // Check for keys to be replaced
+            if let newKey = TsvRemapApple.check.isReplaced(r.key_apple) {
+                r.key_apple = newKey
+                newRecordList.append(r)
+                continue
+            }
 
             // Regex List
             // [a][b] -> .a.b

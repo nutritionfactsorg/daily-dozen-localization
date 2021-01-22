@@ -54,7 +54,7 @@ struct JsonProcessor {
         
         // All JSON Keys
         queryAllAppleJsonKeys()
-        let keysExpectedString = keysAppleJsonAll.joined(separator: "\n")
+        let keysExpectedString = keysAppleJsonAll.sorted().joined(separator: "\n")
         do {
             let url = xliffUrl
                 .deletingLastPathComponent()

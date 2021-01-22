@@ -32,7 +32,7 @@ struct XmlProcessor {
         // Generate and save expected keys
         keysDroidXmlAll = Set<String>()
         queryAllDriodXmlKeys(node: droidRootXMLElement)
-        let keysDroidXmlAllString = keysDroidXmlAll.joined(separator: "\n")
+        let keysDroidXmlAllString = keysDroidXmlAll.sorted().joined(separator: "\n")
         do {
             let url = droidXmlUrl
                 .deletingLastPathComponent()

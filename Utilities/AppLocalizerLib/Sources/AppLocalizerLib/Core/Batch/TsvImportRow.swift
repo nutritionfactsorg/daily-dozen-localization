@@ -47,7 +47,21 @@ struct TsvImportRow {
     }
     
     func toTsv() -> String {
-        return "\(key_android)\t\(key_apple)\t\(base_value)\t\(lang_value)\t\(comments)\r\n"
+        var s = "\(toTsvQuoted(key_android))\t"
+        s.append("\(toTsvQuoted(key_apple))\t")
+        s.append("\(toTsvQuoted(base_value))\t")
+        s.append("\(toTsvQuoted(lang_value))\t")
+        s.append("\(toTsvQuoted(comments))\r\n")
+        return s
+    }
+    
+    private func toTsvQuoted(_ s: String) -> String {
+        var string = s
+        if string.hasPrefix("\"") {
+            string = string.replacingOccurrences(of: "\"", with: "\"\"")
+            return "\"\(string)\""
+        } 
+        return string
     }
     
 }
