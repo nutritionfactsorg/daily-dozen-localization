@@ -17,11 +17,11 @@ struct TsvImportRow {
     var comments: String
     
     init(key_android: String, key_apple: String, base_value: String, lang_value: String, comments: String) {
-        self.key_android = key_android.trimmingCharacters(in: .whitespaces)       
-        self.key_apple = key_apple.trimmingCharacters(in: .whitespaces)
-        self.base_value = base_value.trimmingCharacters(in: .whitespaces)
-        self.lang_value = lang_value.trimmingCharacters(in: .whitespaces)
-        self.comments = comments.trimmingCharacters(in: .whitespaces)
+        self.key_android = key_android       
+        self.key_apple = key_apple
+        self.base_value = base_value
+        self.lang_value = lang_value
+        self.comments = comments
     }
     
     func toString(includeNotes: Bool = false) -> String {

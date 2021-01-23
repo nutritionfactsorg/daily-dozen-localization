@@ -34,5 +34,5 @@ struct TsvRemapApple {
     func isReplaced(_ key: String) -> String? {
         return replaceDict[key]
     }
-
+    
 }

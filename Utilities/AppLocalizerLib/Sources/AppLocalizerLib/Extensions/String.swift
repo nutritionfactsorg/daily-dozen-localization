@@ -24,4 +24,10 @@ public extension String {
         return (keyStatedList + ["--------- RANDOM KEYS ---------"] + keyRandomList).joined(separator: "\n")
     }
     
+    var isRandomKey: Bool {
+        if self.range(of: "^...-..-...", options: .regularExpression) != nil {
+            return true
+        }
+        return false
+    }
 }

@@ -223,7 +223,8 @@ struct BatchRunner {
     func writeReport(tsvSheet: TsvImportSheet, tsvUrl: URL, verbose: Bool = false) {
         let datestamp = Date.datestampyyyyMMddHHmm
         let url = tsvUrl
-            .deletingLastPathComponent()
+            .deletingLastPathComponent() // "filename.ext"
+            .deletingLastPathComponent() // "tsv/"
             .appendingPathComponent("Report_\(datestamp).txt")
         
         var s = "Report: \(datestamp)\n"

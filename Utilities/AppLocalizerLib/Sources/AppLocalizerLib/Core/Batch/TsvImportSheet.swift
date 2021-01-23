@@ -7,6 +7,7 @@
 import Foundation
 
 struct TsvImportSheet {
+    
     var recordListAll: [TsvImportRow] = []
     var logger = LogService()
         
@@ -175,7 +176,7 @@ struct TsvImportSheet {
                     
             var insideQuote = false
             var escapeQuote = false
-            var record: [[Character]] = []
+            var record: [String] = []
             var field: [Character] = []
             var countChar = 0
             var lineIdx = 1
@@ -194,16 +195,18 @@ struct TsvImportSheet {
                     if insideQuote {
                         field.append("\n")
                     } else {
-                        record.append(field) // Add last field to record. 
+                        let fieldStr = String(field).trimmingCharacters(in: .whitespaces)
+                        record.append(fieldStr) // Add last field to record
                         if record.count >= 5 {
-                            if !record[0].isEmpty || !record[1].isEmpty || !record[2].isEmpty || !record[3].isEmpty {
+                            // Requires either an Android key or an Apple key
+                            if !record[0].isEmpty || !record[1].isEmpty {
                                 // Add non-empty record to list.
                                 let r = TsvImportRow(
-                                    key_android: String(record[0]), 
-                                    key_apple: String(record[1]), 
-                                    base_value: String(record[2]), 
-                                    lang_value: String(record[3]),
-                                    comments: String(record[4])
+                                    key_android: record[0], 
+                                    key_apple: record[1], 
+                                    base_value: record[2], 
+                                    lang_value: record[3],
+                                    comments: record[4]
                                 )
                                 if r.key_android != "key_droid" { // skip headings record
                                     recordList.append(r)                                    
@@ -221,7 +224,8 @@ struct TsvImportSheet {
                     if insideQuote {
                         field.append("\t")
                     } else {
-                        record.append(field) // Add field to list.
+                        let fieldStr = String(field).trimmingCharacters(in: .whitespaces)
+                        record.append(fieldStr) // Add field to list.
                         field = []
                         escapeQuote = false
                         insideQuote = false
@@ -267,16 +271,18 @@ struct TsvImportSheet {
             if let cNext = cNext, !newline.contains(cNext) && cNext != "\t" {
                 field.append(cNext) // Add last character
             }
-            if field.isEmpty == false {
-                record.append(field) // Add last field
+            let fieldStr = String(field).trimmingCharacters(in: .whitespaces)
+            if fieldStr.isEmpty == false {
+                record.append(fieldStr) // Add last field
             }
-            if !record[0].isEmpty || !record[1].isEmpty || !record[2].isEmpty || !record[3].isEmpty {
+            // Requires either an Android key or an Apple key
+            if !record[0].isEmpty || !record[1].isEmpty {
                 let r = TsvImportRow(
-                    key_android: String(record[0]), 
-                    key_apple: String(record[1]), 
-                    base_value: String(record[2]), 
-                    lang_value: String(record[3]),
-                    comments: record.count > 4 ? String(record[4]) : ""
+                    key_android: record[0], 
+                    key_apple: record[1], 
+                    base_value: record[2], 
+                    lang_value: record[3],
+                    comments: record.count > 4 ? record[4] : ""
                 )
                 recordList.append(r) // Add last record
             }
@@ -288,8 +294,8 @@ struct TsvImportSheet {
     }
     
     
-    func saveTsvFile(url: URL, recordList: [TsvImportRow]) {
-        let outputString = toTsv(recordList: recordList)
+    mutating func saveTsvFile(url: URL, recordList: [TsvImportRow]) {
+        let outputString = toTsv(recordList: sortRecordList(recordList))
         let outputUrl = url
             .deletingPathExtension()
             .appendingPathExtension("\(Date.datestampyyyyMMddHHmm).tsv")
@@ -299,13 +305,61 @@ struct TsvImportSheet {
             logger.error(" \(error)")
         }
     }
-        
+    
+    mutating func sortRecordList(_ recordList: [TsvImportRow]) -> [TsvImportRow] {
+        var list = recordList
+        list.sort { (a: TsvImportRow, b: TsvImportRow) -> Bool in
+            // Return true to order first element before the second.
+            if !a.key_apple.isEmpty && !b.key_apple.isEmpty {
+                if !a.key_apple.isRandomKey && !b.key_apple.isRandomKey {
+                    return a.key_apple < b.key_apple
+                } else if !a.key_apple.isRandomKey {
+                    return true
+                } else if !b.key_apple.isRandomKey {
+                    return false
+                } else {
+                    if !a.key_android.isEmpty && !b.key_android.isEmpty {
+                        return a.key_android < b.key_android
+                    } else if !a.key_android.isEmpty {
+                        return true
+                    } else if !b.key_android.isEmpty {
+                        return false
+                    }
+                }
+                // case: two random apple keys. no android keys.
+                return a.base_value < b.base_value
+                // return a.key_apple < b.key_apple
+            } else if !a.key_apple.isEmpty && !a.key_apple.isRandomKey {
+                return true
+            } else if !b.key_apple.isEmpty && !b.key_apple.isRandomKey {
+                return false
+            }
+            if !a.key_android.isEmpty && !b.key_android.isEmpty {
+                return a.key_android < b.key_android                
+            } else if !a.key_android.isEmpty {
+                return true
+            }
+            return false
+        }
+        return list
+    }
+    
     // MARK: - Normalize Keys
 
     mutating func normalizeAndroidKeys(recordList: [TsvImportRow]) -> [TsvImportRow] {
         var newRecordList = [TsvImportRow]()
         for i in 0 ..< recordList.count {
             var r = recordList[i]
+            
+            // Check for keys which have an added Apple-Android crossmapping
+            // Crossmaping may add a correlated key to an otherwise empty Android key 
+            if let newKey = TsvRemapDroid.check.isCrossmapUpdated(r) {
+                r.key_android = newKey
+                newRecordList.append(r)
+                continue
+            }
+
+            // 
             if r.key_android.isEmpty {
                 newRecordList.append(r)
                 continue
@@ -319,6 +373,13 @@ struct TsvImportSheet {
             // Check for keys to be replaced
             if let newKey = TsvRemapDroid.check.isReplaced(r.key_android) {
                 r.key_apple = newKey
+                newRecordList.append(r)
+                continue
+            }
+                        
+            // Check for keys which have a patch fix 
+            if let newKey = TsvRemapDroid.check.isPatched(r) {
+                r.key_android = newKey
                 newRecordList.append(r)
                 continue
             }
