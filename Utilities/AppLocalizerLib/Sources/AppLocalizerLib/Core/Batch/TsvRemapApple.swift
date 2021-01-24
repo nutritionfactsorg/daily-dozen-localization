@@ -25,6 +25,23 @@ struct TsvRemapApple {
         replaceDict = [String: String]()
         replaceDict["6FY-X2-BdZ.normalTitle"] = "dateButtonTitle.today"
         replaceDict["7XY-Lo-Hwf.normalTitle"] = "dateBackButtonTitle"
+        
+        // TSV v1 update
+        replaceDict["dozeBeans"] = "dozeBeans.heading"
+        replaceDict["dozeBerries"] = "dozeBerries.heading"
+        replaceDict["dozeFruitsOther"] = "dozeFruitsOther.heading"
+        replaceDict["dozeVegetablesCruciferous"] = "dozeVegetablesCruciferous.heading"
+        replaceDict["dozeGreens"] = "dozeGreens.heading"
+        replaceDict["dozeVegetablesOther"] = "dozeVegetablesOther.heading"
+        replaceDict["dozeFlaxseeds"] = "dozeFlaxseeds.heading"
+        replaceDict["dozeNuts"] = "dozeNuts.heading"
+        replaceDict["dozeSpices"] = "dozeSpices.heading"
+        replaceDict["dozeWholeGrains"] = "dozeWholeGrains.heading"
+        replaceDict["dozeBeverages"] = "dozeBeverages.heading"
+        replaceDict["dozeExercise"] = "dozeExercise.heading"
+        replaceDict["otherVitaminB12"] = "otherVitaminB12.heading"
+        replaceDict["otherVitaminD"] = "otherVitaminD.heading"
+        replaceDict["otherOmega3"] = "otherOmega3.heading"
     }
     
     func isDropped(_ key: String) -> Bool {

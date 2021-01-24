@@ -67,31 +67,31 @@ struct JsonProcessor {
     
     // Query all keys from data which has been read in from the JSON files. 
     mutating func queryAllAppleJsonKeys() {
-        for q in dozeInfo.itemsDict {
-            let key = q.key
-            guard let record = dozeInfo.itemsDict[key] else { continue }
+        for item in dozeInfo.itemsDict {
+            let key = item.key
+            guard let dozeDetailInfo = dozeInfo.itemsDict[key] else { continue }
             
             keysAppleJsonAll.insert("\(key).heading")
             keysAppleJsonAll.insert("\(key).topic")
-            for i in 0 ..< record.servings.count {
+            for i in 0 ..< dozeDetailInfo.servings.count {
                 keysAppleJsonAll.insert("\(key).Serving.Imperial.\(i)")                
                 keysAppleJsonAll.insert("\(key).Serving.Metric.\(i)")                
             }
-            for i in 0 ..< record.varieties.count {
+            for i in 0 ..< dozeDetailInfo.varieties.count {
                 keysAppleJsonAll.insert("\(key).Variety.Text.\(i)")                
                 keysAppleJsonAll.insert("\(key).Variety.Topic.\(i)")                
             }
         }
         
-        for q in tweakInfo.itemsDict {
-            let key = q.key
-            guard let record = tweakInfo.itemsDict[key] else { continue }
+        for item in tweakInfo.itemsDict {
+            let key = item.key
+            guard let tweakDetailInfo = tweakInfo.itemsDict[key] else { continue }
             
             keysAppleJsonAll.insert("\(key).heading")
             keysAppleJsonAll.insert("\(key).topic")
             keysAppleJsonAll.insert("\(key).Activity.Imperial")                
             keysAppleJsonAll.insert("\(key).Activity.Metric")                
-            for i in 0 ..< record.description.count {
+            for i in 0 ..< tweakDetailInfo.description.count {
                 keysAppleJsonAll.insert("\(key).Description.\(i)")                
             }
         }
@@ -119,28 +119,32 @@ struct JsonProcessor {
     private mutating func processJsonDoze(key: String, value: String) -> Bool {
         let parts = key.components(separatedBy: ".")
         
-        if dozeInfo.itemsDict[parts[0]] != nil {
-            if parts.count == 1 {
-                // :NOTE:NYI: "topic" URL not processing in this import file,
-                // so "heading" is the only case for parts.count == 1
-                dozeInfo.itemsDict[parts[0]]?.heading = value
-                keysAppleJsonMatched.insert(key)
-                return true
+        let keyBase = parts[0]
+        if dozeInfo.itemsDict[keyBase] != nil {
+            if parts.count == 2 {
+                switch parts[1] {
+                case "heading":
+                    // `dozeBeans`
+                    dozeInfo.itemsDict[keyBase]?.heading = value
+                    keysAppleJsonMatched.insert(key)
+                    return true
+                default:
+                    return false
+                }
             } else if parts.count == 4 {
-                let key = parts[0]
                 guard let idx = Int(parts[3]) else { return false }
                 switch parts[1] {
                 case "Serving":
                     switch parts[2] {
                     case "imperial":
-                        // dozeBeans.Serving.imperial.1
-                        dozeInfo.itemsDict[key]?.servings[idx].imperial = value
-                        keysAppleJsonMatched.insert(key)
+                        // `dozeBeans.Serving.imperial.1`
+                        dozeInfo.itemsDict[keyBase]?.servings[idx].imperial = value
+                        keysAppleJsonMatched.insert(keyBase)
                         return true
                     case "metric":
-                        // dozeBeans.Serving.metric.1
-                        dozeInfo.itemsDict[key]?.servings[idx].metric = value
-                        keysAppleJsonMatched.insert(key)
+                        // `dozeBeans.Serving.metric.1`
+                        dozeInfo.itemsDict[keyBase]?.servings[idx].metric = value
+                        keysAppleJsonMatched.insert(keyBase)
                         return true
                     default:
                         return false
@@ -149,13 +153,13 @@ struct JsonProcessor {
                     switch parts[2] {
                     case "Text":
                         // dozeBerries.Variety.Text.5
-                        dozeInfo.itemsDict[key]?.varieties[idx].text = value
-                        keysAppleJsonMatched.insert(key)
+                        dozeInfo.itemsDict[keyBase]?.varieties[idx].text = value
+                        keysAppleJsonMatched.insert(keyBase)
                         return true                        
                     case "Topic":
                         // dozeBerries.Variety.Text.5
-                        dozeInfo.itemsDict[key]?.varieties[idx].topic = value
-                        keysAppleJsonMatched.insert(key)
+                        dozeInfo.itemsDict[keyBase]?.varieties[idx].topic = value
+                        keysAppleJsonMatched.insert(keyBase)
                         return true                        
                     default:
                         return false
@@ -172,22 +176,25 @@ struct JsonProcessor {
     private mutating func processJsonTweak(key: String, value: String) -> Bool {
         let parts = key.components(separatedBy: ".")
         
-        if tweakInfo.itemsDict[parts[0]] != nil {
+        let keyBase = parts[0]
+        if tweakInfo.itemsDict[keyBase] != nil {
             if parts.count == 2 {
-                let key = parts[0]
                 switch parts[1] {
                 case "heading":
+                    // `tweakDailyCumin.heading`
                     tweakInfo.itemsDict[parts[0]]?.heading = value
-                    keysAppleJsonMatched.insert(key)
+                    keysAppleJsonMatched.insert(keyBase)
                     return true
                 case "short":
-                    tweakInfo.itemsDict[key]?.activity.imperial = value
-                    tweakInfo.itemsDict[key]?.activity.metric = value
-                    keysAppleJsonMatched.insert(key)
+                    // `tweakDailyCumin.short`
+                    tweakInfo.itemsDict[keyBase]?.activity.imperial = value
+                    tweakInfo.itemsDict[keyBase]?.activity.metric = value
+                    keysAppleJsonMatched.insert(keyBase)
                     return true
                 case "text":
-                    tweakInfo.itemsDict[key]?.description = [value]
-                    keysAppleJsonMatched.insert(key)
+                    // `tweakDailyCumin.text`
+                    tweakInfo.itemsDict[keyBase]?.description = [value]
+                    keysAppleJsonMatched.insert(keyBase)
                     return true
                 default:
                     return false
