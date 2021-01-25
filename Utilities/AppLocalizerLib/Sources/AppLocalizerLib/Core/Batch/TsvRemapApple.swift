@@ -19,6 +19,7 @@ struct TsvRemapApple {
         dropSet.insert("iHh-5a-01X.normalTitle") // "dateButtonTitle.today"
         dropSet.insert("OIQ-oh-3QN.normalTitle") // "dateBackButtonTitle"
         dropSet.insert("Qfe-bW-SP4.normalTitle") // "dateBackButtonTitle"
+        dropSet.insert("dailyReminder.subtitle") // not used
         
         // Use key sort order 09AZaz to replace first instance
         // of multi-instance key group

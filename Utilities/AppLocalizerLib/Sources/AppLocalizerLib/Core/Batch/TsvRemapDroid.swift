@@ -12,7 +12,7 @@ struct TsvRemapDroid {
     // 
     var dropSet: Set<String>
     var replaceDict: [String: String]
-    private var crossmapDict: [String: String] 
+    var crossmapDict: [String: String] // given key_apple, then apply key_android 
     
     init() {
         dropSet = Set<String>()
@@ -24,6 +24,7 @@ struct TsvRemapDroid {
         crossmapDict["nRL-iG-Wnd.text"] = "servings_time_scale_choices.1"
         crossmapDict["UCg-Rc-mLf.text"] = "servings_time_scale_choices.1"
         crossmapDict["lTR-i5-Tn0.text"] = "servings_time_scale_choices.1"
+        crossmapDict["dailyReminder.title"] = "daily_reminder_title"
     }
     
     func isDropped(_ key: String) -> Bool {

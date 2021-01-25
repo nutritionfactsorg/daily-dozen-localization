@@ -54,6 +54,7 @@
       </trans-unit>
       <trans-unit id="dateBackButtonTitle" xml:space="preserve">
         <source>Back to today</source>
+        <target>Powrót do dzisiaj</target>
         <note>Back to today</note>
       </trans-unit>
       <trans-unit id="dateButtonTitle.today" xml:space="preserve">
@@ -232,7 +233,7 @@ Vitamin B12 is included in this app to provide you with an easy way to track you
       </trans-unit>
       <trans-unit id="tweakCompleteIntentions.heading" xml:space="preserve">
         <source>Complete Intentions</source>
-        <target> Spełnij swoje intencje implementacyjne</target>
+        <target>Spełnij swoje intencje implementacyjne</target>
         <note>display heading</note>
       </trans-unit>
       <trans-unit id="tweakDailyBlackCumin.heading" xml:space="preserve">
@@ -415,8 +416,7 @@ Vitamin B12 is included in this app to provide you with an easy way to track you
       <trans-unit id="Lef-Iw-Ywr.normalTitle" xml:space="preserve">
         <source>Daily Dozen +
 21 Tweaks</source>
-        <target>Daily Dozen +
-21 Adaptacji</target>
+        <target>Daily Dozen + 21 Adaptacji</target>
         <note>Class = "UIButton"; normalTitle = "Daily Dozen +\n21 Tweaks"; ObjectID = "Lef-Iw-Ywr";</note>
       </trans-unit>
       <trans-unit id="OdG-YQ-lT8.text" xml:space="preserve">
@@ -627,7 +627,7 @@ Vitamin B12 is included in this app to provide you with an easy way to track you
       </trans-unit>
       <trans-unit id="gX5-vX-xBe.text" xml:space="preserve">
         <source>version 3.3.0</source>
-        <target>wersja 3.3.0</target>
+        <target>wersja 3.2.7</target>
         <note>Class = "UILabel"; text = "version 3.3.0"; ObjectID = "gX5-vX-xBe";</note>
       </trans-unit>
       <trans-unit id="pUm-f4-zm1.text" xml:space="preserve">
@@ -728,7 +728,7 @@ Vitamin B12 is included in this app to provide you with an easy way to track you
       </trans-unit>
       <trans-unit id="IFs-g0-SPV.footerTitle" xml:space="preserve">
         <source>Set to always be one unit type or enable the 'Units:' toggle button.</source>
-        <target>Ustaw jeden typ jednostek dla aplikacji lub aktywuj przełącznie przycisku w „Jednostki:”. </target>
+        <target>Ustaw jeden typ jednostek dla aplikacji lub aktywuj przełącznie przycisku w „Jednostki:”.</target>
         <note>Class = "UITableViewSection"; footerTitle = "Set to always be one unit type or enable the 'Units:' toggle button."; ObjectID = "IFs-g0-SPV";</note>
       </trans-unit>
       <trans-unit id="IFs-g0-SPV.headerTitle" xml:space="preserve">
@@ -743,8 +743,7 @@ Vitamin B12 is included in this app to provide you with an easy way to track you
       </trans-unit>
       <trans-unit id="OZO-Xa-v5G.segmentTitles[1]" xml:space="preserve">
         <source>Daily Dozen + 21 Tweaks</source>
-        <target>Daily Dozen +
-21 Adaptacji</target>
+        <target>Daily Dozen + 21 Adaptacji</target>
         <note>Class = "UISegmentedControl"; OZO-Xa-v5G.segmentTitles[1] = "Daily Dozen + 21 Tweaks"; ObjectID = "OZO-Xa-v5G";</note>
       </trans-unit>
       <trans-unit id="RLb-GV-4hh.segmentTitles[0]" xml:space="preserve">

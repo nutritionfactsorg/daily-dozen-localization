@@ -8,14 +8,16 @@
 import Foundation
 
 struct BatchRunner {
+
     // Batch Commands File URL
     let commandsUrl: URL
     let languagesUrl: URL
     let mappingsUrl: URL
-    // Internal 
-    private var _jsonProcessor: JsonProcessor!         // key_apple    
-    private var _xliffProcessor: XliffProcessor!
-    private var _xmlProcessor: XmlProcessor!
+    // Data Processors 
+    var _jsonProcessor: JsonProcessor!         // key_apple    
+    var _tsvImportSheet: TsvImportSheet!
+    var _xliffProcessor: XliffProcessor!
+    var _xmlProcessor: XmlProcessor!
     
     init(commandsUrl: URL, languagesUrl: URL, mappingsUrl: URL) {
         self.commandsUrl = commandsUrl
@@ -179,12 +181,12 @@ struct BatchRunner {
         """)
         
         // 1. TSV Input File
-        let sheet = TsvImportSheet(urlList: inputTSV, loglevel: .info)
+        _tsvImportSheet = TsvImportSheet(urlList: inputTSV, loglevel: .info)
         
         // 2. Process Apple JSON Files
         if let appleXmlUrl = outputApple {
             _jsonProcessor = JsonProcessor(xliffUrl: appleXmlUrl)
-            _jsonProcessor.process(lookupTable: sheet.getLookupDictApple())
+            _jsonProcessor.process(lookupTable: _tsvImportSheet.getLookupDictApple())
             _jsonProcessor.writeJsonFiles()
         }
         
@@ -193,7 +195,7 @@ struct BatchRunner {
             let appleXmlUrl = outputApple,
             let appleXmlDocument = try? XMLDocument(contentsOf: appleXmlUrl, options: [.nodePreserveAll]),
             let appleRootXMLElement: XMLElement = appleXmlDocument.rootElement() {
-            _xliffProcessor = XliffProcessor(lookupTable: sheet.getLookupDictApple())
+            _xliffProcessor = XliffProcessor(lookupTable: _tsvImportSheet.getLookupDictApple())
             _xliffProcessor.process(
                 appleXmlUrl: appleXmlUrl, 
                 appleXmlDocument: appleXmlDocument, 
@@ -207,7 +209,7 @@ struct BatchRunner {
             let droidXmlUrl = outputAndroid,
             let droidXmlDocument = try? XMLDocument(contentsOf: droidXmlUrl, options: [.nodePreserveAll, .nodePreserveWhitespace]),
             let droidRootXMLElement: XMLElement = droidXmlDocument.rootElement() {
-            _xmlProcessor = XmlProcessor(lookupTable: sheet.getLookupDictAndroid())
+            _xmlProcessor = XmlProcessor(lookupTable: _tsvImportSheet.getLookupDictAndroid())
             _xmlProcessor.process(
                 droidXmlUrl: droidXmlUrl, 
                 droidXmlDocument: droidXmlDocument, 
@@ -217,109 +219,8 @@ struct BatchRunner {
         }
                 
         // 5. Write Report
-        writeReport(tsvSheet: sheet, tsvUrl: inputTSV[0])
+        Reporter.shared.writeFullReport(batchRunner: self)
+        Reporter.shared.writeFullReport(batchRunner: self, verbose: true)
     }
-    
-    func writeReport(tsvSheet: TsvImportSheet, tsvUrl: URL, verbose: Bool = false) {
-        let datestamp = Date.datestampyyyyMMddHHmm
-        let url = tsvUrl
-            .deletingLastPathComponent() // "filename.ext"
-            .deletingLastPathComponent() // "tsv/"
-            .appendingPathComponent("Report_\(datestamp).txt")
-        
-        var s = "Report: \(datestamp)\n"
-        s.append("\n")
-        s.append("###########################\n")
-        s.append("## TSV STANDALONE CHECKS ##\n")
-        s.append("###########################\n")
-        s.append("\n")
-        s.append("********************************\n")
-        s.append("** TSV: Target Language Empty **\n")
-        s.append("********************************\n")
-        let missing = tsvSheet.checkTsvKeysTargetValueMissing()
-        for r in missing {
-            s.append("\(r.key_android)\t\(r.key_apple)\t\(r.base_value)\t\(r.lang_value)\n")
-        }
-            
-        s.append("\n")
-        s.append("*******************************************\n")
-        s.append("** TSV: Target Language == Base Language **\n")
-        s.append("*******************************************\n")
-        let unchanged = tsvSheet.checkTsvKeysTargetValueSameAsBase()        
-        for r in unchanged {
-            s.append("\(r.key_android)\t\(r.key_apple)\t\(r.base_value)\t\(r.lang_value)\n")
-        }
 
-        if let processor = _xmlProcessor {
-            s.append("\n")
-            s.append("####################\n")
-            s.append("## ANDROID CHECKS ##\n")
-            s.append("####################\n")
-            s.append("\n")
-            s.append("********************************************\n")
-            s.append("** TSV: Android Key Unmatched (key_droid) **\n")
-            s.append("********************************************\n")
-            let unusedDroid = tsvSheet.checkTsvKeysNotused(platformKeysUsed: processor.keysDroidXmlMatched, platform: .android)
-            s.append(unusedDroid.sorted().joined(separator: "\n"))
-            s.append("\n\n")
-            s.append("********************************\n")
-            s.append("** Android XML Keys UnMatched **\n")
-            s.append("********************************\n")
-            let unmatchedXmlKeys = processor.keysDroidXmlUnmatched.sorted()
-            s.append(unmatchedXmlKeys.joined(separator: "\n"))
-            if verbose {
-                s.append("\n\n")
-                s.append("******************************\n")
-                s.append("** Android XML Keys Matched **\n")
-                s.append("******************************\n")
-                let matchedXmlKeys = processor.keysDroidXmlMatched.sorted()
-                s.append(matchedXmlKeys.joined(separator: "\n"))
-            }
-        }
-        
-        if let xliffProcessor = _xliffProcessor, let jsonprocessor = _jsonProcessor {
-            s.append("\n\n")
-            s.append("##################\n")
-            s.append("## APPLE CHECKS ##\n")
-            s.append("##################\n")
-            s.append("\n")
-            s.append("******************************************\n")
-            s.append("** TSV: Apple Key Unmatched (key_apple) **\n")
-            s.append("******************************************\n")
-            let usedKeys = xliffProcessor
-                .keysAppleXliffMatched
-                .union(jsonprocessor.keysAppleJsonMatched)
-            let unusedApple = tsvSheet.checkTsvKeysNotused(platformKeysUsed: usedKeys, platform: .apple)
-            s.append(String.joinRandomStated(list: unusedApple.sorted()))
-            s.append("\n\n")
-            s.append("*******************************\n")
-            s.append("** Apple JSON Keys UnMatched **\n")
-            s.append("*******************************\n")
-            let unmatchedJsonKeys = jsonprocessor.keysAppleJsonUnmatched.sorted()
-            s.append(unmatchedJsonKeys.joined(separator: "\n"))
-            s.append("\n\n")
-            s.append("********************************\n")
-            s.append("** Apple XLIFF Keys UnMatched **\n")
-            s.append("********************************\n")
-            let unmatchedXliffKeys = xliffProcessor.keysAppleXliffUnmatched.sorted()
-            s.append(String.joinRandomStated(list: unmatchedXliffKeys))
-            if verbose {
-                s.append("\n\n")
-                s.append("*****************************\n")
-                s.append("** Apple JSON Keys Matched **\n")
-                s.append("*****************************\n")
-                let matchedJsonKeys = jsonprocessor.keysAppleJsonMatched.sorted()
-                s.append(matchedJsonKeys.joined(separator: "\n"))
-                s.append("\n\n")
-                s.append("******************************\n")
-                s.append("** Apple XLIFF Keys Matched **\n")
-                s.append("******************************\n")
-                let matchedXliffKeys = xliffProcessor.keysAppleXliffMatched.sorted()
-                s.append(String.joinRandomStated(list: matchedXliffKeys))
-            }
-        }
-        
-        try? s.write(to: url, atomically: true, encoding: .utf8)
-    }
-    
 }

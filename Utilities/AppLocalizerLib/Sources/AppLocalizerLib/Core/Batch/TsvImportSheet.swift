@@ -2,7 +2,6 @@
 //  TsvImportSheet.swift
 //  AppLocalizerLib
 //
-//
 
 import Foundation
 
@@ -10,6 +9,7 @@ struct TsvImportSheet {
     
     var recordListAll: [TsvImportRow] = []
     var logger = LogService()
+    var urlLanguage: URL
         
     enum platform {
         case android
@@ -18,6 +18,12 @@ struct TsvImportSheet {
     
     init(urlList: [URL], loglevel: LogServiceLevel = .info) {
         logger.logLevel = loglevel
+        guard let url = urlList.first  else {
+            fatalError("At least 1 TSV import file is required.")
+        }
+        urlLanguage = url
+            .deletingLastPathComponent() // "filename.ext"
+            .deletingLastPathComponent() // "tsv/"
         for url in urlList {
             var recordList = parseTsvFile(url: url)
             recordList = normalizeAndroidKeys(recordList: recordList)

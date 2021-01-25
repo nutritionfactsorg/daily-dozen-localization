@@ -2,13 +2,13 @@
   "itemsDict" : {
     "tweakCompleteIntentions" : {
       "activity" : {
-        "imperial" : " Spełnij swoje intencje implementacyjne",
-        "metric" : " Spełnij swoje intencje implementacyjne"
+        "imperial" : "Spełnij swoje intencje implementacyjne",
+        "metric" : "Spełnij swoje intencje implementacyjne"
       },
       "description" : [
         "Co dwa miesiące twórz trzy nowe intencje implementacyjne - plany „jeśli X, to Y”, aby spełnić pewne zachowanie w określonym kontekście - i odznaczaj każdą z nich, jak je wypełnisz."
       ],
-      "heading" : " Spełnij swoje intencje implementacyjne",
+      "heading" : "Spełnij swoje intencje implementacyjne",
       "topic" : ""
     },
     "tweakDailyBlackCumin" : {
