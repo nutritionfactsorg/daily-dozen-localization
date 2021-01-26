@@ -441,7 +441,8 @@ daily_reminder_title		Daily Dozen Reminder	Daily Dozen Reminder
 	GiY-ao-2ee.headerTitle	Daily Reminder	Daily Reminder	
 daily_reminder_settings		Daily Reminder Settings		a reminder that is triggered every day
 	itH-G7-Kal.text	Enable Reminders		
-	XFw-2q-BdT.text	On	On	"""On"" as in ""On or Off"""
+	XFw-2q-BdT.text	On	On	'On' as in 'On or Off'
+	reminder.state.off	Off	Off	'Off' as in 'On or Off'
 enable_daily_reminder		Enable Daily Reminders	Enable Daily Reminders	On/Off toggle label
 	pjz-An-Ls5.text	Enable Reminders	Enable Reminders	On/Off toggle label
 remind_me_at	kR3-Sa-Fpt.text	Remind me at:	Remind me at:	
