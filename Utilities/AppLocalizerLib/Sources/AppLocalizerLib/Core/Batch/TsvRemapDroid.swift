@@ -24,7 +24,6 @@ struct TsvRemapDroid {
         crossmapDict["nRL-iG-Wnd.text"] = "servings_time_scale_choices.1"
         crossmapDict["UCg-Rc-mLf.text"] = "servings_time_scale_choices.1"
         crossmapDict["lTR-i5-Tn0.text"] = "servings_time_scale_choices.1"
-        crossmapDict["dailyReminder.title"] = "daily_reminder_title"
     }
     
     func isDropped(_ key: String) -> Bool {

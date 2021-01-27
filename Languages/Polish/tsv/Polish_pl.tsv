@@ -439,13 +439,16 @@ daily_dozen_only	OZO-Xa-v5G.segmentTitles[0]	Daily Dozen Only	Tylko Daily Dozen
 daily_dozen_and_tweaks	OZO-Xa-v5G.segmentTitles[1]	Daily Dozen + 21 Tweak	Daily Dozen + 21 Adaptacji	
 	WdR-XV-IyP.footerTitle	For health alone, use "Daily Dozen Only". For health and weight loss use "Daily Dozen + 21 Tweaks".	Dla samego zdrowia użyj „Tylko Daily Dozen”. Dla zdrowia i utraty wagi użyj „Daily Dozen + 21 Adaptacji”.	
 daily_reminder_title		Daily Dozen Reminder	Przypomnienie Daily Dozen	
+daily_reminder_text	reminder.alert.text	Update your servings for today	Update your servings for today	Alert notification text
 	GiY-ao-2ee.headerTitle	Daily Reminder	Cozienne przypomnienie	
 daily_reminder_settings		Daily Reminder Settings	Ustawienia codziennych przypomnień	
 	itH-G7-Kal.text	Enable Reminders	Włącz przypomnienia	
+	reminder.state.off	Off	Off	'Off' as in 'On or Off', reminder is not enabled
 	XFw-2q-BdT.text	On	Włączone	'On' as in 'On or Off'
 enable_daily_reminder		Enable Daily Reminders	Włącz codzienne przypomnienia	On/Off toggle label
 	pjz-An-Ls5.text	Enable Reminders	Włącz przypomnienia	On/Off toggle label
 remind_me_at	kR3-Sa-Fpt.text	Remind me at:	Przypomnij o:	
+vibrate	reminder.settings.vibrate	Vibrate	Vibrate	Android notification `vibrate`
 play_sound	YP6-dP-Y62.text	Play Sound	Włącz dźwięk	
 	NRG-eE-YhG.normalTitle	Clear	Wyczyść	
 	7l0-os-Oqt.normalTitle	Clear	Wyczyść	
