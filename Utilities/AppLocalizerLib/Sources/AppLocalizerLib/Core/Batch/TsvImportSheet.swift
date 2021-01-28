@@ -390,11 +390,14 @@ struct TsvImportSheet {
                 continue
             }
 
+            //print(":WATCH:NormalizeAndroid: \(r.key_android)")
+            
             // 
             r.key_android = r.key_android.replacingOccurrences(of: "[heading]", with: "", options: .literal)
             r.key_android = r.key_android.replacingOccurrences(of: "[short]", with: "_short", options: .literal)
             r.key_android = r.key_android.replacingOccurrences(of: "[text]", with: "_text", options: .literal)
-            r.key_android = r.key_android.replacingOccurrences(of: "\\[(.*)\\]\\[(.*)\\]", with: ".$1.$2", options: .regularExpression)
+            // *[imperial][n], *[metric][n]
+            r.key_android = r.key_android.replacingOccurrences(of: "\\[(.*)\\]\\[(.*)\\]", with: "_$1.$2", options: .regularExpression)
             r.key_android = r.key_android.replacingOccurrences(of: "\\[(.*)\\]", with: ".$1", options: .regularExpression)
             newRecordList.append(r)
         }

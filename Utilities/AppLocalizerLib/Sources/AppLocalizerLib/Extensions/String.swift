@@ -9,7 +9,15 @@ import Foundation
 
 public extension String {
     
-    static func joinRandomStated(list: [String]) -> String {
+    //
+    static func randomStatedJoinedStrings(list: [String]) -> (random: String, stated: String) {
+        let lists = randomStatedSplit(list: list)
+        let randomStr = lists.random.joined(separator: "\n")
+        let statedStr = lists.stated.joined(separator: "\n")
+        return (randomStr, statedStr)
+    }
+    
+    static func randomStatedSplit(list: [String]) -> (random: [String], stated: [String]) {
         var keyRandomList = [String]()
         var keyStatedList = [String]()
         for key in list.sorted() {
@@ -20,8 +28,7 @@ public extension String {
                 keyStatedList.append(key)
             }
         }
-        
-        return (keyStatedList + ["--------- RANDOM KEYS ---------"] + keyRandomList).joined(separator: "\n")
+        return (keyRandomList, keyStatedList)
     }
     
     var isRandomKey: Bool {

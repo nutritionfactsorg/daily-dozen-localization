@@ -36,22 +36,6 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
     </header>
     <body>
-      <trans-unit id="dailyReminder.settings" xml:space="preserve">
-        <source>Daily Reminder Settings</source>
-        <note>daily_reminder_settings</note>
-      </trans-unit>
-      <trans-unit id="dailyReminder.subtitle" xml:space="preserve">
-        <source>dailyReminder.subtitle</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="dailyReminder.text" xml:space="preserve">
-        <source>Update your servings for today</source>
-        <note>daily_reminder_text</note>
-      </trans-unit>
-      <trans-unit id="dailyReminder.title" xml:space="preserve">
-        <source>Daily Dozen Reminder</source>
-        <note>daily_reminder_title</note>
-      </trans-unit>
       <trans-unit id="dateBackButtonTitle" xml:space="preserve">
         <source>Back to today</source>
         <target>Powrót do dzisiaj</target>
@@ -64,42 +48,42 @@
       </trans-unit>
       <trans-unit id="dozeBeans.heading" xml:space="preserve">
         <source>Beans</source>
-        <target>Beans</target>
+        <target>Rośliny strączkowe</target>
         <note>***** Daily Dozen *****</note>
       </trans-unit>
       <trans-unit id="dozeBerries.heading" xml:space="preserve">
         <source>Berries</source>
-        <target>Berries</target>
+        <target>Jagody</target>
         <note>display heading.</note>
       </trans-unit>
       <trans-unit id="dozeBeverages.heading" xml:space="preserve">
         <source>Beverages</source>
-        <target>Beverages</target>
+        <target>Napoje</target>
         <note>display heading</note>
       </trans-unit>
       <trans-unit id="dozeExercise.heading" xml:space="preserve">
         <source>Exercise</source>
-        <target>Exercise</target>
+        <target>Ćwiczenia</target>
         <note>display heading</note>
       </trans-unit>
       <trans-unit id="dozeFlaxseeds.heading" xml:space="preserve">
         <source>Flaxseeds</source>
-        <target>Flaxseeds</target>
+        <target>Siemię lniane</target>
         <note>display heading</note>
       </trans-unit>
       <trans-unit id="dozeFruitsOther.heading" xml:space="preserve">
         <source>Other Fruits</source>
-        <target>Other Fruits</target>
+        <target>Inne owoce</target>
         <note>display heading</note>
       </trans-unit>
       <trans-unit id="dozeGreens.heading" xml:space="preserve">
         <source>Greens</source>
-        <target>Greens</target>
+        <target>Warzywa liściaste</target>
         <note>display heading</note>
       </trans-unit>
       <trans-unit id="dozeNuts.heading" xml:space="preserve">
         <source>Nuts and Seeds</source>
-        <target>Nuts and Seeds</target>
+        <target>Orzechy i nasiona</target>
         <note>display heading</note>
       </trans-unit>
       <trans-unit id="dozeOtherInfo.confirm" xml:space="preserve">
@@ -123,22 +107,22 @@ Vitamin B12 is included in this app to provide you with an easy way to track you
       </trans-unit>
       <trans-unit id="dozeSpices.heading" xml:space="preserve">
         <source>Herbs and Spices</source>
-        <target>Herbs and Spices</target>
+        <target>Zioła i przyprawy</target>
         <note>display heading</note>
       </trans-unit>
       <trans-unit id="dozeVegetablesCruciferous.heading" xml:space="preserve">
         <source>Cruciferous Vegetables</source>
-        <target>Cruciferous Vegetables</target>
+        <target>Warzywa kapustne</target>
         <note>display heading</note>
       </trans-unit>
       <trans-unit id="dozeVegetablesOther.heading" xml:space="preserve">
         <source>Other Vegetables</source>
-        <target>Other Vegetables</target>
+        <target>Inne warzywa</target>
         <note>display heading</note>
       </trans-unit>
       <trans-unit id="dozeWholeGrains.heading" xml:space="preserve">
         <source>Whole Grains</source>
-        <target>Whole Grains</target>
+        <target>Pełnoziarniste zboża</target>
         <note>display heading</note>
       </trans-unit>
       <trans-unit id="historyRecord.movingMean" xml:space="preserve">
@@ -218,13 +202,62 @@ Vitamin B12 is included in this app to provide you with an easy way to track you
       </trans-unit>
       <trans-unit id="otherVitaminB12.heading" xml:space="preserve">
         <source>Vitamin B12</source>
-        <target>Vitamin B12</target>
+        <target>Witamina B12</target>
         <note>***** Daily Dozen Other *****</note>
       </trans-unit>
       <trans-unit id="otherVitaminD.heading" xml:space="preserve">
         <source>Vitamin D</source>
         <target>Vitamin D</target>
         <note>display heading</note>
+      </trans-unit>
+      <trans-unit id="reminder.alert.text" xml:space="preserve">
+        <source>Update your servings for today</source>
+        <target>Update your servings for today</target>
+        <note>daily_reminder_text alert text</note>
+      </trans-unit>
+      <trans-unit id="reminder.heading" xml:space="preserve">
+        <source>Daily Reminder</source>
+        <target>Daily Reminder</target>
+        <note>Alert title, Settings heading</note>
+      </trans-unit>
+      <trans-unit id="reminder.settings.enable" xml:space="preserve">
+        <source>Enable Reminders</source>
+        <target>Enable Reminders</target>
+        <note>Enable Reminders</note>
+      </trans-unit>
+      <trans-unit id="reminder.settings.sound" xml:space="preserve">
+        <source>Play Sound</source>
+        <target>Play Sound</target>
+        <note>play_sound</note>
+      </trans-unit>
+      <trans-unit id="reminder.settings.time" xml:space="preserve">
+        <source>Remind me at</source>
+        <target>Remind me at</target>
+        <note>remind_me_at</note>
+      </trans-unit>
+      <trans-unit id="reminder.settings.vibrate" xml:space="preserve">
+        <source>Vibrate</source>
+        <note>vibrate</note>
+      </trans-unit>
+      <trans-unit id="reminder.state.off" xml:space="preserve">
+        <source>Off</source>
+        <target>Off</target>
+        <note>'Off' as in 'On or Off'</note>
+      </trans-unit>
+      <trans-unit id="reminder.state.on" xml:space="preserve">
+        <source>On</source>
+        <target>On</target>
+        <note>'On' as in 'On or Off'</note>
+      </trans-unit>
+      <trans-unit id="settings.tweak.header" xml:space="preserve">
+        <source>21 Tweaks Visibility</source>
+        <target>Widoczność 21 Adaptacji</target>
+        <note>Class = "UITableViewSection"; headerTitle = "21 Tweaks Visibility"; ObjectID = "WdR-XV-IyP";</note>
+      </trans-unit>
+      <trans-unit id="settings.units.header" xml:space="preserve">
+        <source>Measurement Units</source>
+        <target>Jednostki miary</target>
+        <note>Class = "UITableViewSection"; headerTitle = "Measurement Units"; ObjectID = "IFs-g0-SPV";</note>
       </trans-unit>
       <trans-unit id="streakDaysFormat" xml:space="preserve">
         <source>%d days</source>
@@ -723,7 +756,6 @@ Vitamin B12 is included in this app to provide you with an easy way to track you
       </trans-unit>
       <trans-unit id="GiY-ao-2ee.headerTitle" xml:space="preserve">
         <source>Daily Reminder</source>
-        <target>Cozienne przypomnienie</target>
         <note>Class = "UITableViewSection"; headerTitle = "Daily Reminder"; ObjectID = "GiY-ao-2ee";</note>
       </trans-unit>
       <trans-unit id="IFs-g0-SPV.footerTitle" xml:space="preserve">
@@ -733,7 +765,6 @@ Vitamin B12 is included in this app to provide you with an easy way to track you
       </trans-unit>
       <trans-unit id="IFs-g0-SPV.headerTitle" xml:space="preserve">
         <source>Measurement Units</source>
-        <target>Jednostki miary</target>
         <note>Class = "UITableViewSection"; headerTitle = "Measurement Units"; ObjectID = "IFs-g0-SPV";</note>
       </trans-unit>
       <trans-unit id="OZO-Xa-v5G.segmentTitles[0]" xml:space="preserve">
@@ -768,32 +799,26 @@ Vitamin B12 is included in this app to provide you with an easy way to track you
       </trans-unit>
       <trans-unit id="WdR-XV-IyP.headerTitle" xml:space="preserve">
         <source>21 Tweaks Visibility</source>
-        <target>Widoczność 21 Adaptacji</target>
         <note>Class = "UITableViewSection"; headerTitle = "21 Tweaks Visibility"; ObjectID = "WdR-XV-IyP";</note>
       </trans-unit>
       <trans-unit id="XFw-2q-BdT.text" xml:space="preserve">
         <source>On</source>
-        <target>Włączone</target>
         <note>Class = "UILabel"; text = "On"; ObjectID = "XFw-2q-BdT";</note>
       </trans-unit>
       <trans-unit id="YP6-dP-Y62.text" xml:space="preserve">
         <source>Play Sound</source>
-        <target>Włącz dźwięk</target>
         <note>Class = "UILabel"; text = "Play Sound"; ObjectID = "YP6-dP-Y62";</note>
       </trans-unit>
       <trans-unit id="itH-G7-Kal.text" xml:space="preserve">
         <source>Enable Reminders</source>
-        <target>Włącz przypomnienia</target>
         <note>Class = "UILabel"; text = "Enable Reminders"; ObjectID = "itH-G7-Kal";</note>
       </trans-unit>
       <trans-unit id="kR3-Sa-Fpt.text" xml:space="preserve">
         <source>Remind me at:</source>
-        <target>Przypomnij o:</target>
         <note>Class = "UILabel"; text = "Remind me at:"; ObjectID = "kR3-Sa-Fpt";</note>
       </trans-unit>
       <trans-unit id="pjz-An-Ls5.text" xml:space="preserve">
         <source>Enable Reminders</source>
-        <target>Włącz przypomnienia</target>
         <note>Class = "UILabel"; text = "Enable Reminders"; ObjectID = "pjz-An-Ls5";</note>
       </trans-unit>
     </body>

@@ -11,3 +11,17 @@ android.store.whatsnew		Adds language support of [place translated language name
 android.about_text_lines		This app was created by John Slavick.  The following open source libraries are used: ActiveAndroid, android-iconify, ButterKnife, EventBus, LikeAnimation, and MPAndroidChart.  Special thanks to the volunteer efforts of the creators of the previous app: Chan Kruse, Allan Portera, and Sangeeta Kumar.	Ta aplikacja została stworzona przez Johna Slavicka.  Używane są następujące biblioteki open source: ActiveAndroid, android-iconify, ButterKnife, EventBus, LikeAnimation i MPAndroidChart.  Specjalne podziękowania za wolontariacki wysiłek twórców poprzedniej aplikacji: Chana Kruse, Allana Portera i Sangeeta Kumara.	
 android.backup_instructions_lines		Follow these steps to restore this backup in the Daily Dozen app  1. The Daily Dozen app must be installed on your Android phone. You can download it here: https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen  2. Tap on the backup file attached to this email.  3. Select Open with Daily Dozen	Podążaj za tymi krokami, aby przywrócić kopię zapasową aplikacji Daily Dozen  1. Aplikacja Daily Dozen musi być zainstalowana na telefonie z systemem Android. Możesz ją pobrać tutaj: https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen 2. Stuknij w plik kopii zapasowej załączony w tym e-mailu. 3. Wybierz opcję „Otwórz przy pomocy Daily Dozen”.	
 	apple.info.about	Welcome to my Daily Dozen!  Use this app on a daily basis to keep track of the foods and advice I recommend for optimal health and longevity in my books How Not to Die and How Not to Diet.  Daily Dozen version 3.2.3  This app was created by:  NutritionFacts.org Christi Richards Konstantin Khokhlov Marc Campbell  The following open source libraries are used: RealmSwift, Charts, FSCalendar, SimpleAnimation and ActiveLabel.	Witaj w moim Daily Dozen!  Korzystaj z tej aplikacji codziennie, aby śledzić żywność i porady, które polecam dla optymalnego zdrowia i długowieczności w moich książkach „Jak nie umrzeć przedwcześnie” i „How Not to Diet”.  Daily Dozen w wersji 3.2.3  Ta aplikacja została stworzona przez: NutritionFacts.org Christi Richards Konstantin Khokhlov Marc Campbell  Używane są następujące biblioteki open source: RealmSwift, Charts, FSCalendar, SimpleAnimation i ActiveLabel.	
+store.screen.1	store.screen.1	"Eat.
+Track.
+Repeat.
+No calorie counting or macro tracking required."		"https://apps.apple.com/us/app/dr-gregers-daily-dozen/id1060700802
+
+https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen&hl=en "
+store.screen.2	store.screen.2	All for free!		
+store.screen.3	store.screen.3	Eat delicious meals that include Daily Dozen foods.		
+store.screen.4	store.screen.4	Track your daily servings in the app.		
+store.screen.5	store.screen.5	Repeat until healthy eating becomes second nature.		
+store.screen.6	store.screen.6	"Dr. Greger's Daily Dozen
+It's your regular routine that determines your long-term health.
+Download today!"		
+store.keywords	store.keywords	"vegan, nutrition, food, vegetarian, health, healthy"		

@@ -39,6 +39,18 @@ struct Reporter {
 
         inactiveAppleDict["pUm-f4-zm1.text"] = "InfoMenuAboutLayout '…open source libraries…' manual edit?"
         
+        // Superceded random values
+        inactiveAppleDict["GiY-ao-2ee.headerTitle"] = "superceded by reminder.heading"
+        
+        inactiveAppleDict["pjz-An-Ls5.text"] = "superceded by reminder.settings.enable"
+        inactiveAppleDict["itH-G7-Kal.text"] = "superceded by reminder.settings.enable"
+        inactiveAppleDict["kR3-Sa-Fpt.text"] = "superceded by reminder.settings.time"
+        inactiveAppleDict["YP6-dP-Y62.text"] = "superceded by reminder.settings.sound"
+        inactiveAppleDict["XFw-2q-BdT.text"] = "superceded by reminder.state.on"
+        
+        inactiveAppleDict["IFs-g0-SPV.headerTitle"] = "superceded by settings.units.header"
+        inactiveAppleDict["WdR-XV-IyP.headerTitle"] = "superceded by settings.tweak.header"
+
         inactiveDroidDict = [String: String]()
     }
     
@@ -120,7 +132,10 @@ struct Reporter {
                 .keysAppleXliffMatched
                 .union(jsonprocessor.keysAppleJsonMatched)
             let unusedApple = batchRunner._tsvImportSheet.checkTsvKeysNotused(platformKeysUsed: usedKeys, platform: .apple)
-            s.append(String.joinRandomStated(list: unusedApple.sorted()))
+            let unusedAppleRandomStated = String.randomStatedJoinedStrings(list: unusedApple.sorted())
+            s.append("\(unusedAppleRandomStated.stated)\n")
+            s.append("----- RANDOM KEYS: TSV Unused -----\n")
+            s.append("\(unusedAppleRandomStated.random)\n")
             s.append("\n\n")
             s.append("*******************************\n")
             s.append("** Apple JSON Keys UnMatched **\n")
@@ -135,7 +150,10 @@ struct Reporter {
             let unmatchedXliffKeys = xliffProcessor.keysAppleXliffUnmatched
                 .subtracting(inactiveAppleKeys)
                 .sorted()
-            s.append(String.joinRandomStated(list: unmatchedXliffKeys))
+            let unmatchedXliffRandomStated = String.randomStatedJoinedStrings(list: unmatchedXliffKeys)
+            s.append("\(unmatchedXliffRandomStated.stated)\n")
+            s.append("----- RANDOM KEYS: XLIFF Unmatched -----\n")
+            s.append("\(unmatchedXliffRandomStated.random)\n")
             s.append("\n\n")
             s.append("**************************************\n")
             s.append("** Apple XLIFF Keys Marked Inactive **\n")
@@ -159,7 +177,11 @@ struct Reporter {
                 s.append("** Apple XLIFF Keys Matched **\n")
                 s.append("******************************\n")
                 let matchedXliffKeys = xliffProcessor.keysAppleXliffMatched.sorted()
-                s.append(String.joinRandomStated(list: matchedXliffKeys))
+                let matchedXliffRandomStated = String.randomStatedJoinedStrings(list: matchedXliffKeys)
+                s.append("\(matchedXliffRandomStated.stated)\n")
+                s.append("----- RANDOM KEYS: XLIFF Matched -----\n")
+                s.append("\(matchedXliffRandomStated.random)\n")
+                s.append("\n\n")
             }
         }
         

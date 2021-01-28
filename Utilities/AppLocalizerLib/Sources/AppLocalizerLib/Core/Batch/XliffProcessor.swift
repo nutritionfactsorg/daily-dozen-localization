@@ -33,7 +33,8 @@ struct XliffProcessor {
         // Generate and save expected keys
         keysAppleXliffAll = Set<String>()
         queryAllAppleXliffKeys(node: appleRootXMLElement)
-        let keysExpectedString = String.joinRandomStated(list: keysAppleXliffAll.sorted())
+        let randomStatedStrings = String.randomStatedJoinedStrings(list: keysAppleXliffAll.sorted())
+        let keysExpectedString = randomStatedStrings.stated + "----- RANDOM XLIFF KEYS -----" + randomStatedStrings.random
         
         do {
             let url = appleXmlUrl

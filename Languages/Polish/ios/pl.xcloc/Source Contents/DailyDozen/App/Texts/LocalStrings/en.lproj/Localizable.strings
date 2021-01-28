@@ -89,13 +89,32 @@
 "tweakNightlySleep.heading"="Sufficient Sleep";
 "tweakNightlyTrendelenbrug.heading"="Trendelenburg";
 
-/* ***** Daily Reminder ***** */
+/* daily_reminder_text alert text */
+"reminder.alert.text"="Update your servings for today";
 
-/* daily_reminder_settings */
-"dailyReminder.settings"="Daily Reminder Settings";
-/* daily_reminder_title */
-"dailyReminder.title"="Daily Dozen Reminder";
-/* daily_reminder_subtitle */
-/* "dailyReminder.subtitle"=""; not used */
-/* daily_reminder_text */
-"dailyReminder.text"="Update your servings for today";
+/* Alert title, Settings heading */
+"reminder.heading"="Daily Reminder";
+
+/* Enable Reminders */
+"reminder.settings.enable"="Enable Reminders";
+
+/* remind_me_at */
+"reminder.settings.time"="Remind me at";
+
+/* play_sound */
+"reminder.settings.sound"="Play Sound";
+
+/* vibrate */
+"reminder.settings.vibrate"="Vibrate";
+
+/* 'On' as in 'On or Off' */
+"reminder.state.on"="On";
+
+/* 'Off' as in 'On or Off' */
+"reminder.state.off"="Off";
+
+/* Class = "UITableViewSection"; headerTitle = "Measurement Units"; ObjectID = "IFs-g0-SPV"; */
+"settings.units.header" = "Measurement Units";
+
+/* Class = "UITableViewSection"; headerTitle = "21 Tweaks Visibility"; ObjectID = "WdR-XV-IyP"; */
+"settings.tweak.header" = "21 Tweaks Visibility";
