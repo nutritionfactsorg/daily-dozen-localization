@@ -60,7 +60,7 @@ _App Localizations & Store Distribution_
 | [Mongolian][locale-mn]    |   | [mn][droid-mn] |   | `mn` |
 | [Norwegian_nb][locale-nb] |   | [nb][droid-nb] |   | `nb` | [Norway (NO)][apple-nb-no]
 | [Persian][locale-fa]      |   | [fa][droid-fa] |   | `fa` | 
-| [Polish][locale-pl]       |   | [pl][droid-pl] |   | `pl` | [Poland (PL)][apple-pl]
+| [Polish][locale-pl]       | `S` | [pl][droid-pl] | `S` | `pl` | [Poland (PL)][apple-pl]
 | [Portuguese][locale-pt]   | ✓ | [pt][droid-pt] |   | `pt` |
 | [Portuguese_Brazil][locale-pt-BR]   |   | [pt-BR][droid-pt-BR] |   | `pt-BR` | [Brazil (BR)][apple-pt-BR]
 | [Portuguese_Portugal][locale-pt-PT] |   | [pt-PT][droid-pt-PT] |   | `pt-PT` | [Portugal (PT)][apple-pt]
@@ -76,6 +76,10 @@ _App Localizations & Store Distribution_
 | [Turkish][locale-tr]      |   | [tr][droid-tr] |   | `tr` | [Turkey (TR)][apple-tr]
 | [Vietnamese][locale-vi]   |   | [vi][droid-vi] |   | `vi` | [Viet Nam (VN)][apple-vi-vn]
 
+_legend:_
+
+* `✓` - published
+* `S` - submission received and being processed
 
 <!-- Afrikaans: Namibia (af-NA), South Africa (af-ZA) -->
 [locale-af]:Languages/Afrikaans
