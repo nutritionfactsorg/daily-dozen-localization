@@ -356,8 +356,8 @@ daily_ginger[heading]	tweakDailyGinger[heading]	Ground Ginger (1 tsp) or Cayenne
 daily_ginger[short]	tweakDailyGinger[short]	Ground Ginger (1 tsp) or Cayenne Pepper (½ tsp)	Mielony imbir (1 łyżeczka) lub pieprz Cayenne (½ łyżeczki)	
 daily_ginger[text]	tweakDailyGinger[text]	Randomized controlled trials have found that ¼ teaspoon to 1½ teaspoons a day of ground ginger significantly decreased body weight for just pennies a day. It can be as easy as stirring the ground spice into a cup of hot water. Note: Ginger may work better in the morning than evening. Chai tea is a tasty way to combine the green tea and ginger tricks into a single beverage. Alternately, for BAT activation, you can add one raw jalapeño pepper or a half teaspoon of red pepper powder (or, presumably, crushed red pepper flakes) into your daily diet. To help beat the heat, you can very thinly slice or finely chop the jalapeño to reduce its bite to little prickles, or mix the red pepper into soup or the whole-food vegetable smoothie I featured in one of my cooking videos on NutritionFacts.org.	Randomizowane badania z grupą kontrolną wykazały, że ¼ łyżeczki do 1,5 łyżeczki mielonego imbiru na dzień znacznie zmniejszyła masę ciała, za zaledwie grosze. Może to być tak proste, jak wymieszanie zmielonej przyprawy w filiżance gorącej wody. Uwaga: imbir może działać lepiej rano niż wieczorem. Herbata Chai to smaczny sposób na połączenie korzyści zielonej herbaty i imbiru w jednym napoju. Alternatywnie, aby aktywować gruczoły snu zimowego, możesz włączyć jedną surową papryczkę jalapeño lub pół łyżeczki sproszkowanej czerwonej papryki (lub, zakładam, pokruszonych płatków czerwonej papryki) do swojej codziennej diety. Aby zmniejszyć ostrość, możesz bardzo cienko pokroić lub drobno posiekać jalapeño, powinno mniej szczypać, lub wymieszać czerwoną paprykę z zupą lub ze smoothie z nieprzetworzonych warzyw, które przedstawiłem w jednym z moich filmów o gotowaniu na NutritionFacts.org.	
 				
-complete_intentions[heading]	tweakCompleteIntentions[heading]	Complete Your Implementation Intentions	 Spełnij swoje intencje implementacyjne	
-complete_intentions[short]	tweakCompleteIntentions[short]	Complete Your Implementation Intentions	 Spełnij swoje intencje implementacyjne	
+complete_intentions[heading]	tweakCompleteIntentions[heading]	Complete Your Implementation Intentions	Spełnij swoje intencje implementacyjne	
+complete_intentions[short]	tweakCompleteIntentions[short]	Complete Your Implementation Intentions	Spełnij swoje intencje implementacyjne	
 complete_intentions[text]	tweakCompleteIntentions[text]	Every two months, create three new implementation intentions—"if X, then Y" plans to perform a particular behavior in a specific context—and check each one of them off as you complete them every day.	Co dwa miesiące twórz trzy nowe intencje implementacyjne - plany „jeśli X, to Y”, aby spełnić pewne zachowanie w określonym kontekście - i odznaczaj każdą z nich, jak je wypełnisz.	
 				
 daily_deflourdiet[heading]	tweakDailyDeflourDiet[heading]	Deflour Your Diet	Odmącz swoją dietę	
@@ -380,7 +380,7 @@ daily_blackcumin[heading]	tweakDailyBlackCumin[heading]	Black Cumin (¼ tsp)	Cza
 daily_blackcumin[short]	tweakDailyBlackCumin[short]	Black Cumin (Nigella sativa) (¼ tsp)	Czarnuszka (Nigella sativa) (¼ łyżeczki)	
 daily_blackcumin[text]	tweakDailyBlackCumin[text]	As noted in the Appetite Suppression section, a systematic review and meta-analysis of randomized, controlled weight-loss trials found that about a quarter teaspoon of black cumin powder every day appears to reduce body mass index within a span of a couple of months. Note that black cumin is different from regular cumin, for which the dosing is different.	Jak zauważono w sekcji „Tłumienie apetytu”, systematyczny przegląd i metaanaliza randomizowanych, kontrolowanych badań na temat utraty wagi wykazały, że około ćwierć łyżeczki czarnuszki w proszku każdego dnia wydaje się obniżać wskaźnik masy ciała w ciągu kilku miesięcy.	Polish name for black cumin is totally different from cumin, so there is no need in my opinion to mention the last sentence.
 				
-app_name	DJR-bj-qUq.text	Daily Dozen	Daily Dozen	"""Daily Dozen"" application name"
+app_name	DJR-bj-qUq.text	Daily Dozen	Daily Dozen	Application name shown near app icon.
 welcome_to_my_daily_dozen	19L-gq-W5M.text	Welcome to my Daily Dozen!	Witaj w moim Daily Dozen!	
 activity_welcome_text	dwQ-CS-gz3.text	Use this app on a daily basis to keep track of the foods and advice I recommend for optimal health and longevity in my books How Not to Die and How Not to Diet.	Korzystaj z tej aplikacji codziennie, aby śledzić żywność i porady, które polecam dla optymalnego zdrowia i długowieczności w moich książkach „Jak nie umrzeć przedwcześni” i „How Not to Diet”.	I left the English title for the second book - as there is no Polish edition yet (2020).
 	gX5-vX-xBe.text	version 3.2.1	wersja 3.2.1	Application release version
@@ -420,7 +420,7 @@ servings	1HM-mL-ZV9.text	Servings	Porcje
 out_of		out of	z	Part of "0 out of 24"
 format_num_days		%d days	%d dni	Formatted string %d days
 	cW5-dD-Zy0.text	100 days	100 dni	
-twenty_one_tweaks	5po-De-kCi.text	21 Tweaks	21 adaptacji	
+twenty_one_tweaks	5po-De-kCi.text	21 Tweaks	21 Adaptacji	
 	NPC-if-gUf.text	0 / 37	0 / 37	
 format_num_days	Vbn-R9-kuu.text	100 days	100 dni	
 back_to_today	7XY-Lo-Hwf.normalTitle	Back to today	Powrót do dzisiaj	
@@ -439,16 +439,16 @@ daily_dozen_only	OZO-Xa-v5G.segmentTitles[0]	Daily Dozen Only	Tylko Daily Dozen
 daily_dozen_and_tweaks	OZO-Xa-v5G.segmentTitles[1]	Daily Dozen + 21 Tweak	Daily Dozen + 21 Adaptacji	
 	WdR-XV-IyP.footerTitle	For health alone, use "Daily Dozen Only". For health and weight loss use "Daily Dozen + 21 Tweaks".	Dla samego zdrowia użyj „Tylko Daily Dozen”. Dla zdrowia i utraty wagi użyj „Daily Dozen + 21 Adaptacji”.	
 daily_reminder_title		Daily Dozen Reminder	Przypomnienie Daily Dozen	
-daily_reminder_text	reminder.alert.text	Update your servings for today	Update your servings for today	Alert notification text
-	GiY-ao-2ee.headerTitle	Daily Reminder	Cozienne przypomnienie	
+daily_reminder_text	reminder.alert.text	Update your servings for today	Zaktualizuj swoje dzisiejsze porcje	Alert notification text
+	GiY-ao-2ee.headerTitle	Daily Reminder	Codzienne przypomnienie	
 daily_reminder_settings		Daily Reminder Settings	Ustawienia codziennych przypomnień	
 	itH-G7-Kal.text	Enable Reminders	Włącz przypomnienia	
-	reminder.state.off	Off	Off	'Off' as in 'On or Off', reminder is not enabled
-	XFw-2q-BdT.text	On	Włączone	'On' as in 'On or Off'
+	reminder.state.off	Off	Wyłączone	(Off) as in (On or Off), reminder is not enabled
+	XFw-2q-BdT.text	On	Włączone	(On) as in (On or Off), reminder is enabled
 enable_daily_reminder		Enable Daily Reminders	Włącz codzienne przypomnienia	On/Off toggle label
 	pjz-An-Ls5.text	Enable Reminders	Włącz przypomnienia	On/Off toggle label
 remind_me_at	kR3-Sa-Fpt.text	Remind me at:	Przypomnij o:	
-vibrate	reminder.settings.vibrate	Vibrate	Vibrate	Android notification `vibrate`
+vibrate	reminder.settings.vibrate	Vibrate	Wibracje	Android notification `vibrate`
 play_sound	YP6-dP-Y62.text	Play Sound	Włącz dźwięk	
 	NRG-eE-YhG.normalTitle	Clear	Wyczyść	
 	7l0-os-Oqt.normalTitle	Clear	Wyczyść	
@@ -476,4 +476,4 @@ servings_time_scale_choices[2]	fcu-ZA-byN.segmentTitles[2]	Year	Rok	Calendar vie
 	8ed-5m-QMc.text	Weight (lbs.)	Waga (kg)	There is no point in showing weight in lbs. in Polish translation - in Poland it is used the metric system.
 	XYD-fX-adn.normalTitle	Edit Data	Edytuj dane	
 	NSHealthShareUsageDescription	The 21 Tweaks feature accesses your HealthKit data to provide updates to your daily weight measurements.	Funkcja 21 Adaptacji uzyskuje dostęp do danych HealthKit, aby zapewnić aktualizacje Twoich codziennych pomiarów wagi.	
-	NSHealthUpdateUsageDescription	The 21 Tweaks feature can write weight data to HealthKit to help you keep track of your progress.	Funkcja 21 adaptacji może zapisywać dane z wagą w HealthKit, aby pomóc Ci śledzić Twoje postępy.	
+	NSHealthUpdateUsageDescription	The 21 Tweaks feature can write weight data to HealthKit to help you keep track of your progress.	Funkcja 21 Adaptacji może zapisywać dane z wagą w HealthKit, aby pomóc Ci śledzić Twoje postępy.	
