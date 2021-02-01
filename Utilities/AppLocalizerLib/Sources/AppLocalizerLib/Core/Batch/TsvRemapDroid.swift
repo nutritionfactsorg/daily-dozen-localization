@@ -35,14 +35,14 @@ struct TsvRemapDroid {
     }
     
     /// Returns an Android key which crossmaps to an Apple key
-    func isCrossmapUpdated(_ r: TsvImportRow) -> String? {
+    func isCrossmapUpdated(_ r: TsvRow) -> String? {
         if let key = crossmapDict[r.key_apple] {
             return key
         }
         return nil
     }
     
-    func isPatched(_ r: TsvImportRow) -> String? {
+    func isPatched(_ r: TsvRow) -> String? {
         // TSV v1 fix patch: imperial & metric were swapped
         if r.key_android == "imperial" && r.base_value == "metric" {
             return "metric"

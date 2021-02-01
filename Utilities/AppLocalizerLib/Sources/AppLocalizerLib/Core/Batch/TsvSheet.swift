@@ -1,13 +1,13 @@
 //
-//  TsvImportSheet.swift
+//  TsvSheet.swift
 //  AppLocalizerLib
 //
 
 import Foundation
 
-struct TsvImportSheet {
+struct TsvSheet {
     
-    var recordListAll: [TsvImportRow] = []
+    var recordListAll: [TsvRow] = []
     var logger = LogService()
     var urlLanguage: URL
         
@@ -34,7 +34,7 @@ struct TsvImportSheet {
     }
     
     /// Check for TSV keys not used
-    func checkTsvKeysNotused(platformKeysUsed: Set<String>, platform: TsvImportSheet.platform) -> Set<String> {
+    func checkTsvKeysNotused(platformKeysUsed: Set<String>, platform: TsvSheet.platform) -> Set<String> {
         var tsvKeySet = Set<String>()
         for r in recordListAll {
             switch platform {
@@ -53,7 +53,7 @@ struct TsvImportSheet {
     
     /// Check of multiple instances of the same key.
     /// If duplicate keys are present, then values are checks to be the same. 
-    func checkTsvKeysDuplicated(platform: TsvImportSheet.platform) -> Set<String> {
+    func checkTsvKeysDuplicated(platform: TsvSheet.platform) -> Set<String> {
         var tsvAllKeys = Set<String>()
         var tsvDuplicateKeys = Set<String>()
         for r in recordListAll {
@@ -69,8 +69,8 @@ struct TsvImportSheet {
     }
 
     /// Checks for cases where the base language and target language have the same value
-    func checkTsvKeysTargetValueSameAsBase() -> [TsvImportRow] {
-        var unchanged = [TsvImportRow]()
+    func checkTsvKeysTargetValueSameAsBase() -> [TsvRow] {
+        var unchanged = [TsvRow]()
         for r in recordListAll {
             if (r.key_android.isEmpty == false || r.key_apple.isEmpty == false) &&
                 r.base_value.isEmpty == false && 
@@ -82,8 +82,8 @@ struct TsvImportSheet {
     }
     
     /// Checks for cases where the base language is present and a translation is not present.
-    func checkTsvKeysTargetValueMissing() -> [TsvImportRow] {
-        var missing = [TsvImportRow]()
+    func checkTsvKeysTargetValueMissing() -> [TsvRow] {
+        var missing = [TsvRow]()
         for r in recordListAll {
             if r.key_android.isEmpty == false || r.key_apple.isEmpty == false {
                 if r.lang_value.isEmpty {
@@ -153,7 +153,7 @@ struct TsvImportSheet {
         return s
     }
 
-    func toTsv(recordList: [TsvImportRow]) -> String {
+    func toTsv(recordList: [TsvRow]) -> String {
         var s = "key_droid\tkey_apple\tbase_value\tlang_value\tbase_comment\r\n"
         for tsvImportRow in recordList {
             s.append(tsvImportRow.toTsv())
@@ -163,8 +163,8 @@ struct TsvImportSheet {
     
     // MARK:- Parse
     
-    mutating func parseTsvFile(url: URL) -> [TsvImportRow] {
-        var recordList = [TsvImportRow]()
+    mutating func parseTsvFile(url: URL) -> [TsvRow] {
+        var recordList = [TsvRow]()
         let newline: Set<Character> = ["\n", "\r", "\r\n"]
         do {
             let content = try String(contentsOf: url, encoding: .utf8)
@@ -172,7 +172,7 @@ struct TsvImportSheet {
             // Value of type 'String.Element' (aka 'Character') has no member 'isNewLine'
             
             if content.count < 100 {
-                print(":ERROR: TsvImportSheet did not init with \(url.absoluteString)")
+                print(":ERROR: TsvSheet did not init with \(url.absoluteString)")
                 return recordList
             }
             
@@ -207,7 +207,7 @@ struct TsvImportSheet {
                             // Requires either an Android key or an Apple key
                             if !record[0].isEmpty || !record[1].isEmpty {
                                 // Add non-empty record to list.
-                                let r = TsvImportRow(
+                                let r = TsvRow(
                                     key_android: record[0], 
                                     key_apple: record[1], 
                                     base_value: record[2], 
@@ -243,7 +243,7 @@ struct TsvImportSheet {
                                 field.append("\"")
                                 escapeQuote = false                                
                             } else {
-                                fatalError(":ERROR:@line\(lineIdx)[\(lineCharIdx)]: TsvImportSheet escaped quote must precede ::\(toStringDot(field:field))::")
+                                fatalError(":ERROR:@line\(lineIdx)[\(lineCharIdx)]: TsvSheet escaped quote must precede ::\(toStringDot(field:field))::")
                             }
                         } else {
                             if let cNext = cNext, newline.contains(cNext) || cNext == "\t" {
@@ -260,7 +260,7 @@ struct TsvImportSheet {
                                 insideQuote = true
                                 escapeQuote = false
                         } else {
-                            // print(":CHECK:@\(position): TsvImportSheet double quote in \(field)")
+                            // print(":CHECK:@\(position): TsvSheet double quote in \(field)")
                             if let cThis = cThis {
                                 field.append(cThis)
                             }
@@ -283,7 +283,7 @@ struct TsvImportSheet {
             }
             // Requires either an Android key or an Apple key
             if !record[0].isEmpty || !record[1].isEmpty {
-                let r = TsvImportRow(
+                let r = TsvRow(
                     key_android: record[0], 
                     key_apple: record[1], 
                     base_value: record[2], 
@@ -294,13 +294,13 @@ struct TsvImportSheet {
             }
             
         } catch {
-            print(  "TsvImportSheet error:\n\(error)")
+            print(  "TsvSheet error:\n\(error)")
         }
         return recordList
     }
     
     
-    mutating func saveTsvFile(url: URL, recordList: [TsvImportRow]) {
+    mutating func saveTsvFile(url: URL, recordList: [TsvRow]) {
         let outputString = toTsv(recordList: sortRecordList(recordList))
         let outputUrl = url
             .deletingPathExtension()
@@ -312,9 +312,9 @@ struct TsvImportSheet {
         }
     }
     
-    mutating func sortRecordList(_ recordList: [TsvImportRow]) -> [TsvImportRow] {
+    mutating func sortRecordList(_ recordList: [TsvRow]) -> [TsvRow] {
         var list = recordList
-        list.sort { (a: TsvImportRow, b: TsvImportRow) -> Bool in
+        list.sort { (a: TsvRow, b: TsvRow) -> Bool in
             // Return true to order first element before the second.
             if !a.key_apple.isEmpty && !b.key_apple.isEmpty {
                 if !a.key_apple.isRandomKey && !b.key_apple.isRandomKey {
@@ -352,8 +352,8 @@ struct TsvImportSheet {
     
     // MARK: - Normalize Keys
 
-    mutating func normalizeAndroidKeys(recordList: [TsvImportRow]) -> [TsvImportRow] {
-        var newRecordList = [TsvImportRow]()
+    mutating func normalizeAndroidKeys(recordList: [TsvRow]) -> [TsvRow] {
+        var newRecordList = [TsvRow]()
         for i in 0 ..< recordList.count {
             var r = recordList[i]
             
@@ -404,8 +404,8 @@ struct TsvImportSheet {
         return newRecordList
     }
 
-    mutating func normalizeAppleKeys(recordList: [TsvImportRow]) -> [TsvImportRow] {
-        var newRecordList = [TsvImportRow]()
+    mutating func normalizeAppleKeys(recordList: [TsvRow]) -> [TsvRow] {
+        var newRecordList = [TsvRow]()
         for i in 0 ..< recordList.count {
             var r = recordList[i]
             if r.key_apple.isEmpty {

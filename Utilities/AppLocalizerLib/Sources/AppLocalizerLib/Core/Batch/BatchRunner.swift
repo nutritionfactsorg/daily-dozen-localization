@@ -15,7 +15,7 @@ struct BatchRunner {
     let mappingsUrl: URL
     // Data Processors 
     var _jsonProcessor: JsonProcessor!         // key_apple    
-    var _tsvImportSheet: TsvImportSheet!
+    var _tsvImportSheet: TsvSheet!
     var _xliffProcessor: XliffProcessor!
     var _xmlProcessor: XmlProcessor!
     
@@ -181,7 +181,7 @@ struct BatchRunner {
         """)
         
         // 1. TSV Input File
-        _tsvImportSheet = TsvImportSheet(urlList: inputTSV, loglevel: .info)
+        _tsvImportSheet = TsvSheet(urlList: inputTSV, loglevel: .info)
         
         // 2. Process Apple JSON Files
         if let appleXmlUrl = outputApple {
@@ -207,13 +207,12 @@ struct BatchRunner {
         // 4. Process Android XML File
         if 
             let droidXmlUrl = outputAndroid,
-            let droidXmlDocument = try? XMLDocument(contentsOf: droidXmlUrl, options: [.nodePreserveAll, .nodePreserveWhitespace]),
-            let droidRootXMLElement: XMLElement = droidXmlDocument.rootElement() {
+            let droidXmlDocument = try? XMLDocument(contentsOf: droidXmlUrl, options: [.nodePreserveAll, .nodePreserveWhitespace]) {
+            droidXmlDocument.version = nil // remove <?xml version="1.0"?> from output
             _xmlProcessor = XmlProcessor(lookupTable: _tsvImportSheet.getLookupDictAndroid())
             _xmlProcessor.process(
                 droidXmlUrl: droidXmlUrl, 
-                droidXmlDocument: droidXmlDocument, 
-                droidRootXMLElement: droidRootXMLElement
+                droidXmlDocument: droidXmlDocument
             )
             // file writing included in `process(…)`
         }

@@ -1,0 +1,57 @@
+### EXPORT TRANSLATION ## 
+# Steps:
+#   1. Read mapping files. Set up reverse mappings.
+#   2. Set input & output file URLs.
+#   3. BASE populates base_lang & target_lang with base_lang.  
+#           Apple, if present, overwrites Android. 
+#   4. TARGET overwrites target_lang.                          
+#           Apple, if present, overwrites Android.
+# Report:
+#   * Where Android value != Apple value for mapped keys. [NYI]
+#   * After all inputs, list where base_lang == target_lang [NYI] 
+#   * If base_lang != target_lang && (incoming_target != existing_target), then report
+
+########################################################
+### CREATE TSV: languages without prior translations ###
+########################################################
+INPUT_BASE_ANDROID="English_US/android/values-en/strings.xml"
+INPUT_BASE_APPLE="English_US/ios/Localized Contents/en.xliff" 
+INPUT_TARGET_ANDROID=""
+INPUT_TARGET_APPLE=""
+
+INPUT_TARGET_ANDROID="Spanish/android/values-es/strings.xml"
+OUTPUT_TSV="Spanish/tsv/Spanish_es.tsv"
+DO_EXPORT_TSV
+
+OUTPUT_TSV="Polish/tsv/Polish_pl.tsv"
+DO_EXPORT_TSV              
+
+#######################################################
+### CREATE TSV: languages with Android translations ###
+#######################################################
+INPUT_BASE_ANDROID="English_US/android/values-en/strings.xml"
+INPUT_BASE_APPLE="English_US/ios/Localized Contents/en.xliff" 
+INPUT_TARGET_APPLE=""
+
+INPUT_TARGET_ANDROID="Bulgarian/android/values-bg/strings.xml"
+OUTPUT_TSV="Bulgarian/tsv/Bulgarian_bg.tsv"
+DO_EXPORT_TSV              
+
+# seed traditional Chinese translation with existing Android zh 
+INPUT_TARGET_ANDROID="Chinese_Traditional/android/values-zh/strings.xml"
+OUTPUT_TSV="Chinese_Traditional/tsv/Chinese_Traditional_zh-Hant.tsv"
+DO_EXPORT_TSV              
+
+###############################
+### EXPORT FULL TRANSLATION ###
+###############################
+INPUT_BASE_ANDROID="en"
+INPUT_BASE_APPLE="en"
+INPUT_TARGET_ANDROID="de"
+# first pass, only Android has `de` translation
+INPUT_TARGET_APPLE=""
+# second pass, Android and Apple have `de` translation
+#INPUT_TARGET_APPLE="de"   
+OUTPUT_TSV="de.tsv"
+DO_EXPORT_TSV
+

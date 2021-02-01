@@ -1,12 +1,12 @@
 //
-//  TsvImportRow.swift
+//  TsvRow.swift
 //  AppLocalizerLib
 //
 //
 
 import Foundation
 
-struct TsvImportRow {
+struct TsvRow {
     /// keys
     var key_android: String       
     var key_apple: String
