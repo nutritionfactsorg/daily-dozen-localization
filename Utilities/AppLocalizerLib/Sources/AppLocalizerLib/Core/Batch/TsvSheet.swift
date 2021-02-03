@@ -10,6 +10,8 @@ struct TsvSheet {
     var recordListAll: [TsvRow] = []
     var logger = LogService()
     var urlLanguage: URL
+    
+    // 
         
     enum platform {
         case android
@@ -28,7 +30,7 @@ struct TsvSheet {
             var recordList = parseTsvFile(url: url)
             recordList = normalizeAndroidKeys(recordList: recordList)
             recordList = normalizeAppleKeys(recordList: recordList)
-            saveTsvFile(url: url, recordList: recordList)
+            writeTsvFile(url: url, recordList: recordList)
             recordListAll.append(contentsOf: recordList)
         }
     }
@@ -299,19 +301,6 @@ struct TsvSheet {
         return recordList
     }
     
-    
-    mutating func saveTsvFile(url: URL, recordList: [TsvRow]) {
-        let outputString = toTsv(recordList: sortRecordList(recordList))
-        let outputUrl = url
-            .deletingPathExtension()
-            .appendingPathExtension("\(Date.datestampyyyyMMddHHmm).tsv")
-        do {
-            try outputString.write(to: outputUrl, atomically: true, encoding: .utf8)
-        } catch {
-            logger.error(" \(error)")
-        }
-    }
-    
     mutating func sortRecordList(_ recordList: [TsvRow]) -> [TsvRow] {
         var list = recordList
         list.sort { (a: TsvRow, b: TsvRow) -> Bool in
@@ -350,6 +339,18 @@ struct TsvSheet {
         return list
     }
     
+    mutating func writeTsvFile(url: URL, recordList: [TsvRow]) {
+        let outputString = toTsv(recordList: sortRecordList(recordList))
+        let outputUrl = url
+            .deletingPathExtension()
+            .appendingPathExtension("\(Date.datestampyyyyMMddHHmm).tsv")
+        do {
+            try outputString.write(to: outputUrl, atomically: true, encoding: .utf8)
+        } catch {
+            logger.error(" \(error)")
+        }
+    }
+
     // MARK: - Normalize Keys
 
     mutating func normalizeAndroidKeys(recordList: [TsvRow]) -> [TsvRow] {

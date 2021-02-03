@@ -62,16 +62,16 @@ struct BatchRunner {
             } 
             
             // Export
-            else if cmd.key.hasPrefix("INPUT_BASE_ANDROID") {
+            else if cmd.key.hasPrefix("SOURCE_enUS_DROID") {
                 inputBaseAndroid = cmd.url
             }
-            else if cmd.key.hasPrefix("INPUT_BASE_APPLE") {
+            else if cmd.key.hasPrefix("SOURCE_enUS_APPLE") {
                 inputBaseApple = cmd.url
             } 
-            else if cmd.key.hasPrefix("INPUT_TARGET_ANDROID") {
+            else if cmd.key.hasPrefix("SOURCE_LANG_DROID") {
                 inputTargetAndroid = cmd.url
             } 
-            else if cmd.key.hasPrefix("INPUT_TARGET_APPLE") {
+            else if cmd.key.hasPrefix("SOURCE_LANG_APPLE") {
                 inputTargetApple = cmd.url
             } 
             else if cmd.key.hasPrefix("OUTPUT_TSV") {
@@ -85,7 +85,7 @@ struct BatchRunner {
                          outputTSV: outputTSV)
             } 
             // Import
-            else if cmd.key.hasPrefix("INPUT_TSV") {
+            else if cmd.key.hasPrefix("SOURCE_TSV") {
                 if let url = cmd.url {
                     if inputTSV == nil {
                         inputTSV = [URL]()
@@ -93,7 +93,7 @@ struct BatchRunner {
                     inputTSV?.append(url)
                 }
             } 
-            else if cmd.key.hasPrefix("OUTPUT_ANDROID") {
+            else if cmd.key.hasPrefix("OUTPUT_DROID") {
                 outputAndroid = cmd.url
             } 
             else if cmd.key.hasPrefix("OUTPUT_APPLE") {
@@ -105,7 +105,7 @@ struct BatchRunner {
                              outputAndroid: outputAndroid, 
                              outputApple: outputApple)
                 } else {
-                    print(":ERROR: BatchRunner run() missing INPUT_TSV")
+                    print(":ERROR: BatchRunner run() missing SOURCE_TSV")
                 }
             }
             // Quit

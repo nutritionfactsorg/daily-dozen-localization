@@ -6,12 +6,12 @@
 #   2. Setup input & output files.
 #   3. Process each TSV input line. Last write wins.
 # Report:
-#   * For translations, report non-translated lines where BASE==TARGET.
-#   * For `en`, report changed lines where BASE!=TARGET.
+#   * For translations, report non-translated lines where enUS==LANG.
+#   * For `en`, report changed lines where enUS!=LANG.
 #   * Malformed lines
 #   * Duplicate keys. Duplicate keys with differing associated values
-INPUT_TSV="German/tsv/German_de.tsv"
-OUTPUT_ANDROID="German/android/values-de/strings.xml"    
+SOURCE_TSV="German/tsv/German_de.tsv"
+OUTPUT_DROID="German/android/values-de/strings.xml"    
 OUTPUT_APPLE="German/ios/de.xcloc/Localized Contents/de.xliff"   
 DO_IMPORT_TSV
 

@@ -6,14 +6,14 @@
 #   2. Setup input & output files.
 #   3. Process each TSV input line. Last write wins.
 # Report:
-#   * For translations, report non-translated lines where BASE==TARGET.
-#   * For `en`, report changed lines where BASE!=TARGET.
+#   * For translations, report non-translated lines where enUS==LANG.
+#   * For `en`, report changed lines where enUS!=LANG.
 #   * Malformed lines
 #   * Duplicate keys. Duplicate keys with differing associated values
-INPUT_TSV="Polish/tsv/Polish_pl.tsv"
-INPUT_TSV="Polish/tsv/Polish_pl_appstore.tsv"
-OUTPUT_ANDROID="Polish/android/values-pl/strings.xml"    
-OUTPUT_APPLE="Polish/ios/pl.xcloc/Localized Contents/pl.xliff"   
+SOURCE_TSV="Polish/tsv/Polish_pl.tsv"
+SOURCE_TSV="Polish/tsv/Polish_pl_appstore.tsv"
+OUTPUT_DROID="Polish/android/values-pl/strings.xml"    
+#OUTPUT_APPLE="Polish/ios/pl.xcloc/Localized Contents/pl.xliff"   
 DO_IMPORT_TSV
 
 

@@ -1,57 +1,68 @@
 ### EXPORT TRANSLATION ## 
 # Steps:
-#   1. Read mapping files. Set up reverse mappings.
+#   1. Use base TSV as Android-Apple key mapping files. Set up reverse mappings.
 #   2. Set input & output file URLs.
-#   3. BASE populates base_lang & target_lang with base_lang.  
+#   3. enUS populates base_value & lang_value with base_value.  
 #           Apple, if present, overwrites Android. 
-#   4. TARGET overwrites target_lang.                          
+#   4. LANG overwrites lang_value.                          
 #           Apple, if present, overwrites Android.
 # Report:
 #   * Where Android value != Apple value for mapped keys. [NYI]
-#   * After all inputs, list where base_lang == target_lang [NYI] 
-#   * If base_lang != target_lang && (incoming_target != existing_target), then report
+#   * After all inputs, list where base_value == lang_value [NYI] 
+#   * If base_value != lang_value && (incoming_target != existing_target), then report
 
 ########################################################
 ### CREATE TSV: languages without prior translations ###
 ########################################################
-INPUT_BASE_ANDROID="English_US/android/values-en/strings.xml"
-INPUT_BASE_APPLE="English_US/ios/Localized Contents/en.xliff" 
-INPUT_TARGET_ANDROID=""
-INPUT_TARGET_APPLE=""
+SOURCE_enUS_TSV=
 
-INPUT_TARGET_ANDROID="Spanish/android/values-es/strings.xml"
-OUTPUT_TSV="Spanish/tsv/Spanish_es.tsv"
-DO_EXPORT_TSV
+
+
+SOURCE_enUS_DROID="English_US/android/values-en/strings.xml"
+SOURCE_enUS_APPLE="English_US/ios/Localized Contents/en.xliff" 
+SOURCE_LANG_DROID=""
+SOURCE_LANG_APPLE=""
+
 
 OUTPUT_TSV="Polish/tsv/Polish_pl.tsv"
 DO_EXPORT_TSV              
 
-#######################################################
-### CREATE TSV: languages with Android translations ###
-#######################################################
-INPUT_BASE_ANDROID="English_US/android/values-en/strings.xml"
-INPUT_BASE_APPLE="English_US/ios/Localized Contents/en.xliff" 
-INPUT_TARGET_APPLE=""
-
-INPUT_TARGET_ANDROID="Bulgarian/android/values-bg/strings.xml"
-OUTPUT_TSV="Bulgarian/tsv/Bulgarian_bg.tsv"
-DO_EXPORT_TSV              
-
-# seed traditional Chinese translation with existing Android zh 
-INPUT_TARGET_ANDROID="Chinese_Traditional/android/values-zh/strings.xml"
-OUTPUT_TSV="Chinese_Traditional/tsv/Chinese_Traditional_zh-Hant.tsv"
-DO_EXPORT_TSV              
 
 ###############################
 ### EXPORT FULL TRANSLATION ###
 ###############################
-INPUT_BASE_ANDROID="en"
-INPUT_BASE_APPLE="en"
-INPUT_TARGET_ANDROID="de"
+SOURCE_enUS_DROID="en"
+SOURCE_enUS_APPLE="en"
+SOURCE_LANG_DROID="de"
 # first pass, only Android has `de` translation
-INPUT_TARGET_APPLE=""
+SOURCE_LANG_APPLE=""
 # second pass, Android and Apple have `de` translation
-#INPUT_TARGET_APPLE="de"   
+#SOURCE_LANG_APPLE="de"   
 OUTPUT_TSV="de.tsv"
 DO_EXPORT_TSV
 
+############
+### QUIT ###
+############
+QUIT
+
+## Spanish
+SOURCE_LANG_DROID="Spanish/android/values-es/strings.xml"
+OUTPUT_TSV="Spanish/tsv/Spanish_es.tsv"
+DO_EXPORT_TSV
+
+#######################################################
+### CREATE TSV: languages with Android translations ###
+#######################################################
+SOURCE_enUS_DROID="English_US/android/values-en/strings.xml"
+SOURCE_enUS_APPLE="English_US/ios/Localized Contents/en.xliff" 
+SOURCE_LANG_APPLE=""
+
+SOURCE_LANG_DROID="Bulgarian/android/values-bg/strings.xml"
+OUTPUT_TSV="Bulgarian/tsv/Bulgarian_bg.tsv"
+DO_EXPORT_TSV              
+
+# seed traditional Chinese translation with existing Android zh 
+SOURCE_LANG_DROID="Chinese_Traditional/android/values-zh/strings.xml"
+OUTPUT_TSV="Chinese_Traditional/tsv/Chinese_Traditional_zh-Hant.tsv"
+DO_EXPORT_TSV              
