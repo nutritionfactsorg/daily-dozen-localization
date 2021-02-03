@@ -40,6 +40,7 @@ struct XmlProcessor {
         keysDroidXmlUnmatched = Set<String>()
     }
     
+    // modifies XML document given a TSV document to apply
     mutating func process(
         droidXmlUrl: URL, 
         droidXmlDocument: XMLDocument, 

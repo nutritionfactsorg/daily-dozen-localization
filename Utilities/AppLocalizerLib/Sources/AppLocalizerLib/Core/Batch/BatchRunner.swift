@@ -27,14 +27,15 @@ struct BatchRunner {
     
     mutating func run() {
         // Batch Export Parameters
-        var inputBaseAndroid: URL?
-        var inputBaseApple: URL?
-        var inputTargetAndroid: URL?
-        var inputTargetApple: URL?
-        var outputTSV: URL?
+        var outputLangTsv: URL?
+        var sourceEnUSTsv: URL?
+        var sourceEnUSDroid: URL?
+        var sourceLangDroid: URL?
+        var sourceEnUSApple: URL?
+        var sourceLangApple: URL?
         // Batch Import Parameters
         var inputTSV: [URL]?
-        var outputAndroid: URL?
+        var outputDroid: URL?
         var outputApple: URL?
         
         guard let commands = try? String(contentsOf: commandsUrl) else {
@@ -45,44 +46,56 @@ struct BatchRunner {
         
         for l in lines {
             guard let cmd = parseCommandLine(l) else { continue }
+            //print("cmd `\(cmd.key)` \(cmd.url?.absoluteString ?? "nil")")
             
             // Clear
-            if cmd.key.hasPrefix("CLEAR_ALL") { // Clears Language Target URLs
+            if cmd.key.hasPrefix("CLEAR_ALL") {
                 _jsonProcessor = nil
                 _xliffProcessor = nil
                 _xmlProcessor = nil
-                inputBaseAndroid = nil
-                inputBaseApple = nil
-                inputTargetAndroid = nil
-                inputTargetApple = nil
-                outputTSV = nil
+                outputLangTsv = nil
+                sourceEnUSTsv = nil
+                sourceEnUSDroid = nil
+                sourceLangDroid = nil
+                sourceEnUSApple = nil
+                sourceLangApple = nil
                 inputTSV = nil
-                outputAndroid = nil
+                outputDroid = nil
                 outputApple = nil
             } 
             
             // Export
-            else if cmd.key.hasPrefix("SOURCE_enUS_DROID") {
-                inputBaseAndroid = cmd.url
-            }
-            else if cmd.key.hasPrefix("SOURCE_enUS_APPLE") {
-                inputBaseApple = cmd.url
+            else if cmd.key.hasPrefix("OUTPUT_LANG_TSV") {
+                outputLangTsv = cmd.url
             } 
+            else if cmd.key.hasPrefix("SOURCE_ENUS_TSV") {
+                sourceEnUSTsv = cmd.url
+            } 
+            else if cmd.key.hasPrefix("SOURCE_ENUS_DROID") {
+                sourceEnUSDroid = cmd.url
+            }
             else if cmd.key.hasPrefix("SOURCE_LANG_DROID") {
-                inputTargetAndroid = cmd.url
+                sourceLangDroid = cmd.url
+            } 
+            else if cmd.key.hasPrefix("SOURCE_ENUS_APPLE") {
+                sourceEnUSApple = cmd.url
             } 
             else if cmd.key.hasPrefix("SOURCE_LANG_APPLE") {
-                inputTargetApple = cmd.url
-            } 
-            else if cmd.key.hasPrefix("OUTPUT_TSV") {
-                outputTSV = cmd.url
+                sourceLangApple = cmd.url
             } 
             else if cmd.key.hasPrefix("DO_EXPORT_TSV") {
-                doExport(inputBaseAndroid: inputBaseAndroid, 
-                         inputBaseApple: inputBaseApple, 
-                         inputTargetAndroid: inputTargetAndroid, 
-                         inputTargetApple: inputTargetApple, 
-                         outputTSV: outputTSV)
+                if let url = outputLangTsv {
+                    BatchExport.shared.doExport(
+                        outputLangTsv: url,
+                        sourceEnUSTsv: sourceEnUSTsv,
+                        sourceEnUSDroid: sourceEnUSDroid, 
+                        sourceLangDroid: sourceLangDroid, 
+                        sourceEnUSApple: sourceEnUSApple, 
+                        sourceLangApple: sourceLangApple
+                        )
+                } else {
+                    print(":ERROR: DO_EXPORT_TSV requires an TSV url.")
+                }
             } 
             // Import
             else if cmd.key.hasPrefix("SOURCE_TSV") {
@@ -94,7 +107,7 @@ struct BatchRunner {
                 }
             } 
             else if cmd.key.hasPrefix("OUTPUT_DROID") {
-                outputAndroid = cmd.url
+                outputDroid = cmd.url
             } 
             else if cmd.key.hasPrefix("OUTPUT_APPLE") {
                 outputApple = cmd.url
@@ -102,7 +115,7 @@ struct BatchRunner {
             else if cmd.key.hasPrefix("DO_IMPORT_TSV") {
                 if let inputTSV = inputTSV {
                     doImport(inputTSV: inputTSV, 
-                             outputAndroid: outputAndroid, 
+                             outputAndroid: outputDroid, 
                              outputApple: outputApple)
                 } else {
                     print(":ERROR: BatchRunner run() missing SOURCE_TSV")
@@ -149,25 +162,7 @@ struct BatchRunner {
             return nil
         }
     } 
-    
-    func doExport(
-        inputBaseAndroid: URL?, 
-        inputBaseApple: URL?, 
-        inputTargetAndroid: URL?, 
-        inputTargetApple: URL?, 
-        outputTSV: URL?
-    ) {
-        print("""
-        ### DO_EXPORT_TSV doExport() ###
-            inputBaseAndroid = \(inputBaseAndroid?.absoluteString ?? "nil")
-              inputBaseApple = \(inputBaseApple?.absoluteString ?? "nil")
-          inputTargetAndroid = \(inputTargetAndroid?.absoluteString ?? "nil")
-            inputTargetApple = \(inputTargetApple?.absoluteString ?? "nil")
-                   outputTSV = \(outputTSV?.absoluteString ?? "nil")
-        """)
         
-    }
-    
     mutating func doImport(
         inputTSV: [URL], 
         outputAndroid: URL?, 

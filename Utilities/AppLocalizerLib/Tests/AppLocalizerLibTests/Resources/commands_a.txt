@@ -19,94 +19,94 @@ SOURCE_enUS_APPLE="English_US/ios/Localized Contents/en.xliff"
 SOURCE_LANG_DROID=""
 SOURCE_LANG_APPLE=""
 
-OUTPUT_TSV="Afrikaans/tsv/Afrikaans_af.tsv"
+OUTPUT_LANG_TSV="Afrikaans/tsv/Afrikaans_af.tsv"
 DO_EXPORT_TSV              
 
-OUTPUT_TSV="Arabic/tsv/Arabic_ar.tsv"
+OUTPUT_LANG_TSV="Arabic/tsv/Arabic_ar.tsv"
 DO_EXPORT_TSV              
 
-OUTPUT_TSV="Chinese_HongKong/tsv/Chinese_HongKong_zh-HK.tsv"
+OUTPUT_LANG_TSV="Chinese_HongKong/tsv/Chinese_HongKong_zh-HK.tsv"
 DO_EXPORT_TSV              
 
-OUTPUT_TSV="Chinese_Simplified/tsv/Chinese_Simplified_zh-Hans.tsv"
+OUTPUT_LANG_TSV="Chinese_Simplified/tsv/Chinese_Simplified_zh-Hans.tsv"
 DO_EXPORT_TSV              
 
-OUTPUT_TSV="Czech/tsv/Czech_cs.tsv"
+OUTPUT_LANG_TSV="Czech/tsv/Czech_cs.tsv"
 DO_EXPORT_TSV              
 
-OUTPUT_TSV="Danish/tsv/Danish_da.tsv"
+OUTPUT_LANG_TSV="Danish/tsv/Danish_da.tsv"
 DO_EXPORT_TSV              
 
-OUTPUT_TSV="Dutch/tsv/Dutch_nl.tsv"
+OUTPUT_LANG_TSV="Dutch/tsv/Dutch_nl.tsv"
 DO_EXPORT_TSV              
 
-OUTPUT_TSV="Estonian/tsv/Estonian_et.tsv"
+OUTPUT_LANG_TSV="Estonian/tsv/Estonian_et.tsv"
 DO_EXPORT_TSV              
 
-OUTPUT_TSV="Finnish/tsv/Finnish_fi.tsv"
+OUTPUT_LANG_TSV="Finnish/tsv/Finnish_fi.tsv"
 DO_EXPORT_TSV              
 
-OUTPUT_TSV="French_Canada/tsv/French_Canada_fr-CA.tsv"
+OUTPUT_LANG_TSV="French_Canada/tsv/French_Canada_fr-CA.tsv"
 DO_EXPORT_TSV              
 
-OUTPUT_TSV="Georgian/tsv/Georgian_ka.tsv"
+OUTPUT_LANG_TSV="Georgian/tsv/Georgian_ka.tsv"
 DO_EXPORT_TSV              
 
-OUTPUT_TSV="Hebrew/tsv/Hebrew_he.tsv"
+OUTPUT_LANG_TSV="Hebrew/tsv/Hebrew_he.tsv"
 DO_EXPORT_TSV              
 
-OUTPUT_TSV="Hindi/tsv/Hindi_hi.tsv"
+OUTPUT_LANG_TSV="Hindi/tsv/Hindi_hi.tsv"
 DO_EXPORT_TSV              
 
-OUTPUT_TSV="Hungarian/tsv/Hungarian_hu.tsv"
+OUTPUT_LANG_TSV="Hungarian/tsv/Hungarian_hu.tsv"
 DO_EXPORT_TSV              
 
-OUTPUT_TSV="Japanese/tsv/Japanese_ja.tsv"
+OUTPUT_LANG_TSV="Japanese/tsv/Japanese_ja.tsv"
 DO_EXPORT_TSV              
 
-OUTPUT_TSV="Kannada/tsv/Kannada_kn.tsv"
+OUTPUT_LANG_TSV="Kannada/tsv/Kannada_kn.tsv"
 DO_EXPORT_TSV              
 
-OUTPUT_TSV="Korean/tsv/Korean_ko.tsv"
+OUTPUT_LANG_TSV="Korean/tsv/Korean_ko.tsv"
 DO_EXPORT_TSV              
 
-OUTPUT_TSV="Lithuanian/tsv/Lithuanian_lt.tsv"
+OUTPUT_LANG_TSV="Lithuanian/tsv/Lithuanian_lt.tsv"
 DO_EXPORT_TSV              
 
-OUTPUT_TSV="Mongolian/tsv/Mongolian_mn.tsv"
+OUTPUT_LANG_TSV="Mongolian/tsv/Mongolian_mn.tsv"
 DO_EXPORT_TSV              
 
-OUTPUT_TSV="Norwegian_nb/tsv/Norwegian_nb_nb.tsv"
+OUTPUT_LANG_TSV="Norwegian_nb/tsv/Norwegian_nb_nb.tsv"
 DO_EXPORT_TSV              
 
-OUTPUT_TSV="Persian/tsv/Persian_fa.tsv"
+OUTPUT_LANG_TSV="Persian/tsv/Persian_fa.tsv"
 DO_EXPORT_TSV              
 
-OUTPUT_TSV="Polish/tsv/Polish_pl.tsv"
+OUTPUT_LANG_TSV="Polish/tsv/Polish_pl.tsv"
 DO_EXPORT_TSV              
 
-OUTPUT_TSV="Serbian_Cyrillic/tsv/Serbian_Cyrillic_sr.tsv"
+OUTPUT_LANG_TSV="Serbian_Cyrillic/tsv/Serbian_Cyrillic_sr.tsv"
 DO_EXPORT_TSV              
 
-OUTPUT_TSV="Serbian_Latin/tsv/Serbian_Latin_sr-Latn.tsv"
+OUTPUT_LANG_TSV="Serbian_Latin/tsv/Serbian_Latin_sr-Latn.tsv"
 DO_EXPORT_TSV              
 
-OUTPUT_TSV="Slovak/tsv/Slovak_sk.tsv"
+OUTPUT_LANG_TSV="Slovak/tsv/Slovak_sk.tsv"
 DO_EXPORT_TSV              
 
-OUTPUT_TSV="Slovenian/tsv/Slovenian_sl.tsv"
+OUTPUT_LANG_TSV="Slovenian/tsv/Slovenian_sl.tsv"
 DO_EXPORT_TSV              
 
-OUTPUT_TSV="Swedish/tsv/Swedish_sv.tsv"
+OUTPUT_LANG_TSV="Swedish/tsv/Swedish_sv.tsv"
 DO_EXPORT_TSV              
 
-OUTPUT_TSV="Thai/tsv/Thai_th.tsv"
+OUTPUT_LANG_TSV="Thai/tsv/Thai_th.tsv"
 DO_EXPORT_TSV              
 
-OUTPUT_TSV="Turkish/tsv/Turkish_tr.tsv"
+OUTPUT_LANG_TSV="Turkish/tsv/Turkish_tr.tsv"
 DO_EXPORT_TSV              
 
-OUTPUT_TSV="Vietnamese/tsv/Vietnamese_vi.tsv"
+OUTPUT_LANG_TSV="Vietnamese/tsv/Vietnamese_vi.tsv"
 DO_EXPORT_TSV              
 
 #######################################################
@@ -117,54 +117,54 @@ SOURCE_enUS_APPLE="English_US/ios/Localized Contents/en.xliff"
 SOURCE_LANG_APPLE=""
 
 SOURCE_LANG_DROID="Bulgarian/android/values-bg/strings.xml"
-OUTPUT_TSV="Bulgarian/tsv/Bulgarian_bg.tsv"
+OUTPUT_LANG_TSV="Bulgarian/tsv/Bulgarian_bg.tsv"
 DO_EXPORT_TSV              
 
 # seed traditional Chinese translation with existing Android zh 
 SOURCE_LANG_DROID="Chinese_Traditional/android/values-zh/strings.xml"
-OUTPUT_TSV="Chinese_Traditional/tsv/Chinese_Traditional_zh-Hant.tsv"
+OUTPUT_LANG_TSV="Chinese_Traditional/tsv/Chinese_Traditional_zh-Hant.tsv"
 DO_EXPORT_TSV              
 
 SOURCE_LANG_DROID="German/android/values-de/strings.xml"
-OUTPUT_TSV="German/tsv/German_de.tsv"
+OUTPUT_LANG_TSV="German/tsv/German_de.tsv"
 DO_EXPORT_TSV              
 
 SOURCE_LANG_DROID="Greek/android/values-el/strings.xml"
-OUTPUT_TSV="Greek/tsv/Greek_el.tsv"
+OUTPUT_LANG_TSV="Greek/tsv/Greek_el.tsv"
 DO_EXPORT_TSV              
 
 SOURCE_LANG_DROID="Spanish/android/values-es/strings.xml"
-OUTPUT_TSV="Spanish/tsv/Spanish_es.tsv"
+OUTPUT_LANG_TSV="Spanish/tsv/Spanish_es.tsv"
 DO_EXPORT_TSV              
 
 SOURCE_LANG_DROID="French/android/values-fr/strings.xml"
-OUTPUT_TSV="French/tsv/French_fr.tsv"
+OUTPUT_LANG_TSV="French/tsv/French_fr.tsv"
 DO_EXPORT_TSV              
 
 SOURCE_LANG_DROID="Italian/android/values-it/strings.xml"
-OUTPUT_TSV="Italian/tsv/Italian_it.tsv"
+OUTPUT_LANG_TSV="Italian/tsv/Italian_it.tsv"
 DO_EXPORT_TSV              
 
 SOURCE_LANG_DROID="Portuguese/android/values-pt/strings.xml"
-OUTPUT_TSV="Portuguese/tsv/Portuguese_pt.tsv"
-DO_EXPORT_TSV              
-
-# continue to use existing Android Portuguese
-SOURCE_LANG_DROID="Portuguese/android/values-pt/strings.xml"
-OUTPUT_TSV="Portuguese_Brazil/tsv/Portuguese_Brazil_pt-BR.tsv"
+OUTPUT_LANG_TSV="Portuguese/tsv/Portuguese_pt.tsv"
 DO_EXPORT_TSV              
 
 # continue to use existing Android Portuguese
 SOURCE_LANG_DROID="Portuguese/android/values-pt/strings.xml"
-OUTPUT_TSV="Portuguese_Portugal/tsv/Portuguese_Portugal_pt-PT.tsv"
+OUTPUT_LANG_TSV="Portuguese_Brazil/tsv/Portuguese_Brazil_pt-BR.tsv"
+DO_EXPORT_TSV              
+
+# continue to use existing Android Portuguese
+SOURCE_LANG_DROID="Portuguese/android/values-pt/strings.xml"
+OUTPUT_LANG_TSV="Portuguese_Portugal/tsv/Portuguese_Portugal_pt-PT.tsv"
 DO_EXPORT_TSV              
 
 SOURCE_LANG_DROID="Romanian/android/values-ro/strings.xml"
-OUTPUT_TSV="Romanian/tsv/Romanian_ro.tsv"
+OUTPUT_LANG_TSV="Romanian/tsv/Romanian_ro.tsv"
 DO_EXPORT_TSV              
 
 SOURCE_LANG_DROID="Russian/android/values-ru/strings.xml"
-OUTPUT_TSV="Russian/tsv/Russian_ru.tsv"
+OUTPUT_LANG_TSV="Russian/tsv/Russian_ru.tsv"
 DO_EXPORT_TSV              
 
 ############
@@ -182,6 +182,6 @@ SOURCE_LANG_DROID="de"
 SOURCE_LANG_APPLE=""
 # second pass, Android and Apple have `de` translation
 #SOURCE_LANG_APPLE="de"   
-OUTPUT_TSV="de.tsv"
+OUTPUT_LANG_TSV="de.tsv"
 DO_EXPORT_TSV
 

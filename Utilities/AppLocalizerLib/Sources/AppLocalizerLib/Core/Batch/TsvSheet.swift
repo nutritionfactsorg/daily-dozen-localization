@@ -95,7 +95,15 @@ struct TsvSheet {
         }
         return missing
     }
-        
+
+    func getKeySetAndroid() -> Set<String> {
+        return Set<String>(getLookupDictAndroid().keys)
+    }
+
+    func getKeySetApple() -> Set<String> {
+        return Set<String>(getLookupDictApple().keys)
+    }
+    
     func getLookupDictAndroid() -> [String: String] {
         var d = [String: String]()
         for r in recordListAll {
