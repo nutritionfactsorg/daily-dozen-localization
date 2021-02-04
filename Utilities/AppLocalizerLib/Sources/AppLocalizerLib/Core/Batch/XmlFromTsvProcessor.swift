@@ -1,34 +1,20 @@
 //
-//  XmlProcessor.swift
+//  XmlFromTsvProcessor.swift
 //  AppLocalizerLib
 //
 //
 
 import Foundation
 
-struct XmlProcessor {
+/// XmlFromTsvProcessor updates an exsiting Android XML structure from provided TSV data 
+struct XmlFromTsvProcessor {
     
     /// [key_droid, lang_value] from _tsvImportSheet
     private var _lookupTableDroid: [String: String] 
     var keysDroidXmlAll = Set<String>() // key_droid
     var keysDroidXmlMatched = Set<String>()
     var keysDroidXmlUnmatched = Set<String>()
-    
-    let dozeSet: Set<String> = [
-        "food_info_serving_sizes_beans",
-        "food_info_serving_sizes_berries",
-        "food_info_serving_sizes_other_fruits",
-        "food_info_serving_sizes_cruciferous_vegetables",
-        "food_info_serving_sizes_greens",
-        "food_info_serving_sizes_other_vegetables",
-        "food_info_serving_sizes_flaxseeds",
-        "food_info_serving_sizes_nuts",
-        "food_info_serving_sizes_spices",
-        "food_info_serving_sizes_whole_grains",
-        "food_info_serving_sizes_beverages",
-        "food_info_serving_sizes_exercise"
-    ]
-    
+        
     init(lookupTable: [String: String]) {
         _lookupTableDroid = lookupTable
     }
@@ -41,7 +27,7 @@ struct XmlProcessor {
     }
     
     // modifies XML document given a TSV document to apply
-    mutating func process(
+    mutating func processXmlFromTsv(
         droidXmlUrl: URL, 
         droidXmlDocument: XMLDocument, 
         measurementInDescription: Bool = false
@@ -69,9 +55,9 @@ struct XmlProcessor {
         
         // Apply TSV to XML File          
         keysDroidXmlMatched = Set<String>()
-        processNodeDroidImport(node: droidRootXMLElement)
+        processXmlFromTsv(node: droidRootXMLElement)
         
-        // Write updatee XML file
+        // Write updated XML file
         let options: XMLNode.Options = [.nodePreserveAll, .nodePrettyPrint, .nodePreserveWhitespace]
         let droidXmlData = droidXmlDocument.xmlData(options: options)
         let outputUrl = droidXmlUrl
@@ -85,7 +71,7 @@ struct XmlProcessor {
         }
     }
     
-    mutating func processNodeDroidImport(node :XMLNode) {
+    mutating func processXmlFromTsv(node :XMLNode) {
         
         //if node.children != nil {
         //    print(node.toStringNode())
@@ -123,13 +109,13 @@ struct XmlProcessor {
                 }
             case "string-array":
                 for i in 0 ..< children.count {
-                    let id = "\(keyId).\(i)"
+                    keyId = "\(keyId).\(i)" // fully specified
                     if let child = element.child(at: i) {
-                        if let value = _lookupTableDroid[id] {
+                        if let value = _lookupTableDroid[keyId] {
                             child.stringValue = value
-                            keysDroidXmlMatched.insert(id)
+                            keysDroidXmlMatched.insert(keyId)
                         } else {
-                            keysDroidXmlUnmatched.insert(id)
+                            keysDroidXmlUnmatched.insert(keyId)
                         }
                     }
                 }
@@ -138,7 +124,7 @@ struct XmlProcessor {
             }            
         } else if let children = node.children {
             for node: XMLNode in children {
-                processNodeDroidImport(node: node)
+                processXmlFromTsv(node: node)
             }
         }
     }
@@ -170,7 +156,7 @@ struct XmlProcessor {
     }
     
     mutating func measureDescriptionSplit() {
-        for baseKey in dozeSet {
+        for baseKey in XmlRemap.dozeSet {
             var i = 0
             var imperialKey = "\(baseKey)_imperial.\(i)"
             var metricKey = "\(baseKey)_metric.\(i)"
@@ -261,7 +247,7 @@ struct XmlProcessor {
     
     /// 
     mutating func measureDescriptionMerge(xmlDoc: XMLDocument) {
-        for name in dozeSet {
+        for name in XmlRemap.dozeSet {
             measureDescriptionMerge(xmlDoc: xmlDoc, name: name)
         }
     }

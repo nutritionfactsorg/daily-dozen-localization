@@ -11,17 +11,18 @@
 #   * After all inputs, list where base_value == lang_value [NYI] 
 #   * If base_value != lang_value && (incoming_target != existing_target), then report
 
-########################################################
-### CREATE TSV: languages without prior translations ###
-########################################################
+###################
+### CREATE TSV  ###
+###################
 OUTPUT_LANG_TSV="Polish/tsv/Polish_pl.tsv"
 SOURCE_enUS_TSV="English_US/tsv/English_US_en.tsv"
 
-SOURCE_enUS_DROID="English_US/android/values-en/strings.xml"
-SOURCE_LANG_DROID="Polish/android/values-pl/strings.xml"
+SOURCE_enUS_DROID="English_US/android/values/strings.xml"
+SOURCE_LANG_DROID="Polish/android/values-pl/strings_20210129_senpl.xml"
+#SOURCE_LANG_DROID="Polish/android/values-pl/strings.xml"
 
-SOURCE_enUS_APPLE="English_US/ios/Localized Contents/en.xliff" 
-SOURCE_LANG_APPLE="Polish/ios/Localized Contents/pl.xliff"
+SOURCE_enUS_APPLE="English_US/ios/en.xcloc/Localized Contents/en.xliff" 
+SOURCE_LANG_APPLE="Polish/ios/pl.xcloc/Localized Contents/pl.xliff"
 
 DO_EXPORT_TSV              
 

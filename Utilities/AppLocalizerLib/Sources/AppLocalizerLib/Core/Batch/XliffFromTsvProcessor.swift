@@ -6,7 +6,7 @@
 
 import Foundation
 
-/// JsonImportProcessor updates an XLIFF XML tree from TSV data 
+/// XliffFromTsvProcessor updates an Apple XLIFF XMLDocument tree from provided TSV data 
 struct XliffFromTsvProcessor {
     
     private var _lookupTableApple = [String: String]() // key_apple, value
@@ -26,7 +26,7 @@ struct XliffFromTsvProcessor {
         keysAppleXliffUnmatched = Set<String>()
     }
     
-    mutating func processTsvToXliff(
+    mutating func processXliffFromTsv(
         appleXmlUrl: URL, 
         appleXmlDocument: XMLDocument, 
         appleRootXMLElement: XMLElement
@@ -45,7 +45,7 @@ struct XliffFromTsvProcessor {
         } catch { print(error) }
         // Process XLIFF XML File
         keysAppleXliffMatched = Set<String>()
-        processTsvToXliff(element: appleRootXMLElement)
+        processXliffFromTsv(element: appleRootXMLElement)
         
         // XMLDocument(contentsOf: URL, options: XMLNode.Options)
         //      someXmlDocument.xmlData(options: XMLNode.Options)
@@ -66,24 +66,24 @@ struct XliffFromTsvProcessor {
         }
     }
     
-    mutating func processTsvToXliff(element :XMLElement) {
+    mutating func processXliffFromTsv(element :XMLElement) {
         //print(node.toStringNode())
         if let name = element.name, 
            name == "trans-unit", 
            let children = element.children,
-           var id = element.attribute(forName: "id")?.stringValue
+           var keyId = element.attribute(forName: "id")?.stringValue
         {
-            id = normalizeAppleKey(id)
+            keyId = normalizeAppleKey(keyId)
             var targetNodeFound = false
             for childNode in children {
                 guard let childName = childNode.name else { continue }
                 // child nodes "source" and "note" are not used here.
                 if childName == "target" {
-                    if let targetValue = _lookupTableApple[id] {
+                    if let targetValue = _lookupTableApple[keyId] {
                         childNode.stringValue = targetValue
-                        keysAppleXliffMatched.insert(id)
+                        keysAppleXliffMatched.insert(keyId)
                     } else {
-                        keysAppleXliffUnmatched.insert(id)
+                        keysAppleXliffUnmatched.insert(keyId)
                     }
                     targetNodeFound = true
                 }
@@ -91,17 +91,17 @@ struct XliffFromTsvProcessor {
             if targetNodeFound == false {
                 let newTargetNode = XMLElement()
                 newTargetNode.name = "target"
-                if let targetValue = _lookupTableApple[id] {
+                if let targetValue = _lookupTableApple[keyId] {
                     newTargetNode.stringValue = targetValue
                     element.insertChild(newTargetNode, at: 1)
-                    keysAppleXliffMatched.insert(id)
+                    keysAppleXliffMatched.insert(keyId)
                 } else {
-                    keysAppleXliffUnmatched.insert(id)
+                    keysAppleXliffUnmatched.insert(keyId)
                 }
             }
         } else if let children = element.children {
             for element in children where element is XMLElement {
-                processTsvToXliff(element: element as! XMLElement)
+                processXliffFromTsv(element: element as! XMLElement)
             }
         }
     }
@@ -123,7 +123,7 @@ struct XliffFromTsvProcessor {
     // MARK: - Normalize Keys
 
     func normalizeAppleKey(_ key: String) -> String {
-        var key = key
+        let key = key
         
         return key
     }

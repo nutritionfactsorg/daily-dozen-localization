@@ -6,14 +6,14 @@
 
 import Foundation
 
-/// JsonImportProcessor generates a JSON structure from TSV data 
+/// JsonFromTsvProcessor updates an exsiting JSON structure from provided TSV data 
 struct JsonFromTsvProcessor {
     
     /// Read in from JSON file
-    var dozeInfo: DozeDetailInfo
+    var dozeInfo: DozeDetailInfo!
     let dozeJsonUrl: URL
     /// Read in from JSON file
-    var tweakInfo: TweakDetailInfo
+    var tweakInfo: TweakDetailInfo!
     let tweakJsonUrl: URL
     //
     var keysAppleJsonAll: Set<String>       // generated from JSON data
@@ -39,19 +39,7 @@ struct JsonFromTsvProcessor {
         dozeJsonUrl = baseJsonUrl.appendingPathComponent("DozeDetailData.json")
         tweakJsonUrl = baseJsonUrl.appendingPathComponent("TweakDetailData.json")
 
-        do {
-            let decoder = JSONDecoder()
-            let jsonDozeStr = try String(contentsOf: dozeJsonUrl, encoding: .utf8)
-            let jsonDozeData = jsonDozeStr.data(using: .utf8)!
-            dozeInfo = try decoder.decode(DozeDetailInfo.self, from: jsonDozeData)
-            
-            let jsonTweakStr = try String(contentsOf: tweakJsonUrl, encoding: .utf8)
-            let jsonTweakData = jsonTweakStr.data(using: .utf8)!
-            tweakInfo = try decoder.decode(TweakDetailInfo.self, from: jsonTweakData)
-        } catch {            
-            print("\(error)")
-            fatalError()
-        }
+        read(dozeJsonUrl: dozeJsonUrl, tweakJsonUrl: tweakJsonUrl)
         
         // All JSON Keys
         queryAllAppleJsonKeys()
@@ -66,10 +54,26 @@ struct JsonFromTsvProcessor {
         }
     }
     
+    mutating func read(dozeJsonUrl: URL, tweakJsonUrl: URL) {
+        do {
+            let decoder = JSONDecoder()
+            let jsonDozeStr = try String(contentsOf: dozeJsonUrl, encoding: .utf8)
+            let jsonDozeData = jsonDozeStr.data(using: .utf8)!
+            dozeInfo = try decoder.decode(DozeDetailInfo.self, from: jsonDozeData)
+            
+            let jsonTweakStr = try String(contentsOf: tweakJsonUrl, encoding: .utf8)
+            let jsonTweakData = jsonTweakStr.data(using: .utf8)!
+            tweakInfo = try decoder.decode(TweakDetailInfo.self, from: jsonTweakData)
+        } catch {            
+            print("\(error)")
+            fatalError()
+        }
+    }
+    
     // Query all keys from data which has been read in from the JSON files. 
     mutating func queryAllAppleJsonKeys() {
-        for item in dozeInfo.itemsDict {
-            let key = item.key
+        for entry in dozeInfo.itemsDict {
+            let key = entry.key
             guard let dozeDetailInfo = dozeInfo.itemsDict[key] else { continue }
             
             keysAppleJsonAll.insert("\(key).heading")
@@ -84,8 +88,8 @@ struct JsonFromTsvProcessor {
             }
         }
         
-        for item in tweakInfo.itemsDict {
-            let key = item.key
+        for entry in tweakInfo.itemsDict {
+            let key = entry.key
             guard let tweakDetailInfo = tweakInfo.itemsDict[key] else { continue }
             
             keysAppleJsonAll.insert("\(key).heading")

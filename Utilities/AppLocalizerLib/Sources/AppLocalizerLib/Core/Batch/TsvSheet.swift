@@ -11,8 +11,6 @@ struct TsvSheet {
     var logger = LogService()
     var urlLanguage: URL
     
-    // 
-        
     enum platform {
         case android
         case apple
@@ -118,6 +116,19 @@ struct TsvSheet {
             d[r.key_apple] = r.lang_value
         }
         return d
+    }
+    
+    func getDictionaries() -> (apple: [String : TsvRow], droid: [String : TsvRow], paired: [String : TsvRow]) {
+        var apple = [String : TsvRow]()
+        var droid = [String : TsvRow]()
+        var paired = [String : TsvRow]()
+        
+        for row in recordListAll {
+            apple[row.key_apple] = row
+            droid[row.key_android] = row
+            paired[row.key_apple+row.key_android] = row
+        } 
+        return (apple, droid, paired)
     }
     
     /// Allows invisible characters to be seen
@@ -309,7 +320,7 @@ struct TsvSheet {
         return recordList
     }
     
-    mutating func sortRecordList(_ recordList: [TsvRow]) -> [TsvRow] {
+    static func sortRecordList(_ recordList: [TsvRow]) -> [TsvRow] {
         var list = recordList
         list.sort { (a: TsvRow, b: TsvRow) -> Bool in
             // Return true to order first element before the second.
@@ -348,7 +359,7 @@ struct TsvSheet {
     }
     
     mutating func writeTsvFile(url: URL, recordList: [TsvRow]) {
-        let outputString = toTsv(recordList: sortRecordList(recordList))
+        let outputString = toTsv(recordList: TsvSheet.sortRecordList(recordList))
         let outputUrl = url
             .deletingPathExtension()
             .appendingPathExtension("\(Date.datestampyyyyMMddHHmm).tsv")

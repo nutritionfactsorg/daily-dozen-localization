@@ -14,10 +14,10 @@ struct BatchRunner {
     let languagesUrl: URL
     let mappingsUrl: URL
     // Data Processors 
-    var _jsonProcessor: JsonProcessor!         // key_apple    
+    var _jsonProcessor: JsonFromTsvProcessor!         // key_apple    
     var _tsvImportSheet: TsvSheet!
-    var _xliffProcessor: XliffProcessor!
-    var _xmlProcessor: XmlProcessor!
+    var _xliffProcessor: XliffFromTsvProcessor!
+    var _xmlProcessor: XmlFromTsvProcessor!
     
     init(commandsUrl: URL, languagesUrl: URL, mappingsUrl: URL) {
         self.commandsUrl = commandsUrl
@@ -84,9 +84,16 @@ struct BatchRunner {
                 sourceLangApple = cmd.url
             } 
             else if cmd.key.hasPrefix("DO_EXPORT_TSV") {
-                if let url = outputLangTsv {
+                if 
+                    let outputLangTsv = outputLangTsv,
+                    let sourceEnUSTsv = sourceEnUSTsv,
+                    let sourceEnUSDroid = sourceEnUSDroid,
+                    let sourceLangDroid = sourceLangDroid,
+                    let sourceEnUSApple = sourceEnUSApple,
+                    let sourceLangApple = sourceLangApple
+                   {
                     BatchExport.shared.doExport(
-                        outputLangTsv: url,
+                        outputLangTsv: outputLangTsv,
                         sourceEnUSTsv: sourceEnUSTsv,
                         sourceEnUSDroid: sourceEnUSDroid, 
                         sourceLangDroid: sourceLangDroid, 
@@ -94,7 +101,7 @@ struct BatchRunner {
                         sourceLangApple: sourceLangApple
                         )
                 } else {
-                    print(":ERROR: DO_EXPORT_TSV requires an TSV url.")
+                    print(":ERROR: DO_EXPORT_TSV some required url missing.")
                 }
             } 
             // Import
@@ -180,8 +187,8 @@ struct BatchRunner {
         
         // 2. Process Apple JSON Files
         if let appleXmlUrl = outputApple {
-            _jsonProcessor = JsonProcessor(xliffUrl: appleXmlUrl)
-            _jsonProcessor.process(lookupTable: _tsvImportSheet.getLookupDictApple())
+            _jsonProcessor = JsonFromTsvProcessor(xliffUrl: appleXmlUrl)
+            _jsonProcessor.processTsvToJson(lookupTable: _tsvImportSheet.getLookupDictApple())
             _jsonProcessor.writeJsonFiles()
         }
         
@@ -190,13 +197,13 @@ struct BatchRunner {
             let appleXmlUrl = outputApple,
             let appleXmlDocument = try? XMLDocument(contentsOf: appleXmlUrl, options: [.nodePreserveAll]),
             let appleRootXMLElement: XMLElement = appleXmlDocument.rootElement() {
-            _xliffProcessor = XliffProcessor(lookupTable: _tsvImportSheet.getLookupDictApple())
-            _xliffProcessor.process(
+            _xliffProcessor = XliffFromTsvProcessor(lookupTable: _tsvImportSheet.getLookupDictApple())
+            _xliffProcessor.processXliffFromTsv(
                 appleXmlUrl: appleXmlUrl, 
                 appleXmlDocument: appleXmlDocument, 
                 appleRootXMLElement: appleRootXMLElement
             )
-            // file writing included in `process(…)`
+            // file writing included in `processXliffFromTsv(…)`
         }
         
         // 4. Process Android XML File
@@ -204,12 +211,12 @@ struct BatchRunner {
             let droidXmlUrl = outputAndroid,
             let droidXmlDocument = try? XMLDocument(contentsOf: droidXmlUrl, options: [.nodePreserveAll, .nodePreserveWhitespace]) {
             droidXmlDocument.version = nil // remove <?xml version="1.0"?> from output
-            _xmlProcessor = XmlProcessor(lookupTable: _tsvImportSheet.getLookupDictAndroid())
-            _xmlProcessor.process(
+            _xmlProcessor = XmlFromTsvProcessor(lookupTable: _tsvImportSheet.getLookupDictAndroid())
+            _xmlProcessor.processXmlFromTsv(
                 droidXmlUrl: droidXmlUrl, 
                 droidXmlDocument: droidXmlDocument
             )
-            // file writing included in `process(…)`
+            // file writing included in `processXmlFromTsv(…)`
         }
                 
         // 5. Write Report
