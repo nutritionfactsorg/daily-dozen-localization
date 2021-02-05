@@ -35,7 +35,7 @@ struct XmlRemap {
     }
     
     func isDropped(_ key: String) -> Bool {
-        print(key)
+        // print("XmlRemap dropped: \(key)")
         for pattern in dropPatternSet {
             if key.range(of: pattern, options: .regularExpression) != nil {
                 return true

@@ -8,19 +8,25 @@ import Foundation
 struct BatchExport {
     static var shared = BatchExport()
     //
-    enum KeyType {
-        case apple
-        case droid
-        // case paired // "key_droid+key_apple"  
-    }
+    //enum KeyType {
+    //    case apple
+    //    case droid
+    //    // case paired // "key_droid+key_apple"  
+    //}
     
     enum MergeMode {
+        //case overwriteAll
+        case overwriteBaseValue
         case overwriteLangValue
         //case unionAll
         //case accumulateLangOnly
     }
     // 
     var resultsUrl: URL!
+    
+    mutating func clearAll() {
+        resultsUrl = nil
+    }
     
     mutating func doExport(
         outputLangTsv: URL,
@@ -51,17 +57,17 @@ struct BatchExport {
         
         //00_Export_Output_A_Polish_pl.tsv
         //    remapped/patched/sorted
-        var outputLangSheet = TsvSheet(urlList: [outputLangTsv])
-        let filename_01 = "01_Export_Output_\(outputLangTsv.lastPathComponent)"
-        let url_01 = resultsUrl.appendingPathComponent(filename_01, isDirectory: false)
-        outputLangSheet.writeTsvFile(url: url_01, recordList: outputLangSheet.recordListAll)
+        var outputLangSheet_00 = TsvSheet(urlList: [outputLangTsv])
+        let filename_00 = "00_Export_Output_\(outputLangTsv.lastPathComponent)"
+        let url_00 = resultsUrl.appendingPathComponent(filename_00, isDirectory: false)
+        outputLangSheet_00.writeTsvFile(url: url_00, recordList: outputLangSheet_00.recordListAll)
         
         //01_Export_TSV_enUS.tsv
         //    remapped/patched/sorted
-        var sourceEnUSSheet = TsvSheet(urlList: [sourceEnUSTsv])
-        let filename_02 = "02_Export_TSV_enUS_\(sourceEnUSTsv.lastPathComponent)"
-        let url_02 = resultsUrl.appendingPathComponent(filename_02, isDirectory: false)
-        sourceEnUSSheet.writeTsvFile(url: url_02, recordList: sourceEnUSSheet.recordListAll)
+        var sourceEnUSSheet_01 = TsvSheet(urlList: [sourceEnUSTsv])
+        let filename_01 = "01_Export_TSV_enUS_\(sourceEnUSTsv.lastPathComponent)"
+        let url_01 = resultsUrl.appendingPathComponent(filename_01, isDirectory: false)
+        sourceEnUSSheet_01.writeTsvFile(url: url_01, recordList: sourceEnUSSheet_01.recordListAll)
         
         //02_Diff_TSV_enUS.tsv
         
@@ -89,12 +95,41 @@ struct BatchExport {
         //22_Diff_Droid_pl.tsv
         
         //23_Merge_Droid_pl.tsv    (SOURCE ∆key, base_*, lang_* into OUTPUT)
+
+        // merge: processor_11_enUS_Droid, processor_21_Lang_Droid
+        //        --> merged_11_21_Droid
+        let merged_21_11_Droid = merge(
+            from: processor_21_Lang_Droid.tsvRowDict, 
+            into: processor_11_enUS_Droid.tsvRowDict, 
+            mode: .overwriteLangValue)
+        writeTsvFile(
+            url: resultsUrl.appendingPathComponent("21->11_Merge_Droid.tsv", isDirectory: false), 
+            tsvRowDict: merged_21_11_Droid)
+        
+        // diff: merged_11_21_Droid with outputLangSheet
+        
+        let diffResults = diff(from: merged_21_11_Droid, into: outputLangSheet_00.getDictionaries().droid)
+        writeTsvFile(
+            url: resultsUrl.appendingPathComponent("21->11_Add_Droid.tsv", isDirectory: false), 
+            tsvRowDict: diffResults.added)
+        writeTsvFile(
+            url: resultsUrl.appendingPathComponent("21->11_Drop_Droid.tsv", isDirectory: false), 
+            tsvRowDict:  diffResults.dropped)
+
         
         //31_Export_Apple_enUS.tsv
         let processor_31 = XliffIntoTsvProcessor(url: sourceEnUSApple)
         writeTsvFile(
-            url: resultsUrl.appendingPathComponent("31_Export_Apple_enUS.tsv", isDirectory: false),
+            url: resultsUrl.appendingPathComponent("31_Xliff_Apple_enUS.tsv"), 
             tsvRowDict: processor_31.tsvRowDict)
+        let processor_32 = JsonIntoTsvProcessor(xliffUrl: sourceEnUSApple, isBaseLanguage: true)
+        writeTsvFile(
+            url: resultsUrl.appendingPathComponent("32_Json_Apple_enUS.tsv"), 
+            tsvRowDict: processor_32.tsvRowDict)
+        let merge_32_31 = merge(from: processor_32.tsvRowDict, into: processor_31.tsvRowDict, mode: .overwriteBaseValue)
+        writeTsvFile(
+            url: resultsUrl.appendingPathComponent("32->31_XliffJson_Apple_enUS.tsv", isDirectory: false),
+            tsvRowDict: merge_32_31)
         
         //32_Diff_Apple_enUS.tsv
         
@@ -102,35 +137,31 @@ struct BatchExport {
         
         //41_Export_Apple_lang.tsv
         let processor_41 = XliffIntoTsvProcessor(url: sourceLangApple)
+        let processor_42 = JsonIntoTsvProcessor(xliffUrl: sourceLangApple, isBaseLanguage: false)
+        let merge_42_41 = merge(from: processor_42.tsvRowDict, into: processor_41.tsvRowDict, mode: .overwriteLangValue)
         writeTsvFile(
-            url: resultsUrl.appendingPathComponent("41_Export_Apple_lang.tsv", isDirectory: false),
-            tsvRowDict: processor_41.tsvRowDict)
+            url: resultsUrl.appendingPathComponent("42->41_XliffJson_Apple_lang.tsv", isDirectory: false),
+            tsvRowDict: merge_42_41)
         
+        // 
+        let diffResults_42_32 = diff(from: merge_42_41, into: merge_32_31)
+        writeTsvFile(
+            url: resultsUrl.appendingPathComponent("43(42->32)_Add_Apple.tsv", isDirectory: false), 
+            tsvRowDict: diffResults_42_32.added)
+        writeTsvFile(
+            url: resultsUrl.appendingPathComponent("43(42->32)_Drop_Apple.tsv", isDirectory: false), 
+            tsvRowDict:  diffResults_42_32.dropped)
+        let merge_42_32 = merge(from: merge_42_41, into: merge_32_31, mode: .overwriteLangValue)
+        writeTsvFile(
+            url: resultsUrl.appendingPathComponent("43(42->32)_Drop_Apple.tsv", isDirectory: false), 
+            tsvRowDict: merge_42_32)
+
         //42_Diff_Apple_pl.tsv
         
         //43_Merge_Apple_pl.tsv    (SOURCE ∆key, base_*, lang_* into OUTPUT)
         
         //-//-//-//-//-//-//-//-//-//-// 
         
-        // merge: processor_11_enUS_Droid, processor_21_Lang_Droid
-        //        --> merged_11_21_Droid
-        let merged_11_21_Droid = merge(
-            from: processor_21_Lang_Droid.tsvRowDict, 
-            into: processor_11_enUS_Droid.tsvRowDict, 
-            mode: .overwriteLangValue)
-        writeTsvFile(
-            url: resultsUrl.appendingPathComponent("90_Merge_Droid.tsv", isDirectory: false), 
-            tsvRowDict: merged_11_21_Droid)
-        
-        // diff: merged_11_21_Droid with outputLangSheet
-        
-        let diffResults = diff(from: merged_11_21_Droid, into: outputLangSheet.getDictionaries().droid)
-        writeTsvFile(
-            url: resultsUrl.appendingPathComponent("91_Added_Droid.tsv", isDirectory: false), 
-            tsvRowDict: diffResults.added)
-        writeTsvFile(
-            url: resultsUrl.appendingPathComponent("92_Dropped_Droid.tsv", isDirectory: false), 
-            tsvRowDict:  diffResults.dropped)
         
         print(":FINISHED: BatchExport doExport")
     }
@@ -175,14 +206,21 @@ struct BatchExport {
         for fromItem in from {
             if var intoRow = mergeDict[fromItem.key] {
                 switch mode {
+                case .overwriteBaseValue:
+                    intoRow.base_value = fromItem.value.base_value
+                    mergeDict[fromItem.key] = intoRow
                 case .overwriteLangValue:
                     intoRow.lang_value = fromItem.value.lang_value
                     mergeDict[fromItem.key] = intoRow
+                //case .overwriteAll:
                 }
             } else {
                 switch mode {
+                case .overwriteBaseValue:
+                    mergeDict[fromItem.key] = fromItem.value
                 case .overwriteLangValue:
                     mergeDict[fromItem.key] = fromItem.value
+                //case .overwriteAll:
                 }
             }
         }

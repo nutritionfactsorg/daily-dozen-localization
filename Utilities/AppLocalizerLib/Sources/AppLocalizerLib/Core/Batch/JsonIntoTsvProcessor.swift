@@ -17,7 +17,7 @@ struct JsonIntoTsvProcessor {
     var tweakInfo: TweakDetailInfo!
     let tweakJsonUrl: URL
     
-    init(xliffUrl: URL) {
+    init(xliffUrl: URL, isBaseLanguage isBase: Bool) {
         let languageCode = xliffUrl
             .deletingPathExtension()
             .lastPathComponent
@@ -32,20 +32,22 @@ struct JsonIntoTsvProcessor {
         dozeJsonUrl = baseJsonUrl.appendingPathComponent("DozeDetailData.json")
         tweakJsonUrl = baseJsonUrl.appendingPathComponent("TweakDetailData.json")
         read(dozeJsonUrl: dozeJsonUrl, tweakJsonUrl: tweakJsonUrl)
+        processJsonIntoTsv(isBaseLanguage: isBase)
     }
     
-    init(dozeJsonUrl: URL, tweakJsonUrl: URL) {
+    init(dozeJsonUrl: URL, tweakJsonUrl: URL, isBaseLanguage isBase: Bool) {
         self.dozeJsonUrl = dozeJsonUrl
         self.tweakJsonUrl = tweakJsonUrl
         read(dozeJsonUrl: dozeJsonUrl, tweakJsonUrl: tweakJsonUrl)
+        processJsonIntoTsv(isBaseLanguage: isBase)
     }
     
-    mutating func processJsonIntoTsv() {
-        processJsonIntoTsvDoze()
-        processJsonIntoTsvTweak()
+    mutating func processJsonIntoTsv(isBaseLanguage isBase: Bool) {
+        processJsonIntoTsvDoze(isBaseLanguage: isBase)
+        processJsonIntoTsvTweak(isBaseLanguage: isBase)
     }
 
-    mutating func processJsonIntoTsvDoze(isBaseLanguage isBase: Bool = false) {
+    mutating func processJsonIntoTsvDoze(isBaseLanguage isBase: Bool) {
         for entry in dozeInfo.itemsDict {
             let keyBase = entry.key
             let item = entry.value
@@ -72,7 +74,7 @@ struct JsonIntoTsvProcessor {
         }
     }
     
-    mutating func processJsonIntoTsvTweak(isBaseLanguage isBase: Bool = false) {
+    mutating func processJsonIntoTsvTweak(isBaseLanguage isBase: Bool) {
         for entry in tweakInfo.itemsDict {
             let keyBase = entry.key
             let item = entry.value

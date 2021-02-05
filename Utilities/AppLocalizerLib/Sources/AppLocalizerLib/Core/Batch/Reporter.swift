@@ -54,17 +54,17 @@ struct Reporter {
         inactiveDroidDict = [String: String]()
     }
     
-    func writeFullReport(batchRunner: BatchRunner,
+    func writeReport(batchImport: BatchImport,
               datestamp: String = Date.datestampyyyyMMddHHmm,
               verbose: Bool = false) {
         let verboseTag = verbose ? "_verbose" : ""
-        let url = batchRunner._tsvImportSheet.urlLanguage
+        let url = batchImport._tsvImportSheet.urlLanguage
             .appendingPathComponent("Report_\(datestamp)\(verboseTag).txt")
-        let s = fullReportString(batchRunner: batchRunner, datestamp: datestamp, verbose: verbose)
+        let s = reportString(batchImport: batchImport, datestamp: datestamp, verbose: verbose)
         try? s.write(to: url, atomically: true, encoding: .utf8)
     }
     
-    func fullReportString(batchRunner: BatchRunner,
+    func reportString(batchImport: BatchImport,
                       datestamp: String = Date.datestampyyyyMMddHHmm,
                       verbose: Bool = false) -> String {
         
@@ -78,7 +78,7 @@ struct Reporter {
         s.append("** TSV: Target Language Empty **\n")
         s.append("********************************\n")
         
-        let missing = batchRunner._tsvImportSheet.checkTsvKeysTargetValueMissing()
+        let missing = batchImport._tsvImportSheet.checkTsvKeysTargetValueMissing()
         for r in missing {
             s.append("\(r.key_android)\t\(r.key_apple)\t\(r.base_value)\t\(r.lang_value)\n")
         }
@@ -87,12 +87,12 @@ struct Reporter {
         s.append("*******************************************\n")
         s.append("** TSV: Target Language == Base Language **\n")
         s.append("*******************************************\n")
-        let unchanged = batchRunner._tsvImportSheet.checkTsvKeysTargetValueSameAsBase()        
+        let unchanged = batchImport._tsvImportSheet.checkTsvKeysTargetValueSameAsBase()        
         for r in unchanged {
             s.append("\(r.key_android)\t\(r.key_apple)\t\(r.base_value)\t\(r.lang_value)\n")
         }
         
-        if let processor = batchRunner._xmlProcessor {
+        if let processor = batchImport._xmlProcessor {
             s.append("\n")
             s.append("####################\n")
             s.append("## ANDROID CHECKS ##\n")
@@ -101,7 +101,7 @@ struct Reporter {
             s.append("********************************************\n")
             s.append("** TSV: Android Key Unmatched (key_droid) **\n")
             s.append("********************************************\n")
-            let unusedDroid = batchRunner._tsvImportSheet.checkTsvKeysNotused(platformKeysUsed: processor.keysDroidXmlMatched, platform: .android)
+            let unusedDroid = batchImport._tsvImportSheet.checkTsvKeysNotused(platformKeysUsed: processor.keysDroidXmlMatched, platform: .android)
             s.append(unusedDroid.sorted().joined(separator: "\n"))
             s.append("\n\n")
             s.append("********************************\n")
@@ -119,7 +119,7 @@ struct Reporter {
             }
         }
         
-        if let xliffProcessor = batchRunner._xliffProcessor, let jsonprocessor = batchRunner._jsonProcessor {
+        if let xliffProcessor = batchImport._xliffProcessor, let jsonprocessor = batchImport._jsonProcessor {
             s.append("\n\n")
             s.append("##################\n")
             s.append("## APPLE CHECKS ##\n")
@@ -131,7 +131,7 @@ struct Reporter {
             let usedKeys = xliffProcessor
                 .keysAppleXliffMatched
                 .union(jsonprocessor.keysAppleJsonMatched)
-            let unusedApple = batchRunner._tsvImportSheet.checkTsvKeysNotused(platformKeysUsed: usedKeys, platform: .apple)
+            let unusedApple = batchImport._tsvImportSheet.checkTsvKeysNotused(platformKeysUsed: usedKeys, platform: .apple)
             let unusedAppleRandomStated = String.randomStatedJoinedStrings(list: unusedApple.sorted())
             s.append("\(unusedAppleRandomStated.stated)\n")
             s.append("----- RANDOM KEYS: TSV Unused -----\n")
