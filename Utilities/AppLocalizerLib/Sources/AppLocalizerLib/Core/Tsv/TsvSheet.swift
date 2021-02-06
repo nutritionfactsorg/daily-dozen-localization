@@ -5,9 +5,9 @@
 
 import Foundation
 
-struct TsvSheet {
+struct TsvSheet: TsvProtocol {
     
-    var recordListAll: [TsvRow] = []
+    var tsvRowList = TsvRowList()
     var logger = LogService()
     var urlLanguage: URL
     
@@ -25,18 +25,18 @@ struct TsvSheet {
             .deletingLastPathComponent() // "filename.ext"
             .deletingLastPathComponent() // "tsv/"
         for url in urlList {
-            var recordList = parseTsvFile(url: url)
-            recordList = normalizeAndroidKeys(recordList: recordList)
-            recordList = normalizeAppleKeys(recordList: recordList)
-            writeTsvFile(url: url, recordList: recordList)
-            recordListAll.append(contentsOf: recordList)
+            var tmpTsvRowList = parseTsvFile(url: url)
+            tmpTsvRowList = normalizeAndroidKeys(tsvRowList: tmpTsvRowList)
+            tmpTsvRowList = normalizeAppleKeys(tsvRowList: tmpTsvRowList)
+            tsvRowList.append(contentsOf: tmpTsvRowList)
+            writeTsvFile(tmpTsvRowList, baseTsvFileUrl: url)
         }
     }
     
     /// Check for TSV keys not used
     func checkTsvKeysNotused(platformKeysUsed: Set<String>, platform: TsvSheet.platform) -> Set<String> {
         var tsvKeySet = Set<String>()
-        for r in recordListAll {
+        for r in tsvRowList.data {
             switch platform {
             case .android:
                 if r.key_android.isEmpty == false {
@@ -56,7 +56,7 @@ struct TsvSheet {
     func checkTsvKeysDuplicated(platform: TsvSheet.platform) -> Set<String> {
         var tsvAllKeys = Set<String>()
         var tsvDuplicateKeys = Set<String>()
-        for r in recordListAll {
+        for r in tsvRowList.data {
             let key = platform == .android ? r.key_android : r.key_apple
             if tsvAllKeys.contains(key) {
                 tsvDuplicateKeys.insert(key)
@@ -71,7 +71,7 @@ struct TsvSheet {
     /// Checks for cases where the base language and target language have the same value
     func checkTsvKeysTargetValueSameAsBase() -> [TsvRow] {
         var unchanged = [TsvRow]()
-        for r in recordListAll {
+        for r in tsvRowList.data {
             if (r.key_android.isEmpty == false || r.key_apple.isEmpty == false) &&
                 r.base_value.isEmpty == false && 
                 r.base_value == r.lang_value {
@@ -84,7 +84,7 @@ struct TsvSheet {
     /// Checks for cases where the base language is present and a translation is not present.
     func checkTsvKeysTargetValueMissing() -> [TsvRow] {
         var missing = [TsvRow]()
-        for r in recordListAll {
+        for r in tsvRowList.data {
             if r.key_android.isEmpty == false || r.key_apple.isEmpty == false {
                 if r.lang_value.isEmpty {
                     missing.append(r)
@@ -104,7 +104,7 @@ struct TsvSheet {
     
     func getLookupDictAndroid() -> [String: String] {
         var d = [String: String]()
-        for r in recordListAll {
+        for r in tsvRowList.data {
             d[r.key_android] = r.lang_value
         }
         return d
@@ -112,7 +112,7 @@ struct TsvSheet {
     
     func getLookupDictApple() -> [String: String] {
         var d = [String: String]()
-        for r in recordListAll {
+        for r in tsvRowList.data {
             d[r.key_apple] = r.lang_value
         }
         return d
@@ -123,7 +123,7 @@ struct TsvSheet {
         var droid = [String : TsvRow]()
         var paired = [String : TsvRow]()
         
-        for row in recordListAll {
+        for row in tsvRowList.data {
             apple[row.key_apple] = row
             droid[row.key_android] = row
             paired[row.key_apple+row.key_android] = row
@@ -131,6 +131,115 @@ struct TsvSheet {
         return (apple, droid, paired)
     }
     
+    // MARK: - Normalize Keys
+
+    mutating func normalizeAndroidKeys(tsvRowList: TsvRowList) -> TsvRowList {
+        var newTsvRowList = TsvRowList()
+        for i in 0 ..< tsvRowList.data.count {
+            var r = tsvRowList.data[i]
+            
+            // Check for keys which have an added Apple-Android crossmapping
+            // Crossmaping may add a correlated key to an otherwise empty Android key 
+            if let newKey = TsvRemapDroid.check.isCrossmapUpdated(r) {
+                r.key_android = newKey
+                newTsvRowList.append(r)
+                continue
+            }
+
+            // 
+            if r.key_android.isEmpty {
+                newTsvRowList.append(r)
+                continue
+            }
+            
+            // Check for keys to be dropped
+            if TsvRemapDroid.check.isDropped(r.key_android) == true {
+                continue
+            }
+            
+            // Check for keys to be replaced
+            if let newKey = TsvRemapDroid.check.isReplaced(r.key_android) {
+                r.key_apple = newKey
+                newTsvRowList.append(r)
+                continue
+            }
+                        
+            // Check for keys which have a patch fix 
+            if let newKey = TsvRemapDroid.check.isPatched(r) {
+                r.key_android = newKey
+                newTsvRowList.append(r)
+                continue
+            }
+
+            //print(":WATCH:NormalizeAndroid: \(r.key_android)")
+            
+            // 
+            r.key_android = r.key_android.replacingOccurrences(of: "[heading]", with: "", options: .literal)
+            r.key_android = r.key_android.replacingOccurrences(of: "[short]", with: "_short", options: .literal)
+            r.key_android = r.key_android.replacingOccurrences(of: "[text]", with: "_text", options: .literal)
+            // *[imperial][n], *[metric][n]
+            r.key_android = r.key_android.replacingOccurrences(of: "\\[(.*)\\]\\[(.*)\\]", with: "_$1.$2", options: .regularExpression)
+            r.key_android = r.key_android.replacingOccurrences(of: "\\[(.*)\\]", with: ".$1", options: .regularExpression)
+            newTsvRowList.append(r)
+        }
+        return newTsvRowList
+    }
+
+    mutating func normalizeAppleKeys(tsvRowList: TsvRowList) -> TsvRowList {
+        var newTsvRowList = TsvRowList()
+        for i in 0 ..< tsvRowList.data.count {
+            var r = tsvRowList.data[i]
+            if r.key_apple.isEmpty {
+                newTsvRowList.append(r)
+                continue
+            }
+            
+            //let watch = r.key_apple.contains("segmentTitles")
+            //if watch {
+            //    print(":WATCH:BEFORE: \(r.key_apple)")
+            //}
+            
+            // Check for keys to be dropped
+            if TsvRemapApple.check.isDropped(r.key_apple) == true {
+                continue
+            }
+            
+            // Check for keys to be replaced
+            if let newKey = TsvRemapApple.check.isReplaced(r.key_apple) {
+                r.key_apple = newKey
+                newTsvRowList.append(r)
+                continue
+            }
+
+            // Regex List
+            // [a][b] -> .a.b
+            r.key_apple = r.key_apple.replacingOccurrences(of: "\\[(.*)\\]\\[(.*)\\]", with: ".$1.$2", options: .regularExpression)
+            // [a] -> .a
+            r.key_apple = r.key_apple.replacingOccurrences(of: "\\[(.*)\\]", with: ".$1", options: .regularExpression)
+            // "Serving." -> ".Serving."
+            r.key_apple = r.key_apple.replacingOccurrences( of: "Serving.", with: ".Serving.", options: .literal)
+            // "VarietyText." -> ".Variety.Text."
+            r.key_apple = r.key_apple.replacingOccurrences(of: "VarietyText.", with: ".Variety.Text.", options: .literal)
+            // "segmentTitles.0" -> "segmentTitles[0]"
+            r.key_apple = r.key_apple.replacingOccurrences(of: "segmentTitles.(.)", with: "segmentTitles[$1]", options: .regularExpression)
+            // :!!!:NYI: Tweak Activity
+            
+            
+            //if watch {
+            //    print(":WATCH:AFTER: \(r.key_apple)")
+            //}
+            
+            newTsvRowList.append(r)
+        }
+        return newTsvRowList
+    }
+
+    // MARK: - Operations
+    
+    // no TsvProtocol overrides
+        
+    // MARK: - Output
+
     /// Allows invisible characters to be seen
     func toCharacterDot(character: Character?) -> Character {
         switch character {
@@ -150,7 +259,7 @@ struct TsvSheet {
     func toString() -> String {
         var s = ""
         var index = 0
-        for r in recordListAll {
+        for r in tsvRowList.data {
             s.append("record[\(index)]:\n\(r.toString())\n")
             index += 1
         }
@@ -159,7 +268,7 @@ struct TsvSheet {
     
     func toStringDot() -> String {
         var s = ""
-        for r in recordListAll {
+        for r in tsvRowList.data {
             s.append("Ⓝ\(r.toStringDot())\n")
         }
         return s
@@ -174,17 +283,21 @@ struct TsvSheet {
         return s
     }
 
-    func toTsv(recordList: [TsvRow]) -> String {
-        var s = "key_droid\tkey_apple\tbase_value\tlang_value\tbase_comment\r\n"
-        for tsvImportRow in recordList {
-            s.append(tsvImportRow.toTsv())
-        }
-        return s
-    } 
+    // Add datestamp to `baseTsvFileUrl`
+    private func writeTsvFile(_ list: TsvRowList, baseTsvFileUrl: URL) {
+        let outputUrl = baseTsvFileUrl
+            .deletingPathExtension()
+            .appendingPathExtension("\(Date.datestampyyyyMMddHHmm).tsv")
+        list.writeTsvFile(outputUrl)
+    }
+
+    func writeTsvFile(fullUrl: URL) {
+        tsvRowList.writeTsvFile(fullUrl)
+    }
     
     // MARK:- Parse
     
-    mutating func parseTsvFile(url: URL) -> [TsvRow] {
+    mutating func parseTsvFile(url: URL) -> TsvRowList {
         var recordList = [TsvRow]()
         let newline: Set<Character> = ["\n", "\r", "\r\n"]
         do {
@@ -194,7 +307,7 @@ struct TsvSheet {
             
             if content.count < 100 {
                 print(":ERROR: TsvSheet did not init with \(url.absoluteString)")
-                return recordList
+                return TsvRowList(data: recordList)
             }
             
             var cPrev: Character? // Previous UTF-8 Character
@@ -233,7 +346,7 @@ struct TsvSheet {
                                     key_apple: record[1], 
                                     base_value: record[2], 
                                     lang_value: record[3],
-                                    comments: record[4]
+                                    note: record[4]
                                 )
                                 if r.key_android != "key_droid" { // skip headings record
                                     recordList.append(r)                                    
@@ -309,7 +422,7 @@ struct TsvSheet {
                     key_apple: record[1], 
                     base_value: record[2], 
                     lang_value: record[3],
-                    comments: record.count > 4 ? record[4] : ""
+                    note: record.count > 4 ? record[4] : ""
                 )
                 recordList.append(r) // Add last record
             }
@@ -317,11 +430,11 @@ struct TsvSheet {
         } catch {
             print(  "TsvSheet error:\n\(error)")
         }
-        return recordList
+        return TsvRowList(data: recordList)
     }
     
-    static func sortRecordList(_ recordList: [TsvRow]) -> [TsvRow] {
-        var list = recordList
+    static func sortRecordList(_ tsvRowList: TsvRowList) -> TsvRowList {
+        var list = tsvRowList.data
         list.sort { (a: TsvRow, b: TsvRow) -> Bool in
             // Return true to order first element before the second.
             if !a.key_apple.isEmpty && !b.key_apple.isEmpty {
@@ -355,122 +468,7 @@ struct TsvSheet {
             }
             return false
         }
-        return list
-    }
-    
-    mutating func writeTsvFile(url: URL, recordList: [TsvRow]) {
-        let outputString = toTsv(recordList: TsvSheet.sortRecordList(recordList))
-        let outputUrl = url
-            .deletingPathExtension()
-            .appendingPathExtension("\(Date.datestampyyyyMMddHHmm).tsv")
-        do {
-            try outputString.write(to: outputUrl, atomically: true, encoding: .utf8)
-        } catch {
-            logger.error(" \(error)")
-        }
-    }
-
-    // MARK: - Normalize Keys
-
-    mutating func normalizeAndroidKeys(recordList: [TsvRow]) -> [TsvRow] {
-        var newRecordList = [TsvRow]()
-        for i in 0 ..< recordList.count {
-            var r = recordList[i]
-            
-            // Check for keys which have an added Apple-Android crossmapping
-            // Crossmaping may add a correlated key to an otherwise empty Android key 
-            if let newKey = TsvRemapDroid.check.isCrossmapUpdated(r) {
-                r.key_android = newKey
-                newRecordList.append(r)
-                continue
-            }
-
-            // 
-            if r.key_android.isEmpty {
-                newRecordList.append(r)
-                continue
-            }
-            
-            // Check for keys to be dropped
-            if TsvRemapDroid.check.isDropped(r.key_android) == true {
-                continue
-            }
-            
-            // Check for keys to be replaced
-            if let newKey = TsvRemapDroid.check.isReplaced(r.key_android) {
-                r.key_apple = newKey
-                newRecordList.append(r)
-                continue
-            }
-                        
-            // Check for keys which have a patch fix 
-            if let newKey = TsvRemapDroid.check.isPatched(r) {
-                r.key_android = newKey
-                newRecordList.append(r)
-                continue
-            }
-
-            //print(":WATCH:NormalizeAndroid: \(r.key_android)")
-            
-            // 
-            r.key_android = r.key_android.replacingOccurrences(of: "[heading]", with: "", options: .literal)
-            r.key_android = r.key_android.replacingOccurrences(of: "[short]", with: "_short", options: .literal)
-            r.key_android = r.key_android.replacingOccurrences(of: "[text]", with: "_text", options: .literal)
-            // *[imperial][n], *[metric][n]
-            r.key_android = r.key_android.replacingOccurrences(of: "\\[(.*)\\]\\[(.*)\\]", with: "_$1.$2", options: .regularExpression)
-            r.key_android = r.key_android.replacingOccurrences(of: "\\[(.*)\\]", with: ".$1", options: .regularExpression)
-            newRecordList.append(r)
-        }
-        return newRecordList
-    }
-
-    mutating func normalizeAppleKeys(recordList: [TsvRow]) -> [TsvRow] {
-        var newRecordList = [TsvRow]()
-        for i in 0 ..< recordList.count {
-            var r = recordList[i]
-            if r.key_apple.isEmpty {
-                newRecordList.append(r)
-                continue
-            }
-            
-            //let watch = r.key_apple.contains("segmentTitles")
-            //if watch {
-            //    print(":WATCH:BEFORE: \(r.key_apple)")
-            //}
-            
-            // Check for keys to be dropped
-            if TsvRemapApple.check.isDropped(r.key_apple) == true {
-                continue
-            }
-            
-            // Check for keys to be replaced
-            if let newKey = TsvRemapApple.check.isReplaced(r.key_apple) {
-                r.key_apple = newKey
-                newRecordList.append(r)
-                continue
-            }
-
-            // Regex List
-            // [a][b] -> .a.b
-            r.key_apple = r.key_apple.replacingOccurrences(of: "\\[(.*)\\]\\[(.*)\\]", with: ".$1.$2", options: .regularExpression)
-            // [a] -> .a
-            r.key_apple = r.key_apple.replacingOccurrences(of: "\\[(.*)\\]", with: ".$1", options: .regularExpression)
-            // "Serving." -> ".Serving."
-            r.key_apple = r.key_apple.replacingOccurrences( of: "Serving.", with: ".Serving.", options: .literal)
-            // "VarietyText." -> ".Variety.Text."
-            r.key_apple = r.key_apple.replacingOccurrences(of: "VarietyText.", with: ".Variety.Text.", options: .literal)
-            // "segmentTitles.0" -> "segmentTitles[0]"
-            r.key_apple = r.key_apple.replacingOccurrences(of: "segmentTitles.(.)", with: "segmentTitles[$1]", options: .regularExpression)
-            // :!!!:NYI: Tweak Activity
-            
-            
-            //if watch {
-            //    print(":WATCH:AFTER: \(r.key_apple)")
-            //}
-            
-            newRecordList.append(r)
-        }
-        return newRecordList
+        return TsvRowList(data: list)
     }
 
     // MARK: - Watch

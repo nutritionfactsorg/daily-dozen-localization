@@ -6,9 +6,9 @@
 import Foundation
 
 /// XliffIntoTsvProcessor converts Apple XLIFF data into TSV data
-struct XliffIntoTsvProcessor {
+struct XliffIntoTsvProcessor: TsvProtocol {
     
-    var tsvRowDict = [String: TsvRow]() /// [key_apple: TsvRow]
+    var tsvRowList = TsvRowList()
     
     init(url: URL) {
         guard 
@@ -41,20 +41,27 @@ struct XliffIntoTsvProcessor {
                     break
                 }
             }
-            
-            tsvRowDict[keyId] = TsvRow(
+            let newRow = TsvRow(
                 key_android: "", 
                 key_apple: keyId, 
                 base_value: sourceValue, 
                 lang_value: targetValue, 
-                comments: noteValue
+                note: noteValue
             )
-            
+            tsvRowList.put(key: keyId, keyType: .apple, row: newRow)
         } else if let children = element.children {
             for element in children where element is XMLElement {
                 processXliffIntoTsv(element: element as! XMLElement)
             }
         }
     }
+    
+    // MARK: - Operations
+    
+    // no TsvProtocol Operations overrides
+    
+    // MARK: - Output
+
+    // no TsvProtocol Output overrides
     
 }

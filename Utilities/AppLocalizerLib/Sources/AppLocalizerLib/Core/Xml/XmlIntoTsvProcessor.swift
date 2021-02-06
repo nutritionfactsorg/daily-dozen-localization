@@ -6,9 +6,9 @@
 import Foundation
 
 /// XmlIntoTsvProcessor converts Android XML (strings.xml) data into TSV data
-struct XmlIntoTsvProcessor {
+struct XmlIntoTsvProcessor: TsvProtocol {
     
-    var tsvRowDict = [String: TsvRow]() /// [key_droid: TsvRow]
+    var tsvRowList = TsvRowList() /// [key_droid: TsvRow]
     
     init(url: URL, isBaseLanguage isBase: Bool) {
         guard 
@@ -50,44 +50,46 @@ struct XmlIntoTsvProcessor {
             switch name {
             case "string":
                 let value = node.stringValue ?? ""
-                if var tsvRow = tsvRowDict[keyId] {
+                if var tsvRow = tsvRowList.get(key: keyId, keyType: .droid) { 
                     // overwrite value
                     if isBase {
                         tsvRow.base_value = value
                     } else {
                         tsvRow.lang_value = value
                     }
-                    tsvRowDict[keyId] = tsvRow
+                    tsvRowList.put(key: keyId, keyType: .droid, row: tsvRow)
                 } else {
-                    tsvRowDict[keyId] = TsvRow(
+                    let newRow = TsvRow(
                         key_android: keyId, 
                         key_apple: "", 
                         base_value: isBase ? value : "", 
                         lang_value: isBase ? "": value, 
-                        comments: ""
+                        note: ""
                     )
+                    tsvRowList.put(key: keyId, keyType: .droid, row: newRow)
                 }
             case "string-array":
                 for i in 0 ..< children.count {
                     let keyNumberedId = "\(keyId).\(i)" // fully specified
                     if let child = element.child(at: i) {
                         let value = child.stringValue ?? ""
-                        if var tsvRow = tsvRowDict[keyNumberedId] {
+                        if var tsvRow = tsvRowList.get(key: keyNumberedId, keyType: .droid) {
                             // overwrite value
                             if isBase {
                                 tsvRow.base_value = value
                             } else {
                                 tsvRow.lang_value = value
                             }
-                            tsvRowDict[keyNumberedId] = tsvRow
+                            tsvRowList.put(key: keyNumberedId, keyType: .droid, row: tsvRow)
                         } else {
-                            tsvRowDict[keyNumberedId] = TsvRow(
+                            let newRow = TsvRow(
                                 key_android: keyNumberedId, 
                                 key_apple: "", 
                                 base_value: isBase ? value : "", 
                                 lang_value: isBase ? "": value, 
-                                comments: ""
+                                note: ""
                             )
+                            tsvRowList.put(key: keyNumberedId, keyType: .droid, row: newRow)
                         }
                     }
                 }
@@ -113,9 +115,10 @@ struct XmlIntoTsvProcessor {
                 let metricId = "\(name)_metric.\(idx)"
                 
                 guard
-                    let baseTsvRow = tsvRowDict[baseId],
-                    var imperialTsvRow = tsvRowDict[imperialId],
-                    var metricTsvRow = tsvRowDict[metricId]
+                    // :BYE: tsvRowDict[baseId]
+                    let baseTsvRow = tsvRowList.get(key: baseId, keyType: .droid),
+                    var imperialTsvRow = tsvRowList.get(key: imperialId, keyType: .droid),
+                    var metricTsvRow = tsvRowList.get(key: metricId, keyType: .droid)
                 else {
                     notDone = false 
                     continue
@@ -133,7 +136,7 @@ struct XmlIntoTsvProcessor {
                         .replacingOccurrences(of: "%s", with: metricTsvRow.lang_value)
                 }
                 
-                tsvRowDict[baseId] = nil
+                tsvRowList.remove(key: baseId, keyType: .droid)
                 
                 idx = idx + 1
             }
@@ -141,5 +144,13 @@ struct XmlIntoTsvProcessor {
         }
         
     }
+    
+    // MARK: - Operations
+    
+    // no TsvProtocol Operations overrides
+    
+    // MARK: - Output
+    
+    // no TsvProtocol Output overrides
     
 }

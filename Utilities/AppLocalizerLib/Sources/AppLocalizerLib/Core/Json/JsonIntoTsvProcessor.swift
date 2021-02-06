@@ -6,9 +6,9 @@
 import Foundation
 
 /// JsonIntoTsvProcessor converts a JSON data structure into TSV data
-struct JsonIntoTsvProcessor {
-    
-    var tsvRowDict = [String: TsvRow]() /// [key_apple: TsvRow] 
+struct JsonIntoTsvProcessor: TsvProtocol {
+        
+    var tsvRowList = TsvRowList() /// [key_apple: TsvRow] 
     
     /// Read in from JSON file
     var dozeInfo: DozeDetailInfo!
@@ -98,23 +98,23 @@ struct JsonIntoTsvProcessor {
     }
     
     private mutating func put(key: String, value: String, isBaseLanguage isBase: Bool) {
-        if var tsvRow = tsvRowDict[key] {
+        if var tsvRow = tsvRowList.get(key: key, keyType: .apple) {
             // Update
             if isBase {
                 tsvRow.base_value = value                
             } else {
                 tsvRow.lang_value = value
             }
-            tsvRowDict[key] = tsvRow
+            tsvRowList.put(key: key, keyType: .apple, row: tsvRow)
         } else {
             // Create
-            tsvRowDict[key] = 
-                TsvRow(
+            let newRow = TsvRow(
                     key_android: "", 
                     key_apple: key, 
                     base_value: isBase ? value : "", 
                     lang_value: isBase ? "" : value, 
-                    comments: "")            
+                    note: "")
+            tsvRowList.put(key: key, keyType: .apple, row: newRow)
         }
     }
 
@@ -134,7 +134,12 @@ struct JsonIntoTsvProcessor {
         }
     }
     
+    // MARK: - Operations
     
+    // no TsvProtocol Operations overrides
     
+    // MARK: - Output
     
+    // no TsvProtocol Output overrides
+
 }
