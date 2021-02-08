@@ -17,7 +17,7 @@ struct JsonIntoTsvProcessor: TsvProtocol {
     var tweakInfo: TweakDetailInfo!
     let tweakJsonUrl: URL
     
-    init(xliffUrl: URL, isBaseLanguage isBase: Bool) {
+    init(xliffUrl: URL, baseOrLang: TsvBaseOrLangMode) {
         let languageCode = xliffUrl
             .deletingPathExtension()
             .lastPathComponent
@@ -32,89 +32,90 @@ struct JsonIntoTsvProcessor: TsvProtocol {
         dozeJsonUrl = baseJsonUrl.appendingPathComponent("DozeDetailData.json")
         tweakJsonUrl = baseJsonUrl.appendingPathComponent("TweakDetailData.json")
         read(dozeJsonUrl: dozeJsonUrl, tweakJsonUrl: tweakJsonUrl)
-        processJsonIntoTsv(isBaseLanguage: isBase)
+        processJsonIntoTsv(baseOrLang: baseOrLang)
     }
     
-    init(dozeJsonUrl: URL, tweakJsonUrl: URL, isBaseLanguage isBase: Bool) {
+    init(dozeJsonUrl: URL, tweakJsonUrl: URL, baseOrLang: TsvBaseOrLangMode) {
         self.dozeJsonUrl = dozeJsonUrl
         self.tweakJsonUrl = tweakJsonUrl
         read(dozeJsonUrl: dozeJsonUrl, tweakJsonUrl: tweakJsonUrl)
-        processJsonIntoTsv(isBaseLanguage: isBase)
+        processJsonIntoTsv(baseOrLang: baseOrLang)
     }
     
-    mutating func processJsonIntoTsv(isBaseLanguage isBase: Bool) {
-        processJsonIntoTsvDoze(isBaseLanguage: isBase)
-        processJsonIntoTsvTweak(isBaseLanguage: isBase)
+    mutating func processJsonIntoTsv(baseOrLang: TsvBaseOrLangMode) {
+        processJsonIntoTsvDoze(baseOrLang: baseOrLang)
+        processJsonIntoTsvTweak(baseOrLang: baseOrLang)
     }
 
-    mutating func processJsonIntoTsvDoze(isBaseLanguage isBase: Bool) {
+    mutating func processJsonIntoTsvDoze(baseOrLang: TsvBaseOrLangMode) {
         for entry in dozeInfo.itemsDict {
             let keyBase = entry.key
             let item = entry.value
             // heading
             var key = "\(keyBase).heading"
-            put(key: key, value: item.heading, isBaseLanguage: isBase)
+            put(key: key, value: item.heading, baseOrLang: baseOrLang)
             // topic
             key = "\(keyBase).topic"
-            put(key: key, value: item.topic, isBaseLanguage: isBase)
+            put(key: key, value: item.topic, baseOrLang: baseOrLang)
             // serving
             for i in 0 ..< item.servings.count {
                 key = "\(keyBase).Serving.Imperial.\(i)"
-                put(key: key, value: item.servings[i].imperial, isBaseLanguage: isBase)     
+                put(key: key, value: item.servings[i].imperial, baseOrLang: baseOrLang)     
                 key = "\(keyBase).Serving.Metric.\(i)"
-                put(key: key, value: item.servings[i].metric, isBaseLanguage: isBase)           
+                put(key: key, value: item.servings[i].metric, baseOrLang: baseOrLang)           
             }
             // variety
             for i in 0 ..< item.varieties.count {
                 key = "\(keyBase).Variety.Text.\(i)"
-                put(key: key, value: item.varieties[i].text, isBaseLanguage: isBase)
+                put(key: key, value: item.varieties[i].text, baseOrLang: baseOrLang)
                 key = "\(keyBase).Variety.Topic.\(i)"
-                put(key: key, value: item.varieties[i].topic, isBaseLanguage: isBase)  
+                put(key: key, value: item.varieties[i].topic, baseOrLang: baseOrLang)  
             }
         }
     }
     
-    mutating func processJsonIntoTsvTweak(isBaseLanguage isBase: Bool) {
+    mutating func processJsonIntoTsvTweak(baseOrLang: TsvBaseOrLangMode) {
         for entry in tweakInfo.itemsDict {
             let keyBase = entry.key
             let item = entry.value
             // heading
             var key = "\(keyBase).heading"
-            put(key: key, value: item.heading, isBaseLanguage: isBase)
+            put(key: key, value: item.heading, baseOrLang: baseOrLang)
             // topic
             key = "\(keyBase).topic"
-            put(key: key, value: item.topic, isBaseLanguage: isBase)
+            put(key: key, value: item.topic, baseOrLang: baseOrLang)
             // activity
             key = "\(keyBase).Activity.Imperial"
-            put(key: key, value: item.activity.imperial, isBaseLanguage: isBase)
+            put(key: key, value: item.activity.imperial, baseOrLang: baseOrLang)
             key = "\(keyBase).Activity.Metric"
-            put(key: key, value: item.activity.metric, isBaseLanguage: isBase)
+            put(key: key, value: item.activity.metric, baseOrLang: baseOrLang)
             // description (count)
             for i in 0 ..< item.description.count {
                 key = "\(keyBase).Description.\(i)"
-                put(key: key, value: item.description[i], isBaseLanguage: isBase)                
+                put(key: key, value: item.description[i], baseOrLang: baseOrLang)                
             }
         }
     }
     
-    private mutating func put(key: String, value: String, isBaseLanguage isBase: Bool) {
+    private mutating func put(key: String, value: String, baseOrLang: TsvBaseOrLangMode) {
         if var tsvRow = tsvRowList.get(key: key, keyType: .apple) {
             // Update
-            if isBase {
+            switch baseOrLang {
+            case .baseMode:
                 tsvRow.base_value = value                
-            } else {
+            case .langMode:
                 tsvRow.lang_value = value
             }
-            tsvRowList.put(key: key, keyType: .apple, row: tsvRow)
+            tsvRowList.putRowValues(key: key, keyType: .apple, row: tsvRow)
         } else {
             // Create
             let newRow = TsvRow(
-                    key_android: "", 
-                    key_apple: key, 
-                    base_value: isBase ? value : "", 
-                    lang_value: isBase ? "" : value, 
-                    note: "")
-            tsvRowList.put(key: key, keyType: .apple, row: newRow)
+                key_android: "", 
+                key_apple: key, 
+                base_value: baseOrLang == .baseMode ? value : "", 
+                lang_value: baseOrLang == .baseMode ? "" : value, 
+                note: "")
+            tsvRowList.putRowValues(key: key, keyType: .apple, row: newRow)
         }
     }
 

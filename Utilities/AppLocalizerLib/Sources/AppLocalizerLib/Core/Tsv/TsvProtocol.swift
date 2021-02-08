@@ -5,6 +5,11 @@
 
 import Foundation
 
+enum TsvBaseOrLangMode {
+    case baseMode
+    case langMode
+}
+
 enum TsvKeyType {
     case apple
     case droid
@@ -17,11 +22,10 @@ enum TsvValueType {
 }
 
 enum TsvPutMode {
-    // case append
-    // case prepend
-    // case onlyIfSourceNonEmpty
-    // case onlyIfTargetEmpty
-    case verbatim // empty source clears target
+    // case appendMerge
+    // case prependMerge
+    case doNotOverwrite /// only write source to empty target values
+    case verbatim /// empty source clears target value. removes completely empty result.
 }
 
 protocol TsvProtocol {
@@ -30,12 +34,19 @@ protocol TsvProtocol {
         
     // MARK: - Operations
     
+    func applyingValues(from: TsvRowList, withKeyType: TsvKeyType, ofValueType: TsvValueType) -> TsvRowList
+    func applyingValues(from: TsvRowList, withKeyType: TsvKeyType, ofValueTypes: [TsvValueType]) -> TsvRowList
+    func applyingValues(from: TsvRowList, withKeyValueTypes: [(keyType: TsvKeyType, valueType: TsvValueType)]) -> TsvRowList
+    
     func diffKeys(_ other: TsvRowList, byKeyType: TsvKeyType) -> (added: TsvRowList, dropped: TsvRowList)
 
     // MARK: - Output
     
-    func writeTsvFile(_ url: URL)  
-
+    func toStringDot(rowIdx: Int) -> String
+    func toTsv(rowIdx: Int) -> String
+    func toTsv() -> String
+    
+    func writeTsvFile(_ url: URL)
 }
 
 extension TsvProtocol {

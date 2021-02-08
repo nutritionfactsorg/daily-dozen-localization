@@ -10,16 +10,16 @@ struct XmlIntoTsvProcessor: TsvProtocol {
     
     var tsvRowList = TsvRowList() /// [key_droid: TsvRow]
     
-    init(url: URL, isBaseLanguage isBase: Bool) {
+    init(url: URL, baseOrLang: TsvBaseOrLangMode) {
         guard 
             let xmlDoc = try? XMLDocument(contentsOf: url, options: [.nodePreserveAll, .nodePreserveWhitespace]),
             let rootXmlElement: XMLElement = xmlDoc.rootElement()
         else { return }
-        processXmlIntoTsv(node: rootXmlElement, isBaseLanguage: isBase)
-        postProcessDoze(isBaseLanguage: isBase)        
+        processXmlIntoTsv(node: rootXmlElement, baseOrLang: baseOrLang)
+        postProcessDoze(baseOrLang: baseOrLang)     
     }
 
-    mutating func processXmlIntoTsv(node :XMLNode, isBaseLanguage isBase: Bool) {
+    mutating func processXmlIntoTsv(node :XMLNode, baseOrLang: TsvBaseOrLangMode) {
         
         //if node.children != nil {
         //    print(node.toStringNode())
@@ -52,21 +52,22 @@ struct XmlIntoTsvProcessor: TsvProtocol {
                 let value = node.stringValue ?? ""
                 if var tsvRow = tsvRowList.get(key: keyId, keyType: .droid) { 
                     // overwrite value
-                    if isBase {
+                    switch baseOrLang {
+                    case .baseMode:
                         tsvRow.base_value = value
-                    } else {
+                    case .langMode:
                         tsvRow.lang_value = value
                     }
-                    tsvRowList.put(key: keyId, keyType: .droid, row: tsvRow)
+                    tsvRowList.putRowValues(key: keyId, keyType: .droid, row: tsvRow)
                 } else {
                     let newRow = TsvRow(
                         key_android: keyId, 
                         key_apple: "", 
-                        base_value: isBase ? value : "", 
-                        lang_value: isBase ? "": value, 
+                        base_value: baseOrLang == .baseMode ? value : "", 
+                        lang_value: baseOrLang == .baseMode ? "": value, 
                         note: ""
                     )
-                    tsvRowList.put(key: keyId, keyType: .droid, row: newRow)
+                    tsvRowList.putRowValues(key: keyId, keyType: .droid, row: newRow)
                 }
             case "string-array":
                 for i in 0 ..< children.count {
@@ -75,21 +76,22 @@ struct XmlIntoTsvProcessor: TsvProtocol {
                         let value = child.stringValue ?? ""
                         if var tsvRow = tsvRowList.get(key: keyNumberedId, keyType: .droid) {
                             // overwrite value
-                            if isBase {
+                            switch baseOrLang {
+                            case .baseMode:
                                 tsvRow.base_value = value
-                            } else {
+                            case .langMode:
                                 tsvRow.lang_value = value
-                            }
-                            tsvRowList.put(key: keyNumberedId, keyType: .droid, row: tsvRow)
+                            }   
+                            tsvRowList.putRowValues(key: keyNumberedId, keyType: .droid, row: tsvRow)
                         } else {
                             let newRow = TsvRow(
                                 key_android: keyNumberedId, 
                                 key_apple: "", 
-                                base_value: isBase ? value : "", 
-                                lang_value: isBase ? "": value, 
+                                base_value: baseOrLang == .baseMode ? value : "", 
+                                lang_value: baseOrLang == .baseMode ? "": value, 
                                 note: ""
                             )
-                            tsvRowList.put(key: keyNumberedId, keyType: .droid, row: newRow)
+                            tsvRowList.putRowValues(key: keyNumberedId, keyType: .droid, row: newRow)
                         }
                     }
                 }
@@ -98,12 +100,12 @@ struct XmlIntoTsvProcessor: TsvProtocol {
             }            
         } else if let children = node.children {
             for node: XMLNode in children {
-                processXmlIntoTsv(node: node, isBaseLanguage: isBase)
+                processXmlIntoTsv(node: node, baseOrLang: baseOrLang)
             }
         }
     }
     
-    private mutating func postProcessDoze(isBaseLanguage isBase: Bool) {
+    private mutating func postProcessDoze(baseOrLang: TsvBaseOrLangMode) {
         for name in XmlRemap.dozeSet {
             
             var idx = 0
@@ -124,12 +126,13 @@ struct XmlIntoTsvProcessor: TsvProtocol {
                     continue
                 }
                 
-                if isBase {
+                switch baseOrLang {
+                case .baseMode:
                     imperialTsvRow.base_value = baseTsvRow.base_value
                         .replacingOccurrences(of: "%s", with: imperialTsvRow.base_value)
                     metricTsvRow.base_value = baseTsvRow.base_value
                         .replacingOccurrences(of: "%s", with: metricTsvRow.base_value)
-                } else {
+                case .langMode:
                     imperialTsvRow.lang_value = baseTsvRow.lang_value
                         .replacingOccurrences(of: "%s", with: imperialTsvRow.lang_value)
                     metricTsvRow.lang_value = baseTsvRow.lang_value

@@ -48,7 +48,7 @@ struct XliffIntoTsvProcessor: TsvProtocol {
                 lang_value: targetValue, 
                 note: noteValue
             )
-            tsvRowList.put(key: keyId, keyType: .apple, row: newRow)
+            tsvRowList.putRowValues(key: keyId, keyType: .apple, row: newRow)
         } else if let children = element.children {
             for element in children where element is XMLElement {
                 processXliffIntoTsv(element: element as! XMLElement)

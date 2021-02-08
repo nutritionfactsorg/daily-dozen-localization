@@ -113,41 +113,91 @@ struct TsvRowList {
         return nil
     }
     
-    func put(key: String, keyType: TsvKeyType, value: String, valueType: TsvValueType) {
+    mutating func putValue(key: String, keyType: TsvKeyType, value: String, valueType: TsvValueType, mode: TsvPutMode = .verbatim) {
         // Prerequisite: key pairing completed. all keys are in place.
         // An Android key may map to multiple Apples, so check all rows.
-        for var row in data {
+        var keyNotFound = true
+        for i in 0 ..< data.count {
+            var d = data[i]
             switch keyType {
             case .apple:
-                if row.key_apple != key { continue } 
+                if d.key_apple != key { continue } 
             case .droid:
-                if row.key_android != key { continue } 
+                if d.key_android != key { continue } 
             }
-            switch valueType {
-            case .base:
-                row.base_value = value
-            case .lang:
-                row.lang_value = value
-            case .note:
-                row.note = value
+            keyNotFound = false
+            switch mode {
+            case .doNotOverwrite:
+                switch valueType {
+                case .base:
+                    d.base_value =  d.base_value.isEmpty ? value : d.base_value
+                case .lang:
+                    d.lang_value = d.lang_value.isEmpty ? value : d.lang_value
+                case .note:
+                    d.note = d.note.isEmpty ? value : d.note
+                }
+            case .verbatim:
+                switch valueType {
+                case .base:
+                    d.base_value = value
+                case .lang:
+                    d.lang_value = value
+                case .note:
+                    d.note = value
+                }
             }
+            data[i] = d // writeback
+        }
+        // Create if not present to update
+        if keyNotFound {
+            let newRow = TsvRow(
+                key_android: keyType == .droid ? key : "", 
+                key_apple: keyType == .apple ? key : "", 
+                base_value: valueType == .base ? value : "", 
+                lang_value:  valueType == .lang ? value : "", 
+                note:  valueType == .note ? value : ""
+            )
+            data.append(newRow)
         }
     }
     
-    /// Replaces all non-empty values
-    func put(key: String, keyType: TsvKeyType, row: TsvRow) {
+    /// Replaces values of `base_value`, `lang_value` and  `note` 
+    mutating func putRowValues(key: String, keyType: TsvKeyType, row: TsvRow, mode: TsvPutMode = .verbatim) {
         // Prerequisite: key pairing completed. all keys are in place.
         // An Android key may map to multiple Apples, so check all rows.
-        for var r in data {
+        var keyNotFound = true
+        // Update
+        for i in 0 ..< data.count {
+            var d = data[i]
             switch keyType {
             case .apple:
-                if row.key_apple != key { continue } 
+                if d.key_apple != key { continue } 
             case .droid:
-                if row.key_android != key { continue } 
+                if d.key_android != key { continue } 
             }
-            r.base_value = r.base_value.isEmpty ? row.base_value : r.base_value
-            r.lang_value = r.lang_value.isEmpty ? row.lang_value : r.lang_value
-            r.note = r.note.isEmpty ? row.note : r.note
+            keyNotFound = false
+            switch mode {
+            case .doNotOverwrite:
+                d.base_value = d.base_value.isEmpty ? row.base_value : d.base_value
+                d.lang_value = d.lang_value.isEmpty ? row.lang_value : d.lang_value
+                d.note = d.note.isEmpty ? row.note : d.note
+            case .verbatim:
+                d.base_value = row.base_value
+                d.lang_value = row.lang_value
+                d.note = row.note                
+            }
+            data[i] = d // writeback
+        }
+        // Create if not present to update
+        if keyNotFound {
+            let newRow = TsvRow(
+                key_android: keyType == .droid ? key : "", 
+                key_apple: keyType == .apple ? key : "", 
+                base_value: row.base_value, 
+                lang_value: row.lang_value, 
+                note: row.note
+            )
+            data.append(newRow)
         }
     }
     
@@ -190,25 +240,25 @@ struct TsvRowList {
     }
 
     func applyingValues(from: TsvRowList, withKeyType: TsvKeyType, ofValueType: TsvValueType, putMode: TsvPutMode = .verbatim) -> TsvRowList {
-        let result = TsvRowList(data: self.data)
-        for r in from.data {
+        var result = TsvRowList(data: self.data)
+        for d in from.data {
             var key: String!
             var value: String!
             switch withKeyType {
             case .apple:
-                key = r.key_apple
+                key = d.key_apple
             case .droid:
-                key = r.key_android
+                key = d.key_android
             }
             switch ofValueType {
             case .base:
-                value = r.base_value
+                value = d.base_value
             case .lang:
-                value = r.lang_value
+                value = d.lang_value
             case .note:
-                value = r.note
+                value = d.note
             }
-            result.put(key: key, keyType: withKeyType, value: value, valueType: ofValueType)
+            result.putValue(key: key, keyType: withKeyType, value: value, valueType: ofValueType)
         }
                 
         return result
@@ -292,7 +342,7 @@ struct TsvRowList {
     }
     
     func toTsv() -> String {
-        var s = "key_droid\tkey_apple\tbase_value\tlang_value\tbase_comment\r\n"
+        var s = "key_droid\tkey_apple\tbase_value\tlang_value\tbase_note\r\n"
         for tsvRow in self.sorted().data {
             s.append(tsvRow.toTsv())
         }

@@ -24,6 +24,10 @@ struct TsvRow {
         self.note = note
     }
     
+    func isEmpty() -> Bool {
+        return key_android.isEmpty && key_apple.isEmpty && base_value.isEmpty && lang_value.isEmpty && note.isEmpty
+    }
+    
     func toString(includeNotes: Bool = false) -> String {
         var s = 
             """
