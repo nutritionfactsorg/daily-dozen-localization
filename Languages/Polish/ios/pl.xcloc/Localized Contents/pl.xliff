@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
   <file original="DailyDozen/App/SupportingFiles/en.lproj/InfoPlist.strings" source-language="en" target-language="pl" datatype="plaintext">
     <header>
@@ -26,7 +26,7 @@
       </trans-unit>
       <trans-unit id="NSHealthUpdateUsageDescription" xml:space="preserve">
         <source>The 21 Tweaks feature can write weight data to HealthKit to help you keep track of your progress.</source>
-        <target>Funkcja 21 adaptacji może zapisywać dane z wagą w HealthKit, aby pomóc Ci śledzić Twoje postępy.</target>
+        <target>Funkcja 21 Adaptacji może zapisywać dane z wagą w HealthKit, aby pomóc Ci śledzić Twoje postępy.</target>
         <note>Privacy - Health Update Usage Description</note>
       </trans-unit>
     </body>
@@ -212,41 +212,42 @@ Vitamin B12 is included in this app to provide you with an easy way to track you
       </trans-unit>
       <trans-unit id="reminder.alert.text" xml:space="preserve">
         <source>Update your servings for today</source>
-        <target>Update your servings for today</target>
+        <target>Zaktualizuj swoje dzisiejsze porcje</target>
         <note>daily_reminder_text alert text</note>
       </trans-unit>
       <trans-unit id="reminder.heading" xml:space="preserve">
         <source>Daily Reminder</source>
-        <target>Daily Reminder</target>
+        <target>Codzienne przypomnienie</target>
         <note>Alert title, Settings heading</note>
       </trans-unit>
       <trans-unit id="reminder.settings.enable" xml:space="preserve">
         <source>Enable Reminders</source>
-        <target>Enable Reminders</target>
+        <target>Włącz przypomnienia</target>
         <note>Enable Reminders</note>
       </trans-unit>
       <trans-unit id="reminder.settings.sound" xml:space="preserve">
         <source>Play Sound</source>
-        <target>Play Sound</target>
+        <target>Włącz dźwięk</target>
         <note>play_sound</note>
       </trans-unit>
       <trans-unit id="reminder.settings.time" xml:space="preserve">
         <source>Remind me at</source>
-        <target>Remind me at</target>
+        <target>Przypomnij o:</target>
         <note>remind_me_at</note>
       </trans-unit>
       <trans-unit id="reminder.settings.vibrate" xml:space="preserve">
         <source>Vibrate</source>
+        <target>Wibracje</target>
         <note>vibrate</note>
       </trans-unit>
       <trans-unit id="reminder.state.off" xml:space="preserve">
         <source>Off</source>
-        <target>Off</target>
+        <target>Wyłączone</target>
         <note>'Off' as in 'On or Off'</note>
       </trans-unit>
       <trans-unit id="reminder.state.on" xml:space="preserve">
         <source>On</source>
-        <target>On</target>
+        <target>Włączone</target>
         <note>'On' as in 'On or Off'</note>
       </trans-unit>
       <trans-unit id="settings.tweak.header" xml:space="preserve">
@@ -660,7 +661,7 @@ Vitamin B12 is included in this app to provide you with an easy way to track you
       </trans-unit>
       <trans-unit id="gX5-vX-xBe.text" xml:space="preserve">
         <source>version 3.3.0</source>
-        <target>wersja 3.2.7</target>
+        <target>wersja 3.2.1</target>
         <note>Class = "UILabel"; text = "version 3.3.0"; ObjectID = "gX5-vX-xBe";</note>
       </trans-unit>
       <trans-unit id="pUm-f4-zm1.text" xml:space="preserve">
@@ -898,7 +899,7 @@ Vitamin B12 is included in this app to provide you with an easy way to track you
     <body>
       <trans-unit id="5po-De-kCi.text" xml:space="preserve">
         <source>21 Tweaks</source>
-        <target>21 adaptacji</target>
+        <target>21 Adaptacji</target>
         <note>Class = "UILabel"; text = "21 Tweaks"; ObjectID = "5po-De-kCi";</note>
       </trans-unit>
       <trans-unit id="NPC-if-gUf.text" xml:space="preserve">
