@@ -18,7 +18,7 @@ struct XliffIntoTsvProcessor: TsvProtocol {
         processXliffIntoTsv(element: rootXmlElement)
     }
         
-    mutating func processXliffIntoTsv(element :XMLElement) {
+    mutating func processXliffIntoTsv(element: XMLElement) {
         //print(node.toStringNode())
         if let name = element.name,
            name == "trans-unit",

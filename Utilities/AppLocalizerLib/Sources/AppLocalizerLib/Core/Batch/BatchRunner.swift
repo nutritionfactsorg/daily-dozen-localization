@@ -19,6 +19,11 @@ struct BatchRunner {
     }
     
     mutating func run() {
+        // Batch Diff Parameters
+        var diffXmlA: URL?
+        var diffXmlB: URL?
+        var diffXliffA: URL?
+        var diffXliffB: URL?
         // Batch Export Parameters
         var outputLangTsv: URL?
         var sourceEnUSTsv: URL?
@@ -45,6 +50,10 @@ struct BatchRunner {
             if cmd.key.hasPrefix("CLEAR_ALL") {
                 BatchExport.shared.clearAll()
                 BatchImport.shared.clearAll()
+                diffXmlA = nil
+                diffXmlB = nil
+                diffXliffA = nil
+                diffXliffB = nil
                 outputLangTsv = nil
                 sourceEnUSTsv = nil
                 sourceEnUSDroid = nil
@@ -55,7 +64,22 @@ struct BatchRunner {
                 outputDroid = nil
                 outputApple = nil
             } 
-            
+            // Diff
+            else if cmd.key.hasPrefix("DIFF_XML_A") {
+                diffXmlA = cmd.url
+            }             
+            else if cmd.key.hasPrefix("DIFF_XML_B") {
+                diffXmlB = cmd.url
+            }             
+            else if cmd.key.hasPrefix("DIFF_XLIFF_A") {
+                diffXliffA = cmd.url
+            }             
+            else if cmd.key.hasPrefix("DIFF_XLIFF_B") {
+                diffXliffB = cmd.url
+            }             
+            else if cmd.key.hasPrefix("DO_DIFF_KEYS") {
+                BatchDiff.shared.doDiffKeys(xmlUrlA: diffXmlA, xmlUrlB: diffXmlB, xliffUrlA: diffXliffA, xliffUrlB: diffXliffB)
+            }             
             // Export
             else if cmd.key.hasPrefix("OUTPUT_LANG_TSV") {
                 outputLangTsv = cmd.url

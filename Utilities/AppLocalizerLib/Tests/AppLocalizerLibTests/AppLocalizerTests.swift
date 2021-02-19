@@ -10,9 +10,10 @@ final class AppLocalizerTests: XCTestCase {
     
     // commands_testcase_01.txt: 01, es, de
     // commands_import_de.txt: de, pl 
+    // commands_diff_pl.txt
     // commands_import_pl.txt
     // commands_export_pl_es.txt
-    let commandSet = "commands_export_pl_es.txt"
+    let commandSet = "commands_diff_pl.txt"
     
     /// Test AppLocalizerLib directly.
     func testAppLocalizerLib() {
