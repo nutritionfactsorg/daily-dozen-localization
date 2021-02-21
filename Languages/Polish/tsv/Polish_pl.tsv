@@ -50,7 +50,7 @@ food_info_serving_sizes_whole_grains[imperial][2]	dozeWholeGrainsServing[imperia
 food_info_serving_sizes_whole_grains[metric][2]	dozeWholeGrainsServing[metric][2]	1 tortilla or slice of bread	1 tortilla lub kromka chleba	
 food_info_serving_sizes_whole_grains[imperial][3]	dozeWholeGrainsServing[imperial][3]	½ a bagel or English muffin	½ bajgla lub angielskiego muffina	
 food_info_serving_sizes_whole_grains[metric][3]	dozeWholeGrainsServing[metric][3]	½ a bagel or English muffin	½ bajgla lub angielskiego muffina	
-food_info_serving_sizes_whole_grains[imperial][4]	dozeWholeGrainsServing[imperial][4]	3 cups popped popcorn	3 filiżanki popcornu	
+food_info_serving_sizes_whole_grains[imperial][4]	dozeWholeGrainsServing[imperial][4]	3 cups popped popcorn	3 szklanki popcornu	
 food_info_serving_sizes_whole_grains[metric][4]	dozeWholeGrainsServing[metric][4]	30 g popped popcorn	30 g popcornu	
 food_info_serving_sizes_berries[imperial][0]	dozeBerriesServing[imperial][0]	½ cup fresh or frozen	½ szklanki świeżych lub mrożonych	
 food_info_serving_sizes_berries[metric][0]	dozeBerriesServing[metric][0]	60 g fresh or frozen	60 g świeżych lub mrożonych	
@@ -148,10 +148,10 @@ food_info_types_exercise[1]	dozeExerciseVarietyText[1]	Canoeing	Kajakarstwo
 food_info_types_exercise[2]	dozeExerciseVarietyText[2]	Dancing	Taniec	
 food_info_types_exercise[3]	dozeExerciseVarietyText[3]	Dodgeball	Gra w dwa ognie	
 food_info_types_exercise[4]	dozeExerciseVarietyText[4]	Downhill skiing	Narciarstwo zjazdowe	
-food_info_types_exercise[5]	dozeExerciseVarietyText[5]	Fencing	Szermierstwo	
+food_info_types_exercise[5]	dozeExerciseVarietyText[5]	Fencing	Szermierka	
 food_info_types_exercise[6]	dozeExerciseVarietyText[6]	Hiking	Piesze wędrówki	
 food_info_types_exercise[7]	dozeExerciseVarietyText[7]	Housework	Prace domowe	
-food_info_types_exercise[8]	dozeExerciseVarietyText[8]	Ice-skating	Łyżwiarstwo	
+food_info_types_exercise[8]	dozeExerciseVarietyText[8]	Ice-skating	Jazda na łyżwach	
 food_info_types_exercise[9]	dozeExerciseVarietyText[9]	Inline skating	Jazda na rolkach	
 food_info_types_exercise[10]	dozeExerciseVarietyText[10]	Juggling	Żonglerka	
 food_info_types_exercise[11]	dozeExerciseVarietyText[11]	Jumping on a trampoline	Skakanie na trampolinie	
@@ -161,19 +161,19 @@ food_info_types_exercise[14]	dozeExerciseVarietyText[14]	Roller-skating	Jazda na
 food_info_types_exercise[15]	dozeExerciseVarietyText[15]	Shooting baskets	Rzuty do kosza	
 food_info_types_exercise[16]	dozeExerciseVarietyText[16]	Shoveling light snow	Odgarnianie lekkiego śniegu	
 food_info_types_exercise[17]	dozeExerciseVarietyText[17]	Skateboarding	Jazda na deskorolce	
-food_info_types_exercise[18]	dozeExerciseVarietyText[18]	Snorkeling	Snorkeling	
+food_info_types_exercise[18]	dozeExerciseVarietyText[18]	Snorkeling	Nurkowanie z rurką	
 food_info_types_exercise[19]	dozeExerciseVarietyText[19]	Surfing	Surfing	
 food_info_types_exercise[20]	dozeExerciseVarietyText[20]	Swimming recreationally	Pływanie rekreacyjne	
 food_info_types_exercise[21]	dozeExerciseVarietyText[21]	Tennis (doubles)	Tenis (gra podwójna)	
 food_info_types_exercise[22]	dozeExerciseVarietyText[22]	Treading water	Pływanie w miejscu	
-food_info_types_exercise[23]	dozeExerciseVarietyText[23]	Walking briskly (4 mph)	Szybki marsz (4 m/h)	
+food_info_types_exercise[23]	dozeExerciseVarietyText[23]	Walking briskly (4 mph)	Szybki marsz (6 m/h)	
 food_info_types_exercise[24]	dozeExerciseVarietyText[24]	Water aerobics	Aerobik wodny	
-food_info_types_exercise[25]	dozeExerciseVarietyText[25]	Waterskiing	Narciarstwo wodne	
+food_info_types_exercise[25]	dozeExerciseVarietyText[25]	Waterskiing	Narty wodne	
 food_info_types_exercise[26]	dozeExerciseVarietyText[26]	Yard work	Prace ogrodowe	
 food_info_types_exercise[27]	dozeExerciseVarietyText[27]	Yoga	Joga	
-food_info_types_exercise[28]	dozeExerciseVarietyText[28]	Backpacking	Podróżować z plecakiem	
+food_info_types_exercise[28]	dozeExerciseVarietyText[28]	Backpacking	Podróżowanie z plecakiem	
 food_info_types_exercise[29]	dozeExerciseVarietyText[29]	Basketball	Koszykówka	
-food_info_types_exercise[30]	dozeExerciseVarietyText[30]	Bicycling uphill	Jazda rowerem pod górę	
+food_info_types_exercise[30]	dozeExerciseVarietyText[30]	Bicycling uphill	Kolarstwo górskie	
 food_info_types_exercise[31]	dozeExerciseVarietyText[31]	Circuit weight training	Obwodowy trening siłowy	
 food_info_types_exercise[32]	dozeExerciseVarietyText[32]	Cross-country skiing	Biegi narciarskie	
 food_info_types_exercise[33]	dozeExerciseVarietyText[33]	Football	Piłka nożna	
@@ -185,10 +185,10 @@ food_info_types_exercise[38]	dozeExerciseVarietyText[38]	Lacrosse	Lacrosse
 food_info_types_exercise[39]	dozeExerciseVarietyText[39]	Push-ups	Pompki	
 food_info_types_exercise[40]	dozeExerciseVarietyText[40]	Pull-ups	Podciąganie	
 food_info_types_exercise[41]	dozeExerciseVarietyText[41]	Racquetball	Racquetball	
-food_info_types_exercise[42]	dozeExerciseVarietyText[42]	Rock climbing	Wspinaczka skałkowa	
+food_info_types_exercise[42]	dozeExerciseVarietyText[42]	Rock climbing	Wspinaczka	
 food_info_types_exercise[43]	dozeExerciseVarietyText[43]	Rugby	Rugby	
 food_info_types_exercise[44]	dozeExerciseVarietyText[44]	Running	Bieganie	
-food_info_types_exercise[45]	dozeExerciseVarietyText[45]	Scuba diving	Nurkowanie	
+food_info_types_exercise[45]	dozeExerciseVarietyText[45]	Scuba diving	Nurkowanie z akwalungiem	
 food_info_types_exercise[46]	dozeExerciseVarietyText[46]	Tennis (singles)	Tenis (gra pojedyncza)	
 food_info_types_exercise[47]	dozeExerciseVarietyText[47]	Soccer	Piłka nożna	
 food_info_types_exercise[48]	dozeExerciseVarietyText[48]	Speed skating	Łyżwiarstwo szybkie	
@@ -196,7 +196,7 @@ food_info_types_exercise[49]	dozeExerciseVarietyText[49]	Squash	Squash
 food_info_types_exercise[50]	dozeExerciseVarietyText[50]	Step aerobics	Step aerobik	
 food_info_types_exercise[51]	dozeExerciseVarietyText[51]	Swimming laps	Okrążenia pływackie	
 food_info_types_exercise[52]	dozeExerciseVarietyText[52]	Walking briskly uphill	Szybki chód pod górę	
-food_info_types_exercise[53]	dozeExerciseVarietyText[53]	Water jogging	Jogging wodny	
+food_info_types_exercise[53]	dozeExerciseVarietyText[53]	Water jogging	Jogging w wodzie	
 food_info_types_beverages[0]	dozeBeveragesVarietyText[0]	Black tea	Czarna herbata	
 food_info_types_beverages[1]	dozeBeveragesVarietyText[1]	Chai tea	Herbata chai	
 food_info_types_beverages[2]	dozeBeveragesVarietyText[2]	Vanilla chamomile tea	Herbata z rumianku i wanilii	
@@ -213,21 +213,21 @@ food_info_types_beverages[12]	dozeBeveragesVarietyText[12]	Peppermint tea	Herbat
 food_info_types_beverages[13]	dozeBeveragesVarietyText[13]	Rooibos tea	Herbata rooibos	
 food_info_types_beverages[14]	dozeBeveragesVarietyText[14]	Water	Woda	
 food_info_types_beverages[15]	dozeBeveragesVarietyText[15]	White tea	Biała herbata	
-food_info_types_beans[0]	dozeBeansVarietyText[0]	Black beans	Fasola czarna	
+food_info_types_beans[0]	dozeBeansVarietyText[0]	Black beans	Fasola czana	
 food_info_types_beans[1]	dozeBeansVarietyText[1]	Black-eyed peas	Fasola czarne oczko	
 food_info_types_beans[2]	dozeBeansVarietyText[2]	Butter beans	Fasola biała półksiężycowata	
 food_info_types_beans[3]	dozeBeansVarietyText[3]	Cannellini beans	Fasola Cannellini	
 food_info_types_beans[4]	dozeBeansVarietyText[4]	Chickpeas/Garbanzo Beans	Ciecierzyca	
 food_info_types_beans[5]	dozeBeansVarietyText[5]	Edamame	Fasola Edamame	
-food_info_types_beans[6]	dozeBeansVarietyText[6]	English peas	Groch zwyczajny	
+food_info_types_beans[6]	dozeBeansVarietyText[6]	English peas	Groszek zwyczajny	
 food_info_types_beans[7]	dozeBeansVarietyText[7]	Great northern beans	Fasola Great northern	
 food_info_types_beans[8]	dozeBeansVarietyText[8]	Kidney beans	Fasola nerkowata	
-food_info_types_beans[9]	dozeBeansVarietyText[9]	Lentils (beluga, french, and red varieties)	Soczewica (beluga, french, and red varieties)	
+food_info_types_beans[9]	dozeBeansVarietyText[9]	Lentils (beluga, french, and red varieties)	Soczewica (beluga, francuska du Puy i czerwone odmiany)	
 food_info_types_beans[10]	dozeBeansVarietyText[10]	Miso	Miso	
 food_info_types_beans[11]	dozeBeansVarietyText[11]	Navy beans	Fasola Navy	
 food_info_types_beans[12]	dozeBeansVarietyText[12]	Pinto beans	Fasola Pinto	
 food_info_types_beans[13]	dozeBeansVarietyText[13]	Small red beans	Fasola Red small	
-food_info_types_beans[14]	dozeBeansVarietyText[14]	Split peas (yellow or green)	Groszek (żółty lub zielony)	
+food_info_types_beans[14]	dozeBeansVarietyText[14]	Split peas (yellow or green)	Groch (żółty lub zielony)	
 food_info_types_beans[15]	dozeBeansVarietyText[15]	Tempeh	Tempeh	
 food_info_types_greens[0]	dozeGreensVarietyText[0]	Arugula	Rukola	
 food_info_types_greens[1]	dozeGreensVarietyText[1]	Beet greens	Boćwina	
@@ -260,12 +260,12 @@ food_info_types_other_vegetables[3]	dozeVegetablesOtherVarietyText[3]	Bell peppe
 food_info_types_other_vegetables[4]	dozeVegetablesOtherVarietyText[4]	Carrots	Marchew	
 food_info_types_other_vegetables[5]	dozeVegetablesOtherVarietyText[5]	Corn	Kukurydza	
 food_info_types_other_vegetables[6]	dozeVegetablesOtherVarietyText[6]	Garlic	Czosnek	
-food_info_types_other_vegetables[7]	dozeVegetablesOtherVarietyText[7]	Mushrooms (button, oyster, portobello, and shiitake)	Grzyby (młode pieczarki, boczniaki, pieczatki portobello, i shiitake)	
+food_info_types_other_vegetables[7]	dozeVegetablesOtherVarietyText[7]	Mushrooms (button, oyster, portobello, and shiitake)	Grzyby (młode pieczarki, boczniaki, pieczatki portobello, shiitake)	
 food_info_types_other_vegetables[8]	dozeVegetablesOtherVarietyText[8]	Okra	Okra	
 food_info_types_other_vegetables[9]	dozeVegetablesOtherVarietyText[9]	Onions	Cebula	
 food_info_types_other_vegetables[10]	dozeVegetablesOtherVarietyText[10]	Purple potatoes	Ziemniaki truflowe	
 food_info_types_other_vegetables[11]	dozeVegetablesOtherVarietyText[11]	Pumpkin	Dynia	
-food_info_types_other_vegetables[12]	dozeVegetablesOtherVarietyText[12]	Sea vegetables (arame, dulse, and nori)	Warzywa morskie (arame, dulse, i nori)	
+food_info_types_other_vegetables[12]	dozeVegetablesOtherVarietyText[12]	Sea vegetables (arame, dulse, and nori)	Warzywa morskie (arame, dulse, nori)	
 food_info_types_other_vegetables[13]	dozeVegetablesOtherVarietyText[13]	Snap peas	Groszek cukrowy	
 food_info_types_other_vegetables[14]	dozeVegetablesOtherVarietyText[14]	Squash (delicata, summer, and spaghetti squash varieties)	Odmiany dyni (letnie, zimowe, spaghetti)	
 food_info_types_other_vegetables[15]	dozeVegetablesOtherVarietyText[15]	Sweet potatoes/yams	Słodkie ziemniaki/Bataty	
@@ -302,7 +302,7 @@ daily_timerestrict[text]	tweakDailyTimeRestrict[text]	Confine eating to a daily 
 				
 meal_undistracted[heading]	tweakMealUndistracted[heading]	Enjoy Undistracted Meals	Jedz bez rozpraszania uwagi	
 meal_undistracted[short]	tweakMealUndistracted[short]	Enjoy Undistracted Meals	Jedz bez rozpraszania uwagi	
-meal_undistracted[text]	tweakMealUndistracted[text]	Don\'t eat while watching TV or playing on your phone. Give yourself a check for each meal you\'re able to eat without distraction.	Nie jedz podczas oglądania telewizji lub grania na telefonie. Odhacz każdy posiłek, który możesz zjeść bez rozpraszania się.	
+meal_undistracted[text]	tweakMealUndistracted[text]	Don\'t eat while watching TV or playing on your phone. Give yourself a check for each meal you\'re able to eat without distraction.	Nie jedz podczas oglądania telewizji lub grania na telefonie. Odhacz każdy posiłek, który udało ci się zjeść bez rozpraszania się.	
 				
 meal_twentyminutes[heading]	tweakMeal20Minutes[heading]	Follow the Twenty-Minute Rule	Przestrzegaj zasady dwudziestu minut	
 meal_twentyminutes[short]	tweakMeal20Minutes[short]	Follow the Twenty-Minute Rule	Przestrzegaj zasady dwudziestu minut	
@@ -310,7 +310,7 @@ meal_twentyminutes[text]	tweakMeal20Minutes[text]	Whether through increasing vis
 				
 meal_vinegar[heading]	tweakMealVinegar[heading]	Incorporate Vinegar (2 tsp with each meal)	Włącz ocet do diety (2 łyżeczki do każdego posiłku)	
 meal_vinegar[short]	tweakMealVinegar[short]	Incorporate Vinegar (2 tsp with each meal)	Włącz ocet do diety (2 łyżeczki do każdego posiłku)	
-meal_vinegar[text]	tweakMealVinegar[text]	Never drink vinegar straight. Instead, flavor meals or dress a side salad with any of the sweet and savory vinegars out there. If you want to drink it, make sure to mix it in a glass of water and, afterward, be sure to rinse your mouth out with water to protect your tooth enamel.	Nigdy nie pij octu bezpośrednio. Zamiast tego, doprawiaj nim posiłki lub dodaj dowolny słodki czy pikantny ocet do sałatki. Jeśli chcesz go wypić, wymieszaj go w szklance wody, a następnie przepłucz usta wodą, aby chronić szkliwo zębów.	
+meal_vinegar[text]	tweakMealVinegar[text]	Never drink vinegar straight. Instead, flavor meals or dress a side salad with any of the sweet and savory vinegars out there. If you want to drink it, make sure to mix it in a glass of water and, afterward, be sure to rinse your mouth out with water to protect your tooth enamel.	Nigdy nie pij octu bezpośrednio. Zamiast tego, doprawiaj nim posiłki lub dodaj dowolny słodki czy pikantny ocet do sałatki. Jeśli chcesz go wypić, wymieszaj go w szklance wody, a po wypiciu przepłucz usta wodą, by chronić szkliwo zębów.	
 				
 exercise_timing[heading]	tweakExerciseTiming[heading]	Optimize Exercise Timing	Zoptymalizuj czas ćwiczeń	
 exercise_timing[short]	tweakExerciseTiming[short]	Optimize Exercise Timing	Zoptymalizuj czas ćwiczeń	
@@ -322,11 +322,11 @@ daily_nutriyeast[text]	tweakDailyNutriYeast[text]	Two teaspoons of baker\'s, bre
 				
 nightly_trendelenburg[heading]	tweakNightlyTrendelenbrug[heading]	Experiment with Mild Trendelenburg	Eksperyment z łągodną pozycją Trendelenburga	
 nightly_trendelenburg[short]	tweakNightlyTrendelenbrug[short]	Experiment with Mild Trendelenburg	Eksperyment z łagodną pozycją Trendelenburga	
-nightly_trendelenburg[text]	tweakNightlyTrendelenbrug[text]	Try spending at least four hours a night lying with your body tilted head-down six degrees by elevating the posts at the foot of your bed by eight inches (or by nine inches if you have a California king). Be extremely careful when you get out of bed, as this causes orthostatic intolerance in most people, even if you\'re young and healthy—meaning if you get up too fast, you can feel dizzy, faint, or light-headed and could fall and hurt yourself. So get up slowly. Drinking two cups of cold water thirty minutes before rising may also help prevent this potentially hazardous side effect.\n*IMPORTANT: Do not try this at home at all if you have any heart or lung issues, acid reflux, or problems with your brain (like head trauma) or eyes (even a family history of glaucoma disqualifies you). Also do not try this until you ask your physician if they think it\'s safe for you to sleep in mild Trendelenburg.*	Spróbuj spędzać co najmniej cztery godziny w nocy, leżąc nachylonym/-ną pod kątem sześć stopni - głową w dół, poprzez podwyższenie dolnych nóg łóżka o 20 cm (lub o 23 cm, jeśli masz łóżko California king). Należy zachować szczególną ostrożność, gdy wstajesz z łóżka, ponieważ powoduje to ortostatyczną nietolerancję u większości ludzi, nawet jeśli jesteś młody/-a i zdrowy/-a - co oznacza, że jeśli wstaniesz zbyt szybko, możesz odczuć zawroty głowy, słabość lub oszołomienie i upaść i zranić się. Więc wstań powoli. Wypicie dwóch filiżanek zimnej wody na trzydzieści minut przed wstawaniem może również pomóc w zapobiegnięciu temu potencjalnie niebezpiecznemu efektowi ubocznemu. \n*WAŻNE: nie próbuj tego w domu w ogóle, jeśli masz problemy z sercem lub płucami, refluks żołądkowy lub problemy z mózgiem (np. uraz głowy) lub oczu (nawet historia jaskry w rodzinie Cię dyskwalifikuje). Nie próbuj tego także, dopóki nie zapytasz swojego lekarza, czy uważa, że spanie w łagodnym Trendelenburgu jest bezpieczne.	
+nightly_trendelenburg[text]	tweakNightlyTrendelenbrug[text]	Try spending at least four hours a night lying with your body tilted head-down six degrees by elevating the posts at the foot of your bed by eight inches (or by nine inches if you have a California king). Be extremely careful when you get out of bed, as this causes orthostatic intolerance in most people, even if you\'re young and healthy—meaning if you get up too fast, you can feel dizzy, faint, or light-headed and could fall and hurt yourself. So get up slowly. Drinking two cups of cold water thirty minutes before rising may also help prevent this potentially hazardous side effect.\n*IMPORTANT: Do not try this at home at all if you have any heart or lung issues, acid reflux, or problems with your brain (like head trauma) or eyes (even a family history of glaucoma disqualifies you). Also do not try this until you ask your physician if they think it\'s safe for you to sleep in mild Trendelenburg.*	Spróbuj spędzać co najmniej cztery godziny w nocy, leżąc nachylonym/-ną pod kątem sześć stopni - głową w dół, poprzez podwyższenie dolnych nóg łóżka o 20 cm (lub o 23 cm, jeśli masz łóżko California king). Należy zachować szczególną ostrożność, gdy wstajesz z łóżka, ponieważ powoduje to ortostatyczną nietolerancję u większości ludzi, nawet jeśli jesteś młody/-a i zdrowy/-a - co oznacza, że jeśli wstaniesz zbyt szybko, możesz odczuć zawroty głowy, słabość lub oszołomienie i upaść i zranić się. Więc wstań powoli. Wypicie dwóch szklanek zimnej wody na trzydzieści minut przed wstawaniem może również pomóc w zapobiegnięciu temu potencjalnie niebezpiecznemu efektowi ubocznemu. \n*WAŻNE: nie próbuj tego w domu w ogóle, jeśli masz problemy z sercem lub płucami, refluks żołądkowy lub problemy z mózgiem (np. uraz głowy) lub oczu (nawet historia jaskry w rodzinie Cię dyskwalifikuje). Nie próbuj tego także, dopóki nie zapytasz swojego lekarza, czy uważa, że spanie w łagodnym Trendelenburgu jest bezpieczne.	
 				
 meal_water[heading]	tweakMealWater[heading]	Preload with Water	Woda przed posiłkiem	
 meal_water[short]	tweakMealWater[short]	Preload with Water	Woda przed posiłkiem	
-meal_water[text]	tweakMealWater[text]	Time your metabolism-boosting two cups of cool or cold unflavored water before each meal to also take advantage of its preload benefits.	Picie dwóch szklanek chłodnej lub zimnej wody (bez żadnych dodatków smakowych i środków aromatyzujących) przed każdym posiłkiem pobudzi metabolizm.	
+meal_water[text]	tweakMealWater[text]	Time your metabolism-boosting two cups of cool or cold unflavored water before each meal to also take advantage of its preload benefits.	Wypicie dwóch szklanek chłodnej lub zimnej wody (bez żadnych dodatków smakowych i środków aromatyzujących) przed każdym posiłkiem pobudzi metabolizm.	
 				
 daily_frontload[heading]	tweakDailyFrontLoad[heading]	Front-Load Your Calories	Więcej kalorii na początku dnia	
 daily_frontload[short]	tweakDailyFrontLoad[short]	Front-Load Your Calories	Więcej kalorii na początku dnia	
@@ -354,23 +354,23 @@ daily_greentea[text]	tweakDailyGreenTea[text]	Drink three cups a day between mea
 				
 daily_ginger[heading]	tweakDailyGinger[heading]	Ground Ginger (1 tsp) or Cayenne Pepper (½ tsp)	Mielony imbir (1 łyżeczka) lub pieprz Cayenne (½ łyżeczki)	
 daily_ginger[short]	tweakDailyGinger[short]	Ground Ginger (1 tsp) or Cayenne Pepper (½ tsp)	Mielony imbir (1 łyżeczka) lub pieprz Cayenne (½ łyżeczki)	
-daily_ginger[text]	tweakDailyGinger[text]	Randomized controlled trials have found that ¼ teaspoon to 1½ teaspoons a day of ground ginger significantly decreased body weight for just pennies a day. It can be as easy as stirring the ground spice into a cup of hot water. Note: Ginger may work better in the morning than evening. Chai tea is a tasty way to combine the green tea and ginger tricks into a single beverage. Alternately, for BAT activation, you can add one raw jalapeño pepper or a half teaspoon of red pepper powder (or, presumably, crushed red pepper flakes) into your daily diet. To help beat the heat, you can very thinly slice or finely chop the jalapeño to reduce its bite to little prickles, or mix the red pepper into soup or the whole-food vegetable smoothie I featured in one of my cooking videos on NutritionFacts.org.	Randomizowane badania z grupą kontrolną wykazały, że ¼ łyżeczki do 1,5 łyżeczki mielonego imbiru na dzień znacznie zmniejszyła masę ciała, za zaledwie grosze. Może to być tak proste, jak wymieszanie zmielonej przyprawy w filiżance gorącej wody. Uwaga: imbir może działać lepiej rano niż wieczorem. Herbata Chai to smaczny sposób na połączenie korzyści zielonej herbaty i imbiru w jednym napoju. Alternatywnie, aby aktywować gruczoły snu zimowego, możesz włączyć jedną surową papryczkę jalapeño lub pół łyżeczki sproszkowanej czerwonej papryki (lub, zakładam, pokruszonych płatków czerwonej papryki) do swojej codziennej diety. Aby zmniejszyć ostrość, możesz bardzo cienko pokroić lub drobno posiekać jalapeño, powinno mniej szczypać, lub wymieszać czerwoną paprykę z zupą lub ze smoothie z nieprzetworzonych warzyw, które przedstawiłem w jednym z moich filmów o gotowaniu na NutritionFacts.org.	
+daily_ginger[text]	tweakDailyGinger[text]	Randomized controlled trials have found that ¼ teaspoon to 1½ teaspoons a day of ground ginger significantly decreased body weight for just pennies a day. It can be as easy as stirring the ground spice into a cup of hot water. Note: Ginger may work better in the morning than evening. Chai tea is a tasty way to combine the green tea and ginger tricks into a single beverage. Alternately, for BAT activation, you can add one raw jalapeño pepper or a half teaspoon of red pepper powder (or, presumably, crushed red pepper flakes) into your daily diet. To help beat the heat, you can very thinly slice or finely chop the jalapeño to reduce its bite to little prickles, or mix the red pepper into soup or the whole-food vegetable smoothie I featured in one of my cooking videos on NutritionFacts.org.	Randomizowane badania z grupą kontrolną wykazały, że ¼ łyżeczki do 1,5 łyżeczki mielonego imbiru na dzień znacznie zmniejszyła masę ciała, za zaledwie grosze. Może to być tak proste, jak wymieszanie zmielonej przyprawy w szklance gorącej wody. Uwaga: imbir może działać lepiej rano niż wieczorem. Herbata Chai to smaczny sposób na połączenie korzyści zielonej herbaty i imbiru w jednym napoju. Alternatywnie, aby aktywować brązowe tkanki tłuszczowe, możesz włączyć jedną surową papryczkę jalapeño lub pół łyżeczki sproszkowanej czerwonej papryki (lub, zakładam, pokruszonych płatków czerwonej papryki) do swojej codziennej diety. Aby zmniejszyć ostrość, możesz bardzo cienko pokroić lub drobno posiekać jalapeño, powinno mniej szczypać, lub wymieszać czerwoną paprykę z zupą lub ze smoothie z nieprzetworzonych warzyw, które przedstawiłem w jednym z moich filmów o gotowaniu na NutritionFacts.org.	
 				
 complete_intentions[heading]	tweakCompleteIntentions[heading]	Complete Your Implementation Intentions	Spełnij swoje intencje implementacyjne	
 complete_intentions[short]	tweakCompleteIntentions[short]	Complete Your Implementation Intentions	Spełnij swoje intencje implementacyjne	
-complete_intentions[text]	tweakCompleteIntentions[text]	Every two months, create three new implementation intentions—"if X, then Y" plans to perform a particular behavior in a specific context—and check each one of them off as you complete them every day.	Co dwa miesiące twórz trzy nowe intencje implementacyjne - plany „jeśli X, to Y”, aby spełnić pewne zachowanie w określonym kontekście - i odznaczaj każdą z nich, jak je wypełnisz.	
+complete_intentions[text]	tweakCompleteIntentions[text]	Every two months, create three new implementation intentions—"if X, then Y" plans to perform a particular behavior in a specific context—and check each one of them off as you complete them every day.	Co dwa miesiące twórz trzy nowe intencje implementacyjne. Zaplanuj „jeśli X, to Y”,  by wykonać je w określonym kontekście - i odznaczaj każdą z nich po ich wykonaniu.	
 				
 daily_deflourdiet[heading]	tweakDailyDeflourDiet[heading]	Deflour Your Diet	Odmącz swoją dietę	
 daily_deflourdiet[short]	tweakDailyDeflourDiet[short]	Deflour Your Diet	Odmącz swoją dietę	
-daily_deflourdiet[text]	tweakDailyDeflourDiet[text]	Check this box every day your whole grain servings are in the form of intact grains. The powdering of even 100 percent whole grains robs our microbiomes of the starch that would otherwise be ferried down to our colons enclosed in unbroken cell walls.	Zaznacz to pole każdego dnia, kiedy Twoje porcje pełnoziarnistych zbóż są dostarczone w postaci całych ziaren. Sproszkowanie nawet stuprocentowo pełnoziarnistych zbóż pozbawia naszą mikrobiotę skrobi, która w innym przypadku byłaby przetransportowana do naszych okrężnic zamknięta w nienaruszonych ścianach komórkowych.	
+daily_deflourdiet[text]	tweakDailyDeflourDiet[text]	Check this box every day your whole grain servings are in the form of intact grains. The powdering of even 100 percent whole grains robs our microbiomes of the starch that would otherwise be ferried down to our colons enclosed in unbroken cell walls.	Zaznacz to pole każdego dnia, kiedy Twoje porcje pełnoziarnistych zbóż są dostarczone w postaci całych ziaren. Sproszkowanie nawet stuprocentowo pełnoziarnistych zbóż pozbawia naszą mikrobiotę skrobi, która w innym przypadku byłaby przetransportowana do naszej okrężnicy zamknięta w nienaruszonych ścianach komórkowych.	
 				
 daily_cumin[heading]	tweakDailyCumin[heading]	Cumin (½ tsp with lunch and dinner)	Kminek (½ łyżeczki do obiadu i kolacji)	
 daily_cumin[short]	tweakDailyCumin[short]	Cumin (Cuminum cyminum) (½ tsp with lunch and dinner)	Kminek (½ łyżeczki do obiadu i kolacji)	
-daily_cumin[text]	tweakDailyCumin[text]	Overweight women randomized to add a half teaspoon of cumin to their lunches and dinners beat out the control group by four more pounds and an extra inch off their waists. There is also evidence to support the use of the spice saffron, but a pinch a day would cost a dollar, whereas a teaspoon of cumin costs less than ten cents.	W randomizowaych badaniach, kobiety z nadwagą, które dodawały pół łyżeczki kminku do swoich obiadów i kolacji pokonały grupę kontrolną o 1,8 kg i straciły 2,5 cm w talii. Istnieją również dowody na zalety stosowania szafranu przyprawowego, ale szczypta dziennie kosztowałaby dolara, podczas gdy łyżeczka kminku kosztuje mniej niż dziesięć centów.	
+daily_cumin[text]	tweakDailyCumin[text]	Overweight women randomized to add a half teaspoon of cumin to their lunches and dinners beat out the control group by four more pounds and an extra inch off their waists. There is also evidence to support the use of the spice saffron, but a pinch a day would cost a dollar, whereas a teaspoon of cumin costs less than ten cents.	W randomizowaych badaniach, kobiety z nadwagą, które dodawały pół łyżeczki kminku do swoich obiadów i kolacji pokonały grupę kontrolną o 1,8 kg i straciły 2,5 cm w talii. Istnieją również dowody na zalety stosowania szafranu przyprawowego, ale zaledwie szczypta dziennie kosztowałaby więcej niż jedna łyżeczka kminku.	
 				
 daily_garlic[heading]	tweakDailyGarlic[heading]	Garlic Powder (¼ tsp)	Czosnek w proszku (¼ łyżeczki)	
 daily_garlic[short]	tweakDailyGarlic[short]	Garlic Powder (¼ tsp)	Czosnek w proszku (¼ łyżeczki)	
-daily_garlic[text]	tweakDailyGarlic[text]	Randomized, double-blind, placebo-controlled studies have found that as little as a daily quarter teaspoon of garlic powder can reduce body fat at a cost of perhaps two cents a day.	Randomizowane, podwójnie ślepe, badania kontrolowane placebo wykazały, że zaledwie ćwierć łyżeczki czosnku dziennie może zmniejszyć tkankę tłuszczową - za jedynie około dwa centy dziennie.	
+daily_garlic[text]	tweakDailyGarlic[text]	Randomized, double-blind, placebo-controlled studies have found that as little as a daily quarter teaspoon of garlic powder can reduce body fat at a cost of perhaps two cents a day.	Randomizowane, podwójnie ślepe, badania kontrolowane placebo wykazały, że zaledwie ćwierć łyżeczki czosnku dziennie może zmniejszyć tkankę tłuszczową - za jedynie grosze.	
 				
 daily_hydrate[heading]	tweakDailyHydrate[heading]	Stay Hydrated	Nawadniaj się	
 daily_hydrate[short]	tweakDailyHydrate[short]	Stay Hydrated	Nawadniaj się	
@@ -378,7 +378,7 @@ daily_hydrate[text]	tweakDailyHydrate[text]	Check this box if your urine never a
 				
 daily_blackcumin[heading]	tweakDailyBlackCumin[heading]	Black Cumin (¼ tsp)	Czarnuszka (¼ łyżeczki)	
 daily_blackcumin[short]	tweakDailyBlackCumin[short]	Black Cumin (Nigella sativa) (¼ tsp)	Czarnuszka (Nigella sativa) (¼ łyżeczki)	
-daily_blackcumin[text]	tweakDailyBlackCumin[text]	As noted in the Appetite Suppression section, a systematic review and meta-analysis of randomized, controlled weight-loss trials found that about a quarter teaspoon of black cumin powder every day appears to reduce body mass index within a span of a couple of months. Note that black cumin is different from regular cumin, for which the dosing is different.	Jak zauważono w sekcji „Tłumienie apetytu”, systematyczny przegląd i metaanaliza randomizowanych, kontrolowanych badań na temat utraty wagi wykazały, że około ćwierć łyżeczki czarnuszki w proszku każdego dnia wydaje się obniżać wskaźnik masy ciała w ciągu kilku miesięcy.	Polish name for black cumin is totally different from cumin, so there is no need in my opinion to mention the last sentence.
+daily_blackcumin[text]	tweakDailyBlackCumin[text]	As noted in the Appetite Suppression section, a systematic review and meta-analysis of randomized, controlled weight-loss trials found that about a quarter teaspoon of black cumin powder every day appears to reduce body mass index within a span of a couple of months. Note that black cumin is different from regular cumin, for which the dosing is different.	Jak zauważono w sekcji „Tłumienie apetytu”, systematyczny przegląd i metaanaliza randomizowanych, kontrolowanych badań na temat utraty wagi wykazał, że około ćwierć łyżeczki czarnuszki w proszku każdego dnia wydaje się obniżać wskaźnik masy ciała w ciągu kilku miesięcy.	Polish name for black cumin is totally different from cumin, so there is no need in my opinion to mention the last sentence.
 				
 app_name	DJR-bj-qUq.text	Daily Dozen	Daily Dozen	Application name shown near app icon.
 welcome_to_my_daily_dozen	19L-gq-W5M.text	Welcome to my Daily Dozen!	Witaj w moim Daily Dozen!	
@@ -436,7 +436,7 @@ back_to_today	OIQ-oh-3QN.normalTitle	Back to today	Powrót do dzisiaj
 	IFs-g0-SPV.footerTitle	Set to always be one unit type or enable the 'Units:' toggle button.	Ustaw jeden typ jednostek dla aplikacji lub aktywuj przełącznie przycisku w „Jednostki:”.	
 	WdR-XV-IyP.headerTitle	21 Tweak Visibility	Widoczność 21 Adaptacji	
 daily_dozen_only	OZO-Xa-v5G.segmentTitles[0]	Daily Dozen Only	Tylko Daily Dozen	
-daily_dozen_and_tweaks	OZO-Xa-v5G.segmentTitles[1]	Daily Dozen + 21 Tweak	Daily Dozen + 21 Adaptacji	
+daily_dozen_and_tweaks	OZO-Xa-v5G.segmentTitles[1]	Daily Dozen + 21 Tweaks	Daily Dozen + 21 Adaptacji	
 	WdR-XV-IyP.footerTitle	For health alone, use "Daily Dozen Only". For health and weight loss use "Daily Dozen + 21 Tweaks".	Dla samego zdrowia użyj „Tylko Daily Dozen”. Dla zdrowia i utraty wagi użyj „Daily Dozen + 21 Adaptacji”.	
 daily_reminder_title		Daily Dozen Reminder	Przypomnienie Daily Dozen	
 daily_reminder_text	reminder.alert.text	Update your servings for today	Zaktualizuj swoje dzisiejsze porcje	Alert notification text

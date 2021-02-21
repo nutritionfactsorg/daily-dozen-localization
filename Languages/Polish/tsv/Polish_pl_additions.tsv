@@ -27,8 +27,8 @@ dialog_ask_user_to_rate_app_message		Please give us feedback in the Play Store.	
 dialog_ask_user_to_rate_app_title		Do you like this app?	Czy lubisz tę aplikację?	
 dialog_no_email_apps_message		Backing up your data requires you to have an email app installed so you can email the .csv backup file to yourself. Please install an email app and try again.	Tworzenie kopii zapasowych twoich danych wymaga zainstalowania aplikacji do obsługi poczty e-mail, aby można było wysłać do siebie plik kopii zapasowej ".csv" . Zainstaluj aplikację e-mail i spróbuj ponownie.	
 dialog_no_email_apps_title		No email apps found	Nie znaleziono aplikacji poczty e-mail	
-dialog_streaks_message		Your database will now be upgraded to support the new streaks feature.	Twoja baza zostanie uaktualniona by wspierać nową funkcję serii.	
-dialog_streaks_title		New feature: Streaks!	Nowa funkcja: Serie!	
+dialog_streaks_message		Your database will now be upgraded to support the new progress feature.	Twoja baza danych zostanie uaktualniona by wspierać nową funkcję postępu.	
+dialog_streaks_title		New progress feature added!	Dodano nową funkcję postępu!	
 error_cannot_handle_url		Could not open url. Please install a browser.	Nie można otworzyć adresu URL. Proszę zainstalować przeglądarkę.	
 evening		Evening	Wieczór.	
 food_history		Food History	Historia jedzenia	
@@ -55,7 +55,7 @@ restore_confirm_title		Restore Backup	Przywróć kopię zapasową
 restore_failed		Restore failed	Przywracanie kopii nieudane	
 restore_success		Restore successful	Przywracanie kopii udane	
 task_backup_title		Backing up	Tworzenie kopii zapasowej	
-task_calculating_streaks_title		Calculating streaks	Obliczanie serii	
+task_calculating_streaks_title		Calculating progress	Obliczanie postępu	
 task_generating_random_data		Generating random data	Tworzenie losowych danych	
 task_loading_servings_history_title		Loading Servings History	Ładowanie historii porcji	
 task_loading_weights_history_title		Loading Weights History	Ładowanie historii pomiarów wagi	
