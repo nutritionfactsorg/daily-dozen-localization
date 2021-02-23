@@ -192,8 +192,8 @@
                                                                         </label>
                                                                     </subviews>
                                                                 </stackView>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This app was created by: - NutritionFacts.org - Christi Richards - Konstantin Khokhlov - Marc Campbell" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zgt-w4-qQw" customClass="ActiveLabel" customModule="ActiveLabel">
-                                                                    <rect key="frame" x="8" y="68.5" width="303" height="137"/>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This app was created by: - NutritionFacts.org - Christi Richards - Konstantin Khokhlov - Marc Campbell" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zgt-w4-qQw" customClass="ActiveLabel" customModule="ActiveLabel">
+                                                                    <rect key="frame" x="8" y="59.5" width="303" height="184"/>
                                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                                                     <color key="textColor" red="0.23437002300000001" green="0.25768834350000003" blue="0.3199615777" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     <nil key="highlightedColor"/>
@@ -273,13 +273,13 @@
     </scenes>
     <designables>
         <designable name="Zgt-w4-qQw">
-            <size key="intrinsicContentSize" width="785" height="21"/>
+            <size key="intrinsicContentSize" width="191" height="99.5"/>
         </designable>
         <designable name="dwQ-CS-gz3">
-            <size key="intrinsicContentSize" width="1239" height="21"/>
+            <size key="intrinsicContentSize" width="1238.5" height="20"/>
         </designable>
         <designable name="pUm-f4-zm1">
-            <size key="intrinsicContentSize" width="857" height="21"/>
+            <size key="intrinsicContentSize" width="857" height="20"/>
         </designable>
     </designables>
     <resources>

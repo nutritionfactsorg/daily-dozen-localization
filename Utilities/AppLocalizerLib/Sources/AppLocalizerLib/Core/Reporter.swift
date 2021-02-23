@@ -40,8 +40,10 @@ struct Reporter {
         inactiveAppleDict["pUm-f4-zm1.text"] = "InfoMenuAboutLayout '…open source libraries…' manual edit?"
         
         // Superceded random values
-        inactiveAppleDict["GiY-ao-2ee.headerTitle"] = "superceded by reminder.heading"
         
+        // Daily Reminder (alert title, settings section heading)
+        inactiveAppleDict["GiY-ao-2ee.headerTitle"] = "superceded by reminder.heading"
+        /* Enable Reminders (toggle switch label) */
         inactiveAppleDict["pjz-An-Ls5.text"] = "superceded by reminder.settings.enable"
         inactiveAppleDict["itH-G7-Kal.text"] = "superceded by reminder.settings.enable"
         inactiveAppleDict["kR3-Sa-Fpt.text"] = "superceded by reminder.settings.time"

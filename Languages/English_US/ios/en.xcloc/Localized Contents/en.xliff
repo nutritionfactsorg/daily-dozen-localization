@@ -2,12 +2,12 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
   <file original="DailyDozen/App/SupportingFiles/en.lproj/InfoPlist.strings" source-language="en" target-language="en" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
     </header>
     <body>
       <trans-unit id="CFBundleDisplayName" xml:space="preserve">
-        <source>DailyDozen ML</source>
-        <target>DailyDozen ML</target>
+        <source>DailyDozen</source>
+        <target>DailyDozen</target>
         <note>Bundle display name</note>
       </trans-unit>
       <trans-unit id="CFBundleName" xml:space="preserve">
@@ -34,29 +34,9 @@
   </file>
   <file original="DailyDozen/App/Texts/LocalStrings/en.lproj/Localizable.strings" source-language="en" target-language="en" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
     </header>
     <body>
-      <trans-unit id="dailyReminder.settings" xml:space="preserve">
-        <source>Daily Reminder Settings</source>
-        <target>Daily Reminder Settings</target>
-        <note>daily_reminder_settings</note>
-      </trans-unit>
-      <trans-unit id="dailyReminder.subtitle" xml:space="preserve">
-        <source>dailyReminder.subtitle</source>
-        <target>dailyReminder.subtitle</target>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="dailyReminder.text" xml:space="preserve">
-        <source>Update your servings for today</source>
-        <target>Update your servings for today</target>
-        <note>daily_reminder_text</note>
-      </trans-unit>
-      <trans-unit id="dailyReminder.title" xml:space="preserve">
-        <source>Daily Dozen Reminder</source>
-        <target>Daily Dozen Reminder</target>
-        <note>daily_reminder_title</note>
-      </trans-unit>
       <trans-unit id="dateBackButtonTitle" xml:space="preserve">
         <source>Back to today</source>
         <target>Back to today</target>
@@ -230,6 +210,56 @@ Vitamin B12 is included in this app to provide you with an easy way to track you
         <source>Vitamin D</source>
         <target>Vitamin D</target>
         <note>display heading</note>
+      </trans-unit>
+      <trans-unit id="reminder.alert.text" xml:space="preserve">
+        <source>Update your servings for today</source>
+        <target>Update your servings for today</target>
+        <note>daily_reminder_text alert text</note>
+      </trans-unit>
+      <trans-unit id="reminder.heading" xml:space="preserve">
+        <source>Daily Reminder</source>
+        <target>Daily Reminder</target>
+        <note>Daily Reminder (alert title, settings section heading)</note>
+      </trans-unit>
+      <trans-unit id="reminder.settings.enable" xml:space="preserve">
+        <source>Enable Reminders</source>
+        <target>Enable Reminders</target>
+        <note>Enable Reminders (toggle switch label)</note>
+      </trans-unit>
+      <trans-unit id="reminder.settings.sound" xml:space="preserve">
+        <source>Play Sound</source>
+        <target>Play Sound</target>
+        <note>play_sound</note>
+      </trans-unit>
+      <trans-unit id="reminder.settings.time" xml:space="preserve">
+        <source>Remind me at</source>
+        <target>Remind me at</target>
+        <note>remind_me_at</note>
+      </trans-unit>
+      <trans-unit id="reminder.settings.vibrate" xml:space="preserve">
+        <source>Vibrate</source>
+        <target>Vibrate</target>
+        <note>vibrate</note>
+      </trans-unit>
+      <trans-unit id="reminder.state.off" xml:space="preserve">
+        <source>Off</source>
+        <target>Off</target>
+        <note>'Off' as in 'On or Off'</note>
+      </trans-unit>
+      <trans-unit id="reminder.state.on" xml:space="preserve">
+        <source>On</source>
+        <target>On</target>
+        <note>'On' as in 'On or Off'</note>
+      </trans-unit>
+      <trans-unit id="settings.tweak.header" xml:space="preserve">
+        <source>21 Tweaks Visibility</source>
+        <target>21 Tweaks Visibility</target>
+        <note>Class = "UITableViewSection"; headerTitle = "21 Tweaks Visibility"; ObjectID = "WdR-XV-IyP";</note>
+      </trans-unit>
+      <trans-unit id="settings.units.header" xml:space="preserve">
+        <source>Measurement Units</source>
+        <target>Measurement Units</target>
+        <note>Class = "UITableViewSection"; headerTitle = "Measurement Units"; ObjectID = "IFs-g0-SPV";</note>
       </trans-unit>
       <trans-unit id="streakDaysFormat" xml:space="preserve">
         <source>%d days</source>
@@ -415,7 +445,7 @@ Vitamin B12 is included in this app to provide you with an easy way to track you
   </file>
   <file original="DailyDozen/App/Views/Base.lproj/FirstLaunch.storyboard" source-language="en" target-language="en" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
     </header>
     <body>
       <trans-unit id="Lef-Iw-Ywr.normalTitle" xml:space="preserve">
@@ -444,7 +474,7 @@ Vitamin B12 is included in this app to provide you with an easy way to track you
   </file>
   <file original="DailyDozen/DozeSection/DozeDetail/Views/Base.lproj/DozeDetailLayout.storyboard" source-language="en" target-language="en" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
     </header>
     <body>
       <trans-unit id="iJb-Vn-TS0.text" xml:space="preserve">
@@ -471,7 +501,7 @@ Vitamin B12 is included in this app to provide you with an easy way to track you
   </file>
   <file original="DailyDozen/DozeSection/DozeDetail/Views/Base.lproj/DozeDetailSizeHeader.xib" source-language="en" target-language="en" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
     </header>
     <body>
       <trans-unit id="eU6-je-hVN.text" xml:space="preserve">
@@ -483,7 +513,7 @@ Vitamin B12 is included in this app to provide you with an easy way to track you
   </file>
   <file original="DailyDozen/DozeSection/DozeDetail/Views/Base.lproj/DozeDetailSizeUnitHeader.xib" source-language="en" target-language="en" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
     </header>
     <body>
       <trans-unit id="1K3-d9-Hfb.normalTitle" xml:space="preserve">
@@ -505,7 +535,7 @@ Vitamin B12 is included in this app to provide you with an easy way to track you
   </file>
   <file original="DailyDozen/DozeSection/DozeDetail/Views/Base.lproj/DozeDetailTypeHeader.xib" source-language="en" target-language="en" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
     </header>
     <body>
       <trans-unit id="YVI-sV-TDX.text" xml:space="preserve">
@@ -517,7 +547,7 @@ Vitamin B12 is included in this app to provide you with an easy way to track you
   </file>
   <file original="DailyDozen/DozeSection/DozeEntry/Views/Base.lproj/DozeEntryExtrasHeader.xib" source-language="en" target-language="en" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
     </header>
     <body>
       <trans-unit id="W2v-Cp-vcd.text" xml:space="preserve">
@@ -529,7 +559,7 @@ Vitamin B12 is included in this app to provide you with an easy way to track you
   </file>
   <file original="DailyDozen/DozeSection/DozeEntry/Views/Base.lproj/DozeEntryLayout.storyboard" source-language="en" target-language="en" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
     </header>
     <body>
       <trans-unit id="1HM-mL-ZV9.text" xml:space="preserve">
@@ -556,7 +586,7 @@ Vitamin B12 is included in this app to provide you with an easy way to track you
   </file>
   <file original="DailyDozen/DozeSection/DozeEntry/Views/Base.lproj/DozeEntryPagerLayout.storyboard" source-language="en" target-language="en" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
     </header>
     <body>
       <trans-unit id="Qfe-bW-SP4.normalTitle" xml:space="preserve">
@@ -573,7 +603,7 @@ Vitamin B12 is included in this app to provide you with an easy way to track you
   </file>
   <file original="DailyDozen/DozeSection/DozeHistory/Views/Base.lproj/DozeHistoryLayout.storyboard" source-language="en" target-language="en" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
     </header>
     <body>
       <trans-unit id="27q-rq-qbu.text" xml:space="preserve">
@@ -610,7 +640,7 @@ Vitamin B12 is included in this app to provide you with an easy way to track you
   </file>
   <file original="DailyDozen/InfoMenu/InfoMenuAbout/Views/Base.lproj/InfoMenuAboutLayout.storyboard" source-language="en" target-language="en" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
     </header>
     <body>
       <trans-unit id="19L-gq-W5M.text" xml:space="preserve">
@@ -624,9 +654,9 @@ Vitamin B12 is included in this app to provide you with an easy way to track you
         <note>Class = "UILabel"; text = "Daily Dozen"; ObjectID = "DJR-bj-qUq";</note>
       </trans-unit>
       <trans-unit id="Zgt-w4-qQw.text" xml:space="preserve">
-        <source>This app was created by: - NutritionFacts.org - Christi Richards - Konstantin Khokhlov - Marc Campbell</source>
-        <target>This app was created by: - NutritionFacts.org - Christi Richards - Konstantin Khokhlov - Marc Campbell</target>
-        <note>Class = "UILabel"; text = "This app was created by: - NutritionFacts.org - Christi Richards - Konstantin Khokhlov - Marc Campbell"; ObjectID = "Zgt-w4-qQw";</note>
+        <source>This app was created by: - NutritionFacts.org - Christi Richards - Konstantin Khokhlov - Marc Campbell</source>
+        <target>This app was created by: - NutritionFacts.org - Christi Richards - Konstantin Khokhlov - Marc Campbell</target>
+        <note>Class = "UILabel"; text = "This app was created by: - NutritionFacts.org - Christi Richards - Konstantin Khokhlov - Marc Campbell"; ObjectID = "Zgt-w4-qQw";</note>
       </trans-unit>
       <trans-unit id="dwQ-CS-gz3.text" xml:space="preserve">
         <source>Use this app on a daily basis to keep track of the foods and advice I recommend for optimal health and longevity in my books How Not to Die and How Not to Diet.</source>
@@ -647,7 +677,7 @@ Vitamin B12 is included in this app to provide you with an easy way to track you
   </file>
   <file original="DailyDozen/InfoMenu/InfoMenuMain/Views/Base.lproj/InfoMenuMainLayout.storyboard" source-language="en" target-language="en" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
     </header>
     <body>
       <trans-unit id="Cxo-5D-YUZ.text" xml:space="preserve">
@@ -699,7 +729,7 @@ Vitamin B12 is included in this app to provide you with an easy way to track you
   </file>
   <file original="DailyDozen/ItemHistory/Views/Base.lproj/ItemHistoryLayout.storyboard" source-language="en" target-language="en" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
     </header>
     <body>
       <trans-unit id="S0Q-oB-VgE.text" xml:space="preserve">
@@ -721,7 +751,7 @@ Vitamin B12 is included in this app to provide you with an easy way to track you
   </file>
   <file original="DailyDozen/Settings/Views/Base.lproj/SettingsLayout.storyboard" source-language="en" target-language="en" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
     </header>
     <body>
       <trans-unit id="Ebp-Lw-fWk.normalTitle" xml:space="preserve">
@@ -808,7 +838,7 @@ Vitamin B12 is included in this app to provide you with an easy way to track you
   </file>
   <file original="DailyDozen/TweakSection/TweakDetail/Views/Base.lproj/TweakDetailActivityHeader.xib" source-language="en" target-language="en" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
     </header>
     <body>
       <trans-unit id="YVI-sV-TDA.text" xml:space="preserve">
@@ -820,7 +850,7 @@ Vitamin B12 is included in this app to provide you with an easy way to track you
   </file>
   <file original="DailyDozen/TweakSection/TweakDetail/Views/Base.lproj/TweakDetailActivityUnitHeader.xib" source-language="en" target-language="en" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
     </header>
     <body>
       <trans-unit id="M75-CQ-NVP.normalTitle" xml:space="preserve">
@@ -842,7 +872,7 @@ Vitamin B12 is included in this app to provide you with an easy way to track you
   </file>
   <file original="DailyDozen/TweakSection/TweakDetail/Views/Base.lproj/TweakDetailDescriptionHeader.xib" source-language="en" target-language="en" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
     </header>
     <body>
       <trans-unit id="YVI-sV-TDD.text" xml:space="preserve">
@@ -854,7 +884,7 @@ Vitamin B12 is included in this app to provide you with an easy way to track you
   </file>
   <file original="DailyDozen/TweakSection/TweakDetail/Views/Base.lproj/TweakDetailLayout.storyboard" source-language="en" target-language="en" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
     </header>
     <body>
       <trans-unit id="6m3-hV-PBi.text" xml:space="preserve">
@@ -876,7 +906,7 @@ Vitamin B12 is included in this app to provide you with an easy way to track you
   </file>
   <file original="DailyDozen/TweakSection/TweakEntry/Views/Base.lproj/TweakEntryLayout.storyboard" source-language="en" target-language="en" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
     </header>
     <body>
       <trans-unit id="5po-De-kCi.text" xml:space="preserve">
@@ -903,7 +933,7 @@ Vitamin B12 is included in this app to provide you with an easy way to track you
   </file>
   <file original="DailyDozen/TweakSection/TweakEntry/Views/Base.lproj/TweakEntryPagerLayout.storyboard" source-language="en" target-language="en" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
     </header>
     <body>
       <trans-unit id="7XY-Lo-Hwf.normalTitle" xml:space="preserve">
@@ -920,7 +950,7 @@ Vitamin B12 is included in this app to provide you with an easy way to track you
   </file>
   <file original="DailyDozen/TweakSection/TweakHistory/Views/Base.lproj/TweakHistoryLayout.storyboard" source-language="en" target-language="en" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
     </header>
     <body>
       <trans-unit id="5eb-qC-Ke5.text" xml:space="preserve">
@@ -957,7 +987,7 @@ Vitamin B12 is included in this app to provide you with an easy way to track you
   </file>
   <file original="DailyDozen/WeightSection/WeightEntry/Views/Base.lproj/WeightEntryLayout.storyboard" source-language="en" target-language="en" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
     </header>
     <body>
       <trans-unit id="7l0-os-Oqt.normalTitle" xml:space="preserve">
@@ -1004,7 +1034,7 @@ Vitamin B12 is included in this app to provide you with an easy way to track you
   </file>
   <file original="DailyDozen/WeightSection/WeightEntry/Views/Base.lproj/WeightEntryPagerLayout.storyboard" source-language="en" target-language="en" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
     </header>
     <body>
       <trans-unit id="OIQ-oh-3QN.normalTitle" xml:space="preserve">
@@ -1021,7 +1051,7 @@ Vitamin B12 is included in this app to provide you with an easy way to track you
   </file>
   <file original="DailyDozen/WeightSection/WeightHistory/Views/Base.lproj/WeightHistoryLayout.storyboard" source-language="en" target-language="en" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
     </header>
     <body>
       <trans-unit id="8ed-5m-QMc.text" xml:space="preserve">

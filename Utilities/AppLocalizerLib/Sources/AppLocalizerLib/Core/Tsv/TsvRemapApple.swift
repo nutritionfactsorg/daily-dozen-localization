@@ -44,13 +44,15 @@ struct TsvRemapApple {
         replaceDict["otherVitaminD"] = "otherVitaminD.heading"
         replaceDict["otherOmega3"] = "otherOmega3.heading"
 
+        // "Daily Reminder" Alert title. Settings section heading
         replaceDict["dailyReminder.title"] = "reminder.heading"
-        replaceDict["GiY-ao-2ee.headerTitle"] = "reminder.heading"
-
+        replaceDict["GiY-ao-2ee.headerTitle"] = "reminder.heading" 
+        // 
         replaceDict["dailyReminder.text"] = "reminder.alert.text"
         
         replaceDict["pjz-An-Ls5.text"] = "reminder.settings.enable"
         replaceDict["itH-G7-Kal.text"] = "reminder.settings.enable"
+        
         replaceDict["kR3-Sa-Fpt.text"] = "reminder.settings.time"
         replaceDict["YP6-dP-Y62.text"] = "reminder.settings.sound"
         replaceDict["XFw-2q-BdT.text"] = "reminder.state.on"
