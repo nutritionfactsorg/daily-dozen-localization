@@ -40,7 +40,7 @@
     <string name="url_subscribe">https://nutritionfacts.org/es/suscribete/</string>
     <string name="open_source">Código abierto</string>
     <string name="url_open_source">https://nutritionfacts.org/es/open-source/</string>
-    <string name="library_butterknife">ButterKnife</string>
+    <string name="library_butterknife" translatable="false">ButterKnife</string>
     <string name="permission_needed_to_write_storage">No puedes hacer copias de seguridad si no tienes permiso para guardarlas en el disco duro.</string>
     <string name="backup_failed">Copia de seguridad fallida</string>
     <string name="restore_failed">Restauración fallida</string>

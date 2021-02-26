@@ -333,6 +333,14 @@ struct TsvRowList {
 
     // MARK: - Output
 
+    func toStringDot() -> String {
+        var s = ""
+        for row in data {
+            s.append("\(row.toStringDot())••")
+        }
+        return s
+    }
+    
     func toStringDot(rowIdx: Int) -> String {
         return data[rowIdx].toStringDot()
     }

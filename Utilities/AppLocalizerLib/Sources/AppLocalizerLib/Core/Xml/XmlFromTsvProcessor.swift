@@ -105,17 +105,19 @@ struct XmlFromTsvProcessor {
                     node.stringValue = value
                     keysDroidXmlMatched.insert(keyId)
                 } else {
+                    //print(":DEBUG: keyId=\(keyId)")
                     keysDroidXmlUnmatched.insert(keyId)
                 }
             case "string-array":
                 for i in 0 ..< children.count {
-                    keyId = "\(keyId).\(i)" // fully specified
+                    let keyIdIndexed = "\(keyId).\(i)" // fully specified
                     if let child = element.child(at: i) {
-                        if let value = _lookupTableDroid[keyId] {
+                        if let value = _lookupTableDroid[keyIdIndexed] {
                             child.stringValue = value
-                            keysDroidXmlMatched.insert(keyId)
+                            keysDroidXmlMatched.insert(keyIdIndexed)
                         } else {
-                            keysDroidXmlUnmatched.insert(keyId)
+                            //print(":DEBUG: keyIdIndexed=\(keyIdIndexed)")
+                            keysDroidXmlUnmatched.insert(keyIdIndexed)
                         }
                     }
                 }

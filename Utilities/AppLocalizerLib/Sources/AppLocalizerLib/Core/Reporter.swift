@@ -53,6 +53,42 @@ struct Reporter {
         inactiveAppleDict["IFs-g0-SPV.headerTitle"] = "superceded by settings.units.header"
         inactiveAppleDict["WdR-XV-IyP.headerTitle"] = "superceded by settings.tweak.header"
 
+        inactiveAppleDict["cW5-dD-Zy0.text"] = "superceded by format_num_days %d days" 
+        inactiveAppleDict["Vbn-R9-kuu.text"] = "superceded by format_num_days %d days"
+        
+        inactiveAppleDict["nRL-iG-Wnd.text"] = "month (pager, doze) programatically set" 
+        inactiveAppleDict["UCg-Rc-mLf.text"] = "month (pager, doze) programatically set"
+        inactiveAppleDict["lTR-i5-Tn0.text"] = "month (pager, doze) programatically set"
+
+        // Not currently in use
+        inactiveAppleDict["otherOmega3.heading"] = "not currently in use" 
+        inactiveAppleDict["otherVitaminD.headin"] = "not currently in use" 
+                
+        // ---- Special Case: URL mappings
+        // Apple URLs
+        inactiveAppleDict["urlSegment.base"] = "Special case: url mappings"
+        inactiveAppleDict["urlSegment.lang"] = "Special case: url mappings"
+        inactiveAppleDict["urlSegmentInfoMenu.book"] = "Special case: url mappings"
+        inactiveAppleDict["urlSegmentInfoMenu.challenge"] = "Special case: url mappings"
+        inactiveAppleDict["urlSegmentInfoMenu.cookbook"] = "Special case: url mappings"
+        inactiveAppleDict["urlSegmentInfoMenu.diet"] = "Special case: url mappings"
+        inactiveAppleDict["urlSegmentInfoMenu.donate"] = "Special case: url mappings"
+        inactiveAppleDict["urlSegmentInfoMenu.source"] = "Special case: url mappings"
+        inactiveAppleDict["urlSegmentInfoMenu.subscribe"] = "Special case: url mappings"
+        inactiveAppleDict["urlSegmentInfoMenu.team"] = "Special case: url mappings"
+        inactiveAppleDict["urlSegmentInfoMenu.videos"] = "Special case: url mappings"
+        // Android URLs
+        inactiveAppleDict["urlSegment.base"] = "Special case: url mappings"
+        inactiveAppleDict["url_cookbook"] = "Special case: url mappings"
+        inactiveAppleDict["url_daily_dozen_challenge"] = "Special case: url mappings"
+        inactiveAppleDict["url_donate"] = "Special case: url mappings"
+        inactiveAppleDict["url_how_not_to_die"] = "Special case: url mappings"
+        inactiveAppleDict["url_how_not_to_diet"] = "Special case: url mappings"
+        inactiveAppleDict["url_latest_videos"] = "Special case: url mappings"
+        inactiveAppleDict["url_open_source"] = "Special case: url mappings"
+        inactiveAppleDict["url_subscribe"] = "Special case: url mappings"
+        
+        // ======================================
         inactiveDroidDict = [String: String]()
     }
     

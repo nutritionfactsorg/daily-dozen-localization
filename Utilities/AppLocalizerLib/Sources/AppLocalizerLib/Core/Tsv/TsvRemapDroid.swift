@@ -20,10 +20,11 @@ struct TsvRemapDroid {
         
         // given key_apple, then apply key_android
         crossmapDict = [String: String]()
-        crossmapDict["cW5-dD-Zy0.text"] = "format_num_days"
-        crossmapDict["nRL-iG-Wnd.text"] = "servings_time_scale_choices.1"
-        crossmapDict["UCg-Rc-mLf.text"] = "servings_time_scale_choices.1"
-        crossmapDict["lTR-i5-Tn0.text"] = "servings_time_scale_choices.1"
+        //crossmapDict["cW5-dD-Zy0.text"] = "format_num_days" // %d days
+        //crossmapDict["Vbn-R9-kuu.text"] = "format_num_days" // %d days
+        //crossmapDict["nRL-iG-Wnd.text"] = "servings_time_scale_choices.1" // month (pager, doze)
+        //crossmapDict["UCg-Rc-mLf.text"] = "servings_time_scale_choices.1" // month (pager, tweak)
+        //crossmapDict["lTR-i5-Tn0.text"] = "servings_time_scale_choices.1" // month (pager, weight)
     }
     
     func isDropped(_ key: String) -> Bool {
