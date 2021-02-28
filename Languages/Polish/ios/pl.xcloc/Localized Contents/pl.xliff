@@ -16,8 +16,7 @@
       </trans-unit>
       <trans-unit id="DailyDozen" xml:space="preserve">
         <source>DailyDozen</source>
-        <target>DailyDozen</target>
-        <note>(No Comment)</note>
+        <note/>
       </trans-unit>
       <trans-unit id="NSHealthShareUsageDescription" xml:space="preserve">
         <source>The 21 Tweaks feature accesses your HealthKit data to provide updates to your daily weight measurements.</source>
@@ -262,7 +261,7 @@ Vitamin B12 is included in this app to provide you with an easy way to track you
       </trans-unit>
       <trans-unit id="streakDaysFormat" xml:space="preserve">
         <source>%d days</source>
-        <target>%d days</target>
+        <target>%d dni</target>
         <note>streak days format</note>
       </trans-unit>
       <trans-unit id="tweakCompleteIntentions.heading" xml:space="preserve">
@@ -437,8 +436,18 @@ Vitamin B12 is included in this app to provide you with an easy way to track you
       </trans-unit>
       <trans-unit id="weightEntry.heading" xml:space="preserve">
         <source>Weight</source>
-        <target>Weight</target>
+        <target>Waga</target>
         <note>Weight entry heading</note>
+      </trans-unit>
+      <trans-unit id="weightEntry.text.kg" xml:space="preserve">
+        <source>kg</source>
+        <target>kg</target>
+        <note>metric system kilograms</note>
+      </trans-unit>
+      <trans-unit id="weightEntry.text.lbs" xml:space="preserve">
+        <source>lbs</source>
+        <target>funt</target>
+        <note>imperial system pounds</note>
       </trans-unit>
     </body>
   </file>
@@ -448,10 +457,9 @@ Vitamin B12 is included in this app to provide you with an easy way to track you
     </header>
     <body>
       <trans-unit id="Lef-Iw-Ywr.normalTitle" xml:space="preserve">
-        <source>Daily Dozen +
-21 Tweaks</source>
+        <source>Daily Dozen + 21 Tweaks</source>
         <target>Daily Dozen + 21 Adaptacji</target>
-        <note>Class = "UIButton"; normalTitle = "Daily Dozen +\n21 Tweaks"; ObjectID = "Lef-Iw-Ywr";</note>
+        <note>Class = "UIButton"; normalTitle = "Daily Dozen + 21 Tweaks"; ObjectID = "Lef-Iw-Ywr";</note>
       </trans-unit>
       <trans-unit id="OdG-YQ-lT8.text" xml:space="preserve">
         <source>For Health and Weight Loss</source>

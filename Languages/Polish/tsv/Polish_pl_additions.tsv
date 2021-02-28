@@ -30,7 +30,7 @@ dialog_no_email_apps_title		No email apps found	Nie znaleziono aplikacji poczty 
 dialog_streaks_message		Your database will now be upgraded to support the new progress feature.	Twoja baza danych zostanie uaktualniona by wspierać nową funkcję postępu.	
 dialog_streaks_title		New progress feature added!	Dodano nową funkcję postępu!	
 error_cannot_handle_url		Could not open url. Please install a browser.	Nie można otworzyć adresu URL. Proszę zainstalować przeglądarkę.	
-evening		Evening	Wieczór.	
+evening	historyRecordWeight.legendEvening	Evening	Wieczór.	
 food_history		Food History	Historia jedzenia	
 food_info		Food Info	Informacja o jedzeniu	
 format_version		version %s	wersja %s	
@@ -42,7 +42,7 @@ history_to_generate_choices.3		1 year	1 rok
 history_to_generate_choices.4		2 years	2 lata	
 history_to_generate_choices.5		5 years	5 lat	
 library_butterknife		ButterKnife	ButterKnife	
-morning		Morning	Ranek	
+morning	historyRecordWeight.legendMorning	Morning	Ranek	
 moving_average		Moving Average	Średnia ruchoma	
 no		No	Nie	
 no_servings_recorded		You have not recorded any servings yet!	Jeszcze nie zapisałeś żadnych porcji!	
@@ -67,9 +67,9 @@ tweak_group_daily		Every Day	Każdego dnia
 tweak_group_dailydoses		Take your daily doses	Przyjmij swoje dzienne dawki	
 tweak_group_meal		At Each Meal	Przy każdym posiłku	
 tweak_group_nightly		Every Night	Każdej nocy	
-tweaks		Tweaks	Adaptacje	
-weight		Weight	Waga	
-weight_history		Weight History	Historia pomiarów wagi	
+tweaks	historyRecordTweak.legend	Tweaks	Adaptacje	
+weight	weightEntry.heading	Weight	Waga	
+weight_history	historyRecordWeight.heading	Weight History	Historia pomiarów wagi	
 yes		Yes	Tak	
 	navtab.doze	Daily Dozen	Codzienny Tuzin	primary navigation tab title
 	navtab.info	Information	Informacja	primary navigation tab title. translate
@@ -78,3 +78,10 @@ yes		Yes	Tak
 	dozeOtherInfo.title	Supplements	Supplements	
 	dozeOtherInfo.message	"Vitamin B12 is essential for your health but does not count towards your daily servings.\n\nVitamin B12 is included in this app to provide you with an easy way to track your intake."	"Vitamin B12 is essential for your health but does not count towards your daily servings.\n\nVitamin B12 is included in this app to provide you with an easy way to track your intake."	
 	dozeOtherInfo.confirm	OK	OK	button title for dismissing message
+	historyRecordDoze.heading	Servings History	Historial de porciones	Historia porcji	
+	historyRecordDoze.legend	Servings	Porcje	
+	historyRecordTweak.heading	Tweaks History	Historia adaptacji	
+	historyRecordWeight.titleImperial	Weight (lbs)	Waga (funt)	
+	historyRecordWeight.titleMetric	Weight (kg)	Waga (kg)	
+	weightEntry.pounds	lbs	funt	
+	weightEntry.kilograms	kg	kg	
