@@ -76,9 +76,9 @@ yes		Yes	Tak
 	navtab.preferences	Preferences	Ustawienia	primary navigation tab title. translate as settings or preferences
 	navtab.tweaks	21 Tweaks	21 Adaptacji	primary navigation tab title. primary navigation tab
 	dozeOtherInfo.title	Supplements	Suplementy	
-	dozeOtherInfo.message	"Vitamin B12 is essential for your health but does not count towards your daily servings.\n\nVitamin B12 is included in this app to provide you with an easy way to track your intake."	"Vitamin B12 is essential for your health but does not count towards your daily servings.\n\nVitamin B12 is included in this app to provide you with an easy way to track your intake."	
+	dozeOtherInfo.message	"Vitamin B12 is essential for your health but does not count towards your daily servings.\n\nVitamin B12 is included in this app to provide you with an easy way to track your intake."	"Witamina B12 jest niezbędna dla zdrowia, ale nie jest uwzględniona w twoich dziennych porcjach.\n\nWitamina B12 jest wliczona do aplikacji, aby łatwiej śledzić jej spożycie."	
 	dozeOtherInfo.confirm	OK	OK	button title for dismissing message
-	historyRecordDoze.heading	Servings History	Historial de porciones	Historia porcji	
+	historyRecordDoze.heading	Servings History	Historia porcji	
 	historyRecordDoze.legend	Servings	Porcje	
 	historyRecordTweak.heading	Tweaks History	Historia adaptacji	
 	historyRecordWeight.titleImperial	Weight (lbs)	Waga (funt)	
