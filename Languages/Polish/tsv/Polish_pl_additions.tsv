@@ -75,7 +75,7 @@ yes		Yes	Tak
 	navtab.info	Information	Informacja	primary navigation tab title. translate
 	navtab.preferences	Preferences	Ustawienia	primary navigation tab title. translate as settings or preferences
 	navtab.tweaks	21 Tweaks	21 Adaptacji	primary navigation tab title. primary navigation tab
-	dozeOtherInfo.title	Supplements	Supplements	
+	dozeOtherInfo.title	Supplements	Suplementy	
 	dozeOtherInfo.message	"Vitamin B12 is essential for your health but does not count towards your daily servings.\n\nVitamin B12 is included in this app to provide you with an easy way to track your intake."	"Vitamin B12 is essential for your health but does not count towards your daily servings.\n\nVitamin B12 is included in this app to provide you with an easy way to track your intake."	
 	dozeOtherInfo.confirm	OK	OK	button title for dismissing message
 	historyRecordDoze.heading	Servings History	Historial de porciones	Historia porcji	
