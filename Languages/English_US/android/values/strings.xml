@@ -261,7 +261,7 @@
         <item>Vitamin B12</item>
     </string-array>
 
-    <string-array name="food_names">
+    <string-array name="food_names" translatable="false">
         <item>@string/beans</item>
         <item>@string/berries</item>
         <item>@string/other_fruits</item>
@@ -277,7 +277,7 @@
         <item>@string/vitamin_b12</item>
     </string-array>
 
-    <string-array name="notification_icon_food_names">
+    <string-array name="notification_icon_food_names" translatable="false">
         <item>@string/beans</item>
         <item>@string/berries</item>
         <item>@string/other_fruits</item>
@@ -413,7 +413,7 @@
         <item>Black-eyed peas</item>
         <item>Butter beans</item>
         <item>Cannellini beans</item>
-        <item>Chickpeas/Garbanzo Beans</item>
+        <item>Chickpeas/Garbanzo beans</item>
         <item>Edamame</item>
         <item>English peas</item>
         <item>Great northern beans</item>
@@ -881,7 +881,6 @@
         <item>chickpeas</item>
         <item>edamame</item>
         <item/>
-        <item>garbanzo-beans</item>
         <item/>
         <item>kidney-beans</item>
         <item>lentils</item>
