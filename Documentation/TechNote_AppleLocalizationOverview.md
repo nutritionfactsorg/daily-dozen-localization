@@ -56,7 +56,7 @@ A localized `Storyboard` auto-generates fixed, random ids on a _per use basis_ i
 * Good: the app strings can now be translated and a multi-language app released.
 * Not-So-Good: app gained a large number of `*.lproj` directories and `*.lproj` directories. ... _like 1,290 additional files for 43 languages._
 
-So, good news, translated apps can be now be published. However, a ["Phase Out Random IDs"](#phase-out-random-ids-) has been added to the path forward.
+So, good news, translated apps can be now be published. However, a ["Phase Out Random IDs"](#phase-out-random-ids-) needed to be added to the path forward.
 
 > Status: Baseline implementation done in v3.2.1 for Left-to-Right regions
 
@@ -78,7 +78,7 @@ The <code>[daily-dozen-localization](https://github.com/nutritionfactsorg/daily-
 
 ### Localize App Store Presentation <a id="localize-app-store-presentation-"></a><sup>[▴](#contents)</sup>
 
-Polish is the first language to have the text translate for use in the Android and Apple App Store regionalized pages. See the [Polish_pl_appstore*.tsv file the Polish/tsv folder](https://github.com/nutritionfactsorg/daily-dozen-localization/blob/master/Languages/Polish/tsv).
+Polish is the first language to have the text translate for use in the Android and Apple App Store regionalized pages. See the `Polish_pl_appstore*.tsv` file in the [Languages/Polish/tsv folder](https://github.com/nutritionfactsorg/daily-dozen-localization/blob/master/Languages/Polish/tsv).
 
 Here are the regional app store pages where the translated copy is expected to show up:
 
