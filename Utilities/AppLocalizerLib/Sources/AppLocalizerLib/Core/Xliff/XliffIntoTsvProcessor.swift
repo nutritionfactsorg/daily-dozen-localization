@@ -35,18 +35,30 @@ struct XliffIntoTsvProcessor: TsvProtocol {
                     sourceValue = childNode.stringValue ?? ""
                 case "target":
                     targetValue = childNode.stringValue ?? ""              
-                case "note":
+                case "base_note":
                     noteValue = childNode.stringValue ?? ""
                 default:
                     break
                 }
             }
+            
+            // :!!!:NYI: needed to be escapes properly for TSV
+            sourceValue = sourceValue
+                .replacingOccurrences(of: "\t", with: "Ⓣ")
+                .replacingOccurrences(of: "\n", with: "Ⓝ")
+            targetValue = targetValue
+                .replacingOccurrences(of: "\t", with: "Ⓣ")
+                .replacingOccurrences(of: "\n", with: "Ⓝ")
+            noteValue = noteValue
+                .replacingOccurrences(of: "\t", with: "Ⓣ")
+                .replacingOccurrences(of: "\n", with: "Ⓝ")
+
             let newRow = TsvRow(
                 key_android: "", 
                 key_apple: keyId, 
                 base_value: sourceValue, 
                 lang_value: targetValue, 
-                note: noteValue
+                base_note: noteValue
             )
             tsvRowList.putRowValues(key: keyId, keyType: .apple, row: newRow)
         } else if let children = element.children {

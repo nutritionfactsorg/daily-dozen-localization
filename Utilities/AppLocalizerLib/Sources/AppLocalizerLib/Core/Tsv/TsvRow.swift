@@ -14,18 +14,18 @@ struct TsvRow {
     var base_value: String
     var lang_value: String
     /// comments
-    var note: String
+    var base_note: String // general information to assist translation
     
-    init(key_android: String, key_apple: String, base_value: String, lang_value: String, note: String) {
+    init(key_android: String, key_apple: String, base_value: String, lang_value: String, base_note: String) {
         self.key_android = key_android       
         self.key_apple = key_apple
         self.base_value = base_value
         self.lang_value = lang_value
-        self.note = note
+        self.base_note = base_note
     }
     
     func isEmpty() -> Bool {
-        return key_android.isEmpty && key_apple.isEmpty && base_value.isEmpty && lang_value.isEmpty && note.isEmpty
+        return key_android.isEmpty && key_apple.isEmpty && base_value.isEmpty && lang_value.isEmpty && base_note.isEmpty
     }
     
     func toString(includeNotes: Bool = false) -> String {
@@ -37,7 +37,7 @@ struct TsvRow {
             lang_value: \(lang_value)
             """
         if includeNotes {
-            s.append("note: \(note)")
+            s.append("note: \(base_note)")
         }
         return s
     }
@@ -45,7 +45,7 @@ struct TsvRow {
     func toStringDot(includeNotes: Bool = false) -> String {
         var s = "\(key_android)Ⓣ\(key_apple)Ⓣ\(base_value)Ⓣ\(lang_value)"
         if includeNotes {
-            s.append("Ⓣ\(note)")
+            s.append("Ⓣ\(base_note)")
         }
         return "\(key_android)Ⓣ\(key_apple)Ⓣ\(base_value)Ⓣ\(lang_value)"
     }
@@ -55,7 +55,7 @@ struct TsvRow {
         s.append("\(toTsvQuoted(key_apple))\t")
         s.append("\(toTsvQuoted(base_value))\t")
         s.append("\(toTsvQuoted(lang_value))\t")
-        s.append("\(toTsvQuoted(note))\r\n")
+        s.append("\(toTsvQuoted(base_note))\r\n")
         return s
     }
     

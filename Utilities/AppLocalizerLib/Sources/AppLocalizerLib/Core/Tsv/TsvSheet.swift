@@ -28,9 +28,11 @@ struct TsvSheet: TsvProtocol {
             var tmpTsvRowList = parseTsvFile(url: url)
             tmpTsvRowList = normalizeAndroidKeys(tsvRowList: tmpTsvRowList)
             tmpTsvRowList = normalizeAppleKeys(tsvRowList: tmpTsvRowList)
+            tmpTsvRowList = tmpTsvRowList.sorted()
             tsvRowList.append(contentsOf: tmpTsvRowList)
             writeTsvFile(tmpTsvRowList, baseTsvFileUrl: url)
         }
+        tsvRowList = tsvRowList.sorted()
     }
     
     /// Check for TSV keys not used
@@ -218,6 +220,7 @@ struct TsvSheet: TsvProtocol {
             r.key_apple = r.key_apple.replacingOccurrences(of: "\\[(.*)\\]", with: ".$1", options: .regularExpression)
             // "Serving." -> ".Serving."
             r.key_apple = r.key_apple.replacingOccurrences( of: "Serving.", with: ".Serving.", options: .literal)
+            r.key_apple = r.key_apple.replacingOccurrences( of: "..", with: ".", options: .literal)
             // "VarietyText." -> ".Variety.Text."
             r.key_apple = r.key_apple.replacingOccurrences(of: "VarietyText.", with: ".Variety.Text.", options: .literal)
             // "segmentTitles.0" -> "segmentTitles[0]"
@@ -346,7 +349,7 @@ struct TsvSheet: TsvProtocol {
                                     key_apple: record[1], 
                                     base_value: record[2], 
                                     lang_value: record[3],
-                                    note: record[4]
+                                    base_note: record[4]
                                 )
                                 if r.key_android != "key_droid" { // skip headings record
                                     recordList.append(r)                                    
@@ -422,7 +425,7 @@ struct TsvSheet: TsvProtocol {
                     key_apple: record[1], 
                     base_value: record[2], 
                     lang_value: record[3],
-                    note: record.count > 4 ? record[4] : ""
+                    base_note: record.count > 4 ? record[4] : ""
                 )
                 recordList.append(r) // Add last record
             }

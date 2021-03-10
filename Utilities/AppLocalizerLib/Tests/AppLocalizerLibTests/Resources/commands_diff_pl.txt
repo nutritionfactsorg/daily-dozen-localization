@@ -3,8 +3,18 @@
 ##################
 #DIFF_XML_A="Polish/android/values-pl/strings.xml"    
 #DIFF_XML_B="Polish/android/values-pl/strings.xml"    
-DIFF_XLIFF_A="Polish/ios/pl.20210217.master.xcloc/Localized Contents/pl.xliff" 
+
+##################
+### DIFF FILES ###
+##################
+DIFF_XLIFF_A="English_US/ios/en.xcloc/Localized Contents/en.xliff" 
 DIFF_XLIFF_B="Polish/ios/pl.xcloc/Localized Contents/pl.xliff" 
-  
+DO_DIFF_KEYS
+
+##################
+### DIFF FILES ###
+##################
+DIFF_XLIFF_A="German/ios/de.xcloc/Localized Contents/de.xliff" 
+DIFF_XLIFF_B="Polish/ios/pl.xcloc/Localized Contents/pl.xliff" 
 DO_DIFF_KEYS
 

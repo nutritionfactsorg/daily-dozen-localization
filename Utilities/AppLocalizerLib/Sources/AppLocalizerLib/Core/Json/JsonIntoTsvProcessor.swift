@@ -7,7 +7,7 @@ import Foundation
 
 /// JsonIntoTsvProcessor converts a JSON data structure into TSV data
 struct JsonIntoTsvProcessor: TsvProtocol {
-        
+    
     var tsvRowList = TsvRowList() /// [key_apple: TsvRow] 
     
     /// Read in from JSON file
@@ -46,7 +46,7 @@ struct JsonIntoTsvProcessor: TsvProtocol {
         processJsonIntoTsvDoze(baseOrLang: baseOrLang)
         processJsonIntoTsvTweak(baseOrLang: baseOrLang)
     }
-
+    
     mutating func processJsonIntoTsvDoze(baseOrLang: TsvBaseOrLangMode) {
         for entry in dozeInfo.itemsDict {
             let keyBase = entry.key
@@ -98,6 +98,9 @@ struct JsonIntoTsvProcessor: TsvProtocol {
     }
     
     private mutating func put(key: String, value: String, baseOrLang: TsvBaseOrLangMode) {
+        let value = value
+            .replacingOccurrences(of: "\t", with: "Ⓣ")
+            .replacingOccurrences(of: "\n", with: "Ⓝ")
         if var tsvRow = tsvRowList.get(key: key, keyType: .apple) {
             // Update
             switch baseOrLang {
@@ -114,11 +117,11 @@ struct JsonIntoTsvProcessor: TsvProtocol {
                 key_apple: key, 
                 base_value: baseOrLang == .baseMode ? value : "", 
                 lang_value: baseOrLang == .baseMode ? "" : value, 
-                note: "")
+                base_note: "")
             tsvRowList.putRowValues(key: key, keyType: .apple, row: newRow)
         }
     }
-
+    
     mutating func read(dozeJsonUrl: URL, tweakJsonUrl: URL) {
         do {
             let decoder = JSONDecoder()
@@ -142,5 +145,5 @@ struct JsonIntoTsvProcessor: TsvProtocol {
     // MARK: - Output
     
     // no TsvProtocol Output overrides
-
+    
 }

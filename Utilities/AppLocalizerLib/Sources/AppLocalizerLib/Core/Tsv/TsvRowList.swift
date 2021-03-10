@@ -41,7 +41,7 @@ struct TsvRowList {
             case .lang:
                 if r.lang_value == value { return true }
             case .note:
-                if r.note == value { return true }
+                if r.base_note == value { return true }
             }
         }
         return false
@@ -134,7 +134,7 @@ struct TsvRowList {
                 case .lang:
                     d.lang_value = d.lang_value.isEmpty ? value : d.lang_value
                 case .note:
-                    d.note = d.note.isEmpty ? value : d.note
+                    d.base_note = d.base_note.isEmpty ? value : d.base_note
                 }
             case .verbatim:
                 switch valueType {
@@ -143,7 +143,7 @@ struct TsvRowList {
                 case .lang:
                     d.lang_value = value
                 case .note:
-                    d.note = value
+                    d.base_note = value
                 }
             }
             data[i] = d // writeback
@@ -155,7 +155,7 @@ struct TsvRowList {
                 key_apple: keyType == .apple ? key : "", 
                 base_value: valueType == .base ? value : "", 
                 lang_value:  valueType == .lang ? value : "", 
-                note:  valueType == .note ? value : ""
+                base_note:  valueType == .note ? value : ""
             )
             data.append(newRow)
         }
@@ -180,11 +180,11 @@ struct TsvRowList {
             case .doNotOverwrite:
                 d.base_value = d.base_value.isEmpty ? row.base_value : d.base_value
                 d.lang_value = d.lang_value.isEmpty ? row.lang_value : d.lang_value
-                d.note = d.note.isEmpty ? row.note : d.note
+                d.base_note = d.base_note.isEmpty ? row.base_note : d.base_note
             case .verbatim:
                 d.base_value = row.base_value
                 d.lang_value = row.lang_value
-                d.note = row.note                
+                d.base_note = row.base_note                
             }
             data[i] = d // writeback
         }
@@ -195,7 +195,7 @@ struct TsvRowList {
                 key_apple: keyType == .apple ? key : "", 
                 base_value: row.base_value, 
                 lang_value: row.lang_value, 
-                note: row.note
+                base_note: row.base_note
             )
             data.append(newRow)
         }
@@ -256,7 +256,7 @@ struct TsvRowList {
             case .lang:
                 value = d.lang_value
             case .note:
-                value = d.note
+                value = d.base_note
             }
             result.putValue(key: key, keyType: withKeyType, value: value, valueType: ofValueType)
         }
@@ -283,35 +283,43 @@ struct TsvRowList {
         list.sort { (a: TsvRow, b: TsvRow) -> Bool in
             // Return true to order first element before the second.
             if !a.key_apple.isEmpty && !b.key_apple.isEmpty {
-                if !a.key_apple.isRandomKey && !b.key_apple.isRandomKey {
-                    return a.key_apple < b.key_apple
-                } else if !a.key_apple.isRandomKey {
-                    return true
-                } else if !b.key_apple.isRandomKey {
-                    return false
+                if a.key_apple.isRandomKey == false && b.key_apple.isRandomKey == false {
+                    return a.key_apple < b.key_apple          // key_apple x key_apple
+                } else if a.key_apple.isRandomKey {
+                    return false                              // random_id x key_apple
+                } else if b.key_apple.isRandomKey {
+                    return true                               // key_apple x random_id
                 } else {
-                    if !a.key_android.isEmpty && !b.key_android.isEmpty {
-                        return a.key_android < b.key_android
-                    } else if !a.key_android.isEmpty {
-                        return true
-                    } else if !b.key_android.isEmpty {
-                        return false
+                    // case: apple has two random_id, check for any android keys
+                    if a.key_android.isEmpty == false && b.key_android.isEmpty == false {
+                        return a.key_android < b.key_android  // key_droid x key_droid
+                    } else if a.key_android.isEmpty {
+                        return false                          // _________ x key_droid
+                    } else if b.key_android.isEmpty {
+                        return true                           // key_droid x _________
                     }
                 }
                 // case: two random apple keys. no android keys.
-                return a.base_value < b.base_value
-                // return a.key_apple < b.key_apple
-            } else if !a.key_apple.isEmpty && !a.key_apple.isRandomKey {
-                return true
+                if a.base_value.trimmingCharacters(in: .whitespaces) == b.base_value.trimmingCharacters(in: .whitespaces) {
+                    return a.key_apple < b.key_apple          // random_id x random_id
+                } else {
+                    return a.base_value < b.base_value        // base_value x base_value
+                }
+            } else if a.key_apple.isEmpty == false && a.key_apple.isRandomKey == false {
+                return true                                   // key_apple x _________
             } else if !b.key_apple.isEmpty && !b.key_apple.isRandomKey {
-                return false
+                return false                                  // _________ x key_apple
             }
-            if !a.key_android.isEmpty && !b.key_android.isEmpty {
-                return a.key_android < b.key_android                
-            } else if !a.key_android.isEmpty {
-                return true
+            // case: no key_apple, may have random_id
+            if a.key_android.isEmpty == false && b.key_android.isEmpty == false {
+                return a.key_android < b.key_android          // key_droid x key_droid
+            } else if a.key_android.isEmpty == false && b.key_android.isEmpty {
+                return true                                   // key_droid x _________
+            } else if a.key_android.isEmpty && b.key_android.isEmpty == false {
+                return false                                  // _________ x key_droid
             }
-            return false
+            // case: zero key_apple, zero key_droid, and maybe one random_id
+            return false // this case goes last in sort order
         }
         return TsvRowList(data: list)
     }

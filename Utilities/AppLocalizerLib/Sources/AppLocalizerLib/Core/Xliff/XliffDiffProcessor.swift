@@ -70,7 +70,7 @@ struct XliffDiffProcessor {
                     sourceValue = childNode.stringValue ?? ""
                 case "target":
                     targetValue = childNode.stringValue ?? ""              
-                case "note":
+                case "base_note":
                     noteValue = childNode.stringValue ?? ""
                 default:
                     break
@@ -81,7 +81,7 @@ struct XliffDiffProcessor {
                 key_apple: keyId, 
                 base_value: sourceValue, 
                 lang_value: targetValue, 
-                note: noteValue
+                base_note: noteValue
             )
             result.append(newRow)
         } else if let children = element.children {

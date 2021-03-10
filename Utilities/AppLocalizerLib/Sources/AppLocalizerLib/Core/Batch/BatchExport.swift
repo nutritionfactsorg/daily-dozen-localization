@@ -53,11 +53,11 @@ struct BatchExport {
         // /////////////////////////////////// //        
         // Note: TSV Sheets are remapped, patched and sorted
         let outputLangSheet_00 = TsvSheet(urlList: [outputLangTsv])
-        let filename_00 = "00_tsv_\(outputLangTsv.lastPathComponent)_output_begin"
+        let filename_00 = "00_tsv_output_begin_\(outputLangTsv.lastPathComponent)"
         outputLangSheet_00.writeTsvFile(fullUrl: fileUrl(filename_00))
         
         let sourceEnUSSheet_01 = TsvSheet(urlList: [sourceEnUSTsv])
-        let filename_01 = "01_tsv_\(sourceEnUSTsv.lastPathComponent)_base"
+        let filename_01 = "01_tsv_base_\(sourceEnUSTsv.lastPathComponent)"
         sourceEnUSSheet_01.writeTsvFile(fullUrl: fileUrl(filename_01))
         
         // :NYI: check for key deltas relative to EnglishUS baseline
@@ -104,8 +104,8 @@ struct BatchExport {
         // 
         // APPLE: DIFF apple_lang to apple_base
         let diff22_apple_base_lang = merge_22c_apple_lang.diffKeys(merge_21c_apple_enUS, byKeyType: .apple)
-        diff22_apple_base_lang.added.writeTsvFile(fileUrl("43(42->32)_Add_Apple.tsv"))
-        diff22_apple_base_lang.dropped.writeTsvFile(fileUrl("43(42->32)_Drop_Apple.tsv"))
+        diff22_apple_base_lang.added.writeTsvFile(fileUrl("22c?21c_add_apple.tsv"))
+        diff22_apple_base_lang.dropped.writeTsvFile(fileUrl("22c?21c_drop_apple.tsv"))
         
         //43_Merge_Apple_pl.tsv    (SOURCE ∆key, base_*, lang_* into OUTPUT)
         
@@ -113,11 +113,50 @@ struct BatchExport {
         
         // diff: merged_23_droid_both with outputLangSheet
         let diff_13_00_droid = outputLangSheet_00.diffKeys(merged_13_droid_both, byKeyType: .droid)
-        diff_13_00_droid.added.writeTsvFile(fileUrl("13->00_add_key_droid.tsv"))
-        diff_13_00_droid.dropped.writeTsvFile(fileUrl("13->00_drop_key_droid.tsv"))
+        diff_13_00_droid.added.writeTsvFile(fileUrl("13?00_add_key_droid.tsv"))
+        diff_13_00_droid.dropped.writeTsvFile(fileUrl("13?00_drop_key_droid.tsv"))
         
+        // --------- MERGE -------------
         
-        print(":FINISHED: BatchExport doExport")
+        let merge_Android = outputLangSheet_00
+            .applyingValues(
+                from: merge_23_apple_both, 
+                withKeyType: .apple, 
+                ofValueType: .base)
+            .applyingValues(
+                from: merge_23_apple_both, 
+                withKeyType: .apple, 
+                ofValueType: .lang)
+            .applyingValues(
+                from: merged_13_droid_both, 
+                withKeyType: .droid, 
+                ofValueType: .base)
+            .applyingValues(
+                from: merged_13_droid_both, 
+                withKeyType: .droid, 
+                ofValueType: .lang)
+        merge_Android.writeTsvFile(fileUrl("Android.tsv"))
+        
+        let merge_Apple = outputLangSheet_00
+            .applyingValues(
+                from: merged_13_droid_both, 
+                withKeyType: .droid, 
+                ofValueType: .base)
+            .applyingValues(
+                from: merged_13_droid_both, 
+                withKeyType: .droid, 
+                ofValueType: .lang)
+            .applyingValues(
+                from: merge_23_apple_both, 
+                withKeyType: .apple, 
+                ofValueType: .base)
+            .applyingValues(
+                from: merge_23_apple_both, 
+                withKeyType: .apple, 
+                ofValueType: .lang)
+        merge_Apple.writeTsvFile(fileUrl("Apple.tsv"))
+        
+        print(":END: BatchExport doExport ... but maybe not finished.")
     }
     
     // MARK: - Utilities

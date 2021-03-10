@@ -65,7 +65,7 @@ struct XmlIntoTsvProcessor: TsvProtocol {
                         key_apple: "", 
                         base_value: baseOrLang == .baseMode ? value : "", 
                         lang_value: baseOrLang == .baseMode ? "": value, 
-                        note: ""
+                        base_note: ""
                     )
                     tsvRowList.putRowValues(key: keyId, keyType: .droid, row: newRow)
                 }
@@ -89,7 +89,7 @@ struct XmlIntoTsvProcessor: TsvProtocol {
                                 key_apple: "", 
                                 base_value: baseOrLang == .baseMode ? value : "", 
                                 lang_value: baseOrLang == .baseMode ? "": value, 
-                                note: ""
+                                base_note: ""
                             )
                             tsvRowList.putRowValues(key: keyNumberedId, keyType: .droid, row: newRow)
                         }
