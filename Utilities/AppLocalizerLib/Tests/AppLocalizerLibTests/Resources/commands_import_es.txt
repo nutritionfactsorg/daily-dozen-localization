@@ -1,0 +1,18 @@
+##########################
+### IMPORT TRANSLATION ###
+##########################
+# Steps: 
+#   1. Read mapping files.
+#   2. Setup input & output files.
+#   3. Process each TSV input line. Last write wins.
+# Report:
+#   * For translations, report non-translated lines where enUS==LANG.
+#   * For `en`, report changed lines where enUS!=LANG.
+#   * Malformed lines
+#   * Duplicate keys. Duplicate keys with differing associated values
+SOURCE_TSV="Polish/tsv/Polish_pl.tsv"
+SOURCE_TSV="Polish/tsv/Polish_pl_appstore.tsv"
+#SOURCE_TSV="Polish/tsv/Polish_pl_additions.tsv"
+OUTPUT_DROID="Polish/android/values-pl/strings.xml"    
+OUTPUT_APPLE="Polish/ios/pl.xcloc/Localized Contents/pl.xliff"   
+DO_IMPORT_TSV

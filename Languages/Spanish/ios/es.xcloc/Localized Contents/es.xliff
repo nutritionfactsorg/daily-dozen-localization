@@ -16,8 +16,7 @@
       </trans-unit>
       <trans-unit id="DailyDozen" xml:space="preserve">
         <source>DailyDozen</source>
-        <target>DailyDozen</target>
-        <note>(No Comment)</note>
+        <note/>
       </trans-unit>
       <trans-unit id="NSHealthShareUsageDescription" xml:space="preserve">
         <source>The 21 Tweaks feature accesses your HealthKit data to provide updates to your daily weight measurements.</source>
@@ -174,6 +173,11 @@ La Vitamina B12 se incluye en esta aplicaci√≥n para proporcionarte una manera f√
         <source>Weight (kg)</source>
         <target>Peso (kg)</target>
         <note>Weight (kg)</note>
+      </trans-unit>
+      <trans-unit id="info.about.title" xml:space="preserve">
+        <source>About this app</source>
+        <target>Sobre esta app</target>
+        <note>About this app</note>
       </trans-unit>
       <trans-unit id="navtab.doze" xml:space="preserve">
         <source>Daily Dozen</source>
@@ -434,10 +438,25 @@ La Vitamina B12 se incluye en esta aplicaci√≥n para proporcionarte una manera f√
         <target>es/videos</target>
         <note>main info menu: videos</note>
       </trans-unit>
+      <trans-unit id="videos.link.label" xml:space="preserve">
+        <source>VIDEOS</source>
+        <target>Videos</target>
+        <note>Videos link label</note>
+      </trans-unit>
       <trans-unit id="weightEntry.heading" xml:space="preserve">
         <source>Weight</source>
         <target>Peso</target>
         <note>Weight entry heading</note>
+      </trans-unit>
+      <trans-unit id="weightEntry.text.kg" xml:space="preserve">
+        <source>kg</source>
+        <target>kg</target>
+        <note>metric system kilograms</note>
+      </trans-unit>
+      <trans-unit id="weightEntry.text.lbs" xml:space="preserve">
+        <source>lbs</source>
+        <target>libras</target>
+        <note>imperial system pounds</note>
       </trans-unit>
     </body>
   </file>
@@ -447,10 +466,9 @@ La Vitamina B12 se incluye en esta aplicaci√≥n para proporcionarte una manera f√
     </header>
     <body>
       <trans-unit id="Lef-Iw-Ywr.normalTitle" xml:space="preserve">
-        <source>Daily Dozen +
-21 Tweaks</source>
+        <source>Daily Dozen + 21 Tweaks</source>
         <target>Docena Diaria + 21 Ajustes</target>
-        <note>Class = "UIButton"; normalTitle = "Daily Dozen +\n21 Tweaks"; ObjectID = "Lef-Iw-Ywr";</note>
+        <note>Class = "UIButton"; normalTitle = "Daily Dozen + 21 Tweaks"; ObjectID = "Lef-Iw-Ywr";</note>
       </trans-unit>
       <trans-unit id="OdG-YQ-lT8.text" xml:space="preserve">
         <source>For Health and Weight Loss</source>
@@ -581,21 +599,6 @@ La Vitamina B12 se incluye en esta aplicaci√≥n para proporcionarte una manera f√
       </trans-unit>
     </body>
   </file>
-  <file original="DailyDozen/DozeSection/DozeEntry/Views/Base.lproj/DozeEntryPagerLayout.storyboard" source-language="en" target-language="es" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
-    </header>
-    <body>
-      <trans-unit id="Qfe-bW-SP4.normalTitle" xml:space="preserve">
-        <source>Back to today</source>
-        <note>Class = "UIButton"; normalTitle = "Back to today"; ObjectID = "Qfe-bW-SP4";</note>
-      </trans-unit>
-      <trans-unit id="pYb-py-Qqh.text" xml:space="preserve">
-        <source>Today</source>
-        <note>Class = "UITextField"; text = "Today"; ObjectID = "pYb-py-Qqh";</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="DailyDozen/DozeSection/DozeHistory/Views/Base.lproj/DozeHistoryLayout.storyboard" source-language="en" target-language="es" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
@@ -661,7 +664,7 @@ La Vitamina B12 se incluye en esta aplicaci√≥n para proporcionarte una manera f√
       <trans-unit id="gX5-vX-xBe.text" xml:space="preserve">
         <source>version 3.2.7</source>
         <target>versi√≥n 3.2.7</target>
-        <note>Class = "UILabel"; text = "version 3.3.0"; ObjectID = "gX5-vX-xBe";</note>
+        <note>Class = "UILabel"; text = "version 3.2.7"; ObjectID = "gX5-vX-xBe";</note>
       </trans-unit>
       <trans-unit id="pUm-f4-zm1.text" xml:space="preserve">
         <source>The following open source libraries are used: RealmSwift, Charts, FSCalendar, SimpleAnimation and ActiveLabel.</source>
@@ -756,7 +759,6 @@ La Vitamina B12 se incluye en esta aplicaci√≥n para proporcionarte una manera f√
       </trans-unit>
       <trans-unit id="GiY-ao-2ee.headerTitle" xml:space="preserve">
         <source>Daily Reminder</source>
-        <target>Recordatorio diario</target>
         <note>Class = "UITableViewSection"; headerTitle = "Daily Reminder"; ObjectID = "GiY-ao-2ee";</note>
       </trans-unit>
       <trans-unit id="IFs-g0-SPV.footerTitle" xml:space="preserve">
@@ -766,7 +768,6 @@ La Vitamina B12 se incluye en esta aplicaci√≥n para proporcionarte una manera f√
       </trans-unit>
       <trans-unit id="IFs-g0-SPV.headerTitle" xml:space="preserve">
         <source>Measurement Units</source>
-        <target>Unidades de medida</target>
         <note>Class = "UITableViewSection"; headerTitle = "Measurement Units"; ObjectID = "IFs-g0-SPV";</note>
       </trans-unit>
       <trans-unit id="OZO-Xa-v5G.segmentTitles[0]" xml:space="preserve">
@@ -803,32 +804,26 @@ solamente</target>
       </trans-unit>
       <trans-unit id="WdR-XV-IyP.headerTitle" xml:space="preserve">
         <source>21 Tweaks Visibility</source>
-        <target>Visibilidad de 21 Ajustes</target>
         <note>Class = "UITableViewSection"; headerTitle = "21 Tweaks Visibility"; ObjectID = "WdR-XV-IyP";</note>
       </trans-unit>
       <trans-unit id="XFw-2q-BdT.text" xml:space="preserve">
         <source>On</source>
-        <target>On</target>
         <note>Class = "UILabel"; text = "On"; ObjectID = "XFw-2q-BdT";</note>
       </trans-unit>
       <trans-unit id="YP6-dP-Y62.text" xml:space="preserve">
         <source>Play Sound</source>
-        <target>Sonido</target>
         <note>Class = "UILabel"; text = "Play Sound"; ObjectID = "YP6-dP-Y62";</note>
       </trans-unit>
       <trans-unit id="itH-G7-Kal.text" xml:space="preserve">
         <source>Enable Reminders</source>
-        <target>Configuraci√≥n del Recordatorio Diario</target>
         <note>Class = "UILabel"; text = "Enable Reminders"; ObjectID = "itH-G7-Kal";</note>
       </trans-unit>
       <trans-unit id="kR3-Sa-Fpt.text" xml:space="preserve">
         <source>Remind me at:</source>
-        <target>Recuerdame a las</target>
         <note>Class = "UILabel"; text = "Remind me at:"; ObjectID = "kR3-Sa-Fpt";</note>
       </trans-unit>
       <trans-unit id="pjz-An-Ls5.text" xml:space="preserve">
         <source>Enable Reminders</source>
-        <target>Activa el Recordatorio Diario</target>
         <note>Class = "UILabel"; text = "Enable Reminders"; ObjectID = "pjz-An-Ls5";</note>
       </trans-unit>
     </body>
@@ -925,21 +920,6 @@ solamente</target>
         <source>Label</source>
         <target>marcador de posici√≥n</target>
         <note>Class = "UILabel"; text = "Label"; ObjectID = "YGb-Uj-J69";</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="DailyDozen/TweakSection/TweakEntry/Views/Base.lproj/TweakEntryPagerLayout.storyboard" source-language="en" target-language="es" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
-    </header>
-    <body>
-      <trans-unit id="7XY-Lo-Hwf.normalTitle" xml:space="preserve">
-        <source>Back to today</source>
-        <note>Class = "UIButton"; normalTitle = "Back to today"; ObjectID = "7XY-Lo-Hwf";</note>
-      </trans-unit>
-      <trans-unit id="YWB-e7-bAF.text" xml:space="preserve">
-        <source>Today</source>
-        <note>Class = "UITextField"; text = "Today"; ObjectID = "YWB-e7-bAF";</note>
       </trans-unit>
     </body>
   </file>

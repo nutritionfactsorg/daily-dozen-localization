@@ -1,0 +1,47 @@
+#############################
+### EXPORT SOURCES TO TSV ###
+#############################
+##### Engligh_US_en (reference set generation)
+OUTPUT_LANG_TSV="English_US/tsv/English_US_en.20210309.tsv"
+SOURCE_enUS_TSV="English_US/tsv/English_US_en.20210309.tsv"
+SOURCE_enUS_DROID="English_US/android/values/strings.xml"
+SOURCE_LANG_DROID="English_US/android/values/strings.xml"
+SOURCE_enUS_APPLE="English_US/ios/en.xcloc/Localized Contents/en.xliff" 
+SOURCE_LANG_APPLE="English_US/ios/en.xcloc/Localized Contents/en.xliff"
+DO_EXPORT_TSV
+
+##### Polish_pl
+OUTPUT_LANG_TSV="Polish/tsv/Polish_pl.20210309.tsv"
+SOURCE_enUS_TSV="English_US/tsv/English_US_en.20210309.tsv"
+## Android
+SOURCE_enUS_DROID="English_US/android/values/strings.xml"
+SOURCE_LANG_DROID="Polish/android/values-pl/strings.xml"
+## Apple
+SOURCE_enUS_APPLE="English_US/ios/en.xcloc/Localized Contents/en.xliff" 
+SOURCE_LANG_APPLE="Polish/ios/pl.xcloc/Localized Contents/pl.xliff"
+DO_EXPORT_TSV   
+
+######################
+##### Spanish_es #####
+######################
+OUTPUT_LANG_TSV="Spanish/tsv/Spanish_es.20210309.tsv"
+SOURCE_enUS_TSV="English_US/tsv/English_US_en.20210309.tsv"
+## Android
+SOURCE_enUS_DROID="English_US/android/values/strings.xml"
+SOURCE_LANG_DROID="Spanish/android/values-es/strings.xml"
+## Apple
+SOURCE_enUS_APPLE="English_US/ios/en.xcloc/Localized Contents/en.xliff" 
+SOURCE_LANG_APPLE="Spanish/ios/es.xcloc/Localized Contents/es.xliff"
+DO_EXPORT_TSV
+
+############
+### QUIT ###
+############
+QUIT
+# Thats all for now.
+
+##### Chinese
+# Note: seed traditional Chinese translation with existing Android zh 
+SOURCE_LANG_DROID="Chinese_Traditional/android/values-zh/strings.xml"
+OUTPUT_LANG_TSV="Chinese_Traditional/tsv/Chinese_Traditional_zh-Hant.tsv"
+DO_EXPORT_TSV

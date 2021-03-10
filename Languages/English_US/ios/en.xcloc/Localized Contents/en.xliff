@@ -18,7 +18,7 @@
       <trans-unit id="DailyDozen" xml:space="preserve">
         <source>DailyDozen</source>
         <target>DailyDozen</target>
-        <note>(No Comment)</note>
+        <note/>
       </trans-unit>
       <trans-unit id="NSHealthShareUsageDescription" xml:space="preserve">
         <source>The 21 Tweaks feature accesses your HealthKit data to provide updates to your daily weight measurements.</source>
@@ -175,6 +175,11 @@ Vitamin B12 is included in this app to provide you with an easy way to track you
         <source>Weight (kg)</source>
         <target>Weight (kg)</target>
         <note>Weight (kg)</note>
+      </trans-unit>
+      <trans-unit id="info.about.title" xml:space="preserve">
+        <source>About this app</source>
+        <target>About this app</target>
+        <note>About this app</note>
       </trans-unit>
       <trans-unit id="navtab.doze" xml:space="preserve">
         <source>Daily Dozen</source>
@@ -436,10 +441,25 @@ Vitamin B12 is included in this app to provide you with an easy way to track you
         <target>videos</target>
         <note>main info menu: videos</note>
       </trans-unit>
+      <trans-unit id="videos.link.label" xml:space="preserve">
+        <source>VIDEOS</source>
+        <target>VIDEOS</target>
+        <note>Videos link label</note>
+      </trans-unit>
       <trans-unit id="weightEntry.heading" xml:space="preserve">
         <source>Weight</source>
         <target>Weight</target>
         <note>Weight entry heading</note>
+      </trans-unit>
+      <trans-unit id="weightEntry.text.kg" xml:space="preserve">
+        <source>kg</source>
+        <target>kg</target>
+        <note>metric system kilograms</note>
+      </trans-unit>
+      <trans-unit id="weightEntry.text.lbs" xml:space="preserve">
+        <source>lbs</source>
+        <target>lbs</target>
+        <note>imperial system pounds</note>
       </trans-unit>
     </body>
   </file>
@@ -449,11 +469,9 @@ Vitamin B12 is included in this app to provide you with an easy way to track you
     </header>
     <body>
       <trans-unit id="Lef-Iw-Ywr.normalTitle" xml:space="preserve">
-        <source>Daily Dozen +
-21 Tweaks</source>
-        <target>Daily Dozen +
-21 Tweaks</target>
-        <note>Class = "UIButton"; normalTitle = "Daily Dozen +\n21 Tweaks"; ObjectID = "Lef-Iw-Ywr";</note>
+        <source>Daily Dozen + 21 Tweaks</source>
+        <target>Daily Dozen + 21 Tweaks</target>
+        <note>Class = "UIButton"; normalTitle = "Daily Dozen + 21 Tweaks"; ObjectID = "Lef-Iw-Ywr";</note>
       </trans-unit>
       <trans-unit id="OdG-YQ-lT8.text" xml:space="preserve">
         <source>For Health and Weight Loss</source>
@@ -584,23 +602,6 @@ Vitamin B12 is included in this app to provide you with an easy way to track you
       </trans-unit>
     </body>
   </file>
-  <file original="DailyDozen/DozeSection/DozeEntry/Views/Base.lproj/DozeEntryPagerLayout.storyboard" source-language="en" target-language="en" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
-    </header>
-    <body>
-      <trans-unit id="Qfe-bW-SP4.normalTitle" xml:space="preserve">
-        <source>Back to today</source>
-        <target>Back to today</target>
-        <note>Class = "UIButton"; normalTitle = "Back to today"; ObjectID = "Qfe-bW-SP4";</note>
-      </trans-unit>
-      <trans-unit id="pYb-py-Qqh.text" xml:space="preserve">
-        <source>Today</source>
-        <target>Today</target>
-        <note>Class = "UITextField"; text = "Today"; ObjectID = "pYb-py-Qqh";</note>
-      </trans-unit>
-    </body>
-  </file>
   <file original="DailyDozen/DozeSection/DozeHistory/Views/Base.lproj/DozeHistoryLayout.storyboard" source-language="en" target-language="en" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
@@ -664,9 +665,9 @@ Vitamin B12 is included in this app to provide you with an easy way to track you
         <note>Class = "UILabel"; text = "Use this app on a daily basis to keep track of the foods and advice I recommend for optimal health and longevity in my books How Not to Die and How Not to Diet."; ObjectID = "dwQ-CS-gz3";</note>
       </trans-unit>
       <trans-unit id="gX5-vX-xBe.text" xml:space="preserve">
-        <source>version 3.3.0</source>
-        <target>version 3.3.0</target>
-        <note>Class = "UILabel"; text = "version 3.3.0"; ObjectID = "gX5-vX-xBe";</note>
+        <source>version 3.2.7</source>
+        <target>version 3.2.7</target>
+        <note>Class = "UILabel"; text = "version 3.2.7"; ObjectID = "gX5-vX-xBe";</note>
       </trans-unit>
       <trans-unit id="pUm-f4-zm1.text" xml:space="preserve">
         <source>The following open source libraries are used: RealmSwift, Charts, FSCalendar, SimpleAnimation and ActiveLabel.</source>
@@ -928,23 +929,6 @@ Vitamin B12 is included in this app to provide you with an easy way to track you
         <source>Label</source>
         <target>Label</target>
         <note>Class = "UILabel"; text = "Label"; ObjectID = "YGb-Uj-J69";</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="DailyDozen/TweakSection/TweakEntry/Views/Base.lproj/TweakEntryPagerLayout.storyboard" source-language="en" target-language="en" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.4" build-num="12D4e"/>
-    </header>
-    <body>
-      <trans-unit id="7XY-Lo-Hwf.normalTitle" xml:space="preserve">
-        <source>Back to today</source>
-        <target>Back to today</target>
-        <note>Class = "UIButton"; normalTitle = "Back to today"; ObjectID = "7XY-Lo-Hwf";</note>
-      </trans-unit>
-      <trans-unit id="YWB-e7-bAF.text" xml:space="preserve">
-        <source>Today</source>
-        <target>Today</target>
-        <note>Class = "UITextField"; text = "Today"; ObjectID = "YWB-e7-bAF";</note>
       </trans-unit>
     </body>
   </file>

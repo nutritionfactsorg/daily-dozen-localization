@@ -118,3 +118,15 @@
 
 /* Class = "UITableViewSection"; headerTitle = "21 Tweaks Visibility"; ObjectID = "WdR-XV-IyP"; */
 "settings.tweak.header" = "21 Tweaks Visibility";
+
+/* metric system kilograms */
+"weightEntry.text.kg" = "kg";
+
+/* imperial system pounds */
+"weightEntry.text.lbs" = "lbs";
+
+/* About this app */
+"info.about.title" = "About this app";
+
+/* Videos link label */
+"videos.link.label" = "VIDEOS";
