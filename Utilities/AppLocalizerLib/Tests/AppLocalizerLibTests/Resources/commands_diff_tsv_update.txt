@@ -1,0 +1,353 @@
+##################
+### DIFF FILES ###
+##################
+DIFF_TSV_A="English_US/tsv/English_US_en.20210309.tsv"
+DIFF_TSV_B="Afrikaans/tsv/Afrikaans_af.tsv"
+DO_DIFF_KEYS
+CLEAR_ALL
+
+##################
+### DIFF FILES ###
+##################
+DIFF_TSV_A="English_US/tsv/English_US_en.20210309.tsv"
+DIFF_TSV_B="Arabic/tsv/Arabic_ar.tsv"
+DO_DIFF_KEYS
+CLEAR_ALL
+
+##################
+### DIFF FILES ###
+##################
+DIFF_TSV_A="English_US/tsv/English_US_en.20210309.tsv"
+DIFF_TSV_B="Bhojpuri/tsv/Bhojpuri_bho.tsv"
+DO_DIFF_KEYS
+CLEAR_ALL
+
+##################
+### DIFF FILES ###
+##################
+DIFF_TSV_A="English_US/tsv/English_US_en.20210309.tsv"
+DIFF_TSV_B="Bulgarian/tsv/Bulgarian_bg.tsv"
+DO_DIFF_KEYS
+CLEAR_ALL
+
+##################
+### DIFF FILES ###
+##################
+DIFF_TSV_A="English_US/tsv/English_US_en.20210309.tsv"
+DIFF_TSV_B="Chinese_HongKong/tsv/Chinese_HongKong_zh_HK.tsv"
+DO_DIFF_KEYS
+CLEAR_ALL
+
+##################
+### DIFF FILES ###
+##################
+DIFF_TSV_A="English_US/tsv/English_US_en.20210309.tsv"
+DIFF_TSV_B="Chinese_Simplified/tsv/Chinese_Simplified_zh_Hans.tsv"
+DO_DIFF_KEYS
+CLEAR_ALL
+
+##################
+### DIFF FILES ###
+##################
+DIFF_TSV_A="English_US/tsv/English_US_en.20210309.tsv"
+DIFF_TSV_B="Chinese_Traditional/tsv/Chinese_Traditional_zh_Hant.tsv"
+DO_DIFF_KEYS
+CLEAR_ALL
+
+##################
+### DIFF FILES ###
+##################
+DIFF_TSV_A="English_US/tsv/English_US_en.20210309.tsv"
+DIFF_TSV_B="Czech/tsv/Czech_cs.tsv"
+DO_DIFF_KEYS
+CLEAR_ALL
+
+##################
+### DIFF FILES ###
+##################
+DIFF_TSV_A="English_US/tsv/English_US_en.20210309.tsv"
+DIFF_TSV_B="Danish/tsv/Danish_da.tsv"
+DO_DIFF_KEYS
+CLEAR_ALL
+
+##################
+### DIFF FILES ###
+##################
+DIFF_TSV_A="English_US/tsv/English_US_en.20210309.tsv"
+DIFF_TSV_B="Dutch/tsv/Dutch_nl.tsv"
+DO_DIFF_KEYS
+CLEAR_ALL
+
+##################
+### DIFF FILES ###
+##################
+DIFF_TSV_A="English_US/tsv/English_US_en.20210309.tsv"
+DIFF_TSV_B="English_GB/tsv/English_GB_en-GB.tsv"
+DO_DIFF_KEYS
+CLEAR_ALL
+
+##################
+### DIFF FILES ###
+##################
+DIFF_TSV_A="English_US/tsv/English_US_en.20210309.tsv"
+DIFF_TSV_B="Estonian/tsv/Estonian_et.tsv"
+DO_DIFF_KEYS
+CLEAR_ALL
+
+##################
+### DIFF FILES ###
+##################
+DIFF_TSV_A="English_US/tsv/English_US_en.20210309.tsv"
+DIFF_TSV_B="Finnish/tsv/Finnish_fi.tsv"
+DO_DIFF_KEYS
+CLEAR_ALL
+
+##################
+### DIFF FILES ###
+##################
+DIFF_TSV_A="English_US/tsv/English_US_en.20210309.tsv"
+DIFF_TSV_B="French/tsv/French_fr.tsv"
+DO_DIFF_KEYS
+CLEAR_ALL
+
+##################
+### DIFF FILES ###
+##################
+DIFF_TSV_A="English_US/tsv/English_US_en.20210309.tsv"
+DIFF_TSV_B="French_Canada/tsv/French_Canada_fr_CA.tsv"
+DO_DIFF_KEYS
+CLEAR_ALL
+
+##################
+### DIFF FILES ###
+##################
+DIFF_TSV_A="English_US/tsv/English_US_en.20210309.tsv"
+DIFF_TSV_B="Georgian/tsv/Georgian_ka.tsv"
+DO_DIFF_KEYS
+CLEAR_ALL
+
+##################
+### DIFF FILES ###
+##################
+DIFF_TSV_A="English_US/tsv/English_US_en.20210309.tsv"
+DIFF_TSV_B="German/tsv/German_de.tsv"
+DO_DIFF_KEYS
+CLEAR_ALL
+
+##################
+### DIFF FILES ###
+##################
+DIFF_TSV_A="English_US/tsv/English_US_en.20210309.tsv"
+DIFF_TSV_B="Greek/tsv/Greek_el.tsv"
+DO_DIFF_KEYS
+CLEAR_ALL
+
+##################
+### DIFF FILES ###
+##################
+DIFF_TSV_A="English_US/tsv/English_US_en.20210309.tsv"
+DIFF_TSV_B="Hebrew/tsv/Hebrew_he.tsv"
+DO_DIFF_KEYS
+CLEAR_ALL
+
+##################
+### DIFF FILES ###
+##################
+DIFF_TSV_A="English_US/tsv/English_US_en.20210309.tsv"
+DIFF_TSV_B="Hindi/tsv/Hindi_hi.tsv"
+DO_DIFF_KEYS
+CLEAR_ALL
+
+##################
+### DIFF FILES ###
+##################
+DIFF_TSV_A="English_US/tsv/English_US_en.20210309.tsv"
+DIFF_TSV_B="Hungarian/tsv/Hungarian_hu.tsv"
+DO_DIFF_KEYS
+CLEAR_ALL
+
+##################
+### DIFF FILES ###
+##################
+DIFF_TSV_A="English_US/tsv/English_US_en.20210309.tsv"
+DIFF_TSV_B="Italian/tsv/Italian_it.tsv"
+DO_DIFF_KEYS
+CLEAR_ALL
+
+##################
+### DIFF FILES ###
+##################
+DIFF_TSV_A="English_US/tsv/English_US_en.20210309.tsv"
+DIFF_TSV_B="Japanese/tsv/Japanese_ja.tsv"
+DO_DIFF_KEYS
+CLEAR_ALL
+
+##################
+### DIFF FILES ###
+##################
+DIFF_TSV_A="English_US/tsv/English_US_en.20210309.tsv"
+DIFF_TSV_B="Kannada/tsv/Kannada_kn.tsv"
+DO_DIFF_KEYS
+CLEAR_ALL
+
+##################
+### DIFF FILES ###
+##################
+DIFF_TSV_A="English_US/tsv/English_US_en.20210309.tsv"
+DIFF_TSV_B="Korean/tsv/Korean_ko.tsv"
+DO_DIFF_KEYS
+CLEAR_ALL
+
+##################
+### DIFF FILES ###
+##################
+DIFF_TSV_A="English_US/tsv/English_US_en.20210309.tsv"
+DIFF_TSV_B="Lithuanian/tsv/Lithuanian_lt.tsv"
+DO_DIFF_KEYS
+CLEAR_ALL
+
+##################
+### DIFF FILES ###
+##################
+DIFF_TSV_A="English_US/tsv/English_US_en.20210309.tsv"
+DIFF_TSV_B="Mongolian/tsv/Mongolian_mn.tsv"
+DO_DIFF_KEYS
+CLEAR_ALL
+
+##################
+### DIFF FILES ###
+##################
+DIFF_TSV_A="English_US/tsv/English_US_en.20210309.tsv"
+DIFF_TSV_B="Norwegian_nb/tsv/Norwegian_nb.tsv"
+DO_DIFF_KEYS
+CLEAR_ALL
+
+##################
+### DIFF FILES ###
+##################
+DIFF_TSV_A="English_US/tsv/English_US_en.20210309.tsv"
+DIFF_TSV_B="Persian/tsv/Persian_fa.tsv"
+DO_DIFF_KEYS
+CLEAR_ALL
+
+##################
+### DIFF FILES ###
+##################
+#DIFF_TSV_A="English_US/tsv/English_US_en.20210309.tsv"
+#DIFF_TSV_B="Polish/tsv/Polish_pl.20210309.tsv"
+#DO_DIFF_KEYS
+#CLEAR_ALL
+
+##################
+### DIFF FILES ###
+##################
+DIFF_TSV_A="English_US/tsv/English_US_en.20210309.tsv"
+DIFF_TSV_B="Portuguese/tsv/Portuguese_pt.tsv"
+DO_DIFF_KEYS
+CLEAR_ALL
+
+##################
+### DIFF FILES ###
+##################
+DIFF_TSV_A="English_US/tsv/English_US_en.20210309.tsv"
+DIFF_TSV_B="Portuguese_Brazil/tsv/Portuguese_pt_BR.tsv"
+DO_DIFF_KEYS
+CLEAR_ALL
+
+##################
+### DIFF FILES ###
+##################
+DIFF_TSV_A="English_US/tsv/English_US_en.20210309.tsv"
+DIFF_TSV_B="Portuguese_Portugal/tsv/Portuguese_pt_PT.tsv"
+DO_DIFF_KEYS
+CLEAR_ALL
+
+##################
+### DIFF FILES ###
+##################
+DIFF_TSV_A="English_US/tsv/English_US_en.20210309.tsv"
+DIFF_TSV_B="Romanian/tsv/Romanian_ro.tsv"
+DO_DIFF_KEYS
+CLEAR_ALL
+
+##################
+### DIFF FILES ###
+##################
+DIFF_TSV_A="English_US/tsv/English_US_en.20210309.tsv"
+DIFF_TSV_B="Russian/tsv/Russian_ru.tsv"
+DO_DIFF_KEYS
+CLEAR_ALL
+
+##################
+### DIFF FILES ###
+##################
+DIFF_TSV_A="English_US/tsv/English_US_en.20210309.tsv"
+DIFF_TSV_B="Serbian_Cyrillic/tsv/Serbian_Cyrillic_sr.tsv"
+DO_DIFF_KEYS
+CLEAR_ALL
+
+##################
+### DIFF FILES ###
+##################
+DIFF_TSV_A="English_US/tsv/English_US_en.20210309.tsv"
+DIFF_TSV_B="Serbian_Latin/tsv/Serbian_Latin_sr_Latn.tsv"
+DO_DIFF_KEYS
+CLEAR_ALL
+
+##################
+### DIFF FILES ###
+##################
+DIFF_TSV_A="English_US/tsv/English_US_en.20210309.tsv"
+DIFF_TSV_B="Slovak/tsv/Slovak_sk.tsv"
+DO_DIFF_KEYS
+CLEAR_ALL
+
+##################
+### DIFF FILES ###
+##################
+DIFF_TSV_A="English_US/tsv/English_US_en.20210309.tsv"
+DIFF_TSV_B="Slovenian/tsv/Slovenian_sl.tsv"
+DO_DIFF_KEYS
+CLEAR_ALL
+
+##################
+### DIFF FILES ###
+##################
+#DIFF_TSV_A="English_US/tsv/English_US_en.20210309.tsv"
+#DIFF_TSV_B="Spanish/tsv/Spanish_es_urls.tsv"
+#DIFF_TSV_B="Spanish/tsv/Spanish_es.20210309.Android.tsv"
+#DIFF_TSV_B="Spanish/tsv/Spanish_es.20210309.Apple.tsv"
+#DO_DIFF_KEYS
+#CLEAR_ALL
+
+##################
+### DIFF FILES ###
+##################
+DIFF_TSV_A="English_US/tsv/English_US_en.20210309.tsv"
+DIFF_TSV_B="Swedish/tsv/Swedish_sv.tsv"
+DO_DIFF_KEYS
+CLEAR_ALL
+
+##################
+### DIFF FILES ###
+##################
+DIFF_TSV_A="English_US/tsv/English_US_en.20210309.tsv"
+DIFF_TSV_B="Thai/tsv/Thai_th.tsv"
+DO_DIFF_KEYS
+CLEAR_ALL
+
+##################
+### DIFF FILES ###
+##################
+DIFF_TSV_A="English_US/tsv/English_US_en.20210309.tsv"
+DIFF_TSV_B="Turkish/tsv/Turkish_tr.tsv"
+DO_DIFF_KEYS
+CLEAR_ALL
+
+##################
+### DIFF FILES ###
+##################
+DIFF_TSV_A="English_US/tsv/English_US_en.20210309.tsv"
+DIFF_TSV_B="Vietnamese/tsv/Vietnamese_vi.tsv"
+DO_DIFF_KEYS
+CLEAR_ALL

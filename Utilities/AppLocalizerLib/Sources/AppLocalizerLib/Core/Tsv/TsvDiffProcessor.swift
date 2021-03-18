@@ -39,7 +39,7 @@ struct TsvDiffProcessor {
         let onlyInAa = keysPrimaryAa.subtracting(keysPrimaryBb)
         let onlyInBb = keysPrimaryBb.subtracting(keysPrimaryAa)
         printKeyDiff(onlyInA: onlyInAa, onlyInB: onlyInBb)
-        saveKeyDiff(onlyInA: onlyInAa, onlyInB: onlyInAa)
+        saveKeyDiff(onlyInA: onlyInAa, onlyInB: onlyInBb)
     }
     
     private func printKeyDiff(onlyInA: Set<String>, onlyInB: Set<String>) {
@@ -50,15 +50,15 @@ struct TsvDiffProcessor {
             """
             ****************
             ***** DIFF *****
-            ****************
+            ****************\n
             """
         for i in 0 ..< urlListAa.count {
             let url = urlListAa[i]
-            s.append("** A:\(i): \(url.path)")
+            s.append("** A:\(i): \(url.path)\n")
         }
         for i in 0 ..< urlListBb.count {
             let url = urlListBb[i]
-            s.append("** B:\(i): \(url.path)")
+            s.append("** B:\(i): \(url.path)\n")
         }
         s.append(
             """

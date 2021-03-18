@@ -435,15 +435,17 @@ struct TsvSheet: TsvProtocol {
                 record.append(fieldStr) // Add last field
             }
             // Requires either an Android key or an Apple key
-            if !record[0].isEmpty || !record[1].isEmpty {
-                let r = TsvRow(
-                    key_android: record[0], 
-                    key_apple: record[1], 
-                    base_value: record[2], 
-                    lang_value: record[3],
-                    base_note: record.count > 4 ? record[4] : ""
-                )
-                recordList.append(r) // Add last record
+            if record.count >= 4 {
+                if !record[0].isEmpty || !record[1].isEmpty {
+                    let r = TsvRow(
+                        key_android: record[0], 
+                        key_apple: record[1], 
+                        base_value: record[2], 
+                        lang_value: record[3],
+                        base_note: record.count > 4 ? record[4] : ""
+                    )
+                    recordList.append(r) // Add last record
+                }
             }
             
         } catch {

@@ -33,7 +33,7 @@ $MELD "$NF_ANDROID_RESOURCES/values-el/strings.xml" "$LANGUAGES/Greek/android/va
 #$MELD "$NF_ANDROID_RESOURCES/values-he/strings.xml" "$LANGUAGES/Hebrew/android/values-he/strings.xml"
 #$MELD "$NF_ANDROID_RESOURCES/values-hi/strings.xml" "$LANGUAGES/Hindi/android/values-hi/strings.xml"
 #$MELD "$NF_ANDROID_RESOURCES/values-hu/strings.xml" "$LANGUAGES/Hungarian/android/values-hu/strings.xml"
-$MELD "$NF_ANDROID_RESOURCES/values-it/strings.xml" "$LANGUAGES/Itialian/android/values-it/strings.xml"
+$MELD "$NF_ANDROID_RESOURCES/values-it/strings.xml" "$LANGUAGES/Italian/android/values-it/strings.xml"
 #$MELD "$NF_ANDROID_RESOURCES/values-ja/strings.xml" "$LANGUAGES/Japanese/android/values-ja/strings.xml"
 #$MELD "$NF_ANDROID_RESOURCES/values-kn/strings.xml" "$LANGUAGES/Kannada/android/values-kn/strings.xml"
 #$MELD "$NF_ANDROID_RESOURCES/values-ko/strings.xml" "$LANGUAGES/Korean/android/values-ko/strings.xml"

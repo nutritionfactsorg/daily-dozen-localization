@@ -1,0 +1,52 @@
+## Base development language
+English_US
+
+## Android + Apple (42)
+Afrikaans
+Arabic
+Bulgarian
+Chinese_HongKong
+Chinese_Simplified
+Chinese_Traditional
+Czech
+Danish
+Dutch
+Estonian
+Finnish
+French
+French_Canada
+Georgian
+German
+Greek
+Hebrew
+Hindi
+Hungarian
+Italian
+Japanese
+Kannada
+Korean
+Lithuanian
+Mongolian
+Norwegian_nb
+Persian
+Polish
+Portuguese
+Portuguese_Brazil
+Portuguese_Portugal
+Romanian
+Russian
+Serbian_Cyrillic
+Serbian_Latin
+Slovak
+Slovenian
+Spanish
+Swedish
+Thai
+Turkish
+Vietnamese
+
+## Android Only (1)
+Bhojpuri
+
+## Placeholder
+English_GB
