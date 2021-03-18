@@ -20,6 +20,8 @@ struct BatchRunner {
     
     mutating func run() {
         // Batch Diff Parameters
+        var diffTsvA: [URL]?
+        var diffTsvB: [URL]?
         var diffXmlA: URL?
         var diffXmlB: URL?
         var diffXliffA: URL?
@@ -50,6 +52,8 @@ struct BatchRunner {
             if cmd.key.hasPrefix("CLEAR_ALL") {
                 BatchExport.shared.clearAll()
                 BatchImport.shared.clearAll()
+                diffTsvA = nil
+                diffTsvB = nil
                 diffXmlA = nil
                 diffXmlB = nil
                 diffXliffA = nil
@@ -65,6 +69,24 @@ struct BatchRunner {
                 outputApple = nil
             } 
             // Diff
+            else if cmd.key.hasPrefix("DIFF_TSV_A") {
+                if let url = cmd.url {
+                    if diffTsvA == nil {
+                        diffTsvA = [url]
+                    } else {
+                        diffTsvA?.append(url)
+                    } 
+                }
+            }             
+            else if cmd.key.hasPrefix("DIFF_TSV_B") {
+                if let url = cmd.url {
+                    if diffTsvB == nil {
+                        diffTsvB = [url]
+                    } else {
+                        diffTsvB?.append(url)
+                    } 
+                }
+            }             
             else if cmd.key.hasPrefix("DIFF_XML_A") {
                 diffXmlA = cmd.url
             }             
@@ -78,7 +100,7 @@ struct BatchRunner {
                 diffXliffB = cmd.url
             }             
             else if cmd.key.hasPrefix("DO_DIFF_KEYS") {
-                BatchDiff.shared.doDiffKeys(xmlUrlA: diffXmlA, xmlUrlB: diffXmlB, xliffUrlA: diffXliffA, xliffUrlB: diffXliffB)
+                BatchDiff.shared.doDiffKeys(tsvUrlListA: diffTsvA, tsvUrlListB: diffTsvB, xmlUrlA: diffXmlA, xmlUrlB: diffXmlB, xliffUrlA: diffXliffA, xliffUrlB: diffXliffB)
             }             
             // Export
             else if cmd.key.hasPrefix("OUTPUT_LANG_TSV") {

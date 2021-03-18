@@ -7,8 +7,8 @@ import Foundation
 
 struct XliffDiffProcessor {
 
-    var urlAa: URL
-    var urlBb: URL
+    let urlAa: URL
+    let urlBb: URL
     //
     var rootAa: XMLElement!
     var rootBb: XMLElement!
@@ -33,9 +33,9 @@ struct XliffDiffProcessor {
         getKeySet(element: rootAa, result: &keysAa)
         getKeySet(element: rootBb, result: &keysBb)
         
-        let onlyInA = keysAa.subtracting(keysBb)
-        let onlyInB = keysBb.subtracting(keysAa)
-        printKeyDiff(onlyInA: onlyInA, onlyInB: onlyInB) 
+        let onlyInAa = keysAa.subtracting(keysBb)
+        let onlyInBb = keysBb.subtracting(keysAa)
+        printKeyDiff(onlyInA: onlyInAa, onlyInB: onlyInBb) 
     }
     
     private func getKeySet(element: XMLElement, result: inout Set<String>) {

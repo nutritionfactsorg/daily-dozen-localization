@@ -13,6 +13,7 @@ enum TsvBaseOrLangMode {
 enum TsvKeyType {
     case apple
     case droid
+    case primary // `key_apple&key_android`
 }
 
 enum TsvValueType {

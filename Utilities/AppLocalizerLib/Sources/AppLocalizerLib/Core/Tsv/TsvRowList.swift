@@ -22,26 +22,28 @@ struct TsvRowList {
     // MARK: - Lookup
     
     func contains(key: String, type: TsvKeyType) -> Bool {
-        for r in data {
+        for d in data {
             switch type {
             case .apple:
-                if r.key_apple == key { return true }
+                if d.key_apple == key { return true }
             case .droid:
-                if r.key_android == key { return true }
+                if d.key_android == key { return true }
+            case .primary:
+                if "\(d.key_apple)&\(d.key_android)" == key { return true }
             }
         }
         return false
     }
     
     func contains(value: String, type: TsvValueType) -> Bool {
-        for r in data {
+        for d in data {
             switch type {
             case .base:
-                if r.base_value == value { return true }
+                if d.base_value == value { return true }
             case .lang:
-                if r.lang_value == value { return true }
+                if d.lang_value == value { return true }
             case .note:
-                if r.base_note == value { return true }
+                if d.base_note == value { return true }
             }
         }
         return false
@@ -102,12 +104,14 @@ struct TsvRowList {
     func get(key: String, keyType: TsvKeyType) -> TsvRow? {
         // Prerequisite: key pairing completed. multi-key cases have uniform values.
         // When prerequisites are met, then the first instance is defining
-        for row in data {
+        for d in data {
             switch keyType {
             case .apple:
-                if row.key_apple == key { return row }
+                if d.key_apple == key { return d }
             case .droid:
-                if row.key_android == key { return row }
+                if d.key_android == key { return d }
+            case .primary:
+                if "\(d.key_apple)&\(d.key_android)" == key { return d }
             }
         }
         return nil
@@ -124,6 +128,8 @@ struct TsvRowList {
                 if d.key_apple != key { continue } 
             case .droid:
                 if d.key_android != key { continue } 
+            case .primary:
+                if "\(d.key_apple)&\(d.key_android)" != key { continue } 
             }
             keyNotFound = false
             switch mode {
@@ -174,6 +180,8 @@ struct TsvRowList {
                 if d.key_apple != key { continue } 
             case .droid:
                 if d.key_android != key { continue } 
+            case .primary:
+                if "\(d.key_apple)&\(d.key_android)" != key { continue }
             }
             keyNotFound = false
             switch mode {
@@ -211,6 +219,8 @@ struct TsvRowList {
                 return row.key_apple != key
             case .droid:
                 return row.key_android != key
+            case .primary:
+                return "\(row.key_apple)&\(row.key_android)" != key
             }            
         }
     }
@@ -249,6 +259,8 @@ struct TsvRowList {
                 key = d.key_apple
             case .droid:
                 key = d.key_android
+            case .primary:
+                key = "\(d.key_apple)&\(d.key_android)"
             }
             switch ofValueType {
             case .base:
@@ -334,6 +346,8 @@ struct TsvRowList {
                 return toRemove.contains(key: r.key_apple, type: .apple) == false
             case .droid:
                 return toRemove.contains(key: r.key_android, type: .droid) == false
+            case .primary:
+                return toRemove.contains(key: "\(r.key_apple)&\(r.key_android)", type: .primary) == false
             }            
         }
         return TsvRowList(data: result)
@@ -343,8 +357,8 @@ struct TsvRowList {
 
     func toStringDot() -> String {
         var s = ""
-        for row in data {
-            s.append("\(row.toStringDot())••")
+        for d in data {
+            s.append("\(d.toStringDot())••")
         }
         return s
     }

@@ -9,13 +9,14 @@ import AppLocalizerLib
 final class AppLocalizerTests: XCTestCase {
     
     // commands_diff_pl.txt
+    // commands_diff_tsv.txt
     // commands_export_es.txt
     // commands_export_pl_es.txt
     // commands_import_es.txt
     // commands_import_pl.txt
     // commands_import_de.txt: de, pl 
     // commands_testcase_01.txt: 01, es, de
-    let commandSet = "commands_export_es.txt"
+    let commandSet = "commands_diff_tsv.txt"
     
     /// Test AppLocalizerLib directly.
     func testAppLocalizerLib() {

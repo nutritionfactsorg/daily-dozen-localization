@@ -104,6 +104,14 @@ struct TsvSheet: TsvProtocol {
         return Set<String>(getLookupDictApple().keys)
     }
     
+    func getKeySetPrimary() -> Set<String> {
+        var keySet = Set<String>()
+        for r in tsvRowList.data {
+            keySet.insert("\(r.key_apple)&\(r.key_android)")
+        }
+        return keySet
+    }
+    
     func getLookupDictAndroid() -> [String: String] {
         var d = [String: String]()
         for r in tsvRowList.data {
@@ -116,6 +124,14 @@ struct TsvSheet: TsvProtocol {
         var d = [String: String]()
         for r in tsvRowList.data {
             d[r.key_apple] = r.lang_value
+        }
+        return d
+    }
+
+    func getLookupDictPrimary() -> [String: String] {
+        var d = [String: String]()
+        for r in tsvRowList.data {
+            d["\(r.key_apple)&\(r.key_android)"] = r.lang_value
         }
         return d
     }
