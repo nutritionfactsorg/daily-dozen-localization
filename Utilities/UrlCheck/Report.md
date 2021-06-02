@@ -2389,7 +2389,7 @@
 </tr>
 </table>
 
-### HTTP Status: 404 Not Found
+## HTTP Status: 404 Not Found (count: 36)
 
 _English_
 
