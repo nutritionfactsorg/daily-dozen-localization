@@ -1,10 +1,11 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.4
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
 
 let package = Package(
     name: "AppLocalizerLib",
+    defaultLocalization: "en",
     platforms: [
         // specify each minimum deployment requirement, 
         // otherwise the platform default minimum is used.
@@ -41,7 +42,7 @@ let package = Package(
             //   to: AppLocalizerLib_AppLocalizerLib.bundle/Resources/*
             resources: [.copy("Resources")]
         ),
-        .target(
+        .executableTarget(
             name: "AppLocalizerTool",
             dependencies: ["AppLocalizerLib"],
             // from: Sources/AppLocalizerTool/Resources/*
@@ -56,8 +57,8 @@ let package = Package(
             //   to: AppLocalizerLib_AppLocalizerLibTests.bundle/Resources/*
             resources: [.copy("Resources")]
         ),
-    ] //,
-    //swiftLanguageVersions: [.v5],
+    ],
+    swiftLanguageVersions: [.v5] //,
     //cLanguageStandard: .c11, // gnu11, iso9899_2011
     //cxxLanguageStandard: .cxx14 // cxx11, gnucxx11, cxx14, gnucxx14, cxx1z, gnucxx1z
 )

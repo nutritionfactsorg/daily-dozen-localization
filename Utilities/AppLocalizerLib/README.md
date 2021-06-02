@@ -1,116 +1,52 @@
 # AppLocalizer
 
-_:TODO: update SizeHeaders.xib, and for related .xib_
+_The `AppeLocalizer` utility performs mapping to and from TSV spreadsheets and the Android and Apple "Daily Dozen" applications._
 
-``` xml
-<string name="units">Unidades</string>
-<string name="imperial">Imperial</string>
-<string name="metric">Métrico</string>
+## Contents <a id="contents"></a>
+[Export](#export-) •
+[Import](#import-) •
+[Technical Notes](#technical-notes-) •
+[Workflow](#workflow-) •
+[Resources](#resources-)
+
+## Export <a id="export-"></a><sup>[▴](#contents)</sup>
+
+_Export_ generates or updates TSV spreadsheets from data in the Android and Apple source code files.
+
+``` sh
+### EXPORT TRANSLATION ## 
+# Steps:
+#   1. Use base TSV as Android-Apple key mapping files. Set up reverse mappings.
+#   2. Set input & output file URLs.
+#   3. enUS populates base_value & lang_value with base_value.  
+#           Apple, if present, overwrites Android. 
+#   4. LANG overwrites lang_value.                          
+#           Apple, if present, overwrites Android.
+# Report:
+#   * Where Android value != Apple value for mapped keys. [NYI]
+#   * After all inputs, list where base_value == lang_value [NYI] 
+#   * If base_value != lang_value && (incoming_target != existing_target), then report
+
+
 ```
 
-``` swift
-// :TRANSLATE:!!!:NYI: metric/imperial button in code. also match case sensitivy
-//"metric": "1K3-d9-Hfb.normalTitle", // :TRANSLATE:!!!:NYI: metric/imperial button code
-//"metric": "M75-CQ-NVP.normalTitle", // :TRANSLATE:!!!:NYI: metric/imperial button code
-// SizesHeader.xib
-```
+## Import <a id="import-"></a><sup>[▴](#contents)</sup>
 
----
+_Import_ uses TSV spreadsheet data to update the Android and Apple source code files.
 
-``` xml
-<string-array name="food_info_serving_sizes_other_fruits">
-    <item>%s1 medium-sized fruit</item>
-    <item>%s dried fruit</item>
-</string-array>
+## Technical Notes <a id="technical-notes-"></a><sup>[▴](#contents)</sup>
 
-<string-array name="food_info_serving_sizes_other_fruits_imperial">
-    <item/>
-    <item>¼ cup</item>
-</string-array>
+**Android Platform**
 
-<string-array name="food_info_serving_sizes_other_fruits_metric">
-    <item/>
-    <item>40 g</item>
-</string-array>
+**Apple Platform**
 
-<string-array name="food_info_types_other_fruits">
-    <item>Apples</item>
-    <item>Dried apricots</item>
-</string-array>
+* Case: key exists in English `*.strings` but is not present in the X Does .strings need to already have the ke
 
-<string-array name="food_videos_other_fruits" translatable="false">
-    <item>apples</item>
-    <item>apricots</item>
-    <item/>                   <!-- no video topics keyword -->
-</string-array>
-```
+xliff complex. brittle. opaque errors. without process to migrate forward (frozen).
 
-``` xml
-<key>dozeFruitsOther</key>
-<dict>
-    <key>Sizes</key>
-    <dict>
-        <key>Metric</key>
-        <array>
-            <string>1 medium-sized fruit</string>
-            <string>40 g dried fruit</string>
-        </array>
-        <key>Imperial</key>
-        <array>
-            <string>1 medium-sized fruit</string>
-            <string>¼ cup dried fruit</string>
-        </array>
-    </dict>
-    <key>Types</key>
-    <array>
-        <dict>
-            <key>Apples</key>
-            <string>apples</string>  <!-- vido topic keyword --> 
-        </dict>
-        <dict>
-            <key>Clementines</key>
-            <string></string>
-        </dict>
-    </array>
-    <key>Topic</key>
-    <string>fruit</string>
-</dict>
-```
+## Workflow <a id="workflow-"></a><sup>[▴](#contents)</sup>
 
----
+## Resources <a id="resources-"></a><sup>[▴](#contents)</sup>
 
-``` xml
-<string name="nightly_sleep">Get Sufficient Sleep</string>
-<string name="nightly_sleep_short">Get Sufficient Sleep</string>
-<string name="nightly_sleep_text">Check this box if …</string>
-<string-array name="tweak_names" translatable="false">
-    <item>@string/nightly_sleep</item>
-    <item>@string/nightly_trendelenburg</item>
-</string-array>
-```
+* [Related: Common HTML Entities ⇗](https://www.w3.org/wiki/Common_HTML_entities_used_for_typography)
 
-``` xml
-<key>tweakNightlySleep</key>
-<dict>
-    <key>Sizes</key>
-    <dict>
-        <key>Metric</key>
-        <array>
-            <string>Every Night: Get Sufficient Sleep</string>
-        </array>
-        <key>Imperial</key>
-        <array>
-            <string>Every Night: Get Sufficient Sleep</string>
-        </array>
-    </dict>
-    <key>Types</key>
-    <array>
-        <dict>
-            <key>Check this box if …</key>
-            <string></string>
-        </dict>
-    </array>
-    <key>Topic</key>
-    <string>TOPIC_ITEM</string>
-</dict>
-```
