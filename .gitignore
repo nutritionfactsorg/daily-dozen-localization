@@ -63,3 +63,5 @@ playground.xcworkspace
 ## LibreOffice ##
 #################
 .~lock*
+Utilities/AppLocalizerLib/.swiftpm/xcode/xcshareddata/xcschemes
+Utilities/UrlCheck/UrlCheck/.swiftpm/xcode/xcshareddata/xcschemes

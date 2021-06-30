@@ -31,7 +31,7 @@
 30	Beverages
 31	Black tea
 32	Chai tea
-33	Vanilla chamomile tea
+33	chamomile tea
 34	Coffee
 35	Earl grey tea
 36	Green tea
@@ -40,7 +40,7 @@
 39	Jasmine tea
 40	Lemon balm tea
 41	Matcha tea
-42	Almond blossom oolong tea
+42	oolong tea
 43	Peppermint tea
 44	Rooibos tea
 45	Water
@@ -98,7 +98,7 @@
 97	Squash
 98	Step aerobics
 99	Swimming laps
-100	Walking briskly uphill
+100	Walking briskly
 101	Water jogging
 102	Flaxseeds
 103	Brown flaxseeds
@@ -190,7 +190,7 @@
 189	Thyme
 190	Turmeric
 191	Vanilla
-192	Cruciferous Vegetables
+192	Cruciferous
 193	Arugula
 194	Bok choy
 195	Broccoli

@@ -60,7 +60,7 @@ _App Localizations & Store Distribution_
 | [Mongolian][locale-mn]    |   | [mn][droid-mn] |   | `mn` |
 | [Norwegian_nb][locale-nb] |   | [nb][droid-nb] |   | `nb` | [Norway (NO)][apple-nb-no]
 | [Persian][locale-fa]      |   | [fa][droid-fa] |   | `fa` | 
-| [Polish][locale-pl]       | `S` | [pl][droid-pl] | `S` | `pl` | [Poland (PL)][apple-pl]
+| [Polish][locale-pl]       | ✓ | [pl][droid-pl] | `S` | `pl` | [Poland (PL)][apple-pl]
 | [Portuguese][locale-pt]   | ✓ | [pt][droid-pt] |   | `pt` |
 | [Portuguese_Brazil][locale-pt-BR]   |   | [pt-BR][droid-pt-BR] |   | `pt-BR` | [Brazil (BR)][apple-pt-BR]
 | [Portuguese_Portugal][locale-pt-PT] |   | [pt-PT][droid-pt-PT] |   | `pt-PT` | [Portugal (PT)][apple-pt]

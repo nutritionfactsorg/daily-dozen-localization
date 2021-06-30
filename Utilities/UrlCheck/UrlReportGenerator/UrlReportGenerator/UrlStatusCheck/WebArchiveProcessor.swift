@@ -1,13 +1,13 @@
 //
-//  WebContentProcessor.swift
+//  WebArchiveProcessor.swift
 //  UrlReportGenerator
 //
 
 import Foundation
 
-struct WebContentProcessor {
+struct WebArchiveProcessor {
     
-    static let shared = WebContentProcessor()
+    static let shared = WebArchiveProcessor()
     
     //var plistData: [String:AnyObject] = [:]  // dictionary data
     //var plistData2: AnyObject! = nil // not dictionary data
@@ -53,11 +53,14 @@ struct WebContentProcessor {
         return querySearchCount(html: html)
     }
     
+    /// :NF:SearchPage: NutritionFacts search results page
     func querySearchCount(html: String) -> Int? {
-        let str = html.replacingOccurrences(of: "\n", with: " ")
-        // "[^0-9]([0-9]+)[^0-9]*ais-stats--time"
-        // "[^0-9,]([0-9,]+)[^0-9,]*ais-stats--time"
-        let p = "[^0-9,]([0-9,]+)[^0-9,]*ais-stats--time"
+        let str = html
+            .replacingOccurrences(of: "\n", with: " ")
+            .replacingOccurrences(of: "  ", with: " ")
+            .replacingOccurrences(of: "  ", with: " ")
+            .replacingOccurrences(of: "  ", with: " ")
+        let p = "[^0-9,.]([0-9,.]+) results <span class=\"ais-stats--time"
         let strings = str.regexSearch(pattern: p)
         
         //for i in 0 ..< strings.count {
@@ -65,7 +68,9 @@ struct WebContentProcessor {
         //}
 
         if strings.count > 1 {
-            let intStr = strings[1].replacingOccurrences(of: ",", with: "")
+            let intStr = strings[1]
+                .replacingOccurrences(of: ",", with: "")
+                .replacingOccurrences(of: ".", with: "")
             return Int(intStr)
         }
         return nil
@@ -76,11 +81,13 @@ struct WebContentProcessor {
         return queryTopicCount(html: html)
     }
     
+    /// :NF:TopicPage: NutritionFacts topic webpage
     func queryTopicCount(html: String) -> Int? {
-        let str = html.replacingOccurrences(of: "\n", with: " ")
-        // "videos-count[^0-9<]*([0-9]*)[^0-9]"
-        // "videos-count[^0-9,]+([0-9,]*)[^0-9,]"
-        let p = "videos-count[^0-9,]+([0-9,]*)[^0-9,]"
+        let str = html
+            .replacingOccurrences(of: "\n", with: " ")
+            .replacingOccurrences(of: "  ", with: " ")
+            .replacingOccurrences(of: "  ", with: " ")
+        let p = "videos-count\">([0-9,.]*)<"
         let strings = str.regexSearch(pattern: p)
         
         //for i in 0 ..< strings.count {
@@ -88,7 +95,10 @@ struct WebContentProcessor {
         //}
 
         if strings.count > 1 {
-            let intStr = strings[1].replacingOccurrences(of: ",", with: "")
+            // remove thousands comma separator
+            let intStr = strings[1]
+                .replacingOccurrences(of: ",", with: "")
+                .replacingOccurrences(of: ".", with: "")
             return Int(intStr)
         }
         return nil

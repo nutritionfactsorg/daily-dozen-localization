@@ -1,4 +1,4 @@
-# URL Link Check Report
+# URL Link Check Report (2021.06.02)
 
 ### English
 <table style="width:100%; font-family: monospace;">
@@ -2425,7 +2425,6 @@ _Spanish_
 * es/topics/ensalada-mesclun-es
 * es/topics/nabos
 * es/topics/cardamomo
-* es/topics/cilantro-es-2
 * es/topics/limoncillo-es
 * es/topics/tomillo
 * es/topics/colinabo
@@ -2438,6 +2437,7 @@ _Spanish (JSON error)_
 
 * /es/topics/lentejas/ --> es/topics/lentejas/
 
-_Spanish (renamed)_
+_Spanish (replaced)_
 
 * es/topics/bayas-de-acai-es --> es/topics/bayas-de-acai
+* es/topics/cilantro-es-2 --> es/topics/cilantro

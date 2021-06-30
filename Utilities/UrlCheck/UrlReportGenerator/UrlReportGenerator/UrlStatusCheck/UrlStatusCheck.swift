@@ -23,9 +23,9 @@ public final class UrlStatusCheck {
     func append404(index: Int) {
         guard index < _list.count else { return }
         let slot: Int = index / 2
-        if index % 2 == 0 {
+        if index % 2 == 0 { // search page
             _status404.append(_list[slot].searchItem)
-        } else {
+        } else { // topic page
             if let topicItem = _list[slot].topicItem {
                 _status404.append(topicItem)
             } else {
@@ -35,8 +35,8 @@ public final class UrlStatusCheck {
     }
     
     func code(index: Int) -> Int? {
-        guard index < _list.count else { return nil }
         let slot: Int = index / 2
+        guard slot < _list.count else { return nil }
         if index % 2 == 0 {
             return _list[slot].searchStatusCode
         } else {
@@ -49,8 +49,8 @@ public final class UrlStatusCheck {
     }
 
     func item(index: Int) -> String? {
-        guard index < _list.count else { return nil }
         let slot: Int = index / 2
+        guard slot < _list.count else { return nil }
         if index % 2 == 0 {
             return _list[slot].searchItem
         } else {
@@ -63,8 +63,8 @@ public final class UrlStatusCheck {
     }
 
     func link(index: Int) -> URL? {
-        guard index < _list.count else { return nil }
         let slot: Int = index / 2
+        guard slot < _list.count else { return nil }
         if index % 2 == 0 {
             return _list[slot].searchLink
         } else {
@@ -130,7 +130,7 @@ public final class UrlStatusCheck {
         let outHtmlUrl = _baseUrl
             .deletingLastPathComponent() // UrlReportGenerator.app
             .appendingPathComponent("[\(index)]_\(name).html")
-        let processor = WebContentProcessor.shared
+        let processor = WebArchiveProcessor.shared
         if let html = processor.getHtmlMain(plistData: data) {
             do {
                 try html.write(to: outHtmlUrl, atomically: true, encoding: .utf8)
@@ -140,7 +140,19 @@ public final class UrlStatusCheck {
         }
 
     }
-    
+
+    func writeHtml(index: Int, name: String, html: String) {
+        let outUrl = _baseUrl
+            .deletingLastPathComponent() // UrlReportGenerator.app
+            .appendingPathComponent("[\(index)]_\(name).html")
+        
+        do {
+            try html.write(to: outUrl, atomically: true, encoding: .utf8)
+        } catch {
+            print("writeHtml() \(error)")
+        }
+    }
+
     func writeReport() {
         let outUrl = _baseUrl
             .deletingLastPathComponent() // UrlReportGenerator.app
