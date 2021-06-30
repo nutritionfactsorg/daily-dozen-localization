@@ -660,7 +660,7 @@
         },
         {
           "text" : "Turnip greens",
-          "topic" : "topics/turnips"
+          "topic" : ""
         }
       ]
     },
@@ -944,7 +944,7 @@
         },
         {
           "text" : "Turnip greens",
-          "topic" : "topics/turnips"
+          "topic" : ""
         },
         {
           "text" : "Watercress",
@@ -1035,7 +1035,7 @@
           "topic" : "topics/squash"
         },
         {
-          "text" : "Sweet potatoes\/yams",
+          "text" : "Sweet potatoes/yams",
           "topic" : "topics/sweet-potatoes"
         },
         {
