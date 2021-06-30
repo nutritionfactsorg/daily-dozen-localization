@@ -9,42 +9,27 @@ public final class AppLocalizer {
     private let streamErr: StandardErrorStream
     private let streamOut: StandardOutputStream
     
+    public static let environmentInfo = ProcessInfo().environment
+    // Path to Android app/src/main/res
+    public static var environmentNFAndroidResources = ProcessInfo().environment["NF_ANDROID_RESOURCES"]
+    // Path to daily-dozen-localization/Languages
+    public static var environmentNFLanguages = ProcessInfo().environment["NF_LANGUAGES"]
+    
     var directoryLib: URL {
-        // :DEBUG: Bundle.allBundles .bundlePath .resourcePath
-        var i = 0
-        for bundle in Bundle.allBundles {
-            print("*** LIB bundle A [\(i)]")
-            print("bundle.bundlePath=\(bundle.bundlePath)")
-            print("bundle.executablePath=\(bundle.executablePath ?? "no executable path")")
-            print("bundle.resourcePath=\(bundle.resourcePath ?? "no resource path")")
-            i += 1
-        }
         #if os(macOS)
-        for bundle in Bundle.allBundles {
-            return bundle.bundleURL.deletingLastPathComponent()
-        }
-        fatalError(":ERROR: couldn't find the products directory")
+        return Bundle.main.bundleURL
         #else
         return Bundle.main.bundleURL
         #endif
     }
     
     public init() {
-        // :DEBUG: Bundle.allBundles .bundlePath .resourcePath
-        var i = 0
-        for bundle in Bundle.allBundles {
-            print("*** lib bundle B [\(i)]")
-            print("bundle.bundlePath=\(bundle.bundlePath)")
-            print("bundle.executablePath=\(bundle.executablePath ?? "no executable path")")
-            print("bundle.resourcePath=\(bundle.resourcePath ?? "no resource path")")
-            i += 1
-        }
-        
         self.streamErr = StandardErrorStream()
         self.streamOut = StandardOutputStream()
-        print("directoryLib='\(directoryLib)'")
+        print("directoryLib='\(directoryLib.path)'")
     }
     
+    /// BatchRunner(commandsUrl:languagesUrl:mappingsUrl)
     public func run(commandsUrl: URL, languagesUrl: URL, mappingsUrl: URL) {
         var batch = BatchRunner(
             commandsUrl: commandsUrl, 

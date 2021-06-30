@@ -319,138 +319,138 @@ struct TsvSheet: TsvProtocol {
     mutating func parseTsvFile(url: URL) -> TsvRowList {
         var recordList = [TsvRow]()
         let newline: Set<Character> = ["\n", "\r", "\r\n"]
-        do {
-            let content = try String(contentsOf: url, encoding: .utf8)
-            // .split(whereSeparator: (Character) throws -> Bool)
-            // Value of type 'String.Element' (aka 'Character') has no member 'isNewLine'
-            
-            if content.count < 100 {
-                print(":ERROR: TsvSheet did not init with \(url.absoluteString)")
-                return TsvRowList(data: recordList)
+        guard let content = try? String(contentsOf: url, encoding: .utf8)
+        else {
+            print(  "TsvSheet failed to read: \(url.path)")
+            fatalError()
+        }
+        // .split(whereSeparator: (Character) throws -> Bool)
+        // Value of type 'String.Element' (aka 'Character') has no member 'isNewLine'
+        
+        if content.count < 100 {
+            print(":ERROR: TsvSheet did not init with \(url.absoluteString)")
+            return TsvRowList(data: recordList)
+        }
+        
+        var cPrev: Character? // Previous UTF-8 Character
+        var cThis: Character? // Current UTF-8 Character
+        var cNext: Character? // Next UTF-8 Character
+        
+        var insideQuote = false
+        var escapeQuote = false
+        var record: [String] = []
+        var field: [Character] = []
+        var countChar = 0
+        var lineIdx = 1
+        var lineCharIdx = 0
+        
+        for character in content {
+            if _watchEnabled {
+                _watchline(recordIdx: recordList.count, recordFieldIdx: record.count, lineIdx: lineIdx, lineCharIdx: lineCharIdx, field: field, insideQuote: insideQuote, escapeQuote: escapeQuote, cPrev: cPrev, cThis: cThis, cNext: cNext)
             }
-            
-            var cPrev: Character? // Previous UTF-8 Character
-            var cThis: Character? // Current UTF-8 Character
-            var cNext: Character? // Next UTF-8 Character
-                    
-            var insideQuote = false
-            var escapeQuote = false
-            var record: [String] = []
-            var field: [Character] = []
-            var countChar = 0
-            var lineIdx = 1
-            var lineCharIdx = 0
-            
-            for character in content {
-                if _watchEnabled {
-                    _watchline(recordIdx: recordList.count, recordFieldIdx: record.count, lineIdx: lineIdx, lineCharIdx: lineCharIdx, field: field, insideQuote: insideQuote, escapeQuote: escapeQuote, cPrev: cPrev, cThis: cThis, cNext: cNext)
+            cPrev = cThis
+            cThis = cNext
+            cNext = character
+            countChar += 1
+            lineCharIdx += 1
+            if let cThis = cThis, newline.contains(cThis) {
+                if insideQuote {
+                    field.append("\n")
+                } else {
+                    let fieldStr = String(field).trimmingCharacters(in: .whitespaces)
+                    record.append(fieldStr) // Add last field to record
+                    if record.count >= 5 {
+                        // Requires either an Android key or an Apple key
+                        if !record[0].isEmpty || !record[1].isEmpty {
+                            // Add non-empty record to list.
+                            let r = TsvRow(
+                                key_android: record[0],
+                                key_apple: record[1],
+                                base_value: record[2],
+                                lang_value: record[3],
+                                base_note: record[4]
+                            )
+                            if r.key_android != "key_droid" { // skip headings record
+                                recordList.append(r)
+                            }
+                        }
+                        lineIdx += 1
+                        lineCharIdx = 0
+                    }
+                    field = []
+                    record = []
+                    escapeQuote = false
+                    insideQuote = false
                 }
-                cPrev = cThis
-                cThis = cNext
-                cNext = character
-                countChar += 1
-                lineCharIdx += 1
-                if let cThis = cThis, newline.contains(cThis) {
-                    if insideQuote {
-                        field.append("\n")
-                    } else {
-                        let fieldStr = String(field).trimmingCharacters(in: .whitespaces)
-                        record.append(fieldStr) // Add last field to record
-                        if record.count >= 5 {
-                            // Requires either an Android key or an Apple key
-                            if !record[0].isEmpty || !record[1].isEmpty {
-                                // Add non-empty record to list.
-                                let r = TsvRow(
-                                    key_android: record[0], 
-                                    key_apple: record[1], 
-                                    base_value: record[2], 
-                                    lang_value: record[3],
-                                    base_note: record[4]
-                                )
-                                if r.key_android != "key_droid" { // skip headings record
-                                    recordList.append(r)                                    
-                                }
-                            }
-                            lineIdx += 1
-                            lineCharIdx = 0
-                        }
-                        field = []
-                        record = []
-                        escapeQuote = false
-                        insideQuote = false
-                    }
-                } else if cThis == "\t" {
-                    if insideQuote {
-                        field.append("\t")
-                    } else {
-                        let fieldStr = String(field).trimmingCharacters(in: .whitespaces)
-                        record.append(fieldStr) // Add field to list.
-                        field = []
-                        escapeQuote = false
-                        insideQuote = false
-                    }
-                } else if cThis == "\"" {
-                    if insideQuote {
-                        if escapeQuote {
-                            if cPrev == "\"" {
-                                field.append("\"")
-                                escapeQuote = false                                
-                            } else {
-                                fatalError(":ERROR:@line\(lineIdx)[\(lineCharIdx)]: TsvSheet escaped quote must precede ::\(toStringDot(field:field))::")
-                            }
-                        } else {
-                            if let cNext = cNext, newline.contains(cNext) || cNext == "\t" {
-                                insideQuote = false
-                            } else {
-                                escapeQuote = true
-                            }
-                        }
-                    } else {
-                        if cPrev == nil {
-                            insideQuote = true
+            } else if cThis == "\t" {
+                if insideQuote {
+                    field.append("\t")
+                } else {
+                    let fieldStr = String(field).trimmingCharacters(in: .whitespaces)
+                    record.append(fieldStr) // Add field to list.
+                    field = []
+                    escapeQuote = false
+                    insideQuote = false
+                }
+            } else if cThis == "\"" {
+                if insideQuote {
+                    if escapeQuote {
+                        if cPrev == "\"" {
+                            field.append("\"")
                             escapeQuote = false
-                        } else if let cPrev = cPrev, newline.contains(cPrev) || cPrev == "\t" {
-                                insideQuote = true
-                                escapeQuote = false
                         } else {
-                            // print(":CHECK:@\(position): TsvSheet double quote in \(field)")
-                            if let cThis = cThis {
-                                field.append(cThis)
-                            }
+                            fatalError(":ERROR:@line\(lineIdx)[\(lineCharIdx)]: TsvSheet escaped quote must precede ::\(toStringDot(field:field))::")
+                        }
+                    } else {
+                        if let cNext = cNext, newline.contains(cNext) || cNext == "\t" {
+                            insideQuote = false
+                        } else {
+                            escapeQuote = true
                         }
                     }
                 } else {
-                    if let cThis = cThis {
-                        field.append(cThis)
+                    if cPrev == nil {
+                        insideQuote = true
+                        escapeQuote = false
+                    } else if let cPrev = cPrev, newline.contains(cPrev) || cPrev == "\t" {
+                        insideQuote = true
+                        escapeQuote = false
+                    } else {
+                        // print(":CHECK:@\(position): TsvSheet double quote in \(field)")
+                        if let cThis = cThis {
+                            field.append(cThis)
+                        }
                     }
                 }
-            }
-            
-            // Handle last Character
-            if let cNext = cNext, !newline.contains(cNext) && cNext != "\t" {
-                field.append(cNext) // Add last character
-            }
-            let fieldStr = String(field).trimmingCharacters(in: .whitespaces)
-            if fieldStr.isEmpty == false {
-                record.append(fieldStr) // Add last field
-            }
-            // Requires either an Android key or an Apple key
-            if record.count >= 4 {
-                if !record[0].isEmpty || !record[1].isEmpty {
-                    let r = TsvRow(
-                        key_android: record[0], 
-                        key_apple: record[1], 
-                        base_value: record[2], 
-                        lang_value: record[3],
-                        base_note: record.count > 4 ? record[4] : ""
-                    )
-                    recordList.append(r) // Add last record
+            } else {
+                if let cThis = cThis {
+                    field.append(cThis)
                 }
             }
-            
-        } catch {
-            print(  "TsvSheet error:\n\(error)")
         }
+        
+        // Handle last Character
+        if let cNext = cNext, !newline.contains(cNext) && cNext != "\t" {
+            field.append(cNext) // Add last character
+        }
+        let fieldStr = String(field).trimmingCharacters(in: .whitespaces)
+        if fieldStr.isEmpty == false {
+            record.append(fieldStr) // Add last field
+        }
+        // Requires either an Android key or an Apple key
+        if record.count >= 4 {
+            if !record[0].isEmpty || !record[1].isEmpty {
+                let r = TsvRow(
+                    key_android: record[0],
+                    key_apple: record[1],
+                    base_value: record[2],
+                    lang_value: record[3],
+                    base_note: record.count > 4 ? record[4] : ""
+                )
+                recordList.append(r) // Add last record
+            }
+        }
+        
         return TsvRowList(data: recordList)
     }
     

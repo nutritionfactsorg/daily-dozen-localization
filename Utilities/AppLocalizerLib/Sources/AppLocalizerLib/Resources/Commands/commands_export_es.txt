@@ -1,7 +1,7 @@
 ########################################
 ### EXPORT Spanish_es SOURCES TO TSV ###
 ########################################
-OUTPUT_LANG_TSV="Spanish/tsv/Spanish_es.20210309.tsv"
+OUTPUT_LANG_TSV="Spanish/tsv/Spanish_es.20210309.Apple.tsv"
 SOURCE_enUS_TSV="English_US/tsv/English_US_en.20210309.tsv"
 ## Android
 SOURCE_enUS_DROID="English_US/android/values/strings.xml"

@@ -17,19 +17,27 @@ final class AppLocalizerTests: XCTestCase {
     // commands_import_pl.txt
     // commands_import_de.txt: de, pl 
     // commands_testcase_01.txt: 01, es, de
-    let commandSet = "commands_diff_tsv_update.txt"
+    let commandSet = "commands_export_es.txt"
     
     /// Test AppLocalizerLib directly.
     func testAppLocalizerLib() {
+
         guard #available(macOS 10.15, *) else {
             XCTFail("testAppLocalizerLib() requires macOS 10.15 or higher")
             return 
         }
         
-        // …/AppLocalizerLibTests.bundle/Resources/commands_*.txt
         // Content: batch commands file
+        // …/AppLocalizerLibTests.bundle/Resources/commands_*.txt
+        //let commandsDir = productsDir
+        //    .appendingPathComponent("AppLocalizerLibTests.bundle")
+        //    .appendingPathComponent("Resources", isDirectory: true)
+        // …/AppLocalizerLib_AppLocalizerLibTests.bundle/
+        //     Contents/Resources/Resources/commands_export_es.txt
         let commandsDir = productsDir
-            .appendingPathComponent("AppLocalizerLibTests.bundle")
+            .appendingPathComponent("AppLocalizerLib_AppLocalizerLibTests.bundle")
+            .appendingPathComponent("Contents", isDirectory: true)
+            .appendingPathComponent("Resources", isDirectory: true)
             .appendingPathComponent("Resources", isDirectory: true)
         let commandsFile = commandsDir
             .appendingPathComponent(commandSet, isDirectory: false)
@@ -40,7 +48,7 @@ final class AppLocalizerTests: XCTestCase {
         // copy from daily-dozen-localization/Languages
         //  e.g. Languages/Spanish/android/, …ios/, …tsv/
         let languagesDir = productsDir
-            .appendingPathComponent("AppLocalizerLibTests.bundle")
+            .appendingPathComponent("AppLocalizerLib_AppLocalizerLibTests.bundle")
             .appendingPathComponent("Languages", isDirectory: true)
         print("languagesDir=\(languagesDir.absoluteString)")
         

@@ -10,7 +10,7 @@ struct BatchRunner {
     // Batch Commands File URL
     let commandsUrl: URL
     let languagesUrl: URL
-    let mappingsUrl: URL
+    let mappingsUrl: URL // currently not used
     
     init(commandsUrl: URL, languagesUrl: URL, mappingsUrl: URL) {
         self.commandsUrl = commandsUrl

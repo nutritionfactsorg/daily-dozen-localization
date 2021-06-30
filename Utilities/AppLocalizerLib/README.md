@@ -26,8 +26,6 @@ _Export_ generates or updates TSV spreadsheets from data in the Android and Appl
 #   * Where Android value != Apple value for mapped keys. [NYI]
 #   * After all inputs, list where base_value == lang_value [NYI] 
 #   * If base_value != lang_value && (incoming_target != existing_target), then report
-
-
 ```
 
 ## Import <a id="import-"></a><sup>[▴](#contents)</sup>

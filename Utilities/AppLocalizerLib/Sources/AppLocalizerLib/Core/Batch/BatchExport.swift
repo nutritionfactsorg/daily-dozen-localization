@@ -32,12 +32,12 @@ struct BatchExport {
     ) {        
         print("""
         ### DO_EXPORT_TSV doExport() ###
-              outputLangTsv = \(outputLangTsv.absoluteString)
-              sourceEnUSTsv = \(sourceEnUSTsv.absoluteString)
-            sourceEnUSDroid = \(sourceEnUSDroid.absoluteString)
-            sourceLangDroid = \(sourceLangDroid.absoluteString)
-            sourceEnUSApple = \(sourceEnUSApple.absoluteString)
-            sourceLangApple = \(sourceLangApple.absoluteString)
+          outputLangTsv = \(outputLangTsv.absoluteString.removingPercentEncoding!)
+          sourceEnUSTsv = \(sourceEnUSTsv.absoluteString.removingPercentEncoding!)
+        sourceEnUSDroid = \(sourceEnUSDroid.absoluteString.removingPercentEncoding!)
+        sourceLangDroid = \(sourceLangDroid.absoluteString.removingPercentEncoding!)
+        sourceEnUSApple = \(sourceEnUSApple.absoluteString.removingPercentEncoding!)
+        sourceLangApple = \(sourceLangApple.absoluteString.removingPercentEncoding!)
         """)
         
         // ** …/tsv/results_yyyyMMddHHmm/
