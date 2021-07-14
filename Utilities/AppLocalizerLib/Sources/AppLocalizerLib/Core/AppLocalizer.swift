@@ -11,9 +11,9 @@ public final class AppLocalizer {
     
     public static let environmentInfo = ProcessInfo().environment
     // Path to Android app/src/main/res
-    public static var environmentNFAndroidResources = ProcessInfo().environment["NF_ANDROID_RESOURCES"]
+    public static var environmentNFAndroidResources = ProcessInfo().environment["NF_DROID_RES"]
     // Path to daily-dozen-localization/Languages
-    public static var environmentNFLanguages = ProcessInfo().environment["NF_LANGUAGES"]
+    public static var environmentNFLanguages = ProcessInfo().environment["NF_LOCALE_LANG_ALL"]
     
     var directoryLib: URL {
         #if os(macOS)

@@ -26,31 +26,33 @@ var productsDir: URL {
 // :NYI: handle
 //let argv = ProcessInfo().arguments
 
-// :NYI: support `commandSet` as parameter. check for default file is no parameter.
-// commands_diff_pl.txt
-// commands_diff_tsv.txt
-// commands_diff_tsv_update.txt
-// commands_export_droid.txt
-// commands_export_es.txt
-// commands_import_droid.txt
-// commands_export_pl_es.txt
-// commands_import_es.txt
-// commands_import_pl.txt
-// commands_import_de.txt: de, pl
-// commands_testcase_01.txt: 01, es, de
-let commandSet = "commands_import_droid.txt"
-print("### \(commandSet) ###")
+// :NYI: support `BatchCommands` as parameter. check for default file is no parameter.
+
+// batch_replicate_DroidToTSV.txt
+// batch_replicate_TsvToApple.txt
+
+// batch_diff_xliff.txt
+// batch_diff_tsv_update_af.txt
+// batch_diff_tsv_update__all.txt
+// batch_replicate_DroidToTsv.txt
+// batch_export_es.txt
+// batch_export_pl_es.txt
+// batch_import_es.txt
+// batch_import_pl.txt
+// batch_import_de.txt: de, pl
+let BatchCommands = "batch_replicate_TsvToApple.txt"
+print("### \(BatchCommands) ###")
 
 // …/AppLocalizerLibTests.bundle/Resources/commands_*.txt
 // Content: batch commands file
-///…/Debug/AppLocalizerLib_AppLocalizerLib.bundle/Contents/Resources/Commands
+///…/Debug/AppLocalizerLib_AppLocalizerLib.bundle/Contents/Resources/BatchCommands
 let commandsDir = productsDir
     .appendingPathComponent("AppLocalizerLib_AppLocalizerLib.bundle")
     .appendingPathComponent("Contents", isDirectory: true)
     .appendingPathComponent("Resources", isDirectory: true)
-    .appendingPathComponent("Commands", isDirectory: true)
+    .appendingPathComponent("BatchCommands", isDirectory: true)
 let commandsFile = commandsDir
-    .appendingPathComponent(commandSet, isDirectory: false)
+    .appendingPathComponent(BatchCommands, isDirectory: false)
 print("commandsDir=\(commandsDir.absoluteString)")
 print("commandsFile=\(commandsFile.absoluteString)")
 
@@ -58,7 +60,7 @@ print("commandsFile=\(commandsFile.absoluteString)")
 // copy from daily-dozen-localization/Languages
 //  e.g. Languages/Spanish/android/, …ios/, …tsv/
 guard let nfLanguages = AppLocalizer.environmentNFLanguages else {
-    print("NF_LANGUAGES not found")
+    print("NF_LOCALE_LANG_ALL not found")
     exit(EXIT_FAILURE)
 }
 

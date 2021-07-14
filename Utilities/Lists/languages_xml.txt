@@ -2,7 +2,7 @@
 
 ## Base development language
 English_US/android/values/strings.xml
-English_US/android/values/strings_base_sans_NoTranslatableFalse.xml
+English_US/android/values/strings_WithoutTranslatableFalse.xml
 
 ## 
 Afrikaans/android/values-af/strings.xml

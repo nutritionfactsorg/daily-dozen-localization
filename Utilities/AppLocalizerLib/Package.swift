@@ -17,8 +17,6 @@ let package = Package(
             targets: ["AppLocalizerTool"]),
         Product.library(
             name: "AppLocalizerLib",
-            // .static  -> libAppLocalizerLib.a
-            // .dynamic -> libAppLocalizerLib.dylib
             type: Product.Library.LibraryType.dynamic, // .static | .dynamic
             targets: ["AppLocalizerLib"]),
     ],
@@ -29,7 +27,7 @@ let package = Package(
             dependencies: [],
             // from: Sources/AppLocalizerLib/Resources/*
             //   to: AppLocalizerLib_AppLocalizerLib.bundle/Resources/*
-            resources: [.copy("Resources/Commands")]
+            resources: [.copy("Resources/BatchCommands")]
         ),
         .executableTarget(
             name: "AppLocalizerTool",

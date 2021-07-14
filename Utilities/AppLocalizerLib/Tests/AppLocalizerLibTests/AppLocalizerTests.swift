@@ -8,16 +8,15 @@ import AppLocalizerLib
 
 final class AppLocalizerTests: XCTestCase {
     
-    // commands_diff_pl.txt
-    // commands_diff_tsv.txt
-    // commands_diff_tsv_update.txt
-    // commands_export_es.txt
-    // commands_export_pl_es.txt
-    // commands_import_es.txt
-    // commands_import_pl.txt
-    // commands_import_de.txt: de, pl 
-    // commands_testcase_01.txt: 01, es, de
-    let commandSet = "commands_export_es.txt"
+    // batch_diff_xliff.txt
+    // batch_diff_tsv_update_af.txt
+    // batch_diff_tsv_update__all.txt
+    // batch_export_es.txt
+    // batch_export_pl_es.txt
+    // batch_import_es.txt
+    // batch_import_pl.txt
+    // batch_import_de.txt: de, pl 
+    let commandSet = "batch_export_es.txt"
     
     /// Test AppLocalizerLib directly.
     func testAppLocalizerLib() {
@@ -33,7 +32,7 @@ final class AppLocalizerTests: XCTestCase {
         //    .appendingPathComponent("AppLocalizerLibTests.bundle")
         //    .appendingPathComponent("Resources", isDirectory: true)
         // …/AppLocalizerLib_AppLocalizerLibTests.bundle/
-        //     Contents/Resources/Resources/commands_export_es.txt
+        //     Contents/Resources/Resources/batch_export_es.txt
         let commandsDir = productsDir
             .appendingPathComponent("AppLocalizerLib_AppLocalizerLibTests.bundle")
             .appendingPathComponent("Contents", isDirectory: true)

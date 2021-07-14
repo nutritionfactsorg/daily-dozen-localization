@@ -1,0 +1,12 @@
+### FILE: batch_import_de.txt
+### WORKFLOW: Documentation/Workflow_ImportIntoApps.md
+###
+##########################
+### IMPORT TRANSLATION ###
+##########################
+SOURCE_TSV="German/tsv/German_de.tsv"
+OUTPUT_DROID="German/android/values-de/strings.xml"    
+OUTPUT_APPLE="German/ios/de.xcloc/Localized Contents/de.xliff"   
+DO_IMPORT_TSV
+
+

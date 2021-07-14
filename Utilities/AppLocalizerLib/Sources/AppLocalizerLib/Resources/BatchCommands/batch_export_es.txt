@@ -1,3 +1,6 @@
+### FILE: batch_export_es.txt
+### WORKFLOW: Documentation/Workflow_ExportFromApps.md
+###
 ########################################
 ### EXPORT Spanish_es SOURCES TO TSV ###
 ########################################

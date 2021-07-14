@@ -1,9 +1,5 @@
-##################
-### DIFF FILES ###
-##################
-#DIFF_XML_A="Polish/android/values-pl/strings.xml"    
-#DIFF_XML_B="Polish/android/values-pl/strings.xml"    
-
+### FILE: batch_diff_xliff.txt
+### WORKFLOW: Documentation/Workflow_Diffs.md
 ##################
 ### DIFF FILES ###
 ##################

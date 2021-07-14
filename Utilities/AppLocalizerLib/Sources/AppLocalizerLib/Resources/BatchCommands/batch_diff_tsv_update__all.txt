@@ -1,0 +1,14 @@
+### FILE: batch_diff_tsv_update_af.txt
+### WORKFLOW: Documentation/Workflow_Diffs.md
+###
+### USE: After updating English_US baseline,
+###      determine the key changes needed to update each language.
+###
+###################
+### UPDATE DIFF ###
+###################
+DIFF_TSV_A="English_US/tsv/English_US_en.20210309.tsv" 
+DIFF_TSV_B="Afrikaans/tsv/Afrikaans_af.tsv" 
+DO_DIFF_KEYS
+
+CLEAR_ALL

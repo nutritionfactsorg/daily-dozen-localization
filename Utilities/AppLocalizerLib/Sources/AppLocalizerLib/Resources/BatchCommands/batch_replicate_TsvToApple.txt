@@ -1,0 +1,121 @@
+### FILE: batch_replicate_TsvToApple.txt
+### WORKFLOW: Documentation/Workflow_Replicate.md
+####################################################
+### MIGRATE: Import "Android" TSV to Apple XLIFF ###
+####################################################
+
+####################
+### Bulgarian_bg ###
+####################
+## "$XCLOC_NEW/bg.xcloc" "$LANGUAGES/Bulgarian/ios"
+SOURCE_TSV="Bulgarian/tsv/Bulgarian_bg.tsv"
+#SOURCE_TSV="Bulgarian/tsv/Bulgarian_bg_additions.tsv"
+#SOURCE_TSV="Bulgarian/tsv/Bulgarian_bg_appstore.tsv"
+OUTPUT_DROID="Bulgarian/android/values-bg/strings.xml"
+OUTPUT_APPLE="Bulgarian/ios/bg.xcloc/Localized Contents/bg.xliff"
+DO_IMPORT_TSV
+
+###################################
+### Chinese_Traditional_zh-Hant ###
+###################################
+## "$XCLOC_NEW/zh-Hant.xcloc" "$LANGUAGES/Chinese_Traditional/ios"
+SOURCE_TSV="Chinese_Traditional/tsv/Chinese_Traditional_zh_Hant.tsv"
+#SOURCE_TSV="Chinese_Traditional/tsv/Chinese_Traditional_zh_Hant_additions.tsv"
+#SOURCE_TSV="Chinese_Traditional/tsv/Chinese_Traditional_zh_Hant_appstore.tsv"
+OUTPUT_DROID="Chinese_Traditional/android/values-zh/strings.xml"
+OUTPUT_APPLE="Chinese_Traditional/ios/zh-Hant.xcloc/Localized Contents/zh-Hant.xliff"
+DO_IMPORT_TSV
+
+##### ----- NOT YET -----
+QUIT
+
+#################
+### German_de ###
+#################
+## "$XCLOC_NEW/de.xcloc" "$LANGUAGES/German/ios"
+SOURCE_TSV="German/tsv/German_de.tsv"
+#SOURCE_TSV="German/tsv/German_de_additions.tsv"
+#SOURCE_TSV="German/tsv/German_de_appstore.tsv"
+OUTPUT_DROID="German/android/values-de/strings.xml"
+OUTPUT_APPLE="German/ios/de.xcloc/Localized Contents/de.xliff"
+DO_IMPORT_TSV
+
+################
+### Greek_el ###
+################
+## "$XCLOC_NEW/el.xcloc" "$LANGUAGES/Greek/ios"
+SOURCE_TSV="Greek/tsv/Greek_el.tsv"
+#SOURCE_TSV="Greek/tsv/Greek_el_additions.tsv"
+#SOURCE_TSV="Greek/tsv/Greek_el_appstore.tsv"
+OUTPUT_DROID="Greek/android/values-el/strings.xml"
+OUTPUT_APPLE="Greek/ios/el.xcloc/Localized Contents/el.xliff"
+DO_IMPORT_TSV
+
+##################
+### Italian_it ###
+##################
+## "$XCLOC_NEW/it.xcloc" "$LANGUAGES/Italian/ios"
+SOURCE_TSV="Italian/tsv/Italian_it.tsv"
+#SOURCE_TSV="Italian/tsv/Italian_it_additions.tsv"
+#SOURCE_TSV="Italian/tsv/Italian_it_appstore.tsv"
+OUTPUT_DROID="Italian/android/values-it/strings.xml"
+OUTPUT_APPLE="Italian/ios/it.xcloc/Localized Contents/it.xliff"
+DO_IMPORT_TSV
+
+#####################
+### Portuguese_pt ###
+#####################
+## "$XCLOC_NEW/pt.xcloc" "$LANGUAGES/Portuguese/ios"
+SOURCE_TSV="Portuguese/tsv/Portuguese_pt.tsv"
+#SOURCE_TSV="Portuguese/tsv/Portuguese_pt_additions.tsv"
+#SOURCE_TSV="Portuguese/tsv/Portuguese_pt_appstore.tsv"
+OUTPUT_DROID="Portuguese/android/values-pt/strings.xml"
+OUTPUT_APPLE="Portuguese/ios/pt.xcloc/Localized Contents/pt.xliff"
+DO_IMPORT_TSV
+
+###################
+### Romanian_ro ###
+###################
+## "$XCLOC_NEW/ro.xcloc" "$LANGUAGES/Romanian/ios"
+SOURCE_TSV="Romanian/tsv/Romanian_ro.tsv"
+#SOURCE_TSV="Romanian/tsv/Romanian_ro_additions.tsv"
+#SOURCE_TSV="Romanian/tsv/Romanian_ro_appstore.tsv"
+OUTPUT_DROID="Romanian/android/values-ro/strings.xml"
+OUTPUT_APPLE="Romanian/ios/ro.xcloc/Localized Contents/ro.xliff"
+DO_IMPORT_TSV
+
+###################
+### Russian_ru ###
+###################
+## "$XCLOC_NEW/ru.xcloc" "$LANGUAGES/Russian/ios"
+SOURCE_TSV="Russian/tsv/Russian_ru.tsv"
+#SOURCE_TSV="Russian/tsv/Russian_ru_additions.tsv"
+#SOURCE_TSV="Russian/tsv/Russian_ru_appstore.tsv"
+OUTPUT_DROID="Russian/android/values-ru/strings.xml"
+OUTPUT_APPLE="Russian/ios/ru.xcloc/Localized Contents/ru.xliff"
+DO_IMPORT_TSV
+
+
+##### ----- MIGRATED -----
+QUIT
+
+#################
+### French_fr ###
+#################
+## "$XCLOC_NEW/fr.xcloc" "$LANGUAGES/French/ios"
+SOURCE_TSV="French/tsv/French_fr.tsv"
+#SOURCE_TSV="French/tsv/French_fr_additions.tsv"
+#SOURCE_TSV="French/tsv/French_fr_appstore.tsv"
+OUTPUT_DROID="French/android/values-fr/strings.xml"
+OUTPUT_APPLE="French/ios/fr.xcloc/Localized Contents/fr.xliff"
+DO_IMPORT_TSV
+
+#################
+### Polish_pl ###
+#################
+## Processed through TSV files submitted to `daily-dozen-localization`.
+
+##################
+### Spanish_es ###
+##################
+## In place in Android and iOS. Where submitted separately to Android and iOS.

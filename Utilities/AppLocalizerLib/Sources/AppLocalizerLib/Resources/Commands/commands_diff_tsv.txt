@@ -1,8 +1,0 @@
-##################
-### DIFF FILES ###
-##################
-DIFF_TSV_A="English_US/tsv/English_US_en.20210309.tsv" 
-DIFF_TSV_B="Afrikaans/tsv/Afrikaans_af.tsv" 
-DO_DIFF_KEYS
-
-CLEAR_ALL

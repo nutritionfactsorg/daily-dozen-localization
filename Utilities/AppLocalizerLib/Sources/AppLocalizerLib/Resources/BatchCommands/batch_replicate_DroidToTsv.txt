@@ -1,0 +1,148 @@
+### FILE: batch_replicate_DroidToTsv.txt
+### WORKFLOW: Documentation/Workflow_Replicate.md
+###################################################
+### MIGRATE: Export pre-existing Android to TSV ###
+###################################################
+
+####################
+### Bulgarian_bg ###
+####################
+## "$XCLOC_NEW/bg.xcloc" "$LANGUAGES/Bulgarian/ios"
+OUTPUT_LANG_TSV="Bulgarian/tsv/Bulgarian_bg.tsv"
+SOURCE_enUS_TSV="English_US/tsv/English_US_en.20210309.tsv"
+## Apple (inital pass)
+SOURCE_enUS_APPLE="English_US/ios/en.xcloc/Localized Contents/en.xliff" 
+SOURCE_LANG_APPLE="Bulgarian/ios/bg.xcloc/Localized Contents/bg.xliff"
+## Android (priority overwrite pass)
+SOURCE_enUS_DROID="English_US/android/values/strings.xml"
+SOURCE_LANG_DROID="Bulgarian/android/values-bg/strings.xml"
+DO_EXPORT_TSV
+
+###################################
+### Chinese_Traditional_zh-Hant ###
+###################################
+## "$XCLOC_NEW/zh-Hant.xcloc" "$LANGUAGES/Chinese_Traditional/ios"
+OUTPUT_LANG_TSV="Chinese_Traditional/tsv/Chinese_Traditional_zh_Hant.tsv"
+SOURCE_enUS_TSV="English_US/tsv/English_US_en.20210309.tsv"
+## Apple (inital pass)
+SOURCE_enUS_APPLE="English_US/ios/en.xcloc/Localized Contents/en.xliff"
+SOURCE_LANG_APPLE="Chinese_Traditional/ios/zh-Hant.xcloc/Localized Contents/zh-Hant.xliff"
+## Android (priority overwrite pass)
+SOURCE_enUS_DROID="English_US/android/values/strings.xml"
+SOURCE_LANG_DROID="Chinese_Traditional/android/values-zh/strings.xml"
+DO_EXPORT_TSV
+
+##### ----- NOT YET -----
+QUIT
+
+#################
+### German_de ###
+#################
+## "$XCLOC_NEW/de.xcloc" "$LANGUAGES/German/ios"
+OUTPUT_LANG_TSV="German/tsv/German_de.tsv"
+SOURCE_enUS_TSV="English_US/tsv/English_US_en.20210309.tsv"
+## Apple (inital pass)
+SOURCE_enUS_APPLE="English_US/ios/en.xcloc/Localized Contents/en.xliff"
+SOURCE_LANG_APPLE="German/ios/de.xcloc/Localized Contents/de.xliff"
+## Android (priority overwrite pass)
+SOURCE_enUS_DROID="English_US/android/values/strings.xml"
+SOURCE_LANG_DROID="German/android/values-de/strings.xml"
+DO_EXPORT_TSV
+
+################
+### Greek_el ###
+################
+## "$XCLOC_NEW/el.xcloc" "$LANGUAGES/Greek/ios"
+OUTPUT_LANG_TSV="Greek/tsv/Greek_el.tsv"
+SOURCE_enUS_TSV="English_US/tsv/English_US_en.20210309.tsv"
+## Apple (inital pass)
+SOURCE_enUS_APPLE="English_US/ios/en.xcloc/Localized Contents/en.xliff"
+SOURCE_LANG_APPLE="Greek/ios/el.xcloc/Localized Contents/el.xliff"
+## Android (priority overwrite pass)
+SOURCE_enUS_DROID="English_US/android/values/strings.xml"
+SOURCE_LANG_DROID="Greek/android/values-el/strings.xml"
+DO_EXPORT_TSV
+
+##################
+### Italian_it ###
+##################
+## "$XCLOC_NEW/it.xcloc" "$LANGUAGES/Italian/ios"
+OUTPUT_LANG_TSV="Italian/tsv/Italian_it.tsv"
+SOURCE_enUS_TSV="English_US/tsv/English_US_en.20210309.tsv"
+## Apple (inital pass)
+SOURCE_enUS_APPLE="English_US/ios/en.xcloc/Localized Contents/en.xliff"
+SOURCE_LANG_APPLE="Italian/ios/it.xcloc/Localized Contents/it.xliff"
+## Android (priority overwrite pass)
+SOURCE_enUS_DROID="English_US/android/values/strings.xml"
+SOURCE_LANG_DROID="Italian/android/values-it/strings.xml"
+DO_EXPORT_TSV
+
+#####################
+### Portuguese_pt ###
+#####################
+## "$XCLOC_NEW/pt.xcloc" "$LANGUAGES/Portuguese/ios"
+OUTPUT_LANG_TSV="Portuguese/tsv/Portuguese_pt.tsv"
+SOURCE_enUS_TSV="English_US/tsv/English_US_en.20210309.tsv"
+## Apple (inital pass)
+SOURCE_enUS_APPLE="English_US/ios/en.xcloc/Localized Contents/en.xliff"
+SOURCE_LANG_APPLE="Portuguese/ios/pt.xcloc/Localized Contents/pt.xliff"
+## Android (priority overwrite pass)
+SOURCE_enUS_DROID="English_US/android/values/strings.xml"
+SOURCE_LANG_DROID="Portuguese/android/values-pt/strings.xml"
+DO_EXPORT_TSV
+
+###################
+### Romanian_ro ###
+###################
+## "$XCLOC_NEW/ro.xcloc" "$LANGUAGES/Romanian/ios"
+OUTPUT_LANG_TSV="Romanian/tsv/Romanian_ro.tsv"
+SOURCE_enUS_TSV="English_US/tsv/English_US_en.20210309.tsv"
+## Apple (inital pass)
+SOURCE_enUS_APPLE="English_US/ios/en.xcloc/Localized Contents/en.xliff"
+SOURCE_LANG_APPLE="Romanian/ios/ro.xcloc/Localized Contents/ro.xliff"
+## Android (priority overwrite pass)
+SOURCE_enUS_DROID="English_US/android/values/strings.xml"
+SOURCE_LANG_DROID="Romanian/android/values-ro/strings.xml"
+DO_EXPORT_TSV
+
+###################
+### Russian_ru ###
+###################
+## "$XCLOC_NEW/ru.xcloc" "$LANGUAGES/Russian/ios"
+OUTPUT_LANG_TSV="Russian/tsv/Russian_ru.tsv"
+SOURCE_enUS_TSV="English_US/tsv/English_US_en.20210309.tsv"
+## Apple (inital pass)
+SOURCE_enUS_APPLE="English_US/ios/en.xcloc/Localized Contents/en.xliff"
+SOURCE_LANG_APPLE="Russian/ios/ru.xcloc/Localized Contents/ru.xliff"
+## Android (priority overwrite pass)
+SOURCE_enUS_DROID="English_US/android/values/strings.xml"
+SOURCE_LANG_DROID="Russian/android/values-ru/strings.xml"
+DO_EXPORT_TSV
+
+
+##### ----- MIGRATED -----
+QUIT
+
+#################
+### French_fr ###
+#################
+## "$XCLOC_NEW/fr.xcloc" "$LANGUAGES/French/ios"
+OUTPUT_LANG_TSV="French/tsv/French_fr.tsv"
+SOURCE_enUS_TSV="English_US/tsv/English_US_en.20210309.tsv"
+## Apple (inital pass)
+SOURCE_enUS_APPLE="English_US/ios/en.xcloc/Localized Contents/en.xliff"
+SOURCE_LANG_APPLE="French/ios/fr.xcloc/Localized Contents/fr.xliff"
+## Android (priority overwrite pass)
+SOURCE_enUS_DROID="English_US/android/values/strings.xml"
+SOURCE_LANG_DROID="French/android/values-fr/strings.xml"
+DO_EXPORT_TSV
+
+#################
+### Polish_pl ###
+#################
+## Processed through TSV files submitted to `daily-dozen-localization`.
+
+##################
+### Spanish_es ###
+##################
+## In place in Android and iOS. Where submitted separately to Android and iOS.
