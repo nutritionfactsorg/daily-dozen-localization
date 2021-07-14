@@ -1,7 +1,7 @@
 #export NF_PRODUCTS="TBD"
 ##
 export COPY_SOURCE="$NF_PRODUCTS"
-export COPY_TARGET="$NF_LANGUAGES"
+export COPY_TARGET="$NF_LOCALE_LANG_ALL"
 
 cp -v "$COPY_SOURCE/Afrikaans/tsv/Afrikaans_af.additions.tsv" "$COPY_TARGET/Afrikaans/tsv/Afrikaans_af.additions.tsv"
 cp -v "$COPY_SOURCE/Arabic/tsv/Arabic_ar.additions.tsv" "$COPY_TARGET/Arabic/tsv/Arabic_ar.additions.tsv";

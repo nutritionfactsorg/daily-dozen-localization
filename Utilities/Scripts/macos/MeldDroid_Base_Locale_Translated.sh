@@ -1,21 +1,29 @@
 #!/bin/sh
+### FILE: MeldDroid_Base_Locale_Translated.sh
 
-### cd /to-this-directory/Tools/Scripts/macos
-### ./MeldDroid_BaseToLocale_Translated.sh
-###
-### Environment setup:
-# export NF_ANDROID_RESOURCES='/PATH/TO/daily-dozen-android/app/src/main/res'
+#############################
+### Environment Variables ###
+# alias meld="/Applications/Meld.app/Contents/MacOS/Meld "
+# export NF_DROID_RES="/$NF_PATH_TO/daily-dozen-android/app/src/main/res"
+# export NF_LOCALE_SCRIPTS_MAC = $PATH_TO/daily-dozen-localization/Utilities/Scripts/macos
+
+#############
+### Usage ###
+# cd "$NF_LOCALE_SCRIPTS_MAC"
+# ./MeldDroid_Base_Locale_Translated.sh
+#
 
 SCRIPT_DIR="$( cd "$( dirname "$0" )" >/dev/null 2>&1 && pwd )"
 LANGUAGES="$SCRIPT_DIR/../../../Languages"
-MELD="/Applications/Meld.app/Contents/MacOS/Meld"
 
-BASE="$LANGUAGES/English_US/android/values/strings_base_sans_NoTranslatableFalse.xml"
+BASE="$LANGUAGES/English_US/android/values/strings_WithoutTranslatableFalse.xml"
 
-#############
-##$MELD "$BASE" "$LANGUAGES/English_US/android/values/strings.xml"
+##################
+### English_US ###
+#$MELD "$BASE" "$LANGUAGES/English_US/android/values/strings.xml"
 
-#############
+#####################
+### Translations  ###
 #$MELD "$BASE" "$LANGUAGES/Afrikaans/android/values-af/strings.xml"
 #$MELD "$BASE" "$LANGUAGES/Arabic/android/values-ar/strings.xml"
 #$MELD "$BASE" "$LANGUAGES/Bhojpuri/android/values-bho/strings.xml"

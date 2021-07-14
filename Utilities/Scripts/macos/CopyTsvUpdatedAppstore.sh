@@ -1,7 +1,7 @@
-#export NF_LANGUAGES="TBD"
+#export NF_LOCALE_LANG_ALL="TBD"
 ##
-export COPY_SOURCE="$NF_LANGUAGES/English_US/tsv/English_US_en_appstore.20210309.tsv"
-export COPY_TARGET="$NF_LANGUAGES"
+export COPY_SOURCE="$NF_LOCALE_LANG_ALL/English_US/tsv/English_US_en_appstore.20210309.tsv"
+export COPY_TARGET="$NF_LOCALE_LANG_ALL"
 
 cp -v "$COPY_SOURCE" "$COPY_TARGET/Afrikaans/tsv/Afrikaans_af_appstore.updated.tsv";
 cp -v "$COPY_SOURCE" "$COPY_TARGET/Arabic/tsv/Arabic_ar_appstore.updated.tsv";

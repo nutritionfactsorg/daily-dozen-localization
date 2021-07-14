@@ -8,7 +8,7 @@
 SCRIPT_DIR="$( cd "$( dirname "$0" )" >/dev/null 2>&1 && pwd )"
 LANGUAGES="$SCRIPT_DIR/../../../Languages"
 
-LANGUAGES="$NF_LANGUAGES"
+LANGUAGES="$NF_LOCALE_LANG_ALL"
 
 ## Existing 
 
