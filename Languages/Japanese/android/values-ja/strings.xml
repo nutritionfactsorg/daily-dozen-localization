@@ -29,9 +29,9 @@
     <string name="title_cookbook">Book: Cookbook</string>
     <string name="title_how_not_to_diet">Book: How Not to Diet</string>
     <string name="daily_dozen_challenge">Daily Dozen Challenge</string>
-   <string name="donate">Donate</string>
-   <string name="subscribe">Subscribe</string>
-   <string name="open_source">Open Source</string>
+    <string name="donate">Donate</string>
+    <string name="subscribe">Subscribe</string>
+    <string name="open_source">Open Source</string>
    <string name="permission_needed_to_write_storage">ストレージへの書き込み権限がないとバックアップできません</string> 
    <string name="backup_failed">バックアップに失敗しました</string>
    <string name="restore_failed">復元に失敗しました</string>
@@ -164,6 +164,7 @@
     <string name="for_health_alone">For Health Alone</string>
     <string name="daily_dozen_and_tweaks">Daily Dozen + 21 Tweaks</string>
     <string name="daily_dozen_only">Daily Dozen Only</string>
+
     <string name="weight">Weight</string>
     <string name="tweak_group_meal">At Each Meal</string>
     <string name="tweak_group_daily">Every Day</string>
@@ -171,513 +172,494 @@
     <string name="tweak_group_nightly">Every Night</string>
     <string name="about_tweak">About Tweak</string>
 
-   <integer-array name="food_quantities">
-       <item>3</item>
-       <item>1</item>
-       <item>3</item>
-       <item>1</item>
-       <item>2</item>
-       <item>2</item>
-       <item>1</item>
-       <item>1</item>
-       <item>1</item>
-       <item>3</item>
-       <item>5</item>
-       <item>1</item>
-       <item>1</item>
-       <item>1</item>
-   </integer-array>
+    <string-array name="about_text_lines">
+        <item>This app was created by John Slavick.</item>
+        <item />
+        <item>The following open source libraries are used: ActiveAndroid, android-iconify, EventBus, LikeAnimation, and MPAndroidChart.</item>
+    </string-array>
 
-   <string-array name="about_text_lines">
-       <item>This app was created by John Slavick.</item>
-       <item />
-       <item>The following open source libraries are used: ActiveAndroid, android-iconify, ButterKnife, EventBus, LikeAnimation, and MPAndroidChart.</item>
-       <item />
-       <item>Special thanks to the volunteer efforts of the creators of the previous app: Chan Kruse, Allan Portera, and Sangeeta Kumar.</item>
-   </string-array>
+    <string-array name="backup_instructions_lines">
+        <item>Follow these steps to restore this backup in the Daily Dozen app</item>
+        <item />
+        <item>1. The Daily Dozen app must be installed on your Android phone. You can download it here: https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen</item>
+        <item />
+        <item>2. Tap on the backup file attached to this email.</item>
+        <item />
+        <item>3. Select Open with Daily Dozen</item>
+    </string-array>
 
-   <string-array name="backup_instructions_lines">
-       <item>Follow these steps to restore this backup in the Daily Dozen app</item>
-       <item />
-       <item>1. The Daily Dozen app must be installed on your Android phone. You can download it here: https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen</item>
-       <item />
-       <item>2. Tap on the backup file attached to this email.</item>
-       <item />
-       <item>3. Select Open with Daily Dozen</item>
-   </string-array>
+    <string-array name="servings_time_scale_choices">
+        <item>Day</item>
+        <item>Month</item>
+        <item>Year</item>
+    </string-array>
 
-   <string-array name="servings_time_scale_choices">
-       <item>Day</item>
-       <item>Month</item>
-       <item>Year</item>
-   </string-array>
+    <string-array name="history_to_generate_choices">
+        <item>1 month</item>
+        <item>3 months</item>
+        <item>6 months</item>
+        <item>1 year</item>
+        <item>2 years</item>
+        <item>5 years</item>
+    </string-array>
 
-   <string-array name="history_to_generate_choices">
-       <item>1 month</item>
-       <item>3 months</item>
-       <item>6 months</item>
-       <item>1 year</item>
-       <item>2 years</item>
-       <item>5 years</item>
-   </string-array>
-
-   <string-array name="food_info_types_beans">
-       <item>Black beans</item>
-       <item>Black-eyed peas</item>
-       <item>Butter beans</item>
-       <item>Cannellini beans</item>
+    <string-array name="food_info_types_beans">
+        <item>Black beans</item>
+        <item>Black-eyed peas</item>
+        <item>Butter beans</item>
+        <item>Cannellini beans</item>
         <item>Chickpeas/Garbanzo beans</item>
-       <item>Edamame</item>
-       <item>English peas</item>
-       <item>Great northern beans</item>
-       <item>Kidney beans</item>
-       <item>Lentils (beluga, french, and red varieties)</item>
-       <item>Miso</item>
-       <item>Navy beans</item>
-       <item>Pinto beans</item>
-       <item>Small red beans</item>
-       <item>Split peas (yellow or green)</item>
-       <item>Tempeh</item>
-   </string-array>
+        <item>Edamame</item>
+        <item>English peas</item>
+        <item>Great northern beans</item>
+        <item>Kidney beans</item>
+        <item>Lentils (beluga, french, and red varieties)</item>
+        <item>Miso</item>
+        <item>Navy beans</item>
+        <item>Pinto beans</item>
+        <item>Small red beans</item>
+        <item>Split peas (yellow or green)</item>
+        <item>Tempeh</item>
+    </string-array>
 
-   <string-array name="food_info_types_berries">
-       <item>Acai berries</item>
-       <item>Barberries</item>
-       <item>Blackberries</item>
-       <item>Blueberries</item>
-       <item>Cherries (sweet or tart)</item>
-       <item>Concord grapes</item>
-       <item>Cranberries</item>
-       <item>Goji berries</item>
-       <item>Kumquats</item>
-       <item>Mulberries</item>
-       <item>Raspberries (black or red)</item>
-       <item>Strawberries</item>
-   </string-array>
+    <string-array name="food_info_types_berries">
+        <item>Acai berries</item>
+        <item>Barberries</item>
+        <item>Blackberries</item>
+        <item>Blueberries</item>
+        <item>Cherries (sweet or tart)</item>
+        <item>Concord grapes</item>
+        <item>Cranberries</item>
+        <item>Goji berries</item>
+        <item>Kumquats</item>
+        <item>Mulberries</item>
+        <item>Raspberries (black or red)</item>
+        <item>Strawberries</item>
+    </string-array>
 
-   <string-array name="food_info_types_other_fruits">
-       <item>Apples</item>
-       <item>Dried apricots</item>
-       <item>Avocados</item>
-       <item>Bananas</item>
-       <item>Cantaloupe</item>
-       <item>Clementines</item>
-       <item>Dates</item>
-       <item>Dried figs</item>
-       <item>Grapefruit</item>
-       <item>Honeydew</item>
-       <item>Kiwifruit</item>
-       <item>Lemons</item>
-       <item>Limes</item>
-       <item>Lychees</item>
-       <item>Mangos</item>
-       <item>Nectarines</item>
-       <item>Oranges</item>
-       <item>Papaya</item>
-       <item>Passion fruit</item>
-       <item>Peaches</item>
-       <item>Pears</item>
-       <item>Pineapple</item>
-       <item>Plums (especially black plums)</item>
-       <item>Pluots</item>
-       <item>Pomegranates</item>
-       <item>Prunes</item>
-       <item>Tangerines</item>
-       <item>Watermelon</item>
-   </string-array>
+    <string-array name="food_info_types_other_fruits">
+        <item>Apples</item>
+        <item>Dried apricots</item>
+        <item>Avocados</item>
+        <item>Bananas</item>
+        <item>Cantaloupe</item>
+        <item>Clementines</item>
+        <item>Dates</item>
+        <item>Dried figs</item>
+        <item>Grapefruit</item>
+        <item>Honeydew</item>
+        <item>Kiwifruit</item>
+        <item>Lemons</item>
+        <item>Limes</item>
+        <item>Lychees</item>
+        <item>Mangos</item>
+        <item>Nectarines</item>
+        <item>Oranges</item>
+        <item>Papaya</item>
+        <item>Passion fruit</item>
+        <item>Peaches</item>
+        <item>Pears</item>
+        <item>Pineapple</item>
+        <item>Plums (especially black plums)</item>
+        <item>Pluots</item>
+        <item>Pomegranates</item>
+        <item>Prunes</item>
+        <item>Tangerines</item>
+        <item>Watermelon</item>
+    </string-array>
 
-   <string-array name="food_info_types_cruciferous_vegetables">
-       <item>Arugula</item>
-       <item>Bok choy</item>
-       <item>Broccoli (incl. Romanesco)</item>
-       <item>Brussels sprouts</item>
-       <item>Cabbage (green, red and savoy)</item>
-       <item>Cauliflower (white, green, orange and purple)</item>
-       <item>Collard greens</item>
-       <item>Horseradish</item>
-       <item>Kale (black, green, and red)</item>
-       <item>Kohlrabi (green and purple)</item>
-       <item>Mustard greens</item>
-       <item>Radishes</item>
-       <item>Turnip greens</item>
-       <item>Watercress</item>
-   </string-array>
+    <string-array name="food_info_types_cruciferous_vegetables">
+        <item>Arugula</item>
+        <item>Bok choy</item>
+        <item>Broccoli (incl. Romanesco)</item>
+        <item>Brussels sprouts</item>
+        <item>Cabbage (green, red and savoy)</item>
+        <item>Cauliflower (white, green, orange and purple)</item>
+        <item>Collard greens</item>
+        <item>Horseradish</item>
+        <item>Kale (black, green, and red)</item>
+        <item>Kohlrabi (green and purple)</item>
+        <item>Mustard greens</item>
+        <item>Radishes</item>
+        <item>Turnip greens</item>
+        <item>Watercress</item>
+    </string-array>
 
-   <string-array name="food_info_types_greens">
-       <item>Arugula</item>
-       <item>Beet greens</item>
-       <item>Collard greens</item>
-       <item>Kale (black, green, and red)</item>
-       <item>Mesclun mix (assorted young salad greens)</item>
-       <item>Mustard greens</item>
-       <item>Sorrel</item>
-       <item>Spinach</item>
-       <item>Swiss chard</item>
-       <item>Turnip greens</item>
-   </string-array>
+    <string-array name="food_info_types_greens">
+        <item>Arugula</item>
+        <item>Beet greens</item>
+        <item>Collard greens</item>
+        <item>Kale (black, green, and red)</item>
+        <item>Mesclun mix (assorted young salad greens)</item>
+        <item>Mustard greens</item>
+        <item>Sorrel</item>
+        <item>Spinach</item>
+        <item>Swiss chard</item>
+        <item>Turnip greens</item>
+    </string-array>
 
-   <string-array name="food_info_types_other_vegetables">
-       <item>Artichokes</item>
-       <item>Asparagus</item>
-       <item>Beets</item>
-       <item>Bell peppers</item>
-       <item>Carrots</item>
-       <item>Corn</item>
-       <item>Garlic</item>
-       <item>Mushrooms (button, oyster, portobello, and shiitake)</item>
-       <item>Okra</item>
-       <item>Onions</item>
-       <item>Purple potatoes</item>
-       <item>Pumpkin</item>
-       <item>Sea vegetables (arame, dulse, and nori)</item>
-       <item>Snap peas</item>
-       <item>Squash (delicata, summer, and spaghetti squash varieties)</item>
-       <item>Sweet potatoes/yams</item>
-       <item>Tomatoes</item>
-       <item>Zucchini</item>
-   </string-array>
+    <string-array name="food_info_types_other_vegetables">
+        <item>Artichokes</item>
+        <item>Asparagus</item>
+        <item>Beets</item>
+        <item>Bell peppers</item>
+        <item>Carrots</item>
+        <item>Corn</item>
+        <item>Garlic</item>
+        <item>Mushrooms (button, oyster, portobello, and shiitake)</item>
+        <item>Okra</item>
+        <item>Onions</item>
+        <item>Purple potatoes</item>
+        <item>Pumpkin</item>
+        <item>Sea vegetables (arame, dulse, and nori)</item>
+        <item>Snap peas</item>
+        <item>Squash (delicata, summer, and spaghetti squash varieties)</item>
+        <item>Sweet potatoes/yams</item>
+        <item>Tomatoes</item>
+        <item>Zucchini</item>
+    </string-array>
 
-   <string-array name="food_info_types_flaxseeds">
-       <item>Brown flaxseeds</item>
-       <item>Golden flaxseeds</item>
-   </string-array>
+    <string-array name="food_info_types_flaxseeds">
+        <item>Brown flaxseeds</item>
+        <item>Golden flaxseeds</item>
+    </string-array>
 
-   <string-array name="food_info_types_nuts">
-       <item>Almonds</item>
-       <item>Brazil nuts</item>
-       <item>Cashews</item>
-       <item>Chia seeds</item>
-       <item>Hazelnuts</item>
-       <item>Hemp seeds</item>
-       <item>Macadamia nuts</item>
-       <item>Pecans</item>
-       <item>Pistachios</item>
-       <item>Pumpkin seeds</item>
-       <item>Sesame seeds</item>
-       <item>Sunflower seeds</item>
-       <item>Walnuts</item>
-   </string-array>
+    <string-array name="food_info_types_nuts">
+        <item>Almonds</item>
+        <item>Brazil nuts</item>
+        <item>Cashews</item>
+        <item>Chia seeds</item>
+        <item>Hazelnuts</item>
+        <item>Hemp seeds</item>
+        <item>Macadamia nuts</item>
+        <item>Pecans</item>
+        <item>Pistachios</item>
+        <item>Pumpkin seeds</item>
+        <item>Sesame seeds</item>
+        <item>Sunflower seeds</item>
+        <item>Walnuts</item>
+    </string-array>
 
-   <string-array name="food_info_types_spices">
-       <item>Allspice</item>
-       <item>Barberries</item>
-       <item>Basil</item>
-       <item>Bay leaves</item>
-       <item>Cardamom</item>
-       <item>Chili powder</item>
-       <item>Cilantro</item>
-       <item>Cinnamon</item>
-       <item>Cloves</item>
-       <item>Coriander</item>
-       <item>Cumin</item>
-       <item>Curry powder</item>
-       <item>Dill</item>
-       <item>Fenugreek</item>
-       <item>Garlic</item>
-       <item>Ginger</item>
-       <item>Horseradish</item>
-       <item>Lemongrass</item>
-       <item>Marjoram</item>
-       <item>Mustard powder</item>
-       <item>Nutmeg</item>
-       <item>Oregano</item>
-       <item>Smoked paprika</item>
-       <item>Parsley</item>
-       <item>Pepper</item>
-       <item>Peppermint</item>
-       <item>Rosemary</item>
-       <item>Saffron</item>
-       <item>Sage</item>
-       <item>Thyme</item>
-       <item>Turmeric</item>
-       <item>Vanilla</item>
-   </string-array>
+    <string-array name="food_info_types_spices">
+        <item>Allspice</item>
+        <item>Barberries</item>
+        <item>Basil</item>
+        <item>Bay leaves</item>
+        <item>Cardamom</item>
+        <item>Chili powder</item>
+        <item>Cilantro</item>
+        <item>Cinnamon</item>
+        <item>Cloves</item>
+        <item>Coriander</item>
+        <item>Cumin</item>
+        <item>Curry powder</item>
+        <item>Dill</item>
+        <item>Fenugreek</item>
+        <item>Garlic</item>
+        <item>Ginger</item>
+        <item>Horseradish</item>
+        <item>Lemongrass</item>
+        <item>Marjoram</item>
+        <item>Mustard powder</item>
+        <item>Nutmeg</item>
+        <item>Oregano</item>
+        <item>Smoked paprika</item>
+        <item>Parsley</item>
+        <item>Pepper</item>
+        <item>Peppermint</item>
+        <item>Rosemary</item>
+        <item>Saffron</item>
+        <item>Sage</item>
+        <item>Thyme</item>
+        <item>Turmeric</item>
+        <item>Vanilla</item>
+    </string-array>
 
-   <string-array name="food_info_types_whole_grains">
-       <item>Barley</item>
-       <item>Buckwheat</item>
-       <item>Millet</item>
-       <item>Oats</item>
-       <item>Popcorn</item>
-       <item>Quinoa</item>
-       <item>Rye</item>
-       <item>Teff</item>
-       <item>Whole-wheat pasta</item>
-   </string-array>
+    <string-array name="food_info_types_whole_grains">
+        <item>Barley</item>
+        <item>Buckwheat</item>
+        <item>Millet</item>
+        <item>Oats</item>
+        <item>Popcorn</item>
+        <item>Quinoa</item>
+        <item>Rye</item>
+        <item>Teff</item>
+        <item>Whole-wheat pasta</item>
+    </string-array>
 
-   <string-array name="food_info_types_beverages">
-       <item>Black tea</item>
-       <item>Chai tea</item>
-       <item>Vanilla chamomile tea</item>
-       <item>Coffee</item>
-       <item>Earl grey tea</item>
-       <item>Green tea</item>
-       <item>Hibiscus tea</item>
-       <item>Hot chocolate</item>
-       <item>Jasmine tea</item>
-       <item>Lemon balm tea</item>
-       <item>Matcha tea</item>
-       <item>Almond blossom oolong tea</item>
-       <item>Peppermint tea</item>
-       <item>Rooibos tea</item>
-       <item>Water</item>
-       <item>White tea</item>
-   </string-array>
+    <string-array name="food_info_types_beverages">
+        <item>Black tea</item>
+        <item>Chai tea</item>
+        <item>Vanilla chamomile tea</item>
+        <item>Coffee</item>
+        <item>Earl grey tea</item>
+        <item>Green tea</item>
+        <item>Hibiscus tea</item>
+        <item>Hot chocolate</item>
+        <item>Jasmine tea</item>
+        <item>Lemon balm tea</item>
+        <item>Matcha tea</item>
+        <item>Almond blossom oolong tea</item>
+        <item>Peppermint tea</item>
+        <item>Rooibos tea</item>
+        <item>Water</item>
+        <item>White tea</item>
+    </string-array>
 
-   <string-array name="food_info_types_exercise">
-       <item>Bicycling</item>
-       <item>Canoeing</item>
-       <item>Dancing</item>
-       <item>Dodgeball</item>
-       <item>Downhill skiing</item>
-       <item>Fencing</item>
-       <item>Hiking</item>
-       <item>Housework</item>
-       <item>Ice-skating</item>
-       <item>Inline skating</item>
-       <item>Juggling</item>
-       <item>Jumping on a trampoline</item>
-       <item>Paddle boating</item>
-       <item>Playing frisbee</item>
-       <item>Roller-skating</item>
-       <item>Shooting baskets</item>
-       <item>Shoveling light snow</item>
-       <item>Skateboarding</item>
-       <item>Snorkeling</item>
-       <item>Surfing</item>
-       <item>Swimming recreationally</item>
-       <item>Tennis (doubles)</item>
-       <item>Treading water</item>
-       <item>Walking briskly (4 mph)</item>
-       <item>Water aerobics</item>
-       <item>Waterskiing</item>
-       <item>Yard work</item>
-       <item>Yoga</item>
-       <item>Backpacking</item>
-       <item>Basketball</item>
-       <item>Bicycling uphill</item>
-       <item>Circuit weight training</item>
-       <item>Cross-country skiing</item>
-       <item>Football</item>
-       <item>Hockey</item>
-       <item>Jogging</item>
-       <item>Jumping jacks</item>
-       <item>Jumping rope</item>
-       <item>Lacrosse</item>
-       <item>Push-ups</item>
-       <item>Pull-ups</item>
-       <item>Racquetball</item>
-       <item>Rock climbing</item>
-       <item>Rugby</item>
-       <item>Running</item>
-       <item>Scuba diving</item>
-       <item>Tennis (singles)</item>
-       <item>Soccer</item>
-       <item>Speed skating</item>
-       <item>Squash</item>
-       <item>Step aerobics</item>
-       <item>Swimming laps</item>
-       <item>Walking briskly uphill</item>
-       <item>Water jogging</item>
-   </string-array>
+    <string-array name="food_info_types_exercise">
+        <item>Bicycling</item>
+        <item>Canoeing</item>
+        <item>Dancing</item>
+        <item>Dodgeball</item>
+        <item>Downhill skiing</item>
+        <item>Fencing</item>
+        <item>Hiking</item>
+        <item>Housework</item>
+        <item>Ice-skating</item>
+        <item>Inline skating</item>
+        <item>Juggling</item>
+        <item>Jumping on a trampoline</item>
+        <item>Paddle boating</item>
+        <item>Playing frisbee</item>
+        <item>Roller-skating</item>
+        <item>Shooting baskets</item>
+        <item>Shoveling light snow</item>
+        <item>Skateboarding</item>
+        <item>Snorkeling</item>
+        <item>Surfing</item>
+        <item>Swimming recreationally</item>
+        <item>Tennis (doubles)</item>
+        <item>Treading water</item>
+        <item>Walking briskly (4 mph)</item>
+        <item>Water aerobics</item>
+        <item>Waterskiing</item>
+        <item>Yard work</item>
+        <item>Yoga</item>
+        <item>Backpacking</item>
+        <item>Basketball</item>
+        <item>Bicycling uphill</item>
+        <item>Circuit weight training</item>
+        <item>Cross-country skiing</item>
+        <item>Football</item>
+        <item>Hockey</item>
+        <item>Jogging</item>
+        <item>Jumping jacks</item>
+        <item>Jumping rope</item>
+        <item>Lacrosse</item>
+        <item>Push-ups</item>
+        <item>Pull-ups</item>
+        <item>Racquetball</item>
+        <item>Rock climbing</item>
+        <item>Rugby</item>
+        <item>Running</item>
+        <item>Scuba diving</item>
+        <item>Tennis (singles)</item>
+        <item>Soccer</item>
+        <item>Speed skating</item>
+        <item>Squash</item>
+        <item>Step aerobics</item>
+        <item>Swimming laps</item>
+        <item>Walking briskly uphill</item>
+        <item>Water jogging</item>
+    </string-array>
 
-   <string-array name="food_info_serving_sizes_beans">
-       <item>%s of hummus or bean dip</item>
-       <item>%s cooked beans, split peas, lentils, tofu, or tempeh</item>
-       <item>%s of fresh peas or sprouted lentils</item>
-   </string-array>
+    <string-array name="food_info_serving_sizes_beans">
+        <item>%s of hummus or bean dip</item>
+        <item>%s cooked beans, split peas, lentils, tofu, or tempeh</item>
+        <item>%s of fresh peas or sprouted lentils</item>
+    </string-array>
 
-   <string-array name="food_info_serving_sizes_beans_imperial">
-       <item>¼ cup</item>
-       <item>½ cup</item>
-       <item>1 cup</item>
-   </string-array>
+    <string-array name="food_info_serving_sizes_beans_imperial">
+        <item>¼ cup</item>
+        <item>½ cup</item>
+        <item>1 cup</item>
+    </string-array>
 
-   <string-array name="food_info_serving_sizes_beans_metric">
-       <item>60 g</item>
-       <item>130 g</item>
-       <item>150 g</item>
-   </string-array>
+    <string-array name="food_info_serving_sizes_beans_metric">
+        <item>60 g</item>
+        <item>130 g</item>
+        <item>150 g</item>
+    </string-array>
 
-   <string-array name="food_info_serving_sizes_berries">
-       <item>%s fresh or frozen</item>
-       <item>%s dried</item>
-   </string-array>
+    <string-array name="food_info_serving_sizes_berries">
+        <item>%s fresh or frozen</item>
+        <item>%s dried</item>
+    </string-array>
 
-   <string-array name="food_info_serving_sizes_berries_imperial">
-       <item>½ cup</item>
-       <item>¼ cup</item>
-   </string-array>
+    <string-array name="food_info_serving_sizes_berries_imperial">
+        <item>½ cup</item>
+        <item>¼ cup</item>
+    </string-array>
 
-   <string-array name="food_info_serving_sizes_berries_metric">
-       <item>60 g</item>
-       <item>40 g</item>
-   </string-array>
+    <string-array name="food_info_serving_sizes_berries_metric">
+        <item>60 g</item>
+        <item>40 g</item>
+    </string-array>
 
-   <string-array name="food_info_serving_sizes_other_fruits">
-       <item>%s1 medium-sized fruit</item>
-       <item>%s cut-up fruit</item>
-       <item>%s dried fruit</item>
-   </string-array>
+    <string-array name="food_info_serving_sizes_other_fruits">
+        <item>%s1 medium-sized fruit</item>
+        <item>%s cut-up fruit</item>
+        <item>%s dried fruit</item>
+    </string-array>
 
-   <string-array name="food_info_serving_sizes_other_fruits_imperial">
-       <item/>
-       <item>1 cup</item>
-       <item>¼ cup</item>
-   </string-array>
+    <string-array name="food_info_serving_sizes_other_fruits_imperial">
+        <item />
+        <item>1 cup</item>
+        <item>¼ cup</item>
+    </string-array>
 
-   <string-array name="food_info_serving_sizes_other_fruits_metric">
-       <item/>
-       <item>120 g</item>
-       <item>40 g</item>
-   </string-array>
+    <string-array name="food_info_serving_sizes_other_fruits_metric">
+        <item />
+        <item>120 g</item>
+        <item>40 g</item>
+    </string-array>
 
-   <string-array name="food_info_serving_sizes_cruciferous_vegetables">
-       <item>%s chopped</item>
-       <item>%s Brussels or broccoli sprouts</item>
-       <item>%s1 tablespoon horseradish</item>
-   </string-array>
+    <string-array name="food_info_serving_sizes_cruciferous_vegetables">
+        <item>%s chopped</item>
+        <item>%s Brussels or broccoli sprouts</item>
+        <item>%s1 tablespoon horseradish</item>
+    </string-array>
 
-   <string-array name="food_info_serving_sizes_cruciferous_vegetables_imperial">
-       <item>½ cup</item>
-       <item>¼ cup</item>
-       <item/>
-   </string-array>
+    <string-array name="food_info_serving_sizes_cruciferous_vegetables_imperial">
+        <item>½ cup</item>
+        <item>¼ cup</item>
+        <item />
+    </string-array>
 
-   <string-array name="food_info_serving_sizes_cruciferous_vegetables_metric">
-       <item>30–80 g</item>
-       <item>12 g</item>
-       <item/>
-   </string-array>
+    <string-array name="food_info_serving_sizes_cruciferous_vegetables_metric">
+        <item>30–80 g</item>
+        <item>12 g</item>
+        <item />
+    </string-array>
 
-   <string-array name="food_info_serving_sizes_greens">
-       <item>%s raw</item>
-       <item>%s cooked</item>
-   </string-array>
+    <string-array name="food_info_serving_sizes_greens">
+        <item>%s raw</item>
+        <item>%s cooked</item>
+    </string-array>
 
-   <string-array name="food_info_serving_sizes_greens_imperial">
-       <item>1 cup</item>
-       <item>½ cup</item>
-   </string-array>
+    <string-array name="food_info_serving_sizes_greens_imperial">
+        <item>1 cup</item>
+        <item>½ cup</item>
+    </string-array>
 
-   <string-array name="food_info_serving_sizes_greens_metric">
-       <item>60 g</item>
-       <item>90 g</item>
-   </string-array>
+    <string-array name="food_info_serving_sizes_greens_metric">
+        <item>60 g</item>
+        <item>90 g</item>
+    </string-array>
 
-   <string-array name="food_info_serving_sizes_other_vegetables">
-       <item>%s raw leafy vegetables</item>
-       <item>%s raw or cooked nonleafy vegetables</item>
-       <item>%s vegetable juice</item>
-       <item>%s dried mushrooms</item>
-   </string-array>
+    <string-array name="food_info_serving_sizes_other_vegetables">
+        <item>%s raw leafy vegetables</item>
+        <item>%s raw or cooked nonleafy vegetables</item>
+        <item>%s vegetable juice</item>
+        <item>%s dried mushrooms</item>
+    </string-array>
 
-   <string-array name="food_info_serving_sizes_other_vegetables_imperial">
-       <item>1 cup</item>
-       <item>½ cup</item>
-       <item>½ cup</item>
-       <item>¼ cup</item>
-   </string-array>
+    <string-array name="food_info_serving_sizes_other_vegetables_imperial">
+        <item>1 cup</item>
+        <item>½ cup</item>
+        <item>½ cup</item>
+        <item>¼ cup</item>
+    </string-array>
 
-   <string-array name="food_info_serving_sizes_other_vegetables_metric">
-       <item>60 g</item>
-       <item>50 g</item>
-       <item>125 ml</item>
-       <item>7 g</item>
-   </string-array>
+    <string-array name="food_info_serving_sizes_other_vegetables_metric">
+        <item>60 g</item>
+        <item>50 g</item>
+        <item>125 ml</item>
+        <item>7 g</item>
+    </string-array>
 
-   <string-array name="food_info_serving_sizes_flaxseeds">
-       <item>%s1 tablespoon ground</item>
-   </string-array>
+    <string-array name="food_info_serving_sizes_flaxseeds">
+        <item>%s1 tablespoon ground</item>
+    </string-array>
 
-   <string-array name="food_info_serving_sizes_flaxseeds_imperial">
-       <item/>
-   </string-array>
+    <string-array name="food_info_serving_sizes_flaxseeds_imperial">
+        <item />
+    </string-array>
 
-   <string-array name="food_info_serving_sizes_flaxseeds_metric">
-       <item/>
-   </string-array>
+    <string-array name="food_info_serving_sizes_flaxseeds_metric">
+        <item />
+    </string-array>
 
-   <string-array name="food_info_serving_sizes_nuts">
-       <item>%s nuts or seeds</item>
-       <item>%s2 tablespoons nut or seed butter</item>
-   </string-array>
+    <string-array name="food_info_serving_sizes_nuts">
+        <item>%s nuts or seeds</item>
+        <item>%s2 tablespoons nut or seed butter</item>
+    </string-array>
 
-   <string-array name="food_info_serving_sizes_nuts_imperial">
-       <item>¼ cup</item>
-       <item/>
-   </string-array>
+    <string-array name="food_info_serving_sizes_nuts_imperial">
+        <item>¼ cup</item>
+        <item />
+    </string-array>
 
-   <string-array name="food_info_serving_sizes_nuts_metric">
-       <item>30 g</item>
-       <item/>
-   </string-array>
+    <string-array name="food_info_serving_sizes_nuts_metric">
+        <item>30 g</item>
+        <item />
+    </string-array>
 
-   <string-array name="food_info_serving_sizes_spices">
-       <item>%s¼ teaspoon of turmeric</item>
-       <item>%sAny other (salt-free) herbs and spices you enjoy</item>
-   </string-array>
+    <string-array name="food_info_serving_sizes_spices">
+        <item>%s¼ teaspoon of turmeric</item>
+        <item>%sAny other (salt-free) herbs and spices you enjoy</item>
+    </string-array>
 
-   <string-array name="food_info_serving_sizes_spices_imperial">
-       <item/>
-       <item/>
-   </string-array>
+    <string-array name="food_info_serving_sizes_spices_imperial">
+        <item />
+        <item />
+    </string-array>
 
-   <string-array name="food_info_serving_sizes_spices_metric">
-       <item/>
-       <item/>
-   </string-array>
+    <string-array name="food_info_serving_sizes_spices_metric">
+        <item />
+        <item />
+    </string-array>
 
-   <string-array name="food_info_serving_sizes_whole_grains">
-       <item>%s hot cereal or cooked grains, pasta, or corn kernels</item>
-       <item>%s cold cereal</item>
-       <item>%s1 tortilla or slice of bread</item>
-       <item>%s½ a bagel or English muffin</item>
-       <item>%s popped popcorn</item>
-   </string-array>
+    <string-array name="food_info_serving_sizes_whole_grains">
+        <item>%s hot cereal or cooked grains, pasta, or corn kernels</item>
+        <item>%s cold cereal</item>
+        <item>%s1 tortilla or slice of bread</item>
+        <item>%s½ a bagel or English muffin</item>
+        <item>%s popped popcorn</item>
+    </string-array>
 
-   <string-array name="food_info_serving_sizes_whole_grains_imperial">
-       <item>½ cup</item>
-       <item>1 cup</item>
-       <item/>
-       <item/>
-       <item>3 cups</item>
-   </string-array>
+    <string-array name="food_info_serving_sizes_whole_grains_imperial">
+        <item>½ cup</item>
+        <item>1 cup</item>
+        <item />
+        <item />
+        <item>3 cups</item>
+    </string-array>
 
-   <string-array name="food_info_serving_sizes_whole_grains_metric">
-       <item>100 g</item>
-       <item>50 g</item>
-       <item/>
-       <item/>
-       <item>30 g</item>
-   </string-array>
+    <string-array name="food_info_serving_sizes_whole_grains_metric">
+        <item>100 g</item>
+        <item>50 g</item>
+        <item />
+        <item />
+        <item>30 g</item>
+    </string-array>
 
-   <string-array name="food_info_serving_sizes_beverages">
-       <item>One glass (%s)</item>
-   </string-array>
+    <string-array name="food_info_serving_sizes_beverages">
+        <item>One glass (%s)</item>
+    </string-array>
 
-   <string-array name="food_info_serving_sizes_beverages_imperial">
-       <item>12 ounces</item>
-   </string-array>
+    <string-array name="food_info_serving_sizes_beverages_imperial">
+        <item>12 ounces</item>
+    </string-array>
 
-   <string-array name="food_info_serving_sizes_beverages_metric">
-       <item>350 ml</item>
-   </string-array>
+    <string-array name="food_info_serving_sizes_beverages_metric">
+        <item>350 ml</item>
+    </string-array>
 
-   <string-array name="food_info_serving_sizes_exercise">
-       <item>%s90 minutes of moderate-intensity activity</item>
-       <item>%s40 minutes of vigorous-intensity activity</item>
-   </string-array>
+    <string-array name="food_info_serving_sizes_exercise">
+        <item>%s90 minutes of moderate-intensity activity</item>
+        <item>%s40 minutes of vigorous-intensity activity</item>
+    </string-array>
 
-   <string-array name="food_info_serving_sizes_exercise_imperial">
-       <item/>
-       <item/>
-   </string-array>
+    <string-array name="food_info_serving_sizes_exercise_imperial">
+        <item />
+        <item />
+    </string-array>
 
-   <string-array name="food_info_serving_sizes_exercise_metric">
-       <item/>
-       <item/>
-   </string-array>
+    <string-array name="food_info_serving_sizes_exercise_metric">
+        <item />
+        <item />
+    </string-array>
 
 </resources>
 

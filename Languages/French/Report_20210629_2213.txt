@@ -1,0 +1,314 @@
+Report: 20210629_2213
+
+###########################
+## TSV STANDALONE CHECKS ##
+###########################
+
+********************************
+** TSV: Target Language Empty **
+********************************
+	reminder.settings.enable	Enable Reminders	
+	settings.units.header	Measurement Units	
+	settings_advanced_utilities	Advanced Utilities	
+daily_reminder_settings		Daily Reminder Settings	
+
+*******************************************
+** TSV: Target Language == Base Language **
+*******************************************
+	NSHealthShareUsageDescription	The 21 Tweaks feature accesses your HealthKit data to provide updates to your daily weight measurements.	The 21 Tweaks feature accesses your HealthKit data to provide updates to your daily weight measurements.
+	NSHealthUpdateUsageDescription	The 21 Tweaks feature can write weight data to HealthKit to help you keep track of your progress.	The 21 Tweaks feature can write weight data to HealthKit to help you keep track of your progress.
+back_to_today	dateBackButtonTitle	Back to today	Back to today
+	dateButtonTitle.today	Today	Today
+food_info_types_beans.10	dozeBeans.Variety.Text.10	Miso	Miso
+food_info_types_beans.15	dozeBeans.Variety.Text.15	Tempeh	Tempeh
+food_info_types_beans.5	dozeBeans.Variety.Text.5	Edamame	Edamame
+food_info_types_berries.8	dozeBerries.Variety.Text.8	Kumquats	Kumquats
+food_info_types_exercise.27	dozeExercise.Variety.Text.27	Yoga	Yoga
+food_info_types_exercise.29	dozeExercise.Variety.Text.29	Basketball	Basketball
+food_info_types_exercise.3	dozeExercise.Variety.Text.3	Dodgeball	Dodgeball
+food_info_types_exercise.33	dozeExercise.Variety.Text.33	Football	Football
+food_info_types_exercise.34	dozeExercise.Variety.Text.34	Hockey	Hockey
+food_info_types_exercise.35	dozeExercise.Variety.Text.35	Jogging	Jogging
+food_info_types_exercise.36	dozeExercise.Variety.Text.36	Jumping jacks	Jumping jacks
+food_info_types_exercise.38	dozeExercise.Variety.Text.38	Lacrosse	Lacrosse
+food_info_types_exercise.39	dozeExercise.Variety.Text.39	Push-ups	Push-ups
+food_info_types_exercise.40	dozeExercise.Variety.Text.40	Pull-ups	Pull-ups
+food_info_types_exercise.41	dozeExercise.Variety.Text.41	Racquetball	Racquetball
+food_info_types_exercise.43	dozeExercise.Variety.Text.43	Rugby	Rugby
+food_info_types_exercise.47	dozeExercise.Variety.Text.47	Soccer	Soccer
+food_info_types_exercise.49	dozeExercise.Variety.Text.49	Squash	Squash
+food_info_types_other_fruits.13	dozeFruitsOther.Variety.Text.13	Lychees	Lychees
+food_info_types_other_fruits.15	dozeFruitsOther.Variety.Text.15	Nectarines	Nectarines
+food_info_types_other_fruits.16	dozeFruitsOther.Variety.Text.16	Oranges	Oranges
+food_info_types_other_fruits.23	dozeFruitsOther.Variety.Text.23	Pluots	Pluots
+food_info_types_other_fruits.25	dozeFruitsOther.Variety.Text.25	Prunes	Prunes
+food_info_types_spices.0	dozeSpices.Variety.Text.0	Allspice	Allspice
+food_info_types_spices.10	dozeSpices.Variety.Text.10	Cumin	Cumin
+food_info_types_cruciferous_vegetables.1	dozeVegetablesCruciferous.Variety.Text.1	Bok choy	Bok choy
+food_info_types_other_vegetables.17	dozeVegetablesOther.Variety.Text.17	Zucchini	Zucchini
+food_info_types_whole_grains.2	dozeWholeGrains.Variety.Text.2	Millet	Millet
+food_info_types_whole_grains.5	dozeWholeGrains.Variety.Text.5	Quinoa	Quinoa
+food_info_types_whole_grains.7	dozeWholeGrains.Variety.Text.7	Teff	Teff
+serving_sizes	doze_detail_section_sizes	Serving Sizes	Serving Sizes
+types	doze_detail_section_types	Types	Types
+servings_time_scale_choices.0	history_scale_choice_day	Day	Day
+servings_time_scale_choices.0	history_scale_choice_day	Day	Day
+servings_time_scale_choices.0	history_scale_choice_day	Day	Day
+servings_time_scale_choices.1	history_scale_choice_month	Month	Month
+servings_time_scale_choices.1	history_scale_choice_month	Month	Month
+servings_time_scale_choices.1	history_scale_choice_month	Month	Month
+servings_time_scale_choices.2	history_scale_choice_year	Year	Year
+servings_time_scale_choices.2	history_scale_choice_year	Year	Year
+servings_time_scale_choices.2	history_scale_choice_year	Year	Year
+time_scale	history_scale_label	Time Scale	Time Scale
+time_scale	history_scale_label	Time Scale	Time Scale
+time_scale	history_scale_label	Time Scale	Time Scale
+about	info_app_about	About	About
+app_name	info_app_about_app_name	Daily Dozen	Daily Dozen
+activity_welcome_text	info_app_about_overview	Use this app on a daily basis to keep track of the foods and advice I recommend for optimal health and longevity in my books How Not to Die and How Not to Diet.	Use this app on a daily basis to keep track of the foods and advice I recommend for optimal health and longevity in my books How Not to Die and How Not to Diet.
+	info_app_about_version	version 3.2.1	version 3.2.1
+welcome_to_my_daily_dozen	info_app_about_welcome	Welcome to my Daily Dozen!	Welcome to my Daily Dozen!
+	info_book_how_not_to_die	Book: How Not to Die	Book: How Not to Die
+	info_book_how_not_to_die_cookbook	Book: How Not to Die Cookbook	Book: How Not to Die Cookbook
+	info_book_how_not_to_diet	Book: How Not to Diet	Book: How Not to Diet
+daily_dozen_challenge	info_webpage_daily_dozen_challenge	Daily Dozen Challenge	Daily Dozen Challenge
+donate	info_webpage_donate	Donate	Donate
+open_source	info_webpage_open_source	Open Source	Open Source
+subscribe	info_webpage_subscribe	Subscribe	Subscribe
+latest_videos	info_webpage_videos_latest	Latest Videos	Latest Videos
+servings_all	item_history_completed_all	All servings	All servings
+servings_some	item_history_completed_some	Some servings	Some servings
+history	item_history_heading	History	History
+daily_reminder_text	reminder.alert.text	Update your servings for today	Update your servings for today
+	reminder.heading	Daily Reminder	Daily Reminder
+	reminder.settings.enable	Enable Reminders	Enable Reminders
+play_sound	reminder.settings.sound	Play Sound	Play Sound
+remind_me_at	reminder.settings.time	Remind me at:	Remind me at:
+vibrate	reminder.settings.vibrate	Vibrate	Vibrate
+	reminder.state.off	Off	Off
+	reminder.state.on	On	On
+daily_dozen_only	setting_doze_only_btn	Daily Dozen Only	Daily Dozen Only
+daily_dozen_only	setting_doze_only_choice	Daily Dozen Only	Daily Dozen Only
+daily_dozen_and_tweaks	setting_doze_tweak_btn	Daily Dozen + 21 Tweaks	Daily Dozen + 21 Tweaks
+daily_dozen_and_tweaks	setting_doze_tweak_choice	Daily Dozen + 21 Tweak	Daily Dozen + 21 Tweak
+	setting_doze_tweak_footer	For health alone, use "Daily Dozen Only". For health and weight loss use "Daily Dozen + 21 Tweaks".	For health alone, use "Daily Dozen Only". For health and weight loss use "Daily Dozen + 21 Tweaks".
+for_health_alone	setting_health_alone_txt	For Health Alone	For Health Alone
+for_health_and_weight_loss	setting_health_weight_txt	For Health and Weight Loss	For Health and Weight Loss
+	settings.tweak.header	21 Tweak Visibility	21 Tweak Visibility
+	settings_units_choice_footer	Set to always be one unit type or enable the 'Units:' toggle button.	Set to always be one unit type or enable the 'Units:' toggle button.
+	tweak_detail_section_activity	Activity	Activity
+	tweak_detail_section_description	Description	Description
+units	units_label	Units:	Units:
+units	units_label	Units:	Units:
+	weight_entry_clear	Clear	Clear
+	weight_entry_clear	Clear	Clear
+	weight_entry_evening	Evening (right before bed)	Evening (right before bed)
+	weight_entry_morning	Morning (upon waking)	Morning (upon waking)
+	weight_entry_time	Time	Time
+	weight_entry_time	Time	Time
+	weight_history_edit_data	Edit Data	Edit Data
+daily_reminder_title		Daily Dozen Reminder	Daily Dozen Reminder
+enable_daily_reminder		Enable Daily Reminders	Enable Daily Reminders
+format_num_days		%d days	%d days
+imperial		imperial	imperial
+metric		metric	metric
+out_of		out of	out of
+videos	xcg-0a-oqY.normalTitle	VIDEOS	VIDEOS
+	1K3-d9-Hfb.normalTitle	METRIC	METRIC
+	M75-CQ-NVP.normalTitle	METRIC	METRIC
+	1K3-d9-Hfb.normalTitle	METRIC	METRIC
+	M75-CQ-NVP.normalTitle	METRIC	METRIC
+	RLb-GV-4hh.segmentTitles[0]	Imperial	Imperial
+	RLb-GV-4hh.segmentTitles[1]	Metric	Metric
+	RLb-GV-4hh.segmentTitles[2]	Toggle Units	Toggle Units
+servings	1HM-mL-ZV9.text	Servings	Servings
+	cW5-dD-Zy0.text	100 days	100 days
+twenty_one_tweaks	5po-De-kCi.text	21 Tweaks	21 Tweaks
+	NPC-if-gUf.text	0 / 37	0 / 37
+format_num_days	Vbn-R9-kuu.text	100 days	100 days
+	W2v-Cp-vcd.text	Supplements	Supplements
+	Tgz-om-dEk.text	Weight (lbs)	Weight (lbs)
+	8ed-5m-QMc.text	Weight (lbs)	Weight (lbs)
+	nRL-iG-Wnd.text	Month	Month
+	UCg-Rc-mLf.text	Month	Month
+	lTR-i5-Tn0.text	Month	Month
+	8ed-5m-QMc.text	Weight (lbs.)	Weight (lbs.)
+
+####################
+## ANDROID CHECKS ##
+####################
+
+********************************************
+** TSV: Android Key Unmatched (key_droid) **
+********************************************
+daily_dozen_challenge
+
+********************************
+** Android XML Keys UnMatched **
+********************************
+OK
+about_text_lines.0
+about_text_lines.1
+about_text_lines.2
+about_text_lines.3
+about_text_lines.4
+about_this_app
+about_tweak
+average_weight_on_day
+backup
+backup_failed
+backup_instructions_lines.0
+backup_instructions_lines.1
+backup_instructions_lines.2
+backup_instructions_lines.3
+backup_instructions_lines.4
+backup_instructions_lines.5
+backup_instructions_lines.6
+backup_success
+channel_reminders_name
+daily_servings_history
+daily_tweaks_history
+debug
+debug_clear_data
+debug_clear_data_message
+debug_generate_data_message
+debug_generate_full_data
+debug_generate_random_data
+debug_generate_weight_data
+dialog_ask_user_to_rate_app_message
+dialog_ask_user_to_rate_app_title
+dialog_no_email_apps_message
+dialog_no_email_apps_title
+dialog_streaks_message
+dialog_streaks_title
+error_cannot_handle_url
+evening
+food_history
+food_info
+format_version
+history_to_generate
+history_to_generate_choices.0
+history_to_generate_choices.1
+history_to_generate_choices.2
+history_to_generate_choices.3
+history_to_generate_choices.4
+history_to_generate_choices.5
+morning
+moving_average
+no
+no_servings_recorded
+no_weights_recorded
+not_now
+permission_needed_to_write_storage
+rate_now
+restore_confirm_message
+restore_confirm_title
+restore_failed
+restore_success
+task_backup_title
+task_calculating_streaks_title
+task_generating_random_data
+task_loading_servings_history_title
+task_loading_weights_history_title
+task_restore_title
+tweak_group_daily
+tweak_group_dailydoses
+tweak_group_meal
+tweak_group_nightly
+tweaks
+weight
+weight_history
+yes
+
+##################
+## APPLE CHECKS ##
+##################
+
+******************************************
+** TSV: Apple Key Unmatched (key_apple) **
+******************************************
+
+----- RANDOM KEYS: TSV Unused -----
+1HM-mL-ZV9.text
+1K3-d9-Hfb.normalTitle
+5po-De-kCi.text
+8ed-5m-QMc.text
+M75-CQ-NVP.normalTitle
+NPC-if-gUf.text
+RLb-GV-4hh.segmentTitles[0]
+RLb-GV-4hh.segmentTitles[1]
+RLb-GV-4hh.segmentTitles[2]
+Tgz-om-dEk.text
+UCg-Rc-mLf.text
+Vbn-R9-kuu.text
+W2v-Cp-vcd.text
+cW5-dD-Zy0.text
+lTR-i5-Tn0.text
+nRL-iG-Wnd.text
+xcg-0a-oqY.normalTitle
+
+
+*******************************
+** Apple JSON Keys UnMatched **
+*******************************
+doze_detail_section_sizes
+doze_detail_section_types
+tweak_detail_section_activity
+tweak_detail_section_description
+
+********************************
+** Apple XLIFF Keys UnMatched **
+********************************
+CFBundleDisplayName
+CFBundleName
+DailyDozen
+dozeOtherInfo.confirm
+dozeOtherInfo.message
+dozeOtherInfo.section
+dozeOtherInfo.title
+doze_entry_header
+historyRecord.movingMean
+historyRecordDoze.heading
+historyRecordDoze.legend
+historyRecordTweak.heading
+historyRecordTweak.legend
+historyRecordWeight.heading
+historyRecordWeight.legendEvening
+historyRecordWeight.legendMorning
+historyRecordWeight.titleImperial
+historyRecordWeight.titleMetric
+info.about.title
+info_app_about_created_by
+info_app_about_oss_credits
+navtab.doze
+navtab.info
+navtab.preferences
+navtab.tweaks
+otherVitaminD.heading
+streakDaysFormat
+tweak_entry_header
+unitToggle.imperial
+unitToggle.metric
+videos.link.label
+weightEntry.heading
+weight_entry_units_kg
+weight_entry_units_lbs
+----- RANDOM KEYS: XLIFF Unmatched -----
+
+
+
+**************************************
+** Apple XLIFF Keys Marked Inactive **
+**************************************
+otherOmega3.heading : not currently in use
+urlSegment.base : Special case: url mappings
+urlSegment.lang : Special case: url mappings
+urlSegmentInfoMenu.book : Special case: url mappings
+urlSegmentInfoMenu.challenge : Special case: url mappings
+urlSegmentInfoMenu.cookbook : Special case: url mappings
+urlSegmentInfoMenu.diet : Special case: url mappings
+urlSegmentInfoMenu.donate : Special case: url mappings
+urlSegmentInfoMenu.source : Special case: url mappings
+urlSegmentInfoMenu.subscribe : Special case: url mappings
+urlSegmentInfoMenu.team : Special case: url mappings
+urlSegmentInfoMenu.videos : Special case: url mappings

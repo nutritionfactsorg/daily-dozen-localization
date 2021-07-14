@@ -1,7 +1,7 @@
 {
   "developmentRegion" : "en",
   "project" : "DailyDozen.xcodeproj",
-  "targetLocale" : "ru",
+  "targetLocale" : "en",
   "toolInfo" : {
     "toolBuildNumber" : "12E507",
     "toolID" : "com.apple.dt.xcode",

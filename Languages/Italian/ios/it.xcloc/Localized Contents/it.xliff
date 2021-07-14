@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
-  <file original="DailyDozen/App/SupportingFiles/en.lproj/InfoPlist.strings" source-language="en" target-language="it" datatype="plaintext">
+  <file original="DailyDozen/App/SupportingFiles/en.lproj/InfoPlist.strings" source-language="en" target-language="en" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.5.1" build-num="12E507"/>
     </header>
     <body>
       <trans-unit id="CFBundleDisplayName" xml:space="preserve">
         <source>DailyDozen</source>
+        <target>DailyDozen</target>
         <note>Bundle display name</note>
       </trans-unit>
       <trans-unit id="CFBundleName" xml:space="preserve">
@@ -16,6 +17,7 @@
       </trans-unit>
       <trans-unit id="DailyDozen" xml:space="preserve">
         <source>DailyDozen</source>
+        <target>DailyDozen</target>
         <note/>
       </trans-unit>
       <trans-unit id="NSHealthShareUsageDescription" xml:space="preserve">
@@ -30,7 +32,7 @@
       </trans-unit>
     </body>
   </file>
-  <file original="DailyDozen/App/Texts/LocalStrings/en.lproj/Localizable.strings" source-language="en" target-language="it" datatype="plaintext">
+  <file original="DailyDozen/App/Texts/LocalStrings/en.lproj/Localizable.strings" source-language="en" target-language="en" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.5.1" build-num="12E507"/>
     </header>
@@ -216,6 +218,7 @@ Vitamin B12 is included in this app to provide you with an easy way to track you
       </trans-unit>
       <trans-unit id="info.about.title" xml:space="preserve">
         <source>About this app</source>
+        <target>About this app</target>
         <note>About this app</note>
       </trans-unit>
       <trans-unit id="info_app_about" xml:space="preserve">
@@ -253,7 +256,7 @@ Vitamin B12 is included in this app to provide you with an easy way to track you
       </trans-unit>
       <trans-unit id="info_app_about_version" xml:space="preserve">
         <source>version 3.2.9</source>
-        <target>version 3.2.7</target>
+        <target>version 3.2.9</target>
         <note>Info About: version number</note>
       </trans-unit>
       <trans-unit id="info_app_about_welcome" xml:space="preserve">
@@ -378,6 +381,7 @@ Vitamin B12 is included in this app to provide you with an easy way to track you
       </trans-unit>
       <trans-unit id="reminder.settings.vibrate" xml:space="preserve">
         <source>Vibrate</source>
+        <target>Vibrate</target>
         <note>vibrate</note>
       </trans-unit>
       <trans-unit id="reminder.state.off" xml:space="preserve">
@@ -646,6 +650,7 @@ Only</target>
       </trans-unit>
       <trans-unit id="videos.link.label" xml:space="preserve">
         <source>VIDEOS</source>
+        <target>VIDEOS</target>
         <note>Videos link label</note>
       </trans-unit>
       <trans-unit id="weightEntry.heading" xml:space="preserve">

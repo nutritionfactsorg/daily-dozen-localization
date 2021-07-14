@@ -1,11 +1,12 @@
 {
   "developmentRegion" : "en",
-  "targetLocale" : "en-GB",
+  "project" : "DailyDozen.xcodeproj",
+  "targetLocale" : "en",
   "toolInfo" : {
-    "toolBuildNumber" : "11E608c",
+    "toolBuildNumber" : "12E507",
     "toolID" : "com.apple.dt.xcode",
     "toolName" : "Xcode",
-    "toolVersion" : "11.5"
+    "toolVersion" : "12.5.1"
   },
   "version" : "1.0"
 }

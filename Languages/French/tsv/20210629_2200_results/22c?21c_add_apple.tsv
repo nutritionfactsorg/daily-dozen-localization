@@ -1,0 +1,47 @@
+key_droid	key_apple	base_value	lang_value	base_note
+	dozeOtherInfo.section	Supplements	Supplements	
+	doze_detail_section_sizes	Servings Sizes	Servings Sizes	
+	doze_detail_section_types	Types	Types	
+	doze_entry_header	Servings	Servings	
+	history_scale_choice_day	Day	Day	
+	history_scale_choice_month	Month	Month	
+	history_scale_choice_year	Year	Year	
+	history_scale_label	Time Scale	Time Scale	
+	info_app_about	About	About	
+	info_app_about_app_name	Daily Dozen	Daily Dozen	
+	info_app_about_created_by	This app was created by:Ⓝ- NutritionFacts.orgⓃ- Christi RichardsⓃ- Konstantin KhokhlovⓃ- Marc Campbell	This app was created by:Ⓝ- NutritionFacts.orgⓃ- Christi RichardsⓃ- Konstantin KhokhlovⓃ- Marc Campbell	
+	info_app_about_oss_credits	The following open source libraries are used: RealmSwift, Charts, FSCalendar, SimpleAnimation and ActiveLabel.	The following open source libraries are used: RealmSwift, Charts, FSCalendar, SimpleAnimation and ActiveLabel.	
+	info_app_about_overview	Use this app on a daily basis to keep track of the foods and advice I recommend for optimal health and longevity in my books How Not to Die and How Not to Diet.	Use this app on a daily basis to keep track of the foods and advice I recommend for optimal health and longevity in my books How Not to Die and How Not to Diet.	
+	info_app_about_version	version 3.2.9	version 3.2.7	
+	info_app_about_welcome	Welcome to my Daily Dozen!	Welcome to my Daily Dozen!	
+	info_book_how_not_to_die	How Not to Die	How Not to Die	
+	info_book_how_not_to_die_cookbook	How Not to Die Cookbook	How Not to Die Cookbook	
+	info_book_how_not_to_diet	How Not to Diet	How Not to Diet	
+	info_webpage_daily_dozen_challenge	Daily Dozen Challenge	Daily Dozen Challenge	
+	info_webpage_donate	Donate	Donate	
+	info_webpage_open_source	Open Source	Open Source	
+	info_webpage_subscribe	Subscribe	Subscribe	
+	info_webpage_videos_latest	Latest Videos	Latest Videos	
+	item_history_completed_all	All servings	All servings	
+	item_history_completed_some	Some servings	Some servings	
+	item_history_heading	History	History	
+	setting_doze_only_btn	Daily DozenⓃOnly	Daily DozenⓃOnly	
+	setting_doze_only_choice	Daily Dozen Only	Daily Dozen Only	
+	setting_doze_tweak_btn	Daily Dozen +Ⓝ21 Tweaks	Daily Dozen +Ⓝ21 Tweaks	
+	setting_doze_tweak_choice	Daily Dozen + 21 Tweaks	Daily Dozen + 21 Tweaks	
+	setting_doze_tweak_footer	For health alone, use 'Daily Dozen Only'. For health and weight loss use 'Daily Dozen + 21 Tweaks'.	For health alone, use 'Daily Dozen Only'. For health and weight loss use 'Daily Dozen + 21 Tweaks'.	
+	setting_health_alone_txt	For Health Alone	For Health Alone	
+	setting_health_weight_txt	For Health and Weight Loss	For Health and Weight Loss	
+	settings_advanced_utilities	Advanced Utilities	Advanced Utilities	
+	settings_units_choice_footer	Set to always be one unit type or enable the 'Units:' toggle button.	Set to always be one unit type or enable the 'Units:' toggle button.	
+	tweak_detail_section_activity	Activity	Activity	
+	tweak_detail_section_description	Description	Description	
+	tweak_entry_header	21 Tweaks	21 Tweaks	
+	units_label	Units:	Units:	
+	weight_entry_clear	Clear	Clear	
+	weight_entry_evening	Evening (right before bed)	Evening (right before bed)	
+	weight_entry_morning	Morning (upon waking)	Morning (upon waking)	
+	weight_entry_time	Time	Time	
+	weight_entry_units_kg	kg	kg	
+	weight_entry_units_lbs	lbs	lbs	
+	weight_history_edit_data	Edit Data	Edit Data	

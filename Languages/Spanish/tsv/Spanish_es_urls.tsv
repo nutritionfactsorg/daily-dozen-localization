@@ -50,7 +50,7 @@ food_videos_berries[1]		topics/barberries	es/topics/berberos-es		https://nutriti
 food_videos_berries[2]		topics/blackberries	es/topics/moras		https://nutritionfacts.org/es/topics/moras
 food_videos_berries[3]		topics/blueberries	es/topics/arandanos-azules		https://nutritionfacts.org/es/topics/arandanos-azules
 food_videos_berries[4]		topics/cherries	es/topics/cerezas		https://nutritionfacts.org/es/topics/cerezas
-food_videos_berries[5]		topics/concord-grapes	es/topics/uvas-de-concordia-es		https://nutritionfacts.org/es/topics/uvas-de-concordia-es
+food_videos_berries[5]		topics/grapes	es/topics/uvas		https://nutritionfacts.org/es/topics/uvas
 food_videos_berries[6]		topics/cranberries	es/topics/arandanos-es		https://nutritionfacts.org/es/topics/arandanos-es
 food_videos_berries[7]		topics/goji-berries	es/topics/goji		https://nutritionfacts.org/es/topics/goji
 food_videos_berries[8]					
@@ -103,7 +103,7 @@ food_videos_cruciferous_vegetables[12]		topics/turnips	es/topics/nabos		https://
 food_videos_cruciferous_vegetables[13]		topics/watercress	es/topics/berros-es		https://nutritionfacts.org/es/topics/berros-es
 					
 food_videos_greens[0]					
-food_videos_greens[1]		topics/beet-greens	es/topics/hojas-de-remolacha-es		https://nutritionfacts.org/es/topics/hojas-de-remolacha-es
+food_videos_greens[1]		topics/beets	es/topics/remolachas-es		https://nutritionfacts.org/es/topics/remolachas-es
 food_videos_greens[2]		topics/collard-greens			
 food_videos_greens[3]		topics/kale	es/topics/col-rizada-es		https://nutritionfacts.org/es/topics/col-rizada-es
 food_videos_greens[4]		topics/mesclun-mix	es/topics/ensalada-mesclun-es		https://nutritionfacts.org/es/topics/ensalada-mesclun-es
@@ -123,7 +123,7 @@ food_videos_other_vegetables[6]		topics/garlic	es/topics/ajo		https://nutritionf
 food_videos_other_vegetables[7]		topics/mushrooms	es/topics/champinones		https://nutritionfacts.org/es/topics/champinones
 food_videos_other_vegetables[8]		topics/okra	es/topics/okra-es		https://nutritionfacts.org/es/topics/okra-es
 food_videos_other_vegetables[9]		topics/onions	es/topics/cebollas		https://nutritionfacts.org/es/topics/cebollas
-food_videos_other_vegetables[10]		topics/purple-potatoes	es/topics/patatas-moradas		https://nutritionfacts.org/es/topics/patatas-moradas
+food_videos_other_vegetables[10]		topics/potatoes	es/topics/papas		https://nutritionfacts.org/es/topics/papas
 food_videos_other_vegetables[11]		topics/pumpkin	es/topics/calabaza		https://nutritionfacts.org/es/topics/calabaza
 food_videos_other_vegetables[12]		topics/sea-vegetables	es/topics/vegetales-marinos		https://nutritionfacts.org/es/topics/vegetales-marinos
 food_videos_other_vegetables[13]					
@@ -201,7 +201,7 @@ food_videos_beverages[8]		topics/jasmine-tea	es/topics/te-de-jasmin		https://nut
 food_videos_beverages[9]		topics/lemon-balm			
 food_videos_beverages[10]		topics/matcha	es/topics/matcha-es		https://nutritionfacts.org/es/topics/matcha-es
 food_videos_beverages[11]		topics/oolong-tea	es/topics/te-oolong-es		https://nutritionfacts.org/es/topics/te-oolong-es
-food_videos_beverages[12]					
+food_videos_beverages[12]		topics/peppermint	es/topics/menta-es		https://nutritionfacts.org/es/topics/menta-es
 food_videos_beverages[13]		topics/rooibos-tea	es/topics/te-rooibos-es		https://nutritionfacts.org/es/topics/te-rooibos-es
 food_videos_beverages[14]		topics/water	es/topics/agua		https://nutritionfacts.org/es/topics/agua
 food_videos_beverages[15]		topics/white-tea	es/topics/te-blanco		https://nutritionfacts.org/es/topics/te-blanco

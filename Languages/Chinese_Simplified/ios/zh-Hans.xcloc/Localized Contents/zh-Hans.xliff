@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
-  <file original="DailyDozen/App/SupportingFiles/en.lproj/InfoPlist.strings" source-language="en" target-language="zh-Hans" datatype="plaintext">
+  <file original="DailyDozen/App/SupportingFiles/en.lproj/InfoPlist.strings" source-language="en" target-language="en" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.5.1" build-num="12E507"/>
     </header>
     <body>
       <trans-unit id="CFBundleDisplayName" xml:space="preserve">
-        <source>DailyDozen ML</source>
+        <source>DailyDozen</source>
+        <target>DailyDozen</target>
         <note>Bundle display name</note>
       </trans-unit>
       <trans-unit id="CFBundleName" xml:space="preserve">
@@ -17,7 +18,7 @@
       <trans-unit id="DailyDozen" xml:space="preserve">
         <source>DailyDozen</source>
         <target>DailyDozen</target>
-        <note>(No Comment)</note>
+        <note/>
       </trans-unit>
       <trans-unit id="NSHealthShareUsageDescription" xml:space="preserve">
         <source>The 21 Tweaks feature accesses your HealthKit data to provide updates to your daily weight measurements.</source>
@@ -31,27 +32,11 @@
       </trans-unit>
     </body>
   </file>
-  <file original="DailyDozen/App/Texts/LocalStrings/en.lproj/Localizable.strings" source-language="en" target-language="zh-Hans" datatype="plaintext">
+  <file original="DailyDozen/App/Texts/LocalStrings/en.lproj/Localizable.strings" source-language="en" target-language="en" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.5.1" build-num="12E507"/>
     </header>
     <body>
-      <trans-unit id="dailyReminder.settings" xml:space="preserve">
-        <source>Daily Reminder Settings</source>
-        <note>daily_reminder_settings</note>
-      </trans-unit>
-      <trans-unit id="dailyReminder.subtitle" xml:space="preserve">
-        <source>dailyReminder.subtitle</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="dailyReminder.text" xml:space="preserve">
-        <source>Update your servings for today</source>
-        <note>daily_reminder_text</note>
-      </trans-unit>
-      <trans-unit id="dailyReminder.title" xml:space="preserve">
-        <source>Daily Dozen Reminder</source>
-        <note>daily_reminder_title</note>
-      </trans-unit>
       <trans-unit id="dateBackButtonTitle" xml:space="preserve">
         <source>Back to today</source>
         <target>Back to today</target>
@@ -116,6 +101,11 @@ Vitamin B12 is included in this app to provide you with an easy way to track you
 Vitamin B12 is included in this app to provide you with an easy way to track your intake.</target>
         <note>Daily Dozen other info message</note>
       </trans-unit>
+      <trans-unit id="dozeOtherInfo.section" xml:space="preserve">
+        <source>Supplements</source>
+        <target>Supplements</target>
+        <note>entry section header: "Supplements"</note>
+      </trans-unit>
       <trans-unit id="dozeOtherInfo.title" xml:space="preserve">
         <source>Supplements</source>
         <target>Supplements</target>
@@ -140,6 +130,21 @@ Vitamin B12 is included in this app to provide you with an easy way to track you
         <source>Whole Grains</source>
         <target>Whole Grains</target>
         <note>display heading</note>
+      </trans-unit>
+      <trans-unit id="doze_detail_section_sizes" xml:space="preserve">
+        <source>Servings Sizes</source>
+        <target>Servings Sizes</target>
+        <note>Doze Detail Section: "Sizes"</note>
+      </trans-unit>
+      <trans-unit id="doze_detail_section_types" xml:space="preserve">
+        <source>Types</source>
+        <target>Types</target>
+        <note>Doze Detail Section: "Types"</note>
+      </trans-unit>
+      <trans-unit id="doze_entry_header" xml:space="preserve">
+        <source>Servings</source>
+        <target>Servings</target>
+        <note>Daily Dozen Header: "Servings"</note>
       </trans-unit>
       <trans-unit id="historyRecord.movingMean" xml:space="preserve">
         <source>Moving Average</source>
@@ -191,6 +196,129 @@ Vitamin B12 is included in this app to provide you with an easy way to track you
         <target>Weight (kg)</target>
         <note>Weight (kg)</note>
       </trans-unit>
+      <trans-unit id="history_scale_choice_day" xml:space="preserve">
+        <source>Day</source>
+        <target>Day</target>
+        <note>History Scale Choice: "Day"</note>
+      </trans-unit>
+      <trans-unit id="history_scale_choice_month" xml:space="preserve">
+        <source>Month</source>
+        <target>Month</target>
+        <note>History Scale Choice: "Month"</note>
+      </trans-unit>
+      <trans-unit id="history_scale_choice_year" xml:space="preserve">
+        <source>Year</source>
+        <target>Year</target>
+        <note>History Scale Choice: "Year"</note>
+      </trans-unit>
+      <trans-unit id="history_scale_label" xml:space="preserve">
+        <source>Time Scale</source>
+        <target>Time Scale</target>
+        <note>History Label: "Time Scale"</note>
+      </trans-unit>
+      <trans-unit id="info.about.title" xml:space="preserve">
+        <source>About this app</source>
+        <target>About this app</target>
+        <note>About this app</note>
+      </trans-unit>
+      <trans-unit id="info_app_about" xml:space="preserve">
+        <source>About</source>
+        <target>About</target>
+        <note>Info: "About"</note>
+      </trans-unit>
+      <trans-unit id="info_app_about_app_name" xml:space="preserve">
+        <source>Daily Dozen</source>
+        <target>Daily Dozen</target>
+        <note>Info About: application name</note>
+      </trans-unit>
+      <trans-unit id="info_app_about_created_by" xml:space="preserve">
+        <source>This app was created by:
+- NutritionFacts.org
+- Christi Richards
+- Konstantin Khokhlov
+- Marc Campbell</source>
+        <target>This app was created by:
+- NutritionFacts.org
+- Christi Richards
+- Konstantin Khokhlov
+- Marc Campbell</target>
+        <note>Info About: created by text</note>
+      </trans-unit>
+      <trans-unit id="info_app_about_oss_credits" xml:space="preserve">
+        <source>The following open source libraries are used: RealmSwift, Charts, FSCalendar, SimpleAnimation and ActiveLabel.</source>
+        <target>The following open source libraries are used: RealmSwift, Charts, FSCalendar, SimpleAnimation and ActiveLabel.</target>
+        <note>Info About: open source software credits</note>
+      </trans-unit>
+      <trans-unit id="info_app_about_overview" xml:space="preserve">
+        <source>Use this app on a daily basis to keep track of the foods and advice I recommend for optimal health and longevity in my books How Not to Die and How Not to Diet.</source>
+        <target>Use this app on a daily basis to keep track of the foods and advice I recommend for optimal health and longevity in my books How Not to Die and How Not to Diet.</target>
+        <note>Info About: overview text</note>
+      </trans-unit>
+      <trans-unit id="info_app_about_version" xml:space="preserve">
+        <source>version 3.2.9</source>
+        <target>version 3.2.9</target>
+        <note>Info About: version number</note>
+      </trans-unit>
+      <trans-unit id="info_app_about_welcome" xml:space="preserve">
+        <source>Welcome to my Daily Dozen!</source>
+        <target>Welcome to my Daily Dozen!</target>
+        <note>Info About: "Welcome to my Daily Dozen!"</note>
+      </trans-unit>
+      <trans-unit id="info_book_how_not_to_die" xml:space="preserve">
+        <source>How Not to Die</source>
+        <target>How Not to Die</target>
+        <note>Info: How Not to Die (Book)</note>
+      </trans-unit>
+      <trans-unit id="info_book_how_not_to_die_cookbook" xml:space="preserve">
+        <source>How Not to Die Cookbook</source>
+        <target>How Not to Die Cookbook</target>
+        <note>Info: How Not to Die Cookbook (Book)</note>
+      </trans-unit>
+      <trans-unit id="info_book_how_not_to_diet" xml:space="preserve">
+        <source>How Not to Diet</source>
+        <target>How Not to Diet</target>
+        <note>Info: How Not to Diet (Book)</note>
+      </trans-unit>
+      <trans-unit id="info_webpage_daily_dozen_challenge" xml:space="preserve">
+        <source>Daily Dozen Challenge</source>
+        <target>Daily Dozen Challenge</target>
+        <note>Info: "Daily Dozen Challenge"</note>
+      </trans-unit>
+      <trans-unit id="info_webpage_donate" xml:space="preserve">
+        <source>Donate</source>
+        <target>Donate</target>
+        <note>Info: "Donate"</note>
+      </trans-unit>
+      <trans-unit id="info_webpage_open_source" xml:space="preserve">
+        <source>Open Source</source>
+        <target>Open Source</target>
+        <note>Info: "Open Source"</note>
+      </trans-unit>
+      <trans-unit id="info_webpage_subscribe" xml:space="preserve">
+        <source>Subscribe</source>
+        <target>Subscribe</target>
+        <note>Info: "Subscribe"</note>
+      </trans-unit>
+      <trans-unit id="info_webpage_videos_latest" xml:space="preserve">
+        <source>Latest Videos</source>
+        <target>Latest Videos</target>
+        <note>Info: "Latest Videos"</note>
+      </trans-unit>
+      <trans-unit id="item_history_completed_all" xml:space="preserve">
+        <source>All servings</source>
+        <target>All servings</target>
+        <note>Item History Legend: "All completed"</note>
+      </trans-unit>
+      <trans-unit id="item_history_completed_some" xml:space="preserve">
+        <source>Some servings</source>
+        <target>Some servings</target>
+        <note>Item History Legend: "Some completed"</note>
+      </trans-unit>
+      <trans-unit id="item_history_heading" xml:space="preserve">
+        <source>History</source>
+        <target>History</target>
+        <note>Item History Heading: "History"</note>
+      </trans-unit>
       <trans-unit id="navtab.doze" xml:space="preserve">
         <source>Daily Dozen</source>
         <target>Daily Dozen</target>
@@ -226,10 +354,109 @@ Vitamin B12 is included in this app to provide you with an easy way to track you
         <target>Vitamin D</target>
         <note>display heading</note>
       </trans-unit>
+      <trans-unit id="reminder.alert.text" xml:space="preserve">
+        <source>Update your servings for today</source>
+        <target>Update your servings for today</target>
+        <note>daily_reminder_text alert text</note>
+      </trans-unit>
+      <trans-unit id="reminder.heading" xml:space="preserve">
+        <source>Daily Reminder</source>
+        <target>Daily Reminder</target>
+        <note>Daily Reminder (alert title, settings section heading)</note>
+      </trans-unit>
+      <trans-unit id="reminder.settings.enable" xml:space="preserve">
+        <source>Enable Reminders</source>
+        <target>Enable Reminders</target>
+        <note>Enable Reminders (toggle switch label)</note>
+      </trans-unit>
+      <trans-unit id="reminder.settings.sound" xml:space="preserve">
+        <source>Play Sound</source>
+        <target>Play Sound</target>
+        <note>play_sound</note>
+      </trans-unit>
+      <trans-unit id="reminder.settings.time" xml:space="preserve">
+        <source>Remind me at</source>
+        <target>Remind me at</target>
+        <note>remind_me_at</note>
+      </trans-unit>
+      <trans-unit id="reminder.settings.vibrate" xml:space="preserve">
+        <source>Vibrate</source>
+        <target>Vibrate</target>
+        <note>vibrate</note>
+      </trans-unit>
+      <trans-unit id="reminder.state.off" xml:space="preserve">
+        <source>Off</source>
+        <target>Off</target>
+        <note>'Off' as in 'On or Off'</note>
+      </trans-unit>
+      <trans-unit id="reminder.state.on" xml:space="preserve">
+        <source>On</source>
+        <target>On</target>
+        <note>'On' as in 'On or Off'</note>
+      </trans-unit>
+      <trans-unit id="setting_doze_only_btn" xml:space="preserve">
+        <source>Daily Dozen
+Only</source>
+        <target>Daily Dozen
+Only</target>
+        <note>First Launch: "Daily Dozen Only"</note>
+      </trans-unit>
+      <trans-unit id="setting_doze_only_choice" xml:space="preserve">
+        <source>Daily Dozen Only</source>
+        <target>Daily Dozen Only</target>
+        <note>Settings: "Daily Dozen Only"</note>
+      </trans-unit>
+      <trans-unit id="setting_doze_tweak_btn" xml:space="preserve">
+        <source>Daily Dozen +
+21 Tweaks</source>
+        <target>Daily Dozen +
+21 Tweaks</target>
+        <note>First Launch: "Daily Dozen + 21 Tweaks"</note>
+      </trans-unit>
+      <trans-unit id="setting_doze_tweak_choice" xml:space="preserve">
+        <source>Daily Dozen + 21 Tweaks</source>
+        <target>Daily Dozen + 21 Tweaks</target>
+        <note>Settings: "Daily Dozen + 21 Tweaks"</note>
+      </trans-unit>
+      <trans-unit id="setting_doze_tweak_footer" xml:space="preserve">
+        <source>For health alone, use 'Daily Dozen Only'. For health and weight loss use 'Daily Dozen + 21 Tweaks'.</source>
+        <target>For health alone, use 'Daily Dozen Only'. For health and weight loss use 'Daily Dozen + 21 Tweaks'.</target>
+        <note>Settings: Tweaks visibility footer text</note>
+      </trans-unit>
+      <trans-unit id="setting_health_alone_txt" xml:space="preserve">
+        <source>For Health Alone</source>
+        <target>For Health Alone</target>
+        <note>First Launch: "For Health Alone"</note>
+      </trans-unit>
+      <trans-unit id="setting_health_weight_txt" xml:space="preserve">
+        <source>For Health and Weight Loss</source>
+        <target>For Health and Weight Loss</target>
+        <note>First Launch: "For Health and Weight Loss"</note>
+      </trans-unit>
+      <trans-unit id="settings.tweak.header" xml:space="preserve">
+        <source>21 Tweaks Visibility</source>
+        <target>21 Tweaks Visibility</target>
+        <note>Class = "UITableViewSection"; headerTitle = "21 Tweaks Visibility"; ObjectID = "WdR-XV-IyP";</note>
+      </trans-unit>
+      <trans-unit id="settings.units.header" xml:space="preserve">
+        <source>Measurement Units</source>
+        <target>Measurement Units</target>
+        <note>Class = "UITableViewSection"; headerTitle = "Measurement Units"; ObjectID = "IFs-g0-SPV";</note>
+      </trans-unit>
+      <trans-unit id="settings_advanced_utilities" xml:space="preserve">
+        <source>Advanced Utilities</source>
+        <target>Advanced Utilities</target>
+        <note>Settings: "Advanced Utilities"</note>
+      </trans-unit>
+      <trans-unit id="settings_units_choice_footer" xml:space="preserve">
+        <source>Set to always be one unit type or enable the 'Units:' toggle button.</source>
+        <target>Set to always be one unit type or enable the 'Units:' toggle button.</target>
+        <note>Settings: units choice footer text</note>
+      </trans-unit>
       <trans-unit id="streakDaysFormat" xml:space="preserve">
         <source>%d days</source>
         <target>%d days</target>
-        <note>streak days format</note>
+        <note>progress: number '%d' of consecutive days completed.</note>
       </trans-unit>
       <trans-unit id="tweakCompleteIntentions.heading" xml:space="preserve">
         <source>Complete Intentions</source>
@@ -336,6 +563,21 @@ Vitamin B12 is included in this app to provide you with an easy way to track you
         <target>Weigh Twice Daily</target>
         <note>display heading</note>
       </trans-unit>
+      <trans-unit id="tweak_detail_section_activity" xml:space="preserve">
+        <source>Activity</source>
+        <target>Activity</target>
+        <note>Tweak Detail Section: "Activity"</note>
+      </trans-unit>
+      <trans-unit id="tweak_detail_section_description" xml:space="preserve">
+        <source>Description</source>
+        <target>Description</target>
+        <note>Tweak Detail Section: "Description"</note>
+      </trans-unit>
+      <trans-unit id="tweak_entry_header" xml:space="preserve">
+        <source>21 Tweaks</source>
+        <target>21 Tweaks</target>
+        <note>Daily Dozen Header: "21 Tweaks"</note>
+      </trans-unit>
       <trans-unit id="unitToggle.imperial" xml:space="preserve">
         <source>IMPERIAL</source>
         <target>IMPERIAL</target>
@@ -345,6 +587,11 @@ Vitamin B12 is included in this app to provide you with an easy way to track you
         <source>METRIC</source>
         <target>METRIC</target>
         <note>Units toggle button text: metric measurement system</note>
+      </trans-unit>
+      <trans-unit id="units_label" xml:space="preserve">
+        <source>Units:</source>
+        <target>Units:</target>
+        <note>"Units:"</note>
       </trans-unit>
       <trans-unit id="urlSegment.base" xml:space="preserve">
         <source>https://nutritionfacts.org/</source>
@@ -401,657 +648,50 @@ Vitamin B12 is included in this app to provide you with an easy way to track you
         <target>videos</target>
         <note>main info menu: videos</note>
       </trans-unit>
+      <trans-unit id="videos.link.label" xml:space="preserve">
+        <source>VIDEOS</source>
+        <target>VIDEOS</target>
+        <note>Videos link label</note>
+      </trans-unit>
       <trans-unit id="weightEntry.heading" xml:space="preserve">
         <source>Weight</source>
         <target>Weight</target>
         <note>Weight entry heading</note>
       </trans-unit>
-    </body>
-  </file>
-  <file original="DailyDozen/App/Views/Base.lproj/FirstLaunch.storyboard" source-language="en" target-language="zh-Hans" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
-    </header>
-    <body>
-      <trans-unit id="Lef-Iw-Ywr.normalTitle" xml:space="preserve">
-        <source>Daily Dozen +
-21 Tweaks</source>
-        <target>Daily Dozen +
-21 Tweaks</target>
-        <note>Class = "UIButton"; normalTitle = "Daily Dozen +\n21 Tweaks"; ObjectID = "Lef-Iw-Ywr";</note>
-      </trans-unit>
-      <trans-unit id="OdG-YQ-lT8.text" xml:space="preserve">
-        <source>For Health and Weight Loss</source>
-        <target>For Health and Weight Loss</target>
-        <note>Class = "UILabel"; text = "For Health and Weight Loss"; ObjectID = "OdG-YQ-lT8";</note>
-      </trans-unit>
-      <trans-unit id="ReM-AP-Fpp.normalTitle" xml:space="preserve">
-        <source>Daily Dozen Only</source>
-        <target>Daily Dozen Only</target>
-        <note>Class = "UIButton"; normalTitle = "Daily Dozen Only"; ObjectID = "ReM-AP-Fpp";</note>
-      </trans-unit>
-      <trans-unit id="atR-un-jgX.text" xml:space="preserve">
-        <source>For Health Alone</source>
-        <target>For Health Alone</target>
-        <note>Class = "UILabel"; text = "For Health Alone"; ObjectID = "atR-un-jgX";</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="DailyDozen/DozeSection/DozeDetail/Views/Base.lproj/DozeDetailLayout.storyboard" source-language="en" target-language="zh-Hans" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
-    </header>
-    <body>
-      <trans-unit id="iJb-Vn-TS0.text" xml:space="preserve">
-        <source>Beans</source>
-        <target>Beans</target>
-        <note>Class = "UILabel"; text = "Beans"; ObjectID = "iJb-Vn-TS0";</note>
-      </trans-unit>
-      <trans-unit id="m5s-0r-St1.text" xml:space="preserve">
-        <source>Label</source>
-        <target>Label</target>
-        <note>Class = "UILabel"; text = "Label"; ObjectID = "m5s-0r-St1";</note>
-      </trans-unit>
-      <trans-unit id="xcg-0a-oqY.normalTitle" xml:space="preserve">
-        <source>VIDEOS</source>
-        <target>VIDEOS</target>
-        <note>Class = "UIButton"; normalTitle = "VIDEOS"; ObjectID = "xcg-0a-oqY";</note>
-      </trans-unit>
-      <trans-unit id="yct-Iw-M3s.text" xml:space="preserve">
-        <source>Label</source>
-        <target>Label</target>
-        <note>Class = "UILabel"; text = "Label"; ObjectID = "yct-Iw-M3s";</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="DailyDozen/DozeSection/DozeDetail/Views/Base.lproj/DozeDetailSizeHeader.xib" source-language="en" target-language="zh-Hans" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
-    </header>
-    <body>
-      <trans-unit id="eU6-je-hVN.text" xml:space="preserve">
-        <source>Serving Sizes</source>
-        <target>Serving Sizes</target>
-        <note>Class = "UILabel"; text = "Serving Sizes"; ObjectID = "eU6-je-hVN";</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="DailyDozen/DozeSection/DozeDetail/Views/Base.lproj/DozeDetailSizeUnitHeader.xib" source-language="en" target-language="zh-Hans" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
-    </header>
-    <body>
-      <trans-unit id="1K3-d9-Hfb.normalTitle" xml:space="preserve">
-        <source>METRIC</source>
-        <target>METRIC</target>
-        <note>Class = "UIButton"; normalTitle = "METRIC"; ObjectID = "1K3-d9-Hfb";</note>
-      </trans-unit>
-      <trans-unit id="3bd-8h-kcX.text" xml:space="preserve">
-        <source>Units:</source>
-        <target>Units:</target>
-        <note>Class = "UILabel"; text = "Units:"; ObjectID = "3bd-8h-kcX";</note>
-      </trans-unit>
-      <trans-unit id="eU6-je-hVN.text" xml:space="preserve">
-        <source>Serving Sizes</source>
-        <target>Serving Sizes</target>
-        <note>Class = "UILabel"; text = "Serving Sizes"; ObjectID = "eU6-je-hVN";</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="DailyDozen/DozeSection/DozeDetail/Views/Base.lproj/DozeDetailTypeHeader.xib" source-language="en" target-language="zh-Hans" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
-    </header>
-    <body>
-      <trans-unit id="YVI-sV-TDX.text" xml:space="preserve">
-        <source>Types</source>
-        <target>Types</target>
-        <note>Class = "UILabel"; text = "Types"; ObjectID = "YVI-sV-TDX";</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="DailyDozen/DozeSection/DozeEntry/Views/Base.lproj/DozeEntryExtrasHeader.xib" source-language="en" target-language="zh-Hans" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
-    </header>
-    <body>
-      <trans-unit id="W2v-Cp-vcd.text" xml:space="preserve">
-        <source>Supplements</source>
-        <target>Supplements</target>
-        <note>Class = "UILabel"; text = "Supplements"; ObjectID = "W2v-Cp-vcd";</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="DailyDozen/DozeSection/DozeEntry/Views/Base.lproj/DozeEntryLayout.storyboard" source-language="en" target-language="zh-Hans" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
-    </header>
-    <body>
-      <trans-unit id="1HM-mL-ZV9.text" xml:space="preserve">
-        <source>Servings</source>
-        <target>Servings</target>
-        <note>Class = "UILabel"; text = "Servings"; ObjectID = "1HM-mL-ZV9";</note>
-      </trans-unit>
-      <trans-unit id="ERa-UT-Rni.text" xml:space="preserve">
-        <source>0 / 24</source>
-        <target>0 / 24</target>
-        <note>Class = "UILabel"; text = "0 / 24"; ObjectID = "ERa-UT-Rni";</note>
-      </trans-unit>
-      <trans-unit id="cW5-dD-Zy0.text" xml:space="preserve">
-        <source>100 days</source>
-        <target>100 days</target>
-        <note>Class = "UILabel"; text = "100 days"; ObjectID = "cW5-dD-Zy0";</note>
-      </trans-unit>
-      <trans-unit id="qWl-8e-sO6.text" xml:space="preserve">
-        <source>Label</source>
-        <target>Label</target>
-        <note>Class = "UILabel"; text = "Label"; ObjectID = "qWl-8e-sO6";</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="DailyDozen/DozeSection/DozeEntry/Views/Base.lproj/DozeEntryPagerLayout.storyboard" source-language="en" target-language="zh-Hans" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
-    </header>
-    <body>
-      <trans-unit id="Qfe-bW-SP4.normalTitle" xml:space="preserve">
-        <source>Back to today</source>
-        <note>Class = "UIButton"; normalTitle = "Back to today"; ObjectID = "Qfe-bW-SP4";</note>
-      </trans-unit>
-      <trans-unit id="pYb-py-Qqh.text" xml:space="preserve">
-        <source>Today</source>
-        <note>Class = "UITextField"; text = "Today"; ObjectID = "pYb-py-Qqh";</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="DailyDozen/DozeSection/DozeHistory/Views/Base.lproj/DozeHistoryLayout.storyboard" source-language="en" target-language="zh-Hans" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
-    </header>
-    <body>
-      <trans-unit id="27q-rq-qbu.text" xml:space="preserve">
-        <source>Time Scale</source>
-        <target>Time Scale</target>
-        <note>Class = "UILabel"; text = "Time Scale"; ObjectID = "27q-rq-qbu";</note>
-      </trans-unit>
-      <trans-unit id="dld-jq-Etq.text" xml:space="preserve">
-        <source>2017</source>
-        <target>2017</target>
-        <note>Class = "UILabel"; text = "2017"; ObjectID = "dld-jq-Etq";</note>
-      </trans-unit>
-      <trans-unit id="nRL-iG-Wnd.text" xml:space="preserve">
-        <source>Month</source>
-        <target>Month</target>
-        <note>Class = "UILabel"; text = "Month"; ObjectID = "nRL-iG-Wnd";</note>
-      </trans-unit>
-      <trans-unit id="sM6-A9-KeP.segmentTitles[0]" xml:space="preserve">
-        <source>Day</source>
-        <target>Day</target>
-        <note>Class = "UISegmentedControl"; sM6-A9-KeP.segmentTitles[0] = "Day"; ObjectID = "sM6-A9-KeP";</note>
-      </trans-unit>
-      <trans-unit id="sM6-A9-KeP.segmentTitles[1]" xml:space="preserve">
-        <source>Month</source>
-        <target>Month</target>
-        <note>Class = "UISegmentedControl"; sM6-A9-KeP.segmentTitles[1] = "Month"; ObjectID = "sM6-A9-KeP";</note>
-      </trans-unit>
-      <trans-unit id="sM6-A9-KeP.segmentTitles[2]" xml:space="preserve">
-        <source>Year</source>
-        <target>Year</target>
-        <note>Class = "UISegmentedControl"; sM6-A9-KeP.segmentTitles[2] = "Year"; ObjectID = "sM6-A9-KeP";</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="DailyDozen/InfoMenu/InfoMenuAbout/Views/Base.lproj/InfoMenuAboutLayout.storyboard" source-language="en" target-language="zh-Hans" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
-    </header>
-    <body>
-      <trans-unit id="19L-gq-W5M.text" xml:space="preserve">
-        <source>Welcome to my Daily Dozen!</source>
-        <target>Welcome to my Daily Dozen!</target>
-        <note>Class = "UILabel"; text = "Welcome to my Daily Dozen!"; ObjectID = "19L-gq-W5M";</note>
-      </trans-unit>
-      <trans-unit id="DJR-bj-qUq.text" xml:space="preserve">
-        <source>Daily Dozen</source>
-        <target>Daily Dozen</target>
-        <note>Class = "UILabel"; text = "Daily Dozen"; ObjectID = "DJR-bj-qUq";</note>
-      </trans-unit>
-      <trans-unit id="Zgt-w4-qQw.text" xml:space="preserve">
-        <source>This app was created by: - NutritionFacts.org - Christi Richards - Konstantin Khokhlov - Marc Campbell</source>
-        <target>This app was created by: - NutritionFacts.org - Christi Richards - Konstantin Khokhlov - Marc Campbell</target>
-        <note>Class = "UILabel"; text = "This app was created by: - NutritionFacts.org - Christi Richards - Konstantin Khokhlov - Marc Campbell"; ObjectID = "Zgt-w4-qQw";</note>
-      </trans-unit>
-      <trans-unit id="dwQ-CS-gz3.text" xml:space="preserve">
-        <source>Use this app on a daily basis to keep track of the foods and advice I recommend for optimal health and longevity in my books How Not to Die and How Not to Diet.</source>
-        <target>Use this app on a daily basis to keep track of the foods and advice I recommend for optimal health and longevity in my books How Not to Die and How Not to Diet.</target>
-        <note>Class = "UILabel"; text = "Use this app on a daily basis to keep track of the foods and advice I recommend for optimal health and longevity in my books How Not to Die and How Not to Diet."; ObjectID = "dwQ-CS-gz3";</note>
-      </trans-unit>
-      <trans-unit id="gX5-vX-xBe.text" xml:space="preserve">
-        <source>version 3.3.0</source>
-        <target>version 3.3.0</target>
-        <note>Class = "UILabel"; text = "version 3.3.0"; ObjectID = "gX5-vX-xBe";</note>
-      </trans-unit>
-      <trans-unit id="pUm-f4-zm1.text" xml:space="preserve">
-        <source>The following open source libraries are used: RealmSwift, Charts, FSCalendar, SimpleAnimation and ActiveLabel.</source>
-        <target>The following open source libraries are used: RealmSwift, Charts, FSCalendar, SimpleAnimation and ActiveLabel.</target>
-        <note>Class = "UILabel"; text = "The following open source libraries are used: RealmSwift, Charts, FSCalendar, SimpleAnimation and ActiveLabel."; ObjectID = "pUm-f4-zm1";</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="DailyDozen/InfoMenu/InfoMenuMain/Views/Base.lproj/InfoMenuMainLayout.storyboard" source-language="en" target-language="zh-Hans" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
-    </header>
-    <body>
-      <trans-unit id="Cxo-5D-YUZ.text" xml:space="preserve">
-        <source>How Not to Die Cookbook</source>
-        <target>How Not to Die Cookbook</target>
-        <note>Class = "UILabel"; text = "How Not to Die Cookbook"; ObjectID = "Cxo-5D-YUZ";</note>
-      </trans-unit>
-      <trans-unit id="MWr-7S-G8N.text" xml:space="preserve">
-        <source>How Not to Diet</source>
-        <target>How Not to Diet</target>
-        <note>Class = "UILabel"; text = "How Not to Diet"; ObjectID = "MWr-7S-G8N";</note>
-      </trans-unit>
-      <trans-unit id="beF-Xl-TAq.text" xml:space="preserve">
-        <source>Daily Dozen Challenge</source>
-        <target>Daily Dozen Challenge</target>
-        <note>Class = "UILabel"; text = "Daily Dozen Challenge"; ObjectID = "beF-Xl-TAq";</note>
-      </trans-unit>
-      <trans-unit id="dRO-1W-3EK.text" xml:space="preserve">
-        <source>Subscribe</source>
-        <target>Subscribe</target>
-        <note>Class = "UILabel"; text = "Subscribe"; ObjectID = "dRO-1W-3EK";</note>
-      </trans-unit>
-      <trans-unit id="mqA-Vp-LZ7.text" xml:space="preserve">
-        <source>Donate</source>
-        <target>Donate</target>
-        <note>Class = "UILabel"; text = "Donate"; ObjectID = "mqA-Vp-LZ7";</note>
-      </trans-unit>
-      <trans-unit id="qGY-wh-1gB.text" xml:space="preserve">
-        <source>About</source>
-        <target>About</target>
-        <note>Class = "UILabel"; text = "About"; ObjectID = "qGY-wh-1gB";</note>
-      </trans-unit>
-      <trans-unit id="qVR-SQ-jmS.text" xml:space="preserve">
-        <source>Open Source</source>
-        <target>Open Source</target>
-        <note>Class = "UILabel"; text = "Open Source"; ObjectID = "qVR-SQ-jmS";</note>
-      </trans-unit>
-      <trans-unit id="uxH-8I-ydF.text" xml:space="preserve">
-        <source>Latest Videos</source>
-        <target>Latest Videos</target>
-        <note>Class = "UILabel"; text = "Latest Videos"; ObjectID = "uxH-8I-ydF";</note>
-      </trans-unit>
-      <trans-unit id="zQy-Dn-WXM.text" xml:space="preserve">
-        <source>How Not to Die</source>
-        <target>How Not to Die</target>
-        <note>Class = "UILabel"; text = "How Not to Die"; ObjectID = "zQy-Dn-WXM";</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="DailyDozen/ItemHistory/Views/Base.lproj/ItemHistoryLayout.storyboard" source-language="en" target-language="zh-Hans" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
-    </header>
-    <body>
-      <trans-unit id="S0Q-oB-VgE.text" xml:space="preserve">
-        <source>All servings</source>
-        <target>All servings</target>
-        <note>Class = "UILabel"; text = "All servings"; ObjectID = "S0Q-oB-VgE";</note>
-      </trans-unit>
-      <trans-unit id="jBv-4d-ofX.text" xml:space="preserve">
-        <source>Some servings</source>
-        <target>Some servings</target>
-        <note>Class = "UILabel"; text = "Some servings"; ObjectID = "jBv-4d-ofX";</note>
-      </trans-unit>
-      <trans-unit id="sLd-Kq-bLv.text" xml:space="preserve">
-        <source>History</source>
-        <target>History</target>
-        <note>Class = "UILabel"; text = "History"; ObjectID = "sLd-Kq-bLv";</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="DailyDozen/Settings/Views/Base.lproj/SettingsLayout.storyboard" source-language="en" target-language="zh-Hans" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
-    </header>
-    <body>
-      <trans-unit id="Ebp-Lw-fWk.normalTitle" xml:space="preserve">
-        <source>Advanced Utilities</source>
-        <target>Advanced Utilities</target>
-        <note>Class = "UIButton"; normalTitle = "Advanced Utilities"; ObjectID = "Ebp-Lw-fWk";</note>
-      </trans-unit>
-      <trans-unit id="GiY-ao-2ee.headerTitle" xml:space="preserve">
-        <source>Daily Reminder</source>
-        <target>Daily Reminder</target>
-        <note>Class = "UITableViewSection"; headerTitle = "Daily Reminder"; ObjectID = "GiY-ao-2ee";</note>
-      </trans-unit>
-      <trans-unit id="IFs-g0-SPV.footerTitle" xml:space="preserve">
-        <source>Set to always be one unit type or enable the 'Units:' toggle button.</source>
-        <target>Set to always be one unit type or enable the 'Units:' toggle button.</target>
-        <note>Class = "UITableViewSection"; footerTitle = "Set to always be one unit type or enable the 'Units:' toggle button."; ObjectID = "IFs-g0-SPV";</note>
-      </trans-unit>
-      <trans-unit id="IFs-g0-SPV.headerTitle" xml:space="preserve">
-        <source>Measurement Units</source>
-        <target>Measurement Units</target>
-        <note>Class = "UITableViewSection"; headerTitle = "Measurement Units"; ObjectID = "IFs-g0-SPV";</note>
-      </trans-unit>
-      <trans-unit id="OZO-Xa-v5G.segmentTitles[0]" xml:space="preserve">
-        <source>Daily Dozen Only</source>
-        <target>Daily Dozen Only</target>
-        <note>Class = "UISegmentedControl"; OZO-Xa-v5G.segmentTitles[0] = "Daily Dozen Only"; ObjectID = "OZO-Xa-v5G";</note>
-      </trans-unit>
-      <trans-unit id="OZO-Xa-v5G.segmentTitles[1]" xml:space="preserve">
-        <source>Daily Dozen + 21 Tweaks</source>
-        <target>Daily Dozen + 21 Tweaks</target>
-        <note>Class = "UISegmentedControl"; OZO-Xa-v5G.segmentTitles[1] = "Daily Dozen + 21 Tweaks"; ObjectID = "OZO-Xa-v5G";</note>
-      </trans-unit>
-      <trans-unit id="RLb-GV-4hh.segmentTitles[0]" xml:space="preserve">
-        <source>Imperial</source>
-        <target>Imperial</target>
-        <note>Class = "UISegmentedControl"; RLb-GV-4hh.segmentTitles[0] = "Imperial"; ObjectID = "RLb-GV-4hh";</note>
-      </trans-unit>
-      <trans-unit id="RLb-GV-4hh.segmentTitles[1]" xml:space="preserve">
-        <source>Metric</source>
-        <target>Metric</target>
-        <note>Class = "UISegmentedControl"; RLb-GV-4hh.segmentTitles[1] = "Metric"; ObjectID = "RLb-GV-4hh";</note>
-      </trans-unit>
-      <trans-unit id="RLb-GV-4hh.segmentTitles[2]" xml:space="preserve">
-        <source>Toggle Units</source>
-        <target>Toggle Units</target>
-        <note>Class = "UISegmentedControl"; RLb-GV-4hh.segmentTitles[2] = "Toggle Units"; ObjectID = "RLb-GV-4hh";</note>
-      </trans-unit>
-      <trans-unit id="WdR-XV-IyP.footerTitle" xml:space="preserve">
-        <source>For health alone, use "Daily Dozen Only". For health and weight loss use "Daily Dozen + 21 Tweaks".</source>
-        <target>For health alone, use "Daily Dozen Only". For health and weight loss use "Daily Dozen + 21 Tweaks".</target>
-        <note>Class = "UITableViewSection"; footerTitle = "For health alone, use \"Daily Dozen Only\". For health and weight loss use \"Daily Dozen + 21 Tweaks\"."; ObjectID = "WdR-XV-IyP";</note>
-      </trans-unit>
-      <trans-unit id="WdR-XV-IyP.headerTitle" xml:space="preserve">
-        <source>21 Tweaks Visibility</source>
-        <target>21 Tweaks Visibility</target>
-        <note>Class = "UITableViewSection"; headerTitle = "21 Tweaks Visibility"; ObjectID = "WdR-XV-IyP";</note>
-      </trans-unit>
-      <trans-unit id="XFw-2q-BdT.text" xml:space="preserve">
-        <source>On</source>
-        <target>On</target>
-        <note>Class = "UILabel"; text = "On"; ObjectID = "XFw-2q-BdT";</note>
-      </trans-unit>
-      <trans-unit id="YP6-dP-Y62.text" xml:space="preserve">
-        <source>Play Sound</source>
-        <target>Play Sound</target>
-        <note>Class = "UILabel"; text = "Play Sound"; ObjectID = "YP6-dP-Y62";</note>
-      </trans-unit>
-      <trans-unit id="itH-G7-Kal.text" xml:space="preserve">
-        <source>Enable Reminders</source>
-        <target>Enable Reminders</target>
-        <note>Class = "UILabel"; text = "Enable Reminders"; ObjectID = "itH-G7-Kal";</note>
-      </trans-unit>
-      <trans-unit id="kR3-Sa-Fpt.text" xml:space="preserve">
-        <source>Remind me at:</source>
-        <target>Remind me at:</target>
-        <note>Class = "UILabel"; text = "Remind me at:"; ObjectID = "kR3-Sa-Fpt";</note>
-      </trans-unit>
-      <trans-unit id="pjz-An-Ls5.text" xml:space="preserve">
-        <source>Enable Reminders</source>
-        <target>Enable Reminders</target>
-        <note>Class = "UILabel"; text = "Enable Reminders"; ObjectID = "pjz-An-Ls5";</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="DailyDozen/TweakSection/TweakDetail/Views/Base.lproj/TweakDetailActivityHeader.xib" source-language="en" target-language="zh-Hans" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
-    </header>
-    <body>
-      <trans-unit id="YVI-sV-TDA.text" xml:space="preserve">
-        <source>Activity</source>
-        <target>Activity</target>
-        <note>Class = "UILabel"; text = "Activity"; ObjectID = "YVI-sV-TDA";</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="DailyDozen/TweakSection/TweakDetail/Views/Base.lproj/TweakDetailActivityUnitHeader.xib" source-language="en" target-language="zh-Hans" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
-    </header>
-    <body>
-      <trans-unit id="M75-CQ-NVP.normalTitle" xml:space="preserve">
-        <source>METRIC</source>
-        <target>METRIC</target>
-        <note>Class = "UIButton"; normalTitle = "METRIC"; ObjectID = "M75-CQ-NVP";</note>
-      </trans-unit>
-      <trans-unit id="YVI-sV-TDA.text" xml:space="preserve">
-        <source>Activity</source>
-        <target>Activity</target>
-        <note>Class = "UILabel"; text = "Activity"; ObjectID = "YVI-sV-TDA";</note>
-      </trans-unit>
-      <trans-unit id="kho-9G-OWe.text" xml:space="preserve">
-        <source>Units:</source>
-        <target>Units:</target>
-        <note>Class = "UILabel"; text = "Units:"; ObjectID = "kho-9G-OWe";</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="DailyDozen/TweakSection/TweakDetail/Views/Base.lproj/TweakDetailDescriptionHeader.xib" source-language="en" target-language="zh-Hans" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
-    </header>
-    <body>
-      <trans-unit id="YVI-sV-TDD.text" xml:space="preserve">
-        <source>Description</source>
-        <target>Description</target>
-        <note>Class = "UILabel"; text = "Description"; ObjectID = "YVI-sV-TDD";</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="DailyDozen/TweakSection/TweakDetail/Views/Base.lproj/TweakDetailLayout.storyboard" source-language="en" target-language="zh-Hans" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
-    </header>
-    <body>
-      <trans-unit id="6m3-hV-PBi.text" xml:space="preserve">
-        <source>Negative Calorie Load</source>
-        <target>Negative Calorie Load</target>
-        <note>Class = "UILabel"; text = "Negative Calorie Load"; ObjectID = "6m3-hV-PBi";</note>
-      </trans-unit>
-      <trans-unit id="OFE-S4-S9b.text" xml:space="preserve">
-        <source>Label</source>
-        <target>Label</target>
-        <note>Class = "UILabel"; text = "Label"; ObjectID = "OFE-S4-S9b";</note>
-      </trans-unit>
-      <trans-unit id="dxC-TB-3hz.text" xml:space="preserve">
-        <source>Label</source>
-        <target>Label</target>
-        <note>Class = "UILabel"; text = "Label"; ObjectID = "dxC-TB-3hz";</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="DailyDozen/TweakSection/TweakEntry/Views/Base.lproj/TweakEntryLayout.storyboard" source-language="en" target-language="zh-Hans" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
-    </header>
-    <body>
-      <trans-unit id="5po-De-kCi.text" xml:space="preserve">
-        <source>21 Tweaks</source>
-        <target>21 Tweaks</target>
-        <note>Class = "UILabel"; text = "21 Tweaks"; ObjectID = "5po-De-kCi";</note>
-      </trans-unit>
-      <trans-unit id="NPC-if-gUf.text" xml:space="preserve">
-        <source>0 / 37</source>
-        <target>0 / 37</target>
-        <note>Class = "UILabel"; text = "0 / 37"; ObjectID = "NPC-if-gUf";</note>
-      </trans-unit>
-      <trans-unit id="Vbn-R9-kuu.text" xml:space="preserve">
-        <source>100 days</source>
-        <target>100 days</target>
-        <note>Class = "UILabel"; text = "100 days"; ObjectID = "Vbn-R9-kuu";</note>
-      </trans-unit>
-      <trans-unit id="YGb-Uj-J69.text" xml:space="preserve">
-        <source>Label</source>
-        <target>Label</target>
-        <note>Class = "UILabel"; text = "Label"; ObjectID = "YGb-Uj-J69";</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="DailyDozen/TweakSection/TweakEntry/Views/Base.lproj/TweakEntryPagerLayout.storyboard" source-language="en" target-language="zh-Hans" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
-    </header>
-    <body>
-      <trans-unit id="7XY-Lo-Hwf.normalTitle" xml:space="preserve">
-        <source>Back to today</source>
-        <note>Class = "UIButton"; normalTitle = "Back to today"; ObjectID = "7XY-Lo-Hwf";</note>
-      </trans-unit>
-      <trans-unit id="YWB-e7-bAF.text" xml:space="preserve">
-        <source>Today</source>
-        <note>Class = "UITextField"; text = "Today"; ObjectID = "YWB-e7-bAF";</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="DailyDozen/TweakSection/TweakHistory/Views/Base.lproj/TweakHistoryLayout.storyboard" source-language="en" target-language="zh-Hans" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
-    </header>
-    <body>
-      <trans-unit id="5eb-qC-Ke5.text" xml:space="preserve">
-        <source>2017</source>
-        <target>2017</target>
-        <note>Class = "UILabel"; text = "2017"; ObjectID = "5eb-qC-Ke5";</note>
-      </trans-unit>
-      <trans-unit id="UCg-Rc-mLf.text" xml:space="preserve">
-        <source>Month</source>
-        <target>Month</target>
-        <note>Class = "UILabel"; text = "Month"; ObjectID = "UCg-Rc-mLf";</note>
-      </trans-unit>
-      <trans-unit id="XdW-g4-ZUO.text" xml:space="preserve">
-        <source>Time Scale</source>
-        <target>Time Scale</target>
-        <note>Class = "UILabel"; text = "Time Scale"; ObjectID = "XdW-g4-ZUO";</note>
-      </trans-unit>
-      <trans-unit id="vXy-0q-Ind.segmentTitles[0]" xml:space="preserve">
-        <source>Day</source>
-        <target>Day</target>
-        <note>Class = "UISegmentedControl"; vXy-0q-Ind.segmentTitles[0] = "Day"; ObjectID = "vXy-0q-Ind";</note>
-      </trans-unit>
-      <trans-unit id="vXy-0q-Ind.segmentTitles[1]" xml:space="preserve">
-        <source>Month</source>
-        <target>Month</target>
-        <note>Class = "UISegmentedControl"; vXy-0q-Ind.segmentTitles[1] = "Month"; ObjectID = "vXy-0q-Ind";</note>
-      </trans-unit>
-      <trans-unit id="vXy-0q-Ind.segmentTitles[2]" xml:space="preserve">
-        <source>Year</source>
-        <target>Year</target>
-        <note>Class = "UISegmentedControl"; vXy-0q-Ind.segmentTitles[2] = "Year"; ObjectID = "vXy-0q-Ind";</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="DailyDozen/WeightSection/WeightEntry/Views/Base.lproj/WeightEntryLayout.storyboard" source-language="en" target-language="zh-Hans" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
-    </header>
-    <body>
-      <trans-unit id="7l0-os-Oqt.normalTitle" xml:space="preserve">
+      <trans-unit id="weight_entry_clear" xml:space="preserve">
         <source>Clear</source>
         <target>Clear</target>
-        <note>Class = "UIButton"; normalTitle = "Clear"; ObjectID = "7l0-os-Oqt";</note>
+        <note>Weight Entry: "Clear"</note>
       </trans-unit>
-      <trans-unit id="77g-xa-ali.text" xml:space="preserve">
+      <trans-unit id="weight_entry_evening" xml:space="preserve">
         <source>Evening (right before bed)</source>
         <target>Evening (right before bed)</target>
-        <note>Class = "UILabel"; text = "Evening (right before bed)"; ObjectID = "77g-xa-ali";</note>
+        <note>Weight Entry: "Evening (right before bed)"</note>
       </trans-unit>
-      <trans-unit id="FBJ-Im-BZk.text" xml:space="preserve">
-        <source>Time</source>
-        <target>Time</target>
-        <note>Class = "UILabel"; text = "Time"; ObjectID = "FBJ-Im-BZk";</note>
-      </trans-unit>
-      <trans-unit id="NRG-eE-YhG.normalTitle" xml:space="preserve">
-        <source>Clear</source>
-        <target>Clear</target>
-        <note>Class = "UIButton"; normalTitle = "Clear"; ObjectID = "NRG-eE-YhG";</note>
-      </trans-unit>
-      <trans-unit id="Tgz-om-dEk.text" xml:space="preserve">
-        <source>lbs.</source>
-        <target>lbs.</target>
-        <note>Class = "UILabel"; text = "lbs."; ObjectID = "Tgz-om-dEk";</note>
-      </trans-unit>
-      <trans-unit id="g3G-kp-d2S.text" xml:space="preserve">
-        <source>Time </source>
-        <target>Time </target>
-        <note>Class = "UILabel"; text = "Time "; ObjectID = "g3G-kp-d2S";</note>
-      </trans-unit>
-      <trans-unit id="xCp-N8-5Uc.text" xml:space="preserve">
+      <trans-unit id="weight_entry_morning" xml:space="preserve">
         <source>Morning (upon waking)</source>
         <target>Morning (upon waking)</target>
-        <note>Class = "UILabel"; text = "Morning (upon waking)"; ObjectID = "xCp-N8-5Uc";</note>
+        <note>Weight Entry: "Morning (upon waking)"</note>
       </trans-unit>
-      <trans-unit id="zV0-lA-zHj.text" xml:space="preserve">
-        <source>lbs.</source>
-        <target>lbs.</target>
-        <note>Class = "UILabel"; text = "lbs."; ObjectID = "zV0-lA-zHj";</note>
+      <trans-unit id="weight_entry_time" xml:space="preserve">
+        <source>Time</source>
+        <target>Time</target>
+        <note>Weight Entry: "Time"</note>
       </trans-unit>
-    </body>
-  </file>
-  <file original="DailyDozen/WeightSection/WeightEntry/Views/Base.lproj/WeightEntryPagerLayout.storyboard" source-language="en" target-language="zh-Hans" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
-    </header>
-    <body>
-      <trans-unit id="OIQ-oh-3QN.normalTitle" xml:space="preserve">
-        <source>Back to today</source>
-        <note>Class = "UIButton"; normalTitle = "Back to today"; ObjectID = "OIQ-oh-3QN";</note>
+      <trans-unit id="weight_entry_units_kg" xml:space="preserve">
+        <source>kg</source>
+        <target>kg</target>
+        <note>Weight Entry Units: "kg"</note>
       </trans-unit>
-      <trans-unit id="pKR-lY-XXM.text" xml:space="preserve">
-        <source>Today</source>
-        <note>Class = "UITextField"; text = "Today"; ObjectID = "pKR-lY-XXM";</note>
+      <trans-unit id="weight_entry_units_lbs" xml:space="preserve">
+        <source>lbs</source>
+        <target>lbs</target>
+        <note>Weight Entry Units: "lbs"</note>
       </trans-unit>
-    </body>
-  </file>
-  <file original="DailyDozen/WeightSection/WeightHistory/Views/Base.lproj/WeightHistoryLayout.storyboard" source-language="en" target-language="zh-Hans" datatype="plaintext">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.3" build-num="12C33"/>
-    </header>
-    <body>
-      <trans-unit id="8ed-5m-QMc.text" xml:space="preserve">
-        <source>Weight (lbs)</source>
-        <target>Weight (lbs)</target>
-        <note>Class = "UILabel"; text = "Weight (lbs)"; ObjectID = "8ed-5m-QMc";</note>
-      </trans-unit>
-      <trans-unit id="FTS-2y-Iil.text" xml:space="preserve">
-        <source>2017</source>
-        <target>2017</target>
-        <note>Class = "UILabel"; text = "2017"; ObjectID = "FTS-2y-Iil";</note>
-      </trans-unit>
-      <trans-unit id="XYD-fX-adn.normalTitle" xml:space="preserve">
+      <trans-unit id="weight_history_edit_data" xml:space="preserve">
         <source>Edit Data</source>
         <target>Edit Data</target>
-        <note>Class = "UIButton"; normalTitle = "Edit Data"; ObjectID = "XYD-fX-adn";</note>
-      </trans-unit>
-      <trans-unit id="fcu-ZA-byN.segmentTitles[0]" xml:space="preserve">
-        <source>Day</source>
-        <target>Day</target>
-        <note>Class = "UISegmentedControl"; fcu-ZA-byN.segmentTitles[0] = "Day"; ObjectID = "fcu-ZA-byN";</note>
-      </trans-unit>
-      <trans-unit id="fcu-ZA-byN.segmentTitles[1]" xml:space="preserve">
-        <source>Month</source>
-        <target>Month</target>
-        <note>Class = "UISegmentedControl"; fcu-ZA-byN.segmentTitles[1] = "Month"; ObjectID = "fcu-ZA-byN";</note>
-      </trans-unit>
-      <trans-unit id="fcu-ZA-byN.segmentTitles[2]" xml:space="preserve">
-        <source>Year</source>
-        <target>Year</target>
-        <note>Class = "UISegmentedControl"; fcu-ZA-byN.segmentTitles[2] = "Year"; ObjectID = "fcu-ZA-byN";</note>
-      </trans-unit>
-      <trans-unit id="lTR-i5-Tn0.text" xml:space="preserve">
-        <source>Month</source>
-        <target>Month</target>
-        <note>Class = "UILabel"; text = "Month"; ObjectID = "lTR-i5-Tn0";</note>
-      </trans-unit>
-      <trans-unit id="v2E-Ao-OVz.text" xml:space="preserve">
-        <source>Time Scale</source>
-        <target>Time Scale</target>
-        <note>Class = "UILabel"; text = "Time Scale"; ObjectID = "v2E-Ao-OVz";</note>
+        <note>Weight History Action: "Edit Data"</note>
       </trans-unit>
     </body>
   </file>

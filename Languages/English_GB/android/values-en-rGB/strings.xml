@@ -172,29 +172,10 @@
     <string name="tweak_group_nightly">Every Night</string>
     <string name="about_tweak">About Tweak</string>
 
-    <integer-array name="food_quantities">
-        <item>3</item>
-        <item>1</item>
-        <item>3</item>
-        <item>1</item>
-        <item>2</item>
-        <item>2</item>
-        <item>1</item>
-        <item>1</item>
-        <item>1</item>
-        <item>3</item>
-        <item>5</item>
-        <item>1</item>
-        <item>1</item>
-        <item>1</item>
-    </integer-array>
-
     <string-array name="about_text_lines">
         <item>This app was created by John Slavick.</item>
         <item />
-        <item>The following open source libraries are used: ActiveAndroid, android-iconify, ButterKnife, EventBus, LikeAnimation, and MPAndroidChart.</item>
-        <item />
-        <item>Special thanks to the volunteer efforts of the creators of the previous app: Chan Kruse, Allan Portera, and Sangeeta Kumar.</item>
+        <item>The following open source libraries are used: ActiveAndroid, android-iconify, EventBus, LikeAnimation, and MPAndroidChart.</item>
     </string-array>
 
     <string-array name="backup_instructions_lines">
@@ -459,7 +440,7 @@
         <item>Bicycling uphill</item>
         <item>Circuit weight training</item>
         <item>Cross-country skiing</item>
-        <item>American football</item>
+        <item>Football</item>
         <item>Hockey</item>
         <item>Jogging</item>
         <item>Jumping jacks</item>
@@ -473,7 +454,7 @@
         <item>Running</item>
         <item>Scuba diving</item>
         <item>Tennis (singles)</item>
-        <item>Football</item>
+        <item>Soccer</item>
         <item>Speed skating</item>
         <item>Squash</item>
         <item>Step aerobics</item>
@@ -522,13 +503,13 @@
     </string-array>
 
     <string-array name="food_info_serving_sizes_other_fruits_imperial">
-        <item/>
+        <item />
         <item>1 cup</item>
         <item>¼ cup</item>
     </string-array>
 
     <string-array name="food_info_serving_sizes_other_fruits_metric">
-        <item/>
+        <item />
         <item>120 g</item>
         <item>40 g</item>
     </string-array>
@@ -542,13 +523,13 @@
     <string-array name="food_info_serving_sizes_cruciferous_vegetables_imperial">
         <item>½ cup</item>
         <item>¼ cup</item>
-        <item/>
+        <item />
     </string-array>
 
     <string-array name="food_info_serving_sizes_cruciferous_vegetables_metric">
         <item>30–80 g</item>
         <item>12 g</item>
-        <item/>
+        <item />
     </string-array>
 
     <string-array name="food_info_serving_sizes_greens">
@@ -592,11 +573,11 @@
     </string-array>
 
     <string-array name="food_info_serving_sizes_flaxseeds_imperial">
-        <item/>
+        <item />
     </string-array>
 
     <string-array name="food_info_serving_sizes_flaxseeds_metric">
-        <item/>
+        <item />
     </string-array>
 
     <string-array name="food_info_serving_sizes_nuts">
@@ -606,12 +587,12 @@
 
     <string-array name="food_info_serving_sizes_nuts_imperial">
         <item>¼ cup</item>
-        <item/>
+        <item />
     </string-array>
 
     <string-array name="food_info_serving_sizes_nuts_metric">
         <item>30 g</item>
-        <item/>
+        <item />
     </string-array>
 
     <string-array name="food_info_serving_sizes_spices">
@@ -620,13 +601,13 @@
     </string-array>
 
     <string-array name="food_info_serving_sizes_spices_imperial">
-        <item/>
-        <item/>
+        <item />
+        <item />
     </string-array>
 
     <string-array name="food_info_serving_sizes_spices_metric">
-        <item/>
-        <item/>
+        <item />
+        <item />
     </string-array>
 
     <string-array name="food_info_serving_sizes_whole_grains">
@@ -640,16 +621,16 @@
     <string-array name="food_info_serving_sizes_whole_grains_imperial">
         <item>½ cup</item>
         <item>1 cup</item>
-        <item/>
-        <item/>
+        <item />
+        <item />
         <item>3 cups</item>
     </string-array>
 
     <string-array name="food_info_serving_sizes_whole_grains_metric">
         <item>100 g</item>
         <item>50 g</item>
-        <item/>
-        <item/>
+        <item />
+        <item />
         <item>30 g</item>
     </string-array>
 
@@ -671,13 +652,13 @@
     </string-array>
 
     <string-array name="food_info_serving_sizes_exercise_imperial">
-        <item/>
-        <item/>
+        <item />
+        <item />
     </string-array>
 
     <string-array name="food_info_serving_sizes_exercise_metric">
-        <item/>
-        <item/>
+        <item />
+        <item />
     </string-array>
 
 </resources>

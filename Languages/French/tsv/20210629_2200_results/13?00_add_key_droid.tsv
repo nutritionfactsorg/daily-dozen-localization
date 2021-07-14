@@ -1,0 +1,44 @@
+key_droid	key_apple	base_value	lang_value	base_note
+	NSHealthShareUsageDescription	The 21 Tweaks feature accesses your HealthKit data to provide updates to your daily weight measurements.	The 21 Tweaks feature accesses your HealthKit data to provide updates to your daily weight measurements.	
+	NSHealthUpdateUsageDescription	The 21 Tweaks feature can write weight data to HealthKit to help you keep track of your progress.	The 21 Tweaks feature can write weight data to HealthKit to help you keep track of your progress.	
+	dateButtonTitle.today	Today	Today	
+	info_app_about_version	version 3.2.1	version 3.2.1	Application release version
+	info_book_how_not_to_die	Book: How Not to Die	Book: How Not to Die	
+	info_book_how_not_to_die_cookbook	Book: How Not to Die Cookbook	Book: How Not to Die Cookbook	
+	info_book_how_not_to_diet	Book: How Not to Diet	Book: How Not to Diet	
+daily_dozen_challenge	info_webpage_daily_dozen_challenge	Daily Dozen Challenge	Daily Dozen Challenge	
+	reminder.heading	Daily Reminder	Daily Reminder	
+	reminder.settings.enable	Enable Reminders		
+	reminder.settings.enable	Enable Reminders	Enable Reminders	On/Off toggle label
+	reminder.state.off	Off	Off	'Off' as in 'On or Off', reminder is not enabled
+	reminder.state.on	On	On	'On' as in 'On or Off'
+	setting_doze_tweak_footer	For health alone, use "Daily Dozen Only". For health and weight loss use "Daily Dozen + 21 Tweaks".	For health alone, use "Daily Dozen Only". For health and weight loss use "Daily Dozen + 21 Tweaks".	
+	settings.tweak.header	21 Tweak Visibility	21 Tweak Visibility	
+	settings.units.header	Measurement Units		
+	settings_advanced_utilities	Advanced Utilities		
+	settings_units_choice_footer	Set to always be one unit type or enable the 'Units:' toggle button.	Set to always be one unit type or enable the 'Units:' toggle button.	
+	tweak_detail_section_activity	Activity	Activity	
+	tweak_detail_section_description	Description	Description	
+	weight_entry_clear	Clear	Clear	
+	weight_entry_clear	Clear	Clear	
+	weight_entry_evening	Evening (right before bed)	Evening (right before bed)	
+	weight_entry_morning	Morning (upon waking)	Morning (upon waking)	
+	weight_entry_time	Time	Time	
+	weight_entry_time	Time	Time	
+	weight_history_edit_data	Edit Data	Edit Data	
+	1K3-d9-Hfb.normalTitle	METRIC	METRIC	
+	M75-CQ-NVP.normalTitle	METRIC	METRIC	
+	1K3-d9-Hfb.normalTitle	METRIC	METRIC	
+	M75-CQ-NVP.normalTitle	METRIC	METRIC	
+	RLb-GV-4hh.segmentTitles[0]	Imperial	Imperial	Part of "Imperial/Metric/Toggle Units" selector
+	RLb-GV-4hh.segmentTitles[1]	Metric	Metric	Part of "Imperial/Metric/Toggle Units" selector
+	RLb-GV-4hh.segmentTitles[2]	Toggle Units	Toggle Units	Part of "Imperial/Metric/Toggle Units" selector
+	cW5-dD-Zy0.text	100 days	100 days	
+	NPC-if-gUf.text	0 / 37	0 / 37	
+	W2v-Cp-vcd.text	Supplements	Supplements	
+	Tgz-om-dEk.text	Weight (lbs)	Weight (lbs)	
+	8ed-5m-QMc.text	Weight (lbs)	Weight (lbs)	
+	nRL-iG-Wnd.text	Month	Month	
+	UCg-Rc-mLf.text	Month	Month	
+	lTR-i5-Tn0.text	Month	Month	
+	8ed-5m-QMc.text	Weight (lbs.)	Weight (lbs.)	

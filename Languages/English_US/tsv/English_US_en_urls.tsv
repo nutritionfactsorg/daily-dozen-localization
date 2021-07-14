@@ -50,7 +50,7 @@ food_videos_berries[1]		topics/barberries	topics/barberries		https://nutritionfa
 food_videos_berries[2]		topics/blackberries	topics/blackberries		https://nutritionfacts.org/topics/blackberries
 food_videos_berries[3]		topics/blueberries	topics/blueberries		https://nutritionfacts.org/topics/blueberries
 food_videos_berries[4]		topics/cherries	topics/cherries		https://nutritionfacts.org/topics/cherries
-food_videos_berries[5]		topics/concord-grapes	topics/concord-grapes		https://nutritionfacts.org/topics/concord-grapes
+food_videos_berries[5]		topics/grapes	topics/grapes		https://nutritionfacts.org/topics/grapes
 food_videos_berries[6]		topics/cranberries	topics/cranberries		https://nutritionfacts.org/topics/cranberries
 food_videos_berries[7]		topics/goji-berries	topics/goji-berries		https://nutritionfacts.org/topics/goji-berries
 food_videos_berries[8]					
@@ -103,7 +103,7 @@ food_videos_cruciferous_vegetables[12]		topics/turnips	topics/turnips		https://n
 food_videos_cruciferous_vegetables[13]		topics/watercress	topics/watercress		https://nutritionfacts.org/topics/watercress
 					
 food_videos_greens[0]					
-food_videos_greens[1]		topics/beet-greens	topics/beet-greens		https://nutritionfacts.org/topics/beet-greens
+food_videos_greens[1]		topics/beets	topics/beets		https://nutritionfacts.org/topics/beets
 food_videos_greens[2]		topics/collard-greens	topics/collard-greens		https://nutritionfacts.org/topics/collard-greens
 food_videos_greens[3]		topics/kale	topics/kale		https://nutritionfacts.org/topics/kale
 food_videos_greens[4]		topics/mesclun-mix	topics/mesclun-mix		https://nutritionfacts.org/topics/mesclun-mix
@@ -123,7 +123,7 @@ food_videos_other_vegetables[6]		topics/garlic	topics/garlic		https://nutritionf
 food_videos_other_vegetables[7]		topics/mushrooms	topics/mushrooms		https://nutritionfacts.org/topics/mushrooms
 food_videos_other_vegetables[8]		topics/okra	topics/okra		https://nutritionfacts.org/topics/okra
 food_videos_other_vegetables[9]		topics/onions	topics/onions		https://nutritionfacts.org/topics/onions
-food_videos_other_vegetables[10]		topics/purple-potatoes	topics/purple-potatoes		https://nutritionfacts.org/topics/purple-potatoes
+food_videos_other_vegetables[10]		topics/potatoes	topics/potatoes		https://nutritionfacts.org/topics/potatoes
 food_videos_other_vegetables[11]		topics/pumpkin	topics/pumpkin		https://nutritionfacts.org/topics/pumpkin
 food_videos_other_vegetables[12]		topics/sea-vegetables	topics/sea-vegetables		https://nutritionfacts.org/topics/sea-vegetables
 food_videos_other_vegetables[13]					
@@ -201,7 +201,7 @@ food_videos_beverages[8]		topics/jasmine-tea	topics/jasmine-tea		https://nutriti
 food_videos_beverages[9]		topics/lemon-balm	topics/lemon-balm		https://nutritionfacts.org/topics/lemon-balm
 food_videos_beverages[10]		topics/matcha	topics/matcha		https://nutritionfacts.org/topics/matcha
 food_videos_beverages[11]		topics/oolong-tea	topics/oolong-tea		https://nutritionfacts.org/topics/oolong-tea
-food_videos_beverages[12]					
+food_videos_beverages[12]		topics/peppermint	topics/peppermint		https://nutritionfacts.org/topics/peppermint
 food_videos_beverages[13]		topics/rooibos-tea	topics/rooibos-tea		https://nutritionfacts.org/topics/rooibos-tea
 food_videos_beverages[14]		topics/water	topics/water		https://nutritionfacts.org/topics/water
 food_videos_beverages[15]		topics/white-tea	topics/white-tea		https://nutritionfacts.org/topics/white-tea

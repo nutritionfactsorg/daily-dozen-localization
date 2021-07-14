@@ -1,0 +1,471 @@
+key_droid	key_apple	base_value	lang_value	base_note
+OK		OK		
+about		About		
+about_text_lines.0		This app was created by John Slavick.		
+about_text_lines.1				
+about_text_lines.2		The following open source libraries are used: ActiveAndroid, android-iconify, ButterKnife, EventBus, LikeAnimation, and MPAndroidChart.		
+about_text_lines.3				
+about_text_lines.4		Special thanks to the volunteer efforts of the creators of the previous app: Chan Kruse, Allan Portera, and Sangeeta Kumar.		
+about_this_app		About this app		
+about_tweak		About Tweak		
+activity_welcome_text		Use this app on a daily basis to keep track of the foods I recommend for optimal health and longevity in my book How Not to Die.		
+app_name		Daily Dozen		
+average_weight_on_day		Average weight on day		
+back_to_today		Back to today		
+backup		Backup		
+backup_failed		Backup failed		
+backup_instructions_lines.0		Follow these steps to restore this backup in the Daily Dozen app		
+backup_instructions_lines.1				
+backup_instructions_lines.2		1. The Daily Dozen app must be installed on your Android phone. You can download it here: https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen		
+backup_instructions_lines.3				
+backup_instructions_lines.4		2. Tap on the backup file attached to this email.		
+backup_instructions_lines.5				
+backup_instructions_lines.6		3. Select Open with Daily Dozen		
+backup_success		Backup successful		
+beans		Beans		
+berries		Berries		
+beverages		Beverages		
+channel_reminders_name		Reminders		
+complete_intentions		Complete Your Implementation Intentions		
+complete_intentions_short		Complete Your Implementation Intentions		
+complete_intentions_text		Every two months, create three new implementation intentions—"if X, then Y" plans to perform a particular behavior in a specific context—and check each one of them off as you complete them every day.		
+cruciferous_vegetables		Cruciferous Vegetables		
+daily_blackcumin		Black Cumin (¼ tsp)		
+daily_blackcumin_short		Black Cumin (Nigella sativa) (¼ tsp)		
+daily_blackcumin_text		As noted in the Appetite Suppression section, a systematic review and meta-analysis of randomized, controlled weight-loss trials found that about a quarter teaspoon of black cumin powder every day appears to reduce body mass index within a span of a couple of months. Note that black cumin is different from regular cumin, for which the dosing is different.		
+daily_cumin		Cumin (½ tsp with lunch and dinner)		
+daily_cumin_short		Cumin (Cuminum cyminum) (½ tsp with lunch and dinner)		
+daily_cumin_text		Overweight women randomized to add a half teaspoon of cumin to their lunches and dinners beat out the control group by four more pounds and an extra inch off their waists. There is also evidence to support the use of the spice saffron, but a pinch a day would cost a dollar, whereas a teaspoon of cumin costs less than ten cents.		
+daily_deflourdiet		Deflour Your Diet		
+daily_deflourdiet_short		Deflour Your Diet		
+daily_deflourdiet_text		Check this box every day your whole grain servings are in the form of intact grains. The powdering of even 100 percent whole grains robs our microbiomes of the starch that would otherwise be ferried down to our colons enclosed in unbroken cell walls.		
+daily_dozen_and_tweaks		Daily Dozen + 21 Tweaks		
+daily_dozen_only		Daily Dozen Only		
+daily_frontload		Front-Load Your Calories		
+daily_frontload_short		Front-Load Your Calories		
+daily_frontload_text		There are metabolic benefits to distributing more calories to earlier in the day, so make breakfast (ideally) or lunch your largest meal of the day in true king/prince/pauper style.		
+daily_garlic		Garlic Powder (¼ tsp)		
+daily_garlic_short		Garlic Powder (¼ tsp)		
+daily_garlic_text		Randomized, double-blind, placebo-controlled studies have found that as little as a daily quarter teaspoon of garlic powder can reduce body fat at a cost of perhaps two cents a day.		
+daily_ginger		Ground Ginger (1 tsp) or Cayenne Pepper (½ tsp)		
+daily_ginger_short		Ground Ginger (1 tsp) or Cayenne Pepper (½ tsp)		
+daily_ginger_text		Randomized controlled trials have found that ¼ teaspoon to 1½ teaspoons a day of ground ginger significantly decreased body weight for just pennies a day. It can be as easy as stirring the ground spice into a cup of hot water. Note: Ginger may work better in the morning than evening. Chai tea is a tasty way to combine the green tea and ginger tricks into a single beverage. Alternately, for BAT activation, you can add one raw jalapeño pepper or a half teaspoon of red pepper powder (or, presumably, crushed red pepper flakes) into your daily diet. To help beat the heat, you can very thinly slice or finely chop the jalapeño to reduce its bite to little prickles, or mix the red pepper into soup or the whole-food vegetable smoothie I featured in one of my cooking videos on NutritionFacts.org.		
+daily_greentea		Green Tea (3 cups)		
+daily_greentea_short		Green Tea (3 cups)		
+daily_greentea_text		Drink three cups a day between meals (waiting at least an hour after a meal so as to not interfere with iron absorption). During meals, drink water, black coffee, or hibiscus tea mixed 6:1 with lemon verbena, but never exceed three cups of fluid an hour (important given my water preloading advice). Take advantage of the reinforcing effect of caffeine by drinking your green tea along with something healthy you wish you liked more, but don\'t consume large amounts of caffeine within six hours of bedtime. Taking your tea without sweetener is best, but if you typically sweeten your tea with honey or sugar, try yacon syrup instead.		
+daily_hydrate		Stay Hydrated		
+daily_hydrate_short		Stay Hydrated		
+daily_hydrate_text		Check this box if your urine never appears darker than a pale yellow. Note that if you\'re eating riboflavin-fortified foods (such as nutritional yeast), then base this instead on getting nine cups of unsweetened beverages a day for women (which would be taken care of by the green tea and water preloading recommendations) or thirteen cups a day for men. If you have heart or kidney issues, don\'t increase fluid intake at all without first talking with your physician. Remember, diet soda may be calorie-free, but it\'s not consequence-free, as we learned in the Low in Added Sugar section.		
+daily_nutriyeast		Nutritional Yeast (2 tsp)		
+daily_nutriyeast_short		Nutritional Yeast (2 tsp)		
+daily_nutriyeast_text		Two teaspoons of baker\'s, brewer\'s, or nutritional yeast contains roughly the amount of beta 1,3/1,6 glucans found in randomized, double-blind, placebo-controlled clinical trials to facilitate weight loss.		
+daily_reminder_settings		Daily Reminder Settings		
+daily_reminder_text		Update your servings for today		
+daily_reminder_title		Daily Dozen Reminder		
+daily_servings_history		Daily Servings History		
+daily_timerestrict		Time-Restrict Your Eating		
+daily_timerestrict_short		Time-Restrict Your Eating		
+daily_timerestrict_text		Confine eating to a daily window of time of your choosing under twelve hours in length that you can stick to consistently, seven days a week. Given the circadian benefits of reducing evening food intake, the window should end before 7:00 p.m.		
+daily_tweaks_history		Daily Tweaks History		
+debug		Debug		
+debug_clear_data		Clear all data		
+debug_clear_data_message		This will delete all entered Servings. Do you wish to continue?		
+debug_generate_data_message		All existing data will be replaced. Do you wish to continue?		
+debug_generate_full_data		Generate full data		
+debug_generate_random_data		Generate random data		
+debug_generate_weight_data		Generate Weight Data		
+dialog_ask_user_to_rate_app_message		Please give us feedback in the Play Store.		
+dialog_ask_user_to_rate_app_title		Do you like this app?		
+dialog_no_email_apps_message		Backing up your data requires you to have an email app installed so you can email the .csv backup file to yourself. Please install an email app and try again.		
+dialog_no_email_apps_title		No email apps found		
+dialog_streaks_message		Your database will now be upgraded to support the new streaks feature.		
+dialog_streaks_title		New feature: Streaks!		
+donate		Donate		
+enable_daily_reminder		Enable Daily Reminder		
+error_cannot_handle_url		Could not open url. Please install a browser.		
+evening		Evening		
+exercise		Exercise		
+exercise_timing		Optimize Exercise Timing		
+exercise_timing_short		Optimize Exercise Timing		
+exercise_timing_text		The Daily Dozen\'s recommendation for optimum exercise duration for longevity is ninety minutes of moderately intense activity a day, which is also the optimum exercise duration for weight loss. Anytime is good, and the more, the better, but there may be an advantage to exercising in a fasted state, at least six hours after your last meal. Typically, this would mean before breakfast, but if you timed it right, you could exercise midday before a late lunch or, if lunch is eaten early enough, before dinner. This is the timing for nondiabetics. Diabetics and prediabetics should instead start exercising thirty minutes after the start of a meal and ideally go for at least an hour to completely straddle the blood sugar peak. If you had to choose a single meal to exercise after, it would be dinner, due to the circadian rhythm of blood sugar control that wanes throughout the day. Ideally, though, breakfast would be the largest meal of the day, and you\'d exercise after that—or, even better, after every meal.		
+flaxseeds		Flaxseeds		
+food_history		Food History		
+food_info		Food Info		
+food_info_serving_sizes_beans_imperial.0		¼ cup		
+food_info_serving_sizes_beans_imperial.1		½ cup		
+food_info_serving_sizes_beans_imperial.2		1 cup		
+food_info_serving_sizes_beans_metric.0		60 g		
+food_info_serving_sizes_beans_metric.1		130 g		
+food_info_serving_sizes_beans_metric.2		150 g		
+food_info_serving_sizes_berries_imperial.0		½ cup		
+food_info_serving_sizes_berries_imperial.1		¼ cup		
+food_info_serving_sizes_berries_metric.0		60 g		
+food_info_serving_sizes_berries_metric.1		40 g		
+food_info_serving_sizes_beverages_imperial.0		12 ounces		
+food_info_serving_sizes_beverages_metric.0		350 ml		
+food_info_serving_sizes_cruciferous_vegetables_imperial.0		½ cup		
+food_info_serving_sizes_cruciferous_vegetables_imperial.1		¼ cup		
+food_info_serving_sizes_cruciferous_vegetables_imperial.2				
+food_info_serving_sizes_cruciferous_vegetables_metric.0		30–80 g		
+food_info_serving_sizes_cruciferous_vegetables_metric.1		12 g		
+food_info_serving_sizes_cruciferous_vegetables_metric.2				
+food_info_serving_sizes_exercise_imperial.0				
+food_info_serving_sizes_exercise_imperial.1				
+food_info_serving_sizes_exercise_metric.0				
+food_info_serving_sizes_exercise_metric.1				
+food_info_serving_sizes_flaxseeds_imperial.0				
+food_info_serving_sizes_flaxseeds_metric.0				
+food_info_serving_sizes_greens_imperial.0		1 cup		
+food_info_serving_sizes_greens_imperial.1		½ cup		
+food_info_serving_sizes_greens_metric.0		60 g		
+food_info_serving_sizes_greens_metric.1		90 g		
+food_info_serving_sizes_nuts_imperial.0		¼ cup		
+food_info_serving_sizes_nuts_imperial.1				
+food_info_serving_sizes_nuts_metric.0		30 g		
+food_info_serving_sizes_nuts_metric.1				
+food_info_serving_sizes_other_fruits_imperial.0				
+food_info_serving_sizes_other_fruits_imperial.1		1 cup		
+food_info_serving_sizes_other_fruits_imperial.2		¼ cup		
+food_info_serving_sizes_other_fruits_metric.0				
+food_info_serving_sizes_other_fruits_metric.1		120 g		
+food_info_serving_sizes_other_fruits_metric.2		40 g		
+food_info_serving_sizes_other_vegetables_imperial.0		1 cup		
+food_info_serving_sizes_other_vegetables_imperial.1		½ cup		
+food_info_serving_sizes_other_vegetables_imperial.2		½ cup		
+food_info_serving_sizes_other_vegetables_imperial.3		¼ cup		
+food_info_serving_sizes_other_vegetables_metric.0		60 g		
+food_info_serving_sizes_other_vegetables_metric.1		50 g		
+food_info_serving_sizes_other_vegetables_metric.2		125 ml		
+food_info_serving_sizes_other_vegetables_metric.3		7 g		
+food_info_serving_sizes_spices_imperial.0				
+food_info_serving_sizes_spices_imperial.1				
+food_info_serving_sizes_spices_metric.0				
+food_info_serving_sizes_spices_metric.1				
+food_info_serving_sizes_whole_grains_imperial.0		½ cup		
+food_info_serving_sizes_whole_grains_imperial.1		1 cup		
+food_info_serving_sizes_whole_grains_imperial.2				
+food_info_serving_sizes_whole_grains_imperial.3				
+food_info_serving_sizes_whole_grains_imperial.4		3 cups		
+food_info_serving_sizes_whole_grains_metric.0		100 g		
+food_info_serving_sizes_whole_grains_metric.1		50 g		
+food_info_serving_sizes_whole_grains_metric.2				
+food_info_serving_sizes_whole_grains_metric.3				
+food_info_serving_sizes_whole_grains_metric.4		30 g		
+food_info_types_beans.0		Black beans		
+food_info_types_beans.1		Black-eyed peas		
+food_info_types_beans.10		Miso		
+food_info_types_beans.11		Navy beans		
+food_info_types_beans.12		Pinto beans		
+food_info_types_beans.13		Small red beans		
+food_info_types_beans.14		Split peas (yellow or green)		
+food_info_types_beans.15		Tempeh		
+food_info_types_beans.2		Butter beans		
+food_info_types_beans.3		Cannellini beans		
+food_info_types_beans.4		Chickpeas/Garbanzo beans		
+food_info_types_beans.5		Edamame		
+food_info_types_beans.6		English peas		
+food_info_types_beans.7		Great northern beans		
+food_info_types_beans.8		Kidney beans		
+food_info_types_beans.9		Lentils (beluga, french, and red varieties)		
+food_info_types_berries.0		Acai berries		
+food_info_types_berries.1		Barberries		
+food_info_types_berries.10		Raspberries (black or red)		
+food_info_types_berries.11		Strawberries		
+food_info_types_berries.2		Blackberries		
+food_info_types_berries.3		Blueberries		
+food_info_types_berries.4		Cherries (sweet or tart)		
+food_info_types_berries.5		Concord grapes		
+food_info_types_berries.6		Cranberries		
+food_info_types_berries.7		Goji berries		
+food_info_types_berries.8		Kumquats		
+food_info_types_berries.9		Mulberries		
+food_info_types_beverages.0		Black tea		
+food_info_types_beverages.1		Chai tea		
+food_info_types_beverages.10		Matcha tea		
+food_info_types_beverages.11		Almond blossom oolong tea		
+food_info_types_beverages.12		Peppermint tea		
+food_info_types_beverages.13		Rooibos tea		
+food_info_types_beverages.14		Water		
+food_info_types_beverages.15		White tea		
+food_info_types_beverages.2		Vanilla chamomile tea		
+food_info_types_beverages.3		Coffee		
+food_info_types_beverages.4		Earl grey tea		
+food_info_types_beverages.5		Green tea		
+food_info_types_beverages.6		Hibiscus tea		
+food_info_types_beverages.7		Hot chocolate		
+food_info_types_beverages.8		Jasmine tea		
+food_info_types_beverages.9		Lemon balm tea		
+food_info_types_cruciferous_vegetables.0		Arugula		
+food_info_types_cruciferous_vegetables.1		Bok choy		
+food_info_types_cruciferous_vegetables.10		Mustard greens		
+food_info_types_cruciferous_vegetables.11		Radishes		
+food_info_types_cruciferous_vegetables.12		Turnip greens		
+food_info_types_cruciferous_vegetables.13		Watercress		
+food_info_types_cruciferous_vegetables.2		Broccoli (incl. Romanesco)		
+food_info_types_cruciferous_vegetables.3		Brussels sprouts		
+food_info_types_cruciferous_vegetables.4		Cabbage (green, red and savoy)		
+food_info_types_cruciferous_vegetables.5		Cauliflower (white, green, orange and purple)		
+food_info_types_cruciferous_vegetables.6		Collard greens		
+food_info_types_cruciferous_vegetables.7		Horseradish		
+food_info_types_cruciferous_vegetables.8		Kale (black, green, and red)		
+food_info_types_cruciferous_vegetables.9		Kohlrabi (green and purple)		
+food_info_types_exercise.0		Bicycling		
+food_info_types_exercise.1		Canoeing		
+food_info_types_exercise.10		Juggling		
+food_info_types_exercise.11		Jumping on a trampoline		
+food_info_types_exercise.12		Paddle boating		
+food_info_types_exercise.13		Playing frisbee		
+food_info_types_exercise.14		Roller-skating		
+food_info_types_exercise.15		Shooting baskets		
+food_info_types_exercise.16		Shoveling light snow		
+food_info_types_exercise.17		Skateboarding		
+food_info_types_exercise.18		Snorkeling		
+food_info_types_exercise.19		Surfing		
+food_info_types_exercise.2		Dancing		
+food_info_types_exercise.20		Swimming recreationally		
+food_info_types_exercise.21		Tennis (doubles)		
+food_info_types_exercise.22		Treading water		
+food_info_types_exercise.23		Walking briskly (4 mph)		
+food_info_types_exercise.24		Water aerobics		
+food_info_types_exercise.25		Waterskiing		
+food_info_types_exercise.26		Yard work		
+food_info_types_exercise.27		Yoga		
+food_info_types_exercise.28		Backpacking		
+food_info_types_exercise.29		Basketball		
+food_info_types_exercise.3		Dodgeball		
+food_info_types_exercise.30		Bicycling uphill		
+food_info_types_exercise.31		Circuit weight training		
+food_info_types_exercise.32		Cross-country skiing		
+food_info_types_exercise.33		Football		
+food_info_types_exercise.34		Hockey		
+food_info_types_exercise.35		Jogging		
+food_info_types_exercise.36		Jumping jacks		
+food_info_types_exercise.37		Jumping rope		
+food_info_types_exercise.38		Lacrosse		
+food_info_types_exercise.39		Push-ups		
+food_info_types_exercise.4		Downhill skiing		
+food_info_types_exercise.40		Pull-ups		
+food_info_types_exercise.41		Racquetball		
+food_info_types_exercise.42		Rock climbing		
+food_info_types_exercise.43		Rugby		
+food_info_types_exercise.44		Running		
+food_info_types_exercise.45		Scuba diving		
+food_info_types_exercise.46		Tennis (singles)		
+food_info_types_exercise.47		Soccer		
+food_info_types_exercise.48		Speed skating		
+food_info_types_exercise.49		Squash		
+food_info_types_exercise.5		Fencing		
+food_info_types_exercise.50		Step aerobics		
+food_info_types_exercise.51		Swimming laps		
+food_info_types_exercise.52		Walking briskly uphill		
+food_info_types_exercise.53		Water jogging		
+food_info_types_exercise.6		Hiking		
+food_info_types_exercise.7		Housework		
+food_info_types_exercise.8		Ice-skating		
+food_info_types_exercise.9		Inline skating		
+food_info_types_flaxseeds.0		Brown flaxseeds		
+food_info_types_flaxseeds.1		Golden flaxseeds		
+food_info_types_greens.0		Arugula		
+food_info_types_greens.1		Beet greens		
+food_info_types_greens.2		Collard greens		
+food_info_types_greens.3		Kale (black, green, and red)		
+food_info_types_greens.4		Mesclun mix (assorted young salad greens)		
+food_info_types_greens.5		Mustard greens		
+food_info_types_greens.6		Sorrel		
+food_info_types_greens.7		Spinach		
+food_info_types_greens.8		Swiss chard		
+food_info_types_greens.9		Turnip greens		
+food_info_types_nuts.0		Almonds		
+food_info_types_nuts.1		Brazil nuts		
+food_info_types_nuts.10		Sesame seeds		
+food_info_types_nuts.11		Sunflower seeds		
+food_info_types_nuts.12		Walnuts		
+food_info_types_nuts.2		Cashews		
+food_info_types_nuts.3		Chia seeds		
+food_info_types_nuts.4		Hazelnuts		
+food_info_types_nuts.5		Hemp seeds		
+food_info_types_nuts.6		Macadamia nuts		
+food_info_types_nuts.7		Pecans		
+food_info_types_nuts.8		Pistachios		
+food_info_types_nuts.9		Pumpkin seeds		
+food_info_types_other_fruits.0		Apples		
+food_info_types_other_fruits.1		Dried apricots		
+food_info_types_other_fruits.10		Kiwifruit		
+food_info_types_other_fruits.11		Lemons		
+food_info_types_other_fruits.12		Limes		
+food_info_types_other_fruits.13		Lychees		
+food_info_types_other_fruits.14		Mangos		
+food_info_types_other_fruits.15		Nectarines		
+food_info_types_other_fruits.16		Oranges		
+food_info_types_other_fruits.17		Papaya		
+food_info_types_other_fruits.18		Passion fruit		
+food_info_types_other_fruits.19		Peaches		
+food_info_types_other_fruits.2		Avocados		
+food_info_types_other_fruits.20		Pears		
+food_info_types_other_fruits.21		Pineapple		
+food_info_types_other_fruits.22		Plums (especially black plums)		
+food_info_types_other_fruits.23		Pluots		
+food_info_types_other_fruits.24		Pomegranates		
+food_info_types_other_fruits.25		Prunes		
+food_info_types_other_fruits.26		Tangerines		
+food_info_types_other_fruits.27		Watermelon		
+food_info_types_other_fruits.3		Bananas		
+food_info_types_other_fruits.4		Cantaloupe		
+food_info_types_other_fruits.5		Clementines		
+food_info_types_other_fruits.6		Dates		
+food_info_types_other_fruits.7		Dried figs		
+food_info_types_other_fruits.8		Grapefruit		
+food_info_types_other_fruits.9		Honeydew		
+food_info_types_other_vegetables.0		Artichokes		
+food_info_types_other_vegetables.1		Asparagus		
+food_info_types_other_vegetables.10		Purple potatoes		
+food_info_types_other_vegetables.11		Pumpkin		
+food_info_types_other_vegetables.12		Sea vegetables (arame, dulse, and nori)		
+food_info_types_other_vegetables.13		Snap peas		
+food_info_types_other_vegetables.14		Squash (delicata, summer, and spaghetti squash varieties)		
+food_info_types_other_vegetables.15		Sweet potatoes/yams		
+food_info_types_other_vegetables.16		Tomatoes		
+food_info_types_other_vegetables.17		Zucchini		
+food_info_types_other_vegetables.2		Beets		
+food_info_types_other_vegetables.3		Bell peppers		
+food_info_types_other_vegetables.4		Carrots		
+food_info_types_other_vegetables.5		Corn		
+food_info_types_other_vegetables.6		Garlic		
+food_info_types_other_vegetables.7		Mushrooms (button, oyster, portobello, and shiitake)		
+food_info_types_other_vegetables.8		Okra		
+food_info_types_other_vegetables.9		Onions		
+food_info_types_spices.0		Allspice		
+food_info_types_spices.1		Barberries		
+food_info_types_spices.10		Cumin		
+food_info_types_spices.11		Curry powder		
+food_info_types_spices.12		Dill		
+food_info_types_spices.13		Fenugreek		
+food_info_types_spices.14		Garlic		
+food_info_types_spices.15		Ginger		
+food_info_types_spices.16		Horseradish		
+food_info_types_spices.17		Lemongrass		
+food_info_types_spices.18		Marjoram		
+food_info_types_spices.19		Mustard powder		
+food_info_types_spices.2		Basil		
+food_info_types_spices.20		Nutmeg		
+food_info_types_spices.21		Oregano		
+food_info_types_spices.22		Smoked paprika		
+food_info_types_spices.23		Parsley		
+food_info_types_spices.24		Pepper		
+food_info_types_spices.25		Peppermint		
+food_info_types_spices.26		Rosemary		
+food_info_types_spices.27		Saffron		
+food_info_types_spices.28		Sage		
+food_info_types_spices.29		Thyme		
+food_info_types_spices.3		Bay leaves		
+food_info_types_spices.30		Turmeric		
+food_info_types_spices.31		Vanilla		
+food_info_types_spices.4		Cardamom		
+food_info_types_spices.5		Chili powder		
+food_info_types_spices.6		Cilantro		
+food_info_types_spices.7		Cinnamon		
+food_info_types_spices.8		Cloves		
+food_info_types_spices.9		Coriander		
+food_info_types_whole_grains.0		Barley		
+food_info_types_whole_grains.1		Buckwheat		
+food_info_types_whole_grains.2		Millet		
+food_info_types_whole_grains.3		Oats		
+food_info_types_whole_grains.4		Popcorn		
+food_info_types_whole_grains.5		Quinoa		
+food_info_types_whole_grains.6		Rye		
+food_info_types_whole_grains.7		Teff		
+food_info_types_whole_grains.8		Whole-wheat pasta		
+for_health_alone		For Health Alone		
+for_health_and_weight_loss		For Health and Weight Loss		
+format_num_days		%d days		
+format_version		version %s		
+greens		Greens		
+history		History		
+history_to_generate		History to Generate		
+history_to_generate_choices.0		1 month		
+history_to_generate_choices.1		3 months		
+history_to_generate_choices.2		6 months		
+history_to_generate_choices.3		1 year		
+history_to_generate_choices.4		2 years		
+history_to_generate_choices.5		5 years		
+imperial		Imperial		
+latest_videos		Latest Videos		
+meal_negcal		Preload with "Negative Calorie" Foods		
+meal_negcal_short		Preload with "Negative Calorie" Foods		
+meal_negcal_text		As the first course, start each meal with an apple or a Green Light soup or salad containing fewer than one hundred calories per cup.		
+meal_twentyminutes		Follow the Twenty-Minute Rule		
+meal_twentyminutes_short		Follow the Twenty-Minute Rule		
+meal_twentyminutes_text		Whether through increasing viscosity or the number of chews, or decreasing bite size and eating rate, dozens of studies have demonstrated that no matter how we boost the amount of time food is in our mouths, it can result in lower caloric intake. So extend meal duration to at least twenty minutes to allow your natural satiety signals to take full effect. How? By choosing foods that take longer to eat and eating them in a way that prolongs the time they stay in your mouth. Think bulkier, hardier, chewier foods in smaller, well-chewed bites.		
+meal_undistracted		Enjoy Undistracted Meals		
+meal_undistracted_short		Enjoy Undistracted Meals		
+meal_undistracted_text		Don\'t eat while watching TV or playing on your phone. Give yourself a check for each meal you\'re able to eat without distraction.		
+meal_vinegar		Incorporate Vinegar (2 tsp with each meal)		
+meal_vinegar_short		Incorporate Vinegar (2 tsp with each meal)		
+meal_vinegar_text		Never drink vinegar straight. Instead, flavor meals or dress a side salad with any of the sweet and savory vinegars out there. If you want to drink it, make sure to mix it in a glass of water and, afterward, be sure to rinse your mouth out with water to protect your tooth enamel.		
+meal_water		Preload with Water		
+meal_water_short		Preload with Water		
+meal_water_text		Time your metabolism-boosting two cups of cool or cold unflavored water before each meal to also take advantage of its preload benefits.		
+metric		Metric		
+morning		Morning		
+moving_average		Moving Average		
+nightly_fast		Fast After 7:00 pm		
+nightly_fast_short		Fast After 7:00 p.m.		
+nightly_fast_text		Due to our circadian rhythms, food eaten at night is more fattening than the exact same food eaten earlier in the day, so fast every night for at least twelve hours starting before 7:00 p.m. The fewer calories after sundown, the better.		
+nightly_sleep		Get Sufficient Sleep		
+nightly_sleep_short		Get Sufficient Sleep		
+nightly_sleep_text		Check this box if you get at least seven hours of sleep at your regular bedtime.		
+nightly_trendelenburg		Experiment with Mild Trendelenburg		
+nightly_trendelenburg_short		Experiment with Mild Trendelenburg		
+nightly_trendelenburg_text		Try spending at least four hours a night lying with your body tilted head-down six degrees by elevating the posts at the foot of your bed by eight inches (or by nine inches if you have a California king). Be extremely careful when you get out of bed, as this causes orthostatic intolerance in most people, even if you\'re young and healthy—meaning if you get up too fast, you can feel dizzy, faint, or light-headed and could fall and hurt yourself. So get up slowly. Drinking two cups of cold water thirty minutes before rising may also help prevent this potentially hazardous side effect.\n*IMPORTANT: Do not try this at home at all if you have any heart or lung issues, acid reflux, or problems with your brain (like head trauma) or eyes (even a family history of glaucoma disqualifies you). Also do not try this until you ask your physician if they think it\'s safe for you to sleep in mild Trendelenburg.*		
+no		No		
+no_servings_recorded		You have not recorded any servings yet!		
+no_weights_recorded		You have not recorded any weights yet!		
+not_now		Not Now		
+nuts		Nuts and Seeds		
+open_source		Open Source		
+other_fruits		Other Fruits		
+other_vegetables		Other Vegetables		
+out_of		out of		
+permission_needed_to_write_storage		Can\'t backup without permission to write to storage		
+play_sound		Play Sound		
+rate_now		Give Feedback		
+remind_me_at		Remind me at		
+restore_confirm_message		Any existing data will be deleted before restoring from backup. Do you wish to continue?		
+restore_confirm_title		Restore Backup		
+restore_failed		Restore failed		
+restore_success		Restore successful		
+serving_sizes		Serving Sizes		
+servings		Servings		
+servings_all		All servings		
+servings_some		Some servings		
+servings_time_scale_choices.0		Day		
+servings_time_scale_choices.1		Month		
+servings_time_scale_choices.2		Year		
+spices		Herbs and Spices		
+subscribe		Subscribe		
+task_backup_title		Backing up		
+task_calculating_streaks_title		Calculating streaks		
+task_generating_random_data		Generating random data		
+task_loading_servings_history_title		Loading Servings History		
+task_loading_weights_history_title		Loading Weights History		
+task_restore_title		Restoring		
+time_scale		Time Scale		
+tweak_group_daily		Every Day		
+tweak_group_dailydoses		Take your daily doses		
+tweak_group_meal		At Each Meal		
+tweak_group_nightly		Every Night		
+tweaks		Tweaks		
+twenty_one_tweaks		21 Tweaks		
+types		Types		
+units		Units		
+vibrate		Vibrate		
+videos		Videos		
+vitamin_b12		Vitamin B12		
+weigh_twice		Weigh Yourself Twice a Day		
+weigh_twice_short		Weigh Yourself Twice a Day		
+weigh_twice_text		Regular self-weighing is considered crucial for long-term weight control, but there is insufficient evidence to support a specific frequency of weighing. My recommendation is based on the one study that found that twice daily—upon waking and right before bed—appeared superior to once a day (about six versus two pounds of weight loss over twelve weeks).		
+weight		Weight		
+weight_history		Weight History		
+welcome_to_my_daily_dozen		Welcome to my Daily Dozen!		
+whole_grains		Whole Grains		
+yes		Yes		

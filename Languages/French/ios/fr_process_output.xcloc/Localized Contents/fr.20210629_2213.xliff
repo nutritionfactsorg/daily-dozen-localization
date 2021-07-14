@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="DailyDozen/App/SupportingFiles/en.lproj/InfoPlist.strings" source-language="en" target-language="fr" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.5.1" build-num="12E507"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleDisplayName" xml:space="preserve">
+        <source>DailyDozen</source>
+        <note>Bundle display name</note>
+      </trans-unit>
+      <trans-unit id="CFBundleName" xml:space="preserve">
+        <source>DailyDozen</source>
+        <target>DailyDozen</target>
+        <note>Bundle name</note>
+      </trans-unit>
+      <trans-unit id="DailyDozen" xml:space="preserve">
+        <source>DailyDozen</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="NSHealthShareUsageDescription" xml:space="preserve">
+        <source>The 21 Tweaks feature accesses your HealthKit data to provide updates to your daily weight measurements.</source>
+        <target>The 21 Tweaks feature accesses your HealthKit data to provide updates to your daily weight measurements.</target>
+        <note>Privacy - Health Share Usage Description</note>
+      </trans-unit>
+      <trans-unit id="NSHealthUpdateUsageDescription" xml:space="preserve">
+        <source>The 21 Tweaks feature can write weight data to HealthKit to help you keep track of your progress.</source>
+        <target>The 21 Tweaks feature can write weight data to HealthKit to help you keep track of your progress.</target>
+        <note>Privacy - Health Update Usage Description</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="DailyDozen/App/Texts/LocalStrings/en.lproj/Localizable.strings" source-language="en" target-language="fr" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="12.5.1" build-num="12E507"/>
+    </header>
+    <body>
+      <trans-unit id="dateBackButtonTitle" xml:space="preserve">
+        <source>Back to today</source>
+        <target>Back to today</target>
+        <note>Back to today</note>
+      </trans-unit>
+      <trans-unit id="dateButtonTitle.today" xml:space="preserve">
+        <source>Today</source>
+        <target>Today</target>
+        <note>Records: Daily Tally</note>
+      </trans-unit>
+      <trans-unit id="dozeBeans.heading" xml:space="preserve">
+        <source>Beans</source>
+        <target>Légumineuses</target>
+        <note>***** Daily Dozen *****</note>
+      </trans-unit>
+      <trans-unit id="dozeBerries.heading" xml:space="preserve">
+        <source>Berries</source>
+        <target>Baies</target>
+        <note>display heading.</note>
+      </trans-unit>
+      <trans-unit id="dozeBeverages.heading" xml:space="preserve">
+        <source>Beverages</source>
+        <target>Boissons</target>
+        <note>display heading</note>
+      </trans-unit>
+      <trans-unit id="dozeExercise.heading" xml:space="preserve">
+        <source>Exercise</source>
+        <target>Exercice</target>
+        <note>display heading</note>
+      </trans-unit>
+      <trans-unit id="dozeFlaxseeds.heading" xml:space="preserve">
+        <source>Flaxseeds</source>
+        <target>Graines de lin</target>
+        <note>display heading</note>
+      </trans-unit>
+      <trans-unit id="dozeFruitsOther.heading" xml:space="preserve">
+        <source>Other Fruits</source>
+        <target>Autres fruits</target>
+        <note>display heading</note>
+      </trans-unit>
+      <trans-unit id="dozeGreens.heading" xml:space="preserve">
+        <source>Greens</source>
+        <target>Légumes verts</target>
+        <note>display heading</note>
+      </trans-unit>
+      <trans-unit id="dozeNuts.heading" xml:space="preserve">
+        <source>Nuts and Seeds</source>
+        <target>Noix</target>
+        <note>display heading</note>
+      </trans-unit>
+      <trans-unit id="dozeOtherInfo.confirm" xml:space="preserve">
+        <source>OK</source>
+        <target>OK</target>
+        <note>Daily Dozen other info confirm</note>
+      </trans-unit>
+      <trans-unit id="dozeOtherInfo.message" xml:space="preserve">
+        <source>Vitamin B12 is essential for your health but does not count towards your daily servings.
+
+Vitamin B12 is included in this app to provide you with an easy way to track your intake.</source>
+        <target>Vitamin B12 is essential for your health but does not count towards your daily servings.
+
+Vitamin B12 is included in this app to provide you with an easy way to track your intake.</target>
+        <note>Daily Dozen other info message</note>
+      </trans-unit>
+      <trans-unit id="dozeOtherInfo.section" xml:space="preserve">
+        <source>Supplements</source>
+        <target>Supplements</target>
+        <note>entry section header: "Supplements"</note>
+      </trans-unit>
+      <trans-unit id="dozeOtherInfo.title" xml:space="preserve">
+        <source>Supplements</source>
+        <target>Supplements</target>
+        <note>***** Daily Dozen Supplements *****</note>
+      </trans-unit>
+      <trans-unit id="dozeSpices.heading" xml:space="preserve">
+        <source>Herbs and Spices</source>
+        <target>Épices</target>
+        <note>display heading</note>
+      </trans-unit>
+      <trans-unit id="dozeVegetablesCruciferous.heading" xml:space="preserve">
+        <source>Cruciferous Vegetables</source>
+        <target>Crucifères</target>
+        <note>display heading</note>
+      </trans-unit>
+      <trans-unit id="dozeVegetablesOther.heading" xml:space="preserve">
+        <source>Other Vegetables</source>
+        <target>Autres légumes</target>
+        <note>display heading</note>
+      </trans-unit>
+      <trans-unit id="dozeWholeGrains.heading" xml:space="preserve">
+        <source>Whole Grains</source>
+        <target>Grains entiers</target>
+        <note>display heading</note>
+      </trans-unit>
+      <trans-unit id="doze_detail_section_sizes" xml:space="preserve">
+        <source>Servings Sizes</source>
+        <target>Serving Sizes</target>
+        <note>Doze Detail Section: "Sizes"</note>
+      </trans-unit>
+      <trans-unit id="doze_detail_section_types" xml:space="preserve">
+        <source>Types</source>
+        <target>Types</target>
+        <note>Doze Detail Section: "Types"</note>
+      </trans-unit>
+      <trans-unit id="doze_entry_header" xml:space="preserve">
+        <source>Servings</source>
+        <target>Servings</target>
+        <note>Daily Dozen Header: "Servings"</note>
+      </trans-unit>
+      <trans-unit id="historyRecord.movingMean" xml:space="preserve">
+        <source>Moving Average</source>
+        <target>Moving Average</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="historyRecordDoze.heading" xml:space="preserve">
+        <source>Servings History</source>
+        <target>Servings History</target>
+        <note>Servings History</note>
+      </trans-unit>
+      <trans-unit id="historyRecordDoze.legend" xml:space="preserve">
+        <source>Servings</source>
+        <target>Servings</target>
+        <note>Servings</note>
+      </trans-unit>
+      <trans-unit id="historyRecordTweak.heading" xml:space="preserve">
+        <source>Tweaks History</source>
+        <target>Tweaks History</target>
+        <note>Tweaks History</note>
+      </trans-unit>
+      <trans-unit id="historyRecordTweak.legend" xml:space="preserve">
+        <source>Tweaks</source>
+        <target>Tweaks</target>
+        <note>Tweaks</note>
+      </trans-unit>
+      <trans-unit id="historyRecordWeight.heading" xml:space="preserve">
+        <source>Weight History</source>
+        <target>Weight History</target>
+        <note>Weight History</note>
+      </trans-unit>
+      <trans-unit id="historyRecordWeight.legendEvening" xml:space="preserve">
+        <source>Evening</source>
+        <target>Evening</target>
+        <note>Evening</note>
+      </trans-unit>
+      <trans-unit id="historyRecordWeight.legendMorning" xml:space="preserve">
+        <source>Morning</source>
+        <target>Morning</target>
+        <note>Morning</note>
+      </trans-unit>
+      <trans-unit id="historyRecordWeight.titleImperial" xml:space="preserve">
+        <source>Weight (lbs)</source>
+        <target>Weight (lbs)</target>
+        <note>Weight (lbs)</note>
+      </trans-unit>
+      <trans-unit id="historyRecordWeight.titleMetric" xml:space="preserve">
+        <source>Weight (kg)</source>
+        <target>Weight (kg)</target>
+        <note>Weight (kg)</note>
+      </trans-unit>
+      <trans-unit id="history_scale_choice_day" xml:space="preserve">
+        <source>Day</source>
+        <target>Day</target>
+        <note>History Scale Choice: "Day"</note>
+      </trans-unit>
+      <trans-unit id="history_scale_choice_month" xml:space="preserve">
+        <source>Month</source>
+        <target>Month</target>
+        <note>History Scale Choice: "Month"</note>
+      </trans-unit>
+      <trans-unit id="history_scale_choice_year" xml:space="preserve">
+        <source>Year</source>
+        <target>Year</target>
+        <note>History Scale Choice: "Year"</note>
+      </trans-unit>
+      <trans-unit id="history_scale_label" xml:space="preserve">
+        <source>Time Scale</source>
+        <target>Time Scale</target>
+        <note>History Label: "Time Scale"</note>
+      </trans-unit>
+      <trans-unit id="info.about.title" xml:space="preserve">
+        <source>About this app</source>
+        <note>About this app</note>
+      </trans-unit>
+      <trans-unit id="info_app_about" xml:space="preserve">
+        <source>About</source>
+        <target>About</target>
+        <note>Info: "About"</note>
+      </trans-unit>
+      <trans-unit id="info_app_about_app_name" xml:space="preserve">
+        <source>Daily Dozen</source>
+        <target>Daily Dozen</target>
+        <note>Info About: application name</note>
+      </trans-unit>
+      <trans-unit id="info_app_about_created_by" xml:space="preserve">
+        <source>This app was created by:
+- NutritionFacts.org
+- Christi Richards
+- Konstantin Khokhlov
+- Marc Campbell</source>
+        <target>This app was created by:
+- NutritionFacts.org
+- Christi Richards
+- Konstantin Khokhlov
+- Marc Campbell</target>
+        <note>Info About: created by text</note>
+      </trans-unit>
+      <trans-unit id="info_app_about_oss_credits" xml:space="preserve">
+        <source>The following open source libraries are used: RealmSwift, Charts, FSCalendar, SimpleAnimation and ActiveLabel.</source>
+        <target>The following open source libraries are used: RealmSwift, Charts, FSCalendar, SimpleAnimation and ActiveLabel.</target>
+        <note>Info About: open source software credits</note>
+      </trans-unit>
+      <trans-unit id="info_app_about_overview" xml:space="preserve">
+        <source>Use this app on a daily basis to keep track of the foods and advice I recommend for optimal health and longevity in my books How Not to Die and How Not to Diet.</source>
+        <target>Use this app on a daily basis to keep track of the foods and advice I recommend for optimal health and longevity in my books How Not to Die and How Not to Diet.</target>
+        <note>Info About: overview text</note>
+      </trans-unit>
+      <trans-unit id="info_app_about_version" xml:space="preserve">
+        <source>version 3.2.9</source>
+        <target>version 3.2.1</target>
+        <note>Info About: version number</note>
+      </trans-unit>
+      <trans-unit id="info_app_about_welcome" xml:space="preserve">
+        <source>Welcome to my Daily Dozen!</source>
+        <target>Welcome to my Daily Dozen!</target>
+        <note>Info About: "Welcome to my Daily Dozen!"</note>
+      </trans-unit>
+      <trans-unit id="info_book_how_not_to_die" xml:space="preserve">
+        <source>How Not to Die</source>
+        <target>Book: How Not to Die</target>
+        <note>Info: How Not to Die (Book)</note>
+      </trans-unit>
+      <trans-unit id="info_book_how_not_to_die_cookbook" xml:space="preserve">
+        <source>How Not to Die Cookbook</source>
+        <target>Book: How Not to Die Cookbook</target>
+        <note>Info: How Not to Die Cookbook (Book)</note>
+      </trans-unit>
+      <trans-unit id="info_book_how_not_to_diet" xml:space="preserve">
+        <source>How Not to Diet</source>
+        <target>Book: How Not to Diet</target>
+        <note>Info: How Not to Diet (Book)</note>
+      </trans-unit>
+      <trans-unit id="info_webpage_daily_dozen_challenge" xml:space="preserve">
+        <source>Daily Dozen Challenge</source>
+        <target>Daily Dozen Challenge</target>
+        <note>Info: "Daily Dozen Challenge"</note>
+      </trans-unit>
+      <trans-unit id="info_webpage_donate" xml:space="preserve">
+        <source>Donate</source>
+        <target>Donate</target>
+        <note>Info: "Donate"</note>
+      </trans-unit>
+      <trans-unit id="info_webpage_open_source" xml:space="preserve">
+        <source>Open Source</source>
+        <target>Open Source</target>
+        <note>Info: "Open Source"</note>
+      </trans-unit>
+      <trans-unit id="info_webpage_subscribe" xml:space="preserve">
+        <source>Subscribe</source>
+        <target>Subscribe</target>
+        <note>Info: "Subscribe"</note>
+      </trans-unit>
+      <trans-unit id="info_webpage_videos_latest" xml:space="preserve">
+        <source>Latest Videos</source>
+        <target>Latest Videos</target>
+        <note>Info: "Latest Videos"</note>
+      </trans-unit>
+      <trans-unit id="item_history_completed_all" xml:space="preserve">
+        <source>All servings</source>
+        <target>All servings</target>
+        <note>Item History Legend: "All completed"</note>
+      </trans-unit>
+      <trans-unit id="item_history_completed_some" xml:space="preserve">
+        <source>Some servings</source>
+        <target>Some servings</target>
+        <note>Item History Legend: "Some completed"</note>
+      </trans-unit>
+      <trans-unit id="item_history_heading" xml:space="preserve">
+        <source>History</source>
+        <target>History</target>
+        <note>Item History Heading: "History"</note>
+      </trans-unit>
+      <trans-unit id="navtab.doze" xml:space="preserve">
+        <source>Daily Dozen</source>
+        <target>Daily Dozen</target>
+        <note>Daily Dozen (proper noun) navigation tab</note>
+      </trans-unit>
+      <trans-unit id="navtab.info" xml:space="preserve">
+        <source>Info</source>
+        <target>Info</target>
+        <note>More Information navigation tab</note>
+      </trans-unit>
+      <trans-unit id="navtab.preferences" xml:space="preserve">
+        <source>Settings</source>
+        <target>Settings</target>
+        <note>Preferences (aka Settings, Configuration) navigation tab. Choose word different from 'Tweaks' translation</note>
+      </trans-unit>
+      <trans-unit id="navtab.tweaks" xml:space="preserve">
+        <source>21 Tweaks</source>
+        <target>21 Tweaks</target>
+        <note>21 Tweaks (proper noun) navigation tab</note>
+      </trans-unit>
+      <trans-unit id="otherOmega3.heading" xml:space="preserve">
+        <source>Plant-based Omega 3s</source>
+        <target>Plant-based Omega 3s</target>
+        <note>display heading</note>
+      </trans-unit>
+      <trans-unit id="otherVitaminB12.heading" xml:space="preserve">
+        <source>Vitamin B12</source>
+        <target>Vitamine B12</target>
+        <note>***** Daily Dozen Other *****</note>
+      </trans-unit>
+      <trans-unit id="otherVitaminD.heading" xml:space="preserve">
+        <source>Vitamin D</source>
+        <target>Vitamin D</target>
+        <note>display heading</note>
+      </trans-unit>
+      <trans-unit id="reminder.alert.text" xml:space="preserve">
+        <source>Update your servings for today</source>
+        <target>Update your servings for today</target>
+        <note>daily_reminder_text alert text</note>
+      </trans-unit>
+      <trans-unit id="reminder.heading" xml:space="preserve">
+        <source>Daily Reminder</source>
+        <target>Daily Reminder</target>
+        <note>Daily Reminder (alert title, settings section heading)</note>
+      </trans-unit>
+      <trans-unit id="reminder.settings.enable" xml:space="preserve">
+        <source>Enable Reminders</source>
+        <target>Enable Reminders</target>
+        <note>Enable Reminders (toggle switch label)</note>
+      </trans-unit>
+      <trans-unit id="reminder.settings.sound" xml:space="preserve">
+        <source>Play Sound</source>
+        <target>Play Sound</target>
+        <note>play_sound</note>
+      </trans-unit>
+      <trans-unit id="reminder.settings.time" xml:space="preserve">
+        <source>Remind me at</source>
+        <target>Remind me at:</target>
+        <note>remind_me_at</note>
+      </trans-unit>
+      <trans-unit id="reminder.settings.vibrate" xml:space="preserve">
+        <source>Vibrate</source>
+        <target>Vibrate</target>
+        <note>vibrate</note>
+      </trans-unit>
+      <trans-unit id="reminder.state.off" xml:space="preserve">
+        <source>Off</source>
+        <target>Off</target>
+        <note>'Off' as in 'On or Off'</note>
+      </trans-unit>
+      <trans-unit id="reminder.state.on" xml:space="preserve">
+        <source>On</source>
+        <target>On</target>
+        <note>'On' as in 'On or Off'</note>
+      </trans-unit>
+      <trans-unit id="setting_doze_only_btn" xml:space="preserve">
+        <source>Daily Dozen
+Only</source>
+        <target>Daily Dozen Only</target>
+        <note>First Launch: "Daily Dozen Only"</note>
+      </trans-unit>
+      <trans-unit id="setting_doze_only_choice" xml:space="preserve">
+        <source>Daily Dozen Only</source>
+        <target>Daily Dozen Only</target>
+        <note>Settings: "Daily Dozen Only"</note>
+      </trans-unit>
+      <trans-unit id="setting_doze_tweak_btn" xml:space="preserve">
+        <source>Daily Dozen +
+21 Tweaks</source>
+        <target>Daily Dozen + 21 Tweaks</target>
+        <note>First Launch: "Daily Dozen + 21 Tweaks"</note>
+      </trans-unit>
+      <trans-unit id="setting_doze_tweak_choice" xml:space="preserve">
+        <source>Daily Dozen + 21 Tweaks</source>
+        <target>Daily Dozen + 21 Tweak</target>
+        <note>Settings: "Daily Dozen + 21 Tweaks"</note>
+      </trans-unit>
+      <trans-unit id="setting_doze_tweak_footer" xml:space="preserve">
+        <source>For health alone, use 'Daily Dozen Only'. For health and weight loss use 'Daily Dozen + 21 Tweaks'.</source>
+        <target>For health alone, use "Daily Dozen Only". For health and weight loss use "Daily Dozen + 21 Tweaks".</target>
+        <note>Settings: Tweaks visibility footer text</note>
+      </trans-unit>
+      <trans-unit id="setting_health_alone_txt" xml:space="preserve">
+        <source>For Health Alone</source>
+        <target>For Health Alone</target>
+        <note>First Launch: "For Health Alone"</note>
+      </trans-unit>
+      <trans-unit id="setting_health_weight_txt" xml:space="preserve">
+        <source>For Health and Weight Loss</source>
+        <target>For Health and Weight Loss</target>
+        <note>First Launch: "For Health and Weight Loss"</note>
+      </trans-unit>
+      <trans-unit id="settings.tweak.header" xml:space="preserve">
+        <source>21 Tweaks Visibility</source>
+        <target>21 Tweak Visibility</target>
+        <note>Class = "UITableViewSection"; headerTitle = "21 Tweaks Visibility"; ObjectID = "WdR-XV-IyP";</note>
+      </trans-unit>
+      <trans-unit id="settings.units.header" xml:space="preserve">
+        <source>Measurement Units</source>
+        <target></target>
+        <note>Class = "UITableViewSection"; headerTitle = "Measurement Units"; ObjectID = "IFs-g0-SPV";</note>
+      </trans-unit>
+      <trans-unit id="settings_advanced_utilities" xml:space="preserve">
+        <source>Advanced Utilities</source>
+        <target></target>
+        <note>Settings: "Advanced Utilities"</note>
+      </trans-unit>
+      <trans-unit id="settings_units_choice_footer" xml:space="preserve">
+        <source>Set to always be one unit type or enable the 'Units:' toggle button.</source>
+        <target>Set to always be one unit type or enable the 'Units:' toggle button.</target>
+        <note>Settings: units choice footer text</note>
+      </trans-unit>
+      <trans-unit id="streakDaysFormat" xml:space="preserve">
+        <source>%d days</source>
+        <target>%d days</target>
+        <note>progress: number '%d' of consecutive days completed.</note>
+      </trans-unit>
+      <trans-unit id="tweakCompleteIntentions.heading" xml:space="preserve">
+        <source>Complete Intentions</source>
+        <target>Complétez vos intentions de mise en œuvre</target>
+        <note>display heading</note>
+      </trans-unit>
+      <trans-unit id="tweakDailyBlackCumin.heading" xml:space="preserve">
+        <source>Black Cumin</source>
+        <target>Cumin noir (¼ c. À thé)</target>
+        <note>display heading</note>
+      </trans-unit>
+      <trans-unit id="tweakDailyCumin.heading" xml:space="preserve">
+        <source>Cumin</source>
+        <target>Cumin (½ cuillère à café avec déjeuner et dîner)</target>
+        <note>display heading</note>
+      </trans-unit>
+      <trans-unit id="tweakDailyDeflourDiet.heading" xml:space="preserve">
+        <source>Deflour Diet</source>
+        <target>Décorez votre alimentation</target>
+        <note>display heading</note>
+      </trans-unit>
+      <trans-unit id="tweakDailyFrontLoad.heading" xml:space="preserve">
+        <source>Front-load Calories</source>
+        <target>Chargez vos calories à l\'avance</target>
+        <note>display heading</note>
+      </trans-unit>
+      <trans-unit id="tweakDailyGarlic.heading" xml:space="preserve">
+        <source>Garlic Powder</source>
+        <target>Poudre d\'ail (¼ c. À thé)</target>
+        <note>display heading</note>
+      </trans-unit>
+      <trans-unit id="tweakDailyGinger.heading" xml:space="preserve">
+        <source>Ginger or Cayenne</source>
+        <target>Gingembre moulu (1 c. À thé) ou poivre de Cayenne (½ c. À thé)</target>
+        <note>display heading</note>
+      </trans-unit>
+      <trans-unit id="tweakDailyGreenTea.heading" xml:space="preserve">
+        <source>Green Tea</source>
+        <target>Thé vert (3 tasses)</target>
+        <note>display heading</note>
+      </trans-unit>
+      <trans-unit id="tweakDailyHydrate.heading" xml:space="preserve">
+        <source>Stay Hydrated</source>
+        <target>Restez hydraté</target>
+        <note>display heading</note>
+      </trans-unit>
+      <trans-unit id="tweakDailyNutriYeast.heading" xml:space="preserve">
+        <source>Nutritional Yeast</source>
+        <target>Levure nutritionnelle (2 c. À thé)</target>
+        <note>display heading</note>
+      </trans-unit>
+      <trans-unit id="tweakDailyTimeRestrict.heading" xml:space="preserve">
+        <source>Time-restrict Eating</source>
+        <target>Limitez votre temps à manger</target>
+        <note>display heading</note>
+      </trans-unit>
+      <trans-unit id="tweakExerciseTiming.heading" xml:space="preserve">
+        <source>Exercising Timing</source>
+        <target>Optimiser la synchronisation des exercices</target>
+        <note>display heading</note>
+      </trans-unit>
+      <trans-unit id="tweakMeal20Minutes.heading" xml:space="preserve">
+        <source>Twenty-minute Rule</source>
+        <target>Suivez la règle des vingt minutes</target>
+        <note>display heading</note>
+      </trans-unit>
+      <trans-unit id="tweakMealNegCal.heading" xml:space="preserve">
+        <source>Negative Calorie Preload</source>
+        <target>Précharge des aliments à «calories négatives»</target>
+        <note>display heading</note>
+      </trans-unit>
+      <trans-unit id="tweakMealUndistracted.heading" xml:space="preserve">
+        <source>Undistracted Meals</source>
+        <target>Profitez de repas sans distraction</target>
+        <note>display heading</note>
+      </trans-unit>
+      <trans-unit id="tweakMealVinegar.heading" xml:space="preserve">
+        <source>Incorporate Vinegar</source>
+        <target>Incorporer du vinaigre (2 cuillères à café à chaque repas)</target>
+        <note>display heading</note>
+      </trans-unit>
+      <trans-unit id="tweakMealWater.heading" xml:space="preserve">
+        <source>Preload Water</source>
+        <target>Précharger avec de l\'eau</target>
+        <note>***** 21 Tweaks *****</note>
+      </trans-unit>
+      <trans-unit id="tweakNightlyFast.heading" xml:space="preserve">
+        <source>Fast After 7:00 p.m.</source>
+        <target>Rapide après 19h00</target>
+        <note>display heading</note>
+      </trans-unit>
+      <trans-unit id="tweakNightlySleep.heading" xml:space="preserve">
+        <source>Sufficient Sleep</source>
+        <target>Dormez suffisamment</target>
+        <note>display heading</note>
+      </trans-unit>
+      <trans-unit id="tweakNightlyTrendelenbrug.heading" xml:space="preserve">
+        <source>Trendelenburg</source>
+        <target>Expérience avec Trendelenburg doux</target>
+        <note>display heading</note>
+      </trans-unit>
+      <trans-unit id="tweakWeightTwice.heading" xml:space="preserve">
+        <source>Weigh Twice Daily</source>
+        <target>Pesez-vous deux fois par jour</target>
+        <note>display heading</note>
+      </trans-unit>
+      <trans-unit id="tweak_detail_section_activity" xml:space="preserve">
+        <source>Activity</source>
+        <target>Activity</target>
+        <note>Tweak Detail Section: "Activity"</note>
+      </trans-unit>
+      <trans-unit id="tweak_detail_section_description" xml:space="preserve">
+        <source>Description</source>
+        <target>Description</target>
+        <note>Tweak Detail Section: "Description"</note>
+      </trans-unit>
+      <trans-unit id="tweak_entry_header" xml:space="preserve">
+        <source>21 Tweaks</source>
+        <target>21 Tweaks</target>
+        <note>Daily Dozen Header: "21 Tweaks"</note>
+      </trans-unit>
+      <trans-unit id="unitToggle.imperial" xml:space="preserve">
+        <source>IMPERIAL</source>
+        <target>IMPERIAL</target>
+        <note>Units toggle button text: imperial measurement system</note>
+      </trans-unit>
+      <trans-unit id="unitToggle.metric" xml:space="preserve">
+        <source>METRIC</source>
+        <target>METRIC</target>
+        <note>Units toggle button text: metric measurement system</note>
+      </trans-unit>
+      <trans-unit id="units_label" xml:space="preserve">
+        <source>Units:</source>
+        <target>Units:</target>
+        <note>"Units:"</note>
+      </trans-unit>
+      <trans-unit id="urlSegment.base" xml:space="preserve">
+        <source>https://nutritionfacts.org/</source>
+        <target>https://nutritionfacts.org/</target>
+        <note>URL path</note>
+      </trans-unit>
+      <trans-unit id="urlSegment.lang" xml:space="preserve">
+        <source/>
+        <target/>
+        <note/>
+      </trans-unit>
+      <trans-unit id="urlSegmentInfoMenu.book" xml:space="preserve">
+        <source>book</source>
+        <target>book</target>
+        <note>main info menu: book</note>
+      </trans-unit>
+      <trans-unit id="urlSegmentInfoMenu.challenge" xml:space="preserve">
+        <source>daily-dozen-challenge</source>
+        <target>daily-dozen-challenge</target>
+        <note>main info menu: daily-dozen-challenge</note>
+      </trans-unit>
+      <trans-unit id="urlSegmentInfoMenu.cookbook" xml:space="preserve">
+        <source>cookbook</source>
+        <target>cookbook</target>
+        <note>main info menu: cookbook</note>
+      </trans-unit>
+      <trans-unit id="urlSegmentInfoMenu.diet" xml:space="preserve">
+        <source>how-not-to-diet</source>
+        <target>how-not-to-diet</target>
+        <note>main info menu: how-not-to-diet</note>
+      </trans-unit>
+      <trans-unit id="urlSegmentInfoMenu.donate" xml:space="preserve">
+        <source>donate</source>
+        <target>donate</target>
+        <note>main info menu: donate</note>
+      </trans-unit>
+      <trans-unit id="urlSegmentInfoMenu.source" xml:space="preserve">
+        <source>open-source</source>
+        <target>open-source</target>
+        <note>main info menu: open-source</note>
+      </trans-unit>
+      <trans-unit id="urlSegmentInfoMenu.subscribe" xml:space="preserve">
+        <source>subscribe</source>
+        <target>subscribe</target>
+        <note>main info menu: subscribe</note>
+      </trans-unit>
+      <trans-unit id="urlSegmentInfoMenu.team" xml:space="preserve">
+        <source>team</source>
+        <target>team</target>
+        <note>team</note>
+      </trans-unit>
+      <trans-unit id="urlSegmentInfoMenu.videos" xml:space="preserve">
+        <source>videos</source>
+        <target>videos</target>
+        <note>main info menu: videos</note>
+      </trans-unit>
+      <trans-unit id="videos.link.label" xml:space="preserve">
+        <source>VIDEOS</source>
+        <note>Videos link label</note>
+      </trans-unit>
+      <trans-unit id="weightEntry.heading" xml:space="preserve">
+        <source>Weight</source>
+        <target>Weight</target>
+        <note>Weight entry heading</note>
+      </trans-unit>
+      <trans-unit id="weight_entry_clear" xml:space="preserve">
+        <source>Clear</source>
+        <target>Clear</target>
+        <note>Weight Entry: "Clear"</note>
+      </trans-unit>
+      <trans-unit id="weight_entry_evening" xml:space="preserve">
+        <source>Evening (right before bed)</source>
+        <target>Evening (right before bed)</target>
+        <note>Weight Entry: "Evening (right before bed)"</note>
+      </trans-unit>
+      <trans-unit id="weight_entry_morning" xml:space="preserve">
+        <source>Morning (upon waking)</source>
+        <target>Morning (upon waking)</target>
+        <note>Weight Entry: "Morning (upon waking)"</note>
+      </trans-unit>
+      <trans-unit id="weight_entry_time" xml:space="preserve">
+        <source>Time</source>
+        <target>Time</target>
+        <note>Weight Entry: "Time"</note>
+      </trans-unit>
+      <trans-unit id="weight_entry_units_kg" xml:space="preserve">
+        <source>kg</source>
+        <target>kg</target>
+        <note>Weight Entry Units: "kg"</note>
+      </trans-unit>
+      <trans-unit id="weight_entry_units_lbs" xml:space="preserve">
+        <source>lbs</source>
+        <target>lbs</target>
+        <note>Weight Entry Units: "lbs"</note>
+      </trans-unit>
+      <trans-unit id="weight_history_edit_data" xml:space="preserve">
+        <source>Edit Data</source>
+        <target>Edit Data</target>
+        <note>Weight History Action: "Edit Data"</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
