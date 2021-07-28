@@ -16,11 +16,44 @@ The _"Baseline"_ workflow checks that the develop language (English_US) has up-t
 
 The Android `strings.xml` file can be verified directly. Update the  `strings_WithoutTranslatableFalse.xml` file to correspond to `strings.xml` without any `translatable="false"` entries.
 
-A current Apple `en.xcloc/` Xcode export will need to be done for a (re-)baseline process.
+Export Apple `en.xcloc/` from main and related branches. First, compare `en.xcloc/` for the branches to verify that the branches are in sync. Then, normalize the exported 'en.xcloc' to contain the "Localized Contents" in the same directory structure as the other languages.
+
+``` sh
+### Normalize exported 'en.xcloc'
+# cd $PATH_TO/en.xcloc
+
+cp -R 'Source Contents/DailyDozen' 'Localized Contents/DailyDozen'
+
+LOCAL_STRINGS="Localized Contents/DailyDozen/App/Texts/LocalStrings"
+LOCAL_BASE="$LOCAL_STRINGS/Base.lproj"
+LOCAL_enUS="$LOCAL_STRINGS/en.lproj"
+mv "$LOCAL_BASE/DozeDetailData.json" "$LOCAL_enUS/DozeDetailData.json" 
+mv "$LOCAL_BASE/TweakDetailData.json" "$LOCAL_enUS/TweakDetailData.json" 
+
+rm -r "$LOCAL_BASE"
+```
+
+The resulting file directory should be like the following `tree`.
+
+``` sh
+tree 'Localized Contents'
+
+# Localized\ Contents
+# ├── DailyDozen
+# │   └── App
+# │       ├── SupportingFiles
+# │       │   └── en.lproj
+# │       │       └── InfoPlist.strings
+# │       └── Texts
+# │           └── LocalStrings
+# │               └── en.lproj
+# │                   ├── DozeDetailData.json
+# │                   ├── Localizable.strings
+# │                   └── TweakDetailData.json
+# └── en.xliff
+```
 
 If needed, update the `daily-dozen-localization` `Languages/English_US` `android/` and `ios/` sources.
-
-_Scripts_
 
 _Scripts/…/01_BaselineSetup_
 
