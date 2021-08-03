@@ -78,7 +78,7 @@ _App Localizations & Store Distribution_
 
 _legend:_
 
-* `✓` - published
+* `✓` - published through the app store
 * `S` - submission received and being processed
 
 <!-- Afrikaans: Namibia (af-NA), South Africa (af-ZA) -->

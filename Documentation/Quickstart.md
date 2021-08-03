@@ -1,8 +1,8 @@
-# Daily Dozen App Localization QuickStart Guide
+# QuickStart Guide:<br>Daily Dozen App Localization
 
 _This QuickStart provides a summary of "how to" download, edit, report issues, and submit language translations for the Daily Dozen applications._
 
-_This Daily Dozen App Localization QuickStart Guide is located in the documents folder at [Documents/Quickstart.md](https://github.com/nutritionfactsorg/daily-dozen-localization/blob/master/Documents/Quickstart.md). Feedback for the documentation can be submitted on the [daily-dozen-localization/issues](https://github.com/nutritionfactsorg/daily-dozen-localization/issues) page._
+_This QuickStart Guide is located in the documents folder at [Documents/Quickstart.md](https://github.com/nutritionfactsorg/daily-dozen-localization/blob/master/Documents/Quickstart.md). Feedback for the documentation can be submitted on the [daily-dozen-localization/issues](https://github.com/nutritionfactsorg/daily-dozen-localization/issues) page._
 
 **Contents: <a id="contents"></a>**
 [Overview](#overview-) •
@@ -13,7 +13,7 @@ _This Daily Dozen App Localization QuickStart Guide is located in the documents 
 
 ## Overview <a id="overview-"></a><sup>[▴](#contents)</sup>
 
-[GitHub](https://en.wikipedia.org/wiki/GitHub) is used as a repository to coordinate language translations for the Android and Apple Daily Dozen applications. The language translation workflow, as described in this quickstart document,  _does not require any of particular knowledge of [git](https://en.wikipedia.org/wiki/Git) itself._
+[GitHub](https://en.wikipedia.org/wiki/GitHub) is used as a repository to coordinate language translations for the Android and Apple Daily Dozen applications. The language translation workflow, as described in this quickstart document,  _does not require any particular knowledge of [git](https://en.wikipedia.org/wiki/Git) itself._
 
 The primary file format used for translation is a spreadsheet in the [TSV (Tab Separated Value)](https://en.wikipedia.org/wiki/Tab-separated_values) text format.  TSV files can be imported and exported by any widely available spreadsheet program such as Apple Numbers, LibreOffice Calc and Microsoft Excel.
 
@@ -21,7 +21,7 @@ A second file format used is [Markdown](https://en.wikipedia.org/wiki/Markdown) 
 
 ## Setup <a id="setup-"></a><sup>[▴](#contents)</sup>
 
-**GitHub Account.** Use [https://github.com/join](https://github.com/join) to setup up a GitHub account, if you do not already have one.  An account is free.  An account is needed to submit translations and participate in online issue reporting & discussions.
+**GitHub Account.** Use [https://github.com/join](https://github.com/join) to setup up a GitHub account, if you do not already have one.  An account is free.  An account is needed to submit translations and participate in online issue reporting and discussions.
 
 **Spreadsheet Application.** A spreadsheet program which can import and export TSV formatted spreadsheets is required. [Apple Numbers](https://www.apple.com/numbers/), [LibreOffice Calc](https://www.libreoffice.org/discover/calc/), [Microsoft Excel](https://www.microsoft.com/en-us/microsoft-365/excel), or similar can be used.
 
@@ -43,19 +43,23 @@ The folder contents will show several folders including one named `tsv`.
 
 ![](Quickstart_files/LangFolderList.png)
 
-Click the `tsv` folder to show the `tsv` folder contents. The folder will contain a file with the Language name, Language code and `*.tsv` extension.
+Click the `tsv` folder to show the `tsv` folder contents. The folder will contain a file with the Language name, Language code and `.tsv` extension.
 
 ![](Quickstart_files/TSV_file.png)
 
-Context click to download the file to your local machine.
+Click on the `.tsv` file link to show the page for that file. Then click the button on the file page which is labeled "Raw".
 
-![](Quickstart_files/TsvContextClick.png)
+![](Quickstart_files/ControlRaw.png)
 
-**Step 2. Translate & Edit File**
+When the "Raw" `.tsv` file shows in the browser, then context-click (right-click or macOS: control-click) and use "Save Page As…" to save the file on the local machine.
 
-Open the `*.tsv` file in a spreadsheet application.
+![](Quickstart_files/TSV_ContextClick_SaveAs.png)
 
-Data in field columns with have header names which begin with `key_` or `base_` are not to be translated. In particular, the `key_android`, `key_apple` entries are used for mapping values back into the device specific localization files.  These `key_` values must not be changed.
+**Step 2. Translate and Edit File**
+
+Open the `.tsv` file in a spreadsheet application.
+
+Data in columns that have header names which begin with `key_` or `base_` are not to be translated. In particular, the `key_android` and `key_apple` entries are used for mapping values back into the device specific localization files.  _**These `key_` values must not be changed.**_
 
 The `base_comment`, if present, provides translation guidance in the development language (English).
 
@@ -67,7 +71,7 @@ Extra columns can be added for the translators' convenience for status, note tak
 
 **Step 3. Submit TSV File** 
 
-Export the spreadsheet back to a TSV file format.  Add a `*.txt` extension to the translated file. GitHub requires the `*.txt` extension to accept the uploaded file.
+Export the spreadsheet back to a TSV file format.  Add a `.txt` extension to the translated file. GitHub requires the `.txt` extension to accept the uploaded file.
 
 ![](Quickstart_files/TSV_TXT_extension.png)
 
