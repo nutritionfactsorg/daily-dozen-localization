@@ -34,13 +34,15 @@ var productsDir: URL {
 // batch_diff_xliff.txt
 // batch_diff_tsv_update_af.txt
 // batch_diff_tsv_update__all.txt
-// batch_replicate_DroidToTsv.txt
 // batch_export_es.txt
 // batch_export_pl_es.txt
 // batch_import_es.txt
 // batch_import_pl.txt
 // batch_import_de.txt: de, pl
-let BatchCommands = "batch_replicate_TsvToApple.txt"
+
+// batch_replicate_DroidToTsv.txt
+// "batch_replicate_TsvToApple.txt" // :WIP: for test version
+let BatchCommands = "batch_export_pass01.txt"
 print("### \(BatchCommands) ###")
 
 // …/AppLocalizerLibTests.bundle/Resources/commands_*.txt
