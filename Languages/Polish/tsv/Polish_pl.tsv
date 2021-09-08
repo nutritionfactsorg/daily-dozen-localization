@@ -505,14 +505,13 @@ tweak_group_daily		Every Day	Każdego dnia
 tweak_group_dailydoses		Take your daily doses	Przyjmij swoje dzienne dawki	
 tweak_group_meal		At Each Meal	Przy każdym posiłku	
 tweak_group_nightly		Every Night	Każdej nocy	
-twenty_one_tweaks	5po-De-kCi.text	21 Tweaks	21 Adaptacji	
+twenty_one_tweaks	tweak_entry_header	21 Tweaks	21 Adaptacji	
 types	YVI-sV-TDX.text	Types	Rodzaje	
 units	3bd-8h-kcX.text	Units:	Jednostki:	
 units	kho-9G-OWe.text	Units:	Jednostki:	
 videos	xcg-0a-oqY.normalTitle	VIDEOS	Filmy	Keyword for link to video topics
 welcome_to_my_daily_dozen	19L-gq-W5M.text	Welcome to my Daily Dozen!	Witaj w moim Codziennym Tuzinie!	
 yes		Yes	Tak	
-	NPC-if-gUf.text	0 / 37	0 / 37	
 	YVI-sV-TDA.text	Activity	Aktywność	
 	Ebp-Lw-fWk.normalTitle	Advanced Utilities	Zaawansowane narzędzia	
 	zQy-Dn-WXM.text	Book: How Not to Die	Książka: How Not to Die	
@@ -524,18 +523,17 @@ yes		Yes	Tak
 	XYD-fX-adn.normalTitle	Edit Data	Edytuj dane	
 	77g-xa-ali.text	Evening (right before bed)	Wieczór (tuż przed snem)	
 	WdR-XV-IyP.footerTitle	"For health alone, use ""Daily Dozen Only"". For health and weight loss use ""Daily Dozen + 21 Tweaks""."	Dla samego zdrowia użyj „Tylko Codzienny Tuzin”. Dla zdrowia i utraty wagi użyj „Codzienny Tuzin + 21 Adaptacji”.	
-	RLb-GV-4hh.segmentTitles[0]	Imperial	Imperialne	"Part of ""Imperial/Metric/Toggle Units"" selector"
+	settings_units_0_imperial	Imperial	Imperialne	"Part of ""Imperial/Metric/Toggle Units"" selector"
 	1K3-d9-Hfb.normalTitle	METRIC	METRYCZNE	
 	1K3-d9-Hfb.normalTitle	METRIC	METRYCZNE	
 	M75-CQ-NVP.normalTitle	METRIC	METRYCZNE	
 	M75-CQ-NVP.normalTitle	METRIC	METRYCZNE	
-	RLb-GV-4hh.segmentTitles[1]	Metric	Metryczne	"Part of ""Imperial/Metric/Toggle Units"" selector"
+	settings_units_1_metric	Metric	Metryczne	"Part of ""Imperial/Metric/Toggle Units"" selector"
 	xCp-N8-5Uc.text	Morning (upon waking)	Rano (po przebudzeniu)	
 	IFs-g0-SPV.footerTitle	Set to always be one unit type or enable the 'Units:' toggle button.	Ustaw jeden typ jednostek dla aplikacji lub aktywuj przełącznie przycisku w „Jednostki”.	
-	W2v-Cp-vcd.text	Supplements	Suplementy	
 	FBJ-Im-BZk.text	Time	Czas	
 	g3G-kp-d2S.text	Time	Czas	
-	RLb-GV-4hh.segmentTitles[2]	Toggle Units	Zmień jednostki	"Part of ""Imperial/Metric/Toggle Units"" selector"
+	settings_units_2_toggle	Toggle Units	Zmień jednostki	"Part of ""Imperial/Metric/Toggle Units"" selector"
 	8ed-5m-QMc.text	Weight (lbs)	Waga (funt)	There is no point in showing weight in lbs. in Polish translation - in Poland it is used the metric system.
 	Tgz-om-dEk.text	Weight (lbs)	Waga (funt)	There is no point in showing weight in lbs. in Polish translation - in Poland it is used the metric system.
 	8ed-5m-QMc.text	Weight (lbs.)	Waga (funt)	There is no point in showing weight in lbs. in Polish translation - in Poland it is used the metric system.

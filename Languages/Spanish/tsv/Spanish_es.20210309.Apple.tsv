@@ -913,7 +913,7 @@ tweak_group_dailydoses		Take your daily doses	Toma la dosis diaria
 tweak_group_meal		At Each Meal	En cada comida	
 tweak_group_nightly		Every Night	Cada noche	
 tweaks		Tweaks	Potenciadores	
-twenty_one_tweaks	5po-De-kCi.text	21 Tweaks	21 Ajustes	
+twenty_one_tweaks	tweak_entry_header	21 Tweaks	21 Ajustes	
 types	YVI-sV-TDX.text	Types	Tipos	
 units	3bd-8h-kcX.text	Units:	Unidades:	
 units	kho-9G-OWe.text	Units:	Unidades	
@@ -936,7 +936,6 @@ yes		Yes	Sí
 	7l0-os-Oqt.normalTitle	Clear	Borrar	
 	8ed-5m-QMc.text	Weight (lbs)	Peso (lbs)	
 	8ed-5m-QMc.text	Weight (lbs)	Peso (lbs)	
-	cW5-dD-Zy0.text	100 days	%d días	
 	Cxo-5D-YUZ.text	How Not to Die Cookbook	Libro: How Not to Die Cookbook	
 	Ebp-Lw-fWk.normalTitle	Advanced Utilities	Utilidades Avanzadas	
 	FBJ-Im-BZk.text	Time	Tiempo	
@@ -947,15 +946,13 @@ yes		Yes	Sí
 	M75-CQ-NVP.normalTitle	METRIC	Métrico	
 	M75-CQ-NVP.normalTitle	METRIC	Métrico	
 	MWr-7S-G8N.text	How Not to Diet	Libro: How Not to Diet	
-	NPC-if-gUf.text	0 / 37	0 de 37	
 	NRG-eE-YhG.normalTitle	Clear	Borrar	
 	nRL-iG-Wnd.text	Month	Mes	
-	RLb-GV-4hh.segmentTitles[0]	Imperial	Imperial	Part of "Imperial/Metric/Toggle Units" selector
-	RLb-GV-4hh.segmentTitles[1]	Metric	Métrico	Part of "Imperial/Metric/Toggle Units" selector
-	RLb-GV-4hh.segmentTitles[2]	Toggle Units	Palanca	Part of "Imperial/Metric/Toggle Units" selector
+	settings_units_0_imperial	Imperial	Imperial	Part of "Imperial/Metric/Toggle Units" selector
+	settings_units_1_metric	Metric	Métrico	Part of "Imperial/Metric/Toggle Units" selector
+	settings_units_2_toggle	Toggle Units	Palanca	Part of "Imperial/Metric/Toggle Units" selector
 	Tgz-om-dEk.text	lbs.	lbs	
 	UCg-Rc-mLf.text	Month	Mes	
-	W2v-Cp-vcd.text	Supplements	Suplementos	
 	WdR-XV-IyP.footerTitle	For health alone, use "Daily Dozen Only". For health and weight loss use "Daily Dozen + 21 Tweaks".	Solo para la salud, use "Docena Diaria solamente". Para la salud y la pérdida de peso, use "Docena Diaria + 21 Ajustes".	
 	xCp-N8-5Uc.text	Morning (upon waking)	Mañana (al despertar)	
 	XYD-fX-adn.normalTitle	Edit Data	Editar datos	

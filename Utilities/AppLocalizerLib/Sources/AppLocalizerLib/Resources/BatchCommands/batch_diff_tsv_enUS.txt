@@ -3,7 +3,8 @@
 ###################
 ### UPDATE DIFF ###
 ###################
-DIFF_TSV_A="English_US/tsv/English_US_en.20210309.tsv"
-DIFF_TSV_B="English_US/__versions_enUS_LOCAL/v3.2.9/tsv/English_US_en.20210309.20210629_1639.tsv"
+DIFF_TSV_A="English_US/tsv/English_US_en.tsv"
+## v3.2.9 has prior version with random ids
+DIFF_TSV_B="English_US/history/v3.2.9/tsv/English_US_en.tsv"
 DO_DIFF_KEYS
 CLEAR_ALL

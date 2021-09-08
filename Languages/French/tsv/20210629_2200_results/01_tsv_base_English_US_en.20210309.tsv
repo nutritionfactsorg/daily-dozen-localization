@@ -527,18 +527,11 @@ tweak_group_daily		Every Day	Every Day
 tweak_group_dailydoses		Take your daily doses	Take your daily doses	
 tweak_group_meal		At Each Meal	At Each Meal	
 tweak_group_nightly		Every Night	Every Night	
-twenty_one_tweaks	5po-De-kCi.text	21 Tweaks	21 Tweaks	
+twenty_one_tweaks	tweak_entry_header	21 Tweaks	21 Tweaks	
 yes		Yes	Yes	
-	NPC-if-gUf.text	0 / 37	0 / 37	
-	cW5-dD-Zy0.text	100 days	100 days	
-	RLb-GV-4hh.segmentTitles[0]	Imperial	Imperial	Part of "Imperial/Metric/Toggle Units" selector
-	1K3-d9-Hfb.normalTitle	METRIC	METRIC	
-	M75-CQ-NVP.normalTitle	METRIC	METRIC	
-	1K3-d9-Hfb.normalTitle	METRIC	METRIC	
-	M75-CQ-NVP.normalTitle	METRIC	METRIC	
-	RLb-GV-4hh.segmentTitles[1]	Metric	Metric	Part of "Imperial/Metric/Toggle Units" selector
+	settings_units_0_imperial	Imperial	Imperial	Part of "Imperial/Metric/Toggle Units" selector
+	settings_units_1_metric	Metric	Metric	Part of "Imperial/Metric/Toggle Units" selector
 	nRL-iG-Wnd.text	Month	Month	
 	UCg-Rc-mLf.text	Month	Month	
 	lTR-i5-Tn0.text	Month	Month	
-	W2v-Cp-vcd.text	Supplements	Supplements	
-	RLb-GV-4hh.segmentTitles[2]	Toggle Units	Toggle Units	Part of "Imperial/Metric/Toggle Units" selector
+	settings_units_2_toggle	Toggle Units	Toggle Units	Part of "Imperial/Metric/Toggle Units" selector

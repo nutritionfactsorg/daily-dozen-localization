@@ -934,19 +934,12 @@ videos	xcg-0a-oqY.normalTitle	VIDEOS	VIDEOS	Keyword for link to video topics
 weight		Weight	Poids	
 weight_history		Weight History	Historique du poids	
 yes		Yes	Oui	
-	1K3-d9-Hfb.normalTitle	METRIC	METRIC	
-	M75-CQ-NVP.normalTitle	METRIC	METRIC	
-	1K3-d9-Hfb.normalTitle	METRIC	METRIC	
-	M75-CQ-NVP.normalTitle	METRIC	METRIC	
-	RLb-GV-4hh.segmentTitles[0]	Imperial	Imperial	Part of "Imperial/Metric/Toggle Units" selector
-	RLb-GV-4hh.segmentTitles[1]	Metric	Metric	Part of "Imperial/Metric/Toggle Units" selector
-	RLb-GV-4hh.segmentTitles[2]	Toggle Units	Toggle Units	Part of "Imperial/Metric/Toggle Units" selector
+	settings_units_0_imperial	Imperial	Imperial	Part of "Imperial/Metric/Toggle Units" selector
+	settings_units_1_metric	Metric	Metric	Part of "Imperial/Metric/Toggle Units" selector
+	settings_units_2_toggle	Toggle Units	Toggle Units	Part of "Imperial/Metric/Toggle Units" selector
 servings	1HM-mL-ZV9.text	Servings	Servings	
-	cW5-dD-Zy0.text	100 days	100 days	
-twenty_one_tweaks	5po-De-kCi.text	21 Tweaks	21 Tweaks	
-	NPC-if-gUf.text	0 / 37	0 / 37	
+twenty_one_tweaks	tweak_entry_header	21 Tweaks	21 Tweaks	
 format_num_days	Vbn-R9-kuu.text	100 days	100 days	
-	W2v-Cp-vcd.text	Supplements	Supplements	
 	Tgz-om-dEk.text	lbs.	lbs.	
 	8ed-5m-QMc.text	Weight (lbs)	Weight (lbs)	
 	nRL-iG-Wnd.text	Month	Month	

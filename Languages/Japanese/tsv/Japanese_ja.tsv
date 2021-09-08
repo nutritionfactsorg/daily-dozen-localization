@@ -391,13 +391,9 @@ daily_dozen_and_tweaks	Lef-Iw-Ywr.normalTitle	Daily Dozen + 21 Tweaks	Daily Doze
 videos	xcg-0a-oqY.normalTitle	VIDEOS	VIDEOS	Keyword for link to video topics
 imperial		metric	metric	
 metric		imperial	imperial	
-	1K3-d9-Hfb.normalTitle	METRIC	METRIC	
-	M75-CQ-NVP.normalTitle	METRIC	METRIC	
-	1K3-d9-Hfb.normalTitle	METRIC	METRIC	
-	M75-CQ-NVP.normalTitle	METRIC	METRIC	
-	RLb-GV-4hh.segmentTitles[0]	Imperial	Imperial	"Part of ""Imperial/Metric/Toggle Units"" selector"
-	RLb-GV-4hh.segmentTitles[1]	Metric	Metric	"Part of ""Imperial/Metric/Toggle Units"" selector"
-	RLb-GV-4hh.segmentTitles[2]	Toggle Units	Toggle Units	"Part of ""Imperial/Metric/Toggle Units"" selector"
+	settings_units_0_imperial	Imperial	Imperial	"Part of ""Imperial/Metric/Toggle Units"" selector"
+	settings_units_1_metric	Metric	Metric	"Part of ""Imperial/Metric/Toggle Units"" selector"
+	settings_units_2_toggle	Toggle Units	Toggle Units	"Part of ""Imperial/Metric/Toggle Units"" selector"
 units	3bd-8h-kcX.text	Units:	Units:	
 serving_sizes	eU6-je-hVN.text	Serving Sizes	Serving Sizes	
 types	YVI-sV-TDX.text	Types	Types	
@@ -419,9 +415,7 @@ about	qGY-wh-1gB.text	About	About
 servings	1HM-mL-ZV9.text	Servings	Servings	
 out_of		out of	out of	"Part of ""0 out of 24"""
 format_num_days		%d days	%d days	Formatted string %d days
-	cW5-dD-Zy0.text	100 days	100 days	
-twenty_one_tweaks	5po-De-kCi.text	21 Tweaks	21 Tweaks	
-	NPC-if-gUf.text	0 / 37	0 / 37	
+twenty_one_tweaks	tweak_entry_header	21 Tweaks	21 Tweaks	
 format_num_days	Vbn-R9-kuu.text	100 days	100 days	
 back_to_today	7XY-Lo-Hwf.normalTitle	Back to today	Back to today	
 back_to_today	Qfe-bW-SP4.normalTitle	 Back to today	Back to today	
@@ -429,7 +423,6 @@ back_to_today	OIQ-oh-3QN.normalTitle	 Back to today	 Back to today
 	OC8-wt-JgC.normalTitle	Today	Today	
 	iHh-5a-01X.normalTitle	Today	Today	
 	6FY-X2-BdZ.normalTitle	Today	Today	
-	W2v-Cp-vcd.text	Supplements	Supplements	
 	Ebp-Lw-fWk.normalTitle	Advanced Utilities		
 				
 	IFs-g0-SPV.headerTitle	Measurement Units		

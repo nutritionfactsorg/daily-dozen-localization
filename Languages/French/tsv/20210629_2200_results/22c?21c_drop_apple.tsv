@@ -10,13 +10,10 @@ key_droid	key_apple	base_value	lang_value	base_note
 	xcg-0a-oqY.normalTitle	VIDEOS	VIDEOS	
 	yct-Iw-M3s.text	Label	Label	
 	eU6-je-hVN.text	Serving Sizes	Serving Sizes	
-	1K3-d9-Hfb.normalTitle	METRIC	METRIC	
 	3bd-8h-kcX.text	Units:	Units:	
 	YVI-sV-TDX.text	Types	Types	
-	W2v-Cp-vcd.text	Supplements	Supplements	
 	1HM-mL-ZV9.text	Servings	Servings	
 	ERa-UT-Rni.text	0 / 24	0 / 24	
-	cW5-dD-Zy0.text	100 days	100 days	
 	qWl-8e-sO6.text	Label	Label	
 	27q-rq-qbu.text	Time Scale	Time Scale	
 	dld-jq-Etq.text	2017	2017	
@@ -48,9 +45,9 @@ key_droid	key_apple	base_value	lang_value	base_note
 	IFs-g0-SPV.headerTitle	Measurement Units	Measurement Units	
 	OZO-Xa-v5G.segmentTitles[0]	Daily Dozen Only	Daily Dozen Only	
 	OZO-Xa-v5G.segmentTitles[1]	Daily Dozen + 21 Tweaks	Daily Dozen + 21 Tweaks	
-	RLb-GV-4hh.segmentTitles[0]	Imperial	Imperial	
-	RLb-GV-4hh.segmentTitles[1]	Metric	Metric	
-	RLb-GV-4hh.segmentTitles[2]	Toggle Units	Toggle Units	
+	settings_units_0_imperial	Imperial	Imperial	
+	settings_units_1_metric	Metric	Metric	
+	settings_units_2_toggle	Toggle Units	Toggle Units	
 	WdR-XV-IyP.footerTitle	For health alone, use "Daily Dozen Only". For health and weight loss use "Daily Dozen + 21 Tweaks".	For health alone, use "Daily Dozen Only". For health and weight loss use "Daily Dozen + 21 Tweaks".	
 	WdR-XV-IyP.headerTitle	21 Tweaks Visibility	21 Tweaks Visibility	
 	XFw-2q-BdT.text	On	On	
@@ -59,14 +56,12 @@ key_droid	key_apple	base_value	lang_value	base_note
 	kR3-Sa-Fpt.text	Remind me at:	Remind me at:	
 	pjz-An-Ls5.text	Enable Reminders	Enable Reminders	
 	YVI-sV-TDA.text	Activity	Activity	
-	M75-CQ-NVP.normalTitle	METRIC	METRIC	
 	kho-9G-OWe.text	Units:	Units:	
 	YVI-sV-TDD.text	Description	Description	
 	6m3-hV-PBi.text	Negative Calorie Load	Negative Calorie Load	
 	OFE-S4-S9b.text	Label	Label	
 	dxC-TB-3hz.text	Label	Label	
-	5po-De-kCi.text	21 Tweaks	21 Tweaks	
-	NPC-if-gUf.text	0 / 37	0 / 37	
+	tweak_entry_header	21 Tweaks	21 Tweaks	
 	Vbn-R9-kuu.text	100 days	100 days	
 	YGb-Uj-J69.text	Label	Label	
 	5eb-qC-Ke5.text	2017	2017	

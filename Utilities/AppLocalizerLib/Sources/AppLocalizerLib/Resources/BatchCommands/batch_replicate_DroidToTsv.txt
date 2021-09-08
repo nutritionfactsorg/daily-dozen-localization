@@ -120,8 +120,8 @@ SOURCE_LANG_DROID="Russian/android/values-ru/strings.xml"
 DO_EXPORT_TSV
 
 
-##### ----- MIGRATED -----
 QUIT
+##### ----- MIGRATED -----
 
 #################
 ### French_fr ###

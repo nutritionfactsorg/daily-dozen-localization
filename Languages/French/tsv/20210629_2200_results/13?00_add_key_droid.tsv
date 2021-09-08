@@ -26,16 +26,9 @@ daily_dozen_challenge	info_webpage_daily_dozen_challenge	Daily Dozen Challenge	D
 	weight_entry_time	Time	Time	
 	weight_entry_time	Time	Time	
 	weight_history_edit_data	Edit Data	Edit Data	
-	1K3-d9-Hfb.normalTitle	METRIC	METRIC	
-	M75-CQ-NVP.normalTitle	METRIC	METRIC	
-	1K3-d9-Hfb.normalTitle	METRIC	METRIC	
-	M75-CQ-NVP.normalTitle	METRIC	METRIC	
-	RLb-GV-4hh.segmentTitles[0]	Imperial	Imperial	Part of "Imperial/Metric/Toggle Units" selector
-	RLb-GV-4hh.segmentTitles[1]	Metric	Metric	Part of "Imperial/Metric/Toggle Units" selector
-	RLb-GV-4hh.segmentTitles[2]	Toggle Units	Toggle Units	Part of "Imperial/Metric/Toggle Units" selector
-	cW5-dD-Zy0.text	100 days	100 days	
-	NPC-if-gUf.text	0 / 37	0 / 37	
-	W2v-Cp-vcd.text	Supplements	Supplements	
+	settings_units_0_imperial	Imperial	Imperial	Part of "Imperial/Metric/Toggle Units" selector
+	settings_units_1_metric	Metric	Metric	Part of "Imperial/Metric/Toggle Units" selector
+	settings_units_2_toggle	Toggle Units	Toggle Units	Part of "Imperial/Metric/Toggle Units" selector
 	Tgz-om-dEk.text	Weight (lbs)	Weight (lbs)	
 	8ed-5m-QMc.text	Weight (lbs)	Weight (lbs)	
 	nRL-iG-Wnd.text	Month	Month	
