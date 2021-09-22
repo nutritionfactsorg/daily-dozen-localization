@@ -37,6 +37,8 @@ struct BatchRunner {
         var inputTSV: [URL]?
         var outputDroid: URL?
         var outputApple: URL?
+        // Batch Normal Parameters
+        var inputXLIFF: URL?
         
         guard let commands = try? String(contentsOf: commandsUrl) else {
             fatalError("could not read commands")
@@ -65,6 +67,7 @@ struct BatchRunner {
                 sourceEnUSApple = nil
                 sourceLangApple = nil
                 inputTSV = nil
+                inputXLIFF = nil
                 outputDroid = nil
                 outputApple = nil
             } 
@@ -164,6 +167,17 @@ struct BatchRunner {
                              outputApple: outputApple)
                 } else {
                     print(":ERROR: BatchRunner run() missing SOURCE_TSV")
+                }
+            }
+            // Normal
+            else if cmd.key.hasPrefix("INPUT_XLIFF") {
+                inputXLIFF = cmd.url
+            }
+            else if cmd.key.hasPrefix("DO_NORMALIZE") {
+                if let inputXLIFF = inputXLIFF {
+                    BatchNormal.shared.doNormalize(inputXLIFF: inputXLIFF)
+                } else {
+                    print(":ERROR: DO_NORMALIZE some required url missing.")
                 }
             }
             // Quit

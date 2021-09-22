@@ -1,0 +1,207 @@
+INPUT_XLIFF="English_US/ios/en.xcloc/Localized Contents/en.xliff"
+DO_NORMALIZE
+CLEAR_ALL
+
+INPUT_XLIFF="Spanish/ios/es.xcloc/Localized Contents/es.xliff"
+DO_NORMALIZE
+CLEAR_ALL
+
+INPUT_XLIFF="Afrikaans/ios/af.xcloc/Localized Contents/af.xliff"
+DO_NORMALIZE
+CLEAR_ALL
+ 
+INPUT_XLIFF="Arabic/ios/ar.xcloc/Localized Contents/ar.xliff"
+DO_NORMALIZE
+CLEAR_ALL
+ 
+INPUT_XLIFF="Bulgarian/ios/bg.xcloc/Localized Contents/bg.xliff"
+DO_NORMALIZE
+CLEAR_ALL
+
+INPUT_XLIFF="Chinese_HongKong/ios/zh-HK.xcloc/Localized Contents/zh-HK.xliff"
+DO_NORMALIZE
+CLEAR_ALL
+ 
+INPUT_XLIFF="Chinese_Simplified/ios/zh-Hans.xcloc/Localized Contents/zh-Hans.xliff"
+DO_NORMALIZE
+CLEAR_ALL
+ 
+INPUT_XLIFF="Chinese_Traditional/ios/zh-Hant.xcloc/Localized Contents/zh-Hant.xliff"
+DO_NORMALIZE
+CLEAR_ALL
+ 
+INPUT_XLIFF="Czech/ios/cs.xcloc/Localized Contents/cs.xliff"
+DO_NORMALIZE
+CLEAR_ALL
+ 
+INPUT_XLIFF="Danish/ios/da.xcloc/Localized Contents/da.xliff"
+DO_NORMALIZE
+CLEAR_ALL
+ 
+INPUT_XLIFF="Dutch/ios/nl.xcloc/Localized Contents/nl.xliff"
+DO_NORMALIZE
+CLEAR_ALL
+ 
+INPUT_XLIFF="English_GB/ios/en-GB.xcloc/Localized Contents/en-GB.xliff"
+DO_NORMALIZE
+CLEAR_ALL
+  
+INPUT_XLIFF="Estonian/ios/et.xcloc/Localized Contents/et.xliff"
+DO_NORMALIZE
+CLEAR_ALL
+ 
+INPUT_XLIFF="Finnish/ios/fi.xcloc/Localized Contents/fi.xliff"
+DO_NORMALIZE
+CLEAR_ALL
+ 
+INPUT_XLIFF="French/ios/fr.xcloc/Localized Contents/fr.xliff"
+DO_NORMALIZE
+CLEAR_ALL
+ 
+INPUT_XLIFF="French/ios/fr_process_output.xcloc/Localized Contents/fr.20210629_2213.xliff"
+DO_NORMALIZE
+CLEAR_ALL
+ 
+INPUT_XLIFF="French/ios/fr_process_output.xcloc/Localized Contents/fr.xliff"
+DO_NORMALIZE
+CLEAR_ALL
+ 
+INPUT_XLIFF="French_Canada/ios/fr-CA.xcloc/Localized Contents/fr-CA.xliff"
+DO_NORMALIZE
+CLEAR_ALL
+ 
+INPUT_XLIFF="Georgian/ios/ka.xcloc/Localized Contents/ka.xliff"
+DO_NORMALIZE
+CLEAR_ALL
+ 
+INPUT_XLIFF="German/ios/de.xcloc/Localized Contents/de.xliff"
+DO_NORMALIZE
+CLEAR_ALL
+ 
+INPUT_XLIFF="Greek/ios/el.xcloc/Localized Contents/el.xliff"
+DO_NORMALIZE
+CLEAR_ALL
+ 
+INPUT_XLIFF="Hebrew/ios/he.xcloc/Localized Contents/he.xliff"
+DO_NORMALIZE
+CLEAR_ALL
+ 
+INPUT_XLIFF="Hindi/ios/hi.xcloc/Localized Contents/hi.xliff"
+DO_NORMALIZE
+CLEAR_ALL
+ 
+INPUT_XLIFF="Hungarian/ios/hu.xcloc/Localized Contents/hu.xliff"
+DO_NORMALIZE
+CLEAR_ALL
+ 
+INPUT_XLIFF="Italian/ios/it.xcloc/Localized Contents/it.xliff"
+DO_NORMALIZE
+CLEAR_ALL
+ 
+INPUT_XLIFF="Japanese/ios/ja.xcloc/Localized Contents/ja.xliff"
+DO_NORMALIZE
+CLEAR_ALL
+ 
+INPUT_XLIFF="Kannada/ios/kn.xcloc/Localized Contents/kn.xliff"
+DO_NORMALIZE
+CLEAR_ALL
+ 
+INPUT_XLIFF="Korean/ios/ko.xcloc/Localized Contents/ko.xliff"
+DO_NORMALIZE
+CLEAR_ALL
+ 
+INPUT_XLIFF="Lithuanian/ios/lt.xcloc/Localized Contents/lt.xliff"
+DO_NORMALIZE
+CLEAR_ALL
+ 
+INPUT_XLIFF="Mongolian/ios/mn.xcloc/Localized Contents/mn.xliff"
+DO_NORMALIZE
+CLEAR_ALL
+ 
+INPUT_XLIFF="Norwegian_nb/ios/nb.xcloc/Localized Contents/nb.xliff"
+DO_NORMALIZE
+CLEAR_ALL
+ 
+INPUT_XLIFF="Persian/ios/fa.xcloc/Localized Contents/fa.xliff"
+DO_NORMALIZE
+CLEAR_ALL
+ 
+INPUT_XLIFF="Polish/__LOCAL/v3.2.7/iOS/pl.20210210_1831.xliff"
+DO_NORMALIZE
+CLEAR_ALL
+ 
+INPUT_XLIFF="Polish/__LOCAL/v3.2.7/iOS/pl.20210217.master.xcloc/Localized Contents/pl.xliff"
+DO_NORMALIZE
+CLEAR_ALL
+ 
+INPUT_XLIFF="Polish/__LOCAL/v3.2.7/iOS/pl.20210227_2202.xcloc/Localized Contents/pl.xliff"
+DO_NORMALIZE
+CLEAR_ALL
+ 
+INPUT_XLIFF="Polish/__LOCAL/v3.2.7/iOS/pl.was.xcloc/Localized Contents/pl.xliff"
+DO_NORMALIZE
+CLEAR_ALL
+ 
+INPUT_XLIFF="Polish/__LOCAL/v3.2.7/iOS/pl.xcloc/Localized Contents/pl.xliff"
+DO_NORMALIZE
+CLEAR_ALL
+ 
+INPUT_XLIFF="Polish/__LOCAL/v3.2.9/pl.xcloc/Localized Contents/pl.xliff"
+DO_NORMALIZE
+CLEAR_ALL
+ 
+INPUT_XLIFF="Polish/ios/pl.xcloc/Localized Contents/pl.xliff"
+DO_NORMALIZE
+CLEAR_ALL
+ 
+INPUT_XLIFF="Portuguese/ios/pt.xcloc/Localized Contents/pt.xliff"
+DO_NORMALIZE
+CLEAR_ALL
+ 
+INPUT_XLIFF="Portuguese_Brazil/ios/pt-BR.xcloc/Localized Contents/pt-BR.xliff"
+DO_NORMALIZE
+CLEAR_ALL
+ 
+INPUT_XLIFF="Portuguese_Portugal/ios/pt-PT.xcloc/Localized Contents/pt-PT.xliff"
+DO_NORMALIZE
+CLEAR_ALL
+ 
+INPUT_XLIFF="Romanian/ios/ro.xcloc/Localized Contents/ro.xliff"
+DO_NORMALIZE
+CLEAR_ALL
+ 
+INPUT_XLIFF="Russian/ios/ru.xcloc/Localized Contents/ru.xliff"
+DO_NORMALIZE
+CLEAR_ALL
+ 
+INPUT_XLIFF="Serbian_Cyrillic/ios/sr.xcloc/Localized Contents/sr.xliff"
+DO_NORMALIZE
+CLEAR_ALL
+ 
+INPUT_XLIFF="Serbian_Latin/ios/sr-Latn.xcloc/Localized Contents/sr-Latn.xliff"
+DO_NORMALIZE
+CLEAR_ALL
+ 
+INPUT_XLIFF="Slovak/ios/sk.xcloc/Localized Contents/sk.xliff"
+DO_NORMALIZE
+CLEAR_ALL
+ 
+INPUT_XLIFF="Slovenian/ios/sl.xcloc/Localized Contents/sl.xliff"
+DO_NORMALIZE
+CLEAR_ALL
+
+INPUT_XLIFF="Swedish/ios/sv.xcloc/Localized Contents/sv.xliff"
+DO_NORMALIZE
+CLEAR_ALL
+ 
+INPUT_XLIFF="Thai/ios/th.xcloc/Localized Contents/th.xliff"
+DO_NORMALIZE
+CLEAR_ALL
+ 
+INPUT_XLIFF="Turkish/ios/tr.xcloc/Localized Contents/tr.xliff"
+DO_NORMALIZE
+CLEAR_ALL
+ 
+INPUT_XLIFF="Vietnamese/ios/vi.xcloc/Localized Contents/vi.xliff"
+DO_NORMALIZE
+CLEAR_ALL

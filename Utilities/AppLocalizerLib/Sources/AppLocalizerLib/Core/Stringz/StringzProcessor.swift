@@ -25,9 +25,13 @@ import Foundation
 struct StringzProcessor: TsvProtocol {
 
     var tsvRowList = TsvRowList()
-        
-    init() {
+    
+    init() {}
+    
+    init(tsvRowList: TsvRowList) {
+        self.tsvRowList = tsvRowList
     }
+    
     
     func parse(url: URL) {
         let lines = [String]()
@@ -42,5 +46,22 @@ struct StringzProcessor: TsvProtocol {
     // MARK: - Operations
 
     // MARK: - Output
-        
+
+    func toString() -> String {
+        var s = ""
+        let sortedList = tsvRowList.sorted()
+        for row in sortedList.data {
+            let comment = row.base_note
+            let key = row.key_apple
+            let value = row.lang_value
+            
+            s.append("/* \(comment) */\n")
+            s.append("\"\(key)\"=\"\(value)\";\n")
+            s.append("\n")
+        }
+        s.append("/* file end */\n")
+        s.append("\n")
+        return s
+    }
+    
 }

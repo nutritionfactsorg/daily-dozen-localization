@@ -2,8 +2,6 @@
 //  String.swift
 //  AppLocalizerLib
 //
-//  Created by marc on 2021.01.20.
-//
 
 import Foundation
 

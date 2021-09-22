@@ -48,7 +48,9 @@ var productsDir: URL {
 // ::WIP::
 // ___ Check en_US baseline: batch_diff_tsv_enUS.txt
 
-let BatchCommands = "batch_diff_tsv_enUS.txt"
+// ::WIP:: Normalize
+
+let BatchCommands = "batch_normal_all.txt"
 print("### \(BatchCommands) ###")
 
 // …/AppLocalizerLibTests.bundle/Resources/commands_*.txt

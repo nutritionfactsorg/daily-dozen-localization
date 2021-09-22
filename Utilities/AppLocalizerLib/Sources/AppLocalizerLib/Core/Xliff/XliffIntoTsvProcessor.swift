@@ -18,6 +18,7 @@ struct XliffIntoTsvProcessor: TsvProtocol {
         processXliffIntoTsv(element: rootXmlElement)
     }
         
+    /// Places Xliff key-values into the TsvRowList.
     mutating func processXliffIntoTsv(element: XMLElement) {
         //print(node.toStringNode())
         if let name = element.name,
@@ -35,7 +36,7 @@ struct XliffIntoTsvProcessor: TsvProtocol {
                     sourceValue = childNode.stringValue ?? ""
                 case "target":
                     targetValue = childNode.stringValue ?? ""              
-                case "base_note":
+                case "note":
                     noteValue = childNode.stringValue ?? ""
                 default:
                     break

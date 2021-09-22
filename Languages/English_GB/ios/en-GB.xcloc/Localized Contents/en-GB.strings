@@ -1,0 +1,503 @@
+/* Bundle name */
+"CFBundleName"="DailyDozen";
+
+/*  */
+"DailyDozen"="DailyDozen";
+
+/* Privacy - Health Share Usage Description */
+"NSHealthShareUsageDescription"="La función 21 Ajustes accede a sus datos de HealthKit para proporcionar actualizaciones a sus mediciones diarias de peso.";
+
+/* Privacy - Health Update Usage Description */
+"NSHealthUpdateUsageDescription"="La función 21 Ajustes puede escribir datos de peso en HealthKit para ayudarlo a realizar un seguimiento de su progreso.";
+
+/* ***** Daily Dozen ***** */
+"dozeBeans.heading"="Beans";
+
+/* display heading. */
+"dozeBerries.heading"="Berries";
+
+/* display heading */
+"dozeBeverages.heading"="Beverages";
+
+/* display heading */
+"dozeExercise.heading"="Exercise";
+
+/* display heading */
+"dozeFlaxseeds.heading"="Flaxseeds";
+
+/* display heading */
+"dozeFruitsOther.heading"="Other Fruits";
+
+/* display heading */
+"dozeGreens.heading"="Greens";
+
+/* display heading */
+"dozeNuts.heading"="Nuts and Seeds";
+
+/* Daily Dozen other info confirm */
+"dozeOtherInfo.confirm"="OK";
+
+/* Daily Dozen other info message */
+"dozeOtherInfo.message"="Vitamin B12 is essential for your health but does not count towards your daily servings.ⓃⓃVitamin B12 is included in this app to provide you with an easy way to track your intake.";
+
+/* ***** Daily Dozen Supplements ***** */
+"dozeOtherInfo.title"="Supplements";
+
+/* display heading */
+"dozeSpices.heading"="Herbs and Spices";
+
+/* display heading */
+"dozeVegetablesCruciferous.heading"="Cruciferous Vegetables";
+
+/* display heading */
+"dozeVegetablesOther.heading"="Other Vegetables";
+
+/* display heading */
+"dozeWholeGrains.heading"="Whole Grains";
+
+/* Records: Daily Tally */
+"historyRecord.movingMean"="Moving Average";
+
+/* Servings History */
+"historyRecordDoze.heading"="Servings History";
+
+/* Servings */
+"historyRecordDoze.legend"="Servings";
+
+/* Tweaks History */
+"historyRecordTweak.heading"="Tweaks History";
+
+/* Tweaks */
+"historyRecordTweak.legend"="Tweaks";
+
+/* Weight History */
+"historyRecordWeight.heading"="Weight History";
+
+/* Evening */
+"historyRecordWeight.legendEvening"="Evening";
+
+/* Morning */
+"historyRecordWeight.legendMorning"="Morning";
+
+/* Weight (lbs) */
+"historyRecordWeight.titleImperial"="Weight (lbs)";
+
+/* Weight (kg) */
+"historyRecordWeight.titleMetric"="Weight (kg)";
+
+/* Daily Dozen (proper noun) navigation tab */
+"navtab.doze"="Daily Dozen";
+
+/* More Information navigation tab */
+"navtab.info"="Info";
+
+/* Preferences (aka Settings, Configuration) navigation tab. Choose word different from 'Tweaks' translation */
+"navtab.preferences"="Settings";
+
+/* 21 Tweaks (proper noun) navigation tab */
+"navtab.tweaks"="21 Tweaks";
+
+/* display heading */
+"otherOmega3.heading"="Plant-based Omega 3s";
+
+/* ***** Daily Dozen Other ***** */
+"otherVitaminB12.heading"="Vitamin B12";
+
+/* display heading */
+"otherVitaminD.heading"="Vitamin D";
+
+/* streak days format */
+"streakDaysFormat"="%d days";
+
+/* display heading */
+"tweakCompleteIntentions.heading"="Complete Intentions";
+
+/* display heading */
+"tweakDailyBlackCumin.heading"="Black Cumin";
+
+/* display heading */
+"tweakDailyCumin.heading"="Cumin";
+
+/* display heading */
+"tweakDailyDeflourDiet.heading"="Deflour Diet";
+
+/* display heading */
+"tweakDailyFrontLoad.heading"="Front-load Calories";
+
+/* display heading */
+"tweakDailyGarlic.heading"="Garlic Powder";
+
+/* display heading */
+"tweakDailyGinger.heading"="Ginger or Cayenne";
+
+/* display heading */
+"tweakDailyGreenTea.heading"="Green Tea";
+
+/* display heading */
+"tweakDailyHydrate.heading"="Stay Hydrated";
+
+/* display heading */
+"tweakDailyNutriYeast.heading"="Nutritional Yeast";
+
+/* display heading */
+"tweakDailyTimeRestrict.heading"="Time-restrict Eating";
+
+/* display heading */
+"tweakExerciseTiming.heading"="Exercising Timing";
+
+/* display heading */
+"tweakMeal20Minutes.heading"="Twenty-minute Rule";
+
+/* display heading */
+"tweakMealNegCal.heading"="Negative Calorie Preload";
+
+/* display heading */
+"tweakMealUndistracted.heading"="Undistracted Meals";
+
+/* display heading */
+"tweakMealVinegar.heading"="Incorporate Vinegar";
+
+/* ***** 21 Tweaks ***** */
+"tweakMealWater.heading"="Preload Water";
+
+/* display heading */
+"tweakNightlyFast.heading"="Fast After 7:00 p.m.";
+
+/* display heading */
+"tweakNightlySleep.heading"="Sufficient Sleep";
+
+/* display heading */
+"tweakNightlyTrendelenbrug.heading"="Trendelenburg";
+
+/* display heading */
+"tweakWeightTwice.heading"="Weigh Twice Daily";
+
+/* Units toggle button text: imperial measurement system */
+"unitToggle.imperial"="IMPERIAL";
+
+/* Units toggle button text: metric measurement system */
+"unitToggle.metric"="METRIC";
+
+/* URL path */
+"urlSegment.base"="https://nutritionfacts.org/";
+
+/*  */
+"urlSegment.lang"="";
+
+/* main info menu: book */
+"urlSegmentInfoMenu.book"="book";
+
+/* main info menu: daily-dozen-challenge */
+"urlSegmentInfoMenu.challenge"="daily-dozen-challenge";
+
+/* main info menu: cookbook */
+"urlSegmentInfoMenu.cookbook"="cookbook";
+
+/* main info menu: how-not-to-diet */
+"urlSegmentInfoMenu.diet"="how-not-to-diet";
+
+/* main info menu: donate */
+"urlSegmentInfoMenu.donate"="donate";
+
+/* main info menu: open-source */
+"urlSegmentInfoMenu.source"="open-source";
+
+/* main info menu: subscribe */
+"urlSegmentInfoMenu.subscribe"="subscribe";
+
+/* team */
+"urlSegmentInfoMenu.team"="team";
+
+/* main info menu: videos */
+"urlSegmentInfoMenu.videos"="videos";
+
+/* Class = "UIButton"; normalTitle = "Daily Dozen +\n21 Tweaks"; ObjectID = "Lef-Iw-Ywr"; */
+"Lef-Iw-Ywr.normalTitle"="Daily Dozen +Ⓝ21 Tweaks";
+
+/* Class = "UILabel"; text = "For Health and Weight Loss"; ObjectID = "OdG-YQ-lT8"; */
+"OdG-YQ-lT8.text"="For Health and Weight Loss";
+
+/* Class = "UIButton"; normalTitle = "Daily Dozen Only"; ObjectID = "ReM-AP-Fpp"; */
+"ReM-AP-Fpp.normalTitle"="Daily Dozen Only";
+
+/* Class = "UILabel"; text = "For Health Alone"; ObjectID = "atR-un-jgX"; */
+"atR-un-jgX.text"="For Health Alone";
+
+/* Class = "UILabel"; text = "Beans"; ObjectID = "iJb-Vn-TS0"; */
+"iJb-Vn-TS0.text"="Beans";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "m5s-0r-St1"; */
+"m5s-0r-St1.text"="Label";
+
+/* Class = "UIButton"; normalTitle = "VIDEOS"; ObjectID = "xcg-0a-oqY"; */
+"xcg-0a-oqY.normalTitle"="VIDEOS";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "yct-Iw-M3s"; */
+"yct-Iw-M3s.text"="Label";
+
+/* Class = "UILabel"; text = "Serving Sizes"; ObjectID = "eU6-je-hVN"; */
+"eU6-je-hVN.text"="Serving Sizes";
+
+/* Class = "UIButton"; normalTitle = "METRIC"; ObjectID = "1K3-d9-Hfb"; */
+"1K3-d9-Hfb.normalTitle"="METRIC";
+
+/* Class = "UILabel"; text = "Units:"; ObjectID = "3bd-8h-kcX"; */
+"3bd-8h-kcX.text"="Units:";
+
+/* Class = "UILabel"; text = "Types"; ObjectID = "YVI-sV-TDX"; */
+"YVI-sV-TDX.text"="Types";
+
+/* Class = "UILabel"; text = "Supplements"; ObjectID = "W2v-Cp-vcd"; */
+"W2v-Cp-vcd.text"="Supplements";
+
+/* Class = "UILabel"; text = "Servings"; ObjectID = "1HM-mL-ZV9"; */
+"1HM-mL-ZV9.text"="Servings";
+
+/* Class = "UILabel"; text = "0 / 24"; ObjectID = "ERa-UT-Rni"; */
+"ERa-UT-Rni.text"="0 / 24";
+
+/* Class = "UILabel"; text = "100 days"; ObjectID = "cW5-dD-Zy0"; */
+"cW5-dD-Zy0.text"="100 days";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "qWl-8e-sO6"; */
+"qWl-8e-sO6.text"="Label";
+
+/* Class = "UIButton"; normalTitle = "Today"; ObjectID = "OC8-wt-JgC"; */
+"OC8-wt-JgC.normalTitle"="Today";
+
+/* Class = "UIButton"; normalTitle = "Back to today"; ObjectID = "Qfe-bW-SP4"; */
+"Qfe-bW-SP4.normalTitle"="Back to today";
+
+/* Class = "UILabel"; text = "Time Scale"; ObjectID = "27q-rq-qbu"; */
+"27q-rq-qbu.text"="Time Scale";
+
+/* Class = "UILabel"; text = "2017"; ObjectID = "dld-jq-Etq"; */
+"dld-jq-Etq.text"="2017";
+
+/* Class = "UILabel"; text = "Month"; ObjectID = "nRL-iG-Wnd"; */
+"nRL-iG-Wnd.text"="Month";
+
+/* Class = "UISegmentedControl"; sM6-A9-KeP.segmentTitles[0] = "Day"; ObjectID = "sM6-A9-KeP"; */
+"sM6-A9-KeP.segmentTitles[0]"="Day";
+
+/* Class = "UISegmentedControl"; sM6-A9-KeP.segmentTitles[1] = "Month"; ObjectID = "sM6-A9-KeP"; */
+"sM6-A9-KeP.segmentTitles[1]"="Month";
+
+/* Class = "UISegmentedControl"; sM6-A9-KeP.segmentTitles[2] = "Year"; ObjectID = "sM6-A9-KeP"; */
+"sM6-A9-KeP.segmentTitles[2]"="Year";
+
+/* Class = "UILabel"; text = "Welcome to my Daily Dozen!"; ObjectID = "19L-gq-W5M"; */
+"19L-gq-W5M.text"="Welcome to my Daily Dozen!";
+
+/* Class = "UILabel"; text = "Daily Dozen"; ObjectID = "DJR-bj-qUq"; */
+"DJR-bj-qUq.text"="Daily Dozen";
+
+/* Class = "UILabel"; text = "This app was created by: - NutritionFacts.org - Christi Richards - Konstantin Khokhlov - Marc Campbell"; ObjectID = "Zgt-w4-qQw"; */
+"Zgt-w4-qQw.text"="This app was created by: - NutritionFacts.org - Christi Richards - Konstantin Khokhlov - Marc Campbell";
+
+/* Class = "UILabel"; text = "Use this app on a daily basis to keep track of the foods and advice I recommend for optimal health and longevity in my books How Not to Die and How Not to Diet."; ObjectID = "dwQ-CS-gz3"; */
+"dwQ-CS-gz3.text"="Use this app on a daily basis to keep track of the foods and advice I recommend for optimal health and longevity in my books How Not to Die and How Not to Diet.";
+
+/* Class = "UILabel"; text = "version 3.2.1"; ObjectID = "gX5-vX-xBe"; */
+"gX5-vX-xBe.text"="version 3.2.1";
+
+/* Class = "UILabel"; text = "The following open source libraries are used: RealmSwift, Charts, FSCalendar, SimpleAnimation and ActiveLabel."; ObjectID = "pUm-f4-zm1"; */
+"pUm-f4-zm1.text"="The following open source libraries are used: RealmSwift, Charts, FSCalendar, SimpleAnimation and ActiveLabel.";
+
+/* Class = "UILabel"; text = "How Not to Die Cookbook"; ObjectID = "Cxo-5D-YUZ"; */
+"Cxo-5D-YUZ.text"="How Not to Die Cookbook";
+
+/* Class = "UILabel"; text = "How Not to Diet"; ObjectID = "MWr-7S-G8N"; */
+"MWr-7S-G8N.text"="How Not to Diet";
+
+/* Class = "UILabel"; text = "Daily Dozen Challenge"; ObjectID = "beF-Xl-TAq"; */
+"beF-Xl-TAq.text"="Daily Dozen Challenge";
+
+/* Class = "UILabel"; text = "Subscribe"; ObjectID = "dRO-1W-3EK"; */
+"dRO-1W-3EK.text"="Subscribe";
+
+/* Class = "UILabel"; text = "Donate"; ObjectID = "mqA-Vp-LZ7"; */
+"mqA-Vp-LZ7.text"="Donate";
+
+/* Class = "UILabel"; text = "About"; ObjectID = "qGY-wh-1gB"; */
+"qGY-wh-1gB.text"="About";
+
+/* Class = "UILabel"; text = "Open Source"; ObjectID = "qVR-SQ-jmS"; */
+"qVR-SQ-jmS.text"="Open Source";
+
+/* Class = "UILabel"; text = "Latest Videos"; ObjectID = "uxH-8I-ydF"; */
+"uxH-8I-ydF.text"="Latest Videos";
+
+/* Class = "UILabel"; text = "How Not to Die"; ObjectID = "zQy-Dn-WXM"; */
+"zQy-Dn-WXM.text"="How Not to Die";
+
+/* Class = "UILabel"; text = "All servings"; ObjectID = "S0Q-oB-VgE"; */
+"S0Q-oB-VgE.text"="All servings";
+
+/* Class = "UILabel"; text = "Some servings"; ObjectID = "jBv-4d-ofX"; */
+"jBv-4d-ofX.text"="Some servings";
+
+/* Class = "UILabel"; text = "History"; ObjectID = "sLd-Kq-bLv"; */
+"sLd-Kq-bLv.text"="History";
+
+/* Class = "UIButton"; normalTitle = "Advanced Utilities"; ObjectID = "Ebp-Lw-fWk"; */
+"Ebp-Lw-fWk.normalTitle"="Advanced Utilities";
+
+/* Class = "UITableViewSection"; headerTitle = "Daily Reminder"; ObjectID = "GiY-ao-2ee"; */
+"GiY-ao-2ee.headerTitle"="Daily Reminder";
+
+/* Class = "UITableViewSection"; footerTitle = "Set to always be one unit type or enable the 'Units:' toggle button."; ObjectID = "IFs-g0-SPV"; */
+"IFs-g0-SPV.footerTitle"="Set to always be one unit type or enable the 'Units:' toggle button.";
+
+/* Class = "UITableViewSection"; headerTitle = "Measurement Units"; ObjectID = "IFs-g0-SPV"; */
+"IFs-g0-SPV.headerTitle"="Measurement Units";
+
+/* Class = "UISegmentedControl"; OZO-Xa-v5G.segmentTitles[0] = "Daily Dozen Only"; ObjectID = "OZO-Xa-v5G"; */
+"OZO-Xa-v5G.segmentTitles[0]"="Daily Dozen Only";
+
+/* Class = "UISegmentedControl"; OZO-Xa-v5G.segmentTitles[1] = "Daily Dozen + Twenty-One Tweaks"; ObjectID = "OZO-Xa-v5G"; */
+"OZO-Xa-v5G.segmentTitles[1]"="Daily Dozen + Twenty-One Tweaks";
+
+/* Class = "UISegmentedControl"; RLb-GV-4hh.segmentTitles[0] = "Imperial"; ObjectID = "RLb-GV-4hh"; */
+"RLb-GV-4hh.segmentTitles[0]"="Imperial";
+
+/* Class = "UISegmentedControl"; RLb-GV-4hh.segmentTitles[1] = "Metric"; ObjectID = "RLb-GV-4hh"; */
+"RLb-GV-4hh.segmentTitles[1]"="Metric";
+
+/* Class = "UISegmentedControl"; RLb-GV-4hh.segmentTitles[2] = "Toggle Units"; ObjectID = "RLb-GV-4hh"; */
+"RLb-GV-4hh.segmentTitles[2]"="Toggle Units";
+
+/* Class = "UITableViewSection"; footerTitle = "For health alone, use \"Daily Dozen Only\". For health and weight loss use \"Daily Dozen + 21 Tweaks\"."; ObjectID = "WdR-XV-IyP"; */
+"WdR-XV-IyP.footerTitle"="For health alone, use "Daily Dozen Only". For health and weight loss use "Daily Dozen + 21 Tweaks".";
+
+/* Class = "UITableViewSection"; headerTitle = "21 Tweaks Visibility"; ObjectID = "WdR-XV-IyP"; */
+"WdR-XV-IyP.headerTitle"="21 Tweaks Visibility";
+
+/* Class = "UILabel"; text = "On"; ObjectID = "XFw-2q-BdT"; */
+"XFw-2q-BdT.text"="On";
+
+/* Class = "UILabel"; text = "Play Sound"; ObjectID = "YP6-dP-Y62"; */
+"YP6-dP-Y62.text"="Play Sound";
+
+/* Class = "UILabel"; text = "Enable Reminders"; ObjectID = "itH-G7-Kal"; */
+"itH-G7-Kal.text"="Enable Reminders";
+
+/* Class = "UILabel"; text = "Remind me at:"; ObjectID = "kR3-Sa-Fpt"; */
+"kR3-Sa-Fpt.text"="Remind me at:";
+
+/* Class = "UILabel"; text = "Enable Reminders"; ObjectID = "pjz-An-Ls5"; */
+"pjz-An-Ls5.text"="Enable Reminders";
+
+/* Class = "UILabel"; text = "Activity"; ObjectID = "YVI-sV-TDA"; */
+"YVI-sV-TDA.text"="Activity";
+
+/* Class = "UIButton"; normalTitle = "METRIC"; ObjectID = "M75-CQ-NVP"; */
+"M75-CQ-NVP.normalTitle"="METRIC";
+
+/* Class = "UILabel"; text = "Units:"; ObjectID = "kho-9G-OWe"; */
+"kho-9G-OWe.text"="Units:";
+
+/* Class = "UILabel"; text = "Description"; ObjectID = "YVI-sV-TDD"; */
+"YVI-sV-TDD.text"="Description";
+
+/* Class = "UILabel"; text = "Negative Calorie Load"; ObjectID = "6m3-hV-PBi"; */
+"6m3-hV-PBi.text"="Negative Calorie Load";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "OFE-S4-S9b"; */
+"OFE-S4-S9b.text"="Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "dxC-TB-3hz"; */
+"dxC-TB-3hz.text"="Label";
+
+/* Class = "UILabel"; text = "21 Tweaks"; ObjectID = "5po-De-kCi"; */
+"5po-De-kCi.text"="21 Tweaks";
+
+/* Class = "UILabel"; text = "0 / 37"; ObjectID = "NPC-if-gUf"; */
+"NPC-if-gUf.text"="0 / 37";
+
+/* Class = "UILabel"; text = "100 days"; ObjectID = "Vbn-R9-kuu"; */
+"Vbn-R9-kuu.text"="100 days";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "YGb-Uj-J69"; */
+"YGb-Uj-J69.text"="Label";
+
+/* Class = "UIButton"; normalTitle = "Back to today"; ObjectID = "7XY-Lo-Hwf"; */
+"7XY-Lo-Hwf.normalTitle"="Back to today";
+
+/* Class = "UIButton"; normalTitle = "Today"; ObjectID = "iHh-5a-01X"; */
+"iHh-5a-01X.normalTitle"="Today";
+
+/* Class = "UILabel"; text = "2017"; ObjectID = "5eb-qC-Ke5"; */
+"5eb-qC-Ke5.text"="2017";
+
+/* Class = "UILabel"; text = "Month"; ObjectID = "UCg-Rc-mLf"; */
+"UCg-Rc-mLf.text"="Month";
+
+/* Class = "UILabel"; text = "Time Scale"; ObjectID = "XdW-g4-ZUO"; */
+"XdW-g4-ZUO.text"="Time Scale";
+
+/* Class = "UISegmentedControl"; vXy-0q-Ind.segmentTitles[0] = "Day"; ObjectID = "vXy-0q-Ind"; */
+"vXy-0q-Ind.segmentTitles[0]"="Day";
+
+/* Class = "UISegmentedControl"; vXy-0q-Ind.segmentTitles[1] = "Month"; ObjectID = "vXy-0q-Ind"; */
+"vXy-0q-Ind.segmentTitles[1]"="Month";
+
+/* Class = "UISegmentedControl"; vXy-0q-Ind.segmentTitles[2] = "Year"; ObjectID = "vXy-0q-Ind"; */
+"vXy-0q-Ind.segmentTitles[2]"="Year";
+
+/* Class = "UIButton"; normalTitle = "Clear"; ObjectID = "7l0-os-Oqt"; */
+"7l0-os-Oqt.normalTitle"="Clear";
+
+/* Class = "UILabel"; text = "Evening (right before bed)"; ObjectID = "77g-xa-ali"; */
+"77g-xa-ali.text"="Evening (right before bed)";
+
+/* Class = "UILabel"; text = "Time"; ObjectID = "FBJ-Im-BZk"; */
+"FBJ-Im-BZk.text"="Time";
+
+/* Class = "UIButton"; normalTitle = "Clear"; ObjectID = "NRG-eE-YhG"; */
+"NRG-eE-YhG.normalTitle"="Clear";
+
+/* Class = "UILabel"; text = "lbs."; ObjectID = "Tgz-om-dEk"; */
+"Tgz-om-dEk.text"="lbs.";
+
+/* Class = "UILabel"; text = "Time "; ObjectID = "g3G-kp-d2S"; */
+"g3G-kp-d2S.text"="Time ";
+
+/* Class = "UILabel"; text = "Morning (upon waking)"; ObjectID = "xCp-N8-5Uc"; */
+"xCp-N8-5Uc.text"="Morning (upon waking)";
+
+/* Class = "UILabel"; text = "lbs."; ObjectID = "zV0-lA-zHj"; */
+"zV0-lA-zHj.text"="lbs.";
+
+/* Class = "UIButton"; normalTitle = "Today"; ObjectID = "6FY-X2-BdZ"; */
+"6FY-X2-BdZ.normalTitle"="Today";
+
+/* Class = "UIButton"; normalTitle = "Back to today"; ObjectID = "OIQ-oh-3QN"; */
+"OIQ-oh-3QN.normalTitle"="Back to today";
+
+/* Class = "UILabel"; text = "Weight (lbs)"; ObjectID = "8ed-5m-QMc"; */
+"8ed-5m-QMc.text"="Weight (lbs)";
+
+/* Class = "UILabel"; text = "2017"; ObjectID = "FTS-2y-Iil"; */
+"FTS-2y-Iil.text"="2017";
+
+/* Class = "UIButton"; normalTitle = "Edit Data"; ObjectID = "XYD-fX-adn"; */
+"XYD-fX-adn.normalTitle"="Edit Data";
+
+/* Class = "UISegmentedControl"; fcu-ZA-byN.segmentTitles[0] = "Day"; ObjectID = "fcu-ZA-byN"; */
+"fcu-ZA-byN.segmentTitles[0]"="Day";
+
+/* Class = "UISegmentedControl"; fcu-ZA-byN.segmentTitles[1] = "Month"; ObjectID = "fcu-ZA-byN"; */
+"fcu-ZA-byN.segmentTitles[1]"="Month";
+
+/* Class = "UISegmentedControl"; fcu-ZA-byN.segmentTitles[2] = "Year"; ObjectID = "fcu-ZA-byN"; */
+"fcu-ZA-byN.segmentTitles[2]"="Year";
+
+/* Class = "UILabel"; text = "Month"; ObjectID = "lTR-i5-Tn0"; */
+"lTR-i5-Tn0.text"="Month";
+
+/* Class = "UILabel"; text = "Time Scale"; ObjectID = "v2E-Ao-OVz"; */
+"v2E-Ao-OVz.text"="Time Scale";
+
+/* file end */
+
