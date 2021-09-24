@@ -534,7 +534,4 @@ yes		Yes	Tak
 	FBJ-Im-BZk.text	Time	Czas	
 	g3G-kp-d2S.text	Time	Czas	
 	settings_units_2_toggle	Toggle Units	Zmień jednostki	"Part of ""Imperial/Metric/Toggle Units"" selector"
-	8ed-5m-QMc.text	Weight (lbs)	Waga (funt)	There is no point in showing weight in lbs. in Polish translation - in Poland it is used the metric system.
-	Tgz-om-dEk.text	Weight (lbs)	Waga (funt)	There is no point in showing weight in lbs. in Polish translation - in Poland it is used the metric system.
-	8ed-5m-QMc.text	Weight (lbs.)	Waga (funt)	There is no point in showing weight in lbs. in Polish translation - in Poland it is used the metric system.
 	gX5-vX-xBe.text	version 3.2.7	wersja 3.2.7	Application release version

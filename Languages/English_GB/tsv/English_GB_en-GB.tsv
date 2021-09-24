@@ -445,8 +445,6 @@ vibrate	reminder.settings.vibrate	Vibrate	Vibrate	Android notification `vibrate`
 play_sound	YP6-dP-Y62.text	Play Sound	Play Sound	
 	NRG-eE-YhG.normalTitle	Clear	Clear	
 	7l0-os-Oqt.normalTitle	Clear	Clear	
-	Tgz-om-dEk.text	Weight (lbs)	Weight (lbs)	
-	8ed-5m-QMc.text	Weight (lbs)	Weight (lbs)	
 	FBJ-Im-BZk.text	Time	Time	
 	g3G-kp-d2S.text	Time	Time	
 	xCp-N8-5Uc.text	Morning (upon waking)	Morning (upon waking)	
@@ -454,9 +452,6 @@ play_sound	YP6-dP-Y62.text	Play Sound	Play Sound
 time_scale	27q-rq-qbu.text	Time Scale	Time Scale	
 time_scale	XdW-g4-ZUO.text	Time Scale	Time Scale	
 time_scale	v2E-Ao-OVz.text	Time Scale	Time Scale	
-	nRL-iG-Wnd.text	Month	Month	
-	UCg-Rc-mLf.text	Month	Month	
-	lTR-i5-Tn0.text	Month	Month	
 servings_time_scale_choices[0]	sM6-A9-KeP.segmentTitles[0]	Day	Day	Calendar view scale control
 servings_time_scale_choices[1]	sM6-A9-KeP.segmentTitles[1]	Month	Month	Calendar view scale control
 servings_time_scale_choices[2]	sM6-A9-KeP.segmentTitles[2]	Year	Year	Calendar view scale control
@@ -466,7 +461,6 @@ servings_time_scale_choices[2]	vXy-0q-Ind.segmentTitles[2]	Year	Year	Calendar vi
 servings_time_scale_choices[0]	fcu-ZA-byN.segmentTitles[0]	Day	Day	Calendar view scale control
 servings_time_scale_choices[1]	fcu-ZA-byN.segmentTitles[1]	Month	Month	Calendar view scale control
 servings_time_scale_choices[2]	fcu-ZA-byN.segmentTitles[2]	Year	Year	Calendar view scale control
-	8ed-5m-QMc.text	Weight (lbs.)	Weight (lbs.)	
 	XYD-fX-adn.normalTitle	Edit Data	Edit Data	
 	NSHealthShareUsageDescription	The 21 Tweaks feature accesses your HealthKit data to provide updates to your daily weight measurements.	The 21 Tweaks feature accesses your HealthKit data to provide updates to your daily weight measurements.	
 	NSHealthUpdateUsageDescription	The 21 Tweaks feature can write weight data to HealthKit to help you keep track of your progress.	The 21 Tweaks feature can write weight data to HealthKit to help you keep track of your progress.	
