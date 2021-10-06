@@ -4,17 +4,17 @@
 ### UPDATE DIFF ###
 ###################
 DIFF_TSV_A="German/tsv/German_de.combo.tsv"
-DIFF_TSV_B="German/tsv/German_de_20210126.tsv"
+DIFF_TSV_B="German/tsv/German_de.20210126.tsv"
 DO_DIFF_KEYS
 CLEAR_ALL
 
 
-# German_de_appstore.updated.tsv
-# German_de_appstore.tsv
+# German_de.appstore.updated.tsv
+# German_de.appstore.tsv
 
 # German_de.tsv
 # German_de.additions.tsv
 ## German_de.tsv + German_de.additions.tsv
 # German/tsv/German_de.combo.tsv
 
-# German_de_20210126.tsv
+# German_de.20210126.tsv

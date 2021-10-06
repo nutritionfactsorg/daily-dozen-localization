@@ -8,9 +8,9 @@ import Foundation
 struct BatchRunner {
 
     // Batch Commands File URL
-    let commandsUrl: URL
-    let languagesUrl: URL
-    let mappingsUrl: URL // currently not used
+    let commandsUrl: URL   // …/SCRIPT_BEING_EXECUTED.txt
+    let languagesUrl: URL  // …/Languages
+    let mappingsUrl: URL   // currently not used
     
     init(commandsUrl: URL, languagesUrl: URL, mappingsUrl: URL) {
         self.commandsUrl = commandsUrl
@@ -34,11 +34,13 @@ struct BatchRunner {
         var sourceEnUSApple: URL?
         var sourceLangApple: URL?
         // Batch Import Parameters
-        var inputTSV: [URL]?
+        var sourceTSV: [URL]?  // Batch: import, normal
         var outputDroid: URL?
         var outputApple: URL?
         // Batch Normal Parameters
-        var inputXLIFF: URL?
+        var sourceStrings: [URL]?   // Batch: normal
+        var sourceXLIFF: URL?     // Batch: normal
+        var outputNormalDir: URL? // Batch: normal
         
         guard let commands = try? String(contentsOf: commandsUrl) else {
             fatalError("could not read commands")
@@ -47,11 +49,11 @@ struct BatchRunner {
         let lines = commands.components(separatedBy: CharacterSet.newlines)
         
         for l in lines {
-            guard let cmd = parseCommandLine(l) else { continue }
-            //print("cmd `\(cmd.key)` \(cmd.url?.absoluteString ?? "nil")")
+            guard let command = parseCommandLine(l) else { continue }
+            //print("cmd `\(command.cmdKey)` \(cmd.cmdUrl?.absoluteString ?? "nil")")
             
             // Clear
-            if cmd.key.hasPrefix("CLEAR_ALL") {
+            if command.cmdKey.hasPrefix("CLEAR_ALL") {
                 BatchExport.shared.clearAll()
                 BatchImport.shared.clearAll()
                 diffTsvA = nil
@@ -66,14 +68,16 @@ struct BatchRunner {
                 sourceLangDroid = nil
                 sourceEnUSApple = nil
                 sourceLangApple = nil
-                inputTSV = nil
-                inputXLIFF = nil
+                sourceStrings = nil
+                sourceTSV = nil
+                sourceXLIFF = nil
                 outputDroid = nil
                 outputApple = nil
+                outputNormalDir = nil
             } 
             // Diff
-            else if cmd.key.hasPrefix("DIFF_TSV_A") {
-                if let url = cmd.url {
+            else if command.cmdKey.hasPrefix("DIFF_TSV_A") {
+                if let url = command.cmdUrl {
                     if diffTsvA == nil {
                         diffTsvA = [url]
                     } else {
@@ -81,8 +85,8 @@ struct BatchRunner {
                     } 
                 }
             }             
-            else if cmd.key.hasPrefix("DIFF_TSV_B") {
-                if let url = cmd.url {
+            else if command.cmdKey.hasPrefix("DIFF_TSV_B") {
+                if let url = command.cmdUrl {
                     if diffTsvB == nil {
                         diffTsvB = [url]
                     } else {
@@ -90,41 +94,41 @@ struct BatchRunner {
                     } 
                 }
             }             
-            else if cmd.key.hasPrefix("DIFF_XML_A") {
-                diffXmlA = cmd.url
+            else if command.cmdKey.hasPrefix("DIFF_XML_A") {
+                diffXmlA = command.cmdUrl
             }             
-            else if cmd.key.hasPrefix("DIFF_XML_B") {
-                diffXmlB = cmd.url
+            else if command.cmdKey.hasPrefix("DIFF_XML_B") {
+                diffXmlB = command.cmdUrl
             }             
-            else if cmd.key.hasPrefix("DIFF_XLIFF_A") {
-                diffXliffA = cmd.url
+            else if command.cmdKey.hasPrefix("DIFF_XLIFF_A") {
+                diffXliffA = command.cmdUrl
             }             
-            else if cmd.key.hasPrefix("DIFF_XLIFF_B") {
-                diffXliffB = cmd.url
+            else if command.cmdKey.hasPrefix("DIFF_XLIFF_B") {
+                diffXliffB = command.cmdUrl
             }             
-            else if cmd.key.hasPrefix("DO_DIFF_KEYS") {
+            else if command.cmdKey.hasPrefix("DO_DIFF_KEYS") {
                 BatchDiff.shared.doDiffKeys(tsvUrlListA: diffTsvA, tsvUrlListB: diffTsvB, xmlUrlA: diffXmlA, xmlUrlB: diffXmlB, xliffUrlA: diffXliffA, xliffUrlB: diffXliffB)
             }             
             // Export
-            else if cmd.key.hasPrefix("OUTPUT_LANG_TSV") {
-                outputLangTsv = cmd.url
+            else if command.cmdKey.hasPrefix("OUTPUT_LANG_TSV") {
+                outputLangTsv = command.cmdUrl
             } 
-            else if cmd.key.hasPrefix("SOURCE_ENUS_TSV") {
-                sourceEnUSTsv = cmd.url
+            else if command.cmdKey.hasPrefix("SOURCE_ENUS_TSV") {
+                sourceEnUSTsv = command.cmdUrl
             } 
-            else if cmd.key.hasPrefix("SOURCE_ENUS_DROID") {
-                sourceEnUSDroid = cmd.url
+            else if command.cmdKey.hasPrefix("SOURCE_ENUS_DROID") {
+                sourceEnUSDroid = command.cmdUrl
             }
-            else if cmd.key.hasPrefix("SOURCE_LANG_DROID") {
-                sourceLangDroid = cmd.url
+            else if command.cmdKey.hasPrefix("SOURCE_LANG_DROID") {
+                sourceLangDroid = command.cmdUrl
             } 
-            else if cmd.key.hasPrefix("SOURCE_ENUS_APPLE") {
-                sourceEnUSApple = cmd.url
+            else if command.cmdKey.hasPrefix("SOURCE_ENUS_APPLE") {
+                sourceEnUSApple = command.cmdUrl
             } 
-            else if cmd.key.hasPrefix("SOURCE_LANG_APPLE") {
-                sourceLangApple = cmd.url
+            else if command.cmdKey.hasPrefix("SOURCE_LANG_APPLE") {
+                sourceLangApple = command.cmdUrl
             } 
-            else if cmd.key.hasPrefix("DO_EXPORT_TSV") {
+            else if command.cmdKey.hasPrefix("DO_EXPORT_TSV") {
                 if 
                     let outputLangTsv = outputLangTsv,
                     let sourceEnUSTsv = sourceEnUSTsv,
@@ -145,49 +149,73 @@ struct BatchRunner {
                     print(":ERROR: DO_EXPORT_TSV some required url missing.")
                 }
             } 
-            // Import
-            else if cmd.key.hasPrefix("SOURCE_TSV") {
-                if let url = cmd.url {
-                    if inputTSV == nil {
-                        inputTSV = [URL]()
+            else if command.cmdKey.hasPrefix("SOURCE_STRINGS") {
+                if let url = command.cmdUrl {
+                    if sourceStrings == nil {
+                        sourceStrings = [URL]()
                     }
-                    inputTSV?.append(url)
+                    sourceStrings?.append(url)
+                }
+            }
+            else if command.cmdKey.hasPrefix("SOURCE_TSV") {
+                if let url = command.cmdUrl {
+                    if sourceTSV == nil {
+                        sourceTSV = [URL]()
+                    }
+                    sourceTSV?.append(url)
                 }
             } 
-            else if cmd.key.hasPrefix("OUTPUT_DROID") {
-                outputDroid = cmd.url
+            else if command.cmdKey.hasPrefix("SOURCE_XLIFF") {
+                sourceXLIFF = command.cmdUrl
+            }
+            else if command.cmdKey.hasPrefix("OUTPUT_APPLE") {
+                outputApple = command.cmdUrl
             } 
-            else if cmd.key.hasPrefix("OUTPUT_APPLE") {
-                outputApple = cmd.url
+            else if command.cmdKey.hasPrefix("OUTPUT_DROID") {
+                outputDroid = command.cmdUrl
             } 
-            else if cmd.key.hasPrefix("DO_IMPORT_TSV") {
-                if let inputTSV = inputTSV {
-                    BatchImport.shared.doImport(inputTSV: inputTSV, 
+            else if command.cmdKey.hasPrefix("OUTPUT_NORMAL_DIRNAME") {
+                // dirname used inside "…/_Normal__LOCAL/"  
+                outputNormalDir = command.cmdUrl
+            }
+            else if command.cmdKey.hasPrefix("DO_IMPORT_TSV") {
+                if let sourceTSV = sourceTSV {
+                    BatchImport.shared.doImport(sourceTSV: sourceTSV, 
                              outputAndroid: outputDroid, 
                              outputApple: outputApple)
                 } else {
                     print(":ERROR: BatchRunner run() missing SOURCE_TSV")
                 }
             }
-            // Normal
-            else if cmd.key.hasPrefix("INPUT_XLIFF") {
-                inputXLIFF = cmd.url
-            }
-            else if cmd.key.hasPrefix("DO_NORMALIZE") {
-                if let inputXLIFF = inputXLIFF {
-                    BatchNormal.shared.doNormalize(inputXLIFF: inputXLIFF)
-                } else {
-                    print(":ERROR: DO_NORMALIZE some required url missing.")
+            else if command.cmdKey.hasPrefix("DO_NORMAL_STRINGS") {
+                guard 
+                    let outputNormalDir = outputNormalDir,
+                    (sourceStrings != nil || sourceTSV != nil || sourceXLIFF != nil)
+                else {
+                    print(":ERROR: DO_NORMAL_STRINGS missing required url(s)")
+                    continue
+                }
+                if let source = sourceStrings {
+                    BatchNormal.shared.doNormalize(sourceStrings: source, dir: outputNormalDir)
+                    sourceStrings = nil
+                }
+                if let source = sourceTSV {
+                    BatchNormal.shared.doNormalize(sourceTSV: source, dir: outputNormalDir)
+                    sourceTSV = nil
+                }
+                if let source = sourceXLIFF {
+                    BatchNormal.shared.doNormalize(sourceXLIFF: source, dir: outputNormalDir)
+                    sourceXLIFF = nil
                 }
             }
             // Quit
-            else if cmd.key.hasPrefix("QUIT") {
-                return
+            else if command.cmdKey.hasPrefix("QUIT") {
+                return // exit loop and run()
             }
         }
     }
     
-    private func parseCommandLine(_ line: String) -> (key: String, url: URL?)? {
+    private func parseCommandLine(_ line: String) -> (cmdKey: String, cmdUrl: URL?)? {
         let line = line.trimmingCharacters(in: CharacterSet.whitespaces)
         if line.isEmpty { return nil }
         if line.prefix(1) == "#" { return nil }
@@ -199,7 +227,7 @@ struct BatchRunner {
         var cmdValue = ""
         
         if parts.count == 1 {
-            return (cmdKey, nil)
+            return (cmdKey: cmdKey, cmdUrl: nil)
         } 
         else if parts.count == 2 {
             cmdValue = parts[1].trimmingCharacters(in: CharacterSet.whitespaces)
@@ -209,11 +237,33 @@ struct BatchRunner {
             }  
             cmdValue = String(parts[1].dropFirst().dropLast())
             if cmdValue.isEmpty {
-                return (cmdKey, nil)                
-            }
-            else {
+                return (cmdKey: cmdKey, cmdUrl: nil)                
+            } else if cmdKey == "OUTPUT_NORMAL_DIRNAME" {
+                let cmdUrl = languagesUrl
+                    .deletingLastPathComponent() // Languages
+                    .appendingPathComponent("_Normal__LOCAL")
+                    .appendingPathComponent(cmdValue, isDirectory: true)
+                return (cmdKey: cmdKey, cmdUrl: cmdUrl) 
+            } else if cmdKey == "SOURCE_STRINGS" {
+                // Prerequisite: Development git repositories at same directory level.
+                //               This level is used for relative path resolution.
+                //               The path segment delimiter is `/`
+                
+                // relative to …/Languages
+                var cmdUrl = languagesUrl
+                    .deletingLastPathComponent() // Languages (in daily-dozen-localization)
+                    .deletingLastPathComponent() // daily-dozen-localization
+                let pathSegments = cmdValue.components(separatedBy: "/")
+                var i = 0
+                while i < (pathSegments.count - 1) {
+                    cmdUrl.appendPathComponent(pathSegments[i])
+                    i += 1
+                }
+                cmdUrl.appendPathComponent(pathSegments[i], isDirectory: false)
+                return (cmdKey: cmdKey, cmdUrl: cmdUrl) 
+            } else {
                 let cmdUrl = languagesUrl.appendingPathComponent(cmdValue)
-                return (cmdKey, cmdUrl)                
+                return (cmdKey: cmdKey, cmdUrl: cmdUrl)                
             }
         }
         else { // parts.count > 2

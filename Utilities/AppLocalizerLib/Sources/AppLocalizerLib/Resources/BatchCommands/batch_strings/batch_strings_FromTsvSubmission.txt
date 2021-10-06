@@ -1,0 +1,23 @@
+### FILE: batch_strings_FromTsvSubmission.txt
+### WORKFLOW:  `*.strings` content based `*.tsv`
+### SCOPE: all planned languages
+###
+
+OUTPUT_NORMAL_DIRNAME="StringsViaTsvSubmission"
+
+SOURCE_TSV="Hebrew/tsv/Hebrew_he.submission.tsv"
+DO_NORMAL_STRINGS
+
+#SOURCE_TSV="Hebrew/tsv/Hebrew_he.tsv"
+#SOURCE_TSV="Hebrew/tsv/Hebrew_he.additions.tsv"
+#DO_NORMAL_STRINGS
+
+SOURCE_TSV="Portuguese/tsv/Portuguese_pt.submission.tsv"
+DO_NORMAL_STRINGS
+
+#SOURCE_TSV="Portuguese/tsv/Portuguese_pt.tsv"
+#SOURCE_TSV="Portuguese/tsv/Portuguese_pt.additions.tsv"
+#DO_NORMAL_STRINGS
+
+### ALL DONE
+QUIT

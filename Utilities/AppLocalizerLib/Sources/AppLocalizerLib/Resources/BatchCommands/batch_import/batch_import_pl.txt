@@ -5,8 +5,8 @@
 ### IMPORT TRANSLATION ###
 ##########################
 SOURCE_TSV="Polish/tsv/Polish_pl.tsv"
-SOURCE_TSV="Polish/tsv/Polish_pl_appstore.tsv"
-#SOURCE_TSV="Polish/tsv/Polish_pl_additions.tsv"
+SOURCE_TSV="Polish/tsv/Polish_pl.appstore.tsv"
+#SOURCE_TSV="Polish/tsv/Polish_pl.additions.tsv"
 OUTPUT_DROID="Polish/android/values-pl/strings.xml"    
 OUTPUT_APPLE="Polish/ios/pl.xcloc/Localized Contents/pl.xliff"   
 DO_IMPORT_TSV

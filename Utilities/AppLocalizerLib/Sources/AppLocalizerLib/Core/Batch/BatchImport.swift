@@ -22,19 +22,19 @@ struct BatchImport {
     }
     
     mutating func doImport(
-        inputTSV: [URL], 
+        sourceTSV: [URL], 
         outputAndroid: URL?, 
         outputApple: URL?
     ) {
         print("""
         ### DO_IMPORT_TSV doImport() ###
-               inputTSV = \(inputTSV)
+               inputTSV = \(sourceTSV)
           outputAndroid = \(outputAndroid?.absoluteString ?? "nil")
             outputApple = \(outputApple?.absoluteString ?? "nil")
         """)
         
         // 1. TSV Input File
-        _tsvImportSheet = TsvSheet(urlList: inputTSV, loglevel: .info)
+        _tsvImportSheet = TsvSheet(urlList: sourceTSV, loglevel: .info)
         
         // 2. Process Apple JSON Files
         if let appleXmlUrl = outputApple {

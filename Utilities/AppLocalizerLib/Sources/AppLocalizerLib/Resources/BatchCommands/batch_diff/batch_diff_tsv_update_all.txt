@@ -40,7 +40,7 @@ CLEAR_ALL
 ### UPDATE DIFF ###
 ###################
 DIFF_TSV_A="English_US/tsv/English_US_en.20210309.tsv"
-DIFF_TSV_B="Chinese_HongKong/tsv/Chinese_HongKong_zh_HK.tsv"
+DIFF_TSV_B="Chinese_HongKong/tsv/Chinese_HongKong_zh-HK.tsv"
 DO_DIFF_KEYS
 CLEAR_ALL
 
@@ -48,7 +48,7 @@ CLEAR_ALL
 ### UPDATE DIFF ###
 ###################
 DIFF_TSV_A="English_US/tsv/English_US_en.20210309.tsv"
-DIFF_TSV_B="Chinese_Simplified/tsv/Chinese_Simplified_zh_Hans.tsv"
+DIFF_TSV_B="Chinese_Simplified/tsv/Chinese_Simplified_zh-Hans.tsv"
 DO_DIFF_KEYS
 CLEAR_ALL
 
@@ -56,7 +56,7 @@ CLEAR_ALL
 ### UPDATE DIFF ###
 ###################
 DIFF_TSV_A="English_US/tsv/English_US_en.20210309.tsv"
-DIFF_TSV_B="Chinese_Traditional/tsv/Chinese_Traditional_zh_Hant.tsv"
+DIFF_TSV_B="Chinese_Traditional/tsv/Chinese_Traditional_zh-Hant.tsv"
 DO_DIFF_KEYS
 CLEAR_ALL
 
@@ -120,7 +120,7 @@ CLEAR_ALL
 ### UPDATE DIFF ###
 ###################
 DIFF_TSV_A="English_US/tsv/English_US_en.20210309.tsv"
-DIFF_TSV_B="French_Canada/tsv/French_Canada_fr_CA.tsv"
+DIFF_TSV_B="French_Canada/tsv/French_Canada_fr-CA.tsv"
 DO_DIFF_KEYS
 CLEAR_ALL
 

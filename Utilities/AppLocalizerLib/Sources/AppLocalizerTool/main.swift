@@ -50,17 +50,36 @@ var productsDir: URL {
 
 // ::WIP:: Normalize
 
-let BatchCommands = "batch_normal_all.txt"
+// --- NORMALIZE: app strings -> normalized strings
+//let BatchSubdir = "batch_strings"
+//let BatchCommands = "batch_strings_FromStringsLang.txt"
+//let BatchCommands = "batch_strings_FromStringsMain.txt"
+
+// --- NORMALIZE: tsv -> strings
+//let BatchSubdir = "batch_strings"
+//let BatchCommands = "batch_strings_FromTsv.txt"
+
+// --- NORMALIZE: xliff -> strings ---
+//let BatchSubdir = "batch_strings"
+//let BatchCommands = "batch_strings_FromXliff.txt"
+
+// --- SUBMISSIONS: Hebrew (he), Portuguese (pt)
+let BatchSubdir = "batch_strings"
+let BatchCommands = "batch_strings_FromTsvSubmission.txt"
+
 print("### \(BatchCommands) ###")
 
 // …/AppLocalizerLibTests.bundle/Resources/commands_*.txt
 // Content: batch commands file
 ///…/Debug/AppLocalizerLib_AppLocalizerLib.bundle/Contents/Resources/BatchCommands
-let commandsDir = productsDir
+var commandsDir = productsDir
     .appendingPathComponent("AppLocalizerLib_AppLocalizerLib.bundle")
     .appendingPathComponent("Contents", isDirectory: true)
     .appendingPathComponent("Resources", isDirectory: true)
     .appendingPathComponent("BatchCommands", isDirectory: true)
+if BatchSubdir.isEmpty == false {
+    commandsDir.appendPathComponent(BatchSubdir, isDirectory: true)
+}
 let commandsFile = commandsDir
     .appendingPathComponent(BatchCommands, isDirectory: false)
 print("commandsDir=\(commandsDir.absoluteString)")

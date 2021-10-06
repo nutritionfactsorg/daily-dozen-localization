@@ -27,5 +27,3 @@ SOURCE_LANG_APPLE="English_US/ios/en.xcloc/Localized Contents/en.xliff"
 SOURCE_enUS_DROID="English_US/android/values/strings.xml"
 SOURCE_LANG_DROID="English_US/android/values/strings.xml"
 DO_EXPORT_TSV
-
-

@@ -1,0 +1,479 @@
+key_droid	key_apple	base_value	lang_value	base_comment
+other_vegetables	dozeVegetablesOther	Other Vegetables	ירקות אחרים	
+flaxseeds	dozeFlaxseeds	Flaxseeds	זרעי פשתן	
+spices	dozeSpices	Herbs and Spices	צמחי מרפא ותבלינים	
+berries	dozeBerries	Berries	גרגרי יער	
+cruciferous_vegetables	dozeVegetablesCruciferous	Cruciferous Vegetables	ירקות מצליבים	
+exercise	dozeExercise	Exercise	ספורט	
+beverages	dozeBeverages	Beverages	משקאות קלים	
+other_fruits	dozeFruitsOther	Other Fruits	פירות אחרים	
+greens	dozeGreens	Greens	ירקות ירוקים	
+nuts	dozeNuts	Nuts and Seeds	אגוזים וזרעים	
+beans	dozeBeans	Beans	שעועית	
+whole_grains	dozeWholeGrains	Whole Grains	דגנים מלאים	
+vitamin_b12	otherVitaminB12	Vitamin B12	ויטמין B12	
+food_info_serving_sizes_exercise[imperial][0]	dozeExerciseServing[imperial][0]	90 minutes of moderate-intensity activity	90 דקות פעילות בעצימות בינונית	
+food_info_serving_sizes_exercise[metric][0]	dozeExerciseServing[metric][0]	90 minutes of moderate-intensity activity	90 דקות פעילות בעצימות בינונית	
+food_info_serving_sizes_exercise[imperial][1]	dozeExerciseServing[imperial][1]	40 minutes of vigorous-intensity activity	40 דקות פעילות בעצימות גבוהה	
+food_info_serving_sizes_exercise[metric][1]	dozeExerciseServing[metric][1]	40 minutes of vigorous-intensity activity	40 דקות פעילות בעצימות גבוהה	
+food_info_serving_sizes_other_vegetables[imperial][0]	dozeVegetablesOtherServing[imperial][0]	1 cup raw leafy vegetables	כוס ירקות עליים טריים	
+food_info_serving_sizes_other_vegetables[metric][0]	dozeVegetablesOtherServing[metric][0]	60 g raw leafy vegetables	60 גרם ירקות עליים טריים	
+food_info_serving_sizes_other_vegetables[imperial][1]	dozeVegetablesOtherServing[imperial][1]	½ cup raw or cooked nonleafy vegetables	1/2 כוס ירקות לא עליים טריים או מבושלים 	
+food_info_serving_sizes_other_vegetables[metric][1]	dozeVegetablesOtherServing[metric][1]	50 g raw or cooked nonleafy vegetables	50 גרם ירקות לא עליים טריים או מבושלים	
+food_info_serving_sizes_other_vegetables[imperial][2]	dozeVegetablesOtherServing[imperial][2]	½ cup vegetable juice	1/2 כוס מיץ ירקות	
+food_info_serving_sizes_other_vegetables[metric][2]	dozeVegetablesOtherServing[metric][2]	125 ml vegetable juice	125 מ"ל מיץ ירקות	
+food_info_serving_sizes_other_vegetables[imperial][3]	dozeVegetablesOtherServing[imperial][3]	¼ cup dried mushrooms	1/4 כוס פטריות מיובשות	
+food_info_serving_sizes_other_vegetables[metric][3]	dozeVegetablesOtherServing[metric][3]	7 g dried mushrooms	7 גרם פטריות מיובשות	
+food_info_serving_sizes_spices[imperial][0]	dozeSpicesServing[imperial][0]	¼ teaspoon of turmeric	1/4 כפית כורכום	
+food_info_serving_sizes_spices[metric][0]	dozeSpicesServing[metric][0]	¼ teaspoon of turmeric	1/4 כפית כורכום	
+food_info_serving_sizes_spices[imperial][1]	dozeSpicesServing[imperial][1]	Any other (salt-free) herbs and spices you enjoy	עשבי מרפא ותבלינים נוספים (ללא מלח) שאתם אוהבים	
+food_info_serving_sizes_spices[metric][1]	dozeSpicesServing[metric][1]	Any other (salt-free) herbs and spices you enjoy	עשבי מרפא ותבלינים נוספים (ללא מלח) שאתם אוהבים	
+food_info_serving_sizes_cruciferous_vegetables[imperial][0]	dozeVegetablesCruciferousServing[imperial][0]	½ cup chopped	1/2 כוס קצוצים	
+food_info_serving_sizes_cruciferous_vegetables[metric][0]	dozeVegetablesCruciferousServing[metric][0]	30–80 g chopped	30-80 גרם קצוצים	
+food_info_serving_sizes_cruciferous_vegetables[imperial][1]	dozeVegetablesCruciferousServing[imperial][1]	¼ cup Brussels or broccoli sprouts	1/4 כוס כרוב ניצנים או נבטי ברוקולי	
+food_info_serving_sizes_cruciferous_vegetables[metric][1]	dozeVegetablesCruciferousServing[metric][1]	12 g Brussels or broccoli sprouts	12 גרם כרוב ניצנים או נבטי ברוקולי	
+food_info_serving_sizes_cruciferous_vegetables[imperial][2]	dozeVegetablesCruciferousServing[imperial][2]	1 tablespoon horseradish	כף חזרת	
+food_info_serving_sizes_cruciferous_vegetables[metric][2]	dozeVegetablesCruciferousServing[metric][2]	1 tablespoon horseradish	כף חזרת	
+food_info_serving_sizes_nuts[imperial][0]	dozeNutsServing[imperial][0]	¼ cup nuts or seeds	1/4 כוס אגוזים או זרעים	
+food_info_serving_sizes_nuts[metric][0]	dozeNutsServing[metric][0]	30 g nuts or seeds	30 גרם אגוזים או זרעים	
+food_info_serving_sizes_nuts[imperial][1]	dozeNutsServing[imperial][1]	2 tablespoons nut or seed butter	2 כפות חמאת אגוזים או זרעים	
+food_info_serving_sizes_nuts[metric][1]	dozeNutsServing[metric][1]	2 tablespoons nut or seed butter	2 כפות חמאת אגוזים או זרעים	
+food_info_serving_sizes_greens[imperial][0]	dozeGreensServing[imperial][0]	1 cup raw	1 כוס גולמית	
+food_info_serving_sizes_greens[metric][0]	dozeGreensServing[metric][0]	60 g raw	60 גרם גולמי	
+food_info_serving_sizes_greens[imperial][1]	dozeGreensServing[imperial][1]	½ cup cooked	1/2 כוס מבושלים	
+food_info_serving_sizes_greens[metric][1]	dozeGreensServing[metric][1]	90 g cooked	90 גרם מבושלים	
+food_info_serving_sizes_whole_grains[imperial][0]	dozeWholeGrainsServing[imperial][0]	½ cup hot cereal or cooked grains, pasta, or corn kernels	1/2 כוס דגני בוקר חמים או דגנים מבושלים, פסטה או לבבות תירס	
+food_info_serving_sizes_whole_grains[metric][0]	dozeWholeGrainsServing[metric][0]	100 g hot cereal or cooked grains, pasta, or corn kernels	100 גרם דגני בוקר חמים או דגנים מבושלים, פסטה או לבבות תירס	
+food_info_serving_sizes_whole_grains[imperial][1]	dozeWholeGrainsServing[imperial][1]	1 cup cold cereal	1 כוס דגני בוקר קרים	
+food_info_serving_sizes_whole_grains[metric][1]	dozeWholeGrainsServing[metric][1]	50 g cold cereal	50 גרם דגני בוקר קרים	
+food_info_serving_sizes_whole_grains[imperial][2]	dozeWholeGrainsServing[imperial][2]	1 tortilla or slice of bread	1 טורטיה או פרוסת לחם	
+food_info_serving_sizes_whole_grains[metric][2]	dozeWholeGrainsServing[metric][2]	1 tortilla or slice of bread	1 טורטיה או פרוסת לחם	
+food_info_serving_sizes_whole_grains[imperial][3]	dozeWholeGrainsServing[imperial][3]	½ a bagel or English muffin	1/2 בייגל או מאפין אנגלי	
+food_info_serving_sizes_whole_grains[metric][3]	dozeWholeGrainsServing[metric][3]	½ a bagel or English muffin	1/2 בייגל או מאפין אנגלי	
+food_info_serving_sizes_whole_grains[imperial][4]	dozeWholeGrainsServing[imperial][4]	3 cups popped popcorn	3 כוסות פופקורן מוכן	
+food_info_serving_sizes_whole_grains[metric][4]	dozeWholeGrainsServing[metric][4]	30 g popped popcorn	30 גרם פופקורן מוכן	
+food_info_serving_sizes_berries[imperial][0]	dozeBerriesServing[imperial][0]	½ cup fresh or frozen	1/2 כוס טריה או קפואה	
+food_info_serving_sizes_berries[metric][0]	dozeBerriesServing[metric][0]	60 g fresh or frozen	60 גרם טריים או קפואים	
+food_info_serving_sizes_berries[imperial][1]	dozeBerriesServing[imperial][1]	¼ cup dried	1/4 כוס יבשים	
+food_info_serving_sizes_berries[metric][1]	dozeBerriesServing[metric][1]	40 g dried	40 גרם יבשים	
+food_info_serving_sizes_beverages[imperial][0]	dozeBeveragesServing[imperial][0]	One glass (12 ounces)	כוס אחת 350 גרם)	
+food_info_serving_sizes_beverages[metric][0]	dozeBeveragesServing[metric][0]	One glass (350 ml)	כוס אחת (350 מ"ל)	
+food_info_serving_sizes_flaxseeds[imperial][0]	dozeFlaxseedsServing[imperial][0]	1 tablespoon ground	1 כף טחונים	
+food_info_serving_sizes_flaxseeds[metric][0]	dozeFlaxseedsServing[metric][0]	1 tablespoon ground	1 כף טחונים	
+food_info_serving_sizes_beans[imperial][0]	dozeBeansServing[imperial][0]	¼ cup of hummus or bean dip	1/4 כוס חומוס או מטבל שעועית	
+food_info_serving_sizes_beans[metric][0]	dozeBeansServing[metric][0]	60 g of hummus or bean dip	60 גרם חומוס או מטבל שעועית	
+food_info_serving_sizes_beans[imperial][1]	dozeBeansServing[imperial][1]	½ cup cooked beans, split peas, lentils, tofu, or tempeh	1/2 כוס שעועית מבושלת, אפונה מפוצלת, קטניות, טופו או טמפה	
+food_info_serving_sizes_beans[metric][1]	dozeBeansServing[metric][1]	130 g cooked beans, split peas, lentils, tofu, or tempeh	130 גרם שעועית מבושלת, אפונה מפוצלת, קטניות, טופו או טמפה	
+food_info_serving_sizes_beans[imperial][2]	dozeBeansServing[imperial][2]	1 cup of fresh peas or sprouted lentils	1 כוס אפונה טריה או עדשים מונבטות	
+food_info_serving_sizes_beans[metric][2]	dozeBeansServing[metric][2]	150 g of fresh peas or sprouted lentils	150גרם אפונה טריה או עדשים מונבטות	
+food_info_serving_sizes_other_fruits[imperial][0]	dozeFruitsOtherServing[imperial][0]	1 medium-sized fruit	1 פרי בינוני	
+food_info_serving_sizes_other_fruits[metric][0]	dozeFruitsOtherServing[metric][0]	1 medium-sized fruit	1 פרי בינוני	
+food_info_serving_sizes_other_fruits[imperial][1]	dozeFruitsOtherServing[imperial][1]	1 cup cut-up fruit	1/4 כוס פירות חתוכים	
+food_info_serving_sizes_other_fruits[metric][1]	dozeFruitsOtherServing[metric][1]	120 g cut-up fruit	120 גרם פירות חתוכים	
+food_info_serving_sizes_other_fruits[imperial][2]	dozeFruitsOtherServing[imperial][2]	¼ cup dried fruit	1/4 כוס פירות יבשים	
+food_info_serving_sizes_other_fruits[metric][2]	dozeFruitsOtherServing[metric][2]	40 g dried fruit	40 גרם פירות יבשים	
+food_info_types_spices[0]	dozeSpicesVarietyText[0]	Allspice	פלפל אנגלי	
+food_info_types_spices[1]	dozeSpicesVarietyText[1]	Barberries	ברביריס -גרגירים אדומים חמוצים	
+food_info_types_spices[2]	dozeSpicesVarietyText[2]	Basil	בזיליקום	
+food_info_types_spices[3]	dozeSpicesVarietyText[3]	Bay leaves	עלי דפנה	
+food_info_types_spices[4]	dozeSpicesVarietyText[4]	Cardamom	הל	
+food_info_types_spices[5]	dozeSpicesVarietyText[5]	Chili powder	אבקת צ'ילי	
+food_info_types_spices[6]	dozeSpicesVarietyText[6]	Cilantro	כוסברה	
+food_info_types_spices[7]	dozeSpicesVarietyText[7]	Cinnamon	קינמון	
+food_info_types_spices[8]	dozeSpicesVarietyText[8]	Cloves	ציפורן	
+food_info_types_spices[9]	dozeSpicesVarietyText[9]	Coriander	כוסברה	
+food_info_types_spices[10]	dozeSpicesVarietyText[10]	Cumin	כמון	
+food_info_types_spices[11]	dozeSpicesVarietyText[11]	Curry powder	אבקת קארי	
+food_info_types_spices[12]	dozeSpicesVarietyText[12]	Dill	שמיר	
+food_info_types_spices[13]	dozeSpicesVarietyText[13]	Fenugreek	חילבה	
+food_info_types_spices[14]	dozeSpicesVarietyText[14]	Garlic	שום	
+food_info_types_spices[15]	dozeSpicesVarietyText[15]	Ginger	זנגויל	
+food_info_types_spices[16]	dozeSpicesVarietyText[16]	Horseradish	חזרת	
+food_info_types_spices[17]	dozeSpicesVarietyText[17]	Lemongrass	לימונית	
+food_info_types_spices[18]	dozeSpicesVarietyText[18]	Marjoram	מיורן	
+food_info_types_spices[19]	dozeSpicesVarietyText[19]	Mustard powder	אבקת חרדל	
+food_info_types_spices[20]	dozeSpicesVarietyText[20]	Nutmeg	מוסקט	
+food_info_types_spices[21]	dozeSpicesVarietyText[21]	Oregano	אורגנו	
+food_info_types_spices[22]	dozeSpicesVarietyText[22]	Smoked paprika	פפריקה מעושנת	
+food_info_types_spices[23]	dozeSpicesVarietyText[23]	Parsley	פטרוזיליה	
+food_info_types_spices[24]	dozeSpicesVarietyText[24]	Pepper	פלפל  	
+food_info_types_spices[25]	dozeSpicesVarietyText[25]	Peppermint	מנטה	
+food_info_types_spices[26]	dozeSpicesVarietyText[26]	Rosemary	רוזמרין	
+food_info_types_spices[27]	dozeSpicesVarietyText[27]	Saffron	זעפרן	
+food_info_types_spices[28]	dozeSpicesVarietyText[28]	Sage	מרווה	
+food_info_types_spices[29]	dozeSpicesVarietyText[29]	Thyme	טימין	
+food_info_types_spices[30]	dozeSpicesVarietyText[30]	Turmeric	כורכום	
+food_info_types_spices[31]	dozeSpicesVarietyText[31]	Vanilla	וניל	
+food_info_types_flaxseeds[0]	dozeFlaxseedsVarietyText[0]	Brown flaxseeds	זרעי פשתן חומים	
+food_info_types_flaxseeds[1]	dozeFlaxseedsVarietyText[1]	Golden flaxseeds	זרעי פשתן זהובים	
+food_info_types_other_fruits[0]	dozeFruitsOtherVarietyText[0]	Apples	תפוחים	
+food_info_types_other_fruits[1]	dozeFruitsOtherVarietyText[1]	Dried apricots	משמשים יבשים	
+food_info_types_other_fruits[2]	dozeFruitsOtherVarietyText[2]	Avocados	אבוקדו	
+food_info_types_other_fruits[3]	dozeFruitsOtherVarietyText[3]	Bananas	בננות	
+food_info_types_other_fruits[4]	dozeFruitsOtherVarietyText[4]	Cantaloupe	מלון עם קליפה כתומה כהה	
+food_info_types_other_fruits[5]	dozeFruitsOtherVarietyText[5]	Clementines	קלמנטינות	
+food_info_types_other_fruits[6]	dozeFruitsOtherVarietyText[6]	Dates	תמרים	
+food_info_types_other_fruits[7]	dozeFruitsOtherVarietyText[7]	Dried figs	תאנים ישות	
+food_info_types_other_fruits[8]	dozeFruitsOtherVarietyText[8]	Grapefruit	אשכולית	
+food_info_types_other_fruits[9]	dozeFruitsOtherVarietyText[9]	Honeydew	מלון עם קליפה חלקה ובשר  ירוק	
+food_info_types_other_fruits[10]	dozeFruitsOtherVarietyText[10]	Kiwifruit	קיווי	
+food_info_types_other_fruits[11]	dozeFruitsOtherVarietyText[11]	Lemons	לימונים	
+food_info_types_other_fruits[12]	dozeFruitsOtherVarietyText[12]	Limes	ליים	
+food_info_types_other_fruits[13]	dozeFruitsOtherVarietyText[13]	Lychees	ליצ'י	
+food_info_types_other_fruits[14]	dozeFruitsOtherVarietyText[14]	Mangos	מנגו	
+food_info_types_other_fruits[15]	dozeFruitsOtherVarietyText[15]	Nectarines	נקטרינות	
+food_info_types_other_fruits[16]	dozeFruitsOtherVarietyText[16]	Oranges	תפוזים	
+food_info_types_other_fruits[17]	dozeFruitsOtherVarietyText[17]	Papaya	פאפיה	
+food_info_types_other_fruits[18]	dozeFruitsOtherVarietyText[18]	Passion fruit	פסיפלורה	
+food_info_types_other_fruits[19]	dozeFruitsOtherVarietyText[19]	Peaches	אפרסקים	
+food_info_types_other_fruits[20]	dozeFruitsOtherVarietyText[20]	Pears	אגסים	
+food_info_types_other_fruits[21]	dozeFruitsOtherVarietyText[21]	Pineapple	אננס	
+food_info_types_other_fruits[22]	dozeFruitsOtherVarietyText[22]	Plums (especially black plums)	שזיפים (בעיקר שחורים)	
+food_info_types_other_fruits[23]	dozeFruitsOtherVarietyText[23]	Pluots		
+food_info_types_other_fruits[24]	dozeFruitsOtherVarietyText[24]	Pomegranates	רימונים	
+food_info_types_other_fruits[25]	dozeFruitsOtherVarietyText[25]	Prunes	קצוצים	
+food_info_types_other_fruits[26]	dozeFruitsOtherVarietyText[26]	Tangerines	מנדרינה	
+food_info_types_other_fruits[27]	dozeFruitsOtherVarietyText[27]	Watermelon	אבטיח	
+food_info_types_whole_grains[0]	dozeWholeGrainsVarietyText[0]	Barley	שעורה	
+food_info_types_whole_grains[1]	dozeWholeGrainsVarietyText[1]	Buckwheat	כוסמת	
+food_info_types_whole_grains[2]	dozeWholeGrainsVarietyText[2]	Millet	דוחן	
+food_info_types_whole_grains[3]	dozeWholeGrainsVarietyText[3]	Oats	שיבולת שועל	
+food_info_types_whole_grains[4]	dozeWholeGrainsVarietyText[4]	Popcorn	פופקורן	
+food_info_types_whole_grains[5]	dozeWholeGrainsVarietyText[5]	Quinoa	קינואה	
+food_info_types_whole_grains[6]	dozeWholeGrainsVarietyText[6]	Rye	שיפון	
+food_info_types_whole_grains[7]	dozeWholeGrainsVarietyText[7]	Teff	טף	
+food_info_types_whole_grains[8]	dozeWholeGrainsVarietyText[8]	Whole-wheat pasta	פסטה מחיטה מלא	
+food_info_types_exercise[0]	dozeExerciseVarietyText[0]	Bicycling	רכיבה על אופניים	
+food_info_types_exercise[1]	dozeExerciseVarietyText[1]	Canoeing	השטת קאנו	
+food_info_types_exercise[2]	dozeExerciseVarietyText[2]	Dancing	ריקוד	
+food_info_types_exercise[3]	dozeExerciseVarietyText[3]	Dodgeball	מחניים	
+food_info_types_exercise[4]	dozeExerciseVarietyText[4]	Downhill skiing	סקי במורד הרים	
+food_info_types_exercise[5]	dozeExerciseVarietyText[5]	Fencing	גינון	
+food_info_types_exercise[6]	dozeExerciseVarietyText[6]	Hiking	צעידה בהרים	
+food_info_types_exercise[7]	dozeExerciseVarietyText[7]	Housework	עבודות בית	
+food_info_types_exercise[8]	dozeExerciseVarietyText[8]	Ice-skating	החלקה על קרח	
+food_info_types_exercise[9]	dozeExerciseVarietyText[9]	Inline skating	גלגיליות	
+food_info_types_exercise[10]	dozeExerciseVarietyText[10]	Juggling	להטוטים	
+food_info_types_exercise[11]	dozeExerciseVarietyText[11]	Jumping on a trampoline	קפיצה על טרמפולינה	
+food_info_types_exercise[12]	dozeExerciseVarietyText[12]	Paddle boating	סירת פדאלים	
+food_info_types_exercise[13]	dozeExerciseVarietyText[13]	Playing frisbee	משחק פריסבי	
+food_info_types_exercise[14]	dozeExerciseVarietyText[14]	Roller-skating	רולר סקייט	
+food_info_types_exercise[15]	dozeExerciseVarietyText[15]	Shooting baskets	קליעה לסל	
+food_info_types_exercise[16]	dozeExerciseVarietyText[16]	Shoveling light snow	גירוף שלג מועט	
+food_info_types_exercise[17]	dozeExerciseVarietyText[17]	Skateboarding	גלישה בסקייטבורד	
+food_info_types_exercise[18]	dozeExerciseVarietyText[18]	Snorkeling	צלילה	
+food_info_types_exercise[19]	dozeExerciseVarietyText[19]	Surfing	גלישת גלים	
+food_info_types_exercise[20]	dozeExerciseVarietyText[20]	Swimming recreationally	תנועה במים	
+food_info_types_exercise[21]	dozeExerciseVarietyText[21]	Tennis (doubles)	טניס בזוגות	
+food_info_types_exercise[22]	dozeExerciseVarietyText[22]	Treading water	תנועה במים	
+food_info_types_exercise[23]	dozeExerciseVarietyText[23]	Walking briskly (4 mph)	הליכה מואצת (6 ק"מ לשעה)	
+food_info_types_exercise[24]	dozeExerciseVarietyText[24]	Water aerobics	אירובי במים	
+food_info_types_exercise[25]	dozeExerciseVarietyText[25]	Waterskiing	סקי מים	
+food_info_types_exercise[26]	dozeExerciseVarietyText[26]	Yard work	עבודת גינה	
+food_info_types_exercise[27]	dozeExerciseVarietyText[27]	Yoga	יוגה	
+food_info_types_exercise[28]	dozeExerciseVarietyText[28]	Backpacking	תרמילאות	
+food_info_types_exercise[29]	dozeExerciseVarietyText[29]	Basketball	כדורסל	
+food_info_types_exercise[30]	dozeExerciseVarietyText[30]	Bicycling uphill	רכיבת אופניים בשטח	
+food_info_types_exercise[31]	dozeExerciseVarietyText[31]	Circuit weight training	אימוני משקולות מעגליים	
+food_info_types_exercise[32]	dozeExerciseVarietyText[32]	Cross-country skiing	סקי למרחקים ארוכים	
+food_info_types_exercise[33]	dozeExerciseVarietyText[33]	Football	כדורגל	
+food_info_types_exercise[34]	dozeExerciseVarietyText[34]	Hockey	הוקי	
+food_info_types_exercise[35]	dozeExerciseVarietyText[35]	Jogging	ריצה קלה	
+food_info_types_exercise[36]	dozeExerciseVarietyText[36]	Jumping jacks	תרגילי קפיצה	
+food_info_types_exercise[37]	dozeExerciseVarietyText[37]	Jumping rope	קפיצה על חבל	
+food_info_types_exercise[38]	dozeExerciseVarietyText[38]	Lacrosse		
+food_info_types_exercise[39]	dozeExerciseVarietyText[39]	Push-ups	שכיבות שמיכה	
+food_info_types_exercise[40]	dozeExerciseVarietyText[40]	Pull-ups	מתח	
+food_info_types_exercise[41]	dozeExerciseVarietyText[41]	Racquetball	סקווש	
+food_info_types_exercise[42]	dozeExerciseVarietyText[42]	Rock climbing	טיפוס סלעים	
+food_info_types_exercise[43]	dozeExerciseVarietyText[43]	Rugby	רוגבי	
+food_info_types_exercise[44]	dozeExerciseVarietyText[44]	Running	ריצה	
+food_info_types_exercise[45]	dozeExerciseVarietyText[45]	Scuba diving	צלילה	
+food_info_types_exercise[46]	dozeExerciseVarietyText[46]	Tennis (singles)	טניס יחידים	
+food_info_types_exercise[47]	dozeExerciseVarietyText[47]	Soccer	כדורגל אמריקאי	
+food_info_types_exercise[48]	dozeExerciseVarietyText[48]	Speed skating	גלגיליות	
+food_info_types_exercise[49]	dozeExerciseVarietyText[49]	Squash	סקווש	
+food_info_types_exercise[50]	dozeExerciseVarietyText[50]	Step aerobics	הליכה אירובית על דרגש	
+food_info_types_exercise[51]	dozeExerciseVarietyText[51]	Swimming laps	שחיה בהקפות	
+food_info_types_exercise[52]	dozeExerciseVarietyText[52]	Walking briskly uphill	הליכה במעלה הרים	
+food_info_types_exercise[53]	dozeExerciseVarietyText[53]	Water jogging	הליכה במים	
+food_info_types_beverages[0]	dozeBeveragesVarietyText[0]	Black tea	תה שחור	
+food_info_types_beverages[1]	dozeBeveragesVarietyText[1]	Chai tea	תה צ'אי	
+food_info_types_beverages[2]	dozeBeveragesVarietyText[2]	Vanilla chamomile tea	תה קמומיל-וניל	
+food_info_types_beverages[3]	dozeBeveragesVarietyText[3]	Coffee	קפה	
+food_info_types_beverages[4]	dozeBeveragesVarietyText[4]	Earl grey tea	תה ארל-גריי	
+food_info_types_beverages[5]	dozeBeveragesVarietyText[5]	Green tea	תה ירוק	
+food_info_types_beverages[6]	dozeBeveragesVarietyText[6]	Hibiscus tea	תה היביסקוס	
+food_info_types_beverages[7]	dozeBeveragesVarietyText[7]	Hot chocolate	שוקולד חם	
+food_info_types_beverages[8]	dozeBeveragesVarietyText[8]	Jasmine tea	תה יסמין	
+food_info_types_beverages[9]	dozeBeveragesVarietyText[9]	Lemon balm tea	תה מליסה רפואית	
+food_info_types_beverages[10]	dozeBeveragesVarietyText[10]	Matcha tea	תה מקה	
+food_info_types_beverages[11]	dozeBeveragesVarietyText[11]	Almond blossom oolong tea	תה אולונג	
+food_info_types_beverages[12]	dozeBeveragesVarietyText[12]	Peppermint tea	תה מנטה	
+food_info_types_beverages[13]	dozeBeveragesVarietyText[13]	Rooibos tea	תה רויבוש	
+food_info_types_beverages[14]	dozeBeveragesVarietyText[14]	Water	מים	
+food_info_types_beverages[15]	dozeBeveragesVarietyText[15]	White tea	תה לבן	
+food_info_types_beans[0]	dozeBeansVarietyText[0]	Black beans	שעועית שחורה	
+food_info_types_beans[1]	dozeBeansVarietyText[1]	Black-eyed peas	שעועית מנומרת	
+food_info_types_beans[2]	dozeBeansVarietyText[2]	Butter beans	שעועית לבנה	
+food_info_types_beans[3]	dozeBeansVarietyText[3]	Cannellini beans	שעועית קנליני	
+food_info_types_beans[4]	dozeBeansVarietyText[4]	Chickpeas/Garbanzo Beans	גרגרי חומוס/ שעועית גרבנזו	
+food_info_types_beans[5]	dozeBeansVarietyText[5]	Edamame	אדממה	
+food_info_types_beans[6]	dozeBeansVarietyText[6]	English peas	אפונת גינה	
+food_info_types_beans[7]	dozeBeansVarietyText[7]	Great northern beans	שעועית לבנה	
+food_info_types_beans[8]	dozeBeansVarietyText[8]	Kidney beans	שעועית אדומה 	
+food_info_types_beans[9]	dozeBeansVarietyText[9]	Lentils (beluga, french, and red varieties)	קטניות (בלוגה, צרפתיות ואדומות)	
+food_info_types_beans[10]	dozeBeansVarietyText[10]	Miso	מיסו	
+food_info_types_beans[11]	dozeBeansVarietyText[11]	Navy beans	שעועית נייבי	
+food_info_types_beans[12]	dozeBeansVarietyText[12]	Pinto beans	שעועית פינטו	
+food_info_types_beans[13]	dozeBeansVarietyText[13]	Small red beans	שעועית קטנה ואדומה	
+food_info_types_beans[14]	dozeBeansVarietyText[14]	Split peas (yellow or green)	אפונה מפוצלת (צהובה או ירוקה)	
+food_info_types_beans[15]	dozeBeansVarietyText[15]	Tempeh	טמפה	
+food_info_types_greens[0]	dozeGreensVarietyText[0]	Arugula	אורוגולה	
+food_info_types_greens[1]	dozeGreensVarietyText[1]	Beet greens	סלק עלים	
+food_info_types_greens[2]	dozeGreensVarietyText[2]	Collard greens	כרוב ירוק	
+food_info_types_greens[3]	dozeGreensVarietyText[3]	Kale (black, green, and red)	קייל (שחור, ירוק ואדום)	
+food_info_types_greens[4]	dozeGreensVarietyText[4]	Mesclun mix (assorted young salad greens)	עלי בייבי	
+food_info_types_greens[5]	dozeGreensVarietyText[5]	Mustard greens	עלי חרדל	
+food_info_types_greens[6]	dozeGreensVarietyText[6]	Sorrel	חומעה	
+food_info_types_greens[7]	dozeGreensVarietyText[7]	Spinach	תרד	
+food_info_types_greens[8]	dozeGreensVarietyText[8]	Swiss chard	סלק עלים, מנגולד	
+food_info_types_greens[9]	dozeGreensVarietyText[9]	Turnip greens	לפת	
+food_info_types_cruciferous_vegetables[0]	dozeVegetablesCruciferousVarietyText[0]	Arugula	אורוגולה	
+food_info_types_cruciferous_vegetables[1]	dozeVegetablesCruciferousVarietyText[1]	Bok choy	בוק צ'וי	
+food_info_types_cruciferous_vegetables[2]	dozeVegetablesCruciferousVarietyText[2]	Broccoli (incl. Romanesco)	ברוקולי (כולל רומנסקו)	
+food_info_types_cruciferous_vegetables[3]	dozeVegetablesCruciferousVarietyText[3]	Brussels sprouts	כרוב ניצנים	
+food_info_types_cruciferous_vegetables[4]	dozeVegetablesCruciferousVarietyText[4]	Cabbage (green, red and savoy)	כרוב (ירוק, אדום וסבוי)	
+food_info_types_cruciferous_vegetables[5]	dozeVegetablesCruciferousVarietyText[5]	Cauliflower (white, green, orange and purple)	כרובית (לבנה, ירוקה, כתומה וסגולה)	
+food_info_types_cruciferous_vegetables[6]	dozeVegetablesCruciferousVarietyText[6]	Collard greens	כרוב ירוק	
+food_info_types_cruciferous_vegetables[7]	dozeVegetablesCruciferousVarietyText[7]	Horseradish	חזרת	
+food_info_types_cruciferous_vegetables[8]	dozeVegetablesCruciferousVarietyText[8]	Kale (black, green, and red)	קייל (שחור, ירוק ואדום)	
+food_info_types_cruciferous_vegetables[9]	dozeVegetablesCruciferousVarietyText[9]	Kohlrabi (green and purple)	קולרבי (ירוק וסגול)	
+food_info_types_cruciferous_vegetables[10]	dozeVegetablesCruciferousVarietyText[10]	Mustard greens	עלי חרדל	
+food_info_types_cruciferous_vegetables[11]	dozeVegetablesCruciferousVarietyText[11]	Radishes	צנוניות	
+food_info_types_cruciferous_vegetables[12]	dozeVegetablesCruciferousVarietyText[12]	Turnip greens	לפת	
+food_info_types_cruciferous_vegetables[13]	dozeVegetablesCruciferousVarietyText[13]	Watercress	גרגר הנחלים	
+food_info_types_other_vegetables[0]	dozeVegetablesOtherVarietyText[0]	Artichokes	ארטישוקים	
+food_info_types_other_vegetables[1]	dozeVegetablesOtherVarietyText[1]	Asparagus	אספרגוס	
+food_info_types_other_vegetables[2]	dozeVegetablesOtherVarietyText[2]	Beets	סלקים	
+food_info_types_other_vegetables[3]	dozeVegetablesOtherVarietyText[3]	Bell peppers	גמבה	
+food_info_types_other_vegetables[4]	dozeVegetablesOtherVarietyText[4]	Carrots	גזרים	
+food_info_types_other_vegetables[5]	dozeVegetablesOtherVarietyText[5]	Corn	תירס	
+food_info_types_other_vegetables[6]	dozeVegetablesOtherVarietyText[6]	Garlic	שום	
+food_info_types_other_vegetables[7]	dozeVegetablesOtherVarietyText[7]	Mushrooms (button, oyster, portobello, and shiitake)	פטריות (כפתור, אויסטר, פורטובלו ושיטאקה)	
+food_info_types_other_vegetables[8]	dozeVegetablesOtherVarietyText[8]	Okra	במיה	
+food_info_types_other_vegetables[9]	dozeVegetablesOtherVarietyText[9]	Onions	בצלים	
+food_info_types_other_vegetables[10]	dozeVegetablesOtherVarietyText[10]	Purple potatoes	תפוחי אדמה סגולים	
+food_info_types_other_vegetables[11]	dozeVegetablesOtherVarietyText[11]	Pumpkin	דלעת  	
+food_info_types_other_vegetables[12]	dozeVegetablesOtherVarietyText[12]	Sea vegetables (arame, dulse, and nori)	צמחי ים (אראמה, דולסה ונורי)	
+food_info_types_other_vegetables[13]	dozeVegetablesOtherVarietyText[13]	Snap peas	אפונת סוכר	
+food_info_types_other_vegetables[14]	dozeVegetablesOtherVarietyText[14]	Squash (delicata, summer, and spaghetti squash varieties)	סקווש (מעדני קיץ מסקווש וסקווש ספגטי)	
+food_info_types_other_vegetables[15]	dozeVegetablesOtherVarietyText[15]	Sweet potatoes/yams	בטטות ויאם	
+food_info_types_other_vegetables[16]	dozeVegetablesOtherVarietyText[16]	Tomatoes	עגבניות	
+food_info_types_other_vegetables[17]	dozeVegetablesOtherVarietyText[17]	Zucchini	קישוא	
+food_info_types_nuts[0]	dozeNutsVarietyText[0]	Almonds	שקדים	
+food_info_types_nuts[1]	dozeNutsVarietyText[1]	Brazil nuts	אגוזי ברזיל	
+food_info_types_nuts[2]	dozeNutsVarietyText[2]	Cashews	קשיו	
+food_info_types_nuts[3]	dozeNutsVarietyText[3]	Chia seeds	זרעי צ'יה	
+food_info_types_nuts[4]	dozeNutsVarietyText[4]	Hazelnuts	אגוזי לוז	
+food_info_types_nuts[5]	dozeNutsVarietyText[5]	Hemp seeds	קנבוס	
+food_info_types_nuts[6]	dozeNutsVarietyText[6]	Macadamia nuts	אגוזי מקדמיה	
+food_info_types_nuts[7]	dozeNutsVarietyText[7]	Pecans	פקאנים	
+food_info_types_nuts[8]	dozeNutsVarietyText[8]	Pistachios	פיסטוק	
+food_info_types_nuts[9]	dozeNutsVarietyText[9]	Pumpkin seeds	גרעיני דלעת	
+food_info_types_nuts[10]	dozeNutsVarietyText[10]	Sesame seeds	סומסום	
+food_info_types_nuts[11]	dozeNutsVarietyText[11]	Sunflower seeds	גרעיני חמניה	
+food_info_types_nuts[12]	dozeNutsVarietyText[12]	Walnuts	אגוז מלך	
+food_info_types_berries[0]	dozeBerriesVarietyText[0]	Acai berries	אסאי	
+food_info_types_berries[1]	dozeBerriesVarietyText[1]	Barberries	ברביריס (גרגרים אדומים חמוצים)	
+food_info_types_berries[2]	dozeBerriesVarietyText[2]	Blackberries	אסנה	
+food_info_types_berries[3]	dozeBerriesVarietyText[3]	Blueberries	אוכמניות	
+food_info_types_berries[4]	dozeBerriesVarietyText[4]	cheries	דובדבנים	
+food_info_types_berries[5]	dozeBerriesVarietyText[5]	Concord grapes	ענבי קונקורד	
+food_info_types_berries[6]	dozeBerriesVarietyText[6]	Cranberries	חמוציות	
+food_info_types_berries[7]	dozeBerriesVarietyText[7]	Goji berries	גוג'י ברי	
+food_info_types_berries[8]	dozeBerriesVarietyText[8]	Kumquats	תפוז סיני	
+food_info_types_berries[9]	dozeBerriesVarietyText[9]	Mulberries	תותים	
+food_info_types_berries[10]	dozeBerriesVarietyText[10]	Raspberries (black or red)	פטל שחור או אדום	
+food_info_types_berries[11]	dozeBerriesVarietyText[11]	Strawberries	תותי שדה	
+daily_timerestrict[heading]	tweakDailyTimeRestrict[heading]	Time-Restrict Your Eating	הגבלת זמן האכילה שלכם	
+daily_timerestrict[short]	tweakDailyTimeRestrict[short]	Time-Restrict Your Eating	הגבלת זמן האכילה שלכם	
+daily_timerestrict[text]	tweakDailyTimeRestrict[text]	Confine eating to a daily window of time of your choosing under twelve hours in length that you can stick to consistently, seven days a week. Given the circadian benefits of reducing evening food intake, the window should end before 7:00 p.m.	הגדירו חלון אכילה יומי לבחירכם של פחות מ-12 שעות שאתם יכולים להצמד אליו בעקביות, שבעה ימים בשבוע. בהתחשב ביתרונות השעון הביולוגי להפחתת אכילה בלילה, חלון האכילה צריך להסתיים ב-19:00.	
+				
+meal_undistracted[heading]	tweakMealUndistracted[heading]	Enjoy Undistracted Meals	תהנו מארוחות ללא הפרעה	
+meal_undistracted[short]	tweakMealUndistracted[short]	Enjoy Undistracted Meals	תהנו מארוחות ללא הפרעה	
+meal_undistracted[text]	tweakMealUndistracted[text]	Don\'t eat while watching TV or playing on your phone. Give yourself a check for each meal you\'re able to eat without distraction.	אל תאכלו תוך כדי צפיה בטלויזיה או תוך כדי משחק בפלאפון. תנו לעצמכם צ'ק על כל פעם הצלחתם לאכול ללא הפרעות	
+				
+meal_twentyminutes[heading]	tweakMeal20Minutes[heading]	Follow the Twenty-Minute Rule	עיקבו אחר חוק 20 הדקות	
+meal_twentyminutes[short]	tweakMeal20Minutes[short]	Follow the Twenty-Minute Rule	עיקבו אחר חוק 20 הדקות	
+meal_twentyminutes[text]	tweakMeal20Minutes[text]	Whether through increasing viscosity or the number of chews, or decreasing bite size and eating rate, dozens of studies have demonstrated that no matter how we boost the amount of time food is in our mouths, it can result in lower caloric intake. So extend meal duration to at least twenty minutes to allow your natural satiety signals to take full effect. How? By choosing foods that take longer to eat and eating them in a way that prolongs the time they stay in your mouth. Think bulkier, hardier, chewier foods in smaller, well-chewed bites.	בין אם העלאת הצמיגות או כמות הלעיסות, או הקטנת גודל הנשיכה וקצב האכילה, עשרות מחקרים הוכיחו שאין זה משנה כמה אנו מגבירים את משך הזמן שהמזון נמצא בפינו, זה יכול להסתכם בכמות קלוריות קטנה יותר. אז האריכו את משך הארוחה לפחות ל-20 דקות כדי לאפשר לאיתותי השובע הטבעי להגיע למלוא השפעתם. כיצד? ע"י בחירת מאכלים שלוקח זמן רב יותר לאכול ולאוכלם בדרך שמאריכה את הזמן שהם נשארים בפיכם. חישבו נפוח יותר, קשה יותר, לעיסים יותר בנשיכות קטנות ולעוסות היטב. 	
+				
+meal_vinegar[heading]	tweakMealVinegar[heading]	Incorporate Vinegar (2 tsp with each meal)	שלבו חומץ (2 כפיות בכל ארוחה)	
+meal_vinegar[short]	tweakMealVinegar[short]	Incorporate Vinegar (2 tsp with each meal)	שלבו חומץ (2 כפיות בכל ארוחה)	
+meal_vinegar[text]	tweakMealVinegar[text]	Never drink vinegar straight. Instead, flavor meals or dress a side salad with any of the sweet and savory vinegars out there. If you want to drink it, make sure to mix it in a glass of water and, afterward, be sure to rinse your mouth out with water to protect your tooth enamel.	לעולם אל תישתו חומץ ישירות. במקום זה, הוסיפו טעם לארוחות או הכינו מטבל לסלט עם כל חומץ מתוק וערב לחיך שיש לכם. אם תירצו לשתות אותו, אל תשכחו לערבב אותו בכוס מים ולאחר ששתיתם יש לשטוף את הפה במים כדי למנוע פגיעה באמייל השן	
+				
+exercise_timing[heading]	tweakExerciseTiming[heading]	Optimize Exercise Timing	יעלו את זמן הספורט	
+exercise_timing[short]	tweakExerciseTiming[short]	Optimize Exercise Timing	יעלו את זמן הספורט	
+exercise_timing[text]	tweakExerciseTiming[text]	The Daily Dozen\'s recommendation for optimum exercise duration for longevity is ninety minutes of moderately intense activity a day, which is also the optimum exercise duration for weight loss. Anytime is good, and the more, the better, but there may be an advantage to exercising in a fasted state, at least six hours after your last meal. Typically, this would mean before breakfast, but if you timed it right, you could exercise midday before a late lunch or, if lunch is eaten early enough, before dinner. This is the timing for nondiabetics. Diabetics and prediabetics should instead start exercising thirty minutes after the start of a meal and ideally go for at least an hour to completely straddle the blood sugar peak. If you had to choose a single meal to exercise after, it would be dinner, due to the circadian rhythm of blood sugar control that wanes throughout the day. Ideally, though, breakfast would be the largest meal of the day, and you\'d exercise after that—or, even better, after every meal.	ההמלצה של The Daily Dozen למשך זמן האימון האופטימלי לאורך החיים היא תשעים דקות של פעילות אינטנסיבית בינונית ביום, שהיא גם משך האימון האופטימלי לירידה במשקל. בכל עת טוב, וככל שיותר, יותר טוב, אך יתכן שיש יתרון לפעילות גופנית בצום, לפחות שש שעות לאחר הארוחה האחרונה שלך. בדרך כלל זה אומר לפני ארוחת הבוקר, אבל אם תזמנתם את זה נכון, תוכלו להתאמן בצהריים לפני ארוחת צהריים מאוחרת או, אם ארוחת הצהריים נאכלת מוקדם מספיק, לפני ארוחת הערב. זהו העיתוי לשאינם חולי סוכרת. חולי סוכרת וטרום חולי סוכרת צריכים במקום זאת להתחיל להתאמן שלושים דקות לאחר תחילת הארוחה ולפנות לכך באופן אידיאלי לפחות שעה כדי לחצות את שיא הסוכר בדם. אם הייתם צריכים לבחור ארוחה אחת שתתאמנו אחריה, זו תהיה ארוחת ערב, בגלל קצב השעון הביולוגי ששליטתו ברמת הסוכר בדם דועכת לאורך כל היום. אך באופן אידיאלי, ארוחת הבוקר תהיה הארוחה הגדולה ביותר ביום, ואימון לאחר מכן - או, אפילו יותר טוב, אחרי כל ארוחה.	
+				
+daily_nutriyeast[heading]	tweakDailyNutriYeast[heading]	Nutritional Yeast (2 tsp)	שמרי בירה (2 כפיות)	
+daily_nutriyeast[short]	tweakDailyNutriYeast[short]	Nutritional Yeast (2 tsp)	שמרי בירה (2 כפיות)	
+daily_nutriyeast[text]	tweakDailyNutriYeast[text]	Two teaspoons of baker\'s, brewer\'s, or nutritional yeast contains roughly the amount of beta 1,3/1,6 glucans found in randomized, double-blind, placebo-controlled clinical trials to facilitate weight loss.	שתי כפיות של שמרי אופים, בירה או  תזונתיים מכילות בערך את כמות הבטא 1,3/1,6 גלוקנים שנמצאו בניסויים קליניים אקראיים, כפולי סמיות, מבוקרי פלסבו, כמקלים על ירידה במשקל.	
+				
+nightly_trendelenburg[heading]	tweakNightlyTrendelenbrug[heading]	Experiment with Mild Trendelenburg	התנסו ב-Trendelenburg מתון	
+nightly_trendelenburg[short]	tweakNightlyTrendelenbrug[short]	Experiment with Mild Trendelenburg	התנסו ב-Trendelenburg מתון	
+nightly_trendelenburg[text]	tweakNightlyTrendelenbrug[text]	Try spending at least four hours a night lying with your body tilted head-down six degrees by elevating the posts at the foot of your bed by eight inches (or by nine inches if you have a California king). Be extremely careful when you get out of bed, as this causes orthostatic intolerance in most people, even if you\'re young and healthy—meaning if you get up too fast, you can feel dizzy, faint, or light-headed and could fall and hurt yourself. So get up slowly. Drinking two cups of cold water thirty minutes before rising may also help prevent this potentially hazardous side effect.\n*IMPORTANT: Do not try this at home at all if you have any heart or lung issues, acid reflux, or problems with your brain (like head trauma) or eyes (even a family history of glaucoma disqualifies you). Also do not try this until you ask your physician if they think it\'s safe for you to sleep in mild Trendelenburg.*	נסו להקדיש לפחות ארבע שעות בלילה בשכיבה כשגופכם מוטה ראש כלפי מטה שש מעלות על ידי הרמת העמודים למרגלות המיטה בשמונה סנטימטרים (או תשעה סנטימטרים אם יש לכם California king). היזהרו במיוחד כאשר אתo קמים מהמיטה, מכיוון שזה גורם לחוסר סובלנות אורתוסטטית אצל רוב האנשים, גם אם אתם צעירים ובריאים-כלומר אם אתם קמים מהר מדי, אתם יכולים להרגיש סחרחורת, חולשה או ראש קל ועלולים ליפול ולפגוע בעצמכם. אז קומו לאט. שתיית שתי כוסות מים קרים שלושים דקות לפני העלייה עשויה לסייע גם במניעת תופעת לוואי שעלולה להיות מסוכנת. *חשוב: אל תנסו זאת בבית כלל אם יש לכם בעיות לב או ריאה, ריפלוקס חומצי או בעיות במוח (כמו טראומת ראש) או עיניים (אפילו היסטוריה משפחתית של גלאוקומה פוסלת אתכם). גם אל תנסו את זה עד שתשאלו את הרופא שלכם אם הוא חושב שזה בטוח לכם לישון בטרנדלנבורג מתון*	
+				
+meal_water[heading]	tweakMealWater[heading]	Preload with Water	הטענו מראש עם מים	
+meal_water[short]	tweakMealWater[short]	Preload with Water	הטענו מראש עם מים	
+meal_water[text]	tweakMealWater[text]	Time your metabolism-boosting two cups of cool or cold unflavored water before each meal to also take advantage of its preload benefits.	זמנו את חילוף החומרים שלכם- שתי כוסות מים קרירים או קרים ללא טעמים לפני כל ארוחה כדי ליהנות גם מיתרונות הלקיחה המוקדמת שלהם.	
+				
+daily_frontload[heading]	tweakDailyFrontLoad[heading]	Front-Load Your Calories	חזית- טענו את הקלוריות שלכם	
+daily_frontload[short]	tweakDailyFrontLoad[short]	Front-Load Your Calories	חזית- טענו את הקלוריות שלכם	
+daily_frontload[text]	tweakDailyFrontLoad[text]	There are metabolic benefits to distributing more calories to earlier in the day, so make breakfast (ideally) or lunch your largest meal of the day in true king/prince/pauper style.	יש יתרונות מטבוליים לצריכת קלוריות מוקדם יותר ביום, לכן הפכו את ארוחת הבוקר (באופן אידיאלי) או ארוחת הצהריים לארוחה הגדולה ביותר ביום בסגנון מלך/נסיך/עני	
+				
+weigh_twice[heading]	tweakWeightTwice[heading]	Weigh Yourself Twice a Day	שיקלו את עצמכם פעמיים ביום	
+weigh_twice[short]	tweakWeightTwice[short]	Weigh Yourself Twice a Day	שיקלו את עצמכם פעמיים ביום	
+weigh_twice[text]	tweakWeightTwice[text]	Regular self-weighing is considered crucial for long-term weight control, but there is insufficient evidence to support a specific frequency of weighing. My recommendation is based on the one study that found that twice daily—upon waking and right before bed—appeared superior to once a day (about six versus two pounds of weight loss over twelve weeks).	שקילה עצמית סדירה נחשבת מכרעת לבקרת משקל ארוכת טווח, אך אין מספיק הוכחות לתמיכה בתדירות שקילה מסוימת. ההמלצה שלי מבוססת על המחקר האחד שמצא כי פעמיים ביום - כשמתעוררים ומיד לפני השינה - נראית עדיפה על פעם ביום (כששה לעומת שני קילוגרמים של ירידה במשקל במשך שנים עשר שבועות).	
+				
+nightly_sleep[heading]	tweakNightlySleep[heading]	Get Sufficient Sleep	קבלו שינה מספיקה	
+nightly_sleep[short]	tweakNightlySleep[short]	Get Sufficient Sleep	קבלו שינה מספיקה	
+nightly_sleep[text]	tweakNightlySleep[text]	Check this box if you get at least seven hours of sleep at your regular bedtime.	סמנו תיבה זו אם אתם ישנים לפחות 7 שעות שינה בזמן השינה הרגיל שלכם	
+				
+meal_negcal[heading]	tweakMealNegCal[heading]	Preload with "Negative Calorie" Foods	טענו מראש עם מזונות עם "קלוריות שליליות"	
+meal_negcal[short]	tweakMealNegCal[short]	Preload with "Negative Calorie" Foods	טענו מראש עם מזונות עם "קלוריות שליליות"	
+meal_negcal[text]	tweakMealNegCal[text]	As the first course, start each meal with an apple or a Green Light soup or salad containing fewer than one hundred calories per cup.	כמנה ראשונה, התחילו כל ארוחה בתפוח או מרק ירוק או סלט המכיל פחות ממאה קלוריות לכוס.	
+				
+nightly_fast[heading]	tweakNightlyFast[heading]	Fast After 7:00 pm	צומו לאחר 19:00	
+nightly_fast[short]	tweakNightlyFast[short]	Fast After 7:00 p.m.	צומו לאחר 19:00	
+nightly_fast[text]	tweakNightlyFast[text]	Due to our circadian rhythms, food eaten at night is more fattening than the exact same food eaten earlier in the day, so fast every night for at least twelve hours starting before 7:00 p.m. The fewer calories after sundown, the better.	בשל מקצבי היממה שלנו, אוכל שנאכל בלילה משמין יותר מאותו אוכל בדיוק שנאכל מוקדם יותר ביום, אז צומו כל לילה במשך שתים עשרה שעות לפחות החל מהשעה 19:00. כמה שפחות קלוריות אחרי השקיעה, כך ייטב.	
+				
+daily_greentea[heading]	tweakDailyGreenTea[heading]	Green Tea (3 cups)	תה ירוק (3 כוסות)	
+daily_greentea[short]	tweakDailyGreenTea[short]	Green Tea (3 cups)	תה ירוק (3 כוסות)	
+daily_greentea[text]	tweakDailyGreenTea[text]	Drink three cups a day between meals (waiting at least an hour after a meal so as to not interfere with iron absorption). During meals, drink water, black coffee, or hibiscus tea mixed 6:1 with lemon verbena, but never exceed three cups of fluid an hour (important given my water preloading advice). Take advantage of the reinforcing effect of caffeine by drinking your green tea along with something healthy you wish you liked more, but don\'t consume large amounts of caffeine within six hours of bedtime. Taking your tea without sweetener is best, but if you typically sweeten your tea with honey or sugar, try yacon syrup instead.	שתו שלוש כוסות ביום בין הארוחות (המתינו לפחות שעה לאחר הארוחה כדי לא להפריע לספיגת הברזל). במהלך הארוחות, יש לשתות מים, קפה שחור או תה היביסקוס מעורבב 6: 1 עם לימון ורבנה, אך לעולם אל תישתו יותר משלוש כוסות נוזל בשעה (חשוב בהתחשב בעצותי לטעינת מים מראש). נצלו את האפקט המחזק של הקפאין על ידי שתיית התה הירוק שלכם יחד עם משהו בריא שהייתם רוצים לאהוב יותר, אך אל תצרכו כמויות גדולות של קפאין שש שעות לפני השינה. עדיף לשתות את התה  ללא ממתיק, אך אם אתם ממתיקים את התה בדבש או בסוכר, נסה במקום זאת סירופ יאקון.	
+				
+daily_ginger[heading]	tweakDailyGinger[heading]	Ground Ginger (1 tsp) or Cayenne Pepper (½ tsp)	זנגויל טחון (1 כפית) או פלפל קאיין (1/2 כפית)	
+daily_ginger[short]	tweakDailyGinger[short]	Ground Ginger (1 tsp) or Cayenne Pepper (½ tsp)	זנגויל טחון (1 כפית) או פלפל קאיין (1/2 כפית)	
+daily_ginger[text]	tweakDailyGinger[text]	Randomized controlled trials have found that ¼ teaspoon to 1½ teaspoons a day of ground ginger significantly decreased body weight for just pennies a day. It can be as easy as stirring the ground spice into a cup of hot water. Note: Ginger may work better in the morning than evening. Chai tea is a tasty way to combine the green tea and ginger tricks into a single beverage. Alternately, for BAT activation, you can add one raw jalapeño pepper or a half teaspoon of red pepper powder (or, presumably, crushed red pepper flakes) into your daily diet. To help beat the heat, you can very thinly slice or finely chop the jalapeño to reduce its bite to little prickles, or mix the red pepper into soup or the whole-food vegetable smoothie I featured in one of my cooking videos on NutritionFacts.org.	ניסויים מבוקרים אקראיים מצאו כי ¼ כפית עד 1.5 כפיות ביום של זנגויל טחון הורידה משמעותית את משקל הגוף בפרוטות בלבד ביום. זה יכול להיות קל כמו ערבוב התבלין הטחון בכוס מים חמים. הערה: זנגויל עשוי לעבוד טוב יותר בבוקר מאשר בערב. תה צ'אי הוא דרך טעימה לשלב את התה הירוק ויכולות הזנגויל למשקה אחד. לחלופין, להפעלת BAT, ניתן להוסיף לתפריט היומי שלכם פלפל ירוק חריף גולמי או חצי כפית אבקת פלפל אדום (או, ככל הנראה, פתיתי פלפל אדום כתוש). כדי לעזור להתמודד עם החום, אתם יכולים לפרוס דק מאוד או לקצוץ את הפלפל הירוק החריף כדי לצמצם את הנגיסות לכמויות קטנות, או לערבב את הפלפל האדום במרק או שייק הירקות מכל האוכל שהצגתי באחד מסרטי הבישול שלי ב- NutritionFacts.org .	
+			השלימו את כוונותיכם ליישם	
+complete_intentions[heading]	tweakCompleteIntentions[heading]	Complete Your Implementation Intentions	כל חודשיים, צור שלוש כוונות יישום חדשות - "אם X, אז Y" מתכנן לבצע התנהגות מסוימת בהקשר ספציפי - ובדוק כל אחת מהן כאשר אתה משלים אותן מדי יום.	
+complete_intentions[short]	tweakCompleteIntentions[short]	Complete Your Implementation Intentions		
+complete_intentions[text]	tweakCompleteIntentions[text]	Every two months, create three new implementation intentions—"if X, then Y" plans to perform a particular behavior in a specific context—and check each one of them off as you complete them every day.	כל חודשיים, צרו שלוש כוונות יישום חדשות - "אם X, אז Y" לקידום התנהגות מסוימת בהקשר ספציפי - וסמנו כל אחת מהן כאשר אתם משלימים אותן מדי יום.	
+				
+daily_deflourdiet[heading]	tweakDailyDeflourDiet[heading]	Deflour Your Diet	טירפו את התזונה שלכם	
+daily_deflourdiet[short]	tweakDailyDeflourDiet[short]	Deflour Your Diet	טירפו את התזונה שלכם	
+daily_deflourdiet[text]	tweakDailyDeflourDiet[text]	Check this box every day your whole grain servings are in the form of intact grains. The powdering of even 100 percent whole grains robs our microbiomes of the starch that would otherwise be ferried down to our colons enclosed in unbroken cell walls.	סמנו תיבה זו בכל יום בו מנות הדגנים המלאות שלכם הן בצורת דגנים שלמים. האבקה של אפילו 100% דגנים מלאים שודדת את המיקרוביומים שלנו מהעמילן שאחרת היה יורד אל המעי הגס שלנו שהיה סגור בדפנות תאים בלתי עבירות.	
+				
+daily_cumin[heading]	tweakDailyCumin[heading]	Cumin (½ tsp with lunch and dinner)	כמון (1/2 כפית עם ארוחות צהריים וערב)	
+daily_cumin[short]	tweakDailyCumin[short]	Cumin (Cuminum cyminum) (½ tsp with lunch and dinner)	כמון (1/2 כפית עם ארוחות צהריים וערב)	
+daily_cumin[text]	tweakDailyCumin[text]	Overweight women randomized to add a half teaspoon of cumin to their lunches and dinners beat out the control group by four more pounds and an extra inch off their waists. There is also evidence to support the use of the spice saffron, but a pinch a day would cost a dollar, whereas a teaspoon of cumin costs less than ten cents.	נשים הסובלות מעודף משקל הוסיפו באקראי להוסיף חצי כפית כמון לארוחות הצהריים והערב שלהן והביסו את קבוצת הביקורת בארבעה קילוגרמים נוספים וב-2.5 סמ"ר נוספים מהמותניים שלהן. ישנן גם עדויות התומכות בשימוש בזעפרן, אך קמצוץ ביום יעלה 4 שקלים, בעוד שכפית כמון עולה פחות מ-30 אגורות.	
+				
+daily_garlic[heading]	tweakDailyGarlic[heading]	Garlic Powder (¼ tsp)	אבקת שום (1/4 כפית)	
+daily_garlic[short]	tweakDailyGarlic[short]	Garlic Powder (¼ tsp)	אבקת שום (1/4 כפית)	
+daily_garlic[text]	tweakDailyGarlic[text]	Randomized, double-blind, placebo-controlled studies have found that as little as a daily quarter teaspoon of garlic powder can reduce body fat at a cost of perhaps two cents a day.	מחקרים אקראיים, כפולי סמיות, מבוקרי פלסבו, מצאו שכרבע כפית אבקת שום ביום בלבד יכולה להפחית את שומן הגוף במחיר של כ-8 אגורות ביום.	
+				
+daily_hydrate[heading]	tweakDailyHydrate[heading]	Stay Hydrated	שתו מספיק	
+daily_hydrate[short]	tweakDailyHydrate[short]	Stay Hydrated	שתו מספיק	
+daily_hydrate[text]	tweakDailyHydrate[text]	Check this box if your urine never appears darker than a pale yellow. Note that if you\'re eating riboflavin-fortified foods (such as nutritional yeast), then base this instead on getting nine cups of unsweetened beverages a day for women (which would be taken care of by the green tea and water preloading recommendations) or thirteen cups a day for men. If you have heart or kidney issues, don\'t increase fluid intake at all without first talking with your physician. Remember, diet soda may be calorie-free, but it\'s not consequence-free, as we learned in the Low in Added Sugar section.	סמנו תיבה זו אם השתן שלכם אף פעם לא נראה כהה יותר מאשר צהוב בהיר. שימו לב שאם אתם אוכלים מזונות מועשרים בריבופלבין (כגון שמרים תזונתיים), אז הסתמכו במקום זאת על  שתיית 9 כוסות של משקאות לא ממותקים ביום לנשים (שיושגו ע"י ההמלצות לשתיה של תה ירוק ומים), או 13 כוסות ביום לגברים. אם אתם סובלים מבעיות לב או כליות, אל תגדילו כלל את צריכת הנוזלים מבלי לדבר תחילה עם רופאכם. זכרו, סודה לדיאטה עשויה להיות נטולת קלוריות, אך היא אינה נטולת תוצאות, כפי שלמדנו בסעיף על סוכר נמוך.	
+				
+daily_blackcumin[heading]	tweakDailyBlackCumin[heading]	Black Cumin (¼ tsp)	כמון שחור (1/4 כפית)	
+daily_blackcumin[short]	tweakDailyBlackCumin[short]	Black Cumin (Nigella sativa) (¼ tsp)	כמון שחור (1/4 כפית)	
+daily_blackcumin[text]	tweakDailyBlackCumin[text]	As noted in the Appetite Suppression section, a systematic review and meta-analysis of randomized, controlled weight-loss trials found that about a quarter teaspoon of black cumin powder every day appears to reduce body mass index within a span of a couple of months. Note that black cumin is different from regular cumin, for which the dosing is different.	כפי שצוין בסעיף דיכוי התיאבון, סקירה שיטתית ומטא-אנליזה של ניסויים אקראיים ומבוקרים לירידה במשקל מצאו כי כרבע כפית אבקת כמון שחורה מדי יום מורידה את מדד מסת הגוף בתוך טווח של מספר חודשים. שימו לב שכמון שחור שונה מכמון רגיל, שהמינון שלו שונה.	
+				
+app_name	DJR-bj-qUq.text	Daily Dozen	השניים עשר היומי	"Daily Dozen" application name
+welcome_to_my_daily_dozen	19L-gq-W5M.text	Welcome to my Daily Dozen!	ברוכים הבאים לתריסר היומי שלי!	
+activity_welcome_text	dwQ-CS-gz3.text	Use this app on a daily basis to keep track of the foods and advice I recommend for optimal health and longevity in my books How Not to Die and How Not to Diet.	השתמשו באפליקציה זו על בסיס יומי כדי לעקוב אחר המזונות והעצות שאני ממליץ עליהן לבריאות ואריכות ימים בצורה אופטימלית בספרים שלי "איך לא למות" ו"איך לא לעשות דיאטה".	
+	gX5-vX-xBe.text	version 3.2.1	ורסיה 3.2.1	Application release version
+for_health_alone	atR-un-jgX.text	For Health Alone	עבור בריאות בלבד	
+daily_dozen_only	ReM-AP-Fpp.normalTitle	Daily Dozen Only	התריסר היומי בלבד	
+for_health_and_weight_loss	OdG-YQ-lT8.text	For Health and Weight Loss	עבור בריאות והורדה במשקל	
+daily_dozen_and_tweaks	Lef-Iw-Ywr.normalTitle	Daily Dozen + 21 Tweaks	התריסר היומי + 21 כוונונים	
+videos	xcg-0a-oqY.normalTitle	VIDEOS	סרטונים	Keyword for link to video topics
+imperial		metric	מטרי	
+metric		imperial	אמפריאלי	
+	1K3-d9-Hfb.normalTitle	METRIC	מטרי	
+	M75-CQ-NVP.normalTitle	METRIC	מטרי	
+	1K3-d9-Hfb.normalTitle	METRIC	מטרי	
+	M75-CQ-NVP.normalTitle	METRIC	מטרי	
+	RLb-GV-4hh.segmentTitles[0]	Imperial	אימפריאלי	Part of "Imperial/Metric/Toggle Units" selector
+	RLb-GV-4hh.segmentTitles[1]	Metric	מטרי	Part of "Imperial/Metric/Toggle Units" selector
+	RLb-GV-4hh.segmentTitles[2]	Toggle Units	שינוי מצב היחידות	Part of "Imperial/Metric/Toggle Units" selector
+units	3bd-8h-kcX.text	Units:	יחידות:	
+serving_sizes	eU6-je-hVN.text	Serving Sizes	גודלי מנות	
+types	YVI-sV-TDX.text	Types	סוגים	
+units	kho-9G-OWe.text	Units:	יחידות:	
+	YVI-sV-TDA.text	Activity	פעילות	
+	YVI-sV-TDD.text	Description	תיאור	
+servings_all	S0Q-oB-VgE.text	All servings	כל המנות	
+servings_some	jBv-4d-ofX.text	Some servings	חלק מהמנות	
+history	sLd-Kq-bLv.text	History	הסטוריה	
+latest_videos	uxH-8I-ydF.text	Latest Videos	הסרטונים האחרונים	
+	zQy-Dn-WXM.text	Book: How Not to Die	ספר: כיצד לא למות	
+	Cxo-5D-YUZ.text	Book: How Not to Die Cookbook	ספר: כיצד לא למות ספר הבישול	
+	MWr-7S-G8N.text	Book: How Not to Diet	ספר: כיצד לא למות	
+daily_dozen_challenge	beF-Xl-TAq.text	Daily Dozen Challenge	האתגר של התריסר היומי	
+donate	mqA-Vp-LZ7.text	Donate	תירמו	
+subscribe	dRO-1W-3EK.text	Subscribe	הירשמו	
+open_source	qVR-SQ-jmS.text	Open Source	מקור פתוח	
+about	qGY-wh-1gB.text	About	לגבי	
+servings	1HM-mL-ZV9.text	Servings	מנות	
+out_of		out of	מתוך	Part of "0 out of 24"
+format_num_days		%d days	%d ימים	Formatted string %d days
+	cW5-dD-Zy0.text	100 days	100 ימים	
+twenty_one_tweaks	5po-De-kCi.text	21 Tweaks	21 כוונונים	
+	NPC-if-gUf.text	0 / 37	0/37	
+format_num_days	Vbn-R9-kuu.text	%d days	%d ימים	
+back_to_today	7XY-Lo-Hwf.normalTitle	Back to today	בחזרה להיום	
+back_to_today	Qfe-bW-SP4.normalTitle	Back to today	בחזרה להיום	
+back_to_today	OIQ-oh-3QN.normalTitle	Back to today	בחזרה להיום	
+	OC8-wt-JgC.normalTitle	Today	היום	
+	iHh-5a-01X.normalTitle	Today	היום	
+	6FY-X2-BdZ.normalTitle	Today	היום	
+	W2v-Cp-vcd.text	Supplements	תוספים	
+	Ebp-Lw-fWk.normalTitle	Advanced Utilities	כלי עזר מתקדמים	
+				
+	IFs-g0-SPV.headerTitle	Measurement Units	יחידות מדידה	
+	IFs-g0-SPV.footerTitle	Set to always be one unit type or enable the 'Units:' toggle button.	הגדירו תמיד סוג יחידה אחד או הפעילו את לחצן ההחלפה 'יחידות:'.	
+	WdR-XV-IyP.headerTitle	21 Tweak Visibility	ניראות של 21 הכיוונונים	
+daily_dozen_only	OZO-Xa-v5G.segmentTitles[0]	Daily Dozen Only	התריסר היומי בלבד	
+daily_dozen_and_tweaks	OZO-Xa-v5G.segmentTitles[1]	Daily Dozen + 21 Tweak	התריסר היומי +  21 כיוונונים	
+	WdR-XV-IyP.footerTitle	For health alone, use "Daily Dozen Only". For health and weight loss use "Daily Dozen + 21 Tweaks".	לבריאות בלבד, השתמשו ב"תריסר היומי" בלבד ". לבריאות וירידה במשקל השתמשו ב- "תריסר היומי + 21 כיוונונים".	
+daily_reminder_title		Daily Dozen Reminder	תזכורת יומית של התריסר היומי	
+daily_reminder_text	reminder.alert.text	Update your servings for today	עדכנו את המנות שלכם להיום	Alert notification text
+	GiY-ao-2ee.headerTitle	Daily Reminder	תזכורת יומית  	
+daily_reminder_settings		Daily Reminder Settings	הגדרות תזכורת יומית	a reminder that is triggered every day
+	itH-G7-Kal.text	Enable Reminders	אפשר תזכורות	
+	reminder.state.off	Off	סגור	'Off' as in 'On or Off', reminder is not enabled
+	XFw-2q-BdT.text	On	פתוח	'On' as in 'On or Off'
+enable_daily_reminder		Enable Daily Reminders	אפשר תזכורות יומיות	On/Off toggle label
+	pjz-An-Ls5.text	Enable Reminders	אפשר תזכורות	On/Off toggle label
+remind_me_at	kR3-Sa-Fpt.text	Remind me at:	הזכר לי ב:	
+vibrate	reminder.settings.vibrate	Vibrate	רטט	Android notification `vibrate`
+play_sound	YP6-dP-Y62.text	Play Sound	השמעת צליל	
+	NRG-eE-YhG.normalTitle	Clear	נקה	
+	7l0-os-Oqt.normalTitle	Clear	נקה	
+	Tgz-om-dEk.text	Weight (lbs)	משקל (ק"ג)	
+	8ed-5m-QMc.text	Weight (lbs)	משקל (ק"ג)	
+	FBJ-Im-BZk.text	Time	זמן	
+	g3G-kp-d2S.text	Time	זמן	
+	xCp-N8-5Uc.text	Morning (upon waking)	בוקר (בזמן הליכה)	
+	77g-xa-ali.text	Evening (right before bed)	ערב (מיד לפני השינה)	
+time_scale	27q-rq-qbu.text	Time Scale	סולם זמן	
+time_scale	XdW-g4-ZUO.text	Time Scale	סולם זמן	
+time_scale	v2E-Ao-OVz.text	Time Scale	סולם זמן	
+	nRL-iG-Wnd.text	Month	חודש	
+	UCg-Rc-mLf.text	Month	חודש	
+	lTR-i5-Tn0.text	Month	חודש	
+servings_time_scale_choices[0]	sM6-A9-KeP.segmentTitles[0]	Day	יום	Calendar view scale control
+servings_time_scale_choices[1]	sM6-A9-KeP.segmentTitles[1]	Month	חודש	Calendar view scale control
+servings_time_scale_choices[2]	sM6-A9-KeP.segmentTitles[2]	Year	שנה	Calendar view scale control
+servings_time_scale_choices[0]	vXy-0q-Ind.segmentTitles[0]	Day	יום	Calendar view scale control
+servings_time_scale_choices[1]	vXy-0q-Ind.segmentTitles[1]	Month	חודש	Calendar view scale control
+servings_time_scale_choices[2]	vXy-0q-Ind.segmentTitles[2]	Year	שנה	Calendar view scale control
+servings_time_scale_choices[0]	fcu-ZA-byN.segmentTitles[0]	Day	יום	Calendar view scale control
+servings_time_scale_choices[1]	fcu-ZA-byN.segmentTitles[1]	Month	חודש	Calendar view scale control
+servings_time_scale_choices[2]	fcu-ZA-byN.segmentTitles[2]	Year	שנה	Calendar view scale control
+	8ed-5m-QMc.text	Weight (lbs.)	משקל (ק"ג)	
+	XYD-fX-adn.normalTitle	Edit Data	עריכת נתונים	
+	NSHealthShareUsageDescription	The 21 Tweaks feature accesses your HealthKit data to provide updates to your daily weight measurements.	תוכנת 21 הכיוונונים יכולה לכתוב נתוני משקל ל- HealthKit כדי לעזור לכם לעקוב אחר ההתקדמות שלכם.	
+	NSHealthUpdateUsageDescription	The 21 Tweaks feature can write weight data to HealthKit to help you keep track of your progress.	תכונת 21 הטוויקים יכולה לכתוב נתוני משקל ל- HealthKit כדי לעזור לכם לעקוב אחר ההתקדמות שלכם	

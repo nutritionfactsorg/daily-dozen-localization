@@ -22,7 +22,7 @@ DO_EXPORT_TSV
 ### Chinese_Traditional_zh-Hant ###
 ###################################
 ## "$XCLOC_NEW/zh-Hant.xcloc" "$LANGUAGES/Chinese_Traditional/ios"
-OUTPUT_LANG_TSV="Chinese_Traditional/tsv/Chinese_Traditional_zh_Hant.tsv"
+OUTPUT_LANG_TSV="Chinese_Traditional/tsv/Chinese_Traditional_zh-Hant.tsv"
 SOURCE_enUS_TSV="English_US/tsv/English_US_en.20210309.tsv"
 ## Apple (inital pass)
 SOURCE_enUS_APPLE="English_US/ios/en.xcloc/Localized Contents/en.xliff"

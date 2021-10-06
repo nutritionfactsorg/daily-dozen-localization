@@ -32,20 +32,78 @@ struct StringzProcessor: TsvProtocol {
         self.tsvRowList = tsvRowList
     }
     
-    
-    func parse(url: URL) {
-        let lines = [String]()
+    mutating func parse(url: URL) {
+        var key_apple = ""
+        var lang_value = ""
+        var base_note = ""
+        
+        guard let content = try? String(contentsOf: url, encoding: .utf8) else {
+            print("::ERROR:PARSE::READ::\n:: \(url.path)")
+            return
+        }
+        
+        let lines = content.components(separatedBy: "\n")
         for var l in lines {
             l = l.trimmingCharacters(in: CharacterSet.whitespaces)
-            if l.hasPrefix("\\*") && l.hasSuffix("*/") {
-                // :NYI:
+            if l.isEmpty { continue }
+            
+            if l.hasPrefix("/*") && l.hasSuffix("*/") {
+                base_note = l
+                    .dropFirst(2) // /*
+                    .dropLast(2)  // */
+                    .trimmingCharacters(in: CharacterSet.whitespaces)
+                continue
+            } 
+            
+            if l.hasPrefix("\"") && l.hasSuffix("\";") {
+                let parts = l.components(separatedBy: "\" = \"")
+                
+                guard parts.count == 2 else {
+                    print("::NYI:PARSE::PARTS::\n:: \(url.path)\n::\(l)")
+                    
+                    // clear values
+                    key_apple = ""
+                    lang_value = ""
+                    base_note = ""
+                    continue
+                }
+                
+                key_apple = String(parts[0].dropFirst(1)) // double quote "
+                lang_value = String(parts[1].dropLast(2)) // ";
+                let row = TsvRow(
+                    key_android: "", 
+                    key_apple: key_apple, 
+                    base_value: "", 
+                    lang_value: lang_value, 
+                    base_note: base_note)
+                tsvRowList.append(row)
+                
+                // clear values
+                key_apple = ""
+                lang_value = ""
+                base_note = ""
+                
+                continue
             }
+            
+            print("::NYI:PARSE::\n:: \(url.path)\n::\(l)")
         }
     }
     
     // MARK: - Operations
 
     // MARK: - Output
+
+    enum SplitFile: String {
+        case infoPlist = "InfoPlist"
+        case localizable = "Localizable"
+        
+        var name: String {
+            return self.rawValue
+        }
+    }
+    
+    let infoPlistKeys = ["CFBundleName", "NSHealthShareUsageDescription", "NSHealthUpdateUsageDescription"]
 
     func toString() -> String {
         var s = ""
@@ -62,6 +120,49 @@ struct StringzProcessor: TsvProtocol {
         s.append("/* file end */\n")
         s.append("\n")
         return s
+    }
+    
+    func toStringSplitByFile() -> [SplitFile: String] {
+        var sInfoPlist = """
+        /* 
+          InfoPlist.strings
+          DailyDozen
+
+          Copyright © 2021 Nutritionfacts.org. All rights reserved.
+        */\n\n
+        """
+        var sLocalizable = """
+        /* 
+          Localizable.strings
+          DailyDozen
+
+          Copyright © 2021 Nutritionfacts.org. All rights reserved.
+        */\n\n
+        """
+        
+        let sortedList = tsvRowList.sorted()
+        
+        for row in sortedList.data {
+            let comment = row.base_note
+            let key = row.key_apple
+            let value = row.lang_value
+            
+            if infoPlistKeys.contains(key) {
+                sInfoPlist.append("/* \(comment) */\n")
+                sInfoPlist.append("\"\(key)\" = \"\(value)\";\n")
+                sInfoPlist.append("\n")                
+            } else {
+                sLocalizable.append("/* \(comment) */\n")
+                sLocalizable.append("\"\(key)\" = \"\(value)\";\n")
+                sLocalizable.append("\n")                
+            }
+            
+        }
+
+        sInfoPlist.append("/* file end */\n")
+        sLocalizable.append("/* file end */\n")
+        
+        return [.infoPlist: sInfoPlist, .localizable: sLocalizable]
     }
     
 }
