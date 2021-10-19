@@ -355,7 +355,6 @@ history	item_history_heading	History	History
 vitamin_b12	otherVitaminB12.heading	Vitamin B12	Vitamin B12	
 daily_reminder_text	reminder.alert.text	Update your servings for today	Update your servings for today	Alert notification text
 	reminder.heading	Daily Reminder	Daily Reminder	
-	reminder.settings.enable	Enable Reminders		
 	reminder.settings.enable	Enable Reminders	Enable Reminders	On/Off toggle label
 play_sound	reminder.settings.sound	Play Sound	Play Sound	
 remind_me_at	reminder.settings.time	Remind me at:	Remind me at:	
@@ -363,9 +362,9 @@ vibrate	reminder.settings.vibrate	Vibrate	Vibrate	Android notification `vibrate`
 	reminder.state.off	Off	Off	'Off' as in 'On or Off', reminder is not enabled
 	reminder.state.on	On	On	'On' as in 'On or Off'
 daily_dozen_only	setting_doze_only_btn	Daily Dozen Only	Daily Dozen Only	
-daily_dozen_only	setting_doze_only_choice	Daily Dozen Only	Daily Dozen Only	
+	setting_doze_only_choice	Daily Dozen Only	Daily Dozen Only	
 daily_dozen_and_tweaks	setting_doze_tweak_btn	Daily Dozen + 21 Tweaks	Daily Dozen + 21 Tweaks	
-daily_dozen_and_tweaks	setting_doze_tweak_choice	Daily Dozen + 21 Tweak	Daily Dozen + 21 Tweak	
+	setting_doze_tweak_choice	Daily Dozen + 21 Tweak	Daily Dozen + 21 Tweak	
 	setting_doze_tweak_footer	For health alone, use "Daily Dozen Only". For health and weight loss use "Daily Dozen + 21 Tweaks".	For health alone, use "Daily Dozen Only". For health and weight loss use "Daily Dozen + 21 Tweaks".	
 for_health_alone	setting_health_alone_txt	For Health Alone	For Health Alone	
 for_health_and_weight_loss	setting_health_weight_txt	For Health and Weight Loss	For Health and Weight Loss	
