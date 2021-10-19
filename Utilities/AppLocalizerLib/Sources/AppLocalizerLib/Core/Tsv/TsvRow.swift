@@ -6,7 +6,7 @@
 
 import Foundation
 
-struct TsvRow {
+struct TsvRow: Equatable {
     /// keys
     var key_android: String       
     var key_apple: String
@@ -47,7 +47,7 @@ struct TsvRow {
         if includeNotes {
             s.append("Ⓣ\(base_note)")
         }
-        return "\(key_android)Ⓣ\(key_apple)Ⓣ\(base_value)Ⓣ\(lang_value)"
+        return s
     }
     
     func toTsv() -> String {

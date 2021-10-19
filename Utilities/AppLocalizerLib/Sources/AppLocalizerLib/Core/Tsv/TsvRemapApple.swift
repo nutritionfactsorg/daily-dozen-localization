@@ -9,8 +9,9 @@ import Foundation
 struct TsvRemapApple {
 
     static let check = TsvRemapApple()
-    // 
+    /// given key as `key_apple`, then delete tsv row 
     private var dropSet: Set<String>
+    /// given key as `key_apple`, then apply value to update `key_apple`for tsv row
     private var replaceDict: [String: String]
     
     init() {
@@ -56,10 +57,7 @@ struct TsvRemapApple {
         replaceDict["kR3-Sa-Fpt.text"] = "reminder.settings.time"
         replaceDict["YP6-dP-Y62.text"] = "reminder.settings.sound"
         replaceDict["XFw-2q-BdT.text"] = "reminder.state.on"
-        
-        replaceDict["IFs-g0-SPV.headerTitle"] = "settings.units.header"
-        replaceDict["WdR-XV-IyP.headerTitle"] = "settings.tweak.header"
-        
+                
         replaceDict["labelMorning xCp-N8-5Uc.text"] = "weight_entry_morning"
         replaceDict["labelEvening 77g-xa-ali.text"] = "weight_entry_evening"
         replaceDict["labelAmTime FBJ-Im-BZk.text"] = "weight_entry_time"
@@ -89,19 +87,6 @@ struct TsvRemapApple {
         replaceDict["jBv-4d-ofX.text"] = "item_history_completed_some" // android: servings_some
         replaceDict["sLd-Kq-bLv.text"] = "item_history_heading"        // android: history
 
-        // Settings
-        replaceDict["OZO-Xa-v5G.segmentTitles[0]"] = "setting_doze_only_choice"  // Android: daily_dozen_only
-        replaceDict["OZO-Xa-v5G.segmentTitles[1]"] = "setting_doze_tweak_choice" // Android: daily_dozen_and_tweaks
-        replaceDict["WdR-XV-IyP.footerTitle"] = "setting_doze_tweak_footer"      // Android: n/a
-        replaceDict["IFs-g0-SPV.footerTitle"] = "settings_units_choice_footer"   // Android: TBD
-        replaceDict["Ebp-Lw-fWk.normalTitle"] = "settings_advanced_utilities"    // Android: n/a?
-
-        // Settings, First Launch
-        replaceDict["atR-un-jgX.text"] = "setting_health_alone_txt"      // Android: for_health_alone
-        replaceDict["OdG-YQ-lT8.text"] = "setting_health_weight_txt"     // Android: for_health_and_weight_loss
-        replaceDict["ReM-AP-Fpp.normalTitle"] = "setting_doze_only_btn"  // Android: daily_dozen_only
-        replaceDict["Lef-Iw-Ywr.normalTitle"] = "setting_doze_tweak_btn" // Android: daily_dozen_and_tweaks
-
         // About Menu
         replaceDict["qGY-wh-1gB.text"] = "info_app_about"                    // Android: still need to lookup!!
         replaceDict["zQy-Dn-WXM.text"] = "info_book_how_not_to_die"
@@ -113,6 +98,9 @@ struct TsvRemapApple {
         replaceDict["dRO-1W-3EK.text"] = "info_webpage_subscribe"
         replaceDict["uxH-8I-ydF.text"] = "info_webpage_videos_latest"
 
+        // Entry
+        replaceDict["1HM-mL-ZV9.text"] = "doze_entry_header"        // Android: servings
+                
         // Detail Page
         replaceDict["eU6-je-hVN.text"] = "doze_detail_section_sizes"        // ** double use Android: servings_sizes
         replaceDict["YVI-sV-TDX.text"] = "doze_detail_section_types"        // ** double use Android: types
@@ -157,6 +145,66 @@ struct TsvRemapApple {
         replaceDict["gX5-vX-xBe.text"] = "info_app_about_version"
         replaceDict["pUm-f4-zm1.text"] = "info_app_about_oss_credits"
         replaceDict["Zgt-w4-qQw.text"] = "info_app_about_created_by"
+        
+        // Settings
+        replaceDict["OZO-Xa-v5G.segmentTitles[0]"] = "setting_doze_only_choice"  // Android: daily_dozen_only
+        replaceDict["OZO-Xa-v5G.segmentTitles[1]"] = "setting_doze_tweak_choice" // Android: daily_dozen_and_tweaks
+        replaceDict["WdR-XV-IyP.footerTitle"] = "setting_doze_tweak_footer"      // Android: n/a
+        replaceDict["WdR-XV-IyP.headerTitle"] = "setting_tweak_header"
+        replaceDict["settings.tweak.header"]  = "setting_tweak_header"  // Android: 
+
+        replaceDict["IFs-g0-SPV.headerTitle"] = "setting_units_header"
+        replaceDict["settings.units.header"]  = "setting_units_header"  // Android: TBD
+        
+        replaceDict["IFs-g0-SPV.footerTitle"] = "setting_units_choice_footer"   // Android: TBD
+        replaceDict["settings_units_choice_footer"] = "setting_units_choice_footer" // Android: TBD
+        
+        // Android:NYI: user setting of imperial, metric or toggle units
+        replaceDict["RLb-GV-4hh.segmentTitles[0]"] = "setting_units_0_imperial" 
+        replaceDict["RLb-GV-4hh.segmentTitles[1]"] = "setting_units_1_metric"
+        replaceDict["RLb-GV-4hh.segmentTitles[2]"] = "setting_units_2_toggle"
+        replaceDict["settings_units_0_imperial"] = "setting_units_0_imperial" 
+        replaceDict["settings_units_1_metric"]   = "setting_units_1_metric"
+        replaceDict["settings_units_2_toggle"]   = "setting_units_2_toggle"
+
+        // Settings, First Launch
+        replaceDict["atR-un-jgX.text"] = "setting_health_alone_txt"      // Android: for_health_alone
+        replaceDict["OdG-YQ-lT8.text"] = "setting_health_weight_txt"     // Android: for_health_and_weight_loss
+        replaceDict["ReM-AP-Fpp.normalTitle"] = "setting_doze_only_btn"  // Android: daily_dozen_only
+        replaceDict["Lef-Iw-Ywr.normalTitle"] = "setting_doze_tweak_btn" // Android: daily_dozen_and_tweaks
+        
+        // Utilities Menu
+        replaceDict["Ebp-Lw-fWk.normalTitle"]      = "setting_util_advanced" // Android: NA
+        replaceDict["settings_advanced_utilities"] = "setting_util_advanced" // Android: NA
+        replaceDict["setting_advanced_utilities"]  = "setting_util_advanced" // Android: NA
+        replaceDict["settings_utilities_advanced"] = "setting_util_advanced" // Android: NA
+        
+        // Dynamically set `historyRecordWeight.titleImperial` or `historyRecordWeight.titleMetric`   
+        dropSet.insert("Tgz-om-dEk.text") // Apple static setting dropped
+        dropSet.insert("8ed-5m-QMc.text") // Apple static setting dropped
+        
+        // `monthLabel` is set from `Date` extension `monthNameLocalized`
+        dropSet.insert("nRL-iG-Wnd.text") // date pager `monthLabel` "<< < month > >>"
+        dropSet.insert("UCg-Rc-mLf.text") // date pager `monthLabel` "<< < month > >>"
+        dropSet.insert("lTR-i5-Tn0.text") // date pager `monthLabel` "<< < month > >>"
+
+        // 'Units:' button title programatically set to unitToggle.imperial or unitToggle.metric
+        dropSet.insert("1K3-d9-Hfb.normalTitle") // becomes unitToggle.imperial or unitToggle.metric 
+        dropSet.insert("M75-CQ-NVP.normalTitle") // becomes unitToggle.imperial or unitToggle.metric
+        
+        replaceDict["W2v-Cp-vcd.text"] = "dozeOtherInfo.title" // Android: NA
+        replaceDict["xcg-0a-oqY.normalTitle"] = "videos.link.label" // Android: videos
+        replaceDict["5po-De-kCi.text"] = "tweak_entry_header" // Android: twenty_one_tweaks
+        
+        // static "100 days" replaced by `%d day`. Apple: streakDaysFormat Droid: format_num_days
+        dropSet.insert("cW5-dD-Zy0.text") // Android: format_num_days Apple: streakDaysFormat
+        dropSet.insert("Vbn-R9-kuu.text") // Android: format_num_days Apple: streakDaysFormat
+        
+        dropSet.insert("Vbn-R9-kuu.text") // Android: format_num_days Apple: streakDaysFormat
+        
+        // Android uses `out_of` uses text for "X out of Y".
+        // Apple programatically uses "X/Y" with no text translation.
+        dropSet.insert("NPC-if-gUf.text") // replaced by "X/Y"
     }
     
     func isDropped(_ key: String) -> Bool {

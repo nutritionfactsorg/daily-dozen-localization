@@ -1,0 +1,25 @@
+### FILE: batch_strings_FromTsvIntake.txt
+### WORKFLOW:  `*.strings` content based `*.tsv`
+### SCOPE: all planned languages
+###
+
+OUTPUT_NORMAL_DIRNAME="StringsViaTsvIntake"
+
+SOURCE_TSV="Portuguese/tsv/Portuguese_pt.intake.20210929.tsv"
+SOURCE_TSV="Portuguese/tsv/Portuguese_pt.intake.additions.20211015.tsv"
+DO_NORMAL_STRINGS
+
+### STOP HERE
+QUIT
+
+SOURCE_TSV="Portuguese/tsv/Portuguese_pt.tsv"
+SOURCE_TSV="Portuguese/tsv/Portuguese_pt.additions.tsv"
+DO_NORMAL_STRINGS
+
+SOURCE_TSV="Hebrew/tsv/Hebrew_he.submitted.tsv"
+DO_NORMAL_STRINGS
+
+#SOURCE_TSV="Hebrew/tsv/Hebrew_he.tsv"
+#SOURCE_TSV="Hebrew/tsv/Hebrew_he.additions.tsv"
+#DO_NORMAL_STRINGS
+

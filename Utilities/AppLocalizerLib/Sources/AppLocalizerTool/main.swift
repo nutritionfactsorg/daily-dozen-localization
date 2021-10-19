@@ -50,22 +50,41 @@ var productsDir: URL {
 
 // ::WIP:: Normalize
 
-// --- NORMALIZE: app strings -> normalized strings
+// (0)
+// --- NORMALIZE:…: English_US TSV repo -> normalized strings, tsv
 //let BatchSubdir = "batch_strings"
-//let BatchCommands = "batch_strings_FromStringsLang.txt"
+//let BatchCommands = "batch_strings_FromTsvEnglish.txt"
+
+// (1)
+// --- NORMALIZE:STRINGS: app main-branch strings -> normalized strings
+//let BatchSubdir = "batch_strings"
 //let BatchCommands = "batch_strings_FromStringsMain.txt"
 
-// --- NORMALIZE: tsv -> strings
+// (2)
+// --- NORMALIZE:STRINGS: app lang-branch strings -> normalized strings
+//let BatchSubdir = "batch_strings"
+//let BatchCommands = "batch_strings_FromStringsLang.txt"
+
+// compare (1) vs main/lang source ... after line sort.
+// compare (1) (2)
+
+// (3)
+// --- NORMALIZE: repo tsv -> strings
 //let BatchSubdir = "batch_strings"
 //let BatchCommands = "batch_strings_FromTsv.txt"
 
-// --- NORMALIZE: xliff -> strings ---
+// (4) :???: Bypass?
+// --- NORMALIZE: repo xliff -> strings
 //let BatchSubdir = "batch_strings"
 //let BatchCommands = "batch_strings_FromXliff.txt"
 
-// --- SUBMISSIONS: Hebrew (he), Portuguese (pt)
+// (5) check English_US tsv, strings, json, xliff?
+
+// (6.a) Portuguese check
+// --- INTAKE: Hebrew (he), Portuguese (pt)
+// -- update repo xliff/json/xml, generate normal strings/tsv
 let BatchSubdir = "batch_strings"
-let BatchCommands = "batch_strings_FromTsvSubmission.txt"
+let BatchCommands = "batch_strings_FromTsvIntake.txt"
 
 print("### \(BatchCommands) ###")
 

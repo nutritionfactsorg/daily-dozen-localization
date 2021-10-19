@@ -9,7 +9,7 @@ struct TsvSheet: TsvProtocol {
     
     var tsvRowList = TsvRowList()
     var logger = LogService()
-    var urlLanguage: URL
+    var urlLanguage: URL? // specific language URL, e.g. …/Languages/English_us
     
     enum platform {
         case android
@@ -28,11 +28,20 @@ struct TsvSheet: TsvProtocol {
             var tmpTsvRowList = parseTsvFile(url: url)
             tmpTsvRowList = normalizeAndroidKeys(tsvRowList: tmpTsvRowList)
             tmpTsvRowList = normalizeAppleKeys(tsvRowList: tmpTsvRowList)
-            tmpTsvRowList = tmpTsvRowList.sorted()
+            tmpTsvRowList = removeDuplicates(tsvRowList: tmpTsvRowList)
             tsvRowList.append(contentsOf: tmpTsvRowList)
-            writeTsvFile(tmpTsvRowList, baseTsvFileUrl: url)
+            //writeTsvFile(tmpTsvRowList, baseTsvFileUrl: url)
         }
         tsvRowList = tsvRowList.sorted()
+    }
+    
+    init(tsvRowList trl: TsvRowList) {
+        self.urlLanguage = nil
+        var tmpTsvRowList = trl
+        tmpTsvRowList = normalizeAndroidKeys(tsvRowList: tmpTsvRowList)
+        tmpTsvRowList = normalizeAppleKeys(tsvRowList: tmpTsvRowList)
+        tmpTsvRowList = removeDuplicates(tsvRowList: tmpTsvRowList)
+        self.tsvRowList = tmpTsvRowList
     }
     
     /// Check for TSV keys not used
@@ -253,6 +262,138 @@ struct TsvSheet: TsvProtocol {
         return newTsvRowList
     }
 
+    func removeDuplicates(tsvRowList: TsvRowList) -> TsvRowList {
+        guard tsvRowList.data.count >= 2 else {
+            print(":WARNING: TsvSheet.removingDuplicates() tsvRowList has less than 2 rows.")
+            return tsvRowList
+        }
+
+        var resultTRL = TsvRowList()
+        let trl = tsvRowList.sorted()
+                
+        var idx = 0
+        var rowPrior = trl.data[idx]
+        resultTRL.append(rowPrior)
+        
+        idx += 1
+        while idx < trl.data.count {
+            let rowCurrent = trl.data[idx]
+            
+            if rowCurrent != rowPrior {
+                resultTRL.append(rowCurrent)
+                rowPrior = rowCurrent
+            }
+            idx += 1
+        }
+        
+        reportRowDuplicates(tsvRowList: resultTRL)
+        return resultTRL
+    }
+    
+    func reportRowDuplicates(tsvRowList: TsvRowList) {
+        guard tsvRowList.data.count >= 2 else {
+            print(":WARNING: TsvSheet.reportRowDuplicates(…) tsvRowList has less than 2 rows.")
+            return
+        }
+
+        reportRowDuplicateAppleKey(tsvRowList: tsvRowList)
+        reportRowDuplicateDroidKey(tsvRowList: tsvRowList)
+        reportRowDuplicateLang(tsvRowList: tsvRowList)
+    }
+    
+    private func reportRowDuplicateAppleKey(tsvRowList: TsvRowList) {
+        let trl = tsvRowList.sorted()
+        var report = """
+        \n########################################
+        ### DUPLICATE TSV REPORT: Apple Keys ###\n
+        """
+        
+        var idx = 0
+        var rowPrior = trl.data[idx]
+        
+        idx += 1
+        while idx < trl.data.count {
+            let rowCurrent: TsvRow = trl.data[idx]
+
+            if rowCurrent.key_apple.isEmpty  {
+                idx += 1
+                continue
+            }
+            
+            if rowCurrent.key_apple == rowPrior.key_apple {
+                report.append("\(rowPrior.toStringDot(includeNotes: true))\n")
+                report.append("\(rowCurrent.toStringDot(includeNotes: true))\n")
+                report.append("\n")
+            }
+            rowPrior = rowCurrent
+            idx += 1
+        }
+        print(report)
+    }
+
+    private func reportRowDuplicateDroidKey(tsvRowList: TsvRowList) {
+        let trl = tsvRowList.sortedByAndroid()
+        var report = """
+        \n##########################################
+        ### DUPLICATE TSV REPORT: Android Keys ###\n
+        """
+        
+        var idx = 0
+        var rowPrior = trl.data[idx]
+        
+        idx += 1
+        while idx < trl.data.count {
+            let rowCurrent: TsvRow = trl.data[idx]
+
+            if rowCurrent.key_android.isEmpty  {
+                idx += 1
+                continue
+            }
+            
+            if rowCurrent.key_android == rowPrior.key_android {
+                report.append("\(rowPrior.toStringDot(includeNotes: true))\n")
+                report.append("\(rowCurrent.toStringDot(includeNotes: true))\n")
+                report.append("\n")
+            }
+            rowPrior = rowCurrent
+            idx += 1
+        }
+        print(report)        
+    }
+    
+    private func reportRowDuplicateLang(tsvRowList: TsvRowList) {
+        let trl = tsvRowList.sortedByLang()
+        var report = """
+        \n#############################################
+        ### DUPLICATE TSV REPORT: Lang-Base Pairs ###
+        ### Note: may simply be imperial vs metric\n
+        """
+        
+        var idx = 0
+        var rowPrior = trl.data[idx]
+        
+        idx += 1
+        while idx < trl.data.count {
+            let rowCurrent: TsvRow = trl.data[idx]
+
+            if rowCurrent.base_value.isEmpty && rowCurrent.lang_value.isEmpty {
+                idx += 1
+                continue
+            }
+            
+            if rowCurrent.lang_value == rowPrior.lang_value &&
+                rowCurrent.base_value == rowPrior.base_value {
+                report.append("\(rowPrior.toStringDot(includeNotes: true))\n")
+                report.append("\(rowCurrent.toStringDot(includeNotes: true))\n")
+                report.append("\n")
+            }
+            rowPrior = rowCurrent
+            idx += 1
+        }
+        print(report)        
+    }
+
+    
     // MARK: - Operations
     
     // no TsvProtocol overrides
@@ -399,7 +540,17 @@ struct TsvSheet: TsvProtocol {
                             field.append("\"")
                             escapeQuote = false
                         } else {
-                            fatalError(":ERROR:@line\(lineIdx)[\(lineCharIdx)]: TsvSheet escaped quote must precede ::\(toStringDot(field:field))::")
+                            // Note: look for regex cases of `tab + double-quote` (`\t"`)
+                            // Use single quote where applicable e.g. notes.
+                            // Otherwise tsv-escape quotes ("") or evolve this parser
+                            // CotEditor handles mixed direction texts better than BBEdit
+                            fatalError(
+                            """
+                            \n::ERROR: TsvSheet escaped quote must precede
+                            :@path: \(url.path)
+                            :@line: \(lineIdx)[\(lineCharIdx)]
+                            :@dotStr: \(toStringDot(field:field))\n\n
+                            """)
                         }
                     } else {
                         if let cNext = cNext, newline.contains(cNext) || cNext == "\t" {

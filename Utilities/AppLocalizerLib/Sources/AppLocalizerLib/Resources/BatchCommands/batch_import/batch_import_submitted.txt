@@ -1,0 +1,25 @@
+### FILE: batch_import_submitted.txt
+### WORKFLOW: Documentation/Workflow_ImportIntoApps.md
+###
+##########################
+### IMPORT TRANSLATION ###
+##########################
+
+OUTPUT_NORMAL_DIRNAME="SubmittedImport"
+
+SOURCE_TSV="Portuguese/tsv/Portuguese_pt.submitted.tsv"
+DO_NORMAL_STRINGS
+
+CLEAR_ALL
+SOURCE_TSV="Portuguese/tsv/Portuguese_pt.submitted.tsv"
+OUTPUT_DROID="Portuguese/android/values-pt/strings.xml"    
+OUTPUT_APPLE="Portuguese/ios/pt.xcloc/Localized Contents/pt.xliff"   
+DO_IMPORT_TSV
+
+### PROCESS TO HERE
+QUIT
+
+SOURCE_TSV="Hebrew/tsv/Hebrew_he.tsv"
+OUTPUT_DROID="Hebrew/android/values-he/strings.xml"    
+OUTPUT_APPLE="Hebrew/ios/he.xcloc/Localized Contents/he.xliff"   
+DO_IMPORT_TSV

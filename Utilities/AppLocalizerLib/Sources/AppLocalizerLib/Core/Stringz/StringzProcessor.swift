@@ -88,6 +88,10 @@ struct StringzProcessor: TsvProtocol {
             
             print("::NYI:PARSE::\n:: \(url.path)\n::\(l)")
         }
+        
+        // Normalize key_apple, key_droid
+        let tsvSheet = TsvSheet(tsvRowList: tsvRowList)
+        tsvRowList = tsvSheet.tsvRowList
     }
     
     // MARK: - Operations
@@ -103,54 +107,71 @@ struct StringzProcessor: TsvProtocol {
         }
     }
     
-    let infoPlistKeys = ["CFBundleName", "NSHealthShareUsageDescription", "NSHealthUpdateUsageDescription"]
+    let infoPlistKeys = ["CFBundleDisplayName", "CFBundleName", "NSHealthShareUsageDescription", "NSHealthUpdateUsageDescription"]
 
-    func toString() -> String {
-        var s = ""
-        let sortedList = tsvRowList.sorted()
-        for row in sortedList.data {
-            let comment = row.base_note
-            let key = row.key_apple
-            let value = row.lang_value
-            
-            s.append("/* \(comment) */\n")
-            s.append("\"\(key)\"=\"\(value)\";\n")
-            s.append("\n")
-        }
-        s.append("/* file end */\n")
-        s.append("\n")
-        return s
-    }
+    //func toString() -> String {
+    //    var s = ""
+    //    let contentDict = toStringSplitByFile()
+    //    
+    //    for (key, value) in contentDict {
+    //        s.append("##########################\n")
+    //        s.append("##### \(key)\n")
+    //        s.append("##########################\n")
+    //        s.append("value")            
+    //    }
+    //    return s
+    //}
     
-    func toStringSplitByFile() -> [SplitFile: String] {
+    func toStringSplitByFile(langCode: String) -> [SplitFile: String] {
         var sInfoPlist = """
-        /* 
-          InfoPlist.strings
-          DailyDozen
-
-          Copyright © 2021 Nutritionfacts.org. All rights reserved.
-        */\n\n
+        /* DailyDozen InfoPlist.strings (\(langCode)) */
+        /* Copyright © 2021 Nutritionfacts.org. All rights reserved. */
+        \n
         """
         var sLocalizable = """
-        /* 
-          Localizable.strings
-          DailyDozen
-
-          Copyright © 2021 Nutritionfacts.org. All rights reserved.
-        */\n\n
+        /* DailyDozen Localizable.strings (\(langCode)) */
+        /* Copyright © 2021 Nutritionfacts.org. All rights reserved. */
+        \n
         """
         
-        let sortedList = tsvRowList.sorted()
+        var applekeyEmptyList = TsvRowList()
+        var langvalueMissingList = TsvRowList()
+        var langvalueUntranslatedList = TsvRowList()
+        var randomidList = TsvRowList()
         
-        for row in sortedList.data {
+        for row in self.tsvRowList.sorted().data {
             let comment = row.base_note
             let key = row.key_apple
             let value = row.lang_value
+                .replacingOccurrences(of: "\"", with: "\\\"")
             
-            if infoPlistKeys.contains(key) {
+            // Case: key_apple
+            if row.key_apple.isEmpty {
+                applekeyEmptyList.append(row)
+                continue
+            }
+
+            // Case: not translated value 
+            if row.lang_value.isEmpty {
+                langvalueMissingList.append(row)
+            }
+
+            // Case: autogenrated Apple Random Storyboard ID
+            if row.base_value == row.lang_value {
+                langvalueUntranslatedList.append(row)
+            }
+
+            // Case: autogenrated Apple Random Storyboard ID
+            if row.key_apple.isRandomKey {
+                randomidList.append(row)
+            }
+            
+            if isJsonOnly(key) {
+                // do not append
+            } else if infoPlistKeys.contains(key) {
                 sInfoPlist.append("/* \(comment) */\n")
                 sInfoPlist.append("\"\(key)\" = \"\(value)\";\n")
-                sInfoPlist.append("\n")                
+                sInfoPlist.append("\n")
             } else {
                 sLocalizable.append("/* \(comment) */\n")
                 sLocalizable.append("\"\(key)\" = \"\(value)\";\n")
@@ -162,7 +183,55 @@ struct StringzProcessor: TsvProtocol {
         sInfoPlist.append("/* file end */\n")
         sLocalizable.append("/* file end */\n")
         
+        print("#######################################")
+        print("### key_apple: empty (Android Only) ###")
+        print("#######################################")
+        print("### (not in *.stringz)")
+        for row in applekeyEmptyList.data {
+            print("\(row.key_android)\t\(row.base_value)")
+        }
+        
+        print("###########################")
+        print("### lang_value: missing ###")
+        print("###########################")
+        print("### (in *.stringz)")
+        for row in langvalueMissingList.data {
+            print("\(row.key_apple)\t\(row.base_value)")
+        }
+
+        print("################################")
+        print("### lang_value: untranslated ###")
+        print("################################")
+        print("### (in *.stringz)")
+        for row in langvalueUntranslatedList.data {
+            print("\(row.key_apple)\t\(row.base_value)")
+        }
+
+        print("######################################")
+        print("### key_apple: storyboard randomid ###")
+        print("######################################")
+        print("### (in *.stringz)")
+        for row in randomidList.data {
+            print("\(row.key_apple)\t\(row.base_value)")
+        }        
+        
         return [.infoPlist: sInfoPlist, .localizable: sLocalizable]
     }
     
+    /// Is string localized in *.json files and not present in the *.strings files?
+    /// Does not filter out URL topic strings. 
+    /// `heading` strings are included in both *.strings and *.json.  
+    private func isJsonOnly(_ s: String) -> Bool {
+        if s.hasPrefix("doze") {
+            if s.contains(".Serving.") || s.contains(".Variety.") {
+                return true
+            }
+        }
+        if s.hasPrefix("tweak") {
+            if s.contains(".short") || s.contains(".text") {
+                return true
+            }
+        }
+        return false
+    }
 }

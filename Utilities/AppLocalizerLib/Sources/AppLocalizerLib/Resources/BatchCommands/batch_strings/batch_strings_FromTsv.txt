@@ -3,7 +3,7 @@
 ### SCOPE: all planned languages
 ###
 
-OUTPUT_NORMAL_DIRNAME="StringsViaTsv"
+OUTPUT_NORMAL_DIRNAME="StringsViaRepoTsv"
 
 SOURCE_TSV="Afrikaans/tsv/Afrikaans_af.tsv"
 SOURCE_TSV="Afrikaans/tsv/Afrikaans_af.additions.tsv"
@@ -21,7 +21,8 @@ SOURCE_TSV="Bulgarian/tsv/Bulgarian_bg.tsv"
 SOURCE_TSV="Bulgarian/tsv/Bulgarian_bg.additions.tsv"
 DO_NORMAL_STRINGS
 
-SOURCE_TSV="Bulgarian/tsv/Bulgarian_bg.20210126.tsv"
+SOURCE_TSV="Bulgarian/tsv/Bulgarian_bg.20211015_1757.tsv"
+SOURCE_TSV="Bulgarian/tsv/Bulgarian_bg.additions.20211015_1757.tsv"
 DO_NORMAL_STRINGS
 
 SOURCE_TSV="Chinese_HongKong/tsv/Chinese_HongKong_zh-HK.tsv"
@@ -36,7 +37,8 @@ SOURCE_TSV="Chinese_Traditional/tsv/Chinese_Traditional_zh-Hant.tsv"
 SOURCE_TSV="Chinese_Traditional/tsv/Chinese_Traditional_zh-Hant.additions.tsv"
 DO_NORMAL_STRINGS
 
-SOURCE_TSV="Chinese_Traditional/tsv/Chinese_Traditional_zh-Hant.20210126.tsv"
+SOURCE_TSV="Chinese_Traditional/tsv/Chinese_Traditional_zh-Hant.20211015_1919.tsv"
+SOURCE_TSV="Chinese_Traditional/tsv/Chinese_Traditional_zh-Hant.additions.20211015_1919.tsv"
 DO_NORMAL_STRINGS
 
 SOURCE_TSV="Czech/tsv/Czech_cs.tsv"
@@ -66,11 +68,6 @@ SOURCE_TSV="Finnish/tsv/Finnish_fi.tsv"
 SOURCE_TSV="Finnish/tsv/Finnish_fi.additions.tsv"
 DO_NORMAL_STRINGS
 
-SOURCE_TSV="French/tsv/French_fr.20210629_2200.tsv"
-DO_NORMAL_STRINGS
-SOURCE_TSV="French/tsv/French_fr.20210629_2213.tsv"
-DO_NORMAL_STRINGS
-
 SOURCE_TSV="French/tsv/French_fr.tsv"
 SOURCE_TSV="French/tsv/French_fr.additions.tsv"
 DO_NORMAL_STRINGS
@@ -83,21 +80,26 @@ SOURCE_TSV="Georgian/tsv/Georgian_ka.tsv"
 SOURCE_TSV="Georgian/tsv/Georgian_ka.additions.tsv"
 DO_NORMAL_STRINGS
 
+SOURCE_TSV="German/tsv/German_de.20211015_1924.tsv"
+SOURCE_TSV="German/tsv/German_de.additions.20211015_1924.tsv"
+DO_NORMAL_STRINGS
+
 SOURCE_TSV="German/tsv/German_de.combo.tsv"
+DO_NORMAL_STRINGS
+
+SOURCE_TSV="German/tsv/German_de.combo.20211015_1924.tsv"
 DO_NORMAL_STRINGS
 
 SOURCE_TSV="German/tsv/German_de.tsv"
 SOURCE_TSV="German/tsv/German_de.additions.tsv"
 DO_NORMAL_STRINGS
 
-SOURCE_TSV="German/tsv/German_de.20210126.tsv"
-DO_NORMAL_STRINGS
-
 SOURCE_TSV="Greek/tsv/Greek_el.tsv"
 SOURCE_TSV="Greek/tsv/Greek_el.additions.tsv"
 DO_NORMAL_STRINGS
 
-SOURCE_TSV="Greek/tsv/Greek_el.20210126.tsv"
+SOURCE_TSV="Greek/tsv/Greek_el.20211015_1931.tsv"
+SOURCE_TSV="Greek/tsv/Greek_el.additions.20211015_1931.tsv"
 DO_NORMAL_STRINGS
 
 SOURCE_TSV="Hebrew/tsv/Hebrew_he.tsv"
@@ -116,7 +118,8 @@ SOURCE_TSV="Italian/tsv/Italian_it.tsv"
 SOURCE_TSV="Italian/tsv/Italian_it.additions.tsv"
 DO_NORMAL_STRINGS
 
-SOURCE_TSV="Italian/tsv/Italian_it.20210126.tsv"
+SOURCE_TSV="Italian/tsv/Italian_it.20211015_1933.tsv"
+SOURCE_TSV="Italian/tsv/Italian_it.additions.20211015_1933.tsv"
 DO_NORMAL_STRINGS
 
 SOURCE_TSV="Japanese/tsv/Japanese_ja.tsv"
@@ -157,7 +160,8 @@ SOURCE_TSV="Portuguese/tsv/Portuguese_pt.tsv"
 SOURCE_TSV="Portuguese/tsv/Portuguese_pt.additions.tsv"
 DO_NORMAL_STRINGS
 
-SOURCE_TSV="Portuguese/tsv/Portuguese_pt.20210126.tsv"
+SOURCE_TSV="Portuguese/tsv/Portuguese_pt.20211015_1935.tsv"
+SOURCE_TSV="Portuguese/tsv/Portuguese_pt.additions.20211015_1935.tsv"
 DO_NORMAL_STRINGS
 
 SOURCE_TSV="Portuguese_Brazil/tsv/Portuguese_pt-BR.tsv"
@@ -172,14 +176,16 @@ SOURCE_TSV="Romanian/tsv/Romanian_ro.tsv"
 SOURCE_TSV="Romanian/tsv/Romanian_ro.additions.tsv"
 DO_NORMAL_STRINGS
 
-SOURCE_TSV="Romanian/tsv/Romanian_ro.20210126.tsv"
+SOURCE_TSV="Romanian/tsv/Romanian_ro.20211015_1939.tsv"
+SOURCE_TSV="Romanian/tsv/Romanian_ro.additions.20211015_1939.tsv"
 DO_NORMAL_STRINGS
 
 SOURCE_TSV="Russian/tsv/Russian_ru.tsv"
 SOURCE_TSV="Russian/tsv/Russian_ru.additions.tsv"
 DO_NORMAL_STRINGS
 
-SOURCE_TSV="Russian/tsv/Russian_ru.20210126.tsv"
+SOURCE_TSV="Russian/tsv/Russian_ru.20211015_1941.tsv"
+SOURCE_TSV="Russian/tsv/Russian_ru.additions.20211015_1941.tsv"
 DO_NORMAL_STRINGS
 
 SOURCE_TSV="Serbian_Cyrillic/tsv/Serbian_Cyrillic_sr.tsv"

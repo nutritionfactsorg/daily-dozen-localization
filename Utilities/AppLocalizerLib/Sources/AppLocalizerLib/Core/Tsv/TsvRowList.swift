@@ -335,7 +335,29 @@ struct TsvRowList {
         }
         return TsvRowList(data: list)
     }
-        
+    
+    /// sorts on  `key_android`
+    func sortedByAndroid() -> TsvRowList {
+        var list = data
+        list.sort { (a: TsvRow, b: TsvRow) -> Bool in
+            // Return true to order first element before the second.
+            return a.key_android < b.key_android
+        }
+        return TsvRowList(data: list)
+    }
+
+    /// sorts on  combined `lang_value` and `base_value`
+    func sortedByLang() -> TsvRowList {
+        var list = data
+        list.sort { (a: TsvRow, b: TsvRow) -> Bool in
+            let aStr = "\(a.lang_value):::\(a.base_value)"
+            let bStr = "\(b.lang_value):::\(b.base_value)"
+            // Return true to order first element before the second.
+            return aStr < bStr
+        }
+        return TsvRowList(data: list)
+    }
+
     func subtracting(_ toRemove: TsvRowList, byKeyType: TsvKeyType) -> TsvRowList {
         // Prerequisite: key pairing completed. multi-key cases have uniform values.
         // When prerequisites are met, then the first instance is defining

@@ -9,22 +9,19 @@ import Foundation
 struct TsvRemapDroid {
 
     static let check = TsvRemapDroid()
-    // 
+    /// given key as `key_android`, then delete tsv row
     var dropSet: Set<String>
+    /// given key as `key_android`, then apply value to update `key_android`for tsv row
     var replaceDict: [String: String]
-    var crossmapDict: [String: String] // given key_apple, then apply key_android 
+    /// given key as `key_apple`, then apply value as `key_android` for tsv row
+    var crossmapDict: [String: String]  
     
     init() {
         dropSet = Set<String>()
+        
         replaceDict = [String: String]()
         
-        // given key_apple, then apply key_android
         crossmapDict = [String: String]()
-        //crossmapDict["cW5-dD-Zy0.text"] = "format_num_days" // %d days
-        //crossmapDict["Vbn-R9-kuu.text"] = "format_num_days" // %d days
-        //crossmapDict["nRL-iG-Wnd.text"] = "servings_time_scale_choices.1" // month (pager, doze)
-        //crossmapDict["UCg-Rc-mLf.text"] = "servings_time_scale_choices.1" // month (pager, tweak)
-        //crossmapDict["lTR-i5-Tn0.text"] = "servings_time_scale_choices.1" // month (pager, weight)
     }
     
     func isDropped(_ key: String) -> Bool {

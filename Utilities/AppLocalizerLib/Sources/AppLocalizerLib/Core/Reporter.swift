@@ -50,8 +50,8 @@ struct Reporter {
         inactiveAppleDict["YP6-dP-Y62.text"] = "superceded by reminder.settings.sound"
         inactiveAppleDict["XFw-2q-BdT.text"] = "superceded by reminder.state.on"
         
-        inactiveAppleDict["IFs-g0-SPV.headerTitle"] = "superceded by settings.units.header"
-        inactiveAppleDict["WdR-XV-IyP.headerTitle"] = "superceded by settings.tweak.header"
+        inactiveAppleDict["IFs-g0-SPV.headerTitle"] = "superceded by setting_units_header"
+        inactiveAppleDict["WdR-XV-IyP.headerTitle"] = "superceded by setting_tweak_header"
 
         inactiveAppleDict["cW5-dD-Zy0.text"] = "superceded by format_num_days %d days" 
         inactiveAppleDict["Vbn-R9-kuu.text"] = "superceded by format_num_days %d days"
@@ -59,7 +59,7 @@ struct Reporter {
         inactiveAppleDict["nRL-iG-Wnd.text"] = "month (pager, doze) programatically set" 
         inactiveAppleDict["UCg-Rc-mLf.text"] = "month (pager, doze) programatically set"
         inactiveAppleDict["lTR-i5-Tn0.text"] = "month (pager, doze) programatically set"
-
+        
         // Not currently in use
         inactiveAppleDict["otherOmega3.heading"] = "not currently in use" 
         inactiveAppleDict["otherVitaminD.headin"] = "not currently in use" 
@@ -96,8 +96,12 @@ struct Reporter {
               datestamp: String = Date.datestampyyyyMMddHHmm,
               verbose: Bool = false) {
         let verboseTag = verbose ? "_verbose" : ""
-        let url = batchImport._tsvImportSheet.urlLanguage
+        guard let url = batchImport._tsvImportSheet.urlLanguage?
             .appendingPathComponent("Report_\(datestamp)\(verboseTag).txt")
+        else {
+            fatalError("writeReport(batchImport:datestamp) _tsvImportSheet.urlLanguage in nil")
+        }
+        
         let s = reportString(batchImport: batchImport, datestamp: datestamp, verbose: verbose)
         try? s.write(to: url, atomically: true, encoding: .utf8)
     }
