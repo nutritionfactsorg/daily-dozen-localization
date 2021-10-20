@@ -49,7 +49,7 @@ _App Localizations & Store Distribution_
 | [Georgian][locale-ka]     |   | [ka][droid-ka] |   | `ka` |
 | [German][locale-de]       | ✓ | [de][droid-de] |   | `de` | [Germany (DE)][apple-de]
 | [Greek][locale-el]        | ✓ | [el][droid-el] |   | `gr` | [Greece (GR)][apple-el-gr]
-| [Hebrew][locale-he]       |   | [he][droid-he] |   | `he` | [Isreal (IL)][apple-he-il]
+| [Hebrew][locale-he]       | `P` | [he][droid-he] | `P` | `he` | [Isreal (IL)][apple-he-il]
 | [Hindi][locale-hi]        |   | [hi][droid-hi] |   | `hi` | [India (IN)][apple-hi-in]
 | [Hungarian][locale-hu]    |   | [hu][droid-hu] |   | `hu` | [Hungary (HU)][apple-hu]
 | [Italian][locale-it]      | ✓ | [it][droid-it] |   | `it` | [Italy (IT)][apple-it]
@@ -60,12 +60,12 @@ _App Localizations & Store Distribution_
 | [Mongolian][locale-mn]    |   | [mn][droid-mn] |   | `mn` |
 | [Norwegian_nb][locale-nb] |   | [nb][droid-nb] |   | `nb` | [Norway (NO)][apple-nb-no]
 | [Persian][locale-fa]      |   | [fa][droid-fa] |   | `fa` | 
-| [Polish][locale-pl]       | ✓ | [pl][droid-pl] | `S` | `pl` | [Poland (PL)][apple-pl]
-| [Portuguese][locale-pt]   | ✓ | [pt][droid-pt] |   | `pt` |
+| [Polish][locale-pl]       | ✓ | [pl][droid-pl] | `T` | `pl` | [Poland (PL)][apple-pl]
+| [Portuguese][locale-pt]   | ✓ | [pt][droid-pt] | `T` | `pt` |
 | [Portuguese_Brazil][locale-pt-BR]   |   | [pt-BR][droid-pt-BR] |   | `pt-BR` | [Brazil (BR)][apple-pt-BR]
 | [Portuguese_Portugal][locale-pt-PT] |   | [pt-PT][droid-pt-PT] |   | `pt-PT` | [Portugal (PT)][apple-pt]
 | [Romanian][locale-ro]     | ✓ | [ro][droid-ro] |   | `ro` | [Romania (RO)][apple-ro]
-| [Russian][locale-ru]      | ✓ | [ru][droid-ru] |   | `ru` | [Russia (RU)][apple-ru]
+| [Russian][locale-ru]      | ✓ | [ru][droid-ru] | `P` | `ru` | [Russia (RU)][apple-ru]
 | [Serbian_Cyrillic][locale-sr]   |   | [sr][droid-sr] |   | `sr` |
 | [Serbian_Latin][locale-sr-Latn] |   | [sr-Latn][droid-sr-Latn] |   | `sr-Latn` |
 | [Slovak][locale-sk]       |   | [sk][droid-sk] |   | `sk` | [Slovakia (SK)][apple-sk]
@@ -78,8 +78,9 @@ _App Localizations & Store Distribution_
 
 _legend:_
 
+* `P` - partial application translation received
+* `T` - application translation received and being processed
 * `✓` - published through the app store
-* `S` - submission received and being processed
 
 <!-- Afrikaans: Namibia (af-NA), South Africa (af-ZA) -->
 [locale-af]:Languages/Afrikaans

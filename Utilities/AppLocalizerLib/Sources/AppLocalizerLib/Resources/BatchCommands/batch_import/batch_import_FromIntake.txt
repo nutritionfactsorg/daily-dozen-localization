@@ -1,17 +1,18 @@
-### FILE: batch_import_submitted.txt
+### FILE: batch_import_FromIntake.txt
 ### WORKFLOW: Documentation/Workflow_ImportIntoApps.md
 ###
 ##########################
 ### IMPORT TRANSLATION ###
 ##########################
 
-OUTPUT_NORMAL_DIRNAME="SubmittedImport"
+OUTPUT_NORMAL_DIRNAME="ImportFromIntake"
 
-SOURCE_TSV="Portuguese/tsv/Portuguese_pt.submitted.tsv"
+## Portuguese intake has been migrated to the repo main file
+SOURCE_TSV="Portuguese/tsv/Portuguese_pt.tsv"
 DO_NORMAL_STRINGS
 
 CLEAR_ALL
-SOURCE_TSV="Portuguese/tsv/Portuguese_pt.submitted.tsv"
+SOURCE_TSV="Portuguese/tsv/Portuguese_pt.tsv"
 OUTPUT_DROID="Portuguese/android/values-pt/strings.xml"    
 OUTPUT_APPLE="Portuguese/ios/pt.xcloc/Localized Contents/pt.xliff"   
 DO_IMPORT_TSV
