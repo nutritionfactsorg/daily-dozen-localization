@@ -805,7 +805,7 @@ OK		OK	Vale
 about	qGY-wh-1gB.text	About	Conócenos	
 about_text_lines.0		This app was created by John Slavick.	Esta app fue creada por John Slavick.	
 about_text_lines.1				
-about_text_lines.2		The following open source libraries are used: ActiveAndroid, android-iconify, ButterKnife, EventBus, LikeAnimation, and MPAndroidChart.	Se utilizaron estas librerías de código abierto: ActiveAndroid, android-iconify, ButterKnife, EventBus, LikeAnimation y MPAndroidChart.	
+about_text_lines.2		The following open source libraries are used: ActiveAndroid, android-iconify, EventBus, LikeAnimation, and MPAndroidChart.	Se utilizaron estas librerías de código abierto: ActiveAndroid, android-iconify, EventBus, LikeAnimation y MPAndroidChart.	
 about_text_lines.3				
 about_text_lines.4		Special thanks to the volunteer efforts of the creators of the previous app: Chan Kruse, Allan Portera, and Sangeeta Kumar.	Muchas gracias a los voluntarios que ayudaron con la versión anterior de la app: Chan Kruse, Allan Portera y Sangeeta Kumar.	
 about_this_app		About this app	Sobre esta app	

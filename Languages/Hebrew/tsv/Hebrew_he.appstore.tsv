@@ -28,7 +28,7 @@ Application level language selection, via Settings, requires iOS 13 or newer."
 				
 android.about_text_lines		"This app was created by John Slavick.
 
-The following open source libraries are used: ActiveAndroid, android-iconify, ButterKnife, EventBus, LikeAnimation, and MPAndroidChart.
+The following open source libraries are used: ActiveAndroid, android-iconify, EventBus, LikeAnimation, and MPAndroidChart.
 
 Special thanks to the volunteer efforts of the creators of the previous app: Chan Kruse, Allan Portera, and Sangeeta Kumar."		
 android.backup_instructions_lines		"Follow these steps to restore this backup in the Daily Dozen app

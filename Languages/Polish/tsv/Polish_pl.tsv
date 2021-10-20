@@ -408,7 +408,7 @@ about	qGY-wh-1gB.text	About	O aplikacji
 about_tweak		About Tweak	O Adaptacji	
 activity_welcome_text	dwQ-CS-gz3.text	Use this app on a daily basis to keep track of the foods and advice I recommend for optimal health and longevity in my books How Not to Die and How Not to Diet.	"Korzystaj z tej aplikacji codziennie, aby śledzić żywność i porady, które polecam dla optymalnego zdrowia i długowieczności w moich książkach „Jak nie umrzeć przedwcześnie” i „How Not to Diet”."	I left the English title for the second book - as there is no Polish edition yet (2020).
 android.about_text_lines.0		This app was created by John Slavick.	Aplikacja została stworzona przez Johna Slavicka.	
-android.about_text_lines.1		"The following open source libraries are used: ActiveAndroid, android-iconify, ButterKnife, EventBus, LikeAnimation, and MPAndroidChart."	"Używane są następujące biblioteki open source: ActiveAndroid, android-iconify, ButterKnife, EventBus, LikeAnimation i MPAndroidChart."	
+android.about_text_lines.1		"The following open source libraries are used: ActiveAndroid, android-iconify, EventBus, LikeAnimation, and MPAndroidChart."	"Używane są następujące biblioteki open source: ActiveAndroid, android-iconify, EventBus, LikeAnimation i MPAndroidChart."	
 android.about_text_lines.2		"Special thanks to the volunteer efforts of the creators of the previous app: Chan Kruse, Allan Portera, and Sangeeta Kumar."	"Specjalne podziękowania za wolontariacki wysiłek twórców poprzedniej aplikacji: Chana Kruse, Allana Portera i Sangeeta Kumara."	
 app_name	DJR-bj-qUq.text	Daily Dozen	Codzienny Tuzin	Application name shown near app icon.
 average_weight_on_day		Average weight on day	Średnia waga w dniu	
