@@ -451,7 +451,7 @@ weight	weightEntry.heading	Weight	Peso
 	weight_history_edit_data	Edit Data	Editar Dados	
 about_tweak		About Tweak	Sobre o Ajuste	
 android.about_text_lines.0		This app was created by John Slavick.	Este aplicativo foi criado por John Slavick.	
-android.about_text_lines.1		The following open source libraries are used: ActiveAndroid, android-iconify, ButterKnife, EventBus, LikeAnimation, and MPAndroidChart.	As seguintes bibliotecas de código aberto foram usadas: ActiveAndroid, android-iconify, ButterKnife, EventBus, LikeAnimation e MPAndroidChart.	
+android.about_text_lines.1		The following open source libraries are used: ActiveAndroid, android-iconify, EventBus, LikeAnimation, and MPAndroidChart.	As seguintes bibliotecas de código aberto foram usadas: ActiveAndroid, android-iconify, EventBus, LikeAnimation e MPAndroidChart.	
 android.about_text_lines.2		Special thanks to the volunteer efforts of the creators of the previous app: Chan Kruse, Allan Portera, and Sangeeta Kumar."	Agradecimento especial ao esforço dos voluntários criadores do aplicativo anterior: Chan Kruse, Allan Portera e Sangeeta Kumar.	
 average_weight_on_day		Average weight on day	Peso médio no dia	
 backup		Backup	Cópia de segurança	

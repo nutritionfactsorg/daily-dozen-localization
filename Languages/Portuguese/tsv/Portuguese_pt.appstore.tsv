@@ -1,51 +1,24 @@
-key_droid	key_apple	base_value	lang_value	base_comment
-android.store.title	apple.store.title	Dr. Greger's Daily Dozen		
-	apple.store.subtitle	Track the foods recommended by NutritionFacts.org		
-	apple.store.keywords			
-android.store.description		"Dr. Greger’s Daily Dozen details the healthiest foods and how many servings of each we should try to check off every day from his book How Not Die—now including the 21 Tweaks from How Not to Diet—weight-loss accelerators to help maximize our natural fat-burning capabilities.
-
-All his proceeds from his books, DVDs, and speaking engagements is all donated to charity.
-
-NutritionFacts.org is a non-commercial, nonprofit, science-based public service provided by Dr. Greger, providing free daily updates on the latest in nutrition research via bite-sized videos. He has nearly a thousand videos on every aspect of healthy eating, with new videos and articles uploaded every day. Like this app, everything on the website is both free of ads and free of charge."		
-android.store.whatsnew		Adds language support of [place translated language name here].		
-	apple.store.promotion	"Check out the Daily Dozen’s brand new functionality! Includes 21 Tweaks from the new book, How Not to Diet."		
-	apple.store.description	"Keep track of the foods recommended by Dr. Greger in his New York Times Bestselling book, How Not to Die, and now his new book, How Not to Diet.
-
-The 21 Tweaks feature, based on How Not to Diet, also provides a weight tracker. The weight tracker can use HealthKit to either save manually entered weight values or to read weight data from HealthKit enabled scales.
-
-In the years of research required to create the more than a thousand evidence-based videos on his website NutritionFacts.org, Michael Greger, M.D, FACLM, has arrived at a list of what he considers the most important foods to include in a healthy daily diet.
-
-Dr. Greger’s Daily Dozen details the healthiest foods and how many servings of each we should try to check off every day. He explains his rationale in his book How Not to Die.
-
-All his proceeds from his books, DVDs, and speaking engagements are all donated to charity.
-
-NutritionFacts.org is a non-commercial, non-profit, science-based public service provided by Dr. Greger, providing free daily updates on the latest in nutrition research via bite-sized videos. He has nearly a thousand videos on every aspect of healthy eating, with new videos and articles uploaded every day.
-
-Like this app, everything on the website is both free of ads and free of charge.
-
-Application level language selection, via Settings, requires iOS 13 or newer."		
-	apple.store.whatsnew	Adds language support of [place translated language name here].		
-				
-android.about_text_lines		"This app was created by John Slavick.
-
-The following open source libraries are used: ActiveAndroid, android-iconify, ButterKnife, EventBus, LikeAnimation, and MPAndroidChart.
-
-Special thanks to the volunteer efforts of the creators of the previous app: Chan Kruse, Allan Portera, and Sangeeta Kumar."		
-android.backup_instructions_lines		"Follow these steps to restore this backup in the Daily Dozen app
-
-1. The Daily Dozen app must be installed on your Android phone. You can download it here: https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen 
-2. Tap on the backup file attached to this email. 
-3. Select Open with Daily Dozen"		
-	apple.info.about	"Welcome to my Daily Dozen!
-
-Use this app on a daily basis to keep track of the foods and advice I recommend for optimal health and longevity in my books How Not to Die and How Not to Diet.
-
-Daily Dozen version 3.2.3
-
-This app was created by: 
-NutritionFacts.org
-Christi Richards
-Konstantin Khokhlov
-Marc Campbell
-
-The following open source libraries are used: RealmSwift, Charts, FSCalendar, SimpleAnimation and ActiveLabel."		
+key_droid	key_apple	base_value	lang_value	base_note	lang_note
+	apple.store.description.0	"Keep track of the foods recommended by Dr. Greger in his New York Times Bestselling book, How Not to Die, and now his new book, How Not to Diet."	"Keep track of the foods recommended by Dr. Greger in his New York Times Bestselling book, How Not to Die, and now his new book, How Not to Diet."		
+	apple.store.description.1	"The 21 Tweaks feature, based on How Not to Diet, also provides a weight tracker. The weight tracker can use HealthKit to either save manually entered weight values or to read weight data from HealthKit enabled scales."	"The 21 Tweaks feature, based on How Not to Diet, also provides a weight tracker. The weight tracker can use HealthKit to either save manually entered weight values or to read weight data from HealthKit enabled scales."		
+	apple.store.description.2	"In the years of research required to create the more than a thousand evidence-based videos on his website NutritionFacts.org, Michael Greger, M.D, FACLM, has arrived at a list of what he considers the most important foods to include in a healthy daily diet."	"In the years of research required to create the more than a thousand evidence-based videos on his website NutritionFacts.org, Michael Greger, M.D, FACLM, has arrived at a list of what he considers the most important foods to include in a healthy daily diet."		
+	apple.store.description.3	Dr. Greger’s Daily Dozen details the healthiest foods and how many servings of each we should try to check off every day. He explains his rationale in his book How Not to Die.	Dr. Greger’s Daily Dozen details the healthiest foods and how many servings of each we should try to check off every day. He explains his rationale in his book How Not to Die.		
+	apple.store.description.4	"All his proceeds from his books, DVDs, and speaking engagements are all donated to charity."	"All his proceeds from his books, DVDs, and speaking engagements are all donated to charity."		
+	apple.store.description.5	"NutritionFacts.org is a non-commercial, non-profit, science-based public service provided by Dr. Greger, providing free daily updates on the latest in nutrition research via bite-sized videos. He has nearly a thousand videos on every aspect of healthy eating, with new videos and articles uploaded every day."	"NutritionFacts.org is a non-commercial, non-profit, science-based public service provided by Dr. Greger, providing free daily updates on the latest in nutrition research via bite-sized videos. He has nearly a thousand videos on every aspect of healthy eating, with new videos and articles uploaded every day."		
+	apple.store.description.6	"Like this app, everything on the website is both free of ads and free of charge."	"Like this app, everything on the website is both free of ads and free of charge."		
+	apple.store.description.7	"Application level language selection, via Settings, requires iOS 13 or newer."	"Application level language selection, via Settings, requires iOS 13 or newer."		
+	apple.store.promotion	"Check out the Daily Dozen’s brand new functionality! Includes 21 Tweaks from the new book, How Not to Diet."	"Check out the Daily Dozen’s brand new functionality! Includes 21 Tweaks from the new book, How Not to Diet."		
+	apple.store.subtitle	Track the foods recommended by NutritionFacts.org	Track the foods recommended by NutritionFacts.org		
+android.store.title	apple.store.title	Dr. Greger's Daily Dozen	Dr. Greger's Daily Dozen		
+	apple.store.whatsnew	Adds language support of [place translated language name here].	Adds language support of [place translated language name here].		
+store.keywords	store.keywords	"vegan, nutrition, food, vegetarian, health, healthy"	"vegan, nutrition, food, vegetarian, health, healthy"		
+store.screen.0	store.screen.0	Eat. Track. Repeat. No calorie counting or macro tracking required.	Eat. Track. Repeat. No calorie counting or macro tracking required.		
+store.screen.1	store.screen.1	All for free!	All for free!		
+store.screen.2	store.screen.2	Eat delicious meals that include Daily Dozen foods.	Eat delicious meals that include Daily Dozen foods.		
+store.screen.3	store.screen.3	Track your daily servings in the app.	Track your daily servings in the app.		
+store.screen.4	store.screen.4	Repeat until healthy eating becomes second nature.	Repeat until healthy eating becomes second nature.		
+store.screen.5	store.screen.5	Dr. Greger's Daily Dozen It's your regular routine that determines your long-term health. Download today!	Dr. Greger's Daily Dozen It's your regular routine that determines your long-term health. Download today!		
+android.store.description.0		Dr. Greger’s Daily Dozen details the healthiest foods and how many servings of each we should try to check off every day from his book How Not Die—now including the 21 Tweaks from How Not to Diet—weight-loss accelerators to help maximize our natural fat-burning capabilities.	Dr. Greger’s Daily Dozen details the healthiest foods and how many servings of each we should try to check off every day from his book How Not Die—now including the 21 Tweaks from How Not to Diet—weight-loss accelerators to help maximize our natural fat-burning capabilities.		
+android.store.description.1		"All his proceeds from his books, DVDs, and speaking engagements is all donated to charity."	"All his proceeds from his books, DVDs, and speaking engagements is all donated to charity."		
+android.store.description.2		"NutritionFacts.org is a non-commercial, nonprofit, science-based public service provided by Dr. Greger, providing free daily updates on the latest in nutrition research via bite-sized videos. He has nearly a thousand videos on every aspect of healthy eating, with new videos and articles uploaded every day. Like this app, everything on the website is both free of ads and free of charge."	"NutritionFacts.org is a non-commercial, nonprofit, science-based public service provided by Dr. Greger, providing free daily updates on the latest in nutrition research via bite-sized videos. He has nearly a thousand videos on every aspect of healthy eating, with new videos and articles uploaded every day. Like this app, everything on the website is both free of ads and free of charge."		
+android.store.whatsnew		Adds language support of [place translated language name here].	Adds language support of [place translated language name here].		
