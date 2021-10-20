@@ -320,16 +320,8 @@ morning	historyRecordWeight.legendMorning	Morning	Morning
 	historyRecordWeight.titleImperial	Weight (lbs)	Weight (lbs)	
 	historyRecordWeight.titleMetric	Weight (kg)	Weight (kg)	
 servings_time_scale_choices.0	history_scale_choice_day	Day	Day	Calendar view scale control
-servings_time_scale_choices.0	history_scale_choice_day	Day	Day	Calendar view scale control
-servings_time_scale_choices.0	history_scale_choice_day	Day	Day	Calendar view scale control
-servings_time_scale_choices.1	history_scale_choice_month	Month	Month	Calendar view scale control
-servings_time_scale_choices.1	history_scale_choice_month	Month	Month	Calendar view scale control
 servings_time_scale_choices.1	history_scale_choice_month	Month	Month	Calendar view scale control
 servings_time_scale_choices.2	history_scale_choice_year	Year	Year	Calendar view scale control
-servings_time_scale_choices.2	history_scale_choice_year	Year	Year	Calendar view scale control
-servings_time_scale_choices.2	history_scale_choice_year	Year	Year	Calendar view scale control
-time_scale	history_scale_label	Time Scale	Time Scale	
-time_scale	history_scale_label	Time Scale	Time Scale	
 time_scale	history_scale_label	Time Scale	Time Scale	
 about_this_app	info.about.title	About this app	About this app	
 about	info_app_about	About	About	
@@ -368,10 +360,13 @@ daily_dozen_and_tweaks	setting_doze_tweak_btn	Daily Dozen + 21 Tweaks	Daily Doze
 	setting_doze_tweak_footer	For health alone, use "Daily Dozen Only". For health and weight loss use "Daily Dozen + 21 Tweaks".	For health alone, use "Daily Dozen Only". For health and weight loss use "Daily Dozen + 21 Tweaks".	
 for_health_alone	setting_health_alone_txt	For Health Alone	For Health Alone	
 for_health_and_weight_loss	setting_health_weight_txt	For Health and Weight Loss	For Health and Weight Loss	
-	settings.tweak.header	21 Tweak Visibility	21 Tweak Visibility	
-	settings.units.header	Measurement Units		
-	settings_advanced_utilities	Advanced Utilities		
-	settings_units_choice_footer	Set to always be one unit type or enable the 'Units:' toggle button.	Set to always be one unit type or enable the 'Units:' toggle button.	
+	setting_tweak_header	21 Tweak Visibility	21 Tweak Visibility	
+	setting_units_0_imperial	Imperial	Imperial	Part of "Imperial/Metric/Toggle Units" selector
+	setting_units_1_metric	Metric	Metric	Part of "Imperial/Metric/Toggle Units" selector
+	setting_units_2_toggle	Toggle Units	Toggle Units	Part of "Imperial/Metric/Toggle Units" selector
+	setting_units_choice_footer	Set to always be one unit type or enable the 'Units:' toggle button.	Set to always be one unit type or enable the 'Units:' toggle button.	
+	setting_units_header	Measurement Units	Measurement Units	
+	setting_util_advanced	Advanced Utilities	Advanced Utilities	
 format_num_days	streakDaysFormat	%d days	%d days	Formatted string %d days
 complete_intentions	tweakCompleteIntentions.heading	Complete Your Implementation Intentions	Complete Your Implementation Intentions	
 complete_intentions_short	tweakCompleteIntentions.short	Complete Your Implementation Intentions	Complete Your Implementation Intentions	
@@ -438,26 +433,22 @@ weigh_twice_short	tweakWeightTwice.short	Weigh Yourself Twice a Day	Weigh Yourse
 weigh_twice_text	tweakWeightTwice.text	Regular self-weighing is considered crucial for long-term weight control, but there is insufficient evidence to support a specific frequency of weighing. My recommendation is based on the one study that found that twice daily—upon waking and right before bed—appeared superior to once a day (about six versus two pounds of weight loss over twelve weeks).	Regular self-weighing is considered crucial for long-term weight control, but there is insufficient evidence to support a specific frequency of weighing. My recommendation is based on the one study that found that twice daily—upon waking and right before bed—appeared superior to once a day (about six versus two pounds of weight loss over twelve weeks).	
 	tweak_detail_section_activity	Activity	Activity	
 	tweak_detail_section_description	Description	Description	
+twenty_one_tweaks	tweak_entry_header	21 Tweaks	21 Tweaks	
 imperial	unitToggle.imperial	imperial	imperial	
 metric	unitToggle.metric	metric	metric	
-units	units_label	Units:	Units:	
 units	units_label	Units:	Units:	
 videos	videos.link.label	VIDEOS	VIDEOS	Keyword for link to video topics
 weight	weightEntry.heading	Weight	Weight	
 	weight_entry_clear	Clear	Clear	
-	weight_entry_clear	Clear	Clear	
 	weight_entry_evening	Evening (right before bed)	Evening (right before bed)	
 	weight_entry_morning	Morning (upon waking)	Morning (upon waking)	
 	weight_entry_time	Time	Time	
-	weight_entry_time	Time	Time	
 	weight_entry_units_kg	kg	kg	
-	weight_entry_units_kg	kg	kg	
-	weight_entry_units_lbs	lbs	lbs	
 	weight_entry_units_lbs	lbs	lbs	
 	weight_history_edit_data	Edit Data	Edit Data	
 about_tweak		About Tweak		
 android.about_text_lines.0		This app was created by John Slavick.	This app was created by John Slavick.	
-android.about_text_lines.1		The following open source libraries are used: ActiveAndroid, android-iconify, EventBus, LikeAnimation, and MPAndroidChart.	The following open source libraries are used: ActiveAndroid, android-iconify, EventBus, LikeAnimation, and MPAndroidChart.	
+android.about_text_lines.1		The following open source libraries are used: ActiveAndroid, android-iconify, ButterKnife, EventBus, LikeAnimation, and MPAndroidChart.	The following open source libraries are used: ActiveAndroid, android-iconify, ButterKnife, EventBus, LikeAnimation, and MPAndroidChart.	
 android.about_text_lines.2		Special thanks to the volunteer efforts of the creators of the previous app: Chan Kruse, Allan Portera, and Sangeeta Kumar."	Special thanks to the volunteer efforts of the creators of the previous app: Chan Kruse, Allan Portera, and Sangeeta Kumar."	
 average_weight_on_day		Average weight on day	Average weight on day	
 backup		Backup	Backup	
@@ -512,7 +503,7 @@ restore_confirm_message		Any existing data will be deleted before restoring from
 restore_confirm_title		Restore Backup	Restore Backup	
 restore_failed		Restore failed	Restore failed	
 restore_success		Restore successful	Restore successful	
-servings	1HM-mL-ZV9.text	Servings	Servings	
+servings	doze_entry_header	Servings	
 task_backup_title		Backing up	Backing up	
 task_calculating_streaks_title		Calculating progress	Calculating progress	
 task_generating_random_data		Generating random data	Generating random data	
@@ -526,8 +517,4 @@ tweak_group_daily		Every Day	Every Day
 tweak_group_dailydoses		Take your daily doses	Take your daily doses	
 tweak_group_meal		At Each Meal	At Each Meal	
 tweak_group_nightly		Every Night	Every Night	
-twenty_one_tweaks	tweak_entry_header	21 Tweaks	21 Tweaks	
 yes		Yes	Yes	
-	settings_units_0_imperial	Imperial	Imperial	Part of "Imperial/Metric/Toggle Units" selector
-	settings_units_1_metric	Metric	Metric	Part of "Imperial/Metric/Toggle Units" selector
-	settings_units_2_toggle	Toggle Units	Toggle Units	Part of "Imperial/Metric/Toggle Units" selector
