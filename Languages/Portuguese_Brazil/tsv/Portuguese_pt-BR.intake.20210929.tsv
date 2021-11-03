@@ -1,12 +1,6 @@
 key_droid	key_apple	base_value	lang_value	base_note
 	NSHealthShareUsageDescription	The 21 Tweaks feature accesses your HealthKit data to provide updates to your daily weight measurements.	A função 21 Ajustes acessa os dados do seu HealthKit para fornecer atualizações às suas medidas diárias de peso.	
 	NSHealthUpdateUsageDescription	The 21 Tweaks feature can write weight data to HealthKit to help you keep track of your progress.	A função 21 Ajustes pode escrever dados no HealthKit para te ajudar a acompanhar o seu progresso.	
-	apple.info.about.0	Welcome to my Daily Dozen!	Bem vindo à minha Dúzia Diária!	
-	apple.info.about.1	Use this app on a daily basis to keep track of the foods and advice I recommend for optimal health and longevity in my books How Not to Die and How Not to Diet.	Use este aplicativo diariamente para acompanhar os alimentos e conselhos que eu recomendo para ter saúde ótima e longevidade nos meus livros Comer Para Não Morrer/Como Não Morrer e Como Não Fazer Dieta.	
-	apple.info.about.2	Daily Dozen	Dúzia Diária	
-	apple.info.about.3	version 3.2.3	versão 3.2.3	
-	apple.info.about.4	This app was created by: NutritionFacts.org, Christi Richards, Konstantin Khokhlov, and Marc Campbell	Este aplicativo foi criado por: NutritionFacts.org, Christi Richards, Konstantin Khokhlov e Marc Campbell.	
-	apple.info.about.5	The following open source libraries are used: RealmSwift, Charts, FSCalendar, SimpleAnimation, ActiveLabel.	As seguintes bibliotecas de código aberto foram usadas: RealmSwift, Charts, FSCalendar, SimpleAnimation, ActiveLabel.	
 back_to_today	dateBackButtonTitle	Back to today	Voltar para hoje	
 	dateButtonTitle.today	Today	Hoje	
 food_info_serving_sizes_beans_imperial.0	dozeBeans.Serving.imperial.0	¼ cup of hummus or bean dip	¼ xícara de homus ou patê de feijão	
@@ -200,10 +194,6 @@ food_info_types_nuts.7	dozeNuts.Variety.Text.7	Pecans	Nozes pecãs
 food_info_types_nuts.8	dozeNuts.Variety.Text.8	Pistachios	Pistaches	
 food_info_types_nuts.9	dozeNuts.Variety.Text.9	Pumpkin seeds	Sementes de abóbora	
 nuts	dozeNuts.heading	Nuts and Seeds	Oleaginosas e Sementes	
-OK	dozeOtherInfo.confirm	OK	Certo	
-	dozeOtherInfo.message	Vitamin B12 is essential for your health but does not count towards your daily servings.\n\nVitamin B12 is included in this app to provide you with an easy way to track your intake.	A vitamina B12 é essencial para a sua saúde mas não conta na suas porções diárias. \n\nA vitamina B12 é incluida neste aplicativo para fornecer a você uma forma fácil de acompanhar a sua ingestão.	
-	dozeOtherInfo.title	Supplements	Suplementos	
-	dozeOtherInfo.title	Supplements	Suplementos	
 food_info_serving_sizes_spices_imperial.0	dozeSpices.Serving.imperial.0	¼ teaspoon of turmeric	¼ colher de chá de cúrcuma/açafrão-da-terra	
 food_info_serving_sizes_spices_imperial.1	dozeSpices.Serving.imperial.1	Any other (salt-free) herbs and spices you enjoy	Qualquer outra erva (sem sal) e especiarias que goste	
 food_info_serving_sizes_spices_metric.0	dozeSpices.Serving.metric.0	¼ teaspoon of turmeric	¼ colher de chá de cúrcuma/açafrão-da-terra	
@@ -311,27 +301,24 @@ food_info_types_whole_grains.8	dozeWholeGrains.Variety.Text.8	Whole-wheat pasta	
 whole_grains	dozeWholeGrains.heading	Whole Grains	Grãos Integrais	
 serving_sizes	doze_detail_section_sizes	Serving Sizes	Tamanhos da Porção	
 types	doze_detail_section_types	Types	Tipos	
-servings	doze_entry_header	Servings	Porções	
-	historyRecordDoze.heading	Servings History	Histórico de Porções	
-	historyRecordDoze.legend	Servings	Porções	
-	historyRecordTweak.heading	Tweaks History	Histórico de Ajustes	
-tweaks	historyRecordTweak.legend	Tweaks	Ajustes	
-weight_history	historyRecordWeight.heading	Weight History	Histórico de Peso	
-evening	historyRecordWeight.legendEvening	Evening	Noite	
-morning	historyRecordWeight.legendMorning	Morning	Manhã	
-	historyRecordWeight.titleImperial	Weight (lbs)	Peso (lbs)	
-	historyRecordWeight.titleMetric	Weight (kg)	Peso (kg)	
+servings_time_scale_choices.0	history_scale_choice_day	Day	Dia	Calendar view scale control
+servings_time_scale_choices.0	history_scale_choice_day	Day	Dia	Calendar view scale control
 servings_time_scale_choices.0	history_scale_choice_day	Day	Dia	Calendar view scale control
 servings_time_scale_choices.1	history_scale_choice_month	Month	Mês	Calendar view scale control
+servings_time_scale_choices.1	history_scale_choice_month	Month	Mês	Calendar view scale control
+servings_time_scale_choices.1	history_scale_choice_month	Month	Mês	Calendar view scale control
+servings_time_scale_choices.2	history_scale_choice_year	Year	Ano	Calendar view scale control
+servings_time_scale_choices.2	history_scale_choice_year	Year	Ano	Calendar view scale control
 servings_time_scale_choices.2	history_scale_choice_year	Year	Ano	Calendar view scale control
 time_scale	history_scale_label	Time Scale	Escala de Tempo	
-about_this_app	info.about.title	About this app	Sobre este aplicativo	
+time_scale	history_scale_label	Time Scale	Escala de Tempo	
+time_scale	history_scale_label	Time Scale	Escala de Tempo	
 about	info_app_about	About	Sobre Nós	
 app_name	info_app_about_app_name	Daily Dozen	Dúzia Diária	'Daily Dozen' application name
-activity_welcome_text	info_app_about_overview	Use this app on a daily basis to keep track of the foods and advice I recommend for optimal health and longevity in my books How Not to Die and How Not to Diet.	Use este aplicativo diariamente para controlar os seus alimentos e acompanhar os conselhos que eu recomendo para uma ótima saúde e longevidade nos meus livros Como Não Morrer e Como Não Fazer Dieta.	
+activity_welcome_text	info_app_about_overview	Use this app on a daily basis to keep track of the foods and advice I recommend for optimal health and longevity in my books How Not to Die and How Not to Diet.	Use este aplicativo diariamente para controlar os seus alimentos e acompanhar os conselhos que eu recomendo para uma ótima saúde e longevidade nos meus livros Comer Para Não Morrer e Como Não Fazer Dieta.	
 	info_app_about_version	version 3.2.1	versão 3.2.1	Application release version
 welcome_to_my_daily_dozen	info_app_about_welcome	Welcome to my Daily Dozen!	Bem-vindos à minha Dúzia Diária!	
-	info_book_how_not_to_die	Book: How Not to Die	Livro: Como Não Morrer	
+	info_book_how_not_to_die	Book: How Not to Die	Livro: Comer Para Não Morrer	
 	info_book_how_not_to_die_cookbook	Book: How Not to Die Cookbook	Livro: Como Não Morrer - O Livro de Receitas	
 	info_book_how_not_to_diet	Book: How Not to Diet	Livro: Como Não Fazer Dieta	
 daily_dozen_challenge	info_webpage_daily_dozen_challenge	Daily Dozen Challenge	Desafio Duzía Diária	
@@ -342,10 +329,6 @@ latest_videos	info_webpage_videos_latest	Latest Videos	Últimos Vídeos
 servings_all	item_history_completed_all	All servings	Todas as porções	
 servings_some	item_history_completed_some	Some servings	Algumas porções	
 history	item_history_heading	History	Histórico	
-	navtab.doze	Daily Dozen	Dúzia Diária	
-	navtab.info	Information	Informação	
-	navtab.preferences	Preferences	Preferências	
-	navtab.tweaks	21 Tweaks	21 Ajustes	
 vitamin_b12	otherVitaminB12.heading	Vitamin B12	Vitamina B12	
 daily_reminder_text	reminder.alert.text	Update your servings for today	Atualize as suas porções para hoje	Alert notification text
 	reminder.heading	Daily Reminder	Lembrete Diário	
@@ -362,14 +345,10 @@ daily_dozen_and_tweaks	setting_doze_tweak_btn	Daily Dozen + 21 Tweaks	Dúzia Di�
 	setting_doze_tweak_footer	For health alone, use "Daily Dozen Only". For health and weight loss use "Daily Dozen + 21 Tweaks".	Se está interessado apenas em saúde, use "Apenas a Dúzia Diária". Se está interessado em saúde e perda de peso use "Dúzia Diária + 21 Ajustes".	
 for_health_alone	setting_health_alone_txt	For Health Alone	Para Saúde Apenas	
 for_health_and_weight_loss	setting_health_weight_txt	For Health and Weight Loss	Para Saúde e Perda de Peso	
-	setting_tweak_header	21 Tweak Visibility	Visibilidade dos 21 Ajustes	
-	setting_units_0_imperial	Imperial	Imperial	Part of "Imperial/Metric/Toggle Units" selector
-	setting_units_1_metric	Metric	Métrico	Part of "Imperial/Metric/Toggle Units" selector
-	setting_units_2_toggle	Toggle Units	Alternar Unidades	Part of "Imperial/Metric/Toggle Units" selector
-	setting_units_choice_footer	Set to always be one unit type or enable the 'Units:' toggle button.	Escolha ter as mesmas unidades de medida sempre ou ative o botão de alteração "Unidades:".	
-	setting_units_header	Measurement Units	Unidades de Medida	
-	setting_util_advanced	Advanced Utilities	Funções Avançadas	
-format_num_days	streakDaysFormat	%d days	%d dias	Formatted string %d days
+	settings.tweak.header	21 Tweak Visibility	Visibilidade dos 21 Ajustes	
+	settings.units.header	Measurement Units	Unidades de Medida	
+	settings_advanced_utilities	Advanced Utilities	Funções Avançadas	
+	settings_units_choice_footer	Set to always be one unit type or enable the 'Units:' toggle button.	Escolha ter as mesmas unidades de medida sempre ou ative o botão de alteração "Unidades:".	
 complete_intentions	tweakCompleteIntentions.heading	Complete Your Implementation Intentions	Conclua Suas Intenções de Implementação	
 complete_intentions_short	tweakCompleteIntentions.short	Complete Your Implementation Intentions	Conclua Suas Intenções de Implementação	
 complete_intentions_text	tweakCompleteIntentions.text	Every two months, create three new implementation intentions—"if X, then Y" plans to perform a particular behavior in a specific context—and check each one of them off as you complete them every day.	A cada dois meses, crie três novas intenções de implementação — planos "se X, então Y" para executar um comportamento específico em um contexto específico — e marque cada uma delas conforme você as conclui todos os dias.	
@@ -435,91 +414,39 @@ weigh_twice_short	tweakWeightTwice.short	Weigh Yourself Twice a Day	Pese-se Duas
 weigh_twice_text	tweakWeightTwice.text	Regular self-weighing is considered crucial for long-term weight control, but there is insufficient evidence to support a specific frequency of weighing. My recommendation is based on the one study that found that twice daily—upon waking and right before bed—appeared superior to once a day (about six versus two pounds of weight loss over twelve weeks).	A auto-pesagem regular é considerada crucial para o controle de peso a longo prazo, mas não há evidências suficientes para apoiar uma frequência específica de pesagem. Minha recomendação baseia-se no estudo que constatou que duas vezes por dia — ao acordar e logo antes de dormir — pareceu superior a uma vez por dia (cerca de 2,7 kg versus 0,9 kg de perda de peso em doze semanas).	
 	tweak_detail_section_activity	Activity	Atividade	
 	tweak_detail_section_description	Description	Descrição	
-twenty_one_tweaks	tweak_entry_header	21 Tweaks	21 Ajustes	
-imperial	unitToggle.imperial	imperial	Imperial	
-metric	unitToggle.metric	metric	Métrico	
 units	units_label	Units:	Unidades:	
-videos	videos.link.label	VIDEOS	VÍDEOS	Keyword for link to video topics
-videos	videos.link.label	VIDEOS	VÍDEOS	Keyword for link to video topics
-weight	weightEntry.heading	Weight	Peso	
+units	units_label	Units:	Unidades:	
+	weight_entry_clear	Clear	Apagar	
 	weight_entry_clear	Clear	Apagar	
 	weight_entry_evening	Evening (right before bed)	Noite (antes de dormir)	
 	weight_entry_morning	Morning (upon waking)	Manhã (logo ao acordar)	
 	weight_entry_time	Time	Tempo	
-	weight_entry_units_kg	kg	kg	
-	weight_entry_units_lbs	lbs	lbs	
+	weight_entry_time	Time	Tempo	
 	weight_history_edit_data	Edit Data	Editar Dados	
-about_tweak		About Tweak	Sobre o Ajuste	
-android.about_text_lines.0		This app was created by John Slavick.	Este aplicativo foi criado por John Slavick.	
-android.about_text_lines.1		The following open source libraries are used: ActiveAndroid, android-iconify, EventBus, LikeAnimation, and MPAndroidChart.	As seguintes bibliotecas de código aberto foram usadas: ActiveAndroid, android-iconify, EventBus, LikeAnimation e MPAndroidChart.	
-android.about_text_lines.2		Special thanks to the volunteer efforts of the creators of the previous app: Chan Kruse, Allan Portera, and Sangeeta Kumar."	Agradecimento especial ao esforço dos voluntários criadores do aplicativo anterior: Chan Kruse, Allan Portera e Sangeeta Kumar.	
-average_weight_on_day		Average weight on day	Peso médio no dia	
-backup		Backup	Cópia de segurança	
-backup_failed		Backup failed	Falha na cópia de segurança	
-backup_instructions_lines.0		Follow these steps to restore this backup in the Daily Dozen app	Siga estes passos para restaurar esta cópia de segurança no aplicativo Dúzia Diária	
-backup_instructions_lines.1				
-backup_instructions_lines.2		1. The Daily Dozen app must be installed on your Android phone. You can download it here: https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen	1. A Dúzia Diária deve ser instalada no seu celular Android. Você pode baixar aqui: https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen	
-backup_instructions_lines.3				
-backup_instructions_lines.4		2. Tap on the backup file attached to this email.	2. Clique no arquivo de cópia de segurança anexada a este email.	
-backup_instructions_lines.5				
-backup_instructions_lines.6		3. Select Open with Daily Dozen	3. Selecione Abrir com a Dúzia Diária	
-backup_success		Backup successful	Cópia de segurança realizada com sucesso	
-channel_reminders_name		Reminders	Lembretes	
 daily_reminder_settings		Daily Reminder Settings	Configuração dos Lembretes Diários	a reminder that is triggered every day
 daily_reminder_title		Daily Dozen Reminder	Lembrete da Dúzia Diária	
-daily_servings_history		Daily Servings History	Histórico de Porções Diárias	
-daily_tweaks_history		Daily Tweaks History	Histórico de Ajustes Diários	
-debug		Debug	Depurar	
-debug_clear_data		Clear all data	Limpar todos os dados	
-debug_clear_data_message		This will delete all entered Servings. Do you wish to continue?	Isto vai apagar todas as Porções inseridas. Deseja continuar?	
-debug_generate_data_message		All existing data will be replaced. Do you wish to continue?	Todos os dados existentes serão substituidos. Deseja continuar?	
-debug_generate_full_data		Generate full data	Gerar informações completas	
-debug_generate_random_data		Generate random data	Gerar informações aleatórias	
-debug_generate_weight_data		Generate Weight Data	Gerar Informações de Peso	
-dialog_ask_user_to_rate_app_message		Please give us feedback in the Play Store.	Por favor comente a sua experiência no Play Store.	
-dialog_ask_user_to_rate_app_title		Do you like this app?	Você gosta deste aplicativo?	
-dialog_no_email_apps_message		Backing up your data requires you to have an email app installed so you can email the .csv backup file to yourself. Please install an email app and try again.	Fazer uma cópia de segurança das suas informações requer que você tenha um aplicativo de email instalado para que você possa enviar por email o arquivo .csv para você mesmo. Por favor instale um aplicativo de email e tente novamente.	
-dialog_no_email_apps_title		No email apps found	Aplicativo de email não encontrado	
-dialog_streaks_message		Your database will now be upgraded to support the new progress feature.	A sua base de dados não será atualizada para suportar a nova função de progresso.	
-dialog_streaks_title		New progress feature added!	Nova função de progresso adicionada!	
 enable_daily_reminder		Enable Daily Reminders	Habilitar Lembretes Diários	On/Off toggle label
-error_cannot_handle_url		Could not open url. Please install a browser.	Não foi possível abrir o url. Por favor instale um navegador.	
-food_history		Food History	Histórico de Alimentos	
-food_info		Food Info	Informação de Alimentos	
 format_num_days		%d days	%d dias	Formatted string %d days
-format_version		version %s	versão %s	
-history_to_generate		History to Generate	Histórico para Gerar	
-history_to_generate_choices.0		1 month	1 mês	
-history_to_generate_choices.1		3 months	3 meses	
-history_to_generate_choices.2		6 months	6 meses	
-history_to_generate_choices.3		1 year	1 ano	
-history_to_generate_choices.4		2 years	2 anos	
-history_to_generate_choices.5		5 years	5 anos	
 imperial		imperial	imperial	
 metric		metric	métrico	
-moving_average		Moving Average	Média Móvel	
-no		No	Não	
-no_servings_recorded		You have not recorded any servings yet!	Você ainda não registrou nenhuma porção!	
-no_weights_recorded		You have not recorded any weights yet!	Você ainda não registrou nenhum peso!	
-not_now		Not Now	Agora Não	
 out_of		out of	de	Part of "0 out of 24"
-permission_needed_to_write_storage		Can\'t backup without permission to write to storage	Não é possível criar uma cópia de segurança sem permissão de escrita no armazenamento	
-rate_now		Give Feedback	Comente a sua Experiência	
-restore_confirm_message		Any existing data will be deleted before restoring from backup. Do you wish to continue?	Toda a informação existente será apagada antes de restaurar a cópia de segurança. Deseja continuar?	
-restore_confirm_title		Restore Backup	Restaurar a Cópia de Segurança	
-restore_failed		Restore failed	Falha na restauração	
-restore_success		Restore successful	Restauração realizada com sucesso	
-task_backup_title		Backing up	Fazendo a cópia de segurança	
-task_calculating_streaks_title		Calculating progress	Calculando o progresso	
-task_generating_random_data		Generating random data	Gerando informações aleatórias	
-task_loading_servings_history_title		Loading Servings History	Carregando o Histórico de Porções	
-task_loading_weights_history_title		Loading Weights History	Carregando o Histórico de Pesos	
-task_restore_title		Restoring	Restaurando	
-title_cookbook		Cookbook	Livro de Receitas	
-title_how_not_to_die		How Not to Die	Comer Para Não Morrer / Como Não Morrer	
-title_how_not_to_diet		How Not to Diet	Como Não Fazer Dieta	
-tweak_group_daily		Every Day	Todo Dia	
-tweak_group_dailydoses		Take your daily doses	Siga as suas doses diárias	
-tweak_group_meal		At Each Meal	Em Cada Refeição	
-tweak_group_nightly		Every Night	Toda Noite	
-yes		Yes	Sim	
+videos	xcg-0a-oqY.normalTitle	VIDEOS	VÍDEOS	Keyword for link to video topics
+	1K3-d9-Hfb.normalTitle	METRIC	MÉTRICO	
+	M75-CQ-NVP.normalTitle	METRIC	MÉTRICO	
+	1K3-d9-Hfb.normalTitle	METRIC	MÉTRICO	
+	M75-CQ-NVP.normalTitle	METRIC	MÉTRICO	
+	RLb-GV-4hh.segmentTitles[0]	Imperial	Imperial	Part of "Imperial/Metric/Toggle Units" selector
+	RLb-GV-4hh.segmentTitles[1]	Metric	Métrico	Part of "Imperial/Metric/Toggle Units" selector
+	RLb-GV-4hh.segmentTitles[2]	Toggle Units	Alternar Unidades	Part of "Imperial/Metric/Toggle Units" selector
+servings	1HM-mL-ZV9.text	Servings	Porções	
+	cW5-dD-Zy0.text	100 days	100 dias	
+twenty_one_tweaks	5po-De-kCi.text	21 Tweaks	21 Ajustes	
+	NPC-if-gUf.text	0 / 37	0 / 37	
+format_num_days	Vbn-R9-kuu.text	100 days	100 dias	
+	W2v-Cp-vcd.text	Supplements	Suplementos	
+	Tgz-om-dEk.text	Weight (lbs)	Peso (lbs)	
+	8ed-5m-QMc.text	Weight (lbs)	Peso (lbs)	
+	nRL-iG-Wnd.text	Month	Mês	
+	UCg-Rc-mLf.text	Month	Mês	
+	lTR-i5-Tn0.text	Month	Mês	
+	8ed-5m-QMc.text	Weight (lbs.)	Peso (lbs.)	

@@ -7,6 +7,9 @@
 
 OUTPUT_NORMAL_DIRNAME="ImportFromIntake"
 
+################
+## Portuguese ##
+
 ## Portuguese intake has been migrated to the repo main file
 SOURCE_TSV="Portuguese/tsv/Portuguese_pt.tsv"
 DO_NORMAL_STRINGS

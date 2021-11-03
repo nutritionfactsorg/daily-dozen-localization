@@ -188,6 +188,7 @@ struct BatchRunner {
                 }
             }
             else if command.cmdKey.hasPrefix("DO_NORMAL_STRINGS") {
+                print("\n##### ----- DO_NORMAL_STRINGS ----- ######")
                 guard 
                     let outputNormalDir = outputNormalDir,
                     (sourceStrings != nil || sourceTSV != nil || sourceXLIFF != nil)

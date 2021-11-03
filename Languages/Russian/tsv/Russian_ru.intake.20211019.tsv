@@ -1,12 +1,6 @@
 key_droid	key_apple	base_value	lang_value	base_note
 	NSHealthShareUsageDescription	The 21 Tweaks feature accesses your HealthKit data to provide updates to your daily weight measurements.	Функциональность 21 уловка получает доступ к приложению Здоровье и посылает ежедневные обновления по измерению вашего веса.	
 	NSHealthUpdateUsageDescription	The 21 Tweaks feature can write weight data to HealthKit to help you keep track of your progress.	Функциональность 21 уловка может писать данные по вашему весу в приложение Здоровье, чтобы помочь отслеживать ваш прогресс.	
-	apple.info.about.0	Welcome to my Daily Dozen!	Добро пожаловать в Не сдохни!	
-	apple.info.about.1	Use this app on a daily basis to keep track of the foods and advice I recommend for optimal health and longevity in my books How Not to Die and How Not to Diet.	Используйте это приложение на ежедневной основе, чтобы отслеживать продукты питания и следовать моим рекомендациям из книг Не Сдохни! Еда в борьбе за жизнь и Не сдохни на диете для поддержания оптимального состояния здоровья и продолжительности жизни.	
-	apple.info.about.2	Daily Dozen	Не сдохни!	
-	apple.info.about.3	version 3.2.3	версия 3.2.3	
-	apple.info.about.4	This app was created by: NutritionFacts.org, Christi Richards, Konstantin Khokhlov, and Marc Campbell	Это приложение было создано NutritionFacts.org, Кристи Ричардс, Константином Хохловым и Марком Кэмпбеллом.	
-	apple.info.about.5	The following open source libraries are used: RealmSwift, Charts, FSCalendar, SimpleAnimation, ActiveLabel.	Приложение использует следующие библиотеки с открытым кодом: RealmSwift, Charts, FSCalendar, SimpleAnimation, ActiveLabel.	
 back_to_today	dateBackButtonTitle	Back to today	Обратно к Сегодня	
 	dateButtonTitle.today	Today	Сегодня	
 food_info_serving_sizes_beans_imperial.0	dozeBeans.Serving.imperial.0	¼ cup of hummus or bean dip	¼ чашки хумуса или бобового соуса	
@@ -200,10 +194,6 @@ food_info_types_nuts.7	dozeNuts.Variety.Text.7	Pecans	Орех пекан
 food_info_types_nuts.8	dozeNuts.Variety.Text.8	Pistachios	Фисташки	
 food_info_types_nuts.9	dozeNuts.Variety.Text.9	Pumpkin seeds	Семена тыквы	
 nuts	dozeNuts.heading	Nuts and Seeds	Орехи и Семена	
-OK	dozeOtherInfo.confirm	OK	ОК	
-	dozeOtherInfo.message	Vitamin B12 is essential for your health but does not count towards your daily servings.\n\nVitamin B12 is included in this app to provide you with an easy way to track your intake.	Витамин B12 крайне важен для вашего здоровья, но он не считается с другими ежедневными порциями. \n\nВитамин B12 добавлен в это приложение, чтобы облегчить отслеживание приема добавки.	
-	dozeOtherInfo.title	Supplements	Добавки	
-	dozeOtherInfo.title	Supplements	Пищевые добавки	
 food_info_serving_sizes_spices_imperial.0	dozeSpices.Serving.imperial.0	¼ teaspoon of turmeric	¼ чайной ложки куркумы	
 food_info_serving_sizes_spices_imperial.1	dozeSpices.Serving.imperial.1	Any other (salt-free) herbs and spices you enjoy	Другие любимые пряности (без соли)	
 food_info_serving_sizes_spices_metric.0	dozeSpices.Serving.metric.0	¼ teaspoon of turmeric	¼ чайной ложки куркумы	
@@ -311,21 +301,18 @@ food_info_types_whole_grains.8	dozeWholeGrains.Variety.Text.8	Whole-wheat pasta	
 whole_grains	dozeWholeGrains.heading	Whole Grains	Цельнозерновые Продукты	
 serving_sizes	doze_detail_section_sizes	Serving Sizes	Размер порции	
 types	doze_detail_section_types	Types	Типы	
-servings	doze_entry_header	Servings	Порции	
-	historyRecordDoze.heading	Servings History	Порции История	
-	historyRecordDoze.legend	Servings	Порции	
-	historyRecordTweak.heading	Tweaks History	Уловки История	
-tweaks	historyRecordTweak.legend	Tweaks	Уловки	
-weight_history	historyRecordWeight.heading	Weight History	Вес История	
-evening	historyRecordWeight.legendEvening	Evening	Вечер	
-morning	historyRecordWeight.legendMorning	Morning	Утро	
-	historyRecordWeight.titleImperial	Weight (lbs)	Вес (фунты)	
-	historyRecordWeight.titleMetric	Weight (kg)	Вес (кг)	
+servings_time_scale_choices.0	history_scale_choice_day	Day	День	Calendar view scale control
+servings_time_scale_choices.0	history_scale_choice_day	Day	День	Calendar view scale control
 servings_time_scale_choices.0	history_scale_choice_day	Day	День	Calendar view scale control
 servings_time_scale_choices.1	history_scale_choice_month	Month	Месяц	Calendar view scale control
+servings_time_scale_choices.1	history_scale_choice_month	Month	Месяц	Calendar view scale control
+servings_time_scale_choices.1	history_scale_choice_month	Month	Месяц	Calendar view scale control
+servings_time_scale_choices.2	history_scale_choice_year	Year	Год	Calendar view scale control
+servings_time_scale_choices.2	history_scale_choice_year	Year	Год	Calendar view scale control
 servings_time_scale_choices.2	history_scale_choice_year	Year	Год	Calendar view scale control
 time_scale	history_scale_label	Time Scale	Шкала Времени	
-about_this_app	info.about.title	About this app	Об этом приложении	
+time_scale	history_scale_label	Time Scale	Шкала Времени	
+time_scale	history_scale_label	Time Scale	Шкала Времени	
 about	info_app_about	About	О нас	
 app_name	info_app_about_app_name	Daily Dozen	Не Сдохни!	Application Name: 'Daily Dozen'
 activity_welcome_text	info_app_about_overview	Use this app on a daily basis to keep track of the foods and advice I recommend for optimal health and longevity in my books How Not to Die and How Not to Diet.	Используйте данное приложение на ежедневной основе, чтобы отслеживать продукты питания и применять мои рекомендации для оптимального здоровья и продолжительности жизни, которые изложены в книгах Не сдохни и Не сдохни на Диете.	
@@ -342,10 +329,6 @@ latest_videos	info_webpage_videos_latest	Latest Videos	Последние вид
 servings_all	item_history_completed_all	All servings	Все порции	
 servings_some	item_history_completed_some	Some servings	Некоторые порции	
 history	item_history_heading	History	История	
-	navtab.doze	Daily Dozen	Не сдохни!	
-	navtab.info	Information	Информация	
-	navtab.preferences	Preferences	Настройки	
-	navtab.tweaks	21 Tweaks	21 уловка	
 vitamin_b12	otherVitaminB12.heading	Vitamin B12	Витамин B12	
 daily_reminder_text	reminder.alert.text	Update your servings for today	Обновите порции за сегодня	Alert notification text
 	reminder.heading	Daily Reminder	Ежедневное напоминание	
@@ -362,14 +345,10 @@ daily_dozen_and_tweaks	setting_doze_tweak_btn	Daily Dozen + 21 Tweaks	Не cдо
 	setting_doze_tweak_footer	For health alone, use "Daily Dozen Only". For health and weight loss use "Daily Dozen + 21 Tweaks".	Только для здорового образа жизни используйте "Только Не cдохни!", для здоровья и потери веса используйте "Не cдохни + 21 уловка".	
 for_health_alone	setting_health_alone_txt	For Health Alone	Только для здоровья	
 for_health_and_weight_loss	setting_health_weight_txt	For Health and Weight Loss	Для здоровья и похудения	
-	setting_tweak_header	21 Tweak Visibility	Видимость 21 уловки	
-	setting_units_0_imperial	Imperial	Имперсая	Part of "Imperial/Metric/Toggle Units" selector
-	setting_units_1_metric	Metric	Метрическая	Part of "Imperial/Metric/Toggle Units" selector
-	setting_units_2_toggle	Toggle Units	Переключатель	Part of "Imperial/Metric/Toggle Units" selector
-	setting_units_choice_footer	Set to always be one unit type or enable the 'Units:' toggle button.	Установить только одну единицу измерения или включить кнопку переключения между единицами измерения.	
-	setting_units_header	Measurement Units	Единицы измерения	
-	setting_util_advanced	Advanced Utilities	Дополнительные инструменты	
-format_num_days	streakDaysFormat	%d days	%d дни	Formatted string %d days
+	settings.tweak.header	21 Tweak Visibility	Видимость 21 уловки	
+	settings.units.header	Measurement Units	Единицы измерения	
+	settings_advanced_utilities	Advanced Utilities	Дополнительные инструменты	
+	settings_units_choice_footer	Set to always be one unit type or enable the 'Units:' toggle button.	Установить только одну единицу измерения или включить кнопку переключения между единицами измерения. 	
 complete_intentions	tweakCompleteIntentions.heading	Complete Your Implementation Intentions	Воплощайте свои намерения	
 complete_intentions_short	tweakCompleteIntentions.short	Complete Your Implementation Intentions	Воплощайте свои намерения	
 complete_intentions_text	tweakCompleteIntentions.text	Every two months, create three new implementation intentions—"if X, then Y" plans to perform a particular behavior in a specific context—and check each one of them off as you complete them every day.	Каждые два месяца создавайте три новых пункта по реализации ваших намерений - «если А, то Б» планы выполнить определенное действие в определенном контексте - и проверяйте каждое из них по мере их выполнения каждый день.	
@@ -435,91 +414,39 @@ weigh_twice_short	tweakWeightTwice.short	Weigh Yourself Twice a Day	Взвеши
 weigh_twice_text	tweakWeightTwice.text	Regular self-weighing is considered crucial for long-term weight control, but there is insufficient evidence to support a specific frequency of weighing. My recommendation is based on the one study that found that twice daily—upon waking and right before bed—appeared superior to once a day (about six versus two pounds of weight loss over twelve weeks).	Регулярное самостоятельное взвешивание считается критически важным для долгосрочного контроля веса, но нет достаточных данных для подтверждения конкретной частоты взвешивания. Моя рекомендация основана на одном исследовании, которое показало, что два раза в день - после пробуждения и непосредственно перед сном - оказалось лучше, чем один раз в день (около трех против одного килограмма потери веса в течение двенадцати недель).	
 	tweak_detail_section_activity	Activity	Активность	
 	tweak_detail_section_description	Description	Описание	
-twenty_one_tweaks	tweak_entry_header	21 Tweaks	21 Уловка	
-imperial	unitToggle.imperial	imperial	имперская	
-metric	unitToggle.metric	metric	метрическая	
 units	units_label	Units:	Единица Измерения:	
-videos	videos.link.label	VIDEOS	ВИДЕО	Keyword for link to video topics
-videos	videos.link.label	VIDEOS	ВИДЕО	Keyword for link to video topics
-weight	weightEntry.heading	Weight	Вес	
+units	units_label	Units:	Единица Измерения:	
+	weight_entry_clear	Clear	Очистить	
 	weight_entry_clear	Clear	Очистить	
 	weight_entry_evening	Evening (right before bed)	Вечером (прямо перед сном)	
 	weight_entry_morning	Morning (upon waking)	Утром (сразу как проснулся)	
 	weight_entry_time	Time	Время	
-	weight_entry_units_kg	kg	кг	
-	weight_entry_units_lbs	lbs	фунты	
+	weight_entry_time	Time	Время	
 	weight_history_edit_data	Edit Data	Редактировать данные	
-about_tweak		About Tweak	Об уловке	
-android.about_text_lines.0		This app was created by John Slavick.	Это приложение разработано Джоном Славиком.	
-android.about_text_lines.1		The following open source libraries are used: ActiveAndroid, android-iconify, EventBus, LikeAnimation, and MPAndroidChart.	Приложение использует следующие библиотеки с открытым кодом: ActiveAndroid, android-iconify, EventBus, LikeAnimation, and MPAndroidChart.	
-android.about_text_lines.2		Special thanks to the volunteer efforts of the creators of the previous app: Chan Kruse, Allan Portera, and Sangeeta Kumar.	Особая благодарность усилиям добровольцев-создателей предыдущей версии приложения: Чану Круз, Аллану Портера и Сангите Кумар.	Just one inverted comma?
-average_weight_on_day		Average weight on day	Средний вес за день	
-backup		Backup	Резервная копия	
-backup_failed		Backup failed	Сбой создания резервной копии	
-backup_instructions_lines.0		Follow these steps to restore this backup in the Daily Dozen app	Следуйте этим инструкциям для восстановления этой резервной копии в приложении Не сдохни!	
-backup_instructions_lines.1				
-backup_instructions_lines.2		1. The Daily Dozen app must be installed on your Android phone. You can download it here: https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen	1. Приложение Не сдохни! должно быть установлено на ваш Android-смартфон. Его можно скачать по ссылке: https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen	
-backup_instructions_lines.3				
-backup_instructions_lines.4		2. Tap on the backup file attached to this email.	2. Откройте файл с резервной копией, прикрепленный к этому сообщению.	
-backup_instructions_lines.5				
-backup_instructions_lines.6		3. Select Open with Daily Dozen	3. Выберите Открыть с помощью Не сдохни	
-backup_success		Backup successful	Резервная копия была создана успешно	
-channel_reminders_name		Reminders	Напоминания	
 daily_reminder_settings		Daily Reminder Settings	Настройки ежедневных напоминаний	a reminder that is triggered every day
 daily_reminder_title		Daily Dozen Reminder	Напоминания Не сдохни!	
-daily_servings_history		Daily Servings History	Ежедневные порции История	
-daily_tweaks_history		Daily Tweaks History	Ежедневные уловки История	
-debug		Debug	Отладка	
-debug_clear_data		Clear all data	Очистить все данные	
-debug_clear_data_message		This will delete all entered Servings. Do you wish to continue?	Это удалит все внесенные порции. Вы хотите продолжить?	
-debug_generate_data_message		All existing data will be replaced. Do you wish to continue?	Все существующие данные будут изменены. Вы хотите продолжить?	
-debug_generate_full_data		Generate full data	Получить все данные	
-debug_generate_random_data		Generate random data	Получить случайную выборку	
-debug_generate_weight_data		Generate Weight Data	Получить данные по весу	
-dialog_ask_user_to_rate_app_message		Please give us feedback in the Play Store.	Пожалуйста, оставьте нам отзыв в Play Store.	
-dialog_ask_user_to_rate_app_title		Do you like this app?	Вам нравится это приложение?	
-dialog_no_email_apps_message		Backing up your data requires you to have an email app installed so you can email the .csv backup file to yourself. Please install an email app and try again.	Чтобы создать резервную копию ваших данных, вам нужно сначала установить приложение для работы с электронной почтой, чтобы вы смогли послать себе .csv файл с резервной копией. Пожалуйста, попробуйте установить приложение и повторите попытку.	
-dialog_no_email_apps_title		No email apps found	Не было найдено ни одного приложения для работы с электронной почтой.	
-dialog_streaks_message		Your database will now be upgraded to support the new progress feature.	Ваша база данных сейчас будет обновлена до версии, поддерживающей новую функциональность прогресса.	
-dialog_streaks_title		New progress feature added!	Новая функциональность, отображающая прогресс, была добавлена!	
 enable_daily_reminder		Enable Daily Reminders	Включить ежедневные напоминания	On/Off toggle label
-error_cannot_handle_url		Could not open url. Please install a browser.	Невозможно открыть ссылку. Пожалуйста, установите веб браузер.	
-food_history		Food History	Еда История	
-food_info		Food Info	Еда Информация	
 format_num_days		%d days	%d дней	Formatted string %d days
-format_version		version %s	версия %s	
-history_to_generate		History to Generate	Загрузить историю	
-history_to_generate_choices.0		1 month	1 месяц	
-history_to_generate_choices.1		3 months	3 месяца	
-history_to_generate_choices.2		6 months	6 месяцев	
-history_to_generate_choices.3		1 year	1 год	
-history_to_generate_choices.4		2 years	2 года	
-history_to_generate_choices.5		5 years	5 лет	
 imperial		imperial	имперская	
 metric		metric	метрическая	
-moving_average		Moving Average	Средняя подвижность	
-no		No	Нет	
-no_servings_recorded		You have not recorded any servings yet!	Вы еще не отметили ни одной порции!	
-no_weights_recorded		You have not recorded any weights yet!	Вы еще не отметили ни одной порции!	
-not_now		Not Now	Не сейчас	
 out_of		out of	из	Part of "0 out of 24"
-permission_needed_to_write_storage		Can\'t backup without permission to write to storage	Невозможно сделать резервную копию без разрешения на запись в хранилище	
-rate_now		Give Feedback	Оставить отзыв	
-restore_confirm_message		Any existing data will be deleted before restoring from backup. Do you wish to continue?	Все существующие данные будут удалены перед восстановлением из резервной копии. Вы хотите продолжить?	
-restore_confirm_title		Restore Backup	Восстановить резервную копию	
-restore_failed		Restore failed	Сбой восстановления из резервной копии	
-restore_success		Restore successful	Восстановление из резервной копии прошло успешно	
-task_backup_title		Backing up	Создание резервной копии	
-task_calculating_streaks_title		Calculating progress	Оценка прогресса	
-task_generating_random_data		Generating random data	Генерация случайных данных	
-task_loading_servings_history_title		Loading Servings History	Загрузка истории порций	
-task_loading_weights_history_title		Loading Weights History	Загрузка истории веса	
-task_restore_title		Restoring	Восстановление	
-title_cookbook		Cookbook	Кулинарная книга	
-title_how_not_to_die		How Not to Die	Не сдохни! Еда в борьбе за жизнь	
-title_how_not_to_diet		How Not to Diet	Не сдохни на диете	
-tweak_group_daily		Every Day	Каждый день	
-tweak_group_dailydoses		Take your daily doses	Принимайте ежедневно	
-tweak_group_meal		At Each Meal	С каждым приемом пищи	
-tweak_group_nightly		Every Night	Каждый вечер	
-yes		Yes	Да	
+videos	xcg-0a-oqY.normalTitle	VIDEOS	ВИДЕО	Keyword for link to video topics
+	1K3-d9-Hfb.normalTitle	METRIC	МЕТРИЧЕСКАЯ	
+	M75-CQ-NVP.normalTitle	METRIC	МЕТРИЧЕСКАЯ	
+	1K3-d9-Hfb.normalTitle	METRIC	МЕТРИЧЕСКАЯ	
+	M75-CQ-NVP.normalTitle	METRIC	МЕТРИЧЕСКАЯ	
+	RLb-GV-4hh.segmentTitles[0]	Imperial	Имперсая	Part of "Imperial/Metric/Toggle Units" selector
+	RLb-GV-4hh.segmentTitles[1]	Metric	Метрическая	Part of "Imperial/Metric/Toggle Units" selector
+	RLb-GV-4hh.segmentTitles[2]	Toggle Units	Переключатель	Part of "Imperial/Metric/Toggle Units" selector
+servings	1HM-mL-ZV9.text	Servings	Порции	
+	cW5-dD-Zy0.text	100 days	100 дней	
+twenty_one_tweaks	5po-De-kCi.text	21 Tweaks	21 Уловка	
+	NPC-if-gUf.text	0 / 37	0 / 37	
+format_num_days	Vbn-R9-kuu.text	100 days	100 дней	
+	W2v-Cp-vcd.text	Supplements	Добавки	
+	Tgz-om-dEk.text	Weight (lbs)	Вес (фунты)	
+	8ed-5m-QMc.text	Weight (lbs)	Вес (фунты)	
+	nRL-iG-Wnd.text	Month	Месяц	
+	UCg-Rc-mLf.text	Month	Месяц	
+	lTR-i5-Tn0.text	Month	Месяц	
+	8ed-5m-QMc.text	Weight (lbs.)	Вес (фунты)	

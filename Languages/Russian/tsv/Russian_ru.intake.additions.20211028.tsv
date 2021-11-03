@@ -1,0 +1,98 @@
+key_droid	key_apple	base_value	lang_value	base_note
+	apple.info.about.0	Welcome to my Daily Dozen!	Добро пожаловать в Не сдохни!	
+	apple.info.about.1	Use this app on a daily basis to keep track of the foods and advice I recommend for optimal health and longevity in my books How Not to Die and How Not to Diet.	Используйте это приложение на ежедневной основе, чтобы отслеживать продукты питания и следовать моим рекомендациям из книг Не Сдохни! Еда в борьбе за жизнь и Не сдохни на диете для поддержания оптимального состояния здоровья и продолжительности жизни.	
+	apple.info.about.2	Daily Dozen	Не сдохни!	
+	apple.info.about.3	version 3.2.3	версия 3.2.3	
+	apple.info.about.4	This app was created by: NutritionFacts.org, Christi Richards, Konstantin Khokhlov, and Marc Campbell	Это приложение было создано NutritionFacts.org, Кристи Ричардс, Константином Хохловым и Марком Кэмпбеллом.	
+	apple.info.about.5	The following open source libraries are used: RealmSwift, Charts, FSCalendar, SimpleAnimation, ActiveLabel.	Приложение использует следующие библиотеки с открытым кодом: RealmSwift, Charts, FSCalendar, SimpleAnimation, ActiveLabel.	
+OK	dozeOtherInfo.confirm	OK	ОК	
+	dozeOtherInfo.message	Vitamin B12 is essential for your health but does not count towards your daily servings.\n\nVitamin B12 is included in this app to provide you with an easy way to track your intake.	Витамин B12 крайне важен для вашего здоровья, но он не считается с другими ежедневными порциями. \n\nВитамин B12 добавлен в это приложение, чтобы облегчить отслеживание приема добавки.	
+	dozeOtherInfo.title	Supplements	Пищевые добавки	
+	historyRecordDoze.heading	Servings History	Порции История 	
+	historyRecordDoze.legend	Servings	Порции	
+	historyRecordTweak.heading	Tweaks History	Уловки История	
+tweaks	historyRecordTweak.legend	Tweaks	Уловки	
+weight_history	historyRecordWeight.heading	Weight History	Вес История	
+evening	historyRecordWeight.legendEvening	Evening	Вечер	
+morning	historyRecordWeight.legendMorning	Morning	Утро	
+	historyRecordWeight.titleImperial	Weight (lbs)	Вес (фунты)	
+	historyRecordWeight.titleMetric	Weight (kg)	Вес (кг)	
+about_this_app	info.about.title	About this app	Об этом приложении	
+	navtab.doze	Daily Dozen	Не сдохни!	
+	navtab.info	Information	Информация	
+	navtab.preferences	Preferences	Настройки	
+	navtab.tweaks	21 Tweaks	21 уловка	
+format_num_days	streakDaysFormat	%d days	%d дни	Formatted string %d days
+imperial	unitToggle.imperial	imperial	имперская	
+metric	unitToggle.metric	metric	метрическая	
+videos	videos.link.label	VIDEOS	ВИДЕО	Keyword for link to video topics
+weight	weightEntry.heading	Weight	Вес	
+	weightEntry.kilograms	kg	кг	
+	weightEntry.pounds	lbs	фунты	
+about_tweak		About Tweak	Об уловке	
+android.about_text_lines.0		This app was created by John Slavick.	Это приложение разработано Джоном Славиком.	
+android.about_text_lines.1		The following open source libraries are used: ActiveAndroid, android-iconify, EventBus, LikeAnimation, and MPAndroidChart.	Приложение использует следующие библиотеки с открытым кодом: ActiveAndroid, android-iconify, EventBus, LikeAnimation, and MPAndroidChart.	
+android.about_text_lines.2		Special thanks to the volunteer efforts of the creators of the previous app: Chan Kruse, Allan Portera, and Sangeeta Kumar.	Особая благодарность усилиям добровольцев-создателей предыдущей версии приложения: Чану Круз, Аллану Портера и Сангите Кумар. 	Just one inverted comma?
+average_weight_on_day		Average weight on day	Средний вес за день	
+backup		Backup	Резервная копия	
+backup_failed		Backup failed	Сбой создания резервной копии	
+backup_instructions_lines.0		Follow these steps to restore this backup in the Daily Dozen app	Следуйте этим инструкциям для восстановления этой резервной копии в приложении Не сдохни!	
+backup_instructions_lines.1				
+backup_instructions_lines.2		1. The Daily Dozen app must be installed on your Android phone. You can download it here: https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen	1. Приложение Не сдохни! должно быть установлено на ваш Android-смартфон. Его можно скачать по ссылке: https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen 	
+backup_instructions_lines.3				
+backup_instructions_lines.4		2. Tap on the backup file attached to this email.	2. Откройте файл с резервной копией, прикрепленный к этому сообщению.	
+backup_instructions_lines.5				
+backup_instructions_lines.6		3. Select Open with Daily Dozen	3. Выберите Открыть с помощью Не сдохни	
+backup_success		Backup successful	Резервная копия была создана успешно	
+channel_reminders_name		Reminders	Напоминания	
+daily_servings_history		Daily Servings History	Ежедневные порции История 	
+daily_tweaks_history		Daily Tweaks History	Ежедневные уловки История	
+debug		Debug	Отладка	
+debug_clear_data		Clear all data	Очистить все данные	
+debug_clear_data_message		This will delete all entered Servings. Do you wish to continue?	Это удалит все внесенные порции. Вы хотите продолжить?	
+debug_generate_data_message		All existing data will be replaced. Do you wish to continue?	Все существующие данные будут изменены. Вы хотите продолжить?	
+debug_generate_full_data		Generate full data	Получить все данные	
+debug_generate_random_data		Generate random data	Получить случайную выборку	
+debug_generate_weight_data		Generate Weight Data	Получить данные по весу	
+dialog_ask_user_to_rate_app_message		Please give us feedback in the Play Store.	Пожалуйста, оставьте нам отзыв в Play Store.	
+dialog_ask_user_to_rate_app_title		Do you like this app?	Вам нравится это приложение?	
+dialog_no_email_apps_message		Backing up your data requires you to have an email app installed so you can email the .csv backup file to yourself. Please install an email app and try again.	Чтобы создать резервную копию ваших данных, вам нужно сначала установить приложение для работы с электронной почтой, чтобы вы смогли послать себе .csv файл с резервной копией. Пожалуйста, попробуйте установить приложение и повторите попытку.	
+dialog_no_email_apps_title		No email apps found	Не было найдено ни одного приложения для работы с электронной почтой.	
+dialog_streaks_message		Your database will now be upgraded to support the new progress feature.	Ваша база данных сейчас будет обновлена до версии, поддерживающей новую функциональность прогресса.  	
+dialog_streaks_title		New progress feature added!	Новая функциональность, отображающая прогресс, была добавлена!	
+error_cannot_handle_url		Could not open url. Please install a browser.	Невозможно открыть ссылку. Пожалуйста, установите веб браузер.	
+food_history		Food History	Еда История	
+food_info		Food Info	Еда Информация	
+format_version		version %s	версия %s	
+history_to_generate		History to Generate	Загрузить историю	
+history_to_generate_choices.0		1 month	1 месяц	
+history_to_generate_choices.1		3 months	3 месяца	
+history_to_generate_choices.2		6 months	6 месяцев	
+history_to_generate_choices.3		1 year	1 год	
+history_to_generate_choices.4		2 years	2 года	
+history_to_generate_choices.5		5 years	5 лет	
+moving_average		Moving Average	Средняя подвижность	
+no		No	Нет	
+no_servings_recorded		You have not recorded any servings yet!	Вы еще не отметили ни одной порции!	
+no_weights_recorded		You have not recorded any weights yet!	Вы еще не отметили ни одной порции!	
+not_now		Not Now	Не сейчас	
+permission_needed_to_write_storage		Can\'t backup without permission to write to storage	Невозможно сделать резервную копию без разрешения на запись в хранилище	
+rate_now		Give Feedback	Оставить отзыв	
+restore_confirm_message		Any existing data will be deleted before restoring from backup. Do you wish to continue?	Все существующие данные будут удалены перед восстановлением из резервной копии. Вы хотите продолжить?	
+restore_confirm_title		Restore Backup	Восстановить резервную копию	
+restore_failed		Restore failed	Сбой восстановления из резервной копии	
+restore_success		Restore successful	Восстановление из резервной копии прошло успешно	
+task_backup_title		Backing up	Создание резервной копии	
+task_calculating_streaks_title		Calculating progress	Оценка прогресса	
+task_generating_random_data		Generating random data	Генерация случайных данных	
+task_loading_servings_history_title		Loading Servings History	Загрузка истории порций	
+task_loading_weights_history_title		Loading Weights History	Загрузка истории веса	
+task_restore_title		Restoring	Восстановление	
+title_cookbook		Cookbook	Кулинарная книга	
+title_how_not_to_die		How Not to Die	Не сдохни! Еда в борьбе за жизнь	
+title_how_not_to_diet		How Not to Diet	Не сдохни на диете	
+tweak_group_daily		Every Day	Каждый день	
+tweak_group_dailydoses		Take your daily doses	Принимайте ежедневно	
+tweak_group_meal		At Each Meal	С каждым приемом пищи	
+tweak_group_nightly		Every Night	Каждый вечер	
+yes		Yes	Да	

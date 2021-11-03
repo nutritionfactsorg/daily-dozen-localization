@@ -5,20 +5,50 @@
 
 OUTPUT_NORMAL_DIRNAME="StringsViaTsvIntake"
 
+################
+## Portuguese ##
+
+## (pt)
 SOURCE_TSV="Portuguese/tsv/Portuguese_pt.intake.20210929.tsv"
 SOURCE_TSV="Portuguese/tsv/Portuguese_pt.intake.additions.20211015.tsv"
 DO_NORMAL_STRINGS
 
-### STOP HERE
+## (pt-BR)
+SOURCE_TSV="Portuguese_Brazil/tsv/Portuguese_pt-BR.intake.20210929.tsv"
+SOURCE_TSV="Portuguese_Brazil/tsv/Portuguese_pt-BR.intake.additions.20211015.tsv"
+DO_NORMAL_STRINGS
+
+## (pt-PT)
+SOURCE_TSV="Portuguese_Portugal/tsv/Portuguese_pt-PT.intake.20210929.tsv"
+SOURCE_TSV="Portuguese_Portugal/tsv/Portuguese_pt-PT.intake.additions.20211015.tsv"
+DO_NORMAL_STRINGS
+
+## -- regen initial reference --
+#SOURCE_TSV="Portuguese/tsv/Portuguese_pt.tsv"
+#SOURCE_TSV="Portuguese/tsv/Portuguese_pt.additions.tsv"
+#DO_NORMAL_STRINGS
+
+## Russian
+SOURCE_TSV="Russian/tsv/Russian_ru.intake.20211019.tsv"
+SOURCE_TSV="Russian/tsv/Russian_ru.intake.additions.20211028.tsv"
+DO_NORMAL_STRINGS
+
+#################
+### STOP HERE ###
 QUIT
 
-SOURCE_TSV="Portuguese/tsv/Portuguese_pt.tsv"
-SOURCE_TSV="Portuguese/tsv/Portuguese_pt.additions.tsv"
+## German (de)
+SOURCE_TSV="German/tsv/German_de.intake.20211101.tsv"
+#SOURCE_TSV="German/tsv/German_de.intake.additions.tsv"
 DO_NORMAL_STRINGS
 
-SOURCE_TSV="Hebrew/tsv/Hebrew_he.submitted.tsv"
+############
+## Hebrew ##
+SOURCE_TSV="Hebrew/tsv/Hebrew_he.intake.20211004.tsv"
+#SOURCE_TSV="Hebrew/tsv/Hebrew_he.intake.additions.YYYYMMDD.tsv"
 DO_NORMAL_STRINGS
 
+## -- regen initial reference --
 #SOURCE_TSV="Hebrew/tsv/Hebrew_he.tsv"
 #SOURCE_TSV="Hebrew/tsv/Hebrew_he.additions.tsv"
 #DO_NORMAL_STRINGS

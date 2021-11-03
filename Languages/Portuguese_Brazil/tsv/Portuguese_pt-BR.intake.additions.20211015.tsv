@@ -1,0 +1,98 @@
+key_droid	key_apple	base_value	lang_value	base_note
+	apple.info.about.0	Welcome to my Daily Dozen!	Bem vindo à minha Dúzia Diária!	
+	apple.info.about.1	Use this app on a daily basis to keep track of the foods and advice I recommend for optimal health and longevity in my books How Not to Die and How Not to Diet.	Use este aplicativo diariamente para acompanhar os alimentos e conselhos que eu recomendo para ter saúde ótima e longevidade nos meus livros Comer Para Não Morrer/Como Não Morrer e Como Não Fazer Dieta.	
+	apple.info.about.2	Daily Dozen	Dúzia Diária	
+	apple.info.about.3	version 3.2.3	versão 3.2.3	
+	apple.info.about.4	This app was created by: NutritionFacts.org, Christi Richards, Konstantin Khokhlov, and Marc Campbell	Este aplicativo foi criado por: NutritionFacts.org, Christi Richards, Konstantin Khokhlov e Marc Campbell.	
+	apple.info.about.5	The following open source libraries are used: RealmSwift, Charts, FSCalendar, SimpleAnimation, ActiveLabel.	As seguintes bibliotecas de código aberto foram usadas: RealmSwift, Charts, FSCalendar, SimpleAnimation, ActiveLabel.	
+OK	dozeOtherInfo.confirm	OK	Certo	
+	dozeOtherInfo.message	Vitamin B12 is essential for your health but does not count towards your daily servings.\n\nVitamin B12 is included in this app to provide you with an easy way to track your intake.	A vitamina B12 é essencial para a sua saúde mas não conta na suas porções diárias. \n\nA vitamina B12 é incluida neste aplicativo para fornecer a você uma forma fácil de acompanhar a sua ingestão.	
+	dozeOtherInfo.title	Supplements	Suplementos	
+	historyRecordDoze.heading	Servings History	Histórico de Porções	
+	historyRecordDoze.legend	Servings	Porções	
+	historyRecordTweak.heading	Tweaks History	Histórico de Ajustes	
+tweaks	historyRecordTweak.legend	Tweaks	Ajustes	
+weight_history	historyRecordWeight.heading	Weight History	Histórico de Peso	
+evening	historyRecordWeight.legendEvening	Evening	Noite	
+morning	historyRecordWeight.legendMorning	Morning	Manhã	
+	historyRecordWeight.titleImperial	Weight (lbs)	Peso (lbs)	
+	historyRecordWeight.titleMetric	Weight (kg)	Peso (kg)	
+about_this_app	info.about.title	About this app	Sobre este aplicativo	
+	navtab.doze	Daily Dozen	Dúzia Diária	
+	navtab.info	Information	Informação	
+	navtab.preferences	Preferences	Preferências	
+	navtab.tweaks	21 Tweaks	21 Ajustes	
+format_num_days	streakDaysFormat	%d days	%d dias	Formatted string %d days
+imperial	unitToggle.imperial	imperial	Imperial	
+metric	unitToggle.metric	metric	Métrico	
+videos	videos.link.label	VIDEOS	VÍDEOS	Keyword for link to video topics
+weight	weightEntry.heading	Weight	Peso	
+	weightEntry.kilograms	kg	kg	
+	weightEntry.pounds	lbs	lbs	
+about_tweak		About Tweak	Sobre o Ajuste	
+android.about_text_lines.0		This app was created by John Slavick.	Este aplicativo foi criado por John Slavick.	
+android.about_text_lines.1		The following open source libraries are used: ActiveAndroid, android-iconify, EventBus, LikeAnimation, and MPAndroidChart.	As seguintes bibliotecas de código aberto foram usadas: ActiveAndroid, android-iconify, EventBus, LikeAnimation e MPAndroidChart.	
+android.about_text_lines.2		Special thanks to the volunteer efforts of the creators of the previous app: Chan Kruse, Allan Portera, and Sangeeta Kumar."	Agradecimento especial ao esforço dos voluntários criadores do aplicativo anterior: Chan Kruse, Allan Portera e Sangeeta Kumar.	
+average_weight_on_day		Average weight on day	Peso médio no dia	
+backup		Backup	Cópia de segurança	
+backup_failed		Backup failed	Falha na cópia de segurança	
+backup_instructions_lines.0		Follow these steps to restore this backup in the Daily Dozen app	Siga estes passos para restaurar esta cópia de segurança no aplicativo Dúzia Diária	
+backup_instructions_lines.1				
+backup_instructions_lines.2		1. The Daily Dozen app must be installed on your Android phone. You can download it here: https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen	1. A Dúzia Diária deve ser instalada no seu celular Android. Você pode baixar aqui: https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen	
+backup_instructions_lines.3				
+backup_instructions_lines.4		2. Tap on the backup file attached to this email.	2. Clique no arquivo de cópia de segurança anexada a este email.	
+backup_instructions_lines.5				
+backup_instructions_lines.6		3. Select Open with Daily Dozen	3. Selecione Abrir com a Dúzia Diária	
+backup_success		Backup successful	Cópia de segurança realizada com sucesso	
+channel_reminders_name		Reminders	Lembretes	
+daily_servings_history		Daily Servings History	Histórico de Porções Diárias	
+daily_tweaks_history		Daily Tweaks History	Histórico de Ajustes Diários	
+debug		Debug	Depurar	
+debug_clear_data		Clear all data	Limpar todos os dados	
+debug_clear_data_message		This will delete all entered Servings. Do you wish to continue?	Isto vai apagar todas as Porções inseridas. Deseja continuar?	
+debug_generate_data_message		All existing data will be replaced. Do you wish to continue?	Todos os dados existentes serão substituidos. Deseja continuar?	
+debug_generate_full_data		Generate full data	Gerar informações completas	
+debug_generate_random_data		Generate random data	Gerar informações aleatórias	
+debug_generate_weight_data		Generate Weight Data	Gerar Informações de Peso	
+dialog_ask_user_to_rate_app_message		Please give us feedback in the Play Store.	Por favor comente a sua experiência no Play Store.	
+dialog_ask_user_to_rate_app_title		Do you like this app?	Você gosta deste aplicativo?	
+dialog_no_email_apps_message		Backing up your data requires you to have an email app installed so you can email the .csv backup file to yourself. Please install an email app and try again.	Fazer uma cópia de segurança das suas informações requer que você tenha um aplicativo de email instalado para que você possa enviar por email o arquivo .csv para você mesmo. Por favor instale um aplicativo de email e tente novamente.	
+dialog_no_email_apps_title		No email apps found	Aplicativo de email não encontrado	
+dialog_streaks_message		Your database will now be upgraded to support the new progress feature.	A sua base de dados não será atualizada para suportar a nova função de progresso.	
+dialog_streaks_title		New progress feature added!	Nova função de progresso adicionada!	
+error_cannot_handle_url		Could not open url. Please install a browser.	Não foi possível abrir o url. Por favor instale um navegador.	
+food_history		Food History	Histórico de Alimentos	
+food_info		Food Info	Informação de Alimentos	
+format_version		version %s	versão %s	
+history_to_generate		History to Generate	Histórico para Gerar	
+history_to_generate_choices.0		1 month	1 mês	
+history_to_generate_choices.1		3 months	3 meses	
+history_to_generate_choices.2		6 months	6 meses	
+history_to_generate_choices.3		1 year	1 ano	
+history_to_generate_choices.4		2 years	2 anos	
+history_to_generate_choices.5		5 years	5 anos	
+moving_average		Moving Average	Média Móvel	
+no		No	Não	
+no_servings_recorded		You have not recorded any servings yet!	Você ainda não registrou nenhuma porção!	
+no_weights_recorded		You have not recorded any weights yet!	Você ainda não registrou nenhum peso!	
+not_now		Not Now	Agora Não	
+permission_needed_to_write_storage		Can\'t backup without permission to write to storage	Não é possível criar uma cópia de segurança sem permissão de escrita no armazenamento	
+rate_now		Give Feedback	Comente a sua Experiência	
+restore_confirm_message		Any existing data will be deleted before restoring from backup. Do you wish to continue?	Toda a informação existente será apagada antes de restaurar a cópia de segurança. Deseja continuar?	
+restore_confirm_title		Restore Backup	Restaurar a Cópia de Segurança	
+restore_failed		Restore failed	Falha na restauração	
+restore_success		Restore successful	Restauração realizada com sucesso	
+task_backup_title		Backing up	Fazendo a cópia de segurança	
+task_calculating_streaks_title		Calculating progress	Calculando o progresso	
+task_generating_random_data		Generating random data	Gerando informações aleatórias	
+task_loading_servings_history_title		Loading Servings History	Carregando o Histórico de Porções	
+task_loading_weights_history_title		Loading Weights History	Carregando o Histórico de Pesos	
+task_restore_title		Restoring	Restaurando	
+title_cookbook		Cookbook	Livro de Receitas	
+title_how_not_to_die		How Not to Die	Comer Para Não Morrer / Como Não Morrer	
+title_how_not_to_diet		How Not to Diet	Como Não Fazer Dieta	
+tweak_group_daily		Every Day	Todo Dia	
+tweak_group_dailydoses		Take your daily doses	Siga as suas doses diárias	
+tweak_group_meal		At Each Meal	Em Cada Refeição	
+tweak_group_nightly		Every Night	Toda Noite	
+yes		Yes	Sim	
