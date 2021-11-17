@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:rpt="http://openoffice.org/2005/report" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" office:version="1.3" office:mimetype="application/vnd.oasis.opendocument.spreadsheet">
- <office:meta><meta:generator>LibreOffice/7.1.5.2$MacOSX_X86_64 LibreOffice_project/85f04e9f809797b8199d13c421bd8a2b025d52b5</meta:generator><dc:date>2021-11-02T16:19:19.569339113</dc:date><meta:editing-duration>PT17M59S</meta:editing-duration><meta:editing-cycles>1</meta:editing-cycles><meta:document-statistic meta:table-count="1" meta:cell-count="648" meta:object-count="0"/></office:meta>
+ <office:meta><meta:generator>LibreOffice/7.1.5.2$MacOSX_X86_64 LibreOffice_project/85f04e9f809797b8199d13c421bd8a2b025d52b5</meta:generator><dc:date>2021-11-16T17:20:33.257463891</dc:date><meta:editing-duration>PT2H58M57S</meta:editing-duration><meta:editing-cycles>12</meta:editing-cycles><meta:document-statistic meta:table-count="1" meta:cell-count="848" meta:object-count="0"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
    <config:config-item config:name="VisibleAreaTop" config:type="int">0</config:config-item>
    <config:config-item config:name="VisibleAreaLeft" config:type="int">0</config:config-item>
-   <config:config-item config:name="VisibleAreaWidth" config:type="int">38089</config:config-item>
-   <config:config-item config:name="VisibleAreaHeight" config:type="int">82634</config:config-item>
+   <config:config-item config:name="VisibleAreaWidth" config:type="int">38764</config:config-item>
+   <config:config-item config:name="VisibleAreaHeight" config:type="int">108373</config:config-item>
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view1</config:config-item>
      <config:config-item-map-named config:name="Tables">
       <config:config-item-map-entry config:name="English_US_en.url_topics">
-       <config:config-item config:name="CursorPositionX" config:type="int">0</config:config-item>
-       <config:config-item config:name="CursorPositionY" config:type="int">167</config:config-item>
+       <config:config-item config:name="CursorPositionX" config:type="int">5</config:config-item>
+       <config:config-item config:name="CursorPositionY" config:type="int">177</config:config-item>
        <config:config-item config:name="HorizontalSplitMode" config:type="short">0</config:config-item>
        <config:config-item config:name="VerticalSplitMode" config:type="short">0</config:config-item>
        <config:config-item config:name="HorizontalSplitPosition" config:type="int">0</config:config-item>
        <config:config-item config:name="VerticalSplitPosition" config:type="int">0</config:config-item>
        <config:config-item config:name="ActiveSplitRange" config:type="short">2</config:config-item>
-       <config:config-item config:name="PositionLeft" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionLeft" config:type="int">2</config:config-item>
        <config:config-item config:name="PositionRight" config:type="int">0</config:config-item>
        <config:config-item config:name="PositionTop" config:type="int">0</config:config-item>
-       <config:config-item config:name="PositionBottom" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionBottom" config:type="int">170</config:config-item>
        <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
-       <config:config-item config:name="ZoomValue" config:type="int">100</config:config-item>
+       <config:config-item config:name="ZoomValue" config:type="int">140</config:config-item>
        <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
        <config:config-item config:name="ShowGrid" config:type="boolean">true</config:config-item>
        <config:config-item config:name="AnchoredTextOverflowLegacy" config:type="boolean">false</config:config-item>
       </config:config-item-map-entry>
      </config:config-item-map-named>
      <config:config-item config:name="ActiveTable" config:type="string">English_US_en.url_topics</config:config-item>
-     <config:config-item config:name="HorizontalScrollbarWidth" config:type="int">1833</config:config-item>
+     <config:config-item config:name="HorizontalScrollbarWidth" config:type="int">1879</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
-     <config:config-item config:name="ZoomValue" config:type="int">100</config:config-item>
+     <config:config-item config:name="ZoomValue" config:type="int">140</config:config-item>
      <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
      <config:config-item config:name="ShowPageBreakPreview" config:type="boolean">false</config:config-item>
      <config:config-item config:name="ShowZeroValues" config:type="boolean">true</config:config-item>
@@ -71,13 +71,13 @@
    <config:config-item config:name="RasterIsVisible" config:type="boolean">false</config:config-item>
    <config:config-item config:name="SaveVersionOnClose" config:type="boolean">false</config:config-item>
    <config:config-item config:name="GridColor" config:type="int">12632256</config:config-item>
-   <config:config-item config:name="PrinterName" config:type="string"/>
+   <config:config-item config:name="PrinterName" config:type="string">EPSON_WF_7520</config:config-item>
    <config:config-item config:name="RasterSubdivisionX" config:type="int">1</config:config-item>
    <config:config-item config:name="LinkUpdateMode" config:type="short">3</config:config-item>
    <config:config-item config:name="HasColumnRowHeaders" config:type="boolean">true</config:config-item>
    <config:config-item config:name="RasterSubdivisionY" config:type="int">1</config:config-item>
    <config:config-item config:name="AutoCalculate" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="PrinterSetup" config:type="base64Binary"/>
+   <config:config-item config:name="PrinterSetup" config:type="base64Binary">5wD+/0VQU09OX1dGXzc1MjAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARVBTT04gV0YtNzUyMCBTZXJpZXMtQWlyUHJpbnQAAAAWAAQABAAAAAAAAAAIAFZUAAAkbQAAAAAAABIAQ09NUEFUX0RVUExFWF9NT0RFEwBEdXBsZXhNb2RlOjpVbmtub3du</config:config-item>
    <config:config-item config:name="IsOutlineSymbolsSet" config:type="boolean">true</config:config-item>
    <config:config-item config:name="PrinterPaperFromSetup" config:type="boolean">false</config:config-item>
    <config:config-item config:name="SaveThumbnail" config:type="boolean">true</config:config-item>
@@ -91,6 +91,7 @@
    <config:config-item config:name="EmbedOnlyUsedFonts" config:type="boolean">false</config:config-item>
    <config:config-item config:name="EmbedAsianScriptFonts" config:type="boolean">true</config:config-item>
    <config:config-item config:name="EmbedComplexScriptFonts" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="SyntaxStringRef" config:type="short">7</config:config-item>
    <config:config-item config:name="ApplyUserData" config:type="boolean">true</config:config-item>
    <config:config-item-map-named config:name="ScriptConfiguration">
     <config:config-item-map-entry config:name="English_US_en.url_topics">
@@ -181,18 +182,21 @@
    <style:table-column-properties fo:break-before="auto" style:column-width="2.6193in"/>
   </style:style>
   <style:style style:name="co2" style:family="table-column">
-   <style:table-column-properties fo:break-before="auto" style:column-width="0.7535in"/>
+   <style:table-column-properties fo:break-before="auto" style:column-width="2.4272in"/>
   </style:style>
   <style:style style:name="co3" style:family="table-column">
-   <style:table-column-properties fo:break-before="auto" style:column-width="3.5409in"/>
+   <style:table-column-properties fo:break-before="auto" style:column-width="2.5043in"/>
   </style:style>
   <style:style style:name="co4" style:family="table-column">
-   <style:table-column-properties fo:break-before="auto" style:column-width="1.0752in"/>
+   <style:table-column-properties fo:break-before="auto" style:column-width="3.1701in"/>
   </style:style>
   <style:style style:name="co5" style:family="table-column">
-   <style:table-column-properties fo:break-before="auto" style:column-width="3.4661in"/>
+   <style:table-column-properties fo:break-before="auto" style:column-width="1.0752in"/>
   </style:style>
   <style:style style:name="co6" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="3.4661in"/>
+  </style:style>
+  <style:style style:name="co7" style:family="table-column">
    <style:table-column-properties fo:break-before="auto" style:column-width="0.889in"/>
   </style:style>
   <style:style style:name="ro1" style:family="table-row">
@@ -226,6 +230,9 @@
     </style:header-footer-properties>
    </style:footer-style>
   </style:page-layout>
+  <style:style style:name="T1" style:family="text">
+   <style:text-properties style:font-name="Liberation Sans" fo:font-size="10pt" fo:font-weight="normal" style:text-underline-style="none" style:text-underline-color="font-color" style:text-line-through-type="none" fo:font-style="normal" style:text-outline="false" fo:text-shadow="none" style:text-line-through-mode="continuous" fo:language="en" fo:country="US" style:language-asian="zh" style:country-asian="CN" style:language-complex="hi" style:country-complex="IN" style:font-name-asian="PingFang SC" style:font-name-complex="Arial Unicode MS" style:font-size-asian="10pt" style:font-size-complex="10pt" style:font-weight-asian="normal" style:font-weight-complex="normal" style:font-style-asian="normal" style:font-style-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+  </style:style>
  </office:automatic-styles>
  <office:master-styles>
   <style:master-page style:name="Default" style:page-layout-name="pm1">
@@ -244,7 +251,7 @@
      <text:p><text:sheet-name>???</text:sheet-name><text:s/>(<text:title>???</text:title>)</text:p>
     </style:region-left>
     <style:region-right>
-     <text:p><text:date style:data-style-name="N2" text:date-value="2021-11-02">00/00/0000</text:date>, <text:time>00:00:00</text:time></text:p>
+     <text:p><text:date style:data-style-name="N2" text:date-value="2021-11-16">00/00/0000</text:date>, <text:time style:data-style-name="N2" text:time-value="16:07:21.662017336">00:00:00</text:time></text:p>
     </style:region-right>
    </style:header>
    <style:header-left style:display="false"/>
@@ -260,14 +267,37 @@
    <table:table table:name="English_US_en.url_topics" table:style-name="ta1">
     <table:table-column table:style-name="co1" table:default-cell-style-name="Default"/>
     <table:table-column table:style-name="co2" table:default-cell-style-name="Default"/>
-    <table:table-column table:style-name="co3" table:number-columns-repeated="2" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co3" table:default-cell-style-name="Default"/>
     <table:table-column table:style-name="co4" table:default-cell-style-name="Default"/>
     <table:table-column table:style-name="co5" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co6" table:default-cell-style-name="Default"/>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>key_droid</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>key_apple</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>base_value</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>lang_value</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>base_comment</text:p>
+     </table:table-cell>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>lang_url</text:p>
+     </table:table-cell>
+    </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_info_videos_beans</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeBeans.topic</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/beans</text:p>
      </table:table-cell>
@@ -280,7 +310,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_info_videos_berries</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeBerries.topic</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/berries</text:p>
      </table:table-cell>
@@ -293,7 +325,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_info_videos_fruits</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeFruitsOther.topic</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/fruit</text:p>
      </table:table-cell>
@@ -306,7 +340,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_info_videos_cruciferous</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeVegetablesCruciferous.topic</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/cruciferous-vegetables</text:p>
      </table:table-cell>
@@ -319,7 +355,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_info_videos_greens</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeGreens.topic</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/greens</text:p>
      </table:table-cell>
@@ -332,7 +370,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_info_videos_vegetables</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeVegetablesOther.topic</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/vegetables</text:p>
      </table:table-cell>
@@ -345,7 +385,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_info_videos_flaxseeds</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeFlaxseeds.topic</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/flax-seeds</text:p>
      </table:table-cell>
@@ -358,7 +400,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_info_videos_nuts</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeNuts.topic</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/nuts</text:p>
      </table:table-cell>
@@ -371,7 +415,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_info_videos_spices</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeSpices.topic</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/spices</text:p>
      </table:table-cell>
@@ -384,7 +430,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_info_videos_whole_grains</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeWholeGrains.topic</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/grains</text:p>
      </table:table-cell>
@@ -397,7 +445,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_info_videos_beverages</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeBeverages.topic</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/beverages</text:p>
      </table:table-cell>
@@ -410,7 +460,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_info_videos_exercise</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeExercise.topic</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/exercise</text:p>
      </table:table-cell>
@@ -423,7 +475,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_info_videos_vitamin_b12</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>otherVitaminB12.topic</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/vitamin-b12</text:p>
      </table:table-cell>
@@ -436,7 +490,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_info_videos_vitamin_d</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>otherVitaminD.topic</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/vitamin-d-supplements</text:p>
      </table:table-cell>
@@ -449,7 +505,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_info_videos_omega3</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>otherOmega3.topic</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/omega-3-fatty-acids</text:p>
      </table:table-cell>
@@ -462,7 +520,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_beans[0]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeBeans.Variety.Topic.0</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/black-beans</text:p>
      </table:table-cell>
@@ -475,25 +535,36 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_beans[1]</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="5"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeBeans.Variety.Topic.1</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_beans[2]</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="5"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeBeans.Variety.Topic.2</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_beans[3]</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="5"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeBeans.Variety.Topic.3</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_beans[4]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeBeans.Variety.Topic.4</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/chickpeas</text:p>
      </table:table-cell>
@@ -506,7 +577,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_beans[5]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeBeans.Variety.Topic.5</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/edamame</text:p>
      </table:table-cell>
@@ -519,19 +592,27 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_beans[6]</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="5"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeBeans.Variety.Topic.6</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_beans[7]</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="5"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeBeans.Variety.Topic.7</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_beans[8]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeBeans.Variety.Topic.8</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/kidney-beans</text:p>
      </table:table-cell>
@@ -544,7 +625,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_beans[9]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeBeans.Variety.Topic.9</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/lentils</text:p>
      </table:table-cell>
@@ -557,7 +640,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_beans[10]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeBeans.Variety.Topic.10</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/miso</text:p>
      </table:table-cell>
@@ -570,7 +655,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_beans[11]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeBeans.Variety.Topic.11</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/navy-beans</text:p>
      </table:table-cell>
@@ -583,7 +670,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_beans[12]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeBeans.Variety.Topic.12</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/pinto-beans</text:p>
      </table:table-cell>
@@ -596,13 +685,18 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_beans[13]</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="5"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeBeans.Variety.Topic.13</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_beans[14]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeBeans.Variety.Topic.14</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/split-peas</text:p>
      </table:table-cell>
@@ -615,7 +709,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_beans[15]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeBeans.Variety.Topic.15</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/tempeh</text:p>
      </table:table-cell>
@@ -628,7 +724,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_berries[0]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeBerries.Variety.Topic.0</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/acai-berries</text:p>
      </table:table-cell>
@@ -641,7 +739,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_berries[1]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeBerries.Variety.Topic.1</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/barberries</text:p>
      </table:table-cell>
@@ -654,7 +754,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_berries[2]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeBerries.Variety.Topic.2</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/blackberries</text:p>
      </table:table-cell>
@@ -667,7 +769,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_berries[3]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeBerries.Variety.Topic.3</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/blueberries</text:p>
      </table:table-cell>
@@ -680,7 +784,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_berries[4]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeBerries.Variety.Topic.4</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/cherries</text:p>
      </table:table-cell>
@@ -693,7 +799,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_berries[5]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeBerries.Variety.Topic.5</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/grapes</text:p>
      </table:table-cell>
@@ -706,7 +814,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_berries[6]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeBerries.Variety.Topic.6</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/cranberries</text:p>
      </table:table-cell>
@@ -719,7 +829,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_berries[7]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeBerries.Variety.Topic.7</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/goji-berries</text:p>
      </table:table-cell>
@@ -732,19 +844,27 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_berries[8]</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="5"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeBerries.Variety.Topic.8</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_berries[9]</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="5"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeBerries.Variety.Topic.9</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_berries[10]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeBerries.Variety.Topic.10</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/raspberries</text:p>
      </table:table-cell>
@@ -757,7 +877,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_berries[11]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeBerries.Variety.Topic.11</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/strawberries</text:p>
      </table:table-cell>
@@ -770,7 +892,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_other_fruits[0]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeFruitsOther.Variety.Topic.0</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/apples</text:p>
      </table:table-cell>
@@ -783,7 +907,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_other_fruits[1]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeFruitsOther.Variety.Topic.1</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/apricots</text:p>
      </table:table-cell>
@@ -796,7 +922,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_other_fruits[2]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeFruitsOther.Variety.Topic.2</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/avocados</text:p>
      </table:table-cell>
@@ -809,7 +937,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_other_fruits[3]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeFruitsOther.Variety.Topic.3</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/bananas</text:p>
      </table:table-cell>
@@ -822,7 +952,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_other_fruits[4]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeFruitsOther.Variety.Topic.4</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/cantaloupe</text:p>
      </table:table-cell>
@@ -835,13 +967,18 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_other_fruits[5]</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="5"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeFruitsOther.Variety.Topic.5</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_other_fruits[6]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeFruitsOther.Variety.Topic.6</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/dates</text:p>
      </table:table-cell>
@@ -854,20 +991,18 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_other_fruits[7]</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
-      <text:p>topics/figs</text:p>
-     </table:table-cell>
-     <table:table-cell/>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>https://nutritionfacts.org/topics/figs</text:p>
+      <text:p>dozeFruitsOther.Variety.Topic.7</text:p>
      </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_other_fruits[8]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeFruitsOther.Variety.Topic.8</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/grapefruit</text:p>
      </table:table-cell>
@@ -880,13 +1015,18 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_other_fruits[9]</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="5"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeFruitsOther.Variety.Topic.9</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_other_fruits[10]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeFruitsOther.Variety.Topic.10</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/kiwifruit</text:p>
      </table:table-cell>
@@ -899,7 +1039,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_other_fruits[11]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeFruitsOther.Variety.Topic.11</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/lemons</text:p>
      </table:table-cell>
@@ -912,7 +1054,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_other_fruits[12]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeFruitsOther.Variety.Topic.12</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/limes</text:p>
      </table:table-cell>
@@ -925,13 +1069,18 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_other_fruits[13]</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="5"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeFruitsOther.Variety.Topic.13</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_other_fruits[14]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeFruitsOther.Variety.Topic.14</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/mango</text:p>
      </table:table-cell>
@@ -944,13 +1093,18 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_other_fruits[15]</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="5"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeFruitsOther.Variety.Topic.15</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_other_fruits[16]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeFruitsOther.Variety.Topic.16</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/oranges</text:p>
      </table:table-cell>
@@ -963,26 +1117,27 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_other_fruits[17]</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
-      <text:p>topics/papaya</text:p>
-     </table:table-cell>
-     <table:table-cell/>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>https://nutritionfacts.org/topics/papaya</text:p>
+      <text:p>dozeFruitsOther.Variety.Topic.17</text:p>
      </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_other_fruits[18]</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="5"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeFruitsOther.Variety.Topic.18</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_other_fruits[19]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeFruitsOther.Variety.Topic.19</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/peaches</text:p>
      </table:table-cell>
@@ -995,7 +1150,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_other_fruits[20]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeFruitsOther.Variety.Topic.20</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/pears</text:p>
      </table:table-cell>
@@ -1008,20 +1165,18 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_other_fruits[21]</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
-      <text:p>topics/pineapples</text:p>
-     </table:table-cell>
-     <table:table-cell/>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>https://nutritionfacts.org/topics/pineapples</text:p>
+      <text:p>dozeFruitsOther.Variety.Topic.21</text:p>
      </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_other_fruits[22]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeFruitsOther.Variety.Topic.22</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/plums</text:p>
      </table:table-cell>
@@ -1034,13 +1189,18 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_other_fruits[23]</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="5"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeFruitsOther.Variety.Topic.23</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_other_fruits[24]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeFruitsOther.Variety.Topic.24</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/pomegranates</text:p>
      </table:table-cell>
@@ -1053,7 +1213,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_other_fruits[25]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeFruitsOther.Variety.Topic.25</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/prunes</text:p>
      </table:table-cell>
@@ -1066,13 +1228,18 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_other_fruits[26]</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="5"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeFruitsOther.Variety.Topic.26</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_other_fruits[27]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeFruitsOther.Variety.Topic.27</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/watermelon</text:p>
      </table:table-cell>
@@ -1085,13 +1252,18 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_cruciferous_vegetables[0]</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="5"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeVegetablesCruciferous.Variety.Topic.0</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_cruciferous_vegetables[1]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeVegetablesCruciferous.Variety.Topic.1</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/bok-choy</text:p>
      </table:table-cell>
@@ -1104,7 +1276,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_cruciferous_vegetables[2]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeVegetablesCruciferous.Variety.Topic.2</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/broccoli</text:p>
      </table:table-cell>
@@ -1117,7 +1291,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_cruciferous_vegetables[3]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeVegetablesCruciferous.Variety.Topic.3</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/brussels-sprouts</text:p>
      </table:table-cell>
@@ -1130,7 +1306,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_cruciferous_vegetables[4]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeVegetablesCruciferous.Variety.Topic.4</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/cabbage</text:p>
      </table:table-cell>
@@ -1143,7 +1321,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_cruciferous_vegetables[5]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeVegetablesCruciferous.Variety.Topic.5</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/cauliflower</text:p>
      </table:table-cell>
@@ -1156,7 +1336,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_cruciferous_vegetables[6]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeVegetablesCruciferous.Variety.Topic.6</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/collard-greens</text:p>
      </table:table-cell>
@@ -1169,13 +1351,18 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_cruciferous_vegetables[7]</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="5"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeVegetablesCruciferous.Variety.Topic.7</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_cruciferous_vegetables[8]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeVegetablesCruciferous.Variety.Topic.8</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/kale</text:p>
      </table:table-cell>
@@ -1188,20 +1375,18 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_cruciferous_vegetables[9]</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
-      <text:p>topics/kohlrabi</text:p>
-     </table:table-cell>
-     <table:table-cell/>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>https://nutritionfacts.org/topics/kohlrabi</text:p>
+      <text:p>dozeVegetablesCruciferous.Variety.Topic.9</text:p>
      </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_cruciferous_vegetables[10]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeVegetablesCruciferous.Variety.Topic.10</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/mustard-greens</text:p>
      </table:table-cell>
@@ -1214,33 +1399,27 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_cruciferous_vegetables[11]</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
-      <text:p>topics/radishes</text:p>
-     </table:table-cell>
-     <table:table-cell/>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>https://nutritionfacts.org/topics/radishes</text:p>
+      <text:p>dozeVegetablesCruciferous.Variety.Topic.11</text:p>
      </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_cruciferous_vegetables[12]</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
-      <text:p>topics/turnips</text:p>
-     </table:table-cell>
-     <table:table-cell/>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>https://nutritionfacts.org/topics/turnips</text:p>
+      <text:p>dozeVegetablesCruciferous.Variety.Topic.12</text:p>
      </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_cruciferous_vegetables[13]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeVegetablesCruciferous.Variety.Topic.13</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/watercress</text:p>
      </table:table-cell>
@@ -1253,13 +1432,18 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_greens[0]</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="5"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeGreens.Variety.Topic.0</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_greens[1]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeGreens.Variety.Topic.1</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/beets</text:p>
      </table:table-cell>
@@ -1272,7 +1456,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_greens[2]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeGreens.Variety.Topic.2</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/collard-greens</text:p>
      </table:table-cell>
@@ -1285,7 +1471,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_greens[3]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeGreens.Variety.Topic.3</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/kale</text:p>
      </table:table-cell>
@@ -1298,20 +1486,18 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_greens[4]</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
-      <text:p>topics/mesclun-mix</text:p>
-     </table:table-cell>
-     <table:table-cell/>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>https://nutritionfacts.org/topics/mesclun-mix</text:p>
+      <text:p>dozeGreens.Variety.Topic.4</text:p>
      </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_greens[5]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeGreens.Variety.Topic.5</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/mustard-greens</text:p>
      </table:table-cell>
@@ -1324,13 +1510,18 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_greens[6]</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="5"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeGreens.Variety.Topic.6</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_greens[7]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeGreens.Variety.Topic.7</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/spinach</text:p>
      </table:table-cell>
@@ -1343,7 +1534,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_greens[8]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeGreens.Variety.Topic.8</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/swiss-chard</text:p>
      </table:table-cell>
@@ -1356,20 +1549,18 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_greens[9]</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
-      <text:p>topics/turnips</text:p>
-     </table:table-cell>
-     <table:table-cell/>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>https://nutritionfacts.org/topics/turnips</text:p>
+      <text:p>dozeGreens.Variety.Topic.9</text:p>
      </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_other_vegetables[0]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeVegetablesOther.Variety.Topic.0</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/artichokes</text:p>
      </table:table-cell>
@@ -1382,7 +1573,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_other_vegetables[1]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeVegetablesOther.Variety.Topic.1</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/asparagus</text:p>
      </table:table-cell>
@@ -1395,7 +1588,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_other_vegetables[2]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeVegetablesOther.Variety.Topic.2</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/beets</text:p>
      </table:table-cell>
@@ -1408,7 +1603,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_other_vegetables[3]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeVegetablesOther.Variety.Topic.3</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/bell-peppers</text:p>
      </table:table-cell>
@@ -1421,7 +1618,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_other_vegetables[4]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeVegetablesOther.Variety.Topic.4</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/carrots</text:p>
      </table:table-cell>
@@ -1434,7 +1633,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_other_vegetables[5]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeVegetablesOther.Variety.Topic.5</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/corn</text:p>
      </table:table-cell>
@@ -1447,7 +1648,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_other_vegetables[6]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeVegetablesOther.Variety.Topic.6</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/garlic</text:p>
      </table:table-cell>
@@ -1460,7 +1663,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_other_vegetables[7]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeVegetablesOther.Variety.Topic.7</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/mushrooms</text:p>
      </table:table-cell>
@@ -1473,7 +1678,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_other_vegetables[8]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeVegetablesOther.Variety.Topic.8</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/okra</text:p>
      </table:table-cell>
@@ -1486,7 +1693,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_other_vegetables[9]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeVegetablesOther.Variety.Topic.9</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/onions</text:p>
      </table:table-cell>
@@ -1499,7 +1708,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_other_vegetables[10]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeVegetablesOther.Variety.Topic.10</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/potatoes</text:p>
      </table:table-cell>
@@ -1512,7 +1723,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_other_vegetables[11]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeVegetablesOther.Variety.Topic.11</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/pumpkin</text:p>
      </table:table-cell>
@@ -1525,7 +1738,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_other_vegetables[12]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeVegetablesOther.Variety.Topic.12</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/sea-vegetables</text:p>
      </table:table-cell>
@@ -1538,13 +1753,18 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_other_vegetables[13]</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="5"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeVegetablesOther.Variety.Topic.13</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_other_vegetables[14]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeVegetablesOther.Variety.Topic.14</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/squash</text:p>
      </table:table-cell>
@@ -1557,7 +1777,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_other_vegetables[15]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeVegetablesOther.Variety.Topic.15</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/sweet-potatoes</text:p>
      </table:table-cell>
@@ -1570,7 +1792,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_other_vegetables[16]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeVegetablesOther.Variety.Topic.16</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/tomatoes</text:p>
      </table:table-cell>
@@ -1583,7 +1807,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_other_vegetables[17]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeVegetablesOther.Variety.Topic.17</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/zucchini</text:p>
      </table:table-cell>
@@ -1596,7 +1822,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_nuts[0]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeNuts.Variety.Topic.0</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/almonds</text:p>
      </table:table-cell>
@@ -1609,7 +1837,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_nuts[1]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeNuts.Variety.Topic.1</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/brazil-nuts</text:p>
      </table:table-cell>
@@ -1622,7 +1852,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_nuts[2]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeNuts.Variety.Topic.2</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/cashews</text:p>
      </table:table-cell>
@@ -1635,7 +1867,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_nuts[3]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeNuts.Variety.Topic.3</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/chia-seeds</text:p>
      </table:table-cell>
@@ -1648,7 +1882,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_nuts[4]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeNuts.Variety.Topic.4</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/hazelnuts</text:p>
      </table:table-cell>
@@ -1661,13 +1897,18 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_nuts[5]</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="5"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeNuts.Variety.Topic.5</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_nuts[6]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeNuts.Variety.Topic.6</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/macadamia-nuts</text:p>
      </table:table-cell>
@@ -1680,7 +1921,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_nuts[7]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeNuts.Variety.Topic.7</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/pecans</text:p>
      </table:table-cell>
@@ -1693,7 +1936,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_nuts[8]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeNuts.Variety.Topic.8</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/pistachios</text:p>
      </table:table-cell>
@@ -1706,7 +1951,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_nuts[9]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeNuts.Variety.Topic.9</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/pumpkin-seeds</text:p>
      </table:table-cell>
@@ -1719,7 +1966,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_nuts[10]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeNuts.Variety.Topic.10</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/sesame-seeds</text:p>
      </table:table-cell>
@@ -1732,7 +1981,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_nuts[11]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeNuts.Variety.Topic.11</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/sunflower-seeds</text:p>
      </table:table-cell>
@@ -1745,7 +1996,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_nuts[12]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeNuts.Variety.Topic.12</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/walnuts</text:p>
      </table:table-cell>
@@ -1758,7 +2011,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_spices[0]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeSpices.Variety.Topic.0</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/allspice</text:p>
      </table:table-cell>
@@ -1771,7 +2026,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_spices[1]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeSpices.Variety.Topic.1</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/barberries</text:p>
      </table:table-cell>
@@ -1784,7 +2041,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_spices[2]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeSpices.Variety.Topic.2</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/basil</text:p>
      </table:table-cell>
@@ -1797,32 +2056,36 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_spices[3]</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="5"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeSpices.Variety.Topic.3</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_spices[4]</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
-      <text:p>topics/cardamom</text:p>
-     </table:table-cell>
-     <table:table-cell/>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>https://nutritionfacts.org/topics/cardamom</text:p>
+      <text:p>dozeSpices.Variety.Topic.4</text:p>
      </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_spices[5]</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="5"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeSpices.Variety.Topic.5</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_spices[6]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeSpices.Variety.Topic.6</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/cilantro</text:p>
      </table:table-cell>
@@ -1835,7 +2098,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_spices[7]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeSpices.Variety.Topic.7</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/cinnamon</text:p>
      </table:table-cell>
@@ -1848,7 +2113,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_spices[8]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeSpices.Variety.Topic.8</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/cloves</text:p>
      </table:table-cell>
@@ -1861,20 +2128,18 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_spices[9]</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
-      <text:p>topics/coriander</text:p>
-     </table:table-cell>
-     <table:table-cell/>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>https://nutritionfacts.org/topics/coriander</text:p>
+      <text:p>dozeSpices.Variety.Topic.9</text:p>
      </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_spices[10]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeSpices.Variety.Topic.10</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/cumin</text:p>
      </table:table-cell>
@@ -1887,7 +2152,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_spices[11]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeSpices.Variety.Topic.11</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/curry-powder</text:p>
      </table:table-cell>
@@ -1900,13 +2167,18 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_spices[12]</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="5"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeSpices.Variety.Topic.12</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_spices[13]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeSpices.Variety.Topic.13</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/fenugreek</text:p>
      </table:table-cell>
@@ -1919,7 +2191,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_spices[14]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeSpices.Variety.Topic.14</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/garlic</text:p>
      </table:table-cell>
@@ -1932,7 +2206,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_spices[15]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeSpices.Variety.Topic.15</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/ginger</text:p>
      </table:table-cell>
@@ -1945,26 +2221,27 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_spices[16]</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="5"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeSpices.Variety.Topic.16</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_spices[17]</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
-      <text:p>topics/lemongrass</text:p>
-     </table:table-cell>
-     <table:table-cell/>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>https://nutritionfacts.org/topics/lemongrass</text:p>
+      <text:p>dozeSpices.Variety.Topic.17</text:p>
      </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_spices[18]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeSpices.Variety.Topic.18</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/marjoram</text:p>
      </table:table-cell>
@@ -1977,7 +2254,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_spices[19]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeSpices.Variety.Topic.19</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/mustard-powder</text:p>
      </table:table-cell>
@@ -1990,7 +2269,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_spices[20]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeSpices.Variety.Topic.20</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/nutmeg</text:p>
      </table:table-cell>
@@ -2003,7 +2284,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_spices[21]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeSpices.Variety.Topic.21</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/oregano</text:p>
      </table:table-cell>
@@ -2016,20 +2299,18 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_spices[22]</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
-      <text:p>topics/paprika</text:p>
-     </table:table-cell>
-     <table:table-cell/>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>https://nutritionfacts.org/topics/paprika</text:p>
+      <text:p>dozeSpices.Variety.Topic.22</text:p>
      </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_spices[23]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeSpices.Variety.Topic.23</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/parsley</text:p>
      </table:table-cell>
@@ -2042,7 +2323,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_spices[24]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeSpices.Variety.Topic.24</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/pepper</text:p>
      </table:table-cell>
@@ -2055,7 +2338,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_spices[25]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeSpices.Variety.Topic.25</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/peppermint</text:p>
      </table:table-cell>
@@ -2068,7 +2353,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_spices[26]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeSpices.Variety.Topic.26</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/rosemary</text:p>
      </table:table-cell>
@@ -2081,7 +2368,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_spices[27]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeSpices.Variety.Topic.27</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/saffron</text:p>
      </table:table-cell>
@@ -2094,26 +2383,27 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_spices[28]</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="5"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeSpices.Variety.Topic.28</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_spices[29]</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
-      <text:p>topics/thyme</text:p>
-     </table:table-cell>
-     <table:table-cell/>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>https://nutritionfacts.org/topics/thyme</text:p>
+      <text:p>dozeSpices.Variety.Topic.29</text:p>
      </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_spices[30]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeSpices.Variety.Topic.30</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/turmeric</text:p>
      </table:table-cell>
@@ -2126,13 +2416,18 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_spices[31]</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="5"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeSpices.Variety.Topic.31</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_whole_grains[0]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeWholeGrains.Variety.Topic.0</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/barley</text:p>
      </table:table-cell>
@@ -2145,7 +2440,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_whole_grains[1]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeWholeGrains.Variety.Topic.1</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/buckwheat</text:p>
      </table:table-cell>
@@ -2158,7 +2455,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_whole_grains[2]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeWholeGrains.Variety.Topic.2</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/millet</text:p>
      </table:table-cell>
@@ -2171,7 +2470,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_whole_grains[3]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeWholeGrains.Variety.Topic.3</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/oats</text:p>
      </table:table-cell>
@@ -2184,7 +2485,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_whole_grains[4]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeWholeGrains.Variety.Topic.4</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/popcorn</text:p>
      </table:table-cell>
@@ -2197,7 +2500,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_whole_grains[5]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeWholeGrains.Variety.Topic.5</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/quinoa</text:p>
      </table:table-cell>
@@ -2210,7 +2515,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_whole_grains[6]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeWholeGrains.Variety.Topic.6</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/rye</text:p>
      </table:table-cell>
@@ -2223,20 +2530,18 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_whole_grains[7]</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
-      <text:p>topics/teff</text:p>
-     </table:table-cell>
-     <table:table-cell/>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>https://nutritionfacts.org/topics/teff</text:p>
+      <text:p>dozeWholeGrains.Variety.Topic.7</text:p>
      </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_whole_grains[8]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeWholeGrains.Variety.Topic.8</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/pasta</text:p>
      </table:table-cell>
@@ -2249,7 +2554,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_beverages[0]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeBeverages.Variety.Topic.0</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/black-tea</text:p>
      </table:table-cell>
@@ -2262,7 +2569,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_beverages[1]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeBeverages.Variety.Topic.1</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/chai-tea</text:p>
      </table:table-cell>
@@ -2275,7 +2584,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_beverages[2]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeBeverages.Variety.Topic.2</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/chamomile-tea</text:p>
      </table:table-cell>
@@ -2288,7 +2599,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_beverages[3]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeBeverages.Variety.Topic.3</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/coffee</text:p>
      </table:table-cell>
@@ -2301,7 +2614,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_beverages[4]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeBeverages.Variety.Topic.4</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/earl-grey-tea</text:p>
      </table:table-cell>
@@ -2314,7 +2629,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_beverages[5]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeBeverages.Variety.Topic.5</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/green-tea</text:p>
      </table:table-cell>
@@ -2327,7 +2644,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_beverages[6]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeBeverages.Variety.Topic.6</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/hibiscus-tea</text:p>
      </table:table-cell>
@@ -2340,39 +2659,41 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_beverages[7]</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="5"/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeBeverages.Variety.Topic.7</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_beverages[8]</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
-      <text:p>topics/jasmine-tea</text:p>
-     </table:table-cell>
-     <table:table-cell/>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>https://nutritionfacts.org/topics/jasmine-tea</text:p>
+      <text:p>dozeBeverages.Variety.Topic.8</text:p>
      </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_beverages[9]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeBeverages.Variety.Topic.9</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/lemon-balm</text:p>
      </table:table-cell>
      <table:table-cell/>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>https://nutritionfacts.org/topics/lemon-balm</text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:span text:style-name="T1">https://nutritionfacts.org/</text:span>topics/lemon-balm</text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_beverages[10]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeBeverages.Variety.Topic.10</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/matcha</text:p>
      </table:table-cell>
@@ -2385,7 +2706,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_beverages[11]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeBeverages.Variety.Topic.11</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/oolong-tea</text:p>
      </table:table-cell>
@@ -2398,7 +2721,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_beverages[12]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeBeverages.Variety.Topic.12</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/peppermint</text:p>
      </table:table-cell>
@@ -2411,7 +2736,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_beverages[13]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeBeverages.Variety.Topic.13</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/rooibos-tea</text:p>
      </table:table-cell>
@@ -2424,7 +2751,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_beverages[14]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeBeverages.Variety.Topic.14</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/water</text:p>
      </table:table-cell>
@@ -2437,7 +2766,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>food_videos_beverages[15]</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeBeverages.Variety.Topic.15</text:p>
+     </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/white-tea</text:p>
      </table:table-cell>
@@ -2445,6 +2776,398 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/topics/white-tea</text:p>
      </table:table-cell>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeFlaxseeds.Variety.Topic.0</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeFlaxseeds.Variety.Topic.1</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeExercise.Variety.Topic.0</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeExercise.Variety.Topic.1</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeExercise.Variety.Topic.2</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeExercise.Variety.Topic.3</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeExercise.Variety.Topic.4</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeExercise.Variety.Topic.5</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeExercise.Variety.Topic.6</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeExercise.Variety.Topic.7</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeExercise.Variety.Topic.8</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeExercise.Variety.Topic.9</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeExercise.Variety.Topic.10</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeExercise.Variety.Topic.11</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeExercise.Variety.Topic.12</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeExercise.Variety.Topic.13</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeExercise.Variety.Topic.14</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeExercise.Variety.Topic.15</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeExercise.Variety.Topic.16</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeExercise.Variety.Topic.17</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeExercise.Variety.Topic.18</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeExercise.Variety.Topic.19</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeExercise.Variety.Topic.20</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeExercise.Variety.Topic.21</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeExercise.Variety.Topic.22</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeExercise.Variety.Topic.23</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeExercise.Variety.Topic.24</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeExercise.Variety.Topic.25</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeExercise.Variety.Topic.26</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeExercise.Variety.Topic.27</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeExercise.Variety.Topic.28</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeExercise.Variety.Topic.29</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeExercise.Variety.Topic.30</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeExercise.Variety.Topic.31</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeExercise.Variety.Topic.32</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeExercise.Variety.Topic.33</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeExercise.Variety.Topic.34</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeExercise.Variety.Topic.35</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeExercise.Variety.Topic.36</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeExercise.Variety.Topic.37</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeExercise.Variety.Topic.38</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeExercise.Variety.Topic.39</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeExercise.Variety.Topic.40</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeExercise.Variety.Topic.41</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeExercise.Variety.Topic.42</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeExercise.Variety.Topic.43</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeExercise.Variety.Topic.44</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeExercise.Variety.Topic.45</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeExercise.Variety.Topic.46</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeExercise.Variety.Topic.47</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeExercise.Variety.Topic.48</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeExercise.Variety.Topic.49</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeExercise.Variety.Topic.50</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeExercise.Variety.Topic.51</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeExercise.Variety.Topic.52</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>dozeExercise.Variety.Topic.53</text:p>
+     </table:table-cell>
+     <table:table-cell table:number-columns-repeated="4"/>
     </table:table-row>
    </table:table>
    <table:named-expressions/>
