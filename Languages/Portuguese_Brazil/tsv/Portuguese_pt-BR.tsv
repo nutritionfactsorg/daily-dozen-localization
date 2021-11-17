@@ -202,7 +202,7 @@ food_info_types_nuts.9	dozeNuts.Variety.Text.9	Pumpkin seeds	Sementes de abóbor
 nuts	dozeNuts.heading	Nuts and Seeds	Oleaginosas e Sementes	
 OK	dozeOtherInfo.confirm	OK	Certo	
 	dozeOtherInfo.message	Vitamin B12 is essential for your health but does not count towards your daily servings.\n\nVitamin B12 is included in this app to provide you with an easy way to track your intake.	A vitamina B12 é essencial para a sua saúde mas não conta na suas porções diárias. \n\nA vitamina B12 é incluida neste aplicativo para fornecer a você uma forma fácil de acompanhar a sua ingestão.	
-	dozeOtherInfo.title	Supplements	Suplementos	
+	dozeOtherInfo.section	Supplements	Suplementos	
 	dozeOtherInfo.title	Supplements	Suplementos	
 food_info_serving_sizes_spices_imperial.0	dozeSpices.Serving.imperial.0	¼ teaspoon of turmeric	¼ colher de chá de cúrcuma/açafrão-da-terra	
 food_info_serving_sizes_spices_imperial.1	dozeSpices.Serving.imperial.1	Any other (salt-free) herbs and spices you enjoy	Qualquer outra erva (sem sal) e especiarias que goste	
@@ -439,7 +439,6 @@ twenty_one_tweaks	tweak_entry_header	21 Tweaks	21 Ajustes
 imperial	unitToggle.imperial	imperial	Imperial	
 metric	unitToggle.metric	metric	Métrico	
 units	units_label	Units:	Unidades:	
-videos	videos.link.label	VIDEOS	VÍDEOS	Keyword for link to video topics
 videos	videos.link.label	VIDEOS	VÍDEOS	Keyword for link to video topics
 weight	weightEntry.heading	Weight	Peso	
 	weight_entry_clear	Clear	Apagar	

@@ -202,7 +202,7 @@ food_info_types_nuts.9	dozeNuts.Variety.Text.9	Pumpkin seeds	Семена тык
 nuts	dozeNuts.heading	Nuts and Seeds	Орехи и Семена	
 OK	dozeOtherInfo.confirm	OK	ОК	
 	dozeOtherInfo.message	Vitamin B12 is essential for your health but does not count towards your daily servings.\n\nVitamin B12 is included in this app to provide you with an easy way to track your intake.	Витамин B12 крайне важен для вашего здоровья, но он не считается с другими ежедневными порциями. \n\nВитамин B12 добавлен в это приложение, чтобы облегчить отслеживание приема добавки.	
-	dozeOtherInfo.title	Supplements	Добавки	
+	dozeOtherInfo.section	Supplements	Пищевые добавки	
 	dozeOtherInfo.title	Supplements	Пищевые добавки	
 food_info_serving_sizes_spices_imperial.0	dozeSpices.Serving.imperial.0	¼ teaspoon of turmeric	¼ чайной ложки куркумы	
 food_info_serving_sizes_spices_imperial.1	dozeSpices.Serving.imperial.1	Any other (salt-free) herbs and spices you enjoy	Другие любимые пряности (без соли)	
@@ -439,7 +439,6 @@ twenty_one_tweaks	tweak_entry_header	21 Tweaks	21 Уловка
 imperial	unitToggle.imperial	imperial	имперская	
 metric	unitToggle.metric	metric	метрическая	
 units	units_label	Units:	Единица Измерения:	
-videos	videos.link.label	VIDEOS	ВИДЕО	Keyword for link to video topics
 videos	videos.link.label	VIDEOS	ВИДЕО	Keyword for link to video topics
 weight	weightEntry.heading	Weight	Вес	
 	weight_entry_clear	Clear	Очистить	

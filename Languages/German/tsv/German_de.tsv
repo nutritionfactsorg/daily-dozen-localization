@@ -431,7 +431,6 @@ format_num_days		%d days	%d days	Formatted string %d days
 imperial		imperial	imperial	
 metric		metric	metric	
 out_of		out of	out of	"Part of ""0 out of 24"""
-videos	xcg-0a-oqY.normalTitle	VIDEOS	VIDEOS	Keyword for link to video topics
 	settings_units_0_imperial	Imperial	Imperial	Part of 'Imperial/Metric/Toggle Units' selector
 	settings_units_1_metric	Metric	Metric	Part of 'Imperial/Metric/Toggle Units' selector
 	settings_units_2_toggle	Toggle Units	Toggle Units	Part of 'Imperial/Metric/Toggle Units' selector

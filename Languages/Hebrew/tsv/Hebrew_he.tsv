@@ -1,466 +1,525 @@
-key_droid	key_apple	base_value	lang_value	base_comment
-other_vegetables	dozeVegetablesOther	Other Vegetables	Other Vegetables	
-flaxseeds	dozeFlaxseeds	Flaxseeds	Flaxseeds	
-spices	dozeSpices	Herbs and Spices	Herbs and Spices	
-berries	dozeBerries	Berries	Berries	
-cruciferous_vegetables	dozeVegetablesCruciferous	Cruciferous Vegetables	Cruciferous Vegetables	
-exercise	dozeExercise	Exercise	Exercise	
-beverages	dozeBeverages	Beverages	Beverages	
-other_fruits	dozeFruitsOther	Other Fruits	Other Fruits	
-greens	dozeGreens	Greens	Greens	
-nuts	dozeNuts	Nuts and Seeds	Nuts and Seeds	
-beans	dozeBeans	Beans	Beans	
-whole_grains	dozeWholeGrains	Whole Grains	Whole Grains	
-vitamin_b12	otherVitaminB12	Vitamin B12	Vitamin B12	
-food_info_serving_sizes_exercise[imperial][0]	dozeExerciseServing[imperial][0]	90 minutes of moderate-intensity activity	90 minutes of moderate-intensity activity	  
-food_info_serving_sizes_exercise[metric][0]	dozeExerciseServing[metric][0]	90 minutes of moderate-intensity activity	90 minutes of moderate-intensity activity	  
-food_info_serving_sizes_exercise[imperial][1]	dozeExerciseServing[imperial][1]	40 minutes of vigorous-intensity activity	40 minutes of vigorous-intensity activity	  
-food_info_serving_sizes_exercise[metric][1]	dozeExerciseServing[metric][1]	40 minutes of vigorous-intensity activity	40 minutes of vigorous-intensity activity	  
-food_info_serving_sizes_other_vegetables[imperial][0]	dozeVegetablesOtherServing[imperial][0]	1 cup raw leafy vegetables	1 cup raw leafy vegetables	  
-food_info_serving_sizes_other_vegetables[metric][0]	dozeVegetablesOtherServing[metric][0]	60 g raw leafy vegetables	60 g raw leafy vegetables	  
-food_info_serving_sizes_other_vegetables[imperial][1]	dozeVegetablesOtherServing[imperial][1]	½ cup raw or cooked nonleafy vegetables	½ cup raw or cooked nonleafy vegetables	  
-food_info_serving_sizes_other_vegetables[metric][1]	dozeVegetablesOtherServing[metric][1]	50 g raw or cooked nonleafy vegetables	50 g raw or cooked nonleafy vegetables	  
-food_info_serving_sizes_other_vegetables[imperial][2]	dozeVegetablesOtherServing[imperial][2]	½ cup vegetable juice	½ cup vegetable juice	  
-food_info_serving_sizes_other_vegetables[metric][2]	dozeVegetablesOtherServing[metric][2]	125 ml vegetable juice	125 ml vegetable juice	  
-food_info_serving_sizes_other_vegetables[imperial][3]	dozeVegetablesOtherServing[imperial][3]	¼ cup dried mushrooms	¼ cup dried mushrooms	  
-food_info_serving_sizes_other_vegetables[metric][3]	dozeVegetablesOtherServing[metric][3]	7 g dried mushrooms	7 g dried mushrooms	  
-food_info_serving_sizes_spices[imperial][0]	dozeSpicesServing[imperial][0]	¼ teaspoon of turmeric	¼ teaspoon of turmeric	  
-food_info_serving_sizes_spices[metric][0]	dozeSpicesServing[metric][0]	¼ teaspoon of turmeric	¼ teaspoon of turmeric	  
-food_info_serving_sizes_spices[imperial][1]	dozeSpicesServing[imperial][1]	Any other (salt-free) herbs and spices you enjoy	Any other (salt-free) herbs and spices you enjoy	  
-food_info_serving_sizes_spices[metric][1]	dozeSpicesServing[metric][1]	Any other (salt-free) herbs and spices you enjoy	Any other (salt-free) herbs and spices you enjoy	  
-food_info_serving_sizes_cruciferous_vegetables[imperial][0]	dozeVegetablesCruciferousServing[imperial][0]	½ cup chopped	½ cup chopped	  
-food_info_serving_sizes_cruciferous_vegetables[metric][0]	dozeVegetablesCruciferousServing[metric][0]	30–80 g chopped	30–80 g chopped	  
-food_info_serving_sizes_cruciferous_vegetables[imperial][1]	dozeVegetablesCruciferousServing[imperial][1]	¼ cup Brussels or broccoli sprouts	¼ cup Brussels or broccoli sprouts	  
-food_info_serving_sizes_cruciferous_vegetables[metric][1]	dozeVegetablesCruciferousServing[metric][1]	12 g Brussels or broccoli sprouts	12 g Brussels or broccoli sprouts	  
-food_info_serving_sizes_cruciferous_vegetables[imperial][2]	dozeVegetablesCruciferousServing[imperial][2]	1 tablespoon horseradish	1 tablespoon horseradish	  
-food_info_serving_sizes_cruciferous_vegetables[metric][2]	dozeVegetablesCruciferousServing[metric][2]	1 tablespoon horseradish	1 tablespoon horseradish	  
-food_info_serving_sizes_nuts[imperial][0]	dozeNutsServing[imperial][0]	¼ cup nuts or seeds	¼ cup nuts or seeds	  
-food_info_serving_sizes_nuts[metric][0]	dozeNutsServing[metric][0]	30 g nuts or seeds	30 g nuts or seeds	  
-food_info_serving_sizes_nuts[imperial][1]	dozeNutsServing[imperial][1]	2 tablespoons nut or seed butter	2 tablespoons nut or seed butter	  
-food_info_serving_sizes_nuts[metric][1]	dozeNutsServing[metric][1]	2 tablespoons nut or seed butter	2 tablespoons nut or seed butter	  
-food_info_serving_sizes_greens[imperial][0]	dozeGreensServing[imperial][0]	1 cup raw	1 cup raw	  
-food_info_serving_sizes_greens[metric][0]	dozeGreensServing[metric][0]	60 g raw	60 g raw	  
-food_info_serving_sizes_greens[imperial][1]	dozeGreensServing[imperial][1]	½ cup cooked	½ cup cooked	  
-food_info_serving_sizes_greens[metric][1]	dozeGreensServing[metric][1]	90 g cooked	90 g cooked	  
-food_info_serving_sizes_whole_grains[imperial][0]	dozeWholeGrainsServing[imperial][0]	½ cup hot cereal or cooked grains, pasta, or corn kernels	½ cup hot cereal or cooked grains, pasta, or corn kernels	  
-food_info_serving_sizes_whole_grains[metric][0]	dozeWholeGrainsServing[metric][0]	100 g hot cereal or cooked grains, pasta, or corn kernels	100 g hot cereal or cooked grains, pasta, or corn kernels	  
-food_info_serving_sizes_whole_grains[imperial][1]	dozeWholeGrainsServing[imperial][1]	1 cup cold cereal	1 cup cold cereal	  
-food_info_serving_sizes_whole_grains[metric][1]	dozeWholeGrainsServing[metric][1]	50 g cold cereal	50 g cold cereal	  
-food_info_serving_sizes_whole_grains[imperial][2]	dozeWholeGrainsServing[imperial][2]	1 tortilla or slice of bread	1 tortilla or slice of bread	  
-food_info_serving_sizes_whole_grains[metric][2]	dozeWholeGrainsServing[metric][2]	1 tortilla or slice of bread	1 tortilla or slice of bread	  
-food_info_serving_sizes_whole_grains[imperial][3]	dozeWholeGrainsServing[imperial][3]	½ a bagel or English muffin	½ a bagel or English muffin	  
-food_info_serving_sizes_whole_grains[metric][3]	dozeWholeGrainsServing[metric][3]	½ a bagel or English muffin	½ a bagel or English muffin	  
-food_info_serving_sizes_whole_grains[imperial][4]	dozeWholeGrainsServing[imperial][4]	3 cups popped popcorn	3 cups popped popcorn	  
-food_info_serving_sizes_whole_grains[metric][4]	dozeWholeGrainsServing[metric][4]	30 g popped popcorn	30 g popped popcorn	  
-food_info_serving_sizes_berries[imperial][0]	dozeBerriesServing[imperial][0]	½ cup fresh or frozen	½ cup fresh or frozen	  
-food_info_serving_sizes_berries[metric][0]	dozeBerriesServing[metric][0]	60 g fresh or frozen	60 g fresh or frozen	  
-food_info_serving_sizes_berries[imperial][1]	dozeBerriesServing[imperial][1]	¼ cup dried	¼ cup dried	  
-food_info_serving_sizes_berries[metric][1]	dozeBerriesServing[metric][1]	40 g dried	40 g dried	  
-food_info_serving_sizes_beverages[imperial][0]	dozeBeveragesServing[imperial][0]	One glass (12 ounces)	One glass (12 ounces)	  
-food_info_serving_sizes_beverages[metric][0]	dozeBeveragesServing[metric][0]	One glass (350 ml)	One glass (350 ml)	  
-food_info_serving_sizes_flaxseeds[imperial][0]	dozeFlaxseedsServing[imperial][0]	1 tablespoon ground	1 tablespoon ground	  
-food_info_serving_sizes_flaxseeds[metric][0]	dozeFlaxseedsServing[metric][0]	1 tablespoon ground	1 tablespoon ground	  
-food_info_serving_sizes_beans[imperial][0]	dozeBeansServing[imperial][0]	¼ cup of hummus or bean dip	¼ cup of hummus or bean dip	  
-food_info_serving_sizes_beans[metric][0]	dozeBeansServing[metric][0]	60 g of hummus or bean dip	60 g of hummus or bean dip	  
-food_info_serving_sizes_beans[imperial][1]	dozeBeansServing[imperial][1]	½ cup cooked beans, split peas, lentils, tofu, or tempeh	½ cup cooked beans, split peas, lentils, tofu, or tempeh	  
-food_info_serving_sizes_beans[metric][1]	dozeBeansServing[metric][1]	130 g cooked beans, split peas, lentils, tofu, or tempeh	130 g cooked beans, split peas, lentils, tofu, or tempeh	  
-food_info_serving_sizes_beans[imperial][2]	dozeBeansServing[imperial][2]	1 cup of fresh peas or sprouted lentils	1 cup of fresh peas or sprouted lentils	  
-food_info_serving_sizes_beans[metric][2]	dozeBeansServing[metric][2]	150 g of fresh peas or sprouted lentils	150 g of fresh peas or sprouted lentils	  
-food_info_serving_sizes_other_fruits[imperial][0]	dozeFruitsOtherServing[imperial][0]	1 medium-sized fruit	1 medium-sized fruit	  
-food_info_serving_sizes_other_fruits[metric][0]	dozeFruitsOtherServing[metric][0]	1 medium-sized fruit	1 medium-sized fruit	  
-food_info_serving_sizes_other_fruits[imperial][1]	dozeFruitsOtherServing[imperial][1]	1 cup cut-up fruit	1 cup cut-up fruit	  
-food_info_serving_sizes_other_fruits[metric][1]	dozeFruitsOtherServing[metric][1]	120 g cut-up fruit	120 g cut-up fruit	  
-food_info_serving_sizes_other_fruits[imperial][2]	dozeFruitsOtherServing[imperial][2]	¼ cup dried fruit	¼ cup dried fruit	  
-food_info_serving_sizes_other_fruits[metric][2]	dozeFruitsOtherServing[metric][2]	40 g dried fruit	40 g dried fruit	  
-food_info_types_spices[0]	dozeSpicesVarietyText[0]	Allspice	Allspice	  
-food_info_types_spices[1]	dozeSpicesVarietyText[1]	Barberries	Barberries	  
-food_info_types_spices[2]	dozeSpicesVarietyText[2]	Basil	Basil	  
-food_info_types_spices[3]	dozeSpicesVarietyText[3]	Bay leaves	Bay leaves	  
-food_info_types_spices[4]	dozeSpicesVarietyText[4]	Cardamom	Cardamom	  
-food_info_types_spices[5]	dozeSpicesVarietyText[5]	Chili powder	Chili powder	  
-food_info_types_spices[6]	dozeSpicesVarietyText[6]	Cilantro	Cilantro	  
-food_info_types_spices[7]	dozeSpicesVarietyText[7]	Cinnamon	Cinnamon	  
-food_info_types_spices[8]	dozeSpicesVarietyText[8]	Cloves	Cloves	  
-food_info_types_spices[9]	dozeSpicesVarietyText[9]	Coriander	Coriander	  
-food_info_types_spices[10]	dozeSpicesVarietyText[10]	Cumin	Cumin	  
-food_info_types_spices[11]	dozeSpicesVarietyText[11]	Curry powder	Curry powder	  
-food_info_types_spices[12]	dozeSpicesVarietyText[12]	Dill	Dill	  
-food_info_types_spices[13]	dozeSpicesVarietyText[13]	Fenugreek	Fenugreek	  
-food_info_types_spices[14]	dozeSpicesVarietyText[14]	Garlic	Garlic	  
-food_info_types_spices[15]	dozeSpicesVarietyText[15]	Ginger	Ginger	  
-food_info_types_spices[16]	dozeSpicesVarietyText[16]	Horseradish	Horseradish	  
-food_info_types_spices[17]	dozeSpicesVarietyText[17]	Lemongrass	Lemongrass	  
-food_info_types_spices[18]	dozeSpicesVarietyText[18]	Marjoram	Marjoram	  
-food_info_types_spices[19]	dozeSpicesVarietyText[19]	Mustard powder	Mustard powder	  
-food_info_types_spices[20]	dozeSpicesVarietyText[20]	Nutmeg	Nutmeg	  
-food_info_types_spices[21]	dozeSpicesVarietyText[21]	Oregano	Oregano	  
-food_info_types_spices[22]	dozeSpicesVarietyText[22]	Smoked paprika	Smoked paprika	  
-food_info_types_spices[23]	dozeSpicesVarietyText[23]	Parsley	Parsley	  
-food_info_types_spices[24]	dozeSpicesVarietyText[24]	Pepper	Pepper	  
-food_info_types_spices[25]	dozeSpicesVarietyText[25]	Peppermint	Peppermint	  
-food_info_types_spices[26]	dozeSpicesVarietyText[26]	Rosemary	Rosemary	  
-food_info_types_spices[27]	dozeSpicesVarietyText[27]	Saffron	Saffron	  
-food_info_types_spices[28]	dozeSpicesVarietyText[28]	Sage	Sage	  
-food_info_types_spices[29]	dozeSpicesVarietyText[29]	Thyme	Thyme	  
-food_info_types_spices[30]	dozeSpicesVarietyText[30]	Turmeric	Turmeric	  
-food_info_types_spices[31]	dozeSpicesVarietyText[31]	Vanilla	Vanilla	  
-food_info_types_flaxseeds[0]	dozeFlaxseedsVarietyText[0]	Brown flaxseeds	Brown flaxseeds	  
-food_info_types_flaxseeds[1]	dozeFlaxseedsVarietyText[1]	Golden flaxseeds	Golden flaxseeds	  
-food_info_types_other_fruits[0]	dozeFruitsOtherVarietyText[0]	Apples	Apples	  
-food_info_types_other_fruits[1]	dozeFruitsOtherVarietyText[1]	Dried apricots	Dried apricots	  
-food_info_types_other_fruits[2]	dozeFruitsOtherVarietyText[2]	Avocados	Avocados	  
-food_info_types_other_fruits[3]	dozeFruitsOtherVarietyText[3]	Bananas	Bananas	  
-food_info_types_other_fruits[4]	dozeFruitsOtherVarietyText[4]	Cantaloupe	Cantaloupe	  
-food_info_types_other_fruits[5]	dozeFruitsOtherVarietyText[5]	Clementines	Clementines	  
-food_info_types_other_fruits[6]	dozeFruitsOtherVarietyText[6]	Dates	Dates	  
-food_info_types_other_fruits[7]	dozeFruitsOtherVarietyText[7]	Dried figs	Dried figs	  
-food_info_types_other_fruits[8]	dozeFruitsOtherVarietyText[8]	Grapefruit	Grapefruit	  
-food_info_types_other_fruits[9]	dozeFruitsOtherVarietyText[9]	Honeydew	Honeydew	  
-food_info_types_other_fruits[10]	dozeFruitsOtherVarietyText[10]	Kiwifruit	Kiwifruit	  
-food_info_types_other_fruits[11]	dozeFruitsOtherVarietyText[11]	Lemons	Lemons	  
-food_info_types_other_fruits[12]	dozeFruitsOtherVarietyText[12]	Limes	Limes	  
-food_info_types_other_fruits[13]	dozeFruitsOtherVarietyText[13]	Lychees	Lychees	  
-food_info_types_other_fruits[14]	dozeFruitsOtherVarietyText[14]	Mangos	Mangos	  
-food_info_types_other_fruits[15]	dozeFruitsOtherVarietyText[15]	Nectarines	Nectarines	  
-food_info_types_other_fruits[16]	dozeFruitsOtherVarietyText[16]	Oranges	Oranges	  
-food_info_types_other_fruits[17]	dozeFruitsOtherVarietyText[17]	Papaya	Papaya	  
-food_info_types_other_fruits[18]	dozeFruitsOtherVarietyText[18]	Passion fruit	Passion fruit	  
-food_info_types_other_fruits[19]	dozeFruitsOtherVarietyText[19]	Peaches	Peaches	  
-food_info_types_other_fruits[20]	dozeFruitsOtherVarietyText[20]	Pears	Pears	  
-food_info_types_other_fruits[21]	dozeFruitsOtherVarietyText[21]	Pineapple	Pineapple	  
-food_info_types_other_fruits[22]	dozeFruitsOtherVarietyText[22]	Plums (especially black plums)	Plums (especially black plums)	  
-food_info_types_other_fruits[23]	dozeFruitsOtherVarietyText[23]	Pluots	Pluots	  
-food_info_types_other_fruits[24]	dozeFruitsOtherVarietyText[24]	Pomegranates	Pomegranates	  
-food_info_types_other_fruits[25]	dozeFruitsOtherVarietyText[25]	Prunes	Prunes	  
-food_info_types_other_fruits[26]	dozeFruitsOtherVarietyText[26]	Tangerines	Tangerines	  
-food_info_types_other_fruits[27]	dozeFruitsOtherVarietyText[27]	Watermelon	Watermelon	  
-food_info_types_whole_grains[0]	dozeWholeGrainsVarietyText[0]	Barley	Barley	  
-food_info_types_whole_grains[1]	dozeWholeGrainsVarietyText[1]	Buckwheat	Buckwheat	  
-food_info_types_whole_grains[2]	dozeWholeGrainsVarietyText[2]	Millet	Millet	  
-food_info_types_whole_grains[3]	dozeWholeGrainsVarietyText[3]	Oats	Oats	  
-food_info_types_whole_grains[4]	dozeWholeGrainsVarietyText[4]	Popcorn	Popcorn	  
-food_info_types_whole_grains[5]	dozeWholeGrainsVarietyText[5]	Quinoa	Quinoa	  
-food_info_types_whole_grains[6]	dozeWholeGrainsVarietyText[6]	Rye	Rye	  
-food_info_types_whole_grains[7]	dozeWholeGrainsVarietyText[7]	Teff	Teff	  
-food_info_types_whole_grains[8]	dozeWholeGrainsVarietyText[8]	Whole-wheat pasta	Whole-wheat pasta	  
-food_info_types_exercise[0]	dozeExerciseVarietyText[0]	Bicycling	Bicycling	  
-food_info_types_exercise[1]	dozeExerciseVarietyText[1]	Canoeing	Canoeing	  
-food_info_types_exercise[2]	dozeExerciseVarietyText[2]	Dancing	Dancing	  
-food_info_types_exercise[3]	dozeExerciseVarietyText[3]	Dodgeball	Dodgeball	  
-food_info_types_exercise[4]	dozeExerciseVarietyText[4]	Downhill skiing	Downhill skiing	  
-food_info_types_exercise[5]	dozeExerciseVarietyText[5]	Fencing	Fencing	  
-food_info_types_exercise[6]	dozeExerciseVarietyText[6]	Hiking	Hiking	  
-food_info_types_exercise[7]	dozeExerciseVarietyText[7]	Housework	Housework	  
-food_info_types_exercise[8]	dozeExerciseVarietyText[8]	Ice-skating	Ice-skating	  
-food_info_types_exercise[9]	dozeExerciseVarietyText[9]	Inline skating	Inline skating	  
-food_info_types_exercise[10]	dozeExerciseVarietyText[10]	Juggling	Juggling	  
-food_info_types_exercise[11]	dozeExerciseVarietyText[11]	Jumping on a trampoline	Jumping on a trampoline	  
-food_info_types_exercise[12]	dozeExerciseVarietyText[12]	Paddle boating	Paddle boating	  
-food_info_types_exercise[13]	dozeExerciseVarietyText[13]	Playing frisbee	Playing frisbee	  
-food_info_types_exercise[14]	dozeExerciseVarietyText[14]	Roller-skating	Roller-skating	  
-food_info_types_exercise[15]	dozeExerciseVarietyText[15]	Shooting baskets	Shooting baskets	  
-food_info_types_exercise[16]	dozeExerciseVarietyText[16]	Shoveling light snow	Shoveling light snow	  
-food_info_types_exercise[17]	dozeExerciseVarietyText[17]	Skateboarding	Skateboarding	  
-food_info_types_exercise[18]	dozeExerciseVarietyText[18]	Snorkeling	Snorkeling	  
-food_info_types_exercise[19]	dozeExerciseVarietyText[19]	Surfing	Surfing	  
-food_info_types_exercise[20]	dozeExerciseVarietyText[20]	Swimming recreationally	Swimming recreationally	  
-food_info_types_exercise[21]	dozeExerciseVarietyText[21]	Tennis (doubles)	Tennis (doubles)	  
-food_info_types_exercise[22]	dozeExerciseVarietyText[22]	Treading water	Treading water	  
-food_info_types_exercise[23]	dozeExerciseVarietyText[23]	Walking briskly (4 mph)	Walking briskly (4 mph)	  
-food_info_types_exercise[24]	dozeExerciseVarietyText[24]	Water aerobics	Water aerobics	  
-food_info_types_exercise[25]	dozeExerciseVarietyText[25]	Waterskiing	Waterskiing	  
-food_info_types_exercise[26]	dozeExerciseVarietyText[26]	Yard work	Yard work	  
-food_info_types_exercise[27]	dozeExerciseVarietyText[27]	Yoga	Yoga	  
-food_info_types_exercise[28]	dozeExerciseVarietyText[28]	Backpacking	Backpacking	  
-food_info_types_exercise[29]	dozeExerciseVarietyText[29]	Basketball	Basketball	  
-food_info_types_exercise[30]	dozeExerciseVarietyText[30]	Bicycling uphill	Bicycling uphill	  
-food_info_types_exercise[31]	dozeExerciseVarietyText[31]	Circuit weight training	Circuit weight training	  
-food_info_types_exercise[32]	dozeExerciseVarietyText[32]	Cross-country skiing	Cross-country skiing	  
-food_info_types_exercise[33]	dozeExerciseVarietyText[33]	Football	Football	  
-food_info_types_exercise[34]	dozeExerciseVarietyText[34]	Hockey	Hockey	  
-food_info_types_exercise[35]	dozeExerciseVarietyText[35]	Jogging	Jogging	  
-food_info_types_exercise[36]	dozeExerciseVarietyText[36]	Jumping jacks	Jumping jacks	  
-food_info_types_exercise[37]	dozeExerciseVarietyText[37]	Jumping rope	Jumping rope	  
-food_info_types_exercise[38]	dozeExerciseVarietyText[38]	Lacrosse	Lacrosse	  
-food_info_types_exercise[39]	dozeExerciseVarietyText[39]	Push-ups	Push-ups	  
-food_info_types_exercise[40]	dozeExerciseVarietyText[40]	Pull-ups	Pull-ups	  
-food_info_types_exercise[41]	dozeExerciseVarietyText[41]	Racquetball	Racquetball	  
-food_info_types_exercise[42]	dozeExerciseVarietyText[42]	Rock climbing	Rock climbing	  
-food_info_types_exercise[43]	dozeExerciseVarietyText[43]	Rugby	Rugby	  
-food_info_types_exercise[44]	dozeExerciseVarietyText[44]	Running	Running	  
-food_info_types_exercise[45]	dozeExerciseVarietyText[45]	Scuba diving	Scuba diving	  
-food_info_types_exercise[46]	dozeExerciseVarietyText[46]	Tennis (singles)	Tennis (singles)	  
-food_info_types_exercise[47]	dozeExerciseVarietyText[47]	Soccer	Soccer	  
-food_info_types_exercise[48]	dozeExerciseVarietyText[48]	Speed skating	Speed skating	  
-food_info_types_exercise[49]	dozeExerciseVarietyText[49]	Squash	Squash	  
-food_info_types_exercise[50]	dozeExerciseVarietyText[50]	Step aerobics	Step aerobics	  
-food_info_types_exercise[51]	dozeExerciseVarietyText[51]	Swimming laps	Swimming laps	  
-food_info_types_exercise[52]	dozeExerciseVarietyText[52]	Walking briskly uphill	Walking briskly uphill	  
-food_info_types_exercise[53]	dozeExerciseVarietyText[53]	Water jogging	Water jogging	  
-food_info_types_beverages[0]	dozeBeveragesVarietyText[0]	Black tea	Black tea	  
-food_info_types_beverages[1]	dozeBeveragesVarietyText[1]	Chai tea	Chai tea	  
-food_info_types_beverages[2]	dozeBeveragesVarietyText[2]	Vanilla chamomile tea	Vanilla chamomile tea	  
-food_info_types_beverages[3]	dozeBeveragesVarietyText[3]	Coffee	Coffee	  
-food_info_types_beverages[4]	dozeBeveragesVarietyText[4]	Earl grey tea	Earl grey tea	  
-food_info_types_beverages[5]	dozeBeveragesVarietyText[5]	Green tea	Green tea	  
-food_info_types_beverages[6]	dozeBeveragesVarietyText[6]	Hibiscus tea	Hibiscus tea	  
-food_info_types_beverages[7]	dozeBeveragesVarietyText[7]	Hot chocolate	Hot chocolate	  
-food_info_types_beverages[8]	dozeBeveragesVarietyText[8]	Jasmine tea	Jasmine tea	  
-food_info_types_beverages[9]	dozeBeveragesVarietyText[9]	Lemon balm tea	Lemon balm tea	  
-food_info_types_beverages[10]	dozeBeveragesVarietyText[10]	Matcha tea	Matcha tea	  
-food_info_types_beverages[11]	dozeBeveragesVarietyText[11]	Almond blossom oolong tea	Almond blossom oolong tea	  
-food_info_types_beverages[12]	dozeBeveragesVarietyText[12]	Peppermint tea	Peppermint tea	  
-food_info_types_beverages[13]	dozeBeveragesVarietyText[13]	Rooibos tea	Rooibos tea	  
-food_info_types_beverages[14]	dozeBeveragesVarietyText[14]	Water	Water	  
-food_info_types_beverages[15]	dozeBeveragesVarietyText[15]	White tea	White tea	  
-food_info_types_beans[0]	dozeBeansVarietyText[0]	Black beans	Black beans	  
-food_info_types_beans[1]	dozeBeansVarietyText[1]	Black-eyed peas	Black-eyed peas	  
-food_info_types_beans[2]	dozeBeansVarietyText[2]	Butter beans	Butter beans	  
-food_info_types_beans[3]	dozeBeansVarietyText[3]	Cannellini beans	Cannellini beans	  
-food_info_types_beans[4]	dozeBeansVarietyText[4]	Chickpeas/Garbanzo Beans	Chickpeas	  
-food_info_types_beans[5]	dozeBeansVarietyText[5]	Edamame	Edamame	  
-food_info_types_beans[6]	dozeBeansVarietyText[6]	English peas	English peas	  
-food_info_types_beans[7]	dozeBeansVarietyText[7]	Great northern beans	Great northern beans	  
-food_info_types_beans[8]	dozeBeansVarietyText[8]	Kidney beans	Kidney beans	  
-food_info_types_beans[9]	dozeBeansVarietyText[9]	Lentils (beluga, french, and red varieties)	Lentils (beluga, french, and red varieties)	  
-food_info_types_beans[10]	dozeBeansVarietyText[10]	Miso	Miso	  
-food_info_types_beans[11]	dozeBeansVarietyText[11]	Navy beans	Navy beans	  
-food_info_types_beans[12]	dozeBeansVarietyText[12]	Pinto beans	Pinto beans	  
-food_info_types_beans[13]	dozeBeansVarietyText[13]	Small red beans	Small red beans	  
-food_info_types_beans[14]	dozeBeansVarietyText[14]	Split peas (yellow or green)	Split peas (yellow or green)	  
-food_info_types_beans[15]	dozeBeansVarietyText[15]	Tempeh	Tempeh	  
-food_info_types_greens[0]	dozeGreensVarietyText[0]	Arugula	Arugula	  
-food_info_types_greens[1]	dozeGreensVarietyText[1]	Beet greens	Beet greens	  
-food_info_types_greens[2]	dozeGreensVarietyText[2]	Collard greens	Collard greens	  
-food_info_types_greens[3]	dozeGreensVarietyText[3]	Kale (black, green, and red)	Kale (black, green, and red)	  
-food_info_types_greens[4]	dozeGreensVarietyText[4]	Mesclun mix (assorted young salad greens)	Mesclun mix (assorted young salad greens)	  
-food_info_types_greens[5]	dozeGreensVarietyText[5]	Mustard greens	Mustard greens	  
-food_info_types_greens[6]	dozeGreensVarietyText[6]	Sorrel	Sorrel	  
-food_info_types_greens[7]	dozeGreensVarietyText[7]	Spinach	Spinach	  
-food_info_types_greens[8]	dozeGreensVarietyText[8]	Swiss chard	Swiss chard	  
-food_info_types_greens[9]	dozeGreensVarietyText[9]	Turnip greens	Turnip greens	  
-food_info_types_cruciferous_vegetables[0]	dozeVegetablesCruciferousVarietyText[0]	Arugula	Arugula	  
-food_info_types_cruciferous_vegetables[1]	dozeVegetablesCruciferousVarietyText[1]	Bok choy	Bok choy	  
-food_info_types_cruciferous_vegetables[2]	dozeVegetablesCruciferousVarietyText[2]	Broccoli (incl. Romanesco)	Broccoli (incl. Romanesco)	  
-food_info_types_cruciferous_vegetables[3]	dozeVegetablesCruciferousVarietyText[3]	Brussels sprouts	Brussels sprouts	  
-food_info_types_cruciferous_vegetables[4]	dozeVegetablesCruciferousVarietyText[4]	Cabbage (green, red and savoy)	Cabbage (green, red and savoy)	  
-food_info_types_cruciferous_vegetables[5]	dozeVegetablesCruciferousVarietyText[5]	Cauliflower (white, green, orange and purple)	Cauliflower (white, green, orange and purple)	  
-food_info_types_cruciferous_vegetables[6]	dozeVegetablesCruciferousVarietyText[6]	Collard greens	Collard greens	  
-food_info_types_cruciferous_vegetables[7]	dozeVegetablesCruciferousVarietyText[7]	Horseradish	Horseradish	  
-food_info_types_cruciferous_vegetables[8]	dozeVegetablesCruciferousVarietyText[8]	Kale (black, green, and red)	Kale (black, green, and red)	  
-food_info_types_cruciferous_vegetables[9]	dozeVegetablesCruciferousVarietyText[9]	Kohlrabi (green and purple)	Kohlrabi (green and purple)	  
-food_info_types_cruciferous_vegetables[10]	dozeVegetablesCruciferousVarietyText[10]	Mustard greens	Mustard greens	  
-food_info_types_cruciferous_vegetables[11]	dozeVegetablesCruciferousVarietyText[11]	Radishes	Radishes	  
-food_info_types_cruciferous_vegetables[12]	dozeVegetablesCruciferousVarietyText[12]	Turnip greens	Turnip greens	  
-food_info_types_cruciferous_vegetables[13]	dozeVegetablesCruciferousVarietyText[13]	Watercress	Watercress	  
-food_info_types_other_vegetables[0]	dozeVegetablesOtherVarietyText[0]	Artichokes	Artichokes	  
-food_info_types_other_vegetables[1]	dozeVegetablesOtherVarietyText[1]	Asparagus	Asparagus	  
-food_info_types_other_vegetables[2]	dozeVegetablesOtherVarietyText[2]	Beets	Beets	  
-food_info_types_other_vegetables[3]	dozeVegetablesOtherVarietyText[3]	Bell peppers	Bell peppers	  
-food_info_types_other_vegetables[4]	dozeVegetablesOtherVarietyText[4]	Carrots	Carrots	  
-food_info_types_other_vegetables[5]	dozeVegetablesOtherVarietyText[5]	Corn	Corn	  
-food_info_types_other_vegetables[6]	dozeVegetablesOtherVarietyText[6]	Garlic	Garlic	  
-food_info_types_other_vegetables[7]	dozeVegetablesOtherVarietyText[7]	Mushrooms (button, oyster, portobello, and shiitake)	Mushrooms (button, oyster, portobello, and shiitake)	  
-food_info_types_other_vegetables[8]	dozeVegetablesOtherVarietyText[8]	Okra	Okra	  
-food_info_types_other_vegetables[9]	dozeVegetablesOtherVarietyText[9]	Onions	Onions	  
-food_info_types_other_vegetables[10]	dozeVegetablesOtherVarietyText[10]	Purple potatoes	Purple potatoes	  
-food_info_types_other_vegetables[11]	dozeVegetablesOtherVarietyText[11]	Pumpkin	Pumpkin	  
-food_info_types_other_vegetables[12]	dozeVegetablesOtherVarietyText[12]	Sea vegetables (arame, dulse, and nori)	Sea vegetables (arame, dulse, and nori)	  
-food_info_types_other_vegetables[13]	dozeVegetablesOtherVarietyText[13]	Snap peas	Snap peas	  
-food_info_types_other_vegetables[14]	dozeVegetablesOtherVarietyText[14]	Squash (delicata, summer, and spaghetti squash varieties)	Squash (delicata, summer, and spaghetti squash varieties)	  
-food_info_types_other_vegetables[15]	dozeVegetablesOtherVarietyText[15]	Sweet potatoes/yams	Sweet potatoes/yams	  
-food_info_types_other_vegetables[16]	dozeVegetablesOtherVarietyText[16]	Tomatoes	Tomatoes	  
-food_info_types_other_vegetables[17]	dozeVegetablesOtherVarietyText[17]	Zucchini	Zucchini	  
-food_info_types_nuts[0]	dozeNutsVarietyText[0]	Almonds	Almonds	  
-food_info_types_nuts[1]	dozeNutsVarietyText[1]	Brazil nuts	Brazil nuts	  
-food_info_types_nuts[2]	dozeNutsVarietyText[2]	Cashews	Cashews	  
-food_info_types_nuts[3]	dozeNutsVarietyText[3]	Chia seeds	Chia seeds	  
-food_info_types_nuts[4]	dozeNutsVarietyText[4]	Hazelnuts	Hazelnuts	  
-food_info_types_nuts[5]	dozeNutsVarietyText[5]	Hemp seeds	Hemp seeds	  
-food_info_types_nuts[6]	dozeNutsVarietyText[6]	Macadamia nuts	Macadamia nuts	  
-food_info_types_nuts[7]	dozeNutsVarietyText[7]	Pecans	Pecans	  
-food_info_types_nuts[8]	dozeNutsVarietyText[8]	Pistachios	Pistachios	  
-food_info_types_nuts[9]	dozeNutsVarietyText[9]	Pumpkin seeds	Pumpkin seeds	  
-food_info_types_nuts[10]	dozeNutsVarietyText[10]	Sesame seeds	Sesame seeds	  
-food_info_types_nuts[11]	dozeNutsVarietyText[11]	Sunflower seeds	Sunflower seeds	  
-food_info_types_nuts[12]	dozeNutsVarietyText[12]	Walnuts	Walnuts	  
-food_info_types_berries[0]	dozeBerriesVarietyText[0]	Acai berries	Acai berries	  
-food_info_types_berries[1]	dozeBerriesVarietyText[1]	Barberries	Barberries	  
-food_info_types_berries[2]	dozeBerriesVarietyText[2]	Blackberries	Blackberries	  
-food_info_types_berries[3]	dozeBerriesVarietyText[3]	Blueberries	Blueberries	  
-food_info_types_berries[4]	dozeBerriesVarietyText[4]	Cherries (sweet or tart)	Cherries (sweet or tart)	  
-food_info_types_berries[5]	dozeBerriesVarietyText[5]	Concord grapes	Concord grapes	  
-food_info_types_berries[6]	dozeBerriesVarietyText[6]	Cranberries	Cranberries	  
-food_info_types_berries[7]	dozeBerriesVarietyText[7]	Goji berries	Goji berries	  
-food_info_types_berries[8]	dozeBerriesVarietyText[8]	Kumquats	Kumquats	  
-food_info_types_berries[9]	dozeBerriesVarietyText[9]	Mulberries	Mulberries	  
-food_info_types_berries[10]	dozeBerriesVarietyText[10]	Raspberries (black or red)	Raspberries (black or red)	  
-food_info_types_berries[11]	dozeBerriesVarietyText[11]	Strawberries	Strawberries	  
-daily_timerestrict[heading]	tweakDailyTimeRestrict[heading]	Time-Restrict Your Eating	Time-Restrict Your Eating	
-daily_timerestrict[short]	tweakDailyTimeRestrict[short]	Time-Restrict Your Eating	Time-Restrict Your Eating	
-daily_timerestrict[text]	tweakDailyTimeRestrict[text]	Confine eating to a daily window of time of your choosing under twelve hours in length that you can stick to consistently, seven days a week. Given the circadian benefits of reducing evening food intake, the window should end before 7:00 p.m.	Confine eating to a daily window of time of your choosing under twelve hours in length that you can stick to consistently, seven days a week. Given the circadian benefits of reducing evening food intake, the window should end before 7:00 p.m.	
-
-meal_undistracted[heading]	tweakMealUndistracted[heading]	Enjoy Undistracted Meals	Enjoy Undistracted Meals	
-meal_undistracted[short]	tweakMealUndistracted[short]	Enjoy Undistracted Meals	Enjoy Undistracted Meals	
-meal_undistracted[text]	tweakMealUndistracted[text]	Don\'t eat while watching TV or playing on your phone. Give yourself a check for each meal you\'re able to eat without distraction.	Don\'t eat while watching TV or playing on your phone. Give yourself a check for each meal you\'re able to eat without distraction.	
-
-meal_twentyminutes[heading]	tweakMeal20Minutes[heading]	Follow the Twenty-Minute Rule	Follow the Twenty-Minute Rule	
-meal_twentyminutes[short]	tweakMeal20Minutes[short]	Follow the Twenty-Minute Rule	Follow the Twenty-Minute Rule	
-meal_twentyminutes[text]	tweakMeal20Minutes[text]	Whether through increasing viscosity or the number of chews, or decreasing bite size and eating rate, dozens of studies have demonstrated that no matter how we boost the amount of time food is in our mouths, it can result in lower caloric intake. So extend meal duration to at least twenty minutes to allow your natural satiety signals to take full effect. How? By choosing foods that take longer to eat and eating them in a way that prolongs the time they stay in your mouth. Think bulkier, hardier, chewier foods in smaller, well-chewed bites.	Whether through increasing viscosity or the number of chews, or decreasing bite size and eating rate, dozens of studies have demonstrated that no matter how we boost the amount of time food is in our mouths, it can result in lower caloric intake. So extend meal duration to at least twenty minutes to allow your natural satiety signals to take full effect. How? By choosing foods that take longer to eat and eating them in a way that prolongs the time they stay in your mouth. Think bulkier, hardier, chewier foods in smaller, well-chewed bites.	
-
-meal_vinegar[heading]	tweakMealVinegar[heading]	Incorporate Vinegar (2 tsp with each meal)	Incorporate Vinegar (2 tsp with each meal)	
-meal_vinegar[short]	tweakMealVinegar[short]	Incorporate Vinegar (2 tsp with each meal)	Incorporate Vinegar (2 tsp with each meal)	
-meal_vinegar[text]	tweakMealVinegar[text]	Never drink vinegar straight. Instead, flavor meals or dress a side salad with any of the sweet and savory vinegars out there. If you want to drink it, make sure to mix it in a glass of water and, afterward, be sure to rinse your mouth out with water to protect your tooth enamel.	Never drink vinegar straight. Instead, flavor meals or dress a side salad with any of the sweet and savory vinegars out there. If you want to drink it, make sure to mix it in a glass of water and, afterward, be sure to rinse your mouth out with water to protect your tooth enamel.	
-
-exercise_timing[heading]	tweakExerciseTiming[heading]	Optimize Exercise Timing	Optimize Exercise Timing	
-exercise_timing[short]	tweakExerciseTiming[short]	Optimize Exercise Timing	Optimize Exercise Timing	
-exercise_timing[text]	tweakExerciseTiming[text]	The Daily Dozen\'s recommendation for optimum exercise duration for longevity is ninety minutes of moderately intense activity a day, which is also the optimum exercise duration for weight loss. Anytime is good, and the more, the better, but there may be an advantage to exercising in a fasted state, at least six hours after your last meal. Typically, this would mean before breakfast, but if you timed it right, you could exercise midday before a late lunch or, if lunch is eaten early enough, before dinner. This is the timing for nondiabetics. Diabetics and prediabetics should instead start exercising thirty minutes after the start of a meal and ideally go for at least an hour to completely straddle the blood sugar peak. If you had to choose a single meal to exercise after, it would be dinner, due to the circadian rhythm of blood sugar control that wanes throughout the day. Ideally, though, breakfast would be the largest meal of the day, and you\'d exercise after that—or, even better, after every meal.	The Daily Dozen\'s recommendation for optimum exercise duration for longevity is ninety minutes of moderately intense activity a day, which is also the optimum exercise duration for weight loss. Anytime is good, and the more, the better, but there may be an advantage to exercising in a fasted state, at least six hours after your last meal. Typically, this would mean before breakfast, but if you timed it right, you could exercise midday before a late lunch or, if lunch is eaten early enough, before dinner. This is the timing for nondiabetics. Diabetics and prediabetics should instead start exercising thirty minutes after the start of a meal and ideally go for at least an hour to completely straddle the blood sugar peak. If you had to choose a single meal to exercise after, it would be dinner, due to the circadian rhythm of blood sugar control that wanes throughout the day. Ideally, though, breakfast would be the largest meal of the day, and you\'d exercise after that—or, even better, after every meal.	
-
-daily_nutriyeast[heading]	tweakDailyNutriYeast[heading]	Nutritional Yeast (2 tsp)	Nutritional Yeast (2 tsp)	
-daily_nutriyeast[short]	tweakDailyNutriYeast[short]	Nutritional Yeast (2 tsp)	Nutritional Yeast (2 tsp)	
-daily_nutriyeast[text]	tweakDailyNutriYeast[text]	Two teaspoons of baker\'s, brewer\'s, or nutritional yeast contains roughly the amount of beta 1,3/1,6 glucans found in randomized, double-blind, placebo-controlled clinical trials to facilitate weight loss.	Two teaspoons of baker\'s, brewer\'s, or nutritional yeast contains roughly the amount of beta 1,3/1,6 glucans found in randomized, double-blind, placebo-controlled clinical trials to facilitate weight loss.	
-
-nightly_trendelenburg[heading]	tweakNightlyTrendelenbrug[heading]	Experiment with Mild Trendelenburg	Experiment with Mild Trendelenburg	
-nightly_trendelenburg[short]	tweakNightlyTrendelenbrug[short]	Experiment with Mild Trendelenburg	Experiment with Mild Trendelenburg	
-nightly_trendelenburg[text]	tweakNightlyTrendelenbrug[text]	Try spending at least four hours a night lying with your body tilted head-down six degrees by elevating the posts at the foot of your bed by eight inches (or by nine inches if you have a California king). Be extremely careful when you get out of bed, as this causes orthostatic intolerance in most people, even if you\'re young and healthy—meaning if you get up too fast, you can feel dizzy, faint, or light-headed and could fall and hurt yourself. So get up slowly. Drinking two cups of cold water thirty minutes before rising may also help prevent this potentially hazardous side effect.\n*IMPORTANT: Do not try this at home at all if you have any heart or lung issues, acid reflux, or problems with your brain (like head trauma) or eyes (even a family history of glaucoma disqualifies you). Also do not try this until you ask your physician if they think it\'s safe for you to sleep in mild Trendelenburg.*	Try spending at least four hours a night lying with your body tilted head-down six degrees by elevating the posts at the foot of your bed by eight inches (or by nine inches if you have a California king). Be extremely careful when you get out of bed, as this causes orthostatic intolerance in most people, even if you\'re young and healthy—meaning if you get up too fast, you can feel dizzy, faint, or light-headed and could fall and hurt yourself. So get up slowly. Drinking two cups of cold water thirty minutes before rising may also help prevent this potentially hazardous side effect.\n*IMPORTANT: Do not try this at home at all if you have any heart or lung issues, acid reflux, or problems with your brain (like head trauma) or eyes (even a family history of glaucoma disqualifies you). Also do not try this until you ask your physician if they think it\'s safe for you to sleep in mild Trendelenburg.*	
-
-meal_water[heading]	tweakMealWater[heading]	Preload with Water	Preload with Water	
-meal_water[short]	tweakMealWater[short]	Preload with Water	Preload with Water	
-meal_water[text]	tweakMealWater[text]	Time your metabolism-boosting two cups of cool or cold unflavored water before each meal to also take advantage of its preload benefits.	Time your metabolism-boosting two cups of cool or cold unflavored water before each meal to also take advantage of its preload benefits.	
-
-daily_frontload[heading]	tweakDailyFrontLoad[heading]	Front-Load Your Calories	Front-Load Your Calories	
-daily_frontload[short]	tweakDailyFrontLoad[short]	Front-Load Your Calories	Front-Load Your Calories	
-daily_frontload[text]	tweakDailyFrontLoad[text]	There are metabolic benefits to distributing more calories to earlier in the day, so make breakfast (ideally) or lunch your largest meal of the day in true king/prince/pauper style.	There are metabolic benefits to distributing more calories to earlier in the day, so make breakfast (ideally) or lunch your largest meal of the day in true king/prince/pauper style.	
-
-weigh_twice[heading]	tweakWeightTwice[heading]	Weigh Yourself Twice a Day	Weigh Yourself Twice a Day	
-weigh_twice[short]	tweakWeightTwice[short]	Weigh Yourself Twice a Day	Weigh Yourself Twice a Day	
-weigh_twice[text]	tweakWeightTwice[text]	Regular self-weighing is considered crucial for long-term weight control, but there is insufficient evidence to support a specific frequency of weighing. My recommendation is based on the one study that found that twice daily—upon waking and right before bed—appeared superior to once a day (about six versus two pounds of weight loss over twelve weeks).	Regular self-weighing is considered crucial for long-term weight control, but there is insufficient evidence to support a specific frequency of weighing. My recommendation is based on the one study that found that twice daily—upon waking and right before bed—appeared superior to once a day (about six versus two pounds of weight loss over twelve weeks).	
-
-nightly_sleep[heading]	tweakNightlySleep[heading]	Get Sufficient Sleep	Get Sufficient Sleep	
-nightly_sleep[short]	tweakNightlySleep[short]	Get Sufficient Sleep	Get Sufficient Sleep	
-nightly_sleep[text]	tweakNightlySleep[text]	Check this box if you get at least seven hours of sleep at your regular bedtime.	Check this box if you get at least seven hours of sleep at your regular bedtime.	
-
-meal_negcal[heading]	tweakMealNegCal[heading]	Preload with "Negative Calorie" Foods	Preload with "Negative Calorie" Foods	
-meal_negcal[short]	tweakMealNegCal[short]	Preload with "Negative Calorie" Foods	Preload with "Negative Calorie" Foods	
-meal_negcal[text]	tweakMealNegCal[text]	As the first course, start each meal with an apple or a Green Light soup or salad containing fewer than one hundred calories per cup.	As the first course, start each meal with an apple or a Green Light soup or salad containing fewer than one hundred calories per cup.	
-
-nightly_fast[heading]	tweakNightlyFast[heading]	Fast After 7:00 pm	Fast After 7:00 pm	
-nightly_fast[short]	tweakNightlyFast[short]	Fast After 7:00 p.m.	Fast After 7:00 p.m.	
-nightly_fast[text]	tweakNightlyFast[text]	Due to our circadian rhythms, food eaten at night is more fattening than the exact same food eaten earlier in the day, so fast every night for at least twelve hours starting before 7:00 p.m. The fewer calories after sundown, the better.	Due to our circadian rhythms, food eaten at night is more fattening than the exact same food eaten earlier in the day, so fast every night for at least twelve hours starting before 7:00 p.m. The fewer calories after sundown, the better.	
-
-daily_greentea[heading]	tweakDailyGreenTea[heading]	Green Tea (3 cups)	Green Tea (3 cups)	
-daily_greentea[short]	tweakDailyGreenTea[short]	Green Tea (3 cups)	Green Tea (3 cups)	
-daily_greentea[text]	tweakDailyGreenTea[text]	Drink three cups a day between meals (waiting at least an hour after a meal so as to not interfere with iron absorption). During meals, drink water, black coffee, or hibiscus tea mixed 6:1 with lemon verbena, but never exceed three cups of fluid an hour (important given my water preloading advice). Take advantage of the reinforcing effect of caffeine by drinking your green tea along with something healthy you wish you liked more, but don\'t consume large amounts of caffeine within six hours of bedtime. Taking your tea without sweetener is best, but if you typically sweeten your tea with honey or sugar, try yacon syrup instead.	Drink three cups a day between meals (waiting at least an hour after a meal so as to not interfere with iron absorption). During meals, drink water, black coffee, or hibiscus tea mixed 6:1 with lemon verbena, but never exceed three cups of fluid an hour (important given my water preloading advice). Take advantage of the reinforcing effect of caffeine by drinking your green tea along with something healthy you wish you liked more, but don\'t consume large amounts of caffeine within six hours of bedtime. Taking your tea without sweetener is best, but if you typically sweeten your tea with honey or sugar, try yacon syrup instead.	
-
-daily_ginger[heading]	tweakDailyGinger[heading]	Ground Ginger (1 tsp) or Cayenne Pepper (½ tsp)	Ground Ginger (1 tsp) or Cayenne Pepper (½ tsp)	
-daily_ginger[short]	tweakDailyGinger[short]	Ground Ginger (1 tsp) or Cayenne Pepper (½ tsp)	Ground Ginger (1 tsp) or Cayenne Pepper (½ tsp)	
-daily_ginger[text]	tweakDailyGinger[text]	Randomized controlled trials have found that ¼ teaspoon to 1½ teaspoons a day of ground ginger significantly decreased body weight for just pennies a day. It can be as easy as stirring the ground spice into a cup of hot water. Note: Ginger may work better in the morning than evening. Chai tea is a tasty way to combine the green tea and ginger tricks into a single beverage. Alternately, for BAT activation, you can add one raw jalapeño pepper or a half teaspoon of red pepper powder (or, presumably, crushed red pepper flakes) into your daily diet. To help beat the heat, you can very thinly slice or finely chop the jalapeño to reduce its bite to little prickles, or mix the red pepper into soup or the whole-food vegetable smoothie I featured in one of my cooking videos on NutritionFacts.org.	Randomized controlled trials have found that ¼ teaspoon to 1½ teaspoons a day of ground ginger significantly decreased body weight for just pennies a day. It can be as easy as stirring the ground spice into a cup of hot water. Note: Ginger may work better in the morning than evening. Chai tea is a tasty way to combine the green tea and ginger tricks into a single beverage. Alternately, for BAT activation, you can add one raw jalapeño pepper or a half teaspoon of red pepper powder (or, presumably, crushed red pepper flakes) into your daily diet. To help beat the heat, you can very thinly slice or finely chop the jalapeño to reduce its bite to little prickles, or mix the red pepper into soup or the whole-food vegetable smoothie I featured in one of my cooking videos on NutritionFacts.org.	
-
-complete_intentions[heading]	tweakCompleteIntentions[heading]	Complete Your Implementation Intentions	Complete Your Implementation Intentions	
-complete_intentions[short]	tweakCompleteIntentions[short]	Complete Your Implementation Intentions	Complete Your Implementation Intentions	
-complete_intentions[text]	tweakCompleteIntentions[text]	Every two months, create three new implementation intentions—"if X, then Y" plans to perform a particular behavior in a specific context—and check each one of them off as you complete them every day.	Every two months, create three new implementation intentions—"if X, then Y" plans to perform a particular behavior in a specific context—and check each one of them off as you complete them every day.	
-
-daily_deflourdiet[heading]	tweakDailyDeflourDiet[heading]	Deflour Your Diet	Deflour Your Diet	
-daily_deflourdiet[short]	tweakDailyDeflourDiet[short]	Deflour Your Diet	Deflour Your Diet	
-daily_deflourdiet[text]	tweakDailyDeflourDiet[text]	Check this box every day your whole grain servings are in the form of intact grains. The powdering of even 100 percent whole grains robs our microbiomes of the starch that would otherwise be ferried down to our colons enclosed in unbroken cell walls.	Check this box every day your whole grain servings are in the form of intact grains. The powdering of even 100 percent whole grains robs our microbiomes of the starch that would otherwise be ferried down to our colons enclosed in unbroken cell walls.	
-
-daily_cumin[heading]	tweakDailyCumin[heading]	Cumin (½ tsp with lunch and dinner)	Cumin (½ tsp with lunch and dinner)	
-daily_cumin[short]	tweakDailyCumin[short]	Cumin (Cuminum cyminum) (½ tsp with lunch and dinner)	Cumin (Cuminum cyminum) (½ tsp with lunch and dinner)	
-daily_cumin[text]	tweakDailyCumin[text]	Overweight women randomized to add a half teaspoon of cumin to their lunches and dinners beat out the control group by four more pounds and an extra inch off their waists. There is also evidence to support the use of the spice saffron, but a pinch a day would cost a dollar, whereas a teaspoon of cumin costs less than ten cents.	Overweight women randomized to add a half teaspoon of cumin to their lunches and dinners beat out the control group by four more pounds and an extra inch off their waists. There is also evidence to support the use of the spice saffron, but a pinch a day would cost a dollar, whereas a teaspoon of cumin costs less than ten cents.	
-
-daily_garlic[heading]	tweakDailyGarlic[heading]	Garlic Powder (¼ tsp)	Garlic Powder (¼ tsp)	
-daily_garlic[short]	tweakDailyGarlic[short]	Garlic Powder (¼ tsp)	Garlic Powder (¼ tsp)	
-daily_garlic[text]	tweakDailyGarlic[text]	Randomized, double-blind, placebo-controlled studies have found that as little as a daily quarter teaspoon of garlic powder can reduce body fat at a cost of perhaps two cents a day.	Randomized, double-blind, placebo-controlled studies have found that as little as a daily quarter teaspoon of garlic powder can reduce body fat at a cost of perhaps two cents a day.	
-
-daily_hydrate[heading]	tweakDailyHydrate[heading]	Stay Hydrated	Stay Hydrated	
-daily_hydrate[short]	tweakDailyHydrate[short]	Stay Hydrated	Stay Hydrated	
-daily_hydrate[text]	tweakDailyHydrate[text]	Check this box if your urine never appears darker than a pale yellow. Note that if you\'re eating riboflavin-fortified foods (such as nutritional yeast), then base this instead on getting nine cups of unsweetened beverages a day for women (which would be taken care of by the green tea and water preloading recommendations) or thirteen cups a day for men. If you have heart or kidney issues, don\'t increase fluid intake at all without first talking with your physician. Remember, diet soda may be calorie-free, but it\'s not consequence-free, as we learned in the Low in Added Sugar section.	Check this box if your urine never appears darker than a pale yellow. Note that if you\'re eating riboflavin-fortified foods (such as nutritional yeast), then base this instead on getting nine cups of unsweetened beverages a day for women (which would be taken care of by the green tea and water preloading recommendations) or thirteen cups a day for men. If you have heart or kidney issues, don\'t increase fluid intake at all without first talking with your physician. Remember, diet soda may be calorie-free, but it\'s not consequence-free, as we learned in the Low in Added Sugar section.	
-
-daily_blackcumin[heading]	tweakDailyBlackCumin[heading]	Black Cumin (¼ tsp)	Black Cumin (¼ tsp)	
-daily_blackcumin[short]	tweakDailyBlackCumin[short]	Black Cumin (Nigella sativa) (¼ tsp)	Black Cumin (Nigella sativa) (¼ tsp)	
-daily_blackcumin[text]	tweakDailyBlackCumin[text]	As noted in the Appetite Suppression section, a systematic review and meta-analysis of randomized, controlled weight-loss trials found that about a quarter teaspoon of black cumin powder every day appears to reduce body mass index within a span of a couple of months. Note that black cumin is different from regular cumin, for which the dosing is different.	As noted in the Appetite Suppression section, a systematic review and meta-analysis of randomized, controlled weight-loss trials found that about a quarter teaspoon of black cumin powder every day appears to reduce body mass index within a span of a couple of months. Note that black cumin is different from regular cumin, for which the dosing is different.	
-
-app_name	DJR-bj-qUq.text	Daily Dozen	Daily Dozen	"""Daily Dozen"" application name"
-welcome_to_my_daily_dozen	19L-gq-W5M.text	Welcome to my Daily Dozen!	Welcome to my Daily Dozen!	
-activity_welcome_text	dwQ-CS-gz3.text	Use this app on a daily basis to keep track of the foods and advice I recommend for optimal health and longevity in my books How Not to Die and How Not to Diet.	Use this app on a daily basis to keep track of the foods and advice I recommend for optimal health and longevity in my books How Not to Die and How Not to Diet.	
-	gX5-vX-xBe.text	version 3.2.1	version 3.2.1	Application release version
-for_health_alone	atR-un-jgX.text	For Health Alone	For Health Alone	
-daily_dozen_only	ReM-AP-Fpp.normalTitle	Daily Dozen Only	Daily Dozen Only	
-for_health_and_weight_loss	OdG-YQ-lT8.text	For Health and Weight Loss	For Health and Weight Loss	
-daily_dozen_and_tweaks	Lef-Iw-Ywr.normalTitle	Daily Dozen + 21 Tweaks	Daily Dozen + 21 Tweaks	
-videos	xcg-0a-oqY.normalTitle	VIDEOS	VIDEOS	Keyword for link to video topics
-imperial		metric	metric	
-metric		imperial	imperial	
-	settings_units_0_imperial	Imperial	Imperial	"Part of ""Imperial/Metric/Toggle Units"" selector"
-	settings_units_1_metric	Metric	Metric	"Part of ""Imperial/Metric/Toggle Units"" selector"
-	settings_units_2_toggle	Toggle Units	Toggle Units	"Part of ""Imperial/Metric/Toggle Units"" selector"
-units	3bd-8h-kcX.text	Units:	Units:	
-serving_sizes	eU6-je-hVN.text	Serving Sizes	Serving Sizes	
-types	YVI-sV-TDX.text	Types	Types	
-units	kho-9G-OWe.text	Units:	Units:	
-	YVI-sV-TDA.text	Activity	Activity	
-	YVI-sV-TDD.text	Description	Description	
-servings_all	S0Q-oB-VgE.text	All servings	All servings	
-servings_some	jBv-4d-ofX.text	Some servings	Some servings	
-history	sLd-Kq-bLv.text	History	History	
-latest_videos	uxH-8I-ydF.text	Latest Videos	Latest Videos	
-	zQy-Dn-WXM.text	Book: How Not to Die	Book: How Not to Die	
-	Cxo-5D-YUZ.text	Book: How Not to Die Cookbook	Book: How Not to Die Cookbook	
-	MWr-7S-G8N.text	Book: How Not to Diet	Book: How Not to Diet	
-daily_dozen_challenge	beF-Xl-TAq.text	Daily Dozen Challenge	Daily Dozen Challenge	
-donate	mqA-Vp-LZ7.text	Donate	Donate	
-subscribe	dRO-1W-3EK.text	Subscribe	Subscribe	
-open_source	qVR-SQ-jmS.text	Open Source	Open Source	
-about	qGY-wh-1gB.text	About	About	
-servings	1HM-mL-ZV9.text	Servings	Servings	
-out_of		out of	out of	"Part of ""0 out of 24"""
-format_num_days		%d days	%d days	Formatted string %d days
-twenty_one_tweaks	tweak_entry_header	21 Tweaks	21 Tweaks	
-format_num_days	Vbn-R9-kuu.text	100 days	100 days	
-back_to_today	7XY-Lo-Hwf.normalTitle	Back to today	Back to today	
-back_to_today	Qfe-bW-SP4.normalTitle	 Back to today	Back to today	
-back_to_today	OIQ-oh-3QN.normalTitle	 Back to today	 Back to today	
-	OC8-wt-JgC.normalTitle	Today	Today	
-	iHh-5a-01X.normalTitle	Today	Today	
-	6FY-X2-BdZ.normalTitle	Today	Today	
-	Ebp-Lw-fWk.normalTitle	Advanced Utilities		
-				
-	IFs-g0-SPV.headerTitle	Measurement Units		
-	IFs-g0-SPV.footerTitle	Set to always be one unit type or enable the 'Units:' toggle button.	Set to always be one unit type or enable the 'Units:' toggle button.	
-	WdR-XV-IyP.headerTitle	21 Tweak Visibility	21 Tweak Visibility	
-daily_dozen_only	OZO-Xa-v5G.segmentTitles[0]	Daily Dozen Only	Daily Dozen Only	
-daily_dozen_and_tweaks	OZO-Xa-v5G.segmentTitles[1]	Daily Dozen + 21 Tweak	Daily Dozen + 21 Tweak	
-	WdR-XV-IyP.footerTitle	"For health alone, use ""Daily Dozen Only"". For health and weight loss use ""Daily Dozen + 21 Tweaks""."	"For health alone, use ""Daily Dozen Only"". For health and weight loss use ""Daily Dozen + 21 Tweaks""."	
-daily_reminder_title		Daily Dozen Reminder	Daily Dozen Reminder	
-daily_reminder_text	reminder.alert.text	Update your servings for today	Update your servings for today	Alert notification text
-	GiY-ao-2ee.headerTitle	Daily Reminder	Daily Reminder	
-daily_reminder_settings		Daily Reminder Settings		a reminder that is triggered every day
-	itH-G7-Kal.text	Enable Reminders		
-	reminder.state.off	Off	Off	'Off' as in 'On or Off', reminder is not enabled
-	XFw-2q-BdT.text	On	On	'On' as in 'On or Off'
-enable_daily_reminder		Enable Daily Reminders	Enable Daily Reminders	On/Off toggle label
-	pjz-An-Ls5.text	Enable Reminders	Enable Reminders	On/Off toggle label
-remind_me_at	kR3-Sa-Fpt.text	Remind me at:	Remind me at:	
-vibrate	reminder.settings.vibrate	Vibrate	Vibrate	Android notification `vibrate`
-play_sound	YP6-dP-Y62.text	Play Sound	Play Sound	
-	NRG-eE-YhG.normalTitle	Clear	Clear	
-	7l0-os-Oqt.normalTitle	Clear	Clear	
-	FBJ-Im-BZk.text	Time	Time	
-	g3G-kp-d2S.text	Time	Time	
-	xCp-N8-5Uc.text	Morning (upon waking)	Morning (upon waking)	
-	77g-xa-ali.text	Evening (right before bed)	Evening (right before bed)	
-time_scale	27q-rq-qbu.text	Time Scale	Time Scale	
-time_scale	XdW-g4-ZUO.text	Time Scale	Time Scale	
-time_scale	v2E-Ao-OVz.text	Time Scale	Time Scale	
-servings_time_scale_choices[0]	sM6-A9-KeP.segmentTitles[0]	Day	Day	Calendar view scale control
-servings_time_scale_choices[1]	sM6-A9-KeP.segmentTitles[1]	Month	Month	Calendar view scale control
-servings_time_scale_choices[2]	sM6-A9-KeP.segmentTitles[2]	Year	Year	Calendar view scale control
-servings_time_scale_choices[0]	vXy-0q-Ind.segmentTitles[0]	Day	Day	Calendar view scale control
-servings_time_scale_choices[1]	vXy-0q-Ind.segmentTitles[1]	Month	Month	Calendar view scale control
-servings_time_scale_choices[2]	vXy-0q-Ind.segmentTitles[2]	Year	Year	Calendar view scale control
-servings_time_scale_choices[0]	fcu-ZA-byN.segmentTitles[0]	Day	Day	Calendar view scale control
-servings_time_scale_choices[1]	fcu-ZA-byN.segmentTitles[1]	Month	Month	Calendar view scale control
-servings_time_scale_choices[2]	fcu-ZA-byN.segmentTitles[2]	Year	Year	Calendar view scale control
-	XYD-fX-adn.normalTitle	Edit Data	Edit Data	
-	NSHealthShareUsageDescription	The 21 Tweaks feature accesses your HealthKit data to provide updates to your daily weight measurements.	The 21 Tweaks feature accesses your HealthKit data to provide updates to your daily weight measurements.	
-	NSHealthUpdateUsageDescription	The 21 Tweaks feature can write weight data to HealthKit to help you keep track of your progress.	The 21 Tweaks feature can write weight data to HealthKit to help you keep track of your progress.	
+key_droid	key_apple	base_value	lang_value	base_note
+	NSHealthShareUsageDescription	The 21 Tweaks feature accesses your HealthKit data to provide updates to your daily weight measurements.	תוכנת 21 הכיוונונים יכולה לכתוב נתוני משקל ל- HealthKit כדי לעזור לכם לעקוב אחר ההתקדמות שלכם.	
+	NSHealthUpdateUsageDescription	The 21 Tweaks feature can write weight data to HealthKit to help you keep track of your progress.	תכונת 21 הטוויקים יכולה לכתוב נתוני משקל ל- HealthKit כדי לעזור לכם לעקוב אחר ההתקדמות שלכם	
+	apple.info.about.0	Welcome to my Daily Dozen!	ברוכים הבאים לתריסר השבועי שלי!	
+	apple.info.about.1	Use this app on a daily basis to keep track of the foods and advice I recommend for optimal health and longevity in my books How Not to Die and How Not to Diet.	השתמשו באפליקציה זו על בסיס יומי כדי לעקוב אחר המזונות והעצות שאני ממליץ עליהן לבריאות ואריכות ימים בצורה אופטימלית בספרים שלי "איך לא למות" ו"איך לא לעשות דיאטה".	
+	apple.info.about.2	Daily Dozen	התריסר היומי	
+	apple.info.about.3	version 3.2.3	ורסיה 3.2.3	
+	apple.info.about.4	This app was created by: NutritionFacts.org, Christi Richards, Konstantin Khokhlov, and Marc Campbell	אפליקציה זו נוצרה על ידי: NutritionFacts.org, כריסטי ריצ'רדס, קונסטנטין חוחלוב ומארק קמפבל	
+	apple.info.about.5	The following open source libraries are used: RealmSwift, Charts, FSCalendar, SimpleAnimation, ActiveLabel.	נעשה שימוש בספריות הקוד הפתוח שלהלן: RealmSwift, תרשימים, FSCalendar, SimpleAnimation, ActiveLabel.	
+back_to_today	dateBackButtonTitle	Back to today	בחזרה להיום	
+	dateButtonTitle.today	Today	היום	
+food_info_serving_sizes_beans_imperial.0	dozeBeans.Serving.imperial.0	¼ cup of hummus or bean dip	1/4 כוס חומוס או מטבל שעועית	
+food_info_serving_sizes_beans_imperial.1	dozeBeans.Serving.imperial.1	½ cup cooked beans, split peas, lentils, tofu, or tempeh	1/2 כוס שעועית מבושלת, אפונה מפוצלת, קטניות, טופו או טמפה	
+food_info_serving_sizes_beans_imperial.2	dozeBeans.Serving.imperial.2	1 cup of fresh peas or sprouted lentils	1 כוס אפונה טריה או עדשים מונבטות	
+food_info_serving_sizes_beans_metric.0	dozeBeans.Serving.metric.0	60 g of hummus or bean dip	60 גרם חומוס או מטבל שעועית	
+food_info_serving_sizes_beans_metric.1	dozeBeans.Serving.metric.1	130 g cooked beans, split peas, lentils, tofu, or tempeh	130 גרם שעועית מבושלת, אפונה מפוצלת, קטניות, טופו או טמפה	
+food_info_serving_sizes_beans_metric.2	dozeBeans.Serving.metric.2	150 g of fresh peas or sprouted lentils	150גרם אפונה טריה או עדשים מונבטות	
+food_info_types_beans.0	dozeBeans.Variety.Text.0	Black beans	שעועית שחורה	
+food_info_types_beans.1	dozeBeans.Variety.Text.1	Black-eyed peas	שעועית מנומרת	
+food_info_types_beans.10	dozeBeans.Variety.Text.10	Miso	מיסו	
+food_info_types_beans.11	dozeBeans.Variety.Text.11	Navy beans	שעועית נייבי	
+food_info_types_beans.12	dozeBeans.Variety.Text.12	Pinto beans	שעועית פינטו	
+food_info_types_beans.13	dozeBeans.Variety.Text.13	Small red beans	שעועית קטנה ואדומה	
+food_info_types_beans.14	dozeBeans.Variety.Text.14	Split peas (yellow or green)	אפונה מפוצלת (צהובה או ירוקה)	
+food_info_types_beans.15	dozeBeans.Variety.Text.15	Tempeh	טמפה	
+food_info_types_beans.2	dozeBeans.Variety.Text.2	Butter beans	שעועית לבנה	
+food_info_types_beans.3	dozeBeans.Variety.Text.3	Cannellini beans	שעועית קנליני	
+food_info_types_beans.4	dozeBeans.Variety.Text.4	Chickpeas/Garbanzo Beans	גרגרי חומוס/ שעועית גרבנזו	
+food_info_types_beans.5	dozeBeans.Variety.Text.5	Edamame	אדממה	
+food_info_types_beans.6	dozeBeans.Variety.Text.6	English peas	אפונת גינה	
+food_info_types_beans.7	dozeBeans.Variety.Text.7	Great northern beans	שעועית לבנה	
+food_info_types_beans.8	dozeBeans.Variety.Text.8	Kidney beans	שעועית אדומה	
+food_info_types_beans.9	dozeBeans.Variety.Text.9	Lentils (beluga, french, and red varieties)	קטניות (בלוגה, צרפתיות ואדומות)	
+beans	dozeBeans.heading	Beans	שעועית	
+food_info_serving_sizes_berries_imperial.0	dozeBerries.Serving.imperial.0	½ cup fresh or frozen	1/2 כוס טריה או קפואה	
+food_info_serving_sizes_berries_imperial.1	dozeBerries.Serving.imperial.1	¼ cup dried	1/4 כוס יבשים	
+food_info_serving_sizes_berries_metric.0	dozeBerries.Serving.metric.0	60 g fresh or frozen	60 גרם טריים או קפואים	
+food_info_serving_sizes_berries_metric.1	dozeBerries.Serving.metric.1	40 g dried	40 גרם יבשים	
+food_info_types_berries.0	dozeBerries.Variety.Text.0	Acai berries	אסאי	
+food_info_types_berries.1	dozeBerries.Variety.Text.1	Barberries	ברביריס (גרגרים אדומים חמוצים)	
+food_info_types_berries.10	dozeBerries.Variety.Text.10	Raspberries (black or red)	פטל שחור או אדום	
+food_info_types_berries.11	dozeBerries.Variety.Text.11	Strawberries	תותי שדה	
+food_info_types_berries.2	dozeBerries.Variety.Text.2	Blackberries	אסנה	
+food_info_types_berries.3	dozeBerries.Variety.Text.3	Blueberries	אוכמניות	
+food_info_types_berries.4	dozeBerries.Variety.Text.4	cheries	דובדבנים	
+food_info_types_berries.5	dozeBerries.Variety.Text.5	Concord grapes	ענבי קונקורד	
+food_info_types_berries.6	dozeBerries.Variety.Text.6	Cranberries	חמוציות	
+food_info_types_berries.7	dozeBerries.Variety.Text.7	Goji berries	גוג'י ברי	
+food_info_types_berries.8	dozeBerries.Variety.Text.8	Kumquats	תפוז סיני	
+food_info_types_berries.9	dozeBerries.Variety.Text.9	Mulberries	תותים	
+berries	dozeBerries.heading	Berries	גרגרי יער	
+food_info_serving_sizes_beverages_imperial.0	dozeBeverages.Serving.imperial.0	One glass (12 ounces)	כוס אחת 350 גרם)	
+food_info_serving_sizes_beverages_metric.0	dozeBeverages.Serving.metric.0	One glass (350 ml)	כוס אחת (350 מ"ל)	
+food_info_types_beverages.0	dozeBeverages.Variety.Text.0	Black tea	תה שחור	
+food_info_types_beverages.1	dozeBeverages.Variety.Text.1	Chai tea	תה צ'אי	
+food_info_types_beverages.10	dozeBeverages.Variety.Text.10	Matcha tea	תה מקה	
+food_info_types_beverages.11	dozeBeverages.Variety.Text.11	Almond blossom oolong tea	תה אולונג	
+food_info_types_beverages.12	dozeBeverages.Variety.Text.12	Peppermint tea	תה מנטה	
+food_info_types_beverages.13	dozeBeverages.Variety.Text.13	Rooibos tea	תה רויבוש	
+food_info_types_beverages.14	dozeBeverages.Variety.Text.14	Water	מים	
+food_info_types_beverages.15	dozeBeverages.Variety.Text.15	White tea	תה לבן	
+food_info_types_beverages.2	dozeBeverages.Variety.Text.2	Vanilla chamomile tea	תה קמומיל-וניל	
+food_info_types_beverages.3	dozeBeverages.Variety.Text.3	Coffee	קפה	
+food_info_types_beverages.4	dozeBeverages.Variety.Text.4	Earl grey tea	תה ארל-גריי	
+food_info_types_beverages.5	dozeBeverages.Variety.Text.5	Green tea	תה ירוק	
+food_info_types_beverages.6	dozeBeverages.Variety.Text.6	Hibiscus tea	תה היביסקוס	
+food_info_types_beverages.7	dozeBeverages.Variety.Text.7	Hot chocolate	שוקולד חם	
+food_info_types_beverages.8	dozeBeverages.Variety.Text.8	Jasmine tea	תה יסמין	
+food_info_types_beverages.9	dozeBeverages.Variety.Text.9	Lemon balm tea	תה מליסה רפואית	
+beverages	dozeBeverages.heading	Beverages	משקאות קלים	
+food_info_serving_sizes_exercise_imperial.0	dozeExercise.Serving.imperial.0	90 minutes of moderate-intensity activity	90 דקות פעילות בעצימות בינונית	
+food_info_serving_sizes_exercise_imperial.1	dozeExercise.Serving.imperial.1	40 minutes of vigorous-intensity activity	40 דקות פעילות בעצימות גבוהה	
+food_info_serving_sizes_exercise_metric.0	dozeExercise.Serving.metric.0	90 minutes of moderate-intensity activity	90 דקות פעילות בעצימות בינונית	
+food_info_serving_sizes_exercise_metric.1	dozeExercise.Serving.metric.1	40 minutes of vigorous-intensity activity	40 דקות פעילות בעצימות גבוהה	
+food_info_types_exercise.0	dozeExercise.Variety.Text.0	Bicycling	רכיבה על אופניים	
+food_info_types_exercise.1	dozeExercise.Variety.Text.1	Canoeing	השטת קאנו	
+food_info_types_exercise.10	dozeExercise.Variety.Text.10	Juggling	להטוטים	
+food_info_types_exercise.11	dozeExercise.Variety.Text.11	Jumping on a trampoline	קפיצה על טרמפולינה	
+food_info_types_exercise.12	dozeExercise.Variety.Text.12	Paddle boating	סירת פדאלים	
+food_info_types_exercise.13	dozeExercise.Variety.Text.13	Playing frisbee	משחק פריסבי	
+food_info_types_exercise.14	dozeExercise.Variety.Text.14	Roller-skating	רולר סקייט	
+food_info_types_exercise.15	dozeExercise.Variety.Text.15	Shooting baskets	קליעה לסל	
+food_info_types_exercise.16	dozeExercise.Variety.Text.16	Shoveling light snow	גירוף שלג מועט	
+food_info_types_exercise.17	dozeExercise.Variety.Text.17	Skateboarding	גלישה בסקייטבורד	
+food_info_types_exercise.18	dozeExercise.Variety.Text.18	Snorkeling	צלילה	
+food_info_types_exercise.19	dozeExercise.Variety.Text.19	Surfing	גלישת גלים	
+food_info_types_exercise.2	dozeExercise.Variety.Text.2	Dancing	ריקוד	
+food_info_types_exercise.20	dozeExercise.Variety.Text.20	Swimming recreationally	תנועה במים	
+food_info_types_exercise.21	dozeExercise.Variety.Text.21	Tennis (doubles)	טניס בזוגות	
+food_info_types_exercise.22	dozeExercise.Variety.Text.22	Treading water	תנועה במים	
+food_info_types_exercise.23	dozeExercise.Variety.Text.23	Walking briskly (4 mph)	הליכה מואצת (6 ק"מ לשעה)	
+food_info_types_exercise.24	dozeExercise.Variety.Text.24	Water aerobics	אירובי במים	
+food_info_types_exercise.25	dozeExercise.Variety.Text.25	Waterskiing	סקי מים	
+food_info_types_exercise.26	dozeExercise.Variety.Text.26	Yard work	עבודת גינה	
+food_info_types_exercise.27	dozeExercise.Variety.Text.27	Yoga	יוגה	
+food_info_types_exercise.28	dozeExercise.Variety.Text.28	Backpacking	תרמילאות	
+food_info_types_exercise.29	dozeExercise.Variety.Text.29	Basketball	כדורסל	
+food_info_types_exercise.3	dozeExercise.Variety.Text.3	Dodgeball	מחניים	
+food_info_types_exercise.30	dozeExercise.Variety.Text.30	Bicycling uphill	רכיבת אופניים בשטח	
+food_info_types_exercise.31	dozeExercise.Variety.Text.31	Circuit weight training	אימוני משקולות מעגליים	
+food_info_types_exercise.32	dozeExercise.Variety.Text.32	Cross-country skiing	סקי למרחקים ארוכים	
+food_info_types_exercise.33	dozeExercise.Variety.Text.33	Football	כדורגל	
+food_info_types_exercise.34	dozeExercise.Variety.Text.34	Hockey	הוקי	
+food_info_types_exercise.35	dozeExercise.Variety.Text.35	Jogging	ריצה קלה	
+food_info_types_exercise.36	dozeExercise.Variety.Text.36	Jumping jacks	תרגילי קפיצה	
+food_info_types_exercise.37	dozeExercise.Variety.Text.37	Jumping rope	קפיצה על חבל	
+food_info_types_exercise.38	dozeExercise.Variety.Text.38	Lacrosse		
+food_info_types_exercise.39	dozeExercise.Variety.Text.39	Push-ups	שכיבות שמיכה	
+food_info_types_exercise.4	dozeExercise.Variety.Text.4	Downhill skiing	סקי במורד הרים	
+food_info_types_exercise.40	dozeExercise.Variety.Text.40	Pull-ups	מתח	
+food_info_types_exercise.41	dozeExercise.Variety.Text.41	Racquetball	סקווש	
+food_info_types_exercise.42	dozeExercise.Variety.Text.42	Rock climbing	טיפוס סלעים	
+food_info_types_exercise.43	dozeExercise.Variety.Text.43	Rugby	רוגבי	
+food_info_types_exercise.44	dozeExercise.Variety.Text.44	Running	ריצה	
+food_info_types_exercise.45	dozeExercise.Variety.Text.45	Scuba diving	צלילה	
+food_info_types_exercise.46	dozeExercise.Variety.Text.46	Tennis (singles)	טניס יחידים	
+food_info_types_exercise.47	dozeExercise.Variety.Text.47	Soccer	כדורגל אמריקאי	
+food_info_types_exercise.48	dozeExercise.Variety.Text.48	Speed skating	גלגיליות	
+food_info_types_exercise.49	dozeExercise.Variety.Text.49	Squash	סקווש	
+food_info_types_exercise.5	dozeExercise.Variety.Text.5	Fencing	גינון	
+food_info_types_exercise.50	dozeExercise.Variety.Text.50	Step aerobics	הליכה אירובית על דרגש	
+food_info_types_exercise.51	dozeExercise.Variety.Text.51	Swimming laps	שחיה בהקפות	
+food_info_types_exercise.52	dozeExercise.Variety.Text.52	Walking briskly uphill	הליכה במעלה הרים	
+food_info_types_exercise.53	dozeExercise.Variety.Text.53	Water jogging	הליכה במים	
+food_info_types_exercise.6	dozeExercise.Variety.Text.6	Hiking	צעידה בהרים	
+food_info_types_exercise.7	dozeExercise.Variety.Text.7	Housework	עבודות בית	
+food_info_types_exercise.8	dozeExercise.Variety.Text.8	Ice-skating	החלקה על קרח	
+food_info_types_exercise.9	dozeExercise.Variety.Text.9	Inline skating	גלגיליות	
+exercise	dozeExercise.heading	Exercise	ספורט	
+food_info_serving_sizes_flaxseeds_imperial.0	dozeFlaxseeds.Serving.imperial.0	1 tablespoon ground	1 כף טחונים	
+food_info_serving_sizes_flaxseeds_metric.0	dozeFlaxseeds.Serving.metric.0	1 tablespoon ground	1 כף טחונים	
+food_info_types_flaxseeds.0	dozeFlaxseeds.Variety.Text.0	Brown flaxseeds	זרעי פשתן חומים	
+food_info_types_flaxseeds.1	dozeFlaxseeds.Variety.Text.1	Golden flaxseeds	זרעי פשתן זהובים	
+flaxseeds	dozeFlaxseeds.heading	Flaxseeds	זרעי פשתן	
+food_info_serving_sizes_other_fruits_imperial.0	dozeFruitsOther.Serving.imperial.0	1 medium-sized fruit	1 פרי בינוני	
+food_info_serving_sizes_other_fruits_imperial.1	dozeFruitsOther.Serving.imperial.1	1 cup cut-up fruit	1/4 כוס פירות חתוכים	
+food_info_serving_sizes_other_fruits_imperial.2	dozeFruitsOther.Serving.imperial.2	¼ cup dried fruit	1/4 כוס פירות יבשים	
+food_info_serving_sizes_other_fruits_metric.0	dozeFruitsOther.Serving.metric.0	1 medium-sized fruit	1 פרי בינוני	
+food_info_serving_sizes_other_fruits_metric.1	dozeFruitsOther.Serving.metric.1	120 g cut-up fruit	120 גרם פירות חתוכים	
+food_info_serving_sizes_other_fruits_metric.2	dozeFruitsOther.Serving.metric.2	40 g dried fruit	40 גרם פירות יבשים	
+food_info_types_other_fruits.0	dozeFruitsOther.Variety.Text.0	Apples	תפוחים	
+food_info_types_other_fruits.1	dozeFruitsOther.Variety.Text.1	Dried apricots	משמשים יבשים	
+food_info_types_other_fruits.10	dozeFruitsOther.Variety.Text.10	Kiwifruit	קיווי	
+food_info_types_other_fruits.11	dozeFruitsOther.Variety.Text.11	Lemons	לימונים	
+food_info_types_other_fruits.12	dozeFruitsOther.Variety.Text.12	Limes	ליים	
+food_info_types_other_fruits.13	dozeFruitsOther.Variety.Text.13	Lychees	ליצ'י	
+food_info_types_other_fruits.14	dozeFruitsOther.Variety.Text.14	Mangos	מנגו	
+food_info_types_other_fruits.15	dozeFruitsOther.Variety.Text.15	Nectarines	נקטרינות	
+food_info_types_other_fruits.16	dozeFruitsOther.Variety.Text.16	Oranges	תפוזים	
+food_info_types_other_fruits.17	dozeFruitsOther.Variety.Text.17	Papaya	פאפיה	
+food_info_types_other_fruits.18	dozeFruitsOther.Variety.Text.18	Passion fruit	פסיפלורה	
+food_info_types_other_fruits.19	dozeFruitsOther.Variety.Text.19	Peaches	אפרסקים	
+food_info_types_other_fruits.2	dozeFruitsOther.Variety.Text.2	Avocados	אבוקדו	
+food_info_types_other_fruits.20	dozeFruitsOther.Variety.Text.20	Pears	אגסים	
+food_info_types_other_fruits.21	dozeFruitsOther.Variety.Text.21	Pineapple	אננס	
+food_info_types_other_fruits.22	dozeFruitsOther.Variety.Text.22	Plums (especially black plums)	שזיפים (בעיקר שחורים)	
+food_info_types_other_fruits.23	dozeFruitsOther.Variety.Text.23	Pluots		
+food_info_types_other_fruits.24	dozeFruitsOther.Variety.Text.24	Pomegranates	רימונים	
+food_info_types_other_fruits.25	dozeFruitsOther.Variety.Text.25	Prunes	קצוצים	
+food_info_types_other_fruits.26	dozeFruitsOther.Variety.Text.26	Tangerines	מנדרינה	
+food_info_types_other_fruits.27	dozeFruitsOther.Variety.Text.27	Watermelon	אבטיח	
+food_info_types_other_fruits.3	dozeFruitsOther.Variety.Text.3	Bananas	בננות	
+food_info_types_other_fruits.4	dozeFruitsOther.Variety.Text.4	Cantaloupe	מלון עם קליפה כתומה כהה	
+food_info_types_other_fruits.5	dozeFruitsOther.Variety.Text.5	Clementines	קלמנטינות	
+food_info_types_other_fruits.6	dozeFruitsOther.Variety.Text.6	Dates	תמרים	
+food_info_types_other_fruits.7	dozeFruitsOther.Variety.Text.7	Dried figs	תאנים ישות	
+food_info_types_other_fruits.8	dozeFruitsOther.Variety.Text.8	Grapefruit	אשכולית	
+food_info_types_other_fruits.9	dozeFruitsOther.Variety.Text.9	Honeydew	מלון עם קליפה חלקה ובשר  ירוק	
+other_fruits	dozeFruitsOther.heading	Other Fruits	פירות אחרים	
+food_info_serving_sizes_greens_imperial.0	dozeGreens.Serving.imperial.0	1 cup raw	1 כוס גולמית	
+food_info_serving_sizes_greens_imperial.1	dozeGreens.Serving.imperial.1	½ cup cooked	1/2 כוס מבושלים	
+food_info_serving_sizes_greens_metric.0	dozeGreens.Serving.metric.0	60 g raw	60 גרם גולמי	
+food_info_serving_sizes_greens_metric.1	dozeGreens.Serving.metric.1	90 g cooked	90 גרם מבושלים	
+food_info_types_greens.0	dozeGreens.Variety.Text.0	Arugula	אורוגולה	
+food_info_types_greens.1	dozeGreens.Variety.Text.1	Beet greens	סלק עלים	
+food_info_types_greens.2	dozeGreens.Variety.Text.2	Collard greens	כרוב ירוק	
+food_info_types_greens.3	dozeGreens.Variety.Text.3	Kale (black, green, and red)	קייל (שחור, ירוק ואדום)	
+food_info_types_greens.4	dozeGreens.Variety.Text.4	Mesclun mix (assorted young salad greens)	עלי בייבי	
+food_info_types_greens.5	dozeGreens.Variety.Text.5	Mustard greens	עלי חרדל	
+food_info_types_greens.6	dozeGreens.Variety.Text.6	Sorrel	חומעה	
+food_info_types_greens.7	dozeGreens.Variety.Text.7	Spinach	תרד	
+food_info_types_greens.8	dozeGreens.Variety.Text.8	Swiss chard	סלק עלים, מנגולד	
+food_info_types_greens.9	dozeGreens.Variety.Text.9	Turnip greens	לפת	
+greens	dozeGreens.heading	Greens	ירקות ירוקים	
+food_info_serving_sizes_nuts_imperial.0	dozeNuts.Serving.imperial.0	¼ cup nuts or seeds	1/4 כוס אגוזים או זרעים	
+food_info_serving_sizes_nuts_imperial.1	dozeNuts.Serving.imperial.1	2 tablespoons nut or seed butter	2 כפות חמאת אגוזים או זרעים	
+food_info_serving_sizes_nuts_metric.0	dozeNuts.Serving.metric.0	30 g nuts or seeds	30 גרם אגוזים או זרעים	
+food_info_serving_sizes_nuts_metric.1	dozeNuts.Serving.metric.1	2 tablespoons nut or seed butter	2 כפות חמאת אגוזים או זרעים	
+food_info_types_nuts.0	dozeNuts.Variety.Text.0	Almonds	שקדים	
+food_info_types_nuts.1	dozeNuts.Variety.Text.1	Brazil nuts	אגוזי ברזיל	
+food_info_types_nuts.10	dozeNuts.Variety.Text.10	Sesame seeds	סומסום	
+food_info_types_nuts.11	dozeNuts.Variety.Text.11	Sunflower seeds	גרעיני חמניה	
+food_info_types_nuts.12	dozeNuts.Variety.Text.12	Walnuts	אגוז מלך	
+food_info_types_nuts.2	dozeNuts.Variety.Text.2	Cashews	קשיו	
+food_info_types_nuts.3	dozeNuts.Variety.Text.3	Chia seeds	זרעי צ'יה	
+food_info_types_nuts.4	dozeNuts.Variety.Text.4	Hazelnuts	אגוזי לוז	
+food_info_types_nuts.5	dozeNuts.Variety.Text.5	Hemp seeds	קנבוס	
+food_info_types_nuts.6	dozeNuts.Variety.Text.6	Macadamia nuts	אגוזי מקדמיה	
+food_info_types_nuts.7	dozeNuts.Variety.Text.7	Pecans	פקאנים	
+food_info_types_nuts.8	dozeNuts.Variety.Text.8	Pistachios	פיסטוק	
+food_info_types_nuts.9	dozeNuts.Variety.Text.9	Pumpkin seeds	גרעיני דלעת	
+nuts	dozeNuts.heading	Nuts and Seeds	אגוזים וזרעים	
+OK	dozeOtherInfo.confirm	OK	טוב	
+	dozeOtherInfo.message	Vitamin B12 is essential for your health but does not count towards your daily servings.\n\nVitamin B12 is included in this app to provide you with an easy way to track your intake.	ויטמין B12 חיוני לבריאותכם אך אינו נכנס לתוך המנות היומיומיות שלכם. \ n \ n ויטמין B12 כלול באפליקציה זו כדי לספק לכם דרך קלה לעקוב אחר צריכתכם.	
+	dozeOtherInfo.section	Supplements	תוספי תזונה	
+	dozeOtherInfo.title	Supplements	תוספי תזונה	
+food_info_serving_sizes_spices_imperial.0	dozeSpices.Serving.imperial.0	¼ teaspoon of turmeric	1/4 כפית כורכום	
+food_info_serving_sizes_spices_imperial.1	dozeSpices.Serving.imperial.1	Any other (salt-free) herbs and spices you enjoy	עשבי מרפא ותבלינים נוספים (ללא מלח) שאתם אוהבים	
+food_info_serving_sizes_spices_metric.0	dozeSpices.Serving.metric.0	¼ teaspoon of turmeric	1/4 כפית כורכום	
+food_info_serving_sizes_spices_metric.1	dozeSpices.Serving.metric.1	Any other (salt-free) herbs and spices you enjoy	עשבי מרפא ותבלינים נוספים (ללא מלח) שאתם אוהבים	
+food_info_types_spices.0	dozeSpices.Variety.Text.0	Allspice	פלפל אנגלי	
+food_info_types_spices.1	dozeSpices.Variety.Text.1	Barberries	ברביריס -גרגירים אדומים חמוצים	
+food_info_types_spices.10	dozeSpices.Variety.Text.10	Cumin	כמון	
+food_info_types_spices.11	dozeSpices.Variety.Text.11	Curry powder	אבקת קארי	
+food_info_types_spices.12	dozeSpices.Variety.Text.12	Dill	שמיר	
+food_info_types_spices.13	dozeSpices.Variety.Text.13	Fenugreek	חילבה	
+food_info_types_spices.14	dozeSpices.Variety.Text.14	Garlic	שום	
+food_info_types_spices.15	dozeSpices.Variety.Text.15	Ginger	זנגויל	
+food_info_types_spices.16	dozeSpices.Variety.Text.16	Horseradish	חזרת	
+food_info_types_spices.17	dozeSpices.Variety.Text.17	Lemongrass	לימונית	
+food_info_types_spices.18	dozeSpices.Variety.Text.18	Marjoram	מיורן	
+food_info_types_spices.19	dozeSpices.Variety.Text.19	Mustard powder	אבקת חרדל	
+food_info_types_spices.2	dozeSpices.Variety.Text.2	Basil	בזיליקום	
+food_info_types_spices.20	dozeSpices.Variety.Text.20	Nutmeg	מוסקט	
+food_info_types_spices.21	dozeSpices.Variety.Text.21	Oregano	אורגנו	
+food_info_types_spices.22	dozeSpices.Variety.Text.22	Smoked paprika	פפריקה מעושנת	
+food_info_types_spices.23	dozeSpices.Variety.Text.23	Parsley	פטרוזיליה	
+food_info_types_spices.24	dozeSpices.Variety.Text.24	Pepper	פלפל	
+food_info_types_spices.25	dozeSpices.Variety.Text.25	Peppermint	מנטה	
+food_info_types_spices.26	dozeSpices.Variety.Text.26	Rosemary	רוזמרין	
+food_info_types_spices.27	dozeSpices.Variety.Text.27	Saffron	זעפרן	
+food_info_types_spices.28	dozeSpices.Variety.Text.28	Sage	מרווה	
+food_info_types_spices.29	dozeSpices.Variety.Text.29	Thyme	טימין	
+food_info_types_spices.3	dozeSpices.Variety.Text.3	Bay leaves	עלי דפנה	
+food_info_types_spices.30	dozeSpices.Variety.Text.30	Turmeric	כורכום	
+food_info_types_spices.31	dozeSpices.Variety.Text.31	Vanilla	וניל	
+food_info_types_spices.4	dozeSpices.Variety.Text.4	Cardamom	הל	
+food_info_types_spices.5	dozeSpices.Variety.Text.5	Chili powder	אבקת צ'ילי	
+food_info_types_spices.6	dozeSpices.Variety.Text.6	Cilantro	כוסברה	
+food_info_types_spices.7	dozeSpices.Variety.Text.7	Cinnamon	קינמון	
+food_info_types_spices.8	dozeSpices.Variety.Text.8	Cloves	ציפורן	
+food_info_types_spices.9	dozeSpices.Variety.Text.9	Coriander	כוסברה	
+spices	dozeSpices.heading	Herbs and Spices	צמחי מרפא ותבלינים	
+food_info_serving_sizes_cruciferous_vegetables_imperial.0	dozeVegetablesCruciferous.Serving.imperial.0	½ cup chopped	1/2 כוס קצוצים	
+food_info_serving_sizes_cruciferous_vegetables_imperial.1	dozeVegetablesCruciferous.Serving.imperial.1	¼ cup Brussels or broccoli sprouts	1/4 כוס כרוב ניצנים או נבטי ברוקולי	
+food_info_serving_sizes_cruciferous_vegetables_imperial.2	dozeVegetablesCruciferous.Serving.imperial.2	1 tablespoon horseradish	כף חזרת	
+food_info_serving_sizes_cruciferous_vegetables_metric.0	dozeVegetablesCruciferous.Serving.metric.0	30–80 g chopped	30-80 גרם קצוצים	
+food_info_serving_sizes_cruciferous_vegetables_metric.1	dozeVegetablesCruciferous.Serving.metric.1	12 g Brussels or broccoli sprouts	12 גרם כרוב ניצנים או נבטי ברוקולי	
+food_info_serving_sizes_cruciferous_vegetables_metric.2	dozeVegetablesCruciferous.Serving.metric.2	1 tablespoon horseradish	כף חזרת	
+food_info_types_cruciferous_vegetables.0	dozeVegetablesCruciferous.Variety.Text.0	Arugula	אורוגולה	
+food_info_types_cruciferous_vegetables.1	dozeVegetablesCruciferous.Variety.Text.1	Bok choy	בוק צ'וי	
+food_info_types_cruciferous_vegetables.10	dozeVegetablesCruciferous.Variety.Text.10	Mustard greens	עלי חרדל	
+food_info_types_cruciferous_vegetables.11	dozeVegetablesCruciferous.Variety.Text.11	Radishes	צנוניות	
+food_info_types_cruciferous_vegetables.12	dozeVegetablesCruciferous.Variety.Text.12	Turnip greens	לפת	
+food_info_types_cruciferous_vegetables.13	dozeVegetablesCruciferous.Variety.Text.13	Watercress	גרגר הנחלים	
+food_info_types_cruciferous_vegetables.2	dozeVegetablesCruciferous.Variety.Text.2	Broccoli (incl. Romanesco)	ברוקולי (כולל רומנסקו)	
+food_info_types_cruciferous_vegetables.3	dozeVegetablesCruciferous.Variety.Text.3	Brussels sprouts	כרוב ניצנים	
+food_info_types_cruciferous_vegetables.4	dozeVegetablesCruciferous.Variety.Text.4	Cabbage (green, red and savoy)	כרוב (ירוק, אדום וסבוי)	
+food_info_types_cruciferous_vegetables.5	dozeVegetablesCruciferous.Variety.Text.5	Cauliflower (white, green, orange and purple)	כרובית (לבנה, ירוקה, כתומה וסגולה)	
+food_info_types_cruciferous_vegetables.6	dozeVegetablesCruciferous.Variety.Text.6	Collard greens	כרוב ירוק	
+food_info_types_cruciferous_vegetables.7	dozeVegetablesCruciferous.Variety.Text.7	Horseradish	חזרת	
+food_info_types_cruciferous_vegetables.8	dozeVegetablesCruciferous.Variety.Text.8	Kale (black, green, and red)	קייל (שחור, ירוק ואדום)	
+food_info_types_cruciferous_vegetables.9	dozeVegetablesCruciferous.Variety.Text.9	Kohlrabi (green and purple)	קולרבי (ירוק וסגול)	
+cruciferous_vegetables	dozeVegetablesCruciferous.heading	Cruciferous Vegetables	ירקות מצליבים	
+food_info_serving_sizes_other_vegetables_imperial.0	dozeVegetablesOther.Serving.imperial.0	1 cup raw leafy vegetables	כוס ירקות עליים טריים	
+food_info_serving_sizes_other_vegetables_imperial.1	dozeVegetablesOther.Serving.imperial.1	½ cup raw or cooked nonleafy vegetables	1/2 כוס ירקות לא עליים טריים או מבושלים	
+food_info_serving_sizes_other_vegetables_imperial.2	dozeVegetablesOther.Serving.imperial.2	½ cup vegetable juice	1/2 כוס מיץ ירקות	
+food_info_serving_sizes_other_vegetables_imperial.3	dozeVegetablesOther.Serving.imperial.3	¼ cup dried mushrooms	1/4 כוס פטריות מיובשות	
+food_info_serving_sizes_other_vegetables_metric.0	dozeVegetablesOther.Serving.metric.0	60 g raw leafy vegetables	60 גרם ירקות עליים טריים	
+food_info_serving_sizes_other_vegetables_metric.1	dozeVegetablesOther.Serving.metric.1	50 g raw or cooked nonleafy vegetables	50 גרם ירקות לא עליים טריים או מבושלים	
+food_info_serving_sizes_other_vegetables_metric.2	dozeVegetablesOther.Serving.metric.2	125 ml vegetable juice	125 מ"ל מיץ ירקות	
+food_info_serving_sizes_other_vegetables_metric.3	dozeVegetablesOther.Serving.metric.3	7 g dried mushrooms	7 גרם פטריות מיובשות	
+food_info_types_other_vegetables.0	dozeVegetablesOther.Variety.Text.0	Artichokes	ארטישוקים	
+food_info_types_other_vegetables.1	dozeVegetablesOther.Variety.Text.1	Asparagus	אספרגוס	
+food_info_types_other_vegetables.10	dozeVegetablesOther.Variety.Text.10	Purple potatoes	תפוחי אדמה סגולים	
+food_info_types_other_vegetables.11	dozeVegetablesOther.Variety.Text.11	Pumpkin	דלעת	
+food_info_types_other_vegetables.12	dozeVegetablesOther.Variety.Text.12	Sea vegetables (arame, dulse, and nori)	צמחי ים (אראמה, דולסה ונורי)	
+food_info_types_other_vegetables.13	dozeVegetablesOther.Variety.Text.13	Snap peas	אפונת סוכר	
+food_info_types_other_vegetables.14	dozeVegetablesOther.Variety.Text.14	Squash (delicata, summer, and spaghetti squash varieties)	סקווש (מעדני קיץ מסקווש וסקווש ספגטי)	
+food_info_types_other_vegetables.15	dozeVegetablesOther.Variety.Text.15	Sweet potatoes/yams	בטטות ויאם	
+food_info_types_other_vegetables.16	dozeVegetablesOther.Variety.Text.16	Tomatoes	עגבניות	
+food_info_types_other_vegetables.17	dozeVegetablesOther.Variety.Text.17	Zucchini	קישוא	
+food_info_types_other_vegetables.2	dozeVegetablesOther.Variety.Text.2	Beets	סלקים	
+food_info_types_other_vegetables.3	dozeVegetablesOther.Variety.Text.3	Bell peppers	גמבה	
+food_info_types_other_vegetables.4	dozeVegetablesOther.Variety.Text.4	Carrots	גזרים	
+food_info_types_other_vegetables.5	dozeVegetablesOther.Variety.Text.5	Corn	תירס	
+food_info_types_other_vegetables.6	dozeVegetablesOther.Variety.Text.6	Garlic	שום	
+food_info_types_other_vegetables.7	dozeVegetablesOther.Variety.Text.7	Mushrooms (button, oyster, portobello, and shiitake)	פטריות (כפתור, אויסטר, פורטובלו ושיטאקה)	
+food_info_types_other_vegetables.8	dozeVegetablesOther.Variety.Text.8	Okra	במיה	
+food_info_types_other_vegetables.9	dozeVegetablesOther.Variety.Text.9	Onions	בצלים	
+other_vegetables	dozeVegetablesOther.heading	Other Vegetables	ירקות אחרים	
+food_info_serving_sizes_whole_grains_imperial.0	dozeWholeGrains.Serving.imperial.0	½ cup hot cereal or cooked grains, pasta, or corn kernels	1/2 כוס דגני בוקר חמים או דגנים מבושלים, פסטה או לבבות תירס	
+food_info_serving_sizes_whole_grains_imperial.1	dozeWholeGrains.Serving.imperial.1	1 cup cold cereal	1 כוס דגני בוקר קרים	
+food_info_serving_sizes_whole_grains_imperial.2	dozeWholeGrains.Serving.imperial.2	1 tortilla or slice of bread	1 טורטיה או פרוסת לחם	
+food_info_serving_sizes_whole_grains_imperial.3	dozeWholeGrains.Serving.imperial.3	½ a bagel or English muffin	1/2 בייגל או מאפין אנגלי	
+food_info_serving_sizes_whole_grains_imperial.4	dozeWholeGrains.Serving.imperial.4	3 cups popped popcorn	3 כוסות פופקורן מוכן	
+food_info_serving_sizes_whole_grains_metric.0	dozeWholeGrains.Serving.metric.0	100 g hot cereal or cooked grains, pasta, or corn kernels	100 גרם דגני בוקר חמים או דגנים מבושלים, פסטה או לבבות תירס	
+food_info_serving_sizes_whole_grains_metric.1	dozeWholeGrains.Serving.metric.1	50 g cold cereal	50 גרם דגני בוקר קרים	
+food_info_serving_sizes_whole_grains_metric.2	dozeWholeGrains.Serving.metric.2	1 tortilla or slice of bread	1 טורטיה או פרוסת לחם	
+food_info_serving_sizes_whole_grains_metric.3	dozeWholeGrains.Serving.metric.3	½ a bagel or English muffin	1/2 בייגל או מאפין אנגלי	
+food_info_serving_sizes_whole_grains_metric.4	dozeWholeGrains.Serving.metric.4	30 g popped popcorn	30 גרם פופקורן מוכן	
+food_info_types_whole_grains.0	dozeWholeGrains.Variety.Text.0	Barley	שעורה	
+food_info_types_whole_grains.1	dozeWholeGrains.Variety.Text.1	Buckwheat	כוסמת	
+food_info_types_whole_grains.2	dozeWholeGrains.Variety.Text.2	Millet	דוחן	
+food_info_types_whole_grains.3	dozeWholeGrains.Variety.Text.3	Oats	שיבולת שועל	
+food_info_types_whole_grains.4	dozeWholeGrains.Variety.Text.4	Popcorn	פופקורן	
+food_info_types_whole_grains.5	dozeWholeGrains.Variety.Text.5	Quinoa	קינואה	
+food_info_types_whole_grains.6	dozeWholeGrains.Variety.Text.6	Rye	שיפון	
+food_info_types_whole_grains.7	dozeWholeGrains.Variety.Text.7	Teff	טף	
+food_info_types_whole_grains.8	dozeWholeGrains.Variety.Text.8	Whole-wheat pasta	פסטה מחיטה מלא	
+whole_grains	dozeWholeGrains.heading	Whole Grains	דגנים מלאים	
+serving_sizes	doze_detail_section_sizes	Serving Sizes	גודלי מנות	
+types	doze_detail_section_types	Types	סוגים	
+servings	doze_entry_header	Servings	מנות	
+	historyRecordDoze.heading	Servings History	הסטוריית המנות	
+	historyRecordDoze.legend	Servings	מנות	
+	historyRecordTweak.heading	Tweaks History	שינויים בהסטוריה	
+tweaks	historyRecordTweak.legend	Tweaks	שינויים	
+weight_history	historyRecordWeight.heading	Weight History	הסטוריית המשקל	
+evening	historyRecordWeight.legendEvening	Evening	ערב	
+morning	historyRecordWeight.legendMorning	Morning	בוקר	
+	historyRecordWeight.titleImperial	Weight (lbs)	משקל (ליברות)	
+	historyRecordWeight.titleMetric	Weight (kg)	משקל (ק"ג)	
+servings_time_scale_choices.0	history_scale_choice_day	Day	יום	Calendar view scale control
+servings_time_scale_choices.1	history_scale_choice_month	Month	חודש	Calendar view scale control
+servings_time_scale_choices.2	history_scale_choice_year	Year	שנה	Calendar view scale control
+time_scale	history_scale_label	Time Scale	סולם זמן	
+about_this_app	info.about.title	About this app	בקשר לאפליקציה זו	
+about	info_app_about	About	לגבי	
+app_name	info_app_about_app_name	Daily Dozen	השניים עשר היומי	'Daily Dozen' application name
+activity_welcome_text	info_app_about_overview	Use this app on a daily basis to keep track of the foods and advice I recommend for optimal health and longevity in my books How Not to Die and How Not to Diet.	השתמשו באפליקציה זו על בסיס יומי כדי לעקוב אחר המזונות והעצות שאני ממליץ עליהן לבריאות ואריכות ימים בצורה אופטימלית בספרים שלי "איך לא למות" ו"איך לא לעשות דיאטה".	
+	info_app_about_version	version 3.2.1	ורסיה 3.2.1	Application release version
+welcome_to_my_daily_dozen	info_app_about_welcome	Welcome to my Daily Dozen!	ברוכים הבאים לתריסר היומי שלי!	
+	info_book_how_not_to_die	Book: How Not to Die	ספר: כיצד לא למות	
+	info_book_how_not_to_die_cookbook	Book: How Not to Die Cookbook	ספר: כיצד לא למות ספר הבישול	
+	info_book_how_not_to_diet	Book: How Not to Diet	ספר: כיצד לא למות	
+daily_dozen_challenge	info_webpage_daily_dozen_challenge	Daily Dozen Challenge	האתגר של התריסר היומי	
+donate	info_webpage_donate	Donate	תירמו	
+open_source	info_webpage_open_source	Open Source	מקור פתוח	
+subscribe	info_webpage_subscribe	Subscribe	הירשמו	
+latest_videos	info_webpage_videos_latest	Latest Videos	הסרטונים האחרונים	
+servings_all	item_history_completed_all	All servings	כל המנות	
+servings_some	item_history_completed_some	Some servings	חלק מהמנות	
+history	item_history_heading	History	הסטוריה	
+	navtab.doze	Daily Dozen	התריסר היומי	
+	navtab.info	Information	מידע	
+	navtab.preferences	Preferences	העדפות	
+	navtab.tweaks	21 Tweaks	21 שינויים	
+vitamin_b12	otherVitaminB12.heading	Vitamin B12	ויטמין B12	
+daily_reminder_text	reminder.alert.text	Update your servings for today	עדכנו את המנות שלכם להיום	Alert notification text
+	reminder.heading	Daily Reminder	תזכורת יומית	
+	reminder.settings.enable	Enable Reminders	אפשר תזכורות	
+	reminder.settings.enable	Enable Reminders	אפשר תזכורות	On/Off toggle label
+play_sound	reminder.settings.sound	Play Sound	השמעת צליל	
+remind_me_at	reminder.settings.time	Remind me at:	הזכר לי ב:	
+vibrate	reminder.settings.vibrate	Vibrate	רטט	Android notification `vibrate`
+	reminder.state.off	Off	סגור	'Off' as in 'On or Off', reminder is not enabled
+	reminder.state.on	On	פתוח	'On' as in 'On or Off'
+daily_dozen_only	setting_doze_only_btn	Daily Dozen Only	התריסר היומי בלבד	
+daily_dozen_only	setting_doze_only_choice	Daily Dozen Only	התריסר היומי בלבד	
+daily_dozen_and_tweaks	setting_doze_tweak_btn	Daily Dozen + 21 Tweaks	התריסר היומי + 21 כוונונים	
+daily_dozen_and_tweaks	setting_doze_tweak_choice	Daily Dozen + 21 Tweak	התריסר היומי +  21 כיוונונים	
+	setting_doze_tweak_footer	For health alone, use "Daily Dozen Only". For health and weight loss use "Daily Dozen + 21 Tweaks".	לבריאות בלבד, השתמשו ב"תריסר היומי" בלבד ". לבריאות וירידה במשקל השתמשו ב- "תריסר היומי + 21 כיוונונים".	
+for_health_alone	setting_health_alone_txt	For Health Alone	עבור בריאות בלבד	
+for_health_and_weight_loss	setting_health_weight_txt	For Health and Weight Loss	עבור בריאות והורדה במשקל	
+	setting_tweak_header	21 Tweak Visibility	ניראות של 21 הכיוונונים	
+	setting_units_0_imperial	Imperial	אימפריאלי	Part of "Imperial/Metric/Toggle Units" selector
+	setting_units_1_metric	Metric	מטרי	Part of "Imperial/Metric/Toggle Units" selector
+	setting_units_2_toggle	Toggle Units	שינוי מצב היחידות	Part of "Imperial/Metric/Toggle Units" selector
+	setting_units_choice_footer	Set to always be one unit type or enable the 'Units:' toggle button.	הגדירו תמיד סוג יחידה אחד או הפעילו את לחצן ההחלפה 'יחידות:'.	
+	setting_units_header	Measurement Units	יחידות מדידה	
+	setting_util_advanced	Advanced Utilities	כלי עזר מתקדמים	
+format_num_days	streakDaysFormat	%d days	%d ימים	Formatted string %d days
+complete_intentions	tweakCompleteIntentions.heading	Complete Your Implementation Intentions	כל חודשיים, צור שלוש כוונות יישום חדשות - "אם X, אז Y" מתכנן לבצע התנהגות מסוימת בהקשר ספציפי - ובדוק כל אחת מהן כאשר אתה משלים אותן מדי יום.	
+complete_intentions_short	tweakCompleteIntentions.short	Complete Your Implementation Intentions		
+complete_intentions_text	tweakCompleteIntentions.text	Every two months, create three new implementation intentions—"if X, then Y" plans to perform a particular behavior in a specific context—and check each one of them off as you complete them every day.	כל חודשיים, צרו שלוש כוונות יישום חדשות - "אם X, אז Y" לקידום התנהגות מסוימת בהקשר ספציפי - וסמנו כל אחת מהן כאשר אתם משלימים אותן מדי יום.	
+daily_blackcumin	tweakDailyBlackCumin.heading	Black Cumin (¼ tsp)	כמון שחור (1/4 כפית)	
+daily_blackcumin_short	tweakDailyBlackCumin.short	Black Cumin (Nigella sativa) (¼ tsp)	כמון שחור (1/4 כפית)	
+daily_blackcumin_text	tweakDailyBlackCumin.text	As noted in the Appetite Suppression section, a systematic review and meta-analysis of randomized, controlled weight-loss trials found that about a quarter teaspoon of black cumin powder every day appears to reduce body mass index within a span of a couple of months. Note that black cumin is different from regular cumin, for which the dosing is different.	כפי שצוין בסעיף דיכוי התיאבון, סקירה שיטתית ומטא-אנליזה של ניסויים אקראיים ומבוקרים לירידה במשקל מצאו כי כרבע כפית אבקת כמון שחורה מדי יום מורידה את מדד מסת הגוף בתוך טווח של מספר חודשים. שימו לב שכמון שחור שונה מכמון רגיל, שהמינון שלו שונה.	
+daily_cumin	tweakDailyCumin.heading	Cumin (½ tsp with lunch and dinner)	כמון (1/2 כפית עם ארוחות צהריים וערב)	
+daily_cumin_short	tweakDailyCumin.short	Cumin (Cuminum cyminum) (½ tsp with lunch and dinner)	כמון (1/2 כפית עם ארוחות צהריים וערב)	
+daily_cumin_text	tweakDailyCumin.text	Overweight women randomized to add a half teaspoon of cumin to their lunches and dinners beat out the control group by four more pounds and an extra inch off their waists. There is also evidence to support the use of the spice saffron, but a pinch a day would cost a dollar, whereas a teaspoon of cumin costs less than ten cents.	נשים הסובלות מעודף משקל הוסיפו באקראי להוסיף חצי כפית כמון לארוחות הצהריים והערב שלהן והביסו את קבוצת הביקורת בארבעה קילוגרמים נוספים וב-2.5 סמ"ר נוספים מהמותניים שלהן. ישנן גם עדויות התומכות בשימוש בזעפרן, אך קמצוץ ביום יעלה 4 שקלים, בעוד שכפית כמון עולה פחות מ-30 אגורות.	
+daily_deflourdiet	tweakDailyDeflourDiet.heading	Deflour Your Diet	טירפו את התזונה שלכם	
+daily_deflourdiet_short	tweakDailyDeflourDiet.short	Deflour Your Diet	טירפו את התזונה שלכם	
+daily_deflourdiet_text	tweakDailyDeflourDiet.text	Check this box every day your whole grain servings are in the form of intact grains. The powdering of even 100 percent whole grains robs our microbiomes of the starch that would otherwise be ferried down to our colons enclosed in unbroken cell walls.	סמנו תיבה זו בכל יום בו מנות הדגנים המלאות שלכם הן בצורת דגנים שלמים. האבקה של אפילו 100% דגנים מלאים שודדת את המיקרוביומים שלנו מהעמילן שאחרת היה יורד אל המעי הגס שלנו שהיה סגור בדפנות תאים בלתי עבירות.	
+daily_frontload	tweakDailyFrontLoad.heading	Front-Load Your Calories	חזית- טענו את הקלוריות שלכם	
+daily_frontload_short	tweakDailyFrontLoad.short	Front-Load Your Calories	חזית- טענו את הקלוריות שלכם	
+daily_frontload_text	tweakDailyFrontLoad.text	There are metabolic benefits to distributing more calories to earlier in the day, so make breakfast (ideally) or lunch your largest meal of the day in true king/prince/pauper style.	יש יתרונות מטבוליים לצריכת קלוריות מוקדם יותר ביום, לכן הפכו את ארוחת הבוקר (באופן אידיאלי) או ארוחת הצהריים לארוחה הגדולה ביותר ביום בסגנון מלך/נסיך/עני	
+daily_garlic	tweakDailyGarlic.heading	Garlic Powder (¼ tsp)	אבקת שום (1/4 כפית)	
+daily_garlic_short	tweakDailyGarlic.short	Garlic Powder (¼ tsp)	אבקת שום (1/4 כפית)	
+daily_garlic_text	tweakDailyGarlic.text	Randomized, double-blind, placebo-controlled studies have found that as little as a daily quarter teaspoon of garlic powder can reduce body fat at a cost of perhaps two cents a day.	מחקרים אקראיים, כפולי סמיות, מבוקרי פלסבו, מצאו שכרבע כפית אבקת שום ביום בלבד יכולה להפחית את שומן הגוף במחיר של כ-8 אגורות ביום.	
+daily_ginger	tweakDailyGinger.heading	Ground Ginger (1 tsp) or Cayenne Pepper (½ tsp)	זנגויל טחון (1 כפית) או פלפל קאיין (1/2 כפית)	
+daily_ginger_short	tweakDailyGinger.short	Ground Ginger (1 tsp) or Cayenne Pepper (½ tsp)	זנגויל טחון (1 כפית) או פלפל קאיין (1/2 כפית)	
+daily_ginger_text	tweakDailyGinger.text	Randomized controlled trials have found that ¼ teaspoon to 1½ teaspoons a day of ground ginger significantly decreased body weight for just pennies a day. It can be as easy as stirring the ground spice into a cup of hot water. Note: Ginger may work better in the morning than evening. Chai tea is a tasty way to combine the green tea and ginger tricks into a single beverage. Alternately, for BAT activation, you can add one raw jalapeño pepper or a half teaspoon of red pepper powder (or, presumably, crushed red pepper flakes) into your daily diet. To help beat the heat, you can very thinly slice or finely chop the jalapeño to reduce its bite to little prickles, or mix the red pepper into soup or the whole-food vegetable smoothie I featured in one of my cooking videos on NutritionFacts.org.	ניסויים מבוקרים אקראיים מצאו כי ¼ כפית עד 1.5 כפיות ביום של זנגויל טחון הורידה משמעותית את משקל הגוף בפרוטות בלבד ביום. זה יכול להיות קל כמו ערבוב התבלין הטחון בכוס מים חמים. הערה: זנגויל עשוי לעבוד טוב יותר בבוקר מאשר בערב. תה צ'אי הוא דרך טעימה לשלב את התה הירוק ויכולות הזנגויל למשקה אחד. לחלופין, להפעלת BAT, ניתן להוסיף לתפריט היומי שלכם פלפל ירוק חריף גולמי או חצי כפית אבקת פלפל אדום (או, ככל הנראה, פתיתי פלפל אדום כתוש). כדי לעזור להתמודד עם החום, אתם יכולים לפרוס דק מאוד או לקצוץ את הפלפל הירוק החריף כדי לצמצם את הנגיסות לכמויות קטנות, או לערבב את הפלפל האדום במרק או שייק הירקות מכל האוכל שהצגתי באחד מסרטי הבישול שלי ב- NutritionFacts.org .	
+daily_greentea	tweakDailyGreenTea.heading	Green Tea (3 cups)	תה ירוק (3 כוסות)	
+daily_greentea_short	tweakDailyGreenTea.short	Green Tea (3 cups)	תה ירוק (3 כוסות)	
+daily_greentea_text	tweakDailyGreenTea.text	Drink three cups a day between meals (waiting at least an hour after a meal so as to not interfere with iron absorption). During meals, drink water, black coffee, or hibiscus tea mixed 6:1 with lemon verbena, but never exceed three cups of fluid an hour (important given my water preloading advice). Take advantage of the reinforcing effect of caffeine by drinking your green tea along with something healthy you wish you liked more, but don\'t consume large amounts of caffeine within six hours of bedtime. Taking your tea without sweetener is best, but if you typically sweeten your tea with honey or sugar, try yacon syrup instead.	שתו שלוש כוסות ביום בין הארוחות (המתינו לפחות שעה לאחר הארוחה כדי לא להפריע לספיגת הברזל). במהלך הארוחות, יש לשתות מים, קפה שחור או תה היביסקוס מעורבב 6: 1 עם לימון ורבנה, אך לעולם אל תישתו יותר משלוש כוסות נוזל בשעה (חשוב בהתחשב בעצותי לטעינת מים מראש). נצלו את האפקט המחזק של הקפאין על ידי שתיית התה הירוק שלכם יחד עם משהו בריא שהייתם רוצים לאהוב יותר, אך אל תצרכו כמויות גדולות של קפאין שש שעות לפני השינה. עדיף לשתות את התה  ללא ממתיק, אך אם אתם ממתיקים את התה בדבש או בסוכר, נסה במקום זאת סירופ יאקון.	
+daily_hydrate	tweakDailyHydrate.heading	Stay Hydrated	שתו מספיק	
+daily_hydrate_short	tweakDailyHydrate.short	Stay Hydrated	שתו מספיק	
+daily_hydrate_text	tweakDailyHydrate.text	Check this box if your urine never appears darker than a pale yellow. Note that if you\'re eating riboflavin-fortified foods (such as nutritional yeast), then base this instead on getting nine cups of unsweetened beverages a day for women (which would be taken care of by the green tea and water preloading recommendations) or thirteen cups a day for men. If you have heart or kidney issues, don\'t increase fluid intake at all without first talking with your physician. Remember, diet soda may be calorie-free, but it\'s not consequence-free, as we learned in the Low in Added Sugar section.	סמנו תיבה זו אם השתן שלכם אף פעם לא נראה כהה יותר מאשר צהוב בהיר. שימו לב שאם אתם אוכלים מזונות מועשרים בריבופלבין (כגון שמרים תזונתיים), אז הסתמכו במקום זאת על  שתיית 9 כוסות של משקאות לא ממותקים ביום לנשים (שיושגו ע"י ההמלצות לשתיה של תה ירוק ומים), או 13 כוסות ביום לגברים. אם אתם סובלים מבעיות לב או כליות, אל תגדילו כלל את צריכת הנוזלים מבלי לדבר תחילה עם רופאכם. זכרו, סודה לדיאטה עשויה להיות נטולת קלוריות, אך היא אינה נטולת תוצאות, כפי שלמדנו בסעיף על סוכר נמוך.	
+daily_nutriyeast	tweakDailyNutriYeast.heading	Nutritional Yeast (2 tsp)	שמרי בירה (2 כפיות)	
+daily_nutriyeast_short	tweakDailyNutriYeast.short	Nutritional Yeast (2 tsp)	שמרי בירה (2 כפיות)	
+daily_nutriyeast_text	tweakDailyNutriYeast.text	Two teaspoons of baker\'s, brewer\'s, or nutritional yeast contains roughly the amount of beta 1,3/1,6 glucans found in randomized, double-blind, placebo-controlled clinical trials to facilitate weight loss.	שתי כפיות של שמרי אופים, בירה או  תזונתיים מכילות בערך את כמות הבטא 1,3/1,6 גלוקנים שנמצאו בניסויים קליניים אקראיים, כפולי סמיות, מבוקרי פלסבו, כמקלים על ירידה במשקל.	
+daily_timerestrict	tweakDailyTimeRestrict.heading	Time-Restrict Your Eating	הגבלת זמן האכילה שלכם	
+daily_timerestrict_short	tweakDailyTimeRestrict.short	Time-Restrict Your Eating	הגבלת זמן האכילה שלכם	
+daily_timerestrict_text	tweakDailyTimeRestrict.text	Confine eating to a daily window of time of your choosing under twelve hours in length that you can stick to consistently, seven days a week. Given the circadian benefits of reducing evening food intake, the window should end before 7:00 p.m.	הגדירו חלון אכילה יומי לבחירכם של פחות מ-12 שעות שאתם יכולים להצמד אליו בעקביות, שבעה ימים בשבוע. בהתחשב ביתרונות השעון הביולוגי להפחתת אכילה בלילה, חלון האכילה צריך להסתיים ב-19:00.	
+exercise_timing	tweakExerciseTiming.heading	Optimize Exercise Timing	יעלו את זמן הספורט	
+exercise_timing_short	tweakExerciseTiming.short	Optimize Exercise Timing	יעלו את זמן הספורט	
+exercise_timing_text	tweakExerciseTiming.text	The Daily Dozen\'s recommendation for optimum exercise duration for longevity is ninety minutes of moderately intense activity a day, which is also the optimum exercise duration for weight loss. Anytime is good, and the more, the better, but there may be an advantage to exercising in a fasted state, at least six hours after your last meal. Typically, this would mean before breakfast, but if you timed it right, you could exercise midday before a late lunch or, if lunch is eaten early enough, before dinner. This is the timing for nondiabetics. Diabetics and prediabetics should instead start exercising thirty minutes after the start of a meal and ideally go for at least an hour to completely straddle the blood sugar peak. If you had to choose a single meal to exercise after, it would be dinner, due to the circadian rhythm of blood sugar control that wanes throughout the day. Ideally, though, breakfast would be the largest meal of the day, and you\'d exercise after that—or, even better, after every meal.	ההמלצה של The Daily Dozen למשך זמן האימון האופטימלי לאורך החיים היא תשעים דקות של פעילות אינטנסיבית בינונית ביום, שהיא גם משך האימון האופטימלי לירידה במשקל. בכל עת טוב, וככל שיותר, יותר טוב, אך יתכן שיש יתרון לפעילות גופנית בצום, לפחות שש שעות לאחר הארוחה האחרונה שלך. בדרך כלל זה אומר לפני ארוחת הבוקר, אבל אם תזמנתם את זה נכון, תוכלו להתאמן בצהריים לפני ארוחת צהריים מאוחרת או, אם ארוחת הצהריים נאכלת מוקדם מספיק, לפני ארוחת הערב. זהו העיתוי לשאינם חולי סוכרת. חולי סוכרת וטרום חולי סוכרת צריכים במקום זאת להתחיל להתאמן שלושים דקות לאחר תחילת הארוחה ולפנות לכך באופן אידיאלי לפחות שעה כדי לחצות את שיא הסוכר בדם. אם הייתם צריכים לבחור ארוחה אחת שתתאמנו אחריה, זו תהיה ארוחת ערב, בגלל קצב השעון הביולוגי ששליטתו ברמת הסוכר בדם דועכת לאורך כל היום. אך באופן אידיאלי, ארוחת הבוקר תהיה הארוחה הגדולה ביותר ביום, ואימון לאחר מכן - או, אפילו יותר טוב, אחרי כל ארוחה.	
+meal_twentyminutes	tweakMeal20Minutes.heading	Follow the Twenty-Minute Rule	עיקבו אחר חוק 20 הדקות	
+meal_twentyminutes_short	tweakMeal20Minutes.short	Follow the Twenty-Minute Rule	עיקבו אחר חוק 20 הדקות	
+meal_twentyminutes_text	tweakMeal20Minutes.text	Whether through increasing viscosity or the number of chews, or decreasing bite size and eating rate, dozens of studies have demonstrated that no matter how we boost the amount of time food is in our mouths, it can result in lower caloric intake. So extend meal duration to at least twenty minutes to allow your natural satiety signals to take full effect. How? By choosing foods that take longer to eat and eating them in a way that prolongs the time they stay in your mouth. Think bulkier, hardier, chewier foods in smaller, well-chewed bites.	בין אם העלאת הצמיגות או כמות הלעיסות, או הקטנת גודל הנשיכה וקצב האכילה, עשרות מחקרים הוכיחו שאין זה משנה כמה אנו מגבירים את משך הזמן שהמזון נמצא בפינו, זה יכול להסתכם בכמות קלוריות קטנה יותר. אז האריכו את משך הארוחה לפחות ל-20 דקות כדי לאפשר לאיתותי השובע הטבעי להגיע למלוא השפעתם. כיצד? ע"י בחירת מאכלים שלוקח זמן רב יותר לאכול ולאוכלם בדרך שמאריכה את הזמן שהם נשארים בפיכם. חישבו נפוח יותר, קשה יותר, לעיסים יותר בנשיכות קטנות ולעוסות היטב.	
+meal_negcal	tweakMealNegCal.heading	Preload with "Negative Calorie" Foods	טענו מראש עם מזונות עם "קלוריות שליליות"	
+meal_negcal_short	tweakMealNegCal.short	Preload with "Negative Calorie" Foods	טענו מראש עם מזונות עם "קלוריות שליליות"	
+meal_negcal_text	tweakMealNegCal.text	As the first course, start each meal with an apple or a Green Light soup or salad containing fewer than one hundred calories per cup.	כמנה ראשונה, התחילו כל ארוחה בתפוח או מרק ירוק או סלט המכיל פחות ממאה קלוריות לכוס.	
+meal_undistracted	tweakMealUndistracted.heading	Enjoy Undistracted Meals	תהנו מארוחות ללא הפרעה	
+meal_undistracted_short	tweakMealUndistracted.short	Enjoy Undistracted Meals	תהנו מארוחות ללא הפרעה	
+meal_undistracted_text	tweakMealUndistracted.text	Don\'t eat while watching TV or playing on your phone. Give yourself a check for each meal you\'re able to eat without distraction.	אל תאכלו תוך כדי צפיה בטלויזיה או תוך כדי משחק בפלאפון. תנו לעצמכם צ'ק על כל פעם הצלחתם לאכול ללא הפרעות	
+meal_vinegar	tweakMealVinegar.heading	Incorporate Vinegar (2 tsp with each meal)	שלבו חומץ (2 כפיות בכל ארוחה)	
+meal_vinegar_short	tweakMealVinegar.short	Incorporate Vinegar (2 tsp with each meal)	שלבו חומץ (2 כפיות בכל ארוחה)	
+meal_vinegar_text	tweakMealVinegar.text	Never drink vinegar straight. Instead, flavor meals or dress a side salad with any of the sweet and savory vinegars out there. If you want to drink it, make sure to mix it in a glass of water and, afterward, be sure to rinse your mouth out with water to protect your tooth enamel.	לעולם אל תישתו חומץ ישירות. במקום זה, הוסיפו טעם לארוחות או הכינו מטבל לסלט עם כל חומץ מתוק וערב לחיך שיש לכם. אם תירצו לשתות אותו, אל תשכחו לערבב אותו בכוס מים ולאחר ששתיתם יש לשטוף את הפה במים כדי למנוע פגיעה באמייל השן	
+meal_water	tweakMealWater.heading	Preload with Water	הטענו מראש עם מים	
+meal_water_short	tweakMealWater.short	Preload with Water	הטענו מראש עם מים	
+meal_water_text	tweakMealWater.text	Time your metabolism-boosting two cups of cool or cold unflavored water before each meal to also take advantage of its preload benefits.	זמנו את חילוף החומרים שלכם- שתי כוסות מים קרירים או קרים ללא טעמים לפני כל ארוחה כדי ליהנות גם מיתרונות הלקיחה המוקדמת שלהם.	
+nightly_fast	tweakNightlyFast.heading	Fast After 7:00 pm	צומו לאחר 19:00	
+nightly_fast_short	tweakNightlyFast.short	Fast After 7:00 p.m.	צומו לאחר 19:00	
+nightly_fast_text	tweakNightlyFast.text	Due to our circadian rhythms, food eaten at night is more fattening than the exact same food eaten earlier in the day, so fast every night for at least twelve hours starting before 7:00 p.m. The fewer calories after sundown, the better.	בשל מקצבי היממה שלנו, אוכל שנאכל בלילה משמין יותר מאותו אוכל בדיוק שנאכל מוקדם יותר ביום, אז צומו כל לילה במשך שתים עשרה שעות לפחות החל מהשעה 19:00. כמה שפחות קלוריות אחרי השקיעה, כך ייטב.	
+nightly_sleep	tweakNightlySleep.heading	Get Sufficient Sleep	קבלו שינה מספיקה	
+nightly_sleep_short	tweakNightlySleep.short	Get Sufficient Sleep	קבלו שינה מספיקה	
+nightly_sleep_text	tweakNightlySleep.text	Check this box if you get at least seven hours of sleep at your regular bedtime.	סמנו תיבה זו אם אתם ישנים לפחות 7 שעות שינה בזמן השינה הרגיל שלכם	
+nightly_trendelenburg	tweakNightlyTrendelenbrug.heading	Experiment with Mild Trendelenburg	התנסו ב-Trendelenburg מתון	
+nightly_trendelenburg_short	tweakNightlyTrendelenbrug.short	Experiment with Mild Trendelenburg	התנסו ב-Trendelenburg מתון	
+nightly_trendelenburg_text	tweakNightlyTrendelenbrug.text	Try spending at least four hours a night lying with your body tilted head-down six degrees by elevating the posts at the foot of your bed by eight inches (or by nine inches if you have a California king). Be extremely careful when you get out of bed, as this causes orthostatic intolerance in most people, even if you\'re young and healthy—meaning if you get up too fast, you can feel dizzy, faint, or light-headed and could fall and hurt yourself. So get up slowly. Drinking two cups of cold water thirty minutes before rising may also help prevent this potentially hazardous side effect.\n*IMPORTANT: Do not try this at home at all if you have any heart or lung issues, acid reflux, or problems with your brain (like head trauma) or eyes (even a family history of glaucoma disqualifies you). Also do not try this until you ask your physician if they think it\'s safe for you to sleep in mild Trendelenburg.*	נסו להקדיש לפחות ארבע שעות בלילה בשכיבה כשגופכם מוטה ראש כלפי מטה שש מעלות על ידי הרמת העמודים למרגלות המיטה בשמונה סנטימטרים (או תשעה סנטימטרים אם יש לכם California king). היזהרו במיוחד כאשר אתo קמים מהמיטה, מכיוון שזה גורם לחוסר סובלנות אורתוסטטית אצל רוב האנשים, גם אם אתם צעירים ובריאים-כלומר אם אתם קמים מהר מדי, אתם יכולים להרגיש סחרחורת, חולשה או ראש קל ועלולים ליפול ולפגוע בעצמכם. אז קומו לאט. שתיית שתי כוסות מים קרים שלושים דקות לפני העלייה עשויה לסייע גם במניעת תופעת לוואי שעלולה להיות מסוכנת. *חשוב: אל תנסו זאת בבית כלל אם יש לכם בעיות לב או ריאה, ריפלוקס חומצי או בעיות במוח (כמו טראומת ראש) או עיניים (אפילו היסטוריה משפחתית של גלאוקומה פוסלת אתכם). גם אל תנסו את זה עד שתשאלו את הרופא שלכם אם הוא חושב שזה בטוח לכם לישון בטרנדלנבורג מתון*	
+weigh_twice	tweakWeightTwice.heading	Weigh Yourself Twice a Day	שיקלו את עצמכם פעמיים ביום	
+weigh_twice_short	tweakWeightTwice.short	Weigh Yourself Twice a Day	שיקלו את עצמכם פעמיים ביום	
+weigh_twice_text	tweakWeightTwice.text	Regular self-weighing is considered crucial for long-term weight control, but there is insufficient evidence to support a specific frequency of weighing. My recommendation is based on the one study that found that twice daily—upon waking and right before bed—appeared superior to once a day (about six versus two pounds of weight loss over twelve weeks).	שקילה עצמית סדירה נחשבת מכרעת לבקרת משקל ארוכת טווח, אך אין מספיק הוכחות לתמיכה בתדירות שקילה מסוימת. ההמלצה שלי מבוססת על המחקר האחד שמצא כי פעמיים ביום - כשמתעוררים ומיד לפני השינה - נראית עדיפה על פעם ביום (כששה לעומת שני קילוגרמים של ירידה במשקל במשך שנים עשר שבועות).	
+	tweak_detail_section_activity	Activity	פעילות	
+	tweak_detail_section_description	Description	תיאור	
+twenty_one_tweaks	tweak_entry_header	21 Tweaks	21 כוונונים	
+imperial	unitToggle.imperial	imperial	קיסרי	
+metric	unitToggle.metric	metric	מטרי	
+units	units_label	Units:	יחידות:	
+videos	videos.link.label	VIDEOS	סרטונים	Keyword for link to video topics
+weight	weightEntry.heading	Weight	משקל	
+	weight_entry_clear	Clear	נקה	
+	weight_entry_evening	Evening (right before bed)	ערב (מיד לפני השינה)	
+	weight_entry_morning	Morning (upon waking)	בוקר (בזמן הליכה)	
+	weight_entry_time	Time	זמן	
+	weight_entry_units_kg	kg	ק"ג	
+	weight_entry_units_lbs	lbs	ליברות	
+	weight_history_edit_data	Edit Data	עריכת נתונים	
+about_tweak		About Tweak	לגבי שינוי	
+android.about_text_lines.0		This app was created by John Slavick.	אפליקציה זו נוצרה ע"י ג'והן סלביק	
+android.about_text_lines.1		The following open source libraries are used: ActiveAndroid, android-iconify, ButterKnife, EventBus, LikeAnimation, and MPAndroidChart.	נעשה שימוש בספריות הקוד הפתוחות הבאות: ActiveAndroid, android-iconify, ButterKnife, EventBus, LikeAnimation ו- MPAndroidChart.	
+android.about_text_lines.2		Special thanks to the volunteer efforts of the creators of the previous app: Chan Kruse, Allan Portera, and Sangeeta Kumar."	תודה מיוחדת למאמצי ההתנדבות של יוצרי האפליקציה הקודמת: צ'אן קרוזה, אלן פורטרה וסנג'טה קומאר ".	
+average_weight_on_day		Average weight on day	המשקל הממוצע ביום	
+backup		Backup	גיבוי	
+backup_failed		Backup failed	הגיבוי נכשל	
+backup_instructions_lines.0		Follow these steps to restore this backup in the Daily Dozen app	בצע את השלבים הבאים כדי לשחזר גיבוי זה באפליקציית "התריסר היומי"	
+backup_instructions_lines.1				
+backup_instructions_lines.2		1. The Daily Dozen app must be installed on your Android phone. You can download it here: https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen	1. יש להתקין את אפליקציית Daily Dozen בטלפון Android שלכם. אתם יכולים להוריד אותה כאן: https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen	
+backup_instructions_lines.3				
+backup_instructions_lines.4		2. Tap on the backup file attached to this email.	2. הקישו על קובץ הגיבוי המצורף לדוא"ל זה.	
+backup_instructions_lines.5				
+backup_instructions_lines.6		3. Select Open with Daily Dozen	3. בחרו פתח עם תריסר יומי	
+backup_success		Backup successful	גיבוי מוצלח	
+channel_reminders_name		Reminders	תזכורות	
+daily_reminder_settings		Daily Reminder Settings	הגדרות תזכורת יומית	a reminder that is triggered every day
+daily_reminder_title		Daily Dozen Reminder	תזכורת יומית של התריסר היומי	
+daily_servings_history		Daily Servings History	היסטוריית מנות יומית	
+daily_tweaks_history		Daily Tweaks History	הסטוריית שינויים יומית	
+debug		Debug	לנפות	
+debug_clear_data		Clear all data	נקו את כל הנתונים	
+debug_clear_data_message		This will delete all entered Servings. Do you wish to continue?	פעולה זו תמחק את כל המנות שהוזנו. האם אתם רוצים להמשיך?	
+debug_generate_data_message		All existing data will be replaced. Do you wish to continue?	כל הנתונים הקיימים יוחלפו. האם אתם רוצים להמשיך?	
+debug_generate_full_data		Generate full data	יצירת נתונים מלאים	
+debug_generate_random_data		Generate random data	יצירת נתונים אקראיים	
+debug_generate_weight_data		Generate Weight Data	יצירת נתוני משקל	
+dialog_ask_user_to_rate_app_message		Please give us feedback in the Play Store.	אנא תנו לנו משוב בחנות Play.	
+dialog_ask_user_to_rate_app_title		Do you like this app?	האם אתם אוהבים את האפליקציה הזו?	
+dialog_no_email_apps_message		Backing up your data requires you to have an email app installed so you can email the .csv backup file to yourself. Please install an email app and try again.	גיבוי הנתונים שלכם מחייב התקנת יישום דוא"ל כדי שתוכלו לשלוח לעצמכם את קובץ הגיבוי .csv בדוא"ל. התקן יישום דוא"ל ונסה שוב.	
+dialog_no_email_apps_title		No email apps found	לא נמצאה אפליקציית email	
+dialog_streaks_message		Your database will now be upgraded to support the new progress feature.	מסד הנתונים שלכם ישודרג כעת לתמיכה בתכונת ההתקדמות החדשה.	
+dialog_streaks_title		New progress feature added!	נוספה תכונת התקדמות חדשה!	
+enable_daily_reminder		Enable Daily Reminders	אפשר תזכורות יומיות	On/Off toggle label
+error_cannot_handle_url		Could not open url. Please install a browser.	לא ניתן היה לפתוח את כתובת האתר. אנא התקן דפדפן.	
+food_history		Food History	הסטוריית המזון	
+food_info		Food Info	מידע על מזון	
+format_num_days		%d days	%d ימים	Formatted string %d days
+format_version		version %s	יצירת הסטוריה	
+history_to_generate		History to Generate	היסטוריה לייצוא	
+history_to_generate_choices.0		1 month	חודש 1	
+history_to_generate_choices.1		3 months	3 חודשים	
+history_to_generate_choices.2		6 months	6 חודשים	
+history_to_generate_choices.3		1 year	שנה אחת	
+history_to_generate_choices.4		2 years	שנתיים	
+history_to_generate_choices.5		5 years	5 שנים	
+imperial		imperial	אמפריאלי	
+metric		metric	מטרי	
+moving_average		Moving Average	ממוצע נע	
+no		No	לא	
+no_servings_recorded		You have not recorded any servings yet!	טרם תעדתם מנה כלשהי!	
+no_weights_recorded		You have not recorded any weights yet!	טרם תעדתם משקל כלשהו!	
+not_now		Not Now	לא עכשיו	
+out_of		out of	מתוך	Part of "0 out of 24"
+permission_needed_to_write_storage		Can\'t backup without permission to write to storage	לא ניתן לגבות ללא הרשאה לכתיבה לאחסון	
+rate_now		Give Feedback	תנו משוב	
+restore_confirm_message		Any existing data will be deleted before restoring from backup. Do you wish to continue?	כל הנתונים הקיימים יימחקו לפני שחזורם מהגיבוי. האם אתם רוצים להמשיך?	
+restore_confirm_title		Restore Backup	שחזרו גיבוי	
+restore_failed		Restore failed	שיחזור נכשל	
+restore_success		Restore successful	השחזור הצליח	
+task_backup_title		Backing up	מגבה	
+task_calculating_streaks_title		Calculating progress	מחשב התקדמות	
+task_generating_random_data		Generating random data	מייצר מידע אקראי	
+task_loading_servings_history_title		Loading Servings History	טוען הסטוריית מנות	
+task_loading_weights_history_title		Loading Weights History	טוען הסטוריי משקלים	
+task_restore_title		Restoring	מאחסן	
+title_cookbook		Cookbook	ספר בישול	
+title_how_not_to_die		How Not to Die	כיצד לא למות	
+title_how_not_to_diet		How Not to Diet	כיצד לא לרזות	
+tweak_group_daily		Every Day	כל יום	
+tweak_group_dailydoses		Take your daily doses	קחו את המנות היומיות שלכם	
+tweak_group_meal		At Each Meal	בכל ארוחה	
+tweak_group_nightly		Every Night	כל לילה	
+yes		Yes	כן	
