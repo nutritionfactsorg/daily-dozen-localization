@@ -39,7 +39,7 @@ struct BatchImport {
         // 2. Process Apple JSON Files
         if let appleXmlUrl = outputApple {
             _jsonProcessor = JsonFromTsvProcessor(xliffUrl: appleXmlUrl)
-            _jsonProcessor.processTsvToJson(lookupTable: _tsvImportSheet.getLookupDictApple())
+            _jsonProcessor.processTsvToJson(tsvSheet: _tsvImportSheet)
             _jsonProcessor.writeJsonFiles()
         }
         
@@ -62,9 +62,13 @@ struct BatchImport {
             let droidXmlUrl = outputAndroid,
             let droidXmlDocument = try? XMLDocument(contentsOf: droidXmlUrl, options: [.nodePreserveAll, .nodePreserveWhitespace]) {
             droidXmlDocument.version = nil // remove <?xml version="1.0"?> from output
-            _xmlProcessor = XmlFromTsvProcessor(lookupTable: _tsvImportSheet.getLookupDictAndroid())
+            let lookupTable: [String: String] = _tsvImportSheet.getLookupDictAndroid()
+            _xmlProcessor = XmlFromTsvProcessor(lookupTable: lookupTable)
+            let droidXmlOutputUrl = droidXmlUrl
+                .deletingPathExtension()
+                .appendingPathExtension("\(Date.datestampyyyyMMddHHmm).xml")
             _xmlProcessor.processXmlFromTsv(
-                droidXmlUrl: droidXmlUrl, 
+                droidXmlOutputUrl: droidXmlOutputUrl, 
                 droidXmlDocument: droidXmlDocument
             )
             // file writing included in `processXmlFromTsv(…)`

@@ -9,8 +9,8 @@ struct BatchNormal {
  
     static var shared = BatchNormal()
     
-    // 
-    func doNormalize(sourceStrings: [URL], dir: URL) {
+    /// normalizes `*.strings` only
+    func doNormalize(sourceStrings: [URL], resultsDir: URL) {
         guard sourceStrings.count > 0, let stringsFirstUrl = sourceStrings.first else {
             print("ERROR: sourceStrings is an empty list")
             return
@@ -29,19 +29,32 @@ struct BatchNormal {
         }
         let stringsDictionary = stringz.toStringSplitByFile(langCode: langCode)
                 
-        writeNormalStrings(stringsDictionary, langCode: langCode, dir: dir)
+        writeNormalStrings(stringsDictionary, langCode: langCode, resultsDir: resultsDir)
     }
     
-    func doNormalize(sourceTSV: [URL], dir: URL) {
+    /// normalizes `*.tsv` and generates normalized `*.json`, `*.strings`, `*.xml`
+    ///  
+    /// - parameter sourceseTSV: …[…/Portuguese/tsv/Portuguese_pt.tsv] (example)
+    /// - parameter topicsTSV: …/English_US/tsv/English_US_en.url_topics.tsv (example)
+    /// - parameter resultsDir: …/_Normal__LOCAL/StringsViaTsvIntake example (example)
+    /// - parameter inputJsonDir: …/English_US/ios/json/LocalStrings/en.lproj (example)
+    /// - parameter inputXmlUrl: …/English_US/android/values/strings.xml (example)
+    func doNormalize(
+        sourceTSV: [URL], 
+        topicsTSV: URL, 
+        resultsDir: URL,
+        baseJsonDir: URL,
+        baseXmlUrl: URL
+    ) {
         guard sourceTSV.count > 0, let tsvFirstUrl = sourceTSV.first else {
             print("ERROR: BatchNormal.doNormalize(…) sourceTSV is an empty list")
             return
         }
         
-        // to TSV
+        // -- to TSV --
         let tsvSheet = TsvSheet(urlList: sourceTSV)
         
-        // to /Localizable.strings file
+        // -- to /Localizable.strings --
         let nameParts = getTsvFilenameParts(tsvFirstUrl)
         let langCode = nameParts.lang
         let modifier = nameParts.modifier
@@ -49,10 +62,42 @@ struct BatchNormal {
         let stringz = StringzProcessor(tsvRowList: tsvSheet.tsvRowList)
         let stringsDictionary = stringz.toStringSplitByFile(langCode: langCode)
         
-        writeNormalStrings(stringsDictionary, langCode: langCode, modifier: modifier, dir: dir)
+        writeNormalStrings(stringsDictionary, langCode: langCode, modifier: modifier, resultsDir: resultsDir)
 
         // write out updated *.tsv file
-        writeNormalTsv(tsvSheet, urlTsvIn: tsvFirstUrl, uslDirOut: dir)        
+        writeNormalTsv(tsvSheet, urlTsvIn: tsvFirstUrl, resultsDir: resultsDir)
+        
+        // -- to JSON --
+        // add url topic links
+        let allTSV: [URL] = sourceTSV + [topicsTSV]
+        let tsvSheetWithTopics = TsvSheet(urlList: allTSV)
+        
+        let jsonOutputDir = resultsDir
+            .appendingPathComponent("Localizable")
+            .appendingPathComponent("\(langCode).lproj", isDirectory: true)
+        var jsonFromTsv = JsonFromTsvProcessor(
+            jsonBaseDir: baseJsonDir, 
+            jsonOutputDir: jsonOutputDir)
+        jsonFromTsv.processTsvToJson(tsvSheet: tsvSheetWithTopics)
+        jsonFromTsv.writeJsonFiles()
+        
+        // to XML
+        let valuesPathFragment = langCode == "en" ? "values" : "values-\(langCode)"
+        let xmlOutputUrl = resultsDir
+            .appendingPathComponent("android")
+            .appendingPathComponent(valuesPathFragment)
+            .appendingPathComponent("strings.xml", isDirectory: false)
+        let droidLookup = tsvSheetWithTopics.getLookupDictAndroid()
+        var xmlFromTsv = XmlFromTsvProcessor(lookupTable: droidLookup)
+        guard let droidXmlDocument = try? XMLDocument(contentsOf: baseXmlUrl, options: [.nodePreserveAll, .nodePreserveWhitespace]) 
+        else {
+            print("ERROR:doNormalize: baseXmlUrl not found \(baseXmlUrl.path)")
+            return
+        }
+        xmlFromTsv.processXmlFromTsv(
+            droidXmlOutputUrl: xmlOutputUrl, 
+            droidXmlDocument: droidXmlDocument
+        )
     }
     
     private func getTsvFilenameParts(_ url: URL) -> (lang: String, modifier: String, name: String) {
@@ -83,7 +128,7 @@ struct BatchNormal {
     /// XLIFF to normalized `*.strings` file
     /// 
     /// Note: input `en.xliff` has output `en.normal.strings`
-    func doNormalize(sourceXLIFF: URL, dir: URL) {
+    func doNormalize(sourceXLIFF: URL, resultsDir: URL) {
         // to TSV
         let xliff = XliffIntoTsvProcessor(url: sourceXLIFF)
         
@@ -95,16 +140,16 @@ struct BatchNormal {
         let stringz = StringzProcessor(tsvRowList: xliff.tsvRowList)
         let stringsDictionary = stringz.toStringSplitByFile(langCode: langCode)
         
-        writeNormalStrings(stringsDictionary, langCode: langCode, dir: dir)
+        writeNormalStrings(stringsDictionary, langCode: langCode, resultsDir: resultsDir)
     }
     
     private func writeNormalStrings(
         _ stringsDictionary: [StringzProcessor.SplitFile : String], 
         langCode: String,
         modifier: String = "", 
-        dir: URL) {
+        resultsDir: URL) {
         for (key, content) in stringsDictionary {
-            let outputDirUrl = dir
+            let outputDirUrl = resultsDir
                 .appendingPathComponent(key.name)
                 .appendingPathComponent("\(langCode).lproj", isDirectory: true)
             let outputFileUrl = outputDirUrl
@@ -122,13 +167,13 @@ struct BatchNormal {
         }
     }
     
-    private func writeNormalTsv(_ tsvSheet: TsvSheet, urlTsvIn: URL, uslDirOut: URL) {
+    private func writeNormalTsv(_ tsvSheet: TsvSheet, urlTsvIn: URL, resultsDir: URL) {
         let tsvFilename = urlTsvIn.lastPathComponent
         let tsvLangName = urlTsvIn
             .deletingLastPathComponent() // filename.tsv
             .deletingLastPathComponent() // tsv
             .lastPathComponent           // language name e.g. English_US
-        let outputTsvDirUrl = uslDirOut
+        let outputTsvDirUrl = resultsDir
             .appendingPathComponent("Languages_tsv_normal")
             .appendingPathComponent(tsvLangName)
             .appendingPathComponent("tsv")

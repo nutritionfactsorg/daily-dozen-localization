@@ -28,7 +28,7 @@ struct XmlFromTsvProcessor {
     
     // modifies XML document given a TSV document to apply
     mutating func processXmlFromTsv(
-        droidXmlUrl: URL, 
+        droidXmlOutputUrl: URL, 
         droidXmlDocument: XMLDocument, 
         measurementInDescription: Bool = false
     ) {
@@ -42,12 +42,16 @@ struct XmlFromTsvProcessor {
             measureDescriptionSplit()
         }
         
+        // Create directory path if needed
+        let fm = FileManager.default
+        try? fm.createDirectory(at: droidXmlOutputUrl.deletingLastPathComponent(), withIntermediateDirectories: true, attributes: nil)
+        
         // Generate and save expected keys
         keysDroidXmlAll = Set<String>()
         queryAllDriodXmlKeys(node: droidRootXMLElement)
         let keysDroidXmlAllString = keysDroidXmlAll.sorted().joined(separator: "\n")
         do {
-            let url = droidXmlUrl
+            let url = droidXmlOutputUrl
                 .deletingLastPathComponent()
                 .appendingPathComponent("keysExpectedXml_\(Date.datestampyyyyMMddHHmm).txt")
             try keysDroidXmlAllString.write(to: url, atomically: true, encoding: .utf8)
@@ -57,17 +61,13 @@ struct XmlFromTsvProcessor {
         keysDroidXmlMatched = Set<String>()
         processXmlFromTsv(node: droidRootXMLElement)
         
-        // Write updated XML file
+        // Write updated XML file        
         let options: XMLNode.Options = [.nodePreserveAll, .nodePrettyPrint, .nodePreserveWhitespace]
         let droidXmlData = droidXmlDocument.xmlData(options: options)
-        let outputUrl = droidXmlUrl
-            .deletingPathExtension()
-            .appendingPathExtension("\(Date.datestampyyyyMMddHHmm).xml")  
-        print(outputUrl.absoluteURL)
         do {
-            try droidXmlData.write(to: outputUrl, options: [.atomic])
+            try droidXmlData.write(to: droidXmlOutputUrl, options: [.atomic])
         } catch {
-            print("Could not write document out…\n  …url=\(outputUrl)\n  …error='\(error)'")
+            print("Could not write document out…\n  …url=\(droidXmlOutputUrl)\n  …error='\(error)'")
         }
     }
     
@@ -227,8 +227,10 @@ struct XmlFromTsvProcessor {
             fatalError("what case is this?")
         } else {
             description.append(contentsOf: "%s")
-            for i in (0 ... (descriptionSuffix.count - 1)).reversed()  {
-                description.append(descriptionSuffix[i])            
+            if descriptionSuffix.count > 0 {
+                for i in (0 ... (descriptionSuffix.count - 1)).reversed()  {
+                    description.append(descriptionSuffix[i])
+                }
             }
         }
         

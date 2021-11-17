@@ -9,16 +9,46 @@ import Foundation
 /// JsonFromTsvProcessor updates an exsiting JSON structure from provided TSV data 
 struct JsonFromTsvProcessor {
     
-    /// Read in from JSON file
-    var dozeInfo: DozeDetailInfo!
-    let dozeJsonUrl: URL
-    /// Read in from JSON file
-    var tweakInfo: TweakDetailInfo!
-    let tweakJsonUrl: URL
-    //
-    var keysAppleJsonAll: Set<String>       // generated from JSON data
-    var keysAppleJsonMatched: Set<String>   // apple_key
-    var keysAppleJsonUnmatched: Set<String> // apple_key
+    //  Data
+    var dozeInfo: DozeDetailInfo! /// Read in from "DozeDetailData.json" file
+    var tweakInfo: TweakDetailInfo! /// Read in from "TweakDetailData.json" file
+    // Paths
+    let dozeJsonUrlIn: URL
+    let dozeJsonUrlOut: URL
+    let tweakJsonUrlIn: URL
+    let tweakJsonUrlOut: URL
+    // Processing Results
+    var keysAppleJsonAll: Set<String>       // read from input JSON data
+    var keysAppleJsonMatched: Set<String>   // results based on apple_key mapping
+    var keysAppleJsonUnmatched: Set<String> // results based on apple_key mapping
+    
+    /// baseJsonDirUrl `English_US` json for keyword set.
+    /// 
+    /// - parameter: baseInDirUrl
+    /// - parameter: 
+    init(jsonBaseDir: URL, jsonOutputDir: URL) {
+        keysAppleJsonAll = Set<String>()
+        keysAppleJsonMatched = Set<String>()
+        keysAppleJsonUnmatched = Set<String>()
+        
+        dozeJsonUrlIn = jsonBaseDir.appendingPathComponent("DozeDetailData.json")
+        tweakJsonUrlIn = jsonBaseDir.appendingPathComponent("TweakDetailData.json")
+        dozeJsonUrlOut = jsonOutputDir.appendingPathComponent("DozeDetailData.json")
+        tweakJsonUrlOut = jsonOutputDir.appendingPathComponent("TweakDetailData.json")
+
+        read(dozeJsonUrl: dozeJsonUrlIn, tweakJsonUrl: tweakJsonUrlIn)
+        
+        // All JSON Keys
+        queryAllAppleJsonKeys()
+        let keysExpectedString = keysAppleJsonAll.sorted().joined(separator: "\n")
+        do {
+            let url = jsonOutputDir
+                .appendingPathComponent("keysAppleJsonAll_\(Date.datestampyyyyMMddHHmm).txt")
+            try keysExpectedString.write(to: url, atomically: true, encoding: .utf8)
+        } catch {
+           print("JsonFromTsvProcessor init() writing expected keys. \(error)")
+        }
+    }
     
     init(xliffUrl: URL) {
         keysAppleJsonAll = Set<String>()
@@ -36,10 +66,14 @@ struct JsonFromTsvProcessor {
             .appendingPathComponent("LocalStrings")
             .appendingPathComponent("\(languageCode).lproj")
         
-        dozeJsonUrl = baseJsonUrl.appendingPathComponent("DozeDetailData.json")
-        tweakJsonUrl = baseJsonUrl.appendingPathComponent("TweakDetailData.json")
+        dozeJsonUrlIn = baseJsonUrl.appendingPathComponent("DozeDetailData.json")
+        tweakJsonUrlIn = baseJsonUrl.appendingPathComponent("TweakDetailData.json")
+        dozeJsonUrlOut = dozeJsonUrlIn.deletingPathExtension()
+            .appendingPathExtension("_\(Date.datestampyyyyMMddHHmm).json")
+        tweakJsonUrlOut = tweakJsonUrlIn.deletingPathExtension()
+            .appendingPathExtension("_\(Date.datestampyyyyMMddHHmm).json")
 
-        read(dozeJsonUrl: dozeJsonUrl, tweakJsonUrl: tweakJsonUrl)
+        read(dozeJsonUrl: dozeJsonUrlIn, tweakJsonUrl: tweakJsonUrlIn)
         
         // All JSON Keys
         queryAllAppleJsonKeys()
@@ -53,7 +87,7 @@ struct JsonFromTsvProcessor {
            print("JsonFromTsvProcessor init() writing expected keys. \(error)")
         }
     }
-    
+
     mutating func read(dozeJsonUrl: URL, tweakJsonUrl: URL) {
         do {
             let decoder = JSONDecoder()
@@ -102,7 +136,8 @@ struct JsonFromTsvProcessor {
         }
     }
     
-    mutating func processTsvToJson(lookupTable: [String: String]) {        
+    mutating func processTsvToJson(tsvSheet: TsvSheet) {  
+        let lookupTable: [String: String] = tsvSheet.getLookupDictApple()
         for (key, value) in lookupTable {
             if key.hasPrefix("doze") {
                 if processTsvToJsonDoze(key: key, value: value) {
@@ -214,20 +249,15 @@ struct JsonFromTsvProcessor {
         let jsonEncoder = JSONEncoder()
         jsonEncoder.outputFormatting = [.prettyPrinted]
         jsonEncoder.outputFormatting.insert(.sortedKeys)
-
-        let dozeUrl = dozeJsonUrl
-            .deletingPathExtension()
-            .appendingPathExtension("_\(Date.datestampyyyyMMddHHmm).json")
+        jsonEncoder.outputFormatting.insert(.withoutEscapingSlashes)
+        
         var data = try! jsonEncoder.encode(dozeInfo)
         var string = String(data: data, encoding: .utf8)!
-        try? string.write(to: dozeUrl, atomically: true, encoding: .utf8)
-
-        let tweakUrl = tweakJsonUrl
-            .deletingPathExtension()
-            .appendingPathExtension("_\(Date.datestampyyyyMMddHHmm).json")
+        try? string.write(to: dozeJsonUrlOut, atomically: true, encoding: .utf8)
+        
         data = try! jsonEncoder.encode(tweakInfo)
         string = String(data: data, encoding: .utf8)!
-        try? string.write(to: tweakUrl, atomically: true, encoding: .utf8)
+        try? string.write(to: tweakJsonUrlOut, atomically: true, encoding: .utf8)
     }
         
 }

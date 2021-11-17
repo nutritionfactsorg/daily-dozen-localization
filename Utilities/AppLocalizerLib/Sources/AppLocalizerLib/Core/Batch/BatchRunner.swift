@@ -34,7 +34,10 @@ struct BatchRunner {
         var sourceEnUSApple: URL?
         var sourceLangApple: URL?
         // Batch Import Parameters
+        var baseJsonDir: URL?
+        var baseXmlUrl: URL?
         var sourceTSV: [URL]?  // Batch: import, normal
+        var topicsTSV: URL?  // Batch: normal
         var outputDroid: URL?
         var outputApple: URL?
         // Batch Normal Parameters
@@ -56,6 +59,8 @@ struct BatchRunner {
             if command.cmdKey.hasPrefix("CLEAR_ALL") {
                 BatchExport.shared.clearAll()
                 BatchImport.shared.clearAll()
+                baseJsonDir = nil
+                baseXmlUrl = nil
                 diffTsvA = nil
                 diffTsvB = nil
                 diffXmlA = nil
@@ -71,6 +76,7 @@ struct BatchRunner {
                 sourceStrings = nil
                 sourceTSV = nil
                 sourceXLIFF = nil
+                topicsTSV = nil
                 outputDroid = nil
                 outputApple = nil
                 outputNormalDir = nil
@@ -165,6 +171,21 @@ struct BatchRunner {
                     sourceTSV?.append(url)
                 }
             } 
+            else if command.cmdKey.hasPrefix("BASE_JSON_DIR") {
+                if let url = command.cmdUrl {
+                    baseJsonDir = url
+                }
+            } 
+            else if command.cmdKey.hasPrefix("BASE_XML_URL") {
+                if let url = command.cmdUrl {
+                    baseXmlUrl = url
+                }
+            } 
+            else if command.cmdKey.hasPrefix("TOPICS_TSV") {
+                if let url = command.cmdUrl {
+                    topicsTSV = url
+                }
+            } 
             else if command.cmdKey.hasPrefix("SOURCE_XLIFF") {
                 sourceXLIFF = command.cmdUrl
             }
@@ -197,15 +218,15 @@ struct BatchRunner {
                     continue
                 }
                 if let source = sourceStrings {
-                    BatchNormal.shared.doNormalize(sourceStrings: source, dir: outputNormalDir)
+                    BatchNormal.shared.doNormalize(sourceStrings: source, resultsDir: outputNormalDir)
                     sourceStrings = nil
                 }
-                if let source = sourceTSV {
-                    BatchNormal.shared.doNormalize(sourceTSV: source, dir: outputNormalDir)
+                if let source = sourceTSV, let topics = topicsTSV, let baseJsonDir = baseJsonDir, let baseXmlUrl = baseXmlUrl {
+                    BatchNormal.shared.doNormalize(sourceTSV: source, topicsTSV: topics, resultsDir: outputNormalDir, baseJsonDir: baseJsonDir, baseXmlUrl: baseXmlUrl)
                     sourceTSV = nil
                 }
                 if let source = sourceXLIFF {
-                    BatchNormal.shared.doNormalize(sourceXLIFF: source, dir: outputNormalDir)
+                    BatchNormal.shared.doNormalize(sourceXLIFF: source, resultsDir: outputNormalDir)
                     sourceXLIFF = nil
                 }
             }
