@@ -7,6 +7,7 @@ key_droid	key_apple	base_value	lang_value	base_note
 	apple.info.about.5	The following open source libraries are used: RealmSwift, Charts, FSCalendar, SimpleAnimation, ActiveLabel.	The following open source libraries are used: RealmSwift, Charts, FSCalendar, SimpleAnimation, ActiveLabel.	
 OK	dozeOtherInfo.confirm	OK	OK	
 	dozeOtherInfo.message	Vitamin B12 is essential for your health but does not count towards your daily servings.\n\nVitamin B12 is included in this app to provide you with an easy way to track your intake.	Vitamin B12 is essential for your health but does not count towards your daily servings.\n\nVitamin B12 is included in this app to provide you with an easy way to track your intake.	
+	dozeOtherInfo.section	Supplements	Supplements	
 	dozeOtherInfo.title	Supplements	Supplements	
 	historyRecordDoze.heading	Servings History	Servings History	
 	historyRecordDoze.legend	Servings	Servings	

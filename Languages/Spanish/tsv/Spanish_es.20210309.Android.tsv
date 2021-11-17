@@ -396,6 +396,7 @@ nuts	dozeNuts.heading	Nuts and Seeds	Frutos secos
 	dozeNuts.topic	topics/nuts	es/topics/nueces	
 	dozeOtherInfo.confirm	OK	OK	
 	dozeOtherInfo.message	Vitamin B12 is essential for your health but does not count towards your daily servings.ⓃⓃVitamin B12 is included in this app to provide you with an easy way to track your intake.	La vitamina B12 es esencial para la salud, pero no cuenta para las porciones diarias.ⓃⓃLa Vitamina B12 se incluye en esta aplicación para proporcionarte una manera fácil de realizar un seguimiento de su ingesta.	
+	dozeOtherInfo.section	Supplements	Suplementos	
 	dozeOtherInfo.title	Supplements	Suplementos	
 	dozeSpices.Serving.Imperial.0	¼ teaspoon of turmeric	¼ cucharadita de cúrcuma	
 	dozeSpices.Serving.Imperial.1	Any other (salt-free) herbs and spices you enjoy	Cualquier otra especia (sin sal)	
@@ -925,7 +926,6 @@ url_how_not_to_diet			https://nutritionfacts.org/how-not-to-diet/
 url_latest_videos			http://nutritionfacts.org/es/videos/	
 url_open_source			https://nutritionfacts.org/es/open-source/	
 url_subscribe			https://nutritionfacts.org/es/suscribete/	
-videos	xcg-0a-oqY.normalTitle	Videos	Videos	Keyword for link to video topics
 weight		Weight	Peso	
 weight_history		Weight History	Historia de peso	
 welcome_to_my_daily_dozen	19L-gq-W5M.text	Welcome to my Daily Dozen!	¡Bienvenido a mi Docena Diaria!	
