@@ -1,184 +1,184 @@
-key_droid	key_apple	base_value	lang_value	base_comment	lang_url
-food_info_videos_beans		topics/beans	es/topics/legumbres-es		https://nutritionfacts.org/es/topics/legumbres-es
-food_info_videos_berries		topics/berries	es/topics/bayas-es		https://nutritionfacts.org/es/topics/bayas-es
-food_info_videos_fruits		topics/fruit	es/topics/fruta		https://nutritionfacts.org/es/topics/fruta
-food_info_videos_cruciferous		topics/cruciferous-vegetables	es/topics/vegetales-cruciferos		https://nutritionfacts.org/es/topics/vegetales-cruciferos
-food_info_videos_greens		topics/greens	es/topics/verduras		https://nutritionfacts.org/es/topics/verduras
-food_info_videos_vegetables		topics/vegetables	es/topics/vegetales		https://nutritionfacts.org/es/topics/vegetales
-food_info_videos_flaxseeds		topics/flax-seeds	es/topics/semillas-de-linaza		https://nutritionfacts.org/es/topics/semillas-de-linaza
-food_info_videos_nuts		topics/nuts	es/topics/nueces		https://nutritionfacts.org/es/topics/nueces
-food_info_videos_spices		topics/spices	es/topics/especias		https://nutritionfacts.org/es/topics/especias
-food_info_videos_whole_grains		topics/grains	es/topics/granos		https://nutritionfacts.org/es/topics/granos
-food_info_videos_beverages		topics/beverages	es/topics/bebidas/		https://nutritionfacts.org/es/topics/bebidas/
-food_info_videos_exercise		topics/exercise	es/topics/ejercicio		https://nutritionfacts.org/es/topics/ejercicio
-food_info_videos_vitamin_b12		topics/vitamin-b12	es/topics/vitamina-b12		https://nutritionfacts.org/es/topics/vitamina-b12
-food_info_videos_vitamin_d		topics/vitamin-d-supplements	es/topics/suplementos-de-vitamina-d		https://nutritionfacts.org/es/topics/suplementos-de-vitamina-d
-food_info_videos_omega3		topics/omega-3-fatty-acids	es/topics/acidos-grasos-omega-3		https://nutritionfacts.org/es/topics/acidos-grasos-omega-3
-food_videos_beans[0]		topics/black-beans	es/topics/frijoles-negros		https://nutritionfacts.org/es/topics/frijoles-negros
+key_droid	key_apple	base_value	lang_value	base_note	lang_note
+food_info_videos_beans		topics/beans	es/topics/legumbres-es	https://nutritionfacts.org/topics/beans	https://nutritionfacts.org/es/topics/legumbres-es
+food_info_videos_berries		topics/berries	es/topics/bayas-es	https://nutritionfacts.org/topics/berries	https://nutritionfacts.org/es/topics/bayas-es
+food_info_videos_fruits		topics/fruit	es/topics/fruta	https://nutritionfacts.org/topics/fruit	https://nutritionfacts.org/es/topics/fruta
+food_info_videos_cruciferous		topics/cruciferous-vegetables	es/topics/vegetales-cruciferos	https://nutritionfacts.org/topics/cruciferous-vegetables	https://nutritionfacts.org/es/topics/vegetales-cruciferos
+food_info_videos_greens		topics/greens	es/topics/verduras	https://nutritionfacts.org/topics/greens	https://nutritionfacts.org/es/topics/verduras
+food_info_videos_vegetables		topics/vegetables	es/topics/vegetales	https://nutritionfacts.org/topics/vegetables	https://nutritionfacts.org/es/topics/vegetales
+food_info_videos_flaxseeds		topics/flax-seeds	es/topics/semillas-de-linaza	https://nutritionfacts.org/topics/flax-seeds	https://nutritionfacts.org/es/topics/semillas-de-linaza
+food_info_videos_nuts		topics/nuts	es/topics/nueces	https://nutritionfacts.org/topics/nuts	https://nutritionfacts.org/es/topics/nueces
+food_info_videos_spices		topics/spices	es/topics/especias	https://nutritionfacts.org/topics/spices	https://nutritionfacts.org/es/topics/especias
+food_info_videos_whole_grains		topics/grains	es/topics/granos	https://nutritionfacts.org/topics/grains	https://nutritionfacts.org/es/topics/granos
+food_info_videos_beverages		topics/beverages	es/topics/bebidas/	https://nutritionfacts.org/topics/beverages	https://nutritionfacts.org/es/topics/bebidas/
+food_info_videos_exercise		topics/exercise	es/topics/ejercicio	https://nutritionfacts.org/topics/exercise	https://nutritionfacts.org/es/topics/ejercicio
+food_info_videos_vitamin_b12		topics/vitamin-b12	es/topics/vitamina-b12	https://nutritionfacts.org/topics/vitamin-b12	https://nutritionfacts.org/es/topics/vitamina-b12
+food_info_videos_vitamin_d		topics/vitamin-d-supplements	es/topics/suplementos-de-vitamina-d	https://nutritionfacts.org/topics/vitamin-d-supplements	https://nutritionfacts.org/es/topics/suplementos-de-vitamina-d
+food_info_videos_omega3		topics/omega-3-fatty-acids	es/topics/acidos-grasos-omega-3	https://nutritionfacts.org/topics/omega-3-fatty-acids	https://nutritionfacts.org/es/topics/acidos-grasos-omega-3
+food_videos_beans[0]		topics/black-beans	es/topics/frijoles-negros	https://nutritionfacts.org/topics/black-beans	https://nutritionfacts.org/es/topics/frijoles-negros
 food_videos_beans[1]					
 food_videos_beans[2]					
 food_videos_beans[3]					
-food_videos_beans[4]		topics/chickpeas	es/topics/garbanzos		https://nutritionfacts.org/es/topics/garbanzos
-food_videos_beans[5]		topics/edamame	es/topics/edamame		https://nutritionfacts.org/es/topics/edamame
+food_videos_beans[4]		topics/chickpeas	es/topics/garbanzos	https://nutritionfacts.org/topics/chickpeas	https://nutritionfacts.org/es/topics/garbanzos
+food_videos_beans[5]		topics/edamame	es/topics/edamame	https://nutritionfacts.org/topics/edamame	https://nutritionfacts.org/es/topics/edamame
 food_videos_beans[6]					
 food_videos_beans[7]					
-food_videos_beans[8]		topics/kidney-beans	es/topics/frijoles-rojos		https://nutritionfacts.org/es/topics/frijoles-rojos
-food_videos_beans[9]		topics/lentils	/es/topics/lentejas		https://nutritionfacts.org//es/topics/lentejas
-food_videos_beans[10]		topics/miso	es/topics/miso-es		https://nutritionfacts.org/es/topics/miso-es
-food_videos_beans[11]		topics/navy-beans	es/topics/frijoles-blancos		https://nutritionfacts.org/es/topics/frijoles-blancos
-food_videos_beans[12]		topics/pinto-beans	es/topics/frijoles-pintos		https://nutritionfacts.org/es/topics/frijoles-pintos
+food_videos_beans[8]		topics/kidney-beans	es/topics/frijoles-rojos	https://nutritionfacts.org/topics/kidney-beans	https://nutritionfacts.org/es/topics/frijoles-rojos
+food_videos_beans[9]		topics/lentils	/es/topics/lentejas	https://nutritionfacts.org/topics/lentils	https://nutritionfacts.org//es/topics/lentejas
+food_videos_beans[10]		topics/miso	es/topics/miso-es	https://nutritionfacts.org/topics/miso	https://nutritionfacts.org/es/topics/miso-es
+food_videos_beans[11]		topics/navy-beans	es/topics/frijoles-blancos	https://nutritionfacts.org/topics/navy-beans	https://nutritionfacts.org/es/topics/frijoles-blancos
+food_videos_beans[12]		topics/pinto-beans	es/topics/frijoles-pintos	https://nutritionfacts.org/topics/pinto-beans	https://nutritionfacts.org/es/topics/frijoles-pintos
 food_videos_beans[13]					
-food_videos_beans[14]		topics/split-peas	es/topics/guisantes-partidos		https://nutritionfacts.org/es/topics/guisantes-partidos
-food_videos_beans[15]		topics/tempeh	es/topics/tempeh-es		https://nutritionfacts.org/es/topics/tempeh-es
-food_videos_berries[0]		topics/acai-berries	/es/topics/bayas-de-acai-es		https://nutritionfacts.org//es/topics/bayas-de-acai-es
-food_videos_berries[1]		topics/barberries	es/topics/berberos-es		https://nutritionfacts.org/es/topics/berberos-es
-food_videos_berries[2]		topics/blackberries	es/topics/moras		https://nutritionfacts.org/es/topics/moras
-food_videos_berries[3]		topics/blueberries	es/topics/arandanos-azules		https://nutritionfacts.org/es/topics/arandanos-azules
-food_videos_berries[4]		topics/cherries	es/topics/cerezas		https://nutritionfacts.org/es/topics/cerezas
-food_videos_berries[5]		topics/grapes	es/topics/uvas		https://nutritionfacts.org/es/topics/uvas
-food_videos_berries[6]		topics/cranberries	es/topics/arandanos-es		https://nutritionfacts.org/es/topics/arandanos-es
-food_videos_berries[7]		topics/goji-berries	es/topics/goji		https://nutritionfacts.org/es/topics/goji
+food_videos_beans[14]		topics/split-peas	es/topics/guisantes-partidos	https://nutritionfacts.org/topics/split-peas	https://nutritionfacts.org/es/topics/guisantes-partidos
+food_videos_beans[15]		topics/tempeh	es/topics/tempeh-es	https://nutritionfacts.org/topics/tempeh	https://nutritionfacts.org/es/topics/tempeh-es
+food_videos_berries[0]		topics/acai-berries	/es/topics/bayas-de-acai-es	https://nutritionfacts.org/topics/acai-berries	https://nutritionfacts.org//es/topics/bayas-de-acai-es
+food_videos_berries[1]		topics/barberries	es/topics/berberos-es	https://nutritionfacts.org/topics/barberries	https://nutritionfacts.org/es/topics/berberos-es
+food_videos_berries[2]		topics/blackberries	es/topics/moras	https://nutritionfacts.org/topics/blackberries	https://nutritionfacts.org/es/topics/moras
+food_videos_berries[3]		topics/blueberries	es/topics/arandanos-azules	https://nutritionfacts.org/topics/blueberries	https://nutritionfacts.org/es/topics/arandanos-azules
+food_videos_berries[4]		topics/cherries	es/topics/cerezas	https://nutritionfacts.org/topics/cherries	https://nutritionfacts.org/es/topics/cerezas
+food_videos_berries[5]		topics/grapes	es/topics/uvas	https://nutritionfacts.org/topics/grapes	https://nutritionfacts.org/es/topics/uvas
+food_videos_berries[6]		topics/cranberries	es/topics/arandanos-es	https://nutritionfacts.org/topics/cranberries	https://nutritionfacts.org/es/topics/arandanos-es
+food_videos_berries[7]		topics/goji-berries	es/topics/goji	https://nutritionfacts.org/topics/goji-berries	https://nutritionfacts.org/es/topics/goji
 food_videos_berries[8]					
 food_videos_berries[9]					
-food_videos_berries[10]		topics/raspberries	es/topics/frambuesas		https://nutritionfacts.org/es/topics/frambuesas
-food_videos_berries[11]		topics/strawberries	es/topics/fresas		https://nutritionfacts.org/es/topics/fresas
-food_videos_other_fruits[0]		topics/apples	es/topics/manzanas		https://nutritionfacts.org/es/topics/manzanas
-food_videos_other_fruits[1]		topics/apricots	es/topics/albaricoques		https://nutritionfacts.org/es/topics/albaricoques
-food_videos_other_fruits[2]		topics/avocados	es/topics/aguacates		https://nutritionfacts.org/es/topics/aguacates
-food_videos_other_fruits[3]		topics/bananas	es/topics/bananos		https://nutritionfacts.org/es/topics/bananos
-food_videos_other_fruits[4]		topics/cantaloupe	es/topics/melon		https://nutritionfacts.org/es/topics/melon
+food_videos_berries[10]		topics/raspberries	es/topics/frambuesas	https://nutritionfacts.org/topics/raspberries	https://nutritionfacts.org/es/topics/frambuesas
+food_videos_berries[11]		topics/strawberries	es/topics/fresas	https://nutritionfacts.org/topics/strawberries	https://nutritionfacts.org/es/topics/fresas
+food_videos_other_fruits[0]		topics/apples	es/topics/manzanas	https://nutritionfacts.org/topics/apples	https://nutritionfacts.org/es/topics/manzanas
+food_videos_other_fruits[1]		topics/apricots	es/topics/albaricoques	https://nutritionfacts.org/topics/apricots	https://nutritionfacts.org/es/topics/albaricoques
+food_videos_other_fruits[2]		topics/avocados	es/topics/aguacates	https://nutritionfacts.org/topics/avocados	https://nutritionfacts.org/es/topics/aguacates
+food_videos_other_fruits[3]		topics/bananas	es/topics/bananos	https://nutritionfacts.org/topics/bananas	https://nutritionfacts.org/es/topics/bananos
+food_videos_other_fruits[4]		topics/cantaloupe	es/topics/melon	https://nutritionfacts.org/topics/cantaloupe	https://nutritionfacts.org/es/topics/melon
 food_videos_other_fruits[5]					
-food_videos_other_fruits[6]		topics/dates	es/topics/datiles		https://nutritionfacts.org/es/topics/datiles
+food_videos_other_fruits[6]		topics/dates	es/topics/datiles	https://nutritionfacts.org/topics/dates	https://nutritionfacts.org/es/topics/datiles
 food_videos_other_fruits[7]		topics/figs	es/topics/higos		https://nutritionfacts.org/es/topics/higos
-food_videos_other_fruits[8]		topics/grapefruit	es/topics/toronja		https://nutritionfacts.org/es/topics/toronja
+food_videos_other_fruits[8]		topics/grapefruit	es/topics/toronja	https://nutritionfacts.org/topics/grapefruit	https://nutritionfacts.org/es/topics/toronja
 food_videos_other_fruits[9]					
-food_videos_other_fruits[10]		topics/kiwifruit	es/topics/kiwi		https://nutritionfacts.org/es/topics/kiwi
-food_videos_other_fruits[11]		topics/lemons	topics/lemons		https://nutritionfacts.org/topics/lemons
-food_videos_other_fruits[12]		topics/limes	es/topics/limas		https://nutritionfacts.org/es/topics/limas
+food_videos_other_fruits[10]		topics/kiwifruit	es/topics/kiwi	https://nutritionfacts.org/topics/kiwifruit	https://nutritionfacts.org/es/topics/kiwi
+food_videos_other_fruits[11]		topics/lemons	topics/lemons	https://nutritionfacts.org/topics/lemons	https://nutritionfacts.org/topics/lemons
+food_videos_other_fruits[12]		topics/limes	es/topics/limas	https://nutritionfacts.org/topics/limes	https://nutritionfacts.org/es/topics/limas
 food_videos_other_fruits[13]					
-food_videos_other_fruits[14]		topics/mango	es/topics/mango-es		https://nutritionfacts.org/es/topics/mango-es
+food_videos_other_fruits[14]		topics/mango	es/topics/mango-es	https://nutritionfacts.org/topics/mango	https://nutritionfacts.org/es/topics/mango-es
 food_videos_other_fruits[15]					
-food_videos_other_fruits[16]		topics/oranges	es/topics/naranjas		https://nutritionfacts.org/es/topics/naranjas
+food_videos_other_fruits[16]		topics/oranges	es/topics/naranjas	https://nutritionfacts.org/topics/oranges	https://nutritionfacts.org/es/topics/naranjas
 food_videos_other_fruits[17]		topics/papaya	es/topics/papaya-es		https://nutritionfacts.org/es/topics/papaya-es
 food_videos_other_fruits[18]					
-food_videos_other_fruits[19]		topics/peaches	es/topics/duraznos-es		https://nutritionfacts.org/es/topics/duraznos-es
-food_videos_other_fruits[20]		topics/pears	es/topics/peras-es		https://nutritionfacts.org/es/topics/peras-es
+food_videos_other_fruits[19]		topics/peaches	es/topics/duraznos-es	https://nutritionfacts.org/topics/peaches	https://nutritionfacts.org/es/topics/duraznos-es
+food_videos_other_fruits[20]		topics/pears	es/topics/peras-es	https://nutritionfacts.org/topics/pears	https://nutritionfacts.org/es/topics/peras-es
 food_videos_other_fruits[21]		topics/pineapples	/es/topics/pinas		https://nutritionfacts.org//es/topics/pinas
-food_videos_other_fruits[22]		topics/plums	es/topics/ciruelas		https://nutritionfacts.org/es/topics/ciruelas
+food_videos_other_fruits[22]		topics/plums	es/topics/ciruelas	https://nutritionfacts.org/topics/plums	https://nutritionfacts.org/es/topics/ciruelas
 food_videos_other_fruits[23]					
-food_videos_other_fruits[24]		topics/pomegranates	es/topics/granadas		https://nutritionfacts.org/es/topics/granadas
-food_videos_other_fruits[25]		topics/prunes	es/topics/ciruelas-pasas		https://nutritionfacts.org/es/topics/ciruelas-pasas
+food_videos_other_fruits[24]		topics/pomegranates	es/topics/granadas	https://nutritionfacts.org/topics/pomegranates	https://nutritionfacts.org/es/topics/granadas
+food_videos_other_fruits[25]		topics/prunes	es/topics/ciruelas-pasas	https://nutritionfacts.org/topics/prunes	https://nutritionfacts.org/es/topics/ciruelas-pasas
 food_videos_other_fruits[26]					
-food_videos_other_fruits[27]		topics/watermelon	es/topics/sandia		https://nutritionfacts.org/es/topics/sandia
+food_videos_other_fruits[27]		topics/watermelon	es/topics/sandia	https://nutritionfacts.org/topics/watermelon	https://nutritionfacts.org/es/topics/sandia
 food_videos_cruciferous_vegetables[0]					
-food_videos_cruciferous_vegetables[1]		topics/bok-choy	es/topics/bok-choy-es		https://nutritionfacts.org/es/topics/bok-choy-es
-food_videos_cruciferous_vegetables[2]		topics/broccoli	es/topics/brocoli		https://nutritionfacts.org/es/topics/brocoli
-food_videos_cruciferous_vegetables[3]		topics/brussels-sprouts	es/topics/coles-bruselas		https://nutritionfacts.org/es/topics/coles-bruselas
-food_videos_cruciferous_vegetables[4]		topics/cabbage	es/topics/repollo		https://nutritionfacts.org/es/topics/repollo
-food_videos_cruciferous_vegetables[5]		topics/cauliflower	es/topics/coliflor		https://nutritionfacts.org/es/topics/coliflor
-food_videos_cruciferous_vegetables[6]		topics/collard-greens	es/topics/acelgas-es		https://nutritionfacts.org/es/topics/acelgas-es
+food_videos_cruciferous_vegetables[1]		topics/bok-choy	es/topics/bok-choy-es	https://nutritionfacts.org/topics/bok-choy	https://nutritionfacts.org/es/topics/bok-choy-es
+food_videos_cruciferous_vegetables[2]		topics/broccoli	es/topics/brocoli	https://nutritionfacts.org/topics/broccoli	https://nutritionfacts.org/es/topics/brocoli
+food_videos_cruciferous_vegetables[3]		topics/brussels-sprouts	es/topics/coles-bruselas	https://nutritionfacts.org/topics/brussels-sprouts	https://nutritionfacts.org/es/topics/coles-bruselas
+food_videos_cruciferous_vegetables[4]		topics/cabbage	es/topics/repollo	https://nutritionfacts.org/topics/cabbage	https://nutritionfacts.org/es/topics/repollo
+food_videos_cruciferous_vegetables[5]		topics/cauliflower	es/topics/coliflor	https://nutritionfacts.org/topics/cauliflower	https://nutritionfacts.org/es/topics/coliflor
+food_videos_cruciferous_vegetables[6]		topics/collard-greens	es/topics/acelgas-es	https://nutritionfacts.org/topics/collard-greens	https://nutritionfacts.org/es/topics/acelgas-es
 food_videos_cruciferous_vegetables[7]					
-food_videos_cruciferous_vegetables[8]		topics/kale	es/topics/col-rizada-es		https://nutritionfacts.org/es/topics/col-rizada-es
+food_videos_cruciferous_vegetables[8]		topics/kale	es/topics/col-rizada-es	https://nutritionfacts.org/topics/kale	https://nutritionfacts.org/es/topics/col-rizada-es
 food_videos_cruciferous_vegetables[9]		topics/kohlrabi	es/topics/colinabo		https://nutritionfacts.org/es/topics/colinabo
-food_videos_cruciferous_vegetables[10]		topics/mustard-greens	es/topics/hojas-de-mostaza		https://nutritionfacts.org/es/topics/hojas-de-mostaza
+food_videos_cruciferous_vegetables[10]		topics/mustard-greens	es/topics/hojas-de-mostaza	https://nutritionfacts.org/topics/mustard-greens	https://nutritionfacts.org/es/topics/hojas-de-mostaza
 food_videos_cruciferous_vegetables[11]		topics/radishes	es/topics/rabanos		https://nutritionfacts.org/es/topics/rabanos
 food_videos_cruciferous_vegetables[12]		topics/turnips	es/topics/nabos		https://nutritionfacts.org/es/topics/nabos
-food_videos_cruciferous_vegetables[13]		topics/watercress	es/topics/berros-es		https://nutritionfacts.org/es/topics/berros-es
+food_videos_cruciferous_vegetables[13]		topics/watercress	es/topics/berros-es	https://nutritionfacts.org/topics/watercress	https://nutritionfacts.org/es/topics/berros-es
 food_videos_greens[0]					
-food_videos_greens[1]		topics/beets	es/topics/remolachas-es		https://nutritionfacts.org/es/topics/remolachas-es
-food_videos_greens[2]		topics/collard-greens			
-food_videos_greens[3]		topics/kale	es/topics/col-rizada-es		https://nutritionfacts.org/es/topics/col-rizada-es
+food_videos_greens[1]		topics/beets	es/topics/remolachas-es	https://nutritionfacts.org/topics/beets	https://nutritionfacts.org/es/topics/remolachas-es
+food_videos_greens[2]		topics/collard-greens		https://nutritionfacts.org/topics/collard-greens	
+food_videos_greens[3]		topics/kale	es/topics/col-rizada-es	https://nutritionfacts.org/topics/kale	https://nutritionfacts.org/es/topics/col-rizada-es
 food_videos_greens[4]		topics/mesclun-mix	es/topics/ensalada-mesclun-es		https://nutritionfacts.org/es/topics/ensalada-mesclun-es
-food_videos_greens[5]		topics/mustard-greens	es/topics/hojas-de-mostaza		https://nutritionfacts.org/es/topics/hojas-de-mostaza
+food_videos_greens[5]		topics/mustard-greens	es/topics/hojas-de-mostaza	https://nutritionfacts.org/topics/mustard-greens	https://nutritionfacts.org/es/topics/hojas-de-mostaza
 food_videos_greens[6]					
-food_videos_greens[7]		topics/spinach	es/topics/espinaca		https://nutritionfacts.org/es/topics/espinaca
-food_videos_greens[8]		topics/swiss-chard	es/topics/acelga-es		https://nutritionfacts.org/es/topics/acelga-es
+food_videos_greens[7]		topics/spinach	es/topics/espinaca	https://nutritionfacts.org/topics/spinach	https://nutritionfacts.org/es/topics/espinaca
+food_videos_greens[8]		topics/swiss-chard	es/topics/acelga-es	https://nutritionfacts.org/topics/swiss-chard	https://nutritionfacts.org/es/topics/acelga-es
 food_videos_greens[9]		topics/turnips	es/topics/nabos		https://nutritionfacts.org/es/topics/nabos
-food_videos_other_vegetables[0]		topics/artichokes	es/topics/alcachofas		https://nutritionfacts.org/es/topics/alcachofas
-food_videos_other_vegetables[1]		topics/asparagus	es/topics/esparragos		https://nutritionfacts.org/es/topics/esparragos
-food_videos_other_vegetables[2]		topics/beets	es/topics/remolachas-es		https://nutritionfacts.org/es/topics/remolachas-es
-food_videos_other_vegetables[3]		topics/bell-peppers	es/topics/pimientos		https://nutritionfacts.org/es/topics/pimientos
-food_videos_other_vegetables[4]		topics/carrots	es/topics/zanahorias		https://nutritionfacts.org/es/topics/zanahorias
-food_videos_other_vegetables[5]		topics/corn	es/topics/maiz		https://nutritionfacts.org/es/topics/maiz
-food_videos_other_vegetables[6]		topics/garlic	es/topics/ajo		https://nutritionfacts.org/es/topics/ajo
-food_videos_other_vegetables[7]		topics/mushrooms	es/topics/champinones		https://nutritionfacts.org/es/topics/champinones
-food_videos_other_vegetables[8]		topics/okra	es/topics/okra-es		https://nutritionfacts.org/es/topics/okra-es
-food_videos_other_vegetables[9]		topics/onions	es/topics/cebollas		https://nutritionfacts.org/es/topics/cebollas
-food_videos_other_vegetables[10]		topics/potatoes	es/topics/papas		https://nutritionfacts.org/es/topics/papas
-food_videos_other_vegetables[11]		topics/pumpkin	es/topics/calabaza		https://nutritionfacts.org/es/topics/calabaza
-food_videos_other_vegetables[12]		topics/sea-vegetables	es/topics/vegetales-marinos		https://nutritionfacts.org/es/topics/vegetales-marinos
+food_videos_other_vegetables[0]		topics/artichokes	es/topics/alcachofas	https://nutritionfacts.org/topics/artichokes	https://nutritionfacts.org/es/topics/alcachofas
+food_videos_other_vegetables[1]		topics/asparagus	es/topics/esparragos	https://nutritionfacts.org/topics/asparagus	https://nutritionfacts.org/es/topics/esparragos
+food_videos_other_vegetables[2]		topics/beets	es/topics/remolachas-es	https://nutritionfacts.org/topics/beets	https://nutritionfacts.org/es/topics/remolachas-es
+food_videos_other_vegetables[3]		topics/bell-peppers	es/topics/pimientos	https://nutritionfacts.org/topics/bell-peppers	https://nutritionfacts.org/es/topics/pimientos
+food_videos_other_vegetables[4]		topics/carrots	es/topics/zanahorias	https://nutritionfacts.org/topics/carrots	https://nutritionfacts.org/es/topics/zanahorias
+food_videos_other_vegetables[5]		topics/corn	es/topics/maiz	https://nutritionfacts.org/topics/corn	https://nutritionfacts.org/es/topics/maiz
+food_videos_other_vegetables[6]		topics/garlic	es/topics/ajo	https://nutritionfacts.org/topics/garlic	https://nutritionfacts.org/es/topics/ajo
+food_videos_other_vegetables[7]		topics/mushrooms	es/topics/champinones	https://nutritionfacts.org/topics/mushrooms	https://nutritionfacts.org/es/topics/champinones
+food_videos_other_vegetables[8]		topics/okra	es/topics/okra-es	https://nutritionfacts.org/topics/okra	https://nutritionfacts.org/es/topics/okra-es
+food_videos_other_vegetables[9]		topics/onions	es/topics/cebollas	https://nutritionfacts.org/topics/onions	https://nutritionfacts.org/es/topics/cebollas
+food_videos_other_vegetables[10]		topics/potatoes	es/topics/papas	https://nutritionfacts.org/topics/potatoes	https://nutritionfacts.org/es/topics/papas
+food_videos_other_vegetables[11]		topics/pumpkin	es/topics/calabaza	https://nutritionfacts.org/topics/pumpkin	https://nutritionfacts.org/es/topics/calabaza
+food_videos_other_vegetables[12]		topics/sea-vegetables	es/topics/vegetales-marinos	https://nutritionfacts.org/topics/sea-vegetables	https://nutritionfacts.org/es/topics/vegetales-marinos
 food_videos_other_vegetables[13]					
-food_videos_other_vegetables[14]		topics/squash	es/topics/calabaza-es		https://nutritionfacts.org/es/topics/calabaza-es
-food_videos_other_vegetables[15]		topics/sweet-potatoes	es/topics/camotes		https://nutritionfacts.org/es/topics/camotes
-food_videos_other_vegetables[16]		topics/tomatoes	es/topics/tomates		https://nutritionfacts.org/es/topics/tomates
-food_videos_other_vegetables[17]		topics/zucchini	es/topics/calabacin-es		https://nutritionfacts.org/es/topics/calabacin-es
-food_videos_nuts[0]		topics/almonds	es/topics/almendras		https://nutritionfacts.org/es/topics/almendras
-food_videos_nuts[1]		topics/brazil-nuts	es/topics/nueces-de-brasil-es		https://nutritionfacts.org/es/topics/nueces-de-brasil-es
-food_videos_nuts[2]		topics/cashews	es/topics/anacardos		https://nutritionfacts.org/es/topics/anacardos
-food_videos_nuts[3]		topics/chia-seeds	es/topics/semillas-de-chia		https://nutritionfacts.org/es/topics/semillas-de-chia
-food_videos_nuts[4]		topics/hazelnuts	es/topics/avellanas-es		https://nutritionfacts.org/es/topics/avellanas-es
+food_videos_other_vegetables[14]		topics/squash	es/topics/calabaza-es	https://nutritionfacts.org/topics/squash	https://nutritionfacts.org/es/topics/calabaza-es
+food_videos_other_vegetables[15]		topics/sweet-potatoes	es/topics/camotes	https://nutritionfacts.org/topics/sweet-potatoes	https://nutritionfacts.org/es/topics/camotes
+food_videos_other_vegetables[16]		topics/tomatoes	es/topics/tomates	https://nutritionfacts.org/topics/tomatoes	https://nutritionfacts.org/es/topics/tomates
+food_videos_other_vegetables[17]		topics/zucchini	es/topics/calabacin-es	https://nutritionfacts.org/topics/zucchini	https://nutritionfacts.org/es/topics/calabacin-es
+food_videos_nuts[0]		topics/almonds	es/topics/almendras	https://nutritionfacts.org/topics/almonds	https://nutritionfacts.org/es/topics/almendras
+food_videos_nuts[1]		topics/brazil-nuts	es/topics/nueces-de-brasil-es	https://nutritionfacts.org/topics/brazil-nuts	https://nutritionfacts.org/es/topics/nueces-de-brasil-es
+food_videos_nuts[2]		topics/cashews	es/topics/anacardos	https://nutritionfacts.org/topics/cashews	https://nutritionfacts.org/es/topics/anacardos
+food_videos_nuts[3]		topics/chia-seeds	es/topics/semillas-de-chia	https://nutritionfacts.org/topics/chia-seeds	https://nutritionfacts.org/es/topics/semillas-de-chia
+food_videos_nuts[4]		topics/hazelnuts	es/topics/avellanas-es	https://nutritionfacts.org/topics/hazelnuts	https://nutritionfacts.org/es/topics/avellanas-es
 food_videos_nuts[5]					
-food_videos_nuts[6]		topics/macadamia-nuts	es/topics/nueces-de-macadamia		https://nutritionfacts.org/es/topics/nueces-de-macadamia
-food_videos_nuts[7]		topics/pecans	es/topics/nuez-pecana		https://nutritionfacts.org/es/topics/nuez-pecana
-food_videos_nuts[8]		topics/pistachios	es/topics/pistachos		https://nutritionfacts.org/es/topics/pistachos
-food_videos_nuts[9]		topics/pumpkin-seeds	es/topics/semillas-de-calabaza		https://nutritionfacts.org/es/topics/semillas-de-calabaza
-food_videos_nuts[10]		topics/sesame-seeds	es/topics/ajonjoli		https://nutritionfacts.org/es/topics/ajonjoli
-food_videos_nuts[11]		topics/sunflower-seeds	es/topics/semillas-de-girasol		https://nutritionfacts.org/es/topics/semillas-de-girasol
-food_videos_nuts[12]		topics/walnuts	es/topics/nueces-es		https://nutritionfacts.org/es/topics/nueces-es
-food_videos_spices[0]		topics/allspice			
-food_videos_spices[1]		topics/barberries	es/topics/berberos-es		https://nutritionfacts.org/es/topics/berberos-es
-food_videos_spices[2]		topics/basil	es/topics/albahaca		https://nutritionfacts.org/es/topics/albahaca
+food_videos_nuts[6]		topics/macadamia-nuts	es/topics/nueces-de-macadamia	https://nutritionfacts.org/topics/macadamia-nuts	https://nutritionfacts.org/es/topics/nueces-de-macadamia
+food_videos_nuts[7]		topics/pecans	es/topics/nuez-pecana	https://nutritionfacts.org/topics/pecans	https://nutritionfacts.org/es/topics/nuez-pecana
+food_videos_nuts[8]		topics/pistachios	es/topics/pistachos	https://nutritionfacts.org/topics/pistachios	https://nutritionfacts.org/es/topics/pistachos
+food_videos_nuts[9]		topics/pumpkin-seeds	es/topics/semillas-de-calabaza	https://nutritionfacts.org/topics/pumpkin-seeds	https://nutritionfacts.org/es/topics/semillas-de-calabaza
+food_videos_nuts[10]		topics/sesame-seeds	es/topics/ajonjoli	https://nutritionfacts.org/topics/sesame-seeds	https://nutritionfacts.org/es/topics/ajonjoli
+food_videos_nuts[11]		topics/sunflower-seeds	es/topics/semillas-de-girasol	https://nutritionfacts.org/topics/sunflower-seeds	https://nutritionfacts.org/es/topics/semillas-de-girasol
+food_videos_nuts[12]		topics/walnuts	es/topics/nueces-es	https://nutritionfacts.org/topics/walnuts	https://nutritionfacts.org/es/topics/nueces-es
+food_videos_spices[0]		topics/allspice		https://nutritionfacts.org/topics/allspice	
+food_videos_spices[1]		topics/barberries	es/topics/berberos-es	https://nutritionfacts.org/topics/barberries	https://nutritionfacts.org/es/topics/berberos-es
+food_videos_spices[2]		topics/basil	es/topics/albahaca	https://nutritionfacts.org/topics/basil	https://nutritionfacts.org/es/topics/albahaca
 food_videos_spices[3]					
 food_videos_spices[4]		topics/cardamom	es/topics/cardamomo		https://nutritionfacts.org/es/topics/cardamomo
 food_videos_spices[5]					
-food_videos_spices[6]		topics/cilantro	es/topics/cilantro-es		https://nutritionfacts.org/es/topics/cilantro-es
-food_videos_spices[7]		topics/cinnamon	es/topics/canela		https://nutritionfacts.org/es/topics/canela
-food_videos_spices[8]		topics/cloves	es/topics/clavos-de-olor		https://nutritionfacts.org/es/topics/clavos-de-olor
+food_videos_spices[6]		topics/cilantro	es/topics/cilantro-es	https://nutritionfacts.org/topics/cilantro	https://nutritionfacts.org/es/topics/cilantro-es
+food_videos_spices[7]		topics/cinnamon	es/topics/canela	https://nutritionfacts.org/topics/cinnamon	https://nutritionfacts.org/es/topics/canela
+food_videos_spices[8]		topics/cloves	es/topics/clavos-de-olor	https://nutritionfacts.org/topics/cloves	https://nutritionfacts.org/es/topics/clavos-de-olor
 food_videos_spices[9]		topics/coriander	es/topics/cilantro-es-2		https://nutritionfacts.org/es/topics/cilantro-es-2
-food_videos_spices[10]		topics/cumin	es/topics/comino		https://nutritionfacts.org/es/topics/comino
-food_videos_spices[11]		topics/curry-powder	es/topics/curry-en-polvo		https://nutritionfacts.org/es/topics/curry-en-polvo
+food_videos_spices[10]		topics/cumin	es/topics/comino	https://nutritionfacts.org/topics/cumin	https://nutritionfacts.org/es/topics/comino
+food_videos_spices[11]		topics/curry-powder	es/topics/curry-en-polvo	https://nutritionfacts.org/topics/curry-powder	https://nutritionfacts.org/es/topics/curry-en-polvo
 food_videos_spices[12]					
-food_videos_spices[13]		topics/fenugreek	es/topics/fenogreco		https://nutritionfacts.org/es/topics/fenogreco
-food_videos_spices[14]		topics/garlic	es/topics/ajo		https://nutritionfacts.org/es/topics/ajo
-food_videos_spices[15]		topics/ginger	es/topics/jengibre		https://nutritionfacts.org/es/topics/jengibre
+food_videos_spices[13]		topics/fenugreek	es/topics/fenogreco	https://nutritionfacts.org/topics/fenugreek	https://nutritionfacts.org/es/topics/fenogreco
+food_videos_spices[14]		topics/garlic	es/topics/ajo	https://nutritionfacts.org/topics/garlic	https://nutritionfacts.org/es/topics/ajo
+food_videos_spices[15]		topics/ginger	es/topics/jengibre	https://nutritionfacts.org/topics/ginger	https://nutritionfacts.org/es/topics/jengibre
 food_videos_spices[16]					
 food_videos_spices[17]		topics/lemongrass	es/topics/limoncillo-es		https://nutritionfacts.org/es/topics/limoncillo-es
-food_videos_spices[18]		topics/marjoram	es/topics/mejorana		https://nutritionfacts.org/es/topics/mejorana
-food_videos_spices[19]		topics/mustard-powder	es/topics/mostaza-en-polvo		https://nutritionfacts.org/es/topics/mostaza-en-polvo
-food_videos_spices[20]		topics/nutmeg	es/topics/nuez-moscada		https://nutritionfacts.org/es/topics/nuez-moscada
-food_videos_spices[21]		topics/oregano	es/topics/oregano-es		https://nutritionfacts.org/es/topics/oregano-es
+food_videos_spices[18]		topics/marjoram	es/topics/mejorana	https://nutritionfacts.org/topics/marjoram	https://nutritionfacts.org/es/topics/mejorana
+food_videos_spices[19]		topics/mustard-powder	es/topics/mostaza-en-polvo	https://nutritionfacts.org/topics/mustard-powder	https://nutritionfacts.org/es/topics/mostaza-en-polvo
+food_videos_spices[20]		topics/nutmeg	es/topics/nuez-moscada	https://nutritionfacts.org/topics/nutmeg	https://nutritionfacts.org/es/topics/nuez-moscada
+food_videos_spices[21]		topics/oregano	es/topics/oregano-es	https://nutritionfacts.org/topics/oregano	https://nutritionfacts.org/es/topics/oregano-es
 food_videos_spices[22]		topics/paprika			
-food_videos_spices[23]		topics/parsley	es/topics/perejil		https://nutritionfacts.org/es/topics/perejil
-food_videos_spices[24]		topics/pepper	es/topics/pimienta		https://nutritionfacts.org/es/topics/pimienta
-food_videos_spices[25]		topics/peppermint	es/topics/menta-es		https://nutritionfacts.org/es/topics/menta-es
-food_videos_spices[26]		topics/rosemary	es/topics/romero		https://nutritionfacts.org/es/topics/romero
-food_videos_spices[27]		topics/saffron	es/topics/azafran		https://nutritionfacts.org/es/topics/azafran
+food_videos_spices[23]		topics/parsley	es/topics/perejil	https://nutritionfacts.org/topics/parsley	https://nutritionfacts.org/es/topics/perejil
+food_videos_spices[24]		topics/pepper	es/topics/pimienta	https://nutritionfacts.org/topics/pepper	https://nutritionfacts.org/es/topics/pimienta
+food_videos_spices[25]		topics/peppermint	es/topics/menta-es	https://nutritionfacts.org/topics/peppermint	https://nutritionfacts.org/es/topics/menta-es
+food_videos_spices[26]		topics/rosemary	es/topics/romero	https://nutritionfacts.org/topics/rosemary	https://nutritionfacts.org/es/topics/romero
+food_videos_spices[27]		topics/saffron	es/topics/azafran	https://nutritionfacts.org/topics/saffron	https://nutritionfacts.org/es/topics/azafran
 food_videos_spices[28]					
 food_videos_spices[29]		topics/thyme	es/topics/tomillo		https://nutritionfacts.org/es/topics/tomillo
-food_videos_spices[30]		topics/turmeric	es/topics/curcuma		https://nutritionfacts.org/es/topics/curcuma
+food_videos_spices[30]		topics/turmeric	es/topics/curcuma	https://nutritionfacts.org/topics/turmeric	https://nutritionfacts.org/es/topics/curcuma
 food_videos_spices[31]					
-food_videos_whole_grains[0]		topics/barley	es/topics/cebada		https://nutritionfacts.org/es/topics/cebada
-food_videos_whole_grains[1]		topics/buckwheat	es/topics/trigo-sarraceno		https://nutritionfacts.org/es/topics/trigo-sarraceno
-food_videos_whole_grains[2]		topics/millet	es/topics/mijo		https://nutritionfacts.org/es/topics/mijo
-food_videos_whole_grains[3]		topics/oats	es/topics/avena-es		https://nutritionfacts.org/es/topics/avena-es
-food_videos_whole_grains[4]		topics/popcorn	es/topics/palomitas-de-maiz		https://nutritionfacts.org/es/topics/palomitas-de-maiz
-food_videos_whole_grains[5]		topics/quinoa	es/topics/quinoa-es		https://nutritionfacts.org/es/topics/quinoa-es
-food_videos_whole_grains[6]		topics/rye	es/topics/centeno		https://nutritionfacts.org/es/topics/centeno
+food_videos_whole_grains[0]		topics/barley	es/topics/cebada	https://nutritionfacts.org/topics/barley	https://nutritionfacts.org/es/topics/cebada
+food_videos_whole_grains[1]		topics/buckwheat	es/topics/trigo-sarraceno	https://nutritionfacts.org/topics/buckwheat	https://nutritionfacts.org/es/topics/trigo-sarraceno
+food_videos_whole_grains[2]		topics/millet	es/topics/mijo	https://nutritionfacts.org/topics/millet	https://nutritionfacts.org/es/topics/mijo
+food_videos_whole_grains[3]		topics/oats	es/topics/avena-es	https://nutritionfacts.org/topics/oats	https://nutritionfacts.org/es/topics/avena-es
+food_videos_whole_grains[4]		topics/popcorn	es/topics/palomitas-de-maiz	https://nutritionfacts.org/topics/popcorn	https://nutritionfacts.org/es/topics/palomitas-de-maiz
+food_videos_whole_grains[5]		topics/quinoa	es/topics/quinoa-es	https://nutritionfacts.org/topics/quinoa	https://nutritionfacts.org/es/topics/quinoa-es
+food_videos_whole_grains[6]		topics/rye	es/topics/centeno	https://nutritionfacts.org/topics/rye	https://nutritionfacts.org/es/topics/centeno
 food_videos_whole_grains[7]		topics/teff	es/topics/teff-es		https://nutritionfacts.org/es/topics/teff-es
-food_videos_whole_grains[8]		topics/pasta	es/topics/pasta-es		https://nutritionfacts.org/es/topics/pasta-es
-food_videos_beverages[0]		topics/black-tea	es/topics/te-negro		https://nutritionfacts.org/es/topics/te-negro
-food_videos_beverages[1]		topics/chai-tea	es/topics/te-chai		https://nutritionfacts.org/es/topics/te-chai
-food_videos_beverages[2]		topics/chamomile-tea	es/topics/te-de-manzanilla		https://nutritionfacts.org/es/topics/te-de-manzanilla
-food_videos_beverages[3]		topics/coffee	es/topics/cafe		https://nutritionfacts.org/es/topics/cafe
-food_videos_beverages[4]		topics/earl-grey-tea	es/topics/te-earl-grey-es		https://nutritionfacts.org/es/topics/te-earl-grey-es
-food_videos_beverages[5]		topics/green-tea	es/topics/te-verde		https://nutritionfacts.org/es/topics/te-verde
-food_videos_beverages[6]		topics/hibiscus-tea	es/topics/hibiscus-tea-es		https://nutritionfacts.org/es/topics/hibiscus-tea-es
+food_videos_whole_grains[8]		topics/pasta	es/topics/pasta-es	https://nutritionfacts.org/topics/pasta	https://nutritionfacts.org/es/topics/pasta-es
+food_videos_beverages[0]		topics/black-tea	es/topics/te-negro	https://nutritionfacts.org/topics/black-tea	https://nutritionfacts.org/es/topics/te-negro
+food_videos_beverages[1]		topics/chai-tea	es/topics/te-chai	https://nutritionfacts.org/topics/chai-tea	https://nutritionfacts.org/es/topics/te-chai
+food_videos_beverages[2]		topics/chamomile-tea	es/topics/te-de-manzanilla	https://nutritionfacts.org/topics/chamomile-tea	https://nutritionfacts.org/es/topics/te-de-manzanilla
+food_videos_beverages[3]		topics/coffee	es/topics/cafe	https://nutritionfacts.org/topics/coffee	https://nutritionfacts.org/es/topics/cafe
+food_videos_beverages[4]		topics/earl-grey-tea	es/topics/te-earl-grey-es	https://nutritionfacts.org/topics/earl-grey-tea	https://nutritionfacts.org/es/topics/te-earl-grey-es
+food_videos_beverages[5]		topics/green-tea	es/topics/te-verde	https://nutritionfacts.org/topics/green-tea	https://nutritionfacts.org/es/topics/te-verde
+food_videos_beverages[6]		topics/hibiscus-tea	es/topics/hibiscus-tea-es	https://nutritionfacts.org/topics/hibiscus-tea	https://nutritionfacts.org/es/topics/hibiscus-tea-es
 food_videos_beverages[7]					
 food_videos_beverages[8]		topics/jasmine-tea	es/topics/te-de-jasmin		https://nutritionfacts.org/es/topics/te-de-jasmin
-food_videos_beverages[9]		topics/lemon-balm			
-food_videos_beverages[10]		topics/matcha	es/topics/matcha-es		https://nutritionfacts.org/es/topics/matcha-es
-food_videos_beverages[11]		topics/oolong-tea	es/topics/te-oolong-es		https://nutritionfacts.org/es/topics/te-oolong-es
-food_videos_beverages[12]		topics/peppermint	es/topics/menta-es		https://nutritionfacts.org/es/topics/menta-es
-food_videos_beverages[13]		topics/rooibos-tea	es/topics/te-rooibos-es		https://nutritionfacts.org/es/topics/te-rooibos-es
-food_videos_beverages[14]		topics/water	es/topics/agua		https://nutritionfacts.org/es/topics/agua
-food_videos_beverages[15]		topics/white-tea	es/topics/te-blanco		https://nutritionfacts.org/es/topics/te-blanco
+food_videos_beverages[9]		topics/lemon-balm		https://nutritionfacts.org/topics/lemon-balm	
+food_videos_beverages[10]		topics/matcha	es/topics/matcha-es	https://nutritionfacts.org/topics/matcha	https://nutritionfacts.org/es/topics/matcha-es
+food_videos_beverages[11]		topics/oolong-tea	es/topics/te-oolong-es	https://nutritionfacts.org/topics/oolong-tea	https://nutritionfacts.org/es/topics/te-oolong-es
+food_videos_beverages[12]		topics/peppermint	es/topics/menta-es	https://nutritionfacts.org/topics/peppermint	https://nutritionfacts.org/es/topics/menta-es
+food_videos_beverages[13]		topics/rooibos-tea	es/topics/te-rooibos-es	https://nutritionfacts.org/topics/rooibos-tea	https://nutritionfacts.org/es/topics/te-rooibos-es
+food_videos_beverages[14]		topics/water	es/topics/agua	https://nutritionfacts.org/topics/water	https://nutritionfacts.org/es/topics/agua
+food_videos_beverages[15]		topics/white-tea	es/topics/te-blanco	https://nutritionfacts.org/topics/white-tea	https://nutritionfacts.org/es/topics/te-blanco

@@ -34,7 +34,7 @@ food_info_types_beans.14	dozeBeans.Variety.Text.14	Split peas (yellow or green)	
 food_info_types_beans.15	dozeBeans.Variety.Text.15	Tempeh	Tempeh	
 food_info_types_beans.2	dozeBeans.Variety.Text.2	Butter beans	Habas grandes	
 food_info_types_beans.3	dozeBeans.Variety.Text.3	Cannellini beans	Frijoles blancos	
-food_info_types_beans.4	dozeBeans.Variety.Text.4	Chickpeas/Garbanzo beans	Garbanzos	
+food_info_types_beans.4	dozeBeans.Variety.Text.4	Chickpeas/Garbanzo Beans	Garbanzos	
 food_info_types_beans.5	dozeBeans.Variety.Text.5	Edamame	Edamame	
 food_info_types_beans.6	dozeBeans.Variety.Text.6	English peas	Guisantes	
 food_info_types_beans.7	dozeBeans.Variety.Text.7	Great northern beans	Frijoles Great Northern	
@@ -72,7 +72,7 @@ food_info_types_berries.10	dozeBerries.Variety.Text.10	Raspberries (black or red
 food_info_types_berries.11	dozeBerries.Variety.Text.11	Strawberries	Fresas	
 food_info_types_berries.2	dozeBerries.Variety.Text.2	Blackberries	Moras	
 food_info_types_berries.3	dozeBerries.Variety.Text.3	Blueberries	Arándanos azules	
-food_info_types_berries.4	dozeBerries.Variety.Text.4	Cherries (sweet or tart)	Cerezas	
+food_info_types_berries.4	dozeBerries.Variety.Text.4	Cherries (sweet or tart)	Cerezas (dulces o ácidas)	
 food_info_types_berries.5	dozeBerries.Variety.Text.5	Concord grapes	Uvas	
 food_info_types_berries.6	dozeBerries.Variety.Text.6	Cranberries	Arándanos rojos	
 food_info_types_berries.7	dozeBerries.Variety.Text.7	Goji berries	Bayas de Goji	
@@ -142,20 +142,20 @@ food_info_types_exercise.0	dozeExercise.Variety.Text.0	Bicycling	Bicicleta
 food_info_types_exercise.1	dozeExercise.Variety.Text.1	Canoeing	Canoa	
 food_info_types_exercise.10	dozeExercise.Variety.Text.10	Juggling	Malabarismos	
 food_info_types_exercise.11	dozeExercise.Variety.Text.11	Jumping on a trampoline	Saltar en trampolín	
-food_info_types_exercise.12	dozeExercise.Variety.Text.12	Paddle boating	Remos	
+food_info_types_exercise.12	dozeExercise.Variety.Text.12	Paddle boating	Remo	
 food_info_types_exercise.13	dozeExercise.Variety.Text.13	Playing frisbee	Jugar al frisbee	
 food_info_types_exercise.14	dozeExercise.Variety.Text.14	Roller-skating	Patinaje	
-food_info_types_exercise.15	dozeExercise.Variety.Text.15	Shooting baskets	Tirar canastas	
+food_info_types_exercise.15	dozeExercise.Variety.Text.15	Shooting baskets	Canastas	
 food_info_types_exercise.16	dozeExercise.Variety.Text.16	Shoveling light snow	Palear nieve ligera	
 food_info_types_exercise.17	dozeExercise.Variety.Text.17	Skateboarding	Patineta	
-food_info_types_exercise.18	dozeExercise.Variety.Text.18	Snorkeling	Snorkeling	
+food_info_types_exercise.18	dozeExercise.Variety.Text.18	Snorkeling	Snorkel	
 food_info_types_exercise.19	dozeExercise.Variety.Text.19	Surfing	Surfear	
 food_info_types_exercise.2	dozeExercise.Variety.Text.2	Dancing	Baile	
 food_info_types_exercise.20	dozeExercise.Variety.Text.20	Swimming recreationally	Natación por ocio	
 food_info_types_exercise.21	dozeExercise.Variety.Text.21	Tennis (doubles)	Tennis (dobles)	
 food_info_types_exercise.22	dozeExercise.Variety.Text.22	Treading water	Flotar en el agua	
 food_info_types_exercise.23	dozeExercise.Variety.Text.23	Walking briskly (4 mph)	Caminata rápida (6.5 kmh)	
-food_info_types_exercise.24	dozeExercise.Variety.Text.24	Water aerobics	Aerobicos acuáticos	
+food_info_types_exercise.24	dozeExercise.Variety.Text.24	Water aerobics	Aeróbicos acuáticos	
 food_info_types_exercise.25	dozeExercise.Variety.Text.25	Waterskiing	Esquí acuático	
 food_info_types_exercise.26	dozeExercise.Variety.Text.26	Yard work	Jardinería	
 food_info_types_exercise.27	dozeExercise.Variety.Text.27	Yoga	Yoga	
@@ -271,7 +271,7 @@ food_info_serving_sizes_other_fruits_metric.0	dozeFruitsOther.Serving.metric.0		
 food_info_serving_sizes_other_fruits_metric.1	dozeFruitsOther.Serving.metric.1	120 g	120 g	
 food_info_serving_sizes_other_fruits_metric.2	dozeFruitsOther.Serving.metric.2	40 g	40 g	
 food_info_types_other_fruits.0	dozeFruitsOther.Variety.Text.0	Apples	Manzanas	
-food_info_types_other_fruits.1	dozeFruitsOther.Variety.Text.1	Dried apricots	Albaricoques secos	
+food_info_types_other_fruits.1	dozeFruitsOther.Variety.Text.1	Apricots	Albaricoques	
 food_info_types_other_fruits.10	dozeFruitsOther.Variety.Text.10	Kiwifruit	Kiwi	
 food_info_types_other_fruits.11	dozeFruitsOther.Variety.Text.11	Lemons	Limones amarillos	
 food_info_types_other_fruits.12	dozeFruitsOther.Variety.Text.12	Limes	Limones verdes	
@@ -285,17 +285,17 @@ food_info_types_other_fruits.19	dozeFruitsOther.Variety.Text.19	Peaches	Duraznos
 food_info_types_other_fruits.2	dozeFruitsOther.Variety.Text.2	Avocados	Aguacates	
 food_info_types_other_fruits.20	dozeFruitsOther.Variety.Text.20	Pears	Peras	
 food_info_types_other_fruits.21	dozeFruitsOther.Variety.Text.21	Pineapple	Piña	
-food_info_types_other_fruits.22	dozeFruitsOther.Variety.Text.22	Plums (especially black plums)	Ciruelas (en especial ciruelas negras)	
+food_info_types_other_fruits.22	dozeFruitsOther.Variety.Text.22	Plums (especially black plums)	Ciruelas (en especial las negras)	
 food_info_types_other_fruits.23	dozeFruitsOther.Variety.Text.23	Pluots	Pluots	
 food_info_types_other_fruits.24	dozeFruitsOther.Variety.Text.24	Pomegranates	Granada	
 food_info_types_other_fruits.25	dozeFruitsOther.Variety.Text.25	Prunes	Ciruelas pasas	
-food_info_types_other_fruits.26	dozeFruitsOther.Variety.Text.26	Tangerines	Mandarinas	
+food_info_types_other_fruits.26	dozeFruitsOther.Variety.Text.26	Tangerines	Mandarina	
 food_info_types_other_fruits.27	dozeFruitsOther.Variety.Text.27	Watermelon	Sandía	
 food_info_types_other_fruits.3	dozeFruitsOther.Variety.Text.3	Bananas	Bananas	
 food_info_types_other_fruits.4	dozeFruitsOther.Variety.Text.4	Cantaloupe	Melón cantalupo	
 food_info_types_other_fruits.5	dozeFruitsOther.Variety.Text.5	Clementines	Clementinas	
 food_info_types_other_fruits.6	dozeFruitsOther.Variety.Text.6	Dates	Dátiles	
-food_info_types_other_fruits.7	dozeFruitsOther.Variety.Text.7	Dried figs	Higos	
+food_info_types_other_fruits.7	dozeFruitsOther.Variety.Text.7	Figs	Higos	
 food_info_types_other_fruits.8	dozeFruitsOther.Variety.Text.8	Grapefruit	Toronja	
 food_info_types_other_fruits.9	dozeFruitsOther.Variety.Text.9	Honeydew	Melón galia	
 	dozeFruitsOther.Variety.Topic.0	topics/apples	es/topics/manzanas	
@@ -339,7 +339,7 @@ food_info_serving_sizes_greens_metric.1	dozeGreens.Serving.metric.1	90 g	90 g
 food_info_types_greens.0	dozeGreens.Variety.Text.0	Arugula	Rúcula	
 food_info_types_greens.1	dozeGreens.Variety.Text.1	Beet greens	Hojas de remolacha	
 food_info_types_greens.2	dozeGreens.Variety.Text.2	Collard greens	Col	
-food_info_types_greens.3	dozeGreens.Variety.Text.3	Kale (black, green, and red)	Berza	
+food_info_types_greens.3	dozeGreens.Variety.Text.3	Kale (black, green, and red)	Berza (negra, verde y roja)	
 food_info_types_greens.4	dozeGreens.Variety.Text.4	Mesclun mix (assorted young salad greens)	Mesclun (hojas tiernas)	
 food_info_types_greens.5	dozeGreens.Variety.Text.5	Mustard greens	Hojas de mostaza	
 food_info_types_greens.6	dozeGreens.Variety.Text.6	Sorrel	Alazán	
@@ -415,7 +415,7 @@ food_info_types_spices.13	dozeSpices.Variety.Text.13	Fenugreek	Fenogreco
 food_info_types_spices.14	dozeSpices.Variety.Text.14	Garlic	Ajo	
 food_info_types_spices.15	dozeSpices.Variety.Text.15	Ginger	Jengibre	
 food_info_types_spices.16	dozeSpices.Variety.Text.16	Horseradish	Rábano picante	
-food_info_types_spices.17	dozeSpices.Variety.Text.17	Lemongrass	Citronela	
+food_info_types_spices.17	dozeSpices.Variety.Text.17	Lemongrass	Limoncillo	
 food_info_types_spices.18	dozeSpices.Variety.Text.18	Marjoram	Mejorana	
 food_info_types_spices.19	dozeSpices.Variety.Text.19	Mustard powder	Mostaza en polvo	
 food_info_types_spices.2	dozeSpices.Variety.Text.2	Basil	Albahaca	
@@ -429,7 +429,7 @@ food_info_types_spices.26	dozeSpices.Variety.Text.26	Rosemary	Romero
 food_info_types_spices.27	dozeSpices.Variety.Text.27	Saffron	Azafrán	
 food_info_types_spices.28	dozeSpices.Variety.Text.28	Sage	Salvia	
 food_info_types_spices.29	dozeSpices.Variety.Text.29	Thyme	Tomillo	
-food_info_types_spices.3	dozeSpices.Variety.Text.3	Bay leaves	Hojas de laurel	
+food_info_types_spices.3	dozeSpices.Variety.Text.3	Bay leaves	Laurel	
 food_info_types_spices.30	dozeSpices.Variety.Text.30	Turmeric	Cúrcuma	
 food_info_types_spices.31	dozeSpices.Variety.Text.31	Vanilla	Vainilla	
 food_info_types_spices.4	dozeSpices.Variety.Text.4	Cardamom	Cardamomo	
@@ -489,14 +489,14 @@ food_info_types_cruciferous_vegetables.1	dozeVegetablesCruciferous.Variety.Text.
 food_info_types_cruciferous_vegetables.10	dozeVegetablesCruciferous.Variety.Text.10	Mustard greens	Hojas de mostaza	
 food_info_types_cruciferous_vegetables.11	dozeVegetablesCruciferous.Variety.Text.11	Radishes	Rábanos	
 food_info_types_cruciferous_vegetables.12	dozeVegetablesCruciferous.Variety.Text.12	Turnip greens	Nabos verdes	
-food_info_types_cruciferous_vegetables.13	dozeVegetablesCruciferous.Variety.Text.13	Watercress	Berro	
+food_info_types_cruciferous_vegetables.13	dozeVegetablesCruciferous.Variety.Text.13	Watercress	Berros	
 food_info_types_cruciferous_vegetables.2	dozeVegetablesCruciferous.Variety.Text.2	Broccoli (incl. Romanesco)	Brócoli	
 food_info_types_cruciferous_vegetables.3	dozeVegetablesCruciferous.Variety.Text.3	Brussels sprouts	Coles de Bruselas	
 food_info_types_cruciferous_vegetables.4	dozeVegetablesCruciferous.Variety.Text.4	Cabbage (green, red and savoy)	Repollo (verde, rojo)	
 food_info_types_cruciferous_vegetables.5	dozeVegetablesCruciferous.Variety.Text.5	Cauliflower (white, green, orange and purple)	Coliflor	
 food_info_types_cruciferous_vegetables.6	dozeVegetablesCruciferous.Variety.Text.6	Collard greens	Berza	
 food_info_types_cruciferous_vegetables.7	dozeVegetablesCruciferous.Variety.Text.7	Horseradish	Rábano picante	
-food_info_types_cruciferous_vegetables.8	dozeVegetablesCruciferous.Variety.Text.8	Kale (black, green, and red)	Berza	
+food_info_types_cruciferous_vegetables.8	dozeVegetablesCruciferous.Variety.Text.8	Kale (black, green, and red)	Col rizada	
 food_info_types_cruciferous_vegetables.9	dozeVegetablesCruciferous.Variety.Text.9	Kohlrabi (green and purple)	Colinabo (verde, morado)	
 	dozeVegetablesCruciferous.Variety.Topic.0			
 	dozeVegetablesCruciferous.Variety.Topic.1	topics/bok-choy	es/topics/bok-choy-es	
@@ -536,7 +536,7 @@ food_info_types_other_vegetables.10	dozeVegetablesOther.Variety.Text.10	Purple p
 food_info_types_other_vegetables.11	dozeVegetablesOther.Variety.Text.11	Pumpkin	Calabaza	
 food_info_types_other_vegetables.12	dozeVegetablesOther.Variety.Text.12	Sea vegetables (arame, dulse, and nori)	Algas	
 food_info_types_other_vegetables.13	dozeVegetablesOther.Variety.Text.13	Snap peas	Tirabeques	
-food_info_types_other_vegetables.14	dozeVegetablesOther.Variety.Text.14	Squash (delicata, summer, and spaghetti squash varieties)	Calabaza pequeñas	
+food_info_types_other_vegetables.14	dozeVegetablesOther.Variety.Text.14	Squash (delicata, summer, and spaghetti squash varieties)	Calabaza	
 food_info_types_other_vegetables.15	dozeVegetablesOther.Variety.Text.15	Sweet potatoes/yams	Batata	
 food_info_types_other_vegetables.16	dozeVegetablesOther.Variety.Text.16	Tomatoes	Tomates	
 food_info_types_other_vegetables.17	dozeVegetablesOther.Variety.Text.17	Zucchini	Calabacín	
@@ -547,7 +547,7 @@ food_info_types_other_vegetables.5	dozeVegetablesOther.Variety.Text.5	Corn	Maíz
 food_info_types_other_vegetables.6	dozeVegetablesOther.Variety.Text.6	Garlic	Ajo	
 food_info_types_other_vegetables.7	dozeVegetablesOther.Variety.Text.7	Mushrooms (button, oyster, portobello, and shiitake)	Champiñones	
 food_info_types_other_vegetables.8	dozeVegetablesOther.Variety.Text.8	Okra	Okra	
-food_info_types_other_vegetables.9	dozeVegetablesOther.Variety.Text.9	Onions	Cebolla	
+food_info_types_other_vegetables.9	dozeVegetablesOther.Variety.Text.9	Onions	Cebollas	
 	dozeVegetablesOther.Variety.Topic.0	topics/artichokes	es/topics/alcachofas	
 	dozeVegetablesOther.Variety.Topic.1	topics/asparagus	es/topics/esparragos	
 	dozeVegetablesOther.Variety.Topic.10	topics/purple-potatoes	es/topics/patatas-moradas	
@@ -631,8 +631,8 @@ daily_reminder_text	reminder.alert.text	Update your servings for today	Actualiza
 	reminder.heading	Daily Reminder	Recordatorio diario	
 	reminder.settings.enable	Enable Reminders	Activar el recordatorio	On/Off toggle label
 play_sound	reminder.settings.sound	Play Sound	Sonido	
-remind_me_at	reminder.settings.time	Remind me at	Recuérdamelo a las	
-vibrate	reminder.settings.vibrate	Vibrate	Vibración	Android notification `vibrate`
+remind_me_at	reminder.settings.time	Remind me at	Recuerdame a las	
+vibrate	reminder.settings.vibrate	Vibrate		Android notification `vibrate`
 	reminder.state.off	Off	Off	'Off' as in 'On or Off', reminder is not enabled
 	reminder.state.on	On	On	'On' as in 'On or Off'
 	settings.tweak.header	21 Tweaks Visibility	Visibilidad de 21 Ajustes	
@@ -648,14 +648,14 @@ complete_intentions_text	tweakCompleteIntentions.text	Every two months, create t
 	tweakDailyBlackCumin.Activity.Imperial	Black Cumin (Nigella sativa) (¼ tsp)	Comino negro (Nigella sativa) (¼ cucharadita)	
 	tweakDailyBlackCumin.Activity.Metric	Black Cumin (Nigella sativa) (¼ tsp)	Comino negro (Nigella sativa) (¼ cucharadita)	
 	tweakDailyBlackCumin.Description.0	As noted in the Appetite Suppression section, a systematic review and meta-analysis of randomized, controlled weight-loss trials found that about a quarter teaspoon of black cumin powder every day appears to reduce body mass index within a span of a couple of months. Note that black cumin is different from regular cumin, for which the dosing is different.	Como se indica en la sección del libro que habla de la supresión del apetito, una revisión sistemática y un metanálisis de ensayos aleatorizados con grupo de control sobre la pérdida de peso concluyó que aproximadamente un cuarto de cucharadita de comino negro en polvo al día parece reducir el índice de masa corporal en un lapso de un par de meses. No olvides que el comino negro es diferente al comino normal, cuya ingesta recomendada es diferente.	
-daily_blackcumin	tweakDailyBlackCumin.heading	Black Cumin (¼ tsp)	Comino negro (¼ ctda.)	
+daily_blackcumin	tweakDailyBlackCumin.heading	Black Cumin (¼ tsp)	Comino negro (¼ cucharadita)	
 daily_blackcumin_short	tweakDailyBlackCumin.short	Black Cumin (Nigella sativa) (¼ tsp)	Comino negro (Nigella sativa) (¼ ctda.)	
 daily_blackcumin_text	tweakDailyBlackCumin.text	As noted in the Appetite Suppression section, a systematic review and meta-analysis of randomized, controlled weight-loss trials found that about a quarter teaspoon of black cumin powder every day appears to reduce body mass index within a span of a couple of months. Note that black cumin is different from regular cumin, for which the dosing is different.	Como se indica en la sección del libro que habla de la supresión del apetito, una revisión sistemática y un metanálisis de ensayos aleatorizados con grupo de control sobre la pérdida de peso concluyó que aproximadamente un cuarto de cucharadita de comino negro en polvo al día parece reducir el índice de masa corporal en un lapso de un par de meses. No olvides que el comino negro es diferente al comino normal, cuya ingesta recomendada es diferente.	
 	tweakDailyBlackCumin.topic			
 	tweakDailyCumin.Activity.Imperial	Cumin (Cuminum cyminum) (½ tsp with lunch and dinner)	Comino (Cuminum cyminum) (½ cucharadita con almuerzo y cena)	
 	tweakDailyCumin.Activity.Metric	Cumin (Cuminum cyminum) (½ tsp with lunch and dinner)	Comino (Cuminum cyminum) (½ cucharadita con almuerzo y cena)	
 	tweakDailyCumin.Description.0	Overweight women randomized to add a half teaspoon of cumin to their lunches and dinners beat out the control group by four more pounds and an extra inch off their waists. There is also evidence to support the use of the spice saffron, but a pinch a day would cost a dollar, whereas a teaspoon of cumin costs less than ten cents.	Las mujeres con sobrepeso aleatorizadas a echarle media cucharadita de comino a sus almuerzos y cenas superaron al grupo de control, ya que perdieron casi 2 kg más y 2.5 cm extra en la cintura. También existe evidencia para apoyar el uso del azafrán, pero una pizca al día costaría un dólar, mientras que una cucharadita de comino cuesta menos de diez centavos.	
-daily_cumin	tweakDailyCumin.heading	Cumin (½ tsp with lunch and dinner)	Comino (½ ctda. almuerzo y cena)	
+daily_cumin	tweakDailyCumin.heading	Cumin (½ tsp with lunch and dinner)	Comino (½ cucharadita con almuerzo y cena)	
 daily_cumin_short	tweakDailyCumin.short	Cumin (Cuminum cyminum) (½ tsp with lunch and dinner)	Comino (Cuminum cyminum) (½ ctda. almuerzo y cena)	
 daily_cumin_text	tweakDailyCumin.text	Overweight women randomized to add a half teaspoon of cumin to their lunches and dinners beat out the control group by four more pounds and an extra inch off their waists. There is also evidence to support the use of the spice saffron, but a pinch a day would cost a dollar, whereas a teaspoon of cumin costs less than ten cents.	Las mujeres con sobrepeso aleatorizadas a echarle media cucharadita de comino a sus almuerzos y cenas superaron al grupo de control, ya que perdieron casi 2 kg más y 2.5 cm extra en la cintura. También existe evidencia para apoyar el uso del azafrán, pero una pizca al día costaría un dólar, mientras que una cucharadita de comino cuesta menos de diez centavos.	
 	tweakDailyCumin.topic			
@@ -676,14 +676,14 @@ daily_frontload_text	tweakDailyFrontLoad.text	There are metabolic benefits to di
 	tweakDailyGarlic.Activity.Imperial	Garlic Powder (¼ tsp)	Ajo en polvo (¼ cucharadita)	
 	tweakDailyGarlic.Activity.Metric	Garlic Powder (¼ tsp)	Ajo en polvo (¼ cucharadita)	
 	tweakDailyGarlic.Description.0	Randomized, double-blind, placebo-controlled studies have found that as little as a daily quarter teaspoon of garlic powder can reduce body fat at a cost of perhaps two cents a day.	Unos estudios aleatorizados, doble ciegos y controlados con placebo han encontrado que, con simplemente un cuarto de cucharadita diaria de ajo en polvo, se puede reducir la grasa corporal, a un costo de quizás dos centavos por día.	
-daily_garlic	tweakDailyGarlic.heading	Garlic Powder (¼ tsp)	Ajo en polvo (¼ ctda.)	
+daily_garlic	tweakDailyGarlic.heading	Garlic Powder (¼ tsp)	Ajo en polvo (¼ cucharadita)	
 daily_garlic_short	tweakDailyGarlic.short	Garlic Powder (¼ tsp)	Ajo en polvo (¼ ctda.)	
 daily_garlic_text	tweakDailyGarlic.text	Randomized, double-blind, placebo-controlled studies have found that as little as a daily quarter teaspoon of garlic powder can reduce body fat at a cost of perhaps two cents a day.	Unos estudios aleatorizados, doble ciegos y controlados con placebo han encontrado que, con simplemente un cuarto de cucharadita diaria de ajo en polvo, se puede reducir la grasa corporal, a un costo de quizás dos centavos por día.	
 	tweakDailyGarlic.topic			
 	tweakDailyGinger.Activity.Imperial	Ground Ginger (1 tsp) or Cayenne Pepper (½ tsp)	Jengibre en polvo (1 cucharadita) o cayena (½ cucharadita)	
 	tweakDailyGinger.Activity.Metric	Ground Ginger (1 tsp) or Cayenne Pepper (½ tsp)	Jengibre en polvo (1 cucharadita) o cayena (½ cucharadita)	
 	tweakDailyGinger.Description.0	Randomized controlled trials have found that ¼ teaspoon to 1½ teaspoons a day of ground ginger significantly decreased body weight for just pennies a day. It can be as easy as stirring the ground spice into a cup of hot water. Note: Ginger may work better in the morning than evening. Chai tea is a tasty way to combine the green tea and ginger tricks into a single beverage. Alternately, for BAT activation, you can add one raw jalapeño pepper or a half teaspoon of red pepper powder (or, presumably, crushed red pepper flakes) into your daily diet. To help beat the heat, you can very thinly slice or finely chop the jalapeño to reduce its bite to little prickles, or mix the red pepper into soup or the whole-food vegetable smoothie I featured in one of my cooking videos on NutritionFacts.org.	Unos ensayos aleatorizados y con grupo de control han descubierto que el consumo de ¼ a 1½ cucharadita al día de jengibre en polvo disminuye significativamente el peso corporal por solo unos centavos al día. Puede ser tan fácil como echar el jengibre en una taza de agua caliente. Nota: el jengibre podría funcionar mejor por la mañana que por la tarde. El chai es una forma estupenda de combinar los trucos del té verde y el jengibre en una sola bebida. Además, para activar el tejido adiposo pardo, también puedes añadir un jalapeño crudo o media cucharadita de chile en polvo a tu dieta diaria. Para ayudarte con el picante, puedes cortar el jalapeño en rodajas muy finas o picarlo muy bien. El chile en polvo lo podrías echar en las sopas y guisos o en el batido de verduras que hice en uno de mis videos de cocina en NutritionFacts.org.	
-daily_ginger	tweakDailyGinger.heading	Ground Ginger (1 tsp) or Cayenne Pepper (½ tsp)	Jengibre (1 ctda.) o cayena (½ ctda.)	
+daily_ginger	tweakDailyGinger.heading	Ground Ginger (1 tsp) or Cayenne Pepper (½ tsp)	Jengibre molido (1 cucharadita) o cayena (½ cucharadita)	
 daily_ginger_short	tweakDailyGinger.short	Ground Ginger (1 tsp) or Cayenne Pepper (½ tsp)	Jengibre (1 ctda.) o cayena (½ ctda.)	
 daily_ginger_text	tweakDailyGinger.text	Randomized controlled trials have found that ¼ teaspoon to 1½ teaspoons a day of ground ginger significantly decreased body weight for just pennies a day. It can be as easy as stirring the ground spice into a cup of hot water. Note: Ginger may work better in the morning than evening. Chai tea is a tasty way to combine the green tea and ginger tricks into a single beverage. Alternately, for BAT activation, you can add one raw jalapeño pepper or a half teaspoon of red pepper powder (or, presumably, crushed red pepper flakes) into your daily diet. To help beat the heat, you can very thinly slice or finely chop the jalapeño to reduce its bite to little prickles, or mix the red pepper into soup or the whole-food vegetable smoothie I featured in one of my cooking videos on NutritionFacts.org.	Unos ensayos aleatorizados y con grupo de control han descubierto que el consumo de ¼ a 1½ cucharadita al día de jengibre en polvo disminuye significativamente el peso corporal por solo unos centavos al día. Puede ser tan fácil como echar el jengibre en una taza de agua caliente. Nota: el jengibre podría funcionar mejor por la mañana que por la tarde. El chai es una forma estupenda de combinar los trucos del té verde y el jengibre en una sola bebida. Además, para activar el tejido adiposo pardo, también puedes añadir un jalapeño crudo o media cucharadita de chile en polvo a tu dieta diaria. Para ayudarte con el picante, puedes cortar el jalapeño en rodajas muy finas o picarlo muy bien. El chile en polvo lo podrías echar en las sopas y guisos o en el batido de verduras que hice en uno de mis videos de cocina en NutritionFacts.org.	
 	tweakDailyGinger.topic			
@@ -704,7 +704,7 @@ daily_hydrate_text	tweakDailyHydrate.text	Check this box if your urine never app
 	tweakDailyNutriYeast.Activity.Imperial	Nutritional Yeast (2 tsp)	Levadura nutricional (2 cucharaditas)	
 	tweakDailyNutriYeast.Activity.Metric	Nutritional Yeast (2 tsp)	Levadura nutricional (2 cucharaditas)	
 	tweakDailyNutriYeast.Description.0	Two teaspoons of baker's, brewer's, or nutritional yeast contains roughly the amount of beta 1,3/1,6 glucans found in randomized, double-blind, placebo-controlled clinical trials to facilitate weight loss.	Dos cucharaditas de levadura de panadería, de cerveza o nutricional contienen aproximadamente la cantidad de glucanos beta 1,3 / 1,6 correcta que, en ensayos clínicos aleatorizados, doble ciegos y con grupo de control, ha demostrado facilitar la pérdida de peso.	
-daily_nutriyeast	tweakDailyNutriYeast.heading	Nutritional Yeast (2 tsp)	Levadura nutricional (2 ctda.)	
+daily_nutriyeast	tweakDailyNutriYeast.heading	Nutritional Yeast (2 tsp)	Levadura nutricional (2 cucharaditas)	
 daily_nutriyeast_short	tweakDailyNutriYeast.short	Nutritional Yeast (2 tsp)	Levadura nutricional (2 ctda.)	
 daily_nutriyeast_text	tweakDailyNutriYeast.text	Two teaspoons of baker\'s, brewer\'s, or nutritional yeast contains roughly the amount of beta 1,3/1,6 glucans found in randomized, double-blind, placebo-controlled clinical trials to facilitate weight loss.	Dos cucharaditas de levadura de panadería, de cerveza o nutricional contienen aproximadamente la cantidad de glucanos beta 1,3 \/ 1,6 correcta que, en ensayos clínicos aleatorizados, doble ciegos y con grupo de control, ha demostrado facilitar la pérdida de peso.	
 	tweakDailyNutriYeast.topic			
@@ -732,7 +732,7 @@ meal_twentyminutes_text	tweakMeal20Minutes.text	Whether through increasing visco
 	tweakMealNegCal.Activity.Imperial	Preload with "Negative Calorie" Foods	Empezar con alimentos de calorías negativas	
 	tweakMealNegCal.Activity.Metric	Preload with "Negative Calorie" Foods	Empezar con alimentos de calorías negativas	
 	tweakMealNegCal.Description.0	As the first course, start each meal with an apple or a Green Light soup or salad containing fewer than one hundred calories per cup.	Como entrante, puedes comerte una manzana, una sopa o una ensalada con alimentos de luz verde que contenga menos de cien calorías por taza.	
-meal_negcal	tweakMealNegCal.heading	Preload with "Negative Calorie" Foods	Empezar con alimentos de calorías negativas"	
+meal_negcal	tweakMealNegCal.heading	Preload with "Negative Calorie" Foods	Empezar con alimentos de calorías negativas	
 meal_negcal_short	tweakMealNegCal.short	Preload with "Negative Calorie" Foods	Empezar con alimentos de calorías negativas	
 meal_negcal_text	tweakMealNegCal.text	As the first course, start each meal with an apple or a Green Light soup or salad containing fewer than one hundred calories per cup.	Como entrante, puedes comerte una manzana, una sopa o una ensalada con alimentos de luz verde que contenga menos de cien calorías por taza.	
 	tweakMealNegCal.topic			
@@ -746,7 +746,7 @@ meal_undistracted_text	tweakMealUndistracted.text	Don\'t eat while watching TV o
 	tweakMealVinegar.Activity.Imperial	Incorporate Vinegar (2 tsp with each meal)	Vinagre (2 cucharaditas con cada comida)	
 	tweakMealVinegar.Activity.Metric	Incorporate Vinegar (2 tsp with each meal)	Vinagre (2 cucharaditas con cada comida)	
 	tweakMealVinegar.Description.0	Never drink vinegar straight. Instead, flavor meals or dress a side salad with any of the sweet and savory vinegars out there. If you want to drink it, make sure to mix it in a glass of water and, afterward, be sure to rinse your mouth out with water to protect your tooth enamel.	Nunca bebas vinagre solo. Puedes usarlo para condimentar las comidas o aderezar una ensalada. Puedes usar cualquier tipo de vinagre, dulce o salado. Si quieres beberlo, debes mezclarlo con un vaso de agua y enjuagarte la boca justo después para proteger el esmalte dental.	
-meal_vinegar	tweakMealVinegar.heading	Incorporate Vinegar (2 tsp with each meal)	Vinagre (2 ctda. cada comida)	
+meal_vinegar	tweakMealVinegar.heading	Incorporate Vinegar (2 tsp with each meal)	Vinagre (2 cucharaditas con cada comida)	
 meal_vinegar_short	tweakMealVinegar.short	Incorporate Vinegar (2 tsp with each meal)	Vinagre (2 ctda. cada comida)	
 meal_vinegar_text	tweakMealVinegar.text	Never drink vinegar straight. Instead, flavor meals or dress a side salad with any of the sweet and savory vinegars out there. If you want to drink it, make sure to mix it in a glass of water and, afterward, be sure to rinse your mouth out with water to protect your tooth enamel.	Nunca bebas vinagre solo. Puedes usarlo para condimentar las comidas o aderezar una ensalada. Puedes usar cualquier tipo de vinagre, dulce o salado. Si quieres beberlo, debes mezclarlo con un vaso de agua y enjuagarte la boca justo después para proteger el esmalte dental.	
 	tweakMealVinegar.topic			
@@ -811,8 +811,8 @@ about_text_lines.3
 about_text_lines.4		Special thanks to the volunteer efforts of the creators of the previous app: Chan Kruse, Allan Portera, and Sangeeta Kumar.	Muchas gracias a los voluntarios que ayudaron con la versión anterior de la app: Chan Kruse, Allan Portera y Sangeeta Kumar.	
 about_this_app		About this app	Sobre esta app	
 about_tweak		About Tweak	Sobre este potenciador	
-activity_welcome_text	dwQ-CS-gz3.text	Use this app on a daily basis to keep track of the foods I recommend for optimal health and longevity in my book How Not to Die.	Utiliza esta aplicación a diario para llevar un registro de los alimentos que recomiendo para una salud y longevidad óptimas en mi libro Comer para no morir.	
-app_name	DJR-bj-qUq.text	Daily Dozen	Docena Diaria	"""Daily Dozen"" application name"
+activity_welcome_text	dwQ-CS-gz3.text	Use this app on a daily basis to keep track of the foods and advice I recommend for optimal health and longevity in my books How Not to Die and How Not to Diet.	Utiliza esta app a diario para llevar un registro de los alimentos que recomiendo para salud óptima y longevidad en mi libro Como no Morir.	
+app_name	DJR-bj-qUq.text	Daily Dozen	Daily Dozen	"""Daily Dozen"" application name"
 average_weight_on_day		Average weight on day	Peso promedio en el día	
 backup		Backup	Copia de seguridad	
 backup_failed		Backup failed	Copia de seguridad fallida	
@@ -825,11 +825,11 @@ backup_instructions_lines.5
 backup_instructions_lines.6		3. Select Open with Daily Dozen	3. Selecciona la opción de abrir con Dr. Greger\'s Daily Dozen.	
 backup_success		Backup successful	Copia de seguridad efectuada	
 channel_reminders_name		Reminders	Recordatorios	
-daily_dozen_and_tweaks	Lef-Iw-Ywr.normalTitle	Daily Dozen + 21 Tweaks	Docena Diaria y 21 potenciadores	
-daily_dozen_and_tweaks	OZO-Xa-v5G.segmentTitles[1]	Daily Dozen + 21 Tweaks	Docena Diaria y 21 potenciadores	
-daily_dozen_challenge	beF-Xl-TAq.text		Objetivo Docena Diaria	
-daily_dozen_only	OZO-Xa-v5G.segmentTitles[0]	Daily Dozen Only	Solo Docena Diaria	
-daily_dozen_only	ReM-AP-Fpp.normalTitle	Daily Dozen Only	Solo Docena Diaria	
+daily_dozen_and_tweaks	Lef-Iw-Ywr.normalTitle	Daily Dozen + 21 Tweaks	Docena Diaria + 21 Ajustes	
+daily_dozen_and_tweaks	OZO-Xa-v5G.segmentTitles[1]	Daily Dozen + 21 Tweaks	Docena Diaria +Ⓝ21 Ajustes	
+daily_dozen_challenge	beF-Xl-TAq.text	Daily Dozen Challenge	Libro: Daily Dozen Challenge	
+daily_dozen_only	OZO-Xa-v5G.segmentTitles[0]	Daily Dozen Only	Docena DiariaⓃsolamente	
+daily_dozen_only	ReM-AP-Fpp.normalTitle	Daily Dozen Only	Docena Diaria solamente	
 daily_reminder_settings		Daily Reminder Settings	Ajustes del recordatorio diario	a reminder that is triggered every day
 daily_reminder_title		Daily Dozen Reminder	Recordatorio de la Docena Diaria	
 daily_servings_history		Daily Servings History	Historial de porciones diarias	
@@ -847,18 +847,17 @@ dialog_no_email_apps_message		Backing up your data requires you to have an email
 dialog_no_email_apps_title		No email apps found	No se encontró ninguna aplicación de correo electrónico	
 dialog_streaks_message		Your database will now be upgraded to support the new streaks feature.	Se actualizará la base de datos para incluir la nueva característica de rachas.	
 dialog_streaks_title		New feature: Streaks!	Nueva característica: ¡Rachas!	
-donate	mqA-Vp-LZ7.text	Donate	Donación	
+donate	mqA-Vp-LZ7.text	Donate	Dona	
 enable_daily_reminder		Enable Daily Reminder	Activar el recordatorio diario	On/Off toggle label
 error_cannot_handle_url		Could not open url. Please install a browser.	No se puede abrir la URL. Debes instalar un navegador.	
 evening		Evening	Noche	
 food_history		Food History	Historial alimenticio	
 food_info		Food Info	Información alimenticia	
-for_health_alone	atR-un-jgX.text	For Health Alone	Solo para ganar salud	
-for_health_and_weight_loss	OdG-YQ-lT8.text	For Health and Weight Loss	Para ganar salud y perder peso	
-format_num_days	Vbn-R9-kuu.text	%d days	%d días	
-format_num_days		%d days	%d días	Formatted string %d days
+for_health_alone	atR-un-jgX.text	For Health Alone	Para la salud sola	
+for_health_and_weight_loss	OdG-YQ-lT8.text	For Health and Weight Loss	Para la salud y la pérdida de peso	
+format_num_days	streakDaysFormat	%d days	%d días	Formatted string %d days
 format_version		version %s	versión %s	
-history	sLd-Kq-bLv.text	History	Historial	
+history	sLd-Kq-bLv.text	History	Historia	
 history_to_generate		History to Generate	Historial a generar	
 history_to_generate_choices.0		1 month	1 mes	
 history_to_generate_choices.1		3 months	3 meses	
@@ -866,16 +865,16 @@ history_to_generate_choices.2		6 months	6 meses
 history_to_generate_choices.3		1 year	1 año	
 history_to_generate_choices.4		2 years	2 años	
 history_to_generate_choices.5		5 years	5 años	
-imperial		Imperial	Imperial	
-latest_videos	uxH-8I-ydF.text	Latest Videos	Videos más recientes	
-metric		Metric	Métrico	
+imperial		imperial	imperial	
+latest_videos	uxH-8I-ydF.text	Latest Videos	Videos más Recientes	
+metric		metric	métrico	
 morning		Morning	Mañana	
 moving_average		Moving Average	Media Móvil	
 no		No	No	
 no_servings_recorded		You have not recorded any servings yet!	Todavía no has registrado ninguna porción	
 no_weights_recorded		You have not recorded any weights yet!	Todavía no has registrado tu peso	
 not_now		Not Now	Ahora no	
-open_source	qVR-SQ-jmS.text	Open Source	Código abierto	
+open_source	qVR-SQ-jmS.text	Open Source	Código Abierto	
 out_of		out of	de	Part of "0 out of 24"
 permission_needed_to_write_storage		Can\'t backup without permission to write to storage	No puedes hacer copias de seguridad si no tienes permiso para guardarlas en el disco duro.	
 rate_now		Give Feedback	Dar mi opinión	
@@ -883,10 +882,10 @@ restore_confirm_message		Any existing data will be deleted before restoring from
 restore_confirm_title		Restore Backup	Restaurar la copia de seguridad	
 restore_failed		Restore failed	Restauración fallida	
 restore_success		Restore successful	Restauración efectuada	
-serving_sizes	eU6-je-hVN.text	Serving Sizes	Tamaño de las porciones	
+serving_sizes	eU6-je-hVN.text	Serving Sizes	Tamaño de las Porciones	
 servings	1HM-mL-ZV9.text	Servings	Porciones	
-servings_all	S0Q-oB-VgE.text	All servings	Todas las porciones	
-servings_some	jBv-4d-ofX.text	Some servings	Algunas porciones	
+servings_all	S0Q-oB-VgE.text	All servings	Todas las Porciones	
+servings_some	jBv-4d-ofX.text	Some servings	Algunas Porciones	
 servings_time_scale_choices.0	fcu-ZA-byN.segmentTitles[0]	Day	Día	Calendar view scale control
 servings_time_scale_choices.0	sM6-A9-KeP.segmentTitles[0]	Day	Día	Calendar view scale control
 servings_time_scale_choices.0	vXy-0q-Ind.segmentTitles[0]	Day	Día	Calendar view scale control
@@ -903,9 +902,9 @@ task_generating_random_data		Generating random data	Generando datos al azar
 task_loading_servings_history_title		Loading Servings History	Cargando historial de porciones	
 task_loading_weights_history_title		Loading Weights History	Cargando historial de peso	
 task_restore_title		Restoring	Restaurando	
-time_scale	27q-rq-qbu.text	Time Scale	Escala temporal	
-time_scale	v2E-Ao-OVz.text	Time Scale	Escala temporal	
-time_scale	XdW-g4-ZUO.text	Time Scale	Escala temporal	
+time_scale	27q-rq-qbu.text	Time Scale	Escala de tiempo	
+time_scale	v2E-Ao-OVz.text	Time Scale	Escala de tiempo	
+time_scale	XdW-g4-ZUO.text	Time Scale	Escala de tiempo	
 title_cookbook			Libro de recetas	
 title_how_not_to_die			Comer para no morir	
 title_how_not_to_diet			How Not to Diet	
@@ -914,10 +913,10 @@ tweak_group_dailydoses		Take your daily doses	Toma la dosis diaria
 tweak_group_meal		At Each Meal	En cada comida	
 tweak_group_nightly		Every Night	Cada noche	
 tweaks		Tweaks	Potenciadores	
-twenty_one_tweaks	tweak_entry_header	21 Tweaks	21 potenciadores	
+twenty_one_tweaks	tweak_entry_header	21 Tweaks	21 Ajustes	
 types	YVI-sV-TDX.text	Types	Tipos	
-units	3bd-8h-kcX.text	Units	Sistema	
-units	kho-9G-OWe.text	Units	Sistema	
+units	3bd-8h-kcX.text	Units:	Unidades:	
+units	kho-9G-OWe.text	Units:	Unidades	
 url_cookbook			https://nutritionfacts.org/es/libro-de-recetas/	
 url_daily_dozen_challenge			https://nutritionfacts.org/es/objetivo-la-docena-diaria/	
 url_donate			https://nutritionfacts.org/es/dona-a-nutritionfacts-org/	
@@ -928,7 +927,7 @@ url_open_source			https://nutritionfacts.org/es/open-source/
 url_subscribe			https://nutritionfacts.org/es/suscribete/	
 weight		Weight	Peso	
 weight_history		Weight History	Historia de peso	
-welcome_to_my_daily_dozen	19L-gq-W5M.text	Welcome to my Daily Dozen!	¡Bienvenido a mi Docena Diaria!	
+welcome_to_my_daily_dozen	19L-gq-W5M.text	Welcome to my Daily Dozen!	¡Bienvenido a Mi Docena Diaria!	
 yes		Yes	Sí	
 	1K3-d9-Hfb.normalTitle	METRIC	Métrico	
 	1K3-d9-Hfb.normalTitle	METRIC	Métrico	

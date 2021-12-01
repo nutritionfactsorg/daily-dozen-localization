@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:rpt="http://openoffice.org/2005/report" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" office:version="1.3" office:mimetype="application/vnd.oasis.opendocument.spreadsheet">
- <office:meta><dc:date>2021-11-16T11:47:07.615122599</dc:date><meta:editing-duration>PT2M27S</meta:editing-duration><meta:editing-cycles>1</meta:editing-cycles><meta:document-statistic meta:table-count="1" meta:cell-count="646" meta:object-count="0"/><meta:generator>LibreOffice/7.1.5.2$MacOSX_X86_64 LibreOffice_project/85f04e9f809797b8199d13c421bd8a2b025d52b5</meta:generator></office:meta>
+ <office:meta><dc:date>2021-11-30T12:54:23.219646740</dc:date><meta:editing-duration>PT4M30S</meta:editing-duration><meta:editing-cycles>3</meta:editing-cycles><meta:generator>LibreOffice/7.2.3.2$MacOSX_X86_64 LibreOffice_project/d166454616c1632304285822f9c83ce2e660fd92</meta:generator><meta:document-statistic meta:table-count="1" meta:cell-count="786" meta:object-count="0"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
    <config:config-item config:name="VisibleAreaTop" config:type="int">0</config:config-item>
    <config:config-item config:name="VisibleAreaLeft" config:type="int">0</config:config-item>
-   <config:config-item config:name="VisibleAreaWidth" config:type="int">38853</config:config-item>
+   <config:config-item config:name="VisibleAreaWidth" config:type="int">46769</config:config-item>
    <config:config-item config:name="VisibleAreaHeight" config:type="int">83086</config:config-item>
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view1</config:config-item>
      <config:config-item-map-named config:name="Tables">
       <config:config-item-map-entry config:name="Spanish_es.url_topics">
-       <config:config-item config:name="CursorPositionX" config:type="int">0</config:config-item>
-       <config:config-item config:name="CursorPositionY" config:type="int">168</config:config-item>
+       <config:config-item config:name="CursorPositionX" config:type="int">4</config:config-item>
+       <config:config-item config:name="CursorPositionY" config:type="int">190</config:config-item>
        <config:config-item config:name="HorizontalSplitMode" config:type="short">0</config:config-item>
        <config:config-item config:name="VerticalSplitMode" config:type="short">0</config:config-item>
        <config:config-item config:name="HorizontalSplitPosition" config:type="int">0</config:config-item>
        <config:config-item config:name="VerticalSplitPosition" config:type="int">0</config:config-item>
        <config:config-item config:name="ActiveSplitRange" config:type="short">2</config:config-item>
-       <config:config-item config:name="PositionLeft" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionLeft" config:type="int">2</config:config-item>
        <config:config-item config:name="PositionRight" config:type="int">0</config:config-item>
        <config:config-item config:name="PositionTop" config:type="int">0</config:config-item>
-       <config:config-item config:name="PositionBottom" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionBottom" config:type="int">171</config:config-item>
        <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
        <config:config-item config:name="ZoomValue" config:type="int">100</config:config-item>
        <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
@@ -32,7 +32,7 @@
       </config:config-item-map-entry>
      </config:config-item-map-named>
      <config:config-item config:name="ActiveTable" config:type="string">Spanish_es.url_topics</config:config-item>
-     <config:config-item config:name="HorizontalScrollbarWidth" config:type="int">1833</config:config-item>
+     <config:config-item config:name="HorizontalScrollbarWidth" config:type="int">1766</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
      <config:config-item config:name="ZoomValue" config:type="int">100</config:config-item>
      <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
@@ -58,40 +58,41 @@
    </config:config-item-map-indexed>
   </config:config-item-set>
   <config:config-item-set config:name="ooo:configuration-settings">
-   <config:config-item config:name="ShowZeroValues" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="AllowPrintJobCancel" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="ApplyUserData" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="AutoCalculate" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="CharacterCompressionType" config:type="short">0</config:config-item>
+   <config:config-item config:name="EmbedAsianScriptFonts" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="EmbedComplexScriptFonts" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="EmbedFonts" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="EmbedLatinScriptFonts" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="EmbedOnlyUsedFonts" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="GridColor" config:type="int">12632256</config:config-item>
+   <config:config-item config:name="HasColumnRowHeaders" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="HasSheetTabs" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="IsDocumentShared" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IsKernAsianPunctuation" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IsOutlineSymbolsSet" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="IsRasterAxisSynchronized" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="IsSnapToRaster" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="LinkUpdateMode" config:type="short">3</config:config-item>
+   <config:config-item config:name="LoadReadonly" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrinterName" config:type="string">EPSON_WF_7520</config:config-item>
+   <config:config-item config:name="PrinterPaperFromSetup" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrinterSetup" config:type="base64Binary">5wD+/0VQU09OX1dGXzc1MjAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARVBTT04gV0YtNzUyMCBTZXJpZXMtQWlyUHJpbnQAAAAWAAQABAAAAAAAAAAIAFZUAAAkbQAAAAAAABIAQ09NUEFUX0RVUExFWF9NT0RFEwBEdXBsZXhNb2RlOjpVbmtub3du</config:config-item>
+   <config:config-item config:name="RasterIsVisible" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="RasterResolutionX" config:type="int">1270</config:config-item>
+   <config:config-item config:name="RasterResolutionY" config:type="int">1270</config:config-item>
+   <config:config-item config:name="RasterSubdivisionX" config:type="int">1</config:config-item>
+   <config:config-item config:name="RasterSubdivisionY" config:type="int">1</config:config-item>
+   <config:config-item config:name="SaveThumbnail" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="SaveVersionOnClose" config:type="boolean">false</config:config-item>
    <config:config-item config:name="ShowGrid" config:type="boolean">true</config:config-item>
    <config:config-item config:name="ShowNotes" config:type="boolean">true</config:config-item>
    <config:config-item config:name="ShowPageBreaks" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="HasSheetTabs" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="IsRasterAxisSynchronized" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="RasterResolutionY" config:type="int">1270</config:config-item>
-   <config:config-item config:name="RasterResolutionX" config:type="int">1270</config:config-item>
-   <config:config-item config:name="EmbedFonts" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="IsSnapToRaster" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="RasterIsVisible" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="SaveVersionOnClose" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="GridColor" config:type="int">12632256</config:config-item>
-   <config:config-item config:name="PrinterName" config:type="string"/>
-   <config:config-item config:name="RasterSubdivisionX" config:type="int">1</config:config-item>
-   <config:config-item config:name="LinkUpdateMode" config:type="short">3</config:config-item>
-   <config:config-item config:name="HasColumnRowHeaders" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="RasterSubdivisionY" config:type="int">1</config:config-item>
-   <config:config-item config:name="AutoCalculate" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="PrinterSetup" config:type="base64Binary"/>
-   <config:config-item config:name="IsOutlineSymbolsSet" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="PrinterPaperFromSetup" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="SaveThumbnail" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="IsKernAsianPunctuation" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="CharacterCompressionType" config:type="short">0</config:config-item>
-   <config:config-item config:name="IsDocumentShared" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="LoadReadonly" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="EmbedLatinScriptFonts" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="ShowZeroValues" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="SyntaxStringRef" config:type="short">7</config:config-item>
    <config:config-item config:name="UpdateFromTemplate" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="AllowPrintJobCancel" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="EmbedOnlyUsedFonts" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="EmbedAsianScriptFonts" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="EmbedComplexScriptFonts" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="ApplyUserData" config:type="boolean">true</config:config-item>
    <config:config-item-map-named config:name="ScriptConfiguration">
     <config:config-item-map-entry config:name="Spanish_es.url_topics">
      <config:config-item config:name="CodeName" config:type="string">Sheet1</config:config-item>
@@ -105,14 +106,14 @@
   </office:script>
  </office:scripts>
  <office:font-face-decls>
-  <style:font-face style:name="Liberation Sans" svg:font-family="&apos;Liberation Sans&apos;" style:font-family-generic="swiss" style:font-pitch="variable"/>
   <style:font-face style:name="Arial Unicode MS" svg:font-family="&apos;Arial Unicode MS&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
+  <style:font-face style:name="Liberation Sans" svg:font-family="&apos;Liberation Sans&apos;" style:font-family-generic="swiss" style:font-pitch="variable"/>
   <style:font-face style:name="PingFang SC" svg:font-family="&apos;PingFang SC&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
  </office:font-face-decls>
  <office:styles>
   <style:default-style style:family="table-cell">
    <style:paragraph-properties style:tab-stop-distance="0.5in"/>
-   <style:text-properties style:font-name="Liberation Sans" fo:language="en" fo:country="US" style:font-name-asian="PingFang SC" style:language-asian="zh" style:country-asian="CN" style:font-name-complex="Arial Unicode MS" style:language-complex="hi" style:country-complex="IN"/>
+   <style:text-properties style:font-name="Liberation Sans" fo:font-size="10pt" fo:language="en" fo:country="US" style:font-name-asian="PingFang SC" style:font-size-asian="10pt" style:language-asian="zh" style:country-asian="CN" style:font-name-complex="Arial Unicode MS" style:font-size-complex="10pt" style:language-complex="hi" style:country-complex="IN"/>
   </style:default-style>
   <number:number-style style:name="N0">
    <number:number number:min-integer-digits="1"/>
@@ -190,7 +191,7 @@
    <style:table-column-properties fo:break-before="auto" style:column-width="3.3807in"/>
   </style:style>
   <style:style style:name="co5" style:family="table-column">
-   <style:table-column-properties fo:break-before="auto" style:column-width="1.0752in"/>
+   <style:table-column-properties fo:break-before="auto" style:column-width="4.1917in"/>
   </style:style>
   <style:style style:name="co6" style:family="table-column">
    <style:table-column-properties fo:break-before="auto" style:column-width="3.9272in"/>
@@ -229,6 +230,9 @@
     </style:header-footer-properties>
    </style:footer-style>
   </style:page-layout>
+  <style:style style:name="T1" style:family="text">
+   <style:text-properties style:font-name="Liberation Sans" fo:font-size="10pt" fo:font-weight="normal" style:text-underline-style="none" style:text-underline-color="font-color" style:text-line-through-type="none" fo:font-style="normal" style:text-outline="false" fo:text-shadow="none" style:text-line-through-mode="continuous" fo:language="en" fo:country="US" style:language-asian="zh" style:country-asian="CN" style:language-complex="hi" style:country-complex="IN" style:font-name-asian="PingFang SC" style:font-name-complex="Arial Unicode MS" style:font-size-asian="10pt" style:font-size-complex="10pt" style:font-weight-asian="normal" style:font-weight-complex="normal" style:font-style-asian="normal" style:font-style-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+  </style:style>
  </office:automatic-styles>
  <office:master-styles>
   <style:master-page style:name="Default" style:page-layout-name="pm1">
@@ -236,10 +240,12 @@
     <text:p><text:sheet-name>???</text:sheet-name></text:p>
    </style:header>
    <style:header-left style:display="false"/>
+   <style:header-first style:display="false"/>
    <style:footer>
     <text:p>Page <text:page-number>1</text:page-number></text:p>
    </style:footer>
    <style:footer-left style:display="false"/>
+   <style:footer-first style:display="false"/>
   </style:master-page>
   <style:master-page style:name="Report" style:page-layout-name="pm2">
    <style:header>
@@ -247,14 +253,16 @@
      <text:p><text:sheet-name>???</text:sheet-name><text:s/>(<text:title>???</text:title>)</text:p>
     </style:region-left>
     <style:region-right>
-     <text:p><text:date style:data-style-name="N2" text:date-value="2021-11-16">00/00/0000</text:date>, <text:time>00:00:00</text:time></text:p>
+     <text:p><text:date style:data-style-name="N2" text:date-value="2021-11-30">00/00/0000</text:date>, <text:time style:data-style-name="N2" text:time-value="12:52:20.432183487">00:00:00</text:time></text:p>
     </style:region-right>
    </style:header>
    <style:header-left style:display="false"/>
+   <style:header-first style:display="false"/>
    <style:footer>
     <text:p>Page <text:page-number>1</text:page-number><text:s/>/ <text:page-count>99</text:page-count></text:p>
    </style:footer>
    <style:footer-left style:display="false"/>
+   <style:footer-first style:display="false"/>
   </style:master-page>
  </office:master-styles>
  <office:body>
@@ -281,10 +289,10 @@
       <text:p>lang_value</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>base_comment</text:p>
+      <text:p>base_note</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>lang_url</text:p>
+      <text:p>lang_note</text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row table:style-name="ro1">
@@ -298,7 +306,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/legumbres-es</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/beans</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/legumbres-es</text:p>
      </table:table-cell>
@@ -314,7 +324,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/bayas-es</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/berries</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/bayas-es</text:p>
      </table:table-cell>
@@ -330,7 +342,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/fruta</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/fruit</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/fruta</text:p>
      </table:table-cell>
@@ -346,7 +360,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/vegetales-cruciferos</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/cruciferous-vegetables</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/vegetales-cruciferos</text:p>
      </table:table-cell>
@@ -362,7 +378,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/verduras</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/greens</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/verduras</text:p>
      </table:table-cell>
@@ -378,7 +396,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/vegetales</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/vegetables</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/vegetales</text:p>
      </table:table-cell>
@@ -394,7 +414,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/semillas-de-linaza</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/flax-seeds</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/semillas-de-linaza</text:p>
      </table:table-cell>
@@ -410,7 +432,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/nueces</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/nuts</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/nueces</text:p>
      </table:table-cell>
@@ -426,7 +450,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/especias</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/spices</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/especias</text:p>
      </table:table-cell>
@@ -442,7 +468,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/granos</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/grains</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/granos</text:p>
      </table:table-cell>
@@ -458,7 +486,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/bebidas/</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/beverages</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/bebidas/</text:p>
      </table:table-cell>
@@ -474,7 +504,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/ejercicio</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/exercise</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/ejercicio</text:p>
      </table:table-cell>
@@ -490,7 +522,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/vitamina-b12</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/vitamin-b12</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/vitamina-b12</text:p>
      </table:table-cell>
@@ -506,7 +540,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/suplementos-de-vitamina-d</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/vitamin-d-supplements</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/suplementos-de-vitamina-d</text:p>
      </table:table-cell>
@@ -522,7 +558,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/acidos-grasos-omega-3</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/omega-3-fatty-acids</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/acidos-grasos-omega-3</text:p>
      </table:table-cell>
@@ -538,7 +576,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/frijoles-negros</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/black-beans</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/frijoles-negros</text:p>
      </table:table-cell>
@@ -572,7 +612,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/garbanzos</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/chickpeas</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/garbanzos</text:p>
      </table:table-cell>
@@ -588,7 +630,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/edamame</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/edamame</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/edamame</text:p>
      </table:table-cell>
@@ -616,7 +660,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/frijoles-rojos</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/kidney-beans</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/frijoles-rojos</text:p>
      </table:table-cell>
@@ -632,7 +678,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>/es/topics/lentejas</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/lentils</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org//es/topics/lentejas</text:p>
      </table:table-cell>
@@ -648,7 +696,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/miso-es</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/miso</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/miso-es</text:p>
      </table:table-cell>
@@ -664,7 +714,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/frijoles-blancos</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/navy-beans</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/frijoles-blancos</text:p>
      </table:table-cell>
@@ -680,7 +732,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/frijoles-pintos</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/pinto-beans</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/frijoles-pintos</text:p>
      </table:table-cell>
@@ -702,7 +756,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/guisantes-partidos</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/split-peas</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/guisantes-partidos</text:p>
      </table:table-cell>
@@ -718,7 +774,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/tempeh-es</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/tempeh</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/tempeh-es</text:p>
      </table:table-cell>
@@ -734,7 +792,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>/es/topics/bayas-de-acai-es</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/acai-berries</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org//es/topics/bayas-de-acai-es</text:p>
      </table:table-cell>
@@ -750,7 +810,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/berberos-es</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/barberries</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/berberos-es</text:p>
      </table:table-cell>
@@ -766,7 +828,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/moras</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/blackberries</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/moras</text:p>
      </table:table-cell>
@@ -782,7 +846,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/arandanos-azules</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/blueberries</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/arandanos-azules</text:p>
      </table:table-cell>
@@ -798,7 +864,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/cerezas</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/cherries</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/cerezas</text:p>
      </table:table-cell>
@@ -814,7 +882,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/uvas</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/grapes</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/uvas</text:p>
      </table:table-cell>
@@ -830,7 +900,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/arandanos-es</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/cranberries</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/arandanos-es</text:p>
      </table:table-cell>
@@ -846,7 +918,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/goji</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/goji-berries</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/goji</text:p>
      </table:table-cell>
@@ -874,7 +948,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/frambuesas</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/raspberries</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/frambuesas</text:p>
      </table:table-cell>
@@ -890,7 +966,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/fresas</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/strawberries</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/fresas</text:p>
      </table:table-cell>
@@ -906,7 +984,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/manzanas</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/apples</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/manzanas</text:p>
      </table:table-cell>
@@ -922,7 +1002,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/albaricoques</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/apricots</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/albaricoques</text:p>
      </table:table-cell>
@@ -938,7 +1020,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/aguacates</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/avocados</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/aguacates</text:p>
      </table:table-cell>
@@ -954,7 +1038,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/bananos</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/bananas</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/bananos</text:p>
      </table:table-cell>
@@ -970,7 +1056,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/melon</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/cantaloupe</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/melon</text:p>
      </table:table-cell>
@@ -992,7 +1080,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/datiles</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/dates</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/datiles</text:p>
      </table:table-cell>
@@ -1024,7 +1114,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/toronja</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/grapefruit</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/toronja</text:p>
      </table:table-cell>
@@ -1046,7 +1138,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/kiwi</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/kiwifruit</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/kiwi</text:p>
      </table:table-cell>
@@ -1059,8 +1153,7 @@
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>topics/lemons</text:p>
      </table:table-cell>
-     <table:table-cell/>
-     <table:table-cell office:value-type="string" calcext:value-type="string">
+     <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/topics/lemons</text:p>
      </table:table-cell>
     </table:table-row>
@@ -1075,7 +1168,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/limas</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/limes</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/limas</text:p>
      </table:table-cell>
@@ -1097,7 +1192,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/mango-es</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/mango</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/mango-es</text:p>
      </table:table-cell>
@@ -1119,7 +1216,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/naranjas</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/oranges</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/naranjas</text:p>
      </table:table-cell>
@@ -1157,7 +1256,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/duraznos-es</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/peaches</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/duraznos-es</text:p>
      </table:table-cell>
@@ -1173,7 +1274,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/peras-es</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/pears</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/peras-es</text:p>
      </table:table-cell>
@@ -1205,7 +1308,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/ciruelas</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/plums</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/ciruelas</text:p>
      </table:table-cell>
@@ -1227,7 +1332,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/granadas</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/pomegranates</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/granadas</text:p>
      </table:table-cell>
@@ -1243,7 +1350,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/ciruelas-pasas</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/prunes</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/ciruelas-pasas</text:p>
      </table:table-cell>
@@ -1265,7 +1374,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/sandia</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/watermelon</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/sandia</text:p>
      </table:table-cell>
@@ -1287,7 +1398,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/bok-choy-es</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/bok-choy</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/bok-choy-es</text:p>
      </table:table-cell>
@@ -1303,7 +1416,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/brocoli</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/broccoli</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/brocoli</text:p>
      </table:table-cell>
@@ -1319,7 +1434,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/coles-bruselas</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/brussels-sprouts</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/coles-bruselas</text:p>
      </table:table-cell>
@@ -1335,7 +1452,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/repollo</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/cabbage</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/repollo</text:p>
      </table:table-cell>
@@ -1351,7 +1470,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/coliflor</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/cauliflower</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/coliflor</text:p>
      </table:table-cell>
@@ -1367,7 +1488,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/acelgas-es</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/collard-greens</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/acelgas-es</text:p>
      </table:table-cell>
@@ -1389,7 +1512,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/col-rizada-es</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/kale</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/col-rizada-es</text:p>
      </table:table-cell>
@@ -1421,7 +1546,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/hojas-de-mostaza</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/mustard-greens</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/hojas-de-mostaza</text:p>
      </table:table-cell>
@@ -1469,7 +1596,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/berros-es</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/watercress</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/berros-es</text:p>
      </table:table-cell>
@@ -1491,7 +1620,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/remolachas-es</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/beets</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/remolachas-es</text:p>
      </table:table-cell>
@@ -1504,7 +1635,11 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>topics/collard-greens</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="3"/>
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/collard-greens</text:p>
+     </table:table-cell>
+     <table:table-cell/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="string" calcext:value-type="string">
@@ -1517,7 +1652,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/col-rizada-es</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/kale</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/col-rizada-es</text:p>
      </table:table-cell>
@@ -1549,7 +1686,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/hojas-de-mostaza</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/mustard-greens</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/hojas-de-mostaza</text:p>
      </table:table-cell>
@@ -1571,7 +1710,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/espinaca</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/spinach</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/espinaca</text:p>
      </table:table-cell>
@@ -1587,7 +1728,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/acelga-es</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/swiss-chard</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/acelga-es</text:p>
      </table:table-cell>
@@ -1619,7 +1762,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/alcachofas</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/artichokes</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/alcachofas</text:p>
      </table:table-cell>
@@ -1635,7 +1780,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/esparragos</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/asparagus</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/esparragos</text:p>
      </table:table-cell>
@@ -1651,7 +1798,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/remolachas-es</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/beets</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/remolachas-es</text:p>
      </table:table-cell>
@@ -1667,7 +1816,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/pimientos</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/bell-peppers</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/pimientos</text:p>
      </table:table-cell>
@@ -1683,7 +1834,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/zanahorias</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/carrots</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/zanahorias</text:p>
      </table:table-cell>
@@ -1699,7 +1852,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/maiz</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/corn</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/maiz</text:p>
      </table:table-cell>
@@ -1715,7 +1870,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/ajo</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/garlic</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/ajo</text:p>
      </table:table-cell>
@@ -1731,7 +1888,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/champinones</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/mushrooms</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/champinones</text:p>
      </table:table-cell>
@@ -1747,7 +1906,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/okra-es</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/okra</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/okra-es</text:p>
      </table:table-cell>
@@ -1763,7 +1924,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/cebollas</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/onions</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/cebollas</text:p>
      </table:table-cell>
@@ -1779,7 +1942,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/papas</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/potatoes</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/papas</text:p>
      </table:table-cell>
@@ -1795,7 +1960,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/calabaza</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/pumpkin</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/calabaza</text:p>
      </table:table-cell>
@@ -1811,7 +1978,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/vegetales-marinos</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/sea-vegetables</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/vegetales-marinos</text:p>
      </table:table-cell>
@@ -1833,7 +2002,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/calabaza-es</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/squash</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/calabaza-es</text:p>
      </table:table-cell>
@@ -1849,7 +2020,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/camotes</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/sweet-potatoes</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/camotes</text:p>
      </table:table-cell>
@@ -1865,7 +2038,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/tomates</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/tomatoes</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/tomates</text:p>
      </table:table-cell>
@@ -1881,7 +2056,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/calabacin-es</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/zucchini</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/calabacin-es</text:p>
      </table:table-cell>
@@ -1897,7 +2074,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/almendras</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/almonds</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/almendras</text:p>
      </table:table-cell>
@@ -1913,7 +2092,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/nueces-de-brasil-es</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/brazil-nuts</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/nueces-de-brasil-es</text:p>
      </table:table-cell>
@@ -1929,7 +2110,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/anacardos</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/cashews</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/anacardos</text:p>
      </table:table-cell>
@@ -1945,7 +2128,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/semillas-de-chia</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/chia-seeds</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/semillas-de-chia</text:p>
      </table:table-cell>
@@ -1961,7 +2146,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/avellanas-es</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/hazelnuts</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/avellanas-es</text:p>
      </table:table-cell>
@@ -1983,7 +2170,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/nueces-de-macadamia</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/macadamia-nuts</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/nueces-de-macadamia</text:p>
      </table:table-cell>
@@ -1999,7 +2188,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/nuez-pecana</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/pecans</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/nuez-pecana</text:p>
      </table:table-cell>
@@ -2015,7 +2206,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/pistachos</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/pistachios</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/pistachos</text:p>
      </table:table-cell>
@@ -2031,7 +2224,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/semillas-de-calabaza</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/pumpkin-seeds</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/semillas-de-calabaza</text:p>
      </table:table-cell>
@@ -2047,7 +2242,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/ajonjoli</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/sesame-seeds</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/ajonjoli</text:p>
      </table:table-cell>
@@ -2063,7 +2260,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/semillas-de-girasol</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/sunflower-seeds</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/semillas-de-girasol</text:p>
      </table:table-cell>
@@ -2079,7 +2278,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/nueces-es</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/walnuts</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/nueces-es</text:p>
      </table:table-cell>
@@ -2092,7 +2293,11 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>topics/allspice</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="3"/>
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/allspice</text:p>
+     </table:table-cell>
+     <table:table-cell/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="string" calcext:value-type="string">
@@ -2105,7 +2310,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/berberos-es</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/barberries</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/berberos-es</text:p>
      </table:table-cell>
@@ -2121,7 +2328,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/albahaca</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/basil</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/albahaca</text:p>
      </table:table-cell>
@@ -2165,7 +2374,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/cilantro-es</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/cilantro</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/cilantro-es</text:p>
      </table:table-cell>
@@ -2181,7 +2392,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/canela</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/cinnamon</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/canela</text:p>
      </table:table-cell>
@@ -2197,7 +2410,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/clavos-de-olor</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/cloves</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/clavos-de-olor</text:p>
      </table:table-cell>
@@ -2229,7 +2444,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/comino</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/cumin</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/comino</text:p>
      </table:table-cell>
@@ -2245,7 +2462,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/curry-en-polvo</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/curry-powder</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/curry-en-polvo</text:p>
      </table:table-cell>
@@ -2267,7 +2486,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/fenogreco</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/fenugreek</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/fenogreco</text:p>
      </table:table-cell>
@@ -2283,7 +2504,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/ajo</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/garlic</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/ajo</text:p>
      </table:table-cell>
@@ -2299,7 +2522,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/jengibre</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/ginger</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/jengibre</text:p>
      </table:table-cell>
@@ -2337,7 +2562,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/mejorana</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/marjoram</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/mejorana</text:p>
      </table:table-cell>
@@ -2353,7 +2580,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/mostaza-en-polvo</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/mustard-powder</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/mostaza-en-polvo</text:p>
      </table:table-cell>
@@ -2369,7 +2598,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/nuez-moscada</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/nutmeg</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/nuez-moscada</text:p>
      </table:table-cell>
@@ -2385,7 +2616,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/oregano-es</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/oregano</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/oregano-es</text:p>
      </table:table-cell>
@@ -2411,7 +2644,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/perejil</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/parsley</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/perejil</text:p>
      </table:table-cell>
@@ -2427,7 +2662,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/pimienta</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/pepper</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/pimienta</text:p>
      </table:table-cell>
@@ -2443,7 +2680,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/menta-es</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/peppermint</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/menta-es</text:p>
      </table:table-cell>
@@ -2459,7 +2698,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/romero</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/rosemary</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/romero</text:p>
      </table:table-cell>
@@ -2475,7 +2716,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/azafran</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/saffron</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/azafran</text:p>
      </table:table-cell>
@@ -2513,7 +2756,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/curcuma</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/turmeric</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/curcuma</text:p>
      </table:table-cell>
@@ -2535,7 +2780,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/cebada</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/barley</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/cebada</text:p>
      </table:table-cell>
@@ -2551,7 +2798,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/trigo-sarraceno</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/buckwheat</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/trigo-sarraceno</text:p>
      </table:table-cell>
@@ -2567,7 +2816,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/mijo</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/millet</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/mijo</text:p>
      </table:table-cell>
@@ -2583,7 +2834,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/avena-es</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/oats</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/avena-es</text:p>
      </table:table-cell>
@@ -2599,7 +2852,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/palomitas-de-maiz</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/popcorn</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/palomitas-de-maiz</text:p>
      </table:table-cell>
@@ -2615,7 +2870,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/quinoa-es</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/quinoa</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/quinoa-es</text:p>
      </table:table-cell>
@@ -2631,7 +2888,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/centeno</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/rye</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/centeno</text:p>
      </table:table-cell>
@@ -2663,7 +2922,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/pasta-es</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/pasta</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/pasta-es</text:p>
      </table:table-cell>
@@ -2679,7 +2940,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/te-negro</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/black-tea</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/te-negro</text:p>
      </table:table-cell>
@@ -2695,7 +2958,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/te-chai</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/chai-tea</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/te-chai</text:p>
      </table:table-cell>
@@ -2711,7 +2976,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/te-de-manzanilla</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/chamomile-tea</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/te-de-manzanilla</text:p>
      </table:table-cell>
@@ -2727,7 +2994,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/cafe</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/coffee</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/cafe</text:p>
      </table:table-cell>
@@ -2743,7 +3012,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/te-earl-grey-es</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/earl-grey-tea</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/te-earl-grey-es</text:p>
      </table:table-cell>
@@ -2759,7 +3030,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/te-verde</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/green-tea</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/te-verde</text:p>
      </table:table-cell>
@@ -2775,7 +3048,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/hibiscus-tea-es</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/hibiscus-tea</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/hibiscus-tea-es</text:p>
      </table:table-cell>
@@ -2810,7 +3085,10 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>topics/lemon-balm</text:p>
      </table:table-cell>
-     <table:table-cell table:number-columns-repeated="3"/>
+     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:span text:style-name="T1">https://nutritionfacts.org/</text:span>topics/lemon-balm</text:p>
+     </table:table-cell>
+     <table:table-cell/>
     </table:table-row>
     <table:table-row table:style-name="ro1">
      <table:table-cell office:value-type="string" calcext:value-type="string">
@@ -2823,7 +3101,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/matcha-es</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/matcha</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/matcha-es</text:p>
      </table:table-cell>
@@ -2839,7 +3119,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/te-oolong-es</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/oolong-tea</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/te-oolong-es</text:p>
      </table:table-cell>
@@ -2855,7 +3137,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/menta-es</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/peppermint</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/menta-es</text:p>
      </table:table-cell>
@@ -2871,7 +3155,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/te-rooibos-es</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/rooibos-tea</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/te-rooibos-es</text:p>
      </table:table-cell>
@@ -2887,7 +3173,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/agua</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/water</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/agua</text:p>
      </table:table-cell>
@@ -2903,7 +3191,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>es/topics/te-blanco</text:p>
      </table:table-cell>
-     <table:table-cell/>
+     <table:table-cell office:value-type="string" calcext:value-type="string">
+      <text:p>https://nutritionfacts.org/topics/white-tea</text:p>
+     </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>https://nutritionfacts.org/es/topics/te-blanco</text:p>
      </table:table-cell>

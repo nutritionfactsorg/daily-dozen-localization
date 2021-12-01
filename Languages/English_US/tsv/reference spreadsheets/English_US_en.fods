@@ -14,7 +14,7 @@
      <config:config-item-map-named config:name="Tables">
       <config:config-item-map-entry config:name="English_US_en">
        <config:config-item config:name="CursorPositionX" config:type="int">3</config:config-item>
-       <config:config-item config:name="CursorPositionY" config:type="int">452</config:config-item>
+       <config:config-item config:name="CursorPositionY" config:type="int">400</config:config-item>
        <config:config-item config:name="HorizontalSplitMode" config:type="short">0</config:config-item>
        <config:config-item config:name="VerticalSplitMode" config:type="short">2</config:config-item>
        <config:config-item config:name="HorizontalSplitPosition" config:type="int">0</config:config-item>
@@ -23,7 +23,7 @@
        <config:config-item config:name="PositionLeft" config:type="int">0</config:config-item>
        <config:config-item config:name="PositionRight" config:type="int">0</config:config-item>
        <config:config-item config:name="PositionTop" config:type="int">0</config:config-item>
-       <config:config-item config:name="PositionBottom" config:type="int">443</config:config-item>
+       <config:config-item config:name="PositionBottom" config:type="int">395</config:config-item>
        <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
        <config:config-item config:name="ZoomValue" config:type="int">100</config:config-item>
        <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
@@ -32,7 +32,7 @@
       </config:config-item-map-entry>
      </config:config-item-map-named>
      <config:config-item config:name="ActiveTable" config:type="string">English_US_en</config:config-item>
-     <config:config-item config:name="HorizontalScrollbarWidth" config:type="int">1888</config:config-item>
+     <config:config-item config:name="HorizontalScrollbarWidth" config:type="int">1679</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
      <config:config-item config:name="ZoomValue" config:type="int">100</config:config-item>
      <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
@@ -318,7 +318,7 @@
      <text:p><text:sheet-name>???</text:sheet-name><text:s/>(<text:title>???</text:title>)</text:p>
     </style:region-left>
     <style:region-right>
-     <text:p><text:date style:data-style-name="N2" text:date-value="2021-11-16">00/00/0000</text:date>, <text:time style:data-style-name="N2" text:time-value="22:37:37.676011175">00:00:00</text:time></text:p>
+     <text:p><text:date style:data-style-name="N2" text:date-value="2021-11-29">00/00/0000</text:date>, <text:time style:data-style-name="N2" text:time-value="19:34:49.572633314">00:00:00</text:time></text:p>
     </style:region-right>
    </style:header>
    <style:header-left style:display="false"/>
@@ -498,7 +498,7 @@
       <text:p>Back to today</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>Date Button Title: &apos;Back to today&apos;</text:p>
+      <text:p>Date Button Title: ‘Back to today’</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1019"/>
     </table:table-row>
@@ -511,7 +511,7 @@
       <text:p>Today</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>Date Button Title: &apos;Today&apos;</text:p>
+      <text:p>Date Button Title: ‘Today’</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1019"/>
     </table:table-row>
@@ -4168,7 +4168,7 @@
       <text:p>Serving Sizes</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>Doze Detail View subheading: &apos;Serving Sizes&apos;</text:p>
+      <text:p>Doze Detail View subheading: ‘Serving Sizes’</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1019"/>
     </table:table-row>
@@ -4183,7 +4183,7 @@
       <text:p>Types</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>Doze Detail View subheading: &apos;Types&apos;</text:p>
+      <text:p>Doze Detail View subheading: ‘Types’</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1019"/>
     </table:table-row>
@@ -4198,7 +4198,7 @@
       <text:p>Servings</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>Doze Entry View heading: &apos;Servings&apos;</text:p>
+      <text:p>Doze Entry View heading: ‘Servings’</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1019"/>
     </table:table-row>
@@ -4427,7 +4427,7 @@
       <text:p>Daily Dozen</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>Info About View Application Name: &apos;Daily Dozen&apos;</text:p>
+      <text:p>Info About View Application Name: ‘Daily Dozen’</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1019"/>
     </table:table-row>
@@ -4598,7 +4598,7 @@
       <text:p>All servings</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>Item History Legend: &apos;All completed&apos;</text:p>
+      <text:p>Item History Legend: ‘All completed’</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1019"/>
     </table:table-row>
@@ -4613,7 +4613,7 @@
       <text:p>Some servings</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>Item History Legend: &apos;Some completed&apos;</text:p>
+      <text:p>Item History Legend: ‘Some completed’</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1019"/>
     </table:table-row>
@@ -4641,7 +4641,7 @@
       <text:p>Daily Dozen</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>Main Navigation Tab Control: &apos;Daily Dozen&apos; (proper noun)</text:p>
+      <text:p>Main Navigation Tab Control: ‘Daily Dozen’ (proper noun)</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1019"/>
     </table:table-row>
@@ -4667,7 +4667,7 @@
       <text:p>Preferences</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>Main Navigation Tab Control: &apos;Preferences&apos; synonyms: Settings, Configuration. Choose a translations with is different from Tweaks.</text:p>
+      <text:p>Main Navigation Tab Control: ‘Preferences’ synonyms: Settings, Configuration. Choose a translations with is different from Tweaks.</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1019"/>
     </table:table-row>
@@ -4680,7 +4680,7 @@
       <text:p>21 Tweaks</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>Main Navigation Tab Control: &apos;21 Tweaks&apos; (proper noun)</text:p>
+      <text:p>Main Navigation Tab Control: ‘21 Tweaks’ (proper noun)</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1019"/>
     </table:table-row>
@@ -4794,7 +4794,7 @@
       <text:p>Off</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>&apos;Off&apos; as in &apos;On (enabled) or Off (disabled)&apos;, Daily Reminder is not enabled</text:p>
+      <text:p>‘Off’ as in ‘On (enabled) or Off (disabled)’, Daily Reminder is not enabled</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1019"/>
     </table:table-row>
@@ -4807,7 +4807,7 @@
       <text:p>On</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>&apos;On&apos; as in &apos;On (enabled) or Off (disable)&apos;. Daily Reminder is enabled</text:p>
+      <text:p>‘On’ as in ‘On (enabled) or Off (disable)’. Daily Reminder is enabled</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1019"/>
     </table:table-row>
@@ -4891,7 +4891,7 @@
       <text:p>For Health Alone</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>First Launch Setting: brief description above &apos;Daily Dozen Only&apos; button.</text:p>
+      <text:p>First Launch Setting: brief description above ‘Daily Dozen Only’ button.</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1019"/>
     </table:table-row>
@@ -4905,7 +4905,7 @@
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>For Health and Weight Loss</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:span text:style-name="T1">First Launch Setting: brief description above &apos;Daily Dozen + 21 Tweaks</text:span>&apos; button.</text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:span text:style-name="T1">First Launch Setting: brief description above ‘Daily Dozen + 21 Tweaks’</text:span> button.</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1019"/>
     </table:table-row>
@@ -4930,7 +4930,7 @@
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
       <text:p>Imperial</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:span text:style-name="T1">Preference Settings View: </text:span>Part of &apos;Imperial/Metric/Toggle Units&apos; selector</text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:span text:style-name="T1">Preference Settings View: </text:span>Part of ‘Imperial/Metric/Toggle Units’ selector</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1019"/>
     </table:table-row>
@@ -4943,7 +4943,7 @@
       <text:p>Metric</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>Preference Settings View: Part of &apos;Imperial/Metric/Toggle Units&apos; selector</text:p>
+      <text:p>Preference Settings View: Part of ‘Imperial/Metric/Toggle Units’ selector</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1019"/>
     </table:table-row>
@@ -4956,7 +4956,7 @@
       <text:p>Toggle Units</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>Preference Settings View: Part of &apos;Imperial/Metric/Toggle Units&apos; selector</text:p>
+      <text:p>Preference Settings View: Part of ‘Imperial/Metric/Toggle Units’ selector</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1019"/>
     </table:table-row>
@@ -4966,7 +4966,7 @@
       <text:p>setting_units_choice_footer</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
-      <text:p>Set to always be one unit type or enable the &apos;Units:&apos; toggle button.</text:p>
+      <text:p>Set to always be one unit type or enable the ‘Units:’ toggle button.</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Preference Settings View: brief description text below units control.</text:p>
@@ -5010,7 +5010,7 @@
       <text:p>%d days</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>&apos;Streak&apos; count. Synonym: &apos;Progress&apos;. Formatted number &apos;%d&apos; for consecutive days completed. Place translated text for &apos;days&apos; on the right or left of &apos;%d&apos; based on language directionality.</text:p>
+      <text:p>‘Streak’ count. Synonym: ‘Progress‘. Formatted number ‘%d’ for consecutive days completed. Place translated text for ‘days’ on the right or left of ‘%d’ based on language directionality.</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1019"/>
     </table:table-row>
@@ -6542,7 +6542,7 @@
       <text:p>out of</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>Part of &apos;0 out of 24&apos;</text:p>
+      <text:p>Part of ‘0 out of 24’</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="1019"/>
     </table:table-row>
