@@ -311,6 +311,7 @@ whole_grains	dozeWholeGrains.heading	Whole Grains	Grãos Integrais	heading for d
 serving_sizes	doze_detail_section_sizes	Serving Sizes	Tamanhos da Porção	Doze Detail View subheading: ‘Serving Sizes’	
 types	doze_detail_section_types	Types	Tipos	Doze Detail View subheading: ‘Types’	
 servings	doze_entry_header	Servings	Porções	Doze Entry View heading: ‘Servings’	
+moving_average	historyRecord.movingAverage	Moving Average	Média Móvel		
 	historyRecordDoze.heading	Servings History	Histórico de Porções	History View	
 	historyRecordDoze.legend	Servings	Porções	History View	
 	historyRecordTweak.heading	Tweaks History	Histórico de Ajustes	History View	
@@ -348,7 +349,6 @@ history	item_history_heading	History	Histórico	Item History Heading
 vitamin_b12	otherVitaminB12.heading	Vitamin B12	Vitamina B12	heading for daily data entry item	
 daily_reminder_text	reminder.alert.text	Update your servings for today	Atualize as suas porções para hoje	Alert notification text	
 	reminder.heading	Daily Reminder	Lembrete Diário	Daily Reminder (alert title, settings section heading)	
-	reminder.settings.enable	Enable Reminders	Habilitar Lembretes	Daily Reminder On/Off toggle switch label	
 	reminder.settings.enable	Enable Reminders	Habilitar Lembretes	Daily Reminder On/Off toggle switch label	
 play_sound	reminder.settings.sound	Play Sound	Habilitar Som	Daily Reminder sound control heading	
 remind_me_at	reminder.settings.time	Remind me at	Lembre-me em:	Daily Reminder time control heading	
@@ -493,7 +493,6 @@ history_to_generate_choices.2		6 months	6 meses
 history_to_generate_choices.3		1 year	1 ano		
 history_to_generate_choices.4		2 years	2 anos		
 history_to_generate_choices.5		5 years	5 anos		
-moving_average	historyRecord.movingAverage	Moving Average	Média Móvel		
 no		No	Não		
 no_servings_recorded		You have not recorded any servings yet!	Você ainda não registrou nenhuma porção!		
 no_weights_recorded		You have not recorded any weights yet!	Você ainda não registrou nenhum peso!		

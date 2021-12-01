@@ -312,6 +312,7 @@ whole_grains	dozeWholeGrains.heading	Whole Grains	דגנים מלאים	heading 
 serving_sizes	doze_detail_section_sizes	Serving Sizes	גודלי מנות	Doze Detail View subheading: ‘Serving Sizes’	
 types	doze_detail_section_types	Types	סוגים	Doze Detail View subheading: ‘Types’	
 servings	doze_entry_header	Servings	מנות	Doze Entry View heading: ‘Servings’	
+moving_average	historyRecord.movingAverage	Moving Average	ממוצע נע		
 	historyRecordDoze.heading	Servings History	הסטוריית המנות	History View	
 	historyRecordDoze.legend	Servings	מנות	History View	
 	historyRecordTweak.heading	Tweaks History	שינויים בהסטוריה	History View	
@@ -349,7 +350,6 @@ history	item_history_heading	History	הסטוריה	Item History Heading
 vitamin_b12	otherVitaminB12.heading	Vitamin B12	ויטמין B12	heading for daily data entry item	
 daily_reminder_text	reminder.alert.text	Update your servings for today	עדכנו את המנות שלכם להיום	Alert notification text	
 	reminder.heading	Daily Reminder	תזכורת יומית	Daily Reminder (alert title, settings section heading)	
-	reminder.settings.enable	Enable Reminders	אפשר תזכורות	Daily Reminder On/Off toggle switch label	
 	reminder.settings.enable	Enable Reminders	אפשר תזכורות	Daily Reminder On/Off toggle switch label	
 play_sound	reminder.settings.sound	Play Sound	השמעת צליל	Daily Reminder sound control heading	
 remind_me_at	reminder.settings.time	Remind me at	הזכר לי ב:	Daily Reminder time control heading	
@@ -494,7 +494,6 @@ history_to_generate_choices.2		6 months	6 חודשים
 history_to_generate_choices.3		1 year	שנה אחת		
 history_to_generate_choices.4		2 years	שנתיים		
 history_to_generate_choices.5		5 years	5 שנים		
-moving_average	historyRecord.movingAverage	Moving Average	ממוצע נע		
 no		No	לא		
 no_servings_recorded		You have not recorded any servings yet!	טרם תעדתם מנה כלשהי!		
 no_weights_recorded		You have not recorded any weights yet!	טרם תעדתם משקל כלשהו!		

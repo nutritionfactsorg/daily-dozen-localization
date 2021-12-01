@@ -312,6 +312,7 @@ whole_grains	dozeWholeGrains.heading	Whole Grains	Цельнозерновые �
 serving_sizes	doze_detail_section_sizes	Serving Sizes	Размер порции	Doze Detail View subheading: ‘Serving Sizes’	
 types	doze_detail_section_types	Types	Типы	Doze Detail View subheading: ‘Types’	
 servings	doze_entry_header	Servings	Порции	Doze Entry View heading: ‘Servings’	
+moving_average	historyRecord.movingAverage	Moving Average	Средняя подвижность		
 	historyRecordDoze.heading	Servings History	Порции История	History View	
 	historyRecordDoze.legend	Servings	Порции	History View	
 	historyRecordTweak.heading	Tweaks History	Уловки История	History View	
@@ -493,7 +494,6 @@ history_to_generate_choices.2		6 months	6 месяцев
 history_to_generate_choices.3		1 year	1 год		
 history_to_generate_choices.4		2 years	2 года		
 history_to_generate_choices.5		5 years	5 лет		
-moving_average	historyRecord.movingAverage	Moving Average	Средняя подвижность		
 no		No	Нет		
 no_servings_recorded		You have not recorded any servings yet!	Вы еще не отметили ни одной порции!		
 no_weights_recorded		You have not recorded any weights yet!	Вы еще не отметили ни одной порции!		

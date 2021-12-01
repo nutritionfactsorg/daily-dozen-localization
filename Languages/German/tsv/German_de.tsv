@@ -312,6 +312,7 @@ whole_grains	dozeWholeGrains.heading	Whole Grains	Vollkorn	heading for daily dat
 serving_sizes	doze_detail_section_sizes	Serving Sizes	Portionsgrößen	Doze Detail View subheading: ‘Serving Sizes’	
 types	doze_detail_section_types	Types	Arten	Doze Detail View subheading: ‘Types’	
 servings	doze_entry_header	Servings	Portionen	Doze Entry View heading: ‘Servings’	
+moving_average	historyRecord.movingAverage	Moving Average	Gleitender Mittelwert		
 	historyRecordDoze.heading	Servings History	Portionen Verlauf	History View	
 	historyRecordDoze.legend	Servings	Portionen Verlauf	History View	
 	historyRecordTweak.heading	Tweaks History	Optimierungen Verlauf	History View	
@@ -350,16 +351,15 @@ vitamin_b12	otherVitaminB12.heading	Vitamin B12	Vitamin B12	heading for daily da
 daily_reminder_text	reminder.alert.text	Update your servings for today	Aktualisieren Sie Ihre Portionen für heute	Alert notification text	
 	reminder.heading	Daily Reminder	Tägliche Erinnerung	Daily Reminder (alert title, settings section heading)	
 	reminder.settings.enable	Enable Reminders	Erinnerungen einschalten	Daily Reminder On/Off toggle switch label	
-	reminder.settings.enable	Enable Reminders	Erinnerungen einschalten	Daily Reminder On/Off toggle switch label	
 play_sound	reminder.settings.sound	Play Sound	Ton abspielen	Daily Reminder sound control heading	
 remind_me_at	reminder.settings.time	Remind me at	Errinnere mich um:	Daily Reminder time control heading	
 vibrate	reminder.settings.vibrate	Vibrate	Vibrieren	Android notification `vibrate`	
 	reminder.state.off	Off	Aus	‘Off’ as in ‘On (enabled) or Off (disabled)’, Daily Reminder is not enabled	
 	reminder.state.on	On	An	‘On’ as in ‘On (enabled) or Off (disable)’. Daily Reminder is enabled	
 daily_dozen_only	setting_doze_only_btn	Daily Dozen\nOnly	Nur Tägliches Dutzend	First Launch Setting: button text	
-	setting_doze_only_choice	Daily Dozen Only	Nur Tägliches Dutzend		
+	setting_doze_only_choice	Daily Dozen Only	Nur Tägliches Dutzend	Preference Settings View: selection button text	
 daily_dozen_and_tweaks	setting_doze_tweak_btn	Daily Dozen +\n21 Tweaks	Tägliches Dutzend + 21 Optimierungen	First Launch Setting: button text	
-	setting_doze_tweak_choice	Daily Dozen + 21 Tweak	Tägliches Dutzend + 21 Optimierungen		
+	setting_doze_tweak_choice	Daily Dozen + 21 Tweaks	Tägliches Dutzend + 21 Optimierungen	Preference Settings View: selection button text	
 	setting_doze_tweak_footer	For health alone, use “Daily Dozen Only”. For health and weight loss use “Daily Dozen + 21 Tweaks”.	Für Gesundheit allein verwenden Sie "Nur das tägliche Dutzend". Für Gesundheit und Gewichtsabnahme verwenden Sie "Tägliches Dutzend + 21 Optimierungen".	Preference Settings View: brief description text below Tweaks visibility control.	
 for_health_alone	setting_health_alone_txt	For Health Alone	Nur für die Gesundheit	First Launch Setting: brief description above ‘Daily Dozen Only’ button.	
 for_health_and_weight_loss	setting_health_weight_txt	For Health and Weight Loss	Für Gesundheit und Gewichtsabnahme	First Launch Setting: brief description above ‘Daily Dozen + 21 Tweaks’ button.	
@@ -494,7 +494,6 @@ history_to_generate_choices.2		6 months	6 Monate
 history_to_generate_choices.3		1 year	1 Jahr		
 history_to_generate_choices.4		2 years	2 Jahre		
 history_to_generate_choices.5		5 years	5 Jahre		
-moving_average	historyRecord.movingAverage	Moving Average	Gleitender Mittelwert		
 no		No	Nein		
 no_servings_recorded		You have not recorded any servings yet!	Sie haben noch keine Portionen aufgezeichnet!		
 no_weights_recorded		You have not recorded any weights yet!	Sie haben noch keine Gewichte aufgezeichnet!		
