@@ -15,17 +15,19 @@ struct TsvRow: Equatable {
     var lang_value: String
     /// comments
     var base_note: String // general information to assist translation
+    var lang_note: String // :NYI: ... applies to website URLs.
     
-    init(key_android: String, key_apple: String, base_value: String, lang_value: String, base_note: String) {
+    init(key_android: String, key_apple: String, base_value: String, lang_value: String, base_note: String, lang_note: String) {
         self.key_android = key_android       
         self.key_apple = key_apple
         self.base_value = base_value
         self.lang_value = lang_value
         self.base_note = base_note
+        self.lang_note = lang_note
     }
     
     func isEmpty() -> Bool {
-        return key_android.isEmpty && key_apple.isEmpty && base_value.isEmpty && lang_value.isEmpty && base_note.isEmpty
+        return key_android.isEmpty && key_apple.isEmpty && base_value.isEmpty && lang_value.isEmpty && base_note.isEmpty && lang_note.isEmpty
     }
     
     func toString(includeNotes: Bool = false) -> String {
@@ -37,7 +39,8 @@ struct TsvRow: Equatable {
             lang_value: \(lang_value)
             """
         if includeNotes {
-            s.append("note: \(base_note)")
+            s.append("base_note: \(base_note)\n")
+            s.append("lang_note: \(lang_note)")
         }
         return s
     }
@@ -46,6 +49,7 @@ struct TsvRow: Equatable {
         var s = "\(key_android)Ⓣ\(key_apple)Ⓣ\(base_value)Ⓣ\(lang_value)"
         if includeNotes {
             s.append("Ⓣ\(base_note)")
+            s.append("Ⓣ\(lang_note)")
         }
         return s
     }
@@ -55,7 +59,8 @@ struct TsvRow: Equatable {
         s.append("\(toTsvQuoted(key_apple))\t")
         s.append("\(toTsvQuoted(base_value))\t")
         s.append("\(toTsvQuoted(lang_value))\t")
-        s.append("\(toTsvQuoted(base_note))\r\n")
+        s.append("\(toTsvQuoted(base_note))\t")
+        s.append("\(toTsvQuoted(lang_note))\r\n")
         return s
     }
     

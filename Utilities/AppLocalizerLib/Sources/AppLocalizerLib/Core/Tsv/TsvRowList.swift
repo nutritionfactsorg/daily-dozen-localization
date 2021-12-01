@@ -42,8 +42,10 @@ struct TsvRowList {
                 if d.base_value == value { return true }
             case .lang:
                 if d.lang_value == value { return true }
-            case .note:
+            case .noteBase:
                 if d.base_note == value { return true }
+            case .noteLang:
+                if d.lang_note == value { return true }
             }
         }
         return false
@@ -139,8 +141,10 @@ struct TsvRowList {
                     d.base_value =  d.base_value.isEmpty ? value : d.base_value
                 case .lang:
                     d.lang_value = d.lang_value.isEmpty ? value : d.lang_value
-                case .note:
+                case .noteBase:
                     d.base_note = d.base_note.isEmpty ? value : d.base_note
+                case .noteLang:
+                    d.lang_note = d.lang_note.isEmpty ? value : d.lang_note
                 }
             case .verbatim:
                 switch valueType {
@@ -148,8 +152,10 @@ struct TsvRowList {
                     d.base_value = value
                 case .lang:
                     d.lang_value = value
-                case .note:
+                case .noteBase:
                     d.base_note = value
+                case .noteLang:
+                    d.lang_note = value
                 }
             }
             data[i] = d // writeback
@@ -161,7 +167,8 @@ struct TsvRowList {
                 key_apple: keyType == .apple ? key : "", 
                 base_value: valueType == .base ? value : "", 
                 lang_value:  valueType == .lang ? value : "", 
-                base_note:  valueType == .note ? value : ""
+                base_note:  valueType == .noteBase ? value : "", 
+                lang_note: valueType == .noteLang ? value : ""
             )
             data.append(newRow)
         }
@@ -203,7 +210,8 @@ struct TsvRowList {
                 key_apple: keyType == .apple ? key : "", 
                 base_value: row.base_value, 
                 lang_value: row.lang_value, 
-                base_note: row.base_note
+                base_note: row.base_note,
+                lang_note: row.lang_note
             )
             data.append(newRow)
         }
@@ -267,8 +275,10 @@ struct TsvRowList {
                 value = d.base_value
             case .lang:
                 value = d.lang_value
-            case .note:
+            case .noteBase:
                 value = d.base_note
+            case .noteLang:
+                value = d.lang_note
             }
             result.putValue(key: key, keyType: withKeyType, value: value, valueType: ofValueType)
         }
@@ -394,7 +404,7 @@ struct TsvRowList {
     }
     
     func toTsv() -> String {
-        var s = "key_droid\tkey_apple\tbase_value\tlang_value\tbase_note\r\n"
+        var s = "key_droid\tkey_apple\tbase_value\tlang_value\tbase_note\tlang_note\r\n"
         for tsvRow in self.sorted().data {
             s.append(tsvRow.toTsv())
         }

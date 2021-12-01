@@ -36,6 +36,7 @@ struct StringzProcessor: TsvProtocol {
         var key_apple = ""
         var lang_value = ""
         var base_note = ""
+        var lang_note = ""
         
         guard let content = try? String(contentsOf: url, encoding: .utf8) else {
             print("::ERROR:PARSE::READ::\n:: \(url.path)")
@@ -52,6 +53,7 @@ struct StringzProcessor: TsvProtocol {
                     .dropFirst(2) // /*
                     .dropLast(2)  // */
                     .trimmingCharacters(in: CharacterSet.whitespaces)
+                // :NYI: no `lang_note` separated from comment
                 continue
             } 
             
@@ -65,6 +67,7 @@ struct StringzProcessor: TsvProtocol {
                     key_apple = ""
                     lang_value = ""
                     base_note = ""
+                    lang_note = ""
                     continue
                 }
                 
@@ -75,13 +78,15 @@ struct StringzProcessor: TsvProtocol {
                     key_apple: key_apple, 
                     base_value: "", 
                     lang_value: lang_value, 
-                    base_note: base_note)
+                    base_note: base_note,
+                    lang_note: lang_note)
                 tsvRowList.append(row)
                 
                 // clear values
                 key_apple = ""
                 lang_value = ""
                 base_note = ""
+                lang_note = ""
                 
                 continue
             }

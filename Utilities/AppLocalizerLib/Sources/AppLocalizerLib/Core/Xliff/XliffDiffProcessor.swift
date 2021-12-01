@@ -62,7 +62,8 @@ struct XliffDiffProcessor {
         {
             var sourceValue = ""
             var targetValue = ""
-            var noteValue = ""
+            var baseNoteValue = ""
+            var langNoteValue = "" // :NYI:WIP: XLIFF note still needs base/lang split
             for childNode in children {
                 guard let childName = childNode.name else { continue }
                 switch childName {
@@ -71,17 +72,20 @@ struct XliffDiffProcessor {
                 case "target":
                     targetValue = childNode.stringValue ?? ""              
                 case "base_note":
-                    noteValue = childNode.stringValue ?? ""
+                    baseNoteValue = childNode.stringValue ?? ""
+                case "lang_note":
+                    langNoteValue = childNode.stringValue ?? ""
                 default:
                     break
                 }
             }
             let newRow = TsvRow(
                 key_android: "", 
-                key_apple: keyId, 
+                key_apple: keyId,
                 base_value: sourceValue, 
                 lang_value: targetValue, 
-                base_note: noteValue
+                base_note: baseNoteValue, 
+                lang_note: langNoteValue
             )
             result.append(newRow)
         } else if let children = element.children {

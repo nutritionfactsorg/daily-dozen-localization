@@ -29,10 +29,11 @@ struct TsvSheet: TsvProtocol {
             tmpTsvRowList = normalizeAndroidKeys(tsvRowList: tmpTsvRowList)
             tmpTsvRowList = normalizeAppleKeys(tsvRowList: tmpTsvRowList)
             tmpTsvRowList = removeDuplicates(tsvRowList: tmpTsvRowList)
-            tsvRowList.append(contentsOf: tmpTsvRowList)
             //writeTsvFile(tmpTsvRowList, baseTsvFileUrl: url)
+            tsvRowList.append(contentsOf: tmpTsvRowList)
         }
         tsvRowList = tsvRowList.sorted()
+        tsvRowList = removeDuplicates(tsvRowList: tsvRowList)
     }
     
     init(tsvRowList trl: TsvRowList) {
@@ -106,11 +107,11 @@ struct TsvSheet: TsvProtocol {
     }
 
     func getKeySetAndroid() -> Set<String> {
-        return Set<String>(getLookupDictAndroid().keys)
+        return Set<String>(getLookupDictLangValueByAndroidKey().keys)
     }
 
     func getKeySetApple() -> Set<String> {
-        return Set<String>(getLookupDictApple().keys)
+        return Set<String>(getLookupDictLangValueByAppleKey().keys)
     }
     
     func getKeySetPrimary() -> Set<String> {
@@ -121,7 +122,25 @@ struct TsvSheet: TsvProtocol {
         return keySet
     }
     
-    func getLookupDictAndroid() -> [String: String] {
+    func getLookupDictBaseNoteByUniqueKey() -> [String: String] {
+        var d = [String: String]()
+        for r in tsvRowList.data {
+            let uniqueKey = "\(r.key_apple)&\(r.key_android)"
+            d[uniqueKey] = r.base_note
+        }
+        return d
+    }
+
+    func getLookupDictBaseValueByUniqueKey() -> [String: String] {
+        var d = [String: String]()
+        for r in tsvRowList.data {
+            let uniqueKey = "\(r.key_apple)&\(r.key_android)"
+            d[uniqueKey] = r.base_value
+        }
+        return d
+    }
+
+    func getLookupDictLangValueByAndroidKey() -> [String: String] {
         var d = [String: String]()
         for r in tsvRowList.data {
             d[r.key_android] = r.lang_value
@@ -129,7 +148,7 @@ struct TsvSheet: TsvProtocol {
         return d
     }
     
-    func getLookupDictApple() -> [String: String] {
+    func getLookupDictLangValueByAppleKey() -> [String: String] {
         var d = [String: String]()
         for r in tsvRowList.data {
             d[r.key_apple] = r.lang_value
@@ -137,15 +156,16 @@ struct TsvSheet: TsvProtocol {
         return d
     }
 
-    func getLookupDictPrimary() -> [String: String] {
+    func getLookupDictLangValueByUniqueKey() -> [String: String] {
         var d = [String: String]()
         for r in tsvRowList.data {
-            d["\(r.key_apple)&\(r.key_android)"] = r.lang_value
+            let uniqueKey = "\(r.key_apple)&\(r.key_android)"
+            d[uniqueKey] = r.lang_value
         }
         return d
     }
     
-    func getDictionaries() -> (apple: [String : TsvRow], droid: [String : TsvRow], paired: [String : TsvRow]) {
+    func getTsvRowDict() -> (apple: [String : TsvRow], droid: [String : TsvRow], paired: [String : TsvRow]) {
         var apple = [String : TsvRow]()
         var droid = [String : TsvRow]()
         var paired = [String : TsvRow]()
@@ -398,6 +418,126 @@ struct TsvSheet: TsvProtocol {
     
     // no TsvProtocol overrides
         
+    /// Prerequisite:  `key_apple` and `key_android` fields must be up-to-date in both  `TsvSheets`
+    mutating func updateBaseNotes(_ notesSheet: TsvSheet) {
+        if urlLanguage?.lastPathComponent == "English_US" {
+            return // Skip the English_US. Will always match self.
+        }
+        let baseNoteFromDict = notesSheet.getLookupDictBaseNoteByUniqueKey()
+        var listFromEmpty = [TsvRow]()
+        var listFromNotPresent = [TsvRow]()
+        var listIntoChanged = [(from: String, into:TsvRow)]()
+        for idx in 0 ..< tsvRowList.data.count {
+            let r = tsvRowList.data[idx]
+            let uniqueKey = "\(r.key_apple)&\(r.key_android)"
+            guard let noteFrom = baseNoteFromDict[uniqueKey] else {
+                listFromNotPresent.append(r)
+                continue
+            }
+            let noteInto = r.base_note // this TsvSheet is the target
+            if noteInto == noteFrom {
+                continue // nothing to change. nothing to report.
+            } else if noteInto.isEmpty {
+                // updates empty target. no reporting needed
+                tsvRowList.data[idx].base_note = noteFrom
+            } else if noteFrom.isEmpty {
+                // empty source would empty non-empty target. needs to be reported.
+                listFromEmpty.append(r)
+            } else {
+                // source changes non-empty target. needs to be reported.
+                tsvRowList.data[idx].base_note = noteFrom
+                listIntoChanged.append((from: noteFrom, into: r))
+            }
+        }
+        var s = "\n"
+        s += "##############################\n"
+        s += "### ‘BASE_NOTE’ Language: \(urlLanguage?.lastPathComponent ?? "")\n"
+        s += "##############################\n"
+        s += "### ‘BASE_NOTE’ FROM EMPTY ###\n"
+        s += "##############################\n"
+        for r in listFromEmpty {
+            s += "\(r.key_android)\t\(r.key_android)\t\(r.base_value)\n"
+        }
+        s += "####################################\n"
+        s += "### ‘BASE_NOTE’ FROM NOT PRESENT ###\n"
+        s += "####################################\n"
+        for r in listFromNotPresent {
+            s += "\(r.key_android)\t\(r.key_android)\t\(r.base_value)\n"
+        }
+        s += "###########################\n"
+        s += "### ‘BASE_NOTE’ CHANGED ###\n"
+        s += "###########################\n"
+        for changed in listIntoChanged {
+            let r = changed.into
+            s += "\(r.key_android)\t\(r.key_android)\t\(r.base_value)\n"
+            s += "FROM: \(changed.from)\n"
+            s += "INTO: \(r.base_note)\n"
+            s += "\n"            
+        }
+        
+        print(s)
+    }
+    
+    /// Prerequisite:  `key_apple` and `key_android` fields must be up-to-date in both  `TsvSheets`
+    mutating func updateBaseValues(_ baseSheet: TsvSheet) {
+        if urlLanguage?.lastPathComponent == "English_US" {
+            return // Skip the English_US. Will always match self.
+        }
+        let baseValueFromDict = baseSheet.getLookupDictBaseValueByUniqueKey()
+        var listFromEmpty = [TsvRow]()
+        var listFromNotPresent = [TsvRow]()
+        var listIntoChanged = [(from: String, into:TsvRow)]()
+        for idx in 0 ..< tsvRowList.data.count {
+            let r = tsvRowList.data[idx]
+            let uniqueKey = "\(r.key_apple)&\(r.key_android)"
+            guard let valueFrom = baseValueFromDict[uniqueKey] else {
+                listFromNotPresent.append(r)
+                continue
+            }
+            let valueInto = r.base_value // this TsvSheet is the target
+            if valueInto == valueFrom {
+                continue // nothing to change. nothing to report.
+            } else if valueInto.isEmpty {
+                // updates empty target. no reporting needed
+                tsvRowList.data[idx].base_value = valueFrom
+            } else if valueFrom.isEmpty {
+                // empty source would empty non-empty target. needs to be reported.
+                listFromEmpty.append(r)
+            } else {
+                // source changes non-empty target. needs to be reported.
+                tsvRowList.data[idx].base_value = valueFrom
+                listIntoChanged.append((from: valueFrom, into: r))
+            }
+        }
+        var s = "\n"
+        s += "##############################\n"
+        s += "### ‘BASE_VALUE’ Language: \(urlLanguage?.lastPathComponent ?? "")\n"
+        s += "##############################\n"
+        s += "### ‘BASE_VALUE’ FROM EMPTY ###\n"
+        s += "##############################\n"
+        for r in listFromEmpty {
+            s += "\(r.key_android)\t\(r.key_android)\t\(r.base_value)\n"
+        }
+        s += "####################################\n"
+        s += "### ‘BASE_VALUE’ FROM NOT PRESENT ###\n"
+        s += "####################################\n"
+        for r in listFromNotPresent {
+            s += "\(r.key_android)\t\(r.key_android)\t\(r.base_value)\n"
+        }
+        s += "###########################\n"
+        s += "### ‘BASE_VALUE’ CHANGED ###\n"
+        s += "###########################\n"
+        for changed in listIntoChanged {
+            let r = changed.into
+            s += "\(r.key_android)\t\(r.key_android)\t\(r.base_value)\n"
+            s += "FROM: \(changed.from)\n"
+            s += "INTO: \(r.base_value)\n"
+            s += "\n"            
+        }
+        
+        print(s)
+    }
+    
     // MARK: - Output
 
     /// Allows invisible characters to be seen
@@ -509,7 +649,8 @@ struct TsvSheet: TsvProtocol {
                                 key_apple: record[1],
                                 base_value: record[2],
                                 lang_value: record[3],
-                                base_note: record[4]
+                                base_note: record[4],
+                                lang_note: record.count > 5 ? record[5] : ""
                             )
                             if r.key_android != "key_droid" { // skip headings record
                                 recordList.append(r)
@@ -596,7 +737,8 @@ struct TsvSheet: TsvProtocol {
                     key_apple: record[1],
                     base_value: record[2],
                     lang_value: record[3],
-                    base_note: record.count > 4 ? record[4] : ""
+                    base_note: record.count > 4 ? record[4] : "", 
+                    lang_note: record.count > 5 ? record[5] : ""
                 )
                 recordList.append(r) // Add last record
             }

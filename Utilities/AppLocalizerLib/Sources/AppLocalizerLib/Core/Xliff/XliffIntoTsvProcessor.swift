@@ -28,7 +28,8 @@ struct XliffIntoTsvProcessor: TsvProtocol {
         {
             var sourceValue = ""
             var targetValue = ""
-            var noteValue = ""
+            var noteBaseValue = ""
+            var noteLangValue = ""
             for childNode in children {
                 guard let childName = childNode.name else { continue }
                 switch childName {
@@ -37,7 +38,9 @@ struct XliffIntoTsvProcessor: TsvProtocol {
                 case "target":
                     targetValue = childNode.stringValue ?? ""              
                 case "note":
-                    noteValue = childNode.stringValue ?? ""
+                    let note = childNode.stringValue ?? ""
+                    noteBaseValue = note
+                    noteLangValue = "" // :WIP:NYI: XLIFF note does not yet support base/lang split
                 default:
                     break
                 }
@@ -50,7 +53,10 @@ struct XliffIntoTsvProcessor: TsvProtocol {
             targetValue = targetValue
                 .replacingOccurrences(of: "\t", with: "Ⓣ")
                 .replacingOccurrences(of: "\n", with: "Ⓝ")
-            noteValue = noteValue
+            noteBaseValue = noteBaseValue
+                .replacingOccurrences(of: "\t", with: "Ⓣ")
+                .replacingOccurrences(of: "\n", with: "Ⓝ")
+            noteLangValue = noteLangValue
                 .replacingOccurrences(of: "\t", with: "Ⓣ")
                 .replacingOccurrences(of: "\n", with: "Ⓝ")
 
@@ -59,7 +65,8 @@ struct XliffIntoTsvProcessor: TsvProtocol {
                 key_apple: keyId, 
                 base_value: sourceValue, 
                 lang_value: targetValue, 
-                base_note: noteValue
+                base_note: noteBaseValue, 
+                lang_note: noteLangValue
             )
             tsvRowList.putRowValues(key: keyId, keyType: .apple, row: newRow)
         } else if let children = element.children {

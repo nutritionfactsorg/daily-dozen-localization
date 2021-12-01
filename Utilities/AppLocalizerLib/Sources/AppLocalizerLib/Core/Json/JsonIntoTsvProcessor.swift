@@ -117,7 +117,8 @@ struct JsonIntoTsvProcessor: TsvProtocol {
                 key_apple: key, 
                 base_value: baseOrLang == .baseMode ? value : "", 
                 lang_value: baseOrLang == .baseMode ? "" : value, 
-                base_note: "")
+                base_note: "",
+                lang_note: "")
             tsvRowList.putRowValues(key: key, keyType: .apple, row: newRow)
         }
     }

@@ -10,16 +10,36 @@ OUTPUT_NORMAL_DIRNAME="StringsViaTsvIntake"
 
 ## Base English_US paths into which translations are mapped
 BASE_JSON_DIR="English_US/ios/json/LocalStrings/en.lproj"
+BASE_TSV_DIR="English_US/tsv"
 BASE_XML_URL="English_US/android/values/strings.xml"
 
-## Note: currently, TOPICS_TSV is the same for all languages except Spanish.
-TOPICS_TSV="English_US/tsv/English_US_en.url_topics.tsv"
+## Note: currently, URL_TOPICS_TSV is the same for all languages except Spanish.
+URL_FRAGMENTS_TSV="English_US/tsv/English_US_en.url_fragments.tsv"
+URL_TOPICS_TSV="English_US/tsv/English_US_en.url_topics.tsv"
 
 ####################################
 ## English_US: Baseline Reference ##
 ####################################
-SOURCE_TSV="English_US/tsv/English_US_en.tsv"
-SOURCE_TSV="English_US/tsv/English_US_en.url_fragments.tsv"
+#SOURCE_TSV="English_US/tsv/English_US_en.tsv"
+#DO_NORMAL_STRINGS
+
+#SOURCE_TSV="English_US/tsv/English_US_en.appstore.tsv"
+#DO_NORMAL_STRINGS
+
+#SOURCE_TSV="English_US/tsv/English_US_en.url_fragments.tsv"
+#DO_NORMAL_STRINGS
+
+#SOURCE_TSV="English_US/tsv/English_US_en.url_topics.tsv"
+#DO_NORMAL_STRINGS
+
+############
+## German ##
+############
+SOURCE_TSV="German/tsv/German_de.intake.20211101.tsv"
+SOURCE_TSV="German/tsv/German_de.intake.additions.20211129.tsv"
+DO_NORMAL_STRINGS
+
+SOURCE_TSV="German/tsv/German_de.intake.appstore.20211129.tsv"
 DO_NORMAL_STRINGS
 
 ################
@@ -27,68 +47,55 @@ DO_NORMAL_STRINGS
 ################
 
 ## (pt)
-#SOURCE_TSV="Portuguese/tsv/Portuguese_pt.intake.20210929.tsv"
-#SOURCE_TSV="Portuguese/tsv/Portuguese_pt.intake.additions.20211015.tsv"
-#SOURCE_TSV="English_US/tsv/English_US_en.url_fragments.tsv"
-#DO_NORMAL_STRINGS
-
-## -- (pt) process reference --
-SOURCE_TSV="Portuguese/tsv/Portuguese_pt.tsv"
-SOURCE_TSV="English_US/tsv/English_US_en.url_fragments.tsv"
+SOURCE_TSV="Portuguese/tsv/Portuguese_pt.intake.20210929.tsv"
+SOURCE_TSV="Portuguese/tsv/Portuguese_pt.intake.additions.20211015.tsv"
 DO_NORMAL_STRINGS
 
 ## (pt-BR)
-#SOURCE_TSV="Portuguese_Brazil/tsv/Portuguese_pt-BR.intake.20210929.tsv"
-#SOURCE_TSV="Portuguese_Brazil/tsv/Portuguese_pt-BR.intake.additions.20211015.tsv"
-#SOURCE_TSV="English_US/tsv/English_US_en.url_fragments.tsv"
-#DO_NORMAL_STRINGS
-
-## -- (pt-BR) process reference --
-SOURCE_TSV="Portuguese_Brazil/tsv/Portuguese_pt-BR.tsv"
-SOURCE_TSV="English_US/tsv/English_US_en.url_fragments.tsv"
+SOURCE_TSV="Portuguese_Brazil/tsv/Portuguese_pt-BR.intake.20211122.tsv"
+SOURCE_TSV="Portuguese_Brazil/tsv/Portuguese_pt-BR.intake.additions.20211122.tsv"
 DO_NORMAL_STRINGS
 
 ## (pt-PT)
-#SOURCE_TSV="Portuguese_Portugal/tsv/Portuguese_pt-PT.intake.20210929.tsv"
-#SOURCE_TSV="Portuguese_Portugal/tsv/Portuguese_pt-PT.intake.additions.20211015.tsv"
-#SOURCE_TSV="English_US/tsv/English_US_en.url_fragments.tsv"
-#DO_NORMAL_STRINGS
-
-## -- (pt-PT) process reference --
-SOURCE_TSV="Portuguese_Portugal/tsv/Portuguese_pt-PT.tsv"
-SOURCE_TSV="English_US/tsv/English_US_en.url_fragments.tsv"
+SOURCE_TSV="Portuguese_Portugal/tsv/Portuguese_pt-PT.intake.20210929.tsv"
+SOURCE_TSV="Portuguese_Portugal/tsv/Portuguese_pt-PT.intake.additions.20211015.tsv"
 DO_NORMAL_STRINGS
 
 ## (pt_BT + pr_PT) compounded
 SOURCE_TSV="Portuguese/tsv/Portuguese_pt.intake.20210929.BR_PT.tsv"
 SOURCE_TSV="Portuguese/tsv/Portuguese_pt.intake.additions.20211015.tsv"
-SOURCE_TSV="English_US/tsv/English_US_en.url_fragments.tsv"
+DO_NORMAL_STRINGS
+
+## -- (pt) process appstore --
+SOURCE_TSV="Portuguese/tsv/Portuguese_pt.intake.appstore.20211026.tsv"
+DO_NORMAL_STRINGS
+
+## -- (pt-BR) process appstore --
+SOURCE_TSV="Portuguese_Brazil/tsv/Portuguese_pt-BR.intake.appstore.20211122.tsv"
+DO_NORMAL_STRINGS
+
+## -- (pt-PT) process appstore --
+SOURCE_TSV="Portuguese_Portugal/tsv/Portuguese_pt-PT.intake.appstore.20211026.tsv"
 DO_NORMAL_STRINGS
 
 ############
 ## Hebrew ##
 ############
-#SOURCE_TSV="Hebrew/tsv/Hebrew_he.intake.20211004.tsv"
-#SOURCE_TSV="Hebrew/tsv/Hebrew_he.intake.additions.20211103.tsv"
-#SOURCE_TSV="English_US/tsv/English_US_en.url_fragments.tsv"
-#DO_NORMAL_STRINGS
+SOURCE_TSV="Hebrew/tsv/Hebrew_he.intake.20211004.tsv"
+SOURCE_TSV="Hebrew/tsv/Hebrew_he.intake.additions.20211103.tsv"
+DO_NORMAL_STRINGS
 
-## -- (he) process reference --
-SOURCE_TSV="Hebrew/tsv/Hebrew_he.tsv"
-SOURCE_TSV="English_US/tsv/English_US_en.url_fragments.tsv"
+SOURCE_TSV="Hebrew/tsv/Hebrew_he.intake.appstore.20211027.tsv"
 DO_NORMAL_STRINGS
 
 #############
 ## Russian ##
 #############
-#SOURCE_TSV="Russian/tsv/Russian_ru.intake.20211019.tsv"
-#SOURCE_TSV="Russian/tsv/Russian_ru.intake.additions.20211028.tsv"
-#SOURCE_TSV="English_US/tsv/English_US_en.url_fragments.tsv"
-#DO_NORMAL_STRINGS
+SOURCE_TSV="Russian/tsv/Russian_ru.intake.20211019.tsv"
+SOURCE_TSV="Russian/tsv/Russian_ru.intake.additions.20211028.tsv"
+DO_NORMAL_STRINGS
 
-## -- (ru) process reference --
-SOURCE_TSV="Russian/tsv/Russian_ru.tsv"
-SOURCE_TSV="English_US/tsv/English_US_en.url_fragments.tsv"
+SOURCE_TSV="Russian/tsv/Russian_ru.intake.appstore.20211028.tsv"
 DO_NORMAL_STRINGS
 
 ### ----- STOP HERE ----- ###
@@ -101,37 +108,21 @@ QUIT
 # WIP: Normalize & Diff Spanish_es.20210309.Android.tsv and Spanish_es.20210309.Apple.tsv
 
 ## Note: Spanish has its own topic urls
-TOPICS_TSV="Spanish/tsv/Spanish_es.url_topics.tsv"
+URL_FRAGMENTS_TSV="Spanish/tsv/Spanish_es.url_fragments.tsv"
+URL_TOPICS_TSV="Spanish/tsv/Spanish_es.url_topics.tsv"
 
 SOURCE_TSV="Spanish/tsv/Spanish_es.20210309.Android.tsv"
-SOURCE_TSV="Spanish/tsv/Spanish_es.url_fragments.tsv"
 DO_NORMAL_STRINGS
 
 SOURCE_TSV="Spanish/tsv/Spanish_es.20210309.Apple.tsv"
-SOURCE_TSV="Spanish/tsv/Spanish_es.url_fragments.tsv"
 DO_NORMAL_STRINGS
 
-## Note: setting TOPICS_TSV to English_US as used by languages other than Spanish.
-TOPICS_TSV="English_US/tsv/English_US_en.url_topics.tsv"
+## Note: setting URL_TOPICS_TSV to English_US as used by languages other than Spanish.
+URL_FRAGMENTS_TSV="English_US/tsv/English_US_en.url_fragments.tsv"
+URL_TOPICS_TSV="English_US/tsv/English_US_en.url_topics.tsv"
 
 ### ----- STOP HERE ----- ###
 QUIT
-
-############
-## German ##
-############
-## NOTE: pending reciept of "additions"
-
-SOURCE_TSV="German/tsv/German_de.intake.20211101.tsv"
-#SOURCE_TSV="German/tsv/German_de.intake.additions.tsv"
-SOURCE_TSV="English_US/tsv/English_US_en.url_fragments.tsv"
-DO_NORMAL_STRINGS
-
-## -- process reference --
-#SOURCE_TSV="German/tsv/German_de.tsv"
-#SOURCE_TSV="German/tsv/German_de.additions.tsv"
-#SOURCE_TSV="English_US/tsv/English_US_en.url_fragments.tsv"
-#DO_NORMAL_STRINGS
 
 ############
 ## Polish ##

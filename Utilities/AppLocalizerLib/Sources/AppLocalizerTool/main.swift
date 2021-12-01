@@ -80,15 +80,16 @@ var productsDir: URL {
 
 // (5) check English_US tsv, strings, json, xliff?
 
-// (6.a) TSV Intake "NORMALIZE"
+// (6.) Use Intake to "NORMALIZE" TSV
 // --- INTAKE: Hebrew (he), Portuguese (pt)
-// -- update repo xliff/json/xml, generate normal strings/tsv
-let BatchSubdir = "batch_strings"
-let BatchCommands = "batch_strings_FromTsvIntake.txt"
+// -- update main repo with normalized tsv
+//let BatchSubdir = "batch_strings"
+//let BatchCommands = "batch_strings_FromTsvIntake.txt"
 
-// (7.a) TSV Intake "IMPORT" 
-//let BatchSubdir = "batch_import"
-//let BatchCommands = "batch_import_FromIntake.txt"
+// (7.) TSV Intake "IMPORT" 
+// -- Use normalized main tsv to generate `*.json`, `*.string`, `*.xml`
+let BatchSubdir = "batch_strings"
+let BatchCommands = "batch_strings_FromTsvMain.txt"
 
 print("### \(BatchCommands) ###")
 

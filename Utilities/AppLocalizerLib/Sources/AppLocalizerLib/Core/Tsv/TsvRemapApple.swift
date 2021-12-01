@@ -170,7 +170,9 @@ struct TsvRemapApple {
         // Settings, First Launch
         replaceDict["atR-un-jgX.text"] = "setting_health_alone_txt"      // Android: for_health_alone
         replaceDict["OdG-YQ-lT8.text"] = "setting_health_weight_txt"     // Android: for_health_and_weight_loss
+        replaceDict["daily_dozen_only"] = "setting_doze_only_btn"
         replaceDict["ReM-AP-Fpp.normalTitle"] = "setting_doze_only_btn"  // Android: daily_dozen_only
+        replaceDict["daily_dozen_and_tweaks"] = "setting_doze_tweak_btn"
         replaceDict["Lef-Iw-Ywr.normalTitle"] = "setting_doze_tweak_btn" // Android: daily_dozen_and_tweaks
         
         // Utilities Menu
@@ -182,6 +184,7 @@ struct TsvRemapApple {
         // Dynamically set `historyRecordWeight.titleImperial` or `historyRecordWeight.titleMetric`   
         dropSet.insert("Tgz-om-dEk.text") // Apple static setting dropped
         dropSet.insert("8ed-5m-QMc.text") // Apple static setting dropped
+        replaceDict["moving_average"] = "historyRecord.movingAverage" // Android: moving_average
         
         // `monthLabel` is set from `Date` extension `monthNameLocalized`
         dropSet.insert("nRL-iG-Wnd.text") // date pager `monthLabel` "<< < month > >>"
@@ -191,6 +194,8 @@ struct TsvRemapApple {
         // 'Units:' button title programatically set to unitToggle.imperial or unitToggle.metric
         dropSet.insert("1K3-d9-Hfb.normalTitle") // becomes unitToggle.imperial or unitToggle.metric 
         dropSet.insert("M75-CQ-NVP.normalTitle") // becomes unitToggle.imperial or unitToggle.metric
+        replaceDict["imperial"] = "unitToggle.imperial" // toggle button (not setting)
+        replaceDict["metric"] = "unitToggle.metric" // toggle button (not setting)
         
         replaceDict["W2v-Cp-vcd.text"] = "dozeOtherInfo.title" // Android: NA
         replaceDict["xcg-0a-oqY.normalTitle"] = "videos.link.label" // Android: videos
@@ -199,8 +204,7 @@ struct TsvRemapApple {
         // static "100 days" replaced by `%d day`. Apple: streakDaysFormat Droid: format_num_days
         dropSet.insert("cW5-dD-Zy0.text") // Android: format_num_days Apple: streakDaysFormat
         dropSet.insert("Vbn-R9-kuu.text") // Android: format_num_days Apple: streakDaysFormat
-        
-        dropSet.insert("Vbn-R9-kuu.text") // Android: format_num_days Apple: streakDaysFormat
+        replaceDict["format_num_days"] = "streakDaysFormat" // Android: format_num_days
         
         // Android uses `out_of` uses text for "X out of Y".
         // Apple programatically uses "X/Y" with no text translation.

@@ -34,42 +34,75 @@ struct BatchNormal {
     
     /// normalizes `*.tsv` and generates normalized `*.json`, `*.strings`, `*.xml`
     ///  
-    /// - parameter sourceseTSV: …[…/Portuguese/tsv/Portuguese_pt.tsv] (example)
-    /// - parameter topicsTSV: …/English_US/tsv/English_US_en.url_topics.tsv (example)
+    /// - parameter sourceTSV: …[…/Portuguese/tsv/Portuguese_pt.tsv] (example)
     /// - parameter resultsDir: …/_Normal__LOCAL/StringsViaTsvIntake example (example)
-    /// - parameter inputJsonDir: …/English_US/ios/json/LocalStrings/en.lproj (example)
-    /// - parameter inputXmlUrl: …/English_US/android/values/strings.xml (example)
-    func doNormalize(
-        sourceTSV: [URL], 
-        topicsTSV: URL, 
-        resultsDir: URL,
-        baseJsonDir: URL,
-        baseXmlUrl: URL
-    ) {
+    /// - parameter baseJsonDir: …/English_US/ios/json/LocalStrings/en.lproj (example)
+    /// - parameter baseTsvDir: …/English_US/tsv (example)
+    /// - parameter baseTsvUrlFragments: …/English_US/tsv/English_US_en.url_fragments.tsv (example)
+    /// - parameter baseTsvUrlTopics: …/English_US/tsv/English_US_en.url_topics.tsv (example)
+    /// - parameter baseXmlUrl: …/English_US/android/values/strings.xml (example)
+    func doNormalize(sourceTSV: [URL], resultsDir: URL, baseJsonDir: URL, baseTsvDir: URL, baseTsvUrlFragments: URL, baseTsvUrlTopics: URL, baseXmlUrl: URL) {
+        let fm = FileManager.default
+        let keys: [URLResourceKey] = [.isRegularFileKey]
+        let options: FileManager.DirectoryEnumerationOptions = [.skipsHiddenFiles, .skipsPackageDescendants, .skipsSubdirectoryDescendants]
+        guard let tmpUrls = try? fm.contentsOfDirectory(at: baseTsvDir, includingPropertiesForKeys: keys, options: options)
+        else {
+            print("ERROR: BatchNormal.doNormalize(…) baseTsvDir read failed")
+            return
+        }
+        var baseUrls = [URL]()
+        for url in tmpUrls {
+            if url.pathExtension == "tsv" {
+                baseUrls.append(url)
+            }
+        }
         guard sourceTSV.count > 0, let tsvFirstUrl = sourceTSV.first else {
             print("ERROR: BatchNormal.doNormalize(…) sourceTSV is an empty list")
             return
         }
         
-        // -- to TSV --
-        let tsvSheet = TsvSheet(urlList: sourceTSV)
+        let tsvLanguage = tsvFirstUrl.deletingPathExtension().lastPathComponent
+        print("##### DO_NORMAL_STRINGS_LANGUAGE: \(tsvLanguage)")
+        if tsvLanguage == "German_de" {
+            print(":WATCH: \(tsvLanguage)")
+        }
         
-        // -- to /Localizable.strings --
+        // ----- to TSV -----
+        let allBaseTsvSheet =  TsvSheet(urlList: baseUrls)
+        
+        var urlFragmentsSheet = TsvSheet(urlList: [baseTsvUrlFragments])
+        urlFragmentsSheet.updateBaseNotes(allBaseTsvSheet)
+        urlFragmentsSheet.updateBaseValues(allBaseTsvSheet)
+        writeNormalTsv(urlFragmentsSheet, urlTsvIn: baseTsvUrlFragments, resultsDir: resultsDir)
+        var urlTopicsSheet = TsvSheet(urlList: [baseTsvUrlTopics])
+        urlTopicsSheet.updateBaseNotes(allBaseTsvSheet)
+        urlTopicsSheet.updateBaseValues(allBaseTsvSheet)
+        writeNormalTsv(urlTopicsSheet, urlTsvIn: baseTsvUrlTopics, resultsDir: resultsDir)
+
+        var sourceSheet = TsvSheet(urlList: sourceTSV)
+        sourceSheet.updateBaseNotes(allBaseTsvSheet)
+        sourceSheet.updateBaseValues(allBaseTsvSheet)
+        writeNormalTsv(sourceSheet, urlTsvIn: tsvFirstUrl, resultsDir: resultsDir)
+        
+        // add url topic links
+        let allTSV: [URL] = sourceTSV + [baseTsvUrlFragments] + [baseTsvUrlTopics]
+        let allTsvSheet = TsvSheet(urlList: allTSV)
+
+        if tsvLanguage.contains("appstore") || tsvLanguage.contains("url_fragments") || tsvLanguage.contains("url_topics") {
+            return
+        }
+        
+        // ----- to /Localizable.strings -----
         let nameParts = getTsvFilenameParts(tsvFirstUrl)
         let langCode = nameParts.lang
         let modifier = nameParts.modifier
 
-        let stringz = StringzProcessor(tsvRowList: tsvSheet.tsvRowList)
+        let stringz = StringzProcessor(tsvRowList: allTsvSheet.tsvRowList)
         let stringsDictionary = stringz.toStringSplitByFile(langCode: langCode)
         
         writeNormalStrings(stringsDictionary, langCode: langCode, modifier: modifier, resultsDir: resultsDir)
-
-        // write out updated *.tsv file
-        writeNormalTsv(tsvSheet, urlTsvIn: tsvFirstUrl, resultsDir: resultsDir)
         
-        // -- to JSON --
-        // add url topic links
-        let allTSV: [URL] = sourceTSV + [topicsTSV]
+        // ----- to JSON -----
         let tsvSheetWithTopics = TsvSheet(urlList: allTSV)
         
         let jsonOutputDir = resultsDir
@@ -81,13 +114,13 @@ struct BatchNormal {
         jsonFromTsv.processTsvToJson(tsvSheet: tsvSheetWithTopics)
         jsonFromTsv.writeJsonFiles()
         
-        // to XML
+        // ----- to XML -----
         let valuesPathFragment = langCode == "en" ? "values" : "values-\(langCode)"
         let xmlOutputUrl = resultsDir
             .appendingPathComponent("android")
             .appendingPathComponent(valuesPathFragment)
             .appendingPathComponent("strings.xml", isDirectory: false)
-        let droidLookup = tsvSheetWithTopics.getLookupDictAndroid()
+        let droidLookup = tsvSheetWithTopics.getLookupDictLangValueByAndroidKey()
         var xmlFromTsv = XmlFromTsvProcessor(lookupTable: droidLookup)
         guard let droidXmlDocument = try? XMLDocument(contentsOf: baseXmlUrl, options: [.nodePreserveAll, .nodePreserveWhitespace]) 
         else {

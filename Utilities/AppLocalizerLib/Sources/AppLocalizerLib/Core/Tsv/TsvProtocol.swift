@@ -17,9 +17,10 @@ enum TsvKeyType {
 }
 
 enum TsvValueType {
-    case base // English
-    case lang // target language
-    case note
+    case base // `base_value` English
+    case lang // `lang_value` target language
+    case noteBase // `base_note`
+    case noteLang // `lang_note`
 }
 
 enum TsvPutMode {

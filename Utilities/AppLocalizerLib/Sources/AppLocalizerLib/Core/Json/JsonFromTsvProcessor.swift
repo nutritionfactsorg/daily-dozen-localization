@@ -137,7 +137,7 @@ struct JsonFromTsvProcessor {
     }
     
     mutating func processTsvToJson(tsvSheet: TsvSheet) {  
-        let lookupTable: [String: String] = tsvSheet.getLookupDictApple()
+        let lookupTable: [String: String] = tsvSheet.getLookupDictLangValueByAppleKey()
         for (key, value) in lookupTable {
             if key.hasPrefix("doze") {
                 if processTsvToJsonDoze(key: key, value: value) {

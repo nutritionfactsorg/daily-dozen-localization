@@ -48,7 +48,7 @@ struct BatchImport {
             let appleXmlUrl = outputApple,
             let appleXmlDocument = try? XMLDocument(contentsOf: appleXmlUrl, options: [.nodePreserveAll]),
             let appleRootXMLElement: XMLElement = appleXmlDocument.rootElement() {
-            _xliffProcessor = XliffFromTsvProcessor(lookupTable: _tsvImportSheet.getLookupDictApple())
+            _xliffProcessor = XliffFromTsvProcessor(lookupTable: _tsvImportSheet.getLookupDictLangValueByAppleKey())
             _xliffProcessor.processXliffFromTsv(
                 appleXmlUrl: appleXmlUrl, 
                 appleXmlDocument: appleXmlDocument, 
@@ -62,7 +62,7 @@ struct BatchImport {
             let droidXmlUrl = outputAndroid,
             let droidXmlDocument = try? XMLDocument(contentsOf: droidXmlUrl, options: [.nodePreserveAll, .nodePreserveWhitespace]) {
             droidXmlDocument.version = nil // remove <?xml version="1.0"?> from output
-            let lookupTable: [String: String] = _tsvImportSheet.getLookupDictAndroid()
+            let lookupTable: [String: String] = _tsvImportSheet.getLookupDictLangValueByAndroidKey()
             _xmlProcessor = XmlFromTsvProcessor(lookupTable: lookupTable)
             let droidXmlOutputUrl = droidXmlUrl
                 .deletingPathExtension()

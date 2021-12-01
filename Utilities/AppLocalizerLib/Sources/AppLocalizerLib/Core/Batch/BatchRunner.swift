@@ -37,13 +37,15 @@ struct BatchRunner {
         var baseJsonDir: URL?
         var baseXmlUrl: URL?
         var sourceTSV: [URL]?  // Batch: import, normal
-        var topicsTSV: URL?  // Batch: normal
         var outputDroid: URL?
         var outputApple: URL?
         // Batch Normal Parameters
         var sourceStrings: [URL]?   // Batch: normal
         var sourceXLIFF: URL?     // Batch: normal
         var outputNormalDir: URL? // Batch: normal
+        var baseTsvDir: URL?  // Batch: normal
+        var urlFragmentsTsv: URL?  // Batch: normal
+        var urlTopicsTsv: URL?  // Batch: normal
         
         guard let commands = try? String(contentsOf: commandsUrl) else {
             fatalError("could not read commands")
@@ -60,6 +62,7 @@ struct BatchRunner {
                 BatchExport.shared.clearAll()
                 BatchImport.shared.clearAll()
                 baseJsonDir = nil
+                baseTsvDir = nil
                 baseXmlUrl = nil
                 diffTsvA = nil
                 diffTsvB = nil
@@ -76,10 +79,11 @@ struct BatchRunner {
                 sourceStrings = nil
                 sourceTSV = nil
                 sourceXLIFF = nil
-                topicsTSV = nil
                 outputDroid = nil
                 outputApple = nil
                 outputNormalDir = nil
+                urlFragmentsTsv = nil
+                urlTopicsTsv = nil
             } 
             // Diff
             else if command.cmdKey.hasPrefix("DIFF_TSV_A") {
@@ -175,15 +179,25 @@ struct BatchRunner {
                 if let url = command.cmdUrl {
                     baseJsonDir = url
                 }
-            } 
+            }
+            else if command.cmdKey.hasPrefix("BASE_TSV_DIR") {
+                if let url = command.cmdUrl {
+                    baseTsvDir = url
+                }
+            }
             else if command.cmdKey.hasPrefix("BASE_XML_URL") {
                 if let url = command.cmdUrl {
                     baseXmlUrl = url
                 }
-            } 
-            else if command.cmdKey.hasPrefix("TOPICS_TSV") {
+            }
+            else if command.cmdKey.hasPrefix("URL_FRAGMENTS_TSV") {
                 if let url = command.cmdUrl {
-                    topicsTSV = url
+                    urlFragmentsTsv = url
+                }
+            } 
+            else if command.cmdKey.hasPrefix("URL_TOPICS_TSV") {
+                if let url = command.cmdUrl {
+                    urlTopicsTsv = url
                 }
             } 
             else if command.cmdKey.hasPrefix("SOURCE_XLIFF") {
@@ -221,8 +235,8 @@ struct BatchRunner {
                     BatchNormal.shared.doNormalize(sourceStrings: source, resultsDir: outputNormalDir)
                     sourceStrings = nil
                 }
-                if let source = sourceTSV, let topics = topicsTSV, let baseJsonDir = baseJsonDir, let baseXmlUrl = baseXmlUrl {
-                    BatchNormal.shared.doNormalize(sourceTSV: source, topicsTSV: topics, resultsDir: outputNormalDir, baseJsonDir: baseJsonDir, baseXmlUrl: baseXmlUrl)
+                if let source = sourceTSV, let baseJsonDir = baseJsonDir, let baseTsvDir = baseTsvDir, let baseXmlUrl = baseXmlUrl, let fragments = urlFragmentsTsv, let topics = urlTopicsTsv {
+                    BatchNormal.shared.doNormalize(sourceTSV: source, resultsDir: outputNormalDir, baseJsonDir: baseJsonDir, baseTsvDir: baseTsvDir, baseTsvUrlFragments: fragments, baseTsvUrlTopics: topics, baseXmlUrl: baseXmlUrl)
                     sourceTSV = nil
                 }
                 if let source = sourceXLIFF {
