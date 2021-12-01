@@ -36,6 +36,7 @@ _App Localizations & Store Distribution_
 | [Arabic][locale-ar]      |   | [ar][droid-ar]   |   | `ar` | [Egypt (ar-EG)][apple-ar-EG],<br>[Saudi Arabia (ar-SA)][apple-ar-SA], ... |
 | [Bhojpuri][locale-bho]   |   | [bho][droid-bho] |   |  --  | _(not available)_ |
 | [Bulgarian][locale-bg]   | ✓ | [bg][droid-bg]   |   | `bg` | [Bulgarian (BG)][apple-bg]
+| [Catalan][locale-ca]   |   | [ca][droid-ca]   |   | `ca` | 
 | [Chinese_HongKong][locale-zh-HK]      |   | [zh-HK][droid-zh-HK]     |   | `zh-HK`   | [Hong Kong (HK)][apple-zh-HK]
 | [Chinese_Simplified][locale-zh-Hans]  |   | [zh-Hans][droid-zh-Hans] |   | `zh-Hans` | [China (CN)][apple-zh-Hans],<br>[Singapore (SG)][apple-zh-Hans-SG]
 | [Chinese_Traditional][locale-zh-Hant] | ✓ | [zh-Hant][droid-zh-Hant] |   | `zh-Hant` | [Macau (MO)][apple-zh-Hant-MO],<br>[Tiawan (TW)][apple-zh-Hant]
@@ -47,9 +48,9 @@ _App Localizations & Store Distribution_
 | [French][locale-fr]      | ✓ | [fr][droid-fr] |  | `fr` | [France (FR)][apple-fr] |
 | [French_Canada][locale-fr-CA] |   | [fr-CA][droid-fr-CA] |   | `fr-CA` | [Canada French (fr-CA)][apple-fr-ca]
 | [Georgian][locale-ka]     |   | [ka][droid-ka] |   | `ka` |
-| [German][locale-de]       | ✓, `U` | [de][droid-de] | `P` | `de` | [Germany (DE)][apple-de]
+| [German][locale-de]       | ✓, `U` | [de][droid-de] | `T` | `de` | [Germany (DE)][apple-de]
 | [Greek][locale-el]        | ✓ | [el][droid-el] |   | `gr` | [Greece (GR)][apple-el-gr]
-| [Hebrew][locale-he]       | `P` | [he][droid-he] | `P` | `he` | [Isreal (IL)][apple-he-il]
+| [Hebrew][locale-he]       | `T` | [he][droid-he] | `T` | `he` | [Isreal (IL)][apple-he-il]
 | [Hindi][locale-hi]        |   | [hi][droid-hi] |   | `hi` | [India (IN)][apple-hi-in]
 | [Hungarian][locale-hu]    |   | [hu][droid-hu] |   | `hu` | [Hungary (HU)][apple-hu]
 | [Italian][locale-it]      | ✓ | [it][droid-it] |   | `it` | [Italy (IT)][apple-it]
@@ -104,6 +105,10 @@ _legend:_
 [locale-bg]:Languages/Bulgarian
 [droid-bg]:https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen&hl=bg
 [apple-bg]:https://apps.apple.com/bg/app/dr-gregers-daily-dozen/id1060700802
+
+<!-- Catalan -->
+[locale-ca]:Languages/Catalan
+[droid-ca]:https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen&hl=ca
 
 <!-- Chinese_HongKong -->
 [locale-zh-HK]:Languages/Chinese_HongKong
