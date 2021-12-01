@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" standalone="yes"?>
 <resources>
     <string name="app_name">Daily Dozen</string>
     <string name="beans">Beans</string>
@@ -118,8 +118,8 @@
     <string name="remind_me_at">Remind me at</string>
     <string name="videos">Videos</string>
     <string name="units">Units</string>
-    <string name="imperial">Imperial</string>
-    <string name="metric">Metric</string>
+    <string name="imperial">imperial</string>
+    <string name="metric">metric</string>
     <string name="error_cannot_handle_url">Could not open url. Please install a browser.</string>
     <string name="channel_reminders_name">Reminders</string>
     <string name="twenty_one_tweaks">21 Tweaks</string>

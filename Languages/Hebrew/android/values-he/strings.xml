@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" standalone="yes"?>
 <resources>
     <string name="app_name">השניים עשר היומי</string>
     <string name="beans">שעועית</string>
@@ -118,7 +118,7 @@
     <string name="remind_me_at">הזכר לי ב:</string>
     <string name="videos">סרטונים</string>
     <string name="units">יחידות:</string>
-    <string name="imperial">אמפריאלי</string>
+    <string name="imperial">קיסרי</string>
     <string name="metric">מטרי</string>
     <string name="error_cannot_handle_url">לא ניתן היה לפתוח את כתובת האתר. אנא התקן דפדפן.</string>
     <string name="channel_reminders_name">תזכורות</string>
