@@ -48,7 +48,7 @@ _App Localizations & Store Distribution_
 | [French][locale-fr]      | ✓ | [fr][droid-fr] |  | `fr` | [France (FR)][apple-fr] |
 | [French_Canada][locale-fr-CA] |   | [fr-CA][droid-fr-CA] |   | `fr-CA` | [Canada French (fr-CA)][apple-fr-ca]
 | [Georgian][locale-ka]     |   | [ka][droid-ka] |   | `ka` |
-| [German][locale-de]       | ✓, `U` | [de][droid-de] | `T` | `de` | [Germany (DE)][apple-de]
+| [German][locale-de]       | ✓, `U`, `T` | [de][droid-de] | `T` | `de` | [Germany (DE)][apple-de]
 | [Greek][locale-el]        | ✓ | [el][droid-el] |   | `gr` | [Greece (GR)][apple-el-gr]
 | [Hebrew][locale-he]       | `T` | [he][droid-he] | `T` | `he` | [Isreal (IL)][apple-he-il]
 | [Hindi][locale-hi]        |   | [hi][droid-hi] |   | `hi` | [India (IN)][apple-hi-in]
@@ -66,7 +66,7 @@ _App Localizations & Store Distribution_
 | [Portuguese_Brazil][locale-pt-BR]   | `T` | [pt-BR][droid-pt-BR] | `T` | `pt-BR` | [Brazil (BR)][apple-pt-BR]
 | [Portuguese_Portugal][locale-pt-PT] | `T` | [pt-PT][droid-pt-PT] | `T` | `pt-PT` | [Portugal (PT)][apple-pt]
 | [Romanian][locale-ro]     | ✓ | [ro][droid-ro] |   | `ro` | [Romania (RO)][apple-ro]
-| [Russian][locale-ru]      | ✓, `U` | [ru][droid-ru] | `T` | `ru` | [Russia (RU)][apple-ru]
+| [Russian][locale-ru]      | ✓, `U`, `T` | [ru][droid-ru] | `T` | `ru` | [Russia (RU)][apple-ru]
 | [Serbian_Cyrillic][locale-sr]   |   | [sr][droid-sr] |   | `sr` |
 | [Serbian_Latin][locale-sr-Latn] |   | [sr-Latn][droid-sr-Latn] |   | `sr-Latn` |
 | [Slovak][locale-sk]       |   | [sk][droid-sk] |   | `sk` | [Slovakia (SK)][apple-sk]
@@ -80,7 +80,8 @@ _App Localizations & Store Distribution_
 _legend:_
 
 * `P` - partial application translation received
-* `T` - application translation received and being processed
+* `R` - application translation received and being processed
+* `T` - application in test with translation
 * `U` - application existing translation update received and being processed
 * `✓` - published through the app store
 
