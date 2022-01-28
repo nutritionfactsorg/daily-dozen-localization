@@ -9,7 +9,7 @@
 OUTPUT_NORMAL_DIRNAME="StringsViaTsvIntake"
 
 ## Base English_US paths into which translations are mapped
-BASE_JSON_DIR="English_US/ios/json/LocalStrings/en.lproj"
+BASE_JSON_DIR="English_US/ios/json_reference/LocalStrings/en.lproj"
 BASE_TSV_DIR="English_US/tsv"
 BASE_XML_URL="English_US/android/values/strings.xml"
 
@@ -32,31 +32,46 @@ URL_TOPICS_TSV="English_US/tsv/English_US_en.url_topics.tsv"
 #SOURCE_TSV="English_US/tsv/English_US_en.url_topics.tsv"
 #DO_NORMAL_STRINGS
 
+#############
+## Catalan ##
+#############
+## -- (ca) process application values --
+SOURCE_TSV="Catalan/tsv/Catalan_ca.intake.20220124.tsv"
+DO_NORMAL_STRINGS
+
+## -- (ca) process appstore --
+SOURCE_TSV="Catalan/tsv/Catalan_ca.intake.appstore.20220124.tsv"
+DO_NORMAL_STRINGS
+
+### ----- STOP HERE ----- ###
+QUIT
+
 ############
 ## German ##
 ############
+## -- (de) process application values --
 SOURCE_TSV="German/tsv/German_de.intake.20211101.tsv"
 SOURCE_TSV="German/tsv/German_de.intake.additions.20211129.tsv"
 DO_NORMAL_STRINGS
 
+## -- (de) process appstore --
 SOURCE_TSV="German/tsv/German_de.intake.appstore.20211129.tsv"
 DO_NORMAL_STRINGS
 
 ################
 ## Portuguese ##
 ################
-
-## (pt)
+## -- (pt) process application values --
 SOURCE_TSV="Portuguese/tsv/Portuguese_pt.intake.20210929.tsv"
 SOURCE_TSV="Portuguese/tsv/Portuguese_pt.intake.additions.20211015.tsv"
 DO_NORMAL_STRINGS
 
-## (pt-BR)
+## -- (pt-BR) process application values --
 SOURCE_TSV="Portuguese_Brazil/tsv/Portuguese_pt-BR.intake.20211122.tsv"
 SOURCE_TSV="Portuguese_Brazil/tsv/Portuguese_pt-BR.intake.additions.20211122.tsv"
 DO_NORMAL_STRINGS
 
-## (pt-PT)
+## -- (pt-PT) process application values --
 SOURCE_TSV="Portuguese_Portugal/tsv/Portuguese_pt-PT.intake.20210929.tsv"
 SOURCE_TSV="Portuguese_Portugal/tsv/Portuguese_pt-PT.intake.additions.20211015.tsv"
 DO_NORMAL_STRINGS
@@ -81,20 +96,24 @@ DO_NORMAL_STRINGS
 ############
 ## Hebrew ##
 ############
+## -- (he) process application values --
 SOURCE_TSV="Hebrew/tsv/Hebrew_he.intake.20211004.tsv"
 SOURCE_TSV="Hebrew/tsv/Hebrew_he.intake.additions.20211103.tsv"
 DO_NORMAL_STRINGS
 
+## -- (he) process appstore --
 SOURCE_TSV="Hebrew/tsv/Hebrew_he.intake.appstore.20211027.tsv"
 DO_NORMAL_STRINGS
 
 #############
 ## Russian ##
 #############
+## -- (ru) process application values --
 SOURCE_TSV="Russian/tsv/Russian_ru.intake.20211019.tsv"
 SOURCE_TSV="Russian/tsv/Russian_ru.intake.additions.20211028.tsv"
 DO_NORMAL_STRINGS
 
+## -- (ru) process appstore --
 SOURCE_TSV="Russian/tsv/Russian_ru.intake.appstore.20211028.tsv"
 DO_NORMAL_STRINGS
 

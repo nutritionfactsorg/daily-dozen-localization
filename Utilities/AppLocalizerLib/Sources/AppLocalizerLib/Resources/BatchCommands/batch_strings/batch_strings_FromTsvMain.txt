@@ -6,10 +6,10 @@
 ###################
 ## General Setup ##
 ###################
-OUTPUT_NORMAL_DIRNAME="StringsViaTsvIntake"
+OUTPUT_NORMAL_DIRNAME="StringsViaTsvMain"
 
 ## Base English_US paths into which translations are mapped
-BASE_JSON_DIR="English_US/ios/json/LocalStrings/en.lproj"
+BASE_JSON_DIR="English_US/ios/json_reference/LocalStrings/en.lproj"
 BASE_TSV_DIR="English_US/tsv"
 BASE_XML_URL="English_US/android/values/strings.xml"
 
@@ -32,10 +32,24 @@ DO_NORMAL_STRINGS
 SOURCE_TSV="English_US/tsv/English_US_en.url_topics.tsv"
 DO_NORMAL_STRINGS
 
+#############
+## Catalan ##
+#############
+## -- (ca) process application values --
+SOURCE_TSV="Catalan/tsv/Catalan_ca.tsv"
+DO_NORMAL_STRINGS
+
+## -- (ca) process appstore --
+SOURCE_TSV="Catalan/tsv/Catalan_ca.appstore.tsv"
+DO_NORMAL_STRINGS
+
+### ----- STOP HERE ----- ###
+QUIT
+
 ############
 ## German ##
 ############
-## -- (de) process reference --
+## -- (de) process application values --
 SOURCE_TSV="German/tsv/German_de.tsv"
 DO_NORMAL_STRINGS
 
@@ -46,15 +60,15 @@ DO_NORMAL_STRINGS
 ################
 ## Portuguese ##
 ################
-## -- (pt) process reference --
+## -- (pt) process application values --
 SOURCE_TSV="Portuguese/tsv/Portuguese_pt.tsv"
 DO_NORMAL_STRINGS
 
-## -- (pt-BR) process reference --
+## -- (pt-BR) process application values --
 SOURCE_TSV="Portuguese_Brazil/tsv/Portuguese_pt-BR.tsv"
 DO_NORMAL_STRINGS
 
-## -- (pt-PT) process reference --
+## -- (pt-PT) process application values --
 SOURCE_TSV="Portuguese_Portugal/tsv/Portuguese_pt-PT.tsv"
 DO_NORMAL_STRINGS
 
@@ -73,7 +87,7 @@ DO_NORMAL_STRINGS
 ############
 ## Hebrew ##
 ############
-## -- (he) process reference --
+## -- (he) process application values --
 SOURCE_TSV="Hebrew/tsv/Hebrew_he.tsv"
 DO_NORMAL_STRINGS
 
@@ -84,7 +98,7 @@ DO_NORMAL_STRINGS
 #############
 ## Russian ##
 #############
-## -- (ru) process reference --
+## -- (ru) process application values --
 SOURCE_TSV="Russian/tsv/Russian_ru.tsv"
 DO_NORMAL_STRINGS
 
