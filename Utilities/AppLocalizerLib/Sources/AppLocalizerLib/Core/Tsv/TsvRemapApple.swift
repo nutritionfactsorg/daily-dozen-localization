@@ -139,12 +139,19 @@ struct TsvRemapApple {
         replaceDict["weightEntry.text.lbs"] = "weight_entry_units_lbs"
 
         // Info Menu
-        replaceDict["19L-gq-W5M.text"] = "info_app_about_welcome"
-        replaceDict["DJR-bj-qUq.text"] = "info_app_about_app_name"
-        replaceDict["dwQ-CS-gz3.text"] = "info_app_about_overview"
-        replaceDict["gX5-vX-xBe.text"] = "info_app_about_version"
-        replaceDict["pUm-f4-zm1.text"] = "info_app_about_oss_credits"
-        replaceDict["Zgt-w4-qQw.text"] = "info_app_about_created_by"
+        replaceDict["DJR-bj-qUq.text"] = "info_app_about_app_name"    // apple.info.about.2
+        replaceDict["Zgt-w4-qQw.text"] = "info_app_about_created_by"  // apple.info.about.4
+        replaceDict["pUm-f4-zm1.text"] = "info_app_about_oss_credits" // apple.info.about.5
+        replaceDict["dwQ-CS-gz3.text"] = "info_app_about_overview"    // apple.info.about.1
+        replaceDict["gX5-vX-xBe.text"] = "info_app_about_version"     // apple.info.about.3
+        replaceDict["19L-gq-W5M.text"] = "info_app_about_welcome"     // apple.info.about.0
+
+        replaceDict["apple.info.about.0"] = "info_app_about_welcome"
+        replaceDict["apple.info.about.1"] = "info_app_about_overview"
+        replaceDict["apple.info.about.2"] = "info_app_about_app_name"
+        replaceDict["apple.info.about.3"] = "info_app_about_version"
+        replaceDict["apple.info.about.4"] = "info_app_about_created_by"
+        replaceDict["apple.info.about.5"] = "info_app_about_oss_credits"
         
         // Settings
         replaceDict["OZO-Xa-v5G.segmentTitles[0]"] = "setting_doze_only_choice"  // Android: daily_dozen_only
