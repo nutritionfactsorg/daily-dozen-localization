@@ -6,7 +6,7 @@ key_droid	key_apple	base_value	lang_value	base_note
 	apple.info.about.4	This app was created by: NutritionFacts.org, Christi Richards, Konstantin Khokhlov, and Marc Campbell	אפליקציה זו נוצרה על ידי: NutritionFacts.org, כריסטי ריצ'רדס, קונסטנטין חוחלוב ומארק קמפבל	
 	apple.info.about.5	The following open source libraries are used: RealmSwift, Charts, FSCalendar, SimpleAnimation, ActiveLabel.	נעשה שימוש בספריות הקוד הפתוח שלהלן: RealmSwift, תרשימים, FSCalendar, SimpleAnimation, ActiveLabel.	
 OK	dozeOtherInfo.confirm	OK	טוב	
-	dozeOtherInfo.message	Vitamin B12 is essential for your health but does not count towards your daily servings.\n\nVitamin B12 is included in this app to provide you with an easy way to track your intake.	ויטמין B12 חיוני לבריאותכם אך אינו נכנס לתוך המנות היומיומיות שלכם. \ n \ n ויטמין B12 כלול באפליקציה זו כדי לספק לכם דרך קלה לעקוב אחר צריכתכם.	
+	dozeOtherInfo.message	Vitamin B12 is essential for your health but does not count towards your daily servings.\n\nVitamin B12 is included in this app to provide you with an easy way to track your intake.	ויטמין B12 חיוני לבריאותכם אך אינו נכנס לתוך המנות היומיומיות שלכם.\n\nויטמין B12 כלול באפליקציה זו כדי לספק לכם דרך קלה לעקוב אחר צריכתכם.	
 	dozeOtherInfo.section	Supplements	תוספי תזונה	
 	dozeOtherInfo.title	Supplements	תוספי תזונה	
 	historyRecordDoze.heading	Servings History	הסטוריית המנות	

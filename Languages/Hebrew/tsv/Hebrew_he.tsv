@@ -201,7 +201,7 @@ food_info_types_nuts.8	dozeNuts.Variety.Text.8	Pistachios	פיסטוק
 food_info_types_nuts.9	dozeNuts.Variety.Text.9	Pumpkin seeds	גרעיני דלעת		
 nuts	dozeNuts.heading	Nuts and Seeds	אגוזים וזרעים	heading for daily data entry item	
 OK	dozeOtherInfo.confirm	OK	טוב	Daily Dozen supplement info alert: dismissal button text	
-	dozeOtherInfo.message	Vitamin B12 is essential for your health but does not count towards your daily servings.\n\nVitamin B12 is included in this app to provide you with an easy way to track your intake.	ויטמין B12 חיוני לבריאותכם אך אינו נכנס לתוך המנות היומיומיות שלכם. \ n \ n ויטמין B12 כלול באפליקציה זו כדי לספק לכם דרך קלה לעקוב אחר צריכתכם.	Daily Dozen supplement info alert: message	
+	dozeOtherInfo.message	Vitamin B12 is essential for your health but does not count towards your daily servings.\n\nVitamin B12 is included in this app to provide you with an easy way to track your intake.	ויטמין B12 חיוני לבריאותכם אך אינו נכנס לתוך המנות היומיומיות שלכם.\n\nויטמין B12 כלול באפליקציה זו כדי לספק לכם דרך קלה לעקוב אחר צריכתכם.	Daily Dozen supplement info alert: message	
 	dozeOtherInfo.section	Supplements	תוספי תזונה	Daily Dozen daily entry section heading	
 	dozeOtherInfo.title	Supplements	תוספי תזונה	Daily Dozen supplement info alert: title	
 food_info_serving_sizes_spices_imperial.0	dozeSpices.Serving.imperial.0	¼ teaspoon of turmeric	1/4 כפית כורכום		
