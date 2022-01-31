@@ -43,9 +43,6 @@ DO_NORMAL_STRINGS
 SOURCE_TSV="Catalan/tsv/Catalan_ca.appstore.tsv"
 DO_NORMAL_STRINGS
 
-### ----- STOP HERE ----- ###
-QUIT
-
 ############
 ## German ##
 ############
