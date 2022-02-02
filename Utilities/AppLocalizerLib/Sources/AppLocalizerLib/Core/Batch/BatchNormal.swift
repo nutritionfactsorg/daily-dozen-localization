@@ -106,7 +106,7 @@ struct BatchNormal {
         let tsvSheetWithTopics = TsvSheet(urlList: allTSV)
         
         let jsonOutputDir = resultsDir
-            .appendingPathComponent("Localizable")
+            .appendingPathComponent("LocalStrings")
             .appendingPathComponent("\(langCode).lproj", isDirectory: true)
         var jsonFromTsv = JsonFromTsvProcessor(
             jsonBaseDir: baseJsonDir, 
@@ -183,7 +183,7 @@ struct BatchNormal {
         resultsDir: URL) {
         for (key, content) in stringsDictionary {
             let outputDirUrl = resultsDir
-                .appendingPathComponent(key.name)
+                .appendingPathComponent(key.parentName)
                 .appendingPathComponent("\(langCode).lproj", isDirectory: true)
             let outputFileUrl = outputDirUrl
                 .appendingPathComponent("\(key.name)\(modifier).strings", isDirectory: false)
@@ -207,7 +207,7 @@ struct BatchNormal {
             .deletingLastPathComponent() // tsv
             .lastPathComponent           // language name e.g. English_US
         let outputTsvDirUrl = resultsDir
-            .appendingPathComponent("Languages_tsv_normal")
+            .appendingPathComponent("Normalized_TSV")
             .appendingPathComponent(tsvLangName)
             .appendingPathComponent("tsv")
         let outputTsvFileUrl = outputTsvDirUrl

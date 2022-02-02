@@ -9,7 +9,7 @@
 OUTPUT_NORMAL_DIRNAME="StringsViaTsvIntake"
 
 ## Base English_US paths into which translations are mapped
-BASE_JSON_DIR="English_US/ios/json_reference/LocalStrings/en.lproj"
+BASE_JSON_DIR="English_US/ios/en-US_reference/LocalStrings/en.lproj"
 BASE_TSV_DIR="English_US/tsv"
 BASE_XML_URL="English_US/android/values/strings.xml"
 
@@ -32,6 +32,40 @@ URL_TOPICS_TSV="English_US/tsv/English_US_en.url_topics.tsv"
 #SOURCE_TSV="English_US/tsv/English_US_en.url_topics.tsv"
 #DO_NORMAL_STRINGS
 
+################
+## Portuguese ##
+################
+## -- (pt) process application values --
+SOURCE_TSV="Portuguese/tsv/Portuguese_pt.intake.20220131.tsv"
+DO_NORMAL_STRINGS
+
+## -- (pt) process appstore --
+SOURCE_TSV="Portuguese/tsv/Portuguese_pt.intake.appstore.20220131.tsv"
+DO_NORMAL_STRINGS
+
+## -- (pt-BR) process application values --
+SOURCE_TSV="Portuguese_Brazil/tsv/Portuguese_pt-BR.intake.20220131.tsv"
+DO_NORMAL_STRINGS
+
+## -- (pt-BR) process appstore --
+SOURCE_TSV="Portuguese_Brazil/tsv/Portuguese_pt-BR.intake.appstore.20220131.tsv"
+DO_NORMAL_STRINGS
+
+### ----- STOP HERE ----- ###
+QUIT
+
+## -- (pt-PT) process application values --
+SOURCE_TSV="Portuguese_Portugal/tsv/Portuguese_pt-PT.intake.20210929.tsv"
+DO_NORMAL_STRINGS
+
+## -- (pt-PT) process appstore --
+SOURCE_TSV="Portuguese_Portugal/tsv/Portuguese_pt-PT.intake.appstore.20211026.tsv"
+DO_NORMAL_STRINGS
+
+## (pt_BT + pr_PT) compounded
+#SOURCE_TSV="Portuguese/tsv/Portuguese_pt.intake.20210929.BR_PT.tsv"
+#DO_NORMAL_STRINGS
+
 #############
 ## Catalan ##
 #############
@@ -43,9 +77,6 @@ DO_NORMAL_STRINGS
 SOURCE_TSV="Catalan/tsv/Catalan_ca.intake.appstore.20220124.tsv"
 DO_NORMAL_STRINGS
 
-### ----- STOP HERE ----- ###
-QUIT
-
 ############
 ## German ##
 ############
@@ -56,41 +87,6 @@ DO_NORMAL_STRINGS
 
 ## -- (de) process appstore --
 SOURCE_TSV="German/tsv/German_de.intake.appstore.20211129.tsv"
-DO_NORMAL_STRINGS
-
-################
-## Portuguese ##
-################
-## -- (pt) process application values --
-SOURCE_TSV="Portuguese/tsv/Portuguese_pt.intake.20210929.tsv"
-SOURCE_TSV="Portuguese/tsv/Portuguese_pt.intake.additions.20211015.tsv"
-DO_NORMAL_STRINGS
-
-## -- (pt-BR) process application values --
-SOURCE_TSV="Portuguese_Brazil/tsv/Portuguese_pt-BR.intake.20211122.tsv"
-SOURCE_TSV="Portuguese_Brazil/tsv/Portuguese_pt-BR.intake.additions.20211122.tsv"
-DO_NORMAL_STRINGS
-
-## -- (pt-PT) process application values --
-SOURCE_TSV="Portuguese_Portugal/tsv/Portuguese_pt-PT.intake.20210929.tsv"
-SOURCE_TSV="Portuguese_Portugal/tsv/Portuguese_pt-PT.intake.additions.20211015.tsv"
-DO_NORMAL_STRINGS
-
-## (pt_BT + pr_PT) compounded
-SOURCE_TSV="Portuguese/tsv/Portuguese_pt.intake.20210929.BR_PT.tsv"
-SOURCE_TSV="Portuguese/tsv/Portuguese_pt.intake.additions.20211015.tsv"
-DO_NORMAL_STRINGS
-
-## -- (pt) process appstore --
-SOURCE_TSV="Portuguese/tsv/Portuguese_pt.intake.appstore.20211026.tsv"
-DO_NORMAL_STRINGS
-
-## -- (pt-BR) process appstore --
-SOURCE_TSV="Portuguese_Brazil/tsv/Portuguese_pt-BR.intake.appstore.20211122.tsv"
-DO_NORMAL_STRINGS
-
-## -- (pt-PT) process appstore --
-SOURCE_TSV="Portuguese_Portugal/tsv/Portuguese_pt-PT.intake.appstore.20211026.tsv"
 DO_NORMAL_STRINGS
 
 ############

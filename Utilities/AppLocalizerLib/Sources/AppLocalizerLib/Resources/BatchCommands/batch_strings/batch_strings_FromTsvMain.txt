@@ -9,7 +9,7 @@
 OUTPUT_NORMAL_DIRNAME="StringsViaTsvMain"
 
 ## Base English_US paths into which translations are mapped
-BASE_JSON_DIR="English_US/ios/json_reference/LocalStrings/en.lproj"
+BASE_JSON_DIR="English_US/ios/en-US_reference/LocalStrings/en.lproj"
 BASE_TSV_DIR="English_US/tsv"
 BASE_XML_URL="English_US/android/values/strings.xml"
 
@@ -32,6 +32,36 @@ DO_NORMAL_STRINGS
 SOURCE_TSV="English_US/tsv/English_US_en.url_topics.tsv"
 DO_NORMAL_STRINGS
 
+################
+## Portuguese ##
+################
+## -- (pt) process application values --
+SOURCE_TSV="Portuguese/tsv/Portuguese_pt.tsv"
+DO_NORMAL_STRINGS
+
+## -- (pt) process appstore --
+SOURCE_TSV="Portuguese/tsv/Portuguese_pt.appstore.tsv"
+DO_NORMAL_STRINGS
+
+## -- (pt-BR) process application values --
+SOURCE_TSV="Portuguese_Brazil/tsv/Portuguese_pt-BR.tsv"
+DO_NORMAL_STRINGS
+
+## -- (pt-BR) process appstore --
+SOURCE_TSV="Portuguese_Brazil/tsv/Portuguese_pt-BR.appstore.tsv"
+DO_NORMAL_STRINGS
+
+### ----- STOP HERE ----- ###
+QUIT
+
+## -- (pt-PT) process application values --
+SOURCE_TSV="Portuguese_Portugal/tsv/Portuguese_pt-PT.tsv"
+DO_NORMAL_STRINGS
+
+## -- (pt-PT) process appstore --
+SOURCE_TSV="Portuguese_Portugal/tsv/Portuguese_pt-PT.appstore.tsv"
+DO_NORMAL_STRINGS
+
 #############
 ## Catalan ##
 #############
@@ -52,33 +82,6 @@ DO_NORMAL_STRINGS
 
 ## -- (de) process appstore --
 SOURCE_TSV="German/tsv/German_de.appstore.tsv"
-DO_NORMAL_STRINGS
-
-################
-## Portuguese ##
-################
-## -- (pt) process application values --
-SOURCE_TSV="Portuguese/tsv/Portuguese_pt.tsv"
-DO_NORMAL_STRINGS
-
-## -- (pt-BR) process application values --
-SOURCE_TSV="Portuguese_Brazil/tsv/Portuguese_pt-BR.tsv"
-DO_NORMAL_STRINGS
-
-## -- (pt-PT) process application values --
-SOURCE_TSV="Portuguese_Portugal/tsv/Portuguese_pt-PT.tsv"
-DO_NORMAL_STRINGS
-
-## -- (pt) process appstore --
-SOURCE_TSV="Portuguese/tsv/Portuguese_pt.appstore.tsv"
-DO_NORMAL_STRINGS
-
-## -- (pt-BR) process appstore --
-SOURCE_TSV="Portuguese_Brazil/tsv/Portuguese_pt-BR.appstore.tsv"
-DO_NORMAL_STRINGS
-
-## -- (pt-PT) process appstore --
-SOURCE_TSV="Portuguese_Portugal/tsv/Portuguese_pt-PT.appstore.tsv"
 DO_NORMAL_STRINGS
 
 ############

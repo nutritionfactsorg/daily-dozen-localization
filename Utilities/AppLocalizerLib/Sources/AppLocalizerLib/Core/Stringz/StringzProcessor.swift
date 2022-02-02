@@ -110,6 +110,15 @@ struct StringzProcessor: TsvProtocol {
         var name: String {
             return self.rawValue
         }
+        
+        var parentName: String {
+            switch self {
+            case .infoPlist:
+                return "InfoPlist"
+            case .localizable:
+                return "LocalStrings"
+            }
+        }
     }
     
     let infoPlistKeys = ["CFBundleDisplayName", "CFBundleName", "NSHealthShareUsageDescription", "NSHealthUpdateUsageDescription"]
