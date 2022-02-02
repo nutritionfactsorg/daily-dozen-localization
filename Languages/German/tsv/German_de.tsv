@@ -4,7 +4,7 @@ key_droid	key_apple	base_value	lang_value	base_note	lang_note
 	apple.info.about.0	Welcome to my Daily Dozen!	Willkommen zu meinem Täglichen Dutzend!	Info Menu About: line 0	
 	apple.info.about.1	Use this app on a daily basis to keep track of the foods and advice I recommend for optimal health and longevity in my books How Not to Die and How Not to Diet.	Verwenden Sie diese App täglich, um den Überblick über die Lebensmittel und Ratschläge zu behalten, die ich in meinen Büchern How Not to Die und How Not to Diet für optimale Gesundheit und Langlebigkeit empfehle.	Info Menu About: line 1	
 	apple.info.about.2	Daily Dozen	Das Tägliche Dutzend	Info Menu About: line 2	
-	apple.info.about.3	version 3.2.3	Version 3.2.3	Info Menu About: line 3	
+	apple.info.about.3	version 3.2.11	Version 3.2.11	Info Menu About: line 3	
 	apple.info.about.4	This app was created by: NutritionFacts.org, Christi Richards, Konstantin Khokhlov, and Marc Campbell	Diese App wurde erstellt von: NutritionFacts.org, Christi Richards, Konstantin Khokhlov, und Marc Campbell	Info Menu About: line 4	
 	apple.info.about.5	The following open source libraries are used: RealmSwift, Charts, FSCalendar, SimpleAnimation, ActiveLabel.	Die folgenden Open-Source-Bibliotheken werden verwendet: RealmSwift, Charts, FSCalendar, SimpleAnimation, ActiveLabel.	Info Menu About: line 5	
 back_to_today	dateBackButtonTitle	Back to today	Zurück zu heute	Date Button Title: ‘Back to today’	
@@ -330,7 +330,7 @@ about_this_app	info.about.title	About this app	Über diese Anwendung	Info About 
 about	info_app_about	About	Über	Info About View	
 app_name	info_app_about_app_name	Daily Dozen	Das tägliche Dutzend	Info About View Application Name: ‘Daily Dozen’	
 activity_welcome_text	info_app_about_overview	Use this app on a daily basis to keep track of the foods and advice I recommend for optimal health and longevity in my books How Not to Die and How Not to Diet.	Verwenden Sie diese App täglich, um den Überblick über die Lebensmittel und Ratschläge zu behalten, die ich in meinen Büchern How Not to Die und How Not to Diet für optimale Gesundheit und Langlebigkeit empfehle.	Info About View	
-	info_app_about_version	version 3.2.7	Version 3.2.1	Info About View Application release version	
+	info_app_about_version	version 3.2.11	Version 3.2.11	Info About View Application release version	
 welcome_to_my_daily_dozen	info_app_about_welcome	Welcome to my Daily Dozen!	Willkommen zu meinem Täglichen Dutzend!	Info About View	
 	info_book_how_not_to_die	Book: How Not to Die	Buch: How Not to Die	Info Menu: book title	
 	info_book_how_not_to_die_cookbook	Book: How Not to Die Cookbook	Buch: How Not to Die Kochbuch	Info Menu: book title	

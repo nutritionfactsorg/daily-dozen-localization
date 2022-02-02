@@ -4,7 +4,7 @@ key_droid	key_apple	base_value	lang_value	base_note
 	apple.info.about.0	Welcome to my Daily Dozen!	Witaj w moim Codziennym Tuzinie!	
 	apple.info.about.1	Use this app on a daily basis to keep track of the foods and advice I recommend for optimal health and longevity in my books How Not to Die and How Not to Diet.	"Korzystaj z aplikacji codziennie, aby śledzić żywność i porady, które polecam dla optymalnego zdrowia i długowieczności w moich książkach „Jak nie umrzeć przedwcześnie” i „How Not to Diet”."	
 	apple.info.about.2	Daily Dozen	Codzienny Tuzin	
-	apple.info.about.3	version 3.2.3	w wersji 3.2.3	
+	apple.info.about.3	version 3.2.11	w wersji 3.2.11	
 	apple.info.about.4	"This app was created by: NutritionFacts.org, Christi Richards, Konstantin Khokhlov, and Marc Campbell"	"Ta aplikacja została stworzona przez: NutritionFacts.org, Christi Richards, Konstantin Khokhlov i Marc Campbell"	
 	apple.info.about.5	"The following open source libraries are used: RealmSwift, Charts, FSCalendar, SimpleAnimation, ActiveLabel."	"Używane są następujące biblioteki open source: RealmSwift, Charts, FSCalendar, SimpleAnimation i ActiveLabel."	
 back_to_today	dateBackButtonTitle	Back to today	Powrót do dzisiaj	
@@ -534,4 +534,4 @@ yes		Yes	Tak
 	FBJ-Im-BZk.text	Time	Czas	
 	g3G-kp-d2S.text	Time	Czas	
 	settings_units_2_toggle	Toggle Units	Zmień jednostki	"Part of ""Imperial/Metric/Toggle Units"" selector"
-	gX5-vX-xBe.text	version 3.2.7	wersja 3.2.7	Application release version
+	gX5-vX-xBe.text	version 3.2.11	wersja 3.2.11	Application release version

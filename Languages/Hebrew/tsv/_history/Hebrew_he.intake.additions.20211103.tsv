@@ -2,7 +2,7 @@ key_droid	key_apple	base_value	lang_value	base_note
 	apple.info.about.0	Welcome to my Daily Dozen!	ברוכים הבאים לתריסר השבועי שלי!	
 	apple.info.about.1	Use this app on a daily basis to keep track of the foods and advice I recommend for optimal health and longevity in my books How Not to Die and How Not to Diet.	השתמשו באפליקציה זו על בסיס יומי כדי לעקוב אחר המזונות והעצות שאני ממליץ עליהן לבריאות ואריכות ימים בצורה אופטימלית בספרים שלי "איך לא למות" ו"איך לא לעשות דיאטה".	
 	apple.info.about.2	Daily Dozen	התריסר היומי	
-	apple.info.about.3	version 3.2.3	ורסיה 3.2.3	
+	apple.info.about.3	version 3.2.11	ורסיה 3.2.11	
 	apple.info.about.4	This app was created by: NutritionFacts.org, Christi Richards, Konstantin Khokhlov, and Marc Campbell	אפליקציה זו נוצרה על ידי: NutritionFacts.org, כריסטי ריצ'רדס, קונסטנטין חוחלוב ומארק קמפבל	
 	apple.info.about.5	The following open source libraries are used: RealmSwift, Charts, FSCalendar, SimpleAnimation, ActiveLabel.	נעשה שימוש בספריות הקוד הפתוח שלהלן: RealmSwift, תרשימים, FSCalendar, SimpleAnimation, ActiveLabel.	
 OK	dozeOtherInfo.confirm	OK	טוב	

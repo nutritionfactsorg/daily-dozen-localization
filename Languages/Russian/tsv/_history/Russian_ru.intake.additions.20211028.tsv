@@ -2,7 +2,7 @@ key_droid	key_apple	base_value	lang_value	base_note
 	apple.info.about.0	Welcome to my Daily Dozen!	Добро пожаловать в Не сдохни!	
 	apple.info.about.1	Use this app on a daily basis to keep track of the foods and advice I recommend for optimal health and longevity in my books How Not to Die and How Not to Diet.	Используйте это приложение на ежедневной основе, чтобы отслеживать продукты питания и следовать моим рекомендациям из книг Не Сдохни! Еда в борьбе за жизнь и Не сдохни на диете для поддержания оптимального состояния здоровья и продолжительности жизни.	
 	apple.info.about.2	Daily Dozen	Не сдохни!	
-	apple.info.about.3	version 3.2.3	версия 3.2.3	
+	apple.info.about.3	version 3.2.11	версия 3.2.11	
 	apple.info.about.4	This app was created by: NutritionFacts.org, Christi Richards, Konstantin Khokhlov, and Marc Campbell	Это приложение было создано NutritionFacts.org, Кристи Ричардс, Константином Хохловым и Марком Кэмпбеллом.	
 	apple.info.about.5	The following open source libraries are used: RealmSwift, Charts, FSCalendar, SimpleAnimation, ActiveLabel.	Приложение использует следующие библиотеки с открытым кодом: RealmSwift, Charts, FSCalendar, SimpleAnimation, ActiveLabel.	
 OK	dozeOtherInfo.confirm	OK	ОК	
