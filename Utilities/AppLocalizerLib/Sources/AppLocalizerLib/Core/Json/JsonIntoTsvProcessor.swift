@@ -90,10 +90,8 @@ struct JsonIntoTsvProcessor: TsvProtocol {
             key = "\(keyBase).Activity.Metric"
             put(key: key, value: item.activity.metric, baseOrLang: baseOrLang)
             // description (count)
-            for i in 0 ..< item.description.count {
-                key = "\(keyBase).Description.\(i)"
-                put(key: key, value: item.description[i], baseOrLang: baseOrLang)                
-            }
+            key = "\(keyBase).Explanation"
+            put(key: key, value: item.explanation, baseOrLang: baseOrLang)
         }
     }
     

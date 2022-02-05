@@ -50,46 +50,29 @@ var productsDir: URL {
 
 // ::WIP:: Normalize
 
-// (0)
-// --- NORMALIZE:…: English_US TSV repo -> normalized strings, tsv
+// (TEST)
+let BatchSubdir = "batch_strings"
+let BatchCommands = "batch_strings_FromTsvTest.txt"
+
+// (1) TSV MAIN REPO ("truth") to "NORMALIZED" product files 
+// -- Generated normalized `*.tsv`, `*.json`, `*.string`, `*.xml`
+// -- Manually verify/sync normalized Englich results to existing App English files.
+// -- Rerun, and repeat verify/sync until English main repo is fully up to date.
+// -- Compare normalized English-Language tsv keywords. Updates as needed.
 //let BatchSubdir = "batch_strings"
-//let BatchCommands = "batch_strings_FromTsvEnglish.txt"
+//let BatchCommands = "batch_strings_FromTsvMain.txt"
 
-// (1)
-// --- NORMALIZE:STRINGS: app main-branch strings -> normalized strings
-//let BatchSubdir = "batch_strings"
-//let BatchCommands = "batch_strings_FromStringsMain.txt"
-
-// (2)
-// --- NORMALIZE:STRINGS: app lang-branch strings -> normalized strings
-//let BatchSubdir = "batch_strings"
-//let BatchCommands = "batch_strings_FromStringsLang.txt"
-
-// compare (1) vs main/lang source ... after line sort.
-// compare (1) (2)
-
-// (3)
-// --- NORMALIZE: repo tsv -> strings
-//let BatchSubdir = "batch_strings"
-//let BatchCommands = "batch_strings_FromTsv.txt"
-
-// (4) :???: Bypass?
-// --- NORMALIZE: repo xliff -> strings
+// (2) XLIFF use to review current App keywords to lang repo
+// -- NORMALIZE: repo xliff -> strings
 //let BatchSubdir = "batch_strings"
 //let BatchCommands = "batch_strings_FromXliff.txt"
 
-// (5) check English_US tsv, strings, json, xliff?
-
-// (6.) Use Intake to "NORMALIZE" TSV
-// --- INTAKE: Hebrew (he), Portuguese (pt), Catalan (ca)
-// -- update main repo with normalized tsv
+// (3) TSV INTAKE to "NORMALIZED" .tsv, .json, .string, .xml  
+// -- INTAKE: include/exclude languages as needed
+// -- Compare/Update main repo with normalized intake tsv
+// -- Compare/Propagate intake/main result with app files (localization, android, ios)
 //let BatchSubdir = "batch_strings"
 //let BatchCommands = "batch_strings_FromTsvIntake.txt"
-
-// (7.) TSV Intake "IMPORT" 
-// -- Use normalized main tsv to generate `*.json`, `*.string`, `*.xml`
-let BatchSubdir = "batch_strings"
-let BatchCommands = "batch_strings_FromTsvMain.txt"
 
 print("### \(BatchCommands) ###")
 

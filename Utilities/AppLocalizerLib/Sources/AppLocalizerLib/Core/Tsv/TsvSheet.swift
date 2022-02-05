@@ -79,7 +79,7 @@ struct TsvSheet: TsvProtocol {
         // :NYI: verify values are consistant across any duplicate keys
         return tsvDuplicateKeys
     }
-
+    
     /// Checks for cases where the base language and target language have the same value
     func checkTsvKeysTargetValueSameAsBase() -> [TsvRow] {
         var unchanged = [TsvRow]()
@@ -105,11 +105,11 @@ struct TsvSheet: TsvProtocol {
         }
         return missing
     }
-
+    
     func getKeySetAndroid() -> Set<String> {
         return Set<String>(getLookupDictLangValueByAndroidKey().keys)
     }
-
+    
     func getKeySetApple() -> Set<String> {
         return Set<String>(getLookupDictLangValueByAppleKey().keys)
     }
@@ -130,7 +130,7 @@ struct TsvSheet: TsvProtocol {
         }
         return d
     }
-
+    
     func getLookupDictBaseValueByUniqueKey() -> [String: String] {
         var d = [String: String]()
         for r in tsvRowList.data {
@@ -139,11 +139,13 @@ struct TsvSheet: TsvProtocol {
         }
         return d
     }
-
+    
     func getLookupDictLangValueByAndroidKey() -> [String: String] {
         var d = [String: String]()
         for r in tsvRowList.data {
-            d[r.key_android] = r.lang_value
+            if r.key_android.isEmpty == false {
+                d[r.key_android] = r.lang_value
+            }
         }
         return d
     }
@@ -151,11 +153,13 @@ struct TsvSheet: TsvProtocol {
     func getLookupDictLangValueByAppleKey() -> [String: String] {
         var d = [String: String]()
         for r in tsvRowList.data {
-            d[r.key_apple] = r.lang_value
+            if r.key_apple.isEmpty == false {
+                d[r.key_apple] = r.lang_value                
+            }
         }
         return d
     }
-
+    
     func getLookupDictLangValueByUniqueKey() -> [String: String] {
         var d = [String: String]()
         for r in tsvRowList.data {
@@ -179,7 +183,7 @@ struct TsvSheet: TsvProtocol {
     }
     
     // MARK: - Normalize Keys
-
+    
     mutating func normalizeAndroidKeys(tsvRowList: TsvRowList) -> TsvRowList {
         var newTsvRowList = TsvRowList()
         for i in 0 ..< tsvRowList.data.count {
@@ -192,7 +196,7 @@ struct TsvSheet: TsvProtocol {
                 newTsvRowList.append(r)
                 continue
             }
-
+            
             // 
             if r.key_android.isEmpty {
                 newTsvRowList.append(r)
@@ -210,14 +214,14 @@ struct TsvSheet: TsvProtocol {
                 newTsvRowList.append(r)
                 continue
             }
-                        
+            
             // Check for keys which have a patch fix 
             if let newKey = TsvRemapDroid.check.isPatched(r) {
                 r.key_android = newKey
                 newTsvRowList.append(r)
                 continue
             }
-
+            
             //print(":WATCH:NormalizeAndroid: \(r.key_android)")
             
             // 
@@ -231,7 +235,7 @@ struct TsvSheet: TsvProtocol {
         }
         return newTsvRowList
     }
-
+    
     mutating func normalizeAppleKeys(tsvRowList: TsvRowList) -> TsvRowList {
         var newTsvRowList = TsvRowList()
         for i in 0 ..< tsvRowList.data.count {
@@ -257,7 +261,7 @@ struct TsvSheet: TsvProtocol {
                 newTsvRowList.append(r)
                 continue
             }
-
+            
             // Regex List
             // [a][b] -> .a.b
             r.key_apple = r.key_apple.replacingOccurrences(of: "\\[(.*)\\]\\[(.*)\\]", with: ".$1.$2", options: .regularExpression)
@@ -281,16 +285,16 @@ struct TsvSheet: TsvProtocol {
         }
         return newTsvRowList
     }
-
+    
     func removeDuplicates(tsvRowList: TsvRowList) -> TsvRowList {
         guard tsvRowList.data.count >= 2 else {
             print(":WARNING: TsvSheet.removingDuplicates() tsvRowList has less than 2 rows.")
             return tsvRowList
         }
-
+        
         var resultTRL = TsvRowList()
         let trl = tsvRowList.sorted()
-                
+        
         var idx = 0
         var rowPrior = trl.data[idx]
         resultTRL.append(rowPrior)
@@ -315,7 +319,7 @@ struct TsvSheet: TsvProtocol {
             print(":WARNING: TsvSheet.reportRowDuplicates(…) tsvRowList has less than 2 rows.")
             return
         }
-
+        
         reportRowDuplicateAppleKey(tsvRowList: tsvRowList)
         reportRowDuplicateDroidKey(tsvRowList: tsvRowList)
         reportRowDuplicateLang(tsvRowList: tsvRowList)
@@ -334,7 +338,7 @@ struct TsvSheet: TsvProtocol {
         idx += 1
         while idx < trl.data.count {
             let rowCurrent: TsvRow = trl.data[idx]
-
+            
             if rowCurrent.key_apple.isEmpty  {
                 idx += 1
                 continue
@@ -350,7 +354,7 @@ struct TsvSheet: TsvProtocol {
         }
         print(report)
     }
-
+    
     private func reportRowDuplicateDroidKey(tsvRowList: TsvRowList) {
         let trl = tsvRowList.sortedByAndroid()
         var report = """
@@ -364,7 +368,7 @@ struct TsvSheet: TsvProtocol {
         idx += 1
         while idx < trl.data.count {
             let rowCurrent: TsvRow = trl.data[idx]
-
+            
             if rowCurrent.key_android.isEmpty  {
                 idx += 1
                 continue
@@ -395,7 +399,7 @@ struct TsvSheet: TsvProtocol {
         idx += 1
         while idx < trl.data.count {
             let rowCurrent: TsvRow = trl.data[idx]
-
+            
             if rowCurrent.base_value.isEmpty && rowCurrent.lang_value.isEmpty {
                 idx += 1
                 continue
@@ -412,12 +416,12 @@ struct TsvSheet: TsvProtocol {
         }
         print(report)        
     }
-
+    
     
     // MARK: - Operations
     
     // no TsvProtocol overrides
-        
+    
     /// Prerequisite:  `key_apple` and `key_android` fields must be up-to-date in both  `TsvSheets`
     mutating func updateBaseNotes(_ notesSheet: TsvSheet) {
         if urlLanguage?.lastPathComponent == "English_US" {
@@ -539,12 +543,12 @@ struct TsvSheet: TsvProtocol {
     }
     
     // MARK: - Output
-
+    
     /// Allows invisible characters to be seen
     func toCharacterDot(character: Character?) -> Character {
         switch character {
         case "\n":
-           return "Ⓝ"
+            return "Ⓝ"
         case "\r":
             return "Ⓡ"
         case "\r\n":
@@ -555,7 +559,7 @@ struct TsvSheet: TsvProtocol {
             return character ?? "␀"
         }
     }
-
+    
     func toString() -> String {
         var s = ""
         var index = 0
@@ -582,7 +586,7 @@ struct TsvSheet: TsvProtocol {
         }
         return s
     }
-
+    
     // Add datestamp to `baseTsvFileUrl`
     private func writeTsvFile(_ list: TsvRowList, baseTsvFileUrl: URL) {
         let outputUrl = baseTsvFileUrl
@@ -590,7 +594,7 @@ struct TsvSheet: TsvProtocol {
             .appendingPathExtension("\(Date.datestampyyyyMMddHHmm).tsv")
         list.writeTsvFile(outputUrl)
     }
-
+    
     func writeTsvFile(fullUrl: URL) {
         tsvRowList.writeTsvFile(fullUrl)
     }
@@ -625,13 +629,49 @@ struct TsvSheet: TsvProtocol {
         var lineIdx = 1
         var lineCharIdx = 0
         
-        for character in content {
+        for character: Character in content {
             if _watchEnabled {
                 _watchline(recordIdx: recordList.count, recordFieldIdx: record.count, lineIdx: lineIdx, lineCharIdx: lineCharIdx, field: field, insideQuote: insideQuote, escapeQuote: escapeQuote, cPrev: cPrev, cThis: cThis, cNext: cNext)
             }
             cPrev = cThis
             cThis = cNext
             cNext = character
+            
+            if let uint32: UInt32 = cThis?.unicodeScalars.first?.value,
+               uint32 == 92 // 0x5c "\" or when ascii escaped "\\"
+            {
+                var str = ""
+                                
+                str.append("prev: ")
+                if let cPrev = cPrev {
+                    for scalar: Unicode.Scalar in cPrev.unicodeScalars {
+                        let scalarUInt32 = UInt32(scalar)
+                        let scalarUInt32Hex = "U+\(String(format: "%02x", scalarUInt32))" 
+                        let scalarAsciiStr = scalar.escaped(asASCII: true)
+                        str.append("\(scalarUInt32Hex) \(scalarAsciiStr)")
+                    }
+                }
+                str.append(" this: ")
+                if let cThis = cThis {
+                    for scalar: Unicode.Scalar in cThis.unicodeScalars {
+                        let scalarUInt32 = UInt32(scalar)
+                        let scalarUInt32Hex = "U+\(String(format: "%02x", scalarUInt32))" 
+                        let scalarAsciiStr = scalar.escaped(asASCII: true)
+                        str.append("\(scalarUInt32Hex) \(scalarAsciiStr)")
+                    }
+                }
+                str.append(" next: ")
+                if let cNext = cNext {
+                    for scalar: Unicode.Scalar in cNext.unicodeScalars {
+                        let scalarUInt32 = UInt32(scalar)
+                        let scalarUInt32Hex = "U+\(String(format: "%02x", scalarUInt32))" 
+                        let scalarAsciiStr = scalar.escaped(asASCII: true)
+                        str.append("\(scalarUInt32Hex) \(scalarAsciiStr)")
+                    }
+                }
+                print(str)
+            }
+            
             countChar += 1
             lineCharIdx += 1
             if let cThis = cThis, newline.contains(cThis) {
@@ -784,7 +824,7 @@ struct TsvSheet: TsvProtocol {
         }
         return TsvRowList(data: list)
     }
-
+    
     // MARK: - Watch
     
     // :WATCH: setup
@@ -828,5 +868,5 @@ struct TsvSheet: TsvProtocol {
             _watchEnabled = false
         }
     }
-
+    
 }

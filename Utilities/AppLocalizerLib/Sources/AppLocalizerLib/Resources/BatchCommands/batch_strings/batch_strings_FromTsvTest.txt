@@ -1,0 +1,27 @@
+### FILE: batch_strings_FromTsvTest.txt
+### WORKFLOW:  `*.strings` content based `*.tsv`
+### SCOPE: all planned languages
+###
+
+###################
+## General Setup ##
+###################
+OUTPUT_NORMAL_DIRNAME="StringsViaTsvTest"
+
+## Base English_US paths into which translations are mapped
+BASE_JSON_DIR="_Test/ios/test_reference/LocalStrings/en.lproj"
+BASE_TSV_DIR="_Test/tsv"
+BASE_XML_URL="_Test/android/values/strings.xml"
+
+## 
+URL_FRAGMENTS_TSV="_Test/tsv/Test_English_US_en.url_fragments.tsv"
+URL_TOPICS_TSV="_Test/tsv/Test_English_US_en.url_topics.tsv"
+
+####################
+## Test Reference ##
+####################
+SOURCE_TSV="_Test/tsv/Test_English_US_en.newline.tsv"
+DO_NORMAL_STRINGS
+
+#SOURCE_TSV="_Test/tsv/Test_English_US_en.return.tsv"
+#DO_NORMAL_STRINGS

@@ -87,6 +87,10 @@ struct BatchNormal {
         // add url topic links
         let allTSV: [URL] = sourceTSV + [baseTsvUrlFragments] + [baseTsvUrlTopics]
         let allTsvSheet = TsvSheet(urlList: allTSV)
+        let tsvAllUrl = sourceTSV[0]
+            .deletingLastPathComponent()
+            .appendingPathComponent("all.tsv", isDirectory: false)
+        writeNormalTsv(allTsvSheet, urlTsvIn: tsvAllUrl, resultsDir: resultsDir)
 
         if tsvLanguage.contains("appstore") || tsvLanguage.contains("url_fragments") || tsvLanguage.contains("url_topics") {
             return

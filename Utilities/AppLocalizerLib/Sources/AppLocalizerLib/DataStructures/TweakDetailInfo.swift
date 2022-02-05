@@ -19,7 +19,7 @@ struct TweakDetailInfo: Codable {
         /// mapTweakDetailsShort
         var activity: Activity = Activity() // like doze size
         /// mapTweakDetailsText
-        var description: [String] = [String]() // like doze type
+        var explanation: String = "" // replaces doze type list
         /// :NYI: 21 Tweak does not currently link to URL topics
         var topic: String = "" // item level URL path fragment
     }

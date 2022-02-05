@@ -98,6 +98,19 @@ struct JsonFromTsvProcessor {
             let jsonTweakStr = try String(contentsOf: tweakJsonUrl, encoding: .utf8)
             let jsonTweakData = jsonTweakStr.data(using: .utf8)!
             tweakInfo = try decoder.decode(TweakDetailInfo.self, from: jsonTweakData)
+            print("Complete: read(dozeJsonUrl: URL, tweakJsonUrl: URL)")
+            
+            // :!!!:DEBUG:START:
+            let url = tweakJsonUrlOut
+                .deletingLastPathComponent()
+                .appendingPathComponent("tweakInfo.AfterRead.txt", isDirectory: false)
+            var s = ""
+            for (key, value) in tweakInfo.itemsDict {
+                s.append("\(key)\t\(value.explanation)\n")
+            }
+            try? s.write(to: url, atomically: true, encoding: .utf8)
+            // :!!!:DEBUG:STOP:
+            
         } catch {            
             print("\(error)")
             fatalError()
@@ -113,31 +126,39 @@ struct JsonFromTsvProcessor {
             keysAppleJsonAll.insert("\(key).heading")
             keysAppleJsonAll.insert("\(key).topic")
             for i in 0 ..< dozeDetailInfo.servings.count {
-                keysAppleJsonAll.insert("\(key).Serving.Imperial.\(i)")                
-                keysAppleJsonAll.insert("\(key).Serving.Metric.\(i)")                
+                keysAppleJsonAll.insert("\(key).serving.imperial.\(i)")                
+                keysAppleJsonAll.insert("\(key).serving.metric.\(i)")                
             }
             for i in 0 ..< dozeDetailInfo.varieties.count {
-                keysAppleJsonAll.insert("\(key).Variety.Text.\(i)")                
-                keysAppleJsonAll.insert("\(key).Variety.Topic.\(i)")                
+                keysAppleJsonAll.insert("\(key).variety.text.\(i)")                
+                keysAppleJsonAll.insert("\(key).variety.topic.\(i)")                
             }
         }
         
         for entry in tweakInfo.itemsDict {
             let key = entry.key
-            guard let tweakDetailInfo = tweakInfo.itemsDict[key] else { continue }
-            
             keysAppleJsonAll.insert("\(key).heading")
             keysAppleJsonAll.insert("\(key).topic")
-            keysAppleJsonAll.insert("\(key).Activity.Imperial")                
-            keysAppleJsonAll.insert("\(key).Activity.Metric")                
-            for i in 0 ..< tweakDetailInfo.description.count {
-                keysAppleJsonAll.insert("\(key).Description.\(i)")                
-            }
+            keysAppleJsonAll.insert("\(key).activity.imperial")                
+            keysAppleJsonAll.insert("\(key).activity.metric")                
+            keysAppleJsonAll.insert("\(key).explanation")
         }
     }
     
     mutating func processTsvToJson(tsvSheet: TsvSheet) {  
         let lookupTable: [String: String] = tsvSheet.getLookupDictLangValueByAppleKey()
+        
+        // :!!!:DEBUG:START:
+        let url = tweakJsonUrlOut
+            .deletingLastPathComponent()
+            .appendingPathComponent("tweakInfo.TsvToProcess.txt", isDirectory: false)
+        var s = ""
+        for (key, value) in lookupTable {
+            s.append("\(key)\t\(value)\n")
+        }
+        try? s.write(to: url, atomically: true, encoding: .utf8)
+        // :!!!:DEBUG:STOP:
+        
         for (key, value) in lookupTable {
             if key.hasPrefix("doze") {
                 if processTsvToJsonDoze(key: key, value: value) {
@@ -233,7 +254,7 @@ struct JsonFromTsvProcessor {
                     return true
                 case "text":
                     // `tweakDailyCumin.text`
-                    tweakInfo.itemsDict[keyBase]?.description = [value]
+                    tweakInfo.itemsDict[keyBase]?.explanation = value
                     keysAppleJsonMatched.insert(keyBase)
                     return true
                 default:
@@ -249,15 +270,28 @@ struct JsonFromTsvProcessor {
         let jsonEncoder = JSONEncoder()
         jsonEncoder.outputFormatting = [.prettyPrinted]
         jsonEncoder.outputFormatting.insert(.sortedKeys)
+        // withoutEscapingSlashes only applies to escaping forward slashes.
+        // withoutEscapingSlashes keeps `http://` from becoming `http:\/\/` 
         jsonEncoder.outputFormatting.insert(.withoutEscapingSlashes)
         
         var data = try! jsonEncoder.encode(dozeInfo)
         var string = String(data: data, encoding: .utf8)!
         try? string.write(to: dozeJsonUrlOut, atomically: true, encoding: .utf8)
         
+        // :!!!:DEBUG:START:
+        let url = tweakJsonUrlOut
+            .deletingLastPathComponent()
+            .appendingPathComponent("tweakInfo.AtWrite.txt", isDirectory: false)
+        var s = ""
+        for (key, value) in tweakInfo.itemsDict {
+            s.append("\(key)\t\(value.explanation)\n")
+        }
+        try? s.write(to: url, atomically: true, encoding: .utf8)
+        // :!!!:DEBUG:STOP:
+        
         data = try! jsonEncoder.encode(tweakInfo)
         string = String(data: data, encoding: .utf8)!
         try? string.write(to: tweakJsonUrlOut, atomically: true, encoding: .utf8)
     }
-        
+            
 }
