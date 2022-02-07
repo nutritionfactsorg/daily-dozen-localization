@@ -1,0 +1,24 @@
+{
+  "itemsDict" : {
+    "dozeBeans" : {
+      "heading" : "Beans",
+      "servings" : [
+        {
+          "imperial" : "¼ cup of hummus or bean dip",
+          "metric" : "60 g of hummus or bean dip"
+        }
+      ],
+      "topic" : "topics/beans",
+      "varieties" : [
+        {
+          "text" : "Black beans",
+          "topic" : "topics/black-beans"
+        },
+        {
+          "text" : "Black-eyed peas",
+          "topic" : ""
+        }
+      ]
+    }
+  }
+}

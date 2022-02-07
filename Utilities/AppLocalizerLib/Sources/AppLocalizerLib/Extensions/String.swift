@@ -36,3 +36,25 @@ public extension String {
         return false
     }
 }
+
+extension StringProtocol {
+
+    func toStringCoding() -> [String] {
+        var array = ["Hexadecimal | Escaped ASCII | Unicode (non-compound)"]
+        //character.utf8
+        for scalar: Unicode.Scalar in self.unicodeScalars { // UTF-32
+            let scalarUInt32 = UInt32(scalar)
+            let scalarUInt32Hex = "U+\(String(format: "%02x", scalarUInt32))" 
+            let scalarAsciiStr = scalar.escaped(asASCII: true)
+            array.append("\(scalarUInt32Hex) \(scalarAsciiStr) \(scalar)")
+        }
+        return array
+    }
+    
+    func printStringCoding() {
+        for s in toStringCoding() {
+            print(s)
+        }
+    }
+
+}

@@ -99,18 +99,7 @@ struct JsonFromTsvProcessor {
             let jsonTweakData = jsonTweakStr.data(using: .utf8)!
             tweakInfo = try decoder.decode(TweakDetailInfo.self, from: jsonTweakData)
             print("Complete: read(dozeJsonUrl: URL, tweakJsonUrl: URL)")
-            
-            // :!!!:DEBUG:START:
-            let url = tweakJsonUrlOut
-                .deletingLastPathComponent()
-                .appendingPathComponent("tweakInfo.AfterRead.txt", isDirectory: false)
-            var s = ""
-            for (key, value) in tweakInfo.itemsDict {
-                s.append("\(key)\t\(value.explanation)\n")
-            }
-            try? s.write(to: url, atomically: true, encoding: .utf8)
-            // :!!!:DEBUG:STOP:
-            
+                        
         } catch {            
             print("\(error)")
             fatalError()
@@ -147,18 +136,7 @@ struct JsonFromTsvProcessor {
     
     mutating func processTsvToJson(tsvSheet: TsvSheet) {  
         let lookupTable: [String: String] = tsvSheet.getLookupDictLangValueByAppleKey()
-        
-        // :!!!:DEBUG:START:
-        let url = tweakJsonUrlOut
-            .deletingLastPathComponent()
-            .appendingPathComponent("tweakInfo.TsvToProcess.txt", isDirectory: false)
-        var s = ""
-        for (key, value) in lookupTable {
-            s.append("\(key)\t\(value)\n")
-        }
-        try? s.write(to: url, atomically: true, encoding: .utf8)
-        // :!!!:DEBUG:STOP:
-        
+                
         for (key, value) in lookupTable {
             if key.hasPrefix("doze") {
                 if processTsvToJsonDoze(key: key, value: value) {
@@ -179,6 +157,9 @@ struct JsonFromTsvProcessor {
     
     private mutating func processTsvToJsonDoze(key: String, value: String) -> Bool {
         let parts = key.components(separatedBy: ".")
+        // NOTE: replace any escaped newline `U+5c U+6e` with an actual newline `U+0a` 
+        // because JSON encoding adds it's own backlash (U+5c) escaping.
+        let valueWithNewline = value.replacingOccurrences(of: "\\n", with: "\n")
         
         let keyBase = parts[0]
         if dozeInfo.itemsDict[keyBase] != nil {
@@ -186,7 +167,7 @@ struct JsonFromTsvProcessor {
                 switch parts[1] {
                 case "heading":
                     // `dozeBeans`
-                    dozeInfo.itemsDict[keyBase]?.heading = value
+                    dozeInfo.itemsDict[keyBase]?.heading = valueWithNewline
                     keysAppleJsonMatched.insert(key)
                     return true
                 default:
@@ -199,12 +180,12 @@ struct JsonFromTsvProcessor {
                     switch parts[2] {
                     case "imperial":
                         // `dozeBeans.Serving.imperial.1`
-                        dozeInfo.itemsDict[keyBase]?.servings[idx].imperial = value
+                        dozeInfo.itemsDict[keyBase]?.servings[idx].imperial = valueWithNewline
                         keysAppleJsonMatched.insert(keyBase)
                         return true
                     case "metric":
                         // `dozeBeans.Serving.metric.1`
-                        dozeInfo.itemsDict[keyBase]?.servings[idx].metric = value
+                        dozeInfo.itemsDict[keyBase]?.servings[idx].metric = valueWithNewline
                         keysAppleJsonMatched.insert(keyBase)
                         return true
                     default:
@@ -214,12 +195,12 @@ struct JsonFromTsvProcessor {
                     switch parts[2] {
                     case "Text":
                         // dozeBerries.Variety.Text.5
-                        dozeInfo.itemsDict[keyBase]?.varieties[idx].text = value
+                        dozeInfo.itemsDict[keyBase]?.varieties[idx].text = valueWithNewline
                         keysAppleJsonMatched.insert(keyBase)
                         return true                        
                     case "Topic":
                         // dozeBerries.Variety.Text.5
-                        dozeInfo.itemsDict[keyBase]?.varieties[idx].topic = value
+                        dozeInfo.itemsDict[keyBase]?.varieties[idx].topic = valueWithNewline
                         keysAppleJsonMatched.insert(keyBase)
                         return true                        
                     default:
@@ -236,25 +217,28 @@ struct JsonFromTsvProcessor {
 
     private mutating func processTsvToJsonTweak(key: String, value: String) -> Bool {
         let parts = key.components(separatedBy: ".")
-        
+        // NOTE: replace any escaped newline `U+5c U+6e` with an actual newline `U+0a` 
+        // because JSON encoding adds it's own backlash (U+5c) escaping.
+        let valueWithNewline = value.replacingOccurrences(of: "\\n", with: "\n")
+
         let keyBase = parts[0]
         if tweakInfo.itemsDict[keyBase] != nil {
             if parts.count == 2 {
                 switch parts[1] {
                 case "heading":
                     // `tweakDailyCumin.heading`
-                    tweakInfo.itemsDict[parts[0]]?.heading = value
+                    tweakInfo.itemsDict[parts[0]]?.heading = valueWithNewline
                     keysAppleJsonMatched.insert(keyBase)
                     return true
                 case "short":
                     // `tweakDailyCumin.short`
-                    tweakInfo.itemsDict[keyBase]?.activity.imperial = value
-                    tweakInfo.itemsDict[keyBase]?.activity.metric = value
+                    tweakInfo.itemsDict[keyBase]?.activity.imperial = valueWithNewline
+                    tweakInfo.itemsDict[keyBase]?.activity.metric = valueWithNewline
                     keysAppleJsonMatched.insert(keyBase)
                     return true
                 case "text":
                     // `tweakDailyCumin.text`
-                    tweakInfo.itemsDict[keyBase]?.explanation = value
+                    tweakInfo.itemsDict[keyBase]?.explanation = valueWithNewline
                     keysAppleJsonMatched.insert(keyBase)
                     return true
                 default:
@@ -277,17 +261,6 @@ struct JsonFromTsvProcessor {
         var data = try! jsonEncoder.encode(dozeInfo)
         var string = String(data: data, encoding: .utf8)!
         try? string.write(to: dozeJsonUrlOut, atomically: true, encoding: .utf8)
-        
-        // :!!!:DEBUG:START:
-        let url = tweakJsonUrlOut
-            .deletingLastPathComponent()
-            .appendingPathComponent("tweakInfo.AtWrite.txt", isDirectory: false)
-        var s = ""
-        for (key, value) in tweakInfo.itemsDict {
-            s.append("\(key)\t\(value.explanation)\n")
-        }
-        try? s.write(to: url, atomically: true, encoding: .utf8)
-        // :!!!:DEBUG:STOP:
         
         data = try! jsonEncoder.encode(tweakInfo)
         string = String(data: data, encoding: .utf8)!

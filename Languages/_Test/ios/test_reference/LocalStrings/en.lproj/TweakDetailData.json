@@ -1,0 +1,13 @@
+{
+  "itemsDict" : {
+    "tweakCompleteIntentions" : {
+      "activity" : {
+        "imperial" : "Complete Your Implementation Intentions (imperial)",
+        "metric" : "Complete Your Implementation Intentions (metric)"
+      },
+      "explanation" : "Explanation to be replaced.",
+      "heading" : "Intentions\nCompleted",
+      "topic" : ""
+    }
+  }
+}

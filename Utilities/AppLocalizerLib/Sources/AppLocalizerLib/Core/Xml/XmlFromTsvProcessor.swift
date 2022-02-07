@@ -105,7 +105,6 @@ struct XmlFromTsvProcessor {
                     node.stringValue = value
                     keysDroidXmlMatched.insert(keyId)
                 } else {
-                    //print(":DEBUG: keyId=\(keyId)")
                     keysDroidXmlUnmatched.insert(keyId)
                 }
             case "string-array":
@@ -116,7 +115,6 @@ struct XmlFromTsvProcessor {
                             child.stringValue = value
                             keysDroidXmlMatched.insert(keyIdIndexed)
                         } else {
-                            //print(":DEBUG: keyIdIndexed=\(keyIdIndexed)")
                             keysDroidXmlUnmatched.insert(keyIdIndexed)
                         }
                     }

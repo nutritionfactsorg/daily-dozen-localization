@@ -636,42 +636,7 @@ struct TsvSheet: TsvProtocol {
             cPrev = cThis
             cThis = cNext
             cNext = character
-            
-            if let uint32: UInt32 = cThis?.unicodeScalars.first?.value,
-               uint32 == 92 // 0x5c "\" or when ascii escaped "\\"
-            {
-                var str = ""
-                                
-                str.append("prev: ")
-                if let cPrev = cPrev {
-                    for scalar: Unicode.Scalar in cPrev.unicodeScalars {
-                        let scalarUInt32 = UInt32(scalar)
-                        let scalarUInt32Hex = "U+\(String(format: "%02x", scalarUInt32))" 
-                        let scalarAsciiStr = scalar.escaped(asASCII: true)
-                        str.append("\(scalarUInt32Hex) \(scalarAsciiStr)")
-                    }
-                }
-                str.append(" this: ")
-                if let cThis = cThis {
-                    for scalar: Unicode.Scalar in cThis.unicodeScalars {
-                        let scalarUInt32 = UInt32(scalar)
-                        let scalarUInt32Hex = "U+\(String(format: "%02x", scalarUInt32))" 
-                        let scalarAsciiStr = scalar.escaped(asASCII: true)
-                        str.append("\(scalarUInt32Hex) \(scalarAsciiStr)")
-                    }
-                }
-                str.append(" next: ")
-                if let cNext = cNext {
-                    for scalar: Unicode.Scalar in cNext.unicodeScalars {
-                        let scalarUInt32 = UInt32(scalar)
-                        let scalarUInt32Hex = "U+\(String(format: "%02x", scalarUInt32))" 
-                        let scalarAsciiStr = scalar.escaped(asASCII: true)
-                        str.append("\(scalarUInt32Hex) \(scalarAsciiStr)")
-                    }
-                }
-                print(str)
-            }
-            
+                        
             countChar += 1
             lineCharIdx += 1
             if let cThis = cThis, newline.contains(cThis) {
