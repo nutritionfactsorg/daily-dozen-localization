@@ -119,22 +119,27 @@ struct BatchNormal {
         jsonFromTsv.writeJsonFiles()
         
         // ----- to XML -----
-        let valuesPathFragment = langCode == "en" ? "values" : "values-\(langCode)"
+        let isEnglishUS = langCode == "en"
+        let valuesPathFragment = isEnglishUS ? "values" : "values-\(langCode)"
         let xmlOutputUrl = resultsDir
             .appendingPathComponent("android")
             .appendingPathComponent(valuesPathFragment)
             .appendingPathComponent("strings.xml", isDirectory: false)
         let droidLookup = tsvSheetWithTopics.getLookupDictLangValueByAndroidKey()
         var xmlFromTsv = XmlFromTsvProcessor(lookupTable: droidLookup)
-        guard let droidXmlDocument = try? XMLDocument(contentsOf: baseXmlUrl, options: [.nodePreserveAll, .nodePreserveWhitespace]) 
-        else {
-            print("ERROR:doNormalize: baseXmlUrl not found \(baseXmlUrl.path)")
+        do {
+            let droidXmlDocument = try XMLDocument(
+                contentsOf: baseXmlUrl, 
+                options: [.nodePreserveAll, .nodePreserveWhitespace])
+            xmlFromTsv.processXmlFromTsv(
+                droidXmlOutputUrl: xmlOutputUrl, 
+                droidXmlDocument: droidXmlDocument, 
+                keepNontranslatable: isEnglishUS
+            )
+        } catch {
+            print("ERROR: doNormalize: baseXmlUrl failed to read \(baseXmlUrl.path) \(error)")
             return
         }
-        xmlFromTsv.processXmlFromTsv(
-            droidXmlOutputUrl: xmlOutputUrl, 
-            droidXmlDocument: droidXmlDocument
-        )
     }
     
     private func getTsvFilenameParts(_ url: URL) -> (lang: String, modifier: String, name: String) {

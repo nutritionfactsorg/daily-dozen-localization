@@ -14,7 +14,7 @@ struct XmlFromTsvProcessor {
     var keysDroidXmlAll = Set<String>() // key_droid
     var keysDroidXmlMatched = Set<String>()
     var keysDroidXmlUnmatched = Set<String>()
-        
+    
     init(lookupTable: [String: String]) {
         _lookupTableDroid = lookupTable
     }
@@ -26,10 +26,31 @@ struct XmlFromTsvProcessor {
         keysDroidXmlUnmatched = Set<String>()
     }
     
+    private func deleteCommentNodes(rootNode: XMLElement) {
+        for idx in (0 ..< rootNode.children!.count).reversed() {
+            let node: XMLNode = rootNode.children![idx]
+            if node.name == nil {
+                rootNode.removeChild(at: idx)
+            }
+        }
+    }
+
+    private func deleteNonTranslatableNodes(rootNode: XMLElement) {
+        for idx in (0 ..< rootNode.children!.count).reversed() {
+            let node: XMLNode  = rootNode.children![idx]
+            if let element = node as? XMLElement,
+               let translatable = element.attribute(forName: "translatable"),
+               translatable.stringValue?.lowercased() == "false" {
+                rootNode.removeChild(at: idx)
+            }
+        }
+    }
+    
     // modifies XML document given a TSV document to apply
     mutating func processXmlFromTsv(
         droidXmlOutputUrl: URL, 
-        droidXmlDocument: XMLDocument, 
+        droidXmlDocument: XMLDocument,
+        keepNontranslatable: Bool,
         measurementInDescription: Bool = false
     ) {
         guard let droidRootXMLElement = droidXmlDocument.rootElement() else { return }
@@ -61,11 +82,27 @@ struct XmlFromTsvProcessor {
         keysDroidXmlMatched = Set<String>()
         processXmlFromTsv(node: droidRootXMLElement)
         
+        if keepNontranslatable == false {
+            deleteCommentNodes(rootNode: droidRootXMLElement)
+            deleteNonTranslatableNodes(rootNode: droidRootXMLElement)            
+        }
+        
         // Write updated XML file        
-        let options: XMLNode.Options = [.nodePreserveAll, .nodePrettyPrint, .nodePreserveWhitespace]
-        let droidXmlData = droidXmlDocument.xmlData(options: options)
+        // https://developer.apple.com/documentation/foundation/xmlnode/options
+        var options: XMLNode.Options = []
+        // Enable all preservation options
+        options.insert(.nodePreserveAll)
+        // output with extra spaces for readability
+        options.insert(.nodePrettyPrint) 
+        // preserve non-content whitespace characters (e.g. tabs and carriage returns)
+        options.insert(.nodePreserveWhitespace) 
+        
+        let droidXmlData: Data = droidXmlDocument.xmlData(options: options)
+        var droidXmlString = String(data: droidXmlData, encoding: .utf8)!
+        // Replace `<item></item>` with `<item />`
+        droidXmlString = droidXmlString.replacingOccurrences(of: "<item></item>", with: "<item />")
         do {
-            try droidXmlData.write(to: droidXmlOutputUrl, options: [.atomic])
+            try droidXmlString.write(to: droidXmlOutputUrl, atomically: true, encoding: .utf8)
         } catch {
             print("Could not write document out…\n  …url=\(droidXmlOutputUrl)\n  …error='\(error)'")
         }
@@ -84,7 +121,7 @@ struct XmlFromTsvProcessor {
         //}
         
         if let name = node.name, 
-           let children = node.children, // has children
+            let children = node.children, // has children
            let element = node as? XMLElement,
            var keyId = element.attribute(forName: "name")?.stringValue {
             keyId = normalizeAndroidKey(keyId)
@@ -102,7 +139,8 @@ struct XmlFromTsvProcessor {
             switch name {
             case "string":
                 if let value = _lookupTableDroid[keyId] {
-                    node.stringValue = value
+                    let escapedValue = value.replacingOccurrences(of: "'", with: "\\'")
+                    node.stringValue = escapedValue
                     keysDroidXmlMatched.insert(keyId)
                 } else {
                     keysDroidXmlUnmatched.insert(keyId)
@@ -112,7 +150,8 @@ struct XmlFromTsvProcessor {
                     let keyIdIndexed = "\(keyId).\(i)" // fully specified
                     if let child = element.child(at: i) {
                         if let value = _lookupTableDroid[keyIdIndexed] {
-                            child.stringValue = value
+                            let escapedValue = value.replacingOccurrences(of: "'", with: "\\'")
+                            child.stringValue = escapedValue
                             keysDroidXmlMatched.insert(keyIdIndexed)
                         } else {
                             keysDroidXmlUnmatched.insert(keyIdIndexed)
@@ -131,7 +170,7 @@ struct XmlFromTsvProcessor {
     
     mutating func queryAllDriodXmlKeys(node :XMLNode) {
         if let name = node.name, 
-           let children = node.children, // has children
+            let children = node.children, // has children
            let element = node as? XMLElement,
            let keyId = element.attribute(forName: "name")?.stringValue {
             if let translatable = element.attribute(forName: "translatable"),

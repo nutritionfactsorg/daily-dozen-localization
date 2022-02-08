@@ -18,7 +18,5 @@ struct XmlDiffProcessor {
     func doDiffKeys() {
         fatalError("XmlDiffProcessor doDiffKeys not yet implemented")
     }
-
-
     
 }
