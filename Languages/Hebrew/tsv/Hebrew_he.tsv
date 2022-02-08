@@ -1,16 +1,10 @@
 key_droid	key_apple	base_value	lang_value	base_note	lang_note
 	NSHealthShareUsageDescription	The 21 Tweaks feature accesses your HealthKit data to provide updates to your daily weight measurements.	תוכנת 21 הכיוונונים יכולה לכתוב נתוני משקל ל- HealthKit כדי לעזור לכם לעקוב אחר ההתקדמות שלכם.	Privacy - Health Share Usage Description	
 	NSHealthUpdateUsageDescription	The 21 Tweaks feature can write weight data to HealthKit to help you keep track of your progress.	תכונת 21 הטוויקים יכולה לכתוב נתוני משקל ל- HealthKit כדי לעזור לכם לעקוב אחר ההתקדמות שלכם	Privacy - Health Update Usage Description	
-	apple.info.about.0	Welcome to my Daily Dozen!	ברוכים הבאים לתריסר השבועי שלי!	Info Menu About: line 0	
-	apple.info.about.1	Use this app on a daily basis to keep track of the foods and advice I recommend for optimal health and longevity in my books How Not to Die and How Not to Diet.	השתמשו באפליקציה זו על בסיס יומי כדי לעקוב אחר המזונות והעצות שאני ממליץ עליהן לבריאות ואריכות ימים בצורה אופטימלית בספרים שלי "איך לא למות" ו"איך לא לעשות דיאטה".	Info Menu About: line 1	
-	apple.info.about.2	Daily Dozen	התריסר היומי	Info Menu About: line 2	
-	apple.info.about.3	version 3.2.11	ורסיה 3.2.11	Info Menu About: line 3	
-	apple.info.about.4	This app was created by: NutritionFacts.org, Christi Richards, Konstantin Khokhlov, and Marc Campbell	אפליקציה זו נוצרה על ידי: NutritionFacts.org, כריסטי ריצ'רדס, קונסטנטין חוחלוב ומארק קמפבל	Info Menu About: line 4	
-	apple.info.about.5	The following open source libraries are used: RealmSwift, Charts, FSCalendar, SimpleAnimation, ActiveLabel.	נעשה שימוש בספריות הקוד הפתוח שלהלן: RealmSwift, תרשימים, FSCalendar, SimpleAnimation, ActiveLabel.	Info Menu About: line 5	
 back_to_today	dateBackButtonTitle	Back to today	בחזרה להיום	Date Button Title: ‘Back to today’	
 	dateButtonTitle.today	Today	היום	Date Button Title: ‘Today’	
-food_info_serving_sizes_beans_imperial.0	dozeBeans.Serving.imperial.0	¼ cup of hummus or bean dip	1/4 כוס חומוס או מטבל שעועית		
-food_info_serving_sizes_beans_imperial.1	dozeBeans.Serving.imperial.1	½ cup cooked beans, split peas, lentils, tofu, or tempeh	1/2 כוס שעועית מבושלת, אפונה מפוצלת, קטניות, טופו או טמפה		
+food_info_serving_sizes_beans_imperial.0	dozeBeans.Serving.imperial.0	¼ cup of hummus or bean dip	¼ כוס חומוס או מטבל שעועית		
+food_info_serving_sizes_beans_imperial.1	dozeBeans.Serving.imperial.1	½ cup cooked beans, split peas, lentils, tofu, or tempeh	½ כוס שעועית מבושלת, אפונה מפוצלת, קטניות, טופו או טמפה		
 food_info_serving_sizes_beans_imperial.2	dozeBeans.Serving.imperial.2	1 cup of fresh peas or sprouted lentils	1 כוס אפונה טריה או עדשים מונבטות		
 food_info_serving_sizes_beans_metric.0	dozeBeans.Serving.metric.0	60 g of hummus or bean dip	60 גרם חומוס או מטבל שעועית		
 food_info_serving_sizes_beans_metric.1	dozeBeans.Serving.metric.1	130 g cooked beans, split peas, lentils, tofu, or tempeh	130 גרם שעועית מבושלת, אפונה מפוצלת, קטניות, טופו או טמפה		
@@ -32,8 +26,8 @@ food_info_types_beans.7	dozeBeans.Variety.Text.7	Great northern beans	שעועי
 food_info_types_beans.8	dozeBeans.Variety.Text.8	Kidney beans	שעועית אדומה		
 food_info_types_beans.9	dozeBeans.Variety.Text.9	Lentils (beluga, french, and red varieties)	קטניות (בלוגה, צרפתיות ואדומות)		
 beans	dozeBeans.heading	Beans	שעועית	heading for daily data entry item	
-food_info_serving_sizes_berries_imperial.0	dozeBerries.Serving.imperial.0	½ cup fresh or frozen	1/2 כוס טריה או קפואה		
-food_info_serving_sizes_berries_imperial.1	dozeBerries.Serving.imperial.1	¼ cup dried	1/4 כוס יבשים		
+food_info_serving_sizes_berries_imperial.0	dozeBerries.Serving.imperial.0	½ cup fresh or frozen	½ כוס טריה או קפואה		
+food_info_serving_sizes_berries_imperial.1	dozeBerries.Serving.imperial.1	¼ cup dried	¼ כוס יבשים		
 food_info_serving_sizes_berries_metric.0	dozeBerries.Serving.metric.0	60 g fresh or frozen	60 גרם טריים או קפואים		
 food_info_serving_sizes_berries_metric.1	dozeBerries.Serving.metric.1	40 g dried	40 גרם יבשים		
 food_info_types_berries.0	dozeBerries.Variety.Text.0	Acai berries	אסאי		
@@ -133,8 +127,8 @@ food_info_types_flaxseeds.0	dozeFlaxseeds.Variety.Text.0	Brown flaxseeds	זרע�
 food_info_types_flaxseeds.1	dozeFlaxseeds.Variety.Text.1	Golden flaxseeds	זרעי פשתן זהובים		
 flaxseeds	dozeFlaxseeds.heading	Flaxseeds	זרעי פשתן	heading for daily data entry item	
 food_info_serving_sizes_other_fruits_imperial.0	dozeFruitsOther.Serving.imperial.0	1 medium-sized fruit	1 פרי בינוני		
-food_info_serving_sizes_other_fruits_imperial.1	dozeFruitsOther.Serving.imperial.1	1 cup cut-up fruit	1/4 כוס פירות חתוכים		
-food_info_serving_sizes_other_fruits_imperial.2	dozeFruitsOther.Serving.imperial.2	¼ cup dried fruit	1/4 כוס פירות יבשים		
+food_info_serving_sizes_other_fruits_imperial.1	dozeFruitsOther.Serving.imperial.1	1 cup cut-up fruit	1 כוס פירות חתוכים		
+food_info_serving_sizes_other_fruits_imperial.2	dozeFruitsOther.Serving.imperial.2	¼ cup dried fruit	¼ כוס פירות יבשים		
 food_info_serving_sizes_other_fruits_metric.0	dozeFruitsOther.Serving.metric.0	1 medium-sized fruit	1 פרי בינוני		
 food_info_serving_sizes_other_fruits_metric.1	dozeFruitsOther.Serving.metric.1	120 g cut-up fruit	120 גרם פירות חתוכים		
 food_info_serving_sizes_other_fruits_metric.2	dozeFruitsOther.Serving.metric.2	40 g dried fruit	40 גרם פירות יבשים		
@@ -168,7 +162,7 @@ food_info_types_other_fruits.8	dozeFruitsOther.Variety.Text.8	Grapefruit	אשכ�
 food_info_types_other_fruits.9	dozeFruitsOther.Variety.Text.9	Honeydew	מלון עם קליפה חלקה ובשר  ירוק		
 other_fruits	dozeFruitsOther.heading	Other Fruits	פירות אחרים	heading for daily data entry item	
 food_info_serving_sizes_greens_imperial.0	dozeGreens.Serving.imperial.0	1 cup raw	1 כוס גולמית		
-food_info_serving_sizes_greens_imperial.1	dozeGreens.Serving.imperial.1	½ cup cooked	1/2 כוס מבושלים		
+food_info_serving_sizes_greens_imperial.1	dozeGreens.Serving.imperial.1	½ cup cooked	½ כוס מבושלים		
 food_info_serving_sizes_greens_metric.0	dozeGreens.Serving.metric.0	60 g raw	60 גרם גולמי		
 food_info_serving_sizes_greens_metric.1	dozeGreens.Serving.metric.1	90 g cooked	90 גרם מבושלים		
 food_info_types_greens.0	dozeGreens.Variety.Text.0	Arugula	אורוגולה		
@@ -182,7 +176,7 @@ food_info_types_greens.7	dozeGreens.Variety.Text.7	Spinach	תרד
 food_info_types_greens.8	dozeGreens.Variety.Text.8	Swiss chard	סלק עלים, מנגולד		
 food_info_types_greens.9	dozeGreens.Variety.Text.9	Turnip greens	לפת		
 greens	dozeGreens.heading	Greens	ירקות ירוקים	heading for daily data entry item	
-food_info_serving_sizes_nuts_imperial.0	dozeNuts.Serving.imperial.0	¼ cup nuts or seeds	1/4 כוס אגוזים או זרעים		
+food_info_serving_sizes_nuts_imperial.0	dozeNuts.Serving.imperial.0	¼ cup nuts or seeds	¼ כוס אגוזים או זרעים		
 food_info_serving_sizes_nuts_imperial.1	dozeNuts.Serving.imperial.1	2 tablespoons nut or seed butter	2 כפות חמאת אגוזים או זרעים		
 food_info_serving_sizes_nuts_metric.0	dozeNuts.Serving.metric.0	30 g nuts or seeds	30 גרם אגוזים או זרעים		
 food_info_serving_sizes_nuts_metric.1	dozeNuts.Serving.metric.1	2 tablespoons nut or seed butter	2 כפות חמאת אגוזים או זרעים		
@@ -204,9 +198,9 @@ OK	dozeOtherInfo.confirm	OK	טוב	Daily Dozen supplement info alert: dismissal 
 	dozeOtherInfo.message	Vitamin B12 is essential for your health but does not count towards your daily servings.\n\nVitamin B12 is included in this app to provide you with an easy way to track your intake.	ויטמין B12 חיוני לבריאותכם אך אינו נכנס לתוך המנות היומיומיות שלכם.\n\nויטמין B12 כלול באפליקציה זו כדי לספק לכם דרך קלה לעקוב אחר צריכתכם.	Daily Dozen supplement info alert: message	
 	dozeOtherInfo.section	Supplements	תוספי תזונה	Daily Dozen daily entry section heading	
 	dozeOtherInfo.title	Supplements	תוספי תזונה	Daily Dozen supplement info alert: title	
-food_info_serving_sizes_spices_imperial.0	dozeSpices.Serving.imperial.0	¼ teaspoon of turmeric	1/4 כפית כורכום		
+food_info_serving_sizes_spices_imperial.0	dozeSpices.Serving.imperial.0	¼ teaspoon of turmeric	¼ כפית כורכום		
 food_info_serving_sizes_spices_imperial.1	dozeSpices.Serving.imperial.1	Any other (salt-free) herbs and spices you enjoy	עשבי מרפא ותבלינים נוספים (ללא מלח) שאתם אוהבים		
-food_info_serving_sizes_spices_metric.0	dozeSpices.Serving.metric.0	¼ teaspoon of turmeric	1/4 כפית כורכום		
+food_info_serving_sizes_spices_metric.0	dozeSpices.Serving.metric.0	¼ teaspoon of turmeric	¼ כפית כורכום		
 food_info_serving_sizes_spices_metric.1	dozeSpices.Serving.metric.1	Any other (salt-free) herbs and spices you enjoy	עשבי מרפא ותבלינים נוספים (ללא מלח) שאתם אוהבים		
 food_info_types_spices.0	dozeSpices.Variety.Text.0	Allspice	פלפל אנגלי		
 food_info_types_spices.1	dozeSpices.Variety.Text.1	Barberries	ברביריס -גרגירים אדומים חמוצים		
@@ -241,8 +235,8 @@ food_info_types_spices.7	dozeSpices.Variety.Text.7	Cinnamon	קינמון
 food_info_types_spices.8	dozeSpices.Variety.Text.8	Cloves	ציפורן		
 food_info_types_spices.9	dozeSpices.Variety.Text.9	Coriander	כוסברה		
 spices	dozeSpices.heading	Herbs and Spices	צמחי מרפא ותבלינים	heading for daily data entry item	
-food_info_serving_sizes_cruciferous_vegetables_imperial.0	dozeVegetablesCruciferous.Serving.imperial.0	½ cup chopped	1/2 כוס קצוצים		
-food_info_serving_sizes_cruciferous_vegetables_imperial.1	dozeVegetablesCruciferous.Serving.imperial.1	¼ cup Brussels or broccoli sprouts	1/4 כוס כרוב ניצנים או נבטי ברוקולי		
+food_info_serving_sizes_cruciferous_vegetables_imperial.0	dozeVegetablesCruciferous.Serving.imperial.0	½ cup chopped	½ כוס קצוצים		
+food_info_serving_sizes_cruciferous_vegetables_imperial.1	dozeVegetablesCruciferous.Serving.imperial.1	¼ cup Brussels or broccoli sprouts	¼ כוס כרוב ניצנים או נבטי ברוקולי		
 food_info_serving_sizes_cruciferous_vegetables_imperial.2	dozeVegetablesCruciferous.Serving.imperial.2	1 tablespoon horseradish	כף חזרת		
 food_info_serving_sizes_cruciferous_vegetables_metric.0	dozeVegetablesCruciferous.Serving.metric.0	30–80 g chopped	30-80 גרם קצוצים		
 food_info_serving_sizes_cruciferous_vegetables_metric.1	dozeVegetablesCruciferous.Serving.metric.1	12 g Brussels or broccoli sprouts	12 גרם כרוב ניצנים או נבטי ברוקולי		
@@ -263,9 +257,9 @@ food_info_types_cruciferous_vegetables.8	dozeVegetablesCruciferous.Variety.Text.
 food_info_types_cruciferous_vegetables.9	dozeVegetablesCruciferous.Variety.Text.9	Kohlrabi (green and purple)	קולרבי (ירוק וסגול)		
 cruciferous_vegetables	dozeVegetablesCruciferous.heading	Cruciferous Vegetables	ירקות מצליבים	heading for daily data entry item	
 food_info_serving_sizes_other_vegetables_imperial.0	dozeVegetablesOther.Serving.imperial.0	1 cup raw leafy vegetables	כוס ירקות עליים טריים		
-food_info_serving_sizes_other_vegetables_imperial.1	dozeVegetablesOther.Serving.imperial.1	½ cup raw or cooked nonleafy vegetables	1/2 כוס ירקות לא עליים טריים או מבושלים		
-food_info_serving_sizes_other_vegetables_imperial.2	dozeVegetablesOther.Serving.imperial.2	½ cup vegetable juice	1/2 כוס מיץ ירקות		
-food_info_serving_sizes_other_vegetables_imperial.3	dozeVegetablesOther.Serving.imperial.3	¼ cup dried mushrooms	1/4 כוס פטריות מיובשות		
+food_info_serving_sizes_other_vegetables_imperial.1	dozeVegetablesOther.Serving.imperial.1	½ cup raw or cooked nonleafy vegetables	½ כוס ירקות לא עליים טריים או מבושלים		
+food_info_serving_sizes_other_vegetables_imperial.2	dozeVegetablesOther.Serving.imperial.2	½ cup vegetable juice	½ כוס מיץ ירקות		
+food_info_serving_sizes_other_vegetables_imperial.3	dozeVegetablesOther.Serving.imperial.3	¼ cup dried mushrooms	¼ כוס פטריות מיובשות		
 food_info_serving_sizes_other_vegetables_metric.0	dozeVegetablesOther.Serving.metric.0	60 g raw leafy vegetables	60 גרם ירקות עליים טריים		
 food_info_serving_sizes_other_vegetables_metric.1	dozeVegetablesOther.Serving.metric.1	50 g raw or cooked nonleafy vegetables	50 גרם ירקות לא עליים טריים או מבושלים		
 food_info_serving_sizes_other_vegetables_metric.2	dozeVegetablesOther.Serving.metric.2	125 ml vegetable juice	125 מ"ל מיץ ירקות		
@@ -289,15 +283,15 @@ food_info_types_other_vegetables.7	dozeVegetablesOther.Variety.Text.7	Mushrooms 
 food_info_types_other_vegetables.8	dozeVegetablesOther.Variety.Text.8	Okra	במיה		
 food_info_types_other_vegetables.9	dozeVegetablesOther.Variety.Text.9	Onions	בצלים		
 other_vegetables	dozeVegetablesOther.heading	Other Vegetables	ירקות אחרים	heading for daily data entry item	
-food_info_serving_sizes_whole_grains_imperial.0	dozeWholeGrains.Serving.imperial.0	½ cup hot cereal or cooked grains, pasta, or corn kernels	1/2 כוס דגני בוקר חמים או דגנים מבושלים, פסטה או לבבות תירס		
+food_info_serving_sizes_whole_grains_imperial.0	dozeWholeGrains.Serving.imperial.0	½ cup hot cereal or cooked grains, pasta, or corn kernels	½ כוס דגני בוקר חמים או דגנים מבושלים, פסטה או לבבות תירס		
 food_info_serving_sizes_whole_grains_imperial.1	dozeWholeGrains.Serving.imperial.1	1 cup cold cereal	1 כוס דגני בוקר קרים		
 food_info_serving_sizes_whole_grains_imperial.2	dozeWholeGrains.Serving.imperial.2	1 tortilla or slice of bread	1 טורטיה או פרוסת לחם		
-food_info_serving_sizes_whole_grains_imperial.3	dozeWholeGrains.Serving.imperial.3	½ a bagel or English muffin	1/2 בייגל או מאפין אנגלי		
+food_info_serving_sizes_whole_grains_imperial.3	dozeWholeGrains.Serving.imperial.3	½ a bagel or English muffin	½ בייגל או מאפין אנגלי		
 food_info_serving_sizes_whole_grains_imperial.4	dozeWholeGrains.Serving.imperial.4	3 cups popped popcorn	3 כוסות פופקורן מוכן		
 food_info_serving_sizes_whole_grains_metric.0	dozeWholeGrains.Serving.metric.0	100 g hot cereal or cooked grains, pasta, or corn kernels	100 גרם דגני בוקר חמים או דגנים מבושלים, פסטה או לבבות תירס		
 food_info_serving_sizes_whole_grains_metric.1	dozeWholeGrains.Serving.metric.1	50 g cold cereal	50 גרם דגני בוקר קרים		
 food_info_serving_sizes_whole_grains_metric.2	dozeWholeGrains.Serving.metric.2	1 tortilla or slice of bread	1 טורטיה או פרוסת לחם		
-food_info_serving_sizes_whole_grains_metric.3	dozeWholeGrains.Serving.metric.3	½ a bagel or English muffin	1/2 בייגל או מאפין אנגלי		
+food_info_serving_sizes_whole_grains_metric.3	dozeWholeGrains.Serving.metric.3	½ a bagel or English muffin	½ בייגל או מאפין אנגלי		
 food_info_serving_sizes_whole_grains_metric.4	dozeWholeGrains.Serving.metric.4	30 g popped popcorn	30 גרם פופקורן מוכן		
 food_info_types_whole_grains.0	dozeWholeGrains.Variety.Text.0	Barley	שעורה		
 food_info_types_whole_grains.1	dozeWholeGrains.Variety.Text.1	Buckwheat	כוסמת		
@@ -327,11 +321,17 @@ servings_time_scale_choices.1	history_scale_choice_month	Month	חודש	History 
 servings_time_scale_choices.2	history_scale_choice_year	Year	שנה	History View: calendar scale control	
 time_scale	history_scale_label	Time Scale	סולם זמן	History View: scale text	
 about_this_app	info.about.title	About this app	בקשר לאפליקציה זו	Info About View	
-about	info_app_about	About	לגבי	Info About View	
-app_name	info_app_about_app_name	Daily Dozen	השניים עשר היומי	Info About View Application Name: ‘Daily Dozen’	
-activity_welcome_text	info_app_about_overview	Use this app on a daily basis to keep track of the foods and advice I recommend for optimal health and longevity in my books How Not to Die and How Not to Diet.	השתמשו באפליקציה זו על בסיס יומי כדי לעקוב אחר המזונות והעצות שאני ממליץ עליהן לבריאות ואריכות ימים בצורה אופטימלית בספרים שלי "איך לא למות" ו"איך לא לעשות דיאטה".	Info About View	
-	info_app_about_version	version 3.2.11	ורסיה 3.2.11	Info About View Application release version	
-welcome_to_my_daily_dozen	info_app_about_welcome	Welcome to my Daily Dozen!	ברוכים הבאים לתריסר היומי שלי!	Info About View	
+about	info_app_about	About	לגבי	Info About Menu Item	
+	info_app_about_app_name	Daily Dozen	התריסר היומי	Info Menu About: line 2	
+app_name	info_app_about_app_name	Daily Dozen	התריסר היומי	Info About View: Application Name ‘Daily Dozen’	
+	info_app_about_created_by	This app was created by: NutritionFacts.org, Christi Richards, Konstantin Khokhlov, and Marc Campbell	אפליקציה זו נוצרה על ידי: NutritionFacts.org, כריסטי ריצ'רדס, קונסטנטין חוחלוב ומארק קמפבל	Info About View: Created By	
+	info_app_about_oss_credits	The following open source libraries are used: RealmSwift, Charts, FSCalendar, SimpleAnimation, ActiveLabel.	נעשה שימוש בספריות הקוד הפתוח שלהלן: RealmSwift, תרשימים, FSCalendar, SimpleAnimation, ActiveLabel.	Info About View: Open Source Credits	
+	info_app_about_overview	Use this app on a daily basis to keep track of the foods and advice I recommend for optimal health and longevity in my books How Not to Die and How Not to Diet.	השתמשו באפליקציה זו על בסיס יומי כדי לעקוב אחר המזונות והעצות שאני ממליץ עליהן לבריאות ואריכות ימים בצורה אופטימלית בספרים שלי "איך לא למות" ו"איך לא לעשות דיאטה".	Info Menu About: line 1	
+activity_welcome_text	info_app_about_overview	Use this app on a daily basis to keep track of the foods and advice I recommend for optimal health and longevity in my books How Not to Die and How Not to Diet.	השתמשו באפליקציה זו על בסיס יומי כדי לעקוב אחר המזונות והעצות שאני ממליץ עליהן לבריאות ואריכות ימים בצורה אופטימלית בספרים שלי "איך לא למות" ו"איך לא לעשות דיאטה".	Info About View: Overview Text	
+	info_app_about_version	version 3.2.11	ורסיה 3.2.11	Info About View: Application release version	
+	info_app_about_version	version 3.2.11	ורסיה 3.2.11	Info About View: Application release version	
+	info_app_about_welcome	Welcome to my Daily Dozen!	ברוכים הבאים לתריסר השבועי שלי!	Info Menu About: line 0	
+welcome_to_my_daily_dozen	info_app_about_welcome	Welcome to my Daily Dozen!	ברוכים הבאים לתריסר היומי שלי!	Info About View: Welcome	
 	info_book_how_not_to_die	Book: How Not to Die	ספר: כיצד לא למות	Info Menu: book title	
 	info_book_how_not_to_die_cookbook	Book: How Not to Die Cookbook	ספר: כיצד לא למות ספר הבישול	Info Menu: book title	
 	info_book_how_not_to_diet	Book: How Not to Diet	ספר: כיצד לא למות	Info Menu: book title	
@@ -371,14 +371,14 @@ for_health_and_weight_loss	setting_health_weight_txt	For Health and Weight Loss	
 	setting_units_header	Measurement Units	יחידות מדידה	Preference Settings View	
 	setting_util_advanced	Advanced Utilities	כלי עזר מתקדמים	Preference Settings View	
 format_num_days	streakDaysFormat	%d days	%d ימים	‘Streak’ count. Synonym: ‘Progress‘. Formatted number ‘%d’ for consecutive days completed. Place translated text for ‘days’ on the right or left of ‘%d’ based on language directionality.	
-complete_intentions	tweakCompleteIntentions.heading	Complete Your Implementation Intentions	כל חודשיים, צור שלוש כוונות יישום חדשות - "אם X, אז Y" מתכנן לבצע התנהגות מסוימת בהקשר ספציפי - ובדוק כל אחת מהן כאשר אתה משלים אותן מדי יום.	heading for daily data entry item	
+complete_intentions	tweakCompleteIntentions.heading	Complete Your Implementation Intentions		heading for daily data entry item	
 complete_intentions_short	tweakCompleteIntentions.short	Complete Your Implementation Intentions			
 complete_intentions_text	tweakCompleteIntentions.text	Every two months, create three new implementation intentions—“if X, then Y” plans to perform a particular behavior in a specific context—and check each one of them off as you complete them every day.	כל חודשיים, צרו שלוש כוונות יישום חדשות - "אם X, אז Y" לקידום התנהגות מסוימת בהקשר ספציפי - וסמנו כל אחת מהן כאשר אתם משלימים אותן מדי יום.		
-daily_blackcumin	tweakDailyBlackCumin.heading	Black Cumin (¼ tsp)	כמון שחור (1/4 כפית)	heading for daily data entry item	
-daily_blackcumin_short	tweakDailyBlackCumin.short	Black Cumin (Nigella sativa) (¼ tsp)	כמון שחור (1/4 כפית)		
+daily_blackcumin	tweakDailyBlackCumin.heading	Black Cumin (¼ tsp)	כמון שחור (¼ כפית)	heading for daily data entry item	
+daily_blackcumin_short	tweakDailyBlackCumin.short	Black Cumin (Nigella sativa) (¼ tsp)	כמון שחור (¼ כפית)		
 daily_blackcumin_text	tweakDailyBlackCumin.text	As noted in the Appetite Suppression section, a systematic review and meta-analysis of randomized, controlled weight-loss trials found that about a quarter teaspoon of black cumin powder every day appears to reduce body mass index within a span of a couple of months. Note that black cumin is different from regular cumin, for which the dosing is different.	כפי שצוין בסעיף דיכוי התיאבון, סקירה שיטתית ומטא-אנליזה של ניסויים אקראיים ומבוקרים לירידה במשקל מצאו כי כרבע כפית אבקת כמון שחורה מדי יום מורידה את מדד מסת הגוף בתוך טווח של מספר חודשים. שימו לב שכמון שחור שונה מכמון רגיל, שהמינון שלו שונה.		
-daily_cumin	tweakDailyCumin.heading	Cumin (½ tsp with lunch and dinner)	כמון (1/2 כפית עם ארוחות צהריים וערב)	heading for daily data entry item	
-daily_cumin_short	tweakDailyCumin.short	Cumin (Cuminum cyminum) (½ tsp with lunch and dinner)	כמון (1/2 כפית עם ארוחות צהריים וערב)		
+daily_cumin	tweakDailyCumin.heading	Cumin (½ tsp with lunch and dinner)	כמון (½ כפית עם ארוחות צהריים וערב)	heading for daily data entry item	
+daily_cumin_short	tweakDailyCumin.short	Cumin (Cuminum cyminum) (½ tsp with lunch and dinner)	כמון (½ כפית עם ארוחות צהריים וערב)		
 daily_cumin_text	tweakDailyCumin.text	Overweight women randomized to add a half teaspoon of cumin to their lunches and dinners beat out the control group by four more pounds and an extra inch off their waists. There is also evidence to support the use of the spice saffron, but a pinch a day would cost a dollar, whereas a teaspoon of cumin costs less than ten cents.	נשים הסובלות מעודף משקל הוסיפו באקראי להוסיף חצי כפית כמון לארוחות הצהריים והערב שלהן והביסו את קבוצת הביקורת בארבעה קילוגרמים נוספים וב-2.5 סמ"ר נוספים מהמותניים שלהן. ישנן גם עדויות התומכות בשימוש בזעפרן, אך קמצוץ ביום יעלה 4 שקלים, בעוד שכפית כמון עולה פחות מ-30 אגורות.		
 daily_deflourdiet	tweakDailyDeflourDiet.heading	Deflour Your Diet	טירפו את התזונה שלכם	heading for daily data entry item	
 daily_deflourdiet_short	tweakDailyDeflourDiet.short	Deflour Your Diet	טירפו את התזונה שלכם		
@@ -386,11 +386,11 @@ daily_deflourdiet_text	tweakDailyDeflourDiet.text	Check this box every day your 
 daily_frontload	tweakDailyFrontLoad.heading	Front-Load Your Calories	חזית- טענו את הקלוריות שלכם	heading for daily data entry item	
 daily_frontload_short	tweakDailyFrontLoad.short	Front-Load Your Calories	חזית- טענו את הקלוריות שלכם		
 daily_frontload_text	tweakDailyFrontLoad.text	There are metabolic benefits to distributing more calories to earlier in the day, so make breakfast (ideally) or lunch your largest meal of the day in true king/prince/pauper style.	יש יתרונות מטבוליים לצריכת קלוריות מוקדם יותר ביום, לכן הפכו את ארוחת הבוקר (באופן אידיאלי) או ארוחת הצהריים לארוחה הגדולה ביותר ביום בסגנון מלך/נסיך/עני		
-daily_garlic	tweakDailyGarlic.heading	Garlic Powder (¼ tsp)	אבקת שום (1/4 כפית)	heading for daily data entry item	
-daily_garlic_short	tweakDailyGarlic.short	Garlic Powder (¼ tsp)	אבקת שום (1/4 כפית)		
+daily_garlic	tweakDailyGarlic.heading	Garlic Powder (¼ tsp)	אבקת שום (¼ כפית)	heading for daily data entry item	
+daily_garlic_short	tweakDailyGarlic.short	Garlic Powder (¼ tsp)	אבקת שום (¼ כפית)		
 daily_garlic_text	tweakDailyGarlic.text	Randomized, double-blind, placebo-controlled studies have found that as little as a daily quarter teaspoon of garlic powder can reduce body fat at a cost of perhaps two cents a day.	מחקרים אקראיים, כפולי סמיות, מבוקרי פלסבו, מצאו שכרבע כפית אבקת שום ביום בלבד יכולה להפחית את שומן הגוף במחיר של כ-8 אגורות ביום.		
-daily_ginger	tweakDailyGinger.heading	Ground Ginger (1 tsp) or Cayenne Pepper (½ tsp)	זנגויל טחון (1 כפית) או פלפל קאיין (1/2 כפית)	heading for daily data entry item	
-daily_ginger_short	tweakDailyGinger.short	Ground Ginger (1 tsp) or Cayenne Pepper (½ tsp)	זנגויל טחון (1 כפית) או פלפל קאיין (1/2 כפית)		
+daily_ginger	tweakDailyGinger.heading	Ground Ginger (1 tsp) or Cayenne Pepper (½ tsp)	זנגויל טחון (1 כפית) או פלפל קאיין (½ כפית)	heading for daily data entry item	
+daily_ginger_short	tweakDailyGinger.short	Ground Ginger (1 tsp) or Cayenne Pepper (½ tsp)	זנגויל טחון (1 כפית) או פלפל קאיין (½ כפית)		
 daily_ginger_text	tweakDailyGinger.text	Randomized controlled trials have found that ¼ teaspoon to 1½ teaspoons a day of ground ginger significantly decreased body weight for just pennies a day. It can be as easy as stirring the ground spice into a cup of hot water. Note: Ginger may work better in the morning than evening. Chai tea is a tasty way to combine the green tea and ginger tricks into a single beverage. Alternately, for BAT activation, you can add one raw jalapeño pepper or a half teaspoon of red pepper powder (or, presumably, crushed red pepper flakes) into your daily diet. To help beat the heat, you can very thinly slice or finely chop the jalapeño to reduce its bite to little prickles, or mix the red pepper into soup or the whole-food vegetable smoothie I featured in one of my cooking videos on NutritionFacts.org.	ניסויים מבוקרים אקראיים מצאו כי ¼ כפית עד 1.5 כפיות ביום של זנגויל טחון הורידה משמעותית את משקל הגוף בפרוטות בלבד ביום. זה יכול להיות קל כמו ערבוב התבלין הטחון בכוס מים חמים. הערה: זנגויל עשוי לעבוד טוב יותר בבוקר מאשר בערב. תה צ'אי הוא דרך טעימה לשלב את התה הירוק ויכולות הזנגויל למשקה אחד. לחלופין, להפעלת BAT, ניתן להוסיף לתפריט היומי שלכם פלפל ירוק חריף גולמי או חצי כפית אבקת פלפל אדום (או, ככל הנראה, פתיתי פלפל אדום כתוש). כדי לעזור להתמודד עם החום, אתם יכולים לפרוס דק מאוד או לקצוץ את הפלפל הירוק החריף כדי לצמצם את הנגיסות לכמויות קטנות, או לערבב את הפלפל האדום במרק או שייק הירקות מכל האוכל שהצגתי באחד מסרטי הבישול שלי ב- NutritionFacts.org .		
 daily_greentea	tweakDailyGreenTea.heading	Green Tea (3 cups)	תה ירוק (3 כוסות)	heading for daily data entry item	
 daily_greentea_short	tweakDailyGreenTea.short	Green Tea (3 cups)	תה ירוק (3 כוסות)		
