@@ -32,6 +32,20 @@ URL_TOPICS_TSV="English_US/tsv/English_US_en.url_topics.tsv"
 #SOURCE_TSV="English_US/tsv/English_US_en.url_topics.tsv"
 #DO_NORMAL_STRINGS
 
+################
+## Portuguese ##
+################
+## -- (pt) process application values --
+SOURCE_TSV="Portuguese/tsv/Portuguese_pt.intake.20220131.tsv"
+DO_NORMAL_STRINGS
+
+## -- (pt) process appstore --
+SOURCE_TSV="Portuguese/tsv/Portuguese_pt.intake.appstore.20220131.tsv"
+DO_NORMAL_STRINGS
+
+### ----- STOP HERE (PROCESSING: 2022.02.24) ----- ###
+QUIT
+
 #############
 ## Catalan ##
 #############
@@ -75,17 +89,6 @@ DO_NORMAL_STRINGS
 
 ### ----- STOP HERE (PROCESSING: 2022.02.24) ----- ###
 QUIT
-
-################
-## Portuguese ##
-################
-## -- (pt) process application values --
-SOURCE_TSV="Portuguese/tsv/Portuguese_pt.intake.20220131.tsv"
-DO_NORMAL_STRINGS
-
-## -- (pt) process appstore --
-SOURCE_TSV="Portuguese/tsv/Portuguese_pt.intake.appstore.20220131.tsv"
-DO_NORMAL_STRINGS
 
 #######################
 ## Portuguese_Brazil ##
