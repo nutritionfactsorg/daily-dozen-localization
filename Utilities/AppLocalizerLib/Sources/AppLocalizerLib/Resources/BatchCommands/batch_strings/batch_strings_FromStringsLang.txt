@@ -114,12 +114,12 @@ SOURCE_STRINGS="daily-dozen-ios-v3-languages/DailyDozen/DailyDozen/App/InfoPlist
 SOURCE_STRINGS="daily-dozen-ios-v3-languages/DailyDozen/DailyDozen/App/Texts/LocalStrings/pl.lproj/Localizable.strings"
 DO_NORMAL_STRINGS
 
-SOURCE_STRINGS="daily-dozen-ios-v3-languages/DailyDozen/DailyDozen/App/InfoPlist/pt-BR.lproj/InfoPlist.strings"
-SOURCE_STRINGS="daily-dozen-ios-v3-languages/DailyDozen/DailyDozen/App/Texts/LocalStrings/pt-BR.lproj/Localizable.strings"
+SOURCE_STRINGS="daily-dozen-ios-v3-languages/DailyDozen/DailyDozen/App/InfoPlist/pt-rBR.lproj/InfoPlist.strings"
+SOURCE_STRINGS="daily-dozen-ios-v3-languages/DailyDozen/DailyDozen/App/Texts/LocalStrings/pt-rBR.lproj/Localizable.strings"
 DO_NORMAL_STRINGS
 
-SOURCE_STRINGS="daily-dozen-ios-v3-languages/DailyDozen/DailyDozen/App/InfoPlist/pt-PT.lproj/InfoPlist.strings"
-SOURCE_STRINGS="daily-dozen-ios-v3-languages/DailyDozen/DailyDozen/App/Texts/LocalStrings/pt-PT.lproj/Localizable.strings"
+SOURCE_STRINGS="daily-dozen-ios-v3-languages/DailyDozen/DailyDozen/App/InfoPlist/pt-rPT.lproj/InfoPlist.strings"
+SOURCE_STRINGS="daily-dozen-ios-v3-languages/DailyDozen/DailyDozen/App/Texts/LocalStrings/pt-rPT.lproj/Localizable.strings"
 DO_NORMAL_STRINGS
 
 SOURCE_STRINGS="daily-dozen-ios-v3-languages/DailyDozen/DailyDozen/App/InfoPlist/pt.lproj/InfoPlist.strings"

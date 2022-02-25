@@ -125,10 +125,10 @@ DO_NORMAL_STRINGS
 SOURCE_XLIFF="Portuguese/ios/pt.xcloc/Localized Contents/pt.xliff"
 DO_NORMAL_STRINGS
 
-SOURCE_XLIFF="Portuguese_Brazil/ios/pt-BR.xcloc/Localized Contents/pt-BR.xliff"
+SOURCE_XLIFF="Portuguese_Brazil/ios/pt-rBR.xcloc/Localized Contents/pt-rBR.xliff"
 DO_NORMAL_STRINGS
 
-SOURCE_XLIFF="Portuguese_Portugal/ios/pt-PT.xcloc/Localized Contents/pt-PT.xliff"
+SOURCE_XLIFF="Portuguese_Portugal/ios/pt-rPT.xcloc/Localized Contents/pt-rPT.xliff"
 DO_NORMAL_STRINGS
 
 SOURCE_XLIFF="Romanian/ios/ro.xcloc/Localized Contents/ro.xliff"

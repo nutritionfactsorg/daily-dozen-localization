@@ -164,12 +164,12 @@ SOURCE_TSV="Portuguese/tsv/Portuguese_pt.20211015_1935.tsv"
 SOURCE_TSV="Portuguese/tsv/Portuguese_pt.additions.20211015_1935.tsv"
 DO_NORMAL_STRINGS
 
-SOURCE_TSV="Portuguese_Brazil/tsv/Portuguese_pt-BR.tsv"
-SOURCE_TSV="Portuguese_Brazil/tsv/Portuguese_pt-BR.additions.tsv"
+SOURCE_TSV="Portuguese_Brazil/tsv/Portuguese_pt-rBR.tsv"
+SOURCE_TSV="Portuguese_Brazil/tsv/Portuguese_pt-rBR.additions.tsv"
 DO_NORMAL_STRINGS
 
-SOURCE_TSV="Portuguese_Portugal/tsv/Portuguese_pt-PT.tsv"
-SOURCE_TSV="Portuguese_Portugal/tsv/Portuguese_pt-PT.additions.tsv"
+SOURCE_TSV="Portuguese_Portugal/tsv/Portuguese_pt-rPT.tsv"
+SOURCE_TSV="Portuguese_Portugal/tsv/Portuguese_pt-rPT.additions.tsv"
 DO_NORMAL_STRINGS
 
 SOURCE_TSV="Romanian/tsv/Romanian_ro.tsv"

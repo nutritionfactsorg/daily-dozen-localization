@@ -34,7 +34,7 @@ struct XmlFromTsvProcessor {
             }
         }
     }
-
+    
     private func deleteNonTranslatableNodes(rootNode: XMLElement) {
         for idx in (0 ..< rootNode.children!.count).reversed() {
             let node: XMLNode  = rootNode.children![idx]

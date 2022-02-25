@@ -43,12 +43,12 @@ DO_EXPORT_TSV
 
 # continue to use existing Android Portuguese
 SOURCE_LANG_DROID="Portuguese/android/values-pt/strings.xml"
-OUTPUT_LANG_TSV="Portuguese_Brazil/tsv/Portuguese_Brazil_pt-BR.tsv"
+OUTPUT_LANG_TSV="Portuguese_Brazil/tsv/Portuguese_Brazil_pt-rBR.tsv"
 DO_EXPORT_TSV              
 
 # continue to use existing Android Portuguese
 SOURCE_LANG_DROID="Portuguese/android/values-pt/strings.xml"
-OUTPUT_LANG_TSV="Portuguese_Portugal/tsv/Portuguese_Portugal_pt-PT.tsv"
+OUTPUT_LANG_TSV="Portuguese_Portugal/tsv/Portuguese_Portugal_pt-rPT.tsv"
 DO_EXPORT_TSV              
 
 SOURCE_LANG_DROID="Romanian/android/values-ro/strings.xml"

@@ -17,9 +17,14 @@ BASE_XML_URL="English_US/android/values/strings.xml"
 URL_FRAGMENTS_TSV="English_US/tsv/English_US_en.url_fragments.tsv"
 URL_TOPICS_TSV="English_US/tsv/English_US_en.url_topics.tsv"
 
+### ------ ANDROID_LANG --> LOCALIZE_MAIN -----
+
 ####################################
 ## English_US: Baseline Reference ##
 ####################################
+SOURCE_TSV="English_US/tsv/English_US_en.tsv"
+DO_NORMAL_STRINGS
+
 SOURCE_TSV="English_US/tsv/English_US_en.tsv"
 DO_NORMAL_STRINGS
 
@@ -30,36 +35,6 @@ SOURCE_TSV="English_US/tsv/English_US_en.url_fragments.tsv"
 DO_NORMAL_STRINGS
 
 SOURCE_TSV="English_US/tsv/English_US_en.url_topics.tsv"
-DO_NORMAL_STRINGS
-
-################
-## Portuguese ##
-################
-## -- (pt) process application values --
-SOURCE_TSV="Portuguese/tsv/Portuguese_pt.tsv"
-DO_NORMAL_STRINGS
-
-## -- (pt) process appstore --
-SOURCE_TSV="Portuguese/tsv/Portuguese_pt.appstore.tsv"
-DO_NORMAL_STRINGS
-
-## -- (pt-BR) process application values --
-SOURCE_TSV="Portuguese_Brazil/tsv/Portuguese_pt-BR.tsv"
-DO_NORMAL_STRINGS
-
-## -- (pt-BR) process appstore --
-SOURCE_TSV="Portuguese_Brazil/tsv/Portuguese_pt-BR.appstore.tsv"
-DO_NORMAL_STRINGS
-
-### ----- STOP HERE ----- ###
-QUIT
-
-## -- (pt-PT) process application values --
-SOURCE_TSV="Portuguese_Portugal/tsv/Portuguese_pt-PT.tsv"
-DO_NORMAL_STRINGS
-
-## -- (pt-PT) process appstore --
-SOURCE_TSV="Portuguese_Portugal/tsv/Portuguese_pt-PT.appstore.tsv"
 DO_NORMAL_STRINGS
 
 #############
@@ -93,6 +68,39 @@ DO_NORMAL_STRINGS
 
 ## -- (he) process appstore --
 SOURCE_TSV="Hebrew/tsv/Hebrew_he.appstore.tsv"
+DO_NORMAL_STRINGS
+
+################
+## Portuguese ##
+################
+## -- (pt) process application values --
+SOURCE_TSV="Portuguese/tsv/Portuguese_pt.tsv"
+DO_NORMAL_STRINGS
+
+## -- (pt) process appstore --
+SOURCE_TSV="Portuguese/tsv/Portuguese_pt.appstore.tsv"
+DO_NORMAL_STRINGS
+
+#######################
+## Portuguese_Brazil ##
+#######################
+## -- (pt-rBR) process application values --
+SOURCE_TSV="Portuguese_Brazil/tsv/Portuguese_pt-rBR.tsv"
+DO_NORMAL_STRINGS
+
+## -- (pt-rBR) process appstore --
+SOURCE_TSV="Portuguese_Brazil/tsv/Portuguese_pt-rBR.appstore.tsv"
+DO_NORMAL_STRINGS
+
+#########################
+## Portuguese_Portugal ##
+#########################
+## -- (pt-rPT) process application values --
+SOURCE_TSV="Portuguese_Portugal/tsv/Portuguese_pt-rPT.tsv"
+DO_NORMAL_STRINGS
+
+## -- (pt-rPT) process appstore --
+SOURCE_TSV="Portuguese_Portugal/tsv/Portuguese_pt-rPT.appstore.tsv"
 DO_NORMAL_STRINGS
 
 #############

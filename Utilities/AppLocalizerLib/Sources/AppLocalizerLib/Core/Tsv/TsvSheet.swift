@@ -693,9 +693,9 @@ struct TsvSheet: TsvProtocol {
                             fatalError(
                             """
                             \n::ERROR: TsvSheet escaped quote must precede
-                            :@path: \(url.path)
-                            :@line: \(lineIdx)[\(lineCharIdx)]
                             :@dotStr: \(toStringDot(field:field))\n\n
+                            :@line: \(lineIdx)[\(lineCharIdx)]
+                            :@path: \(url.path)
                             """)
                         }
                     } else {
