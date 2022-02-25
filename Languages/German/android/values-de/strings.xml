@@ -1,4 +1,4 @@
-<?xml version="1.0" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <resources>
     <string name="app_name">Das tägliche Dutzend</string>
     <string name="beans">Bohnen</string>
@@ -25,35 +25,9 @@
     <string name="about">Über</string>
     <string name="about_this_app">Über diese Anwendung</string>
     <string name="latest_videos">Neueste Videos</string>
-    <string name="url_latest_videos" translatable="false">http://nutritionfacts.org/videos/</string>
-    <string name="title_how_not_to_die" translatable="false">How Not to Die</string>
-    <string name="url_how_not_to_die" translatable="false">http://nutritionfacts.org/book/</string>
-    <string name="title_cookbook" translatable="false">Cookbook</string>
-    <string name="url_cookbook" translatable="false">https://nutritionfacts.org/cookbook/</string>
-    <string name="title_how_not_to_diet" translatable="false">How Not to Diet</string>
-    <string name="url_how_not_to_diet" translatable="false">https://nutritionfacts.org/how-not-to-diet/</string>
-    <string name="daily_dozen_challenge" translatable="false">Daily Dozen Challenge</string>
-    <string name="url_daily_dozen_challenge" translatable="false">https://nutritionfacts.org/daily-dozen-challenge/</string>
     <string name="donate">Spenden Sie</string>
-    <string name="url_donate" translatable="false">https://nutritionfacts.org/donate/</string>
     <string name="subscribe">Abonnieren</string>
-    <string name="url_subscribe" translatable="false">http://nutritionfacts.org/subscribe/</string>
     <string name="open_source">Open Source</string>
-    <string name="url_open_source" translatable="false">http://nutritionfacts.org/open-source/</string>
-    <string name="nutritionfacts_title" translatable="false">nutritionfacts.org</string>
-    <string name="url_nutritionfacts" translatable="false">http://nutritionfacts.org</string>
-    <string name="name_john_slavick" translatable="false">John Slavick</string>
-    <string name="url_john_slavick" translatable="false">http://johnslavick.com</string>
-    <string name="library_activeandroid" translatable="false">ActiveAndroid</string>
-    <string name="library_android_iconify" translatable="false">android-iconify</string>
-    <string name="library_eventbus" translatable="false">EventBus</string>
-    <string name="library_likeanimation" translatable="false">LikeAnimation</string>
-    <string name="library_mpandroidchart" translatable="false">MPAndroidChart</string>
-    <string name="url_activeandroid" translatable="false">https://github.com/pardom/ActiveAndroid</string>
-    <string name="url_android_iconify" translatable="false">https://github.com/JoanZapata/android-iconify</string>
-    <string name="url_eventbus" translatable="false">https://github.com/greenrobot/EventBus</string>
-    <string name="url_likeanimation" translatable="false">https://github.com/frogermcs/LikeAnimation/</string>
-    <string name="url_mpandroidchart" translatable="false">https://github.com/PhilJay/MPAndroidChart</string>
     <string name="permission_needed_to_write_storage">Keine Sicherung ohne Berechtigung zum Schreiben in den Speicher möglich</string>
     <string name="backup_failed">Sicherung fehlgeschlagen</string>
     <string name="restore_failed">Wiederherstellen fehlgeschlagen</string>
@@ -61,16 +35,11 @@
     <string name="restore_success">Wiederherstellen erfolgreich</string>
     <string name="restore_confirm_title">Sicherung wiederherstellen</string>
     <string name="restore_confirm_message">Alle vorhandenen Daten werden vor der Wiederherstellung aus dem Backup gelöscht. Möchten Sie fortfahren?</string>
-    <string name="backup_mimetype" translatable="false">message/rfc822</string>
     <string name="yes">Ja</string>
     <string name="no">Nein</string>
     <string name="backup">Sicherung</string>
     <string name="food_info">Nahrungsmittelinformation</string>
     <string name="food_history">Nahrungsmittelverlauf</string>
-    <string name="icon_info" translatable="false">{fa-info-circle 12dp @color/gray}</string>
-    <string name="icon_calendar" translatable="false">{fa-calendar 16dp @color/gray_dark}</string>
-    <string name="num_servings_max" translatable="false">24</string>
-    <string name="icon_chart" translatable="false">{fa-bar-chart 20dp @color/gray_dark}</string>
     <string name="daily_servings_history">Verlauf der täglichen Portionen</string>
     <string name="no_servings_recorded">Sie haben noch keine Portionen aufgezeichnet!</string>
     <string name="task_backup_title">Sicherung läuft</string>
@@ -88,21 +57,10 @@
     <string name="debug_generate_random_data">Zufallsdaten erzeugen</string>
     <string name="debug_generate_full_data">Vollständige Daten erzeugen</string>
     <string name="debug_generate_data_message">Alle vorhandenen Daten werden ersetzt. Möchten Sie fortfahren?</string>
-    <string name="debug_show_reminder_notification" translatable="false">Show Reminder Notification</string>
     <string name="task_generating_random_data">Zufallsdaten werden generiert</string>
     <string name="task_loading_servings_history_title">Lade Verlauf der Portionen</string>
     <string name="time_scale">Zeitskala</string>
     <string name="history_to_generate">Zu generierender Verlauf</string>
-    <string name="date_weight_morning" translatable="false">{fa-sun-o 22dp @color/gray_dark}</string>
-    <string name="date_weight_evening" translatable="false">{fa-moon-o 22dp @color/gray_dark}</string>
-    <string name="date_servings_star" translatable="false">{fa-star 24dp @color/gold}</string>
-    <string name="date_servings_star_large" translatable="false">{fa-star 64dp @color/gold}</string>
-    <string name="date_weights_eye_open" translatable="false">{fa-eye 24dp @color/gray_dark}</string>
-    <string name="date_weights_eye_closed" translatable="false">{fa-eye-slash 24dp @color/gray_dark}</string>
-    <string name="date_weights_morning_weight" translatable="false">{fa-square 24dp @color/gray_dark}</string>
-    <string name="date_weights_evening_weight" translatable="false">{fa-check-square 24dp @color/gray_dark}</string>
-    <string name="unchecked" translatable="false">{fa-square 24dp @color/gray_dark}</string>
-    <string name="checked" translatable="false">{fa-check-square 24dp @color/gray_dark}</string>
     <string name="welcome_to_my_daily_dozen">Willkommen zu meinem Täglichen Dutzend!</string>
     <string name="activity_welcome_text">Verwenden Sie diese App täglich, um den Überblick über die Lebensmittel und Ratschläge zu behalten, die ich in meinen Büchern How Not to Die und How Not to Diet für optimale Gesundheit und Langlebigkeit empfehle.</string>
     <string name="dialog_ask_user_to_rate_app_title">Gefällt Ihnen diese App?</string>
@@ -185,7 +143,7 @@
     <string name="daily_nutriyeast_text">Zwei Teelöffel Bäcker-, Bier- oder Nährhefe enthalten ungefähr die Menge an Beta-1,3/1,6-Glucanen, die in randomisierten, doppelblinden, placebokontrollierten klinischen Studien eine Gewichtsreduktion begünstigt haben.</string>
     <string name="daily_cumin_text">Übergewichtige Frauen, die in einer randomisierten Studie ½ Teelöffel Kreuzkümmel zu ihrem Mittag- und Abendessen hinzufügten, übertrafen die Kontrollgruppe um weitere vier Pfund und 2,5 Zentimeter an der Taille. Es gibt auch Beweise für den Nutzen des Gewürz Safrans, aber eine Prise pro Tag würde einen Euro kosten, während ein Teelöffel Kreuzkümmel weniger als zehn Cent kostet.</string>
     <string name="daily_greentea_text">Trinken Sie täglich drei Tassen grüner Tee zwischen den Mahlzeiten (warten Sie  mindestens eine Stunde nach einer Mahlzeit, um die Eisenaufnahme nicht zu beeinträchtigen). Trinken Sie zu den Mahlzeiten Wasser, schwarzen Kaffee oder Hibiskus-Tee mit Zitronenverbene (im Verhältnis 6:1), aber überschreiten Sie niemals 750 ml Flüssigkeit pro Stunde (wichtig im Hinblick auf die zwei Gläser Wasser vor jeder Mahlzeit). Nutzen Sie die verstärkende Wirkung von Koffein, indem Sie Ihren grünen Tee zusammen mit etwas Gesundem trinkst, das Sie lieber mögen, aber trinken Sie keine großen Mengen an Koffein in den sechs Stunden vor dem Schlafengehen. Verwenden Sie keinen Süßstoff. Wenn Sie Ihren Tee normalerweise mit Honig oder Zucker süßen, versuchen Sie es stattdessen mit Yacon-Sirup.</string>
-    <string name="daily_hydrate_text">Setzen Sie dieses Häkchen, wenn Ihr Urin nie dunkler als blassgelb ist. Bei Zufuhr von Lebensmitteln, die mit Riboflavin (Vitamin B2) angereichert sind (z.B. Hefeflocken), sollten sich Frauen an 9 Tassen ungesüßte Getränke pro Tag orientieren (was durch die zwei Gläser Wasser vor jeder Mahlzeit und die drei Tassen grünen Tee zwischen den Mahlzeiten bereits abgedeckt wird) und Männer an 13 Tassen pro Tag. Wenn Sie Herz- oder Nierenprobleme haben, erhöhen Sie die Flüssigkeitsaufnahme nicht, ohne vorher mit dem Arzt zu sprechen. Denken Sie daran, dass Diät-Soda zwar kalorienfrei sein mag, aber trotzdem Konsequenzen hat, wie wir im Kapitel "Ohne Zuckerzusatz" (Low in Added Sugar) erfahren haben.</string>
+    <string name="daily_hydrate_text">Setzen Sie dieses Häkchen, wenn Ihr Urin nie dunkler als blassgelb ist. Bei Zufuhr von Lebensmitteln, die mit Riboflavin (Vitamin B2) angereichert sind (z.B. Hefeflocken), sollten sich Frauen an 9 Tassen ungesüßte Getränke pro Tag orientieren (was durch die zwei Gläser Wasser vor jeder Mahlzeit und die drei Tassen grünen Tee zwischen den Mahlzeiten bereits abgedeckt wird) und Männer an 13 Tassen pro Tag.\n\nWenn Sie Herz- oder Nierenprobleme haben, erhöhen Sie die Flüssigkeitsaufnahme nicht, ohne vorher mit dem Arzt zu sprechen.\n\nDenken Sie daran, dass Diät-Soda zwar kalorienfrei sein mag, aber trotzdem Konsequenzen hat, wie wir im Kapitel "Ohne Zuckerzusatz" (Low in Added Sugar) erfahren haben.</string>
     <string name="daily_deflourdiet_text">Kreuzen Sie dieses Kästchen jeden Tag an, an dem Sie Vollkornprodukte in Form von unversehrten Körnern zu sich nehmen. Selbst bei 100-prozentigem Vollkorn wird unserem Mikrobiom durch die Pulverisierung die Stärke entzogen, die sonst in unversehrten Zellwänden in unseren Dickdarm transportiert würde.</string>
     <string name="daily_frontload_text">Es ist für den Stoffwechsel vorteilhaft, mehr Kalorien auf einen früheren Zeitpunkt am Tag zu verteilen. Machen Sie also das Frühstück (idealerweise) oder das Mittagessen zu Ihrer größten Mahlzeit des Tages, ganz im Stil von König/Prinz/Bettler.</string>
     <string name="daily_timerestrict_text">Beschränken Sie das Essen auf ein tägliches Zeitfenster Ihrer Wahl von weniger als zwölf Stunden, an das Sie sich sieben Tage die Woche konsequent halten können. Angesichts der Vorteile einer Reduzierung der abendlichen Nahrungsaufnahme für den Biorythmus sollte das Fenster spätestens um 19 Uhr enden.</string>
@@ -194,153 +152,13 @@
     <string name="complete_intentions_text">Erstellen Sie alle zwei Monate drei neue Umsetzungsabsichten - "wenn X, dann Y"-Pläne, um ein bestimmtes Verhalten in einem bestimmten Kontext auszuführen - und haken Sie jeden dieser Pläne ab, wenn Sie ihn jeden Tag erfüllen.</string>
     <string name="nightly_fast_text">Aufgrund unseres Biorhytmus begünstigt das Essen am Abend eine Gewichtszunahme mehr als die gleiche Anzahl an Kalorien früher am Tag. Fasten Sie also jeden Abend für mindestens zwölf Stunden, beginnend spätestens um 19 Uhr. Je weniger Kalorien nach Sonnenuntergang, desto besser.</string>
     <string name="nightly_sleep_text">Setzen Sie dieses Häkchen, wenn Sie mindestens 7 Stunden geschlafen haben und zur üblichen Zeit ins Bett gegangen sind.</string>
-    <string name="nightly_trendelenburg_text">Versuchen Sie, mindestens vier Stunden pro Nacht so zu liegen, dass Ihr Körper von Fuß bis Kopf um etwa sechs Grad geneigt ist, indem Sie das Bett am Fußende um 20 Zentimeter anheben (bzw. um 23 Zentimeter bei einer Bettlänge von mehr als 210 Zentimeter). Seien Sie beim Aufstehen jedoch äußerst vorsichtig, da dies bei den meisten Menschen zu einer orthostatischen Unverträglichkeit führt, auch wenn sie jung und gesund sind. Wenn Sie also zu schnell aufstehen, können Sie sich schwindelig, ohnmächtig oder benommen fühlen und Sie könnten fallen und sich verletzen. Stehen Sie also langsam auf. Zwei Tassen kaltes Wasser 30 Minuten vor dem Aufstehen können auch dazu beitragen, diese potenziell gefährliche Nebenwirkung zu vermeiden. \n*WICHTIG: Versuchen Sie dies auf keinen Fall zu Hause, wenn Sie Herz- oder Lungenprobleme haben, an gastroösophagealem Reflux leiden oder Probleme mit Ihrem Gehirn (z.B. Schädel-Hirn-Trauma) oder Ihren Augen haben (eine Glaukom-Erkrankung in der Familie genügt bereits). Versuchen Sie dies auch nicht, ohne Ihren Arzt zu fragen, ob er der Meinung ist, dass Sie in leichter Trendelenburg-Lage sicher schlafen können.*</string>
-    <!--
-    NOTE: These strings are used to created the url to take the user to the overall food videos page.
-    These strings are to not be literial language translations.
-    These strings must be valid existing url addition to "http://nutritionfacts.org/".
-    If the language is not present on nutritionfacts.org, then the default English url is used.
-    -->
-    <string name="food_info_videos_beans" translatable="false">beans</string>
-    <string name="food_info_videos_berries" translatable="false">berries</string>
-    <string name="food_info_videos_fruits" translatable="false">fruit</string>
-    <string name="food_info_videos_cruciferous" translatable="false">cruciferous-vegetables</string>
-    <string name="food_info_videos_greens" translatable="false">greens</string>
-    <string name="food_info_videos_vegetables" translatable="false">vegetables</string>
-    <string name="food_info_videos_flaxseeds" translatable="false">flax-seeds</string>
-    <string name="food_info_videos_nuts" translatable="false">nuts</string>
-    <string name="food_info_videos_spices" translatable="false">spices</string>
-    <string name="food_info_videos_whole_grains" translatable="false">grains</string>
-    <string name="food_info_videos_beverages" translatable="false">beverages</string>
-    <string name="food_info_videos_exercise" translatable="false">exercise</string>
-    <string name="food_info_videos_vitamin_b12" translatable="false">vitamin-b12</string>
-    <string name="food_info_videos_vitamin_d" translatable="false">vitamin-d-supplements</string>
-    <string name="food_info_videos_omega3" translatable="false">omega-3-fatty-acids</string>
+    <string name="nightly_trendelenburg_text">Versuchen Sie, mindestens vier Stunden pro Nacht so zu liegen, dass Ihr Körper von Fuß bis Kopf um etwa sechs Grad geneigt ist, indem Sie das Bett am Fußende um 20 Zentimeter anheben (bzw. um 23 Zentimeter bei einer Bettlänge von mehr als 210 Zentimeter). Seien Sie beim Aufstehen jedoch äußerst vorsichtig, da dies bei den meisten Menschen zu einer orthostatischen Unverträglichkeit führt, auch wenn sie jung und gesund sind. Wenn Sie also zu schnell aufstehen, können Sie sich schwindelig, ohnmächtig oder benommen fühlen und Sie könnten fallen und sich verletzen. Stehen Sie also langsam auf. Zwei Tassen kaltes Wasser 30 Minuten vor dem Aufstehen können auch dazu beitragen, diese potenziell gefährliche Nebenwirkung zu vermeiden.\n\n*WICHTIG: Versuchen Sie dies auf keinen Fall zu Hause, wenn Sie Herz- oder Lungenprobleme haben, an gastroösophagealem Reflux leiden oder Probleme mit Ihrem Gehirn (z.B. Schädel-Hirn-Trauma) oder Ihren Augen haben (eine Glaukom-Erkrankung in der Familie genügt bereits). Versuchen Sie dies auch nicht, ohne Ihren Arzt zu fragen, ob er der Meinung ist, dass Sie in leichter Trendelenburg-Lage sicher schlafen können.*</string>
     <string name="weight">Gewicht</string>
     <string name="tweak_group_meal">Zu jeder Mahlzeit</string>
     <string name="tweak_group_daily">Jeden Tag</string>
     <string name="tweak_group_dailydoses">Nehmen Sie Ihre tägliche Dosis</string>
     <string name="tweak_group_nightly">Jede Nacht</string>
     <string name="about_tweak">Über Optimierungen</string>
-    <!--
-    NOTE: These strings should never be translated from English
-    These strings are used as the canonical names for the different foods and make it easy to switch between languages
-    -->
-    <string-array name="food_id_names" translatable="false">
-        <item>Beans</item>
-        <item>Berries</item>
-        <item>Other Fruits</item>
-        <item>Cruciferous Vegetables</item>
-        <item>Greens</item>
-        <item>Other Vegetables</item>
-        <item>Flaxseeds</item>
-        <item>Nuts</item>
-        <item>Spices</item>
-        <item>Whole Grains</item>
-        <item>Beverages</item>
-        <item>Exercise</item>
-        <item>Vitamin B12</item>
-    </string-array>
-    <string-array name="food_names" translatable="false">
-        <item>@string/beans</item>
-        <item>@string/berries</item>
-        <item>@string/other_fruits</item>
-        <item>@string/cruciferous_vegetables</item>
-        <item>@string/greens</item>
-        <item>@string/other_vegetables</item>
-        <item>@string/flaxseeds</item>
-        <item>@string/nuts</item>
-        <item>@string/spices</item>
-        <item>@string/whole_grains</item>
-        <item>@string/beverages</item>
-        <item>@string/exercise</item>
-        <item>@string/vitamin_b12</item>
-    </string-array>
-    <integer-array name="food_quantities">
-        <item>3</item>
-        <item>1</item>
-        <item>3</item>
-        <item>1</item>
-        <item>2</item>
-        <item>2</item>
-        <item>1</item>
-        <item>1</item>
-        <item>1</item>
-        <item>3</item>
-        <item>5</item>
-        <item>1</item>
-        <item>1</item>
-        <item>1</item>
-    </integer-array>
-    <string-array name="tweak_id_names" translatable="false">
-        <item>Meal Water</item>
-        <item>Meal NegCal</item>
-        <item>Meal Vinegar</item>
-        <item>Meal Undistracted</item>
-        <item>Meal 20 Minutes</item>
-        <item>Daily Black Cumin</item>
-        <item>Daily Garlic</item>
-        <item>Daily Ginger</item>
-        <item>Daily NutriYeast</item>
-        <item>Daily Cumin</item>
-        <item>Daily Green Tea</item>
-        <item>Daily Hydrate</item>
-        <item>Daily Deflour Diet</item>
-        <item>Daily Front-Load</item>
-        <item>Daily Time-Restrict</item>
-        <item>Exercise Timing</item>
-        <item>Weigh Twice</item>
-        <item>Complete Intentions</item>
-        <item>Nightly Fast</item>
-        <item>Nightly Sleep</item>
-        <item>Nightly Trendelenburg</item>
-    </string-array>
-    <string-array name="tweak_names" translatable="false">
-        <item>@string/meal_water</item>
-        <item>@string/meal_negcal</item>
-        <item>@string/meal_vinegar</item>
-        <item>@string/meal_undistracted</item>
-        <item>@string/meal_twentyminutes</item>
-        <item>@string/daily_blackcumin</item>
-        <item>@string/daily_garlic</item>
-        <item>@string/daily_ginger</item>
-        <item>@string/daily_nutriyeast</item>
-        <item>@string/daily_cumin</item>
-        <item>@string/daily_greentea</item>
-        <item>@string/daily_hydrate</item>
-        <item>@string/daily_deflourdiet</item>
-        <item>@string/daily_frontload</item>
-        <item>@string/daily_timerestrict</item>
-        <item>@string/exercise_timing</item>
-        <item>@string/weigh_twice</item>
-        <item>@string/complete_intentions</item>
-        <item>@string/nightly_fast</item>
-        <item>@string/nightly_sleep</item>
-        <item>@string/nightly_trendelenburg</item>
-    </string-array>
-    <integer-array name="tweak_amounts" translatable="false">
-        <item>3</item>
-        <item>3</item>
-        <item>3</item>
-        <item>3</item>
-        <item>3</item>
-        <item>1</item>
-        <item>1</item>
-        <item>1</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>1</item>
-        <item>1</item>
-        <item>1</item>
-        <item>1</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>1</item>
-        <item>1</item>
-        <item>1</item>
-    </integer-array>
     <string-array name="about_text_lines">
         <item>This app was created by John Slavick.</item>
         <item/>
@@ -348,11 +166,11 @@
     </string-array>
     <string-array name="backup_instructions_lines">
         <item>Gehen Sie folgendermaßen vor, um diese Sicherung in der Daily Dozen-App wiederherzustellen</item>
-        <item></item>
+        <item />
         <item>1. Die Daily Dozen-App muss auf Ihrem Android-Telefon installiert sein. Sie können sie hier herunterladen: https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen</item>
-        <item></item>
+        <item />
         <item>2. Tippen Sie auf die an diese E-Mail angehängte Sicherungsdatei.</item>
-        <item></item>
+        <item />
         <item>3. Wählen Sie Mit täglichem Dutzend öffnen</item>
     </string-array>
     <string-array name="servings_time_scale_choices">
@@ -649,12 +467,12 @@
         <item>%s getrocknete Früchte</item>
     </string-array>
     <string-array name="food_info_serving_sizes_other_fruits_imperial">
-        <item></item>
+        <item />
         <item> Tasse</item>
         <item>¼ Tasse</item>
     </string-array>
     <string-array name="food_info_serving_sizes_other_fruits_metric">
-        <item></item>
+        <item />
         <item>20g</item>
         <item>60g</item>
     </string-array>
@@ -666,12 +484,12 @@
     <string-array name="food_info_serving_sizes_cruciferous_vegetables_imperial">
         <item>½ Tasse</item>
         <item>¼ Tasse</item>
-        <item></item>
+        <item />
     </string-array>
     <string-array name="food_info_serving_sizes_cruciferous_vegetables_metric">
         <item>30–80 g</item>
         <item>12 g</item>
-        <item></item>
+        <item />
     </string-array>
     <string-array name="food_info_serving_sizes_greens">
         <item>%s roh</item>
@@ -718,23 +536,23 @@
     </string-array>
     <string-array name="food_info_serving_sizes_nuts_imperial">
         <item>¼ Tasse</item>
-        <item></item>
+        <item />
     </string-array>
     <string-array name="food_info_serving_sizes_nuts_metric">
         <item>30 g</item>
-        <item></item>
+        <item />
     </string-array>
     <string-array name="food_info_serving_sizes_spices">
         <item>%s¼ Teelöffel (1,2 ml) Kurkuma</item>
         <item>%sAlle anderen (salzfreien) Kräuter und Gewürze, die Sie mögen</item>
     </string-array>
     <string-array name="food_info_serving_sizes_spices_imperial">
-        <item></item>
-        <item></item>
+        <item />
+        <item />
     </string-array>
     <string-array name="food_info_serving_sizes_spices_metric">
-        <item></item>
-        <item></item>
+        <item />
+        <item />
     </string-array>
     <string-array name="food_info_serving_sizes_whole_grains">
         <item>%s Getreideflockenbrei oder gekochte Körner, Nudeln oder Maiskörner</item>
@@ -746,15 +564,15 @@
     <string-array name="food_info_serving_sizes_whole_grains_imperial">
         <item>½ Tasse</item>
         <item>1 Tasse</item>
-        <item></item>
-        <item></item>
+        <item />
+        <item />
         <item> Tassen</item>
     </string-array>
     <string-array name="food_info_serving_sizes_whole_grains_metric">
         <item>100 g</item>
         <item>50 g</item>
-        <item></item>
-        <item></item>
+        <item />
+        <item />
         <item>0 g</item>
     </string-array>
     <string-array name="food_info_serving_sizes_beverages">
@@ -771,205 +589,11 @@
         <item>%s40 Minuten Aktivität mit hoher Intensität</item>
     </string-array>
     <string-array name="food_info_serving_sizes_exercise_imperial">
-        <item></item>
-        <item></item>
+        <item />
+        <item />
     </string-array>
     <string-array name="food_info_serving_sizes_exercise_metric">
-        <item></item>
-        <item></item>
-    </string-array>
-    <!--
-    NOTE: These strings are used to created the url to take the user to the overall food videos page.
-    These strings are to not be literial language translations.
-    These strings must be valid existing url addition to "http://nutritionfacts.org/".
-    If the language is not present on nutritionfacts.org, then the default English url is used.
-    -->
-    <string-array name="food_videos_beans" translatable="false">
-        <item>black-beans</item>
-        <item/>
-        <item/>
-        <item/>
-        <item>chickpeas</item>
-        <item>edamame</item>
-        <item/>
-        <item/>
-        <item>kidney-beans</item>
-        <item>lentils</item>
-        <item>miso</item>
-        <item>navy-beans</item>
-        <item>pinto-beans</item>
-        <item/>
-        <item>split-peas</item>
-        <item>tempeh</item>
-    </string-array>
-    <string-array name="food_videos_berries" translatable="false">
-        <item>acai-berries</item>
-        <item>barberries</item>
-        <item>blackberries</item>
-        <item>blueberries</item>
-        <item>cherries</item>
-        <item>grapes</item>
-        <item>cranberries</item>
-        <item>goji-berries</item>
-        <item/>
-        <item/>
-        <item>raspberries</item>
-        <item>strawberries</item>
-    </string-array>
-    <string-array name="food_videos_other_fruits" translatable="false">
-        <item>apples</item>
-        <item>apricots</item>
-        <item>avocados</item>
-        <item>bananas</item>
-        <item>cantaloupe</item>
-        <item/>
-        <item>dates</item>
-        <item/>
-        <item>grapefruit</item>
-        <item/>
-        <item>kiwifruit</item>
-        <item>lemons</item>
-        <item>limes</item>
-        <item/>
-        <item>mango</item>
-        <item/>
-        <item>oranges</item>
-        <item/>
-        <item/>
-        <item>peaches</item>
-        <item>pears</item>
-        <item/>
-        <item>plums</item>
-        <item/>
-        <item>pomegranates</item>
-        <item>prunes</item>
-        <item/>
-        <item>watermelon</item>
-    </string-array>
-    <string-array name="food_videos_cruciferous_vegetables" translatable="false">
-        <item/>
-        <item>bok-choy</item>
-        <item>broccoli</item>
-        <item>brussels-sprouts</item>
-        <item>cabbage</item>
-        <item>cauliflower</item>
-        <item>collard-greens</item>
-        <item/>
-        <item>kale</item>
-        <item/>
-        <item>mustard-greens</item>
-        <item/>
-        <item/>
-        <item>watercress</item>
-    </string-array>
-    <string-array name="food_videos_greens" translatable="false">
-        <item/>
-        <item>beets</item>
-        <item>collard-greens</item>
-        <item>kale</item>
-        <item/>
-        <item>mustard-greens</item>
-        <item/>
-        <item>spinach</item>
-        <item>swiss-chard</item>
-        <item/>
-    </string-array>
-    <string-array name="food_videos_other_vegetables" translatable="false">
-        <item>artichokes</item>
-        <item>asparagus</item>
-        <item>beets</item>
-        <item>bell-peppers</item>
-        <item>carrots</item>
-        <item>corn</item>
-        <item>garlic</item>
-        <item>mushrooms</item>
-        <item>okra</item>
-        <item>onions</item>
-        <item>potatoes</item>
-        <item>pumpkin</item>
-        <item>sea-vegetables</item>
-        <item/>
-        <item>squash</item>
-        <item>sweet-potatoes</item>
-        <item>tomatoes</item>
-        <item>zucchini</item>
-    </string-array>
-    <string-array name="food_videos_nuts" translatable="false">
-        <item>almonds</item>
-        <item>brazil-nuts</item>
-        <item>cashews</item>
-        <item>chia-seeds</item>
-        <item>hazelnuts</item>
-        <item/>
-        <item>macadamia-nuts</item>
-        <item>pecans</item>
-        <item>pistachios</item>
-        <item>pumpkin-seeds</item>
-        <item>sesame-seeds</item>
-        <item>sunflower-seeds</item>
-        <item>walnuts</item>
-    </string-array>
-    <string-array name="food_videos_spices" translatable="false">
-        <item>allspice</item>
-        <item>barberries</item>
-        <item>basil</item>
-        <item/>
-        <item/>
-        <item/>
-        <item>cilantro</item>
-        <item>cinnamon</item>
-        <item>cloves</item>
-        <item/>
-        <item>cumin</item>
-        <item>curry-powder</item>
-        <item/>
-        <item>fenugreek</item>
-        <item>garlic</item>
-        <item>ginger</item>
-        <item/>
-        <item/>
-        <item>marjoram</item>
-        <item>mustard-powder</item>
-        <item>nutmeg</item>
-        <item>oregano</item>
-        <item/>
-        <item>parsley</item>
-        <item>pepper</item>
-        <item>peppermint</item>
-        <item>rosemary</item>
-        <item>saffron</item>
-        <item/>
-        <item/>
-        <item>turmeric</item>
-        <item/>
-    </string-array>
-    <string-array name="food_videos_whole_grains" translatable="false">
-        <item>barley</item>
-        <item>buckwheat</item>
-        <item>millet</item>
-        <item>oats</item>
-        <item>popcorn</item>
-        <item>quinoa</item>
-        <item>rye</item>
-        <item/>
-        <item>pasta</item>
-    </string-array>
-    <string-array name="food_videos_beverages" translatable="false">
-        <item>black-tea</item>
-        <item>chai-tea</item>
-        <item>chamomile-tea</item>
-        <item>coffee</item>
-        <item>earl-grey-tea</item>
-        <item>green-tea</item>
-        <item>hibiscus-tea</item>
-        <item/>
-        <item/>
-        <item>lemon-balm</item>
-        <item>matcha</item>
-        <item>oolong-tea</item>
-        <item>peppermint</item>
-        <item>rooibos-tea</item>
-        <item>water</item>
-        <item>white-tea</item>
+        <item />
+        <item />
     </string-array>
 </resources>
