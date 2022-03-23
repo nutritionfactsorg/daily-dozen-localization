@@ -366,7 +366,7 @@ for_health_and_weight_loss	setting_health_weight_txt	For Health and Weight Loss	
 	setting_tweak_header	21 Tweak Visibility	Видимость 21 уловки	Preference Settings View: tweaks visibilty subsection heading	
 	setting_units_0_imperial	Imperial	Имперсая	Preference Settings View: Part of ‘Imperial/Metric/Toggle Units’ selector	
 	setting_units_1_metric	Metric	Метрическая	Preference Settings View: Part of ‘Imperial/Metric/Toggle Units’ selector	
-	setting_units_2_toggle	Toggle Units	Переключатель	Preference Settings View: Part of ‘Imperial/Metric/Toggle Units’ selector	
+	setting_units_2_toggle	Toggle Units	Тумблер	Preference Settings View: Part of ‘Imperial/Metric/Toggle Units’ selector	
 	setting_units_choice_footer	Set to always be one unit type or enable the ‘Units:’ toggle button.	Установить только одну единицу измерения или включить кнопку переключения между единицами измерения.	Preference Settings View: brief description text below units control.	
 	setting_units_header	Measurement Units	Единицы измерения	Preference Settings View	
 	setting_util_advanced	Advanced Utilities	Дополнительные инструменты	Preference Settings View	

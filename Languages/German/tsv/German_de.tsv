@@ -328,14 +328,14 @@ servings_time_scale_choices.2	history_scale_choice_year	Year	Jahr	History View: 
 time_scale	history_scale_label	Time Scale	Zeitskala	History View: scale text	
 about_this_app	info.about.title	About this app	Über diese Anwendung	Info About View	
 about	info_app_about	About	Über	Info About View	
-app_name	info_app_about_app_name	Daily Dozen	Das tägliche Dutzend	Info About View Application Name: ‘Daily Dozen’	
+app_name	info_app_about_app_name	Daily Dozen	Tägliches Dutzend	Info About View Application Name: ‘Daily Dozen’	
 activity_welcome_text	info_app_about_overview	Use this app on a daily basis to keep track of the foods and advice I recommend for optimal health and longevity in my books How Not to Die and How Not to Diet.	Verwenden Sie diese App täglich, um den Überblick über die Lebensmittel und Ratschläge zu behalten, die ich in meinen Büchern How Not to Die und How Not to Diet für optimale Gesundheit und Langlebigkeit empfehle.	Info About View	
 	info_app_about_version	version 3.2.11	Version 3.2.11	Info About View Application release version	
 welcome_to_my_daily_dozen	info_app_about_welcome	Welcome to my Daily Dozen!	Willkommen zu meinem Täglichen Dutzend!	Info About View	
 	info_book_how_not_to_die	Book: How Not to Die	Buch: How Not to Die	Info Menu: book title	
 	info_book_how_not_to_die_cookbook	Book: How Not to Die Cookbook	Buch: How Not to Die Kochbuch	Info Menu: book title	
 	info_book_how_not_to_diet	Book: How Not to Diet	Buch: How Not to Diet	Info Menu: book title	
-daily_dozen_challenge	info_webpage_daily_dozen_challenge	Daily Dozen Challenge	Die Tägliches Dutzend Herausforderung	Info Menu	
+daily_dozen_challenge	info_webpage_daily_dozen_challenge	Daily Dozen Challenge	Tägliches Dutzend Herausforderung	Info Menu	
 donate	info_webpage_donate	Donate	Spenden Sie	Info Menu	
 open_source	info_webpage_open_source	Open Source	Open Source	Info Menu	
 subscribe	info_webpage_subscribe	Subscribe	Abonnieren	Info Menu	
