@@ -196,6 +196,7 @@ food_info_types_nuts.9	dozeNuts.Variety.Text.9	Pumpkin seeds	Pestki dyni
 nuts	dozeNuts.heading	Nuts and Seeds	Orzechy i nasiona	heading for daily data entry item	
 OK	dozeOtherInfo.confirm	OK	OK	Daily Dozen supplement info alert: dismissal button text	
 	dozeOtherInfo.message	Vitamin B12 is essential for your health but does not count towards your daily servings.\n\nVitamin B12 is included in this app to provide you with an easy way to track your intake.	Witamina B12 jest niezbędna dla zdrowia, ale nie wlicza się do Twoich dziennych porcji.\n\nWitamina B12 jest natomiast uwzględniona w aplikacji, aby łatwiej śledzić jej spożycie.	Daily Dozen supplement info alert: message	
+	dozeOtherInfo.section	Supplements	Suplementy	Daily Dozen daily entry section heading	
 	dozeOtherInfo.title	Supplements	Suplementy	Daily Dozen supplement info alert: title	
 food_info_serving_sizes_spices_imperial.0	dozeSpices.Serving.imperial.0	¼ teaspoon of turmeric	¼ łyżeczki kurkumy		
 food_info_serving_sizes_spices_imperial.1	dozeSpices.Serving.imperial.1	Any other (salt-free) herbs and spices you enjoy	Wszelkie inne (pozbawione soli) zioła i przyprawy, które lubisz		
