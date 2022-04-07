@@ -320,14 +320,11 @@ servings_time_scale_choices.2	history_scale_choice_year	Year	Rok	History View: c
 time_scale	history_scale_label	Time Scale	Okres czasu	History View: scale text	
 about_this_app	info.about.title	About this app	O aplikacji	Info About View	
 about	info_app_about	About	O aplikacji	Info About Menu Item	
-	info_app_about_app_name	Daily Dozen	Codzienny Tuzin		
 app_name	info_app_about_app_name	Daily Dozen	Codzienny Tuzin	Info About View: Application Name ‘Daily Dozen’	
 	info_app_about_created_by	This app was created by: NutritionFacts.org, Christi Richards, Konstantin Khokhlov, and Marc Campbell	Ta aplikacja została stworzona przez: NutritionFacts.org, Christi Richards, Konstantin Khokhlov i Marc Campbell	Info About View: Created By	
 	info_app_about_oss_credits	The following open source libraries are used: RealmSwift, Charts, FSCalendar, SimpleAnimation, ActiveLabel.	Używane są następujące biblioteki open source: RealmSwift, Charts, FSCalendar, SimpleAnimation i ActiveLabel.	Info About View: Open Source Credits	
-	info_app_about_overview	Use this app on a daily basis to keep track of the foods and advice I recommend for optimal health and longevity in my books How Not to Die and How Not to Diet.	Korzystaj z aplikacji codziennie, aby poznać żywność i porady, które polecam dla optymalnego zdrowia i długowieczności w moich książkach „Jak Nie Umrzeć Przedwcześnie” i „How Not to Diet”.		
 activity_welcome_text	info_app_about_overview	Use this app on a daily basis to keep track of the foods and advice I recommend for optimal health and longevity in my books How Not to Die and How Not to Diet.	Korzystaj z tej aplikacji codziennie, aby śledzić żywność i porady, które polecam dla optymalnego zdrowia i długowieczności w moich książkach „Jak nie umrzeć przedwcześnie” i „How Not to Diet”.	Info About View: Overview Text	
 	info_app_about_version	version 3.2.11	wersja 3.2.11	Info About View: Application release version	
-	info_app_about_welcome	Welcome to my Daily Dozen!	Witaj w moim Codziennym Tuzinie!		
 welcome_to_my_daily_dozen	info_app_about_welcome	Welcome to my Daily Dozen!	Witaj w moim Codziennym Tuzinie!	Info About View: Welcome	
 	info_book_how_not_to_die	Book: How Not to Die	Książka: Jak nie umrzeć przedwcześnie	Info Menu: book title	
 	info_book_how_not_to_die_cookbook	Book: How Not to Die Cookbook	Książka: Jak Gotować By Nie Umrzeć Przedwcześnie	Info Menu: book title	
@@ -347,7 +344,6 @@ history	item_history_heading	History	Historia	Item History Heading
 vitamin_b12	otherVitaminB12.heading	Vitamin B12	Witamina B12	heading for daily data entry item	
 daily_reminder_text	reminder.alert.text	Update your servings for today	Zaktualizuj swoje dzisiejsze porcje	Alert notification text	
 	reminder.heading	Daily Reminder	Codzienne przypomnienie	Daily Reminder (alert title, settings section heading)	
-	reminder.settings.enable	Enable Reminders	Włącz przypomnienia	Daily Reminder On/Off toggle switch label	
 	reminder.settings.enable	Enable Reminders	Włącz przypomnienia	Daily Reminder On/Off toggle switch label	
 play_sound	reminder.settings.sound	Play Sound	Włącz dźwięk	Daily Reminder sound control heading	
 remind_me_at	reminder.settings.time	Remind me at	Przypomnij o:	Daily Reminder time control heading	

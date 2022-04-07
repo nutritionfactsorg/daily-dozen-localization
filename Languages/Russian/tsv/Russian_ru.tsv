@@ -322,15 +322,11 @@ servings_time_scale_choices.2	history_scale_choice_year	Year	Год	History View
 time_scale	history_scale_label	Time Scale	Шкала Времени	History View: scale text	
 about_this_app	info.about.title	About this app	Об этом приложении	Info About View	
 about	info_app_about	About	О нас	Info About Menu Item	
-	info_app_about_app_name	Daily Dozen	Не сдохни!	Info Menu About: line 2	
 app_name	info_app_about_app_name	Daily Dozen	Не Сдохни!	Info About View: Application Name ‘Daily Dozen’	
 	info_app_about_created_by	This app was created by: NutritionFacts.org, Christi Richards, Konstantin Khokhlov, and Marc Campbell	Это приложение было создано NutritionFacts.org, Кристи Ричардс, Константином Хохловым и Марком Кэмпбеллом.	Info About View: Created By	
 	info_app_about_oss_credits	The following open source libraries are used: RealmSwift, Charts, FSCalendar, SimpleAnimation, ActiveLabel.	Приложение использует следующие библиотеки с открытым кодом: RealmSwift, Charts, FSCalendar, SimpleAnimation, ActiveLabel.	Info About View: Open Source Credits	
-	info_app_about_overview	Use this app on a daily basis to keep track of the foods and advice I recommend for optimal health and longevity in my books How Not to Die and How Not to Diet.	Используйте это приложение на ежедневной основе, чтобы отслеживать продукты питания и следовать моим рекомендациям из книг Не Сдохни! Еда в борьбе за жизнь и Не сдохни на диете для поддержания оптимального состояния здоровья и продолжительности жизни.	Info Menu About: line 1	
 activity_welcome_text	info_app_about_overview	Use this app on a daily basis to keep track of the foods and advice I recommend for optimal health and longevity in my books How Not to Die and How Not to Diet.	Используйте данное приложение на ежедневной основе, чтобы отслеживать продукты питания и применять мои рекомендации для оптимального здоровья и продолжительности жизни, которые изложены в книгах Не сдохни и Не сдохни на Диете.	Info About View: Overview Text	
 	info_app_about_version	version 3.2.11	версия 3.2.11	Info About View: Application release version	
-	info_app_about_version	version 3.2.11	версия 3.2.11	Info About View: Application release version	
-	info_app_about_welcome	Welcome to my Daily Dozen!	Добро пожаловать в Не сдохни!	Info Menu About: line 0	
 welcome_to_my_daily_dozen	info_app_about_welcome	Welcome to my Daily Dozen!	Добро пожаловать в Не сдохни!	Info About View: Welcome	
 	info_book_how_not_to_die	Book: How Not to Die	Книга: Не сдохни! Еда в борьбе за жизнь	Info Menu: book title	
 	info_book_how_not_to_die_cookbook	Book: How Not to Die Cookbook	Книга: Не сдохни! Кулинарная книга	Info Menu: book title	

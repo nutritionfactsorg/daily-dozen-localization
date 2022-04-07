@@ -70,6 +70,17 @@ DO_NORMAL_STRINGS
 SOURCE_TSV="Hebrew/tsv/Hebrew_he.appstore.tsv"
 DO_NORMAL_STRINGS
 
+############
+## Polish ##
+############
+## -- (pl) process application values --
+SOURCE_TSV="Polish/tsv/Polish_pl.tsv"
+DO_NORMAL_STRINGS
+
+## -- (pl) process appstore --
+SOURCE_TSV="Polish/tsv/Polish_pl.appstore.tsv"
+DO_NORMAL_STRINGS
+
 ################
 ## Portuguese ##
 ################
@@ -112,13 +123,6 @@ DO_NORMAL_STRINGS
 
 ## -- (ru) process appstore --
 SOURCE_TSV="Russian/tsv/Russian_ru.appstore.tsv"
-DO_NORMAL_STRINGS
-
-############
-## Polish ##
-############
-## -- (pl) process application values --
-SOURCE_TSV="Polish/tsv/Polish_pl.tsv"
 DO_NORMAL_STRINGS
 
 ### ----- STOP HERE ----- ###

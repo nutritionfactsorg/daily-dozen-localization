@@ -322,15 +322,11 @@ servings_time_scale_choices.2	history_scale_choice_year	Year	שנה	History View
 time_scale	history_scale_label	Time Scale	סולם זמן	History View: scale text	
 about_this_app	info.about.title	About this app	בקשר לאפליקציה זו	Info About View	
 about	info_app_about	About	לגבי	Info About Menu Item	
-	info_app_about_app_name	Daily Dozen	התריסר היומי	Info Menu About: line 2	
 app_name	info_app_about_app_name	Daily Dozen	התריסר היומי	Info About View: Application Name ‘Daily Dozen’	
 	info_app_about_created_by	This app was created by: NutritionFacts.org, Christi Richards, Konstantin Khokhlov, and Marc Campbell	אפליקציה זו נוצרה על ידי: NutritionFacts.org, כריסטי ריצ'רדס, קונסטנטין חוחלוב ומארק קמפבל	Info About View: Created By	
 	info_app_about_oss_credits	The following open source libraries are used: RealmSwift, Charts, FSCalendar, SimpleAnimation, ActiveLabel.	נעשה שימוש בספריות הקוד הפתוח שלהלן: RealmSwift, תרשימים, FSCalendar, SimpleAnimation, ActiveLabel.	Info About View: Open Source Credits	
-	info_app_about_overview	Use this app on a daily basis to keep track of the foods and advice I recommend for optimal health and longevity in my books How Not to Die and How Not to Diet.	השתמשו באפליקציה זו על בסיס יומי כדי לעקוב אחר המזונות והעצות שאני ממליץ עליהן לבריאות ואריכות ימים בצורה אופטימלית בספרים שלי "איך לא למות" ו"איך לא לעשות דיאטה".	Info Menu About: line 1	
 activity_welcome_text	info_app_about_overview	Use this app on a daily basis to keep track of the foods and advice I recommend for optimal health and longevity in my books How Not to Die and How Not to Diet.	השתמשו באפליקציה זו על בסיס יומי כדי לעקוב אחר המזונות והעצות שאני ממליץ עליהן לבריאות ואריכות ימים בצורה אופטימלית בספרים שלי "איך לא למות" ו"איך לא לעשות דיאטה".	Info About View: Overview Text	
 	info_app_about_version	version 3.2.11	ורסיה 3.2.11	Info About View: Application release version	
-	info_app_about_version	version 3.2.11	ורסיה 3.2.11	Info About View: Application release version	
-	info_app_about_welcome	Welcome to my Daily Dozen!	ברוכים הבאים לתריסר השבועי שלי!	Info Menu About: line 0	
 welcome_to_my_daily_dozen	info_app_about_welcome	Welcome to my Daily Dozen!	ברוכים הבאים לתריסר היומי שלי!	Info About View: Welcome	
 	info_book_how_not_to_die	Book: How Not to Die	ספר: כיצד לא למות	Info Menu: book title	
 	info_book_how_not_to_die_cookbook	Book: How Not to Die Cookbook	ספר: כיצד לא למות ספר הבישול	Info Menu: book title	
@@ -366,7 +362,7 @@ for_health_and_weight_loss	setting_health_weight_txt	For Health and Weight Loss	
 	setting_tweak_header	21 Tweak Visibility	ניראות של 21 הכיוונונים	Preference Settings View: tweaks visibilty subsection heading	
 	setting_units_0_imperial	Imperial	אימפריאלי	Preference Settings View: Part of ‘Imperial/Metric/Toggle Units’ selector	
 	setting_units_1_metric	Metric	מטרי	Preference Settings View: Part of ‘Imperial/Metric/Toggle Units’ selector	
-	setting_units_2_toggle	Toggle Units	שינוי מצב היחידות	Preference Settings View: Part of ‘Imperial/Metric/Toggle Units’ selector	
+	setting_units_2_toggle	Toggle Units	שינוי סוג היחידה	Preference Settings View: Part of ‘Imperial/Metric/Toggle Units’ selector	
 	setting_units_choice_footer	Set to always be one unit type or enable the ‘Units:’ toggle button.	הגדירו תמיד סוג יחידה אחד או הפעילו את לחצן ההחלפה 'יחידות:'.	Preference Settings View: brief description text below units control.	
 	setting_units_header	Measurement Units	יחידות מדידה	Preference Settings View	
 	setting_util_advanced	Advanced Utilities	כלי עזר מתקדמים	Preference Settings View	
@@ -437,8 +433,8 @@ weigh_twice_text	tweakWeightTwice.text	Regular self-weighing is considered cruci
 	tweak_detail_section_activity	Activity	פעילות	Tweaks Detail view section heading	
 	tweak_detail_section_description	Description	תיאור	Tweaks Detail view section heading	
 twenty_one_tweaks	tweak_entry_header	21 Tweaks	21 כוונונים	Tweaks daily entry header	
-imperial	unitToggle.imperial	imperial	קיסרי	Units toggle button text: imperial measurement system	
-metric	unitToggle.metric	metric	מטרי	Units toggle button text: metric measurement system	
+imperial	unitToggle.imperial	Imperial	קיסרי	Units toggle button text: imperial measurement system	
+metric	unitToggle.metric	Metric	מטרי	Units toggle button text: metric measurement system	
 units	units_label	Units	יחידות:		
 videos	videos.link.label	Videos	סרטונים	Label for hyperlink to nutritionfacts.org video topics	
 weight	weightEntry.heading	Weight	משקל	Weight Daily Entry: heading	

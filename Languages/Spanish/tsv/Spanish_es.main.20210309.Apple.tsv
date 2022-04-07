@@ -637,7 +637,6 @@ vibrate	reminder.settings.vibrate	Vibrate		Android notification `vibrate`
 	reminder.state.on	On	On	'On' as in 'On or Off'
 	settings.tweak.header	21 Tweaks Visibility	Visibilidad de 21 Ajustes	
 	settings.units.header	Measurement Units	Unidades de medida	
-	streakDaysFormat	%d days	%d días	
 	tweakCompleteIntentions.Activity.Imperial	Complete Your Implementation Intentions	Completar tus metas	
 	tweakCompleteIntentions.Activity.Metric	Complete Your Implementation Intentions	Complete tus metas	
 	tweakCompleteIntentions.Description.0	Every two months, create three new implementation intentions—"if X, then Y" plans to perform a particular behavior in a specific context—and check each one of them off as you complete them every day.	Cada dos meses, crea tres metas nuevas, al estilo de "si X, entonces Y", para comportarte de cierta manera en situaciones específicas. Intenta marcar las tres casillas todos los días.	

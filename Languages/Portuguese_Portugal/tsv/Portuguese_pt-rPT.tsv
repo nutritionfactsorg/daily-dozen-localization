@@ -329,7 +329,7 @@ activity_welcome_text	info_app_about_overview	Use this app on a daily basis to k
 	info_app_about_version	version 3.2.11	versão 3.2.11	Info About View: Application release version	
 welcome_to_my_daily_dozen	info_app_about_welcome	Welcome to my Daily Dozen!	Bem-vindos à minha Dúzia Diária!	Info About View: Welcome	
 	info_book_how_not_to_die	Book: How Not to Die	Livro: Como Não Morrer	Info Menu: book title	
-	info_book_how_not_to_die_cookbook	Book: How Not to Die Cookbook	Livro: Como Não Morrer - O Livro de Receitas	Info Menu: book title	
+	info_book_how_not_to_die_cookbook	Book: How Not to Die Cookbook	Livro: Como Não Morrer (Receitas)	Info Menu: book title	
 	info_book_how_not_to_diet	Book: How Not to Diet	Livro: Como Não Fazer Dieta	Info Menu: book title	
 daily_dozen_challenge	info_webpage_daily_dozen_challenge	Daily Dozen Challenge	Desafio Duzía Diária	Info Menu	
 donate	info_webpage_donate	Donate	Doar	Info Menu	
@@ -360,9 +360,9 @@ daily_dozen_and_tweaks	setting_doze_tweak_btn	Daily Dozen +\n21 Tweaks	Dúzia Di
 for_health_alone	setting_health_alone_txt	For Health Alone	Apenas para Saúde	First Launch Setting: brief description above ‘Daily Dozen Only’ button.	
 for_health_and_weight_loss	setting_health_weight_txt	For Health and Weight Loss	Para Saúde e Perda de Peso	First Launch Setting: brief description above ‘Daily Dozen + 21 Tweaks’ button.	
 	setting_tweak_header	21 Tweak Visibility	Visibilidade dos 21 Truques	Preference Settings View: tweaks visibilty subsection heading	
-	setting_units_0_imperial	Imperial	Imperial	Preference Settings View: Part of ‘Imperial/Metric/Toggle Units’ selector	
+	setting_units_0_imperial	Imperial	Americanas	Preference Settings View: Part of ‘Imperial/Metric/Toggle Units’ selector	
 	setting_units_1_metric	Metric	Métrico	Preference Settings View: Part of ‘Imperial/Metric/Toggle Units’ selector	
-	setting_units_2_toggle	Toggle Units	Alternar Unidades	Preference Settings View: Part of ‘Imperial/Metric/Toggle Units’ selector	
+	setting_units_2_toggle	Toggle Units	Unidades	Preference Settings View: Part of ‘Imperial/Metric/Toggle Units’ selector	
 	setting_units_choice_footer	Set to always be one unit type or enable the ‘Units:’ toggle button.	Escolha entre ter sempre as mesmas unidades de medida ou ativar o botão de escolha de "Unidades:".	Preference Settings View: brief description text below units control.	
 	setting_units_header	Measurement Units	Unidades de Medida	Preference Settings View	
 	setting_util_advanced	Advanced Utilities	Funções Avançadas	Preference Settings View	
@@ -482,7 +482,6 @@ enable_daily_reminder		Enable Daily Reminder	Habilitar Lembretes Diários	On/Off
 error_cannot_handle_url		Could not open url. Please install a browser.	Não foi possível abrir o url. Por favor instale um navegador.		
 food_history		Food History	Histórico de Alimentos		
 food_info		Food Info	Informação de Alimentos		
-format_num_days	streakDaysFormat	%d days	%d dias	Formatted string %d days	Streak’ count. Synonym: ‘Progress‘. Formatted number ‘%d’ for consecutive days completed. Place translated text for ‘days’ on the right or left of ‘%d’ based on language directionality.
 format_version		version %s	versão %s		
 history_to_generate		History to Generate	Gerar baseado no Histórico		
 history_to_generate_choices.0		1 month	1 mês		
