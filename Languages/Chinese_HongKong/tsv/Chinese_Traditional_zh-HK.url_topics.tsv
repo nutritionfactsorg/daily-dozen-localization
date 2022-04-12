@@ -1,0 +1,240 @@
+key_droid	key_apple	base_value	lang_value	base_note	lang_note
+food_info_videos_beans	dozeBeans.topic	topics/beans	topics/beans	https://nutritionfacts.org/topics/beans	
+food_info_videos_berries	dozeBerries.topic	topics/berries	topics/berries	https://nutritionfacts.org/topics/berries	
+food_info_videos_fruits	dozeFruitsOther.topic	topics/fruit	topics/fruit	https://nutritionfacts.org/topics/fruit	
+food_info_videos_cruciferous	dozeVegetablesCruciferous.topic	topics/cruciferous-vegetables	topics/cruciferous-vegetables	https://nutritionfacts.org/topics/cruciferous-vegetables	
+food_info_videos_greens	dozeGreens.topic	topics/greens	topics/greens	https://nutritionfacts.org/topics/greens	
+food_info_videos_vegetables	dozeVegetablesOther.topic	topics/vegetables	topics/vegetables	https://nutritionfacts.org/topics/vegetables	
+food_info_videos_flaxseeds	dozeFlaxseeds.topic	topics/flax-seeds	topics/flax-seeds	https://nutritionfacts.org/topics/flax-seeds	
+food_info_videos_nuts	dozeNuts.topic	topics/nuts	topics/nuts	https://nutritionfacts.org/topics/nuts	
+food_info_videos_spices	dozeSpices.topic	topics/spices	topics/spices	https://nutritionfacts.org/topics/spices	
+food_info_videos_whole_grains	dozeWholeGrains.topic	topics/grains	topics/grains	https://nutritionfacts.org/topics/grains	
+food_info_videos_beverages	dozeBeverages.topic	topics/beverages	topics/beverages	https://nutritionfacts.org/topics/beverages	
+food_info_videos_exercise	dozeExercise.topic	topics/exercise	topics/exercise	https://nutritionfacts.org/topics/exercise	
+food_info_videos_vitamin_b12	otherVitaminB12.topic	topics/vitamin-b12	topics/vitamin-b12	https://nutritionfacts.org/topics/vitamin-b12	
+food_info_videos_vitamin_d	otherVitaminD.topic	topics/vitamin-d-supplements	topics/vitamin-d-supplements	https://nutritionfacts.org/topics/vitamin-d-supplements	
+food_info_videos_omega3	otherOmega3.topic	topics/omega-3-fatty-acids	topics/omega-3-fatty-acids	https://nutritionfacts.org/topics/omega-3-fatty-acids	
+food_videos_beans[0]	dozeBeans.Variety.Topic.0	topics/black-beans	topics/black-beans	https://nutritionfacts.org/topics/black-beans	
+food_videos_beans[1]	dozeBeans.Variety.Topic.1				
+food_videos_beans[2]	dozeBeans.Variety.Topic.2				
+food_videos_beans[3]	dozeBeans.Variety.Topic.3				
+food_videos_beans[4]	dozeBeans.Variety.Topic.4	topics/chickpeas	topics/chickpeas	https://nutritionfacts.org/topics/chickpeas	
+food_videos_beans[5]	dozeBeans.Variety.Topic.5	topics/edamame	topics/edamame	https://nutritionfacts.org/topics/edamame	
+food_videos_beans[6]	dozeBeans.Variety.Topic.6				
+food_videos_beans[7]	dozeBeans.Variety.Topic.7				
+food_videos_beans[8]	dozeBeans.Variety.Topic.8	topics/kidney-beans	topics/kidney-beans	https://nutritionfacts.org/topics/kidney-beans	
+food_videos_beans[9]	dozeBeans.Variety.Topic.9	topics/lentils	topics/lentils	https://nutritionfacts.org/topics/lentils	
+food_videos_beans[10]	dozeBeans.Variety.Topic.10	topics/miso	topics/miso	https://nutritionfacts.org/topics/miso	
+food_videos_beans[11]	dozeBeans.Variety.Topic.11	topics/navy-beans	topics/navy-beans	https://nutritionfacts.org/topics/navy-beans	
+food_videos_beans[12]	dozeBeans.Variety.Topic.12	topics/pinto-beans	topics/pinto-beans	https://nutritionfacts.org/topics/pinto-beans	
+food_videos_beans[13]	dozeBeans.Variety.Topic.13				
+food_videos_beans[14]	dozeBeans.Variety.Topic.14	topics/split-peas	topics/split-peas	https://nutritionfacts.org/topics/split-peas	
+food_videos_beans[15]	dozeBeans.Variety.Topic.15	topics/tempeh	topics/tempeh	https://nutritionfacts.org/topics/tempeh	
+food_videos_berries[0]	dozeBerries.Variety.Topic.0	topics/acai-berries	topics/acai-berries	https://nutritionfacts.org/topics/acai-berries	
+food_videos_berries[1]	dozeBerries.Variety.Topic.1	topics/barberries	topics/barberries	https://nutritionfacts.org/topics/barberries	
+food_videos_berries[2]	dozeBerries.Variety.Topic.2	topics/blackberries	topics/blackberries	https://nutritionfacts.org/topics/blackberries	
+food_videos_berries[3]	dozeBerries.Variety.Topic.3	topics/blueberries	topics/blueberries	https://nutritionfacts.org/topics/blueberries	
+food_videos_berries[4]	dozeBerries.Variety.Topic.4	topics/cherries	topics/cherries	https://nutritionfacts.org/topics/cherries	
+food_videos_berries[5]	dozeBerries.Variety.Topic.5	topics/grapes	topics/grapes	https://nutritionfacts.org/topics/grapes	
+food_videos_berries[6]	dozeBerries.Variety.Topic.6	topics/cranberries	topics/cranberries	https://nutritionfacts.org/topics/cranberries	
+food_videos_berries[7]	dozeBerries.Variety.Topic.7	topics/goji-berries	topics/goji-berries	https://nutritionfacts.org/topics/goji-berries	
+food_videos_berries[8]	dozeBerries.Variety.Topic.8				
+food_videos_berries[9]	dozeBerries.Variety.Topic.9				
+food_videos_berries[10]	dozeBerries.Variety.Topic.10	topics/raspberries	topics/raspberries	https://nutritionfacts.org/topics/raspberries	
+food_videos_berries[11]	dozeBerries.Variety.Topic.11	topics/strawberries	topics/strawberries	https://nutritionfacts.org/topics/strawberries	
+food_videos_other_fruits[0]	dozeFruitsOther.Variety.Topic.0	topics/apples	topics/apples	https://nutritionfacts.org/topics/apples	
+food_videos_other_fruits[1]	dozeFruitsOther.Variety.Topic.1	topics/apricots	topics/apricots	https://nutritionfacts.org/topics/apricots	
+food_videos_other_fruits[2]	dozeFruitsOther.Variety.Topic.2	topics/avocados	topics/avocados	https://nutritionfacts.org/topics/avocados	
+food_videos_other_fruits[3]	dozeFruitsOther.Variety.Topic.3	topics/bananas	topics/bananas	https://nutritionfacts.org/topics/bananas	
+food_videos_other_fruits[4]	dozeFruitsOther.Variety.Topic.4	topics/cantaloupe	topics/cantaloupe	https://nutritionfacts.org/topics/cantaloupe	
+food_videos_other_fruits[5]	dozeFruitsOther.Variety.Topic.5				
+food_videos_other_fruits[6]	dozeFruitsOther.Variety.Topic.6	topics/dates	topics/dates	https://nutritionfacts.org/topics/dates	
+food_videos_other_fruits[7]	dozeFruitsOther.Variety.Topic.7				
+food_videos_other_fruits[8]	dozeFruitsOther.Variety.Topic.8	topics/grapefruit	topics/grapefruit	https://nutritionfacts.org/topics/grapefruit	
+food_videos_other_fruits[9]	dozeFruitsOther.Variety.Topic.9				
+food_videos_other_fruits[10]	dozeFruitsOther.Variety.Topic.10	topics/kiwifruit	topics/kiwifruit	https://nutritionfacts.org/topics/kiwifruit	
+food_videos_other_fruits[11]	dozeFruitsOther.Variety.Topic.11	topics/lemons	topics/lemons	https://nutritionfacts.org/topics/lemons	
+food_videos_other_fruits[12]	dozeFruitsOther.Variety.Topic.12	topics/limes	topics/limes	https://nutritionfacts.org/topics/limes	
+food_videos_other_fruits[13]	dozeFruitsOther.Variety.Topic.13				
+food_videos_other_fruits[14]	dozeFruitsOther.Variety.Topic.14	topics/mango	topics/mango	https://nutritionfacts.org/topics/mango	
+food_videos_other_fruits[15]	dozeFruitsOther.Variety.Topic.15				
+food_videos_other_fruits[16]	dozeFruitsOther.Variety.Topic.16	topics/oranges	topics/oranges	https://nutritionfacts.org/topics/oranges	
+food_videos_other_fruits[17]	dozeFruitsOther.Variety.Topic.17				
+food_videos_other_fruits[18]	dozeFruitsOther.Variety.Topic.18				
+food_videos_other_fruits[19]	dozeFruitsOther.Variety.Topic.19	topics/peaches	topics/peaches	https://nutritionfacts.org/topics/peaches	
+food_videos_other_fruits[20]	dozeFruitsOther.Variety.Topic.20	topics/pears	topics/pears	https://nutritionfacts.org/topics/pears	
+food_videos_other_fruits[21]	dozeFruitsOther.Variety.Topic.21				
+food_videos_other_fruits[22]	dozeFruitsOther.Variety.Topic.22	topics/plums	topics/plums	https://nutritionfacts.org/topics/plums	
+food_videos_other_fruits[23]	dozeFruitsOther.Variety.Topic.23				
+food_videos_other_fruits[24]	dozeFruitsOther.Variety.Topic.24	topics/pomegranates	topics/pomegranates	https://nutritionfacts.org/topics/pomegranates	
+food_videos_other_fruits[25]	dozeFruitsOther.Variety.Topic.25	topics/prunes	topics/prunes	https://nutritionfacts.org/topics/prunes	
+food_videos_other_fruits[26]	dozeFruitsOther.Variety.Topic.26				
+food_videos_other_fruits[27]	dozeFruitsOther.Variety.Topic.27	topics/watermelon	topics/watermelon	https://nutritionfacts.org/topics/watermelon	
+food_videos_cruciferous_vegetables[0]	dozeVegetablesCruciferous.Variety.Topic.0				
+food_videos_cruciferous_vegetables[1]	dozeVegetablesCruciferous.Variety.Topic.1	topics/bok-choy	topics/bok-choy	https://nutritionfacts.org/topics/bok-choy	
+food_videos_cruciferous_vegetables[2]	dozeVegetablesCruciferous.Variety.Topic.2	topics/broccoli	topics/broccoli	https://nutritionfacts.org/topics/broccoli	
+food_videos_cruciferous_vegetables[3]	dozeVegetablesCruciferous.Variety.Topic.3	topics/brussels-sprouts	topics/brussels-sprouts	https://nutritionfacts.org/topics/brussels-sprouts	
+food_videos_cruciferous_vegetables[4]	dozeVegetablesCruciferous.Variety.Topic.4	topics/cabbage	topics/cabbage	https://nutritionfacts.org/topics/cabbage	
+food_videos_cruciferous_vegetables[5]	dozeVegetablesCruciferous.Variety.Topic.5	topics/cauliflower	topics/cauliflower	https://nutritionfacts.org/topics/cauliflower	
+food_videos_cruciferous_vegetables[6]	dozeVegetablesCruciferous.Variety.Topic.6	topics/collard-greens	topics/collard-greens	https://nutritionfacts.org/topics/collard-greens	
+food_videos_cruciferous_vegetables[7]	dozeVegetablesCruciferous.Variety.Topic.7				
+food_videos_cruciferous_vegetables[8]	dozeVegetablesCruciferous.Variety.Topic.8	topics/kale	topics/kale	https://nutritionfacts.org/topics/kale	
+food_videos_cruciferous_vegetables[9]	dozeVegetablesCruciferous.Variety.Topic.9				
+food_videos_cruciferous_vegetables[10]	dozeVegetablesCruciferous.Variety.Topic.10	topics/mustard-greens	topics/mustard-greens	https://nutritionfacts.org/topics/mustard-greens	
+food_videos_cruciferous_vegetables[11]	dozeVegetablesCruciferous.Variety.Topic.11				
+food_videos_cruciferous_vegetables[12]	dozeVegetablesCruciferous.Variety.Topic.12				
+food_videos_cruciferous_vegetables[13]	dozeVegetablesCruciferous.Variety.Topic.13	topics/watercress	topics/watercress	https://nutritionfacts.org/topics/watercress	
+food_videos_greens[0]	dozeGreens.Variety.Topic.0				
+food_videos_greens[1]	dozeGreens.Variety.Topic.1	topics/beets	topics/beets	https://nutritionfacts.org/topics/beets	
+food_videos_greens[2]	dozeGreens.Variety.Topic.2	topics/collard-greens	topics/collard-greens	https://nutritionfacts.org/topics/collard-greens	
+food_videos_greens[3]	dozeGreens.Variety.Topic.3	topics/kale	topics/kale	https://nutritionfacts.org/topics/kale	
+food_videos_greens[4]	dozeGreens.Variety.Topic.4				
+food_videos_greens[5]	dozeGreens.Variety.Topic.5	topics/mustard-greens	topics/mustard-greens	https://nutritionfacts.org/topics/mustard-greens	
+food_videos_greens[6]	dozeGreens.Variety.Topic.6				
+food_videos_greens[7]	dozeGreens.Variety.Topic.7	topics/spinach	topics/spinach	https://nutritionfacts.org/topics/spinach	
+food_videos_greens[8]	dozeGreens.Variety.Topic.8	topics/swiss-chard	topics/swiss-chard	https://nutritionfacts.org/topics/swiss-chard	
+food_videos_greens[9]	dozeGreens.Variety.Topic.9				
+food_videos_other_vegetables[0]	dozeVegetablesOther.Variety.Topic.0	topics/artichokes	topics/artichokes	https://nutritionfacts.org/topics/artichokes	
+food_videos_other_vegetables[1]	dozeVegetablesOther.Variety.Topic.1	topics/asparagus	topics/asparagus	https://nutritionfacts.org/topics/asparagus	
+food_videos_other_vegetables[2]	dozeVegetablesOther.Variety.Topic.2	topics/beets	topics/beets	https://nutritionfacts.org/topics/beets	
+food_videos_other_vegetables[3]	dozeVegetablesOther.Variety.Topic.3	topics/bell-peppers	topics/bell-peppers	https://nutritionfacts.org/topics/bell-peppers	
+food_videos_other_vegetables[4]	dozeVegetablesOther.Variety.Topic.4	topics/carrots	topics/carrots	https://nutritionfacts.org/topics/carrots	
+food_videos_other_vegetables[5]	dozeVegetablesOther.Variety.Topic.5	topics/corn	topics/corn	https://nutritionfacts.org/topics/corn	
+food_videos_other_vegetables[6]	dozeVegetablesOther.Variety.Topic.6	topics/garlic	topics/garlic	https://nutritionfacts.org/topics/garlic	
+food_videos_other_vegetables[7]	dozeVegetablesOther.Variety.Topic.7	topics/mushrooms	topics/mushrooms	https://nutritionfacts.org/topics/mushrooms	
+food_videos_other_vegetables[8]	dozeVegetablesOther.Variety.Topic.8	topics/okra	topics/okra	https://nutritionfacts.org/topics/okra	
+food_videos_other_vegetables[9]	dozeVegetablesOther.Variety.Topic.9	topics/onions	topics/onions	https://nutritionfacts.org/topics/onions	
+food_videos_other_vegetables[10]	dozeVegetablesOther.Variety.Topic.10	topics/potatoes	topics/potatoes	https://nutritionfacts.org/topics/potatoes	
+food_videos_other_vegetables[11]	dozeVegetablesOther.Variety.Topic.11	topics/pumpkin	topics/pumpkin	https://nutritionfacts.org/topics/pumpkin	
+food_videos_other_vegetables[12]	dozeVegetablesOther.Variety.Topic.12	topics/sea-vegetables	topics/sea-vegetables	https://nutritionfacts.org/topics/sea-vegetables	
+food_videos_other_vegetables[13]	dozeVegetablesOther.Variety.Topic.13				
+food_videos_other_vegetables[14]	dozeVegetablesOther.Variety.Topic.14	topics/squash	topics/squash	https://nutritionfacts.org/topics/squash	
+food_videos_other_vegetables[15]	dozeVegetablesOther.Variety.Topic.15	topics/sweet-potatoes	topics/sweet-potatoes	https://nutritionfacts.org/topics/sweet-potatoes	
+food_videos_other_vegetables[16]	dozeVegetablesOther.Variety.Topic.16	topics/tomatoes	topics/tomatoes	https://nutritionfacts.org/topics/tomatoes	
+food_videos_other_vegetables[17]	dozeVegetablesOther.Variety.Topic.17	topics/zucchini	topics/zucchini	https://nutritionfacts.org/topics/zucchini	
+food_videos_nuts[0]	dozeNuts.Variety.Topic.0	topics/almonds	topics/almonds	https://nutritionfacts.org/topics/almonds	
+food_videos_nuts[1]	dozeNuts.Variety.Topic.1	topics/brazil-nuts	topics/brazil-nuts	https://nutritionfacts.org/topics/brazil-nuts	
+food_videos_nuts[2]	dozeNuts.Variety.Topic.2	topics/cashews	topics/cashews	https://nutritionfacts.org/topics/cashews	
+food_videos_nuts[3]	dozeNuts.Variety.Topic.3	topics/chia-seeds	topics/chia-seeds	https://nutritionfacts.org/topics/chia-seeds	
+food_videos_nuts[4]	dozeNuts.Variety.Topic.4	topics/hazelnuts	topics/hazelnuts	https://nutritionfacts.org/topics/hazelnuts	
+food_videos_nuts[5]	dozeNuts.Variety.Topic.5				
+food_videos_nuts[6]	dozeNuts.Variety.Topic.6	topics/macadamia-nuts	topics/macadamia-nuts	https://nutritionfacts.org/topics/macadamia-nuts	
+food_videos_nuts[7]	dozeNuts.Variety.Topic.7	topics/pecans	topics/pecans	https://nutritionfacts.org/topics/pecans	
+food_videos_nuts[8]	dozeNuts.Variety.Topic.8	topics/pistachios	topics/pistachios	https://nutritionfacts.org/topics/pistachios	
+food_videos_nuts[9]	dozeNuts.Variety.Topic.9	topics/pumpkin-seeds	topics/pumpkin-seeds	https://nutritionfacts.org/topics/pumpkin-seeds	
+food_videos_nuts[10]	dozeNuts.Variety.Topic.10	topics/sesame-seeds	topics/sesame-seeds	https://nutritionfacts.org/topics/sesame-seeds	
+food_videos_nuts[11]	dozeNuts.Variety.Topic.11	topics/sunflower-seeds	topics/sunflower-seeds	https://nutritionfacts.org/topics/sunflower-seeds	
+food_videos_nuts[12]	dozeNuts.Variety.Topic.12	topics/walnuts	topics/walnuts	https://nutritionfacts.org/topics/walnuts	
+food_videos_spices[0]	dozeSpices.Variety.Topic.0	topics/allspice	topics/allspice	https://nutritionfacts.org/topics/allspice	
+food_videos_spices[1]	dozeSpices.Variety.Topic.1	topics/barberries	topics/barberries	https://nutritionfacts.org/topics/barberries	
+food_videos_spices[2]	dozeSpices.Variety.Topic.2	topics/basil	topics/basil	https://nutritionfacts.org/topics/basil	
+food_videos_spices[3]	dozeSpices.Variety.Topic.3				
+food_videos_spices[4]	dozeSpices.Variety.Topic.4				
+food_videos_spices[5]	dozeSpices.Variety.Topic.5				
+food_videos_spices[6]	dozeSpices.Variety.Topic.6	topics/cilantro	topics/cilantro	https://nutritionfacts.org/topics/cilantro	
+food_videos_spices[7]	dozeSpices.Variety.Topic.7	topics/cinnamon	topics/cinnamon	https://nutritionfacts.org/topics/cinnamon	
+food_videos_spices[8]	dozeSpices.Variety.Topic.8	topics/cloves	topics/cloves	https://nutritionfacts.org/topics/cloves	
+food_videos_spices[9]	dozeSpices.Variety.Topic.9				
+food_videos_spices[10]	dozeSpices.Variety.Topic.10	topics/cumin	topics/cumin	https://nutritionfacts.org/topics/cumin	
+food_videos_spices[11]	dozeSpices.Variety.Topic.11	topics/curry-powder	topics/curry-powder	https://nutritionfacts.org/topics/curry-powder	
+food_videos_spices[12]	dozeSpices.Variety.Topic.12				
+food_videos_spices[13]	dozeSpices.Variety.Topic.13	topics/fenugreek	topics/fenugreek	https://nutritionfacts.org/topics/fenugreek	
+food_videos_spices[14]	dozeSpices.Variety.Topic.14	topics/garlic	topics/garlic	https://nutritionfacts.org/topics/garlic	
+food_videos_spices[15]	dozeSpices.Variety.Topic.15	topics/ginger	topics/ginger	https://nutritionfacts.org/topics/ginger	
+food_videos_spices[16]	dozeSpices.Variety.Topic.16				
+food_videos_spices[17]	dozeSpices.Variety.Topic.17				
+food_videos_spices[18]	dozeSpices.Variety.Topic.18	topics/marjoram	topics/marjoram	https://nutritionfacts.org/topics/marjoram	
+food_videos_spices[19]	dozeSpices.Variety.Topic.19	topics/mustard-powder	topics/mustard-powder	https://nutritionfacts.org/topics/mustard-powder	
+food_videos_spices[20]	dozeSpices.Variety.Topic.20	topics/nutmeg	topics/nutmeg	https://nutritionfacts.org/topics/nutmeg	
+food_videos_spices[21]	dozeSpices.Variety.Topic.21	topics/oregano	topics/oregano	https://nutritionfacts.org/topics/oregano	
+food_videos_spices[22]	dozeSpices.Variety.Topic.22				
+food_videos_spices[23]	dozeSpices.Variety.Topic.23	topics/parsley	topics/parsley	https://nutritionfacts.org/topics/parsley	
+food_videos_spices[24]	dozeSpices.Variety.Topic.24	topics/pepper	topics/pepper	https://nutritionfacts.org/topics/pepper	
+food_videos_spices[25]	dozeSpices.Variety.Topic.25	topics/peppermint	topics/peppermint	https://nutritionfacts.org/topics/peppermint	
+food_videos_spices[26]	dozeSpices.Variety.Topic.26	topics/rosemary	topics/rosemary	https://nutritionfacts.org/topics/rosemary	
+food_videos_spices[27]	dozeSpices.Variety.Topic.27	topics/saffron	topics/saffron	https://nutritionfacts.org/topics/saffron	
+food_videos_spices[28]	dozeSpices.Variety.Topic.28				
+food_videos_spices[29]	dozeSpices.Variety.Topic.29				
+food_videos_spices[30]	dozeSpices.Variety.Topic.30	topics/turmeric	topics/turmeric	https://nutritionfacts.org/topics/turmeric	
+food_videos_spices[31]	dozeSpices.Variety.Topic.31				
+food_videos_whole_grains[0]	dozeWholeGrains.Variety.Topic.0	topics/barley	topics/barley	https://nutritionfacts.org/topics/barley	
+food_videos_whole_grains[1]	dozeWholeGrains.Variety.Topic.1	topics/buckwheat	topics/buckwheat	https://nutritionfacts.org/topics/buckwheat	
+food_videos_whole_grains[2]	dozeWholeGrains.Variety.Topic.2	topics/millet	topics/millet	https://nutritionfacts.org/topics/millet	
+food_videos_whole_grains[3]	dozeWholeGrains.Variety.Topic.3	topics/oats	topics/oats	https://nutritionfacts.org/topics/oats	
+food_videos_whole_grains[4]	dozeWholeGrains.Variety.Topic.4	topics/popcorn	topics/popcorn	https://nutritionfacts.org/topics/popcorn	
+food_videos_whole_grains[5]	dozeWholeGrains.Variety.Topic.5	topics/quinoa	topics/quinoa	https://nutritionfacts.org/topics/quinoa	
+food_videos_whole_grains[6]	dozeWholeGrains.Variety.Topic.6	topics/rye	topics/rye	https://nutritionfacts.org/topics/rye	
+food_videos_whole_grains[7]	dozeWholeGrains.Variety.Topic.7				
+food_videos_whole_grains[8]	dozeWholeGrains.Variety.Topic.8	topics/pasta	topics/pasta	https://nutritionfacts.org/topics/pasta	
+food_videos_beverages[0]	dozeBeverages.Variety.Topic.0	topics/black-tea	topics/black-tea	https://nutritionfacts.org/topics/black-tea	
+food_videos_beverages[1]	dozeBeverages.Variety.Topic.1	topics/chai-tea	topics/chai-tea	https://nutritionfacts.org/topics/chai-tea	
+food_videos_beverages[2]	dozeBeverages.Variety.Topic.2	topics/chamomile-tea	topics/chamomile-tea	https://nutritionfacts.org/topics/chamomile-tea	
+food_videos_beverages[3]	dozeBeverages.Variety.Topic.3	topics/coffee	topics/coffee	https://nutritionfacts.org/topics/coffee	
+food_videos_beverages[4]	dozeBeverages.Variety.Topic.4	topics/earl-grey-tea	topics/earl-grey-tea	https://nutritionfacts.org/topics/earl-grey-tea	
+food_videos_beverages[5]	dozeBeverages.Variety.Topic.5	topics/green-tea	topics/green-tea	https://nutritionfacts.org/topics/green-tea	
+food_videos_beverages[6]	dozeBeverages.Variety.Topic.6	topics/hibiscus-tea	topics/hibiscus-tea	https://nutritionfacts.org/topics/hibiscus-tea	
+food_videos_beverages[7]	dozeBeverages.Variety.Topic.7				
+food_videos_beverages[8]	dozeBeverages.Variety.Topic.8				
+food_videos_beverages[9]	dozeBeverages.Variety.Topic.9	topics/lemon-balm	topics/lemon-balm	https://nutritionfacts.org/topics/lemon-balm	
+food_videos_beverages[10]	dozeBeverages.Variety.Topic.10	topics/matcha	topics/matcha	https://nutritionfacts.org/topics/matcha	
+food_videos_beverages[11]	dozeBeverages.Variety.Topic.11	topics/oolong-tea	topics/oolong-tea	https://nutritionfacts.org/topics/oolong-tea	
+food_videos_beverages[12]	dozeBeverages.Variety.Topic.12	topics/peppermint	topics/peppermint	https://nutritionfacts.org/topics/peppermint	
+food_videos_beverages[13]	dozeBeverages.Variety.Topic.13	topics/rooibos-tea	topics/rooibos-tea	https://nutritionfacts.org/topics/rooibos-tea	
+food_videos_beverages[14]	dozeBeverages.Variety.Topic.14	topics/water	topics/water	https://nutritionfacts.org/topics/water	
+food_videos_beverages[15]	dozeBeverages.Variety.Topic.15	topics/white-tea	topics/white-tea	https://nutritionfacts.org/topics/white-tea	
+	dozeFlaxseeds.Variety.Topic.0				
+	dozeFlaxseeds.Variety.Topic.1				
+	dozeExercise.Variety.Topic.0				
+	dozeExercise.Variety.Topic.1				
+	dozeExercise.Variety.Topic.2				
+	dozeExercise.Variety.Topic.3				
+	dozeExercise.Variety.Topic.4				
+	dozeExercise.Variety.Topic.5				
+	dozeExercise.Variety.Topic.6				
+	dozeExercise.Variety.Topic.7				
+	dozeExercise.Variety.Topic.8				
+	dozeExercise.Variety.Topic.9				
+	dozeExercise.Variety.Topic.10				
+	dozeExercise.Variety.Topic.11				
+	dozeExercise.Variety.Topic.12				
+	dozeExercise.Variety.Topic.13				
+	dozeExercise.Variety.Topic.14				
+	dozeExercise.Variety.Topic.15				
+	dozeExercise.Variety.Topic.16				
+	dozeExercise.Variety.Topic.17				
+	dozeExercise.Variety.Topic.18				
+	dozeExercise.Variety.Topic.19				
+	dozeExercise.Variety.Topic.20				
+	dozeExercise.Variety.Topic.21				
+	dozeExercise.Variety.Topic.22				
+	dozeExercise.Variety.Topic.23				
+	dozeExercise.Variety.Topic.24				
+	dozeExercise.Variety.Topic.25				
+	dozeExercise.Variety.Topic.26				
+	dozeExercise.Variety.Topic.27				
+	dozeExercise.Variety.Topic.28				
+	dozeExercise.Variety.Topic.29				
+	dozeExercise.Variety.Topic.30				
+	dozeExercise.Variety.Topic.31				
+	dozeExercise.Variety.Topic.32				
+	dozeExercise.Variety.Topic.33				
+	dozeExercise.Variety.Topic.34				
+	dozeExercise.Variety.Topic.35				
+	dozeExercise.Variety.Topic.36				
+	dozeExercise.Variety.Topic.37				
+	dozeExercise.Variety.Topic.38				
+	dozeExercise.Variety.Topic.39				
+	dozeExercise.Variety.Topic.40				
+	dozeExercise.Variety.Topic.41				
+	dozeExercise.Variety.Topic.42				
+	dozeExercise.Variety.Topic.43				
+	dozeExercise.Variety.Topic.44				
+	dozeExercise.Variety.Topic.45				
+	dozeExercise.Variety.Topic.46				
+	dozeExercise.Variety.Topic.47				
+	dozeExercise.Variety.Topic.48				
+	dozeExercise.Variety.Topic.49				
+	dozeExercise.Variety.Topic.50				
+	dozeExercise.Variety.Topic.51				
+	dozeExercise.Variety.Topic.52				
+	dozeExercise.Variety.Topic.53				
