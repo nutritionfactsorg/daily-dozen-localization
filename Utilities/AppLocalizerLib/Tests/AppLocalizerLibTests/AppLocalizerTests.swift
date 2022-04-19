@@ -230,9 +230,40 @@ final class AppLocalizerTests: XCTestCase {
         #endif
     }
     
-    static var allTests = [
-        ("testProductsDirectory", testProductsDirectory),
-        ("testAppLocalizerLib", testAppLocalizerLib),
-        //("testAppLocalizerTool", testAppLocalizerTool),
-    ]
+    
+    func testSortHelper() {
+        let sa = [
+            "name02_11",
+            "name.22",
+            "name.3",
+            "name.11",
+            "name1_11",
+            "name",
+            "Name",
+            "name02_10",
+            "name2_10",
+            "name2_09",
+            "name0_00",
+            "name-11",
+            "naMe",
+            "name-9",
+            "name.2",
+            "name.01",
+            "name.",
+            "name0",
+            "name_"
+        ]
+        
+        let sortHelper = SortHelper(sa)
+        
+        for element in sortHelper.elementArray {
+            print(element.toString())
+        }
+                
+        let result = sortHelper.sortWithUintPostfix()
+        for string in result {
+            print("\(string)")
+        }
+    }
+    
 }

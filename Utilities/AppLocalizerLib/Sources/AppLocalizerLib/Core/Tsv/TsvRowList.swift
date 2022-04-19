@@ -51,6 +51,7 @@ struct TsvRowList {
         return false
     }
     
+    /// find `self.data[]` indices for rows which match `apple_key`
     func findIndices(appleKey: String) -> [Int] {
         var indices = [Int]()
         guard appleKey.isEmpty == false else { return indices }
@@ -62,10 +63,11 @@ struct TsvRowList {
         return indices
     }
     
-    func findIndices(comboKey: String) -> [Int] {
-        let keys = comboKey.components(separatedBy: ":")
+    /// find `self.data[]` indices for rows which match `apple_key&key_android` `primaryKey`
+    func findIndices(primaryKey: String) -> [Int] {
+        let keys = primaryKey.components(separatedBy: "&")
         guard keys.count == 2 else {
-            fatalError("comboKey must have two parts")
+            fatalError("primaryKey must have two parts: `apple_key&key_android`")
         }
         var found = [Int]()
         for i in 0 ..< data.count {
@@ -76,6 +78,7 @@ struct TsvRowList {
         return found
     }
     
+    /// find `self.data[]` indices for rows which match `key_android`
     func findIndices(droidKey: String) -> [Int] {
         var indices = [Int]()
         guard droidKey.isEmpty == false else { return indices }
@@ -87,6 +90,7 @@ struct TsvRowList {
         return indices
     }
     
+    /// find `self.data[]` indices for rows which match `base_value`
     func findIndices(baseValue: String) -> [Int] {
         var indices = [Int]()
         for i in 0 ..< data.count {
@@ -256,7 +260,7 @@ struct TsvRowList {
         }
         return result
     }
-
+    
     func applyingValues(from: TsvRowList, withKeyType: TsvKeyType, ofValueType: TsvValueType, putMode: TsvPutMode = .verbatim) -> TsvRowList {
         var result = TsvRowList(data: self.data)
         for d in from.data {
@@ -292,40 +296,34 @@ struct TsvRowList {
         return (added, dropped)
     }
 
-//    func diffContent(_ other: TsvRowList, byKeyType: TsvKeyType) -> (added: TsvRowList, dropped: TsvRowList) {
-//        let added = subtracting(other, byKeyType: byKeyType)
-//        let dropped = other.subtracting(self, byKeyType: byKeyType)
-//        var modified = TsvRowList()
-//                
-//        return (added, dropped)
-//    }
-
     func sorted() -> TsvRowList {
         var list = data
         list.sort { (a: TsvRow, b: TsvRow) -> Bool in
             // Return true to order first element before the second.
             if !a.key_apple.isEmpty && !b.key_apple.isEmpty {
                 if a.key_apple.isRandomKey == false && b.key_apple.isRandomKey == false {
-                    return a.key_apple < b.key_apple          // key_apple x key_apple
+                    return a.precedes(b, key: .appleKey)       // key_apple x key_apple
                 } else if a.key_apple.isRandomKey {
-                    return false                              // random_id x key_apple
+                    return false                               // random_id x key_apple
                 } else if b.key_apple.isRandomKey {
-                    return true                               // key_apple x random_id
+                    return true                                // key_apple x random_id
                 } else {
                     // case: apple has two random_id, check for any android keys
                     if a.key_android.isEmpty == false && b.key_android.isEmpty == false {
-                        return a.key_android < b.key_android  // key_droid x key_droid
+                        return a.precedes(b, key: .androidKey) // key_droid x key_droid
                     } else if a.key_android.isEmpty {
-                        return false                          // _________ x key_droid
+                        return false                           // _________ x key_droid
                     } else if b.key_android.isEmpty {
-                        return true                           // key_droid x _________
+                        return true                            // key_droid x _________
                     }
                 }
                 // case: two random apple keys. no android keys.
-                if a.base_value.trimmingCharacters(in: .whitespaces) == b.base_value.trimmingCharacters(in: .whitespaces) {
-                    return a.key_apple < b.key_apple          // random_id x random_id
+                let a_base_value = a.base_value.trimmingCharacters(in: .whitespaces)
+                let b_base_value = b.base_value.trimmingCharacters(in: .whitespaces)
+                if a_base_value == b_base_value {
+                    return a.precedes(b, key: .appleKey)       // random_id x random_id
                 } else {
-                    return a.base_value < b.base_value        // base_value x base_value
+                    return a.base_value < b.base_value         // base_value x base_value
                 }
             } else if a.key_apple.isEmpty == false && a.key_apple.isRandomKey == false {
                 return true                                   // key_apple x _________
@@ -334,7 +332,7 @@ struct TsvRowList {
             }
             // case: no key_apple, may have random_id
             if a.key_android.isEmpty == false && b.key_android.isEmpty == false {
-                return a.key_android < b.key_android          // key_droid x key_droid
+                return a.precedes(b, key: .androidKey)        // key_droid x key_droid
             } else if a.key_android.isEmpty == false && b.key_android.isEmpty {
                 return true                                   // key_droid x _________
             } else if a.key_android.isEmpty && b.key_android.isEmpty == false {
@@ -351,7 +349,7 @@ struct TsvRowList {
         var list = data
         list.sort { (a: TsvRow, b: TsvRow) -> Bool in
             // Return true to order first element before the second.
-            return a.key_android < b.key_android
+            return a.precedes(b, key: .androidKey)
         }
         return TsvRowList(data: list)
     }

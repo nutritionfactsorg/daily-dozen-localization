@@ -7,6 +7,26 @@ import Foundation
 
 public extension String {
     
+    func keyParts() -> (base: String, post: UInt?) {
+        let base: String
+        let postUInt: UInt?
+                                
+        if let i = UInt(self.suffix(3)) {
+            base = String(self.dropLast(3)).lowercased()
+            postUInt = i
+        } else if let i = UInt(self.suffix(2)) {
+            base = String(self.dropLast(2)).lowercased()
+            postUInt = i
+        } else if let i = UInt(self.suffix(1)) {
+            base = String(self.dropLast()).lowercased()
+            postUInt = i
+        } else {
+            base = self.lowercased()
+            postUInt = nil
+        }
+        return (base, postUInt)
+    }
+    
     //
     static func randomStatedJoinedStrings(list: [String]) -> (random: String, stated: String) {
         let lists = randomStatedSplit(list: list)

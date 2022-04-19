@@ -752,44 +752,6 @@ struct TsvSheet: TsvProtocol {
         return TsvRowList(data: recordList)
     }
     
-    static func sortRecordList(_ tsvRowList: TsvRowList) -> TsvRowList {
-        var list = tsvRowList.data
-        list.sort { (a: TsvRow, b: TsvRow) -> Bool in
-            // Return true to order first element before the second.
-            if !a.key_apple.isEmpty && !b.key_apple.isEmpty {
-                if !a.key_apple.isRandomKey && !b.key_apple.isRandomKey {
-                    return a.key_apple < b.key_apple
-                } else if !a.key_apple.isRandomKey {
-                    return true
-                } else if !b.key_apple.isRandomKey {
-                    return false
-                } else {
-                    if !a.key_android.isEmpty && !b.key_android.isEmpty {
-                        return a.key_android < b.key_android
-                    } else if !a.key_android.isEmpty {
-                        return true
-                    } else if !b.key_android.isEmpty {
-                        return false
-                    }
-                }
-                // case: two random apple keys. no android keys.
-                return a.base_value < b.base_value
-                // return a.key_apple < b.key_apple
-            } else if !a.key_apple.isEmpty && !a.key_apple.isRandomKey {
-                return true
-            } else if !b.key_apple.isEmpty && !b.key_apple.isRandomKey {
-                return false
-            }
-            if !a.key_android.isEmpty && !b.key_android.isEmpty {
-                return a.key_android < b.key_android                
-            } else if !a.key_android.isEmpty {
-                return true
-            }
-            return false
-        }
-        return TsvRowList(data: list)
-    }
-    
     // MARK: - Watch
     
     // :WATCH: setup

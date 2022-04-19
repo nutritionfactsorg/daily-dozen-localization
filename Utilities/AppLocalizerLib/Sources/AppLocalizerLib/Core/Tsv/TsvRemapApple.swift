@@ -152,6 +152,7 @@ struct TsvRemapApple {
         replaceDict["apple.info.about.3"] = "info_app_about_version"
         replaceDict["apple.info.about.4"] = "info_app_about_created_by"
         replaceDict["apple.info.about.5"] = "info_app_about_oss_credits"
+        replaceDict["info.about.title"]   = "info_app_about_heading"
         
         // Settings
         replaceDict["OZO-Xa-v5G.segmentTitles[0]"] = "setting_doze_only_choice"  // Android: daily_dozen_only
