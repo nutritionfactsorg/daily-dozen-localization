@@ -323,6 +323,7 @@ morning	historyRecordWeight.legendMorning	Morning	Morning	History View
 about	info_app_about	About	About	Info About Menu Item	
 app_name	info_app_about_app_name	Daily Dozen	Daily Dozen	Info About View: Application Name ‘Daily Dozen’	
 	info_app_about_created_by	This app was created by: NutritionFacts.org, Christi Richards, Konstantin Khokhlov, and Marc Campbell	This app was created by: NutritionFacts.org, Christi Richards, Konstantin Khokhlov, and Marc Campbell	Info About View: Created By	
+about_this_app	info_app_about_heading	About this app	About this app	Info About View	
 	info_app_about_oss_credits	The following open source libraries are used: RealmSwift, Charts, FSCalendar, SimpleAnimation, ActiveLabel.	The following open source libraries are used: RealmSwift, Charts, FSCalendar, SimpleAnimation, ActiveLabel.	Info About View: Open Source Credits	
 activity_welcome_text	info_app_about_overview	Use this app on a daily basis to keep track of the foods and advice I recommend for optimal health and longevity in my books How Not to Die and How Not to Diet.	Use this app on a daily basis to keep track of the foods and advice I recommend for optimal health and longevity in my books How Not to Die and How Not to Diet.	Info About View: Overview Text	
 android_about_text_translators	info_app_about_translators	Translators: Anke, Doron, Ricard, Ruth, Tania	Translators: Anke, Doron, Ricard, Ruth, Tania	Info About View: Contributing Translators List	
@@ -336,7 +337,6 @@ donate	info_webpage_donate	Donate	Donate	Info Menu
 open_source	info_webpage_open_source	Open Source	Open Source	Info Menu	
 subscribe	info_webpage_subscribe	Subscribe	Subscribe	Info Menu	
 latest_videos	info_webpage_videos_latest	Latest Videos	Latest Videos	Info Menu	
-about_this_app	info.about.title	About this app	About this app	Info About View	
 servings_all	item_history_completed_all	All servings	All servings	Item History Legend: ‘All completed’	
 servings_some	item_history_completed_some	Some servings	Some servings	Item History Legend: ‘Some completed’	
 history	item_history_heading	History	History	Item History Heading	
