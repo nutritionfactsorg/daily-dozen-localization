@@ -1,12 +1,4 @@
 key_droid	key_apple	base_value	lang_value	base_note	lang_note
-url_latest_videos		http://nutritionfacts.org/videos/	http://nutritionfacts.org/videos/	Videos URL: Latest Videos	
-url_how_not_to_die		https://nutritionfacts.org/book/how-not-to-die/	https://nutritionfacts.org/book/how-not-to-die/	Book URL: How Not to Die	
-url_cookbook		https://nutritionfacts.org/book/how-not-to-die-cookbook/	https://nutritionfacts.org/book/how-not-to-die-cookbook/	Book URL: How Not to Die Cookbook	
-url_how_not_to_diet		https://nutritionfacts.org/how-not-to-diet/	https://nutritionfacts.org/how-not-to-diet/	Book URL: How Not to Diet	
-url_daily_dozen_challenge		https://nutritionfacts.org/daily-dozen-challenge/	https://nutritionfacts.org/daily-dozen-challenge/	Info URL: Daily Dozen Challenge	
-url_donate		https://nutritionfacts.org/donate/	https://nutritionfacts.org/donate/	Info URL: Donate	
-url_subscribe		https://nutritionfacts.org/subscribe/	https://nutritionfacts.org/subscribe/	Info URL: Subscribe	
-url_open_source		https://nutritionfacts.org/open-source/	https://nutritionfacts.org/open-source/	Info URL: Open Source	
 	urlSegment.base	urlSegment.base	https://nutritionfacts.org/	URL path	
 	urlSegment.lang	urlSegment.lang			
 	urlSegmentInfoMenu.book	urlSegmentInfoMenu.book	book	main info menu: book	
@@ -18,3 +10,11 @@ url_open_source		https://nutritionfacts.org/open-source/	https://nutritionfacts.
 	urlSegmentInfoMenu.subscribe	urlSegmentInfoMenu.subscribe	subscribe	main info menu: subscribe	
 	urlSegmentInfoMenu.team	urlSegmentInfoMenu.team	team	team	
 	urlSegmentInfoMenu.videos	urlSegmentInfoMenu.videos	videos	main info menu: videos	
+url_cookbook		https://nutritionfacts.org/book/how-not-to-die-cookbook/	https://nutritionfacts.org/book/how-not-to-die-cookbook/	Book URL: How Not to Die Cookbook	
+url_daily_dozen_challenge		https://nutritionfacts.org/daily-dozen-challenge/	https://nutritionfacts.org/daily-dozen-challenge/	Info URL: Daily Dozen Challenge	
+url_donate		https://nutritionfacts.org/donate/	https://nutritionfacts.org/donate/	Info URL: Donate	
+url_how_not_to_die		https://nutritionfacts.org/book/how-not-to-die/	https://nutritionfacts.org/book/how-not-to-die/	Book URL: How Not to Die	
+url_how_not_to_diet		https://nutritionfacts.org/how-not-to-diet/	https://nutritionfacts.org/how-not-to-diet/	Book URL: How Not to Diet	
+url_latest_videos		http://nutritionfacts.org/videos/	http://nutritionfacts.org/videos/	Videos URL: Latest Videos	
+url_open_source		https://nutritionfacts.org/open-source/	https://nutritionfacts.org/open-source/	Info URL: Open Source	
+url_subscribe		https://nutritionfacts.org/subscribe/	https://nutritionfacts.org/subscribe/	Info URL: Subscribe	

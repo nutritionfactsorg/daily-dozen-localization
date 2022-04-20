@@ -37,6 +37,45 @@ DO_NORMAL_STRINGS
 SOURCE_TSV="English_US/tsv/English_US_en.url_topics.tsv"
 DO_NORMAL_STRINGS
 
+######################
+## Chinese_HongKong ##
+######################
+## -- (zh-Hant) process application values --
+SOURCE_TSV="Chinese_HongKong/tsv/Chinese_HongKong_zh-HK.tsv"
+SOURCE_TSV="Chinese_HongKong/tsv/Chinese_HongKong_zh-HK.additions.tsv"
+DO_NORMAL_STRINGS
+
+## -- (zh-Hant) process appstore --
+SOURCE_TSV="Chinese_HongKong/tsv/Chinese_HongKong_zh-HK.appstore.tsv"
+DO_NORMAL_STRINGS
+
+########################
+## Chinese_Simplified ##
+########################
+## -- (zh-Hans) process application values --
+SOURCE_TSV="Chinese_Simplified/tsv/Chinese_Simplified_zh-Hans.tsv"
+SOURCE_TSV="Chinese_Simplified/tsv/Chinese_Simplified_zh-Hans.additions.tsv"
+DO_NORMAL_STRINGS
+
+## -- (zh-Hant) process appstore --
+SOURCE_TSV="Chinese_Simplified/tsv/Chinese_Simplified_zh-Hans.appstore.tsv"
+DO_NORMAL_STRINGS
+
+#########################
+## Chinese_Traditional ##
+#########################
+## -- (zh-Hant) process application values --
+SOURCE_TSV="Chinese_Traditional/tsv/Chinese_Traditional_zh-Hant.tsv"
+SOURCE_TSV="Chinese_Traditional/tsv/Chinese_Traditional_zh-Hant.additions.tsv"
+DO_NORMAL_STRINGS
+
+## -- (zh-Hant) process appstore --
+SOURCE_TSV="Chinese_Traditional/tsv/Chinese_Traditional_zh-Hant.appstore.tsv"
+DO_NORMAL_STRINGS
+
+### ----- STOP HERE ----- ###
+QUIT
+
 #############
 ## Catalan ##
 #############
