@@ -1,5 +1,7 @@
 # Workflow: URL "Bookmarks"
 
+_Developer source code level detail for managing the application JSON, application XML, the English_US URL TSV reference and downstream language URL TSV files._
+
 ## Contents <a id="contents"></a>
 [Steps](#steps-) •
 [Example Batch Commands](#example-batch-commands-) •
@@ -22,15 +24,10 @@ Update the localization TSV spreadsheets files to match any updates to the Andro
 
 **Step 3. Update Localization Files**
 
-
-
 **Step 4. Check Web Link.**
-
-
 
 * Languages/English_US/ios/en.xcloc/Localized Contents/DailyDozen/App/Texts/LocalStrings/en.lproj/DozeDetailData.json
 * Languages/English_US/ios/en.xcloc/Localized Contents/DailyDozen/App/Texts/LocalStrings/en.lproj/TweakDetailData.json
-
 
 Automated process using 
 
