@@ -8,8 +8,8 @@ key_droid	key_apple	base_value	lang_value	base_note	lang_note
 	apple.store.description.6	Like this app, everything on the website is both free of ads and free of charge.	Igual que aquesta aplicació, tot el contingut del web està lliure d'anuncis i és gratuït.		
 	apple.store.description.7	Application level language selection, via Settings, requires iOS 13 or newer.	La selecció d'idioma, per mitjà de la configuració, requereix iOS 13 o superior.		
 	apple.store.promotion	Check out the Daily Dozen’s brand new functionality! Includes 21 Tweaks from the new book, How Not to Diet.	Descobreix la nova funcionalitat de la Daily Dozen! Inclou 21 Potenciadors del nou llibre, How Not to Diet.		
-	apple.store.subtitle	Track the foods recommended by NutritionFacts.org	Fes un seguiment dels aliments recomanats a NutritionFacts.org		
-android.store.title	apple.store.title	Dr. Greger’s Daily Dozen	La Dotzena Diària del Dr. Greger		
+	apple.store.subtitle	Track the foods recommended by NutritionFacts.org	Fes un seguiment dels aliments recomanats a NutritionFacts.org	Must be a maximum of 30 characters	
+android.store.title	apple.store.title	Dr. Greger’s Daily Dozen	La Dotzena Diària del Dr. Greger	Must be a maximum of 30 characters	
 	apple.store.whatsnew	Adds language support for language_name_here.	Afegeix assistència en llengua catalana.	Replace language_name_here with the translated language name for this translation.	
 store.keywords	store.keywords	vegan, nutrition, food, vegetarian, health, healthy	vegà, nutrició, menjar, vegetarià, salut, saludable		
 store.screen.0	store.screen.0	Eat. Track. Repeat. No calorie counting or macro tracking required.	Menja. Marca caselles. Repeteix. No cal comptar calories ni fer un seguiment de macronutrients.		

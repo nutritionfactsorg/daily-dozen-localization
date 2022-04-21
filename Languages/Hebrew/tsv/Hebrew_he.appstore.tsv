@@ -8,9 +8,9 @@ key_droid	key_apple	base_value	lang_value	base_note	lang_note
 	apple.store.description.6	Like this app, everything on the website is both free of ads and free of charge.	כמו האפליקציה הזו, הכל באתר אף הוא ללא פרסומות וללא תשלום.		
 	apple.store.description.7	Application level language selection, via Settings, requires iOS 13 or newer.	בחירת שפה ברמת האפליקציה, דרך הגדרות, דורשת iOS 13 ומעלה.		
 	apple.store.promotion	Check out the Daily Dozen’s brand new functionality! Includes 21 Tweaks from the new book, How Not to Diet.	בדקו את הפונקציונליות החדשה של התריסר היומי! כולל 21 כוונונים מהספר החדש "איך לא לרזות".		
-	apple.store.subtitle	Track the foods recommended by NutritionFacts.org	עקבו אחר המזונות המומלצים על ידי NutritionFacts.org		
-android.store.title	apple.store.title	Dr. Greger’s Daily Dozen	התריסר היומי של ד"ר גרגר		
-	apple.store.whatsnew	Adds language support for language_name_here.	מוסיף תמיכה בשפת [מקם את שם השפה המתורגמת כאן].	Replace language_name_here with the translated language name for this translation.	
+	apple.store.subtitle	Track the foods recommended by NutritionFacts.org	עקבו אחר המזונות המומלצים על ידי NutritionFacts.org	Must be a maximum of 30 characters	
+android.store.title	apple.store.title	Dr. Greger’s Daily Dozen	התריסר היומי של ד"ר גרגר		Must be a maximum of 30 characters	
+	apple.store.whatsnew	Adds language support for language_name_here.	מוסיף תמיכמוסיף תמיכה בשפה לעברית.	Replace language_name_here with the translated language name for this translation.	
 store.keywords	store.keywords	vegan, nutrition, food, vegetarian, health, healthy	טבעוני, תזונה, מזון, צמחוני, בריאות, בריא		
 store.screen.0	store.screen.0	Eat. Track. Repeat. No calorie counting or macro tracking required.	לאכול. לעקוב. לחזור. אין צורך לספור קלוריות או לעקוב בקנה מידה גדול.		
 store.screen.1	store.screen.1	All for free!	הכל בחינם!		

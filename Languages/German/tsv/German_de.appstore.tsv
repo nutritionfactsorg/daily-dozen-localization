@@ -8,8 +8,8 @@ key_droid	key_apple	base_value	lang_value	base_note	lang_note
 	apple.store.description.6	Like this app, everything on the website is both free of ads and free of charge.	Wie diese App ist auch alles auf der Website werbefrei und kostenlos.		
 	apple.store.description.7	Application level language selection, via Settings, requires iOS 13 or newer.	Die Sprachauswahl auf Anwendungsebene über die Einstellungen erfordert iOS 13 oder neuer.		
 	apple.store.promotion	Check out the Daily Dozen’s brand new functionality! Includes 21 Tweaks from the new book, How Not to Diet.	Entdecken Sie die brandneue Funktionalität des Täglichen Dutzend! Enthält 21 Optimierungen aus dem neuen Buch "How Not to Diet".		
-	apple.store.subtitle	Track the foods recommended by NutritionFacts.org	Verfolgen Sie die von NutritionFacts.org empfohlenen Lebensmittel		
-android.store.title	apple.store.title	Dr. Greger’s Daily Dozen	Dr. Greger's Tägliches Dutzend		
+	apple.store.subtitle	Track the foods recommended by NutritionFacts.org	Verfolgen Sie die von NutritionFacts.org empfohlenen Lebensmittel	Must be a maximum of 30 characters	
+android.store.title	apple.store.title	Dr. Greger’s Daily Dozen	Dr. Greger's Tägliches Dutzend	Must be a maximum of 30 characters	
 	apple.store.whatsnew	Adds language support for language_name_here.	Unterstützt nun auch die deutsche Sprache.	Replace language_name_here with the translated language name for this translation.	
 store.keywords	store.keywords	vegan, nutrition, food, vegetarian, health, healthy	vegan, Ernährung, Lebensmittel, vegetarisch, Gesundheit, gesund		
 store.screen.0	store.screen.0	Eat. Track. Repeat. No calorie counting or macro tracking required.	Essen. Nachverfolgen. Wiederholen. Kein Kalorienzählen oder Makro-Tracking erforderlich.		

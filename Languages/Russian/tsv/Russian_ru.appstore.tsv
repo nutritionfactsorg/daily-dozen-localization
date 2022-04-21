@@ -8,8 +8,8 @@ key_droid	key_apple	base_value	lang_value	base_note	lang_note
 	apple.store.description.6	Like this app, everything on the website is both free of ads and free of charge.	Как и это приложение, вся информация на веб-сайте бесплатная и не содержит рекламы.		
 	apple.store.description.7	Application level language selection, via Settings, requires iOS 13 or newer.	Чтобы выбрать язык приложения, вам понадобится установить iOS версии 13 или новее.		
 	apple.store.promotion	Check out the Daily Dozen’s brand new functionality! Includes 21 Tweaks from the new book, How Not to Diet.	Ознакомьтесь с новой функциональностью приложения Не сдохни! Она включает 21 уловку из новой книги Не сдохни на диете.		
-	apple.store.subtitle	Track the foods recommended by NutritionFacts.org	Отслеживайте продукты питания, рекомендованные на NutritionFacts.org		
-android.store.title	apple.store.title	Dr. Greger’s Daily Dozen	Не сдохни! доктора Грегера		
+	apple.store.subtitle	Track the foods recommended by NutritionFacts.org	Отслеживайте продукты питания, рекомендованные на NutritionFacts.org	Must be a maximum of 30 characters	
+android.store.title	apple.store.title	Dr. Greger’s Daily Dozen	Не сдохни! доктора Грегера	Must be a maximum of 30 characters	
 	apple.store.whatsnew	Adds language support for language_name_here.	Добавлена языковая поддержка Русский.	Replace language_name_here with the translated language name for this translation.	
 store.keywords	store.keywords	vegan, nutrition, food, vegetarian, health, healthy	веган, питание, еда, вегетарианский, здоровье, здоровый		
 store.screen.0	store.screen.0	Eat. Track. Repeat. No calorie counting or macro tracking required.	Ешьте. Отслеживайте. Повторяйте. Не требует подсчета калорий или иного макроконтроля.		
