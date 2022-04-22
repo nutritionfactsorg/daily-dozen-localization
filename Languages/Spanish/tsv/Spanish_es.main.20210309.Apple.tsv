@@ -7,7 +7,7 @@ key_droid	key_apple	base_value	lang_value	base_note
 	apple.info.about.0	Welcome to my Daily Dozen!	¡Bienvenido a Mi Docena Diaria!	
 	apple.info.about.1	Use this app on a daily basis to keep track of the foods and advice I recommend for optimal health and longevity in my books How Not to Die and How Not to Diet.	Utiliza esta app a diario para llevar un registro de los alimentos que recomiendo para salud óptima y longevidad en mi libro Como no Morir.	
 	apple.info.about.2	Daily Dozen	Daily Dozen	
-	apple.info.about.3	version 3.2.11	versión 3.2.11	
+	apple.info.about.3	version 3.2.15	versión 3.2.15	
 	apple.info.about.4	This app was created by: NutritionFacts.org, Christi Richards, Konstantin Khokhlov, and Marc Campbell	Esta app fue creada por: NutritionFacts.org, Christi Richards, Konstantin Khokhlov, y Marc Campbell	
 	apple.info.about.5	The following open source libraries are used: RealmSwift, Charts, FSCalendar, SimpleAnimation, ActiveLabel.	Las siguientes open source libraries fueron utilizadas: RealmSwift, Charts, FSCalendar, SimpleAnimation, y ActiveLabel.	
 back_to_today	dateBackButtonTitle	Back to today	Volver a hoy	
@@ -936,7 +936,7 @@ yes		Yes	Sí
 	Ebp-Lw-fWk.normalTitle	Advanced Utilities	Utilidades Avanzadas	
 	FBJ-Im-BZk.text	Time	Tiempo	
 	g3G-kp-d2S.text	Time 	Tiempo	
-	gX5-vX-xBe.text	version 3.2.11	versión 3.2.11	Application release version
+	gX5-vX-xBe.text	version 3.2.15	versión 3.2.15	Application release version
 	IFs-g0-SPV.footerTitle	Set to always be one unit type or enable the 'Units:' toggle button.	Configure siempre un tipo de unidad o active el botón de alternancia 'Unidades:'.	
 	M75-CQ-NVP.normalTitle	METRIC	Métrico	
 	M75-CQ-NVP.normalTitle	METRIC	Métrico	
