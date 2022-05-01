@@ -30,13 +30,13 @@ _Base Development Language_
 
 _App Localizations & Store Distribution_
 
-| Language | Android | _Google Play_ | Apple | _Apple<br>App Binary_ | _App Store<br>Region_ |
+| Language | Android | _Google Play_ | Apple | _App<br>Binary_ | _App Store †_ |
 |:------|:---:|:-----:|:-----:|:------:|:-------------:|
 | [Afrikaans][locale-af]   |   | [af][droid-af]   |   | `af` | <!-- [Namibia (NA)][apple-af-NA]@en,<br>[South Africa (ZA)][apple-af-ZA]@en --> |
 | [Arabic][locale-ar]      |   | [ar][droid-ar]   |   | `ar` | [Egypt (ar-EG)][apple-ar-EG],<br>[Saudi Arabia (ar-SA)][apple-ar-SA], ... |
 | [Bhojpuri][locale-bho]   |   | [bho][droid-bho] |   |  --  | _(not available)_ |
 | [Bulgarian][locale-bg]   | ✓ | [bg][droid-bg]   |   | `bg` | [Bulgarian (BG)][apple-bg]
-| [Catalan][locale-ca]   |   | [ca][droid-ca]   | ✓ | `ca` | [Catalonia (ca-ES)][apple-es-ca]
+| [Catalan][locale-ca]   | ✓ | [ca][droid-ca]   | ✓ | `ca` | [Spain (ca-ES)][apple-es-ca]
 | [Chinese_HongKong][locale-zh-HK]      |   | [zh-HK][droid-zh-HK]     |   | `zh-HK`   | [Hong Kong (HK)][apple-zh-HK]
 | [Chinese_Simplified][locale-zh-Hans]  |   | [zh-Hans][droid-zh-Hans] |   | `zh-Hans` | [China (CN)][apple-zh-Hans],<br>[Singapore (SG)][apple-zh-Hans-SG]
 | [Chinese_Traditional][locale-zh-Hant] | ✓ | [zh-Hant][droid-zh-Hant] |   | `zh-Hant` | [Macau (MO)][apple-zh-Hant-MO],<br>[Tiawan (TW)][apple-zh-Hant]
@@ -48,9 +48,9 @@ _App Localizations & Store Distribution_
 | [French][locale-fr]      | ✓ | [fr][droid-fr] |  | `fr` | [France (FR)][apple-fr] |
 | [French_Canada][locale-fr-CA] |   | [fr-CA][droid-fr-CA] |   | `fr-CA` | [Canada French (fr-CA)][apple-fr-ca]
 | [Georgian][locale-ka]     |   | [ka][droid-ka] |   | `ka` |
-| [German][locale-de]       | ✓, `U`, `T` | [de][droid-de] | ✓ | `de` | [Germany (DE)][apple-de]
+| [German][locale-de]       | ✓ | [de][droid-de] | ✓ | `de` | [Germany (DE)][apple-de]
 | [Greek][locale-el]        | ✓ | [el][droid-el] |   | `gr` | [Greece (GR)][apple-el-gr]
-| [Hebrew][locale-he]       | `T` | [he][droid-he] | ✓ | `he` | [Isreal (IL)][apple-he-il]
+| [Hebrew][locale-he]       | ✓ | [he][droid-he] | ✓ | `he` | [Isreal (IL)][apple-he-il]
 | [Hindi][locale-hi]        |   | [hi][droid-hi] |   | `hi` | [India (IN)][apple-hi-in]
 | [Hungarian][locale-hu]    |   | [hu][droid-hu] |   | `hu` | [Hungary (HU)][apple-hu]
 | [Italian][locale-it]      | ✓ | [it][droid-it] |   | `it` | [Italy (IT)][apple-it]
@@ -61,29 +61,33 @@ _App Localizations & Store Distribution_
 | [Mongolian][locale-mn]    |   | [mn][droid-mn] |   | `mn` |
 | [Norwegian_nb][locale-nb] |   | [nb][droid-nb] |   | `nb` | [Norway (NO)][apple-nb-no]
 | [Persian][locale-fa]      |   | [fa][droid-fa] |   | `fa` | 
-| [Polish][locale-pl]       | ✓, `U` | [pl][droid-pl] | ✓ | `pl` | [Poland (PL)][apple-pl]
-| [Portuguese][locale-pt]   | ✓, `U` | [pt][droid-pt] |   | `pt` |
-| [Portuguese_Brazil][locale-pt-BR]   | `T` | [pt-BR][droid-pt-BR] | ✓ | `pt-BR` | [Brazil (BR)][apple-pt-BR]
-| [Portuguese_Portugal][locale-pt-PT] | `T` | [pt-PT][droid-pt-PT] | ✓ | `pt-PT` | [Portugal (PT)][apple-pt]
+| [Polish][locale-pl]       | ✓ | [pl][droid-pl] | ✓ | `pl` | [Poland (PL)][apple-pl]
+| [Portuguese][locale-pt]   |  | [pt][droid-pt] |   | `pt` |
+| [Portuguese_Brazil][locale-pt-BR]   | ✓ | [pt-BR][droid-pt-BR] | ✓ | `pt-BR` | [Brazil (BR)][apple-pt-BR]
+| [Portuguese_Portugal][locale-pt-PT] | ✓ | [pt-PT][droid-pt-PT] | ✓ | `pt-PT` | [Portugal (PT)][apple-pt]
 | [Romanian][locale-ro]     | ✓ | [ro][droid-ro] |   | `ro` | [Romania (RO)][apple-ro]
-| [Russian][locale-ru]      | ✓, `U`, `T` | [ru][droid-ru] | ✓ | `ru` | [Russia (RU)][apple-ru]
+| [Russian][locale-ru]      | ✓ | [ru][droid-ru] | ✓ | `ru` | [Russia (RU)][apple-ru]
 | [Serbian_Cyrillic][locale-sr]   |   | [sr][droid-sr] |   | `sr` |
 | [Serbian_Latin][locale-sr-Latn] |   | [sr-Latn][droid-sr-Latn] |   | `sr-Latn` |
 | [Slovak][locale-sk]       |   | [sk][droid-sk] |   | `sk` | [Slovakia (SK)][apple-sk]
 | [Slovenian][locale-sl]    |   | [sl][droid-sl] |   | `sl` |
-| [Spanish][locale-es]      | ✓ | [es][droid-es] | ✓ | `es`, `mx` | [Mexico (mx)][apple-es-mx],<br>[Spain (ES)][apple-es-es]
+| [Spanish][locale-es]      | ✓ | [es][droid-es] | ✓ | `es`, `mx` | [Mexico (es-MX)][apple-es-mx],<br>[Spain (es-ES)][apple-es-es]
 | [Swedish][locale-sv]      |   | [sv][droid-sv] |   | `sv` | [Sweden (SE)][apple-sv-se]
 | [Thai][locale-th]         |   | [th][droid-th] |   | `th` | [Thailand (TH)][apple-th]
 | [Turkish][locale-tr]      |   | [tr][droid-tr] |   | `tr` | [Turkey (TR)][apple-tr]
 | [Vietnamese][locale-vi]   |   | [vi][droid-vi] |   | `vi` | [Viet Nam (VN)][apple-vi-vn]
 
-_legend:_
+_Legend:_
 
 * `P` - partial application translation received
 * `R` - application translation received and being processed
 * `T` - application in test with translation
 * `U` - application existing translation update received and being processed
-* `✓` - published through the app store
+* `✓` - _published_ through the app store
+
+_Notes:_
+
+† - The `App Store` column provides a links to example localized webpages. Every Daily Dozen application contains all published translations so that the user can have access to any of the translations anywhere in the world. The Daily Dozen application either (1) uses the language set for the device or (2) uses English if the device language is not available. For Apple iOS version 13 or newer, the user can _set the language on a per application basis_ in the iOS Settings app.
 
 <!-- Afrikaans: Namibia (af-NA), South Africa (af-ZA) -->
 [locale-af]:Languages/Afrikaans
