@@ -41,6 +41,7 @@ struct TsvRemapDroid {
     }
     
     func isPatched(_ r: TsvRow) -> String? {
+        // :WIP:???: can imperial & metric were swapped patch be removed?
         // TSV v1 fix patch: imperial & metric were swapped
         if r.key_android == "imperial" && r.base_value == "metric" {
             return "metric"

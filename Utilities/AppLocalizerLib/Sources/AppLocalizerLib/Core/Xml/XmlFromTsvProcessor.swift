@@ -51,10 +51,11 @@ struct XmlFromTsvProcessor {
         droidXmlOutputUrl: URL, 
         droidXmlDocument: XMLDocument,
         keepNontranslatable: Bool,
-        measurementInDescription: Bool = false
+        measurementInDescription: Bool = true // :WIP:???: when can measurementInDescription be removed?
     ) {
         guard let droidRootXMLElement = droidXmlDocument.rootElement() else { return }
         
+        // :WIP:???: when can measurementInDescription be removed?
         if measurementInDescription {
             // normalize/reduce %s in static imperial & metric strings XML
             measureDescriptionMerge(xmlDoc: droidXmlDocument)
@@ -101,6 +102,8 @@ struct XmlFromTsvProcessor {
         var droidXmlString = String(data: droidXmlData, encoding: .utf8)!
         // Replace `<item></item>` with `<item />`
         droidXmlString = droidXmlString.replacingOccurrences(of: "<item></item>", with: "<item />")
+        // Replace `<item/>` with `<item />`
+        droidXmlString = droidXmlString.replacingOccurrences(of: "<item/>", with: "<item />")
         do {
             try droidXmlString.write(to: droidXmlOutputUrl, atomically: true, encoding: .utf8)
         } catch {
@@ -194,6 +197,7 @@ struct XmlFromTsvProcessor {
         }
     }
     
+    /// :WIP:???: when can measureDescriptionSplit be removed? 
     mutating func measureDescriptionSplit() {
         for baseKey in XmlRemap.dozeSet {
             var i = 0
@@ -221,7 +225,8 @@ struct XmlFromTsvProcessor {
         }
     }
     
-    /// split string into description with "%s", imperial measurement, and metric measurement 
+    /// split string into description with "%s", imperial measurement, and metric measurement
+    /// :WIP:???: when can measureDescriptionSplit be removed? 
     func measureDescriptionSplit(imperial: String, metric: String) -> (description: String, imperialMeasure: String, metricMeasure: String) {
         var imperialMeasure = [Character]()
         var metricMeasure = [Character]()
@@ -286,13 +291,14 @@ struct XmlFromTsvProcessor {
         return (String(description), String(imperialMeasure), String(metricMeasure))
     }
     
-    /// 
+    /// :WIP:???: when can measureDescriptionMerge be removed? 
     mutating func measureDescriptionMerge(xmlDoc: XMLDocument) {
         for name in XmlRemap.dozeSet {
             measureDescriptionMerge(xmlDoc: xmlDoc, name: name)
         }
     }
     
+    /// :WIP:???: when can measureDescriptionMerge be removed? 
     mutating func measureDescriptionMerge(xmlDoc: XMLDocument, name: String) {
         let baseXPath = ".//string-array[@name='\(name)']"
         let imperialXPath = ".//string-array[@name='\(name)_imperial']"
