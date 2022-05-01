@@ -13,8 +13,6 @@ CLEAR_ALL
 # German_de.appstore.tsv
 
 # German_de.tsv
-# German_de.additions.tsv
-## German_de.tsv + German_de.additions.tsv
 # German/tsv/German_de.combo.tsv
 
 # German_de.20210126.tsv

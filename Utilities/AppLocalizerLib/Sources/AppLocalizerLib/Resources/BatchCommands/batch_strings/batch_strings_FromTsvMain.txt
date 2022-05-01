@@ -8,16 +8,18 @@
 ###################
 OUTPUT_NORMAL_DIRNAME="StringsViaTsvMain"
 
-## Base English_US paths into which translations are mapped
+## Base English_US directory paths from which translations are mapped
 BASE_JSON_DIR="English_US/ios/en-US_reference/LocalStrings/en.lproj"
 BASE_TSV_DIR="English_US/tsv"
-BASE_XML_URL="English_US/android/values/strings.xml"
+
+### ------ ANDROID_LANG --> NORMALIZE XML -----
+#BASE_XML_URL="English_US/android/values/strings.xml"
+### .normalized. does not fracture imperial and metric pseudo-quantity
+BASE_XML_URL="English_US/android/values/strings.normalized.xml"
 
 ## Note: currently, URL_TOPICS_TSV is the same for all languages except Spanish.
 URL_FRAGMENTS_TSV="English_US/tsv/English_US_en.url_fragments.tsv"
 URL_TOPICS_TSV="English_US/tsv/English_US_en.url_topics.tsv"
-
-### ------ ANDROID_LANG --> LOCALIZE_MAIN -----
 
 ####################################
 ## English_US: Baseline Reference ##
@@ -37,48 +39,13 @@ DO_NORMAL_STRINGS
 SOURCE_TSV="English_US/tsv/English_US_en.url_topics.tsv"
 DO_NORMAL_STRINGS
 
-######################
-## Chinese_HongKong ##
-######################
-## -- (zh-Hant) process application values --
-SOURCE_TSV="Chinese_HongKong/tsv/Chinese_HongKong_zh-HK.tsv"
-SOURCE_TSV="Chinese_HongKong/tsv/Chinese_HongKong_zh-HK.additions.tsv"
-DO_NORMAL_STRINGS
+########################################
+### COMMON TO BOTH ANDROID AND APPLE ###
+########################################
 
-## -- (zh-Hant) process appstore --
-SOURCE_TSV="Chinese_HongKong/tsv/Chinese_HongKong_zh-HK.appstore.tsv"
-DO_NORMAL_STRINGS
-
-########################
-## Chinese_Simplified ##
-########################
-## -- (zh-Hans) process application values --
-SOURCE_TSV="Chinese_Simplified/tsv/Chinese_Simplified_zh-Hans.tsv"
-SOURCE_TSV="Chinese_Simplified/tsv/Chinese_Simplified_zh-Hans.additions.tsv"
-DO_NORMAL_STRINGS
-
-## -- (zh-Hant) process appstore --
-SOURCE_TSV="Chinese_Simplified/tsv/Chinese_Simplified_zh-Hans.appstore.tsv"
-DO_NORMAL_STRINGS
-
-#########################
-## Chinese_Traditional ##
-#########################
-## -- (zh-Hant) process application values --
-SOURCE_TSV="Chinese_Traditional/tsv/Chinese_Traditional_zh-Hant.tsv"
-SOURCE_TSV="Chinese_Traditional/tsv/Chinese_Traditional_zh-Hant.additions.tsv"
-DO_NORMAL_STRINGS
-
-## -- (zh-Hant) process appstore --
-SOURCE_TSV="Chinese_Traditional/tsv/Chinese_Traditional_zh-Hant.appstore.tsv"
-DO_NORMAL_STRINGS
-
-### ----- STOP HERE ----- ###
-QUIT
-
-#############
-## Catalan ##
-#############
+##################
+## (ca) Catalan ##
+##################
 ## -- (ca) process application values --
 SOURCE_TSV="Catalan/tsv/Catalan_ca.tsv"
 DO_NORMAL_STRINGS
@@ -87,9 +54,9 @@ DO_NORMAL_STRINGS
 SOURCE_TSV="Catalan/tsv/Catalan_ca.appstore.tsv"
 DO_NORMAL_STRINGS
 
-############
-## German ##
-############
+#################
+## (de) German ##
+#################
 ## -- (de) process application values --
 SOURCE_TSV="German/tsv/German_de.tsv"
 DO_NORMAL_STRINGS
@@ -98,9 +65,39 @@ DO_NORMAL_STRINGS
 SOURCE_TSV="German/tsv/German_de.appstore.tsv"
 DO_NORMAL_STRINGS
 
-############
-## Hebrew ##
-############
+##################
+## (es) Spanish ##
+##################
+# NOTE: No Android/Apple unified update. 
+# WIP: Normalize & Diff Spanish_es.20210309.Android.tsv and Spanish_es.20210309.Apple.tsv
+
+## Note: Spanish has its own topic urls
+URL_FRAGMENTS_TSV="Spanish/tsv/Spanish_es.url_fragments.tsv"
+URL_TOPICS_TSV="Spanish/tsv/Spanish_es.url_topics.tsv"
+
+SOURCE_TSV="Spanish/tsv/Spanish_es.main.20210309.Apple.tsv"
+DO_NORMAL_STRINGS
+
+SOURCE_TSV="Spanish/tsv/Spanish_es.main.20210309.Android.tsv"
+DO_NORMAL_STRINGS
+
+SOURCE_TSV="Spanish/tsv/Spanish_es.tsv"
+SOURCE_TSV="Spanish/tsv/Spanish_es.main.20210309.Apple.tsv"
+SOURCE_TSV="Spanish/tsv/Spanish_es.main.20210309.Android.tsv"
+DO_NORMAL_STRINGS
+
+## -- (es) process appstore --
+SOURCE_TSV="Spanish/tsv/Spanish_es.appstore.tsv"
+DO_NORMAL_STRINGS
+
+## Note: re-setting URL_TOPICS_TSV to English_US 
+##       as used by languages other than Spanish.
+URL_FRAGMENTS_TSV="English_US/tsv/English_US_en.url_fragments.tsv"
+URL_TOPICS_TSV="English_US/tsv/English_US_en.url_topics.tsv"
+
+#################
+## (he) Hebrew ##
+#################
 ## -- (he) process application values --
 SOURCE_TSV="Hebrew/tsv/Hebrew_he.tsv"
 DO_NORMAL_STRINGS
@@ -109,9 +106,13 @@ DO_NORMAL_STRINGS
 SOURCE_TSV="Hebrew/tsv/Hebrew_he.appstore.tsv"
 DO_NORMAL_STRINGS
 
-############
-## Polish ##
-############
+## -- (iw) process application values --
+SOURCE_TSV="Hebrew/tsv/Hebrew_iw.tsv"
+DO_NORMAL_STRINGS
+
+#################
+## (pl) Polish ##
+#################
 ## -- (pl) process application values --
 SOURCE_TSV="Polish/tsv/Polish_pl.tsv"
 DO_NORMAL_STRINGS
@@ -120,9 +121,9 @@ DO_NORMAL_STRINGS
 SOURCE_TSV="Polish/tsv/Polish_pl.appstore.tsv"
 DO_NORMAL_STRINGS
 
-################
-## Portuguese ##
-################
+#####################
+## (pt) Portuguese ##
+#####################
 ## -- (pt) process application values --
 SOURCE_TSV="Portuguese/tsv/Portuguese_pt.tsv"
 DO_NORMAL_STRINGS
@@ -131,9 +132,9 @@ DO_NORMAL_STRINGS
 SOURCE_TSV="Portuguese/tsv/Portuguese_pt.appstore.tsv"
 DO_NORMAL_STRINGS
 
-#######################
-## Portuguese_Brazil ##
-#######################
+################################
+## (pt-rBR) Portuguese_Brazil ##
+################################
 ## -- (pt-rBR) process application values --
 SOURCE_TSV="Portuguese_Brazil/tsv/Portuguese_pt-rBR.tsv"
 DO_NORMAL_STRINGS
@@ -142,9 +143,9 @@ DO_NORMAL_STRINGS
 SOURCE_TSV="Portuguese_Brazil/tsv/Portuguese_pt-rBR.appstore.tsv"
 DO_NORMAL_STRINGS
 
-#########################
-## Portuguese_Portugal ##
-#########################
+##################################
+## (pt-rPT) Portuguese_Portugal ##
+##################################
 ## -- (pt-rPT) process application values --
 SOURCE_TSV="Portuguese_Portugal/tsv/Portuguese_pt-rPT.tsv"
 DO_NORMAL_STRINGS
@@ -153,9 +154,9 @@ DO_NORMAL_STRINGS
 SOURCE_TSV="Portuguese_Portugal/tsv/Portuguese_pt-rPT.appstore.tsv"
 DO_NORMAL_STRINGS
 
-#############
-## Russian ##
-#############
+##################
+## (ru) Russian ##
+##################
 ## -- (ru) process application values --
 SOURCE_TSV="Russian/tsv/Russian_ru.tsv"
 DO_NORMAL_STRINGS
@@ -164,25 +165,104 @@ DO_NORMAL_STRINGS
 SOURCE_TSV="Russian/tsv/Russian_ru.appstore.tsv"
 DO_NORMAL_STRINGS
 
-### ----- STOP HERE ----- ###
-QUIT
+########################################
+### ------- ANDROID SPECIFIC ------- ###
+########################################
 
-#############
-## Spanish ##
-#############
-# NOTE: No Android/Apple unified update. 
-# WIP: Normalize & Diff Spanish_es.20210309.Android.tsv and Spanish_es.20210309.Apple.tsv
-
-## Note: Spanish has its own topic urls
-URL_FRAGMENTS_TSV="Spanish/tsv/Spanish_es.url_fragments.tsv"
-URL_TOPICS_TSV="Spanish/tsv/Spanish_es.url_topics.tsv"
-
-SOURCE_TSV="Spanish/tsv/Spanish_es.20210309.Android.tsv"
+####################
+## (bg) Bulgarian ##
+####################
+## -- (bg) process application values --
+SOURCE_TSV="Bulgarian/tsv/Bulgarian_bg.tsv"
+SOURCE_TSV="Bulgarian/tsv/Bulgarian_bg.additions.tsv"
 DO_NORMAL_STRINGS
 
-SOURCE_TSV="Spanish/tsv/Spanish_es.20210309.Apple.tsv"
+## -- (bg) process appstore --
+SOURCE_TSV="Bulgarian/tsv/Bulgarian_bg.appstore.tsv"
 DO_NORMAL_STRINGS
 
-## Note: setting URL_TOPICS_TSV to English_US as used by languages other than Spanish.
-URL_FRAGMENTS_TSV="English_US/tsv/English_US_en.url_fragments.tsv"
-URL_TOPICS_TSV="English_US/tsv/English_US_en.url_topics.tsv"
+################
+## (el) Greek ##
+################
+## -- (el) process application values --
+SOURCE_TSV="Greek/tsv/Greek_el.tsv"
+SOURCE_TSV="Greek/tsv/Greek_el.additions.tsv"
+DO_NORMAL_STRINGS
+
+## -- (el) process appstore --
+SOURCE_TSV="Greek/tsv/Greek_el.appstore.tsv"
+DO_NORMAL_STRINGS
+
+#################
+## (fr) French ##
+#################
+## -- (fr) process application values --
+SOURCE_TSV="French/tsv/French_fr.tsv"
+SOURCE_TSV="French/tsv/French_fr.additions.tsv"
+DO_NORMAL_STRINGS
+
+## -- (fr) process appstore --
+SOURCE_TSV="French/tsv/French_fr.appstore.tsv"
+DO_NORMAL_STRINGS
+
+##################
+## (it) Italian ##
+##################
+## -- (it) process application values --
+SOURCE_TSV="Italian/tsv/Italian_it.tsv"
+SOURCE_TSV="Italian/tsv/Italian_it.additions.tsv"
+DO_NORMAL_STRINGS
+
+## -- (it) process appstore --
+SOURCE_TSV="Italian/tsv/Italian_it.appstore.tsv"
+DO_NORMAL_STRINGS
+
+##################
+## (ro) Romanian ##
+##################
+## -- (ro) process application values --
+SOURCE_TSV="Romanian/tsv/Romanian_ro.tsv"
+SOURCE_TSV="Romanian/tsv/Romanian_ro.additions.tsv"
+DO_NORMAL_STRINGS
+
+## -- (ro) process appstore --
+SOURCE_TSV="Romanian/tsv/Romanian_ro.appstore.tsv"
+DO_NORMAL_STRINGS
+
+############################################
+### ------- TRANSLATION IN PROCESS ------- #
+############################################
+
+######################
+## Chinese_HongKong ##
+######################
+## Hong Kong generally uses Traditional logogram characters
+## -- (zh-HK) process application values --
+SOURCE_TSV="Chinese_HongKong/tsv/Chinese_HongKong_zh-HK.tsv"
+DO_NORMAL_STRINGS
+
+## -- (zh-HK) process appstore --
+SOURCE_TSV="Chinese_HongKong/tsv/Chinese_HongKong_zh-HK.appstore.tsv"
+DO_NORMAL_STRINGS
+
+########################
+## Chinese_Simplified ##
+########################
+## -- (zh-Hans) process application values --
+SOURCE_TSV="Chinese_Simplified/tsv/Chinese_Simplified_zh-Hans.tsv"
+DO_NORMAL_STRINGS
+
+## -- (zh-Hans) process appstore --
+SOURCE_TSV="Chinese_Simplified/tsv/Chinese_Simplified_zh-Hans.appstore.tsv"
+DO_NORMAL_STRINGS
+
+#########################
+## Chinese_Traditional ##
+#########################
+## -- (zh-Hant) process application values --
+SOURCE_TSV="Chinese_Traditional/tsv/Chinese_Traditional_zh-Hant.tsv"
+DO_NORMAL_STRINGS
+
+## -- (zh-Hant) process appstore --
+SOURCE_TSV="Chinese_Traditional/tsv/Chinese_Traditional_zh-Hant.appstore.tsv"
+DO_NORMAL_STRINGS

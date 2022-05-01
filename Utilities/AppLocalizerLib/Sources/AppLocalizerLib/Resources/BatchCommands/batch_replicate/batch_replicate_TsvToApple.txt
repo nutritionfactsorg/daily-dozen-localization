@@ -9,8 +9,6 @@
 ####################
 ## "$XCLOC_NEW/bg.xcloc" "$LANGUAGES/Bulgarian/ios"
 SOURCE_TSV="Bulgarian/tsv/Bulgarian_bg.tsv"
-#SOURCE_TSV="Bulgarian/tsv/Bulgarian_bg.additions.tsv"
-#SOURCE_TSV="Bulgarian/tsv/Bulgarian_bg.appstore.tsv"
 OUTPUT_DROID="Bulgarian/android/values-bg/strings.xml"
 OUTPUT_APPLE="Bulgarian/ios/bg.xcloc/Localized Contents/bg.xliff"
 DO_IMPORT_TSV
@@ -20,7 +18,6 @@ DO_IMPORT_TSV
 ###################################
 ## "$XCLOC_NEW/zh-Hant.xcloc" "$LANGUAGES/Chinese_Traditional/ios"
 SOURCE_TSV="Chinese_Traditional/tsv/Chinese_Traditional_zh-Hant.tsv"
-#SOURCE_TSV="Chinese_Traditional/tsv/Chinese_Traditional_zh-Hant.additions.tsv"
 #SOURCE_TSV="Chinese_Traditional/tsv/Chinese_Traditional_zh-Hant.appstore.tsv"
 OUTPUT_DROID="Chinese_Traditional/android/values-zh/strings.xml"
 OUTPUT_APPLE="Chinese_Traditional/ios/zh-Hant.xcloc/Localized Contents/zh-Hant.xliff"
@@ -34,7 +31,6 @@ QUIT
 #################
 ## "$XCLOC_NEW/de.xcloc" "$LANGUAGES/German/ios"
 SOURCE_TSV="German/tsv/German_de.tsv"
-#SOURCE_TSV="German/tsv/German_de.additions.tsv"
 #SOURCE_TSV="German/tsv/German_de.appstore.tsv"
 OUTPUT_DROID="German/android/values-de/strings.xml"
 OUTPUT_APPLE="German/ios/de.xcloc/Localized Contents/de.xliff"
@@ -45,7 +41,6 @@ DO_IMPORT_TSV
 ################
 ## "$XCLOC_NEW/el.xcloc" "$LANGUAGES/Greek/ios"
 SOURCE_TSV="Greek/tsv/Greek_el.tsv"
-#SOURCE_TSV="Greek/tsv/Greek_el.additions.tsv"
 #SOURCE_TSV="Greek/tsv/Greek_el.appstore.tsv"
 OUTPUT_DROID="Greek/android/values-el/strings.xml"
 OUTPUT_APPLE="Greek/ios/el.xcloc/Localized Contents/el.xliff"
@@ -56,7 +51,6 @@ DO_IMPORT_TSV
 ##################
 ## "$XCLOC_NEW/it.xcloc" "$LANGUAGES/Italian/ios"
 SOURCE_TSV="Italian/tsv/Italian_it.tsv"
-#SOURCE_TSV="Italian/tsv/Italian_it.additions.tsv"
 #SOURCE_TSV="Italian/tsv/Italian_it.appstore.tsv"
 OUTPUT_DROID="Italian/android/values-it/strings.xml"
 OUTPUT_APPLE="Italian/ios/it.xcloc/Localized Contents/it.xliff"
@@ -67,7 +61,6 @@ DO_IMPORT_TSV
 #####################
 ## "$XCLOC_NEW/pt.xcloc" "$LANGUAGES/Portuguese/ios"
 SOURCE_TSV="Portuguese/tsv/Portuguese_pt.tsv"
-#SOURCE_TSV="Portuguese/tsv/Portuguese_pt.additions.tsv"
 #SOURCE_TSV="Portuguese/tsv/Portuguese_pt.appstore.tsv"
 OUTPUT_DROID="Portuguese/android/values-pt/strings.xml"
 OUTPUT_APPLE="Portuguese/ios/pt.xcloc/Localized Contents/pt.xliff"
@@ -78,7 +71,6 @@ DO_IMPORT_TSV
 ###################
 ## "$XCLOC_NEW/ro.xcloc" "$LANGUAGES/Romanian/ios"
 SOURCE_TSV="Romanian/tsv/Romanian_ro.tsv"
-#SOURCE_TSV="Romanian/tsv/Romanian_ro.additions.tsv"
 #SOURCE_TSV="Romanian/tsv/Romanian_ro.appstore.tsv"
 OUTPUT_DROID="Romanian/android/values-ro/strings.xml"
 OUTPUT_APPLE="Romanian/ios/ro.xcloc/Localized Contents/ro.xliff"
@@ -89,7 +81,6 @@ DO_IMPORT_TSV
 ###################
 ## "$XCLOC_NEW/ru.xcloc" "$LANGUAGES/Russian/ios"
 SOURCE_TSV="Russian/tsv/Russian_ru.tsv"
-#SOURCE_TSV="Russian/tsv/Russian_ru.additions.tsv"
 #SOURCE_TSV="Russian/tsv/Russian_ru.appstore.tsv"
 OUTPUT_DROID="Russian/android/values-ru/strings.xml"
 OUTPUT_APPLE="Russian/ios/ru.xcloc/Localized Contents/ru.xliff"
@@ -104,7 +95,6 @@ QUIT
 #################
 ## "$XCLOC_NEW/fr.xcloc" "$LANGUAGES/French/ios"
 SOURCE_TSV="French/tsv/French_fr.tsv"
-#SOURCE_TSV="French/tsv/French_fr.additions.tsv"
 #SOURCE_TSV="French/tsv/French_fr.appstore.tsv"
 OUTPUT_DROID="French/android/values-fr/strings.xml"
 OUTPUT_APPLE="French/ios/fr.xcloc/Localized Contents/fr.xliff"
