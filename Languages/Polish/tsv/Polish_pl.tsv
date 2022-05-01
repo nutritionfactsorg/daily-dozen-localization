@@ -481,7 +481,7 @@ enable_daily_reminder		Enable Daily Reminder	Włącz codzienne przypomnienia	On/
 error_cannot_handle_url		Could not open url. Please install a browser.	Nie można otworzyć adresu URL. Proszę zainstalować przeglądarkę.		
 food_history		Food History	Historia Posiłków		
 food_info		Food Info	Informacja o Pokarmach		
-format_version		version %s	wersja %s		
+format_version		version %1$s	wersja %1$s		
 history_to_generate		History to Generate	Historia do wygenerowania		
 history_to_generate_choices.0		1 month	1 miesiąc		
 history_to_generate_choices.1		3 months	3 miesiące		

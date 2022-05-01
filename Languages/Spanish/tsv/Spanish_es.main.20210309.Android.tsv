@@ -855,7 +855,7 @@ food_info		Food Info	Información alimenticia
 for_health_alone	atR-un-jgX.text	For Health Alone	Solo para ganar salud	
 for_health_and_weight_loss	OdG-YQ-lT8.text	For Health and Weight Loss	Para ganar salud y perder peso	
 format_num_days	streakDaysFormat	%d days	%d días	Formatted string %d days
-format_version		version %s	versión %s	
+format_version		version %1$s	versión %1$s	
 history	sLd-Kq-bLv.text	History	Historial	
 history_to_generate		History to Generate	Historial a generar	
 history_to_generate_choices.0		1 month	1 mes	
