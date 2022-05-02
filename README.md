@@ -62,9 +62,8 @@ _App Localizations & Store Distribution_
 | [Norwegian_nb][locale-nb] |   | [nb][droid-nb] |   | `nb` | [Norway (NO)][apple-nb-no]
 | [Persian][locale-fa]      |   | [fa][droid-fa] |   | `fa` | 
 | [Polish][locale-pl]       | ✓ | [pl][droid-pl] | ✓ | `pl` | [Poland (PL)][apple-pl]
-| [Portuguese][locale-pt]   |  | [pt][droid-pt] |   | `pt` |
 | [Portuguese_Brazil][locale-pt-BR]   | ✓ | [pt-BR][droid-pt-BR] | ✓ | `pt-BR` | [Brazil (BR)][apple-pt-BR]
-| [Portuguese_Portugal][locale-pt-PT] | ✓ | [pt-PT][droid-pt-PT] | ✓ | `pt-PT` | [Portugal (PT)][apple-pt]
+| [Portuguese_Portugal][locale-pt-PT] | ✓ | [pt-PT][droid-pt-PT] | ✓ | `pt-PT` | [Portugal (PT)][apple-pt-PT]
 | [Romanian][locale-ro]     | ✓ | [ro][droid-ro] |   | `ro` | [Romania (RO)][apple-ro]
 | [Russian][locale-ru]      | ✓ | [ru][droid-ru] | ✓ | `ru` | [Russia (RU)][apple-ru]
 | [Serbian_Cyrillic][locale-sr]   |   | [sr][droid-sr] |   | `sr` |
@@ -87,7 +86,7 @@ _Legend:_
 
 _Notes:_
 
-† - The `App Store` column provides a links to example localized webpages. Every Daily Dozen application contains all published translations so that the user can have access to any of the translations anywhere in the world. The Daily Dozen application either (1) uses the language set for the device or (2) uses English if the device language is not available. For Apple iOS version 13 or newer, the user can _set the language on a per application basis_ in the iOS Settings app.
+† - The `App Store` column provides a links to example localized webpages. Every Daily Dozen application contains all published translations so that the user can have access to any of the in-app translations anywhere in the world. The Daily Dozen application is either (1) based on the user's language setting for the device or (2) uses English if a dialect for the device language is not available. For Apple iOS version 13 or newer, the user can _set the language on a per application basis_ in the iOS Settings app.
 
 <!-- Afrikaans: Namibia (af-NA), South Africa (af-ZA) -->
 [locale-af]:Languages/Afrikaans
@@ -242,12 +241,6 @@ _Notes:_
 [locale-pl]:Languages/Polish
 [droid-pl]:https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen&hl=pl
 [apple-pl]:https://apps.apple.com/pl/app/dr-gregers-daily-dozen/id1060700802?l=pl
-
-<!-- Portuguese -->
-[locale-pt]:Languages/Portuguese
-[droid-pt]:https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen&hl=pt
-[apple-pt]:https://apps.apple.com/pt/app/dr-gregers-daily-dozen/id1060700802
-[apple-pt]:https://apps.apple.com/pt/app/dr-gregers-daily-dozen/id1060700802
 
 <!-- Portuguese_Brazil -->
 [locale-pt-BR]:Languages/Portuguese_Brazil

@@ -123,15 +123,6 @@ DO_NORMAL_STRINGS
 
 #####################
 ## (pt) Portuguese ##
-#####################
-## -- (pt) process application values --
-SOURCE_TSV="Portuguese/tsv/Portuguese_pt.tsv"
-DO_NORMAL_STRINGS
-
-## -- (pt) process appstore --
-SOURCE_TSV="Portuguese/tsv/Portuguese_pt.appstore.tsv"
-DO_NORMAL_STRINGS
-
 ################################
 ## (pt-rBR) Portuguese_Brazil ##
 ################################

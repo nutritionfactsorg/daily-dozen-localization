@@ -77,20 +77,6 @@ SOURCE_enUS_DROID="English_US/android/values/strings.xml"
 SOURCE_LANG_DROID="Italian/android/values-it/strings.xml"
 DO_EXPORT_TSV
 
-#####################
-### Portuguese_pt ###
-#####################
-## "$XCLOC_NEW/pt.xcloc" "$LANGUAGES/Portuguese/ios"
-OUTPUT_LANG_TSV="Portuguese/tsv/Portuguese_pt.tsv"
-SOURCE_enUS_TSV="English_US/tsv/English_US_en.20210309.tsv"
-## Apple (inital pass)
-SOURCE_enUS_APPLE="English_US/ios/en.xcloc/Localized Contents/en.xliff"
-SOURCE_LANG_APPLE="Portuguese/ios/pt.xcloc/Localized Contents/pt.xliff"
-## Android (priority overwrite pass)
-SOURCE_enUS_DROID="English_US/android/values/strings.xml"
-SOURCE_LANG_DROID="Portuguese/android/values-pt/strings.xml"
-DO_EXPORT_TSV
-
 ###################
 ### Romanian_ro ###
 ###################

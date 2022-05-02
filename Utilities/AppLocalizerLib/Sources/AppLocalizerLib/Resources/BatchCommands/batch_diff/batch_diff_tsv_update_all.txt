@@ -248,14 +248,6 @@ CLEAR_ALL
 ### UPDATE DIFF ###
 ###################
 DIFF_TSV_A="English_US/tsv/English_US_en.20210309.tsv"
-DIFF_TSV_B="Portuguese/tsv/Portuguese_pt.tsv"
-DO_DIFF_KEYS
-CLEAR_ALL
-
-###################
-### UPDATE DIFF ###
-###################
-DIFF_TSV_A="English_US/tsv/English_US_en.20210309.tsv"
 DIFF_TSV_B="Portuguese_Brazil/tsv/Portuguese_pt_BR.tsv"
 DO_DIFF_KEYS
 CLEAR_ALL

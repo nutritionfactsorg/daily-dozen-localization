@@ -122,12 +122,6 @@ DO_NORMAL_STRINGS
 SOURCE_TSV="Polish/tsv/Polish_pl.tsv"
 DO_NORMAL_STRINGS
 
-SOURCE_TSV="Portuguese/tsv/Portuguese_pt.tsv"
-DO_NORMAL_STRINGS
-
-SOURCE_TSV="Portuguese/tsv/Portuguese_pt.20211015_1935.tsv"
-DO_NORMAL_STRINGS
-
 SOURCE_TSV="Portuguese_Brazil/tsv/Portuguese_pt-rBR.tsv"
 DO_NORMAL_STRINGS
 

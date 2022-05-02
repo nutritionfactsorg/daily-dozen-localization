@@ -56,16 +56,6 @@ OUTPUT_DROID="Italian/android/values-it/strings.xml"
 OUTPUT_APPLE="Italian/ios/it.xcloc/Localized Contents/it.xliff"
 DO_IMPORT_TSV
 
-#####################
-### Portuguese_pt ###
-#####################
-## "$XCLOC_NEW/pt.xcloc" "$LANGUAGES/Portuguese/ios"
-SOURCE_TSV="Portuguese/tsv/Portuguese_pt.tsv"
-#SOURCE_TSV="Portuguese/tsv/Portuguese_pt.appstore.tsv"
-OUTPUT_DROID="Portuguese/android/values-pt/strings.xml"
-OUTPUT_APPLE="Portuguese/ios/pt.xcloc/Localized Contents/pt.xliff"
-DO_IMPORT_TSV
-
 ###################
 ### Romanian_ro ###
 ###################
