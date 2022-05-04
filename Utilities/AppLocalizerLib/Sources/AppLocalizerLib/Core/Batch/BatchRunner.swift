@@ -36,16 +36,17 @@ struct BatchRunner {
         // Batch Import Parameters
         var baseJsonDir: URL?
         var baseXmlUrl: URL?
-        var sourceTSV: [URL]?  // Batch: import, normal
+        var sourceListTSV: [URL]?  // Batch: import, normal
         var outputDroid: URL?
         var outputApple: URL?
         // Batch Normal Parameters
-        var sourceStrings: [URL]?   // Batch: normal
+        var sourceStrings: [URL]? // Batch: normal
         var sourceXLIFF: URL?     // Batch: normal
+        var sourceXML: URL?       // Batch: normal
         var outputNormalDir: URL? // Batch: normal
-        var baseTsvDir: URL?  // Batch: normal
-        var urlFragmentsTsv: URL?  // Batch: normal
-        var urlTopicsTsv: URL?  // Batch: normal
+        var baseListTsv: [URL]?   // Batch: normal
+        var urlFragmentsTsv: URL? // Batch: normal
+        var urlTopicsTsv: URL?    // Batch: normal
         
         guard let commands = try? String(contentsOf: commandsUrl) else {
             fatalError("could not read commands")
@@ -62,7 +63,7 @@ struct BatchRunner {
                 BatchExport.shared.clearAll()
                 BatchImport.shared.clearAll()
                 baseJsonDir = nil
-                baseTsvDir = nil
+                baseListTsv = nil
                 baseXmlUrl = nil
                 diffTsvA = nil
                 diffTsvB = nil
@@ -77,8 +78,9 @@ struct BatchRunner {
                 sourceEnUSApple = nil
                 sourceLangApple = nil
                 sourceStrings = nil
-                sourceTSV = nil
+                sourceListTSV = nil
                 sourceXLIFF = nil
+                sourceXML = nil
                 outputDroid = nil
                 outputApple = nil
                 outputNormalDir = nil
@@ -146,7 +148,7 @@ struct BatchRunner {
                     let sourceLangDroid = sourceLangDroid,
                     let sourceEnUSApple = sourceEnUSApple,
                     let sourceLangApple = sourceLangApple
-                   {
+                {
                     BatchExport.shared.doExport(
                         outputLangTsv: outputLangTsv,
                         sourceEnUSTsv: sourceEnUSTsv,
@@ -154,7 +156,7 @@ struct BatchRunner {
                         sourceLangDroid: sourceLangDroid, 
                         sourceEnUSApple: sourceEnUSApple, 
                         sourceLangApple: sourceLangApple
-                        )
+                    )
                 } else {
                     print(":ERROR: DO_EXPORT_TSV some required url missing.")
                 }
@@ -169,10 +171,10 @@ struct BatchRunner {
             }
             else if command.cmdKey.hasPrefix("SOURCE_TSV") {
                 if let url = command.cmdUrl {
-                    if sourceTSV == nil {
-                        sourceTSV = [URL]()
+                    if sourceListTSV == nil {
+                        sourceListTSV = [URL]()
                     }
-                    sourceTSV?.append(url)
+                    sourceListTSV?.append(url)
                 }
             } 
             else if command.cmdKey.hasPrefix("BASE_JSON_DIR") {
@@ -180,9 +182,12 @@ struct BatchRunner {
                     baseJsonDir = url
                 }
             }
-            else if command.cmdKey.hasPrefix("BASE_TSV_DIR") {
+            else if command.cmdKey.hasPrefix("BASE_TSV_ALL") {
                 if let url = command.cmdUrl {
-                    baseTsvDir = url
+                    if baseListTsv == nil {
+                        baseListTsv = [URL]()
+                    }
+                    baseListTsv?.append(url)
                 }
             }
             else if command.cmdKey.hasPrefix("BASE_XML_URL") {
@@ -203,6 +208,9 @@ struct BatchRunner {
             else if command.cmdKey.hasPrefix("SOURCE_XLIFF") {
                 sourceXLIFF = command.cmdUrl
             }
+            else if command.cmdKey.hasPrefix("SOURCE_XML") {
+                sourceXML = command.cmdUrl
+            }
             else if command.cmdKey.hasPrefix("OUTPUT_APPLE") {
                 outputApple = command.cmdUrl
             } 
@@ -214,7 +222,7 @@ struct BatchRunner {
                 outputNormalDir = command.cmdUrl
             }
             else if command.cmdKey.hasPrefix("DO_IMPORT_TSV") {
-                if let sourceTSV = sourceTSV {
+                if let sourceTSV = sourceListTSV {
                     BatchImport.shared.doImport(sourceTSV: sourceTSV, 
                              outputAndroid: outputDroid, 
                              outputApple: outputApple)
@@ -226,23 +234,38 @@ struct BatchRunner {
                 print("\n##### ----- DO_NORMAL_STRINGS ----- ######")
                 guard 
                     let outputNormalDir = outputNormalDir,
-                    (sourceStrings != nil || sourceTSV != nil || sourceXLIFF != nil)
+                    (sourceStrings != nil || sourceListTSV != nil || sourceXLIFF != nil || sourceXML != nil)
                 else {
                     print(":ERROR: DO_NORMAL_STRINGS missing required url(s)")
                     continue
                 }
+                // GIVEN: `.strings` source list
                 if let source = sourceStrings {
                     BatchNormal.shared.doNormalize(sourceStrings: source, resultsDir: outputNormalDir)
                     sourceStrings = nil
                 }
-                if let source = sourceTSV, let baseJsonDir = baseJsonDir, let baseTsvDir = baseTsvDir, let baseXmlUrl = baseXmlUrl, let fragments = urlFragmentsTsv, let topics = urlTopicsTsv {
-                    BatchNormal.shared.doNormalize(sourceTSV: source, resultsDir: outputNormalDir, baseJsonDir: baseJsonDir, baseTsvDir: baseTsvDir, baseTsvUrlFragments: fragments, baseTsvUrlTopics: topics, baseXmlUrl: baseXmlUrl)
-                    sourceTSV = nil
+                // GIVEN: `.tsv` source list
+                if let source = sourceListTSV, let baseJsonDir = baseJsonDir, let baseListTsv = baseListTsv, let baseXmlUrl = baseXmlUrl, let fragments = urlFragmentsTsv, let topics = urlTopicsTsv {
+                    BatchNormal.shared.doNormalize(sourceTSV: source, resultsDir: outputNormalDir, baseJsonDir: baseJsonDir, baseListTsv: baseListTsv, baseTsvUrlFragments: fragments, baseTsvUrlTopics: topics, baseXmlUrl: baseXmlUrl)
+                    sourceListTSV = nil
                 }
+                // GIVEN: `.xliff` source list
                 if let source = sourceXLIFF {
                     BatchNormal.shared.doNormalize(sourceXLIFF: source, resultsDir: outputNormalDir)
                     sourceXLIFF = nil
                 }
+                // GIVEN: `.xml` source list
+                if let sourceXml = sourceXML, let sourceListTsv = sourceListTSV, let baseListTsv = baseListTsv, let baseXmlUrl = baseXmlUrl, let fragments = urlFragmentsTsv, let topics = urlTopicsTsv {
+                    BatchNormal.shared.doNormalizeXMLOnly(
+                        sourceXML: sourceXml, 
+                        sourceTSV: sourceListTsv, 
+                        resultsDir: outputNormalDir, 
+                        baseListTsv: baseListTsv, 
+                        baseTsvUrlFragments: fragments, 
+                        baseTsvUrlTopics: topics, 
+                        baseXmlUrl: baseXmlUrl)
+                    sourceXML = nil
+                } 
             }
             // Quit
             else if command.cmdKey.hasPrefix("QUIT") {

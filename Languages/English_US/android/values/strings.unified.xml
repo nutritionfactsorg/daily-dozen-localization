@@ -343,7 +343,7 @@
     </integer-array>
     <string-array name="about_text_lines">
         <item>This app was created by John Slavick.</item>
-        <item/>
+        <item />
         <item>The following open source libraries are used: ActiveAndroid, android-iconify, EventBus, LikeAnimation, and MPAndroidChart.</item>
     </string-array>
     <string-array name="backup_instructions_lines">
@@ -732,19 +732,19 @@
     -->
     <string-array name="food_videos_beans" translatable="false">
         <item>black-beans</item>
-        <item/>
-        <item/>
-        <item/>
+        <item />
+        <item />
+        <item />
         <item>chickpeas</item>
         <item>edamame</item>
-        <item/>
-        <item/>
+        <item />
+        <item />
         <item>kidney-beans</item>
         <item>lentils</item>
         <item>miso</item>
         <item>navy-beans</item>
         <item>pinto-beans</item>
-        <item/>
+        <item />
         <item>split-peas</item>
         <item>tempeh</item>
     </string-array>
@@ -757,8 +757,8 @@
         <item>grapes</item>
         <item>cranberries</item>
         <item>goji-berries</item>
-        <item/>
-        <item/>
+        <item />
+        <item />
         <item>raspberries</item>
         <item>strawberries</item>
     </string-array>
@@ -768,57 +768,57 @@
         <item>avocados</item>
         <item>bananas</item>
         <item>cantaloupe</item>
-        <item/>
+        <item />
         <item>dates</item>
-        <item/>
+        <item />
         <item>grapefruit</item>
-        <item/>
+        <item />
         <item>kiwifruit</item>
         <item>lemons</item>
         <item>limes</item>
-        <item/>
+        <item />
         <item>mango</item>
-        <item/>
+        <item />
         <item>oranges</item>
-        <item/>
-        <item/>
+        <item />
+        <item />
         <item>peaches</item>
         <item>pears</item>
-        <item/>
+        <item />
         <item>plums</item>
-        <item/>
+        <item />
         <item>pomegranates</item>
         <item>prunes</item>
-        <item/>
+        <item />
         <item>watermelon</item>
     </string-array>
     <string-array name="food_videos_cruciferous_vegetables" translatable="false">
-        <item/>
+        <item />
         <item>bok-choy</item>
         <item>broccoli</item>
         <item>brussels-sprouts</item>
         <item>cabbage</item>
         <item>cauliflower</item>
         <item>collard-greens</item>
-        <item/>
+        <item />
         <item>kale</item>
-        <item/>
+        <item />
         <item>mustard-greens</item>
-        <item/>
-        <item/>
+        <item />
+        <item />
         <item>watercress</item>
     </string-array>
     <string-array name="food_videos_greens" translatable="false">
-        <item/>
+        <item />
         <item>beets</item>
         <item>collard-greens</item>
         <item>kale</item>
-        <item/>
+        <item />
         <item>mustard-greens</item>
-        <item/>
+        <item />
         <item>spinach</item>
         <item>swiss-chard</item>
-        <item/>
+        <item />
     </string-array>
     <string-array name="food_videos_other_vegetables" translatable="false">
         <item>artichokes</item>
@@ -834,7 +834,7 @@
         <item>potatoes</item>
         <item>pumpkin</item>
         <item>sea-vegetables</item>
-        <item/>
+        <item />
         <item>squash</item>
         <item>sweet-potatoes</item>
         <item>tomatoes</item>
@@ -846,7 +846,7 @@
         <item>cashews</item>
         <item>chia-seeds</item>
         <item>hazelnuts</item>
-        <item/>
+        <item />
         <item>macadamia-nuts</item>
         <item>pecans</item>
         <item>pistachios</item>
@@ -859,35 +859,35 @@
         <item>allspice</item>
         <item>barberries</item>
         <item>basil</item>
-        <item/>
-        <item/>
-        <item/>
+        <item />
+        <item />
+        <item />
         <item>cilantro</item>
         <item>cinnamon</item>
         <item>cloves</item>
-        <item/>
+        <item />
         <item>cumin</item>
         <item>curry-powder</item>
-        <item/>
+        <item />
         <item>fenugreek</item>
         <item>garlic</item>
         <item>ginger</item>
-        <item/>
-        <item/>
+        <item />
+        <item />
         <item>marjoram</item>
         <item>mustard-powder</item>
         <item>nutmeg</item>
         <item>oregano</item>
-        <item/>
+        <item />
         <item>parsley</item>
         <item>pepper</item>
         <item>peppermint</item>
         <item>rosemary</item>
         <item>saffron</item>
-        <item/>
-        <item/>
+        <item />
+        <item />
         <item>turmeric</item>
-        <item/>
+        <item />
     </string-array>
     <string-array name="food_videos_whole_grains" translatable="false">
         <item>barley</item>
@@ -897,7 +897,7 @@
         <item>popcorn</item>
         <item>quinoa</item>
         <item>rye</item>
-        <item/>
+        <item />
         <item>pasta</item>
     </string-array>
     <string-array name="food_videos_beverages" translatable="false">
@@ -908,8 +908,8 @@
         <item>earl-grey-tea</item>
         <item>green-tea</item>
         <item>hibiscus-tea</item>
-        <item/>
-        <item/>
+        <item />
+        <item />
         <item>lemon-balm</item>
         <item>matcha</item>
         <item>oolong-tea</item>

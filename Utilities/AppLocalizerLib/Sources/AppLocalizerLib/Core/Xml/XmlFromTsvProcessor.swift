@@ -51,6 +51,7 @@ struct XmlFromTsvProcessor {
         droidXmlOutputUrl: URL, 
         droidXmlDocument: XMLDocument,
         keepNontranslatable: Bool,
+        keepVideos: Bool = false, // :NYI: video urls
         measurementInDescription: Bool = true // :WIP:???: when can measurementInDescription be removed?
     ) {
         guard let droidRootXMLElement = droidXmlDocument.rootElement() else { return }

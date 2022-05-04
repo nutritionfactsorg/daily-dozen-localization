@@ -10,11 +10,18 @@ OUTPUT_NORMAL_DIRNAME="StringsViaTsvIntake"
 
 ## Base English_US paths into which translations are mapped
 BASE_JSON_DIR="English_US/ios/en-US_reference/LocalStrings/en.lproj"
-BASE_TSV_DIR="English_US/tsv"
+# :???:DOUBLE_CHECK: current TSV will supercede prior TSV with *no*duplicates*
+BASE_TSV_ALL="English_US/tsv/English_US_en.tsv"
+#BASE_TSV_ALL="English_US/tsv/English_US_en.changeset01.tsv"
+BASE_TSV_ALL="English_US/tsv/English_US_en.appstore.tsv"
+#BASE_TSV_ALL="English_US/tsv/English_US_en.appstore.changeset01.tsv"
+BASE_TSV_ALL="English_US/tsv/English_US_en.url_fragments.tsv"
+BASE_TSV_ALL="English_US/tsv/English_US_en.url_topics.tsv"
+
 ### 
 #BASE_XML_URL="English_US/android/values/strings.xml"
 ### .normalized. does not fracture imperial and metric pseudo-quantity
-BASE_XML_URL="English_US/android/values/strings.normalized.xml"
+BASE_XML_URL="English_US/android/values/strings.unified.xml"
 
 ## Note: currently, URL_TOPICS_TSV is the same for all languages except Spanish.
 URL_FRAGMENTS_TSV="English_US/tsv/English_US_en.url_fragments.tsv"

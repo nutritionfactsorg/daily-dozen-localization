@@ -10,7 +10,10 @@ struct XmlIntoTsvProcessor: TsvProtocol {
     
     var tsvRowList = TsvRowList() /// [key_droid: TsvRow]
     
-    init(url: URL, baseOrLang: TsvBaseOrLangMode) {
+    init(
+        url: URL, // xml source file
+        baseOrLang: TsvBaseOrLangMode // populate `base_value` or `lang_value`?
+    ) {
         guard 
             let xmlDoc = try? XMLDocument(contentsOf: url, options: [.nodePreserveAll, .nodePreserveWhitespace]),
             let rootXmlElement: XMLElement = xmlDoc.rootElement()
