@@ -1,10 +1,16 @@
 ### FILE: batch_import_de.txt
 ### WORKFLOW: Documentation/Workflow_ImportIntoApps.md
 ###
+### USE: imports tsv data in the Android and Apple source files.
+###
+### NOTE: `DO_IMPORT_TSV` superceded by `DO_NORMAL_STRINGS`
+###
 ##########################
 ### IMPORT TRANSLATION ###
 ##########################
 SOURCE_TSV="German/tsv/German_de.tsv"
+### Note: additional SOURCE_TSV add-to or update previous SOURCE_TSV 
+#SOURCE_TSV="German/tsv/German_de.changeset01.tsv"
 OUTPUT_DROID="German/android/values-de/strings.xml"    
 OUTPUT_APPLE="German/ios/de.xcloc/Localized Contents/de.xliff"   
 DO_IMPORT_TSV

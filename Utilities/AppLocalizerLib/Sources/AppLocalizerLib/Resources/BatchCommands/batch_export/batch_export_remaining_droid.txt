@@ -3,19 +3,31 @@
 ###
 ### Note: batch_export_pass01 in updating IDs
 ###
+
+###################################################
+### MIGRATE: Export pre-existing Android to TSV ###
+###################################################
+
 ####################
 ### Bulgarian_bg ###
 ####################
 ## "$XCLOC_NEW/bg.xcloc" "$LANGUAGES/Bulgarian/ios"
-OUTPUT_LANG_TSV="Bulgarian/tsv/Bulgarian_bg.tsv"
-SOURCE_enUS_TSV="English_US/tsv/English_US_en.20210309.tsv"
+OUTPUT_LANG_TSV="Bulgarian/tsv/Bulgarian_bg.EXPORT_FROM_DROID.tsv"
+SOURCE_enUS_TSV="English_US/tsv/English_US_en.tsv"
 ## Apple (inital pass)
-SOURCE_enUS_APPLE="English_US/ios/en.xcloc/Localized Contents/en.xliff"
-SOURCE_LANG_APPLE="Bulgarian/ios/bg.xcloc/Localized Contents/bg.xliff"
+#SOURCE_enUS_APPLE="English_US/ios/en.xcloc/Localized Contents/en.xliff"
+#SOURCE_LANG_APPLE="Bulgarian/ios/bg.xcloc/Localized Contents/bg.xliff"
 ## Android (priority overwrite pass)
 SOURCE_enUS_DROID="English_US/android/values/strings.xml"
 SOURCE_LANG_DROID="Bulgarian/android/values-bg/strings.xml"
 DO_EXPORT_TSV
+
+### NORMALIZE
+
+###
+
+##### ----- NOT YET -----
+QUIT
 
 ###################################
 ### Chinese_Traditional_zh-Hant ###
@@ -32,17 +44,17 @@ SOURCE_LANG_DROID="Chinese_Traditional/android/values-zh/strings.xml"
 DO_EXPORT_TSV
 
 #################
-### German_de ###
+### French_fr ###
 #################
-## "$XCLOC_NEW/de.xcloc" "$LANGUAGES/German/ios"
-OUTPUT_LANG_TSV="German/tsv/German_de.tsv"
+## "$XCLOC_NEW/fr.xcloc" "$LANGUAGES/French/ios"
+OUTPUT_LANG_TSV="French/tsv/French_fr.tsv"
 SOURCE_enUS_TSV="English_US/tsv/English_US_en.20210309.tsv"
 ## Apple (inital pass)
 SOURCE_enUS_APPLE="English_US/ios/en.xcloc/Localized Contents/en.xliff"
-SOURCE_LANG_APPLE="German/ios/de.xcloc/Localized Contents/de.xliff"
+SOURCE_LANG_APPLE="French/ios/fr.xcloc/Localized Contents/fr.xliff"
 ## Android (priority overwrite pass)
 SOURCE_enUS_DROID="English_US/android/values/strings.xml"
-SOURCE_LANG_DROID="German/android/values-de/strings.xml"
+SOURCE_LANG_DROID="French/android/values-fr/strings.xml"
 DO_EXPORT_TSV
 
 ################
@@ -87,44 +99,15 @@ SOURCE_enUS_DROID="English_US/android/values/strings.xml"
 SOURCE_LANG_DROID="Romanian/android/values-ro/strings.xml"
 DO_EXPORT_TSV
 
-###################
-### Russian_ru ###
-###################
-## "$XCLOC_NEW/ru.xcloc" "$LANGUAGES/Russian/ios"
-OUTPUT_LANG_TSV="Russian/tsv/Russian_ru.tsv"
-SOURCE_enUS_TSV="English_US/tsv/English_US_en.20210309.tsv"
-## Apple (inital pass)
-SOURCE_enUS_APPLE="English_US/ios/en.xcloc/Localized Contents/en.xliff"
-SOURCE_LANG_APPLE="Russian/ios/ru.xcloc/Localized Contents/ru.xliff"
-## Android (priority overwrite pass)
+######################
+##### Spanish_es #####
+######################
+OUTPUT_LANG_TSV="Spanish/tsv/Spanish_es.EXPORTED.tsv"
+SOURCE_enUS_TSV="English_US/tsv/English_US_en.EXPORTED.tsv"
+## Android
 SOURCE_enUS_DROID="English_US/android/values/strings.xml"
-SOURCE_LANG_DROID="Russian/android/values-ru/strings.xml"
+SOURCE_LANG_DROID="Spanish/android/values-es/strings.xml"
+## Apple
+SOURCE_enUS_APPLE="English_US/ios/en.xcloc/Localized Contents/en.xliff" 
+SOURCE_LANG_APPLE="Spanish/ios/es.xcloc/Localized Contents/es.xliff"
 DO_EXPORT_TSV
-
-
-##### ----- MIGRATED -----
-QUIT
-
-#################
-### French_fr ###
-#################
-## "$XCLOC_NEW/fr.xcloc" "$LANGUAGES/French/ios"
-OUTPUT_LANG_TSV="French/tsv/French_fr.tsv"
-SOURCE_enUS_TSV="English_US/tsv/English_US_en.20210309.tsv"
-## Apple (inital pass)
-SOURCE_enUS_APPLE="English_US/ios/en.xcloc/Localized Contents/en.xliff"
-SOURCE_LANG_APPLE="French/ios/fr.xcloc/Localized Contents/fr.xliff"
-## Android (priority overwrite pass)
-SOURCE_enUS_DROID="English_US/android/values/strings.xml"
-SOURCE_LANG_DROID="French/android/values-fr/strings.xml"
-DO_EXPORT_TSV
-
-#################
-### Polish_pl ###
-#################
-## Processed through TSV files submitted to `daily-dozen-localization`.
-
-##################
-### Spanish_es ###
-##################
-## In place in Android and iOS. Where submitted separately to Android and iOS.
