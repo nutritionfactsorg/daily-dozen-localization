@@ -4,7 +4,14 @@ Special thanks to our volunteer translators: Ricard Soler Roger (ca), Anke Schli
 
 **Brussels sprouts**
 
+From: ¼ cup Brussels or broccoli sprouts
+...To: ½ cup Brussels sprouts
+...To: ¼ cup Broccoli sprouts
 
+**Metric**
 
+From: 12 g Brussels or broccoli sprouts
+...To: 78 g Brussels sprouts
+...To: 14 g Broccoli sprouts
 
 **** 
