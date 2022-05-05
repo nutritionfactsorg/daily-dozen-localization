@@ -18,6 +18,9 @@ SOURCE_enUS_DROID="English_US/android/values/strings.xml"
 SOURCE_LANG_DROID="Bulgarian/android/values-bg/strings.xml"
 DO_EXPORT_TSV
 
+##### ----- NOT YET -----
+QUIT
+
 ###################################
 ### Chinese_Traditional_zh-Hant ###
 ###################################
@@ -31,9 +34,6 @@ SOURCE_LANG_APPLE="Chinese_Traditional/ios/zh-Hant.xcloc/Localized Contents/zh-H
 SOURCE_enUS_DROID="English_US/android/values/strings.xml"
 SOURCE_LANG_DROID="Chinese_Traditional/android/values-zh/strings.xml"
 DO_EXPORT_TSV
-
-##### ----- NOT YET -----
-QUIT
 
 #################
 ### German_de ###

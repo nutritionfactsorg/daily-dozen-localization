@@ -1,4 +1,4 @@
-### FILE: batch_strings_FromTsvTest.txt
+### FILE: batch_normal_FromTsvTest.txt
 ### WORKFLOW:  `*.strings` content based `*.tsv`
 ### SCOPE: all planned languages
 ###
@@ -11,12 +11,12 @@ OUTPUT_NORMAL_DIRNAME="StringsViaTsvTest"
 ## Base English_US paths into which translations are mapped
 BASE_JSON_DIR="_Test/ios/test_reference/LocalStrings/en.lproj"
 # :???:DOUBLE_CHECK: current TSV will supercede prior TSV with *no*duplicates*
-BASE_TSV_ALL="English_US/tsv/English_US_en.tsv"
-#BASE_TSV_ALL="English_US/tsv/English_US_en.changeset01.tsv"
-BASE_TSV_ALL="English_US/tsv/English_US_en.appstore.tsv"
-#BASE_TSV_ALL="English_US/tsv/English_US_en.appstore.changeset01.tsv"
-BASE_TSV_ALL="English_US/tsv/English_US_en.url_fragments.tsv"
-BASE_TSV_ALL="English_US/tsv/English_US_en.url_topics.tsv"
+BASE_TSV_INCLUDE="English_US/tsv/English_US_en.tsv"
+#BASE_TSV_INCLUDE="English_US/tsv/English_US_en.changeset01.tsv"
+BASE_TSV_INCLUDE="English_US/tsv/English_US_en.appstore.tsv"
+#BASE_TSV_INCLUDE="English_US/tsv/English_US_en.appstore.changeset01.tsv"
+BASE_TSV_INCLUDE="English_US/tsv/English_US_en.url_fragments.tsv"
+BASE_TSV_INCLUDE="English_US/tsv/English_US_en.url_topics.tsv"
 
 BASE_XML_URL="_Test/android/values/strings.xml"
 
@@ -27,8 +27,8 @@ URL_TOPICS_TSV="_Test/tsv/Test_English_US_en.url_topics.tsv"
 ####################
 ## Test Reference ##
 ####################
-SOURCE_TSV="_Test/tsv/Test_English_US_en.newline.tsv"
-DO_NORMAL_STRINGS
+SOURCE_TSV_INCLUDE="_Test/tsv/Test_English_US_en.newline.tsv"
+DO_NORMALIZE_BATCH
 
-#SOURCE_TSV="_Test/tsv/Test_English_US_en.return.tsv"
-#DO_NORMAL_STRINGS
+#SOURCE_TSV_INCLUDE="_Test/tsv/Test_English_US_en.return.tsv"
+#DO_NORMALIZE_BATCH

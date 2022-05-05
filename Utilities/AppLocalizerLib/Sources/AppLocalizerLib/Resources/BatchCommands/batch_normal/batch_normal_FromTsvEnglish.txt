@@ -1,12 +1,12 @@
-### FILE: batch_strings_FromTsvEnglish.txt
+### FILE: batch_normal_FromTsvEnglish.txt
 ### WORKFLOW:  `English_us*.tsv` to normalized strings, tsv
 ### SCOPE: English_us primary reference
 ###
 
 OUTPUT_NORMAL_DIRNAME="StringsViaTsvEnglish"
 
-SOURCE_TSV="English_US/tsv/English_US_en.tsv"
-DO_NORMAL_STRINGS
+SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.tsv"
+DO_NORMALIZE_BATCH
 
 ### STOP HERE
 QUIT

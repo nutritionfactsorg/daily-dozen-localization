@@ -1,0 +1,269 @@
+### FILE: batch_normal_FromTsvMain.txt
+### WORKFLOW:  `*.strings` content based `*.tsv`
+### SCOPE: all planned languages
+###
+
+###################
+## General Setup ##
+###################
+OUTPUT_NORMAL_DIRNAME="FromTsvMain"
+
+## Base English_US directory paths from which translations are mapped
+#BASE_JSON_DIR="English_US/ios/en-US_reference/LocalStrings/en.lproj"
+BASE_JSON_DIR="English_US/ios/en-US_reference/LocalStrings/en.changeset01.lproj"
+
+# :???:DOUBLE_CHECK: current TSV will supercede prior TSV with *no*duplicates*
+BASE_TSV_INCLUDE="English_US/tsv/English_US_en.tsv"
+BASE_TSV_INCLUDE="English_US/tsv/English_US_en.changeset01.tsv"
+BASE_TSV_INCLUDE="English_US/tsv/English_US_en.appstore.tsv"
+#BASE_TSV_INCLUDE="English_US/tsv/English_US_en.appstore.changeset01.tsv"
+BASE_TSV_INCLUDE="English_US/tsv/English_US_en.url_fragments.tsv"
+BASE_TSV_INCLUDE="English_US/tsv/English_US_en.url_topics.tsv"
+
+### ------ ANDROID_LANG --> NORMALIZE XML -----
+#BASE_XML_URL="English_US/android/values/strings.xml"
+BASE_XML_URL="English_US/android/values/strings.unified.changeset01.xml"
+
+## Note: currently, URL_TOPICS_TSV is the same for all languages except Spanish.
+URL_FRAGMENTS_TSV="English_US/tsv/English_US_en.url_fragments.tsv"
+URL_TOPICS_TSV="English_US/tsv/English_US_en.url_topics.tsv"
+
+####################################
+## English_US: Baseline Reference ##
+####################################
+SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.tsv"
+SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.changeset01.tsv"
+DO_NORMALIZE_BATCH
+
+#SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.appstore.tsv"
+##SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.appstore.changeset01.tsv"
+#DO_NORMALIZE_BATCH
+
+#SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.url_fragments.tsv"
+#DO_NORMALIZE_BATCH
+
+#SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.url_topics.tsv"
+#DO_NORMALIZE_BATCH
+
+##### ----- NOT YET -----
+QUIT
+
+
+########################################
+### COMMON TO BOTH ANDROID AND APPLE ###
+########################################
+
+##################
+## (ca) Catalan ##
+##################
+## -- (ca) process application values --
+SOURCE_TSV_INCLUDE="Catalan/tsv/Catalan_ca.tsv"
+DO_NORMALIZE_BATCH
+
+## -- (ca) process appstore --
+SOURCE_TSV_INCLUDE="Catalan/tsv/Catalan_ca.appstore.tsv"
+DO_NORMALIZE_BATCH
+
+#################
+## (de) German ##
+#################
+## -- (de) process application values --
+SOURCE_TSV_INCLUDE="German/tsv/German_de.tsv"
+DO_NORMALIZE_BATCH
+
+## -- (de) process appstore --
+SOURCE_TSV_INCLUDE="German/tsv/German_de.appstore.tsv"
+DO_NORMALIZE_BATCH
+
+##################
+## (es) Spanish ##
+##################
+# NOTE: No Android/Apple unified update. 
+# WIP: Normalize & Diff Spanish_es.20210309.Android.tsv and Spanish_es.20210309.Apple.tsv
+
+## Note: Spanish has its own topic urls
+URL_FRAGMENTS_TSV="Spanish/tsv/Spanish_es.url_fragments.tsv"
+URL_TOPICS_TSV="Spanish/tsv/Spanish_es.url_topics.tsv"
+
+SOURCE_TSV_INCLUDE="Spanish/tsv/Spanish_es.main.20210309.Apple.tsv"
+DO_NORMALIZE_BATCH
+
+SOURCE_TSV_INCLUDE="Spanish/tsv/Spanish_es.main.20210309.Android.tsv"
+DO_NORMALIZE_BATCH
+
+SOURCE_TSV_INCLUDE="Spanish/tsv/Spanish_es.tsv"
+SOURCE_TSV_INCLUDE="Spanish/tsv/Spanish_es.main.20210309.Apple.tsv"
+SOURCE_TSV_INCLUDE="Spanish/tsv/Spanish_es.main.20210309.Android.tsv"
+DO_NORMALIZE_BATCH
+
+## -- (es) process appstore --
+SOURCE_TSV_INCLUDE="Spanish/tsv/Spanish_es.appstore.tsv"
+DO_NORMALIZE_BATCH
+
+## Note: re-setting URL_TOPICS_TSV to English_US 
+##       as used by languages other than Spanish.
+URL_FRAGMENTS_TSV="English_US/tsv/English_US_en.url_fragments.tsv"
+URL_TOPICS_TSV="English_US/tsv/English_US_en.url_topics.tsv"
+
+#################
+## (he) Hebrew ##
+#################
+## -- (he) process application values --
+SOURCE_TSV_INCLUDE="Hebrew/tsv/Hebrew_he.tsv"
+DO_NORMALIZE_BATCH
+
+## -- (he) process appstore --
+SOURCE_TSV_INCLUDE="Hebrew/tsv/Hebrew_he.appstore.tsv"
+DO_NORMALIZE_BATCH
+
+## -- (iw) process application values --
+SOURCE_TSV_INCLUDE="Hebrew/tsv/Hebrew_iw.tsv"
+DO_NORMALIZE_BATCH
+
+#################
+## (pl) Polish ##
+#################
+## -- (pl) process application values --
+SOURCE_TSV_INCLUDE="Polish/tsv/Polish_pl.tsv"
+DO_NORMALIZE_BATCH
+
+## -- (pl) process appstore --
+SOURCE_TSV_INCLUDE="Polish/tsv/Polish_pl.appstore.tsv"
+DO_NORMALIZE_BATCH
+
+#####################
+## (pt) Portuguese ##
+################################
+## (pt-rBR) Portuguese_Brazil ##
+################################
+## -- (pt-rBR) process application values --
+SOURCE_TSV_INCLUDE="Portuguese_Brazil/tsv/Portuguese_pt-rBR.tsv"
+DO_NORMALIZE_BATCH
+
+## -- (pt-rBR) process appstore --
+SOURCE_TSV_INCLUDE="Portuguese_Brazil/tsv/Portuguese_pt-rBR.appstore.tsv"
+DO_NORMALIZE_BATCH
+
+##################################
+## (pt-rPT) Portuguese_Portugal ##
+##################################
+## -- (pt-rPT) process application values --
+SOURCE_TSV_INCLUDE="Portuguese_Portugal/tsv/Portuguese_pt-rPT.tsv"
+DO_NORMALIZE_BATCH
+
+## -- (pt-rPT) process appstore --
+SOURCE_TSV_INCLUDE="Portuguese_Portugal/tsv/Portuguese_pt-rPT.appstore.tsv"
+DO_NORMALIZE_BATCH
+
+##################
+## (ru) Russian ##
+##################
+## -- (ru) process application values --
+SOURCE_TSV_INCLUDE="Russian/tsv/Russian_ru.tsv"
+DO_NORMALIZE_BATCH
+
+## -- (ru) process appstore --
+SOURCE_TSV_INCLUDE="Russian/tsv/Russian_ru.appstore.tsv"
+DO_NORMALIZE_BATCH
+
+########################################
+### ------- ANDROID SPECIFIC ------- ###
+########################################
+
+####################
+## (bg) Bulgarian ##
+####################
+## -- (bg) process application values --
+SOURCE_TSV_INCLUDE="Bulgarian/tsv/Bulgarian_bg.tsv"
+SOURCE_TSV_INCLUDE="Bulgarian/tsv/Bulgarian_bg.additions.tsv"
+DO_NORMALIZE_BATCH
+
+## -- (bg) process appstore --
+SOURCE_TSV_INCLUDE="Bulgarian/tsv/Bulgarian_bg.appstore.tsv"
+DO_NORMALIZE_BATCH
+
+################
+## (el) Greek ##
+################
+## -- (el) process application values --
+SOURCE_TSV_INCLUDE="Greek/tsv/Greek_el.tsv"
+SOURCE_TSV_INCLUDE="Greek/tsv/Greek_el.additions.tsv"
+DO_NORMALIZE_BATCH
+
+## -- (el) process appstore --
+SOURCE_TSV_INCLUDE="Greek/tsv/Greek_el.appstore.tsv"
+DO_NORMALIZE_BATCH
+
+#################
+## (fr) French ##
+#################
+## -- (fr) process application values --
+SOURCE_TSV_INCLUDE="French/tsv/French_fr.tsv"
+SOURCE_TSV_INCLUDE="French/tsv/French_fr.additions.tsv"
+DO_NORMALIZE_BATCH
+
+## -- (fr) process appstore --
+SOURCE_TSV_INCLUDE="French/tsv/French_fr.appstore.tsv"
+DO_NORMALIZE_BATCH
+
+##################
+## (it) Italian ##
+##################
+## -- (it) process application values --
+SOURCE_TSV_INCLUDE="Italian/tsv/Italian_it.tsv"
+SOURCE_TSV_INCLUDE="Italian/tsv/Italian_it.additions.tsv"
+DO_NORMALIZE_BATCH
+
+## -- (it) process appstore --
+SOURCE_TSV_INCLUDE="Italian/tsv/Italian_it.appstore.tsv"
+DO_NORMALIZE_BATCH
+
+##################
+## (ro) Romanian ##
+##################
+## -- (ro) process application values --
+SOURCE_TSV_INCLUDE="Romanian/tsv/Romanian_ro.tsv"
+SOURCE_TSV_INCLUDE="Romanian/tsv/Romanian_ro.additions.tsv"
+DO_NORMALIZE_BATCH
+
+## -- (ro) process appstore --
+SOURCE_TSV_INCLUDE="Romanian/tsv/Romanian_ro.appstore.tsv"
+DO_NORMALIZE_BATCH
+
+############################################
+### ------- TRANSLATION IN PROCESS ------- #
+############################################
+
+######################
+## Chinese_HongKong ##
+######################
+## Hong Kong generally uses Traditional logogram characters
+## -- (zh-HK) process application values --
+SOURCE_TSV_INCLUDE="Chinese_HongKong/tsv/Chinese_HongKong_zh-HK.tsv"
+DO_NORMALIZE_BATCH
+
+## -- (zh-HK) process appstore --
+SOURCE_TSV_INCLUDE="Chinese_HongKong/tsv/Chinese_HongKong_zh-HK.appstore.tsv"
+DO_NORMALIZE_BATCH
+
+########################
+## Chinese_Simplified ##
+########################
+## -- (zh-Hans) process application values --
+SOURCE_TSV_INCLUDE="Chinese_Simplified/tsv/Chinese_Simplified_zh-Hans.tsv"
+DO_NORMALIZE_BATCH
+
+## -- (zh-Hans) process appstore --
+SOURCE_TSV_INCLUDE="Chinese_Simplified/tsv/Chinese_Simplified_zh-Hans.appstore.tsv"
+DO_NORMALIZE_BATCH
+
+#########################
+## Chinese_Traditional ##
+#########################
+## -- (zh-Hant) process application values --
+SOURCE_TSV_INCLUDE="Chinese_Traditional/tsv/Chinese_Traditional_zh-Hant.tsv"
+DO_NORMALIZE_BATCH
+
+## -- (zh-Hant) process appstore --
+SOURCE_TSV_INCLUDE="Chinese_Traditional/tsv/Chinese_Traditional_zh-Hant.appstore.tsv"
+DO_NORMALIZE_BATCH

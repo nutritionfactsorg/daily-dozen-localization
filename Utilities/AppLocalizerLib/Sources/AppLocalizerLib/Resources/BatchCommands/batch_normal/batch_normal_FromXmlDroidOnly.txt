@@ -1,30 +1,39 @@
-### FILE: batch_export_pass01.txt
-### WORKFLOW: Documentation/Workflow_ExportFromApps.md
+###     FILE: batch_normal_FromXmlDroidOnly.txt
+### WORKFLOW: Documentation/:WIP:.md
 ###
 ### Note: batch_export_pass01 in updating IDs
 ###
+### Use: migrate pre-existing Android XML to normalized *.TSV, strings.xml
+### Scope: languages only not yet translated from Apple devices.
 
-###################################################
-### MIGRATE: Export pre-existing Android to TSV ###
-###################################################
+###################
+## General Setup ##
+###################
+OUTPUT_NORMAL_DIRNAME="AndroidOnly"
 
-####################
-### Bulgarian_bg ###
-####################
-## "$XCLOC_NEW/bg.xcloc" "$LANGUAGES/Bulgarian/ios"
-OUTPUT_LANG_TSV="Bulgarian/tsv/Bulgarian_bg.EXPORT_FROM_DROID.tsv"
-SOURCE_enUS_TSV="English_US/tsv/English_US_en.tsv"
-## Apple (inital pass)
-#SOURCE_enUS_APPLE="English_US/ios/en.xcloc/Localized Contents/en.xliff"
-#SOURCE_LANG_APPLE="Bulgarian/ios/bg.xcloc/Localized Contents/bg.xliff"
-## Android (priority overwrite pass)
-SOURCE_enUS_DROID="English_US/android/values/strings.xml"
-SOURCE_LANG_DROID="Bulgarian/android/values-bg/strings.xml"
-DO_EXPORT_TSV
+## Base English_US directory paths from which translations are mapped
+BASE_JSON_DIR="English_US/ios/en-US_reference/LocalStrings/en.lproj"
+# :???:DOUBLE_CHECK: current TSV will supercede prior TSV with *no*duplicates*
+BASE_TSV_INCLUDE="English_US/tsv/English_US_en.tsv"
+#BASE_TSV_INCLUDE="English_US/tsv/English_US_en.changeset01.tsv"
 
-### NORMALIZE
+BASE_TSV_INCLUDE="English_US/tsv/English_US_en.url_fragments.tsv"
+BASE_TSV_INCLUDE="English_US/tsv/English_US_en.url_topics.tsv"
 
-###
+### ------ ANDROID_LANG --> NORMALIZE XML -----
+#BASE_XML_URL="English_US/android/values/strings.xml"
+### .unified. does not fracture imperial and metric pseudo-quantity
+BASE_XML_URL="English_US/android/values/strings.unified.xml"
+
+## Note: currently, URL_TOPICS_TSV is the same for all languages except Spanish.
+URL_FRAGMENTS_TSV="English_US/tsv/English_US_en.url_fragments.tsv"
+URL_TOPICS_TSV="English_US/tsv/English_US_en.url_topics.tsv"
+
+#########################
+### (bg) Bulgarian_bg ###
+#########################
+SOURCE_TSV_INCLUDE="Bulgarian/tsv/Bulgarian_bg.EXPORT_FROM_DROID.tsv"
+DO_NORMALIZE_BATCH
 
 ##### ----- NOT YET -----
 QUIT
