@@ -8,6 +8,7 @@ import Foundation
 struct BatchNormal {
  
     static var shared = BatchNormal()
+    let logger = LogService.shared
     
     /// normalizes `*.strings` only
     func doNormalize(sourceStrings: [URL], resultsDir: URL) {
@@ -49,7 +50,7 @@ struct BatchNormal {
         }
         
         let tsvLanguage = tsvFirstUrl.deletingPathExtension().lastPathComponent
-        print("##### DO_NORMALIZE_BATCH LANGUAGE: \(tsvLanguage)")
+        logger.info("\n##### DO_NORMALIZE_BATCH TSV LANGUAGE: \(tsvLanguage)")
         if tsvLanguage == "German_de" {
             print(":WATCH: \(tsvLanguage)")
         }
@@ -221,7 +222,7 @@ struct BatchNormal {
         }
         
         let tsvLanguage = tsvFirstUrl.deletingPathExtension().lastPathComponent
-        print("##### DO_NORMALIZE_BATCH LANGUAGE: \(tsvLanguage)")
+        logger.info("\n##### DO_NORMALIZE_BATCH XML LANGUAGE: \(tsvLanguage)")
         if tsvLanguage == "German_de" {
             print(":WATCH: \(tsvLanguage)")
         }

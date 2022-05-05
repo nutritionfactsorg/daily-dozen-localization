@@ -11,6 +11,7 @@ struct BatchRunner {
     let commandsUrl: URL   // …/SCRIPT_BEING_EXECUTED.txt
     let languagesUrl: URL  // …/Languages
     let mappingsUrl: URL   // currently not used
+    let logger = LogService.shared
     
     init(commandsUrl: URL, languagesUrl: URL, mappingsUrl: URL) {
         self.commandsUrl = commandsUrl
@@ -232,7 +233,7 @@ struct BatchRunner {
             }
             else if command.cmdKey.hasPrefix("DO_NORMALIZE_BATCH") {
                 // Normalizes base on the given *.string, *.tsv, *.xliff, *.xml source
-                print("\n##### ----- DO_NORMALIZE_BATCH ----- ######")
+                logger.info("\n##### ----- DO_NORMALIZE_BATCH ----- ######")
                 guard 
                     let outputNormalDir = outputNormalDir,
                     (sourceStrings != nil || sourceListTSV != nil || sourceXLIFF != nil || sourceXML != nil)
@@ -268,7 +269,29 @@ struct BatchRunner {
                     sourceXML = nil
                 } 
             }
-            // Quit
+            // ----- LogService -----
+            else if command.cmdKey.hasPrefix("LOGGER_FILENAME") {
+                // logfile placed inside "…/_Normal__LOCAL/"
+                logger.useLogfile(url: command.cmdUrl)
+            }
+            else if command.cmdKey.hasPrefix("LOGGER_LEVEL_") {
+                if command.cmdKey.hasPrefix("LOGGER_LEVEL_ALL") {
+                    logger.logLevel = .all
+                } else if command.cmdKey.hasPrefix("LOGGER_LEVEL_VERBOSE") {
+                    logger.logLevel = .verbose
+                } else if command.cmdKey.hasPrefix("LOGGER_LEVEL_DEBUG") {
+                    logger.logLevel = .debug
+                } else if command.cmdKey.hasPrefix("LOGGER_LEVEL_INFO") {
+                    logger.logLevel = .info
+                } else if command.cmdKey.hasPrefix("LOGGER_LEVEL_WARNING") {
+                    logger.logLevel = .warning
+                } else if command.cmdKey.hasPrefix("LOGGER_LEVEL_ERROR") {
+                    logger.logLevel = .error
+                } else if command.cmdKey.hasPrefix("LOGGER_LEVEL_OFF") {
+                    logger.logLevel = .off
+                }
+            }
+            // ----- Quit -----
             else if command.cmdKey.hasPrefix("QUIT") {
                 return // exit loop and run()
             }
@@ -297,7 +320,13 @@ struct BatchRunner {
             }  
             cmdValue = String(parts[1].dropFirst().dropLast())
             if cmdValue.isEmpty {
-                return (cmdKey: cmdKey, cmdUrl: nil)                
+                return (cmdKey: cmdKey, cmdUrl: nil)
+            } else if cmdKey == "LOGGER_FILENAME" {
+                let cmdUrl = languagesUrl
+                    .deletingLastPathComponent() // Languages
+                    .appendingPathComponent("_Normal__LOCAL")
+                    .appendingPathComponent(cmdValue, isDirectory: false)
+                return (cmdKey: cmdKey, cmdUrl: cmdUrl) 
             } else if cmdKey == "OUTPUT_NORMAL_DIRNAME" {
                 let cmdUrl = languagesUrl
                     .deletingLastPathComponent() // Languages

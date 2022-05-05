@@ -25,6 +25,7 @@ import Foundation
 struct StringzProcessor: TsvProtocol {
 
     var tsvRowList = TsvRowList()
+    let logger = LogService.shared
     
     init() {}
     
@@ -199,39 +200,51 @@ struct StringzProcessor: TsvProtocol {
         sLocalizable.append("/* file end */\n")
         
         if applekeyEmptyList.data.count > 0 {
-            print("\n######################################################")
-            print("### REPORT/strings: key_apple empty (Android Only) ###")
-            print("######################################################")
+            var report = """
+            \n######################################################
+            ### REPORT/strings: key_apple empty (Android Only) ###
+            ######################################################
+            """
             for row in applekeyEmptyList.data {
-                print("\(row.key_android)\t\(row.base_value)")
+                report.append("\(row.key_android)\t\(row.base_value)\n")
             }
+            logger.info(report)
         }
         
         if langvalueMissingList.data.count > 0 {
-            print("\n##########################################")
-            print("### REPORT/strings: lang_value missing ###")
-            print("##########################################")
+            var report = """
+            \n##########################################
+            ### REPORT/strings: lang_value missing ###
+            ##########################################
+            """
             for row in langvalueMissingList.data {
-                print("\(row.key_apple)\t\(row.base_value)")
+                report.append("\(row.key_apple)\t\(row.base_value)\n")
             }
+            logger.info(report)
         }
 
         if langvalueUntranslatedList.data.count > 0 {
-            print("\n###############################################")
-            print("### REPORT/strings: lang_value untranslated ###")
-            print("###############################################")
+            var report = """
+            \n###############################################
+            ### REPORT/strings: lang_value untranslated ###
+            ###############################################
+            """
             for row in langvalueUntranslatedList.data {
-                print("\(row.key_apple)\t\(row.base_value)")
+                report.append("\(row.key_apple)\t\(row.base_value)\n")
             }
+            logger.info(report)
         }
 
-        if randomidList.data.count > 0{
-            print("\n#####################################################")
-            print("### REPORT/strings: key_apple storyboard randomid ###")
-            print("#####################################################")
+        if randomidList.data.count > 0 {
+            var report = """
+            \n#####################################################
+            ### REPORT/strings: key_apple storyboard randomid ###
+            #####################################################
+            """
             for row in randomidList.data {
-                print("\(row.key_apple)\t\(row.base_value)")
+                report.append("\(row.key_apple)\t\(row.base_value)\n")
             }        
+            logger.info(report)
         }
         
         return [.infoPlist: sInfoPlist, .localizable: sLocalizable]

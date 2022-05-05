@@ -6,6 +6,8 @@
 ###################
 ## General Setup ##
 ###################
+LOGGER_FILENAME="_log_FromTsvMain"
+LOGGER_LEVEL_INFO
 OUTPUT_NORMAL_DIRNAME="FromTsvMain"
 
 ## Base English_US directory paths from which translations are mapped

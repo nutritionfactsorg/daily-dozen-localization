@@ -8,7 +8,7 @@ import Foundation
 struct TsvSheet: TsvProtocol {
     
     var tsvRowList = TsvRowList()
-    var logger = LogService()
+    let logger = LogService.shared
     var urlLanguage: URL? // specific language URL, e.g. …/Languages/English_us
     
     enum platform {
@@ -16,6 +16,7 @@ struct TsvSheet: TsvProtocol {
         case apple
     }
     
+    /// :WIP: LogServiceLevel for reporting
     init(urlList: [URL], loglevel: LogServiceLevel = .info) {
         logger.logLevel = loglevel
         guard let url = urlList.first  else {
@@ -28,13 +29,13 @@ struct TsvSheet: TsvProtocol {
         for url in urlList {
             initNameList.append("\(url.lastPathComponent); ")
         }        
-        print("""
-        ########################################
+        logger.info("""
+        \n########################################
         ########################################
         TsvSheet INIT LIST (\(urlLanguage!.lastPathComponent)) \(initNameList)\n
         """)
         for url in urlList {
-            print("TsvSheet PARSING: \(url.lastPathComponent)")
+            logger.info("TsvSheet PARSING: \(url.lastPathComponent)")
             var tmpTsvRowList = parseTsvFile(url: url)
             tmpTsvRowList = normalizeAndroidKeys(tsvRowList: tmpTsvRowList)
             tmpTsvRowList = normalizeAppleKeys(tsvRowList: tmpTsvRowList)
@@ -46,13 +47,27 @@ struct TsvSheet: TsvProtocol {
         tsvRowList = removeDuplicates(tsvRowList: tsvRowList)
     }
     
-    init(tsvRowList trl: TsvRowList) {
+    /// :WIP: LogServiceLevel for reporting
+    init(tsvRowList trl: TsvRowList, loglevel: LogServiceLevel = .info) {
         self.urlLanguage = nil
         var tmpTsvRowList = trl
         tmpTsvRowList = normalizeAndroidKeys(tsvRowList: tmpTsvRowList)
         tmpTsvRowList = normalizeAppleKeys(tsvRowList: tmpTsvRowList)
         tmpTsvRowList = removeDuplicates(tsvRowList: tmpTsvRowList)
         self.tsvRowList = tmpTsvRowList
+    }
+    
+    /// :WIP: LogServiceLevel for reporting
+    init(_ sheetList: [TsvSheet], loglevel: LogServiceLevel = .info) {
+        self.urlLanguage = nil
+        for sheet in sheetList {
+            var tmpTsvRowList = sheet.tsvRowList
+            tmpTsvRowList = normalizeAndroidKeys(tsvRowList: tmpTsvRowList)
+            tmpTsvRowList = normalizeAppleKeys(tsvRowList: tmpTsvRowList)
+            tmpTsvRowList = removeDuplicates(tsvRowList: tmpTsvRowList)
+            self.tsvRowList = tmpTsvRowList
+        }
+        removeDuplicates(tsvRowList: self.tsvRowList)
     }
     
     /// Check for TSV keys not used
@@ -359,7 +374,7 @@ struct TsvSheet: TsvProtocol {
             idx += 1
         }
         if report.isEmpty == false {
-            print("""
+            logger.info("""
             \n########################################
             ### REPORT/TSV: Duplicate Apple Keys ###
             \(report)\n
@@ -391,7 +406,7 @@ struct TsvSheet: TsvProtocol {
             idx += 1
         }
         if report.isEmpty == false {
-            print("""
+            logger.info("""
             \n##########################################
             ### REPORT/TSV: Duplicate Android Keys ###
             \(report)\n
@@ -435,7 +450,7 @@ struct TsvSheet: TsvProtocol {
             idx += 1
         }
         if report.isEmpty == false {
-            print("""
+            logger.info("""
             \n#############################################
             ### REPORT/TSV: duplicate Lang-Base Pairs ###
             ### Note: may simply be imperial vs metric\n
@@ -506,7 +521,7 @@ struct TsvSheet: TsvProtocol {
             s += "\n"            
         }
         
-        print(s)
+        logger.info(s)
     }
     
     /// Prerequisite:  `key_apple` and `key_android` fields must be up-to-date in both  `TsvSheets`
@@ -566,7 +581,7 @@ struct TsvSheet: TsvProtocol {
             s += "\n"            
         }
         
-        print(s)
+        logger.info(s)
     }
     
     // MARK: - Output

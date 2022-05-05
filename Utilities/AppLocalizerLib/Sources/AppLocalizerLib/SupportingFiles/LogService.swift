@@ -76,13 +76,6 @@ public class LogService {
     public init() {
         dateFormatter.locale = Locale(identifier: "en_US_POSIX") //24H
         dateFormatter.dateFormat = "yyyyMMdd_HHmmss.SSS"
-        
-        /// LogFunction used, `print` for DEBUG, file for Production.
-        #if DEBUG
-            
-        #else
-            // :NYI: production would use the default file
-        #endif
     }
     
     // public func message
@@ -133,9 +126,6 @@ public class LogService {
                     fileHandle.write( data )
                 }
                 fileHandle.closeFile()
-                #if DEBUG
-                    print(logString)
-                #endif
             } catch {
                 #if DEBUG
                     print("FAIL: could not append to \(url.absoluteString)")
@@ -147,30 +137,32 @@ public class LogService {
         }
     }
     
-//    public func useLogFileDefault() {
-//        useLogFile(nameToken: "shared")
-//    }
-    
-    /// - parameter nameToken: string included in file name
-//    public func useLogFile(nameToken: String) {
-//        let currentTime = Date()
-//        let formatter = DateFormatter()
-//        formatter.dateFormat = "yyyyMMdd_HHmmss"
-//        //formatter.timeZone = NSTimeZone(abbreviation: "UTC")
-//        let dateTimestamp = formatter.string(from: currentTime)
-//        
-//        let logfileName = "log-\(nameToken)-\(dateTimestamp).txt"
-//        logfileUrl = URL.inDocuments(filename: logfileName)
-//        
-//        do {
-//            if let url = logfileUrl {
-//                try "FILE: \(logfileName)\n".write(to: url, atomically: true, encoding: String.Encoding.utf8)
-//            } else {
-//                print(":FAIL: LogService useLogFile() logfileUrl is nil")
-//            }
-//        } catch {
-//            print(":FAIL: LogService useLogFile() could not write initial line to \(logfileName)")
-//        }
-//    }
+    public func useLogfile(url: URL?) {
+        guard let url = url else {
+            logfileUrl = nil
+            return 
+        }
+        
+        let currentTime = Date()
+        let formatter = DateFormatter()
+        formatter.dateFormat = "yyyyMMdd_HHmmss"
+        let dateTimestamp = formatter.string(from: currentTime)
+        
+        let basename = url.lastPathComponent
+        let logname = "\(basename)-\(dateTimestamp).txt"
+        logfileUrl = url
+            .deletingLastPathComponent()
+            .appendingPathComponent(logname, isDirectory: false)
+        
+        do {
+            if let url = logfileUrl {
+                try "FILE: \(logname)\n".write(to: url, atomically: true, encoding: String.Encoding.utf8)
+            } else {
+                print(":FAIL: LogService useLogFile() logfileUrl is nil")
+            }
+        } catch {
+            print(":FAIL: LogService useLogFile() could not write initial line to \(logname)")
+        }
+    }
     
 }
