@@ -27,7 +27,7 @@ struct BatchNormal {
         for url in sourceStrings {
             stringz.parse(url: url)
         }
-        let stringsDictionary = stringz.toStringSplitByFile(langCode: langCode)
+        let stringsDictionary = stringz.toStringsSplitByFile(langCode: langCode)
                 
         writeNormalStrings(stringsDictionary, langCode: langCode, resultsDir: resultsDir)
     }
@@ -49,7 +49,7 @@ struct BatchNormal {
         }
         
         let tsvLanguage = tsvFirstUrl.deletingPathExtension().lastPathComponent
-        print("##### DO_NORMAL_STRINGS_LANGUAGE: \(tsvLanguage)")
+        print("##### DO_NORMALIZE_BATCH LANGUAGE: \(tsvLanguage)")
         if tsvLanguage == "German_de" {
             print(":WATCH: \(tsvLanguage)")
         }
@@ -71,6 +71,7 @@ struct BatchNormal {
         sourceSheet.updateBaseValues(allBaseTsvSheet)
         writeNormalTsv(sourceSheet, urlTsvIn: tsvFirstUrl, resultsDir: resultsDir)
         
+        // ----- to *.TSV -----
         // add url topic links
         let allTSV: [URL] = sourceTSV + [baseTsvUrlFragments] + [baseTsvUrlTopics]
         let allTsvSheet = TsvSheet(urlList: allTSV)
@@ -88,21 +89,25 @@ struct BatchNormal {
         let langCode = nameParts.lang
         let modifier = nameParts.modifier
 
-        let stringz = StringzProcessor(tsvRowList: allTsvSheet.tsvRowList)
-        let stringsDictionary = stringz.toStringSplitByFile(langCode: langCode)
+        // Apple *.strings uses url fragments
+        let forStringsTsv: [URL] = sourceTSV + [baseTsvUrlFragments]
+        let forStringsTsvSheet = TsvSheet(urlList: forStringsTsv)
+        let stringz = StringzProcessor(tsvRowList: forStringsTsvSheet.tsvRowList)
+        let stringsDictionary = stringz.toStringsSplitByFile(langCode: langCode)
         
         writeNormalStrings(stringsDictionary, langCode: langCode, modifier: modifier, resultsDir: resultsDir)
         
         // ----- to JSON -----
-        let tsvSheetWithTopics = TsvSheet(urlList: allTSV)
-        
+        // Apple *.json uses url topic subpaths
+        let tsvForJson: [URL] = sourceTSV + [baseTsvUrlTopics]
+        let tsvForJsonSheet = TsvSheet(urlList: tsvForJson)        
         let jsonOutputDir = resultsDir
             .appendingPathComponent("LocalStrings")
             .appendingPathComponent("\(langCode).lproj", isDirectory: true)
         var jsonFromTsv = JsonFromTsvProcessor(
             jsonBaseDir: baseJsonDir, 
             jsonOutputDir: jsonOutputDir)
-        jsonFromTsv.processTsvToJson(tsvSheet: tsvSheetWithTopics)
+        jsonFromTsv.processTsvToJson(tsvSheet: tsvForJsonSheet)
         jsonFromTsv.writeJsonFiles()
         
         // ----- to XML -----
@@ -112,7 +117,11 @@ struct BatchNormal {
             .appendingPathComponent("android")
             .appendingPathComponent(valuesPathFragment)
             .appendingPathComponent("strings.xml", isDirectory: false)
-        let droidLookup = tsvSheetWithTopics.getLookupDictLangValueByAndroidKey()
+        
+        let tsvForXml: [URL] = sourceTSV + [baseTsvUrlFragments] + [baseTsvUrlTopics]
+        let tsvForXmlSheet = TsvSheet(urlList: tsvForXml)        
+        
+        let droidLookup = tsvForXmlSheet.getLookupDictLangValueByAndroidKey()
         var xmlFromTsv = XmlFromTsvProcessor(lookupTable: droidLookup)
         do {
             let droidXmlDocument = try XMLDocument(
@@ -192,7 +201,7 @@ struct BatchNormal {
             .lastPathComponent       // en
         
         let stringz = StringzProcessor(tsvRowList: xliff.tsvRowList)
-        let stringsDictionary = stringz.toStringSplitByFile(langCode: langCode)
+        let stringsDictionary = stringz.toStringsSplitByFile(langCode: langCode)
         
         writeNormalStrings(stringsDictionary, langCode: langCode, resultsDir: resultsDir)
     }
@@ -212,7 +221,7 @@ struct BatchNormal {
         }
         
         let tsvLanguage = tsvFirstUrl.deletingPathExtension().lastPathComponent
-        print("##### DO_NORMAL_STRINGS_LANGUAGE: \(tsvLanguage)")
+        print("##### DO_NORMALIZE_BATCH LANGUAGE: \(tsvLanguage)")
         if tsvLanguage == "German_de" {
             print(":WATCH: \(tsvLanguage)")
         }

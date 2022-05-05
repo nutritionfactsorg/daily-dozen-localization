@@ -169,7 +169,7 @@ struct BatchRunner {
                     sourceStrings?.append(url)
                 }
             }
-            else if command.cmdKey.hasPrefix("SOURCE_TSV") {
+            else if command.cmdKey.hasPrefix("SOURCE_TSV_INCLUDE") {
                 if let url = command.cmdUrl {
                     if sourceListTSV == nil {
                         sourceListTSV = [URL]()
@@ -182,7 +182,7 @@ struct BatchRunner {
                     baseJsonDir = url
                 }
             }
-            else if command.cmdKey.hasPrefix("BASE_TSV_ALL") {
+            else if command.cmdKey.hasPrefix("BASE_TSV_INCLUDE") {
                 if let url = command.cmdUrl {
                     if baseListTsv == nil {
                         baseListTsv = [URL]()
@@ -227,16 +227,17 @@ struct BatchRunner {
                              outputAndroid: outputDroid, 
                              outputApple: outputApple)
                 } else {
-                    print(":ERROR: BatchRunner run() missing SOURCE_TSV")
+                    print(":ERROR: BatchRunner run() missing SOURCE_TSV_INCLUDE")
                 }
             }
-            else if command.cmdKey.hasPrefix("DO_NORMAL_STRINGS") {
-                print("\n##### ----- DO_NORMAL_STRINGS ----- ######")
+            else if command.cmdKey.hasPrefix("DO_NORMALIZE_BATCH") {
+                // Normalizes base on the given *.string, *.tsv, *.xliff, *.xml source
+                print("\n##### ----- DO_NORMALIZE_BATCH ----- ######")
                 guard 
                     let outputNormalDir = outputNormalDir,
                     (sourceStrings != nil || sourceListTSV != nil || sourceXLIFF != nil || sourceXML != nil)
                 else {
-                    print(":ERROR: DO_NORMAL_STRINGS missing required url(s)")
+                    print(":ERROR: DO_NORMALIZE_BATCH missing required url(s)")
                     continue
                 }
                 // GIVEN: `.strings` source list

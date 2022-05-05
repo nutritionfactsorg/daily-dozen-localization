@@ -6,7 +6,7 @@
 
 import Foundation
 
-struct TsvRow: Equatable {
+struct TsvRow: Equatable { // :!!!:***:
     /// keys
     var key_android: String       
     var key_apple: String

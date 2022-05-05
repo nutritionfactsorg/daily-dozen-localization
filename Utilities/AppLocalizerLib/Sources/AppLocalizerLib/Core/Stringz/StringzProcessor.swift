@@ -136,7 +136,8 @@ struct StringzProcessor: TsvProtocol {
     //    return s
     //}
     
-    func toStringSplitByFile(langCode: String) -> [SplitFile: String] {
+    /// returns `.strings` file content
+    func toStringsSplitByFile(langCode: String) -> [SplitFile: String] {
         var sInfoPlist = """
         /* DailyDozen InfoPlist.strings (\(langCode)) */
         /* Copyright © 2021 Nutritionfacts.org. All rights reserved. */
@@ -197,37 +198,41 @@ struct StringzProcessor: TsvProtocol {
         sInfoPlist.append("/* file end */\n")
         sLocalizable.append("/* file end */\n")
         
-        print("#######################################")
-        print("### key_apple: empty (Android Only) ###")
-        print("#######################################")
-        print("### (not in *.stringz)")
-        for row in applekeyEmptyList.data {
-            print("\(row.key_android)\t\(row.base_value)")
+        if applekeyEmptyList.data.count > 0 {
+            print("\n######################################################")
+            print("### REPORT/strings: key_apple empty (Android Only) ###")
+            print("######################################################")
+            for row in applekeyEmptyList.data {
+                print("\(row.key_android)\t\(row.base_value)")
+            }
         }
         
-        print("###########################")
-        print("### lang_value: missing ###")
-        print("###########################")
-        print("### (in *.stringz)")
-        for row in langvalueMissingList.data {
-            print("\(row.key_apple)\t\(row.base_value)")
+        if langvalueMissingList.data.count > 0 {
+            print("\n##########################################")
+            print("### REPORT/strings: lang_value missing ###")
+            print("##########################################")
+            for row in langvalueMissingList.data {
+                print("\(row.key_apple)\t\(row.base_value)")
+            }
         }
 
-        print("################################")
-        print("### lang_value: untranslated ###")
-        print("################################")
-        print("### (in *.stringz)")
-        for row in langvalueUntranslatedList.data {
-            print("\(row.key_apple)\t\(row.base_value)")
+        if langvalueUntranslatedList.data.count > 0 {
+            print("\n###############################################")
+            print("### REPORT/strings: lang_value untranslated ###")
+            print("###############################################")
+            for row in langvalueUntranslatedList.data {
+                print("\(row.key_apple)\t\(row.base_value)")
+            }
         }
 
-        print("######################################")
-        print("### key_apple: storyboard randomid ###")
-        print("######################################")
-        print("### (in *.stringz)")
-        for row in randomidList.data {
-            print("\(row.key_apple)\t\(row.base_value)")
-        }        
+        if randomidList.data.count > 0{
+            print("\n#####################################################")
+            print("### REPORT/strings: key_apple storyboard randomid ###")
+            print("#####################################################")
+            for row in randomidList.data {
+                print("\(row.key_apple)\t\(row.base_value)")
+            }        
+        }
         
         return [.infoPlist: sInfoPlist, .localizable: sLocalizable]
     }

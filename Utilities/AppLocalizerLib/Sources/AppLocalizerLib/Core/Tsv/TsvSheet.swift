@@ -24,7 +24,17 @@ struct TsvSheet: TsvProtocol {
         urlLanguage = url
             .deletingLastPathComponent() // "filename.ext"
             .deletingLastPathComponent() // "tsv/"
+        var initNameList = ""
         for url in urlList {
+            initNameList.append("\(url.lastPathComponent); ")
+        }        
+        print("""
+        ########################################
+        ########################################
+        TsvSheet INIT LIST (\(urlLanguage!.lastPathComponent)) \(initNameList)\n
+        """)
+        for url in urlList {
+            print("TsvSheet PARSING: \(url.lastPathComponent)")
             var tmpTsvRowList = parseTsvFile(url: url)
             tmpTsvRowList = normalizeAndroidKeys(tsvRowList: tmpTsvRowList)
             tmpTsvRowList = normalizeAppleKeys(tsvRowList: tmpTsvRowList)
@@ -288,7 +298,7 @@ struct TsvSheet: TsvProtocol {
     
     func removeDuplicates(tsvRowList: TsvRowList) -> TsvRowList {
         guard tsvRowList.data.count >= 2 else {
-            print(":WARNING: TsvSheet.removingDuplicates() tsvRowList has less than 2 rows.")
+            print(":WARNING: TsvSheet.removeDuplicates() tsvRowList has less than 2 rows.")
             return tsvRowList
         }
         
@@ -301,7 +311,7 @@ struct TsvSheet: TsvProtocol {
         
         idx += 1
         while idx < trl.data.count {
-            let rowCurrent = trl.data[idx]
+            let rowCurrent: TsvRow = trl.data[idx]
             
             if rowCurrent != rowPrior {
                 resultTRL.append(rowCurrent)
@@ -322,16 +332,12 @@ struct TsvSheet: TsvProtocol {
         
         reportRowDuplicateAppleKey(tsvRowList: tsvRowList)
         reportRowDuplicateDroidKey(tsvRowList: tsvRowList)
-        reportRowDuplicateLang(tsvRowList: tsvRowList)
+        //reportRowDuplicateLang(tsvRowList: tsvRowList) // long list of reused values
     }
     
     private func reportRowDuplicateAppleKey(tsvRowList: TsvRowList) {
         let trl = tsvRowList.sorted()
-        var report = """
-        \n########################################
-        ### DUPLICATE TSV REPORT: Apple Keys ###\n
-        """
-        
+        var report = ""        
         var idx = 0
         var rowPrior = trl.data[idx]
         
@@ -352,16 +358,18 @@ struct TsvSheet: TsvProtocol {
             rowPrior = rowCurrent
             idx += 1
         }
-        print(report)
+        if report.isEmpty == false {
+            print("""
+            \n########################################
+            ### REPORT/TSV: Duplicate Apple Keys ###
+            \(report)\n
+            """)
+        }
     }
     
     private func reportRowDuplicateDroidKey(tsvRowList: TsvRowList) {
         let trl = tsvRowList.sortedByAndroid()
-        var report = """
-        \n##########################################
-        ### DUPLICATE TSV REPORT: Android Keys ###\n
-        """
-        
+        var report = ""
         var idx = 0
         var rowPrior = trl.data[idx]
         
@@ -382,17 +390,19 @@ struct TsvSheet: TsvProtocol {
             rowPrior = rowCurrent
             idx += 1
         }
-        print(report)        
+        if report.isEmpty == false {
+            print("""
+            \n##########################################
+            ### REPORT/TSV: Duplicate Android Keys ###
+            \(report)\n
+            """)
+        }
     }
     
+    /// long list: many values are the same for different keys.
     private func reportRowDuplicateLang(tsvRowList: TsvRowList) {
         let trl = tsvRowList.sortedByLang()
-        var report = """
-        \n#############################################
-        ### DUPLICATE TSV REPORT: Lang-Base Pairs ###
-        ### Note: may simply be imperial vs metric\n
-        """
-        
+        var report = ""
         var idx = 0
         var rowPrior = trl.data[idx]
         
@@ -407,6 +417,16 @@ struct TsvSheet: TsvProtocol {
             
             if rowCurrent.lang_value == rowPrior.lang_value &&
                 rowCurrent.base_value == rowPrior.base_value {
+                
+                let keyCurrent = rowCurrent.key_apple.lowercased()
+                let keyPrior = rowPrior.key_apple.lowercased()
+                if (keyCurrent.contains("metric") && keyPrior.contains("imperial")) ||
+                    (keyCurrent.contains("imperial") && keyPrior.contains("metric"))
+                {
+                    idx += 1
+                    continue
+                }
+                
                 report.append("\(rowPrior.toStringDot(includeNotes: true))\n")
                 report.append("\(rowCurrent.toStringDot(includeNotes: true))\n")
                 report.append("\n")
@@ -414,7 +434,14 @@ struct TsvSheet: TsvProtocol {
             rowPrior = rowCurrent
             idx += 1
         }
-        print(report)        
+        if report.isEmpty == false {
+            print("""
+            \n#############################################
+            ### REPORT/TSV: duplicate Lang-Base Pairs ###
+            ### Note: may simply be imperial vs metric\n
+            \(report)\n
+            """)
+        }
     }
     
     

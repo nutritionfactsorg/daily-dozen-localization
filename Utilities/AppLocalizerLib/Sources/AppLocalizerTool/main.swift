@@ -51,28 +51,28 @@ var productsDir: URL {
 // ::WIP:: Normalize
 
 // (TEST)
-//let BatchSubdir = "batch_strings"
-//let BatchCommands = "batch_strings_FromTsvTest.txt"
+//let BatchSubdir = "batch_normal"
+//let BatchCommands = "batch_normal_FromTsvTest.txt"
 
 // (0) XLIFF use to review current App keywords to lang repo
 // -- NORMALIZE: repo xliff -> strings
-//let BatchSubdir = "batch_strings"
-//let BatchCommands = "batch_strings_FromXliff.txt"
+//let BatchSubdir = "batch_normal"
+//let BatchCommands = "batch_normal_FromXliff.txt"
 
 // (1) TSV MAIN REPO ("truth") to "NORMALIZED" product files 
 // -- Generated normalized `*.tsv`, `*.json`, `*.string`, `*.xml`
 // -- Manually verify/sync normalized Englich results to existing App English files.
 // -- Rerun, and repeat verify/sync until English main repo is fully up to date.
 // -- Compare normalized English-Language tsv keywords. Updates as needed.
-let BatchSubdir = "batch_strings"
-let BatchCommands = "batch_strings_FromTsvMain.txt"
+let BatchSubdir = "batch_normal"
+let BatchCommands = "batch_normal_FromTsvMain.txt"
 
 // (2) TSV INTAKE to "NORMALIZED" .tsv, .json, .string, .xml  
 // -- INTAKE: include/exclude languages as needed
 // -- Compare/Update main repo with normalized intake tsv
 // -- Compare/Propagate intake/main result with app files (localization, android, ios)
-//let BatchSubdir = "batch_strings"
-//let BatchCommands = "batch_strings_FromTsvIntake.txt"
+//let BatchSubdir = "batch_normal"
+//let BatchCommands = "batch_normal_FromTsvIntake.txt"
 
 print("### \(BatchCommands) ###")
 
