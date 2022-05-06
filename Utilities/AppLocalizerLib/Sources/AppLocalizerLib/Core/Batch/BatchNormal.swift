@@ -128,7 +128,7 @@ struct BatchNormal {
                 options: [.nodePreserveAll, .nodePreserveWhitespace])
             xmlFromTsv.processXmlFromTsv(
                 droidXmlOutputUrl: xmlOutputUrl, 
-                droidXmlDocument: droidXmlDocument, 
+                baseXmlDocument: droidXmlDocument, 
                 keepNontranslatable: isEnglishUS
             )
         } catch {
@@ -162,29 +162,16 @@ struct BatchNormal {
         return (langStr, modifierStr, nameStr)
     }
     
-    private func getXmlFilenameParts(_ url: URL) -> (lang: String, modifier: String, name: String) {
-        // Pattern: FILE_NAME_LANG-REGION.modifier.modifier.tsv
-        // Examples:
-        //     Spanish_es.20210309.Apple.20210629_1639.tsv
-        //     Chinese_Traditional_zh-Hant.appstore.20201028.tsv
-        var langStr = ""
-        var modifierStr = ""
-        var nameStr = ""
-        
-        let basename = url
-            .deletingPathExtension() // .tsv
-            .lastPathComponent
-        
-        let dotParts = basename.components(separatedBy: ".")
-        for i in 1 ..< dotParts.count {
-            modifierStr.append(".\(dotParts[i])")
-        }
-
-        var underscoreParts = dotParts[0].components(separatedBy: "_")
-        langStr = underscoreParts.removeLast()
-        nameStr = underscoreParts.joined(separator: "_")
-        
-        return (langStr, modifierStr, nameStr)
+    private func getXmlFilenameParts(_ url: URL) -> (lang: String, code: String) {
+        // Example:
+        //     Bulgarian/android/values-bg/strings.xml
+        let langStr = url
+            .deletingLastPathComponent() // strings.xml
+            .deletingLastPathComponent() // values-lang
+            .deletingLastPathComponent() // android
+            .lastPathComponent           // Bulgarian
+        let codeStr = ":NYI:"
+        return (langStr, codeStr)
     }
 
     /// XLIFF to normalized `*.strings` file
@@ -205,87 +192,74 @@ struct BatchNormal {
         writeNormalStrings(stringsDictionary, langCode: langCode, resultsDir: resultsDir)
     }
     
-    func doNormalizeXMLOnly(
-        sourceXML: URL,     /// target language `Languages/…/strings.xml`
-        sourceTSV: [URL],   /// may not be needed?
+    // :NYI: does not yet support adding URL components to Android `strings.xml` files
+    func doNormalize(
+        sourceXml: URL,     /// target language `Languages/…/strings.xml`
         resultsDir: URL, 
         baseListTsv: [URL], 
-        baseTsvUrlFragments: URL, 
-        baseTsvUrlTopics: URL, 
+        //baseTsvUrlFragments: URL, 
+        //baseTsvUrlTopics: URL, 
         baseXmlUrl: URL
     ) {
-        guard sourceTSV.count > 0, let tsvFirstUrl = sourceTSV.first else {
-            print("ERROR: BatchNormal.doNormalize(…xml…) sourceTSV is an empty list")
-            return
-        }
         
-        let tsvLanguage = tsvFirstUrl.deletingPathExtension().lastPathComponent
+        let tsvLanguage = sourceXml
+            .deletingLastPathComponent() // "strings.xml"
+            .deletingLastPathComponent() // "values-lang"
+            .deletingLastPathComponent() // "android"
+            .lastPathComponent // "Bulgarian"
         logger.info("\n##### DO_NORMALIZE_BATCH XML LANGUAGE: \(tsvLanguage)")
-        if tsvLanguage == "German_de" {
+        if tsvLanguage == "Bulgarian" {
             print(":WATCH: \(tsvLanguage)")
         }
         
         // ----- to TSV -----
         // Base Language TSV (English_US)
         let baseTsvSheet =  TsvSheet(urlList: baseListTsv)
+        
         // Base URL Fragments TSV
-        var baseUrlFragmentsSheet = TsvSheet(urlList: [baseTsvUrlFragments])
-        baseUrlFragmentsSheet.updateBaseNotes(baseTsvSheet)
-        baseUrlFragmentsSheet.updateBaseValues(baseTsvSheet)
-        writeNormalTsv(baseUrlFragmentsSheet, urlTsvIn: baseTsvUrlFragments, resultsDir: resultsDir)
+        //var baseUrlFragmentsSheet = TsvSheet(urlList: [baseTsvUrlFragments])
+        //baseUrlFragmentsSheet.updateBaseNotes(baseTsvSheet)
+        //baseUrlFragmentsSheet.updateBaseValues(baseTsvSheet)
+        //writeNormalTsv(baseUrlFragmentsSheet, urlTsvIn: baseTsvUrlFragments, resultsDir: resultsDir)
+        
         // Base URL Topics TSV
-        var baseUrlTopicsSheet = TsvSheet(urlList: [baseTsvUrlTopics])
-        baseUrlTopicsSheet.updateBaseNotes(baseTsvSheet)
-        baseUrlTopicsSheet.updateBaseValues(baseTsvSheet)
-        writeNormalTsv(baseUrlTopicsSheet, urlTsvIn: baseTsvUrlTopics, resultsDir: resultsDir)
-        // Source TSV
-        var sourceSheet = TsvSheet(urlList: sourceTSV)
-        sourceSheet.updateBaseNotes(baseTsvSheet)
-        sourceSheet.updateBaseValues(baseTsvSheet)
-        writeNormalTsv(sourceSheet, urlTsvIn: tsvFirstUrl, resultsDir: resultsDir)
+        //var baseUrlTopicsSheet = TsvSheet(urlList: [baseTsvUrlTopics])
+        //baseUrlTopicsSheet.updateBaseNotes(baseTsvSheet)
+        //baseUrlTopicsSheet.updateBaseValues(baseTsvSheet)
+        //writeNormalTsv(baseUrlTopicsSheet, urlTsvIn: baseTsvUrlTopics, resultsDir: resultsDir)
         
-        // ----- to *.TSV -----
-        // add url topic links
-        let forTsvSheet = TsvSheet([sourceSheet, baseUrlFragmentsSheet, baseUrlTopicsSheet])
-        let forTsvUrl = sourceTSV[0]
-            .deletingLastPathComponent()
-            .appendingPathComponent("all.tsv", isDirectory: false)
-        writeNormalTsv(forTsvSheet, urlTsvIn: forTsvUrl, resultsDir: resultsDir)
-
-        if tsvLanguage.contains("appstore") || tsvLanguage.contains("url_fragments") || tsvLanguage.contains("url_topics") {
-            return
-        }
-        
-        // ----- from XML -----        
-        let tsvFromXml = XmlIntoTsvProcessor(
-            url: sourceXML, 
-            baseOrLang: .langMode)
-
-        // ----- to XML -----
-        let nameParts = getXmlFilenameParts(sourceXML)
-        let langCode = nameParts.lang
+        let nameParts = getXmlFilenameParts(sourceXml)
+        let langName = nameParts.lang
         //let modifier = nameParts.modifier
-        let isEnglishUS = langCode == "en"
+        let isEnglishUS = langName == "English_US"
+        //let valuesPathFragment = isEnglishUS ? "values" : "values-\(langCode)"
         
-        //tsvFromXml.writeTsvFile(<#T##url: URL##URL#>) // CHECK INTERMEDIATE
+        // ----- from XML into intermediate (normalized) TSV -----      
+        let xmlIntoTsvProcessor = XmlIntoTsvProcessor(
+            url: sourceXml, 
+            baseOrLang: .langMode)
+        let migrationTsvList = applyAndroidLanguage(
+            basis: baseTsvSheet.tsvRowList, 
+            addin: xmlIntoTsvProcessor.tsvRowList
+        )
+        let migrationSheet = TsvSheet(tsvRowList: migrationTsvList)
+        writeNormalTsv(migrationSheet, urlTsvIn: sourceXml, resultsDir: resultsDir)
         
-        let tsvSheetWithTopics = TsvSheet([sourceSheet, baseUrlFragmentsSheet, baseUrlTopicsSheet])
-        
-        let valuesPathFragment = isEnglishUS ? "values" : "values-\(langCode)"
+        // ----- from intermediate TSV into XML -----
         let xmlOutputUrl = resultsDir
-            .appendingPathComponent("android")
-            .appendingPathComponent(valuesPathFragment)
+            .appendingPathComponent("android-processed")
+            .appendingPathComponent(langName) // valuesPathFragment
             .appendingPathComponent("strings.xml", isDirectory: false)
 
-        let droidLookup = tsvSheetWithTopics.getLookupDictLangValueByAndroidKey()
-        var xmlFromTsv = XmlFromTsvProcessor(lookupTable: droidLookup)
+        let droidLookup = migrationSheet.getLookupDictLangValueByAndroidKey()
+        var xmlFromTsvProcessor = XmlFromTsvProcessor(lookupTable: droidLookup)
         do {
-            let droidXmlDocument = try XMLDocument(
+            let baseXmlDocument = try XMLDocument(
                 contentsOf: baseXmlUrl, 
                 options: [.nodePreserveAll, .nodePreserveWhitespace])
-            xmlFromTsv.processXmlFromTsv(
+            xmlFromTsvProcessor.processXmlFromTsv(
                 droidXmlOutputUrl: xmlOutputUrl, 
-                droidXmlDocument: droidXmlDocument, 
+                baseXmlDocument: baseXmlDocument, 
                 keepNontranslatable: isEnglishUS
             )
         } catch {
@@ -294,6 +268,56 @@ struct BatchNormal {
         }
     }
     
+    /// apply in language values `lang_value`. used for xml.
+    func applyAndroidLanguage(basis: TsvRowList, addin: TsvRowList) -> TsvRowList {
+        var mergeResult = TsvRowList()
+        var missingMergeKeys = [String]()
+        
+        let basisRows = basis.sortedByAndroid().data
+        let addinRows = addin.sortedByAndroid().data
+        
+        var i = 0
+        var j = 0
+        while i < basisRows.count && j < addinRows.count {
+            let basisKey = basisRows[i].key_android
+            let addinKey = addinRows[j].key_android
+            if basisKey == addinKey {
+                var r = basisRows[i]
+                r.lang_value = addinRows[j].lang_value
+                mergeResult.append(r)
+                i += 1
+                j += 1
+            } else if basisKey < addinKey {
+                mergeResult.append(basisRows[i])
+                i += 1
+            } else {
+                missingMergeKeys.append(addinRows[j].key_android)
+                j += 1
+            }            
+        }
+        while i < basisRows.count {
+            mergeResult.append(basisRows[i])
+            i += 1
+        }
+        while j < addinRows.count {
+            missingMergeKeys.append(addinRows[j].key_android)
+            j += 1
+        }
+        
+        if missingMergeKeys.isEmpty == false {
+            var msg = """
+            \n#################################################################
+            ### REPORT: TsvSheet applyAndroidLanguage missing key_android ###
+            #################################################################\n
+            """
+            for s in missingMergeKeys {
+                msg.append("\(s)\n")
+            }
+            logger.info(msg)
+        }
+        
+        return mergeResult
+    }
     
     private func writeNormalStrings(
         _ stringsDictionary: [StringzProcessor.SplitFile : String], 

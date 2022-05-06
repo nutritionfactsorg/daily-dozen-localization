@@ -122,8 +122,8 @@ struct XmlIntoTsvProcessor: TsvProtocol {
                 guard
                     // :BYE: tsvRowDict[baseId]
                     let baseTsvRow = tsvRowList.get(key: baseId, keyType: .droid),
-                    var imperialTsvRow = tsvRowList.get(key: imperialId, keyType: .droid),
-                    var metricTsvRow = tsvRowList.get(key: metricId, keyType: .droid)
+                    let imperialTsvRow = tsvRowList.get(key: imperialId, keyType: .droid),
+                    let metricTsvRow = tsvRowList.get(key: metricId, keyType: .droid)
                 else {
                     notDone = false 
                     continue
@@ -131,15 +131,39 @@ struct XmlIntoTsvProcessor: TsvProtocol {
                 
                 switch baseOrLang {
                 case .baseMode:
-                    imperialTsvRow.base_value = baseTsvRow.base_value
+                    let imperial_base_value = baseTsvRow.base_value
                         .replacingOccurrences(of: "%s", with: imperialTsvRow.base_value)
-                    metricTsvRow.base_value = baseTsvRow.base_value
+                    tsvRowList.putValue(
+                        key: imperialId, 
+                        keyType: TsvKeyType.droid, 
+                        value: imperial_base_value, 
+                        valueType: TsvValueType.base, 
+                        mode: .verbatim)
+                    let metric_base_value = baseTsvRow.base_value
                         .replacingOccurrences(of: "%s", with: metricTsvRow.base_value)
+                    tsvRowList.putValue(
+                        key: metricId, 
+                        keyType: TsvKeyType.droid, 
+                        value: metric_base_value, 
+                        valueType: TsvValueType.base, 
+                        mode: .verbatim)
                 case .langMode:
-                    imperialTsvRow.lang_value = baseTsvRow.lang_value
+                    let imperial_lang_value = baseTsvRow.lang_value
                         .replacingOccurrences(of: "%s", with: imperialTsvRow.lang_value)
-                    metricTsvRow.lang_value = baseTsvRow.lang_value
+                    tsvRowList.putValue(
+                        key: imperialId, 
+                        keyType: TsvKeyType.droid, 
+                        value: imperial_lang_value, 
+                        valueType: TsvValueType.lang, 
+                        mode: .verbatim)
+                    let metric_lang_value = baseTsvRow.lang_value
                         .replacingOccurrences(of: "%s", with: metricTsvRow.lang_value)
+                    tsvRowList.putValue(
+                        key: metricId, 
+                        keyType: TsvKeyType.droid, 
+                        value: metric_lang_value, 
+                        valueType: TsvValueType.lang, 
+                        mode: .verbatim)
                 }
                 
                 tsvRowList.remove(key: baseId, keyType: .droid)

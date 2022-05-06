@@ -257,14 +257,18 @@ struct BatchRunner {
                     sourceXLIFF = nil
                 }
                 // GIVEN: `.xml` source list
-                if let sourceXml = sourceXML, let sourceListTsv = sourceListTSV, let baseListTsv = baseListTsv, let baseXmlUrl = baseXmlUrl, let fragments = urlFragmentsTsv, let topics = urlTopicsTsv {
-                    BatchNormal.shared.doNormalizeXMLOnly(
-                        sourceXML: sourceXml, 
-                        sourceTSV: sourceListTsv, 
+                if let sourceXml = sourceXML, 
+                    let baseListTsv = baseListTsv, 
+                    //let fragments = urlFragmentsTsv, 
+                    //let topics = urlTopicsTsv 
+                    let baseXmlUrl = baseXmlUrl 
+                {
+                    BatchNormal.shared.doNormalize(
+                        sourceXml: sourceXml, 
                         resultsDir: outputNormalDir, 
                         baseListTsv: baseListTsv, 
-                        baseTsvUrlFragments: fragments, 
-                        baseTsvUrlTopics: topics, 
+                        //baseTsvUrlFragments: fragments, 
+                        //baseTsvUrlTopics: topics, 
                         baseXmlUrl: baseXmlUrl)
                     sourceXML = nil
                 } 

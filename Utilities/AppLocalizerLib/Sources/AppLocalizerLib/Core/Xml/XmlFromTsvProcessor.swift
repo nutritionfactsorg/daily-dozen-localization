@@ -49,17 +49,17 @@ struct XmlFromTsvProcessor {
     // modifies XML document given a TSV document to apply
     mutating func processXmlFromTsv(
         droidXmlOutputUrl: URL, 
-        droidXmlDocument: XMLDocument,
+        baseXmlDocument: XMLDocument,
         keepNontranslatable: Bool,
         keepVideos: Bool = false, // :NYI: video urls
         measurementInDescription: Bool = true // :WIP:???: when can measurementInDescription be removed?
     ) {
-        guard let droidRootXMLElement = droidXmlDocument.rootElement() else { return }
+        guard let droidRootXMLElement = baseXmlDocument.rootElement() else { return }
         
         // :WIP:???: when can measurementInDescription be removed?
         if measurementInDescription {
             // normalize/reduce %s in static imperial & metric strings XML
-            measureDescriptionMerge(xmlDoc: droidXmlDocument)
+            measureDescriptionMerge(xmlDoc: baseXmlDocument)
         } else {
             // augment TSV to support %s description with separate imperial & metric measurements 
             measureDescriptionSplit()
@@ -99,7 +99,7 @@ struct XmlFromTsvProcessor {
         // preserve non-content whitespace characters (e.g. tabs and carriage returns)
         options.insert(.nodePreserveWhitespace) 
         
-        let droidXmlData: Data = droidXmlDocument.xmlData(options: options)
+        let droidXmlData: Data = baseXmlDocument.xmlData(options: options)
         var droidXmlString = String(data: droidXmlData, encoding: .utf8)!
         // Replace `<item></item>` with `<item />`
         droidXmlString = droidXmlString.replacingOccurrences(of: "<item></item>", with: "<item />")

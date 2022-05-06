@@ -69,7 +69,7 @@ struct BatchImport {
                 .appendingPathExtension("\(Date.datestampyyyyMMddHHmm).xml")
             _xmlProcessor.processXmlFromTsv(
                 droidXmlOutputUrl: droidXmlOutputUrl, 
-                droidXmlDocument: droidXmlDocument, 
+                baseXmlDocument: droidXmlDocument, 
                 keepNontranslatable: true
             )
             // file writing included in `processXmlFromTsv(…)`

@@ -18,9 +18,8 @@ BASE_JSON_DIR="English_US/ios/en-US_reference/LocalStrings/en.lproj"
 
 BASE_TSV_INCLUDE="English_US/tsv/English_US_en.tsv"
 #BASE_TSV_INCLUDE="English_US/tsv/English_US_en.changeset01.tsv"
-
-BASE_TSV_INCLUDE="English_US/tsv/English_US_en.url_fragments.tsv"
-BASE_TSV_INCLUDE="English_US/tsv/English_US_en.url_topics.tsv"
+#BASE_TSV_INCLUDE="English_US/tsv/English_US_en.url_fragments.tsv"
+#BASE_TSV_INCLUDE="English_US/tsv/English_US_en.url_topics.tsv"
 
 ### ------ ANDROID_LANG --> NORMALIZE XML -----
 #BASE_XML_URL="English_US/android/values/strings.xml"
@@ -42,87 +41,40 @@ DO_NORMALIZE_BATCH
 #DO_NORMALIZE_BATCH
 
 ##### ----- NOT YET -----
-QUIT
+#QUIT
 
 ###################################
 ### Chinese_Traditional_zh-Hant ###
 ###################################
-## "$XCLOC_NEW/zh-Hant.xcloc" "$LANGUAGES/Chinese_Traditional/ios"
-OUTPUT_LANG_TSV="Chinese_Traditional/tsv/Chinese_Traditional_zh-Hant.tsv"
-SOURCE_enUS_TSV="English_US/tsv/English_US_en.20210309.tsv"
-## Apple (inital pass)
-SOURCE_enUS_APPLE="English_US/ios/en.xcloc/Localized Contents/en.xliff"
-SOURCE_LANG_APPLE="Chinese_Traditional/ios/zh-Hant.xcloc/Localized Contents/zh-Hant.xliff"
-## Android (priority overwrite pass)
-SOURCE_enUS_DROID="English_US/android/values/strings.xml"
-SOURCE_LANG_DROID="Chinese_Traditional/android/values-zh/strings.xml"
-DO_EXPORT_TSV
+SOURCE_XML="Chinese_Traditional/android/values-zh/strings.xml"
+DO_NORMALIZE_BATCH
 
 #################
 ### French_fr ###
 #################
-## "$XCLOC_NEW/fr.xcloc" "$LANGUAGES/French/ios"
-OUTPUT_LANG_TSV="French/tsv/French_fr.tsv"
-SOURCE_enUS_TSV="English_US/tsv/English_US_en.20210309.tsv"
-## Apple (inital pass)
-SOURCE_enUS_APPLE="English_US/ios/en.xcloc/Localized Contents/en.xliff"
-SOURCE_LANG_APPLE="French/ios/fr.xcloc/Localized Contents/fr.xliff"
-## Android (priority overwrite pass)
-SOURCE_enUS_DROID="English_US/android/values/strings.xml"
-SOURCE_LANG_DROID="French/android/values-fr/strings.xml"
-DO_EXPORT_TSV
+SOURCE_XML="French/android/values-fr/strings.xml"
+DO_NORMALIZE_BATCH
 
 ################
 ### Greek_el ###
 ################
-## "$XCLOC_NEW/el.xcloc" "$LANGUAGES/Greek/ios"
-OUTPUT_LANG_TSV="Greek/tsv/Greek_el.tsv"
-SOURCE_enUS_TSV="English_US/tsv/English_US_en.20210309.tsv"
-## Apple (inital pass)
-SOURCE_enUS_APPLE="English_US/ios/en.xcloc/Localized Contents/en.xliff"
-SOURCE_LANG_APPLE="Greek/ios/el.xcloc/Localized Contents/el.xliff"
-## Android (priority overwrite pass)
-SOURCE_enUS_DROID="English_US/android/values/strings.xml"
-SOURCE_LANG_DROID="Greek/android/values-el/strings.xml"
-DO_EXPORT_TSV
+SOURCE_XML="Greek/android/values-el/strings.xml"
+DO_NORMALIZE_BATCH
 
 ##################
 ### Italian_it ###
 ##################
-## "$XCLOC_NEW/it.xcloc" "$LANGUAGES/Italian/ios"
-OUTPUT_LANG_TSV="Italian/tsv/Italian_it.tsv"
-SOURCE_enUS_TSV="English_US/tsv/English_US_en.20210309.tsv"
-## Apple (inital pass)
-SOURCE_enUS_APPLE="English_US/ios/en.xcloc/Localized Contents/en.xliff"
-SOURCE_LANG_APPLE="Italian/ios/it.xcloc/Localized Contents/it.xliff"
-## Android (priority overwrite pass)
-SOURCE_enUS_DROID="English_US/android/values/strings.xml"
-SOURCE_LANG_DROID="Italian/android/values-it/strings.xml"
-DO_EXPORT_TSV
+SOURCE_XML="Italian/android/values-it/strings.xml"
+DO_NORMALIZE_BATCH
 
 ###################
 ### Romanian_ro ###
 ###################
-## "$XCLOC_NEW/ro.xcloc" "$LANGUAGES/Romanian/ios"
-OUTPUT_LANG_TSV="Romanian/tsv/Romanian_ro.tsv"
-SOURCE_enUS_TSV="English_US/tsv/English_US_en.20210309.tsv"
-## Apple (inital pass)
-SOURCE_enUS_APPLE="English_US/ios/en.xcloc/Localized Contents/en.xliff"
-SOURCE_LANG_APPLE="Romanian/ios/ro.xcloc/Localized Contents/ro.xliff"
-## Android (priority overwrite pass)
-SOURCE_enUS_DROID="English_US/android/values/strings.xml"
-SOURCE_LANG_DROID="Romanian/android/values-ro/strings.xml"
-DO_EXPORT_TSV
+SOURCE_XML="Romanian/android/values-ro/strings.xml"
+DO_NORMALIZE_BATCH
 
 ######################
 ##### Spanish_es #####
 ######################
-OUTPUT_LANG_TSV="Spanish/tsv/Spanish_es.EXPORTED.tsv"
-SOURCE_enUS_TSV="English_US/tsv/English_US_en.EXPORTED.tsv"
-## Android
-SOURCE_enUS_DROID="English_US/android/values/strings.xml"
-SOURCE_LANG_DROID="Spanish/android/values-es/strings.xml"
-## Apple
-SOURCE_enUS_APPLE="English_US/ios/en.xcloc/Localized Contents/en.xliff" 
-SOURCE_LANG_APPLE="Spanish/ios/es.xcloc/Localized Contents/es.xliff"
-DO_EXPORT_TSV
+SOURCE_XML="Spanish/android/values-es/strings.xml"
+DO_NORMALIZE_BATCH
