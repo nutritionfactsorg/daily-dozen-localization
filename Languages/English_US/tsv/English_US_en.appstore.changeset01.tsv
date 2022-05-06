@@ -1,0 +1,6 @@
+key_droid	key_apple	base_value	lang_value	base_note	lang_note
+android.store.whatsnew.001	apple.store.whatsnew.001	General software quality improvement.	General software quality improvement.	What's New Item	
+	apple.store.whatsnew.analytics	Adds user opt-in analytics to help support product improvement.	Adds user opt-in analytics to help support product improvement.	What's New Item	
+	apple.store.whatsnew.darkmode	Adds support for Dark Mode.	Adds support for Dark Mode.	What's New Item	
+	apple.store.whatsnew.export	Adds support for history data export.	Adds support history for data export.	What's New Item	
+	apple.store.whatsnew.import	Adds support for history data import.	Adds support for history data import.	What's New Item	
