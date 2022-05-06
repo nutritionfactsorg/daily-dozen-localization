@@ -3,7 +3,9 @@
 ### SCOPE: English_us primary reference
 ###
 
-OUTPUT_NORMAL_DIRNAME="StringsViaTsvEnglish"
+LOGGER_FILENAME="_log_FromTsvEnglish"
+LOGGER_LEVEL_INFO
+OUTPUT_NORMAL_DIRNAME="FromTsvEnglish"
 
 SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.tsv"
 DO_NORMALIZE_BATCH

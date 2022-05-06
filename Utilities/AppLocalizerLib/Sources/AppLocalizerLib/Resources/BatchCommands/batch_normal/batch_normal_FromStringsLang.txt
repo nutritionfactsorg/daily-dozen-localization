@@ -3,7 +3,9 @@
 ###    SCOPE: all `*.strings` files in daily-dozen-ios language branch
 ###
 
-OUTPUT_NORMAL_DIRNAME="StringsFromLang"
+LOGGER_FILENAME="_log_FromStringsLang"
+LOGGER_LEVEL_INFO
+OUTPUT_NORMAL_DIRNAME="FromStringsLang"
 
 
 SOURCE_STRINGS="daily-dozen-ios-v3-languages/DailyDozen/DailyDozen/App/InfoPlist/af.lproj/InfoPlist.strings"

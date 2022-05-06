@@ -9,11 +9,13 @@
 ###################
 ## General Setup ##
 ###################
-OUTPUT_NORMAL_DIRNAME="AndroidOnly"
+LOGGER_FILENAME="_log_FromXmlDroidOnly"
+LOGGER_LEVEL_INFO
+OUTPUT_NORMAL_DIRNAME="FromXmlDroidOnly"
 
 ## Base English_US directory paths from which translations are mapped
 BASE_JSON_DIR="English_US/ios/en-US_reference/LocalStrings/en.lproj"
-# :???:DOUBLE_CHECK: current TSV will supercede prior TSV with *no*duplicates*
+
 BASE_TSV_INCLUDE="English_US/tsv/English_US_en.tsv"
 #BASE_TSV_INCLUDE="English_US/tsv/English_US_en.changeset01.tsv"
 
@@ -32,8 +34,12 @@ URL_TOPICS_TSV="English_US/tsv/English_US_en.url_topics.tsv"
 #########################
 ### (bg) Bulgarian_bg ###
 #########################
-SOURCE_TSV_INCLUDE="Bulgarian/tsv/Bulgarian_bg.EXPORT_FROM_DROID.tsv"
+SOURCE_XML="Bulgarian/android/values-bg/strings.xml"
 DO_NORMALIZE_BATCH
+
+#SOURCE_TSV_INCLUDE="Bulgarian/tsv/Bulgarian_bg.tsv"
+#SOURCE_TSV_INCLUDE="Bulgarian/tsv/Bulgarian_bg.additions.tsv"
+#DO_NORMALIZE_BATCH
 
 ##### ----- NOT YET -----
 QUIT

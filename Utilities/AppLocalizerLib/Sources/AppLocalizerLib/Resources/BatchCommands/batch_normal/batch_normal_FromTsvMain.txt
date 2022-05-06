@@ -14,7 +14,6 @@ OUTPUT_NORMAL_DIRNAME="FromTsvMain"
 #BASE_JSON_DIR="English_US/ios/en-US_reference/LocalStrings/en.lproj"
 BASE_JSON_DIR="English_US/ios/en-US_reference/LocalStrings/en.changeset01.lproj"
 
-# :???:DOUBLE_CHECK: current TSV will supercede prior TSV with *no*duplicates*
 BASE_TSV_INCLUDE="English_US/tsv/English_US_en.tsv"
 BASE_TSV_INCLUDE="English_US/tsv/English_US_en.changeset01.tsv"
 BASE_TSV_INCLUDE="English_US/tsv/English_US_en.appstore.tsv"
@@ -37,19 +36,24 @@ SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.tsv"
 SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.changeset01.tsv"
 DO_NORMALIZE_BATCH
 
-#SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.appstore.tsv"
+SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.changeset01.tsv"
+DO_NORMALIZE_BATCH
+
+SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.appstore.tsv"
 ##SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.appstore.changeset01.tsv"
-#DO_NORMALIZE_BATCH
+DO_NORMALIZE_BATCH
 
-#SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.url_fragments.tsv"
-#DO_NORMALIZE_BATCH
+SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.appstore.changeset01.tsv"
+DO_NORMALIZE_BATCH
 
-#SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.url_topics.tsv"
-#DO_NORMALIZE_BATCH
+SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.url_fragments.tsv"
+DO_NORMALIZE_BATCH
+
+SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.url_topics.tsv"
+DO_NORMALIZE_BATCH
 
 ##### ----- NOT YET -----
-QUIT
-
+#QUIT
 
 ########################################
 ### COMMON TO BOTH ANDROID AND APPLE ###
