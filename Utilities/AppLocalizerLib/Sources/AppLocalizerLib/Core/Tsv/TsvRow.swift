@@ -6,7 +6,7 @@
 
 import Foundation
 
-struct TsvRow: Equatable { // :!!!:***:
+struct TsvRow: Equatable {
     /// keys
     var key_android: String       
     var key_apple: String
@@ -33,6 +33,10 @@ struct TsvRow: Equatable { // :!!!:***:
     
     func isEmpty() -> Bool {
         return key_android.isEmpty && key_apple.isEmpty && base_value.isEmpty && lang_value.isEmpty && base_note.isEmpty && lang_note.isEmpty
+    }
+    
+    func primaryKey() -> String {
+        return "\(key_apple):::\(key_android)"
     }
     
     func precedes(_ row: TsvRow, key: TsvRow.KeyType) -> Bool {

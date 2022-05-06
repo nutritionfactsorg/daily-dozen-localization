@@ -56,30 +56,31 @@ struct BatchNormal {
         }
         
         // ----- to TSV -----
-        let allBaseTsvSheet =  TsvSheet(urlList: baseListTsv)
-        
-        var urlFragmentsSheet = TsvSheet(urlList: [baseTsvUrlFragments])
-        urlFragmentsSheet.updateBaseNotes(allBaseTsvSheet)
-        urlFragmentsSheet.updateBaseValues(allBaseTsvSheet)
-        writeNormalTsv(urlFragmentsSheet, urlTsvIn: baseTsvUrlFragments, resultsDir: resultsDir)
-        var urlTopicsSheet = TsvSheet(urlList: [baseTsvUrlTopics])
-        urlTopicsSheet.updateBaseNotes(allBaseTsvSheet)
-        urlTopicsSheet.updateBaseValues(allBaseTsvSheet)
-        writeNormalTsv(urlTopicsSheet, urlTsvIn: baseTsvUrlTopics, resultsDir: resultsDir)
-
+        // Base Language TSV (English_US)
+        let baseTsvSheet =  TsvSheet(urlList: baseListTsv)
+        // Base URL Fragments TSV
+        var baseUrlFragmentsSheet = TsvSheet(urlList: [baseTsvUrlFragments])
+        baseUrlFragmentsSheet.updateBaseNotes(baseTsvSheet)
+        baseUrlFragmentsSheet.updateBaseValues(baseTsvSheet)
+        writeNormalTsv(baseUrlFragmentsSheet, urlTsvIn: baseTsvUrlFragments, resultsDir: resultsDir)
+        // Base URL Topics TSV
+        var baseUrlTopicsSheet = TsvSheet(urlList: [baseTsvUrlTopics])
+        baseUrlTopicsSheet.updateBaseNotes(baseTsvSheet)
+        baseUrlTopicsSheet.updateBaseValues(baseTsvSheet)
+        writeNormalTsv(baseUrlTopicsSheet, urlTsvIn: baseTsvUrlTopics, resultsDir: resultsDir)
+        // Source TSV
         var sourceSheet = TsvSheet(urlList: sourceTSV)
-        sourceSheet.updateBaseNotes(allBaseTsvSheet)
-        sourceSheet.updateBaseValues(allBaseTsvSheet)
+        sourceSheet.updateBaseNotes(baseTsvSheet)
+        sourceSheet.updateBaseValues(baseTsvSheet)
         writeNormalTsv(sourceSheet, urlTsvIn: tsvFirstUrl, resultsDir: resultsDir)
         
         // ----- to *.TSV -----
         // add url topic links
-        let allTSV: [URL] = sourceTSV + [baseTsvUrlFragments] + [baseTsvUrlTopics]
-        let allTsvSheet = TsvSheet(urlList: allTSV)
-        let tsvAllUrl = sourceTSV[0]
+        let forTsvSheet = TsvSheet([sourceSheet, baseUrlFragmentsSheet, baseUrlTopicsSheet])
+        let forTsvUrl = sourceTSV[0]
             .deletingLastPathComponent()
             .appendingPathComponent("all.tsv", isDirectory: false)
-        writeNormalTsv(allTsvSheet, urlTsvIn: tsvAllUrl, resultsDir: resultsDir)
+        writeNormalTsv(forTsvSheet, urlTsvIn: forTsvUrl, resultsDir: resultsDir)
 
         if tsvLanguage.contains("appstore") || tsvLanguage.contains("url_fragments") || tsvLanguage.contains("url_topics") {
             return
@@ -91,24 +92,22 @@ struct BatchNormal {
         let modifier = nameParts.modifier
 
         // Apple *.strings uses url fragments
-        let forStringsTsv: [URL] = sourceTSV + [baseTsvUrlFragments]
-        let forStringsTsvSheet = TsvSheet(urlList: forStringsTsv)
-        let stringz = StringzProcessor(tsvRowList: forStringsTsvSheet.tsvRowList)
+        let forStringsSheet = TsvSheet([sourceSheet, baseUrlFragmentsSheet])
+        let stringz = StringzProcessor(tsvRowList: forStringsSheet.tsvRowList)
         let stringsDictionary = stringz.toStringsSplitByFile(langCode: langCode)
         
         writeNormalStrings(stringsDictionary, langCode: langCode, modifier: modifier, resultsDir: resultsDir)
         
         // ----- to JSON -----
         // Apple *.json uses url topic subpaths
-        let tsvForJson: [URL] = sourceTSV + [baseTsvUrlTopics]
-        let tsvForJsonSheet = TsvSheet(urlList: tsvForJson)        
+        let forJsonSheet = TsvSheet([sourceSheet, baseUrlTopicsSheet])        
         let jsonOutputDir = resultsDir
             .appendingPathComponent("LocalStrings")
             .appendingPathComponent("\(langCode).lproj", isDirectory: true)
         var jsonFromTsv = JsonFromTsvProcessor(
             jsonBaseDir: baseJsonDir, 
             jsonOutputDir: jsonOutputDir)
-        jsonFromTsv.processTsvToJson(tsvSheet: tsvForJsonSheet)
+        jsonFromTsv.processTsvToJson(tsvSheet: forJsonSheet)
         jsonFromTsv.writeJsonFiles()
         
         // ----- to XML -----
@@ -119,8 +118,7 @@ struct BatchNormal {
             .appendingPathComponent(valuesPathFragment)
             .appendingPathComponent("strings.xml", isDirectory: false)
         
-        let tsvForXml: [URL] = sourceTSV + [baseTsvUrlFragments] + [baseTsvUrlTopics]
-        let tsvForXmlSheet = TsvSheet(urlList: tsvForXml)        
+        let tsvForXmlSheet = TsvSheet([sourceSheet, baseUrlFragmentsSheet, baseUrlTopicsSheet])     
         
         let droidLookup = tsvForXmlSheet.getLookupDictLangValueByAndroidKey()
         var xmlFromTsv = XmlFromTsvProcessor(lookupTable: droidLookup)
@@ -217,7 +215,7 @@ struct BatchNormal {
         baseXmlUrl: URL
     ) {
         guard sourceTSV.count > 0, let tsvFirstUrl = sourceTSV.first else {
-            print("ERROR: BatchNormal.doNormalize(…) sourceTSV is an empty list")
+            print("ERROR: BatchNormal.doNormalize(…xml…) sourceTSV is an empty list")
             return
         }
         
@@ -228,60 +226,57 @@ struct BatchNormal {
         }
         
         // ----- to TSV -----
-        let allBaseTsvSheet =  TsvSheet(urlList: baseListTsv)
-        
-        var urlFragmentsSheet = TsvSheet(urlList: [baseTsvUrlFragments])
-        urlFragmentsSheet.updateBaseNotes(allBaseTsvSheet)
-        urlFragmentsSheet.updateBaseValues(allBaseTsvSheet)
-        writeNormalTsv(urlFragmentsSheet, urlTsvIn: baseTsvUrlFragments, resultsDir: resultsDir)
-        var urlTopicsSheet = TsvSheet(urlList: [baseTsvUrlTopics])
-        urlTopicsSheet.updateBaseNotes(allBaseTsvSheet)
-        urlTopicsSheet.updateBaseValues(allBaseTsvSheet)
-        writeNormalTsv(urlTopicsSheet, urlTsvIn: baseTsvUrlTopics, resultsDir: resultsDir)
-
+        // Base Language TSV (English_US)
+        let baseTsvSheet =  TsvSheet(urlList: baseListTsv)
+        // Base URL Fragments TSV
+        var baseUrlFragmentsSheet = TsvSheet(urlList: [baseTsvUrlFragments])
+        baseUrlFragmentsSheet.updateBaseNotes(baseTsvSheet)
+        baseUrlFragmentsSheet.updateBaseValues(baseTsvSheet)
+        writeNormalTsv(baseUrlFragmentsSheet, urlTsvIn: baseTsvUrlFragments, resultsDir: resultsDir)
+        // Base URL Topics TSV
+        var baseUrlTopicsSheet = TsvSheet(urlList: [baseTsvUrlTopics])
+        baseUrlTopicsSheet.updateBaseNotes(baseTsvSheet)
+        baseUrlTopicsSheet.updateBaseValues(baseTsvSheet)
+        writeNormalTsv(baseUrlTopicsSheet, urlTsvIn: baseTsvUrlTopics, resultsDir: resultsDir)
+        // Source TSV
         var sourceSheet = TsvSheet(urlList: sourceTSV)
-        sourceSheet.updateBaseNotes(allBaseTsvSheet)
-        sourceSheet.updateBaseValues(allBaseTsvSheet)
+        sourceSheet.updateBaseNotes(baseTsvSheet)
+        sourceSheet.updateBaseValues(baseTsvSheet)
         writeNormalTsv(sourceSheet, urlTsvIn: tsvFirstUrl, resultsDir: resultsDir)
         
+        // ----- to *.TSV -----
         // add url topic links
-        let allTSV: [URL] = sourceTSV + [baseTsvUrlFragments] + [baseTsvUrlTopics]
-        let allTsvSheet = TsvSheet(urlList: allTSV)
-        let tsvAllUrl = sourceTSV[0]
+        let forTsvSheet = TsvSheet([sourceSheet, baseUrlFragmentsSheet, baseUrlTopicsSheet])
+        let forTsvUrl = sourceTSV[0]
             .deletingLastPathComponent()
             .appendingPathComponent("all.tsv", isDirectory: false)
-        writeNormalTsv(allTsvSheet, urlTsvIn: tsvAllUrl, resultsDir: resultsDir)
+        writeNormalTsv(forTsvSheet, urlTsvIn: forTsvUrl, resultsDir: resultsDir)
 
         if tsvLanguage.contains("appstore") || tsvLanguage.contains("url_fragments") || tsvLanguage.contains("url_topics") {
             return
         }
         
-        
-        // ----- determine language -----
+        // ----- from XML -----        
+        let tsvFromXml = XmlIntoTsvProcessor(
+            url: sourceXML, 
+            baseOrLang: .langMode)
+
+        // ----- to XML -----
         let nameParts = getXmlFilenameParts(sourceXML)
         let langCode = nameParts.lang
         //let modifier = nameParts.modifier
         let isEnglishUS = langCode == "en"
-
-        // to TSV        
-        let tsvFromXml = XmlIntoTsvProcessor(
-            url: sourceXML, 
-            baseOrLang: .langMode)
         
         //tsvFromXml.writeTsvFile(<#T##url: URL##URL#>) // CHECK INTERMEDIATE
         
-        let tsvSheetWithTopics = TsvSheet(urlList: allTSV)
+        let tsvSheetWithTopics = TsvSheet([sourceSheet, baseUrlFragmentsSheet, baseUrlTopicsSheet])
         
-        // ----- to XML -----
         let valuesPathFragment = isEnglishUS ? "values" : "values-\(langCode)"
         let xmlOutputUrl = resultsDir
             .appendingPathComponent("android")
             .appendingPathComponent(valuesPathFragment)
             .appendingPathComponent("strings.xml", isDirectory: false)
-        let xmlOutputWithVideosUrl = resultsDir
-            .appendingPathComponent("android")
-            .appendingPathComponent(valuesPathFragment)
-            .appendingPathComponent("strings.withvideos.xml", isDirectory: false)
+
         let droidLookup = tsvSheetWithTopics.getLookupDictLangValueByAndroidKey()
         var xmlFromTsv = XmlFromTsvProcessor(lookupTable: droidLookup)
         do {
@@ -291,14 +286,7 @@ struct BatchNormal {
             xmlFromTsv.processXmlFromTsv(
                 droidXmlOutputUrl: xmlOutputUrl, 
                 droidXmlDocument: droidXmlDocument, 
-                keepNontranslatable: isEnglishUS,
-                keepVideos: false
-            )
-            xmlFromTsv.processXmlFromTsv(
-                droidXmlOutputUrl: xmlOutputWithVideosUrl, 
-                droidXmlDocument: droidXmlDocument, 
-                keepNontranslatable: isEnglishUS,
-                keepVideos: true
+                keepNontranslatable: isEnglishUS
             )
         } catch {
             print("ERROR: doNormalize: baseXmlUrl failed to read \(baseXmlUrl.path) \(error)")

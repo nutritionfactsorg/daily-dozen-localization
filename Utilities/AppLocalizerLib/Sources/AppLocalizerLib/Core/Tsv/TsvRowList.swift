@@ -365,7 +365,17 @@ struct TsvRowList {
         }
         return TsvRowList(data: list)
     }
-
+    
+    func sortedByPrimaryKey() -> TsvRowList {
+        var list = data
+        list.sort { (a: TsvRow, b: TsvRow) -> Bool in
+            // Return true to order first element before the second.
+            return a.primaryKey() < b.primaryKey()
+        }
+        return TsvRowList(data: list)
+    }
+    
+    
     func subtracting(_ toRemove: TsvRowList, byKeyType: TsvKeyType) -> TsvRowList {
         // Prerequisite: key pairing completed. multi-key cases have uniform values.
         // When prerequisites are met, then the first instance is defining

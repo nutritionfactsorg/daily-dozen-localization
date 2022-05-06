@@ -16,7 +16,6 @@ struct TsvSheet: TsvProtocol {
         case apple
     }
     
-    /// :WIP: LogServiceLevel for reporting
     init(urlList: [URL], loglevel: LogServiceLevel = .info) {
         logger.logLevel = loglevel
         guard let url = urlList.first  else {
@@ -29,47 +28,48 @@ struct TsvSheet: TsvProtocol {
         for url in urlList {
             initNameList.append("\(url.lastPathComponent); ")
         }        
-        logger.info("""
+        var msg = """
         \n########################################
         ########################################
         TsvSheet INIT LIST (\(urlLanguage!.lastPathComponent)) \(initNameList)\n
-        """)
+        """
         for url in urlList {
-            logger.info("TsvSheet PARSING: \(url.lastPathComponent)")
+            msg.append("TsvSheet PARSING: \(url.lastPathComponent)\n")
             var tmpTsvRowList = parseTsvFile(url: url)
             tmpTsvRowList = normalizeAndroidKeys(tsvRowList: tmpTsvRowList)
             tmpTsvRowList = normalizeAppleKeys(tsvRowList: tmpTsvRowList)
-            tmpTsvRowList = removeDuplicates(tsvRowList: tmpTsvRowList)
+            tmpTsvRowList = removeDuplicatesExactMatch(tsvRowList: tmpTsvRowList)
             //writeTsvFile(tmpTsvRowList, baseTsvFileUrl: url)
-            tsvRowList.append(contentsOf: tmpTsvRowList)
+            self.tsvRowList = merge(basis: self.tsvRowList, addin: tmpTsvRowList)
         }
-        tsvRowList = tsvRowList.sorted()
-        tsvRowList = removeDuplicates(tsvRowList: tsvRowList)
+        
+        logger.info(msg)
+        self.tsvRowList = self.tsvRowList.sorted()
+        self.tsvRowList = removeDuplicatesExactMatch(tsvRowList: self.tsvRowList)
     }
     
-    /// :WIP: LogServiceLevel for reporting
-    init(tsvRowList trl: TsvRowList, loglevel: LogServiceLevel = .info) {
+    init(tsvRowList trl: TsvRowList) {
         self.urlLanguage = nil
         var tmpTsvRowList = trl
         tmpTsvRowList = normalizeAndroidKeys(tsvRowList: tmpTsvRowList)
         tmpTsvRowList = normalizeAppleKeys(tsvRowList: tmpTsvRowList)
-        tmpTsvRowList = removeDuplicates(tsvRowList: tmpTsvRowList)
+        tmpTsvRowList = removeDuplicatesExactMatch(tsvRowList: tmpTsvRowList)
         self.tsvRowList = tmpTsvRowList
     }
     
-    /// :WIP: LogServiceLevel for reporting
-    init(_ sheetList: [TsvSheet], loglevel: LogServiceLevel = .info) {
+    init(_ sheetList: [TsvSheet]) {
         self.urlLanguage = nil
         for sheet in sheetList {
             var tmpTsvRowList = sheet.tsvRowList
             tmpTsvRowList = normalizeAndroidKeys(tsvRowList: tmpTsvRowList)
             tmpTsvRowList = normalizeAppleKeys(tsvRowList: tmpTsvRowList)
-            tmpTsvRowList = removeDuplicates(tsvRowList: tmpTsvRowList)
-            self.tsvRowList = tmpTsvRowList
+            tmpTsvRowList = removeDuplicatesExactMatch(tsvRowList: tmpTsvRowList)
+            self.tsvRowList = merge(basis: tsvRowList, addin: tmpTsvRowList)
         }
-        removeDuplicates(tsvRowList: self.tsvRowList)
+        self.tsvRowList = tsvRowList.sorted()
+        self.tsvRowList = removeDuplicatesExactMatch(tsvRowList: self.tsvRowList)
     }
-    
+        
     /// Check for TSV keys not used
     func checkTsvKeysNotused(platformKeysUsed: Set<String>, platform: TsvSheet.platform) -> Set<String> {
         var tsvKeySet = Set<String>()
@@ -311,7 +311,43 @@ struct TsvSheet: TsvProtocol {
         return newTsvRowList
     }
     
-    func removeDuplicates(tsvRowList: TsvRowList) -> TsvRowList {
+    /// 
+    func merge(basis: TsvRowList, addin: TsvRowList) -> TsvRowList {
+        var mergeResult = TsvRowList()
+                
+        let basisRows = basis.sortedByPrimaryKey().data
+        let addinRows = addin.sortedByPrimaryKey().data
+        
+        var i = 0
+        var j = 0
+        while i < basisRows.count && j < addinRows.count {
+            let basisKey = basisRows[i].primaryKey()
+            let addinKey = addinRows[j].primaryKey()
+            if basisKey == addinKey {
+                mergeResult.append(addinRows[j])
+                i += 1
+                j += 1
+            } else if basisKey < addinKey {
+                mergeResult.append(basisRows[i])
+                i += 1
+            } else {
+                mergeResult.append(addinRows[j])
+                j += 1
+            }            
+        }
+        while i < basisRows.count {
+            mergeResult.append(basisRows[i])
+            i += 1
+        }
+        while j < addinRows.count {
+            mergeResult.append(addinRows[j])
+            j += 1
+        }
+        
+        return mergeResult
+    }
+
+    func removeDuplicatesExactMatch(tsvRowList: TsvRowList) -> TsvRowList {
         guard tsvRowList.data.count >= 2 else {
             print(":WARNING: TsvSheet.removeDuplicates() tsvRowList has less than 2 rows.")
             return tsvRowList
@@ -335,11 +371,11 @@ struct TsvSheet: TsvProtocol {
             idx += 1
         }
         
-        reportRowDuplicates(tsvRowList: resultTRL)
+        reportRowDuplicateKeys(tsvRowList: resultTRL)
         return resultTRL
     }
     
-    func reportRowDuplicates(tsvRowList: TsvRowList) {
+    func reportRowDuplicateKeys(tsvRowList: TsvRowList) {
         guard tsvRowList.data.count >= 2 else {
             print(":WARNING: TsvSheet.reportRowDuplicates(…) tsvRowList has less than 2 rows.")
             return

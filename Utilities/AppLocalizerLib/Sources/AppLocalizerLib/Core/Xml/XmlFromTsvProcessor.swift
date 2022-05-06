@@ -8,7 +8,7 @@ import Foundation
 
 /// XmlFromTsvProcessor updates an exsiting Android XML structure from provided TSV data 
 struct XmlFromTsvProcessor {
-    
+    private let logger = LogService.shared
     /// [key_droid, lang_value] from _tsvImportSheet
     private var _lookupTableDroid: [String: String] 
     var keysDroidXmlAll = Set<String>() // key_droid
@@ -310,14 +310,22 @@ struct XmlFromTsvProcessor {
             let metricNodeList: [XMLNode] = try? xmlDoc.nodes(forXPath: metricXPath) 
         else { return }
         
-        print(baseNodeList)
-        print(imperialNodeList)
-        print(metricNodeList)
-        print("--------------------------------")
+        var msg = """
+        \n----- measureDescriptionMerge (\(name)) -----
+        baseNodeList:
+        \(baseNodeList)
+        imperialNodeList:
+        \(imperialNodeList)
+        metricNodeList:
+        \(metricNodeList)\n
+        """
         
         guard baseNodeList.count == imperialNodeList.count &&
                 baseNodeList.count == metricNodeList.count
-        else { return }
+        else {
+            logger.info(msg)
+            return
+        }
         
         for i in 0 ..< baseNodeList.count {
             let baseStr = baseNodeList[i].child(at: i)!.stringValue
@@ -326,10 +334,16 @@ struct XmlFromTsvProcessor {
             
             imperial.stringValue = baseStr?.replacingOccurrences(of: "%s", with: imperial.stringValue!)
             metric.stringValue = baseStr?.replacingOccurrences(of: "%s", with: metric.stringValue!)
-            print(imperial.stringValue!)
-            print(metric.stringValue!)
-            print("==================")
+            
+            msg.append("""
+            --- \(i) ---")
+            imperial:
+            \(imperial.stringValue!)
+            metric:
+            \(metric.stringValue!)\n
+            """)
         }
+        logger.info(msg)
         fatalError("not implemented")
         // implementation of this approach would `.detach()` the base node and keep imperial and metric nodes as fully expanded descriptions 
     }

@@ -150,6 +150,7 @@ struct StringzProcessor: TsvProtocol {
         \n
         """
         
+        var androidkeyEmptyList = TsvRowList()
         var applekeyEmptyList = TsvRowList()
         var langvalueMissingList = TsvRowList()
         var langvalueUntranslatedList = TsvRowList()
@@ -160,6 +161,12 @@ struct StringzProcessor: TsvProtocol {
             let key = row.key_apple
             let value = row.lang_value
                 .replacingOccurrences(of: "\"", with: "\\\"")
+
+            // Case: key_android
+            if row.key_android.isEmpty {
+                androidkeyEmptyList.append(row)
+                continue
+            }
             
             // Case: key_apple
             if row.key_apple.isEmpty {
@@ -198,12 +205,24 @@ struct StringzProcessor: TsvProtocol {
 
         sInfoPlist.append("/* file end */\n")
         sLocalizable.append("/* file end */\n")
+
+        if androidkeyEmptyList.data.count > 0 {
+            var report = """
+            \n###########################################################
+            ### REPORT/strings: key_android empty (Apple Only Keys) ###
+            ###########################################################\n
+            """
+            for row in androidkeyEmptyList.data {
+                report.append("\(row.key_apple)\t\(row.base_value)\n")
+            }
+            logger.info(report)
+        }
         
         if applekeyEmptyList.data.count > 0 {
             var report = """
-            \n######################################################
-            ### REPORT/strings: key_apple empty (Android Only) ###
-            ######################################################
+            \n###########################################################
+            ### REPORT/strings: key_apple empty (Android Only Keys) ###
+            ###########################################################\n
             """
             for row in applekeyEmptyList.data {
                 report.append("\(row.key_android)\t\(row.base_value)\n")
@@ -215,7 +234,7 @@ struct StringzProcessor: TsvProtocol {
             var report = """
             \n##########################################
             ### REPORT/strings: lang_value missing ###
-            ##########################################
+            ##########################################\n
             """
             for row in langvalueMissingList.data {
                 report.append("\(row.key_apple)\t\(row.base_value)\n")
@@ -223,11 +242,11 @@ struct StringzProcessor: TsvProtocol {
             logger.info(report)
         }
 
-        if langvalueUntranslatedList.data.count > 0 {
+        if langCode != "en" && langvalueUntranslatedList.data.count > 0 {
             var report = """
             \n###############################################
             ### REPORT/strings: lang_value untranslated ###
-            ###############################################
+            ###############################################\n
             """
             for row in langvalueUntranslatedList.data {
                 report.append("\(row.key_apple)\t\(row.base_value)\n")
@@ -239,7 +258,7 @@ struct StringzProcessor: TsvProtocol {
             var report = """
             \n#####################################################
             ### REPORT/strings: key_apple storyboard randomid ###
-            #####################################################
+            #####################################################\n
             """
             for row in randomidList.data {
                 report.append("\(row.key_apple)\t\(row.base_value)\n")
