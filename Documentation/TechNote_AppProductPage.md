@@ -49,6 +49,7 @@ _The Daily Dozen iOS application submits portrait graphics files for 6.5" and 5.
 **Android: Google Play**
 
 * [Android Developer: Google Play Console ⇗](https://developer.android.com/distribute/console)
+    * [Manage your store listings ⇗](https://support.google.com/googleplay/android-developer/topic/3450987)
     * [Add preview assets to showcase your app ⇗](https://support.google.com/googleplay/android-developer/answer/9866151)
     * [Create custom store listings to target specific countries ⇗](https://support.google.com/googleplay/android-developer/answer/9867158?hl=en&ref_topic=3450987)
 * [Android Studio: Take a screenshot ⇗](https://developer.android.com/studio/debug/am-screenshot)
@@ -57,5 +58,10 @@ _The Daily Dozen iOS application submits portrait graphics files for 6.5" and 5.
 
 * [App Store Connect Help ⇗](https://help.apple.com/app-store-connect/)
     * [App Store: localizations ⇗](https://help.apple.com/app-store-connect/#/dev656087953) provides a list of languages and locales supported in the App store.
+    * [Configure custom product pages ⇗](https://help.apple.com/app-store-connect/#/dev3a2998d9f)
     * [Screenshot Specifications ⇗](https://help.apple.com/app-store-connect/#/devd274dd925)
 * [Creating Your Product Page ⇗](https://developer.apple.com/app-store/product-page/) provides an overview of the various product page elements.
+* [Custom product pages ⇗](https://developer.apple.com/app-store/custom-product-pages/) can highlight different pages for different users.
+* World Wide Developers Conference (WWDC)
+    * [2021 Get ready to optimize your App Store product page ⇗](https://developer.apple.com/videos/play/wwdc2021/10295/)
+
