@@ -24,6 +24,9 @@ struct BatchNormal {
             .deletingPathExtension()     // .lproj
             .lastPathComponent           // en
 
+        logger.info("\n##### DO_NORMALIZE_BATCH STRINGS LANGUAGE: \(langCode)")
+        print("\n##### DO_NORMALIZE_BATCH STRINGS LANGUAGE: \(langCode)")
+
         var stringz = StringzProcessor()
         for url in sourceStrings {
             stringz.parse(url: url)
@@ -51,6 +54,7 @@ struct BatchNormal {
         
         let tsvLanguage = tsvFirstUrl.deletingPathExtension().lastPathComponent
         logger.info("\n##### DO_NORMALIZE_BATCH TSV LANGUAGE: \(tsvLanguage)")
+        print("\n##### DO_NORMALIZE_BATCH TSV LANGUAGE: \(tsvLanguage)")
         if tsvLanguage == "German_de" {
             print(":WATCH: \(tsvLanguage)")
         }
@@ -170,14 +174,22 @@ struct BatchNormal {
             .deletingLastPathComponent() // values-lang
             .deletingLastPathComponent() // android
             .lastPathComponent           // Bulgarian
-        let codeStr = ":NYI:"
-        return (langStr, codeStr)
+        
+        let valuesLangcode = url
+            .deletingLastPathComponent() // strings.xml
+            .lastPathComponent           // values-langcode
+        let parts = valuesLangcode.components(separatedBy: "-")
+        let langcodeStr = parts.count > 1 ? parts[1] : "en"
+        
+        return (langStr, langcodeStr)
     }
 
     /// XLIFF to normalized `*.strings` file
     /// 
     /// Note: input `en.xliff` has output `en.normal.strings`
     func doNormalize(sourceXLIFF: URL, resultsDir: URL) {
+        logger.info("\n##### DO_NORMALIZE_BATCH XLIFF")
+        print("\n##### DO_NORMALIZE_BATCH XLIFF")
         // to TSV
         let xliff = XliffIntoTsvProcessor(url: sourceXLIFF)
         
@@ -208,6 +220,7 @@ struct BatchNormal {
             .deletingLastPathComponent() // "android"
             .lastPathComponent // "Bulgarian"
         logger.info("\n##### DO_NORMALIZE_BATCH XML LANGUAGE: \(tsvLanguage)")
+        print("\n##### DO_NORMALIZE_BATCH XML LANGUAGE: \(tsvLanguage)")
         if tsvLanguage == "Bulgarian" {
             print(":WATCH: \(tsvLanguage)")
         }
@@ -230,7 +243,7 @@ struct BatchNormal {
         
         let nameParts = getXmlFilenameParts(sourceXml)
         let langName = nameParts.lang
-        //let modifier = nameParts.modifier
+        let langCode = nameParts.code
         let isEnglishUS = langName == "English_US"
         //let valuesPathFragment = isEnglishUS ? "values" : "values-\(langCode)"
         
@@ -243,12 +256,13 @@ struct BatchNormal {
             addin: xmlIntoTsvProcessor.tsvRowList
         )
         let migrationSheet = TsvSheet(tsvRowList: migrationTsvList)
-        writeNormalTsv(migrationSheet, urlTsvIn: sourceXml, resultsDir: resultsDir)
+        writeNormalTsv(migrationSheet, urlXmlIn: sourceXml, resultsDir: resultsDir)
         
         // ----- from intermediate TSV into XML -----
+        let valuesPathFragment = isEnglishUS ? "values" : "values-\(langCode)"
         let xmlOutputUrl = resultsDir
             .appendingPathComponent("android-processed")
-            .appendingPathComponent(langName) // valuesPathFragment
+            .appendingPathComponent(valuesPathFragment)
             .appendingPathComponent("strings.xml", isDirectory: false)
 
         let droidLookup = migrationSheet.getLookupDictLangValueByAndroidKey()
@@ -352,6 +366,37 @@ struct BatchNormal {
         let outputTsvDirUrl = resultsDir
             .appendingPathComponent("Normalized_TSV")
             .appendingPathComponent(tsvLangName)
+            .appendingPathComponent("tsv")
+        let outputTsvFileUrl = outputTsvDirUrl
+            .appendingPathComponent(tsvFilename, isDirectory: false)
+        do {
+            try FileManager.default.createDirectory(
+                at: outputTsvDirUrl,
+                withIntermediateDirectories: true, 
+                attributes: nil)
+            tsvSheet.writeTsvFile(fullUrl: outputTsvFileUrl)            
+        } catch {
+            print("ERROR: failed to write \(outputTsvFileUrl.path) \(error)")
+        }
+    }
+    
+    private func writeNormalTsv(_ tsvSheet: TsvSheet, urlXmlIn: URL, resultsDir: URL) {
+        let language = urlXmlIn
+            .deletingLastPathComponent() // strings.xml
+            .deletingLastPathComponent() // values-langcode
+            .deletingLastPathComponent() // android
+            .lastPathComponent           // Chinese_Traditional
+
+        let valuesLangcode = urlXmlIn
+            .deletingLastPathComponent() // strings.xml
+            .lastPathComponent           // values-langcode
+        let parts = valuesLangcode.components(separatedBy: "-")
+        let langcode = parts.count > 1 ? parts[1] : "en"
+        
+        let tsvFilename = "\(language)_\(langcode).tsv"
+        let outputTsvDirUrl = resultsDir
+            .appendingPathComponent("Normalized_TSV")
+            .appendingPathComponent(language)
             .appendingPathComponent("tsv")
         let outputTsvFileUrl = outputTsvDirUrl
             .appendingPathComponent(tsvFilename, isDirectory: false)

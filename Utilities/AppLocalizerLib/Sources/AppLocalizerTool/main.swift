@@ -78,7 +78,6 @@ var productsDir: URL {
 let BatchSubdir = "batch_normal"
 let BatchCommands = "batch_normal_FromXmlDroidOnly.txt"
 
-
 print("### \(BatchCommands) ###")
 
 // …/AppLocalizerLibTests.bundle/Resources/commands_*.txt

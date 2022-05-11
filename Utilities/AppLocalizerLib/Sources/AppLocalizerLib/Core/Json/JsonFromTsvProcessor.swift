@@ -98,7 +98,7 @@ struct JsonFromTsvProcessor {
             let jsonTweakStr = try String(contentsOf: tweakJsonUrl, encoding: .utf8)
             let jsonTweakData = jsonTweakStr.data(using: .utf8)!
             tweakInfo = try decoder.decode(TweakDetailInfo.self, from: jsonTweakData)
-            print("Complete: read(dozeJsonUrl: URL, tweakJsonUrl: URL)")
+            //print("Complete: read(dozeJsonUrl: URL, tweakJsonUrl: URL)")
                         
         } catch {            
             print("\(error)")
