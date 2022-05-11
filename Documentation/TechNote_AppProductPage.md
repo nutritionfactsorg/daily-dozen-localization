@@ -8,9 +8,13 @@
 
 ## Text Components <a id="text-components-"></a><sup>[▴](#contents)</sup>
 
-A tsv files with app store information contain 'appstore' in the file name. The spreadsheet file ['English_US_en_appstore.tsv'](https://github.com/nutritionfactsorg/daily-dozen-localization/blob/master/Languages/English_US/tsv/English_US_en_appstore.tsv) provides the baseline English reference for both the Android and Apple application store.
+A tsv files with app store information contains `appstore` in the file name. The spreadsheet file ['English_US_en_appstore.tsv'](https://github.com/nutritionfactsorg/daily-dozen-localization/blob/master/Languages/English_US/tsv/English_US_en_appstore.tsv) provides the baseline English reference for both the Android and Apple application store.
 
 The tsv lines where the `key_droid` or `key_apple` values begin with `store.screen.` provide translated text for use in the marketing graphics.
+
+**Text Style: Plain**
+
+All text components are plain text _without any style formatting_ such as italics or bold. Plain text is used for both Android and Apple product page content. Translations will need to use plain text characters, such as quotes, for elements such as book titles as appropriate for that language.
 
 ## Android: Google Play Graphics <a id="android-google-play-graphics-"></a><sup>[▴](#contents)</sup>
 
