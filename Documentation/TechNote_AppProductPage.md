@@ -14,7 +14,9 @@ The tsv lines where the `key_droid` or `key_apple` values begin with `store.scre
 
 **Text Style: Plain**
 
-All text components are plain text _without any style formatting_ such as italics or bold. Plain text is used for both Android and Apple product page content. Translations will need to use plain text characters, such as quotes, for elements such as book titles as appropriate for that language.
+All text components are plain text _\*without\* any style formatting_ such as italics or bold. Plain text is used for both Android and Apple product page text content. Translations will need to use plain text characters, such as quotes, for elements like book titles as appropriate for that language.
+
+All [UTF-8 international quotation marks](https://en.wikipedia.org/wiki/Quotation_mark) and other punctuation marks are supported in the product page plain text.
 
 ## Android: Google Play Graphics <a id="android-google-play-graphics-"></a><sup>[▴](#contents)</sup>
 
