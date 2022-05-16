@@ -8,24 +8,20 @@ _This QuickStart Guide is located in the documents folder at [Documents/Quicksta
 [Overview](#overview-) •
 [Setup](#setup-) •
 [Spreadsheet Files](#spreadsheet-files-) •
-[Issue Discussions](#issue-discussions-) •
+[Issues Discussions](#issues-discussions-) •
 [Resources](#resources-)
 
 ## Overview <a id="overview-"></a><sup>[▴](#contents)</sup>
 
 [GitHub](https://en.wikipedia.org/wiki/GitHub) is used as a repository to coordinate language translations for the Android and Apple Daily Dozen applications. The language translation workflow, as described in this quickstart document,  _does not require any particular knowledge of [git](https://en.wikipedia.org/wiki/Git) itself._
 
-The primary file format used for translation is a spreadsheet in the [TSV (Tab Separated Value)](https://en.wikipedia.org/wiki/Tab-separated_values) text format.  TSV files can be imported and exported by any widely available spreadsheet program such as Apple Numbers, LibreOffice Calc and Microsoft Excel.
-
-A second file format used is [Markdown](https://en.wikipedia.org/wiki/Markdown) text. Markdown is used for (1) documentation like this quickstart page, (2) the longer text used in the application's "About" screen and (3) the text in the Apple App Store and Google Play Store landing pages. A markdown file can be edited as either plain text or with a Markdown editor.
+The primary file format used for translation is a spreadsheet in the [TSV (Tab Separated Value)](https://en.wikipedia.org/wiki/Tab-separated_values) text format.  TSV files can be imported and exported by any widely available spreadsheet program such as LibreOffice Calc.
 
 ## Setup <a id="setup-"></a><sup>[▴](#contents)</sup>
 
-**GitHub Account.** Use [https://github.com/join](https://github.com/join) to setup up a GitHub account, if you do not already have one.  An account is free.  An account is needed to submit translations and participate in online issue reporting and discussions.
-
 **Spreadsheet Application.** A spreadsheet program which can import and export TSV formatted spreadsheets is required. [Apple Numbers](https://www.apple.com/numbers/), [LibreOffice Calc](https://www.libreoffice.org/discover/calc/), [Microsoft Excel](https://www.microsoft.com/en-us/microsoft-365/excel), or similar can be used.
 
-**Markdown or Plain Text Editor.** A markdown editor or plain text editor is needed. There are many choices available. See the Resources section below for some applications which can be used to edit markdown files.
+**GitHub Account.** Use [https://github.com/join](https://github.com/join) to setup up a GitHub account, if you do not already have one.  An account is free.  An account is needed to submit translations and participate in online issue reporting and discussions.
 
 ## Spreadsheet Files <a id="spreadsheet-files-"></a><sup>[▴](#contents)</sup>
 
@@ -59,7 +55,7 @@ When the "Raw" `.tsv` file shows in the browser, then context-click (right-click
 
 Open the `.tsv` file in a spreadsheet application.
 
-Data in columns that have header names which begin with `key_` or `base_` are not to be translated. In particular, the `key_android` and `key_apple` entries are used for mapping values back into the device specific localization files.  _**These `key_` values must not be changed.**_
+Data in columns that have header names which begin with `key_` or `base_` are not to be translated. In particular, the `key_android` and `key_apple` entries are used for mapping values back into the device specific localization files.  _**The `key_android` and `key_apple` values must not be changed.**_
 
 The `base_comment`, if present, provides translation guidance in the development language (English).
 
@@ -85,7 +81,7 @@ Click the "Submit new issue" button.
 
 ![](Quickstart_files/TSV_submit_ready.png)
 
-## Issue Discussions <a id="issue-discussions-"></a><sup>[▴](#contents)</sup>
+## Issues Discussions <a id="issues-discussions-"></a><sup>[▴](#contents)</sup>
 
 Create a [nutritionfactsorg/daily-dozen-localization issue](https://github.com/nutritionfactsorg/daily-dozen-localization/issues) to report problems, provide feedback and ask questions.  Please put the affected language (see folder name) at the beginning of the subject, if applicable.  The label "translation discussion" can be added to identified topics intended for discussion.
 
@@ -93,8 +89,7 @@ Create a [nutritionfactsorg/daily-dozen-localization issue](https://github.com/n
 
 ## Resources <a id="resources-"></a><sup>[▴](#contents)</sup>
 
-* Markdown Editors
-    * [Atom ⇗](https://atom.io/) Linux/macOS/Windows, free, open source
-        * [Markdown Preview package ⇗](https://atom.io/packages/markdown-preview) included with the default Atom install.
-        * [markdown-preview-enhanced ⇗](https://atom.io/packages/markdown-preview-enhanced) optional package for more advanced Markdown editing.
-    * [MacDown ⇗](https://macdown.uranusjr.com/) macOS, free, open source
+* [Atom ⇗](https://atom.io/) Linux/macOS/Windows, free, open source
+    * [Markdown Preview package ⇗](https://atom.io/packages/markdown-preview) included with the default Atom install.
+    * [markdown-preview-enhanced ⇗](https://atom.io/packages/markdown-preview-enhanced) optional package for more advanced Markdown editing.
+
