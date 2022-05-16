@@ -64,8 +64,8 @@ var productsDir: URL {
 // -- Manually verify/sync normalized Englich results to existing App English files.
 // -- Rerun, and repeat verify/sync until English main repo is fully up to date.
 // -- Compare normalized English-Language tsv keywords. Updates as needed.
-//let BatchSubdir = "batch_normal"
-//let BatchCommands = "batch_normal_FromTsvMain.txt"
+let BatchSubdir = "batch_normal"
+let BatchCommands = "batch_normal_FromTsvMain.txt"
 
 // (2) TSV INTAKE to "NORMALIZED" .tsv, .json, .string, .xml  
 // -- INTAKE: include/exclude languages as needed
@@ -75,8 +75,12 @@ var productsDir: URL {
 //let BatchCommands = "batch_normal_FromTsvIntake.txt"
 
 // (*) Android XML Migration
-let BatchSubdir = "batch_normal"
-let BatchCommands = "batch_normal_FromXmlDroidOnly.txt"
+//let BatchSubdir = "batch_normal"
+//let BatchCommands = "batch_normal_FromXmlDroidOnly.txt"
+
+// (*) Residual TSV updates
+//let BatchSubdir = "batch_normal"
+//let BatchCommands = "batch_normal_FromTsvResidual.txt"
 
 print("### \(BatchCommands) ###")
 

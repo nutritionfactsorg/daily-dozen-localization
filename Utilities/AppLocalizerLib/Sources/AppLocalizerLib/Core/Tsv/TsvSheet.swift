@@ -235,7 +235,7 @@ struct TsvSheet: TsvProtocol {
             
             // Check for keys to be replaced
             if let newKey = TsvRemapDroid.check.isReplaced(r.key_android) {
-                r.key_apple = newKey
+                r.key_android = newKey
                 newTsvRowList.append(r)
                 continue
             }

@@ -18,10 +18,22 @@ struct TsvRemapDroid {
     
     init() {
         dropSet = Set<String>()
-        
         replaceDict = [String: String]()
-        
         crossmapDict = [String: String]()
+        
+        // Android Store: change word separators from `.` to `_`
+        replaceDict["android.store.title"] = "android_store_title"
+        replaceDict["store.keywords"] = "store_keywords"
+        replaceDict["store.screen.0"] = "store_screen.0"
+        replaceDict["store.screen.1"] = "store_screen.1"
+        replaceDict["store.screen.2"] = "store_screen.2"
+        replaceDict["store.screen.3"] = "store_screen.3"
+        replaceDict["store.screen.4"] = "store_screen.4"
+        replaceDict["store.screen.5"] = "store_screen.5"
+        replaceDict["android.store.description.0"] = "android_store_description.0"
+        replaceDict["android.store.description.1"] = "android_store_description.1"
+        replaceDict["android.store.description.2"] = "android_store_description.2"
+        replaceDict["android.store.whatsnew"] = "android_store_whatsnew"
     }
     
     func isDropped(_ key: String) -> Bool {

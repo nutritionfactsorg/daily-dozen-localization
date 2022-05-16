@@ -212,11 +212,33 @@ struct TsvRemapApple {
         // static "100 days" replaced by `%d day`. Apple: streakDaysFormat Droid: format_num_days
         dropSet.insert("cW5-dD-Zy0.text") // Android: format_num_days Apple: streakDaysFormat
         dropSet.insert("Vbn-R9-kuu.text") // Android: format_num_days Apple: streakDaysFormat
+        // rational: "streakDaysFormat" is less generic that "format_num_days"
         replaceDict["format_num_days"] = "streakDaysFormat" // Android: format_num_days
         
         // Android uses `out_of` uses text for "X out of Y".
         // Apple programatically uses "X/Y" with no text translation.
         dropSet.insert("NPC-if-gUf.text") // replaced by "X/Y"
+        
+        // Apple Store: change word separators from `.` to `_`
+        replaceDict["apple.store.description.0"] = "apple_store_description.0"
+        replaceDict["apple.store.description.1"] = "apple_store_description.1"
+        replaceDict["apple.store.description.2"] = "apple_store_description.2"
+        replaceDict["apple.store.description.3"] = "apple_store_description.3"
+        replaceDict["apple.store.description.4"] = "apple_store_description.4"
+        replaceDict["apple.store.description.5"] = "apple_store_description.5"
+        replaceDict["apple.store.description.6"] = "apple_store_description.6"
+        replaceDict["apple.store.description.7"] = "apple_store_description.7"
+        replaceDict["apple.store.promotion"] = "apple_store_promotion"
+        replaceDict["apple.store.subtitle"] = "apple_store_subtitle"
+        replaceDict["apple.store.title"] = "apple_store_title"
+        replaceDict["apple.store.whatsnew"] = "apple_store_whatsnew"
+        replaceDict["store.keywords"] = "store_keywords"
+        replaceDict["store.screen.0"] = "store_screen.0"
+        replaceDict["store.screen.1"] = "store_screen.1"
+        replaceDict["store.screen.2"] = "store_screen.2"
+        replaceDict["store.screen.3"] = "store_screen.3"
+        replaceDict["store.screen.4"] = "store_screen.4"
+        replaceDict["store.screen.5"] = "store_screen.5"
     }
     
     func isDropped(_ key: String) -> Bool {

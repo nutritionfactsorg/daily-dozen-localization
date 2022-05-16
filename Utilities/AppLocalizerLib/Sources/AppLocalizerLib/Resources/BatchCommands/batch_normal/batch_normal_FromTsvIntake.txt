@@ -35,8 +35,8 @@ URL_TOPICS_TSV="English_US/tsv/English_US_en.url_topics.tsv"
 #SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.tsv"
 #DO_NORMALIZE_BATCH
 
-#SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.appstore.tsv"
-#DO_NORMALIZE_BATCH
+SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.appstore.intake.20220513.fods.tsv"
+DO_NORMALIZE_BATCH
 
 #SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.url_fragments.tsv"
 #DO_NORMALIZE_BATCH
@@ -44,12 +44,20 @@ URL_TOPICS_TSV="English_US/tsv/English_US_en.url_topics.tsv"
 #SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.url_topics.tsv"
 #DO_NORMALIZE_BATCH
 
-############
-## Polish ##
-############
-## -- (pl) process application values --
-SOURCE_TSV_INCLUDE="Polish/tsv/Polish_pl.intake.20220318.tsv"
+#############
+## Russian ##
+#############
+## -- (ru) process application values --
+#SOURCE_TSV_INCLUDE="Russian/tsv/Russian_ru.intake.20211019.tsv"
+#SOURCE_TSV_INCLUDE="Russian/tsv/Russian_ru.intake.additions.20211028.tsv"
+SOURCE_TSV_INCLUDE="Russian/tsv/Russian_ru.intake.20220210.tsv"
 DO_NORMALIZE_BATCH
+
+## -- (ru) process appstore --
+#SOURCE_TSV_INCLUDE="Russian/tsv/Russian_ru.intake.appstore.20211028.tsv"
+SOURCE_TSV_INCLUDE="Russian/tsv/Russian_ru.intake.appstore.20220209.tsv"
+DO_NORMALIZE_BATCH
+
 
 ### ----- STOP HERE (PROCESSING: 2022.04.06) ----- ###
 QUIT
@@ -66,6 +74,13 @@ DO_NORMALIZE_BATCH
 #SOURCE_TSV_INCLUDE="Catalan/tsv/Catalan_ca.intake.appstore.20220124.tsv"
 #SOURCE_TSV_INCLUDE="Catalan/tsv/Catalan_ca.intake.appstore.20220214.tsv"
 #DO_NORMALIZE_BATCH
+
+############
+## Polish ##
+############
+## -- (pl) process application values --
+SOURCE_TSV_INCLUDE="Polish/tsv/Polish_pl.intake.20220318.tsv"
+DO_NORMALIZE_BATCH
 
 #########################
 ## Portuguese_Portugal ##

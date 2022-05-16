@@ -33,7 +33,7 @@ URL_TOPICS_TSV="English_US/tsv/English_US_en.url_topics.tsv"
 ## English_US: Baseline Reference ##
 ####################################
 SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.tsv"
-SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.changeset01.tsv"
+#SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.changeset01.tsv"
 DO_NORMALIZE_BATCH
 
 SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.changeset01.tsv"
@@ -41,6 +41,9 @@ DO_NORMALIZE_BATCH
 
 SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.appstore.tsv"
 ##SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.appstore.changeset01.tsv"
+DO_NORMALIZE_BATCH
+
+SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.appstore.intake.20220513.tsv"
 DO_NORMALIZE_BATCH
 
 SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.appstore.changeset01.tsv"
@@ -53,7 +56,7 @@ SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.url_topics.tsv"
 DO_NORMALIZE_BATCH
 
 ##### ----- NOT YET -----
-#QUIT
+QUIT
 
 ########################################
 ### COMMON TO BOTH ANDROID AND APPLE ###
