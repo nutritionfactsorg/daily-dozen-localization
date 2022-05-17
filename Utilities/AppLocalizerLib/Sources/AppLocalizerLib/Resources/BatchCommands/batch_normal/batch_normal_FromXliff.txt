@@ -3,9 +3,9 @@
 ### SCOPE: all planned languages
 ###
 
+DIRNAME_OUTPUT_NORMAL="FromXliff"
 LOGGER_FILENAME="_log_FromXliff"
 LOGGER_LEVEL_INFO
-OUTPUT_NORMAL_DIRNAME="FromXliff"
 
 ####################################
 ### (en) English_US -- reference ###

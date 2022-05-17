@@ -6,9 +6,9 @@
 ###################
 ## General Setup ##
 ###################
+DIRNAME_OUTPUT_NORMAL="FromTsvIntake"
 LOGGER_FILENAME="_log_FromTsvIntake"
 LOGGER_LEVEL_INFO
-OUTPUT_NORMAL_DIRNAME="FromTsvIntake"
 
 ## Base English_US paths into which translations are mapped
 BASE_JSON_DIR="English_US/ios/en-US_reference/LocalStrings/en.lproj"

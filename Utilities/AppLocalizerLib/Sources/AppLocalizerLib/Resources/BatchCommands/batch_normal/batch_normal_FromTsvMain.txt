@@ -8,9 +8,9 @@
 ###################
 ## General Setup ##
 ###################
-LOGGER_FILENAME="_log_FromTsvMain"
+DIRNAME_OUTPUT_NORMAL="FromTsvMain"
+LOGGER_FILENAME="_log_FromTsvMain__"
 LOGGER_LEVEL_INFO
-OUTPUT_NORMAL_DIRNAME="FromTsvMain"
 
 ## Base English_US directory paths from which translations are mapped
 ## use one or the other.
@@ -35,6 +35,8 @@ URL_TOPICS_TSV="English_US/tsv/English_US_en.url_topics.tsv"
 ####################################
 ## English_US: Baseline Reference ##
 ####################################
+LOGGER_FILENAME="_log_FromTsvMain__US_en"
+
 SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.tsv"
 #SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.changeset01.tsv"
 DO_NORMALIZE_BATCH
@@ -67,6 +69,7 @@ DO_NORMALIZE_BATCH
 ##################
 ## (ca) Catalan ##
 ##################
+LOGGER_FILENAME="_log_FromTsvMain_Catalan_ca"
 ## -- (ca) process application values --
 SOURCE_TSV_INCLUDE="Catalan/tsv/Catalan_ca.tsv"
 DO_NORMALIZE_BATCH
@@ -78,6 +81,7 @@ DO_NORMALIZE_BATCH
 #################
 ## (de) German ##
 #################
+LOGGER_FILENAME="_log_FromTsvMain_German_de"
 ## -- (de) process application values --
 SOURCE_TSV_INCLUDE="German/tsv/German_de.tsv"
 DO_NORMALIZE_BATCH
@@ -92,25 +96,31 @@ DO_NORMALIZE_BATCH
 # NOTE: No Android/Apple unified update. 
 # WIP: Normalize & Diff Spanish_es.20210309.Android.tsv and Spanish_es.20210309.Apple.tsv
 
+### SETUP: Spanish_es URLs
 ## Note: Spanish has its own topic urls
 URL_FRAGMENTS_TSV="Spanish/tsv/Spanish_es.url_fragments.tsv"
 URL_TOPICS_TSV="Spanish/tsv/Spanish_es.url_topics.tsv"
 
-SOURCE_TSV_INCLUDE="Spanish/tsv/Spanish_es.main.20210309.Apple.tsv"
-DO_NORMALIZE_BATCH
-
-SOURCE_TSV_INCLUDE="Spanish/tsv/Spanish_es.main.20210309.Android.tsv"
-DO_NORMALIZE_BATCH
+LOGGER_FILENAME="_log_FromTsvMain_Spanish_es"
 
 SOURCE_TSV_INCLUDE="Spanish/tsv/Spanish_es.tsv"
-SOURCE_TSV_INCLUDE="Spanish/tsv/Spanish_es.main.20210309.Apple.tsv"
-SOURCE_TSV_INCLUDE="Spanish/tsv/Spanish_es.main.20210309.Android.tsv"
+#SOURCE_TSV_INCLUDE="Spanish/tsv/Spanish_es.main.20210309.Apple.tsv"
+#SOURCE_TSV_INCLUDE="Spanish/tsv/Spanish_es.main.20210309.Android.tsv"
 DO_NORMALIZE_BATCH
 
 ## -- (es) process appstore --
 SOURCE_TSV_INCLUDE="Spanish/tsv/Spanish_es.appstore.tsv"
 DO_NORMALIZE_BATCH
 
+LOGGER_FILENAME="_log_FromTsvMain_Spanish_es_Apple"
+SOURCE_TSV_INCLUDE="Spanish/tsv/Spanish_es.main.20210309.Apple.tsv"
+DO_NORMALIZE_BATCH
+
+LOGGER_FILENAME="_log_FromTsvMain_Spanish_es_Droid"
+SOURCE_TSV_INCLUDE="Spanish/tsv/Spanish_es.main.20210309.Android.tsv"
+DO_NORMALIZE_BATCH
+
+### RESTORE: English_US URLs
 ## Note: re-setting URL_TOPICS_TSV to English_US 
 ##       as used by languages other than Spanish.
 URL_FRAGMENTS_TSV="English_US/tsv/English_US_en.url_fragments.tsv"
@@ -119,6 +129,7 @@ URL_TOPICS_TSV="English_US/tsv/English_US_en.url_topics.tsv"
 #################
 ## (he) Hebrew ##
 #################
+LOGGER_FILENAME="_log_FromTsvMain_Hebrew_he"
 ## -- (he) process application values --
 SOURCE_TSV_INCLUDE="Hebrew/tsv/Hebrew_he.tsv"
 DO_NORMALIZE_BATCH
@@ -134,6 +145,7 @@ DO_NORMALIZE_BATCH
 #################
 ## (pl) Polish ##
 #################
+LOGGER_FILENAME="_log_FromTsvMain_Polish_pl"
 ## -- (pl) process application values --
 SOURCE_TSV_INCLUDE="Polish/tsv/Polish_pl.tsv"
 DO_NORMALIZE_BATCH
@@ -147,6 +159,7 @@ DO_NORMALIZE_BATCH
 ################################
 ## (pt-rBR) Portuguese_Brazil ##
 ################################
+LOGGER_FILENAME="_log_FromTsvMain_Portuguese_pt-rBR"
 ## -- (pt-rBR) process application values --
 SOURCE_TSV_INCLUDE="Portuguese_Brazil/tsv/Portuguese_pt-rBR.tsv"
 DO_NORMALIZE_BATCH
@@ -158,6 +171,7 @@ DO_NORMALIZE_BATCH
 ##################################
 ## (pt-rPT) Portuguese_Portugal ##
 ##################################
+LOGGER_FILENAME="_log_FromTsvMain_Portuguese_pt-rPT"
 ## -- (pt-rPT) process application values --
 SOURCE_TSV_INCLUDE="Portuguese_Portugal/tsv/Portuguese_pt-rPT.tsv"
 DO_NORMALIZE_BATCH
@@ -169,6 +183,7 @@ DO_NORMALIZE_BATCH
 ##################
 ## (ru) Russian ##
 ##################
+LOGGER_FILENAME="_log_FromTsvMain_Russian_ru"
 ## -- (ru) process application values --
 SOURCE_TSV_INCLUDE="Russian/tsv/Russian_ru.tsv"
 DO_NORMALIZE_BATCH
@@ -184,6 +199,7 @@ DO_NORMALIZE_BATCH
 ####################
 ## (bg) Bulgarian ##
 ####################
+LOGGER_FILENAME="_log_FromTsvMain_Bulgarian_bg"
 ## -- (bg) process application values --
 SOURCE_TSV_INCLUDE="Bulgarian/tsv/Bulgarian_bg.tsv"
 DO_NORMALIZE_BATCH
@@ -195,6 +211,7 @@ DO_NORMALIZE_BATCH
 ################
 ## (el) Greek ##
 ################
+LOGGER_FILENAME="_log_FromTsvMain_Greek_el"
 ## -- (el) process application values --
 SOURCE_TSV_INCLUDE="Greek/tsv/Greek_el.tsv"
 DO_NORMALIZE_BATCH
@@ -206,6 +223,7 @@ DO_NORMALIZE_BATCH
 #################
 ## (fr) French ##
 #################
+LOGGER_FILENAME="_log_FromTsvMain_French_fr"
 ## -- (fr) process application values --
 SOURCE_TSV_INCLUDE="French/tsv/French_fr.tsv"
 DO_NORMALIZE_BATCH
@@ -217,6 +235,7 @@ DO_NORMALIZE_BATCH
 ##################
 ## (it) Italian ##
 ##################
+LOGGER_FILENAME="_log_FromTsvMain_Italian_it"
 ## -- (it) process application values --
 SOURCE_TSV_INCLUDE="Italian/tsv/Italian_it.tsv"
 DO_NORMALIZE_BATCH
@@ -228,6 +247,7 @@ DO_NORMALIZE_BATCH
 ##################
 ## (ro) Romanian ##
 ##################
+LOGGER_FILENAME="_log_FromTsvMain_Romanian_ro"
 ## -- (ro) process application values --
 SOURCE_TSV_INCLUDE="Romanian/tsv/Romanian_ro.tsv"
 DO_NORMALIZE_BATCH
@@ -243,6 +263,7 @@ DO_NORMALIZE_BATCH
 ######################
 ## Chinese_HongKong ##
 ######################
+LOGGER_FILENAME="_log_FromTsvMain_Chinese_zh-HK"
 ## Hong Kong generally uses Traditional logogram characters
 ## -- (zh-HK) process application values --
 SOURCE_TSV_INCLUDE="Chinese_HongKong/tsv/Chinese_HongKong_zh-HK.tsv"
@@ -255,6 +276,7 @@ DO_NORMALIZE_BATCH
 ########################
 ## Chinese_Simplified ##
 ########################
+LOGGER_FILENAME="_log_FromTsvMain_Chinese_zh-Hans"
 ## -- (zh-Hans) process application values --
 SOURCE_TSV_INCLUDE="Chinese_Simplified/tsv/Chinese_Simplified_zh-Hans.tsv"
 DO_NORMALIZE_BATCH
@@ -266,6 +288,7 @@ DO_NORMALIZE_BATCH
 #########################
 ## Chinese_Traditional ##
 #########################
+LOGGER_FILENAME="_log_FromTsvMain_Chinese_zh-Hant"
 ## -- (zh-Hant) process application values --
 SOURCE_TSV_INCLUDE="Chinese_Traditional/tsv/Chinese_Traditional_zh-Hant.tsv"
 DO_NORMALIZE_BATCH

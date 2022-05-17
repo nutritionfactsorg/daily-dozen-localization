@@ -13,6 +13,8 @@ struct BatchRunner {
     let mappingsUrl: URL   // currently not used
     let logger = LogService.shared
     
+    var outputNormalDir: URL? // Batch: normal
+
     init(commandsUrl: URL, languagesUrl: URL, mappingsUrl: URL) {
         self.commandsUrl = commandsUrl
         self.languagesUrl = languagesUrl
@@ -44,7 +46,6 @@ struct BatchRunner {
         var sourceStrings: [URL]? // Batch: normal
         var sourceXLIFF: URL?     // Batch: normal
         var sourceXML: URL?       // Batch: normal
-        var outputNormalDir: URL? // Batch: normal
         var baseListTsv: [URL]?   // Batch: normal
         var urlFragmentsTsv: URL? // Batch: normal
         var urlTopicsTsv: URL?    // Batch: normal
@@ -218,7 +219,7 @@ struct BatchRunner {
             else if command.cmdKey.hasPrefix("OUTPUT_DROID") {
                 outputDroid = command.cmdUrl
             } 
-            else if command.cmdKey.hasPrefix("OUTPUT_NORMAL_DIRNAME") {
+            else if command.cmdKey.hasPrefix("DIRNAME_OUTPUT_NORMAL") {
                 // dirname used inside "…/_Normal__LOCAL/"  
                 outputNormalDir = command.cmdUrl
             }
@@ -257,18 +258,18 @@ struct BatchRunner {
                     sourceXLIFF = nil
                 }
                 // GIVEN: `.xml` source list
-                if let sourceXml = sourceXML, 
-                    let baseListTsv = baseListTsv, 
-                    //let fragments = urlFragmentsTsv, 
-                    //let topics = urlTopicsTsv 
-                    let baseXmlUrl = baseXmlUrl 
+                if let sourceXml = sourceXML,
+                    let baseListTsv = baseListTsv,
+                    //let fragments = urlFragmentsTsv,
+                    //let topics = urlTopicsTsv
+                    let baseXmlUrl = baseXmlUrl
                 {
                     BatchNormal.shared.doNormalize(
-                        sourceXml: sourceXml, 
-                        resultsDir: outputNormalDir, 
-                        baseListTsv: baseListTsv, 
-                        //baseTsvUrlFragments: fragments, 
-                        //baseTsvUrlTopics: topics, 
+                        sourceXml: sourceXml,
+                        resultsDir: outputNormalDir,
+                        baseListTsv: baseListTsv,
+                        //baseTsvUrlFragments: fragments,
+                        //baseTsvUrlTopics: topics,
                         baseXmlUrl: baseXmlUrl)
                     sourceXML = nil
                 } 
@@ -320,23 +321,30 @@ struct BatchRunner {
             cmdValue = parts[1].trimmingCharacters(in: CharacterSet.whitespaces)
             if (cmdValue.first != "\"") || (cmdValue.last != "\"") {
                 print("\nERROR:A: Expected double quoted command value. Did not process: '\(line)'")
-                return nil                    
-            }  
+                return nil
+            }
             cmdValue = String(parts[1].dropFirst().dropLast())
             if cmdValue.isEmpty {
                 return (cmdKey: cmdKey, cmdUrl: nil)
             } else if cmdKey == "LOGGER_FILENAME" {
-                let cmdUrl = languagesUrl
-                    .deletingLastPathComponent() // Languages
-                    .appendingPathComponent("_Normal__LOCAL")
-                    .appendingPathComponent(cmdValue, isDirectory: false)
-                return (cmdKey: cmdKey, cmdUrl: cmdUrl) 
-            } else if cmdKey == "OUTPUT_NORMAL_DIRNAME" {
+                if let outputNormalDir = outputNormalDir {
+                    let cmdUrl = outputNormalDir
+                        .appendingPathComponent("_logs_")
+                        .appendingPathComponent(cmdValue, isDirectory: false)
+                    return (cmdKey: cmdKey, cmdUrl: cmdUrl)
+                } else {
+                    let cmdUrl = languagesUrl
+                        .deletingLastPathComponent() // Languages
+                        .appendingPathComponent("_Normal__LOCAL")
+                        .appendingPathComponent(cmdValue, isDirectory: false)
+                    return (cmdKey: cmdKey, cmdUrl: cmdUrl)
+                }
+            } else if cmdKey == "DIRNAME_OUTPUT_NORMAL" {
                 let cmdUrl = languagesUrl
                     .deletingLastPathComponent() // Languages
                     .appendingPathComponent("_Normal__LOCAL")
                     .appendingPathComponent(cmdValue, isDirectory: true)
-                return (cmdKey: cmdKey, cmdUrl: cmdUrl) 
+                return (cmdKey: cmdKey, cmdUrl: cmdUrl)
             } else if cmdKey == "SOURCE_STRINGS" {
                 // Prerequisite: Development git repositories at same directory level.
                 //               This level is used for relative path resolution.
@@ -356,13 +364,13 @@ struct BatchRunner {
                 return (cmdKey: cmdKey, cmdUrl: cmdUrl) 
             } else {
                 let cmdUrl = languagesUrl.appendingPathComponent(cmdValue)
-                return (cmdKey: cmdKey, cmdUrl: cmdUrl)                
+                return (cmdKey: cmdKey, cmdUrl: cmdUrl)
             }
         }
         else { // parts.count > 2
             print("ERROR:B: Too many line `parts`. Did not process: '\(line)'")
             return nil
         }
-    } 
+    }
     
 }

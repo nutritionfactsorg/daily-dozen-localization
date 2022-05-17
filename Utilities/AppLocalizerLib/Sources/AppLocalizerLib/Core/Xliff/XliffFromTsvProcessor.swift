@@ -40,7 +40,7 @@ struct XliffFromTsvProcessor {
         do {
             let url = appleXmlUrl
                 .deletingLastPathComponent()
-                .appendingPathComponent("keysExpectedXliff_\(Date.datestampyyyyMMddHHmm).txt")
+                .appendingPathComponent("keysExpectedXliff") // _\(Date.datestampyyyyMMddHHmm).txt
             try keysExpectedString.write(to: url, atomically: true, encoding: .utf8)
         } catch { print(error) }
         // Process XLIFF XML File

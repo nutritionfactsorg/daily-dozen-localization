@@ -43,7 +43,7 @@ struct JsonFromTsvProcessor {
         let keysExpectedString = keysAppleJsonAll.sorted().joined(separator: "\n")
         do {
             let url = jsonOutputDir
-                .appendingPathComponent("keysAppleJsonAll_\(Date.datestampyyyyMMddHHmm).txt")
+                .appendingPathComponent("keysAppleJsonAll.txt")
             try keysExpectedString.write(to: url, atomically: true, encoding: .utf8)
         } catch {
            print("JsonFromTsvProcessor init() writing expected keys. \(error)")
@@ -69,10 +69,10 @@ struct JsonFromTsvProcessor {
         dozeJsonUrlIn = baseJsonUrl.appendingPathComponent("DozeDetailData.json")
         tweakJsonUrlIn = baseJsonUrl.appendingPathComponent("TweakDetailData.json")
         dozeJsonUrlOut = dozeJsonUrlIn.deletingPathExtension()
-            .appendingPathExtension("_\(Date.datestampyyyyMMddHHmm).json")
+            .appendingPathExtension("_out.json") // \(Date.datestampyyyyMMddHHmm)
         tweakJsonUrlOut = tweakJsonUrlIn.deletingPathExtension()
-            .appendingPathExtension("_\(Date.datestampyyyyMMddHHmm).json")
-
+            .appendingPathExtension("_out.json") // \(Date.datestampyyyyMMddHHmm)
+        
         read(dozeJsonUrl: dozeJsonUrlIn, tweakJsonUrl: tweakJsonUrlIn)
         
         // All JSON Keys
@@ -81,7 +81,7 @@ struct JsonFromTsvProcessor {
         do {
             let url = xliffUrl
                 .deletingLastPathComponent()
-                .appendingPathComponent("keysAppleJsonAll_\(Date.datestampyyyyMMddHHmm).txt")
+                .appendingPathComponent("keysAppleJsonAll.txt")
             try keysExpectedString.write(to: url, atomically: true, encoding: .utf8)
         } catch {
            print("JsonFromTsvProcessor init() writing expected keys. \(error)")

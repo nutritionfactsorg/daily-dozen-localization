@@ -76,7 +76,7 @@ struct XmlFromTsvProcessor {
         do {
             let url = droidXmlOutputUrl
                 .deletingLastPathComponent()
-                .appendingPathComponent("keysExpectedXml_\(Date.datestampyyyyMMddHHmm).txt")
+                .appendingPathComponent("keysExpectedXml.txt")
             try keysDroidXmlAllString.write(to: url, atomically: true, encoding: .utf8)
         } catch { print(error) }
         

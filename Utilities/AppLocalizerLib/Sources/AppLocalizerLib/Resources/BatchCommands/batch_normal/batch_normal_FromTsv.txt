@@ -3,9 +3,9 @@
 ### SCOPE: all planned languages
 ###
 
+DIRNAME_OUTPUT_NORMAL="FromTsv"
 LOGGER_FILENAME="_log_FromTsv"
 LOGGER_LEVEL_INFO
-OUTPUT_NORMAL_DIRNAME="FromTsv"
 
 SOURCE_TSV_INCLUDE="Afrikaans/tsv/Afrikaans_af.tsv"
 DO_NORMALIZE_BATCH

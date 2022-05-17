@@ -128,7 +128,7 @@ public class LogService {
                 fileHandle.closeFile()
             } catch {
                 #if DEBUG
-                    print("FAIL: could not append to \(url.absoluteString)")
+                print("FAIL: could not append to \(url.path)")
                     print(logString)
                 #endif
             }
@@ -150,12 +150,13 @@ public class LogService {
         
         let basename = url.lastPathComponent
         let logname = "\(basename)-\(dateTimestamp).txt"
-        logfileUrl = url
-            .deletingLastPathComponent()
-            .appendingPathComponent(logname, isDirectory: false)
+        let logdirUrl = url.deletingLastPathComponent()
+        logfileUrl = logdirUrl.appendingPathComponent(logname, isDirectory: false)
         
         do {
             if let url = logfileUrl {
+                try FileManager.default.createDirectory(at: logdirUrl, withIntermediateDirectories: true, attributes: nil)
+                
                 try "FILE: \(logname)\n".write(to: url, atomically: true, encoding: String.Encoding.utf8)
             } else {
                 print(":FAIL: LogService useLogFile() logfileUrl is nil")

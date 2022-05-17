@@ -9,9 +9,9 @@
 ###################
 ## General Setup ##
 ###################
+DIRNAME_OUTPUT_NORMAL="FromXmlDroidOnly"
 LOGGER_FILENAME="_log_FromXmlDroidOnly"
 LOGGER_LEVEL_INFO
-OUTPUT_NORMAL_DIRNAME="FromXmlDroidOnly"
 
 ## Base English_US directory paths from which translations are mapped
 BASE_JSON_DIR="English_US/ios/en-US_reference/LocalStrings/en.lproj"
