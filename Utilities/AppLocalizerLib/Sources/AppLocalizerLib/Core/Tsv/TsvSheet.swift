@@ -142,25 +142,23 @@ struct TsvSheet: TsvProtocol {
     func getKeySetPrimary() -> Set<String> {
         var keySet = Set<String>()
         for r in tsvRowList.data {
-            keySet.insert("\(r.key_apple)&\(r.key_android)")
+            keySet.insert(r.primaryKey())
         }
         return keySet
     }
     
-    func getLookupDictBaseNoteByUniqueKey() -> [String: String] {
+    func getLookupDictBaseNoteByPrimaryKey() -> [String: String] {
         var d = [String: String]()
         for r in tsvRowList.data {
-            let uniqueKey = "\(r.key_apple)&\(r.key_android)"
-            d[uniqueKey] = r.base_note
+            d[r.primaryKey()] = r.base_note
         }
         return d
     }
     
-    func getLookupDictBaseValueByUniqueKey() -> [String: String] {
+    func getLookupDictBaseValueByPrimaryKey() -> [String: String] {
         var d = [String: String]()
         for r in tsvRowList.data {
-            let uniqueKey = "\(r.key_apple)&\(r.key_android)"
-            d[uniqueKey] = r.base_value
+            d[r.primaryKey()] = r.base_value
         }
         return d
     }
@@ -185,11 +183,10 @@ struct TsvSheet: TsvProtocol {
         return d
     }
     
-    func getLookupDictLangValueByUniqueKey() -> [String: String] {
+    func getLookupDictLangValueByPrimaryKey() -> [String: String] {
         var d = [String: String]()
         for r in tsvRowList.data {
-            let uniqueKey = "\(r.key_apple)&\(r.key_android)"
-            d[uniqueKey] = r.lang_value
+            d[r.primaryKey()] = r.lang_value
         }
         return d
     }
@@ -500,124 +497,160 @@ struct TsvSheet: TsvProtocol {
     
     // no TsvProtocol overrides
     
+    /// Update this TsvSheet with `base_note` data from the given `fromSheet`.
+    /// 
+    /// Use to refresh this TsvSheet with data from the the English reference.
+    /// 
     /// Prerequisite:  `key_apple` and `key_android` fields must be up-to-date in both  `TsvSheets`
-    mutating func updateBaseNotes(_ notesSheet: TsvSheet) {
+    mutating func updateBaseNotes(_ fromSheet: TsvSheet) {
         if urlLanguage?.lastPathComponent == "English_US" {
             return // Skip the English_US. Will always match self.
         }
-        let baseNoteFromDict = notesSheet.getLookupDictBaseNoteByUniqueKey()
-        var listFromEmpty = [TsvRow]()
-        var listFromNotPresent = [TsvRow]()
-        var listIntoChanged = [(from: String, into:TsvRow)]()
+        let baseNoteFromDict = fromSheet.getLookupDictBaseNoteByPrimaryKey()
+        var infoFromUKeyNotPresent = [TsvRow]()
+        var infoIntoNoteChanged = [(old:TsvRow, new: String)]()
         for idx in 0 ..< tsvRowList.data.count {
-            let r = tsvRowList.data[idx]
-            let uniqueKey = "\(r.key_apple)&\(r.key_android)"
-            guard let noteFrom = baseNoteFromDict[uniqueKey] else {
-                listFromNotPresent.append(r)
+            let rCopy = tsvRowList.data[idx]
+            guard let noteFrom = baseNoteFromDict[rCopy.primaryKey()] else {
+                infoFromUKeyNotPresent.append(rCopy)
                 continue
             }
-            let noteInto = r.base_note // this TsvSheet is the target
+            let noteInto = rCopy.base_note // this TsvSheet is the target
             if noteInto == noteFrom {
                 continue // nothing to change. nothing to report.
-            } else if noteInto.isEmpty {
-                // updates empty target. no reporting needed
-                tsvRowList.data[idx].base_note = noteFrom
-            } else if noteFrom.isEmpty {
-                // empty source would empty non-empty target. needs to be reported.
-                listFromEmpty.append(r)
             } else {
-                // source changes non-empty target. needs to be reported.
+                // update `base_note` from the reference sheet.
                 tsvRowList.data[idx].base_note = noteFrom
-                listIntoChanged.append((from: noteFrom, into: r))
+                infoIntoNoteChanged.append((old: rCopy, new: noteFrom))
             }
         }
-        var s = "\n"
-        s += "##############################\n"
-        s += "### ‘BASE_NOTE’ Language: \(urlLanguage?.lastPathComponent ?? "")\n"
-        s += "##############################\n"
-        s += "### ‘BASE_NOTE’ FROM EMPTY ###\n"
-        s += "##############################\n"
-        for r in listFromEmpty {
-            s += "\(r.key_android)\t\(r.key_android)\t\(r.base_value)\n"
-        }
-        s += "####################################\n"
-        s += "### ‘BASE_NOTE’ FROM NOT PRESENT ###\n"
-        s += "####################################\n"
-        for r in listFromNotPresent {
-            s += "\(r.key_android)\t\(r.key_android)\t\(r.base_value)\n"
-        }
-        s += "###########################\n"
-        s += "### ‘BASE_NOTE’ CHANGED ###\n"
-        s += "###########################\n"
-        for changed in listIntoChanged {
-            let r = changed.into
-            s += "\(r.key_android)\t\(r.key_android)\t\(r.base_value)\n"
-            s += "FROM: \(changed.from)\n"
-            s += "INTO: \(r.base_note)\n"
-            s += "\n"            
-        }
         
-        logger.info(s)
+        if !infoFromUKeyNotPresent.isEmpty || !infoIntoNoteChanged.isEmpty {
+            let filename = "\(urlLanguage?.lastPathComponent ?? "?")"
+            let fromName = "\(fromSheet.urlLanguage?.lastPathComponent ?? "?")"
+            var s = "\n"
+            if infoFromUKeyNotPresent.isEmpty == false {
+                s += "##########################################################\n"
+                s += "### ‘BASE_NOTE’ PRIMARY_KEY NOT FOUND IN \(fromName)\n"
+                s += "##########################################################\n"
+                s += "### when processing \(filename) given \(fromName)\n"
+                for rCopy in infoFromUKeyNotPresent {
+                    s += "KEY(\(rCopy.primaryKey()))\n"
+                }
+            }
+            if infoIntoNoteChanged.isEmpty == false {
+                s += "###########################\n"
+                s += "### ‘BASE_NOTE’ CHANGED ###\n"
+                s += "###########################\n"
+                s += "### when processing \(filename) given \(fromName)\n"
+                for changed in infoIntoNoteChanged {
+                    s += "KEY(\(changed.old.primaryKey()))\n"
+                    s += "OLD:\(changed.old.base_note)\n"
+                    s += "NEW:\(changed.new)\n"
+                    s += "\n"            
+                }
+            }            
+            logger.info(s)
+        }
     }
     
+    /// Update this "into" TsvSheet with `base_value` data from the given `fromSheet`.
+    /// 
+    /// If this "into" TsvSheet has `base_value` == `lang_value`,
+    /// then both the `base_value` and `lang_value` are also updated. 
+    /// This is the case where the `English_US` is untranslated.
+    /// 
+    /// Use to refresh this TsvSheet with data from the the English reference.
+    /// 
     /// Prerequisite:  `key_apple` and `key_android` fields must be up-to-date in both  `TsvSheets`
-    mutating func updateBaseValues(_ baseSheet: TsvSheet) {
+    mutating func updateBaseValues(_ fromSheet: TsvSheet) {
         if urlLanguage?.lastPathComponent == "English_US" {
-            return // Skip the English_US. Will always match self.
+            return // Skip the English_US. Will always match itself.
         }
-        let baseValueFromDict = baseSheet.getLookupDictBaseValueByUniqueKey()
-        var listFromEmpty = [TsvRow]()
-        var listFromNotPresent = [TsvRow]()
-        var listIntoChanged = [(from: String, into:TsvRow)]()
+        let baseValueFromDict = fromSheet.getLookupDictBaseValueByPrimaryKey()
+        var infoFromEmpty = [TsvRow]()
+        var infoFromUKeyNotPresent = [TsvRow]()
+        var infoIntoBaseChanged = [(old:TsvRow, new: String)]()
+        var infoIntoLangChanged = [(old:TsvRow, new: String)]()
         for idx in 0 ..< tsvRowList.data.count {
-            let r = tsvRowList.data[idx]
-            let uniqueKey = "\(r.key_apple)&\(r.key_android)"
-            guard let valueFrom = baseValueFromDict[uniqueKey] else {
-                listFromNotPresent.append(r)
+            let rCopy = tsvRowList.data[idx]
+            guard let baseValueFrom = baseValueFromDict[rCopy.primaryKey()] else {
+                infoFromUKeyNotPresent.append(rCopy)
                 continue
             }
-            let valueInto = r.base_value // this TsvSheet is the target
-            if valueInto == valueFrom {
+            let baseValueInto = rCopy.base_value // this TsvSheet is the "into" target
+            let langValueInto = rCopy.lang_value
+            if baseValueInto == baseValueFrom {
                 continue // nothing to change. nothing to report.
-            } else if valueInto.isEmpty {
+            } else if baseValueInto.isEmpty {
                 // updates empty target. no reporting needed
-                tsvRowList.data[idx].base_value = valueFrom
-            } else if valueFrom.isEmpty {
+                tsvRowList.data[idx].base_value = baseValueFrom
+                if baseValueInto == langValueInto {
+                    tsvRowList.data[idx].lang_value = baseValueFrom
+                }
+            } else if baseValueFrom.isEmpty {
                 // empty source would empty non-empty target. needs to be reported.
-                listFromEmpty.append(r)
+                infoFromEmpty.append(rCopy)
             } else {
                 // source changes non-empty target. needs to be reported.
-                tsvRowList.data[idx].base_value = valueFrom
-                listIntoChanged.append((from: valueFrom, into: r))
+                tsvRowList.data[idx].base_value = baseValueFrom
+                infoIntoBaseChanged.append((old: rCopy, new: baseValueFrom))
+                if baseValueInto == langValueInto {
+                    tsvRowList.data[idx].lang_value = baseValueFrom // same, same
+                    infoIntoLangChanged.append((old: rCopy, new: baseValueFrom))
+                }
             }
         }
-        var s = "\n"
-        s += "##############################\n"
-        s += "### ‘BASE_VALUE’ Language: \(urlLanguage?.lastPathComponent ?? "")\n"
-        s += "##############################\n"
-        s += "### ‘BASE_VALUE’ FROM EMPTY ###\n"
-        s += "##############################\n"
-        for r in listFromEmpty {
-            s += "\(r.key_android)\t\(r.key_android)\t\(r.base_value)\n"
-        }
-        s += "####################################\n"
-        s += "### ‘BASE_VALUE’ FROM NOT PRESENT ###\n"
-        s += "####################################\n"
-        for r in listFromNotPresent {
-            s += "\(r.key_android)\t\(r.key_android)\t\(r.base_value)\n"
-        }
-        s += "###########################\n"
-        s += "### ‘BASE_VALUE’ CHANGED ###\n"
-        s += "###########################\n"
-        for changed in listIntoChanged {
-            let r = changed.into
-            s += "\(r.key_android)\t\(r.key_android)\t\(r.base_value)\n"
-            s += "FROM: \(changed.from)\n"
-            s += "INTO: \(r.base_value)\n"
-            s += "\n"            
-        }
         
-        logger.info(s)
+        if !infoFromEmpty.isEmpty || !infoFromUKeyNotPresent.isEmpty || !infoIntoBaseChanged.isEmpty || !infoIntoLangChanged.isEmpty {
+            let filename = "\(urlLanguage?.lastPathComponent ?? "?")"
+            let fromName = "\(fromSheet.urlLanguage?.lastPathComponent ?? "?")"
+            var s = "\n"
+            if infoFromEmpty.isEmpty == false {
+                s += "##############################################\n"
+                s += "### ‘BASE_VALUE’ FROM (reference) IS EMPTY ###\n"
+                s += "##############################################\n"
+                s += "### when processing \(filename) given \(fromName)\n"
+                for rCopy in infoFromEmpty {
+                    s += "KEY(\(rCopy.primaryKey()))\n"
+                }
+            }
+            if infoFromUKeyNotPresent.isEmpty == false {
+                s += "#################################################################\n"
+                s += "### ‘BASE_VALUE’ PRIMARY_KEY NOT FOUND IN \(fromName)\n"
+                s += "#################################################################\n"
+                s += "### when processing \(filename) given \(fromName)\n"
+                for rCopy in infoFromUKeyNotPresent {
+                    s += "KEY(\(rCopy.primaryKey()))\n"
+                }
+            }
+            if infoIntoBaseChanged.isEmpty {
+                s += "############################\n"
+                s += "### ‘BASE_VALUE’ CHANGED ###\n"
+                s += "############################\n"
+                s += "### when processing \(filename) given \(fromName)\n"
+                for changed in infoIntoBaseChanged {
+                    s += "KEY(\(changed.old.primaryKey()))\n"
+                    s += "OLD: \(changed.old.base_value)\n"
+                    s += "NEW: \(changed.new)\n"
+                    s += "\n"
+                }
+            }
+            if infoIntoLangChanged.isEmpty {
+                s += "############################\n"
+                s += "### ‘LANG_VALUE’ CHANGED ###\n"
+                s += "############################\n"
+                s += "### when processing \(filename) given \(fromName)\n"
+                for changed in infoIntoLangChanged {
+                    s += "(KEY(\(changed.old.primaryKey()))\n"
+                    s += "OLD: \(changed.old.lang_value)\n"
+                    s += "NEW: \(changed.new)\n"
+                    s += "\n"
+                }
+            }
+            
+            logger.info(s)
+        }
     }
     
     // MARK: - Output
@@ -681,149 +714,44 @@ struct TsvSheet: TsvProtocol {
     
     mutating func parseTsvFile(url: URL) -> TsvRowList {
         var recordList = [TsvRow]()
-        let newline: Set<Character> = ["\n", "\r", "\r\n"]
         guard let content = try? String(contentsOf: url, encoding: .utf8)
         else {
             print(  "TsvSheet failed to read: \(url.path)")
             fatalError()
         }
-        // .split(whereSeparator: (Character) throws -> Bool)
-        // Value of type 'String.Element' (aka 'Character') has no member 'isNewLine'
         
-        if content.count < 100 {
-            print(":ERROR: TsvSheet did not init with \(url.absoluteString)")
-            return TsvRowList(data: recordList)
+        if content.contains("\"\"") {
+            print(":ERROR: TsvSheet escaped quoting is not supported \(url.absoluteString)")
+            fatalError()
         }
         
-        var cPrev: Character? // Previous UTF-8 Character
-        var cThis: Character? // Current UTF-8 Character
-        var cNext: Character? // Next UTF-8 Character
-        
-        var insideQuote = false
-        var escapeQuote = false
-        var record: [String] = []
-        var field: [Character] = []
-        var countChar = 0
-        var lineIdx = 1
-        var lineCharIdx = 0
-        
-        for character: Character in content {
-            if _watchEnabled {
-                _watchline(recordIdx: recordList.count, recordFieldIdx: record.count, lineIdx: lineIdx, lineCharIdx: lineCharIdx, field: field, insideQuote: insideQuote, escapeQuote: escapeQuote, cPrev: cPrev, cThis: cThis, cNext: cNext)
-            }
-            cPrev = cThis
-            cThis = cNext
-            cNext = character
-                        
-            countChar += 1
-            lineCharIdx += 1
-            if let cThis = cThis, newline.contains(cThis) {
-                if insideQuote {
-                    field.append("\n")
-                } else {
-                    let fieldStr = String(field).trimmingCharacters(in: .whitespaces)
-                    record.append(fieldStr) // Add last field to record
-                    if record.count >= 5 {
-                        // Requires either an Android key or an Apple key
-                        if !record[0].isEmpty || !record[1].isEmpty {
-                            // Add non-empty record to list.
-                            let r = TsvRow(
-                                key_android: record[0],
-                                key_apple: record[1],
-                                base_value: record[2],
-                                lang_value: record[3],
-                                base_note: record[4],
-                                lang_note: record.count > 5 ? record[5] : ""
-                            )
-                            if r.key_android != "key_droid" { // skip headings record
-                                recordList.append(r)
-                            }
-                        }
-                        lineIdx += 1
-                        lineCharIdx = 0
-                    }
-                    field = []
-                    record = []
-                    escapeQuote = false
-                    insideQuote = false
-                }
-            } else if cThis == "\t" {
-                if insideQuote {
-                    field.append("\t")
-                } else {
-                    let fieldStr = String(field).trimmingCharacters(in: .whitespaces)
-                    record.append(fieldStr) // Add field to list.
-                    field = []
-                    escapeQuote = false
-                    insideQuote = false
-                }
-            } else if cThis == "\"" {
-                if insideQuote {
-                    if escapeQuote {
-                        if cPrev == "\"" {
-                            field.append("\"")
-                            escapeQuote = false
-                        } else {
-                            // Note: look for regex cases of `tab + double-quote` (`\t"`)
-                            // Use single quote where applicable e.g. notes.
-                            // Otherwise tsv-escape quotes ("") or evolve this parser
-                            // CotEditor handles mixed direction texts better than BBEdit
-                            fatalError(
-                            """
-                            \n::ERROR: TsvSheet escaped quote must precede
-                            :@dotStr: \(toStringDot(field:field))\n\n
-                            :@line: \(lineIdx)[\(lineCharIdx)]
-                            :@path: \(url.path)
-                            """)
-                        }
-                    } else {
-                        if let cNext = cNext, newline.contains(cNext) || cNext == "\t" {
-                            insideQuote = false
-                        } else {
-                            escapeQuote = true
-                        }
-                    }
-                } else {
-                    if cPrev == nil {
-                        insideQuote = true
-                        escapeQuote = false
-                    } else if let cPrev = cPrev, newline.contains(cPrev) || cPrev == "\t" {
-                        insideQuote = true
-                        escapeQuote = false
-                    } else {
-                        // print(":CHECK:@\(position): TsvSheet double quote in \(field)")
-                        if let cThis = cThis {
-                            field.append(cThis)
-                        }
-                    }
-                }
-            } else {
-                if let cThis = cThis {
-                    field.append(cThis)
-                }
-            }
+        let rows = content.components(separatedBy: CharacterSet.newlines)
+        if rows.count < 2 {
+            print(":ERROR: TsvSheet contains less than 2 lines \(url.absoluteString)")
+            fatalError()
+        }
+        if rows[0].hasPrefix("key_droid\tkey_apple\tbase_value\tlang_value") == false {
+            print(":ERROR: TsvSheet is missing the header row \(url.absoluteString)")
+            fatalError()
         }
         
-        // Handle last Character
-        if let cNext = cNext, !newline.contains(cNext) && cNext != "\t" {
-            field.append(cNext) // Add last character
-        }
-        let fieldStr = String(field).trimmingCharacters(in: .whitespaces)
-        if fieldStr.isEmpty == false {
-            record.append(fieldStr) // Add last field
-        }
-        // Requires either an Android key or an Apple key
-        if record.count >= 4 {
-            if !record[0].isEmpty || !record[1].isEmpty {
-                let r = TsvRow(
-                    key_android: record[0],
-                    key_apple: record[1],
-                    base_value: record[2],
-                    lang_value: record[3],
-                    base_note: record.count > 4 ? record[4] : "", 
-                    lang_note: record.count > 5 ? record[5] : ""
-                )
-                recordList.append(r) // Add last record
+        for i in 1 ..< rows.count {
+            let columns = rows[i].components(separatedBy: "\t")
+            
+            // Requires either an Android key or an Apple key
+            if columns.count >= 4 {
+                // must contain a value for at least one of `key_droid` or `key_apple`
+                if columns[0].isEmpty == false || columns[1].isEmpty == false {
+                    let r = TsvRow(
+                        key_android: columns[0],
+                        key_apple: columns[1],
+                        base_value: columns[2],
+                        lang_value: columns[3],
+                        base_note: columns.count > 4 ? columns[4] : "", 
+                        lang_note: columns.count > 5 ? columns[5] : ""
+                    )
+                    recordList.append(r) // Add last record
+                }
             }
         }
         

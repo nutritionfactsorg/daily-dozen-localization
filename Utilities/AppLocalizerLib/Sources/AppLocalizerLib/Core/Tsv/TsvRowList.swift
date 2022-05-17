@@ -29,7 +29,7 @@ struct TsvRowList {
             case .droid:
                 if d.key_android == key { return true }
             case .primary:
-                if "\(d.key_apple)&\(d.key_android)" == key { return true }
+                if d.primaryKey() == key { return true }
             }
         }
         return false
@@ -117,7 +117,7 @@ struct TsvRowList {
             case .droid:
                 if d.key_android == key { return d }
             case .primary:
-                if "\(d.key_apple)&\(d.key_android)" == key { return d }
+                if d.primaryKey() == key { return d }
             }
         }
         return nil
@@ -135,7 +135,7 @@ struct TsvRowList {
             case .droid:
                 if d.key_android != key { continue } 
             case .primary:
-                if "\(d.key_apple)&\(d.key_android)" != key { continue } 
+                if d.primaryKey() != key { continue } 
             }
             keyNotFound = false
             switch mode {
@@ -192,7 +192,7 @@ struct TsvRowList {
             case .droid:
                 if d.key_android != key { continue } 
             case .primary:
-                if "\(d.key_apple)&\(d.key_android)" != key { continue }
+                if d.primaryKey() != key { continue }
             }
             keyNotFound = false
             switch mode {
@@ -232,7 +232,7 @@ struct TsvRowList {
             case .droid:
                 return row.key_android != key
             case .primary:
-                return "\(row.key_apple)&\(row.key_android)" != key
+                return row.primaryKey() != key
             }            
         }
     }
@@ -272,7 +272,7 @@ struct TsvRowList {
             case .droid:
                 key = d.key_android
             case .primary:
-                key = "\(d.key_apple)&\(d.key_android)"
+                key = d.primaryKey()
             }
             switch ofValueType {
             case .base:
@@ -387,7 +387,7 @@ struct TsvRowList {
             case .droid:
                 return toRemove.contains(key: r.key_android, type: .droid) == false
             case .primary:
-                return toRemove.contains(key: "\(r.key_apple)&\(r.key_android)", type: .primary) == false
+                return toRemove.contains(key: r.primaryKey(), type: .primary) == false
             }            
         }
         return TsvRowList(data: result)

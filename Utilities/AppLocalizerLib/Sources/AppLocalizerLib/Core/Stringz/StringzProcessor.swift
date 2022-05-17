@@ -213,7 +213,7 @@ struct StringzProcessor: TsvProtocol {
             ###########################################################\n
             """
             for row in androidkeyEmptyList.data {
-                report.append("\(row.key_apple)\t\(row.base_value)\n")
+                report.append("(\(row.primaryKey()))\t\(row.base_value)\n")
             }
             logger.info(report)
         }
@@ -225,7 +225,7 @@ struct StringzProcessor: TsvProtocol {
             ###########################################################\n
             """
             for row in applekeyEmptyList.data {
-                report.append("\(row.key_android)\t\(row.base_value)\n")
+                report.append("(\(row.primaryKey()))\t\(row.base_value)\n")
             }
             logger.info(report)
         }
@@ -237,7 +237,7 @@ struct StringzProcessor: TsvProtocol {
             ##########################################\n
             """
             for row in langvalueMissingList.data {
-                report.append("\(row.key_apple)\t\(row.base_value)\n")
+                report.append("(\(row.primaryKey()))\t\(row.base_value)\n")
             }
             logger.info(report)
         }
@@ -249,7 +249,7 @@ struct StringzProcessor: TsvProtocol {
             ###############################################\n
             """
             for row in langvalueUntranslatedList.data {
-                report.append("\(row.key_apple)\t\(row.base_value)\n")
+                report.append("(\(row.primaryKey()))\t\(row.base_value)\n")
             }
             logger.info(report)
         }
@@ -261,7 +261,7 @@ struct StringzProcessor: TsvProtocol {
             #####################################################\n
             """
             for row in randomidList.data {
-                report.append("\(row.key_apple)\t\(row.base_value)\n")
+                report.append("(\(row.primaryKey()))\t\(row.base_value)\n")
             }        
             logger.info(report)
         }

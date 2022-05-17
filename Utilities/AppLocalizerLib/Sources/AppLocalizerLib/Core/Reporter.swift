@@ -122,7 +122,7 @@ struct Reporter {
         
         let missing = batchImport._tsvImportSheet.checkTsvKeysTargetValueMissing()
         for r in missing {
-            s.append("\(r.key_android)\t\(r.key_apple)\t\(r.base_value)\t\(r.lang_value)\n")
+            s.append("\(r.primaryKey())\t\(r.base_value)\t\(r.lang_value)\n")
         }
         
         s.append("\n")
@@ -131,7 +131,7 @@ struct Reporter {
         s.append("*******************************************\n")
         let unchanged = batchImport._tsvImportSheet.checkTsvKeysTargetValueSameAsBase()        
         for r in unchanged {
-            s.append("\(r.key_android)\t\(r.key_apple)\t\(r.base_value)\t\(r.lang_value)\n")
+            s.append("\(r.primaryKey())\t\(r.base_value)\t\(r.lang_value)\n")
         }
         
         if let processor = batchImport._xmlProcessor {
