@@ -8,12 +8,10 @@ types	doze_detail_section_types	Types	種類	Doze Detail View subheading: ‘Typ
 servings	doze_entry_header	Servings	份量	Doze Entry View heading: ‘Servings’	
 beans	dozeBeans.heading	Beans	豆類	heading for daily data entry item	
 food_info_serving_sizes_beans_imperial.0	dozeBeans.Serving.imperial.0	¼ cup of hummus or bean dip	¼杯鷹嘴豆泥或豆子沾醬		
-food_info_serving_sizes_beans_imperial.1	dozeBeans.Serving.imperial.1	½ cup cooked beans, split peas, lentils, tofu, or tempeh	,
-        		
+food_info_serving_sizes_beans_imperial.1	dozeBeans.Serving.imperial.1	½ cup cooked beans, split peas, lentils, tofu, or tempeh	,		
 food_info_serving_sizes_beans_imperial.2	dozeBeans.Serving.imperial.2	1 cup of fresh peas or sprouted lentils	½杯煮熟的豆子、豌豆、扁豆、豆腐或天貝		
 food_info_serving_sizes_beans_metric.0	dozeBeans.Serving.metric.0	60 g of hummus or bean dip	¼杯鷹嘴豆泥或豆子沾醬		
-food_info_serving_sizes_beans_metric.1	dozeBeans.Serving.metric.1	130 g cooked beans, split peas, lentils, tofu, or tempeh	,
-        		
+food_info_serving_sizes_beans_metric.1	dozeBeans.Serving.metric.1	130 g cooked beans, split peas, lentils, tofu, or tempeh	,		
 food_info_serving_sizes_beans_metric.2	dozeBeans.Serving.metric.2	150 g of fresh peas or sprouted lentils	½杯煮熟的豆子、豌豆、扁豆、豆腐或天貝		
 food_info_types_beans.0	dozeBeans.Variety.Text.0	Black beans	黑豆		
 food_info_types_beans.1	dozeBeans.Variety.Text.1	Black-eyed peas	黑眼豆		
