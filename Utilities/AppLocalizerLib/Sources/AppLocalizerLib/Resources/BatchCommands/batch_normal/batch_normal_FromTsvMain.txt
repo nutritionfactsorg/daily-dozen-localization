@@ -3,6 +3,8 @@
 ### SCOPE: all planned languages
 ###
 
+### Note: changeset01 not currently included in main processing.
+
 ###################
 ## General Setup ##
 ###################
@@ -11,19 +13,20 @@ LOGGER_LEVEL_INFO
 OUTPUT_NORMAL_DIRNAME="FromTsvMain"
 
 ## Base English_US directory paths from which translations are mapped
-#BASE_JSON_DIR="English_US/ios/en-US_reference/LocalStrings/en.lproj"
-BASE_JSON_DIR="English_US/ios/en-US_reference/LocalStrings/en.changeset01.lproj"
+## use one or the other.
+BASE_JSON_DIR="English_US/ios/en-US_reference/LocalStrings/en.lproj"
+#BASE_JSON_DIR="English_US/ios/en-US_reference/LocalStrings/en.changeset01.lproj"
 
 BASE_TSV_INCLUDE="English_US/tsv/English_US_en.tsv"
-BASE_TSV_INCLUDE="English_US/tsv/English_US_en.changeset01.tsv"
+#BASE_TSV_INCLUDE="English_US/tsv/English_US_en.changeset01.tsv"
 BASE_TSV_INCLUDE="English_US/tsv/English_US_en.appstore.tsv"
 #BASE_TSV_INCLUDE="English_US/tsv/English_US_en.appstore.changeset01.tsv"
 BASE_TSV_INCLUDE="English_US/tsv/English_US_en.url_fragments.tsv"
 BASE_TSV_INCLUDE="English_US/tsv/English_US_en.url_topics.tsv"
 
 ### ------ ANDROID_LANG --> NORMALIZE XML -----
-#BASE_XML_URL="English_US/android/values/strings.xml"
-BASE_XML_URL="English_US/android/values/strings.unified.changeset01.xml"
+BASE_XML_URL="English_US/android/values/strings.unified.xml"
+#BASE_XML_URL="English_US/android/values/strings.unified.changeset01.xml"
 
 ## Note: currently, URL_TOPICS_TSV is the same for all languages except Spanish.
 URL_FRAGMENTS_TSV="English_US/tsv/English_US_en.url_fragments.tsv"
@@ -36,18 +39,17 @@ SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.tsv"
 #SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.changeset01.tsv"
 DO_NORMALIZE_BATCH
 
-SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.changeset01.tsv"
-DO_NORMALIZE_BATCH
+### standalone change set processing
+#SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.changeset01.tsv"
+#DO_NORMALIZE_BATCH
 
 SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.appstore.tsv"
 ##SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.appstore.changeset01.tsv"
 DO_NORMALIZE_BATCH
 
-SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.appstore.intake.20220513.tsv"
-DO_NORMALIZE_BATCH
-
-SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.appstore.changeset01.tsv"
-DO_NORMALIZE_BATCH
+### standalone change set processing
+#SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.appstore.changeset01.tsv"
+#DO_NORMALIZE_BATCH
 
 SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.url_fragments.tsv"
 DO_NORMALIZE_BATCH
@@ -56,7 +58,7 @@ SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.url_topics.tsv"
 DO_NORMALIZE_BATCH
 
 ##### ----- NOT YET -----
-QUIT
+#QUIT
 
 ########################################
 ### COMMON TO BOTH ANDROID AND APPLE ###
@@ -184,7 +186,6 @@ DO_NORMALIZE_BATCH
 ####################
 ## -- (bg) process application values --
 SOURCE_TSV_INCLUDE="Bulgarian/tsv/Bulgarian_bg.tsv"
-SOURCE_TSV_INCLUDE="Bulgarian/tsv/Bulgarian_bg.additions.tsv"
 DO_NORMALIZE_BATCH
 
 ## -- (bg) process appstore --
@@ -196,7 +197,6 @@ DO_NORMALIZE_BATCH
 ################
 ## -- (el) process application values --
 SOURCE_TSV_INCLUDE="Greek/tsv/Greek_el.tsv"
-SOURCE_TSV_INCLUDE="Greek/tsv/Greek_el.additions.tsv"
 DO_NORMALIZE_BATCH
 
 ## -- (el) process appstore --
@@ -208,7 +208,6 @@ DO_NORMALIZE_BATCH
 #################
 ## -- (fr) process application values --
 SOURCE_TSV_INCLUDE="French/tsv/French_fr.tsv"
-SOURCE_TSV_INCLUDE="French/tsv/French_fr.additions.tsv"
 DO_NORMALIZE_BATCH
 
 ## -- (fr) process appstore --
@@ -220,7 +219,6 @@ DO_NORMALIZE_BATCH
 ##################
 ## -- (it) process application values --
 SOURCE_TSV_INCLUDE="Italian/tsv/Italian_it.tsv"
-SOURCE_TSV_INCLUDE="Italian/tsv/Italian_it.additions.tsv"
 DO_NORMALIZE_BATCH
 
 ## -- (it) process appstore --
@@ -232,7 +230,6 @@ DO_NORMALIZE_BATCH
 ##################
 ## -- (ro) process application values --
 SOURCE_TSV_INCLUDE="Romanian/tsv/Romanian_ro.tsv"
-SOURCE_TSV_INCLUDE="Romanian/tsv/Romanian_ro.additions.tsv"
 DO_NORMALIZE_BATCH
 
 ## -- (ro) process appstore --

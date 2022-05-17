@@ -3,6 +3,8 @@
 ### SCOPE: all planned languages
 ###
 
+### Note: changeset01 not currently included in processing.
+
 ###################
 ## General Setup ##
 ###################
@@ -30,98 +32,114 @@ URL_FRAGMENTS_TSV="English_US/tsv/English_US_en.url_fragments.tsv"
 URL_TOPICS_TSV="English_US/tsv/English_US_en.url_topics.tsv"
 
 ####################################
-"SOURCE_TSV_INCLUDE="Afrikaans/tsv/Afrikaans_af.tsv"
+SOURCE_TSV_INCLUDE="Afrikaans/tsv/Afrikaans_af.tsv"
+SOURCE_TSV_INCLUDE="Afrikaans/tsv/Afrikaans_af.additions.tsv"
 DO_NORMALIZE_BATCH
 
 SOURCE_TSV_INCLUDE="Arabic/tsv/Arabic_ar.tsv"
+SOURCE_TSV_INCLUDE="Arabic/tsv/Arabic_ar.additions.tsv"
 DO_NORMALIZE_BATCH
 
 SOURCE_TSV_INCLUDE="Bhojpuri/tsv/Bhojpuri_bho.tsv"
+SOURCE_TSV_INCLUDE="Bhojpuri/tsv/Bhojpuri_bho.additions.tsv"
 DO_NORMALIZE_BATCH
 
 SOURCE_TSV_INCLUDE="Czech/tsv/Czech_cs.tsv"
+SOURCE_TSV_INCLUDE="Czech/tsv/Czech_cs.additions.tsv"
 DO_NORMALIZE_BATCH
 
 SOURCE_TSV_INCLUDE="Danish/tsv/Danish_da.tsv"
+SOURCE_TSV_INCLUDE="Danish/tsv/Danish_da.additions.tsv"
 DO_NORMALIZE_BATCH
 
 SOURCE_TSV_INCLUDE="Dutch/tsv/Dutch_nl.tsv"
+SOURCE_TSV_INCLUDE="Dutch/tsv/Dutch_nl.additions.tsv"
 DO_NORMALIZE_BATCH
 
 SOURCE_TSV_INCLUDE="English_GB/tsv/English_GB_en-GB.tsv"
-DO_NORMALIZE_BATCH
-
-SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.appstore.intake.20220513.tsv"
+SOURCE_TSV_INCLUDE="English_GB/tsv/English_GB_en-GB.additions.tsv"
 DO_NORMALIZE_BATCH
 
 SOURCE_TSV_INCLUDE="Estonian/tsv/Estonian_et.tsv"
+SOURCE_TSV_INCLUDE="Estonian/tsv/Estonian_et.additions.tsv"
 DO_NORMALIZE_BATCH
 
 SOURCE_TSV_INCLUDE="Finnish/tsv/Finnish_fi.tsv"
+SOURCE_TSV_INCLUDE="Finnish/tsv/Finnish_fi.additions.tsv"
 DO_NORMALIZE_BATCH
 
 SOURCE_TSV_INCLUDE="French_Canada/tsv/French_Canada_fr-CA.tsv"
+SOURCE_TSV_INCLUDE="French_Canada/tsv/French_Canada_fr-CA.additions.tsv"
 DO_NORMALIZE_BATCH
 
 SOURCE_TSV_INCLUDE="Georgian/tsv/Georgian_ka.tsv"
+SOURCE_TSV_INCLUDE="Georgian/tsv/Georgian_ka.additions.tsv"
 DO_NORMALIZE_BATCH
 
 SOURCE_TSV_INCLUDE="Hindi/tsv/Hindi_hi.tsv"
+SOURCE_TSV_INCLUDE="Hindi/tsv/Hindi_hi.additions.tsv"
 DO_NORMALIZE_BATCH
 
 SOURCE_TSV_INCLUDE="Hungarian/tsv/Hungarian_hu.tsv"
+SOURCE_TSV_INCLUDE="Hungarian/tsv/Hungarian_hu.additions.tsv"
 DO_NORMALIZE_BATCH
 
 SOURCE_TSV_INCLUDE="Japanese/tsv/Japanese_ja.tsv"
+SOURCE_TSV_INCLUDE="Japanese/tsv/Japanese_ja.additions.tsv"
 DO_NORMALIZE_BATCH
 
 SOURCE_TSV_INCLUDE="Kannada/tsv/Kannada_kn.tsv"
+SOURCE_TSV_INCLUDE="Kannada/tsv/Kannada_kn.additions.tsv"
 DO_NORMALIZE_BATCH
 
 SOURCE_TSV_INCLUDE="Korean/tsv/Korean_ko.tsv"
+SOURCE_TSV_INCLUDE="Korean/tsv/Korean_ko.additions.tsv"
 DO_NORMALIZE_BATCH
 
 SOURCE_TSV_INCLUDE="Lithuanian/tsv/Lithuanian_lt.tsv"
+SOURCE_TSV_INCLUDE="Lithuanian/tsv/Lithuanian_lt.additions.tsv"
 DO_NORMALIZE_BATCH
 
 SOURCE_TSV_INCLUDE="Mongolian/tsv/Mongolian_mn.tsv"
+SOURCE_TSV_INCLUDE="Mongolian/tsv/Mongolian_mn.additions.tsv"
 DO_NORMALIZE_BATCH
 
 SOURCE_TSV_INCLUDE="Norwegian_nb/tsv/Norwegian_nb.tsv"
+SOURCE_TSV_INCLUDE="Norwegian_nb/tsv/Norwegian_nb.additions.tsv"
 DO_NORMALIZE_BATCH
 
 SOURCE_TSV_INCLUDE="Persian/tsv/Persian_fa.tsv"
+SOURCE_TSV_INCLUDE="Persian/tsv/Persian_fa.additions.tsv"
 DO_NORMALIZE_BATCH
 
 SOURCE_TSV_INCLUDE="Serbian_Cyrillic/tsv/Serbian_Cyrillic_sr.tsv"
+SOURCE_TSV_INCLUDE="Serbian_Cyrillic/tsv/Serbian_Cyrillic_sr.additions.tsv"
 DO_NORMALIZE_BATCH
 
 SOURCE_TSV_INCLUDE="Serbian_Latin/tsv/Serbian_Latin_sr-Latn.tsv"
+SOURCE_TSV_INCLUDE="Serbian_Latin/tsv/Serbian_Latin_sr-Latn.additions.tsv"
 DO_NORMALIZE_BATCH
 
 SOURCE_TSV_INCLUDE="Slovak/tsv/Slovak_sk.tsv"
+SOURCE_TSV_INCLUDE="Slovak/tsv/Slovak_sk.additions.tsv"
 DO_NORMALIZE_BATCH
 
 SOURCE_TSV_INCLUDE="Slovenian/tsv/Slovenian_sl.tsv"
-DO_NORMALIZE_BATCH
-
-SOURCE_TSV_INCLUDE="Spanish/tsv/Spanish_es.main.20210309.Android.tsv"
-DO_NORMALIZE_BATCH
-
-SOURCE_TSV_INCLUDE="Spanish/tsv/Spanish_es.main.20210309.Apple.tsv"
-DO_NORMALIZE_BATCH
-
-SOURCE_TSV_INCLUDE="Spanish/tsv/Spanish_es.tsv"
+SOURCE_TSV_INCLUDE="Slovenian/tsv/Slovenian_sl.additions.tsv"
 DO_NORMALIZE_BATCH
 
 SOURCE_TSV_INCLUDE="Swedish/tsv/Swedish_sv.tsv"
+SOURCE_TSV_INCLUDE="Swedish/tsv/Swedish_sv.additions.tsv"
 DO_NORMALIZE_BATCH
 
 SOURCE_TSV_INCLUDE="Thai/tsv/Thai_th.tsv"
+SOURCE_TSV_INCLUDE="Thai/tsv/Thai_th.additions.tsv"
 DO_NORMALIZE_BATCH
 
 SOURCE_TSV_INCLUDE="Turkish/tsv/Turkish_tr.tsv"
+SOURCE_TSV_INCLUDE="Turkish/tsv/Turkish_tr.additions.tsv"
 DO_NORMALIZE_BATCH
 
-SOURCE_TSV_INCLUDE="Vietnamese/tsv/Vietnamese_vi.tsv
+SOURCE_TSV_INCLUDE="Vietnamese/tsv/Vietnamese_vi.tsv"
+SOURCE_TSV_INCLUDE="Vietnamese/tsv/Vietnamese_vi.additions.tsv"
 DO_NORMALIZE_BATCH
