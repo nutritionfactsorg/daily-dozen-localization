@@ -485,7 +485,7 @@ enable_daily_reminder		Enable Daily Reminder	Activer le rappel quotidien	On/Off 
 error_cannot_handle_url		Could not open url. Please install a browser.	Impossible d\'ouvrir l\'url. Veuillez installer un navigateur.		
 food_history		Food History	Historique alimentaire		
 food_info		Food Info	Alimentation		
-format_version		version %1$s	version %s		
+format_version		version %s	version %s	Place "%s" where the software should substitue in the version number.	
 history_to_generate		History to Generate	L\'historique à générer		
 history_to_generate_choices.0		1 month	1 mois		
 history_to_generate_choices.1		3 months	3 mois		

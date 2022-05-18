@@ -485,7 +485,7 @@ enable_daily_reminder		Enable Daily Reminder	Активиране на напо�
 error_cannot_handle_url		Could not open url. Please install a browser.	Връзката не може да се отвори. Моля, инсталирайте браузър.		
 food_history		Food History	История на храните		
 food_info		Food Info	Информация за храните		
-format_version		version %1$s	версия %s		
+format_version		version %s	версия %s	Place "%s" where the software should substitue in the version number.	
 history_to_generate		History to Generate	Генериране на история		
 history_to_generate_choices.0		1 month	1 месец		
 history_to_generate_choices.1		3 months	3 месеца		

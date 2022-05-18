@@ -485,7 +485,7 @@ enable_daily_reminder		Enable Daily Reminder	Ενεργοποίηση Καθημ
 error_cannot_handle_url		Could not open url. Please install a browser.	Δεν ήταν δυνατό το άνοιγμα url. Παρακαλώ εγκαταστήστε ένα πρόγραμμα περιήγησης.		
 food_history		Food History	Ιστορικό Τροφίμων		
 food_info		Food Info	Πληροφορίες Τροφίμων		
-format_version		version %1$s	εκδοχή %s		
+format_version		version %s	εκδοχή %s	Place "%s" where the software should substitue in the version number.	
 history_to_generate		History to Generate	Ιστορικό προς Παραγωγή		
 history_to_generate_choices.0		1 month	1 μήνα		
 history_to_generate_choices.1		3 months	3 μήνες		

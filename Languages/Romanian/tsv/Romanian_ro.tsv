@@ -485,7 +485,7 @@ enable_daily_reminder		Enable Daily Reminder	Activați mementoul zilnic	On/Off t
 error_cannot_handle_url		Could not open url. Please install a browser.	Nu s-a putut deschide adresa URL. Vă rugăm să instalați un browser.		
 food_history		Food History	Informații istorice		
 food_info		Food Info	Informații alimentare		
-format_version		version %1$s	versiune %s		
+format_version		version %s	versiune %s	Place "%s" where the software should substitue in the version number.	
 history_to_generate		History to Generate	Istoric pentru generare		
 history_to_generate_choices.0		1 month	1 lună		
 history_to_generate_choices.1		3 months	3 luni		

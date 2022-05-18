@@ -485,7 +485,7 @@ enable_daily_reminder		Enable Daily Reminder	啟用每日提醒	On/Off toggle la
 error_cannot_handle_url		Could not open url. Please install a browser.	無法開啟網頁。請安裝瀏覽器。		
 food_history		Food History	食物歷史紀錄		
 food_info		Food Info	食物資訊		
-format_version		version %1$s	版本 %s		
+format_version		version %s	版本 %s	Place "%s" where the software should substitue in the version number.	
 history_to_generate		History to Generate	產生歷史記錄		
 history_to_generate_choices.0		1 month	1個月		
 history_to_generate_choices.1		3 months	3個月		

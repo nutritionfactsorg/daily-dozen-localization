@@ -482,7 +482,7 @@ enable_daily_reminder		Enable Daily Reminder	Включить ежедневны
 error_cannot_handle_url		Could not open url. Please install a browser.	Невозможно открыть ссылку. Пожалуйста, установите веб браузер.		
 food_history		Food History	Еда История		
 food_info		Food Info	Еда Информация		
-format_version		version %1$s	версия %1$s		
+format_version		version %s	версия %s	Place "%s" where the software should substitue in the version number.	
 history_to_generate		History to Generate	Загрузить историю		
 history_to_generate_choices.0		1 month	1 месяц		
 history_to_generate_choices.1		3 months	3 месяца		

@@ -485,7 +485,7 @@ enable_daily_reminder		Enable Daily Reminder	Abilita promemoria giornaliero	On/O
 error_cannot_handle_url		Could not open url. Please install a browser.	Impossibile aprire URL. Si prega di installare un browser.		
 food_history		Food History	Cronologia Cibo		
 food_info		Food Info	Info Alimentari		
-format_version		version %1$s	versione %s		
+format_version		version %s	versione %s	Place "%s" where the software should substitue in the version number.	
 history_to_generate		History to Generate	Cronologia da generare		
 history_to_generate_choices.0		1 month	1 mese		
 history_to_generate_choices.1		3 months	3 mesi		
