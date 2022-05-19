@@ -72,8 +72,8 @@ struct StringzProcessor: TsvProtocol {
                     continue
                 }
                 
-                key_apple = String(parts[0].dropFirst(1)) // double quote "
-                lang_value = String(parts[1].dropLast(2)) // ";
+                key_apple = String(parts[0].dropFirst(1)) // 1 char `"`
+                lang_value = String(parts[1].dropLast(2)) // 2 char `";` 
                 let row = TsvRow(
                     key_android: "", 
                     key_apple: key_apple, 

@@ -320,7 +320,7 @@ struct BatchRunner {
         else if parts.count == 2 {
             cmdValue = parts[1].trimmingCharacters(in: CharacterSet.whitespaces)
             if (cmdValue.first != "\"") || (cmdValue.last != "\"") {
-                print("\nERROR:A: Expected double quoted command value. Did not process: '\(line)'")
+                print("\nERROR:A: Expected command value to be within double quotes. Did not process: '\(line)'")
                 return nil
             }
             cmdValue = String(parts[1].dropFirst().dropLast())

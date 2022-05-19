@@ -80,22 +80,13 @@ struct TsvRow: Equatable {
     }
     
     func toTsv() -> String {
-        var s = "\(toTsvQuoted(key_android))\t"
-        s.append("\(toTsvQuoted(key_apple))\t")
-        s.append("\(toTsvQuoted(base_value))\t")
-        s.append("\(toTsvQuoted(lang_value))\t")
-        s.append("\(toTsvQuoted(base_note))\t")
-        s.append("\(toTsvQuoted(lang_note))\r\n")
+        var s = "\(key_android)\t"
+        s.append("\(key_apple)\t")
+        s.append("\(base_value)\t")
+        s.append("\(lang_value)\t")
+        s.append("\(base_note)\t")
+        s.append("\(lang_note)\r\n")
         return s
-    }
-    
-    private func toTsvQuoted(_ s: String) -> String {
-        var string = s
-        if string.hasPrefix("\"") {
-            string = string.replacingOccurrences(of: "\"", with: "\"\"")
-            return "\"\(string)\""
-        } 
-        return string
     }
     
 }

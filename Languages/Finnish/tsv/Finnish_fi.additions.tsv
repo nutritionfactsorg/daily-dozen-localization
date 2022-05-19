@@ -76,7 +76,7 @@ no		No	No
 no_servings_recorded		You have not recorded any servings yet!	You have not recorded any servings yet!	
 no_weights_recorded		You have not recorded any weights yet!	You have not recorded any weights yet!	
 not_now		Not Now	Not Now	
-permission_needed_to_write_storage		Can\'t backup without permission to write to storage	Can\'t backup without permission to write to storage	
+permission_needed_to_write_storage		Can't backup without permission to write to storage	Can't backup without permission to write to storage	
 rate_now		Give Feedback	Give Feedback	
 restore_confirm_message		Any existing data will be deleted before restoring from backup. Do you wish to continue?	Any existing data will be deleted before restoring from backup. Do you wish to continue?	
 restore_confirm_title		Restore Backup	Restore Backup	

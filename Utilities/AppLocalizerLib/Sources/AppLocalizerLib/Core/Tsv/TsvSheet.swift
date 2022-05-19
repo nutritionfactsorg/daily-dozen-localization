@@ -758,48 +758,4 @@ struct TsvSheet: TsvProtocol {
         return TsvRowList(data: recordList)
     }
     
-    // MARK: - Watch
-    
-    // :WATCH: setup
-    fileprivate var _watchCharCount = 0
-    fileprivate let _watchCharLimit = 2000 // number of characters to check
-    fileprivate var _watchEnabled = false
-    fileprivate let _watchString = "k" 
-    
-    fileprivate mutating func _watchline(
-        recordIdx: Int,
-        recordFieldIdx: Int,
-        lineIdx: Int,
-        lineCharIdx: Int,
-        field: [Character],
-        insideQuote: Bool,
-        escapeQuote: Bool,
-        cPrev: Character?,
-        cThis: Character?,
-        cNext: Character?
-    ) {
-        if String(field) == _watchString && _watchCharCount == 0 {
-            print(":WATCH:START: \"\(_watchString)\"")
-            print(":WATCH:\trecordIdx\tlineIdx\tlineCharIdx\tinsideQuote\tescapeQuote\tcPrev\tcThis\tcNext")
-            _watchCharCount = 1
-        }
-        
-        if _watchCharCount > 0 && _watchCharCount <= _watchCharLimit {
-            var s = ":WATCH:"
-            s.append("\t\(recordIdx)[\(recordFieldIdx)]")
-            s.append("\t\(lineIdx)")
-            s.append("\t\(lineCharIdx)")
-            s.append("\t\(insideQuote)")
-            s.append("\t\(escapeQuote)")
-            s.append("\t\(toCharacterDot(character: cPrev))")
-            s.append("\t\(toCharacterDot(character: cThis))")
-            s.append("\t\(toCharacterDot(character: cNext))")
-            s.append("\t\(toStringDot(field:field))")
-            print(s)
-            _watchCharCount += 1
-        } else if _watchCharCount > _watchCharLimit {
-            _watchEnabled = false
-        }
-    }
-    
 }

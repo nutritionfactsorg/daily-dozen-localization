@@ -46,7 +46,7 @@ struct XliffIntoTsvProcessor: TsvProtocol {
                 }
             }
             
-            // :!!!:NYI: needed to be escapes properly for TSV
+            // :!!!:NYI: needed to be escaped properly for TSV
             sourceValue = sourceValue
                 .replacingOccurrences(of: "\t", with: "Ⓣ")
                 .replacingOccurrences(of: "\n", with: "Ⓝ")
