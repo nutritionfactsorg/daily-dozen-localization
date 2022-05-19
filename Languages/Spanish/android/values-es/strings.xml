@@ -1,6 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <resources>
     <string name="app_name">Docena Diaria</string>
-
     <string name="beans">Legumbres</string>
     <string name="berries">Frutos rojos</string>
     <string name="other_fruits">Otras frutas</string>
@@ -25,21 +25,9 @@
     <string name="about">Conócenos</string>
     <string name="about_this_app">Sobre esta app</string>
     <string name="latest_videos">Videos más recientes</string>
-    <string name="url_latest_videos">http://nutritionfacts.org/es/videos/</string>
-    <string name="title_how_not_to_die">Comer para no morir</string>
-    <string name="url_how_not_to_die">https://nutritionfacts.org/es/comer-para-no-morir/</string>
-    <string name="title_cookbook">Libro de recetas</string>
-    <string name="url_cookbook">https://nutritionfacts.org/es/libro-de-recetas/</string>
-    <string name="title_how_not_to_diet">How Not to Diet</string>
-    <string name="url_how_not_to_diet">https://nutritionfacts.org/how-not-to-diet/</string>
-    <string name="daily_dozen_challenge">Objetivo Docena Diaria</string>
-    <string name="url_daily_dozen_challenge">https://nutritionfacts.org/es/objetivo-la-docena-diaria/</string>
     <string name="donate">Donación</string>
-    <string name="url_donate">https://nutritionfacts.org/es/dona-a-nutritionfacts-org/</string>
     <string name="subscribe">Suscríbete</string>
-    <string name="url_subscribe">https://nutritionfacts.org/es/suscribete/</string>
     <string name="open_source">Código abierto</string>
-    <string name="url_open_source">https://nutritionfacts.org/es/open-source/</string>
     <string name="permission_needed_to_write_storage">No puedes hacer copias de seguridad si no tienes permiso para guardarlas en el disco duro.</string>
     <string name="backup_failed">Copia de seguridad fallida</string>
     <string name="restore_failed">Restauración fallida</string>
@@ -79,28 +67,103 @@
     <string name="dialog_ask_user_to_rate_app_message">Danos tu opinión en la Play Store.</string>
     <string name="rate_now">Dar mi opinión</string>
     <string name="not_now">Ahora no</string>
-    <string name="format_version" formatted="false">versión %s</string>
-    <string name="format_num_days" formatted="false">%d días</string>
+    <string name="format_version">versión %s</string>
+    <string name="format_num_days">%d días</string>
     <string name="daily_reminder_title">Recordatorio de la Docena Diaria</string>
     <string name="daily_reminder_text">Actualiza las porciones de hoy</string>
     <string name="daily_reminder_settings">Ajustes del recordatorio diario</string>
     <string name="enable_daily_reminder">Activar el recordatorio diario</string>
     <string name="remind_me_at">Recuérdamelo a las</string>
-    <string name="vibrate">Vibración</string>
-    <string name="play_sound">Sonido</string>
     <string name="videos">Videos</string>
     <string name="units">Sistema</string>
-    <string name="imperial">Imperial</string>
-    <string name="metric">Métrico</string>
-
+    <string name="imperial">imperial</string>
+    <string name="metric">métrico</string>
+    <string name="error_cannot_handle_url">No se puede abrir la URL. Debes instalar un navegador.</string>
+    <string name="channel_reminders_name">Recordatorios</string>
+    <string name="twenty_one_tweaks">21 Ajustes</string>
+    <string name="tweaks">Ajustes</string>
+    <string name="daily_tweaks_history">Historial de ajustes</string>
+    <string name="weight_history">Historia de peso</string>
+    <string name="no_weights_recorded">Todavía no has registrado tu peso</string>
+    <string name="task_loading_weights_history_title">Cargando historial de peso</string>
+    <string name="morning">Mañana</string>
+    <string name="evening">Noche</string>
+    <string name="meal_water">Empezar con agua</string>
+    <string name="meal_negcal">Empezar con alimentos de "calorías negativas"</string>
+    <string name="meal_vinegar">Vinagre (2 ctda. cada comida)</string>
+    <string name="meal_undistracted">Comidas sin distracciones</string>
+    <string name="meal_twentyminutes">La regla de los veinte minutos</string>
+    <string name="daily_blackcumin">Comino negro (¼ ctda.)</string>
+    <string name="daily_garlic">Ajo en polvo (¼ ctda.)</string>
+    <string name="daily_ginger">Jengibre molido (1 ctda.) o cayena (½ ctda.)</string>
+    <string name="daily_nutriyeast">Levadura nutricional (2 ctda.)</string>
+    <string name="daily_cumin">Comino (½ ctda. almuerzo y cena)</string>
+    <string name="daily_greentea">Té verde (3 tazas)</string>
+    <string name="daily_hydrate">Hidratación</string>
+    <string name="daily_deflourdiet">Adiós a la harina</string>
+    <string name="daily_frontload">Anticipar calorías</string>
+    <string name="daily_timerestrict">Restricción del horario de comidas</string>
+    <string name="exercise_timing">Ejercicio a buena hora</string>
+    <string name="weigh_twice">Pesarse dos veces al día</string>
+    <string name="complete_intentions">Completar tus metas</string>
+    <string name="nightly_fast">Ayuno después de las 7 P.M.</string>
+    <string name="nightly_sleep">Dormir lo suficiente</string>
+    <string name="nightly_trendelenburg">Trendelenburg</string>
+    <string name="debug_generate_weight_data">Generar datos de peso</string>
+    <string name="average_weight_on_day">Peso promedio en el día</string>
+    <string name="meal_water_short">Empezar con agua</string>
+    <string name="meal_negcal_short">Empezar con alimentos de calorías negativas</string>
+    <string name="meal_vinegar_short">Vinagre (2 ctda. cada comida)</string>
+    <string name="meal_undistracted_short">Comidas sin distracciones</string>
+    <string name="meal_twentyminutes_short">La regla de los veinte minutos</string>
+    <string name="daily_blackcumin_short">Comino negro (Nigella sativa) (¼ ctda.)</string>
+    <string name="daily_garlic_short">Ajo en polvo (¼ ctda.)</string>
+    <string name="daily_ginger_short">Jengibre (1 ctda.) o cayena (½ ctda.)</string>
+    <string name="daily_nutriyeast_short">Levadura nutricional (2 ctda.)</string>
+    <string name="daily_cumin_short">Comino (Cuminum cyminum) (½ ctda. almuerzo y cena)</string>
+    <string name="daily_greentea_short">Té verde (3 tazas)</string>
+    <string name="daily_hydrate_short">Hidratación</string>
+    <string name="daily_deflourdiet_short">Adiós a la harina</string>
+    <string name="daily_frontload_short">Anticipar calorías</string>
+    <string name="daily_timerestrict_short">Restricción del horario de comidas</string>
+    <string name="exercise_timing_short">Ejercicio a buena hora</string>
+    <string name="weigh_twice_short">Pesarse dos veces al día</string>
+    <string name="complete_intentions_short">Completar tus metas</string>
+    <string name="nightly_fast_short">Ayuno después de las 7 P.M.</string>
+    <string name="nightly_sleep_short">Dormir lo suficiente</string>
+    <string name="nightly_trendelenburg_short">Trendelenburg</string>
+    <string name="meal_water_text">Toma dos tazas de agua sin sabor, fría o del tiempo, antes de cada comida para acelerar tu metabolismo y aprovechar sus beneficios.</string>
+    <string name="meal_negcal_text">Como entrante, puedes comerte una manzana, una sopa o una ensalada con alimentos de luz verde que contenga menos de cien calorías por taza.</string>
+    <string name="meal_vinegar_text">Nunca bebas vinagre solo. Puedes usarlo para condimentar las comidas o aderezar una ensalada. Puedes usar cualquier tipo de vinagre, dulce o salado. Si quieres beberlo, debes mezclarlo con un vaso de agua y enjuagarte la boca justo después para proteger el esmalte dental.</string>
+    <string name="meal_undistracted_text">No comas mientras ves la televisión o juegas en tu smartphone. Puedes marcar una casilla por cada comida que pases sin distracciones.</string>
+    <string name="meal_twentyminutes_text">Ya sea con el aumento de la viscosidad y el tiempo de masticado o con la disminución del tamaño de los bocados, existen docenas de estudios que han demostrado que aumentar la cantidad de tiempo que los alimentos se pasan en la boca puede resultar en una menor ingesta calórica. Por lo tanto, aumenta la duración de las comidas en al menos veinte minutos para que tus señales de saciedad naturales puedan surtir efecto. ¿Cómo puedes hacer esto? Podrías elegir alimentos que sean más difíciles de comer y comerlos de tal manera que se prolongue el tiempo que permanecen en la boca. Piensa en alimentos más voluminosos, más duros y que puedas masticar en bocados más pequeños.</string>
+    <string name="daily_blackcumin_text">Como se indica en la sección del libro que habla de la supresión del apetito, una revisión sistemática y un metanálisis de ensayos aleatorizados con grupo de control sobre la pérdida de peso concluyó que aproximadamente un cuarto de cucharadita de comino negro en polvo al día parece reducir el índice de masa corporal en un lapso de un par de meses. No olvides que el comino negro es diferente al comino normal, cuya ingesta recomendada es diferente.</string>
+    <string name="daily_garlic_text">Unos estudios aleatorizados, doble ciegos y controlados con placebo han encontrado que, con simplemente un cuarto de cucharadita diaria de ajo en polvo, se puede reducir la grasa corporal, a un costo de quizás dos centavos por día.</string>
+    <string name="daily_ginger_text">Unos ensayos aleatorizados y con grupo de control han descubierto que el consumo de ¼ a 1½ cucharadita al día de jengibre en polvo disminuye significativamente el peso corporal por solo unos centavos al día. Puede ser tan fácil como echar el jengibre en una taza de agua caliente. Nota: el jengibre podría funcionar mejor por la mañana que por la tarde. El chai es una forma estupenda de combinar los trucos del té verde y el jengibre en una sola bebida. Además, para activar el tejido adiposo pardo, también puedes añadir un jalapeño crudo o media cucharadita de chile en polvo a tu dieta diaria. Para ayudarte con el picante, puedes cortar el jalapeño en rodajas muy finas o picarlo muy bien. El chile en polvo lo podrías echar en las sopas y guisos o en el batido de verduras que hice en uno de mis videos de cocina en NutritionFacts.org.</string>
+    <string name="daily_nutriyeast_text">Dos cucharaditas de levadura de panadería, de cerveza o nutricional contienen aproximadamente la cantidad de glucanos beta 1,3 / 1,6 correcta que, en ensayos clínicos aleatorizados, doble ciegos y con grupo de control, ha demostrado facilitar la pérdida de peso.</string>
+    <string name="daily_cumin_text">Las mujeres con sobrepeso aleatorizadas a echarle media cucharadita de comino a sus almuerzos y cenas superaron al grupo de control, ya que perdieron casi 2 kg más y 2.5 cm extra en la cintura. También existe evidencia para apoyar el uso del azafrán, pero una pizca al día costaría un dólar, mientras que una cucharadita de comino cuesta menos de diez centavos.</string>
+    <string name="daily_greentea_text">Bebe tres tazas al día entre comidas, esperando al menos una hora después de comer, para no interferir con la absorción de hierro. Durante las comidas, bebe agua, café solo o infusión de hibisco (mezclado 6:1 con hierba luisa), pero nunca excedas tres tazas de líquido por hora (tenlo en cuenta para mi sección sobra empezar con agua). Aprovecha los efectos de la cafeína y bebe el té verde mientras comes algo saludable que querrías que te gustase más, para crear una asociación positiva, pero ten ojo y no consumas mucha cafeína en las 6 horas antes de irte a dormir. Lo mejor es tomar el té sin ningún tipo de edulcorante, pero, si le sueles echar miel o azúcar, prueba el jarabe de yacón.</string>
+    <string name="daily_hydrate_text">Puedes marcar esta casilla si tu orina nunca pasa del amarillo pálido.\n\nTen en cuenta que, si consumes alimentos fortificados con riboflavina (como la levadura nutricional), no deberías seguir esta premisa del color y debes centrarte en obtener nueve tazas de líquido sin edulcorar al día para las mujeres (que podrían cubrir el consumo de té verde y agua) o trece tazas al día para hombres.\n\nSi tienes problemas cardiacos o renales, no aumentes la ingesta de líquidos sin antes hablar con tu médico.\n\nNo olvides que, aunque los refrescos light no tengan calorías, no son inocuos, como explico en la sección del libro sobre los azúcares añadidos.</string>
+    <string name="daily_deflourdiet_text">Puedes marcar esta casilla en los días en los que tus raciones de cereales integrales sean en forma de cereales intactos. La pulverización de los cereales, aunque sean cereales 100% integrales, priva a nuestro microbioma del almidón que, de otro modo, llegaría a nuestro colon rodeado de paredes celulares intactas.</string>
+    <string name="daily_frontload_text">Consumir más calorías al principio del día es mejor para el metabolismo, así que haz que tu desayuno (idealmente) o tu almuerzo sean la comida más grande del día.</string>
+    <string name="daily_timerestrict_text">Limita tu horario de comidas a un periodo diario de tu elección que no supere las doce horas y que puedas cumplir de manera habitual, es decir, los siete días de la semana. Dados los beneficios para el reloj circadiano de la reducción en la ingesta de alimentos por la noche, deberías dejar de comer antes de las 7 P.M.</string>
+    <string name="exercise_timing_text">La recomendación de la Docena Diaria para una mayor longevidad son 90 minutos de actividad física moderada, que también resulta ser la duración óptima para perder peso. Cualquier momento es bueno y, cuanto más, mejor, pero podría ser mejor hacer ejercicio en ayunas, al menos seis horas después de tu última comida. En general, esto se traduce en antes del desayuno, pero, si lo planeas bien, podrías hacer ejercicio al mediodía antes de un almuerzo tardío o, si comes temprano, pues antes de la cena. Esto sería para los no diabéticos. Los diabéticos y prediabéticos deberían empezar a hacer ejercicio treinta minutos después del comienzo de una comida e idealmente durante por lo menos una hora, para alcanzar el pico de azúcar en sangre. Si tuvieras que elegir una sola comida para hacer ejercicio después esta, lo mejor sería la cena, debido a que el ritmo circadiano del control del azúcar en sangre va disminuyendo durante el día. Sin embargo, como lo mejor es que el desayuno sea la comida más grande del día, deberías hacer ejercicio después de desayunar; o, mejor aún, después de cada comida.</string>
+    <string name="weigh_twice_text">Se suele pensar que pesarse de manera habitual es un método crucial para el control del peso a largo plazo, pero no existen suficientes pruebas para respaldar esta frecuencia. Mi recomendación se basa en un estudio que encontró que dos veces al día, al despertarte y justo antes de acostarte, parece ser mejor que una vez al día (con una diferencia de entre 1 y 3 kg en doce semanas).</string>
+    <string name="complete_intentions_text">Cada dos meses, crea tres metas nuevas, al estilo de "si X, entonces Y", para comportarte de cierta manera en situaciones específicas. Intenta marcar las tres casillas todos los días.</string>
+    <string name="nightly_fast_text">Debido a la influencia de los ritmos circadianos, lo que comes por la noche engorda más que si comieras eso mismo pero más temprano en el día, así que intenta ayunar todas las noches durante al menos doce horas a partir de las 7 P.M. Cuantas menos calorías consumas después de que se ponga el sol, mejor.</string>
+    <string name="nightly_sleep_text">Puedes marcar esta casilla si has dormido al menos siete horas y te has ido a la cama a tu hora normal.</string>
+    <string name="nightly_trendelenburg_text">Prueba a estar al menos cuatro horas cada noche con el cuerpo inclinado seis grados. Para conseguirlo, debes elevar los postes del pie de la cama unos 20 centímetros. Ten mucho cuidado al levantarte, ya que esta postura causa intolerancia ortostática para casi todo el mundo, aunque seas joven y estés saludable, así que, si te levantas demasiado rápido, puedes marearte, desmayarte o incluso caerte y hacerte daño. Por lo tanto, levántate lentamente. Beber dos tazas de agua fría treinta minutos antes de levantarte también podría ayudar a prevenir este efecto secundario potencialmente peligroso.\n\nIMPORTANTE: no intentes esto en casa si tienes problemas cardiacos o pulmonares, reflujo ácido, problemas cerebrales (como traumatismo craneal) u oculares (incluso un historial familiar de glaucoma lo descalifica). Si tienes cualquier duda, no lo intentes sin preguntarle a tu médico antes.*</string>
+    <string name="weight">Peso</string>
+    <string name="tweak_group_meal">En cada comida</string>
+    <string name="tweak_group_daily">Todos los días</string>
+    <string name="tweak_group_dailydoses">Toma la dosis diaria</string>
+    <string name="tweak_group_nightly">Cada noche</string>
+    <string name="about_tweak">Sobre este potenciador</string>
     <string-array name="about_text_lines">
         <item>Esta app fue creada por John Slavick.</item>
         <item />
-        <item>Se utilizaron estas librerías de código abierto: ActiveAndroid, android-iconify, ButterKnife, EventBus, LikeAnimation y MPAndroidChart.</item>
-        <item />
-        <item>Muchas gracias a los voluntarios que ayudaron con la versión anterior de la app: Chan Kruse, Allan Portera y Sangeeta Kumar.</item>
+        <item>Se utilizaron estas librerías de código abierto: ActiveAndroid, android-iconify, EventBus, LikeAnimation y MPAndroidChart.</item>
     </string-array>
-
     <string-array name="backup_instructions_lines">
         <item>Sigue estos pasos para restaurar la copia de seguridad de la aplicación Dr. Greger\'s Daily Dozen.</item>
         <item />
@@ -110,13 +173,11 @@
         <item />
         <item>3. Selecciona la opción de abrir con Dr. Greger\'s Daily Dozen.</item>
     </string-array>
-
     <string-array name="servings_time_scale_choices">
         <item>Día</item>
         <item>Mes</item>
         <item>Año</item>
     </string-array>
-
     <string-array name="history_to_generate_choices">
         <item>1 mes</item>
         <item>3 meses</item>
@@ -125,7 +186,6 @@
         <item>2 años</item>
         <item>5 años</item>
     </string-array>
-
     <string-array name="food_info_types_beans">
         <item>Frijoles negros</item>
         <item>Frijoles de careta</item>
@@ -144,13 +204,12 @@
         <item>Guisantes partidos (amarillos o verdes)</item>
         <item>Tempeh</item>
     </string-array>
-
     <string-array name="food_info_types_berries">
         <item>Açai</item>
         <item>Agracejos</item>
         <item>Moras</item>
         <item>Arándanos azules</item>
-        <item>Cerezas</item>
+        <item>Cerezas (dulces o ácidas)</item>
         <item>Uvas</item>
         <item>Arándanos rojos</item>
         <item>Bayas de Goji</item>
@@ -159,10 +218,9 @@
         <item>Frambuesas (negras o rojas)</item>
         <item>Fresas</item>
     </string-array>
-
     <string-array name="food_info_types_other_fruits">
         <item>Manzanas</item>
-        <item>Albaricoques secos</item>
+        <item>Albaricoques</item>
         <item>Aguacates</item>
         <item>Bananas</item>
         <item>Melón cantalupo</item>
@@ -190,7 +248,6 @@
         <item>Mandarinas</item>
         <item>Sandía</item>
     </string-array>
-
     <string-array name="food_info_types_cruciferous_vegetables">
         <item>Rúcula</item>
         <item>Bok choy</item>
@@ -200,19 +257,18 @@
         <item>Coliflor</item>
         <item>Berza</item>
         <item>Rábano picante</item>
-        <item>Berza</item>
+        <item>Col rizada (negra, verde y roja)</item>
         <item>Colinabo (verde, morado)</item>
         <item>Hojas de mostaza</item>
         <item>Rábanos</item>
         <item>Nabos verdes</item>
         <item>Berro</item>
     </string-array>
-
     <string-array name="food_info_types_greens">
         <item>Rúcula</item>
         <item>Hojas de remolacha</item>
         <item>Col</item>
-        <item>Berza</item>
+        <item>Col rizada (negra, verde y roja)</item>
         <item>Mesclun (hojas tiernas)</item>
         <item>Hojas de mostaza</item>
         <item>Alazán</item>
@@ -220,7 +276,6 @@
         <item>Acelga</item>
         <item>Nabos verdes</item>
     </string-array>
-
     <string-array name="food_info_types_other_vegetables">
         <item>Alcachofas</item>
         <item>Espárragos</item>
@@ -241,12 +296,10 @@
         <item>Tomates</item>
         <item>Calabacín</item>
     </string-array>
-
     <string-array name="food_info_types_flaxseeds">
         <item>Linaza marrón</item>
         <item>Linaza dorada</item>
     </string-array>
-
     <string-array name="food_info_types_nuts">
         <item>Almendras</item>
         <item>Nueces de Brasil</item>
@@ -262,7 +315,6 @@
         <item>Semillas de girasol</item>
         <item>Nueces</item>
     </string-array>
-
     <string-array name="food_info_types_spices">
         <item>Pimienta de Jamaica</item>
         <item>Bérberos</item>
@@ -297,7 +349,6 @@
         <item>Cúrcuma</item>
         <item>Vainilla</item>
     </string-array>
-
     <string-array name="food_info_types_whole_grains">
         <item>Cebada</item>
         <item>Trigo sarraceno</item>
@@ -309,7 +360,6 @@
         <item>Teff</item>
         <item>Pasta integral</item>
     </string-array>
-
     <string-array name="food_info_types_beverages">
         <item>Té negro</item>
         <item>Chai</item>
@@ -328,7 +378,6 @@
         <item>Agua</item>
         <item>Té blanco</item>
     </string-array>
-
     <string-array name="food_info_types_exercise">
         <item>Bicicleta</item>
         <item>Canoa</item>
@@ -354,7 +403,7 @@
         <item>Tennis (dobles)</item>
         <item>Flotar en el agua</item>
         <item>Caminata rápida (6.5 kmh)</item>
-        <item>Aerobicos acuáticos</item>
+        <item>Aeróbicos acuáticos</item>
         <item>Esquí acuático</item>
         <item>Jardinería</item>
         <item>Yoga</item>
@@ -385,522 +434,112 @@
         <item>Caminata rápida cuesta arriba</item>
         <item>Trotar en agua</item>
     </string-array>
-
-    <string-array name="food_info_serving_sizes_beans">
-        <item>%s de hummus o untable de legumbres</item>
-        <item>%s de frijoles cocidos, arvejas partidas, lentejas, tofu o tempeh</item>
-        <item>%s de guisantes frescos o brotes de lentejas</item>
-    </string-array>
-
     <string-array name="food_info_serving_sizes_beans_imperial">
-        <item>¼ taza</item>
-        <item>½ taza</item>
-        <item>1 taza</item>
+        <item>¼ taza de hummus o untable de legumbres</item>
+        <item>½ taza de frijoles cocidos, arvejas partidas, lentejas, tofu o tempeh</item>
+        <item>1 taza de guisantes frescos o brotes de lentejas</item>
     </string-array>
-
     <string-array name="food_info_serving_sizes_beans_metric">
-        <item>60 g</item>
-        <item>130 g</item>
-        <item>150 g</item>
+        <item>60 g de hummus o untable de legumbres</item>
+        <item>130 g de frijoles cocidos, arvejas partidas, lentejas, tofu o tempeh</item>
+        <item>150 g de guisantes frescos o brotes de lentejas</item>
     </string-array>
-
-    <string-array name="food_info_serving_sizes_berries">
-        <item>%s frescos o congelados</item>
-        <item>%s secos</item>
-    </string-array>
-
     <string-array name="food_info_serving_sizes_berries_imperial">
-        <item>½ taza</item>
-        <item>¼ taza</item>
+        <item>½ taza frescos o congelados</item>
+        <item>¼ taza secos</item>
     </string-array>
-
     <string-array name="food_info_serving_sizes_berries_metric">
-        <item>60 g</item>
-        <item>40 g</item>
+        <item>60 g frescos o congelados</item>
+        <item>40 g secos</item>
     </string-array>
-
-    <string-array name="food_info_serving_sizes_other_fruits">
-        <item>%s fruta de tamaño medio</item>
-        <item>%s de fruta picada</item>
-        <item>%s de fruta seca</item>
-    </string-array>
-
     <string-array name="food_info_serving_sizes_other_fruits_imperial">
-        <item>1</item>
-        <item>1 taza</item>
-        <item>¼ taza</item>
+        <item>1 fruta de tamaño medio</item>
+        <item>1 taza de fruta picada</item>
+        <item>¼ taza de fruta seca</item>
     </string-array>
-
     <string-array name="food_info_serving_sizes_other_fruits_metric">
-        <item>1</item>
-        <item>120 g</item>
-        <item>40 g</item>
+        <item>1 fruta de tamaño medio</item>
+        <item>120 g de fruta picada</item>
+        <item>40 g de fruta seca</item>
     </string-array>
-
-    <string-array name="food_info_serving_sizes_cruciferous_vegetables">
-        <item>%s picadas</item>
-        <item>%s de coles de Bruselas o brotes de brócoli</item>
-        <item>%s de rábano picante</item>
-    </string-array>
-
     <string-array name="food_info_serving_sizes_cruciferous_vegetables_imperial">
-        <item>½ taza</item>
-        <item>¼ taza</item>
-        <item>1 cucharada</item>
+        <item>½ taza picadas</item>
+        <item>¼ taza de coles de Bruselas o brotes de brócoli</item>
+        <item>1 cucharada de rábano picante</item>
     </string-array>
-
     <string-array name="food_info_serving_sizes_cruciferous_vegetables_metric">
-        <item>30–80 g</item>
-        <item>12 g</item>
-        <item>1 cucharada</item>
+        <item>30–80 g picadas</item>
+        <item>12 g de coles de Bruselas o brotes de brócoli</item>
+        <item>1 cucharada de rábano picante</item>
     </string-array>
-
-    <string-array name="food_info_serving_sizes_greens">
-        <item>%s cruda</item>
-        <item>%s cocida</item>
-    </string-array>
-
     <string-array name="food_info_serving_sizes_greens_imperial">
-        <item>1 taza</item>
-        <item>½ taza</item>
+        <item>1 taza cruda</item>
+        <item>½ taza cocida</item>
     </string-array>
-
     <string-array name="food_info_serving_sizes_greens_metric">
-        <item>60 g</item>
-        <item>90 g</item>
+        <item>60 g cruda</item>
+        <item>90 g cocida</item>
     </string-array>
-
-    <string-array name="food_info_serving_sizes_other_vegetables">
-        <item>%s de verduras de hoja crudas</item>
-        <item>%s de verduras sin hoja crudas o cocidas</item>
-        <item>%s de jugo de verduras</item>
-        <item>%s de champiñones secos</item>
-    </string-array>
-
     <string-array name="food_info_serving_sizes_other_vegetables_imperial">
-        <item>1 taza</item>
-        <item>½ taza</item>
-        <item>½ taza</item>
-        <item>¼ taza</item>
+        <item>1 taza de verduras de hoja crudas</item>
+        <item>½ taza de verduras sin hoja crudas o cocidas</item>
+        <item>½ taza de jugo de verduras</item>
+        <item>¼ taza de champiñones secos</item>
     </string-array>
-
     <string-array name="food_info_serving_sizes_other_vegetables_metric">
-        <item>60 g</item>
-        <item>50 g</item>
-        <item>125 ml</item>
-        <item>7 g</item>
+        <item>60 g de verduras de hoja crudas</item>
+        <item>50 g de verduras sin hoja crudas o cocidas</item>
+        <item>125 ml de jugo de verduras</item>
+        <item>7 g de champiñones secos</item>
     </string-array>
-
-    <string-array name="food_info_serving_sizes_flaxseeds">
-        <item>%s molida</item>
-    </string-array>
-
     <string-array name="food_info_serving_sizes_flaxseeds_imperial">
-        <item>1 cucharada</item>
+        <item>1 cucharada molida</item>
     </string-array>
-
     <string-array name="food_info_serving_sizes_flaxseeds_metric">
-        <item>1 cucharada</item>
+        <item>1 cucharada molida</item>
     </string-array>
-
-    <string-array name="food_info_serving_sizes_nuts">
-        <item>%s de frutos secos o semillas</item>
-        <item>%s de mantequilla de frutos secos o semillas</item>
-    </string-array>
-
     <string-array name="food_info_serving_sizes_nuts_imperial">
-        <item>¼ taza</item>
-        <item>2 cucharadas</item>
+        <item>¼ taza de frutos secos o semillas</item>
+        <item>2 cucharadas de mantequilla de frutos secos o semillas</item>
     </string-array>
-
     <string-array name="food_info_serving_sizes_nuts_metric">
-        <item>30 g</item>
-        <item>2 cucharadas</item>
+        <item>30 g de frutos secos o semillas</item>
+        <item>2 cucharadas de mantequilla de frutos secos o semillas</item>
     </string-array>
-
-    <string-array name="food_info_serving_sizes_spices">
-        <item>%s de cúrcuma</item>
-        <item>%sCualquier otra especia (sin sal)</item>
-    </string-array>
-
     <string-array name="food_info_serving_sizes_spices_imperial">
-        <item>¼ cucharadita</item>
-        <item/>
+        <item>¼ cucharadita de cúrcuma</item>
+        <item>Cualquier otra especia (sin sal)</item>
     </string-array>
-
     <string-array name="food_info_serving_sizes_spices_metric">
-        <item>¼ cucharadita</item>
-        <item/>
+        <item>¼ cucharadita de cúrcuma</item>
+        <item>Cualquier otra especia (sin sal)</item>
     </string-array>
-
-    <string-array name="food_info_serving_sizes_whole_grains">
-        <item>%s de cereales cocidos, pasta o granos de maíz cocidos</item>
-        <item>%s de cereales fríos</item>
-        <item>%s tortilla o rodaja de pan</item>
-        <item>%s de un bagel o English muffin</item>
-        <item>%s de palomitas de maíz</item>
-    </string-array>
-
     <string-array name="food_info_serving_sizes_whole_grains_imperial">
-        <item>½ taza</item>
-        <item>1 taza</item>
-        <item>1</item>
-        <item>½</item>
-        <item>3 tazas</item>
+        <item>½ taza de cereales cocidos, pasta o granos de maíz cocidos</item>
+        <item>1 taza de cereales fríos</item>
+        <item>1 tortilla o rodaja de pan</item>
+        <item>½ de un bagel o English muffin</item>
+        <item>3 tazas de palomitas de maíz</item>
     </string-array>
-
     <string-array name="food_info_serving_sizes_whole_grains_metric">
-        <item>100 g</item>
-        <item>50 g</item>
-        <item>1</item>
-        <item>½</item>
-        <item>30 g</item>
+        <item>100 g de cereales cocidos, pasta o granos de maíz cocidos</item>
+        <item>50 g de cereales fríos</item>
+        <item>1 tortilla o rodaja de pan</item>
+        <item>½ de un bagel o English muffin</item>
+        <item>30 g de palomitas de maíz</item>
     </string-array>
-
-    <string-array name="food_info_serving_sizes_beverages">
-        <item>Un vaso (%s)</item>
-    </string-array>
-
     <string-array name="food_info_serving_sizes_beverages_imperial">
-        <item>12 onzas</item>
+        <item>Un vaso (12 onzas)</item>
     </string-array>
-
     <string-array name="food_info_serving_sizes_beverages_metric">
-        <item>350 ml</item>
+        <item>Un vaso (350 ml)</item>
     </string-array>
-
-    <string-array name="food_info_serving_sizes_exercise">
-        <item>%s minutos de actividad moderada</item>
-        <item>%s minutos de actividad vigorosa</item>
-    </string-array>
-
     <string-array name="food_info_serving_sizes_exercise_imperial">
-        <item>90</item>
-        <item>40</item>
+        <item>90 minutos de actividad moderada</item>
+        <item>40 minutos de actividad vigorosa</item>
     </string-array>
-
     <string-array name="food_info_serving_sizes_exercise_metric">
-        <item>90</item>
-        <item>40</item>
+        <item>90 minutos de actividad moderada</item>
+        <item>40 minutos de actividad vigorosa</item>
     </string-array>
-
-    <string name="error_cannot_handle_url">No se puede abrir la URL. Debes instalar un navegador.</string>
-    <string name="channel_reminders_name">Recordatorios</string>
-
-    <string name="twenty_one_tweaks">21 potenciadores</string>
-    <string name="tweaks">Potenciadores</string>
-    <string name="daily_tweaks_history">Historial de potenciadores</string>
-    <string name="weight_history">Historia de peso</string>
-    <string name="no_weights_recorded">Todavía no has registrado tu peso</string>
-    <string name="task_loading_weights_history_title">Cargando historial de peso</string>
-    <string name="morning">Mañana</string>
-    <string name="evening">Noche</string>
-    
-    <!--
-    NOTE: These strings are used to created the url to take the user to the overall food videos page. 
-    These strings are not be literial language translations.
-    These strings must be valid existing url addition to "http://nutritionfacts.org/".
-    If the language is not present on nutritionfacts.org, then the default English url is used.
-    -->
-    <string name="food_info_videos_beans">es/topics/legumbres-es</string>
-    <string name="food_info_videos_berries">es/topics/bayas-es</string>
-    <string name="food_info_videos_fruits">es/topics/fruta</string>
-    <string name="food_info_videos_cruciferous">es/topics/vegetales-cruciferos</string>
-    <string name="food_info_videos_greens">es/topics/verduras</string>
-    <string name="food_info_videos_vegetables">es/topics/vegetales</string>
-    <string name="food_info_videos_flaxseeds">es/topics/semillas-de-linaza</string>
-    <string name="food_info_videos_nuts">es/topics/nueces</string>
-    <string name="food_info_videos_spices">es/topics/especias</string>
-    <string name="food_info_videos_whole_grains">es/topics/granos</string>
-    <string name="food_info_videos_beverages">es/topics/bebidas/</string>
-    <string name="food_info_videos_exercise">es/topics/ejercicio</string>
-    <string name="food_info_videos_vitamin_b12">es/topics/vitamina-b12</string>
-    <string name="food_info_videos_vitamin_d">es/topics/suplementos-de-vitamina-d</string>
-    <string name="food_info_videos_omega3">es/topics/acidos-grasos-omega-3</string>
-    
-    <string name="weight">Peso</string>
-    <string name="tweak_group_meal">En cada comida</string>
-    <string name="tweak_group_daily">Todos los días</string>
-    <string name="tweak_group_dailydoses">Toma la dosis diaria</string>
-    <string name="tweak_group_nightly">Cada noche</string>
-    <string name="about_tweak">Sobre este potenciador</string>
-    
-    <string name="meal_water">Empezar con agua</string>
-    <string name="meal_negcal">Empezar con alimentos de calorías negativas"</string>
-    <string name="meal_vinegar">Vinagre (2 ctda. cada comida)</string>
-    <string name="meal_undistracted">Comidas sin distracciones</string>
-    <string name="meal_twentyminutes">La regla de los veinte minutos</string>
-    <string name="daily_blackcumin">Comino negro (¼ ctda.)</string>
-    <string name="daily_garlic">Ajo en polvo (¼ ctda.)</string>
-    <string name="daily_ginger">Jengibre (1 ctda.) o cayena (½ ctda.)</string>
-    <string name="daily_nutriyeast">Levadura nutricional (2 ctda.)</string>
-    <string name="daily_cumin">Comino (½ ctda. almuerzo y cena)</string>
-    <string name="daily_greentea">Té verde (3 tazas)</string>
-    <string name="daily_hydrate">Hidratación</string>
-    <string name="daily_deflourdiet">Adiós a la harina</string>
-    <string name="daily_frontload">Anticipar calorías</string>
-    <string name="daily_timerestrict">Restricción del horario de comidas</string>
-    <string name="exercise_timing">Ejercicio a buena hora</string>
-    <string name="weigh_twice">Pesarse dos veces al día</string>
-    <string name="complete_intentions">Completar tus metas</string>
-    <string name="nightly_fast">Ayuno después de las 7 P.M.</string>
-    <string name="nightly_sleep">Dormir lo suficiente</string>
-    <string name="nightly_trendelenburg">Trendelenburg</string>
-    
-    <string name="debug_generate_weight_data">Generar datos de peso</string>
-    <string name="average_weight_on_day">Peso promedio en el día</string>
-    
-    <string name="meal_water_short">Empezar con agua</string>
-    <string name="meal_negcal_short">Empezar con alimentos de calorías negativas</string>
-    <string name="meal_vinegar_short">Vinagre (2 ctda. cada comida)</string>
-    <string name="meal_undistracted_short">Comidas sin distracciones</string>
-    <string name="meal_twentyminutes_short">La regla de los veinte minutos</string>
-    <string name="daily_blackcumin_short">Comino negro (Nigella sativa) (¼ ctda.)</string>
-    <string name="daily_garlic_short">Ajo en polvo (¼ ctda.)</string>
-    <string name="daily_ginger_short">Jengibre (1 ctda.) o cayena (½ ctda.)</string>
-    <string name="daily_nutriyeast_short">Levadura nutricional (2 ctda.)</string>
-    <string name="daily_cumin_short">Comino (Cuminum cyminum) (½ ctda. almuerzo y cena)</string>
-    <string name="daily_greentea_short">Té verde (3 tazas)</string>
-    <string name="daily_hydrate_short">Hidratación</string>
-    <string name="daily_deflourdiet_short">Adiós a la harina</string>
-    <string name="daily_frontload_short">Anticipar calorías</string>
-    <string name="daily_timerestrict_short">Restricción del horario de comidas</string>
-    <string name="exercise_timing_short">Ejercicio a buena hora</string>
-    <string name="weigh_twice_short">Pesarse dos veces al día</string>
-    <string name="complete_intentions_short">Completar tus metas</string>
-    <string name="nightly_fast_short">Ayuno después de las 7 P.M.</string>
-    <string name="nightly_sleep_short">Dormir lo suficiente</string>
-    <string name="nightly_trendelenburg_short">Trendelenburg</string>
-    
-    <string name="meal_water_text">Toma dos tazas de agua sin sabor, fría o del tiempo, antes de cada comida para acelerar tu metabolismo y aprovechar sus beneficios.</string>
-    <string name="meal_negcal_text">Como entrante, puedes comerte una manzana, una sopa o una ensalada con alimentos de luz verde que contenga menos de cien calorías por taza.</string>
-    <string name="meal_vinegar_text">Nunca bebas vinagre solo. Puedes usarlo para condimentar las comidas o aderezar una ensalada. Puedes usar cualquier tipo de vinagre, dulce o salado. Si quieres beberlo, debes mezclarlo con un vaso de agua y enjuagarte la boca justo después para proteger el esmalte dental.</string>
-    <string name="meal_undistracted_text">No comas mientras ves la televisión o juegas en tu smartphone. Puedes marcar una casilla por cada comida que pases sin distracciones.</string>
-    <string name="meal_twentyminutes_text">Ya sea con el aumento de la viscosidad y el tiempo de masticado o con la disminución del tamaño de los bocados, existen docenas de estudios que han demostrado que aumentar la cantidad de tiempo que los alimentos se pasan en la boca puede resultar en una menor ingesta calórica. Por lo tanto, aumenta la duración de las comidas en al menos veinte minutos para que tus señales de saciedad naturales puedan surtir efecto. ¿Cómo puedes hacer esto? Podrías elegir alimentos que sean más difíciles de comer y comerlos de tal manera que se prolongue el tiempo que permanecen en la boca. Piensa en alimentos más voluminosos, más duros y que puedas masticar en bocados más pequeños.</string>
-    <string name="daily_blackcumin_text">Como se indica en la sección del libro que habla de la supresión del apetito, una revisión sistemática y un metanálisis de ensayos aleatorizados con grupo de control sobre la pérdida de peso concluyó que aproximadamente un cuarto de cucharadita de comino negro en polvo al día parece reducir el índice de masa corporal en un lapso de un par de meses. No olvides que el comino negro es diferente al comino normal, cuya ingesta recomendada es diferente.</string>
-    <string name="daily_garlic_text">Unos estudios aleatorizados, doble ciegos y controlados con placebo han encontrado que, con simplemente un cuarto de cucharadita diaria de ajo en polvo, se puede reducir la grasa corporal, a un costo de quizás dos centavos por día.</string>
-    <string name="daily_ginger_text">Unos ensayos aleatorizados y con grupo de control han descubierto que el consumo de ¼ a 1½ cucharadita al día de jengibre en polvo disminuye significativamente el peso corporal por solo unos centavos al día. Puede ser tan fácil como echar el jengibre en una taza de agua caliente. Nota: el jengibre podría funcionar mejor por la mañana que por la tarde. El chai es una forma estupenda de combinar los trucos del té verde y el jengibre en una sola bebida. Además, para activar el tejido adiposo pardo, también puedes añadir un jalapeño crudo o media cucharadita de chile en polvo a tu dieta diaria. Para ayudarte con el picante, puedes cortar el jalapeño en rodajas muy finas o picarlo muy bien. El chile en polvo lo podrías echar en las sopas y guisos o en el batido de verduras que hice en uno de mis videos de cocina en NutritionFacts.org.</string>
-    <string name="daily_nutriyeast_text">Dos cucharaditas de levadura de panadería, de cerveza o nutricional contienen aproximadamente la cantidad de glucanos beta 1,3 \/ 1,6 correcta que, en ensayos clínicos aleatorizados, doble ciegos y con grupo de control, ha demostrado facilitar la pérdida de peso.</string>
-    <string name="daily_cumin_text">Las mujeres con sobrepeso aleatorizadas a echarle media cucharadita de comino a sus almuerzos y cenas superaron al grupo de control, ya que perdieron casi 2 kg más y 2.5 cm extra en la cintura. También existe evidencia para apoyar el uso del azafrán, pero una pizca al día costaría un dólar, mientras que una cucharadita de comino cuesta menos de diez centavos.</string>
-    <string name="daily_greentea_text">Bebe tres tazas al día entre comidas, esperando al menos una hora después de comer, para no interferir con la absorción de hierro. Durante las comidas, bebe agua, café solo o infusión de hibisco (mezclado 6:1 con hierba luisa), pero nunca excedas tres tazas de líquido por hora (tenlo en cuenta para mi sección sobra empezar con agua). Aprovecha los efectos de la cafeína y bebe el té verde mientras comes algo saludable que querrías que te gustase más, para crear una asociación positiva, pero ten ojo y no consumas mucha cafeína en las 6 horas antes de irte a dormir. Lo mejor es tomar el té sin ningún tipo de edulcorante, pero, si le sueles echar miel o azúcar, prueba el jarabe de yacón.</string>
-    <string name="daily_hydrate_text">Puedes marcar esta casilla si tu orina nunca pasa del amarillo pálido.\n\nTen en cuenta que, si consumes alimentos fortificados con riboflavina (como la levadura nutricional), no deberías seguir esta premisa del color y debes centrarte en obtener nueve tazas de líquido sin edulcorar al día para las mujeres (que podrían cubrir el consumo de té verde y agua) o trece tazas al día para hombres.\n\nSi tienes problemas cardiacos o renales, no aumentes la ingesta de líquidos sin antes hablar con tu médico.\n\nNo olvides que, aunque los refrescos light no tengan calorías, no son inocuos, como explico en la sección del libro sobre los azúcares añadidos.</string>
-    <string name="daily_deflourdiet_text">Puedes marcar esta casilla en los días en los que tus raciones de cereales integrales sean en forma de cereales intactos. La pulverización de los cereales, aunque sean cereales 100% integrales, priva a nuestro microbioma del almidón que, de otro modo, llegaría a nuestro colon rodeado de paredes celulares intactas.</string>
-    <string name="daily_frontload_text">Consumir más calorías al principio del día es mejor para el metabolismo, así que haz que tu desayuno (idealmente) o tu almuerzo sean la comida más grande del día.</string>
-    <string name="daily_timerestrict_text">Limita tu horario de comidas a un periodo diario de tu elección que no supere las doce horas y que puedas cumplir de manera habitual, es decir, los siete días de la semana. Dados los beneficios para el reloj circadiano de la reducción en la ingesta de alimentos por la noche, deberías dejar de comer antes de las 7 P.M.</string>
-    <string name="exercise_timing_text">La recomendación de la Docena Diaria para una mayor longevidad son 90 minutos de actividad física moderada, que también resulta ser la duración óptima para perder peso. Cualquier momento es bueno y, cuanto más, mejor, pero podría ser mejor hacer ejercicio en ayunas, al menos seis horas después de tu última comida. En general, esto se traduce en antes del desayuno, pero, si lo planeas bien, podrías hacer ejercicio al mediodía antes de un almuerzo tardío o, si comes temprano, pues antes de la cena. Esto sería para los no diabéticos. Los diabéticos y prediabéticos deberían empezar a hacer ejercicio treinta minutos después del comienzo de una comida e idealmente durante por lo menos una hora, para alcanzar el pico de azúcar en sangre. Si tuvieras que elegir una sola comida para hacer ejercicio después esta, lo mejor sería la cena, debido a que el ritmo circadiano del control del azúcar en sangre va disminuyendo durante el día. Sin embargo, como lo mejor es que el desayuno sea la comida más grande del día, deberías hacer ejercicio después de desayunar; o, mejor aún, después de cada comida.</string>
-    <string name="weigh_twice_text">Se suele pensar que pesarse de manera habitual es un método crucial para el control del peso a largo plazo, pero no existen suficientes pruebas para respaldar esta frecuencia. Mi recomendación se basa en un estudio que encontró que dos veces al día, al despertarte y justo antes de acostarte, parece ser mejor que una vez al día (con una diferencia de entre 1 y 3 kg en doce semanas).</string>
-    <string name="complete_intentions_text">Cada dos meses, crea tres metas nuevas, al estilo de \"si X, entonces Y\", para comportarte de cierta manera en situaciones específicas. Intenta marcar las tres casillas todos los días.</string>
-    <string name="nightly_fast_text">Debido a la influencia de los ritmos circadianos, lo que comes por la noche engorda más que si comieras eso mismo pero más temprano en el día, así que intenta ayunar todas las noches durante al menos doce horas a partir de las 7 P.M. Cuantas menos calorías consumas después de que se ponga el sol, mejor.</string>
-    <string name="nightly_sleep_text">Puedes marcar esta casilla si has dormido al menos siete horas y te has ido a la cama a tu hora normal.</string>
-    <string name="nightly_trendelenburg_text">Prueba a estar al menos cuatro horas cada noche con el cuerpo inclinado seis grados. Para conseguirlo, debes elevar los postes del pie de la cama unos 20 centímetros. Ten mucho cuidado al levantarte, ya que esta postura causa intolerancia ortostática para casi todo el mundo, aunque seas joven y estés saludable, así que, si te levantas demasiado rápido, puedes marearte, desmayarte o incluso caerte y hacerte daño. Por lo tanto, levántate lentamente. Beber dos tazas de agua fría treinta minutos antes de levantarte también podría ayudar a prevenir este efecto secundario potencialmente peligroso.\n\nIMPORTANTE: no intentes esto en casa si tienes problemas cardiacos o pulmonares, reflujo ácido, problemas cerebrales (como traumatismo craneal) u oculares (incluso un historial familiar de glaucoma lo descalifica). Si tienes cualquier duda, no lo intentes sin preguntarle a tu médico antes.*</string>
-    
-    <string name="for_health_and_weight_loss">Para ganar salud y perder peso</string>
-    <string name="for_health_alone">Solo para ganar salud</string>
-    <string name="daily_dozen_and_tweaks">Docena Diaria y 21 potenciadores</string>
-    <string name="daily_dozen_only">Solo Docena Diaria</string>
-
-    <!--
-    NOTE: These strings are used to created the url to take the user to the overall food videos page. 
-    These strings are to not be literial language translations.
-    These strings must be valid existing url addition to "http://nutritionfacts.org/".
-    If the language is not present on nutritionfacts.org, then the default English url is used.
-    -->
-    <string-array name="food_videos_beans">
-        <item>es/topics/frijoles-negros</item>
-        <item/>
-        <item/>
-        <item/>
-        <item>es/topics/garbanzos</item>
-        <item>es/topics/edamame</item>
-        <item/>
-        <item/>
-        <item>es/topics/frijoles-rojos</item>
-        <item>/es/topics/lentejas</item>
-        <item>es/topics/miso-es</item>
-        <item>es/topics/frijoles-blancos</item>
-        <item>es/topics/frijoles-pintos</item>
-        <item/>
-        <item>es/topics/guisantes-partidos</item>
-        <item>es/topics/tempeh-es</item>
-    </string-array>
-
-    <string-array name="food_videos_berries">    
-        <item>/es/topics/bayas-de-acai-es</item>
-        <item>es/topics/berberos-es</item>
-        <item>es/topics/moras</item>
-        <item>es/topics/arandanos-azules</item>
-        <item>es/topics/cerezas</item>
-        <item>es/topics/uvas-de-concordia-es</item>
-        <item>es/topics/arandanos-es</item>
-        <item>es/topics/goji</item>
-        <item/>
-        <item/>
-        <item>es/topics/frambuesas</item>
-        <item>es/topics/fresas</item>
-    </string-array>
-    
-    <string-array name="food_videos_other_fruits">
-        <item>es/topics/manzanas</item>
-        <item>es/topics/albaricoques</item>
-        <item>es/topics/aguacates</item>
-        <item>es/topics/bananos</item>
-        <item>es/topics/melon</item>
-        <item/>
-        <item>es/topics/datiles</item>
-        <item>es/topics/higos</item>
-        <item>es/topics/toronja</item>
-        <item/>
-        <item>es/topics/kiwi</item>
-        <item>topics/lemons</item>
-        <item>es/topics/limas</item>
-        <item/>
-        <item>es/topics/mango-es</item>
-        <item/>
-        <item>es/topics/naranjas</item>
-        <item>es/topics/papaya-es</item>
-        <item/>
-        <item>es/topics/duraznos-es</item>
-        <item>es/topics/peras-es</item>
-        <item>/es/topics/pinas</item>
-        <item>es/topics/ciruelas</item>
-        <item/>
-        <item>es/topics/granadas</item>
-        <item>es/topics/ciruelas-pasas</item>
-        <item/>
-        <item>es/topics/sandia</item>
-    </string-array>
-    
-    <string-array name="food_videos_cruciferous_vegetables">
-        <item/>
-        <item>es/topics/bok-choy-es</item>
-        <item>es/topics/brocoli</item>
-        <item>es/topics/coles-bruselas</item>
-        <item>es/topics/repollo</item>
-        <item>es/topics/coliflor</item>
-        <item>es/topics/acelgas-es</item>
-        <item/>
-        <item>es/topics/col-rizada-es</item>
-        <item>es/topics/colinabo</item>
-        <item>es/topics/hojas-de-mostaza</item>
-        <item>es/topics/rabanos</item>
-        <item>es/topics/nabos</item>
-        <item>es/topics/berros-es</item>
-    </string-array>
-    
-    <string-array name="food_videos_greens">
-        <item/>
-        <item>es/topics/hojas-de-remolacha-es</item>
-        <item/>
-        <item>es/topics/col-rizada-es</item>
-        <item>es/topics/ensalada-mesclun-es</item>
-        <item>es/topics/hojas-de-mostaza</item>
-        <item/>
-        <item>es/topics/espinaca</item>
-        <item>es/topics/acelga-es</item>
-        <item>es/topics/nabos</item>
-    </string-array>
-
-    <string-array name="food_videos_other_vegetables">
-        <item>es/topics/alcachofas</item>
-        <item>es/topics/esparragos</item>
-        <item>es/topics/remolachas-es</item>
-        <item>es/topics/pimientos</item>
-        <item>es/topics/zanahorias</item>
-        <item>es/topics/maiz</item>
-        <item>es/topics/ajo</item>
-        <item>es/topics/champinones</item>
-        <item>es/topics/okra-es</item>
-        <item>es/topics/cebollas</item>
-        <item>es/topics/patatas-moradas</item>
-        <item>es/topics/calabaza</item>
-        <item>es/topics/vegetales-marinos</item>
-        <item/>
-        <item>es/topics/calabaza-es</item>
-        <item>es/topics/camotes</item>
-        <item>es/topics/tomates</item>
-        <item>es/topics/calabacin-es</item>
-    </string-array>
-
-    <string-array name="food_videos_nuts">
-        <item>es/topics/almendras</item>
-        <item>es/topics/nueces-de-brasil-es</item>
-        <item>es/topics/anacardos</item>
-        <item>es/topics/semillas-de-chia</item>
-        <item>es/topics/avellanas-es</item>
-        <item/>
-        <item>es/topics/nueces-de-macadamia</item>
-        <item>es/topics/nuez-pecana</item>
-        <item>es/topics/pistachos</item>
-        <item>es/topics/semillas-de-calabaza</item>
-        <item>es/topics/ajonjoli</item>
-        <item>es/topics/semillas-de-girasol</item>
-        <item>es/topics/nueces-es</item>
-    </string-array>
-    
-    <string-array name="food_videos_spices">
-        <item/>
-        <item>es/topics/berberos-es</item>
-        <item>es/topics/albahaca</item>
-        <item/>
-        <item>es/topics/cardamomo</item>
-        <item/>
-        <item>es/topics/cilantro-es</item>
-        <item>es/topics/canela</item>
-        <item>es/topics/clavos-de-olor</item>
-        <item>es/topics/cilantro-es-2</item>
-        <item>es/topics/comino</item>
-        <item>es/topics/curry-en-polvo</item>
-        <item/>
-        <item>es/topics/fenogreco</item>
-        <item>es/topics/ajo</item>
-        <item>es/topics/jengibre</item>
-        <item/>
-        <item>es/topics/limoncillo-es</item>
-        <item>es/topics/mejorana</item>
-        <item>es/topics/mostaza-en-polvo</item>
-        <item>es/topics/nuez-moscada</item>
-        <item>es/topics/oregano-es</item>
-        <item/>
-        <item>es/topics/perejil</item>
-        <item>es/topics/pimienta</item>
-        <item>es/topics/menta-es</item>
-        <item>es/topics/romero</item>
-        <item>es/topics/azafran</item>
-        <item/>
-        <item>es/topics/tomillo</item>
-        <item>es/topics/curcuma</item>
-        <item/>
-    </string-array>
-
-    <string-array name="food_videos_whole_grains">
-        <item>es/topics/cebada</item>
-        <item>es/topics/trigo-sarraceno</item>
-        <item>es/topics/mijo</item>
-        <item>es/topics/avena-es</item>
-        <item>es/topics/palomitas-de-maiz</item>
-        <item>es/topics/quinoa-es</item>
-        <item>es/topics/centeno</item>
-        <item>es/topics/teff-es</item>
-        <item>es/topics/pasta-es</item>
-    </string-array>
-
-    <string-array name="food_videos_beverages">
-        <item>es/topics/te-negro</item>
-        <item>es/topics/te-chai</item>
-        <item>es/topics/te-de-manzanilla</item>
-        <item>es/topics/cafe</item>
-        <item>es/topics/te-earl-grey-es</item>
-        <item>es/topics/te-verde</item>
-        <item>es/topics/hibiscus-tea-es</item>
-        <item/>
-        <item>es/topics/te-de-jasmin</item>
-        <item/>
-        <item>es/topics/matcha-es</item>
-        <item>es/topics/te-oolong-es</item>
-        <item/>
-        <item>es/topics/te-rooibos-es</item>
-        <item>es/topics/agua</item>
-        <item>es/topics/te-blanco</item>
-    </string-array>
-
 </resources>

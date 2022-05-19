@@ -1,6 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <resources>
     <string name="app_name">Daily Dozen</string>
-
     <string name="beans">Бобови</string>
     <string name="berries">Горски плодове</string>
     <string name="other_fruits">Други плодове</string>
@@ -25,10 +25,6 @@
     <string name="about">Относно</string>
     <string name="about_this_app">Информация за приложението</string>
     <string name="latest_videos">Най-новите видео клипове</string>
-    <string name="title_how_not_to_die">Book: How Not to Die</string>
-    <string name="title_cookbook">Book: Cookbook</string>
-    <string name="title_how_not_to_diet">Book: How Not to Diet</string>
-    <string name="daily_dozen_challenge">Daily Dozen Challenge</string>
     <string name="donate">Направете дарение</string>
     <string name="subscribe">Абонирай се</string>
     <string name="open_source">Отворен код</string>
@@ -71,22 +67,19 @@
     <string name="dialog_ask_user_to_rate_app_message">Моля, дайте ни обратна връзка в Google Play Store.</string>
     <string name="rate_now">Изпратете обратна информация</string>
     <string name="not_now">Пропусни</string>
-    <string formatted="false" name="format_version">версия %s</string>
-    <string formatted="false" name="format_num_days">%d дни</string>
+    <string name="format_version">версия %s</string>
+    <string name="format_num_days">%d дни</string>
     <string name="daily_reminder_title">Напомняне за Daily Dozen</string>
     <string name="daily_reminder_text">Актуализиране на вашите порции за днес</string>
     <string name="daily_reminder_settings">Настройки за напомняне</string>
     <string name="enable_daily_reminder">Активиране на напомнянето</string>
     <string name="remind_me_at">Напомни ми на</string>
-    <string name="vibrate">Вибрация</string>
-    <string name="play_sound">Възпроизвеждане на звук</string>
     <string name="videos">Видео клипове</string>
     <string name="units">единици</string>
     <string name="imperial">имперски</string>
     <string name="metric">метричен</string>
     <string name="error_cannot_handle_url">Връзката не може да се отвори. Моля, инсталирайте браузър.</string>
     <string name="channel_reminders_name">Напомняния</string>
-
     <string name="twenty_one_tweaks">21 ощипвания</string>
     <string name="tweaks">Фини настройки</string>
     <string name="daily_tweaks_history">Ежедневна история за ощипване</string>
@@ -159,43 +152,32 @@
     <string name="complete_intentions_text">На всеки два месеца създавайте три нови намерения за внедряване - „ако X, тогава Y“ планира да изпълнява определено поведение в конкретен контекст - и проверявайте всяко едно от тях, докато ги изпълнявате всеки ден.</string>
     <string name="nightly_fast_text">Поради нашите циркадни ритми, храната, изядена през нощта, е по-угояваща от същата същата храна, изядена по-рано през деня, толкова бърза всяка вечер в продължение на поне дванадесет часа, като се започне преди 19:00 ч. Колкото по-малко калории след залеза, толкова по-добре.</string>
     <string name="nightly_sleep_text">Поставете отметка в това поле, ако получавате поне седем часа сън в редовното си лягане.</string>
-    <string name="nightly_trendelenburg_text">Опитайте да прекарвате поне четири часа на нощ в легнало с наклонено тяло с главата надолу шест градуса, като повдигнете стълбовете в подножието на леглото си с осем инча (или с девет инча, ако имате крал на Калифорния). Бъдете изключително внимателни, когато ставате от леглото, тъй като това причинява ортостатична непоносимост при повечето хора, дори и да сте млади и здрави - което означава, че ако станете твърде бързо, можете да почувствате замаяност, припадък или светлоглаза и може падайте и се наранявайте. Затова станете бавно. Пиенето на две чаши студена вода тридесет минути преди втасване също може да помогне за предотвратяване на този потенциално опасен страничен ефект. \ N * ВАЖНО: Не опитвайте това у дома изобщо, ако имате проблеми със сърцето или белите дробове, рефлукс с киселина или проблеми с мозъка ви (като травма на главата) или очите (дори фамилна анамнеза за глаукома ви дисквалифицира). Също така не опитвайте това, докато не попитате лекаря си, ако те мислят, че е безопасно за вас да спите в мек Трендленбург. *</string>
-    <string name="for_health_and_weight_loss">За здраве и отслабване</string>
-    <string name="for_health_alone">За самото здраве</string>
-    <string name="daily_dozen_and_tweaks">Ежедневна дузина + 21 ощипвания</string>
-    <string name="daily_dozen_only">Ежедневно само десетина</string>
-
+    <string name="nightly_trendelenburg_text">Опитайте да прекарвате поне четири часа на нощ в легнало с наклонено тяло с главата надолу шест градуса, като повдигнете стълбовете в подножието на леглото си с осем инча (или с девет инча, ако имате крал на Калифорния). Бъдете изключително внимателни, когато ставате от леглото, тъй като това причинява ортостатична непоносимост при повечето хора, дори и да сте млади и здрави - което означава, че ако станете твърде бързо, можете да почувствате замаяност, припадък или светлоглаза и може падайте и се наранявайте. Затова станете бавно. Пиенето на две чаши студена вода тридесет минути преди втасване също може да помогне за предотвратяване на този потенциално опасен страничен ефект.\n\n* ВАЖНО: Не опитвайте това у дома изобщо, ако имате проблеми със сърцето или белите дробове, рефлукс с киселина или проблеми с мозъка ви (като травма на главата) или очите (дори фамилна анамнеза за глаукома ви дисквалифицира). Също така не опитвайте това, докато не попитате лекаря си, ако те мислят, че е безопасно за вас да спите в мек Трендленбург. *</string>
     <string name="weight">тегло</string>
     <string name="tweak_group_meal">При всяко хранене</string>
     <string name="tweak_group_daily">Всеки ден</string>
     <string name="tweak_group_dailydoses">Вземете дневните си дози</string>
     <string name="tweak_group_nightly">Всяка нощ</string>
     <string name="about_tweak">Относно ощипване</string>
-
     <string-array name="about_text_lines">
-        <item>Това приложение е създадено от John Slavick.</item>
-        <item/>
-        <item>Използват се следните библиотеки с отворен код: ActiveAndroid, Android-iconify, ButterKnife, EventBus, LikeAnimation, и MPAndroidChart.</item>
-        <item/>
-        <item>Специални благодарности за усилията положени от създателите на първата версия на приложението: Chan Kruse, Allan Portera, и Sangeeta Kumar.</item>
+        <item>This app was created by John Slavick.</item>
+        <item />
+        <item>The following open source libraries are used: ActiveAndroid, android-iconify, EventBus, LikeAnimation, and MPAndroidChart.</item>
     </string-array>
-
     <string-array name="backup_instructions_lines">
         <item>Следвайте тези стъпки, за да възстановите Daily Dozen от резервно копие</item>
-        <item/>
+        <item />
         <item>1. Приложението Daily Dozen трябва да се инсталира на вашия телефон с Андроид. Можете да го изтеглите от тук: https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen</item>
-        <item/>
+        <item />
         <item>2. Изберете архивния файл, прикачен към този имейл.</item>
-        <item/>
+        <item />
         <item>3. Изберете „Отвори“ с Daily Dozen</item>
     </string-array>
-
     <string-array name="servings_time_scale_choices">
         <item>Ден</item>
         <item>Месец</item>
         <item>Година</item>
     </string-array>
-
     <string-array name="history_to_generate_choices">
         <item>1 месец</item>
         <item>3 месеца</item>
@@ -204,7 +186,6 @@
         <item>2 години</item>
         <item>5 години</item>
     </string-array>
-
     <string-array name="food_info_types_beans">
         <item>Черен боб</item>
         <item>Папуда</item>
@@ -223,7 +204,6 @@
         <item>Белен грах (жълт или зелен)</item>
         <item>Темпе</item>
     </string-array>
-
     <string-array name="food_info_types_berries">
         <item>Акаи плодове</item>
         <item>Кисел трън</item>
@@ -238,7 +218,6 @@
         <item>Малини (черни или червени)</item>
         <item>Ягоди</item>
     </string-array>
-
     <string-array name="food_info_types_other_fruits">
         <item>Ябълки</item>
         <item>Сушени кайсии</item>
@@ -269,7 +248,6 @@
         <item>Мандарини</item>
         <item>Диня</item>
     </string-array>
-
     <string-array name="food_info_types_cruciferous_vegetables">
         <item>Рукола</item>
         <item>Бок чой</item>
@@ -286,7 +264,6 @@
         <item>Ряпа</item>
         <item>Кресон</item>
     </string-array>
-
     <string-array name="food_info_types_greens">
         <item>Рукола</item>
         <item>Цвекло</item>
@@ -299,7 +276,6 @@
         <item>Манголд</item>
         <item>Ряпа</item>
     </string-array>
-
     <string-array name="food_info_types_other_vegetables">
         <item>Артишок</item>
         <item>Аспержи</item>
@@ -320,12 +296,10 @@
         <item>Домати</item>
         <item>Тиквички</item>
     </string-array>
-
     <string-array name="food_info_types_flaxseeds">
         <item>Кафяво лененото семе</item>
         <item>Златно лененото семе</item>
     </string-array>
-
     <string-array name="food_info_types_nuts">
         <item>Бадеми</item>
         <item>Бразилски орех</item>
@@ -341,7 +315,6 @@
         <item>Слънчогледови семки</item>
         <item>Орехи</item>
     </string-array>
-
     <string-array name="food_info_types_spices">
         <item>Бахар</item>
         <item>Кисел трън</item>
@@ -376,7 +349,6 @@
         <item>Куркума</item>
         <item>Ванилия</item>
     </string-array>
-
     <string-array name="food_info_types_whole_grains">
         <item>Ечемик</item>
         <item>Елда</item>
@@ -388,7 +360,6 @@
         <item>Теф</item>
         <item>Пълнозърнеста паста</item>
     </string-array>
-
     <string-array name="food_info_types_beverages">
         <item>Черен чай</item>
         <item>Чаи чай</item>
@@ -407,7 +378,6 @@
         <item>Вода</item>
         <item>Бял чай</item>
     </string-array>
-
     <string-array name="food_info_types_exercise">
         <item>Колоездене</item>
         <item>Гребане</item>
@@ -464,203 +434,112 @@
         <item>Планинско тичане</item>
         <item>Воден джогинг</item>
     </string-array>
-
-    <string-array name="food_info_serving_sizes_beans">
-        <item>%s хумус или бобова разядка</item>
-        <item>%s сварен боб, грах, леща, тофу или темпе</item>
-        <item>%s пресен грах или покълнала леща</item>
-    </string-array>
-
     <string-array name="food_info_serving_sizes_beans_imperial">
-        <item>¼ чаша</item>
-        <item>½ чаша</item>
-        <item>1 чаша</item>
+        <item>¼ чаша хумус или бобова разядка</item>
+        <item>½ чаша сварен боб, грах, леща, тофу или темпе</item>
+        <item>1 чаша пресен грах или покълнала леща</item>
     </string-array>
-
     <string-array name="food_info_serving_sizes_beans_metric">
-        <item>60 грам</item>
-        <item>130 грам</item>
-        <item>150 грам</item>
+        <item>60 грам хумус или бобова разядка</item>
+        <item>130 грам сварен боб, грах, леща, тофу или темпе</item>
+        <item>150 грам пресен грах или покълнала леща</item>
     </string-array>
-
-    <string-array name="food_info_serving_sizes_berries">
-        <item>%s пресни или замразени боровинки</item>
-        <item>%s изсушени боровинки</item>
-    </string-array>
-
     <string-array name="food_info_serving_sizes_berries_imperial">
-        <item>½ чаша</item>
-        <item>¼ чаша</item>
+        <item>½ чаша пресни или замразени боровинки</item>
+        <item>¼ чаша изсушени боровинки</item>
     </string-array>
-
     <string-array name="food_info_serving_sizes_berries_metric">
-        <item>60 грам</item>
-        <item>40 грам</item>
+        <item>60 грам пресни или замразени боровинки</item>
+        <item>40 грам изсушени боровинки</item>
     </string-array>
-
-    <string-array name="food_info_serving_sizes_other_fruits">
-        <item>%s средно голям плод</item>
-        <item>%s нарязани плодове</item>
-        <item>%s сушени плодове</item>
-    </string-array>
-
     <string-array name="food_info_serving_sizes_other_fruits_imperial">
-        <item>1</item>
-        <item>1 чаша</item>
-        <item>¼ чаша</item>
+        <item>1 средно голям плод</item>
+        <item>1 чаша нарязани плодове</item>
+        <item>¼ чаша сушени плодове</item>
     </string-array>
-
     <string-array name="food_info_serving_sizes_other_fruits_metric">
-        <item>1</item>
-        <item>120 грам</item>
-        <item>40 грам</item>
+        <item>1 средно голям плод</item>
+        <item>120 грам нарязани плодове</item>
+        <item>40 грам сушени плодове</item>
     </string-array>
-
-    <string-array name="food_info_serving_sizes_cruciferous_vegetables">
-        <item>%s нарязани цветнолистни</item>
-        <item>%s брюкселско зеле или броколи</item>
-        <item>%s супена лъжица хрян</item>
-    </string-array>
-
     <string-array name="food_info_serving_sizes_cruciferous_vegetables_imperial">
-        <item>½ чаша</item>
-        <item>¼ чаша</item>
-        <item>1</item>
+        <item>½ чаша нарязани цветнолистни</item>
+        <item>¼ чаша брюкселско зеле или броколи</item>
+        <item>1 супена лъжица хрян</item>
     </string-array>
-
     <string-array name="food_info_serving_sizes_cruciferous_vegetables_metric">
-        <item>30–80 грам</item>
-        <item>12 грам</item>
-        <item>1</item>
+        <item>30–80 грам нарязани цветнолистни</item>
+        <item>12 грам брюкселско зеле или броколи</item>
+        <item>1 супена лъжица хрян</item>
     </string-array>
-
-    <string-array name="food_info_serving_sizes_greens">
-        <item>%s сурови зеленолистни</item>
-        <item>%s варени зеленолистни</item>
-    </string-array>
-
     <string-array name="food_info_serving_sizes_greens_imperial">
-        <item>1 чаша</item>
-        <item>½ чаша</item>
+        <item>1 чаша сурови зеленолистни</item>
+        <item>½ чаша варени зеленолистни</item>
     </string-array>
-
     <string-array name="food_info_serving_sizes_greens_metric">
-        <item>60 грам</item>
-        <item>90 грам</item>
+        <item>60 грам сурови зеленолистни</item>
+        <item>90 грам варени зеленолистни</item>
     </string-array>
-
-    <string-array name="food_info_serving_sizes_other_vegetables">
-        <item>%s сурови листни зеленчуци</item>
-        <item>%s сурови или варени зеленчуци</item>
-        <item>%s зеленчуков сок</item>
-        <item>%s сушени гъби</item>
-    </string-array>
-
     <string-array name="food_info_serving_sizes_other_vegetables_imperial">
-        <item>1 чаша</item>
-        <item>½ чаша</item>
-        <item>½ чаша</item>
-        <item>¼ чаша</item>
+        <item>1 чаша сурови листни зеленчуци</item>
+        <item>½ чаша сурови или варени зеленчуци</item>
+        <item>½ чаша зеленчуков сок</item>
+        <item>¼ чаша сушени гъби</item>
     </string-array>
-
     <string-array name="food_info_serving_sizes_other_vegetables_metric">
-        <item>60 грам</item>
-        <item>50 грам</item>
-        <item>125 мл.</item>
-        <item>7 грам</item>
+        <item>60 грам сурови листни зеленчуци</item>
+        <item>50 грам сурови или варени зеленчуци</item>
+        <item>125 мл. зеленчуков сок</item>
+        <item>7 грам сушени гъби</item>
     </string-array>
-
-    <string-array name="food_info_serving_sizes_flaxseeds">
-        <item>%s1 супена лъжица ленено семе</item>
-    </string-array>
-
     <string-array name="food_info_serving_sizes_flaxseeds_imperial">
-        <item/>
+        <item>1 супена лъжица ленено семе</item>
     </string-array>
-
     <string-array name="food_info_serving_sizes_flaxseeds_metric">
-        <item/>
+        <item>1 супена лъжица ленено семе</item>
     </string-array>
-
-    <string-array name="food_info_serving_sizes_nuts">
-        <item>%s ядки или семена</item>
-        <item>%s2 супени лъжици ядки или масло от семена</item>
-    </string-array>
-
     <string-array name="food_info_serving_sizes_nuts_imperial">
-        <item>¼ чаша</item>
-        <item/>
+        <item>¼ чаша ядки или семена</item>
+        <item>2 супени лъжици ядки или масло от семена</item>
     </string-array>
-
     <string-array name="food_info_serving_sizes_nuts_metric">
-        <item>30 грам</item>
-        <item/>
+        <item>30 грам ядки или семена</item>
+        <item>2 супени лъжици ядки или масло от семена</item>
     </string-array>
-
-    <string-array name="food_info_serving_sizes_spices">
-        <item>%s¼ чаена лъжичка куркума</item>
-        <item>%sВсякакви други безсолни билки и подправки, които обичате</item>
-    </string-array>
-
     <string-array name="food_info_serving_sizes_spices_imperial">
-        <item/>
-        <item/>
+        <item>¼ чаена лъжичка куркума</item>
+        <item>Всякакви други безсолни билки и подправки, които обичате</item>
     </string-array>
-
     <string-array name="food_info_serving_sizes_spices_metric">
-        <item/>
-        <item/>
+        <item>¼ чаена лъжичка куркума</item>
+        <item>Всякакви други безсолни билки и подправки, които обичате</item>
     </string-array>
-
-    <string-array name="food_info_serving_sizes_whole_grains">
-        <item>%s топла зърнена закуска или сварени зърна, паста или царевица</item>
-        <item>%s студена зърнена закуска</item>
-        <item>%s1 тортила или филия хляб</item>
-        <item>%s½ поничка или английски мъфин</item>
-        <item>%s пуканки</item>
-    </string-array>
-
     <string-array name="food_info_serving_sizes_whole_grains_imperial">
-        <item>½ чаша</item>
-        <item>1 чаша</item>
-        <item/>
-        <item/>
-        <item>3 чаши</item>
+        <item>½ чаша топла зърнена закуска или сварени зърна, паста или царевица</item>
+        <item>1 чаша студена зърнена закуска</item>
+        <item>1 тортила или филия хляб</item>
+        <item>½ поничка или английски мъфин</item>
+        <item>3 чаши пуканки</item>
     </string-array>
-
     <string-array name="food_info_serving_sizes_whole_grains_metric">
-        <item>100 грам</item>
-        <item>50 грам</item>
-        <item/>
-        <item/>
-        <item>30 грам</item>
+        <item>100 грам топла зърнена закуска или сварени зърна, паста или царевица</item>
+        <item>50 грам студена зърнена закуска</item>
+        <item>1 тортила или филия хляб</item>
+        <item>½ поничка или английски мъфин</item>
+        <item>30 грам пуканки</item>
     </string-array>
-
-    <string-array name="food_info_serving_sizes_beverages">
-        <item>Една чаша (%s)</item>
-    </string-array>
-
     <string-array name="food_info_serving_sizes_beverages_imperial">
-        <item>12 унции</item>
+        <item>Една чаша (12 унции)</item>
     </string-array>
-
     <string-array name="food_info_serving_sizes_beverages_metric">
-        <item>350 мл.</item>
+        <item>Една чаша (350 мл.)</item>
     </string-array>
-
-    <string-array name="food_info_serving_sizes_exercise">
-        <item>%s90 минути умерена интензивност на физическа дейност</item>
-        <item>%s40 минути енергично интензивност дейност</item>
-    </string-array>
-
     <string-array name="food_info_serving_sizes_exercise_imperial">
-        <item/>
-        <item/>
+        <item>90 минути умерена интензивност на физическа дейност</item>
+        <item>40 минути енергично интензивност дейност</item>
     </string-array>
-
     <string-array name="food_info_serving_sizes_exercise_metric">
-        <item/>
-        <item/>
+        <item>90 минути умерена интензивност на физическа дейност</item>
+        <item>40 минути енергично интензивност дейност</item>
     </string-array>
-
 </resources>
