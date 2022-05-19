@@ -118,7 +118,7 @@ struct BatchNormal {
         let isEnglishUS = langCode == "en"
         let valuesPathFragment = isEnglishUS ? "values" : "values-\(langCode)"
         let xmlOutputUrl = resultsDir
-            .appendingPathComponent("android")
+            .appendingPathComponent("res_android")
             .appendingPathComponent(valuesPathFragment)
             .appendingPathComponent("strings.xml", isDirectory: false)
         

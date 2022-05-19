@@ -19,8 +19,10 @@ BASE_JSON_DIR="English_US/ios/en-US_reference/LocalStrings/en.lproj"
 
 BASE_TSV_INCLUDE="English_US/tsv/English_US_en.tsv"
 #BASE_TSV_INCLUDE="English_US/tsv/English_US_en.changeset01.tsv"
+
 BASE_TSV_INCLUDE="English_US/tsv/English_US_en.appstore.tsv"
 #BASE_TSV_INCLUDE="English_US/tsv/English_US_en.appstore.changeset01.tsv"
+
 BASE_TSV_INCLUDE="English_US/tsv/English_US_en.url_fragments.tsv"
 BASE_TSV_INCLUDE="English_US/tsv/English_US_en.url_topics.tsv"
 
@@ -93,38 +95,27 @@ DO_NORMALIZE_BATCH
 ##################
 ## (es) Spanish ##
 ##################
-# NOTE: No Android/Apple unified update. 
-# WIP: Normalize & Diff Spanish_es.20210309.Android.tsv and Spanish_es.20210309.Apple.tsv
-
 ### SETUP: Spanish_es URLs
-## Note: Spanish has its own topic urls
+### Note: Spanish has its own topic urls
 URL_FRAGMENTS_TSV="Spanish/tsv/Spanish_es.url_fragments.tsv"
 URL_TOPICS_TSV="Spanish/tsv/Spanish_es.url_topics.tsv"
-
+###
 LOGGER_FILENAME="_log_FromTsvMain_Spanish_es"
 
+## -- (es) process application values --
 SOURCE_TSV_INCLUDE="Spanish/tsv/Spanish_es.tsv"
-#SOURCE_TSV_INCLUDE="Spanish/tsv/Spanish_es.main.20210309.Apple.tsv"
-#SOURCE_TSV_INCLUDE="Spanish/tsv/Spanish_es.main.20210309.Android.tsv"
 DO_NORMALIZE_BATCH
 
 ## -- (es) process appstore --
 SOURCE_TSV_INCLUDE="Spanish/tsv/Spanish_es.appstore.tsv"
 DO_NORMALIZE_BATCH
 
-LOGGER_FILENAME="_log_FromTsvMain_Spanish_es_Apple"
-SOURCE_TSV_INCLUDE="Spanish/tsv/Spanish_es.main.20210309.Apple.tsv"
-DO_NORMALIZE_BATCH
-
-LOGGER_FILENAME="_log_FromTsvMain_Spanish_es_Droid"
-SOURCE_TSV_INCLUDE="Spanish/tsv/Spanish_es.main.20210309.Android.tsv"
-DO_NORMALIZE_BATCH
-
 ### RESTORE: English_US URLs
-## Note: re-setting URL_TOPICS_TSV to English_US 
-##       as used by languages other than Spanish.
+### Note: re-setting URL_TOPICS_TSV to English_US 
+###       as used by languages other than Spanish.
 URL_FRAGMENTS_TSV="English_US/tsv/English_US_en.url_fragments.tsv"
 URL_TOPICS_TSV="English_US/tsv/English_US_en.url_topics.tsv"
+###
 
 #################
 ## (he) Hebrew ##
