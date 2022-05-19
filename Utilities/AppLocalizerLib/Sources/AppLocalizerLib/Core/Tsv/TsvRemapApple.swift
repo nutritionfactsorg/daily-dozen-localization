@@ -239,6 +239,22 @@ struct TsvRemapApple {
         replaceDict["store.screen.3"] = "store_screen.3"
         replaceDict["store.screen.4"] = "store_screen.4"
         replaceDict["store.screen.5"] = "store_screen.5"
+        
+        // Random IDs no longer used (from Spanish_es cleanup)
+        dropSet.insert("5eb-qC-Ke5.text") // 2017
+        dropSet.insert("6m3-hV-PBi.text") // Negative Calorie Load
+        dropSet.insert("ERa-UT-Rni.text") // 0 / 24
+        dropSet.insert("FTS-2y-Iil.text") // 2017
+        dropSet.insert("OFE-S4-S9b.text") // Label
+        dropSet.insert("YGb-Uj-J69.text") // Label
+        dropSet.insert("dld-jq-Etq.text") // 2017
+        dropSet.insert("dxC-TB-3hz.text") // Label
+        dropSet.insert("iJb-Vn-TS0.text") // Beans
+        dropSet.insert("m5s-0r-St1.text") // Label
+        dropSet.insert("pKR-lY-XXM.text") // Today
+        dropSet.insert("qWl-8e-sO6.text") // Label
+        dropSet.insert("yct-Iw-M3s.text") // Label
+        dropSet.insert("zV0-lA-zHj.text") // lbs.
     }
     
     func isDropped(_ key: String) -> Bool {
