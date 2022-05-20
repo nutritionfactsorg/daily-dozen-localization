@@ -8,18 +8,12 @@ serving_sizes	doze_detail_section_sizes	Serving Sizes	Tamaño de las porciones	D
 types	doze_detail_section_types	Types	Tipos	Doze Detail View subheading: ‘Types’	
 servings	doze_entry_header	Servings	Porciones	Doze Entry View heading: ‘Servings’	
 beans	dozeBeans.heading	Beans	Legumbres	heading for daily data entry item	
-	dozeBeans.Serving.imperial.0	¼ cup of hummus or bean dip	¼ taza de hummus o untable de legumbres		
-food_info_serving_sizes_beans_imperial.0	dozeBeans.Serving.imperial.0	¼ cup of hummus or bean dip	¼ taza		
-	dozeBeans.Serving.imperial.1	½ cup cooked beans, split peas, lentils, tofu, or tempeh	½ taza de frijoles cocidos, arvejas partidas, lentejas, tofu o tempeh		
-food_info_serving_sizes_beans_imperial.1	dozeBeans.Serving.imperial.1	½ cup cooked beans, split peas, lentils, tofu, or tempeh	½ taza		
-	dozeBeans.Serving.imperial.2	1 cup of fresh peas or sprouted lentils	1 taza de guisantes frescos o brotes de lentejas		
-food_info_serving_sizes_beans_imperial.2	dozeBeans.Serving.imperial.2	1 cup of fresh peas or sprouted lentils	1 taza		
-	dozeBeans.Serving.metric.0	60 g of hummus or bean dip	60 g de hummus o untable de legumbres		
-food_info_serving_sizes_beans_metric.0	dozeBeans.Serving.metric.0	60 g of hummus or bean dip	60 g of hummus or bean dip		
-	dozeBeans.Serving.metric.1	130 g cooked beans, split peas, lentils, tofu, or tempeh	130 g de frijoles cocidos, arvejas partidas, lentejas, tofu o tempeh		
-food_info_serving_sizes_beans_metric.1	dozeBeans.Serving.metric.1	130 g cooked beans, split peas, lentils, tofu, or tempeh	130 g cooked beans, split peas, lentils, tofu, or tempeh		
-	dozeBeans.Serving.metric.2	150 g of fresh peas or sprouted lentils	150 g de guisantes frescos o brotes de lentejas		
-food_info_serving_sizes_beans_metric.2	dozeBeans.Serving.metric.2	150 g of fresh peas or sprouted lentils	150 g of fresh peas or sprouted lentils		
+food_info_serving_sizes_beans_imperial.0	dozeBeans.Serving.imperial.0	¼ cup of hummus or bean dip	¼ taza de hummus o untable de legumbres		
+food_info_serving_sizes_beans_imperial.1	dozeBeans.Serving.imperial.1	½ cup cooked beans, split peas, lentils, tofu, or tempeh	½ taza de frijoles cocidos, arvejas partidas, lentejas, tofu o tempeh		
+food_info_serving_sizes_beans_imperial.2	dozeBeans.Serving.imperial.2	1 cup of fresh peas or sprouted lentils	1 taza de guisantes frescos o brotes de lentejas		
+food_info_serving_sizes_beans_metric.0	dozeBeans.Serving.metric.0	60 g of hummus or bean dip	60 g de hummus o untable de legumbres		
+food_info_serving_sizes_beans_metric.1	dozeBeans.Serving.metric.1	130 g cooked beans, split peas, lentils, tofu, or tempeh	130 g de frijoles cocidos, arvejas partidas, lentejas, tofu o tempeh		
+food_info_serving_sizes_beans_metric.2	dozeBeans.Serving.metric.2	150 g of fresh peas or sprouted lentils	150 g de guisantes frescos o brotes de lentejas		
 food_info_types_beans.0	dozeBeans.Variety.Text.0	Black beans	Frijoles negros		
 food_info_types_beans.1	dozeBeans.Variety.Text.1	Black-eyed peas	Frijoles de careta		
 food_info_types_beans.2	dozeBeans.Variety.Text.2	Butter beans	Habas grandes		
@@ -37,14 +31,10 @@ food_info_types_beans.13	dozeBeans.Variety.Text.13	Small red beans	Frijoles rojo
 food_info_types_beans.14	dozeBeans.Variety.Text.14	Split peas (yellow or green)	Guisantes partidos (amarillos o verdes)		
 food_info_types_beans.15	dozeBeans.Variety.Text.15	Tempeh	Tempeh		
 berries	dozeBerries.heading	Berries	Frutos rojos	heading for daily data entry item	
-	dozeBerries.Serving.imperial.0	½ cup fresh or frozen	½ taza frescos o congelados		
-food_info_serving_sizes_berries_imperial.0	dozeBerries.Serving.imperial.0	½ cup fresh or frozen	½ taza		
-	dozeBerries.Serving.imperial.1	¼ cup dried	¼ taza secos		
-food_info_serving_sizes_berries_imperial.1	dozeBerries.Serving.imperial.1	¼ cup dried	¼ taza		
-	dozeBerries.Serving.metric.0	60 g fresh or frozen	60 g frescos o congelados		
-food_info_serving_sizes_berries_metric.0	dozeBerries.Serving.metric.0	60 g fresh or frozen	60 g fresh or frozen		
-	dozeBerries.Serving.metric.1	40 g dried	40 g secos		
-food_info_serving_sizes_berries_metric.1	dozeBerries.Serving.metric.1	40 g dried	40 g dried		
+food_info_serving_sizes_berries_imperial.0	dozeBerries.Serving.imperial.0	½ cup fresh or frozen	½ taza frescos o congelados		
+food_info_serving_sizes_berries_imperial.1	dozeBerries.Serving.imperial.1	¼ cup dried	¼ taza secos		
+food_info_serving_sizes_berries_metric.0	dozeBerries.Serving.metric.0	60 g fresh or frozen	60 g frescos o congelados		
+food_info_serving_sizes_berries_metric.1	dozeBerries.Serving.metric.1	40 g dried	40 g secos		
 food_info_types_berries.0	dozeBerries.Variety.Text.0	Acai berries	Açai		
 food_info_types_berries.1	dozeBerries.Variety.Text.1	Barberries	Agracejos		
 food_info_types_berries.2	dozeBerries.Variety.Text.2	Blackberries	Moras		
@@ -58,10 +48,8 @@ food_info_types_berries.9	dozeBerries.Variety.Text.9	Mulberries	Morera
 food_info_types_berries.10	dozeBerries.Variety.Text.10	Raspberries (black or red)	Frambuesas (negras o rojas)		
 food_info_types_berries.11	dozeBerries.Variety.Text.11	Strawberries	Fresas		
 beverages	dozeBeverages.heading	Beverages	Bebidas	heading for daily data entry item	
-	dozeBeverages.Serving.imperial.0	One glass (12 ounces)	Un vaso (12 onzas)		
-food_info_serving_sizes_beverages_imperial.0	dozeBeverages.Serving.imperial.0	One glass (12 ounces)	12 onzas		
-	dozeBeverages.Serving.metric.0	One glass (350 ml)	Un vaso (350 ml)		
-food_info_serving_sizes_beverages_metric.0	dozeBeverages.Serving.metric.0	One glass (350 ml)	One glass (350 ml)		
+food_info_serving_sizes_beverages_imperial.0	dozeBeverages.Serving.imperial.0	One glass (12 ounces)	Un vaso (12 onzas)		
+food_info_serving_sizes_beverages_metric.0	dozeBeverages.Serving.metric.0	One glass (350 ml)	Un vaso (350 ml)		
 food_info_types_beverages.0	dozeBeverages.Variety.Text.0	Black tea	Té negro		
 food_info_types_beverages.1	dozeBeverages.Variety.Text.1	Chai tea	Chai		
 food_info_types_beverages.2	dozeBeverages.Variety.Text.2	Vanilla chamomile tea	Infusión de vainilla y manzanilla		
@@ -79,14 +67,10 @@ food_info_types_beverages.13	dozeBeverages.Variety.Text.13	Rooibos tea	Infusión
 food_info_types_beverages.14	dozeBeverages.Variety.Text.14	Water	Agua		
 food_info_types_beverages.15	dozeBeverages.Variety.Text.15	White tea	Té blanco		
 exercise	dozeExercise.heading	Exercise	Ejercicio	heading for daily data entry item	
-	dozeExercise.Serving.imperial.0	90 minutes of moderate-intensity activity	90 minutos de actividad moderada		
-food_info_serving_sizes_exercise_imperial.0	dozeExercise.Serving.imperial.0	90 minutes of moderate-intensity activity	90		
-	dozeExercise.Serving.imperial.1	40 minutes of vigorous-intensity activity	40 minutos de actividad vigorosa		
-food_info_serving_sizes_exercise_imperial.1	dozeExercise.Serving.imperial.1	40 minutes of vigorous-intensity activity	40		
-	dozeExercise.Serving.metric.0	90 minutes of moderate-intensity activity	90 minutos de actividad moderada		
-food_info_serving_sizes_exercise_metric.0	dozeExercise.Serving.metric.0	90 minutes of moderate-intensity activity	90		
-	dozeExercise.Serving.metric.1	40 minutes of vigorous-intensity activity	40 minutos de actividad vigorosa		
-food_info_serving_sizes_exercise_metric.1	dozeExercise.Serving.metric.1	40 minutes of vigorous-intensity activity	40		
+food_info_serving_sizes_exercise_imperial.0	dozeExercise.Serving.imperial.0	90 minutes of moderate-intensity activity	90 minutos de actividad moderada		
+food_info_serving_sizes_exercise_imperial.1	dozeExercise.Serving.imperial.1	40 minutes of vigorous-intensity activity	40 minutos de actividad vigorosa		
+food_info_serving_sizes_exercise_metric.0	dozeExercise.Serving.metric.0	90 minutes of moderate-intensity activity	90 minutos de actividad moderada		
+food_info_serving_sizes_exercise_metric.1	dozeExercise.Serving.metric.1	40 minutes of vigorous-intensity activity	40 minutos de actividad vigorosa		
 food_info_types_exercise.0	dozeExercise.Variety.Text.0	Bicycling	Bicicleta		
 food_info_types_exercise.1	dozeExercise.Variety.Text.1	Canoeing	Canoa		
 food_info_types_exercise.2	dozeExercise.Variety.Text.2	Dancing	Baile		
@@ -142,25 +126,17 @@ food_info_types_exercise.51	dozeExercise.Variety.Text.51	Swimming laps	Natación
 food_info_types_exercise.52	dozeExercise.Variety.Text.52	Walking briskly uphill	Caminata rápida cuesta arriba		
 food_info_types_exercise.53	dozeExercise.Variety.Text.53	Water jogging	Trotar en agua		
 flaxseeds	dozeFlaxseeds.heading	Flaxseeds	Linaza	heading for daily data entry item	
-	dozeFlaxseeds.Serving.imperial.0	1 tablespoon ground	1 cucharada molida		
-food_info_serving_sizes_flaxseeds_imperial.0	dozeFlaxseeds.Serving.imperial.0	1 tablespoon ground	1 cucharada		
-	dozeFlaxseeds.Serving.metric.0	1 tablespoon ground	1 cucharada molida		
-food_info_serving_sizes_flaxseeds_metric.0	dozeFlaxseeds.Serving.metric.0	1 tablespoon ground	1 cucharada		
+food_info_serving_sizes_flaxseeds_imperial.0	dozeFlaxseeds.Serving.imperial.0	1 tablespoon ground	1 cucharada molida		
+food_info_serving_sizes_flaxseeds_metric.0	dozeFlaxseeds.Serving.metric.0	1 tablespoon ground	1 cucharada molida		
 food_info_types_flaxseeds.0	dozeFlaxseeds.Variety.Text.0	Brown flaxseeds	Linaza marrón		
 food_info_types_flaxseeds.1	dozeFlaxseeds.Variety.Text.1	Golden flaxseeds	Linaza dorada		
 other_fruits	dozeFruitsOther.heading	Other Fruits	Otras frutas	heading for daily data entry item	
-	dozeFruitsOther.Serving.imperial.0	1 medium-sized fruit	1 fruta de tamaño medio		
-food_info_serving_sizes_other_fruits_imperial.0	dozeFruitsOther.Serving.imperial.0	1 medium-sized fruit	1		
-	dozeFruitsOther.Serving.imperial.1	1 cup cut-up fruit	1 taza de fruta picada		
-food_info_serving_sizes_other_fruits_imperial.1	dozeFruitsOther.Serving.imperial.1	1 cup cut-up fruit	1 taza		
-	dozeFruitsOther.Serving.imperial.2	¼ cup dried fruit	¼ taza de fruta seca		
-food_info_serving_sizes_other_fruits_imperial.2	dozeFruitsOther.Serving.imperial.2	¼ cup dried fruit	¼ taza		
-	dozeFruitsOther.Serving.metric.0	1 medium-sized fruit	1 fruta de tamaño medio		
-food_info_serving_sizes_other_fruits_metric.0	dozeFruitsOther.Serving.metric.0	1 medium-sized fruit	1		
-	dozeFruitsOther.Serving.metric.1	120 g cut-up fruit	120 g de fruta picada		
-food_info_serving_sizes_other_fruits_metric.1	dozeFruitsOther.Serving.metric.1	120 g cut-up fruit	120 g cut-up fruit		
-	dozeFruitsOther.Serving.metric.2	40 g dried fruit	40 g de fruta seca		
-food_info_serving_sizes_other_fruits_metric.2	dozeFruitsOther.Serving.metric.2	40 g dried fruit	40 g dried fruit		
+food_info_serving_sizes_other_fruits_imperial.0	dozeFruitsOther.Serving.imperial.0	1 medium-sized fruit	1 fruta de tamaño medio		
+food_info_serving_sizes_other_fruits_imperial.1	dozeFruitsOther.Serving.imperial.1	1 cup cut-up fruit	1 taza de fruta picada		
+food_info_serving_sizes_other_fruits_imperial.2	dozeFruitsOther.Serving.imperial.2	¼ cup dried fruit	¼ taza de fruta seca		
+food_info_serving_sizes_other_fruits_metric.0	dozeFruitsOther.Serving.metric.0	1 medium-sized fruit	1 fruta de tamaño medio		
+food_info_serving_sizes_other_fruits_metric.1	dozeFruitsOther.Serving.metric.1	120 g cut-up fruit	120 g de fruta picada		
+food_info_serving_sizes_other_fruits_metric.2	dozeFruitsOther.Serving.metric.2	40 g dried fruit	40 g de fruta seca		
 food_info_types_other_fruits.0	dozeFruitsOther.Variety.Text.0	Apples	Manzanas		
 food_info_types_other_fruits.1	dozeFruitsOther.Variety.Text.1	Apricots	Albaricoques		
 food_info_types_other_fruits.2	dozeFruitsOther.Variety.Text.2	Avocados	Aguacates		
@@ -190,14 +166,10 @@ food_info_types_other_fruits.25	dozeFruitsOther.Variety.Text.25	Prunes	Ciruelas 
 food_info_types_other_fruits.26	dozeFruitsOther.Variety.Text.26	Tangerines	Mandarinas		
 food_info_types_other_fruits.27	dozeFruitsOther.Variety.Text.27	Watermelon	Sandía		
 greens	dozeGreens.heading	Greens	Verduras de hoja verde	heading for daily data entry item	
-	dozeGreens.Serving.imperial.0	1 cup raw	1 taza cruda		
-food_info_serving_sizes_greens_imperial.0	dozeGreens.Serving.imperial.0	1 cup raw	1 taza		
-	dozeGreens.Serving.imperial.1	½ cup cooked	½ taza cocida		
-food_info_serving_sizes_greens_imperial.1	dozeGreens.Serving.imperial.1	½ cup cooked	½ taza		
-	dozeGreens.Serving.metric.0	60 g raw	60 g cruda		
-food_info_serving_sizes_greens_metric.0	dozeGreens.Serving.metric.0	60 g raw	60 g raw		
-	dozeGreens.Serving.metric.1	90 g cooked	90 g cocida		
-food_info_serving_sizes_greens_metric.1	dozeGreens.Serving.metric.1	90 g cooked	90 g cooked		
+food_info_serving_sizes_greens_imperial.0	dozeGreens.Serving.imperial.0	1 cup raw	1 taza cruda		
+food_info_serving_sizes_greens_imperial.1	dozeGreens.Serving.imperial.1	½ cup cooked	½ taza cocida		
+food_info_serving_sizes_greens_metric.0	dozeGreens.Serving.metric.0	60 g raw	60 g cruda		
+food_info_serving_sizes_greens_metric.1	dozeGreens.Serving.metric.1	90 g cooked	90 g cocida		
 food_info_types_greens.0	dozeGreens.Variety.Text.0	Arugula	Rúcula		
 food_info_types_greens.1	dozeGreens.Variety.Text.1	Beet greens	Hojas de remolacha		
 food_info_types_greens.2	dozeGreens.Variety.Text.2	Collard greens	Col		
@@ -209,14 +181,10 @@ food_info_types_greens.7	dozeGreens.Variety.Text.7	Spinach	Espinaca
 food_info_types_greens.8	dozeGreens.Variety.Text.8	Swiss chard	Acelga		
 food_info_types_greens.9	dozeGreens.Variety.Text.9	Turnip greens	Nabos verdes		
 nuts	dozeNuts.heading	Nuts and Seeds	Frutos secos	heading for daily data entry item	
-	dozeNuts.Serving.imperial.0	¼ cup nuts or seeds	¼ taza de frutos secos o semillas		
-food_info_serving_sizes_nuts_imperial.0	dozeNuts.Serving.imperial.0	¼ cup nuts or seeds	¼ taza		
-	dozeNuts.Serving.imperial.1	2 tablespoons nut or seed butter	2 cucharadas de mantequilla de frutos secos o semillas		
-food_info_serving_sizes_nuts_imperial.1	dozeNuts.Serving.imperial.1	2 tablespoons nut or seed butter	2 cucharadas		
-	dozeNuts.Serving.metric.0	30 g nuts or seeds	30 g de frutos secos o semillas		
-food_info_serving_sizes_nuts_metric.0	dozeNuts.Serving.metric.0	30 g nuts or seeds	30 g nuts or seeds		
-	dozeNuts.Serving.metric.1	2 tablespoons nut or seed butter	2 cucharadas de mantequilla de frutos secos o semillas		
-food_info_serving_sizes_nuts_metric.1	dozeNuts.Serving.metric.1	2 tablespoons nut or seed butter	2 cucharadas		
+food_info_serving_sizes_nuts_imperial.0	dozeNuts.Serving.imperial.0	¼ cup nuts or seeds	¼ taza de frutos secos o semillas		
+food_info_serving_sizes_nuts_imperial.1	dozeNuts.Serving.imperial.1	2 tablespoons nut or seed butter	2 cucharadas de mantequilla de frutos secos o semillas		
+food_info_serving_sizes_nuts_metric.0	dozeNuts.Serving.metric.0	30 g nuts or seeds	30 g de frutos secos o semillas		
+food_info_serving_sizes_nuts_metric.1	dozeNuts.Serving.metric.1	2 tablespoons nut or seed butter	2 cucharadas de mantequilla de frutos secos o semillas		
 food_info_types_nuts.0	dozeNuts.Variety.Text.0	Almonds	Almendras		
 food_info_types_nuts.1	dozeNuts.Variety.Text.1	Brazil nuts	Nueces de Brasil		
 food_info_types_nuts.2	dozeNuts.Variety.Text.2	Cashews	Anacardos		
@@ -235,14 +203,10 @@ food_info_types_nuts.12	dozeNuts.Variety.Text.12	Walnuts	Nueces
 	dozeOtherInfo.section	Supplements	Suplementos	Daily Dozen daily entry section heading	
 	dozeOtherInfo.title	Supplements	Suplementos	Daily Dozen supplement info alert: title	
 spices	dozeSpices.heading	Herbs and Spices	Especias	heading for daily data entry item	
-	dozeSpices.Serving.imperial.0	¼ teaspoon of turmeric	¼ cucharadita de cúrcuma		
-food_info_serving_sizes_spices_imperial.0	dozeSpices.Serving.imperial.0	¼ teaspoon of turmeric	¼ cucharadita		
-	dozeSpices.Serving.imperial.1	Any other (salt-free) herbs and spices you enjoy	Cualquier otra especia (sin sal)		
-food_info_serving_sizes_spices_imperial.1	dozeSpices.Serving.imperial.1	Any other (salt-free) herbs and spices you enjoy	Any other (salt-free) herbs and spices you enjoy		
-	dozeSpices.Serving.metric.0	¼ teaspoon of turmeric	¼ cucharadita de cúrcuma		
-food_info_serving_sizes_spices_metric.0	dozeSpices.Serving.metric.0	¼ teaspoon of turmeric	¼ cucharadita		
-	dozeSpices.Serving.metric.1	Any other (salt-free) herbs and spices you enjoy	Cualquier otra especia (sin sal)		
-food_info_serving_sizes_spices_metric.1	dozeSpices.Serving.metric.1	Any other (salt-free) herbs and spices you enjoy	Any other (salt-free) herbs and spices you enjoy		
+food_info_serving_sizes_spices_imperial.0	dozeSpices.Serving.imperial.0	¼ teaspoon of turmeric	¼ cucharadita de cúrcuma		
+food_info_serving_sizes_spices_imperial.1	dozeSpices.Serving.imperial.1	Any other (salt-free) herbs and spices you enjoy	Cualquier otra especia (sin sal)		
+food_info_serving_sizes_spices_metric.0	dozeSpices.Serving.metric.0	¼ teaspoon of turmeric	¼ cucharadita de cúrcuma		
+food_info_serving_sizes_spices_metric.1	dozeSpices.Serving.metric.1	Any other (salt-free) herbs and spices you enjoy	Cualquier otra especia (sin sal)		
 food_info_types_spices.0	dozeSpices.Variety.Text.0	Allspice	Pimienta de Jamaica		
 food_info_types_spices.1	dozeSpices.Variety.Text.1	Barberries	Bérberos		
 food_info_types_spices.2	dozeSpices.Variety.Text.2	Basil	Albahaca		
@@ -276,18 +240,12 @@ food_info_types_spices.29	dozeSpices.Variety.Text.29	Thyme	Tomillo
 food_info_types_spices.30	dozeSpices.Variety.Text.30	Turmeric	Cúrcuma		
 food_info_types_spices.31	dozeSpices.Variety.Text.31	Vanilla	Vainilla		
 cruciferous_vegetables	dozeVegetablesCruciferous.heading	Cruciferous Vegetables	Crucíferas	heading for daily data entry item	
-	dozeVegetablesCruciferous.Serving.imperial.0	½ cup chopped	½ taza picadas		
-food_info_serving_sizes_cruciferous_vegetables_imperial.0	dozeVegetablesCruciferous.Serving.imperial.0	½ cup chopped	½ taza		
-	dozeVegetablesCruciferous.Serving.imperial.1	¼ cup Brussels or broccoli sprouts	¼ taza de coles de Bruselas o brotes de brócoli		
-food_info_serving_sizes_cruciferous_vegetables_imperial.1	dozeVegetablesCruciferous.Serving.imperial.1	¼ cup Brussels or broccoli sprouts	¼ taza		
-	dozeVegetablesCruciferous.Serving.imperial.2	1 tablespoon horseradish	1 cucharada de rábano picante		
-food_info_serving_sizes_cruciferous_vegetables_imperial.2	dozeVegetablesCruciferous.Serving.imperial.2	1 tablespoon horseradish	1 cucharada		
-	dozeVegetablesCruciferous.Serving.metric.0	30–80 g chopped	30–80 g picadas		
-food_info_serving_sizes_cruciferous_vegetables_metric.0	dozeVegetablesCruciferous.Serving.metric.0	30–80 g chopped	30–80 g chopped		
-	dozeVegetablesCruciferous.Serving.metric.1	12 g Brussels or broccoli sprouts	12 g de coles de Bruselas o brotes de brócoli		
-food_info_serving_sizes_cruciferous_vegetables_metric.1	dozeVegetablesCruciferous.Serving.metric.1	12 g Brussels or broccoli sprouts	12 g Brussels or broccoli sprouts		
-	dozeVegetablesCruciferous.Serving.metric.2	1 tablespoon horseradish	1 cucharada de rábano picante		
-food_info_serving_sizes_cruciferous_vegetables_metric.2	dozeVegetablesCruciferous.Serving.metric.2	1 tablespoon horseradish	1 cucharada		
+food_info_serving_sizes_cruciferous_vegetables_imperial.0	dozeVegetablesCruciferous.Serving.imperial.0	½ cup chopped	½ taza picadas		
+food_info_serving_sizes_cruciferous_vegetables_imperial.1	dozeVegetablesCruciferous.Serving.imperial.1	¼ cup Brussels or broccoli sprouts	¼ taza de coles de Bruselas o brotes de brócoli		
+food_info_serving_sizes_cruciferous_vegetables_imperial.2	dozeVegetablesCruciferous.Serving.imperial.2	1 tablespoon horseradish	1 cucharada de rábano picante		
+food_info_serving_sizes_cruciferous_vegetables_metric.0	dozeVegetablesCruciferous.Serving.metric.0	30–80 g chopped	30–80 g picadas		
+food_info_serving_sizes_cruciferous_vegetables_metric.1	dozeVegetablesCruciferous.Serving.metric.1	12 g Brussels or broccoli sprouts	12 g de coles de Bruselas o brotes de brócoli		
+food_info_serving_sizes_cruciferous_vegetables_metric.2	dozeVegetablesCruciferous.Serving.metric.2	1 tablespoon horseradish	1 cucharada de rábano picante		
 food_info_types_cruciferous_vegetables.0	dozeVegetablesCruciferous.Variety.Text.0	Arugula	Rúcula		
 food_info_types_cruciferous_vegetables.1	dozeVegetablesCruciferous.Variety.Text.1	Bok choy	Bok choy		
 food_info_types_cruciferous_vegetables.2	dozeVegetablesCruciferous.Variety.Text.2	Broccoli (incl. Romanesco)	Brócoli		
@@ -303,22 +261,14 @@ food_info_types_cruciferous_vegetables.11	dozeVegetablesCruciferous.Variety.Text
 food_info_types_cruciferous_vegetables.12	dozeVegetablesCruciferous.Variety.Text.12	Turnip greens	Nabos verdes		
 food_info_types_cruciferous_vegetables.13	dozeVegetablesCruciferous.Variety.Text.13	Watercress	Berro		
 other_vegetables	dozeVegetablesOther.heading	Other Vegetables	Otras verduras	heading for daily data entry item	
-	dozeVegetablesOther.Serving.imperial.0	1 cup raw leafy vegetables	1 taza de verduras de hoja crudas		
-food_info_serving_sizes_other_vegetables_imperial.0	dozeVegetablesOther.Serving.imperial.0	1 cup raw leafy vegetables	1 taza		
-	dozeVegetablesOther.Serving.imperial.1	½ cup raw or cooked nonleafy vegetables	½ taza de verduras sin hoja crudas o cocidas		
-food_info_serving_sizes_other_vegetables_imperial.1	dozeVegetablesOther.Serving.imperial.1	½ cup raw or cooked nonleafy vegetables	½ taza		
-	dozeVegetablesOther.Serving.imperial.2	½ cup vegetable juice	½ taza de jugo de verduras		
-food_info_serving_sizes_other_vegetables_imperial.2	dozeVegetablesOther.Serving.imperial.2	½ cup vegetable juice	½ taza		
-	dozeVegetablesOther.Serving.imperial.3	¼ cup dried mushrooms	¼ taza de champiñones secos		
-food_info_serving_sizes_other_vegetables_imperial.3	dozeVegetablesOther.Serving.imperial.3	¼ cup dried mushrooms	¼ taza		
-	dozeVegetablesOther.Serving.metric.0	60 g raw leafy vegetables	60 g de verduras de hoja crudas		
-food_info_serving_sizes_other_vegetables_metric.0	dozeVegetablesOther.Serving.metric.0	60 g raw leafy vegetables	60 g raw leafy vegetables		
-	dozeVegetablesOther.Serving.metric.1	50 g raw or cooked nonleafy vegetables	50 g de verduras sin hoja crudas o cocidas		
-food_info_serving_sizes_other_vegetables_metric.1	dozeVegetablesOther.Serving.metric.1	50 g raw or cooked nonleafy vegetables	50 g raw or cooked nonleafy vegetables		
-	dozeVegetablesOther.Serving.metric.2	125 ml vegetable juice	125 ml de jugo de verduras		
-food_info_serving_sizes_other_vegetables_metric.2	dozeVegetablesOther.Serving.metric.2	125 ml vegetable juice	125 ml vegetable juice		
-	dozeVegetablesOther.Serving.metric.3	7 g dried mushrooms	7 g de champiñones secos		
-food_info_serving_sizes_other_vegetables_metric.3	dozeVegetablesOther.Serving.metric.3	7 g dried mushrooms	7 g dried mushrooms		
+food_info_serving_sizes_other_vegetables_imperial.0	dozeVegetablesOther.Serving.imperial.0	1 cup raw leafy vegetables	1 taza de verduras de hoja crudas		
+food_info_serving_sizes_other_vegetables_imperial.1	dozeVegetablesOther.Serving.imperial.1	½ cup raw or cooked nonleafy vegetables	½ taza de verduras sin hoja crudas o cocidas		
+food_info_serving_sizes_other_vegetables_imperial.2	dozeVegetablesOther.Serving.imperial.2	½ cup vegetable juice	½ taza de jugo de verduras		
+food_info_serving_sizes_other_vegetables_imperial.3	dozeVegetablesOther.Serving.imperial.3	¼ cup dried mushrooms	¼ taza de champiñones secos		
+food_info_serving_sizes_other_vegetables_metric.0	dozeVegetablesOther.Serving.metric.0	60 g raw leafy vegetables	60 g de verduras de hoja crudas		
+food_info_serving_sizes_other_vegetables_metric.1	dozeVegetablesOther.Serving.metric.1	50 g raw or cooked nonleafy vegetables	50 g de verduras sin hoja crudas o cocidas		
+food_info_serving_sizes_other_vegetables_metric.2	dozeVegetablesOther.Serving.metric.2	125 ml vegetable juice	125 ml de jugo de verduras		
+food_info_serving_sizes_other_vegetables_metric.3	dozeVegetablesOther.Serving.metric.3	7 g dried mushrooms	7 g de champiñones secos		
 food_info_types_other_vegetables.0	dozeVegetablesOther.Variety.Text.0	Artichokes	Alcachofas		
 food_info_types_other_vegetables.1	dozeVegetablesOther.Variety.Text.1	Asparagus	Espárragos		
 food_info_types_other_vegetables.2	dozeVegetablesOther.Variety.Text.2	Beets	Remolacha		
@@ -338,26 +288,16 @@ food_info_types_other_vegetables.15	dozeVegetablesOther.Variety.Text.15	Sweet po
 food_info_types_other_vegetables.16	dozeVegetablesOther.Variety.Text.16	Tomatoes	Tomates		
 food_info_types_other_vegetables.17	dozeVegetablesOther.Variety.Text.17	Zucchini	Calabacín		
 whole_grains	dozeWholeGrains.heading	Whole Grains	Cereales integrales	heading for daily data entry item	
-	dozeWholeGrains.Serving.imperial.0	½ cup hot cereal or cooked grains, pasta, or corn kernels	½ taza de cereales cocidos, pasta o granos de maíz cocidos		
-food_info_serving_sizes_whole_grains_imperial.0	dozeWholeGrains.Serving.imperial.0	½ cup hot cereal or cooked grains, pasta, or corn kernels	½ taza		
-	dozeWholeGrains.Serving.imperial.1	1 cup cold cereal	1 taza de cereales fríos		
-food_info_serving_sizes_whole_grains_imperial.1	dozeWholeGrains.Serving.imperial.1	1 cup cold cereal	1 taza		
-	dozeWholeGrains.Serving.imperial.2	1 tortilla or slice of bread	1 tortilla o rodaja de pan		
-food_info_serving_sizes_whole_grains_imperial.2	dozeWholeGrains.Serving.imperial.2	1 tortilla or slice of bread	1		
-	dozeWholeGrains.Serving.imperial.3	½ a bagel or English muffin	½ bagel o English muffin		
-food_info_serving_sizes_whole_grains_imperial.3	dozeWholeGrains.Serving.imperial.3	½ a bagel or English muffin	½		
-	dozeWholeGrains.Serving.imperial.4	3 cups popped popcorn	3 tazas de palomitas de maíz		
-food_info_serving_sizes_whole_grains_imperial.4	dozeWholeGrains.Serving.imperial.4	3 cups popped popcorn	3 tazas		
-	dozeWholeGrains.Serving.metric.0	100 g hot cereal or cooked grains, pasta, or corn kernels	100 g de cereales cocidos, pasta o granos de maíz cocidos		
-food_info_serving_sizes_whole_grains_metric.0	dozeWholeGrains.Serving.metric.0	100 g hot cereal or cooked grains, pasta, or corn kernels	100 g hot cereal or cooked grains, pasta, or corn kernels		
-	dozeWholeGrains.Serving.metric.1	50 g cold cereal	50 g de cereales fríos		
-food_info_serving_sizes_whole_grains_metric.1	dozeWholeGrains.Serving.metric.1	50 g cold cereal	50 g cold cereal		
-	dozeWholeGrains.Serving.metric.2	1 tortilla or slice of bread	1 tortilla o rodaja de pan		
-food_info_serving_sizes_whole_grains_metric.2	dozeWholeGrains.Serving.metric.2	1 tortilla or slice of bread	1		
-	dozeWholeGrains.Serving.metric.3	½ a bagel or English muffin	½ bagel o English muffin		
-food_info_serving_sizes_whole_grains_metric.3	dozeWholeGrains.Serving.metric.3	½ a bagel or English muffin	½		
-	dozeWholeGrains.Serving.metric.4	30 g popped popcorn	30 g de palomitas de maíz		
-food_info_serving_sizes_whole_grains_metric.4	dozeWholeGrains.Serving.metric.4	30 g popped popcorn	30 g popped popcorn		
+food_info_serving_sizes_whole_grains_imperial.0	dozeWholeGrains.Serving.imperial.0	½ cup hot cereal or cooked grains, pasta, or corn kernels	½ taza de cereales cocidos, pasta o granos de maíz cocidos		
+food_info_serving_sizes_whole_grains_imperial.1	dozeWholeGrains.Serving.imperial.1	1 cup cold cereal	1 taza de cereales fríos		
+food_info_serving_sizes_whole_grains_imperial.2	dozeWholeGrains.Serving.imperial.2	1 tortilla or slice of bread	1 tortilla o rodaja de pan		
+food_info_serving_sizes_whole_grains_imperial.3	dozeWholeGrains.Serving.imperial.3	½ a bagel or English muffin	½ bagel o English muffin		
+food_info_serving_sizes_whole_grains_imperial.4	dozeWholeGrains.Serving.imperial.4	3 cups popped popcorn	3 tazas de palomitas de maíz		
+food_info_serving_sizes_whole_grains_metric.0	dozeWholeGrains.Serving.metric.0	100 g hot cereal or cooked grains, pasta, or corn kernels	100 g de cereales cocidos, pasta o granos de maíz cocidos		
+food_info_serving_sizes_whole_grains_metric.1	dozeWholeGrains.Serving.metric.1	50 g cold cereal	50 g de cereales fríos		
+food_info_serving_sizes_whole_grains_metric.2	dozeWholeGrains.Serving.metric.2	1 tortilla or slice of bread	1 tortilla o rodaja de pan		
+food_info_serving_sizes_whole_grains_metric.3	dozeWholeGrains.Serving.metric.3	½ a bagel or English muffin	½ bagel o English muffin		
+food_info_serving_sizes_whole_grains_metric.4	dozeWholeGrains.Serving.metric.4	30 g popped popcorn	30 g de palomitas de maíz		
 food_info_types_whole_grains.0	dozeWholeGrains.Variety.Text.0	Barley	Cebada		
 food_info_types_whole_grains.1	dozeWholeGrains.Variety.Text.1	Buckwheat	Trigo sarraceno		
 food_info_types_whole_grains.2	dozeWholeGrains.Variety.Text.2	Millet	Mijo		
@@ -382,16 +322,12 @@ time_scale	history_scale_label	Time Scale	Escala temporal	History View: scale te
 	historyRecordWeight.titleImperial	Weight (lbs)	Peso (libras)	History View	
 	historyRecordWeight.titleMetric	Weight (kg)	Peso (kg)	History View	
 about	info_app_about	About	Conócenos	Info About Menu Item	
-	info_app_about_app_name	Daily Dozen	Daily Dozen		
 app_name	info_app_about_app_name	Daily Dozen	Docena Diaria	Info About View: Application Name ‘Daily Dozen’	
 	info_app_about_created_by	This app was created by: NutritionFacts.org, Christi Richards, Konstantin Khokhlov, and Marc Campbell	Esta app fue creada por: NutritionFacts.org, Christi Richards, Konstantin Khokhlov, y Marc Campbell	Info About View: Created By	
 	info_app_about_heading	About this app	Sobre esta app		
 	info_app_about_oss_credits	The following open source libraries are used: RealmSwift, Charts, FSCalendar, SimpleAnimation, ActiveLabel.	Las siguientes open source libraries fueron utilizadas: RealmSwift, Charts, FSCalendar, SimpleAnimation, y ActiveLabel.	Info About View: Open Source Credits	
-	info_app_about_oss_credits	The following open source libraries are used: RealmSwift, Charts, FSCalendar, SimpleAnimation, ActiveLabel.	Las siguientes open source libraries fueron utilizadas: RealmSwift, Charts, FSCalendar, SimpleAnimation and ActiveLabel.	Info About View: Open Source Credits	
-	info_app_about_overview	Use this app on a daily basis to keep track of the foods and advice I recommend for optimal health and longevity in my books How Not to Die and How Not to Diet.	Utiliza esta app a diario para llevar un registro de los alimentos que recomiendo para salud óptima y longevidad en mi libro Como no Morir.		
 activity_welcome_text	info_app_about_overview	Use this app on a daily basis to keep track of the foods and advice I recommend for optimal health and longevity in my books How Not to Die and How Not to Diet.	Utiliza esta aplicación a diario para llevar un registro de los alimentos que recomiendo para una salud y longevidad óptimas en mi libro Comer para no morir.	Info About View: Overview Text	
 	info_app_about_version	version 3.2.15	versión 3.2.15	Info About View: Application release version	
-	info_app_about_welcome	Welcome to my Daily Dozen!	¡Bienvenido a Mi Docena Diaria!		
 welcome_to_my_daily_dozen	info_app_about_welcome	Welcome to my Daily Dozen!	¡Bienvenido a mi Docena Diaria!	Info About View: Welcome	
 	info_book_how_not_to_die	Book: How Not to Die	Libro: How Not to Die	Info Menu: book title	
 	info_book_how_not_to_die_cookbook	Book: How Not to Die Cookbook	Libro: How Not to Die Cookbook	Info Menu: book title	
@@ -415,17 +351,12 @@ vitamin_b12	otherVitaminB12.heading	Vitamin B12	Vitamina B12	heading for daily d
 	otherVitaminD.heading	Vitamin D	Vitamina D		
 daily_reminder_text	reminder.alert.text	Update your servings for today	Actualiza las porciones de hoy	Alert notification text	
 	reminder.heading	Daily Reminder	Recordatorio diario	Daily Reminder (alert title, settings section heading)	
-	reminder.heading	Daily Reminder		Daily Reminder (alert title, settings section heading)	
 	reminder.settings.enable	Enable Reminders	Activar el recordatorio	Daily Reminder On/Off toggle switch label	
-	reminder.settings.enable	Enable Reminders		Daily Reminder On/Off toggle switch label	
-	reminder.settings.sound	Play Sound			
 play_sound	reminder.settings.sound	Play Sound	Sonido	Daily Reminder sound control heading	
-	reminder.settings.time	Remind me at:			
 remind_me_at	reminder.settings.time	Remind me at	Recuérdamelo a las	Daily Reminder time control heading	
 vibrate	reminder.settings.vibrate	Vibrate	Vibración	Android notification `vibrate`	
 	reminder.state.off	Off	Off	‘Off’ as in ‘On (enabled) or Off (disabled)’, Daily Reminder is not enabled	
 	reminder.state.on	On	On	‘On’ as in ‘On (enabled) or Off (disable)’. Daily Reminder is enabled	
-	reminder.state.on	On		‘On’ as in ‘On (enabled) or Off (disable)’. Daily Reminder is enabled	
 daily_dozen_only	setting_doze_only_btn	Daily Dozen\nOnly	Solo Docena Diaria	First Launch Setting: button text	
 	setting_doze_only_choice	Daily Dozen Only	Solo Docena Diaria	Preference Settings View: selection button text	
 daily_dozen_and_tweaks	setting_doze_tweak_btn	Daily Dozen +\n21 Tweaks	Docena Diaria y 21 Ajustes	First Launch Setting: button text	
@@ -434,13 +365,11 @@ daily_dozen_and_tweaks	setting_doze_tweak_btn	Daily Dozen +\n21 Tweaks	Docena Di
 for_health_alone	setting_health_alone_txt	For Health Alone	Para la salud sola	First Launch Setting: brief description above ‘Daily Dozen Only’ button.	
 for_health_and_weight_loss	setting_health_weight_txt	For Health and Weight Loss	Para la salud y la pérdida de peso	First Launch Setting: brief description above ‘Daily Dozen + 21 Tweaks’ button.	
 	setting_tweak_header	21 Tweak Visibility	Visibilidad de 21 Ajustes	Preference Settings View: tweaks visibilty subsection heading	
-	setting_tweak_header	21 Tweak Visibility		Preference Settings View: tweaks visibilty subsection heading	
 	setting_units_0_imperial	Imperial	Imperial	Preference Settings View: Part of ‘Imperial/Metric/Toggle Units’ selector	
 	setting_units_1_metric	Metric	Métrico	Preference Settings View: Part of ‘Imperial/Metric/Toggle Units’ selector	
 	setting_units_2_toggle	Toggle Units	Palanca	Preference Settings View: Part of ‘Imperial/Metric/Toggle Units’ selector	
 	setting_units_choice_footer	Set to always be one unit type or enable the ‘Units:’ toggle button.	Configure siempre un tipo de unidad o active el botón de alternancia 'Unidades:'.	Preference Settings View: brief description text below units control.	
 	setting_units_header	Measurement Units	Unidades de medida	Preference Settings View	
-	setting_units_header	Measurement Units		Preference Settings View	
 	setting_util_advanced	Advanced Utilities	Utilidades Avanzadas	Preference Settings View	
 format_num_days	streakDaysFormat	%d days	%d días	‘Streak’ count. Synonym: ‘Progress‘. Formatted number ‘%d’ for consecutive days completed. Place translated text for ‘days’ on the right or left of ‘%d’ based on language directionality.	
 	tweak_detail_section_activity	Activity	Actividad	Tweaks Detail view section heading	
@@ -663,14 +592,6 @@ tweak_group_dailydoses		Take your daily doses	Toma la dosis diaria
 tweak_group_meal		At Each Meal	En cada comida		
 tweak_group_nightly		Every Night	Cada noche		
 tweaks		Tweaks	Ajustes		
-url_cookbook		https://nutritionfacts.org/book/how-not-to-die-cookbook/	https://nutritionfacts.org/es/libro-de-recetas/	Book URL: How Not to Die Cookbook	
-url_daily_dozen_challenge		https://nutritionfacts.org/daily-dozen-challenge/	https://nutritionfacts.org/es/objetivo-la-docena-diaria/	Info URL: Daily Dozen Challenge	
-url_donate		https://nutritionfacts.org/donate/	https://nutritionfacts.org/es/dona-a-nutritionfacts-org/	Info URL: Donate	
-url_how_not_to_die		https://nutritionfacts.org/book/how-not-to-die/	https://nutritionfacts.org/es/comer-para-no-morir/	Book URL: How Not to Die	
-url_how_not_to_diet		https://nutritionfacts.org/how-not-to-diet/	https://nutritionfacts.org/how-not-to-diet/	Book URL: How Not to Diet	
-url_latest_videos		http://nutritionfacts.org/videos/	http://nutritionfacts.org/es/videos/	Videos URL: Latest Videos	
-url_open_source		https://nutritionfacts.org/open-source/	https://nutritionfacts.org/es/open-source/	Info URL: Open Source	
-url_subscribe		https://nutritionfacts.org/subscribe/	https://nutritionfacts.org/es/suscribete/	Info URL: Subscribe	
 weight		Weight	Peso		
 weight_history		Weight History	Historia de peso		
 yes		Yes	Sí		
