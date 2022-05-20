@@ -59,16 +59,16 @@ struct JsonIntoTsvProcessor: TsvProtocol {
             put(key: key, value: item.topic, baseOrLang: baseOrLang)
             // serving
             for i in 0 ..< item.servings.count {
-                key = "\(keyBase).Serving.Imperial.\(i)"
+                key = "\(keyBase).Serving.imperial.\(i)"
                 put(key: key, value: item.servings[i].imperial, baseOrLang: baseOrLang)     
-                key = "\(keyBase).Serving.Metric.\(i)"
+                key = "\(keyBase).Serving.metric.\(i)"
                 put(key: key, value: item.servings[i].metric, baseOrLang: baseOrLang)           
             }
             // variety
             for i in 0 ..< item.varieties.count {
                 key = "\(keyBase).Variety.Text.\(i)"
                 put(key: key, value: item.varieties[i].text, baseOrLang: baseOrLang)
-                key = "\(keyBase).Variety.Topic.\(i)"
+                key = "\(keyBase).Variety.topic.\(i)"
                 put(key: key, value: item.varieties[i].topic, baseOrLang: baseOrLang)  
             }
         }
@@ -85,9 +85,9 @@ struct JsonIntoTsvProcessor: TsvProtocol {
             key = "\(keyBase).topic"
             put(key: key, value: item.topic, baseOrLang: baseOrLang)
             // activity
-            key = "\(keyBase).Activity.Imperial"
+            key = "\(keyBase).Activity.imperial"
             put(key: key, value: item.activity.imperial, baseOrLang: baseOrLang)
-            key = "\(keyBase).Activity.Metric"
+            key = "\(keyBase).Activity.metric"
             put(key: key, value: item.activity.metric, baseOrLang: baseOrLang)
             // description (count)
             key = "\(keyBase).Explanation"

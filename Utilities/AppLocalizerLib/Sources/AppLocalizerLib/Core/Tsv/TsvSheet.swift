@@ -289,15 +289,25 @@ struct TsvSheet: TsvProtocol {
             r.key_apple = r.key_apple.replacingOccurrences(of: "\\[(.*)\\]\\[(.*)\\]", with: ".$1.$2", options: .regularExpression)
             // [a] -> .a
             r.key_apple = r.key_apple.replacingOccurrences(of: "\\[(.*)\\]", with: ".$1", options: .regularExpression)
+            
             // "Serving." -> ".Serving."
             r.key_apple = r.key_apple.replacingOccurrences( of: "Serving.", with: ".Serving.", options: .literal)
+            // change possible "..Serving" to ".Serving"
             r.key_apple = r.key_apple.replacingOccurrences( of: "..", with: ".", options: .literal)
+            
             // "VarietyText." -> ".Variety.Text."
             r.key_apple = r.key_apple.replacingOccurrences(of: "VarietyText.", with: ".Variety.Text.", options: .literal)
             // "segmentTitles.0" -> "segmentTitles[0]"
             r.key_apple = r.key_apple.replacingOccurrences(of: "segmentTitles.(.)", with: "segmentTitles[$1]", options: .regularExpression)
-            // :!!!:NYI: Tweak Activity
             
+            // .Imperial -> .imperial
+            r.key_apple = r.key_apple.replacingOccurrences(of: ".Imperial", with: ".imperial", options: .literal)
+            // .Metric -> .metric
+            r.key_apple = r.key_apple.replacingOccurrences(of: ".Metric", with: ".metric", options: .literal)
+            // .Topic -> .topic
+            r.key_apple = r.key_apple.replacingOccurrences(of: ".Topic", with: ".topic", options: .literal)
+            
+            // :!!!:NYI: Tweak Activity
             
             //if watch {
             //    print(":WATCH:AFTER: \(r.key_apple)")

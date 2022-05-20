@@ -1,4 +1,0 @@
-key_droid	key_apple	base_value	lang_value	base_note	lang_note
-test_newline_android	test_newline_apple	a\n\nb	a\n\nb	Use '\n\n' (with no spaces) to generate vertical (paragraph) spacing	
-test_singlequote_android	test_singlequote_apple	r's't	r's't		
-complete_intentions_text	tweakCompleteIntentions.text	“if X, then Y”\n\nperform as intended	“if X, then Y”\n\nperform as intended.		

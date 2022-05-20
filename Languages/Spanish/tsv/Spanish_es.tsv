@@ -8,17 +8,17 @@ serving_sizes	doze_detail_section_sizes	Serving Sizes	Tamaño de las porciones	D
 types	doze_detail_section_types	Types	Tipos	Doze Detail View subheading: ‘Types’	
 servings	doze_entry_header	Servings	Porciones	Doze Entry View heading: ‘Servings’	
 beans	dozeBeans.heading	Beans	Legumbres	heading for daily data entry item	
-	dozeBeans.Serving.Imperial.0	¼ cup of hummus or bean dip	¼ taza de hummus o untable de legumbres		
+	dozeBeans.Serving.imperial.0	¼ cup of hummus or bean dip	¼ taza de hummus o untable de legumbres		
 food_info_serving_sizes_beans_imperial.0	dozeBeans.Serving.imperial.0	¼ cup of hummus or bean dip	¼ taza		
-	dozeBeans.Serving.Imperial.1	½ cup cooked beans, split peas, lentils, tofu, or tempeh	½ taza de frijoles cocidos, arvejas partidas, lentejas, tofu o tempeh		
+	dozeBeans.Serving.imperial.1	½ cup cooked beans, split peas, lentils, tofu, or tempeh	½ taza de frijoles cocidos, arvejas partidas, lentejas, tofu o tempeh		
 food_info_serving_sizes_beans_imperial.1	dozeBeans.Serving.imperial.1	½ cup cooked beans, split peas, lentils, tofu, or tempeh	½ taza		
-	dozeBeans.Serving.Imperial.2	1 cup of fresh peas or sprouted lentils	1 taza de guisantes frescos o brotes de lentejas		
+	dozeBeans.Serving.imperial.2	1 cup of fresh peas or sprouted lentils	1 taza de guisantes frescos o brotes de lentejas		
 food_info_serving_sizes_beans_imperial.2	dozeBeans.Serving.imperial.2	1 cup of fresh peas or sprouted lentils	1 taza		
-	dozeBeans.Serving.Metric.0	60 g of hummus or bean dip	60 g de hummus o untable de legumbres		
+	dozeBeans.Serving.metric.0	60 g of hummus or bean dip	60 g de hummus o untable de legumbres		
 food_info_serving_sizes_beans_metric.0	dozeBeans.Serving.metric.0	60 g of hummus or bean dip	60 g of hummus or bean dip		
-	dozeBeans.Serving.Metric.1	130 g cooked beans, split peas, lentils, tofu, or tempeh	130 g de frijoles cocidos, arvejas partidas, lentejas, tofu o tempeh		
+	dozeBeans.Serving.metric.1	130 g cooked beans, split peas, lentils, tofu, or tempeh	130 g de frijoles cocidos, arvejas partidas, lentejas, tofu o tempeh		
 food_info_serving_sizes_beans_metric.1	dozeBeans.Serving.metric.1	130 g cooked beans, split peas, lentils, tofu, or tempeh	130 g cooked beans, split peas, lentils, tofu, or tempeh		
-	dozeBeans.Serving.Metric.2	150 g of fresh peas or sprouted lentils	150 g de guisantes frescos o brotes de lentejas		
+	dozeBeans.Serving.metric.2	150 g of fresh peas or sprouted lentils	150 g de guisantes frescos o brotes de lentejas		
 food_info_serving_sizes_beans_metric.2	dozeBeans.Serving.metric.2	150 g of fresh peas or sprouted lentils	150 g of fresh peas or sprouted lentils		
 	dozeBeans.topic	topics/beans	es/topics/legumbres-es		
 food_info_types_beans.0	dozeBeans.Variety.Text.0	Black beans	Frijoles negros		
@@ -37,30 +37,30 @@ food_info_types_beans.12	dozeBeans.Variety.Text.12	Pinto beans	Frijoles pintos
 food_info_types_beans.13	dozeBeans.Variety.Text.13	Small red beans	Frijoles rojos pequeños		
 food_info_types_beans.14	dozeBeans.Variety.Text.14	Split peas (yellow or green)	Guisantes partidos (amarillos o verdes)		
 food_info_types_beans.15	dozeBeans.Variety.Text.15	Tempeh	Tempeh		
-	dozeBeans.Variety.Topic.0	topics/black-beans	es/topics/frijoles-negros		
-	dozeBeans.Variety.Topic.1				
-	dozeBeans.Variety.Topic.2				
-	dozeBeans.Variety.Topic.3				
-	dozeBeans.Variety.Topic.4	topics/chickpeas	es/topics/garbanzos		
-	dozeBeans.Variety.Topic.5	topics/edamame	es/topics/edamame		
-	dozeBeans.Variety.Topic.6				
-	dozeBeans.Variety.Topic.7				
-	dozeBeans.Variety.Topic.8	topics/kidney-beans	es/topics/frijoles-rojos		
-	dozeBeans.Variety.Topic.9	topics/lentils	/es/topics/lentejas		
-	dozeBeans.Variety.Topic.10	topics/miso	es/topics/miso-es		
-	dozeBeans.Variety.Topic.11	topics/navy-beans	es/topics/frijoles-blancos		
-	dozeBeans.Variety.Topic.12	topics/pinto-beans	es/topics/frijoles-pintos		
-	dozeBeans.Variety.Topic.13				
-	dozeBeans.Variety.Topic.14	topics/split-peas	es/topics/guisantes-partidos		
-	dozeBeans.Variety.Topic.15	topics/tempeh	es/topics/tempeh-es		
+	dozeBeans.Variety.topic.0	topics/black-beans	es/topics/frijoles-negros		
+	dozeBeans.Variety.topic.1				
+	dozeBeans.Variety.topic.2				
+	dozeBeans.Variety.topic.3				
+	dozeBeans.Variety.topic.4	topics/chickpeas	es/topics/garbanzos		
+	dozeBeans.Variety.topic.5	topics/edamame	es/topics/edamame		
+	dozeBeans.Variety.topic.6				
+	dozeBeans.Variety.topic.7				
+	dozeBeans.Variety.topic.8	topics/kidney-beans	es/topics/frijoles-rojos		
+	dozeBeans.Variety.topic.9	topics/lentils	/es/topics/lentejas		
+	dozeBeans.Variety.topic.10	topics/miso	es/topics/miso-es		
+	dozeBeans.Variety.topic.11	topics/navy-beans	es/topics/frijoles-blancos		
+	dozeBeans.Variety.topic.12	topics/pinto-beans	es/topics/frijoles-pintos		
+	dozeBeans.Variety.topic.13				
+	dozeBeans.Variety.topic.14	topics/split-peas	es/topics/guisantes-partidos		
+	dozeBeans.Variety.topic.15	topics/tempeh	es/topics/tempeh-es		
 berries	dozeBerries.heading	Berries	Frutos rojos	heading for daily data entry item	
-	dozeBerries.Serving.Imperial.0	½ cup fresh or frozen	½ taza frescos o congelados		
+	dozeBerries.Serving.imperial.0	½ cup fresh or frozen	½ taza frescos o congelados		
 food_info_serving_sizes_berries_imperial.0	dozeBerries.Serving.imperial.0	½ cup fresh or frozen	½ taza		
-	dozeBerries.Serving.Imperial.1	¼ cup dried	¼ taza secos		
+	dozeBerries.Serving.imperial.1	¼ cup dried	¼ taza secos		
 food_info_serving_sizes_berries_imperial.1	dozeBerries.Serving.imperial.1	¼ cup dried	¼ taza		
-	dozeBerries.Serving.Metric.0	60 g fresh or frozen	60 g frescos o congelados		
+	dozeBerries.Serving.metric.0	60 g fresh or frozen	60 g frescos o congelados		
 food_info_serving_sizes_berries_metric.0	dozeBerries.Serving.metric.0	60 g fresh or frozen	60 g fresh or frozen		
-	dozeBerries.Serving.Metric.1	40 g dried	40 g secos		
+	dozeBerries.Serving.metric.1	40 g dried	40 g secos		
 food_info_serving_sizes_berries_metric.1	dozeBerries.Serving.metric.1	40 g dried	40 g dried		
 	dozeBerries.topic	topics/berries	es/topics/bayas-es		
 food_info_types_berries.0	dozeBerries.Variety.Text.0	Acai berries	Açai		
@@ -75,22 +75,22 @@ food_info_types_berries.8	dozeBerries.Variety.Text.8	Kumquats	Kumquats
 food_info_types_berries.9	dozeBerries.Variety.Text.9	Mulberries	Morera		
 food_info_types_berries.10	dozeBerries.Variety.Text.10	Raspberries (black or red)	Frambuesas (negras o rojas)		
 food_info_types_berries.11	dozeBerries.Variety.Text.11	Strawberries	Fresas		
-	dozeBerries.Variety.Topic.0	topics/acai-berries	/es/topics/bayas-de-acai-es		
-	dozeBerries.Variety.Topic.1	topics/barberries	es/topics/berberos-es		
-	dozeBerries.Variety.Topic.2	topics/blackberries	es/topics/moras		
-	dozeBerries.Variety.Topic.3	topics/blueberries	es/topics/arandanos-azules		
-	dozeBerries.Variety.Topic.4	topics/cherries	es/topics/cerezas		
-	dozeBerries.Variety.Topic.5	topics/concord-grapes	es/topics/uvas-de-concordia-es		
-	dozeBerries.Variety.Topic.6	topics/cranberries	es/topics/arandanos-es		
-	dozeBerries.Variety.Topic.7	topics/goji-berries	es/topics/goji		
-	dozeBerries.Variety.Topic.8				
-	dozeBerries.Variety.Topic.9				
-	dozeBerries.Variety.Topic.10	topics/raspberries	es/topics/frambuesas		
-	dozeBerries.Variety.Topic.11	topics/strawberries	es/topics/fresas		
+	dozeBerries.Variety.topic.0	topics/acai-berries	/es/topics/bayas-de-acai-es		
+	dozeBerries.Variety.topic.1	topics/barberries	es/topics/berberos-es		
+	dozeBerries.Variety.topic.2	topics/blackberries	es/topics/moras		
+	dozeBerries.Variety.topic.3	topics/blueberries	es/topics/arandanos-azules		
+	dozeBerries.Variety.topic.4	topics/cherries	es/topics/cerezas		
+	dozeBerries.Variety.topic.5	topics/concord-grapes	es/topics/uvas-de-concordia-es		
+	dozeBerries.Variety.topic.6	topics/cranberries	es/topics/arandanos-es		
+	dozeBerries.Variety.topic.7	topics/goji-berries	es/topics/goji		
+	dozeBerries.Variety.topic.8				
+	dozeBerries.Variety.topic.9				
+	dozeBerries.Variety.topic.10	topics/raspberries	es/topics/frambuesas		
+	dozeBerries.Variety.topic.11	topics/strawberries	es/topics/fresas		
 beverages	dozeBeverages.heading	Beverages	Bebidas	heading for daily data entry item	
-	dozeBeverages.Serving.Imperial.0	One glass (12 ounces)	Un vaso (12 onzas)		
+	dozeBeverages.Serving.imperial.0	One glass (12 ounces)	Un vaso (12 onzas)		
 food_info_serving_sizes_beverages_imperial.0	dozeBeverages.Serving.imperial.0	One glass (12 ounces)	12 onzas		
-	dozeBeverages.Serving.Metric.0	One glass (350 ml)	Un vaso (350 ml)		
+	dozeBeverages.Serving.metric.0	One glass (350 ml)	Un vaso (350 ml)		
 food_info_serving_sizes_beverages_metric.0	dozeBeverages.Serving.metric.0	One glass (350 ml)	One glass (350 ml)		
 	dozeBeverages.topic	topics/beverages	es/topics/bebidas		
 food_info_types_beverages.0	dozeBeverages.Variety.Text.0	Black tea	Té negro		
@@ -109,30 +109,30 @@ food_info_types_beverages.12	dozeBeverages.Variety.Text.12	Peppermint tea	Infusi
 food_info_types_beverages.13	dozeBeverages.Variety.Text.13	Rooibos tea	Infusión de rooibos		
 food_info_types_beverages.14	dozeBeverages.Variety.Text.14	Water	Agua		
 food_info_types_beverages.15	dozeBeverages.Variety.Text.15	White tea	Té blanco		
-	dozeBeverages.Variety.Topic.0	topics/black-tea	es/topics/te-negro		
-	dozeBeverages.Variety.Topic.1	topics/chai-tea	es/topics/te-chai		
-	dozeBeverages.Variety.Topic.2	topics/chamomile-tea	es/topics/te-de-manzanilla		
-	dozeBeverages.Variety.Topic.3	topics/coffee	es/topics/cafe		
-	dozeBeverages.Variety.Topic.4	topics/earl-grey-tea	es/topics/te-earl-grey-es		
-	dozeBeverages.Variety.Topic.5	topics/green-tea	es/topics/te-verde		
-	dozeBeverages.Variety.Topic.6	topics/hibiscus-tea	es/topics/hibiscus-tea-es		
-	dozeBeverages.Variety.Topic.7				
-	dozeBeverages.Variety.Topic.8	topics/jasmine-tea	es/topics/te-de-jasmin		
-	dozeBeverages.Variety.Topic.9				
-	dozeBeverages.Variety.Topic.10	topics/matcha	es/topics/matcha-es		
-	dozeBeverages.Variety.Topic.11	topics/oolong-tea	es/topics/te-oolong-es		
-	dozeBeverages.Variety.Topic.12				
-	dozeBeverages.Variety.Topic.13	topics/rooibos-tea	es/topics/te-rooibos-es		
-	dozeBeverages.Variety.Topic.14	topics/water	es/topics/agua		
-	dozeBeverages.Variety.Topic.15	topics/white-tea	es/topics/te-blanco		
+	dozeBeverages.Variety.topic.0	topics/black-tea	es/topics/te-negro		
+	dozeBeverages.Variety.topic.1	topics/chai-tea	es/topics/te-chai		
+	dozeBeverages.Variety.topic.2	topics/chamomile-tea	es/topics/te-de-manzanilla		
+	dozeBeverages.Variety.topic.3	topics/coffee	es/topics/cafe		
+	dozeBeverages.Variety.topic.4	topics/earl-grey-tea	es/topics/te-earl-grey-es		
+	dozeBeverages.Variety.topic.5	topics/green-tea	es/topics/te-verde		
+	dozeBeverages.Variety.topic.6	topics/hibiscus-tea	es/topics/hibiscus-tea-es		
+	dozeBeverages.Variety.topic.7				
+	dozeBeverages.Variety.topic.8	topics/jasmine-tea	es/topics/te-de-jasmin		
+	dozeBeverages.Variety.topic.9				
+	dozeBeverages.Variety.topic.10	topics/matcha	es/topics/matcha-es		
+	dozeBeverages.Variety.topic.11	topics/oolong-tea	es/topics/te-oolong-es		
+	dozeBeverages.Variety.topic.12				
+	dozeBeverages.Variety.topic.13	topics/rooibos-tea	es/topics/te-rooibos-es		
+	dozeBeverages.Variety.topic.14	topics/water	es/topics/agua		
+	dozeBeverages.Variety.topic.15	topics/white-tea	es/topics/te-blanco		
 exercise	dozeExercise.heading	Exercise	Ejercicio	heading for daily data entry item	
-	dozeExercise.Serving.Imperial.0	90 minutes of moderate-intensity activity	90 minutos de actividad moderada		
+	dozeExercise.Serving.imperial.0	90 minutes of moderate-intensity activity	90 minutos de actividad moderada		
 food_info_serving_sizes_exercise_imperial.0	dozeExercise.Serving.imperial.0	90 minutes of moderate-intensity activity	90		
-	dozeExercise.Serving.Imperial.1	40 minutes of vigorous-intensity activity	40 minutos de actividad vigorosa		
+	dozeExercise.Serving.imperial.1	40 minutes of vigorous-intensity activity	40 minutos de actividad vigorosa		
 food_info_serving_sizes_exercise_imperial.1	dozeExercise.Serving.imperial.1	40 minutes of vigorous-intensity activity	40		
-	dozeExercise.Serving.Metric.0	90 minutes of moderate-intensity activity	90 minutos de actividad moderada		
+	dozeExercise.Serving.metric.0	90 minutes of moderate-intensity activity	90 minutos de actividad moderada		
 food_info_serving_sizes_exercise_metric.0	dozeExercise.Serving.metric.0	90 minutes of moderate-intensity activity	90		
-	dozeExercise.Serving.Metric.1	40 minutes of vigorous-intensity activity	40 minutos de actividad vigorosa		
+	dozeExercise.Serving.metric.1	40 minutes of vigorous-intensity activity	40 minutos de actividad vigorosa		
 food_info_serving_sizes_exercise_metric.1	dozeExercise.Serving.metric.1	40 minutes of vigorous-intensity activity	40		
 	dozeExercise.topic	topics/exercise	es/topics/ejercicio		
 food_info_types_exercise.0	dozeExercise.Variety.Text.0	Bicycling	Bicicleta		
@@ -189,82 +189,82 @@ food_info_types_exercise.50	dozeExercise.Variety.Text.50	Step aerobics	Step
 food_info_types_exercise.51	dozeExercise.Variety.Text.51	Swimming laps	Natación		
 food_info_types_exercise.52	dozeExercise.Variety.Text.52	Walking briskly uphill	Caminata rápida cuesta arriba		
 food_info_types_exercise.53	dozeExercise.Variety.Text.53	Water jogging	Trotar en agua		
-	dozeExercise.Variety.Topic.0				
-	dozeExercise.Variety.Topic.1				
-	dozeExercise.Variety.Topic.2				
-	dozeExercise.Variety.Topic.3				
-	dozeExercise.Variety.Topic.4				
-	dozeExercise.Variety.Topic.5				
-	dozeExercise.Variety.Topic.6				
-	dozeExercise.Variety.Topic.7				
-	dozeExercise.Variety.Topic.8				
-	dozeExercise.Variety.Topic.9				
-	dozeExercise.Variety.Topic.10				
-	dozeExercise.Variety.Topic.11				
-	dozeExercise.Variety.Topic.12				
-	dozeExercise.Variety.Topic.13				
-	dozeExercise.Variety.Topic.14				
-	dozeExercise.Variety.Topic.15				
-	dozeExercise.Variety.Topic.16				
-	dozeExercise.Variety.Topic.17				
-	dozeExercise.Variety.Topic.18				
-	dozeExercise.Variety.Topic.19				
-	dozeExercise.Variety.Topic.20				
-	dozeExercise.Variety.Topic.21				
-	dozeExercise.Variety.Topic.22				
-	dozeExercise.Variety.Topic.23				
-	dozeExercise.Variety.Topic.24				
-	dozeExercise.Variety.Topic.25				
-	dozeExercise.Variety.Topic.26				
-	dozeExercise.Variety.Topic.27				
-	dozeExercise.Variety.Topic.28				
-	dozeExercise.Variety.Topic.29				
-	dozeExercise.Variety.Topic.30				
-	dozeExercise.Variety.Topic.31				
-	dozeExercise.Variety.Topic.32				
-	dozeExercise.Variety.Topic.33				
-	dozeExercise.Variety.Topic.34				
-	dozeExercise.Variety.Topic.35				
-	dozeExercise.Variety.Topic.36				
-	dozeExercise.Variety.Topic.37				
-	dozeExercise.Variety.Topic.38				
-	dozeExercise.Variety.Topic.39				
-	dozeExercise.Variety.Topic.40				
-	dozeExercise.Variety.Topic.41				
-	dozeExercise.Variety.Topic.42				
-	dozeExercise.Variety.Topic.43				
-	dozeExercise.Variety.Topic.44				
-	dozeExercise.Variety.Topic.45				
-	dozeExercise.Variety.Topic.46				
-	dozeExercise.Variety.Topic.47				
-	dozeExercise.Variety.Topic.48				
-	dozeExercise.Variety.Topic.49				
-	dozeExercise.Variety.Topic.50				
-	dozeExercise.Variety.Topic.51				
-	dozeExercise.Variety.Topic.52				
-	dozeExercise.Variety.Topic.53				
+	dozeExercise.Variety.topic.0				
+	dozeExercise.Variety.topic.1				
+	dozeExercise.Variety.topic.2				
+	dozeExercise.Variety.topic.3				
+	dozeExercise.Variety.topic.4				
+	dozeExercise.Variety.topic.5				
+	dozeExercise.Variety.topic.6				
+	dozeExercise.Variety.topic.7				
+	dozeExercise.Variety.topic.8				
+	dozeExercise.Variety.topic.9				
+	dozeExercise.Variety.topic.10				
+	dozeExercise.Variety.topic.11				
+	dozeExercise.Variety.topic.12				
+	dozeExercise.Variety.topic.13				
+	dozeExercise.Variety.topic.14				
+	dozeExercise.Variety.topic.15				
+	dozeExercise.Variety.topic.16				
+	dozeExercise.Variety.topic.17				
+	dozeExercise.Variety.topic.18				
+	dozeExercise.Variety.topic.19				
+	dozeExercise.Variety.topic.20				
+	dozeExercise.Variety.topic.21				
+	dozeExercise.Variety.topic.22				
+	dozeExercise.Variety.topic.23				
+	dozeExercise.Variety.topic.24				
+	dozeExercise.Variety.topic.25				
+	dozeExercise.Variety.topic.26				
+	dozeExercise.Variety.topic.27				
+	dozeExercise.Variety.topic.28				
+	dozeExercise.Variety.topic.29				
+	dozeExercise.Variety.topic.30				
+	dozeExercise.Variety.topic.31				
+	dozeExercise.Variety.topic.32				
+	dozeExercise.Variety.topic.33				
+	dozeExercise.Variety.topic.34				
+	dozeExercise.Variety.topic.35				
+	dozeExercise.Variety.topic.36				
+	dozeExercise.Variety.topic.37				
+	dozeExercise.Variety.topic.38				
+	dozeExercise.Variety.topic.39				
+	dozeExercise.Variety.topic.40				
+	dozeExercise.Variety.topic.41				
+	dozeExercise.Variety.topic.42				
+	dozeExercise.Variety.topic.43				
+	dozeExercise.Variety.topic.44				
+	dozeExercise.Variety.topic.45				
+	dozeExercise.Variety.topic.46				
+	dozeExercise.Variety.topic.47				
+	dozeExercise.Variety.topic.48				
+	dozeExercise.Variety.topic.49				
+	dozeExercise.Variety.topic.50				
+	dozeExercise.Variety.topic.51				
+	dozeExercise.Variety.topic.52				
+	dozeExercise.Variety.topic.53				
 flaxseeds	dozeFlaxseeds.heading	Flaxseeds	Linaza	heading for daily data entry item	
-	dozeFlaxseeds.Serving.Imperial.0	1 tablespoon ground	1 cucharada molida		
+	dozeFlaxseeds.Serving.imperial.0	1 tablespoon ground	1 cucharada molida		
 food_info_serving_sizes_flaxseeds_imperial.0	dozeFlaxseeds.Serving.imperial.0	1 tablespoon ground	1 cucharada		
-	dozeFlaxseeds.Serving.Metric.0	1 tablespoon ground	1 cucharada molida		
+	dozeFlaxseeds.Serving.metric.0	1 tablespoon ground	1 cucharada molida		
 food_info_serving_sizes_flaxseeds_metric.0	dozeFlaxseeds.Serving.metric.0	1 tablespoon ground	1 cucharada		
 	dozeFlaxseeds.topic	topics/flax-seeds	es/topics/semillas-de-linaza		
 food_info_types_flaxseeds.0	dozeFlaxseeds.Variety.Text.0	Brown flaxseeds	Linaza marrón		
 food_info_types_flaxseeds.1	dozeFlaxseeds.Variety.Text.1	Golden flaxseeds	Linaza dorada		
-	dozeFlaxseeds.Variety.Topic.0				
-	dozeFlaxseeds.Variety.Topic.1				
+	dozeFlaxseeds.Variety.topic.0				
+	dozeFlaxseeds.Variety.topic.1				
 other_fruits	dozeFruitsOther.heading	Other Fruits	Otras frutas	heading for daily data entry item	
-	dozeFruitsOther.Serving.Imperial.0	1 medium-sized fruit	1 fruta de tamaño medio		
+	dozeFruitsOther.Serving.imperial.0	1 medium-sized fruit	1 fruta de tamaño medio		
 food_info_serving_sizes_other_fruits_imperial.0	dozeFruitsOther.Serving.imperial.0	1 medium-sized fruit	1		
-	dozeFruitsOther.Serving.Imperial.1	1 cup cut-up fruit	1 taza de fruta picada		
+	dozeFruitsOther.Serving.imperial.1	1 cup cut-up fruit	1 taza de fruta picada		
 food_info_serving_sizes_other_fruits_imperial.1	dozeFruitsOther.Serving.imperial.1	1 cup cut-up fruit	1 taza		
-	dozeFruitsOther.Serving.Imperial.2	¼ cup dried fruit	¼ taza de fruta seca		
+	dozeFruitsOther.Serving.imperial.2	¼ cup dried fruit	¼ taza de fruta seca		
 food_info_serving_sizes_other_fruits_imperial.2	dozeFruitsOther.Serving.imperial.2	¼ cup dried fruit	¼ taza		
-	dozeFruitsOther.Serving.Metric.0	1 medium-sized fruit	1 fruta de tamaño medio		
+	dozeFruitsOther.Serving.metric.0	1 medium-sized fruit	1 fruta de tamaño medio		
 food_info_serving_sizes_other_fruits_metric.0	dozeFruitsOther.Serving.metric.0	1 medium-sized fruit	1		
-	dozeFruitsOther.Serving.Metric.1	120 g cut-up fruit	120 g de fruta picada		
+	dozeFruitsOther.Serving.metric.1	120 g cut-up fruit	120 g de fruta picada		
 food_info_serving_sizes_other_fruits_metric.1	dozeFruitsOther.Serving.metric.1	120 g cut-up fruit	120 g cut-up fruit		
-	dozeFruitsOther.Serving.Metric.2	40 g dried fruit	40 g de fruta seca		
+	dozeFruitsOther.Serving.metric.2	40 g dried fruit	40 g de fruta seca		
 food_info_serving_sizes_other_fruits_metric.2	dozeFruitsOther.Serving.metric.2	40 g dried fruit	40 g dried fruit		
 	dozeFruitsOther.topic				
 food_info_types_other_fruits.0	dozeFruitsOther.Variety.Text.0	Apples	Manzanas		
@@ -295,42 +295,42 @@ food_info_types_other_fruits.24	dozeFruitsOther.Variety.Text.24	Pomegranates	Gra
 food_info_types_other_fruits.25	dozeFruitsOther.Variety.Text.25	Prunes	Ciruelas pasas		
 food_info_types_other_fruits.26	dozeFruitsOther.Variety.Text.26	Tangerines	Mandarinas		
 food_info_types_other_fruits.27	dozeFruitsOther.Variety.Text.27	Watermelon	Sandía		
-	dozeFruitsOther.Variety.Topic.0	topics/apples	es/topics/manzanas		
-	dozeFruitsOther.Variety.Topic.1	topics/apricots	es/topics/albaricoques		
-	dozeFruitsOther.Variety.Topic.2	topics/avocados	es/topics/aguacates		
-	dozeFruitsOther.Variety.Topic.3	topics/bananas	es/topics/bananos		
-	dozeFruitsOther.Variety.Topic.4	topics/cantaloupe	es/topics/melon		
-	dozeFruitsOther.Variety.Topic.5				
-	dozeFruitsOther.Variety.Topic.6	topics/dates	es/topics/datiles		
-	dozeFruitsOther.Variety.Topic.7	topics/figs	es/topics/higos		
-	dozeFruitsOther.Variety.Topic.8	topics/grapefruit	es/topics/toronja		
-	dozeFruitsOther.Variety.Topic.9				
-	dozeFruitsOther.Variety.Topic.10	topics/kiwifruit	es/topics/kiwi		
-	dozeFruitsOther.Variety.Topic.11	topics/lemons	topics/lemons		
-	dozeFruitsOther.Variety.Topic.12	topics/limes	es/topics/limas		
-	dozeFruitsOther.Variety.Topic.13				
-	dozeFruitsOther.Variety.Topic.14	topics/mango	es/topics/mango-es		
-	dozeFruitsOther.Variety.Topic.15				
-	dozeFruitsOther.Variety.Topic.16	topics/oranges	es/topics/naranjas		
-	dozeFruitsOther.Variety.Topic.17	topics/papaya	es/topics/papaya-es		
-	dozeFruitsOther.Variety.Topic.18				
-	dozeFruitsOther.Variety.Topic.19	topics/peaches	es/topics/duraznos-es		
-	dozeFruitsOther.Variety.Topic.20	topics/pears	es/topics/peras-es		
-	dozeFruitsOther.Variety.Topic.21	topics/pineapples	/es/topics/pinas		
-	dozeFruitsOther.Variety.Topic.22	topics/plums	es/topics/ciruelas		
-	dozeFruitsOther.Variety.Topic.23				
-	dozeFruitsOther.Variety.Topic.24	topics/pomegranates	es/topics/granadas		
-	dozeFruitsOther.Variety.Topic.25	topics/prunes	es/topics/ciruelas-pasas		
-	dozeFruitsOther.Variety.Topic.26				
-	dozeFruitsOther.Variety.Topic.27	topics/watermelon	es/topics/sandia		
+	dozeFruitsOther.Variety.topic.0	topics/apples	es/topics/manzanas		
+	dozeFruitsOther.Variety.topic.1	topics/apricots	es/topics/albaricoques		
+	dozeFruitsOther.Variety.topic.2	topics/avocados	es/topics/aguacates		
+	dozeFruitsOther.Variety.topic.3	topics/bananas	es/topics/bananos		
+	dozeFruitsOther.Variety.topic.4	topics/cantaloupe	es/topics/melon		
+	dozeFruitsOther.Variety.topic.5				
+	dozeFruitsOther.Variety.topic.6	topics/dates	es/topics/datiles		
+	dozeFruitsOther.Variety.topic.7	topics/figs	es/topics/higos		
+	dozeFruitsOther.Variety.topic.8	topics/grapefruit	es/topics/toronja		
+	dozeFruitsOther.Variety.topic.9				
+	dozeFruitsOther.Variety.topic.10	topics/kiwifruit	es/topics/kiwi		
+	dozeFruitsOther.Variety.topic.11	topics/lemons	topics/lemons		
+	dozeFruitsOther.Variety.topic.12	topics/limes	es/topics/limas		
+	dozeFruitsOther.Variety.topic.13				
+	dozeFruitsOther.Variety.topic.14	topics/mango	es/topics/mango-es		
+	dozeFruitsOther.Variety.topic.15				
+	dozeFruitsOther.Variety.topic.16	topics/oranges	es/topics/naranjas		
+	dozeFruitsOther.Variety.topic.17	topics/papaya	es/topics/papaya-es		
+	dozeFruitsOther.Variety.topic.18				
+	dozeFruitsOther.Variety.topic.19	topics/peaches	es/topics/duraznos-es		
+	dozeFruitsOther.Variety.topic.20	topics/pears	es/topics/peras-es		
+	dozeFruitsOther.Variety.topic.21	topics/pineapples	/es/topics/pinas		
+	dozeFruitsOther.Variety.topic.22	topics/plums	es/topics/ciruelas		
+	dozeFruitsOther.Variety.topic.23				
+	dozeFruitsOther.Variety.topic.24	topics/pomegranates	es/topics/granadas		
+	dozeFruitsOther.Variety.topic.25	topics/prunes	es/topics/ciruelas-pasas		
+	dozeFruitsOther.Variety.topic.26				
+	dozeFruitsOther.Variety.topic.27	topics/watermelon	es/topics/sandia		
 greens	dozeGreens.heading	Greens	Verduras de hoja verde	heading for daily data entry item	
-	dozeGreens.Serving.Imperial.0	1 cup raw	1 taza cruda		
+	dozeGreens.Serving.imperial.0	1 cup raw	1 taza cruda		
 food_info_serving_sizes_greens_imperial.0	dozeGreens.Serving.imperial.0	1 cup raw	1 taza		
-	dozeGreens.Serving.Imperial.1	½ cup cooked	½ taza cocida		
+	dozeGreens.Serving.imperial.1	½ cup cooked	½ taza cocida		
 food_info_serving_sizes_greens_imperial.1	dozeGreens.Serving.imperial.1	½ cup cooked	½ taza		
-	dozeGreens.Serving.Metric.0	60 g raw	60 g cruda		
+	dozeGreens.Serving.metric.0	60 g raw	60 g cruda		
 food_info_serving_sizes_greens_metric.0	dozeGreens.Serving.metric.0	60 g raw	60 g raw		
-	dozeGreens.Serving.Metric.1	90 g cooked	90 g cocida		
+	dozeGreens.Serving.metric.1	90 g cooked	90 g cocida		
 food_info_serving_sizes_greens_metric.1	dozeGreens.Serving.metric.1	90 g cooked	90 g cooked		
 	dozeGreens.topic	topics/greens	es/topics/verduras		
 food_info_types_greens.0	dozeGreens.Variety.Text.0	Arugula	Rúcula		
@@ -343,24 +343,24 @@ food_info_types_greens.6	dozeGreens.Variety.Text.6	Sorrel	Alazán
 food_info_types_greens.7	dozeGreens.Variety.Text.7	Spinach	Espinaca		
 food_info_types_greens.8	dozeGreens.Variety.Text.8	Swiss chard	Acelga		
 food_info_types_greens.9	dozeGreens.Variety.Text.9	Turnip greens	Nabos verdes		
-	dozeGreens.Variety.Topic.0				
-	dozeGreens.Variety.Topic.1	topics/beet-greens	es/topics/hojas-de-remolacha-es		
-	dozeGreens.Variety.Topic.2	topics/collard-greens			
-	dozeGreens.Variety.Topic.3	topics/kale	es/topics/col-rizada-es		
-	dozeGreens.Variety.Topic.4	topics/mesclun-mix	es/topics/ensalada-mesclun-es		
-	dozeGreens.Variety.Topic.5	topics/mustard-greens	es/topics/hojas-de-mostaza		
-	dozeGreens.Variety.Topic.6				
-	dozeGreens.Variety.Topic.7	topics/spinach	es/topics/espinaca		
-	dozeGreens.Variety.Topic.8	topics/swiss-chard	es/topics/acelga-es		
-	dozeGreens.Variety.Topic.9	topics/turnips	es/topics/nabos		
+	dozeGreens.Variety.topic.0				
+	dozeGreens.Variety.topic.1	topics/beet-greens	es/topics/hojas-de-remolacha-es		
+	dozeGreens.Variety.topic.2	topics/collard-greens			
+	dozeGreens.Variety.topic.3	topics/kale	es/topics/col-rizada-es		
+	dozeGreens.Variety.topic.4	topics/mesclun-mix	es/topics/ensalada-mesclun-es		
+	dozeGreens.Variety.topic.5	topics/mustard-greens	es/topics/hojas-de-mostaza		
+	dozeGreens.Variety.topic.6				
+	dozeGreens.Variety.topic.7	topics/spinach	es/topics/espinaca		
+	dozeGreens.Variety.topic.8	topics/swiss-chard	es/topics/acelga-es		
+	dozeGreens.Variety.topic.9	topics/turnips	es/topics/nabos		
 nuts	dozeNuts.heading	Nuts and Seeds	Frutos secos	heading for daily data entry item	
-	dozeNuts.Serving.Imperial.0	¼ cup nuts or seeds	¼ taza de frutos secos o semillas		
+	dozeNuts.Serving.imperial.0	¼ cup nuts or seeds	¼ taza de frutos secos o semillas		
 food_info_serving_sizes_nuts_imperial.0	dozeNuts.Serving.imperial.0	¼ cup nuts or seeds	¼ taza		
-	dozeNuts.Serving.Imperial.1	2 tablespoons nut or seed butter	2 cucharadas de mantequilla de frutos secos o semillas		
+	dozeNuts.Serving.imperial.1	2 tablespoons nut or seed butter	2 cucharadas de mantequilla de frutos secos o semillas		
 food_info_serving_sizes_nuts_imperial.1	dozeNuts.Serving.imperial.1	2 tablespoons nut or seed butter	2 cucharadas		
-	dozeNuts.Serving.Metric.0	30 g nuts or seeds	30 g de frutos secos o semillas		
+	dozeNuts.Serving.metric.0	30 g nuts or seeds	30 g de frutos secos o semillas		
 food_info_serving_sizes_nuts_metric.0	dozeNuts.Serving.metric.0	30 g nuts or seeds	30 g nuts or seeds		
-	dozeNuts.Serving.Metric.1	2 tablespoons nut or seed butter	2 cucharadas de mantequilla de frutos secos o semillas		
+	dozeNuts.Serving.metric.1	2 tablespoons nut or seed butter	2 cucharadas de mantequilla de frutos secos o semillas		
 food_info_serving_sizes_nuts_metric.1	dozeNuts.Serving.metric.1	2 tablespoons nut or seed butter	2 cucharadas		
 	dozeNuts.topic	topics/nuts	es/topics/nueces		
 food_info_types_nuts.0	dozeNuts.Variety.Text.0	Almonds	Almendras		
@@ -376,31 +376,31 @@ food_info_types_nuts.9	dozeNuts.Variety.Text.9	Pumpkin seeds	Semillas de calabaz
 food_info_types_nuts.10	dozeNuts.Variety.Text.10	Sesame seeds	Semillas de sésamo		
 food_info_types_nuts.11	dozeNuts.Variety.Text.11	Sunflower seeds	Semillas de girasol		
 food_info_types_nuts.12	dozeNuts.Variety.Text.12	Walnuts	Nueces		
-	dozeNuts.Variety.Topic.0	topics/almonds	es/topics/almendras		
-	dozeNuts.Variety.Topic.1	topics/brazil-nuts	es/topics/nueces-de-brasil-es		
-	dozeNuts.Variety.Topic.2	topics/cashews	es/topics/anacardos		
-	dozeNuts.Variety.Topic.3	topics/chia-seeds	es/topics/semillas-de-chia		
-	dozeNuts.Variety.Topic.4	topics/hazelnuts	es/topics/avellanas-es		
-	dozeNuts.Variety.Topic.5				
-	dozeNuts.Variety.Topic.6	topics/macadamia-nuts	es/topics/nueces-de-macadamia		
-	dozeNuts.Variety.Topic.7	topics/pecans	es/topics/nuez-pecana		
-	dozeNuts.Variety.Topic.8	topics/pistachios	es/topics/pistachos		
-	dozeNuts.Variety.Topic.9	topics/pumpkin-seeds	es/topics/semillas-de-calabaza		
-	dozeNuts.Variety.Topic.10	topics/sesame-seeds	es/topics/ajonjoli		
-	dozeNuts.Variety.Topic.11	topics/sunflower-seeds	es/topics/semillas-de-girasol		
-	dozeNuts.Variety.Topic.12	topics/walnuts	es/topics/nueces-es		
+	dozeNuts.Variety.topic.0	topics/almonds	es/topics/almendras		
+	dozeNuts.Variety.topic.1	topics/brazil-nuts	es/topics/nueces-de-brasil-es		
+	dozeNuts.Variety.topic.2	topics/cashews	es/topics/anacardos		
+	dozeNuts.Variety.topic.3	topics/chia-seeds	es/topics/semillas-de-chia		
+	dozeNuts.Variety.topic.4	topics/hazelnuts	es/topics/avellanas-es		
+	dozeNuts.Variety.topic.5				
+	dozeNuts.Variety.topic.6	topics/macadamia-nuts	es/topics/nueces-de-macadamia		
+	dozeNuts.Variety.topic.7	topics/pecans	es/topics/nuez-pecana		
+	dozeNuts.Variety.topic.8	topics/pistachios	es/topics/pistachos		
+	dozeNuts.Variety.topic.9	topics/pumpkin-seeds	es/topics/semillas-de-calabaza		
+	dozeNuts.Variety.topic.10	topics/sesame-seeds	es/topics/ajonjoli		
+	dozeNuts.Variety.topic.11	topics/sunflower-seeds	es/topics/semillas-de-girasol		
+	dozeNuts.Variety.topic.12	topics/walnuts	es/topics/nueces-es		
 	dozeOtherInfo.confirm	OK	OK		
 	dozeOtherInfo.message	Vitamin B12 is essential for your health but does not count towards your daily servings.\n\nVitamin B12 is included in this app to provide you with an easy way to track your intake.	La vitamina B12 es esencial para la salud, pero no cuenta para las porciones diarias.ⓃⓃLa Vitamina B12 se incluye en esta aplicación para proporcionarte una manera fácil de realizar un seguimiento de su ingesta.	Daily Dozen supplement info alert: message	
 	dozeOtherInfo.section	Supplements	Suplementos	Daily Dozen daily entry section heading	
 	dozeOtherInfo.title	Supplements	Suplementos	Daily Dozen supplement info alert: title	
 spices	dozeSpices.heading	Herbs and Spices	Especias	heading for daily data entry item	
-	dozeSpices.Serving.Imperial.0	¼ teaspoon of turmeric	¼ cucharadita de cúrcuma		
+	dozeSpices.Serving.imperial.0	¼ teaspoon of turmeric	¼ cucharadita de cúrcuma		
 food_info_serving_sizes_spices_imperial.0	dozeSpices.Serving.imperial.0	¼ teaspoon of turmeric	¼ cucharadita		
-	dozeSpices.Serving.Imperial.1	Any other (salt-free) herbs and spices you enjoy	Cualquier otra especia (sin sal)		
+	dozeSpices.Serving.imperial.1	Any other (salt-free) herbs and spices you enjoy	Cualquier otra especia (sin sal)		
 food_info_serving_sizes_spices_imperial.1	dozeSpices.Serving.imperial.1	Any other (salt-free) herbs and spices you enjoy	Any other (salt-free) herbs and spices you enjoy		
-	dozeSpices.Serving.Metric.0	¼ teaspoon of turmeric	¼ cucharadita de cúrcuma		
+	dozeSpices.Serving.metric.0	¼ teaspoon of turmeric	¼ cucharadita de cúrcuma		
 food_info_serving_sizes_spices_metric.0	dozeSpices.Serving.metric.0	¼ teaspoon of turmeric	¼ cucharadita		
-	dozeSpices.Serving.Metric.1	Any other (salt-free) herbs and spices you enjoy	Cualquier otra especia (sin sal)		
+	dozeSpices.Serving.metric.1	Any other (salt-free) herbs and spices you enjoy	Cualquier otra especia (sin sal)		
 food_info_serving_sizes_spices_metric.1	dozeSpices.Serving.metric.1	Any other (salt-free) herbs and spices you enjoy	Any other (salt-free) herbs and spices you enjoy		
 	dozeSpices.topic	topics/spices	es/topics/especias		
 food_info_types_spices.0	dozeSpices.Variety.Text.0	Allspice	Pimienta de Jamaica		
@@ -435,50 +435,50 @@ food_info_types_spices.28	dozeSpices.Variety.Text.28	Sage	Salvia
 food_info_types_spices.29	dozeSpices.Variety.Text.29	Thyme	Tomillo		
 food_info_types_spices.30	dozeSpices.Variety.Text.30	Turmeric	Cúrcuma		
 food_info_types_spices.31	dozeSpices.Variety.Text.31	Vanilla	Vainilla		
-	dozeSpices.Variety.Topic.0	topics/allspice			
-	dozeSpices.Variety.Topic.1	topics/barberries	es/topics/berberos-es		
-	dozeSpices.Variety.Topic.2	topics/basil	es/topics/albahaca		
-	dozeSpices.Variety.Topic.3				
-	dozeSpices.Variety.Topic.4	topics/cardamom	es/topics/cardamomo		
-	dozeSpices.Variety.Topic.5				
-	dozeSpices.Variety.Topic.6	topics/cilantro	es/topics/cilantro-es		
-	dozeSpices.Variety.Topic.7	topics/cinnamon	es/topics/canela		
-	dozeSpices.Variety.Topic.8	topics/cloves	es/topics/clavos-de-olor		
-	dozeSpices.Variety.Topic.9	topics/coriander	es/topics/cilantro-es-2		
-	dozeSpices.Variety.Topic.10	topics/cumin	es/topics/comino		
-	dozeSpices.Variety.Topic.11	topics/curry-powder	es/topics/curry-en-polvo		
-	dozeSpices.Variety.Topic.12				
-	dozeSpices.Variety.Topic.13	topics/fenugreek	es/topics/fenogreco		
-	dozeSpices.Variety.Topic.14	topics/garlic	es/topics/ajo		
-	dozeSpices.Variety.Topic.15	topics/ginger	es/topics/jengibre		
-	dozeSpices.Variety.Topic.16				
-	dozeSpices.Variety.Topic.17	topics/lemongrass	es/topics/limoncillo-es		
-	dozeSpices.Variety.Topic.18	topics/marjoram	es/topics/mejorana		
-	dozeSpices.Variety.Topic.19	topics/mustard-powder	es/topics/mostaza-en-polvo		
-	dozeSpices.Variety.Topic.20	topics/nutmeg	es/topics/nuez-moscada		
-	dozeSpices.Variety.Topic.21	topics/oregano	es/topics/oregano-es		
-	dozeSpices.Variety.Topic.22	topics/paprika			
-	dozeSpices.Variety.Topic.23	topics/parsley	es/topics/perejil		
-	dozeSpices.Variety.Topic.24	topics/pepper	es/topics/pimienta		
-	dozeSpices.Variety.Topic.25	topics/peppermint	es/topics/menta-es		
-	dozeSpices.Variety.Topic.26	topics/rosemary	es/topics/romero		
-	dozeSpices.Variety.Topic.27	topics/saffron	es/topics/azafran		
-	dozeSpices.Variety.Topic.28				
-	dozeSpices.Variety.Topic.29	topics/thyme	es/topics/tomillo		
-	dozeSpices.Variety.Topic.30	topics/turmeric	es/topics/curcuma		
-	dozeSpices.Variety.Topic.31				
+	dozeSpices.Variety.topic.0	topics/allspice			
+	dozeSpices.Variety.topic.1	topics/barberries	es/topics/berberos-es		
+	dozeSpices.Variety.topic.2	topics/basil	es/topics/albahaca		
+	dozeSpices.Variety.topic.3				
+	dozeSpices.Variety.topic.4	topics/cardamom	es/topics/cardamomo		
+	dozeSpices.Variety.topic.5				
+	dozeSpices.Variety.topic.6	topics/cilantro	es/topics/cilantro-es		
+	dozeSpices.Variety.topic.7	topics/cinnamon	es/topics/canela		
+	dozeSpices.Variety.topic.8	topics/cloves	es/topics/clavos-de-olor		
+	dozeSpices.Variety.topic.9	topics/coriander	es/topics/cilantro-es-2		
+	dozeSpices.Variety.topic.10	topics/cumin	es/topics/comino		
+	dozeSpices.Variety.topic.11	topics/curry-powder	es/topics/curry-en-polvo		
+	dozeSpices.Variety.topic.12				
+	dozeSpices.Variety.topic.13	topics/fenugreek	es/topics/fenogreco		
+	dozeSpices.Variety.topic.14	topics/garlic	es/topics/ajo		
+	dozeSpices.Variety.topic.15	topics/ginger	es/topics/jengibre		
+	dozeSpices.Variety.topic.16				
+	dozeSpices.Variety.topic.17	topics/lemongrass	es/topics/limoncillo-es		
+	dozeSpices.Variety.topic.18	topics/marjoram	es/topics/mejorana		
+	dozeSpices.Variety.topic.19	topics/mustard-powder	es/topics/mostaza-en-polvo		
+	dozeSpices.Variety.topic.20	topics/nutmeg	es/topics/nuez-moscada		
+	dozeSpices.Variety.topic.21	topics/oregano	es/topics/oregano-es		
+	dozeSpices.Variety.topic.22	topics/paprika			
+	dozeSpices.Variety.topic.23	topics/parsley	es/topics/perejil		
+	dozeSpices.Variety.topic.24	topics/pepper	es/topics/pimienta		
+	dozeSpices.Variety.topic.25	topics/peppermint	es/topics/menta-es		
+	dozeSpices.Variety.topic.26	topics/rosemary	es/topics/romero		
+	dozeSpices.Variety.topic.27	topics/saffron	es/topics/azafran		
+	dozeSpices.Variety.topic.28				
+	dozeSpices.Variety.topic.29	topics/thyme	es/topics/tomillo		
+	dozeSpices.Variety.topic.30	topics/turmeric	es/topics/curcuma		
+	dozeSpices.Variety.topic.31				
 cruciferous_vegetables	dozeVegetablesCruciferous.heading	Cruciferous Vegetables	Crucíferas	heading for daily data entry item	
-	dozeVegetablesCruciferous.Serving.Imperial.0	½ cup chopped	½ taza picadas		
+	dozeVegetablesCruciferous.Serving.imperial.0	½ cup chopped	½ taza picadas		
 food_info_serving_sizes_cruciferous_vegetables_imperial.0	dozeVegetablesCruciferous.Serving.imperial.0	½ cup chopped	½ taza		
-	dozeVegetablesCruciferous.Serving.Imperial.1	¼ cup Brussels or broccoli sprouts	¼ taza de coles de Bruselas o brotes de brócoli		
+	dozeVegetablesCruciferous.Serving.imperial.1	¼ cup Brussels or broccoli sprouts	¼ taza de coles de Bruselas o brotes de brócoli		
 food_info_serving_sizes_cruciferous_vegetables_imperial.1	dozeVegetablesCruciferous.Serving.imperial.1	¼ cup Brussels or broccoli sprouts	¼ taza		
-	dozeVegetablesCruciferous.Serving.Imperial.2	1 tablespoon horseradish	1 cucharada de rábano picante		
+	dozeVegetablesCruciferous.Serving.imperial.2	1 tablespoon horseradish	1 cucharada de rábano picante		
 food_info_serving_sizes_cruciferous_vegetables_imperial.2	dozeVegetablesCruciferous.Serving.imperial.2	1 tablespoon horseradish	1 cucharada		
-	dozeVegetablesCruciferous.Serving.Metric.0	30–80 g chopped	30–80 g picadas		
+	dozeVegetablesCruciferous.Serving.metric.0	30–80 g chopped	30–80 g picadas		
 food_info_serving_sizes_cruciferous_vegetables_metric.0	dozeVegetablesCruciferous.Serving.metric.0	30–80 g chopped	30–80 g chopped		
-	dozeVegetablesCruciferous.Serving.Metric.1	12 g Brussels or broccoli sprouts	12 g de coles de Bruselas o brotes de brócoli		
+	dozeVegetablesCruciferous.Serving.metric.1	12 g Brussels or broccoli sprouts	12 g de coles de Bruselas o brotes de brócoli		
 food_info_serving_sizes_cruciferous_vegetables_metric.1	dozeVegetablesCruciferous.Serving.metric.1	12 g Brussels or broccoli sprouts	12 g Brussels or broccoli sprouts		
-	dozeVegetablesCruciferous.Serving.Metric.2	1 tablespoon horseradish	1 cucharada de rábano picante		
+	dozeVegetablesCruciferous.Serving.metric.2	1 tablespoon horseradish	1 cucharada de rábano picante		
 food_info_serving_sizes_cruciferous_vegetables_metric.2	dozeVegetablesCruciferous.Serving.metric.2	1 tablespoon horseradish	1 cucharada		
 	dozeVegetablesCruciferous.topic				
 food_info_types_cruciferous_vegetables.0	dozeVegetablesCruciferous.Variety.Text.0	Arugula	Rúcula		
@@ -495,36 +495,36 @@ food_info_types_cruciferous_vegetables.10	dozeVegetablesCruciferous.Variety.Text
 food_info_types_cruciferous_vegetables.11	dozeVegetablesCruciferous.Variety.Text.11	Radishes	Rábanos		
 food_info_types_cruciferous_vegetables.12	dozeVegetablesCruciferous.Variety.Text.12	Turnip greens	Nabos verdes		
 food_info_types_cruciferous_vegetables.13	dozeVegetablesCruciferous.Variety.Text.13	Watercress	Berro		
-	dozeVegetablesCruciferous.Variety.Topic.0				
-	dozeVegetablesCruciferous.Variety.Topic.1	topics/bok-choy	es/topics/bok-choy-es		
-	dozeVegetablesCruciferous.Variety.Topic.2	topics/broccoli	es/topics/brocoli		
-	dozeVegetablesCruciferous.Variety.Topic.3	topics/brussels-sprouts	es/topics/coles-bruselas		
-	dozeVegetablesCruciferous.Variety.Topic.4	topics/cabbage	es/topics/repollo		
-	dozeVegetablesCruciferous.Variety.Topic.5	topics/cauliflower	es/topics/coliflor		
-	dozeVegetablesCruciferous.Variety.Topic.6	topics/collard-greens	es/topics/acelgas-es		
-	dozeVegetablesCruciferous.Variety.Topic.7				
-	dozeVegetablesCruciferous.Variety.Topic.8	topics/kale	es/topics/col-rizada-es		
-	dozeVegetablesCruciferous.Variety.Topic.9	topics/kohlrabi	es/topics/colinabo		
-	dozeVegetablesCruciferous.Variety.Topic.10	topics/mustard-greens	es/topics/hojas-de-mostaza		
-	dozeVegetablesCruciferous.Variety.Topic.11	topics/radishes	es/topics/rabanos		
-	dozeVegetablesCruciferous.Variety.Topic.12	topics/turnips	es/topics/nabos		
-	dozeVegetablesCruciferous.Variety.Topic.13	topics/watercress	es/topics/berros-es		
+	dozeVegetablesCruciferous.Variety.topic.0				
+	dozeVegetablesCruciferous.Variety.topic.1	topics/bok-choy	es/topics/bok-choy-es		
+	dozeVegetablesCruciferous.Variety.topic.2	topics/broccoli	es/topics/brocoli		
+	dozeVegetablesCruciferous.Variety.topic.3	topics/brussels-sprouts	es/topics/coles-bruselas		
+	dozeVegetablesCruciferous.Variety.topic.4	topics/cabbage	es/topics/repollo		
+	dozeVegetablesCruciferous.Variety.topic.5	topics/cauliflower	es/topics/coliflor		
+	dozeVegetablesCruciferous.Variety.topic.6	topics/collard-greens	es/topics/acelgas-es		
+	dozeVegetablesCruciferous.Variety.topic.7				
+	dozeVegetablesCruciferous.Variety.topic.8	topics/kale	es/topics/col-rizada-es		
+	dozeVegetablesCruciferous.Variety.topic.9	topics/kohlrabi	es/topics/colinabo		
+	dozeVegetablesCruciferous.Variety.topic.10	topics/mustard-greens	es/topics/hojas-de-mostaza		
+	dozeVegetablesCruciferous.Variety.topic.11	topics/radishes	es/topics/rabanos		
+	dozeVegetablesCruciferous.Variety.topic.12	topics/turnips	es/topics/nabos		
+	dozeVegetablesCruciferous.Variety.topic.13	topics/watercress	es/topics/berros-es		
 other_vegetables	dozeVegetablesOther.heading	Other Vegetables	Otras verduras	heading for daily data entry item	
-	dozeVegetablesOther.Serving.Imperial.0	1 cup raw leafy vegetables	1 taza de verduras de hoja crudas		
+	dozeVegetablesOther.Serving.imperial.0	1 cup raw leafy vegetables	1 taza de verduras de hoja crudas		
 food_info_serving_sizes_other_vegetables_imperial.0	dozeVegetablesOther.Serving.imperial.0	1 cup raw leafy vegetables	1 taza		
-	dozeVegetablesOther.Serving.Imperial.1	½ cup raw or cooked nonleafy vegetables	½ taza de verduras sin hoja crudas o cocidas		
+	dozeVegetablesOther.Serving.imperial.1	½ cup raw or cooked nonleafy vegetables	½ taza de verduras sin hoja crudas o cocidas		
 food_info_serving_sizes_other_vegetables_imperial.1	dozeVegetablesOther.Serving.imperial.1	½ cup raw or cooked nonleafy vegetables	½ taza		
-	dozeVegetablesOther.Serving.Imperial.2	½ cup vegetable juice	½ taza de jugo de verduras		
+	dozeVegetablesOther.Serving.imperial.2	½ cup vegetable juice	½ taza de jugo de verduras		
 food_info_serving_sizes_other_vegetables_imperial.2	dozeVegetablesOther.Serving.imperial.2	½ cup vegetable juice	½ taza		
-	dozeVegetablesOther.Serving.Imperial.3	¼ cup dried mushrooms	¼ taza de champiñones secos		
+	dozeVegetablesOther.Serving.imperial.3	¼ cup dried mushrooms	¼ taza de champiñones secos		
 food_info_serving_sizes_other_vegetables_imperial.3	dozeVegetablesOther.Serving.imperial.3	¼ cup dried mushrooms	¼ taza		
-	dozeVegetablesOther.Serving.Metric.0	60 g raw leafy vegetables	60 g de verduras de hoja crudas		
+	dozeVegetablesOther.Serving.metric.0	60 g raw leafy vegetables	60 g de verduras de hoja crudas		
 food_info_serving_sizes_other_vegetables_metric.0	dozeVegetablesOther.Serving.metric.0	60 g raw leafy vegetables	60 g raw leafy vegetables		
-	dozeVegetablesOther.Serving.Metric.1	50 g raw or cooked nonleafy vegetables	50 g de verduras sin hoja crudas o cocidas		
+	dozeVegetablesOther.Serving.metric.1	50 g raw or cooked nonleafy vegetables	50 g de verduras sin hoja crudas o cocidas		
 food_info_serving_sizes_other_vegetables_metric.1	dozeVegetablesOther.Serving.metric.1	50 g raw or cooked nonleafy vegetables	50 g raw or cooked nonleafy vegetables		
-	dozeVegetablesOther.Serving.Metric.2	125 ml vegetable juice	125 ml de jugo de verduras		
+	dozeVegetablesOther.Serving.metric.2	125 ml vegetable juice	125 ml de jugo de verduras		
 food_info_serving_sizes_other_vegetables_metric.2	dozeVegetablesOther.Serving.metric.2	125 ml vegetable juice	125 ml vegetable juice		
-	dozeVegetablesOther.Serving.Metric.3	7 g dried mushrooms	7 g de champiñones secos		
+	dozeVegetablesOther.Serving.metric.3	7 g dried mushrooms	7 g de champiñones secos		
 food_info_serving_sizes_other_vegetables_metric.3	dozeVegetablesOther.Serving.metric.3	7 g dried mushrooms	7 g dried mushrooms		
 	dozeVegetablesOther.topic				
 food_info_types_other_vegetables.0	dozeVegetablesOther.Variety.Text.0	Artichokes	Alcachofas		
@@ -545,44 +545,44 @@ food_info_types_other_vegetables.14	dozeVegetablesOther.Variety.Text.14	Squash (
 food_info_types_other_vegetables.15	dozeVegetablesOther.Variety.Text.15	Sweet potatoes/yams	Batata		
 food_info_types_other_vegetables.16	dozeVegetablesOther.Variety.Text.16	Tomatoes	Tomates		
 food_info_types_other_vegetables.17	dozeVegetablesOther.Variety.Text.17	Zucchini	Calabacín		
-	dozeVegetablesOther.Variety.Topic.0	topics/artichokes	es/topics/alcachofas		
-	dozeVegetablesOther.Variety.Topic.1	topics/asparagus	es/topics/esparragos		
-	dozeVegetablesOther.Variety.Topic.2	topics/beets	es/topics/remolachas-es		
-	dozeVegetablesOther.Variety.Topic.3	topics/bell-peppers	es/topics/pimientos		
-	dozeVegetablesOther.Variety.Topic.4	topics/carrots	es/topics/zanahorias		
-	dozeVegetablesOther.Variety.Topic.5	topics/corn	es/topics/maiz		
-	dozeVegetablesOther.Variety.Topic.6	topics/garlic	es/topics/ajo		
-	dozeVegetablesOther.Variety.Topic.7	topics/mushrooms	es/topics/champinones		
-	dozeVegetablesOther.Variety.Topic.8	topics/okra	es/topics/okra-es		
-	dozeVegetablesOther.Variety.Topic.9	topics/onions	es/topics/cebollas		
-	dozeVegetablesOther.Variety.Topic.10	topics/purple-potatoes	es/topics/patatas-moradas		
-	dozeVegetablesOther.Variety.Topic.11	topics/pumpkin	es/topics/calabaza		
-	dozeVegetablesOther.Variety.Topic.12	topics/sea-vegetables	es/topics/vegetales-marinos		
-	dozeVegetablesOther.Variety.Topic.13				
-	dozeVegetablesOther.Variety.Topic.14	topics/squash	es/topics/calabaza-es		
-	dozeVegetablesOther.Variety.Topic.15	topics/sweet-potatoes	es/topics/camotes		
-	dozeVegetablesOther.Variety.Topic.16	topics/tomatoes	es/topics/tomates		
-	dozeVegetablesOther.Variety.Topic.17	topics/zucchini	es/topics/calabacin-es		
+	dozeVegetablesOther.Variety.topic.0	topics/artichokes	es/topics/alcachofas		
+	dozeVegetablesOther.Variety.topic.1	topics/asparagus	es/topics/esparragos		
+	dozeVegetablesOther.Variety.topic.2	topics/beets	es/topics/remolachas-es		
+	dozeVegetablesOther.Variety.topic.3	topics/bell-peppers	es/topics/pimientos		
+	dozeVegetablesOther.Variety.topic.4	topics/carrots	es/topics/zanahorias		
+	dozeVegetablesOther.Variety.topic.5	topics/corn	es/topics/maiz		
+	dozeVegetablesOther.Variety.topic.6	topics/garlic	es/topics/ajo		
+	dozeVegetablesOther.Variety.topic.7	topics/mushrooms	es/topics/champinones		
+	dozeVegetablesOther.Variety.topic.8	topics/okra	es/topics/okra-es		
+	dozeVegetablesOther.Variety.topic.9	topics/onions	es/topics/cebollas		
+	dozeVegetablesOther.Variety.topic.10	topics/purple-potatoes	es/topics/patatas-moradas		
+	dozeVegetablesOther.Variety.topic.11	topics/pumpkin	es/topics/calabaza		
+	dozeVegetablesOther.Variety.topic.12	topics/sea-vegetables	es/topics/vegetales-marinos		
+	dozeVegetablesOther.Variety.topic.13				
+	dozeVegetablesOther.Variety.topic.14	topics/squash	es/topics/calabaza-es		
+	dozeVegetablesOther.Variety.topic.15	topics/sweet-potatoes	es/topics/camotes		
+	dozeVegetablesOther.Variety.topic.16	topics/tomatoes	es/topics/tomates		
+	dozeVegetablesOther.Variety.topic.17	topics/zucchini	es/topics/calabacin-es		
 whole_grains	dozeWholeGrains.heading	Whole Grains	Cereales integrales	heading for daily data entry item	
-	dozeWholeGrains.Serving.Imperial.0	½ cup hot cereal or cooked grains, pasta, or corn kernels	½ taza de cereales cocidos, pasta o granos de maíz cocidos		
+	dozeWholeGrains.Serving.imperial.0	½ cup hot cereal or cooked grains, pasta, or corn kernels	½ taza de cereales cocidos, pasta o granos de maíz cocidos		
 food_info_serving_sizes_whole_grains_imperial.0	dozeWholeGrains.Serving.imperial.0	½ cup hot cereal or cooked grains, pasta, or corn kernels	½ taza		
-	dozeWholeGrains.Serving.Imperial.1	1 cup cold cereal	1 taza de cereales fríos		
+	dozeWholeGrains.Serving.imperial.1	1 cup cold cereal	1 taza de cereales fríos		
 food_info_serving_sizes_whole_grains_imperial.1	dozeWholeGrains.Serving.imperial.1	1 cup cold cereal	1 taza		
-	dozeWholeGrains.Serving.Imperial.2	1 tortilla or slice of bread	1 tortilla o rodaja de pan		
+	dozeWholeGrains.Serving.imperial.2	1 tortilla or slice of bread	1 tortilla o rodaja de pan		
 food_info_serving_sizes_whole_grains_imperial.2	dozeWholeGrains.Serving.imperial.2	1 tortilla or slice of bread	1		
-	dozeWholeGrains.Serving.Imperial.3	½ a bagel or English muffin	½ bagel o English muffin		
+	dozeWholeGrains.Serving.imperial.3	½ a bagel or English muffin	½ bagel o English muffin		
 food_info_serving_sizes_whole_grains_imperial.3	dozeWholeGrains.Serving.imperial.3	½ a bagel or English muffin	½		
-	dozeWholeGrains.Serving.Imperial.4	3 cups popped popcorn	3 tazas de palomitas de maíz		
+	dozeWholeGrains.Serving.imperial.4	3 cups popped popcorn	3 tazas de palomitas de maíz		
 food_info_serving_sizes_whole_grains_imperial.4	dozeWholeGrains.Serving.imperial.4	3 cups popped popcorn	3 tazas		
-	dozeWholeGrains.Serving.Metric.0	100 g hot cereal or cooked grains, pasta, or corn kernels	100 g de cereales cocidos, pasta o granos de maíz cocidos		
+	dozeWholeGrains.Serving.metric.0	100 g hot cereal or cooked grains, pasta, or corn kernels	100 g de cereales cocidos, pasta o granos de maíz cocidos		
 food_info_serving_sizes_whole_grains_metric.0	dozeWholeGrains.Serving.metric.0	100 g hot cereal or cooked grains, pasta, or corn kernels	100 g hot cereal or cooked grains, pasta, or corn kernels		
-	dozeWholeGrains.Serving.Metric.1	50 g cold cereal	50 g de cereales fríos		
+	dozeWholeGrains.Serving.metric.1	50 g cold cereal	50 g de cereales fríos		
 food_info_serving_sizes_whole_grains_metric.1	dozeWholeGrains.Serving.metric.1	50 g cold cereal	50 g cold cereal		
-	dozeWholeGrains.Serving.Metric.2	1 tortilla or slice of bread	1 tortilla o rodaja de pan		
+	dozeWholeGrains.Serving.metric.2	1 tortilla or slice of bread	1 tortilla o rodaja de pan		
 food_info_serving_sizes_whole_grains_metric.2	dozeWholeGrains.Serving.metric.2	1 tortilla or slice of bread	1		
-	dozeWholeGrains.Serving.Metric.3	½ a bagel or English muffin	½ bagel o English muffin		
+	dozeWholeGrains.Serving.metric.3	½ a bagel or English muffin	½ bagel o English muffin		
 food_info_serving_sizes_whole_grains_metric.3	dozeWholeGrains.Serving.metric.3	½ a bagel or English muffin	½		
-	dozeWholeGrains.Serving.Metric.4	30 g popped popcorn	30 g de palomitas de maíz		
+	dozeWholeGrains.Serving.metric.4	30 g popped popcorn	30 g de palomitas de maíz		
 food_info_serving_sizes_whole_grains_metric.4	dozeWholeGrains.Serving.metric.4	30 g popped popcorn	30 g popped popcorn		
 	dozeWholeGrains.topic	topics/grains	es/topics/granos		
 food_info_types_whole_grains.0	dozeWholeGrains.Variety.Text.0	Barley	Cebada		
@@ -594,15 +594,15 @@ food_info_types_whole_grains.5	dozeWholeGrains.Variety.Text.5	Quinoa	Quinoa
 food_info_types_whole_grains.6	dozeWholeGrains.Variety.Text.6	Rye	Centeno		
 food_info_types_whole_grains.7	dozeWholeGrains.Variety.Text.7	Teff	Teff		
 food_info_types_whole_grains.8	dozeWholeGrains.Variety.Text.8	Whole-wheat pasta	Pasta integral		
-	dozeWholeGrains.Variety.Topic.0	topics/barley	es/topics/cebada		
-	dozeWholeGrains.Variety.Topic.1	topics/buckwheat	es/topics/trigo-sarraceno		
-	dozeWholeGrains.Variety.Topic.2	topics/millet	es/topics/mijo		
-	dozeWholeGrains.Variety.Topic.3	topics/oats	es/topics/avena-es		
-	dozeWholeGrains.Variety.Topic.4	topics/popcorn	es/topics/palomitas-de-maiz		
-	dozeWholeGrains.Variety.Topic.5	topics/quinoa	es/topics/quinoa-es		
-	dozeWholeGrains.Variety.Topic.6	topics/rye	es/topics/centeno		
-	dozeWholeGrains.Variety.Topic.7	topics/teff	es/topics/teff-es		
-	dozeWholeGrains.Variety.Topic.8	topics/pasta	es/topics/pasta-es		
+	dozeWholeGrains.Variety.topic.0	topics/barley	es/topics/cebada		
+	dozeWholeGrains.Variety.topic.1	topics/buckwheat	es/topics/trigo-sarraceno		
+	dozeWholeGrains.Variety.topic.2	topics/millet	es/topics/mijo		
+	dozeWholeGrains.Variety.topic.3	topics/oats	es/topics/avena-es		
+	dozeWholeGrains.Variety.topic.4	topics/popcorn	es/topics/palomitas-de-maiz		
+	dozeWholeGrains.Variety.topic.5	topics/quinoa	es/topics/quinoa-es		
+	dozeWholeGrains.Variety.topic.6	topics/rye	es/topics/centeno		
+	dozeWholeGrains.Variety.topic.7	topics/teff	es/topics/teff-es		
+	dozeWholeGrains.Variety.topic.8	topics/pasta	es/topics/pasta-es		
 servings_time_scale_choices.0	history_scale_choice_day	Day	Día	History View: calendar scale control	
 servings_time_scale_choices.1	history_scale_choice_month	Month	Mes	History View: calendar scale control	
 servings_time_scale_choices.2	history_scale_choice_year	Year	Año	History View: calendar scale control	
@@ -683,148 +683,148 @@ format_num_days	streakDaysFormat	%d days	%d días	‘Streak’ count. Synonym: �
 	tweak_detail_section_activity	Activity	Actividad	Tweaks Detail view section heading	
 	tweak_detail_section_description	Description	Descripción	Tweaks Detail view section heading	
 twenty_one_tweaks	tweak_entry_header	21 Tweaks	21 Ajustes	Tweaks daily entry header	
-	tweakCompleteIntentions.Activity.Imperial	Complete Your Implementation Intentions	Completar tus metas		
-	tweakCompleteIntentions.Activity.Metric	Complete Your Implementation Intentions	Complete tus metas		
+	tweakCompleteIntentions.Activity.imperial	Complete Your Implementation Intentions	Completar tus metas		
+	tweakCompleteIntentions.Activity.metric	Complete Your Implementation Intentions	Complete tus metas		
 	tweakCompleteIntentions.Description.0	Every two months, create three new implementation intentions—"if X, then Y" plans to perform a particular behavior in a specific context—and check each one of them off as you complete them every day.	Cada dos meses, crea tres metas nuevas, al estilo de "si X, entonces Y", para comportarte de cierta manera en situaciones específicas. Intenta marcar las tres casillas todos los días.		
 complete_intentions	tweakCompleteIntentions.heading	Complete Your Implementation Intentions	Completar tus metas	heading for daily data entry item	
 complete_intentions_short	tweakCompleteIntentions.short	Complete Your Implementation Intentions	Completar tus metas		
 complete_intentions_text	tweakCompleteIntentions.text	Every two months, create three new implementation intentions—“if X, then Y” plans to perform a particular behavior in a specific context—and check each one of them off as you complete them every day.	Cada dos meses, crea tres metas nuevas, al estilo de "si X, entonces Y", para comportarte de cierta manera en situaciones específicas. Intenta marcar las tres casillas todos los días.		
 	tweakCompleteIntentions.topic				
-	tweakDailyBlackCumin.Activity.Imperial	Black Cumin (Nigella sativa) (¼ tsp)	Comino negro (Nigella sativa) (¼ cucharadita)		
-	tweakDailyBlackCumin.Activity.Metric	Black Cumin (Nigella sativa) (¼ tsp)	Comino negro (Nigella sativa) (¼ cucharadita)		
+	tweakDailyBlackCumin.Activity.imperial	Black Cumin (Nigella sativa) (¼ tsp)	Comino negro (Nigella sativa) (¼ cucharadita)		
+	tweakDailyBlackCumin.Activity.metric	Black Cumin (Nigella sativa) (¼ tsp)	Comino negro (Nigella sativa) (¼ cucharadita)		
 	tweakDailyBlackCumin.Description.0	As noted in the Appetite Suppression section, a systematic review and meta-analysis of randomized, controlled weight-loss trials found that about a quarter teaspoon of black cumin powder every day appears to reduce body mass index within a span of a couple of months. Note that black cumin is different from regular cumin, for which the dosing is different.	Como se indica en la sección del libro que habla de la supresión del apetito, una revisión sistemática y un metanálisis de ensayos aleatorizados con grupo de control sobre la pérdida de peso concluyó que aproximadamente un cuarto de cucharadita de comino negro en polvo al día parece reducir el índice de masa corporal en un lapso de un par de meses. No olvides que el comino negro es diferente al comino normal, cuya ingesta recomendada es diferente.		
 daily_blackcumin	tweakDailyBlackCumin.heading	Black Cumin (¼ tsp)	Comino negro (¼ ctda.)	heading for daily data entry item	
 daily_blackcumin_short	tweakDailyBlackCumin.short	Black Cumin (Nigella sativa) (¼ tsp)	Comino negro (Nigella sativa) (¼ ctda.)		
 daily_blackcumin_text	tweakDailyBlackCumin.text	As noted in the Appetite Suppression section, a systematic review and meta-analysis of randomized, controlled weight-loss trials found that about a quarter teaspoon of black cumin powder every day appears to reduce body mass index within a span of a couple of months. Note that black cumin is different from regular cumin, for which the dosing is different.	Como se indica en la sección del libro que habla de la supresión del apetito, una revisión sistemática y un metanálisis de ensayos aleatorizados con grupo de control sobre la pérdida de peso concluyó que aproximadamente un cuarto de cucharadita de comino negro en polvo al día parece reducir el índice de masa corporal en un lapso de un par de meses. No olvides que el comino negro es diferente al comino normal, cuya ingesta recomendada es diferente.		
 	tweakDailyBlackCumin.topic				
-	tweakDailyCumin.Activity.Imperial	Cumin (Cuminum cyminum) (½ tsp with lunch and dinner)	Comino (Cuminum cyminum) (½ cucharadita con almuerzo y cena)		
-	tweakDailyCumin.Activity.Metric	Cumin (Cuminum cyminum) (½ tsp with lunch and dinner)	Comino (Cuminum cyminum) (½ cucharadita con almuerzo y cena)		
+	tweakDailyCumin.Activity.imperial	Cumin (Cuminum cyminum) (½ tsp with lunch and dinner)	Comino (Cuminum cyminum) (½ cucharadita con almuerzo y cena)		
+	tweakDailyCumin.Activity.metric	Cumin (Cuminum cyminum) (½ tsp with lunch and dinner)	Comino (Cuminum cyminum) (½ cucharadita con almuerzo y cena)		
 	tweakDailyCumin.Description.0	Overweight women randomized to add a half teaspoon of cumin to their lunches and dinners beat out the control group by four more pounds and an extra inch off their waists. There is also evidence to support the use of the spice saffron, but a pinch a day would cost a dollar, whereas a teaspoon of cumin costs less than ten cents.	Las mujeres con sobrepeso aleatorizadas a echarle media cucharadita de comino a sus almuerzos y cenas superaron al grupo de control, ya que perdieron casi 2 kg más y 2.5 cm extra en la cintura. También existe evidencia para apoyar el uso del azafrán, pero una pizca al día costaría un dólar, mientras que una cucharadita de comino cuesta menos de diez centavos.		
 daily_cumin	tweakDailyCumin.heading	Cumin (½ tsp with lunch and dinner)	Comino (½ ctda. almuerzo y cena)	heading for daily data entry item	
 daily_cumin_short	tweakDailyCumin.short	Cumin (Cuminum cyminum) (½ tsp with lunch and dinner)	Comino (Cuminum cyminum) (½ ctda. almuerzo y cena)		
 daily_cumin_text	tweakDailyCumin.text	Overweight women randomized to add a half teaspoon of cumin to their lunches and dinners beat out the control group by four more pounds and an extra inch off their waists. There is also evidence to support the use of the spice saffron, but a pinch a day would cost a dollar, whereas a teaspoon of cumin costs less than ten cents.	Las mujeres con sobrepeso aleatorizadas a echarle media cucharadita de comino a sus almuerzos y cenas superaron al grupo de control, ya que perdieron casi 2 kg más y 2.5 cm extra en la cintura. También existe evidencia para apoyar el uso del azafrán, pero una pizca al día costaría un dólar, mientras que una cucharadita de comino cuesta menos de diez centavos.		
 	tweakDailyCumin.topic				
-	tweakDailyDeflourDiet.Activity.Imperial	Deflour Your Diet	Adiós a la harina		
-	tweakDailyDeflourDiet.Activity.Metric	Deflour Your Diet	Adiós a la harina		
+	tweakDailyDeflourDiet.Activity.imperial	Deflour Your Diet	Adiós a la harina		
+	tweakDailyDeflourDiet.Activity.metric	Deflour Your Diet	Adiós a la harina		
 	tweakDailyDeflourDiet.Description.0	Check this box every day your whole grain servings are in the form of intact grains. The powdering of even 100 percent whole grains robs our microbiomes of the starch that would otherwise be ferried down to our colons enclosed in unbroken cell walls.	Puedes marcar esta casilla en los días en los que tus raciones de cereales integrales sean en forma de cereales intactos. La pulverización de los cereales, aunque sean cereales 100% integrales, priva a nuestro microbioma del almidón que, de otro modo, llegaría a nuestro colon rodeado de paredes celulares intactas.		
 daily_deflourdiet	tweakDailyDeflourDiet.heading	Deflour Your Diet	Adiós a la harina	heading for daily data entry item	
 daily_deflourdiet_short	tweakDailyDeflourDiet.short	Deflour Your Diet	Adiós a la harina		
 daily_deflourdiet_text	tweakDailyDeflourDiet.text	Check this box every day your whole grain servings are in the form of intact grains. The powdering of even 100 percent whole grains robs our microbiomes of the starch that would otherwise be ferried down to our colons enclosed in unbroken cell walls.	Puedes marcar esta casilla en los días en los que tus raciones de cereales integrales sean en forma de cereales intactos. La pulverización de los cereales, aunque sean cereales 100% integrales, priva a nuestro microbioma del almidón que, de otro modo, llegaría a nuestro colon rodeado de paredes celulares intactas.		
 	tweakDailyDeflourDiet.topic				
-	tweakDailyFrontLoad.Activity.Imperial	Front-Load Your Calories	Anticipar calorías		
-	tweakDailyFrontLoad.Activity.Metric	Front-Load Your Calories	Anticipar calorías		
+	tweakDailyFrontLoad.Activity.imperial	Front-Load Your Calories	Anticipar calorías		
+	tweakDailyFrontLoad.Activity.metric	Front-Load Your Calories	Anticipar calorías		
 	tweakDailyFrontLoad.Description.0	There are metabolic benefits to distributing more calories to earlier in the day, so make breakfast (ideally) or lunch your largest meal of the day in true king/prince/pauper style.	Consumir más calorías al principio del día es mejor para el metabolismo, así que haz que tu desayuno (idealmente) o tu almuerzo sean la comida más grande del día.		
 daily_frontload	tweakDailyFrontLoad.heading	Front-Load Your Calories	Anticipar calorías	heading for daily data entry item	
 daily_frontload_short	tweakDailyFrontLoad.short	Front-Load Your Calories	Anticipar calorías		
 daily_frontload_text	tweakDailyFrontLoad.text	There are metabolic benefits to distributing more calories to earlier in the day, so make breakfast (ideally) or lunch your largest meal of the day in true king/prince/pauper style.	Consumir más calorías al principio del día es mejor para el metabolismo, así que haz que tu desayuno (idealmente) o tu almuerzo sean la comida más grande del día.		
 	tweakDailyFrontLoad.topic				
-	tweakDailyGarlic.Activity.Imperial	Garlic Powder (¼ tsp)	Ajo en polvo (¼ cucharadita)		
-	tweakDailyGarlic.Activity.Metric	Garlic Powder (¼ tsp)	Ajo en polvo (¼ cucharadita)		
+	tweakDailyGarlic.Activity.imperial	Garlic Powder (¼ tsp)	Ajo en polvo (¼ cucharadita)		
+	tweakDailyGarlic.Activity.metric	Garlic Powder (¼ tsp)	Ajo en polvo (¼ cucharadita)		
 	tweakDailyGarlic.Description.0	Randomized, double-blind, placebo-controlled studies have found that as little as a daily quarter teaspoon of garlic powder can reduce body fat at a cost of perhaps two cents a day.	Unos estudios aleatorizados, doble ciegos y controlados con placebo han encontrado que, con simplemente un cuarto de cucharadita diaria de ajo en polvo, se puede reducir la grasa corporal, a un costo de quizás dos centavos por día.		
 daily_garlic	tweakDailyGarlic.heading	Garlic Powder (¼ tsp)	Ajo en polvo (¼ ctda.)	heading for daily data entry item	
 daily_garlic_short	tweakDailyGarlic.short	Garlic Powder (¼ tsp)	Ajo en polvo (¼ ctda.)		
 daily_garlic_text	tweakDailyGarlic.text	Randomized, double-blind, placebo-controlled studies have found that as little as a daily quarter teaspoon of garlic powder can reduce body fat at a cost of perhaps two cents a day.	Unos estudios aleatorizados, doble ciegos y controlados con placebo han encontrado que, con simplemente un cuarto de cucharadita diaria de ajo en polvo, se puede reducir la grasa corporal, a un costo de quizás dos centavos por día.		
 	tweakDailyGarlic.topic				
-	tweakDailyGinger.Activity.Imperial	Ground Ginger (1 tsp) or Cayenne Pepper (½ tsp)	Jengibre en polvo (1 cucharadita) o cayena (½ cucharadita)		
-	tweakDailyGinger.Activity.Metric	Ground Ginger (1 tsp) or Cayenne Pepper (½ tsp)	Jengibre en polvo (1 cucharadita) o cayena (½ cucharadita)		
+	tweakDailyGinger.Activity.imperial	Ground Ginger (1 tsp) or Cayenne Pepper (½ tsp)	Jengibre en polvo (1 cucharadita) o cayena (½ cucharadita)		
+	tweakDailyGinger.Activity.metric	Ground Ginger (1 tsp) or Cayenne Pepper (½ tsp)	Jengibre en polvo (1 cucharadita) o cayena (½ cucharadita)		
 	tweakDailyGinger.Description.0	Randomized controlled trials have found that ¼ teaspoon to 1½ teaspoons a day of ground ginger significantly decreased body weight for just pennies a day. It can be as easy as stirring the ground spice into a cup of hot water. Note: Ginger may work better in the morning than evening. Chai tea is a tasty way to combine the green tea and ginger tricks into a single beverage. Alternately, for BAT activation, you can add one raw jalapeño pepper or a half teaspoon of red pepper powder (or, presumably, crushed red pepper flakes) into your daily diet. To help beat the heat, you can very thinly slice or finely chop the jalapeño to reduce its bite to little prickles, or mix the red pepper into soup or the whole-food vegetable smoothie I featured in one of my cooking videos on NutritionFacts.org.	Unos ensayos aleatorizados y con grupo de control han descubierto que el consumo de ¼ a 1½ cucharadita al día de jengibre en polvo disminuye significativamente el peso corporal por solo unos centavos al día. Puede ser tan fácil como echar el jengibre en una taza de agua caliente. Nota: el jengibre podría funcionar mejor por la mañana que por la tarde. El chai es una forma estupenda de combinar los trucos del té verde y el jengibre en una sola bebida. Además, para activar el tejido adiposo pardo, también puedes añadir un jalapeño crudo o media cucharadita de chile en polvo a tu dieta diaria. Para ayudarte con el picante, puedes cortar el jalapeño en rodajas muy finas o picarlo muy bien. El chile en polvo lo podrías echar en las sopas y guisos o en el batido de verduras que hice en uno de mis videos de cocina en NutritionFacts.org.		
 daily_ginger	tweakDailyGinger.heading	Ground Ginger (1 tsp) or Cayenne Pepper (½ tsp)	Jengibre molido (1 ctda.) o cayena (½ ctda.)	heading for daily data entry item	
 daily_ginger_short	tweakDailyGinger.short	Ground Ginger (1 tsp) or Cayenne Pepper (½ tsp)	Jengibre (1 ctda.) o cayena (½ ctda.)		
 daily_ginger_text	tweakDailyGinger.text	Randomized controlled trials have found that ¼ teaspoon to 1½ teaspoons a day of ground ginger significantly decreased body weight for just pennies a day. It can be as easy as stirring the ground spice into a cup of hot water. Note: Ginger may work better in the morning than evening. Chai tea is a tasty way to combine the green tea and ginger tricks into a single beverage. Alternately, for BAT activation, you can add one raw jalapeño pepper or a half teaspoon of red pepper powder (or, presumably, crushed red pepper flakes) into your daily diet. To help beat the heat, you can very thinly slice or finely chop the jalapeño to reduce its bite to little prickles, or mix the red pepper into soup or the whole-food vegetable smoothie I featured in one of my cooking videos on NutritionFacts.org.	Unos ensayos aleatorizados y con grupo de control han descubierto que el consumo de ¼ a 1½ cucharadita al día de jengibre en polvo disminuye significativamente el peso corporal por solo unos centavos al día. Puede ser tan fácil como echar el jengibre en una taza de agua caliente. Nota: el jengibre podría funcionar mejor por la mañana que por la tarde. El chai es una forma estupenda de combinar los trucos del té verde y el jengibre en una sola bebida. Además, para activar el tejido adiposo pardo, también puedes añadir un jalapeño crudo o media cucharadita de chile en polvo a tu dieta diaria. Para ayudarte con el picante, puedes cortar el jalapeño en rodajas muy finas o picarlo muy bien. El chile en polvo lo podrías echar en las sopas y guisos o en el batido de verduras que hice en uno de mis videos de cocina en NutritionFacts.org.		
 	tweakDailyGinger.topic				
-	tweakDailyGreenTea.Activity.Imperial	Green Tea (3 cups)	Té verde (3 tazas)		
-	tweakDailyGreenTea.Activity.Metric	Green Tea (3 cups)	Té verde (3 tazas)		
+	tweakDailyGreenTea.Activity.imperial	Green Tea (3 cups)	Té verde (3 tazas)		
+	tweakDailyGreenTea.Activity.metric	Green Tea (3 cups)	Té verde (3 tazas)		
 	tweakDailyGreenTea.Description.0	Drink three cups a day between meals (waiting at least an hour after a meal so as to not interfere with iron absorption). During meals, drink water, black coffee, or hibiscus tea mixed 6:1 with lemon verbena, but never exceed three cups of fluid an hour (important given my water preloading advice). Take advantage of the reinforcing effect of caffeine by drinking your green tea along with something healthy you wish you liked more, but don't consume large amounts of caffeine within six hours of bedtime. Taking your tea without sweetener is best, but if you typically sweeten your tea with honey or sugar, try yacon syrup instead.	Bebe tres tazas al día entre comidas, esperando al menos una hora después de comer, para no interferir con la absorción de hierro. Durante las comidas, bebe agua, café solo o infusión de hibisco (mezclado 6:1 con hierba luisa), pero nunca excedas tres tazas de líquido por hora (tenlo en cuenta para mi sección sobra empezar con agua). Aprovecha los efectos de la cafeína y bebe el té verde mientras comes algo saludable que querrías que te gustase más, para crear una asociación positiva, pero ten ojo y no consumas mucha cafeína en las 6 horas antes de irte a dormir. Lo mejor es tomar el té sin ningún tipo de edulcorante, pero, si le sueles echar miel o azúcar, prueba el jarabe de yacón.		
 daily_greentea	tweakDailyGreenTea.heading	Green Tea (3 cups)	Té verde (3 tazas)	heading for daily data entry item	
 daily_greentea_short	tweakDailyGreenTea.short	Green Tea (3 cups)	Té verde (3 tazas)		
 daily_greentea_text	tweakDailyGreenTea.text	Drink three cups a day between meals (waiting at least an hour after a meal so as to not interfere with iron absorption). During meals, drink water, black coffee, or hibiscus tea mixed 6:1 with lemon verbena, but never exceed three cups of fluid an hour (important given my water preloading advice). Take advantage of the reinforcing effect of caffeine by drinking your green tea along with something healthy you wish you liked more, but don’t consume large amounts of caffeine within six hours of bedtime. Taking your tea without sweetener is best, but if you typically sweeten your tea with honey or sugar, try yacon syrup instead.	Bebe tres tazas al día entre comidas, esperando al menos una hora después de comer, para no interferir con la absorción de hierro. Durante las comidas, bebe agua, café solo o infusión de hibisco (mezclado 6:1 con hierba luisa), pero nunca excedas tres tazas de líquido por hora (tenlo en cuenta para mi sección sobra empezar con agua). Aprovecha los efectos de la cafeína y bebe el té verde mientras comes algo saludable que querrías que te gustase más, para crear una asociación positiva, pero ten ojo y no consumas mucha cafeína en las 6 horas antes de irte a dormir. Lo mejor es tomar el té sin ningún tipo de edulcorante, pero, si le sueles echar miel o azúcar, prueba el jarabe de yacón.		
 	tweakDailyGreenTea.topic				
-	tweakDailyHydrate.Activity.Imperial	Stay Hydrated	Hidratación		
-	tweakDailyHydrate.Activity.Metric	Stay Hydrated	Hidratación		
+	tweakDailyHydrate.Activity.imperial	Stay Hydrated	Hidratación		
+	tweakDailyHydrate.Activity.metric	Stay Hydrated	Hidratación		
 	tweakDailyHydrate.Description.0	Check this box if your urine never appears darker than a pale yellow.ⓃⓃNote that if you're eating riboflavin-fortified foods (such as nutritional yeast), then base this instead on getting nine cups of unsweetened beverages a day for women (which would be taken care of by the green tea and water preloading recommendations) or thirteen cups a day for men.ⓃⓃIf you have heart or kidney issues, don't increase fluid intake at all without first talking with your physician.ⓃⓃRemember, diet soda may be calorie-free, but it's not consequence-free, as we learned in the Low in Added Sugar section.	Puedes marcar esta casilla si tu orina nunca pasa del amarillo pálido.ⓃⓃTen en cuenta que, si consumes alimentos fortificados con riboflavina (como la levadura nutricional), no deberías seguir esta premisa del color y debes centrarte en obtener nueve tazas de líquido sin edulcorar al día para las mujeres (que podrían cubrir el consumo de té verde y agua) o trece tazas al día para hombres.ⓃⓃSi tienes problemas cardiacos o renales, no aumentes la ingesta de líquidos sin antes hablar con tu médico.ⓃⓃNo olvides que, aunque los refrescos light no tengan calorías, no son inocuos, como explico en la sección del libro sobre los azúcares añadidos.		
 daily_hydrate	tweakDailyHydrate.heading	Stay Hydrated	Hidratación	heading for daily data entry item	
 daily_hydrate_short	tweakDailyHydrate.short	Stay Hydrated	Hidratación		
 daily_hydrate_text	tweakDailyHydrate.text	Check this box if your urine never appears darker than a pale yellow.\n\nNote that if you’re eating riboflavin-fortified foods (such as nutritional yeast), then base this instead on getting nine cups of unsweetened beverages a day for women (which would be taken care of by the green tea and water preloading recommendations) or thirteen cups a day for men.\n\nIf you have heart or kidney issues, don’t increase fluid intake at all without first talking with your physician.\n\nRemember, diet soda may be calorie-free, but it’s not consequence-free, as we learned in the Low in Added Sugar section.	Puedes marcar esta casilla si tu orina nunca pasa del amarillo pálido.\n\nTen en cuenta que, si consumes alimentos fortificados con riboflavina (como la levadura nutricional), no deberías seguir esta premisa del color y debes centrarte en obtener nueve tazas de líquido sin edulcorar al día para las mujeres (que podrían cubrir el consumo de té verde y agua) o trece tazas al día para hombres.\n\nSi tienes problemas cardiacos o renales, no aumentes la ingesta de líquidos sin antes hablar con tu médico.\n\nNo olvides que, aunque los refrescos light no tengan calorías, no son inocuos, como explico en la sección del libro sobre los azúcares añadidos.		
 	tweakDailyHydrate.topic				
-	tweakDailyNutriYeast.Activity.Imperial	Nutritional Yeast (2 tsp)	Levadura nutricional (2 cucharaditas)		
-	tweakDailyNutriYeast.Activity.Metric	Nutritional Yeast (2 tsp)	Levadura nutricional (2 cucharaditas)		
+	tweakDailyNutriYeast.Activity.imperial	Nutritional Yeast (2 tsp)	Levadura nutricional (2 cucharaditas)		
+	tweakDailyNutriYeast.Activity.metric	Nutritional Yeast (2 tsp)	Levadura nutricional (2 cucharaditas)		
 	tweakDailyNutriYeast.Description.0	Two teaspoons of baker's, brewer's, or nutritional yeast contains roughly the amount of beta 1,3/1,6 glucans found in randomized, double-blind, placebo-controlled clinical trials to facilitate weight loss.	Dos cucharaditas de levadura de panadería, de cerveza o nutricional contienen aproximadamente la cantidad de glucanos beta 1,3 / 1,6 correcta que, en ensayos clínicos aleatorizados, doble ciegos y con grupo de control, ha demostrado facilitar la pérdida de peso.		
 daily_nutriyeast	tweakDailyNutriYeast.heading	Nutritional Yeast (2 tsp)	Levadura nutricional (2 ctda.)	heading for daily data entry item	
 daily_nutriyeast_short	tweakDailyNutriYeast.short	Nutritional Yeast (2 tsp)	Levadura nutricional (2 ctda.)		
 daily_nutriyeast_text	tweakDailyNutriYeast.text	Two teaspoons of baker’s, brewer’s, or nutritional yeast contains roughly the amount of beta 1,3/1,6 glucans found in randomized, double-blind, placebo-controlled clinical trials to facilitate weight loss.	Dos cucharaditas de levadura de panadería, de cerveza o nutricional contienen aproximadamente la cantidad de glucanos beta 1,3 / 1,6 correcta que, en ensayos clínicos aleatorizados, doble ciegos y con grupo de control, ha demostrado facilitar la pérdida de peso.		
 	tweakDailyNutriYeast.topic				
-	tweakDailyTimeRestrict.Activity.Imperial	Time-Restrict Your Eating	Restricción del horario de comidas		
-	tweakDailyTimeRestrict.Activity.Metric	Time-Restrict Your Eating	Restricción del horario de comidas		
+	tweakDailyTimeRestrict.Activity.imperial	Time-Restrict Your Eating	Restricción del horario de comidas		
+	tweakDailyTimeRestrict.Activity.metric	Time-Restrict Your Eating	Restricción del horario de comidas		
 	tweakDailyTimeRestrict.Description.0	Confine eating to a daily window of time of your choosing under twelve hours in length that you can stick to consistently, seven days a week. Given the circadian benefits of reducing evening food intake, the window should end before 7:00 p.m.	Limita tu horario de comidas a un periodo diario de tu elección que no supere las doce horas y que puedas cumplir de manera habitual, es decir, los siete días de la semana. Dados los beneficios para el reloj circadiano de la reducción en la ingesta de alimentos por la noche, deberías dejar de comer antes de las 7 P.M.		
 daily_timerestrict	tweakDailyTimeRestrict.heading	Time-Restrict Your Eating	Restricción del horario de comidas	heading for daily data entry item	
 daily_timerestrict_short	tweakDailyTimeRestrict.short	Time-Restrict Your Eating	Restricción del horario de comidas		
 daily_timerestrict_text	tweakDailyTimeRestrict.text	Confine eating to a daily window of time of your choosing under twelve hours in length that you can stick to consistently, seven days a week. Given the circadian benefits of reducing evening food intake, the window should end before 7:00 p.m.	Limita tu horario de comidas a un periodo diario de tu elección que no supere las doce horas y que puedas cumplir de manera habitual, es decir, los siete días de la semana. Dados los beneficios para el reloj circadiano de la reducción en la ingesta de alimentos por la noche, deberías dejar de comer antes de las 7 P.M.		
 	tweakDailyTimeRestrict.topic				
-	tweakExerciseTiming.Activity.Imperial	Optimize Exercise Timing	Ejercicio a buena hora		
-	tweakExerciseTiming.Activity.Metric	Optimize Exercise Timing	Ejercicio a buena hora		
+	tweakExerciseTiming.Activity.imperial	Optimize Exercise Timing	Ejercicio a buena hora		
+	tweakExerciseTiming.Activity.metric	Optimize Exercise Timing	Ejercicio a buena hora		
 	tweakExerciseTiming.Description.0	The Daily Dozen's recommendation for optimum exercise duration for longevity is ninety minutes of moderately intense activity a day, which is also the optimum exercise duration for weight loss. Anytime is good, and the more, the better, but there may be an advantage to exercising in a fasted state, at least six hours after your last meal. Typically, this would mean before breakfast, but if you timed it right, you could exercise midday before a late lunch or, if lunch is eaten early enough, before dinner. This is the timing for nondiabetics. Diabetics and prediabetics should instead start exercising thirty minutes after the start of a meal and ideally go for at least an hour to completely straddle the blood sugar peak. If you had to choose a single meal to exercise after, it would be dinner, due to the circadian rhythm of blood sugar control that wanes throughout the day. Ideally, though, breakfast would be the largest meal of the day, and you'd exercise after that—or, even better, after every meal.	La recomendación de la Docena Diaria para una mayor longevidad son 90 minutos de actividad física moderada, que también resulta ser la duración óptima para perder peso. Cualquier momento es bueno y, cuanto más, mejor, pero podría ser mejor hacer ejercicio en ayunas, al menos seis horas después de tu última comida. En general, esto se traduce en antes del desayuno, pero, si lo planeas bien, podrías hacer ejercicio al mediodía antes de un almuerzo tardío o, si comes temprano, pues antes de la cena. Esto sería para los no diabéticos. Los diabéticos y prediabéticos deberían empezar a hacer ejercicio treinta minutos después del comienzo de una comida e idealmente durante por lo menos una hora, para alcanzar el pico de azúcar en sangre. Si tuvieras que elegir una sola comida para hacer ejercicio después esta, lo mejor sería la cena, debido a que el ritmo circadiano del control del azúcar en sangre va disminuyendo durante el día. Sin embargo, como lo mejor es que el desayuno sea la comida más grande del día, deberías hacer ejercicio después de desayunar; o, mejor aún, después de cada comida.		
 exercise_timing	tweakExerciseTiming.heading	Optimize Exercise Timing	Ejercicio a buena hora	heading for daily data entry item	
 exercise_timing_short	tweakExerciseTiming.short	Optimize Exercise Timing	Ejercicio a buena hora		
 exercise_timing_text	tweakExerciseTiming.text	The Daily Dozen’s recommendation for optimum exercise duration for longevity is ninety minutes of moderately intense activity a day, which is also the optimum exercise duration for weight loss. Anytime is good, and the more, the better, but there may be an advantage to exercising in a fasted state, at least six hours after your last meal. Typically, this would mean before breakfast, but if you timed it right, you could exercise midday before a late lunch or, if lunch is eaten early enough, before dinner. This is the timing for nondiabetics. Diabetics and prediabetics should instead start exercising thirty minutes after the start of a meal and ideally go for at least an hour to completely straddle the blood sugar peak. If you had to choose a single meal to exercise after, it would be dinner, due to the circadian rhythm of blood sugar control that wanes throughout the day. Ideally, though, breakfast would be the largest meal of the day, and you’d exercise after that—or, even better, after every meal.	La recomendación de la Docena Diaria para una mayor longevidad son 90 minutos de actividad física moderada, que también resulta ser la duración óptima para perder peso. Cualquier momento es bueno y, cuanto más, mejor, pero podría ser mejor hacer ejercicio en ayunas, al menos seis horas después de tu última comida. En general, esto se traduce en antes del desayuno, pero, si lo planeas bien, podrías hacer ejercicio al mediodía antes de un almuerzo tardío o, si comes temprano, pues antes de la cena. Esto sería para los no diabéticos. Los diabéticos y prediabéticos deberían empezar a hacer ejercicio treinta minutos después del comienzo de una comida e idealmente durante por lo menos una hora, para alcanzar el pico de azúcar en sangre. Si tuvieras que elegir una sola comida para hacer ejercicio después esta, lo mejor sería la cena, debido a que el ritmo circadiano del control del azúcar en sangre va disminuyendo durante el día. Sin embargo, como lo mejor es que el desayuno sea la comida más grande del día, deberías hacer ejercicio después de desayunar; o, mejor aún, después de cada comida.		
 	tweakExerciseTiming.topic				
-	tweakMeal20Minutes.Activity.Imperial	Follow the Twenty-Minute Rule	La regla de los veinte minutos		
-	tweakMeal20Minutes.Activity.Metric	Follow the Twenty-Minute Rule	La regla de los veinte minutos		
+	tweakMeal20Minutes.Activity.imperial	Follow the Twenty-Minute Rule	La regla de los veinte minutos		
+	tweakMeal20Minutes.Activity.metric	Follow the Twenty-Minute Rule	La regla de los veinte minutos		
 	tweakMeal20Minutes.Description.0	Whether through increasing viscosity or the number of chews, or decreasing bite size and eating rate, dozens of studies have demonstrated that no matter how we boost the amount of time food is in our mouths, it can result in lower caloric intake. So extend meal duration to at least twenty minutes to allow your natural satiety signals to take full effect. How? By choosing foods that take longer to eat and eating them in a way that prolongs the time they stay in your mouth. Think bulkier, hardier, chewier foods in smaller, well-chewed bites.	Ya sea con el aumento de la viscosidad y el tiempo de masticado o con la disminución del tamaño de los bocados, existen docenas de estudios que han demostrado que aumentar la cantidad de tiempo que los alimentos se pasan en la boca puede resultar en una menor ingesta calórica. Por lo tanto, aumenta la duración de las comidas en al menos veinte minutos para que tus señales de saciedad naturales puedan surtir efecto. ¿Cómo puedes hacer esto? Podrías elegir alimentos que sean más difíciles de comer y comerlos de tal manera que se prolongue el tiempo que permanecen en la boca. Piensa en alimentos más voluminosos, más duros y que puedas masticar en bocados más pequeños.		
 meal_twentyminutes	tweakMeal20Minutes.heading	Follow the Twenty-Minute Rule	La regla de los veinte minutos	heading for daily data entry item	
 meal_twentyminutes_short	tweakMeal20Minutes.short	Follow the Twenty-Minute Rule	La regla de los veinte minutos		
 meal_twentyminutes_text	tweakMeal20Minutes.text	Whether through increasing viscosity or the number of chews, or decreasing bite size and eating rate, dozens of studies have demonstrated that no matter how we boost the amount of time food is in our mouths, it can result in lower caloric intake. So extend meal duration to at least twenty minutes to allow your natural satiety signals to take full effect. How? By choosing foods that take longer to eat and eating them in a way that prolongs the time they stay in your mouth. Think bulkier, hardier, chewier foods in smaller, well-chewed bites.	Ya sea con el aumento de la viscosidad y el tiempo de masticado o con la disminución del tamaño de los bocados, existen docenas de estudios que han demostrado que aumentar la cantidad de tiempo que los alimentos se pasan en la boca puede resultar en una menor ingesta calórica. Por lo tanto, aumenta la duración de las comidas en al menos veinte minutos para que tus señales de saciedad naturales puedan surtir efecto. ¿Cómo puedes hacer esto? Podrías elegir alimentos que sean más difíciles de comer y comerlos de tal manera que se prolongue el tiempo que permanecen en la boca. Piensa en alimentos más voluminosos, más duros y que puedas masticar en bocados más pequeños.		
 	tweakMeal20Minutes.topic				
-	tweakMealNegCal.Activity.Imperial	Preload with "Negative Calorie" Foods	Empezar con alimentos de calorías negativas		
-	tweakMealNegCal.Activity.Metric	Preload with "Negative Calorie" Foods	Empezar con alimentos de calorías negativas		
+	tweakMealNegCal.Activity.imperial	Preload with "Negative Calorie" Foods	Empezar con alimentos de calorías negativas		
+	tweakMealNegCal.Activity.metric	Preload with "Negative Calorie" Foods	Empezar con alimentos de calorías negativas		
 	tweakMealNegCal.Description.0	As the first course, start each meal with an apple or a Green Light soup or salad containing fewer than one hundred calories per cup.	Como entrante, puedes comerte una manzana, una sopa o una ensalada con alimentos de luz verde que contenga menos de cien calorías por taza.		
 meal_negcal	tweakMealNegCal.heading	Preload with “Negative Calorie” Foods	Empezar con alimentos de "calorías negativas"	heading for daily data entry item	
 meal_negcal_short	tweakMealNegCal.short	Preload with “Negative Calorie” Foods	Empezar con alimentos de calorías negativas		
 meal_negcal_text	tweakMealNegCal.text	As the first course, start each meal with an apple or a Green Light soup or salad containing fewer than one hundred calories per cup.	Como entrante, puedes comerte una manzana, una sopa o una ensalada con alimentos de luz verde que contenga menos de cien calorías por taza.		
 	tweakMealNegCal.topic				
-	tweakMealUndistracted.Activity.Imperial	Enjoy Undistracted Meals	Comidas sin distracciones		
-	tweakMealUndistracted.Activity.Metric	Enjoy Undistracted Meals	Comidas sin distracciones		
+	tweakMealUndistracted.Activity.imperial	Enjoy Undistracted Meals	Comidas sin distracciones		
+	tweakMealUndistracted.Activity.metric	Enjoy Undistracted Meals	Comidas sin distracciones		
 	tweakMealUndistracted.Description.0	Don't eat while watching TV or playing on your phone. Give yourself a check for each meal you're able to eat without distraction.	No comas mientras ves la televisión o juegas en tu smartphone. Puedes marcar una casilla por cada comida que pases sin distracciones.		
 meal_undistracted	tweakMealUndistracted.heading	Enjoy Undistracted Meals	Comidas sin distracciones	heading for daily data entry item	
 meal_undistracted_short	tweakMealUndistracted.short	Enjoy Undistracted Meals	Comidas sin distracciones		
 meal_undistracted_text	tweakMealUndistracted.text	Don’t eat while watching TV or playing on your phone. Give yourself a check for each meal you’re able to eat without distraction.	No comas mientras ves la televisión o juegas en tu smartphone. Puedes marcar una casilla por cada comida que pases sin distracciones.		
 	tweakMealUndistracted.topic				
-	tweakMealVinegar.Activity.Imperial	Incorporate Vinegar (2 tsp with each meal)	Vinagre (2 cucharaditas con cada comida)		
-	tweakMealVinegar.Activity.Metric	Incorporate Vinegar (2 tsp with each meal)	Vinagre (2 cucharaditas con cada comida)		
+	tweakMealVinegar.Activity.imperial	Incorporate Vinegar (2 tsp with each meal)	Vinagre (2 cucharaditas con cada comida)		
+	tweakMealVinegar.Activity.metric	Incorporate Vinegar (2 tsp with each meal)	Vinagre (2 cucharaditas con cada comida)		
 	tweakMealVinegar.Description.0	Never drink vinegar straight. Instead, flavor meals or dress a side salad with any of the sweet and savory vinegars out there. If you want to drink it, make sure to mix it in a glass of water and, afterward, be sure to rinse your mouth out with water to protect your tooth enamel.	Nunca bebas vinagre solo. Puedes usarlo para condimentar las comidas o aderezar una ensalada. Puedes usar cualquier tipo de vinagre, dulce o salado. Si quieres beberlo, debes mezclarlo con un vaso de agua y enjuagarte la boca justo después para proteger el esmalte dental.		
 meal_vinegar	tweakMealVinegar.heading	Incorporate Vinegar (2 tsp with each meal)	Vinagre (2 ctda. cada comida)	heading for daily data entry item	
 meal_vinegar_short	tweakMealVinegar.short	Incorporate Vinegar (2 tsp with each meal)	Vinagre (2 ctda. cada comida)		
 meal_vinegar_text	tweakMealVinegar.text	Never drink vinegar straight. Instead, flavor meals or dress a side salad with any of the sweet and savory vinegars out there. If you want to drink it, make sure to mix it in a glass of water and, afterward, be sure to rinse your mouth out with water to protect your tooth enamel.	Nunca bebas vinagre solo. Puedes usarlo para condimentar las comidas o aderezar una ensalada. Puedes usar cualquier tipo de vinagre, dulce o salado. Si quieres beberlo, debes mezclarlo con un vaso de agua y enjuagarte la boca justo después para proteger el esmalte dental.		
 	tweakMealVinegar.topic				
-	tweakMealWater.Activity.Imperial	Preload with Water	Empezar con agua		
-	tweakMealWater.Activity.Metric	Preload with Water	Empezar con agua		
+	tweakMealWater.Activity.imperial	Preload with Water	Empezar con agua		
+	tweakMealWater.Activity.metric	Preload with Water	Empezar con agua		
 	tweakMealWater.Description.0	Time your metabolism-boosting two cups of cool or cold unflavored water before each meal to also take advantage of its preload benefits.	Toma dos tazas de agua sin sabor, fría o del tiempo, antes de cada comida para acelerar tu metabolismo y aprovechar sus beneficios.		
 meal_water	tweakMealWater.heading	Preload with Water	Empezar con agua	heading for daily data entry item	
 meal_water_short	tweakMealWater.short	Preload with Water	Empezar con agua		
 meal_water_text	tweakMealWater.text	Time your metabolism-boosting two cups of cool or cold unflavored water before each meal to also take advantage of its preload benefits.	Toma dos tazas de agua sin sabor, fría o del tiempo, antes de cada comida para acelerar tu metabolismo y aprovechar sus beneficios.		
 	tweakMealWater.topic				
-	tweakNightlyFast.Activity.Imperial	Fast After 7:00 p.m.	Ayuno después de las 7 P.M.		
-	tweakNightlyFast.Activity.Metric	Fast After 7:00 p.m.	Ayuno después de las 7 P.M.		
+	tweakNightlyFast.Activity.imperial	Fast After 7:00 p.m.	Ayuno después de las 7 P.M.		
+	tweakNightlyFast.Activity.metric	Fast After 7:00 p.m.	Ayuno después de las 7 P.M.		
 	tweakNightlyFast.Description.0	Due to our circadian rhythms, food eaten at night is more fattening than the exact same food eaten earlier in the day, so fast every night for at least twelve hours starting before 7:00 p.m. The fewer calories after sundown, the better.	Debido a la influencia de los ritmos circadianos, lo que comes por la noche engorda más que si comieras eso mismo pero más temprano en el día, así que intenta ayunar todas las noches durante al menos doce horas a partir de las 7 P.M. Cuantas menos calorías consumas después de que se ponga el sol, mejor.		
 nightly_fast	tweakNightlyFast.heading	Fast After 7:00 pm	Ayuno después de las 7 P.M.	heading for daily data entry item	
 nightly_fast_short	tweakNightlyFast.short	Fast After 7:00 p.m.	Ayuno después de las 7 P.M.		
 nightly_fast_text	tweakNightlyFast.text	Due to our circadian rhythms, food eaten at night is more fattening than the exact same food eaten earlier in the day, so fast every night for at least twelve hours starting before 7:00 p.m. The fewer calories after sundown, the better.	Debido a la influencia de los ritmos circadianos, lo que comes por la noche engorda más que si comieras eso mismo pero más temprano en el día, así que intenta ayunar todas las noches durante al menos doce horas a partir de las 7 P.M. Cuantas menos calorías consumas después de que se ponga el sol, mejor.		
 	tweakNightlyFast.topic				
-	tweakNightlySleep.Activity.Imperial	Get Sufficient Sleep	Dormir lo suficiente		
-	tweakNightlySleep.Activity.Metric	Get Sufficient Sleep	Dormir lo suficiente		
+	tweakNightlySleep.Activity.imperial	Get Sufficient Sleep	Dormir lo suficiente		
+	tweakNightlySleep.Activity.metric	Get Sufficient Sleep	Dormir lo suficiente		
 	tweakNightlySleep.Description.0	Check this box if you get at least seven hours of sleep at your regular bedtime.	Puedes marcar esta casilla si has dormido al menos siete horas y te has ido a la cama a tu hora normal.		
 nightly_sleep	tweakNightlySleep.heading	Get Sufficient Sleep	Dormir lo suficiente	heading for daily data entry item	
 nightly_sleep_short	tweakNightlySleep.short	Get Sufficient Sleep	Dormir lo suficiente		
 nightly_sleep_text	tweakNightlySleep.text	Check this box if you get at least seven hours of sleep at your regular bedtime.	Puedes marcar esta casilla si has dormido al menos siete horas y te has ido a la cama a tu hora normal.		
 	tweakNightlySleep.topic				
-	tweakNightlyTrendelenbrug.Activity.Imperial	Experiment with Mild Trendelenburg	Experimenta con la Trendelenburg		
-	tweakNightlyTrendelenbrug.Activity.Metric	Experiment with Mild Trendelenburg	Experimenta con la Trendelenburg		
+	tweakNightlyTrendelenbrug.Activity.imperial	Experiment with Mild Trendelenburg	Experimenta con la Trendelenburg		
+	tweakNightlyTrendelenbrug.Activity.metric	Experiment with Mild Trendelenburg	Experimenta con la Trendelenburg		
 	tweakNightlyTrendelenbrug.Description.0	Try spending at least four hours a night lying with your body tilted head-down six degrees by elevating the posts at the foot of your bed by eight inches (or by nine inches if you have a California king). Be extremely careful when you get out of bed, as this causes orthostatic intolerance in most people, even if you're young and healthy—meaning if you get up too fast, you can feel dizzy, faint, or light-headed and could fall and hurt yourself. So get up slowly. Drinking two cups of cold water thirty minutes before rising may also help prevent this potentially hazardous side effect.ⓃⓃIMPORTANT: Do not try this at home at all if you have any heart or lung issues, acid reflux, or problems with your brain (like head trauma) or eyes (even a family history of glaucoma disqualifies you). Also do not try this until you ask your physician if they think it's safe for you to sleep in mild Trendelenburg.	Prueba a estar al menos cuatro horas cada noche con el cuerpo inclinado seis grados. Para conseguirlo, debes elevar los postes del pie de la cama unos 20 centímetros. Ten mucho cuidado al levantarte, ya que esta postura causa intolerancia ortostática para casi todo el mundo, aunque seas joven y estés saludable, así que, si te levantas demasiado rápido, puedes marearte, desmayarte o incluso caerte y hacerte daño. Por lo tanto, levántate lentamente. Beber dos tazas de agua fría treinta minutos antes de levantarte también podría ayudar a prevenir este efecto secundario potencialmente peligroso.ⓃⓃIMPORTANTE: no intentes esto en casa si tienes problemas cardiacos o pulmonares, reflujo ácido, problemas cerebrales (como traumatismo craneal) u oculares (incluso un historial familiar de glaucoma lo descalifica). Si tienes cualquier duda, no lo intentes sin preguntarle a tu médico antes.		
 nightly_trendelenburg	tweakNightlyTrendelenbrug.heading	Experiment with Mild Trendelenburg	Trendelenburg	heading for daily data entry item	
 nightly_trendelenburg_short	tweakNightlyTrendelenbrug.short	Experiment with Mild Trendelenburg	Trendelenburg		
 nightly_trendelenburg_text	tweakNightlyTrendelenbrug.text	Try spending at least four hours a night lying with your body tilted head-down six degrees by elevating the posts at the foot of your bed by eight inches (or by nine inches if you have a California king). Be extremely careful when you get out of bed, as this causes orthostatic intolerance in most people, even if you’re young and healthy—meaning if you get up too fast, you can feel dizzy, faint, or light-headed and could fall and hurt yourself. So get up slowly. Drinking two cups of cold water thirty minutes before rising may also help prevent this potentially hazardous side effect.\n\n*IMPORTANT: Do not try this at home at all if you have any heart or lung issues, acid reflux, or problems with your brain (like head trauma) or eyes (even a family history of glaucoma disqualifies you). Also do not try this until you ask your physician if they think it’s safe for you to sleep in mild Trendelenburg.*	Prueba a estar al menos cuatro horas cada noche con el cuerpo inclinado seis grados. Para conseguirlo, debes elevar los postes del pie de la cama unos 20 centímetros. Ten mucho cuidado al levantarte, ya que esta postura causa intolerancia ortostática para casi todo el mundo, aunque seas joven y estés saludable, así que, si te levantas demasiado rápido, puedes marearte, desmayarte o incluso caerte y hacerte daño. Por lo tanto, levántate lentamente. Beber dos tazas de agua fría treinta minutos antes de levantarte también podría ayudar a prevenir este efecto secundario potencialmente peligroso.\n\nIMPORTANTE: no intentes esto en casa si tienes problemas cardiacos o pulmonares, reflujo ácido, problemas cerebrales (como traumatismo craneal) u oculares (incluso un historial familiar de glaucoma lo descalifica). Si tienes cualquier duda, no lo intentes sin preguntarle a tu médico antes.*		
 	tweakNightlyTrendelenbrug.topic				
-	tweakWeightTwice.Activity.Imperial	Weigh Yourself Twice a Day	Pesarse dos veces al día		
-	tweakWeightTwice.Activity.Metric	Weigh Yourself Twice a Day	Pesarse dos veces al día		
+	tweakWeightTwice.Activity.imperial	Weigh Yourself Twice a Day	Pesarse dos veces al día		
+	tweakWeightTwice.Activity.metric	Weigh Yourself Twice a Day	Pesarse dos veces al día		
 	tweakWeightTwice.Description.0	Regular self-weighing is considered crucial for long-term weight control, but there is insufficient evidence to support a specific frequency of weighing. My recommendation is based on the one study that found that twice daily—upon waking and right before bed—appeared superior to once a day (about six versus two pounds of weight loss over twelve weeks).	Se suele pensar que pesarse de manera habitual es un método crucial para el control del peso a largo plazo, pero no existen suficientes pruebas para respaldar esta frecuencia. Mi recomendación se basa en un estudio que encontró que dos veces al día, al despertarte y justo antes de acostarte, parece ser mejor que una vez al día (con una diferencia de entre 1 y 3 kg en doce semanas).		
 weigh_twice	tweakWeightTwice.heading	Weigh Yourself Twice a Day	Pesarse dos veces al día	heading for daily data entry item	
 weigh_twice_short	tweakWeightTwice.short	Weigh Yourself Twice a Day	Pesarse dos veces al día		
