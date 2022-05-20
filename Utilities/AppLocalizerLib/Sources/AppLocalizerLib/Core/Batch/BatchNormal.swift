@@ -364,7 +364,7 @@ struct BatchNormal {
             .deletingLastPathComponent() // tsv
             .lastPathComponent           // language name e.g. English_US
         let outputTsvDirUrl = resultsDir
-            .appendingPathComponent("Normalized_TSV")
+            .appendingPathComponent("Languages_tsv_normal")
             .appendingPathComponent(tsvLangName)
             .appendingPathComponent("tsv")
         let outputTsvFileUrl = outputTsvDirUrl
@@ -395,7 +395,7 @@ struct BatchNormal {
         
         let tsvFilename = "\(language)_\(langcode).tsv"
         let outputTsvDirUrl = resultsDir
-            .appendingPathComponent("Normalized_TSV")
+            .appendingPathComponent("Languages_tsv_normal")
             .appendingPathComponent(language)
             .appendingPathComponent("tsv")
         let outputTsvFileUrl = outputTsvDirUrl

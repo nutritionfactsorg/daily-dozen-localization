@@ -66,6 +66,7 @@ var productsDir: URL {
 // -- Compare normalized English-Language tsv keywords. Updates as needed.
 let BatchSubdir = "batch_normal"
 let BatchCommands = "batch_normal_FromTsvMain.txt"
+//let BatchCommands = "batch_normal_FromTsvMain_es.txt" // update spanish
 
 // (2) TSV INTAKE to "NORMALIZED" .tsv, .json, .string, .xml  
 // -- INTAKE: include/exclude languages as needed
@@ -74,13 +75,14 @@ let BatchCommands = "batch_normal_FromTsvMain.txt"
 //let BatchSubdir = "batch_normal"
 //let BatchCommands = "batch_normal_FromTsvIntake.txt"
 
-// (*) Android XML Migration
+// (*) TSV residual updates (files without submitted translations)
+//let BatchSubdir = "batch_normal"
+//let BatchCommands = "batch_normal_FromTsvResidual.txt"
+
+// (*) XML Android Migration (not yet translated for Apple devices)
 //let BatchSubdir = "batch_normal"
 //let BatchCommands = "batch_normal_FromXmlDroidOnly.txt"
 
-// (*) Residual TSV updates
-//let BatchSubdir = "batch_normal"
-//let BatchCommands = "batch_normal_FromTsvResidual.txt"
 
 print("### \(BatchCommands) ###")
 

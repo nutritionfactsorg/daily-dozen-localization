@@ -340,10 +340,11 @@ struct BatchRunner {
                     return (cmdKey: cmdKey, cmdUrl: cmdUrl)
                 }
             } else if cmdKey == "DIRNAME_OUTPUT_NORMAL" {
+                let dirname = "\(cmdValue)_\(Date.datestampyyyyMMddHHmm)"
                 let cmdUrl = languagesUrl
                     .deletingLastPathComponent() // Languages
                     .appendingPathComponent("_Normal__LOCAL")
-                    .appendingPathComponent(cmdValue, isDirectory: true)
+                    .appendingPathComponent(dirname, isDirectory: true)
                 return (cmdKey: cmdKey, cmdUrl: cmdUrl)
             } else if cmdKey == "SOURCE_STRINGS" {
                 // Prerequisite: Development git repositories at same directory level.

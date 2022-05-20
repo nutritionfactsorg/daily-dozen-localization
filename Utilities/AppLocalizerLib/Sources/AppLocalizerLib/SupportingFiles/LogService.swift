@@ -137,19 +137,23 @@ public class LogService {
         }
     }
     
-    public func useLogfile(url: URL?) {
+    public func useLogfile(url: URL?, addDatestamp: Bool = false) {
         guard let url = url else {
             logfileUrl = nil
             return 
         }
         
-        let currentTime = Date()
-        let formatter = DateFormatter()
-        formatter.dateFormat = "yyyyMMdd_HHmmss"
-        let dateTimestamp = formatter.string(from: currentTime)
-        
         let basename = url.lastPathComponent
-        let logname = "\(basename)-\(dateTimestamp).txt"
+        var logname = "\(basename).txt"
+        if addDatestamp {
+            let currentTime = Date()
+            let formatter = DateFormatter()
+            formatter.dateFormat = "yyyyMMdd_HHmmss"
+            let dateTimestamp = formatter.string(from: currentTime)
+
+            logname = "\(basename)-\(dateTimestamp).txt"
+        }
+
         let logdirUrl = url.deletingLastPathComponent()
         logfileUrl = logdirUrl.appendingPathComponent(logname, isDirectory: false)
         
