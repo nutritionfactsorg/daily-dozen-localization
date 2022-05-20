@@ -143,7 +143,10 @@ struct XmlFromTsvProcessor {
             switch name {
             case "string":
                 if let value = _lookupTableDroid[keyId] {
-                    let escapedValue = value.replacingOccurrences(of: "'", with: "\\'")
+                    // :!!!:???: verify escaped OK in Android XML `'` as `\'`, `"` as `\"`
+                    let escapedValue = value
+                        .replacingOccurrences(of: "'", with: "\\'")
+                        .replacingOccurrences(of: "\"", with: "\\\"")
                     node.stringValue = escapedValue
                     keysDroidXmlMatched.insert(keyId)
                 } else {
