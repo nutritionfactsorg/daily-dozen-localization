@@ -355,8 +355,8 @@ daily_reminder_text	reminder.alert.text	Update your servings for today	Actualiza
 play_sound	reminder.settings.sound	Play Sound	Sonido	Daily Reminder sound control heading	
 remind_me_at	reminder.settings.time	Remind me at	Recuérdamelo a las	Daily Reminder time control heading	
 vibrate	reminder.settings.vibrate	Vibrate	Vibración	Android notification `vibrate`	
-	reminder.state.off	Off	Off	‘Off’ as in ‘On (enabled) or Off (disabled)’, Daily Reminder is not enabled	
-	reminder.state.on	On	On	‘On’ as in ‘On (enabled) or Off (disable)’. Daily Reminder is enabled	
+	reminder.state.off	Off	Apagado	‘Off’ as in ‘On (enabled) or Off (disabled)’, Daily Reminder is not enabled	
+	reminder.state.on	On	Encendido	‘On’ as in ‘On (enabled) or Off (disable)’. Daily Reminder is enabled	
 daily_dozen_only	setting_doze_only_btn	Daily Dozen\nOnly	Solo Docena Diaria	First Launch Setting: button text	
 	setting_doze_only_choice	Daily Dozen Only	Solo Docena Diaria	Preference Settings View: selection button text	
 daily_dozen_and_tweaks	setting_doze_tweak_btn	Daily Dozen +\n21 Tweaks	Docena Diaria y 21 Ajustes	First Launch Setting: button text	
