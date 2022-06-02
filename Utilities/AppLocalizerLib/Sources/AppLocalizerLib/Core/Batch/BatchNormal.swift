@@ -106,6 +106,8 @@ struct BatchNormal {
         // Apple *.json uses url topic subpaths
         let forJsonSheet = TsvSheet([sourceSheet, baseUrlTopicsSheet])        
         let jsonOutputDir = resultsDir
+            .appendingPathComponent("App")
+            .appendingPathComponent("Texts")
             .appendingPathComponent("LocalStrings")
             .appendingPathComponent("\(langCode).lproj", isDirectory: true)
         var jsonFromTsv = JsonFromTsvProcessor(
@@ -339,11 +341,13 @@ struct BatchNormal {
         modifier: String = "", 
         resultsDir: URL) {
         for (key, content) in stringsDictionary {
-            let outputDirUrl = resultsDir
-                .appendingPathComponent(key.parentName)
-                .appendingPathComponent("\(langCode).lproj", isDirectory: true)
+            var outputDirUrl = resultsDir
+            for pathComponent in key.stringsPathComponents {
+                outputDirUrl.appendPathComponent(pathComponent, isDirectory: true)
+            }
+            outputDirUrl.appendPathComponent("\(langCode).lproj", isDirectory: true)
             let outputFileUrl = outputDirUrl
-                .appendingPathComponent("\(key.name)\(modifier).strings", isDirectory: false)
+                .appendingPathComponent("\(key.stringsFilename)\(modifier).strings", isDirectory: false)
             
             do {
                 try FileManager.default.createDirectory(

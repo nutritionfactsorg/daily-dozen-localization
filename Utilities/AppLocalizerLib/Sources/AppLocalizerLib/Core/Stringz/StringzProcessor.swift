@@ -108,16 +108,18 @@ struct StringzProcessor: TsvProtocol {
         case infoPlist = "InfoPlist"
         case localizable = "Localizable"
         
-        var name: String {
+        var stringsFilename: String {
             return self.rawValue
         }
         
-        var parentName: String {
+        var stringsPathComponents: [String] {
             switch self {
             case .infoPlist:
-                return "InfoPlist"
+                // App/InfoPlist/*.lproj/InfoPlist.strings
+                return ["App", "InfoPlist"]
             case .localizable:
-                return "LocalStrings"
+                // App/Texts/LocalStrings/*.lproj/Localizable.strings
+                return ["App", "Texts", "LocalStrings"]
             }
         }
     }

@@ -46,7 +46,7 @@ struct JsonFromTsvProcessor {
                 .appendingPathComponent("keysAppleJsonAll.txt")
             try keysExpectedString.write(to: url, atomically: true, encoding: .utf8)
         } catch {
-           print("JsonFromTsvProcessor init() writing expected keys. \(error)")
+           print("JsonFromTsvProcessor init(…) writing expected keys. \(error)")
         }
     }
     
@@ -84,7 +84,7 @@ struct JsonFromTsvProcessor {
                 .appendingPathComponent("keysAppleJsonAll.txt")
             try keysExpectedString.write(to: url, atomically: true, encoding: .utf8)
         } catch {
-           print("JsonFromTsvProcessor init() writing expected keys. \(error)")
+           print("JsonFromTsvProcessor init(xliffUrl) writing expected keys. \(error)")
         }
     }
 
