@@ -450,7 +450,7 @@ videos	videos.link.label	Videos	VIDEOS	Label for hyperlink to nutritionfacts.org
 weight	weightEntry.heading	Weight	Weight	Weight Daily Entry: heading	
 about_tweak		About Tweak			
 android.about_text_lines.0		This app was created by John Slavick.	This app was created by John Slavick.		
-android.about_text_lines.1		The following open source libraries are used: ActiveAndroid, android-iconify, ButterKnife, EventBus, LikeAnimation, and MPAndroidChart.	The following open source libraries are used: ActiveAndroid, android-iconify, EventBus, LikeAnimation, and MPAndroidChart.		
+android.about_text_lines.1		The following open source libraries are used: ActiveAndroid, android-iconify, EventBus, LikeAnimation, and MPAndroidChart.	The following open source libraries are used: ActiveAndroid, android-iconify, EventBus, LikeAnimation, and MPAndroidChart.		
 android.about_text_lines.2		Special thanks to the volunteer efforts of the creators of the previous app: Chan Kruse, Allan Portera, and Sangeeta Kumar.	Special thanks to the volunteer efforts of the creators of the previous app: Chan Kruse, Allan Portera, and Sangeeta Kumar.		
 average_weight_on_day		Average weight on day	Average weight on day		
 backup		Backup	Backup		

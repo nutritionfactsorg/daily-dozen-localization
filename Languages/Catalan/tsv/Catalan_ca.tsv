@@ -449,7 +449,7 @@ videos	videos.link.label	Videos	Vídeos	Label for hyperlink to nutritionfacts.or
 weight	weightEntry.heading	Weight	Pes	Weight Daily Entry: heading	
 about_tweak		About Tweak	Sobre els Potenciadors		
 android.about_text_lines.0		This app was created by John Slavick.	Aquesta aplicació ha estat creada per John Slavick.		
-android.about_text_lines.1		The following open source libraries are used: ActiveAndroid, android-iconify, ButterKnife, EventBus, LikeAnimation, and MPAndroidChart.	S'han utilitzat les següents llibreries de codi obert: ActiveAndroid, android-iconify, ButterKnife, EventBus, LikeAnimation i MPAndroidChart.		
+android.about_text_lines.1		The following open source libraries are used: ActiveAndroid, android-iconify, EventBus, LikeAnimation, and MPAndroidChart.	S'han utilitzat les següents llibreries de codi obert: ActiveAndroid, android-iconify, EventBus, LikeAnimation i MPAndroidChart.		
 android.about_text_lines.2		Special thanks to the volunteer efforts of the creators of the previous app: Chan Kruse, Allan Portera, and Sangeeta Kumar.	Agraïm especialment l'esforç voluntari dels creadors de l'anterior aplicació: Chan Kruse, Allan Portera i Sangeeta Kumar.		
 average_weight_on_day		Average weight on day	Pes de mitjana		
 backup		Backup	Còpia de seguretat		
