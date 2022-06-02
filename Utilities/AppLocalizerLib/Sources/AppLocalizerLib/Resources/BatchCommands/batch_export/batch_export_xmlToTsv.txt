@@ -1,4 +1,4 @@
-### FILE: batch_replicate_TBD.txt
+### FILE: batch_export_xmlToTsv.txt
 ### WORKFLOW: Documentation/Workflow_Replicate.md
 
 #######################################################

@@ -1,0 +1,16 @@
+### FILE: batch_export_xmlToTsv_it.txt
+### WORKFLOW: Documentation/Workflow_Replicate.md
+
+###################
+## General Setup ##
+###################
+DIRNAME_OUTPUT_NORMAL="XmlToTsv_it"
+LOGGER_FILENAME="_log_XmlToTsv_it"
+LOGGER_LEVEL_INFO
+
+#######################################################
+### CREATE TSV: languages with Android translations ###
+#######################################################
+SOURCE_LANG_DROID="Italian/android/values-it/strings.it.20190223.xml"
+OUTPUT_LANG_TSV="Italian/tsv/Italian_it.export.20190223.tsv"
+DO_EXPORT_TSV
