@@ -448,9 +448,11 @@ videos	videos.link.label	Videos	Βίντεο	Label for hyperlink to nutritionfac
 	weight_history_edit_data	Edit Data	Edit Data	Weight Daily Entry: edit button to change values	
 weight	weightEntry.heading	Weight	Βάρος	Weight Daily Entry: heading	
 about_tweak		About Tweak	Σχετικά με το Tweak		
-android.about_text_lines.0		This app was created by John Slavick.	Η εφαρμογή δημιουργήθηκε από τον John Slavick.		
-android.about_text_lines.1		The following open source libraries are used: ActiveAndroid, android-iconify, EventBus, LikeAnimation, and MPAndroidChart.	Χρησιμοποιούνται οι ακόλουθες βιβλιοθήκες ανοικτού κώδικα: ActiveAndroid, android-iconify, EventBus, LikeAnimation και MPAndroidChart.		
-android.about_text_lines.2		Special thanks to the volunteer efforts of the creators of the previous app: Chan Kruse, Allan Portera, and Sangeeta Kumar.	Ιδιαίτερες ευχαριστίες προς τις εθελοντικές προσπάθειες των δημιουργών της προηγούμενης εφαρμογής: Chan Kruse, Allan Portera και Sangeeta Kumar.		
+about_text_lines.0		This app was created by John Slavick.	Η εφαρμογή δημιουργήθηκε από τον John Slavick.		
+about_text_lines.1					
+about_text_lines.2		The following open source libraries are used: ActiveAndroid, android-iconify, EventBus, LikeAnimation, and MPAndroidChart.	Χρησιμοποιούνται οι ακόλουθες βιβλιοθήκες ανοικτού κώδικα: ActiveAndroid, android-iconify, EventBus, LikeAnimation και MPAndroidChart.		
+about_text_lines.3					
+about_text_lines.4		Special thanks to the volunteer efforts of the creators of the previous app: Chan Kruse, Allan Portera, and Sangeeta Kumar.	Ιδιαίτερες ευχαριστίες προς τις εθελοντικές προσπάθειες των δημιουργών της προηγούμενης εφαρμογής: Chan Kruse, Allan Portera και Sangeeta Kumar.		
 average_weight_on_day		Average weight on day	Μέσο βάρος την ημέρα		
 backup		Backup	Αντίγραφο Ασφαλείας		
 backup_failed		Backup failed	Απέτυχε το αντίγραφο ασφαλείας		

@@ -1,16 +1,11 @@
-<string-array name="food_info_serving_sizes_other_fruits">
-    <item>%s1 medium-sized fruit</item>
-    <item>%s dried fruit</item>
-</string-array>
-
 <string-array name="food_info_serving_sizes_other_fruits_imperial">
-    <item/>
-    <item>¼ cup</item>
+    <item>1 medium-sized fruit</item>
+    <item>¼ cup dried fruit</item>
 </string-array>
 
 <string-array name="food_info_serving_sizes_other_fruits_metric">
-    <item/>
-    <item>40 g</item>
+    <item>1 medium-sized fruit</item>
+    <item>40 g dried fruit</item>
 </string-array>
 
 <string-array name="food_info_types_other_fruits">
