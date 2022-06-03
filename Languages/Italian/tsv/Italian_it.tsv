@@ -1,33 +1,33 @@
 key_droid	key_apple	base_value	lang_value	base_note	lang_note
 	CFBundleDisplayName	DailyDozen	DailyDozen	User-visible application name. Visible under icon. Used by Siri.	
 	CFBundleName	DailyDozen	DailyDozen	User-visible application short name (15 Characters max)	
-back_to_today	dateBackButtonTitle	Back to today	Torna a Oggi	Date Button Title: ‘Back to today’	
+back_to_today	dateBackButtonTitle	Back to today	Indietro a oggi	Date Button Title: ‘Back to today’	
 	dateButtonTitle.today	Today	Today	Date Button Title: ‘Today’	
 serving_sizes	doze_detail_section_sizes	Serving Sizes	Porzioni servizio	Doze Detail View subheading: ‘Serving Sizes’	
 types	doze_detail_section_types	Types	Tipi	Doze Detail View subheading: ‘Types’	
 servings	doze_entry_header	Servings	Porzioni	Doze Entry View heading: ‘Servings’	
-beans	dozeBeans.heading	Beans	Fagioli	heading for daily data entry item	
-food_info_serving_sizes_beans_imperial.0	dozeBeans.Serving.imperial.0	¼ cup of hummus or bean dip	¼ tazza di hummus o salsa di soia,		
-food_info_serving_sizes_beans_imperial.1	dozeBeans.Serving.imperial.1	½ cup cooked beans, split peas, lentils, tofu, or tempeh	½ tazza di fagioli cotti, piselli, lenticchie, tofu o tempé		
+beans	dozeBeans.heading	Beans	Legumi	heading for daily data entry item	
+food_info_serving_sizes_beans_imperial.0	dozeBeans.Serving.imperial.0	¼ cup of hummus or bean dip	¼ tazza di hummus o altra crema spalmabile di fagioli		
+food_info_serving_sizes_beans_imperial.1	dozeBeans.Serving.imperial.1	½ cup cooked beans, split peas, lentils, tofu, or tempeh	½ tazza di fagioli cotti, piselli spezzati, lenticchie, tofu o tempé		
 food_info_serving_sizes_beans_imperial.2	dozeBeans.Serving.imperial.2	1 cup of fresh peas or sprouted lentils	1 tazza di piselli freschi o germogli di lenticchia		
-food_info_serving_sizes_beans_metric.0	dozeBeans.Serving.metric.0	60 g of hummus or bean dip	60 g di hummus o salsa di soia,		
-food_info_serving_sizes_beans_metric.1	dozeBeans.Serving.metric.1	130 g cooked beans, split peas, lentils, tofu, or tempeh	130 g di fagioli cotti, piselli, lenticchie, tofu o tempé		
+food_info_serving_sizes_beans_metric.0	dozeBeans.Serving.metric.0	60 g of hummus or bean dip	60 g di hummus o altra crema spalmabile di fagioli		
+food_info_serving_sizes_beans_metric.1	dozeBeans.Serving.metric.1	130 g cooked beans, split peas, lentils, tofu, or tempeh	½ tazza di fagioli cotti, piselli spezzati, lenticchie, tofu o tempé		
 food_info_serving_sizes_beans_metric.2	dozeBeans.Serving.metric.2	150 g of fresh peas or sprouted lentils	150 g di piselli freschi o germogli di lenticchia		
 food_info_types_beans.0	dozeBeans.Variety.Text.0	Black beans	Fagioli neri		
-food_info_types_beans.1	dozeBeans.Variety.Text.1	Black-eyed peas	Fagioli dall’occhio nero		
-food_info_types_beans.2	dozeBeans.Variety.Text.2	Butter beans	Fagioli		
+food_info_types_beans.1	dozeBeans.Variety.Text.1	Black-eyed peas	Fagioli dall’occhio		
+food_info_types_beans.2	dozeBeans.Variety.Text.2	Butter beans	Fagioli di Spagna		
 food_info_types_beans.3	dozeBeans.Variety.Text.3	Cannellini beans	Fagioli Cannellini		
 food_info_types_beans.4	dozeBeans.Variety.Text.4	Chickpeas/Garbanzo Beans	Ceci		
 food_info_types_beans.5	dozeBeans.Variety.Text.5	Edamame	Fagioli di soia (edamame)		
-food_info_types_beans.6	dozeBeans.Variety.Text.6	English peas	Piselli inglesi		
-food_info_types_beans.7	dozeBeans.Variety.Text.7	Great northern beans	Fagioli grandi del nord		
+food_info_types_beans.6	dozeBeans.Variety.Text.6	English peas	Piselli		
+food_info_types_beans.7	dozeBeans.Variety.Text.7	Great northern beans	Fagioli bianchi		
 food_info_types_beans.8	dozeBeans.Variety.Text.8	Kidney beans	Fagioli rossi		
 food_info_types_beans.9	dozeBeans.Variety.Text.9	Lentils (beluga, french, and red varieties)	Lenticchie (beluga, francese e varietà rossa)		
 food_info_types_beans.10	dozeBeans.Variety.Text.10	Miso	Miso		
 food_info_types_beans.11	dozeBeans.Variety.Text.11	Navy beans	Fagioli tondini		
 food_info_types_beans.12	dozeBeans.Variety.Text.12	Pinto beans	Fagiolo pinto		
-food_info_types_beans.13	dozeBeans.Variety.Text.13	Small red beans	Piccoli fagioli rossi		
-food_info_types_beans.14	dozeBeans.Variety.Text.14	Split peas (yellow or green)	Piselli Secchi (gialli o verdi)		
+food_info_types_beans.13	dozeBeans.Variety.Text.13	Small red beans	Fagiolo borlotti		
+food_info_types_beans.14	dozeBeans.Variety.Text.14	Split peas (yellow or green)	Piselli spezzati (gialli o verdi)		
 food_info_types_beans.15	dozeBeans.Variety.Text.15	Tempeh	Tempè		
 berries	dozeBerries.heading	Berries	Frutti Di Bosco	heading for daily data entry item	
 food_info_serving_sizes_berries_imperial.0	dozeBerries.Serving.imperial.0	½ cup fresh or frozen	½ tazza freschi o congelati		
@@ -35,30 +35,30 @@ food_info_serving_sizes_berries_imperial.1	dozeBerries.Serving.imperial.1	¼ cup
 food_info_serving_sizes_berries_metric.0	dozeBerries.Serving.metric.0	60 g fresh or frozen	60 g freschi o congelati		
 food_info_serving_sizes_berries_metric.1	dozeBerries.Serving.metric.1	40 g dried	40 g essiccato		
 food_info_types_berries.0	dozeBerries.Variety.Text.0	Acai berries	Bacche d'Acai		
-food_info_types_berries.1	dozeBerries.Variety.Text.1	Barberries	Berberis		
+food_info_types_berries.1	dozeBerries.Variety.Text.1	Barberries	Bacca di Berberis		
 food_info_types_berries.2	dozeBerries.Variety.Text.2	Blackberries	More		
 food_info_types_berries.3	dozeBerries.Variety.Text.3	Blueberries	Mirtilli		
 food_info_types_berries.4	dozeBerries.Variety.Text.4	Cherries (sweet or tart)	Ciliegie (dolci o aspre)		
 food_info_types_berries.5	dozeBerries.Variety.Text.5	Concord grapes	Uva Concordia		
-food_info_types_berries.6	dozeBerries.Variety.Text.6	Cranberries	Mirtilli		
+food_info_types_berries.6	dozeBerries.Variety.Text.6	Cranberries	Mirtilli rossi americani		
 food_info_types_berries.7	dozeBerries.Variety.Text.7	Goji berries	Bacche di Goji		
 food_info_types_berries.8	dozeBerries.Variety.Text.8	Kumquats	Kumquat		
-food_info_types_berries.9	dozeBerries.Variety.Text.9	Mulberries	Gelsi		
-food_info_types_berries.10	dozeBerries.Variety.Text.10	Raspberries (black or red)	Lamponi (nero o rosso)		
+food_info_types_berries.9	dozeBerries.Variety.Text.9	Mulberries	More di Gelso		
+food_info_types_berries.10	dozeBerries.Variety.Text.10	Raspberries (black or red)	Lamponi (neri o rossi)		
 food_info_types_berries.11	dozeBerries.Variety.Text.11	Strawberries	Fragole		
 beverages	dozeBeverages.heading	Beverages	Bevande	heading for daily data entry item	
 food_info_serving_sizes_beverages_imperial.0	dozeBeverages.Serving.imperial.0	One glass (12 ounces)	Un bicchiere (12 once)		
 food_info_serving_sizes_beverages_metric.0	dozeBeverages.Serving.metric.0	One glass (350 ml)	Un bicchiere (350 ml)		
 food_info_types_beverages.0	dozeBeverages.Variety.Text.0	Black tea	Tè Nero		
 food_info_types_beverages.1	dozeBeverages.Variety.Text.1	Chai tea	Tè Chai		
-food_info_types_beverages.2	dozeBeverages.Variety.Text.2	Vanilla chamomile tea	Camomilla Vanilla		
+food_info_types_beverages.2	dozeBeverages.Variety.Text.2	Vanilla chamomile tea	Infuso Camomilla Vaniglia		
 food_info_types_beverages.3	dozeBeverages.Variety.Text.3	Coffee	Caffè		
 food_info_types_beverages.4	dozeBeverages.Variety.Text.4	Earl grey tea	Tè Earl Grey		
 food_info_types_beverages.5	dozeBeverages.Variety.Text.5	Green tea	Tè Verde		
 food_info_types_beverages.6	dozeBeverages.Variety.Text.6	Hibiscus tea	Carcadè		
 food_info_types_beverages.7	dozeBeverages.Variety.Text.7	Hot chocolate	Cioccolata Calda		
 food_info_types_beverages.8	dozeBeverages.Variety.Text.8	Jasmine tea	Tè al Gelsomino		
-food_info_types_beverages.9	dozeBeverages.Variety.Text.9	Lemon balm tea	Tè Melissa		
+food_info_types_beverages.9	dozeBeverages.Variety.Text.9	Lemon balm tea	Infuso di Melissa		
 food_info_types_beverages.10	dozeBeverages.Variety.Text.10	Matcha tea	Tè Matcha		
 food_info_types_beverages.11	dozeBeverages.Variety.Text.11	Almond blossom oolong tea	Tè Oolong Mandorlo in Fiore		
 food_info_types_beverages.12	dozeBeverages.Variety.Text.12	Peppermint tea	Tè alla menta piperita		
@@ -66,10 +66,10 @@ food_info_types_beverages.13	dozeBeverages.Variety.Text.13	Rooibos tea	Tè Rooib
 food_info_types_beverages.14	dozeBeverages.Variety.Text.14	Water	Acqua		
 food_info_types_beverages.15	dozeBeverages.Variety.Text.15	White tea	Tè Bianco		
 exercise	dozeExercise.heading	Exercise	Esercizi	heading for daily data entry item	
-food_info_serving_sizes_exercise_imperial.0	dozeExercise.Serving.imperial.0	90 minutes of moderate-intensity activity	90 minuti di attività moderata intensità		
-food_info_serving_sizes_exercise_imperial.1	dozeExercise.Serving.imperial.1	40 minutes of vigorous-intensity activity	40 minuti di attività vigorosa intensità		
-food_info_serving_sizes_exercise_metric.0	dozeExercise.Serving.metric.0	90 minutes of moderate-intensity activity	90 minuti di attività moderata intensità		
-food_info_serving_sizes_exercise_metric.1	dozeExercise.Serving.metric.1	40 minutes of vigorous-intensity activity	40 minuti di attività vigorosa intensità		
+food_info_serving_sizes_exercise_imperial.0	dozeExercise.Serving.imperial.0	90 minutes of moderate-intensity activity	90 minuti di attività di moderata intensità		
+food_info_serving_sizes_exercise_imperial.1	dozeExercise.Serving.imperial.1	40 minutes of vigorous-intensity activity	40 minuti di attività di vigorosa intensità		
+food_info_serving_sizes_exercise_metric.0	dozeExercise.Serving.metric.0	90 minutes of moderate-intensity activity	90 minuti di attività di moderata intensità		
+food_info_serving_sizes_exercise_metric.1	dozeExercise.Serving.metric.1	40 minutes of vigorous-intensity activity	40 minuti di attività di vigorosa intensità		
 food_info_types_exercise.0	dozeExercise.Variety.Text.0	Bicycling	Andare in bicicletta		
 food_info_types_exercise.1	dozeExercise.Variety.Text.1	Canoeing	Canottaggio		
 food_info_types_exercise.2	dozeExercise.Variety.Text.2	Dancing	Danza		
@@ -81,10 +81,10 @@ food_info_types_exercise.7	dozeExercise.Variety.Text.7	Housework	Lavori domestic
 food_info_types_exercise.8	dozeExercise.Variety.Text.8	Ice-skating	Pattinaggio sul ghiaccio		
 food_info_types_exercise.9	dozeExercise.Variety.Text.9	Inline skating	Pattinaggio in linea		
 food_info_types_exercise.10	dozeExercise.Variety.Text.10	Juggling	Giocoleria		
-food_info_types_exercise.11	dozeExercise.Variety.Text.11	Jumping on a trampoline	Saltando dal trampolino		
+food_info_types_exercise.11	dozeExercise.Variety.Text.11	Jumping on a trampoline	Saltare su un trampolino		
 food_info_types_exercise.12	dozeExercise.Variety.Text.12	Paddle boating	Canottaggio Paddle		
 food_info_types_exercise.13	dozeExercise.Variety.Text.13	Playing frisbee	Giocare a Frisbee		
-food_info_types_exercise.14	dozeExercise.Variety.Text.14	Roller-skating	Pattinaggio a Rotelle		
+food_info_types_exercise.14	dozeExercise.Variety.Text.14	Roller-skating	Pattinaggio		
 food_info_types_exercise.15	dozeExercise.Variety.Text.15	Shooting baskets	Basket		
 food_info_types_exercise.16	dozeExercise.Variety.Text.16	Shoveling light snow	Spalare neve leggera		
 food_info_types_exercise.17	dozeExercise.Variety.Text.17	Skateboarding	Skateboarding		
@@ -127,7 +127,7 @@ food_info_types_exercise.53	dozeExercise.Variety.Text.53	Water jogging	Acqua-Jog
 flaxseeds	dozeFlaxseeds.heading	Flaxseeds	Semi Di Lino	heading for daily data entry item	
 food_info_serving_sizes_flaxseeds_imperial.0	dozeFlaxseeds.Serving.imperial.0	1 tablespoon ground	1 cucchiaio base		
 food_info_serving_sizes_flaxseeds_metric.0	dozeFlaxseeds.Serving.metric.0	1 tablespoon ground	1 cucchiaio base		
-food_info_types_flaxseeds.0	dozeFlaxseeds.Variety.Text.0	Brown flaxseeds	Semi di lino marroni		
+food_info_types_flaxseeds.0	dozeFlaxseeds.Variety.Text.0	Brown flaxseeds	Semi di lino scuri		
 food_info_types_flaxseeds.1	dozeFlaxseeds.Variety.Text.1	Golden flaxseeds	Semi di lino dorati		
 other_fruits	dozeFruitsOther.heading	Other Fruits	Altri Frutti	heading for daily data entry item	
 food_info_serving_sizes_other_fruits_imperial.0	dozeFruitsOther.Serving.imperial.0	1 medium-sized fruit	1 frutto medio		
@@ -137,7 +137,7 @@ food_info_serving_sizes_other_fruits_metric.0	dozeFruitsOther.Serving.metric.0	1
 food_info_serving_sizes_other_fruits_metric.1	dozeFruitsOther.Serving.metric.1	120 g cut-up fruit	120 g frutta tagliata		
 food_info_serving_sizes_other_fruits_metric.2	dozeFruitsOther.Serving.metric.2	40 g dried fruit	40 g frutta secca		
 food_info_types_other_fruits.0	dozeFruitsOther.Variety.Text.0	Apples	Mele		
-food_info_types_other_fruits.1	dozeFruitsOther.Variety.Text.1	Apricots	Albicocche secche		
+food_info_types_other_fruits.1	dozeFruitsOther.Variety.Text.1	Apricots	Albicocche		
 food_info_types_other_fruits.2	dozeFruitsOther.Variety.Text.2	Avocados	Avocado		
 food_info_types_other_fruits.3	dozeFruitsOther.Variety.Text.3	Bananas	Banane		
 food_info_types_other_fruits.4	dozeFruitsOther.Variety.Text.4	Cantaloupe	Cantalupo		
@@ -164,7 +164,7 @@ food_info_types_other_fruits.24	dozeFruitsOther.Variety.Text.24	Pomegranates	Mel
 food_info_types_other_fruits.25	dozeFruitsOther.Variety.Text.25	Prunes	Prugne		
 food_info_types_other_fruits.26	dozeFruitsOther.Variety.Text.26	Tangerines	Mandarini		
 food_info_types_other_fruits.27	dozeFruitsOther.Variety.Text.27	Watermelon	Anguria		
-greens	dozeGreens.heading	Greens	Verdure	heading for daily data entry item	
+greens	dozeGreens.heading	Greens	Verdure a foglia	heading for daily data entry item	
 food_info_serving_sizes_greens_imperial.0	dozeGreens.Serving.imperial.0	1 cup raw	1 tazza raw		
 food_info_serving_sizes_greens_imperial.1	dozeGreens.Serving.imperial.1	½ cup cooked	½ tazza cooked		
 food_info_serving_sizes_greens_metric.0	dozeGreens.Serving.metric.0	60 g raw	60 g raw		
@@ -174,12 +174,12 @@ food_info_types_greens.1	dozeGreens.Variety.Text.1	Beet greens	Bietole
 food_info_types_greens.2	dozeGreens.Variety.Text.2	Collard greens	Cavolo Nero		
 food_info_types_greens.3	dozeGreens.Variety.Text.3	Kale (black, green, and red)	Cavolo Kale (nero, verde e rosso)		
 food_info_types_greens.4	dozeGreens.Variety.Text.4	Mesclun mix (assorted young salad greens)	Mix Mesclun (Assortimento di insalta giovane)		
-food_info_types_greens.5	dozeGreens.Variety.Text.5	Mustard greens	Senape verde		
+food_info_types_greens.5	dozeGreens.Variety.Text.5	Mustard greens	Foglie di senape		
 food_info_types_greens.6	dozeGreens.Variety.Text.6	Sorrel	Acetosa		
 food_info_types_greens.7	dozeGreens.Variety.Text.7	Spinach	Spinaci		
 food_info_types_greens.8	dozeGreens.Variety.Text.8	Swiss chard	Bietola		
 food_info_types_greens.9	dozeGreens.Variety.Text.9	Turnip greens	Cime di rapa		
-nuts	dozeNuts.heading	Nuts and Seeds	Noccioline	heading for daily data entry item	
+nuts	dozeNuts.heading	Nuts and Seeds	Noci e semi	heading for daily data entry item	
 food_info_serving_sizes_nuts_imperial.0	dozeNuts.Serving.imperial.0	¼ cup nuts or seeds	¼ tazza noci o semi		
 food_info_serving_sizes_nuts_imperial.1	dozeNuts.Serving.imperial.1	2 tablespoons nut or seed butter	2 pasta o burro di semi		
 food_info_serving_sizes_nuts_metric.0	dozeNuts.Serving.metric.0	30 g nuts or seeds	30 g noci o semi		
@@ -202,14 +202,14 @@ OK	dozeOtherInfo.confirm	OK	OK	Daily Dozen supplement info alert: dismissal butt
 	dozeOtherInfo.section	Supplements	Supplements	Daily Dozen daily entry section heading	
 	dozeOtherInfo.title	Supplements	Supplements	Daily Dozen supplement info alert: title	
 spices	dozeSpices.heading	Herbs and Spices	Erbe e Spezie	heading for daily data entry item	
-food_info_serving_sizes_spices_imperial.0	dozeSpices.Serving.imperial.0	¼ teaspoon of turmeric	 cucchiaino di curcuma		
-food_info_serving_sizes_spices_imperial.1	dozeSpices.Serving.imperial.1	Any other (salt-free) herbs and spices you enjoy	Eventuali altre erbe (senza sale) e spezie che ti piacciono		
-food_info_serving_sizes_spices_metric.0	dozeSpices.Serving.metric.0	¼ teaspoon of turmeric	 cucchiaino di curcuma		
-food_info_serving_sizes_spices_metric.1	dozeSpices.Serving.metric.1	Any other (salt-free) herbs and spices you enjoy	Eventuali altre erbe (senza sale) e spezie che ti piacciono		
-food_info_types_spices.0	dozeSpices.Variety.Text.0	Allspice	Pimento		
+food_info_serving_sizes_spices_imperial.0	dozeSpices.Serving.imperial.0	¼ teaspoon of turmeric	¼ cucchiaino di curcuma		
+food_info_serving_sizes_spices_imperial.1	dozeSpices.Serving.imperial.1	Any other (salt-free) herbs and spices you enjoy	Eventuali altre erbe (senza sale) e spezie a scelta		
+food_info_serving_sizes_spices_metric.0	dozeSpices.Serving.metric.0	¼ teaspoon of turmeric	¼ cucchiaino di curcuma		
+food_info_serving_sizes_spices_metric.1	dozeSpices.Serving.metric.1	Any other (salt-free) herbs and spices you enjoy	Eventuali altre erbe (senza sale) e spezie a scelta		
+food_info_types_spices.0	dozeSpices.Variety.Text.0	Allspice	Pimenta dioica		
 food_info_types_spices.1	dozeSpices.Variety.Text.1	Barberries	Berberis		
 food_info_types_spices.2	dozeSpices.Variety.Text.2	Basil	Basilico		
-food_info_types_spices.3	dozeSpices.Variety.Text.3	Bay leaves	Foglie di Alloro		
+food_info_types_spices.3	dozeSpices.Variety.Text.3	Bay leaves	Alloro		
 food_info_types_spices.4	dozeSpices.Variety.Text.4	Cardamom	Cardamomo		
 food_info_types_spices.5	dozeSpices.Variety.Text.5	Chili powder	Peperoncino in polvere		
 food_info_types_spices.6	dozeSpices.Variety.Text.6	Cilantro	Coriandolo		
@@ -238,7 +238,7 @@ food_info_types_spices.28	dozeSpices.Variety.Text.28	Sage	Saggio
 food_info_types_spices.29	dozeSpices.Variety.Text.29	Thyme	Timo		
 food_info_types_spices.30	dozeSpices.Variety.Text.30	Turmeric	Curcuma		
 food_info_types_spices.31	dozeSpices.Variety.Text.31	Vanilla	Vaniglia		
-cruciferous_vegetables	dozeVegetablesCruciferous.heading	Cruciferous Vegetables	Verdure Crocifere	heading for daily data entry item	
+cruciferous_vegetables	dozeVegetablesCruciferous.heading	Cruciferous Vegetables	Verdure Crucifere	heading for daily data entry item	
 food_info_serving_sizes_cruciferous_vegetables_imperial.0	dozeVegetablesCruciferous.Serving.imperial.0	½ cup chopped	½ tazza tritato		
 food_info_serving_sizes_cruciferous_vegetables_imperial.1	dozeVegetablesCruciferous.Serving.imperial.1	¼ cup Brussels or broccoli sprouts	¼ tazza  di Bruxelles o germogli di broccoli		
 food_info_serving_sizes_cruciferous_vegetables_imperial.2	dozeVegetablesCruciferous.Serving.imperial.2	1 tablespoon horseradish	1 cucchiaio di rafano		
@@ -246,20 +246,20 @@ food_info_serving_sizes_cruciferous_vegetables_metric.0	dozeVegetablesCruciferou
 food_info_serving_sizes_cruciferous_vegetables_metric.1	dozeVegetablesCruciferous.Serving.metric.1	12 g Brussels or broccoli sprouts	12 g  di Bruxelles o germogli di broccoli		
 food_info_serving_sizes_cruciferous_vegetables_metric.2	dozeVegetablesCruciferous.Serving.metric.2	1 tablespoon horseradish	1 cucchiaio di rafano		
 food_info_types_cruciferous_vegetables.0	dozeVegetablesCruciferous.Variety.Text.0	Arugula	Arugula		
-food_info_types_cruciferous_vegetables.1	dozeVegetablesCruciferous.Variety.Text.1	Bok choy	Bok choy		
+food_info_types_cruciferous_vegetables.1	dozeVegetablesCruciferous.Variety.Text.1	Bok choy	Cavolo cinese (Pak choi, bok choi)		
 food_info_types_cruciferous_vegetables.2	dozeVegetablesCruciferous.Variety.Text.2	Broccoli (incl. Romanesco)	Broccoli (incl. Romanesco)		
-food_info_types_cruciferous_vegetables.3	dozeVegetablesCruciferous.Variety.Text.3	Brussels sprouts	Brussels sprouts		
-food_info_types_cruciferous_vegetables.4	dozeVegetablesCruciferous.Variety.Text.4	Cabbage (green, red and savoy)	Cabbage (green, red and savoy)		
-food_info_types_cruciferous_vegetables.5	dozeVegetablesCruciferous.Variety.Text.5	Cauliflower (white, green, orange and purple)	Cauliflower (white, green, orange and purple)		
+food_info_types_cruciferous_vegetables.3	dozeVegetablesCruciferous.Variety.Text.3	Brussels sprouts	Cavoletti di Brussel		
+food_info_types_cruciferous_vegetables.4	dozeVegetablesCruciferous.Variety.Text.4	Cabbage (green, red and savoy)	Cavoli (verde, rosso, bianco, cappuccio, etc)		
+food_info_types_cruciferous_vegetables.5	dozeVegetablesCruciferous.Variety.Text.5	Cauliflower (white, green, orange and purple)	Cavolfiori		
 food_info_types_cruciferous_vegetables.6	dozeVegetablesCruciferous.Variety.Text.6	Collard greens	Collard greens		
-food_info_types_cruciferous_vegetables.7	dozeVegetablesCruciferous.Variety.Text.7	Horseradish	Horseradish		
+food_info_types_cruciferous_vegetables.7	dozeVegetablesCruciferous.Variety.Text.7	Horseradish	Rafano		
 food_info_types_cruciferous_vegetables.8	dozeVegetablesCruciferous.Variety.Text.8	Kale (black, green, and red)	Kale (black, green, and red)		
-food_info_types_cruciferous_vegetables.9	dozeVegetablesCruciferous.Variety.Text.9	Kohlrabi (green and purple)	Kohlrabi (green and purple)		
-food_info_types_cruciferous_vegetables.10	dozeVegetablesCruciferous.Variety.Text.10	Mustard greens	Mustard greens		
-food_info_types_cruciferous_vegetables.11	dozeVegetablesCruciferous.Variety.Text.11	Radishes	Radishes		
-food_info_types_cruciferous_vegetables.12	dozeVegetablesCruciferous.Variety.Text.12	Turnip greens	Turnip greens		
-food_info_types_cruciferous_vegetables.13	dozeVegetablesCruciferous.Variety.Text.13	Watercress	Watercress		
-other_vegetables	dozeVegetablesOther.heading	Other Vegetables	Altri Ortaggi e Legumi	heading for daily data entry item	
+food_info_types_cruciferous_vegetables.9	dozeVegetablesCruciferous.Variety.Text.9	Kohlrabi (green and purple)	Cavolo rapa (verde, viola)		
+food_info_types_cruciferous_vegetables.10	dozeVegetablesCruciferous.Variety.Text.10	Mustard greens	Foglie di senape		
+food_info_types_cruciferous_vegetables.11	dozeVegetablesCruciferous.Variety.Text.11	Radishes	Ravanelli		
+food_info_types_cruciferous_vegetables.12	dozeVegetablesCruciferous.Variety.Text.12	Turnip greens	Cime di rapa		
+food_info_types_cruciferous_vegetables.13	dozeVegetablesCruciferous.Variety.Text.13	Watercress	Crescione		
+other_vegetables	dozeVegetablesOther.heading	Other Vegetables	Ortaggi e altre verdure	heading for daily data entry item	
 food_info_serving_sizes_other_vegetables_imperial.0	dozeVegetablesOther.Serving.imperial.0	1 cup raw leafy vegetables	1 tazza verdure crude a foglia		
 food_info_serving_sizes_other_vegetables_imperial.1	dozeVegetablesOther.Serving.imperial.1	½ cup raw or cooked nonleafy vegetables	½ tazza crude o cotte di verdure non a foglia		
 food_info_serving_sizes_other_vegetables_imperial.2	dozeVegetablesOther.Serving.imperial.2	½ cup vegetable juice	½ tazza succo di verdura		
@@ -269,7 +269,7 @@ food_info_serving_sizes_other_vegetables_metric.1	dozeVegetablesOther.Serving.me
 food_info_serving_sizes_other_vegetables_metric.2	dozeVegetablesOther.Serving.metric.2	125 ml vegetable juice	125 ml succo di verdura		
 food_info_serving_sizes_other_vegetables_metric.3	dozeVegetablesOther.Serving.metric.3	7 g dried mushrooms	7 g funghi secchi		
 food_info_types_other_vegetables.0	dozeVegetablesOther.Variety.Text.0	Artichokes	Carciofi		
-food_info_types_other_vegetables.1	dozeVegetablesOther.Variety.Text.1	Asparagus	Asparago		
+food_info_types_other_vegetables.1	dozeVegetablesOther.Variety.Text.1	Asparagus	Asparagi		
 food_info_types_other_vegetables.2	dozeVegetablesOther.Variety.Text.2	Beets	Barbabietole		
 food_info_types_other_vegetables.3	dozeVegetablesOther.Variety.Text.3	Bell peppers	Peperoni		
 food_info_types_other_vegetables.4	dozeVegetablesOther.Variety.Text.4	Carrots	Carote		
@@ -281,20 +281,20 @@ food_info_types_other_vegetables.9	dozeVegetablesOther.Variety.Text.9	Onions	Cip
 food_info_types_other_vegetables.10	dozeVegetablesOther.Variety.Text.10	Purple potatoes	Patate Viola		
 food_info_types_other_vegetables.11	dozeVegetablesOther.Variety.Text.11	Pumpkin	Zucca		
 food_info_types_other_vegetables.12	dozeVegetablesOther.Variety.Text.12	Sea vegetables (arame, dulse, and nori)	Alghe Marine (Arame, Dulse e Nori)		
-food_info_types_other_vegetables.13	dozeVegetablesOther.Variety.Text.13	Snap peas	Piselli Snap		
-food_info_types_other_vegetables.14	dozeVegetablesOther.Variety.Text.14	Squash (delicata, summer, and spaghetti squash varieties)	Squash (varietà delicata, summer e spaghetti)		
+food_info_types_other_vegetables.13	dozeVegetablesOther.Variety.Text.13	Snap peas	Piselli (Mangetout)		
+food_info_types_other_vegetables.14	dozeVegetablesOther.Variety.Text.14	Squash (delicata, summer, and spaghetti squash varieties)	Zucca (varietà delicata, summer e spaghetti)		
 food_info_types_other_vegetables.15	dozeVegetablesOther.Variety.Text.15	Sweet potatoes/yams	Patate dolci		
 food_info_types_other_vegetables.16	dozeVegetablesOther.Variety.Text.16	Tomatoes	Pomodori		
 food_info_types_other_vegetables.17	dozeVegetablesOther.Variety.Text.17	Zucchini	Zucchine		
 whole_grains	dozeWholeGrains.heading	Whole Grains	Cereali Integrali	heading for daily data entry item	
 food_info_serving_sizes_whole_grains_imperial.0	dozeWholeGrains.Serving.imperial.0	½ cup hot cereal or cooked grains, pasta, or corn kernels	½ tazza cereali caldi o cotti, pasta di nocciole o mais		
 food_info_serving_sizes_whole_grains_imperial.1	dozeWholeGrains.Serving.imperial.1	1 cup cold cereal	1 tazza cereali freddi		
-food_info_serving_sizes_whole_grains_imperial.2	dozeWholeGrains.Serving.imperial.2	1 tortilla or slice of bread	1 tortilla o fetta di pane		
+food_info_serving_sizes_whole_grains_imperial.2	dozeWholeGrains.Serving.imperial.2	1 tortilla or slice of bread	1 piadina, 1 tortilla o 1 fetta di pane integrale		
 food_info_serving_sizes_whole_grains_imperial.3	dozeWholeGrains.Serving.imperial.3	½ a bagel or English muffin	½ bagel o focaccina inglese		
 food_info_serving_sizes_whole_grains_imperial.4	dozeWholeGrains.Serving.imperial.4	3 cups popped popcorn	3 tazze popcorn		
 food_info_serving_sizes_whole_grains_metric.0	dozeWholeGrains.Serving.metric.0	100 g hot cereal or cooked grains, pasta, or corn kernels	100 g cereali caldi o cotti, pasta di nocciole o mais		
 food_info_serving_sizes_whole_grains_metric.1	dozeWholeGrains.Serving.metric.1	50 g cold cereal	50 g cereali freddi		
-food_info_serving_sizes_whole_grains_metric.2	dozeWholeGrains.Serving.metric.2	1 tortilla or slice of bread	1 tortilla o fetta di pane		
+food_info_serving_sizes_whole_grains_metric.2	dozeWholeGrains.Serving.metric.2	1 tortilla or slice of bread	1 piadina, 1 tortilla o 1 fetta di pane integrale		
 food_info_serving_sizes_whole_grains_metric.3	dozeWholeGrains.Serving.metric.3	½ a bagel or English muffin	½ bagel o focaccina inglese		
 food_info_serving_sizes_whole_grains_metric.4	dozeWholeGrains.Serving.metric.4	30 g popped popcorn	30 g popcorn		
 food_info_types_whole_grains.0	dozeWholeGrains.Variety.Text.0	Barley	Orzo		
@@ -343,8 +343,8 @@ history	item_history_heading	History	Cronologia	Item History Heading
 	navtab.info	Information	Information	Main Navigation Tab Control: show more information	
 	navtab.preferences	Preferences	Preferences	Main Navigation Tab Control: ‘Preferences’ synonyms: Settings, Configuration. Choose a translations with is different from Tweaks.	
 	navtab.tweaks	21 Tweaks	21 Tweaks	Main Navigation Tab Control: ‘21 Tweaks’ (proper noun)	
-	NSHealthShareUsageDescription	The 21 Tweaks feature accesses your HealthKit data to provide updates to your daily weight measurements.	The 21 Tweaks feature accesses your HealthKit data to provide updates to your daily weight measurements.	Privacy - Health Share Usage Description	
-	NSHealthUpdateUsageDescription	The 21 Tweaks feature can write weight data to HealthKit to help you keep track of your progress.	The 21 Tweaks feature can write weight data to HealthKit to help you keep track of your progress.	Privacy - Health Update Usage Description	
+	NSHealthShareUsageDescription	The 21 Tweaks feature accesses your HealthKit data to provide updates to your daily weight measurements.	La funzione "I 21 aggiustamenti " ha accesso ai dati del tuo HealthKit cosi` da fornire aggiornamenti alle tue misure di peso giornaliere	Privacy - Health Share Usage Description	
+	NSHealthUpdateUsageDescription	The 21 Tweaks feature can write weight data to HealthKit to help you keep track of your progress.	La funzione "I 21 aggiustamenti " puo` mandare i dati sul peso a HealthKit per aiutarti a tracciare il tuo progresso	Privacy - Health Update Usage Description	
 vitamin_b12	otherVitaminB12.heading	Vitamin B12	Vitamina B12	heading for daily data entry item	
 daily_reminder_text	reminder.alert.text	Update your servings for today	Aggiorna le tue porzioni di oggi	Alert notification text	
 	reminder.heading	Daily Reminder	Daily Reminder	Daily Reminder (alert title, settings section heading)	
@@ -447,12 +447,12 @@ videos	videos.link.label	Videos	Video	Label for hyperlink to nutritionfacts.org 
 	weight_entry_units_lbs	lbs	lbs	Weight Daily Entry Units: label	
 	weight_history_edit_data	Edit Data	Edit Data	Weight Daily Entry: edit button to change values	
 weight	weightEntry.heading	Weight	Peso	Weight Daily Entry: heading	
-about_tweak		About Tweak	Informazioni su Tweak		
 about_text_lines.0		This app was created by John Slavick.	Questa applicazione è stata creata da John Slavick.		
 about_text_lines.1					
 about_text_lines.2		The following open source libraries are used: ActiveAndroid, android-iconify, EventBus, LikeAnimation, and MPAndroidChart.	Le seguenti librerie open source sono utilizzate: ActiveAndroid, android-iconify, EventBus, LikeAnimation, and MPAndroidChart.		
 about_text_lines.3					
 about_text_lines.4		Special thanks to the volunteer efforts of the creators of the previous app: Chan Kruse, Allan Portera, and Sangeeta Kumar.	Un ringraziamento speciale agli sforzi volontari dei creatori dell\'app precedente: Chan Kruse, Allan Portera, and Sangeeta Kumar.		
+about_tweak		About Tweak	Informazioni su Tweak		
 average_weight_on_day		Average weight on day	Peso medio al giorno		
 backup		Backup	Backup		
 backup_failed		Backup failed	Backup non riuscito		
@@ -484,15 +484,6 @@ dialog_streaks_message		Your database will now be upgraded to support the new st
 dialog_streaks_title		New feature: Streaks!	Nuova funzione: Strisce!		
 enable_daily_reminder		Enable Daily Reminder	Abilita promemoria giornaliero	On/Off toggle label	
 error_cannot_handle_url		Could not open url. Please install a browser.	Impossibile aprire URL. Si prega di installare un browser.		
-food_history		Food History	Cronologia Cibo		
-food_info		Food Info	Info Alimentari		
-format_version		version %s	versione %s	Place "%s" where the software should substitue in the version number.	
-history_to_generate		History to Generate	Cronologia da generare		
-history_to_generate_choices.0		1 month	1 mese		
-history_to_generate_choices.1		3 months	3 mesi		
-history_to_generate_choices.2		6 months	6 mesi		
-history_to_generate_choices.3		1 year	1 anno		
-history_to_generate_choices.4		2 years	2 anni		
 history_to_generate_choices.5		5 years	5 anno		
 no		No	No		
 no_servings_recorded		You have not recorded any servings yet!	Non hai ancora registrato alcuna porzione!		
