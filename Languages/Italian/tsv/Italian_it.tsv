@@ -11,7 +11,7 @@ food_info_serving_sizes_beans_imperial.0	dozeBeans.Serving.imperial.0	¼ cup of 
 food_info_serving_sizes_beans_imperial.1	dozeBeans.Serving.imperial.1	½ cup cooked beans, split peas, lentils, tofu, or tempeh	½ tazza di fagioli cotti, piselli spezzati, lenticchie, tofu o tempé		
 food_info_serving_sizes_beans_imperial.2	dozeBeans.Serving.imperial.2	1 cup of fresh peas or sprouted lentils	1 tazza di piselli freschi o germogli di lenticchia		
 food_info_serving_sizes_beans_metric.0	dozeBeans.Serving.metric.0	60 g of hummus or bean dip	60 g di hummus o altra crema spalmabile di fagioli		
-food_info_serving_sizes_beans_metric.1	dozeBeans.Serving.metric.1	130 g cooked beans, split peas, lentils, tofu, or tempeh	½ tazza di fagioli cotti, piselli spezzati, lenticchie, tofu o tempé		
+food_info_serving_sizes_beans_metric.1	dozeBeans.Serving.metric.1	130 g cooked beans, split peas, lentils, tofu, or tempeh	130 g di fagioli cotti, piselli spezzati, lenticchie, tofu o tempé		
 food_info_serving_sizes_beans_metric.2	dozeBeans.Serving.metric.2	150 g of fresh peas or sprouted lentils	150 g di piselli freschi o germogli di lenticchia		
 food_info_types_beans.0	dozeBeans.Variety.Text.0	Black beans	Fagioli neri		
 food_info_types_beans.1	dozeBeans.Variety.Text.1	Black-eyed peas	Fagioli dall’occhio		
@@ -66,10 +66,10 @@ food_info_types_beverages.13	dozeBeverages.Variety.Text.13	Rooibos tea	Tè Rooib
 food_info_types_beverages.14	dozeBeverages.Variety.Text.14	Water	Acqua		
 food_info_types_beverages.15	dozeBeverages.Variety.Text.15	White tea	Tè Bianco		
 exercise	dozeExercise.heading	Exercise	Esercizi	heading for daily data entry item	
-food_info_serving_sizes_exercise_imperial.0	dozeExercise.Serving.imperial.0	90 minutes of moderate-intensity activity	90 minuti di attività di moderata intensità		
-food_info_serving_sizes_exercise_imperial.1	dozeExercise.Serving.imperial.1	40 minutes of vigorous-intensity activity	40 minuti di attività di vigorosa intensità		
-food_info_serving_sizes_exercise_metric.0	dozeExercise.Serving.metric.0	90 minutes of moderate-intensity activity	90 minuti di attività di moderata intensità		
-food_info_serving_sizes_exercise_metric.1	dozeExercise.Serving.metric.1	40 minutes of vigorous-intensity activity	40 minuti di attività di vigorosa intensità		
+food_info_serving_sizes_exercise_imperial.0	dozeExercise.Serving.imperial.0	90 minutes of moderate-intensity activity	90 minuti di attività moderata intensità		
+food_info_serving_sizes_exercise_imperial.1	dozeExercise.Serving.imperial.1	40 minutes of vigorous-intensity activity	40 minuti di attività vigorosa intensità		
+food_info_serving_sizes_exercise_metric.0	dozeExercise.Serving.metric.0	90 minutes of moderate-intensity activity	90 minuti di attività moderata intensità		
+food_info_serving_sizes_exercise_metric.1	dozeExercise.Serving.metric.1	40 minutes of vigorous-intensity activity	40 minuti di attività vigorosa intensità		
 food_info_types_exercise.0	dozeExercise.Variety.Text.0	Bicycling	Andare in bicicletta		
 food_info_types_exercise.1	dozeExercise.Variety.Text.1	Canoeing	Canottaggio		
 food_info_types_exercise.2	dozeExercise.Variety.Text.2	Dancing	Danza		
@@ -484,7 +484,16 @@ dialog_streaks_message		Your database will now be upgraded to support the new st
 dialog_streaks_title		New feature: Streaks!	Nuova funzione: Strisce!		
 enable_daily_reminder		Enable Daily Reminder	Abilita promemoria giornaliero	On/Off toggle label	
 error_cannot_handle_url		Could not open url. Please install a browser.	Impossibile aprire URL. Si prega di installare un browser.		
-history_to_generate_choices.5		5 years	5 anno		
+food_history		Food History	Cronologia Cibo		
+food_info		Food Info	Info Alimentari		
+format_version		version %s	versione %s	Place "%s" where the software should substitue in the version number.	
+history_to_generate		History to Generate	Cronologia da generare		
+history_to_generate_choices.0		1 month	1 mese		
+history_to_generate_choices.1		3 months	3 mesi		
+history_to_generate_choices.2		6 months	6 mesi		
+history_to_generate_choices.3		1 year	1 anno		
+history_to_generate_choices.4		2 years	2 anni		
+history_to_generate_choices.5		5 years	5 anni		
 no		No	No		
 no_servings_recorded		You have not recorded any servings yet!	Non hai ancora registrato alcuna porzione!		
 no_weights_recorded		You have not recorded any weights yet!	Non hai ancora registrato alcun peso!		
