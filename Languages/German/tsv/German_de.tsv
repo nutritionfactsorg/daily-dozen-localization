@@ -447,12 +447,12 @@ videos	videos.link.label	Videos	VIDEOS	Label for hyperlink to nutritionfacts.org
 	weight_entry_units_lbs	lbs	Pfund	Weight Daily Entry Units: label	
 	weight_history_edit_data	Edit Data	Daten bearbeiten	Weight Daily Entry: edit button to change values	
 weight	weightEntry.heading	Weight	Gewicht	Weight Daily Entry: heading	
-about_tweak		About Tweak	Über Optimierungen		
 about_text_lines.0		This app was created by John Slavick.	Diese Anwendung wurde von John Slavick erstellt.		
 about_text_lines.1					
 about_text_lines.2		The following open source libraries are used: ActiveAndroid, android-iconify, EventBus, LikeAnimation, and MPAndroidChart.	Die folgenden Open-Source-Bibliotheken werden verwendet: ActiveAndroid, android-iconify, EventBus, LikeAnimation und MPAndroidChart.		
 about_text_lines.3					
 about_text_lines.4		Special thanks to the volunteer efforts of the creators of the previous app: Chan Kruse, Allan Portera, and Sangeeta Kumar.	Besonderer Dank gilt den freiwilligen Helfern, die die vorherige App entwickelt haben: Chan Kruse, Allan Portera und Sangeeta Kumar.		
+about_tweak		About Tweak	Über Optimierungen		
 average_weight_on_day		Average weight on day	Durchschnittliches Gewicht am Tag		
 backup		Backup	Sicherung		
 backup_failed		Backup failed	Sicherung fehlgeschlagen		

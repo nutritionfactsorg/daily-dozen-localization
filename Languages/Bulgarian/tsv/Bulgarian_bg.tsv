@@ -447,12 +447,12 @@ videos	videos.link.label	Videos	Видео клипове	Label for hyperlink to
 	weight_entry_units_lbs	lbs	lbs	Weight Daily Entry Units: label	
 	weight_history_edit_data	Edit Data	Edit Data	Weight Daily Entry: edit button to change values	
 weight	weightEntry.heading	Weight	тегло	Weight Daily Entry: heading	
-about_tweak		About Tweak	Относно ощипване		
 about_text_lines.0		This app was created by John Slavick.	Това приложение е създадено от John Slavick.		
 about_text_lines.1					
 about_text_lines.2		The following open source libraries are used: ActiveAndroid, android-iconify, EventBus, LikeAnimation, and MPAndroidChart.	Използват се следните библиотеки с отворен код: ActiveAndroid, Android-iconify, EventBus, LikeAnimation, и MPAndroidChart.		
 about_text_lines.3					
 about_text_lines.4		Special thanks to the volunteer efforts of the creators of the previous app: Chan Kruse, Allan Portera, and Sangeeta Kumar.	Специални благодарности за усилията положени от създателите на първата версия на приложението: Chan Kruse, Allan Portera, и Sangeeta Kumar.		
+about_tweak		About Tweak	Относно ощипване		
 average_weight_on_day		Average weight on day	Средно тегло на ден		
 backup		Backup	Архивиране		
 backup_failed		Backup failed	Задачата за създаване на архив е неуспешна		

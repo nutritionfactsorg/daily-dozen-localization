@@ -447,12 +447,12 @@ videos	videos.link.label	Videos	Videoclipuri	Label for hyperlink to nutritionfac
 	weight_entry_units_lbs	lbs	lbs	Weight Daily Entry Units: label	
 	weight_history_edit_data	Edit Data	Edit Data	Weight Daily Entry: edit button to change values	
 weight	weightEntry.heading	Weight	Greutate	Weight Daily Entry: heading	
-about_tweak		About Tweak	Despre Tweak		
 about_text_lines.0		This app was created by John Slavick.	Această aplicație a fost creată de John Slavick.		
 about_text_lines.1					
 about_text_lines.2		The following open source libraries are used: ActiveAndroid, android-iconify, EventBus, LikeAnimation, and MPAndroidChart.	Următoarele biblioteci cu sursă deschisă sunt utilizate în crearea aplicației: ActiveAndroid, android-iconify, EventBus, LikeAnimation, și MPAndroidChart.		
 about_text_lines.3					
 about_text_lines.4		Special thanks to the volunteer efforts of the creators of the previous app: Chan Kruse, Allan Portera, and Sangeeta Kumar.	Mulțumiri speciale sunt aduse eforturilor de voluntariat ale creatorilor aplicației anterioare: Chan Kruse, Allan Portera, și Sangeeta Kumar.		
+about_tweak		About Tweak	Despre Tweak		
 average_weight_on_day		Average weight on day	Greutate medie pe zi		
 backup		Backup	Copie de rezervă		
 backup_failed		Backup failed	Efectuarea copiei de rezervă a datelor a eşuat		

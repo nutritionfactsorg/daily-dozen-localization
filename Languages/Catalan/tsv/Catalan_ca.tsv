@@ -447,12 +447,12 @@ videos	videos.link.label	Videos	Vídeos	Label for hyperlink to nutritionfacts.or
 	weight_entry_units_lbs	lbs	lliures	Weight Daily Entry Units: label	
 	weight_history_edit_data	Edit Data	Editar Dades	Weight Daily Entry: edit button to change values	
 weight	weightEntry.heading	Weight	Pes	Weight Daily Entry: heading	
-about_tweak		About Tweak	Sobre els Potenciadors		
 about_text_lines.0		This app was created by John Slavick.	Aquesta aplicació ha estat creada per John Slavick.		
 about_text_lines.1					
 about_text_lines.2		The following open source libraries are used: ActiveAndroid, android-iconify, EventBus, LikeAnimation, and MPAndroidChart.	S'han utilitzat les següents llibreries de codi obert: ActiveAndroid, android-iconify, EventBus, LikeAnimation i MPAndroidChart.		
 about_text_lines.3					
 about_text_lines.4		Special thanks to the volunteer efforts of the creators of the previous app: Chan Kruse, Allan Portera, and Sangeeta Kumar.	Agraïm especialment l'esforç voluntari dels creadors de l'anterior aplicació: Chan Kruse, Allan Portera i Sangeeta Kumar.		
+about_tweak		About Tweak	Sobre els Potenciadors		
 average_weight_on_day		Average weight on day	Pes de mitjana		
 backup		Backup	Còpia de seguretat		
 backup_failed		Backup failed	La còpia de seguretat ha fallat		
