@@ -129,6 +129,7 @@ DO_NORMALIZE_BATCH
 SOURCE_TSV_INCLUDE="Hebrew/tsv/Hebrew_he.appstore.tsv"
 DO_NORMALIZE_BATCH
 
+LOGGER_FILENAME="_log_FromTsvMain_Hebrew_iw"
 ## -- (iw) process application values --
 SOURCE_TSV_INCLUDE="Hebrew/tsv/Hebrew_iw.tsv"
 DO_NORMALIZE_BATCH
@@ -145,8 +146,6 @@ DO_NORMALIZE_BATCH
 SOURCE_TSV_INCLUDE="Polish/tsv/Polish_pl.appstore.tsv"
 DO_NORMALIZE_BATCH
 
-#####################
-## (pt) Portuguese ##
 ################################
 ## (pt-rBR) Portuguese_Brazil ##
 ################################

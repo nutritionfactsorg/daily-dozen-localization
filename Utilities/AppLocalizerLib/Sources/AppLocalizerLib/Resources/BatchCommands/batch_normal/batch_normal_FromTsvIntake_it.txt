@@ -64,18 +64,14 @@ DO_NORMALIZE_BATCH
 ##################
 ## (it) Italian ##
 ##################
-LOGGER_FILENAME="_log_FromTsvMain_Italian_it"
+LOGGER_FILENAME="_log_FromTsvIntake_Italian_it"
 
-## -- (it) process application values MAIN --
+## -- (it) process application values PICK ONE --
 SOURCE_TSV_INCLUDE="Italian/tsv/Italian_it.tsv"
-DO_NORMALIZE_BATCH
-
-## -- (it) process application values PR --
-SOURCE_TSV_INCLUDE="Italian/tsv/Italian_it.20190223.tsv"
-DO_NORMALIZE_BATCH
-
-## -- (it) process application values WIP --
-SOURCE_TSV_INCLUDE="Italian/tsv/Italian_it.wip.20220603.tsv"
+## Legacy PR 20190223
+#SOURCE_TSV_INCLUDE="Italian/tsv/Italian_it.20190223.tsv"
+## WIP snapshot from translator
+#SOURCE_TSV_INCLUDE="Italian/tsv/Italian_it.wip.20220603.tsv"
 DO_NORMALIZE_BATCH
 
 ## -- (it) process appstore --

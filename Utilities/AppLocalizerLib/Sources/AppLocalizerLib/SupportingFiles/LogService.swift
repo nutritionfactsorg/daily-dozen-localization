@@ -111,7 +111,8 @@ public class LogService {
     
     private func logWrite(_ string: String) {
         lineCount += 1
-        var logString = "[[\(lineCount)]] \(string)"
+        var logString = watchpointList.isEmpty ? "" : "[[\(lineCount)]] "
+        logString.append(string)
         #if DEBUG
         if watchpointList.contains(lineCount) {
             logString = ":::WATCHPOINT::: [[\(lineCount)]]\n" + logString
