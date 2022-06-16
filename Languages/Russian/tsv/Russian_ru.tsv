@@ -1,4 +1,6 @@
 key_droid	key_apple	base_value	lang_value	base_note	lang_note
+	CFBundleDisplayName	DailyDozen	DailyDozen	User-visible application name. Visible under icon. Used by Siri.	
+	CFBundleName	DailyDozen	DailyDozen	User-visible application short name (15 Characters max)	
 back_to_today	dateBackButtonTitle	Back to today	Обратно к Сегодня	Date Button Title: ‘Back to today’	
 	dateButtonTitle.today	Today	Сегодня	Date Button Title: ‘Today’	
 serving_sizes	doze_detail_section_sizes	Serving Sizes	Размер порции	Doze Detail View subheading: ‘Serving Sizes’	
