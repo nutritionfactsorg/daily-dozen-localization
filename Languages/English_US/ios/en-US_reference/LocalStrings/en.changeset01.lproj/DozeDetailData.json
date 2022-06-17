@@ -16,11 +16,11 @@
           "metric" : "150 g of fresh peas or sprouted lentils"
         }
       ],
-      "topic" : "topics/beans",
+      "topic" : "",
       "varieties" : [
         {
           "text" : "Black beans",
-          "topic" : "topics/black-beans"
+          "topic" : ""
         },
         {
           "text" : "Black-eyed peas",
@@ -36,11 +36,11 @@
         },
         {
           "text" : "Chickpeas/Garbanzo Beans",
-          "topic" : "topics/chickpeas"
+          "topic" : ""
         },
         {
           "text" : "Edamame",
-          "topic" : "topics/edamame"
+          "topic" : ""
         },
         {
           "text" : "English peas",
@@ -52,23 +52,23 @@
         },
         {
           "text" : "Kidney beans",
-          "topic" : "topics/kidney-beans"
+          "topic" : ""
         },
         {
           "text" : "Lentils (beluga, french, and red varieties)",
-          "topic" : "topics/lentils"
+          "topic" : ""
         },
         {
           "text" : "Miso",
-          "topic" : "topics/miso"
+          "topic" : ""
         },
         {
           "text" : "Navy beans",
-          "topic" : "topics/navy-beans"
+          "topic" : ""
         },
         {
           "text" : "Pinto beans",
-          "topic" : "topics/pinto-beans"
+          "topic" : ""
         },
         {
           "text" : "Small red beans",
@@ -76,11 +76,11 @@
         },
         {
           "text" : "Split peas (yellow or green)",
-          "topic" : "topics/split-peas"
+          "topic" : ""
         },
         {
           "text" : "Tempeh",
-          "topic" : "topics/tempeh"
+          "topic" : ""
         }
       ]
     },
@@ -96,39 +96,39 @@
           "metric" : "40 g dried"
         }
       ],
-      "topic" : "topics/berries",
+      "topic" : "",
       "varieties" : [
         {
           "text" : "Acai berries",
-          "topic" : "topics/acai-berries"
+          "topic" : ""
         },
         {
           "text" : "Barberries",
-          "topic" : "topics/barberries"
+          "topic" : ""
         },
         {
           "text" : "Blackberries",
-          "topic" : "topics/blackberries"
+          "topic" : ""
         },
         {
           "text" : "Blueberries",
-          "topic" : "topics/blueberries"
+          "topic" : ""
         },
         {
           "text" : "Cherries (sweet or tart)",
-          "topic" : "topics/cherries"
+          "topic" : ""
         },
         {
           "text" : "Concord grapes",
-          "topic" : "topics/grapes"
+          "topic" : ""
         },
         {
           "text" : "Cranberries",
-          "topic" : "topics/cranberries"
+          "topic" : ""
         },
         {
           "text" : "Goji berries",
-          "topic" : "topics/goji-berries"
+          "topic" : ""
         },
         {
           "text" : "Kumquats",
@@ -140,11 +140,11 @@
         },
         {
           "text" : "Raspberries (black or red)",
-          "topic" : "topics/raspberries"
+          "topic" : ""
         },
         {
           "text" : "Strawberries",
-          "topic" : "topics/strawberries"
+          "topic" : ""
         }
       ]
     },
@@ -156,35 +156,35 @@
           "metric" : "One glass (350 ml)"
         }
       ],
-      "topic" : "topics/beverages",
+      "topic" : "",
       "varieties" : [
         {
           "text" : "Black tea",
-          "topic" : "topics/black-tea"
+          "topic" : ""
         },
         {
           "text" : "Chai tea",
-          "topic" : "topics/chai-tea"
+          "topic" : ""
         },
         {
           "text" : "Vanilla chamomile tea",
-          "topic" : "topics/chamomile-tea"
+          "topic" : ""
         },
         {
           "text" : "Coffee",
-          "topic" : "topics/coffee"
+          "topic" : ""
         },
         {
           "text" : "Earl grey tea",
-          "topic" : "topics/earl-grey-tea"
+          "topic" : ""
         },
         {
           "text" : "Green tea",
-          "topic" : "topics/green-tea"
+          "topic" : ""
         },
         {
           "text" : "Hibiscus tea",
-          "topic" : "topics/hibiscus-tea"
+          "topic" : ""
         },
         {
           "text" : "Hot chocolate",
@@ -196,31 +196,31 @@
         },
         {
           "text" : "Lemon balm tea",
-          "topic" : "topics/lemon-balm"
+          "topic" : ""
         },
         {
           "text" : "Matcha tea",
-          "topic" : "topics/matcha"
+          "topic" : ""
         },
         {
           "text" : "Almond blossom oolong tea",
-          "topic" : "topics/oolong-tea"
+          "topic" : ""
         },
         {
           "text" : "Peppermint tea",
-          "topic" : "topics/peppermint"
+          "topic" : ""
         },
         {
           "text" : "Rooibos tea",
-          "topic" : "topics/rooibos-tea"
+          "topic" : ""
         },
         {
           "text" : "Water",
-          "topic" : "topics/water"
+          "topic" : ""
         },
         {
           "text" : "White tea",
-          "topic" : "topics/white-tea"
+          "topic" : ""
         }
       ]
     },
@@ -236,7 +236,7 @@
           "metric" : "40 minutes of vigorous-intensity activity"
         }
       ],
-      "topic" : "topics/exercise",
+      "topic" : "",
       "varieties" : [
         {
           "text" : "Bicycling",
@@ -464,7 +464,7 @@
           "metric" : "1 tablespoon ground"
         }
       ],
-      "topic" : "topics/flax-seeds",
+      "topic" : "",
       "varieties" : [
         {
           "text" : "Brown flaxseeds",
@@ -496,23 +496,23 @@
       "varieties" : [
         {
           "text" : "Apples",
-          "topic" : "topics/apples"
+          "topic" : ""
         },
         {
           "text" : "Apricots",
-          "topic" : "topics/apricots"
+          "topic" : ""
         },
         {
           "text" : "Avocados",
-          "topic" : "topics/avocados"
+          "topic" : ""
         },
         {
           "text" : "Bananas",
-          "topic" : "topics/bananas"
+          "topic" : ""
         },
         {
           "text" : "Cantaloupe",
-          "topic" : "topics/cantaloupe"
+          "topic" : ""
         },
         {
           "text" : "Clementines",
@@ -520,7 +520,7 @@
         },
         {
           "text" : "Dates",
-          "topic" : "topics/dates"
+          "topic" : ""
         },
         {
           "text" : "Figs",
@@ -528,7 +528,7 @@
         },
         {
           "text" : "Grapefruit",
-          "topic" : "topics/grapefruit"
+          "topic" : ""
         },
         {
           "text" : "Honeydew",
@@ -536,15 +536,15 @@
         },
         {
           "text" : "Kiwifruit",
-          "topic" : "topics/kiwifruit"
+          "topic" : ""
         },
         {
           "text" : "Lemons",
-          "topic" : "topics/lemons"
+          "topic" : ""
         },
         {
           "text" : "Limes",
-          "topic" : "topics/limes"
+          "topic" : ""
         },
         {
           "text" : "Lychees",
@@ -552,7 +552,7 @@
         },
         {
           "text" : "Mangos",
-          "topic" : "topics/mango"
+          "topic" : ""
         },
         {
           "text" : "Nectarines",
@@ -560,7 +560,7 @@
         },
         {
           "text" : "Oranges",
-          "topic" : "topics/oranges"
+          "topic" : ""
         },
         {
           "text" : "Papaya",
@@ -572,11 +572,11 @@
         },
         {
           "text" : "Peaches",
-          "topic" : "topics/peaches"
+          "topic" : ""
         },
         {
           "text" : "Pears",
-          "topic" : "topics/pears"
+          "topic" : ""
         },
         {
           "text" : "Pineapple",
@@ -584,7 +584,7 @@
         },
         {
           "text" : "Plums (especially black plums)",
-          "topic" : "topics/plums"
+          "topic" : ""
         },
         {
           "text" : "Pluots",
@@ -592,11 +592,11 @@
         },
         {
           "text" : "Pomegranates",
-          "topic" : "topics/pomegranates"
+          "topic" : ""
         },
         {
           "text" : "Prunes",
-          "topic" : "topics/prunes"
+          "topic" : ""
         },
         {
           "text" : "Tangerines",
@@ -604,7 +604,7 @@
         },
         {
           "text" : "Watermelon",
-          "topic" : "topics/watermelon"
+          "topic" : ""
         }
       ]
     },
@@ -620,7 +620,7 @@
           "metric" : "90 g cooked"
         }
       ],
-      "topic" : "topics/greens",
+      "topic" : "",
       "varieties" : [
         {
           "text" : "Arugula",
@@ -628,15 +628,15 @@
         },
         {
           "text" : "Beet greens",
-          "topic" : "topics/beets"
+          "topic" : ""
         },
         {
           "text" : "Collard greens",
-          "topic" : "topics/collard-greens"
+          "topic" : ""
         },
         {
           "text" : "Kale (black, green, and red)",
-          "topic" : "topics/kale"
+          "topic" : ""
         },
         {
           "text" : "Mesclun mix (assorted young salad greens)",
@@ -644,7 +644,7 @@
         },
         {
           "text" : "Mustard greens",
-          "topic" : "topics/mustard-greens"
+          "topic" : ""
         },
         {
           "text" : "Sorrel",
@@ -652,11 +652,11 @@
         },
         {
           "text" : "Spinach",
-          "topic" : "topics/spinach"
+          "topic" : ""
         },
         {
           "text" : "Swiss chard",
-          "topic" : "topics/swiss-chard"
+          "topic" : ""
         },
         {
           "text" : "Turnip greens",
@@ -676,27 +676,27 @@
           "metric" : "2 tablespoons nut or seed butter"
         }
       ],
-      "topic" : "topics/nuts",
+      "topic" : "",
       "varieties" : [
         {
           "text" : "Almonds",
-          "topic" : "topics/almonds"
+          "topic" : ""
         },
         {
           "text" : "Brazil nuts",
-          "topic" : "topics/brazil-nuts"
+          "topic" : ""
         },
         {
           "text" : "Cashews",
-          "topic" : "topics/cashews"
+          "topic" : ""
         },
         {
           "text" : "Chia seeds",
-          "topic" : "topics/chia-seeds"
+          "topic" : ""
         },
         {
           "text" : "Hazelnuts",
-          "topic" : "topics/hazelnuts"
+          "topic" : ""
         },
         {
           "text" : "Hemp seeds",
@@ -704,31 +704,31 @@
         },
         {
           "text" : "Macadamia nuts",
-          "topic" : "topics/macadamia-nuts"
+          "topic" : ""
         },
         {
           "text" : "Pecans",
-          "topic" : "topics/pecans"
+          "topic" : ""
         },
         {
           "text" : "Pistachios",
-          "topic" : "topics/pistachios"
+          "topic" : ""
         },
         {
           "text" : "Pumpkin seeds",
-          "topic" : "topics/pumpkin-seeds"
+          "topic" : ""
         },
         {
           "text" : "Sesame seeds",
-          "topic" : "topics/sesame-seeds"
+          "topic" : ""
         },
         {
           "text" : "Sunflower seeds",
-          "topic" : "topics/sunflower-seeds"
+          "topic" : ""
         },
         {
           "text" : "Walnuts",
-          "topic" : "topics/walnuts"
+          "topic" : ""
         }
       ]
     },
@@ -744,19 +744,19 @@
           "metric" : "Any other (salt-free) herbs and spices you enjoy"
         }
       ],
-      "topic" : "topics/spices",
+      "topic" : "",
       "varieties" : [
         {
           "text" : "Allspice",
-          "topic" : "topics/allspice"
+          "topic" : ""
         },
         {
           "text" : "Barberries",
-          "topic" : "topics/barberries"
+          "topic" : ""
         },
         {
           "text" : "Basil",
-          "topic" : "topics/basil"
+          "topic" : ""
         },
         {
           "text" : "Bay leaves",
@@ -772,15 +772,15 @@
         },
         {
           "text" : "Cilantro",
-          "topic" : "topics/cilantro"
+          "topic" : ""
         },
         {
           "text" : "Cinnamon",
-          "topic" : "topics/cinnamon"
+          "topic" : ""
         },
         {
           "text" : "Cloves",
-          "topic" : "topics/cloves"
+          "topic" : ""
         },
         {
           "text" : "Coriander",
@@ -788,11 +788,11 @@
         },
         {
           "text" : "Cumin",
-          "topic" : "topics/cumin"
+          "topic" : ""
         },
         {
           "text" : "Curry powder",
-          "topic" : "topics/curry-powder"
+          "topic" : ""
         },
         {
           "text" : "Dill",
@@ -800,15 +800,15 @@
         },
         {
           "text" : "Fenugreek",
-          "topic" : "topics/fenugreek"
+          "topic" : ""
         },
         {
           "text" : "Garlic",
-          "topic" : "topics/garlic"
+          "topic" : ""
         },
         {
           "text" : "Ginger",
-          "topic" : "topics/ginger"
+          "topic" : ""
         },
         {
           "text" : "Horseradish",
@@ -820,19 +820,19 @@
         },
         {
           "text" : "Marjoram",
-          "topic" : "topics/marjoram"
+          "topic" : ""
         },
         {
           "text" : "Mustard powder",
-          "topic" : "topics/mustard-powder"
+          "topic" : ""
         },
         {
           "text" : "Nutmeg",
-          "topic" : "topics/nutmeg"
+          "topic" : ""
         },
         {
           "text" : "Oregano",
-          "topic" : "topics/oregano"
+          "topic" : ""
         },
         {
           "text" : "Smoked paprika",
@@ -840,23 +840,23 @@
         },
         {
           "text" : "Parsley",
-          "topic" : "topics/parsley"
+          "topic" : ""
         },
         {
           "text" : "Pepper",
-          "topic" : "topics/pepper"
+          "topic" : ""
         },
         {
           "text" : "Peppermint",
-          "topic" : "topics/peppermint"
+          "topic" : ""
         },
         {
           "text" : "Rosemary",
-          "topic" : "topics/rosemary"
+          "topic" : ""
         },
         {
           "text" : "Saffron",
-          "topic" : "topics/saffron"
+          "topic" : ""
         },
         {
           "text" : "Sage",
@@ -868,7 +868,7 @@
         },
         {
           "text" : "Turmeric",
-          "topic" : "topics/turmeric"
+          "topic" : ""
         },
         {
           "text" : "Vanilla",
@@ -904,27 +904,27 @@
         },
         {
           "text" : "Bok choy",
-          "topic" : "topics/bok-choy"
+          "topic" : ""
         },
         {
           "text" : "Broccoli (incl. Romanesco)",
-          "topic" : "topics/broccoli"
+          "topic" : ""
         },
         {
           "text" : "Brussels sprouts",
-          "topic" : "topics/brussels-sprouts"
+          "topic" : ""
         },
         {
           "text" : "Cabbage (green, red and savoy)",
-          "topic" : "topics/cabbage"
+          "topic" : ""
         },
         {
           "text" : "Cauliflower (white, green, orange and purple)",
-          "topic" : "topics/cauliflower"
+          "topic" : ""
         },
         {
           "text" : "Collard greens",
-          "topic" : "topics/collard-greens"
+          "topic" : ""
         },
         {
           "text" : "Horseradish",
@@ -932,7 +932,7 @@
         },
         {
           "text" : "Kale (black, green, and red)",
-          "topic" : "topics/kale"
+          "topic" : ""
         },
         {
           "text" : "Kohlrabi (green and purple)",
@@ -940,7 +940,7 @@
         },
         {
           "text" : "Mustard greens",
-          "topic" : "topics/mustard-greens"
+          "topic" : ""
         },
         {
           "text" : "Radishes",
@@ -952,7 +952,7 @@
         },
         {
           "text" : "Watercress",
-          "topic" : "topics/watercress"
+          "topic" : ""
         }
       ]
     },
@@ -980,55 +980,55 @@
       "varieties" : [
         {
           "text" : "Artichokes",
-          "topic" : "topics/artichokes"
+          "topic" : ""
         },
         {
           "text" : "Asparagus",
-          "topic" : "topics/asparagus"
+          "topic" : ""
         },
         {
           "text" : "Beets",
-          "topic" : "topics/beets"
+          "topic" : ""
         },
         {
           "text" : "Bell peppers",
-          "topic" : "topics/bell-peppers"
+          "topic" : ""
         },
         {
           "text" : "Carrots",
-          "topic" : "topics/carrots"
+          "topic" : ""
         },
         {
           "text" : "Corn",
-          "topic" : "topics/corn"
+          "topic" : ""
         },
         {
           "text" : "Garlic",
-          "topic" : "topics/garlic"
+          "topic" : ""
         },
         {
           "text" : "Mushrooms (button, oyster, portobello, and shiitake)",
-          "topic" : "topics/mushrooms"
+          "topic" : ""
         },
         {
           "text" : "Okra",
-          "topic" : "topics/okra"
+          "topic" : ""
         },
         {
           "text" : "Onions",
-          "topic" : "topics/onions"
+          "topic" : ""
         },
         {
           "text" : "Purple potatoes",
-          "topic" : "topics/potatoes"
+          "topic" : ""
         },
         {
           "text" : "Pumpkin",
-          "topic" : "topics/pumpkin"
+          "topic" : ""
         },
         {
           "text" : "Sea vegetables (arame, dulse, and nori)",
-          "topic" : "topics/sea-vegetables"
+          "topic" : ""
         },
         {
           "text" : "Snap peas",
@@ -1036,19 +1036,19 @@
         },
         {
           "text" : "Squash (delicata, summer, and spaghetti squash varieties)",
-          "topic" : "topics/squash"
+          "topic" : ""
         },
         {
           "text" : "Sweet potatoes/yams",
-          "topic" : "topics/sweet-potatoes"
+          "topic" : ""
         },
         {
           "text" : "Tomatoes",
-          "topic" : "topics/tomatoes"
+          "topic" : ""
         },
         {
           "text" : "Zucchini",
-          "topic" : "topics/zucchini"
+          "topic" : ""
         }
       ]
     },
@@ -1076,35 +1076,35 @@
           "metric" : "30 g popped popcorn"
         }
       ],
-      "topic" : "topics/grains",
+      "topic" : "",
       "varieties" : [
         {
           "text" : "Barley",
-          "topic" : "topics/barley"
+          "topic" : ""
         },
         {
           "text" : "Buckwheat",
-          "topic" : "topics/buckwheat"
+          "topic" : ""
         },
         {
           "text" : "Millet",
-          "topic" : "topics/millet"
+          "topic" : ""
         },
         {
           "text" : "Oats",
-          "topic" : "topics/oats"
+          "topic" : ""
         },
         {
           "text" : "Popcorn",
-          "topic" : "topics/popcorn"
+          "topic" : ""
         },
         {
           "text" : "Quinoa",
-          "topic" : "topics/quinoa"
+          "topic" : ""
         },
         {
           "text" : "Rye",
-          "topic" : "topics/rye"
+          "topic" : ""
         },
         {
           "text" : "Teff",
@@ -1112,7 +1112,7 @@
         },
         {
           "text" : "Whole-wheat pasta",
-          "topic" : "topics/pasta"
+          "topic" : ""
         }
       ]
     },
@@ -1121,7 +1121,7 @@
       "servings" : [
 
       ],
-      "topic" : "topics/vitamin-b12",
+      "topic" : "",
       "varieties" : [
 
       ]
