@@ -65,6 +65,14 @@ DO_NORMALIZE_BATCH
 SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.url_topics.tsv"
 DO_NORMALIZE_BATCH
 
+#################
+## (de) German ##
+#################
+LOGGER_FILENAME="_log_FromTsvMain_German_de"
+## -- (de) process application values --
+SOURCE_TSV_INCLUDE="German/tsv/German_de.tsv"
+DO_NORMALIZE_BATCH
+
 ##################
 ## (es) Spanish ##
 ##################
@@ -80,11 +88,26 @@ SOURCE_TSV_INCLUDE="Spanish/tsv/Spanish_es.tsv"
 DO_NORMALIZE_BATCH
 
 ## -- (es) process appstore --
-SOURCE_TSV_INCLUDE="Spanish/tsv/Spanish_es.appstore.tsv"
-DO_NORMALIZE_BATCH
+#SOURCE_TSV_INCLUDE="Spanish/tsv/Spanish_es.appstore.tsv"
+#DO_NORMALIZE_BATCH
 
 SOURCE_TSV_INCLUDE="Spanish/tsv/Spanish_es.url_fragments.tsv"
 DO_NORMALIZE_BATCH
 
 SOURCE_TSV_INCLUDE="Spanish/tsv/Spanish_es.url_topics.tsv"
+DO_NORMALIZE_BATCH
+
+### RESTORE: English_US URLs
+### Note: re-setting URL_TOPICS_TSV to English_US 
+###       as used by languages other than Spanish.
+URL_FRAGMENTS_TSV="English_US/tsv/English_US_en.url_fragments.tsv"
+URL_TOPICS_TSV="English_US/tsv/English_US_en.url_topics.tsv"
+###
+
+#################
+## (pl) Polish ##
+#################
+LOGGER_FILENAME="_log_FromTsvMain_Polish_pl"
+## -- (pl) process application values --
+SOURCE_TSV_INCLUDE="Polish/tsv/Polish_pl.tsv"
 DO_NORMALIZE_BATCH

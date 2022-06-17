@@ -110,6 +110,12 @@ DO_NORMALIZE_BATCH
 SOURCE_TSV_INCLUDE="Spanish/tsv/Spanish_es.appstore.tsv"
 DO_NORMALIZE_BATCH
 
+SOURCE_TSV_INCLUDE="Spanish/tsv/Spanish_es.url_fragments.tsv"
+DO_NORMALIZE_BATCH
+
+SOURCE_TSV_INCLUDE="Spanish/tsv/Spanish_es.url_topics.tsv"
+DO_NORMALIZE_BATCH
+
 ### RESTORE: English_US URLs
 ### Note: re-setting URL_TOPICS_TSV to English_US 
 ###       as used by languages other than Spanish.
