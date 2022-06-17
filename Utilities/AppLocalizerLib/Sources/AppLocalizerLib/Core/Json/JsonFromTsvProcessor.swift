@@ -149,6 +149,12 @@ struct JsonFromTsvProcessor {
                 } else {
                     keysAppleJsonUnmatched.insert(key)
                 }
+            } else if key.hasPrefix("other") {
+                if processTsvToJsonOther(key: key, value: value) {
+                    keysAppleJsonMatched.insert(key)
+                } else {
+                    keysAppleJsonUnmatched.insert(key)
+                }
             } else if key.hasPrefix("tweak") {
                 if processTsvToJsonTweak(key: key, value: value) {
                     keysAppleJsonMatched.insert(key)
@@ -224,7 +230,36 @@ struct JsonFromTsvProcessor {
         
         return false
     }
-
+    
+    private mutating func processTsvToJsonOther(key: String, value: String) -> Bool {
+        let parts = key.components(separatedBy: ".")
+        // NOTE: replace any escaped newline `U+5c U+6e` with an actual newline `U+0a` 
+        // because JSON encoding adds it's own backlash (U+5c) escaping.
+        let valueWithNewline = value.replacingOccurrences(of: "\\n", with: "\n")
+        
+        let keyBase = parts[0]
+        if dozeInfo.itemsDict[keyBase] != nil {
+            if parts.count == 2 {
+                switch parts[1].lowercased() {
+                case "heading":
+                    // `dozeBeans`
+                    dozeInfo.itemsDict[keyBase]?.heading = valueWithNewline
+                    keysAppleJsonMatched.insert(key)
+                    return true
+                case "topic":
+                    // `topic`
+                    dozeInfo.itemsDict[keyBase]?.topic = valueWithNewline
+                    keysAppleJsonMatched.insert(key)
+                    return true
+                default:
+                    return false
+                }
+            } 
+        }
+        
+        return false
+    }
+    
     private mutating func processTsvToJsonTweak(key: String, value: String) -> Bool {
         let parts = key.components(separatedBy: ".")
         // NOTE: replace any escaped newline `U+5c U+6e` with an actual newline `U+0a` 
