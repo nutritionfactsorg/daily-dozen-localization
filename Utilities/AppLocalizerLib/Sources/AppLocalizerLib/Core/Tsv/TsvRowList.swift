@@ -407,6 +407,31 @@ struct TsvRowList {
         return data[rowIdx].toStringDot()
     }
     
+    func toStringDot(rowIdxRange: Range<Int>) -> String {
+        var result = ""
+        for rowIdx in rowIdxRange {
+            let stringDot = toStringDot(rowIdx: rowIdx)
+            result.append("\(stringDot)\n")
+        }
+        return result
+    }
+    
+    func toStringDot(find: String, limit: Int? = nil) -> String {
+        var result = ""
+        let limit = limit ?? data.count
+        var foundCounter = 0
+        var lineCounter = 2 // starting spreadsheet line after the keyword heading
+        for row: TsvRow in data {
+            let s = row.toStringDot()
+            if s.contains(find) && foundCounter < limit {
+                result.append("@line\(lineCounter):::\(s)\n")
+                foundCounter += 1
+            }
+            lineCounter += 1
+        }
+        return result
+    }
+    
     func toTsv(rowIdx: Int) -> String {
         return data[rowIdx].toTsv()
     }

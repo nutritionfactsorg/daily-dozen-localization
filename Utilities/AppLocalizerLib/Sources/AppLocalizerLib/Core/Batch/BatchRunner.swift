@@ -201,7 +201,7 @@ struct BatchRunner {
                 if let url = command.cmdUrl {
                     urlFragmentsTsv = url
                 }
-            } 
+            }
             else if command.cmdKey.hasPrefix("URL_TOPICS_TSV") {
                 if let url = command.cmdUrl {
                     urlTopicsTsv = url

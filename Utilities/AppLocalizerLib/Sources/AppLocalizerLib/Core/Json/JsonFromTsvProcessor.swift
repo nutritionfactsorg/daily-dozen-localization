@@ -35,7 +35,7 @@ struct JsonFromTsvProcessor {
         tweakJsonUrlIn = jsonBaseDir.appendingPathComponent("TweakDetailData.json")
         dozeJsonUrlOut = jsonOutputDir.appendingPathComponent("DozeDetailData.json")
         tweakJsonUrlOut = jsonOutputDir.appendingPathComponent("TweakDetailData.json")
-
+        
         read(dozeJsonUrl: dozeJsonUrlIn, tweakJsonUrl: tweakJsonUrlIn)
         
         // All JSON Keys
@@ -138,6 +138,11 @@ struct JsonFromTsvProcessor {
         let lookupTable: [String: String] = tsvSheet.getLookupDictLangValueByAppleKey()
                 
         for (key, value) in lookupTable {
+            
+            if key == "dozeBeans.Variety.topic.0" { // dozeBeans.topic
+                print(":WATCH: key=\(key) value=\(value)")
+            }
+            
             if key.hasPrefix("doze") {
                 if processTsvToJsonDoze(key: key, value: value) {
                     keysAppleJsonMatched.insert(key)
@@ -164,10 +169,15 @@ struct JsonFromTsvProcessor {
         let keyBase = parts[0]
         if dozeInfo.itemsDict[keyBase] != nil {
             if parts.count == 2 {
-                switch parts[1] {
+                switch parts[1].lowercased() {
                 case "heading":
                     // `dozeBeans`
                     dozeInfo.itemsDict[keyBase]?.heading = valueWithNewline
+                    keysAppleJsonMatched.insert(key)
+                    return true
+                case "topic":
+                    // `topic`
+                    dozeInfo.itemsDict[keyBase]?.topic = valueWithNewline
                     keysAppleJsonMatched.insert(key)
                     return true
                 default:
@@ -175,9 +185,9 @@ struct JsonFromTsvProcessor {
                 }
             } else if parts.count == 4 {
                 guard let idx = Int(parts[3]) else { return false }
-                switch parts[1] {
-                case "Serving":
-                    switch parts[2] {
+                switch parts[1].lowercased() {
+                case "serving":
+                    switch parts[2].lowercased() {
                     case "imperial":
                         // `dozeBeans.Serving.imperial.1`
                         dozeInfo.itemsDict[keyBase]?.servings[idx].imperial = valueWithNewline
@@ -191,15 +201,15 @@ struct JsonFromTsvProcessor {
                     default:
                         return false
                     }
-                case "Variety":
-                    switch parts[2] {
-                    case "Text":
+                case "variety":
+                    switch parts[2].lowercased() {
+                    case "text":
                         // dozeBerries.Variety.Text.5
                         dozeInfo.itemsDict[keyBase]?.varieties[idx].text = valueWithNewline
                         keysAppleJsonMatched.insert(keyBase)
                         return true                        
-                    case "Topic":
-                        // dozeBerries.Variety.Text.5
+                    case "topic":
+                        // dozeBeans.Variety.topic.0 
                         dozeInfo.itemsDict[keyBase]?.varieties[idx].topic = valueWithNewline
                         keysAppleJsonMatched.insert(keyBase)
                         return true                        

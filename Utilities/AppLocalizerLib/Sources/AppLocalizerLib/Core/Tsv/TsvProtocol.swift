@@ -77,6 +77,14 @@ extension TsvProtocol {
         return tsvRowList.toStringDot(rowIdx: rowIdx)
     }
     
+    func toStringDot(rowIdxRange: Range<Int>) -> String {
+        return tsvRowList.toStringDot(rowIdxRange: rowIdxRange)
+    }
+    
+    func toStringDot(find: String, limit: Int? = nil) -> String {
+        return tsvRowList.toStringDot(find: find, limit: limit)
+    }
+    
     func toTsv(rowIdx: Int) -> String {
         return tsvRowList.toTsv(rowIdx: rowIdx)
     }

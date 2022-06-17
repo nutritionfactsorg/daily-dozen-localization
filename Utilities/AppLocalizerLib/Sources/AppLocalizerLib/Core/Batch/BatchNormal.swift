@@ -55,23 +55,23 @@ struct BatchNormal {
         let tsvLanguage = tsvFirstUrl.deletingPathExtension().lastPathComponent
         logger.info("\n##### DO_NORMALIZE_BATCH TSV LANGUAGE: \(tsvLanguage)")
         print("\n##### DO_NORMALIZE_BATCH TSV LANGUAGE: \(tsvLanguage)")
-        if tsvLanguage == "German_de" {
+        if tsvLanguage == "German_de" || tsvLanguage == "Spanish_es" || tsvLanguage == "Polish_pl" {
             print(":WATCH: \(tsvLanguage)")
         }
         
         // ----- to TSV -----
         // Base Language TSV (English_US)
         let baseTsvSheet =  TsvSheet(urlList: baseListTsv)
-        // Base URL Fragments TSV
+        // Base URL Fragments TSV (specified: English_US (default) or langauge specific)
         var baseUrlFragmentsSheet = TsvSheet(urlList: [baseTsvUrlFragments])
         baseUrlFragmentsSheet.updateBaseNotes(baseTsvSheet)
         baseUrlFragmentsSheet.updateBaseValues(baseTsvSheet)
-        writeNormalTsv(baseUrlFragmentsSheet, urlTsvIn: baseTsvUrlFragments, resultsDir: resultsDir)
-        // Base URL Topics TSV
+        
+        // Base URL Topics TSV (specified: English_US (default) or langauge specific)
         var baseUrlTopicsSheet = TsvSheet(urlList: [baseTsvUrlTopics])
         baseUrlTopicsSheet.updateBaseNotes(baseTsvSheet)
         baseUrlTopicsSheet.updateBaseValues(baseTsvSheet)
-        writeNormalTsv(baseUrlTopicsSheet, urlTsvIn: baseTsvUrlTopics, resultsDir: resultsDir)
+        
         // Source TSV
         var sourceSheet = TsvSheet(urlList: sourceTSV)
         sourceSheet.updateBaseNotes(baseTsvSheet)
