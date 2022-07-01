@@ -313,8 +313,8 @@ time_scale	history_scale_label	Time Scale	Escala temporal	History View: scale te
 moving_average	historyRecord.movingAverage	Moving Average	Media móvil		
 	historyRecordDoze.heading	Servings History	Historial de porciones	History View	
 	historyRecordDoze.legend	Servings	Porciones	History View	
-	historyRecordTweak.heading	Tweaks History	Historial de ajustes	History View	
-tweaks	historyRecordTweak.legend	Tweaks	21 Ajustes		
+	historyRecordTweak.heading	Tweaks History	Historial de potenciadores	History View	
+tweaks	historyRecordTweak.legend	Tweaks	21 Potenciadores		
 weight_history	historyRecordWeight.heading	Weight History	Historial de peso	History View	
 evening	historyRecordWeight.legendEvening	Evening	Noche	History View	
 morning	historyRecordWeight.legendMorning	Morning	Mañana	History View	
@@ -342,9 +342,9 @@ history	item_history_heading	History	Historial	Item History Heading
 	navtab.doze	Daily Dozen	Docena Diaria	Main Navigation Tab Control: ‘Daily Dozen’ (proper noun)	
 	navtab.info	Information	Información	Main Navigation Tab Control: show more information	
 	navtab.preferences	Preferences	Configuración	Main Navigation Tab Control: ‘Preferences’ synonyms: Settings, Configuration. Choose a translations with is different from Tweaks.	
-	navtab.tweaks	21 Tweaks	21 Ajustes	Main Navigation Tab Control: ‘21 Tweaks’ (proper noun)	
-	NSHealthShareUsageDescription	The 21 Tweaks feature accesses your HealthKit data to provide updates to your daily weight measurements.	La función 21 Ajustes accede a sus datos de HealthKit para proporcionar actualizaciones a sus mediciones diarias de peso.	Privacy - Health Share Usage Description	
-	NSHealthUpdateUsageDescription	The 21 Tweaks feature can write weight data to HealthKit to help you keep track of your progress.	La función 21 Ajustes puede escribir datos de peso en HealthKit para ayudarlo a realizar un seguimiento de su progreso.	Privacy - Health Update Usage Description	
+	navtab.tweaks	21 Tweaks	21 Potenciadores	Main Navigation Tab Control: ‘21 Tweaks’ (proper noun)	
+	NSHealthShareUsageDescription	The 21 Tweaks feature accesses your HealthKit data to provide updates to your daily weight measurements.	La función 21 Potenciadores accede a sus datos de HealthKit para proporcionar actualizaciones a sus mediciones diarias de peso.	Privacy - Health Share Usage Description	
+	NSHealthUpdateUsageDescription	The 21 Tweaks feature can write weight data to HealthKit to help you keep track of your progress.	La función 21 Potenciadores puede escribir datos de peso en HealthKit para ayudarlo a realizar un seguimiento de su progreso.	Privacy - Health Update Usage Description	
 vitamin_b12	otherVitaminB12.heading	Vitamin B12	Vitamina B12	heading for daily data entry item	
 daily_reminder_text	reminder.alert.text	Update your servings for today	Actualiza las porciones de hoy	Alert notification text	
 	reminder.heading	Daily Reminder	Recordatorio diario	Daily Reminder (alert title, settings section heading)	
@@ -356,12 +356,12 @@ vibrate	reminder.settings.vibrate	Vibrate	Vibración	Android notification `vibra
 	reminder.state.on	On	Encendido	‘On’ as in ‘On (enabled) or Off (disable)’. Daily Reminder is enabled	
 daily_dozen_only	setting_doze_only_btn	Daily Dozen\nOnly	Solo Docena Diaria	First Launch Setting: button text	
 	setting_doze_only_choice	Daily Dozen Only	Solo Docena Diaria	Preference Settings View: selection button text	
-daily_dozen_and_tweaks	setting_doze_tweak_btn	Daily Dozen +\n21 Tweaks	Docena Diaria y 21 Ajustes	First Launch Setting: button text	
-	setting_doze_tweak_choice	Daily Dozen + 21 Tweaks	Docena Diaria y 21 Ajustes	Preference Settings View: selection button text	
-	setting_doze_tweak_footer	For health alone, use “Daily Dozen Only”. For health and weight loss use “Daily Dozen + 21 Tweaks”.	Solo para la salud, use "Docena Diaria solamente". Para la salud y la pérdida de peso, use "Docena Diaria + 21 Ajustes".	Preference Settings View: brief description text below Tweaks visibility control.	
+daily_dozen_and_tweaks	setting_doze_tweak_btn	Daily Dozen +\n21 Tweaks	Docena Diaria y 21 Potenciadores	First Launch Setting: button text	
+	setting_doze_tweak_choice	Daily Dozen + 21 Tweaks	Docena Diaria y 21 Potenciadores	Preference Settings View: selection button text	
+	setting_doze_tweak_footer	For health alone, use “Daily Dozen Only”. For health and weight loss use “Daily Dozen + 21 Tweaks”.	Solo para la salud, use "Docena Diaria solamente". Para la salud y la pérdida de peso, use "Docena Diaria + 21 Potenciadores".	Preference Settings View: brief description text below Tweaks visibility control.	
 for_health_alone	setting_health_alone_txt	For Health Alone	Para la salud sola	First Launch Setting: brief description above ‘Daily Dozen Only’ button.	
 for_health_and_weight_loss	setting_health_weight_txt	For Health and Weight Loss	Para la salud y la pérdida de peso	First Launch Setting: brief description above ‘Daily Dozen + 21 Tweaks’ button.	
-	setting_tweak_header	21 Tweak Visibility	Visibilidad de 21 Ajustes	Preference Settings View: tweaks visibilty subsection heading	
+	setting_tweak_header	21 Tweak Visibility	Visibilidad de 21 Potenciadores	Preference Settings View: tweaks visibilty subsection heading	
 	setting_units_0_imperial	Imperial	Imperial	Preference Settings View: Part of ‘Imperial/Metric/Toggle Units’ selector	
 	setting_units_1_metric	Metric	Métrico	Preference Settings View: Part of ‘Imperial/Metric/Toggle Units’ selector	
 	setting_units_2_toggle	Toggle Units	Palanca	Preference Settings View: Part of ‘Imperial/Metric/Toggle Units’ selector	
@@ -371,7 +371,7 @@ for_health_and_weight_loss	setting_health_weight_txt	For Health and Weight Loss	
 format_num_days	streakDaysFormat	%d days	%d días	‘Streak’ count. Synonym: ‘Progress‘. Formatted number ‘%d’ for consecutive days completed. Place translated text for ‘days’ on the right or left of ‘%d’ based on language directionality.	
 	tweak_detail_section_activity	Activity	Actividad	Tweaks Detail view section heading	
 	tweak_detail_section_description	Description	Descripción	Tweaks Detail view section heading	
-twenty_one_tweaks	tweak_entry_header	21 Tweaks	21 Ajustes	Tweaks daily entry header	
+twenty_one_tweaks	tweak_entry_header	21 Tweaks	21 Potenciadores	Tweaks daily entry header	
 complete_intentions	tweakCompleteIntentions.heading	Complete Your Implementation Intentions	Completar tus metas	heading for daily data entry item	
 complete_intentions_short	tweakCompleteIntentions.short	Complete Your Implementation Intentions	Completar tus metas		
 complete_intentions_text	tweakCompleteIntentions.text	Every two months, create three new implementation intentions—“if X, then Y” plans to perform a particular behavior in a specific context—and check each one of them off as you complete them every day.	Cada dos meses, crea tres metas nuevas, al estilo de "si X, entonces Y", para comportarte de cierta manera en situaciones específicas. Intenta marcar las tres casillas todos los días.		
@@ -465,10 +465,10 @@ backup_instructions_lines.5
 backup_instructions_lines.6		3. Select Open with Daily Dozen	3. Selecciona la opción de abrir con Dr. Greger's Daily Dozen.		
 backup_success		Backup successful	Copia de seguridad efectuada		
 channel_reminders_name		Reminders	Recordatorios		
-daily_reminder_settings		Daily Reminder Settings	Ajustes del recordatorio diario	a reminder that is triggered every day	
+daily_reminder_settings		Daily Reminder Settings	Potenciadores del recordatorio diario	a reminder that is triggered every day	
 daily_reminder_title		Daily Dozen Reminder	Recordatorio de la Docena Diaria		
 daily_servings_history		Daily Servings History	Historial de porciones diarias		
-daily_tweaks_history		Daily Tweaks History	Historial de ajustes		
+daily_tweaks_history		Daily Tweaks History	Historial de potenciadores		
 debug		Debug	Depurar		
 debug_clear_data		Clear all data	Borrar todos los datos		
 debug_clear_data_message		This will delete all entered Servings. Do you wish to continue?	Esto borrará todas las porciones registradas. ¿Deseas continuar?		
