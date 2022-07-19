@@ -88,7 +88,7 @@ food_info_types_exercise.14	dozeExercise.Variety.Text.14	Roller-skating	Patinaje
 food_info_types_exercise.15	dozeExercise.Variety.Text.15	Shooting baskets	Tirar canastas		
 food_info_types_exercise.16	dozeExercise.Variety.Text.16	Shoveling light snow	Palear nieve ligera		
 food_info_types_exercise.17	dozeExercise.Variety.Text.17	Skateboarding	Patineta		
-food_info_types_exercise.18	dozeExercise.Variety.Text.18	Snorkeling	Snorkeling		
+food_info_types_exercise.18	dozeExercise.Variety.Text.18	Snorkeling	Snorkel		
 food_info_types_exercise.19	dozeExercise.Variety.Text.19	Surfing	Surfear		
 food_info_types_exercise.20	dozeExercise.Variety.Text.20	Swimming recreationally	Natación por ocio		
 food_info_types_exercise.21	dozeExercise.Variety.Text.21	Tennis (doubles)	Tennis (dobles)		
@@ -251,7 +251,7 @@ food_info_types_cruciferous_vegetables.2	dozeVegetablesCruciferous.Variety.Text.
 food_info_types_cruciferous_vegetables.3	dozeVegetablesCruciferous.Variety.Text.3	Brussels sprouts	Coles de Bruselas		
 food_info_types_cruciferous_vegetables.4	dozeVegetablesCruciferous.Variety.Text.4	Cabbage (green, red and savoy)	Repollo (verde, rojo)		
 food_info_types_cruciferous_vegetables.5	dozeVegetablesCruciferous.Variety.Text.5	Cauliflower (white, green, orange and purple)	Coliflor		
-food_info_types_cruciferous_vegetables.6	dozeVegetablesCruciferous.Variety.Text.6	Collard greens	Berza		
+food_info_types_cruciferous_vegetables.6	dozeVegetablesCruciferous.Variety.Text.6	Collard greens	Col		
 food_info_types_cruciferous_vegetables.7	dozeVegetablesCruciferous.Variety.Text.7	Horseradish	Rábano picante		
 food_info_types_cruciferous_vegetables.8	dozeVegetablesCruciferous.Variety.Text.8	Kale (black, green, and red)	Col rizada (negra, verde y roja)		
 food_info_types_cruciferous_vegetables.9	dozeVegetablesCruciferous.Variety.Text.9	Kohlrabi (green and purple)	Colinabo (verde, morado)		
@@ -282,7 +282,7 @@ food_info_types_other_vegetables.10	dozeVegetablesOther.Variety.Text.10	Purple p
 food_info_types_other_vegetables.11	dozeVegetablesOther.Variety.Text.11	Pumpkin	Calabaza		
 food_info_types_other_vegetables.12	dozeVegetablesOther.Variety.Text.12	Sea vegetables (arame, dulse, and nori)	Algas		
 food_info_types_other_vegetables.13	dozeVegetablesOther.Variety.Text.13	Snap peas	Tirabeques		
-food_info_types_other_vegetables.14	dozeVegetablesOther.Variety.Text.14	Squash (delicata, summer, and spaghetti squash varieties)	Calabaza pequeñas		
+food_info_types_other_vegetables.14	dozeVegetablesOther.Variety.Text.14	Squash (delicata, summer, and spaghetti squash varieties)	Calabaza pequeña		
 food_info_types_other_vegetables.15	dozeVegetablesOther.Variety.Text.15	Sweet potatoes/yams	Batata		
 food_info_types_other_vegetables.16	dozeVegetablesOther.Variety.Text.16	Tomatoes	Tomates		
 food_info_types_other_vegetables.17	dozeVegetablesOther.Variety.Text.17	Zucchini	Calabacín		
@@ -343,12 +343,12 @@ history	item_history_heading	History	Historial	Item History Heading
 	navtab.info	Information	Información	Main Navigation Tab Control: show more information	
 	navtab.preferences	Preferences	Configuración	Main Navigation Tab Control: ‘Preferences’ synonyms: Settings, Configuration. Choose a translations with is different from Tweaks.	
 	navtab.tweaks	21 Tweaks	21 Potenciadores	Main Navigation Tab Control: ‘21 Tweaks’ (proper noun)	
-	NSHealthShareUsageDescription	The 21 Tweaks feature accesses your HealthKit data to provide updates to your daily weight measurements.	La función 21 Potenciadores accede a sus datos de HealthKit para proporcionar actualizaciones a sus mediciones diarias de peso.	Privacy - Health Share Usage Description	
-	NSHealthUpdateUsageDescription	The 21 Tweaks feature can write weight data to HealthKit to help you keep track of your progress.	La función 21 Potenciadores puede escribir datos de peso en HealthKit para ayudarlo a realizar un seguimiento de su progreso.	Privacy - Health Update Usage Description	
+	NSHealthShareUsageDescription	The 21 Tweaks feature accesses your HealthKit data to provide updates to your daily weight measurements.	La función 21 Potenciadores accede a tus datos de HealthKit para proporcionar actualizaciones a tus mediciones diarias de peso.	Privacy - Health Share Usage Description	
+	NSHealthUpdateUsageDescription	The 21 Tweaks feature can write weight data to HealthKit to help you keep track of your progress.	La función 21 Potenciadores puede escribir datos de peso en HealthKit para ayudarte a realizar un seguimiento de tu progreso.	Privacy - Health Update Usage Description	
 vitamin_b12	otherVitaminB12.heading	Vitamin B12	Vitamina B12	heading for daily data entry item	
 daily_reminder_text	reminder.alert.text	Update your servings for today	Actualiza las porciones de hoy	Alert notification text	
 	reminder.heading	Daily Reminder	Recordatorio diario	Daily Reminder (alert title, settings section heading)	
-	reminder.settings.enable	Enable Reminders	Activar el recordatorio	Daily Reminder On/Off toggle switch label	
+	reminder.settings.enable	Enable Reminders	Activar los recordatorios	Daily Reminder On/Off toggle switch label	
 play_sound	reminder.settings.sound	Play Sound	Sonido	Daily Reminder sound control heading	
 remind_me_at	reminder.settings.time	Remind me at	Recuérdamelo a las	Daily Reminder time control heading	
 vibrate	reminder.settings.vibrate	Vibrate	Vibración	Android notification `vibrate`	
@@ -356,18 +356,18 @@ vibrate	reminder.settings.vibrate	Vibrate	Vibración	Android notification `vibra
 	reminder.state.on	On	Encendido	‘On’ as in ‘On (enabled) or Off (disable)’. Daily Reminder is enabled	
 daily_dozen_only	setting_doze_only_btn	Daily Dozen\nOnly	Solo Docena Diaria	First Launch Setting: button text	
 	setting_doze_only_choice	Daily Dozen Only	Solo Docena Diaria	Preference Settings View: selection button text	
-daily_dozen_and_tweaks	setting_doze_tweak_btn	Daily Dozen +\n21 Tweaks	Docena Diaria y 21 Potenciadores	First Launch Setting: button text	
-	setting_doze_tweak_choice	Daily Dozen + 21 Tweaks	Docena Diaria y 21 Potenciadores	Preference Settings View: selection button text	
-	setting_doze_tweak_footer	For health alone, use “Daily Dozen Only”. For health and weight loss use “Daily Dozen + 21 Tweaks”.	Solo para la salud, use "Docena Diaria solamente". Para la salud y la pérdida de peso, use "Docena Diaria + 21 Potenciadores".	Preference Settings View: brief description text below Tweaks visibility control.	
-for_health_alone	setting_health_alone_txt	For Health Alone	Para la salud sola	First Launch Setting: brief description above ‘Daily Dozen Only’ button.	
+daily_dozen_and_tweaks	setting_doze_tweak_btn	Daily Dozen +\n21 Tweaks	Docena Diaria + 21 Potenciadores	First Launch Setting: button text	
+	setting_doze_tweak_choice	Daily Dozen + 21 Tweaks	Docena Diaria + 21 Potenciadores	Preference Settings View: selection button text	
+	setting_doze_tweak_footer	For health alone, use “Daily Dozen Only”. For health and weight loss use “Daily Dozen + 21 Tweaks”.	Para mejorar la salud, usa "Solo Docena Diaria". Para la salud y la pérdida de peso, usa "Docena Diaria + 21 Potenciadores".	Preference Settings View: brief description text below Tweaks visibility control.	
+for_health_alone	setting_health_alone_txt	For Health Alone	Para mejorar tu salud	First Launch Setting: brief description above ‘Daily Dozen Only’ button.	
 for_health_and_weight_loss	setting_health_weight_txt	For Health and Weight Loss	Para la salud y la pérdida de peso	First Launch Setting: brief description above ‘Daily Dozen + 21 Tweaks’ button.	
-	setting_tweak_header	21 Tweak Visibility	Visibilidad de 21 Potenciadores	Preference Settings View: tweaks visibilty subsection heading	
+	setting_tweak_header	21 Tweak Visibility	Visibilidad de los 21 potenciadores	Preference Settings View: tweaks visibilty subsection heading	
 	setting_units_0_imperial	Imperial	Imperial	Preference Settings View: Part of ‘Imperial/Metric/Toggle Units’ selector	
 	setting_units_1_metric	Metric	Métrico	Preference Settings View: Part of ‘Imperial/Metric/Toggle Units’ selector	
-	setting_units_2_toggle	Toggle Units	Palanca	Preference Settings View: Part of ‘Imperial/Metric/Toggle Units’ selector	
-	setting_units_choice_footer	Set to always be one unit type or enable the ‘Units:’ toggle button.	Configure siempre un tipo de unidad o active el botón de alternancia 'Unidades:'.	Preference Settings View: brief description text below units control.	
+	setting_units_2_toggle	Toggle Units	Palanca de unidades	Preference Settings View: Part of ‘Imperial/Metric/Toggle Units’ selector	
+	setting_units_choice_footer	Set to always be one unit type or enable the ‘Units:’ toggle button.	Escoge ver siempre la misma unidad o activa el botón de alternar unidades.	Preference Settings View: brief description text below units control.	
 	setting_units_header	Measurement Units	Unidades de medida	Preference Settings View	
-	setting_util_advanced	Advanced Utilities	Utilidades Avanzadas	Preference Settings View	
+	setting_util_advanced	Advanced Utilities	Opciones avanzadas	Preference Settings View	
 format_num_days	streakDaysFormat	%d days	%d días	‘Streak’ count. Synonym: ‘Progress‘. Formatted number ‘%d’ for consecutive days completed. Place translated text for ‘days’ on the right or left of ‘%d’ based on language directionality.	
 	tweak_detail_section_activity	Activity	Actividad	Tweaks Detail view section heading	
 	tweak_detail_section_description	Description	Descripción	Tweaks Detail view section heading	
@@ -436,9 +436,9 @@ weigh_twice	tweakWeightTwice.heading	Weigh Yourself Twice a Day	Pesarse dos vece
 weigh_twice_short	tweakWeightTwice.short	Weigh Yourself Twice a Day	Pesarse dos veces al día		
 weigh_twice_text	tweakWeightTwice.text	Regular self-weighing is considered crucial for long-term weight control, but there is insufficient evidence to support a specific frequency of weighing. My recommendation is based on the one study that found that twice daily—upon waking and right before bed—appeared superior to once a day (about six versus two pounds of weight loss over twelve weeks).	Se suele pensar que pesarse de manera habitual es un método crucial para el control del peso a largo plazo, pero no existen suficientes pruebas para respaldar esta frecuencia. Mi recomendación se basa en un estudio que encontró que dos veces al día, al despertarte y justo antes de acostarte, parece ser mejor que una vez al día (con una diferencia de entre 1 y 3 kg en doce semanas).		
 units	units_label	Units	Sistema		
-imperial	unitToggle.imperial	IMPERIAL	Imperial	Units toggle button text: imperial measurement system	
-metric	unitToggle.metric	METRIC	Métrico	Units toggle button text: metric measurement system	
-videos	videos.link.label	VIDEOS	Videos	Label for hyperlink to nutritionfacts.org video topics	
+imperial	unitToggle.imperial	IMPERIAL	IMPERIAL	Units toggle button text: imperial measurement system	
+metric	unitToggle.metric	METRIC	MÉTRICO	Units toggle button text: metric measurement system	
+videos	videos.link.label	VIDEOS	VIDEOS	Label for hyperlink to nutritionfacts.org video topics	
 	weight_entry_clear	Clear	Borrar	Weight Daily Entry: clear button which deletes values	
 	weight_entry_evening	Evening (right before bed)	Tarde (justo antes de acostarse)	Weight Daily Entry: label	
 	weight_entry_morning	Morning (upon waking)	Mañana (al despertar)	Weight Daily Entry: label	
@@ -495,8 +495,8 @@ history_to_generate_choices.3		1 year	1 año
 history_to_generate_choices.4		2 years	2 años		
 history_to_generate_choices.5		5 years	5 años		
 no		No	No		
-no_servings_recorded		You have not recorded any servings yet!	Todavía no has registrado ninguna porción		
-no_weights_recorded		You have not recorded any weights yet!	Todavía no has registrado tu peso		
+no_servings_recorded		You have not recorded any servings yet!	Todavía no has registrado ninguna porción.		
+no_weights_recorded		You have not recorded any weights yet!	Todavía no has registrado tu peso.		
 not_now		Not Now	Ahora no		
 out_of		out of	de	Part of ‘0 out of 24’	
 permission_needed_to_write_storage		Can’t backup without permission to write to storage	No puedes hacer copias de seguridad si no tienes permiso para guardarlas en el disco duro.		
