@@ -50,9 +50,9 @@ _file.txt_
 ##### Spanish_es #####
 ######################
 ## Existing output file to be updated.
-OUTPUT_LANG_TSV="Spanish/tsv/Spanish_es.tsv"
+OUTPUT_LANG_TSV="Spanish/tsv/Spanish_es.app.tsv"
 ## Key Pairing Document
-SOURCE_enUS_TSV="English_US/tsv/English_US_en.tsv"
+SOURCE_enUS_TSV="English_US/tsv/English_US_en.app.tsv"
 ## Android
 SOURCE_enUS_DROID="English_US/android/values/strings.xml"
 SOURCE_LANG_DROID="Spanish/android/values-es/strings.xml"

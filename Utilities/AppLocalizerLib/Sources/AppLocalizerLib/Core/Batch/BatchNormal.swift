@@ -147,7 +147,7 @@ struct BatchNormal {
         // Pattern: FILE_NAME_LANG-REGION.modifier.modifier.tsv
         // Examples:
         //     Spanish_es.20210309.Apple.20210629_1639.tsv
-        //     Chinese_Traditional_zh-Hant.appstore.20201028.tsv
+        //     Chinese_Traditional_zh-Hant.store.20201028.tsv
         var langStr = ""
         var modifierStr = ""
         var nameStr = ""

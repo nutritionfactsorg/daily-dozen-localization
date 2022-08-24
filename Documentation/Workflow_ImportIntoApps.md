@@ -43,7 +43,7 @@ The _Import (TSV) Spreadsheets into Applications_ uses TSV spreadsheet data to u
 ##########################
 ### IMPORT TRANSLATION ###
 ##########################
-SOURCE_TSV="Spanish/tsv/Spanish_es.20210309.tsv"
+SOURCE_TSV="Spanish/tsv/Spanish_es.app.20210309.tsv"
 OUTPUT_DROID="Spanish/android/values-es/strings.xml"    
 OUTPUT_APPLE="Spanish/ios/es.xcloc/Localized Contents/es.xliff"   
 DO_IMPORT_TSV

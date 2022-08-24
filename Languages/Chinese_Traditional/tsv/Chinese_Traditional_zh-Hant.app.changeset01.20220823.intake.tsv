@@ -1,0 +1,13 @@
+key_droid	key_apple	base_value	lang_value	base_note	lang_note
+food_info_serving_sizes_cruciferous_vegetables_imperial.1	dozeVegetablesCruciferous.Serving.imperial.1	½ cup Brussels sprouts	½杯孢子甘藍苗		
+food_info_serving_sizes_cruciferous_vegetables_imperial.2	dozeVegetablesCruciferous.Serving.imperial.2	¼ cup Broccoli sprouts	¼杯花椰菜苗		
+food_info_serving_sizes_cruciferous_vegetables_imperial.3	dozeVegetablesCruciferous.Serving.imperial.3	1 tablespoon horseradish	一大匙辣根		
+food_info_serving_sizes_cruciferous_vegetables_metric.1	dozeVegetablesCruciferous.Serving.metric.1	78 g Brussels sprouts	78克孢子甘藍苗		
+food_info_serving_sizes_cruciferous_vegetables_metric.2	dozeVegetablesCruciferous.Serving.metric.2	14 g Broccoli sprouts	14克花椰菜苗		
+food_info_serving_sizes_cruciferous_vegetables_metric.3	dozeVegetablesCruciferous.Serving.metric.3	1 tablespoon horseradish	一大匙辣根		
+android_about_text_translators	info_app_about_translators	Special thanks to our volunteer translators: Ricard Soler Roger (ca), Anke Schliessmann (de), Ruth Levy (he), Joanna Klopotek (pl), Tania Bassi (pt-BR), João Madureira (pt-PT), Evgeniya Lyakh (ru).	特別鳴謝翻譯志願者：Ricard Soler Roger（加泰羅尼亞語）、Anke Schliessmann（德語）、Ruth Levy（希伯來語）、Joanna Klopotek（波蘭語）、Tania Bassi（巴西葡語）、João Madureira（葡萄牙葡語）、Evgeniya Lyakh（俄語）。	Info About View: Contributing Translators List	
+	setting_analytics_body	Enable anonymous usage information to be collected to help improve this application.	允許收集匿名使用資訊以幫助改進此應用程序。	Google Firebase Analytics	
+	setting_analytics_enable	Enable Analytics	啟用分析	Google Firebase Analytics	
+	setting_analytics_opt_in	Opt In	選擇同意	Google Firebase Analytics	
+	setting_analytics_opt_out	Opt Out	選擇退出	Google Firebase Analytics	
+	setting_analytics_title	Analytics	分析	Google Firebase Analytics	

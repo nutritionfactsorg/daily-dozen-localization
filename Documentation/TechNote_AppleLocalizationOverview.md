@@ -78,7 +78,7 @@ The <code>[daily-dozen-localization](https://github.com/nutritionfactsorg/daily-
 
 ### Localize App Store Presentation <a id="localize-app-store-presentation-"></a><sup>[▴](#contents)</sup>
 
-Polish is the first language to have the text translate for use in the Android and Apple App Store regionalized pages. See the `Polish_pl_appstore*.tsv` file in the [Languages/Polish/tsv folder](https://github.com/nutritionfactsorg/daily-dozen-localization/blob/master/Languages/Polish/tsv).
+Polish is the first language to have the text translate for use in the Android and Apple App Store regionalized pages. See the `Polish_pl.store.tsv` file in the [Languages/Polish/tsv folder](https://github.com/nutritionfactsorg/daily-dozen-localization/blob/master/Languages/Polish/tsv).
 
 Here are the regional app store pages where the translated copy is expected to show up:
 

@@ -1,0 +1,167 @@
+### FILE: batch_normal_FromTsvIntakeC.txt
+### WORKFLOW:  `*.strings` content based `*.tsv`
+### NOTE: STANDALONE CHANGESET `intake` processing
+###       use `normalized` output for later inclusion into overall normalization
+###
+
+###################
+## General Setup ##
+###################
+DIRNAME_OUTPUT_NORMAL="FromTsvIntakeC"
+LOGGER_FILENAME="_log_FromTsvIntakeC__"
+LOGGER_LEVEL_INFO
+
+## Base English_US paths into which translations are mapped
+## use one or the other.
+BASE_JSON_DIR="English_US/ios/en-US_reference/LocalStrings/en.changeset01.lproj"
+
+BASE_TSV_INCLUDE="English_US/tsv/English_US_en.changeset01.tsv"
+
+BASE_TSV_INCLUDE="English_US/tsv/English_US_en.store.changeset01.tsv"
+
+### ------ ANDROID_LANG --> NORMALIZE XML -----
+BASE_XML_URL="English_US/android/values/strings.changeset01.xml"
+
+## Note: currently, URL_TOPICS_TSV is the same for all languages except Spanish.
+URL_FRAGMENTS_TSV="English_US/tsv/English_US_en.url_fragments.tsv"
+URL_TOPICS_TSV="English_US/tsv/English_US_en.url_topics.tsv"
+
+####################################
+## English_US: Baseline Reference ##
+####################################
+LOGGER_FILENAME="_log_FromTsvIntakeC__US_en"
+
+SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.changeset01.tsv"
+DO_NORMALIZE_BATCH
+
+SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.store.changeset01.tsv"
+DO_NORMALIZE_BATCH
+
+########################
+## Chinese_Simplified ##
+########################
+LOGGER_FILENAME="_log_FromTsvIntakeC_Chinese_zh-Hans"
+## -- (zh-Hans) process app --
+SOURCE_TSV_INCLUDE="Chinese_Simplified/tsv/Chinese_Simplified_zh-Hans.changeset01.20220823.intake.tsv"
+DO_NORMALIZE_BATCH
+
+## -- (zh-Hans) process appstore --
+SOURCE_TSV_INCLUDE="Chinese_Simplified/tsv/Chinese_Simplified_zh-Hans.store.changeset01.20220823.intake.tsv"
+DO_NORMALIZE_BATCH
+
+#########################
+## Chinese_Traditional ##
+#########################
+LOGGER_FILENAME="_log_FromTsvIntakeC_Chinese_zh-Hant"
+## -- (zh-Hant) process app --
+SOURCE_TSV_INCLUDE="Chinese_Traditional/tsv/Chinese_Traditional_zh-Hant.changeset01.20220823.intake.tsv"
+DO_NORMALIZE_BATCH
+
+## -- (zh-Hant) process appstore --
+SOURCE_TSV_INCLUDE="Chinese_Traditional/tsv/Chinese_Traditional_zh-Hant.store.changeset01.20220823.intake.tsv"
+DO_NORMALIZE_BATCH
+
+############
+## Hebrew ##
+############
+LOGGER_FILENAME="_log_FromTsvIntakeC_Hebrew_he"
+## -- (he) process app --
+SOURCE_TSV_INCLUDE="Hebrew/tsv/Hebrew_he.changeset01.20220819.intake.tsv"
+DO_NORMALIZE_BATCH
+
+## -- (he) process appstore --
+SOURCE_TSV_INCLUDE="Hebrew/tsv/Hebrew_he.store.changeset01.20220819.intake.tsv"
+DO_NORMALIZE_BATCH
+
+############
+## Polish ##
+############
+LOGGER_FILENAME="_log_FromTsvIntakeC_Polish_pl"
+## -- (pl) process app --
+SOURCE_TSV_INCLUDE="Polish/tsv/Polish_pl.changeset01.20220729.intake.tsv"
+DO_NORMALIZE_BATCH
+
+## -- (pl) process appstore --
+SOURCE_TSV_INCLUDE="Polish/tsv/Polish_pl.store.changeset01.20220729.intake.tsv"
+DO_NORMALIZE_BATCH
+
+#######################
+## Portuguese_Brazil ##
+#######################
+LOGGER_FILENAME="_log_FromTsvIntakeC_Portuguese_pt-rBR"
+## -- (pt-rBR) process app --
+SOURCE_TSV_INCLUDE="Portuguese_Brazil/tsv/Portuguese_pt-rBR.changeset01.20220722.intake.tsv"
+DO_NORMALIZE_BATCH
+
+## -- (pt-rBR) process appstore --
+SOURCE_TSV_INCLUDE="Portuguese_Brazil/tsv/Portuguese_pt-rBR.store.changeset01.20220722.intake.tsv"
+DO_NORMALIZE_BATCH
+
+#########################
+## Portuguese_Portugal ##
+#########################
+LOGGER_FILENAME="_log_FromTsvIntakeC_Portuguese_pt-rPT"
+## -- (pt-rPT) process app --
+SOURCE_TSV_INCLUDE="Portuguese_Portugal/tsv/Portuguese_pt-rPT.changeset01.20220721.intake.tsv"
+DO_NORMALIZE_BATCH
+
+## -- (pt-rPT) process appstore --
+SOURCE_TSV_INCLUDE="Portuguese_Portugal/tsv/Portuguese_pt-rPT.store.changeset01.20220721.intake.tsv"
+DO_NORMALIZE_BATCH
+
+#############
+## Russian ##
+#############
+LOGGER_FILENAME="_log_FromTsvIntakeC_Russian_ru"
+## -- (ru) process app --
+SOURCE_TSV_INCLUDE="Russian/tsv/Russian_ru.changeset01.20220805.intake.tsv"
+DO_NORMALIZE_BATCH
+
+## -- (ru) process appstore --
+SOURCE_TSV_INCLUDE="Russian/tsv/Russian_ru.store.changeset01.20220805.intake.tsv"
+DO_NORMALIZE_BATCH
+
+#############
+## Spanish ##
+#############
+LOGGER_FILENAME="_log_FromTsvIntakeC_Spanish_es"
+## Note: Spanish has its own topic urls
+URL_FRAGMENTS_TSV="Spanish/tsv/Spanish_es.url_fragments.tsv"
+URL_TOPICS_TSV="Spanish/tsv/Spanish_es.url_topics.tsv"
+
+## -- (es) process app --
+SOURCE_TSV_INCLUDE="Spanish/tsv/Spanish_es.changeset01.20220720.intake.tsv"
+DO_NORMALIZE_BATCH
+
+## -- (es) process appstore --
+SOURCE_TSV_INCLUDE="Spanish/tsv/Spanish_es.store.changeset01.20220720.intake.tsv"
+DO_NORMALIZE_BATCH
+
+######################################################
+### ----- STOP HERE (PROCESSING: 2022.08.23) ----- ###
+######################################################
+QUIT
+
+#############
+## Catalan ##
+#############
+LOGGER_FILENAME="_log_FromTsvIntakeC_Catalan_ca"
+## -- (ca) process app --
+#SOURCE_TSV_INCLUDE="Catalan/tsv/Catalan_ca.changeset01.?.intake.tsv"
+#DO_NORMALIZE_BATCH
+
+## -- (ca) process appstore --
+#SOURCE_TSV_INCLUDE="Catalan/tsv/Catalan_ca.store.changeset01.?.intake.tsv"
+#DO_NORMALIZE_BATCH
+
+############
+## German ##
+############
+LOGGER_FILENAME="_log_FromTsvIntakeC_German_de"
+## -- (de) process app --
+SOURCE_TSV_INCLUDE="German/tsv/German_de.changeset01.?.intake.tsv"
+DO_NORMALIZE_BATCH
+
+## -- (de) process appstore --
+SOURCE_TSV_INCLUDE="German/tsv/German_de.store.changeset01.?.intake.tsv"
+DO_NORMALIZE_BATCH

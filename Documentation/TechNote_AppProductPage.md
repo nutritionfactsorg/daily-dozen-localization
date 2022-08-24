@@ -8,7 +8,7 @@
 
 ## Text Components <a id="text-components-"></a><sup>[▴](#contents)</sup>
 
-A tsv files with app store information contains `appstore` in the file name. The spreadsheet file ['English_US_en_appstore.tsv'](https://github.com/nutritionfactsorg/daily-dozen-localization/blob/master/Languages/English_US/tsv/English_US_en_appstore.tsv) provides the baseline English reference for both the Android and Apple application store.
+A tsv files with app store information contains `appstore` in the file name. The spreadsheet file ['English_US_en.store.tsv'](https://github.com/nutritionfactsorg/daily-dozen-localization/blob/master/Languages/English_US/tsv/English_US_en.store.tsv) provides the baseline English reference for both the Android and Apple application store.
 
 The tsv lines where the `key_droid` or `key_apple` values begin with `store.screen.` provide translated text for use in the marketing graphics.
 

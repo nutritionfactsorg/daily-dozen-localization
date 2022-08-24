@@ -3,9 +3,8 @@
 ## Contents <a id="contents"></a>
 [Dashboard](#dashboard-) •
 [Localization Workflow](#localization-workflow-) •
+[Filename Convention](#filename-convention-) •
 [Resources](#resources-)
-
-<!-- [File Name Convention](#file-name-convention-) • -->
 
 _The `nutritionfactsorg/daily-dozen-localization` repository supports the language translation work for the Daily Dozen applications on Android and Apple devices._
 
@@ -323,29 +322,33 @@ Extra columns can be added for the translators' convenience. The extra column na
 
 **Phase 3. Import.** The completed TSV files are used to generate Android and Apple localization import files.
 
-<!--
-## File Name Convention <a id="file-name-convention-"></a><sup>[▴](#contents)</sup>
+## Filename Convention <a id="filename-convention-"></a><sup>[▴](#contents)</sup>
  
-Since the TSV files may be manually distributed for processed by humans, a `language-datestamp-tag-poc.tsv` file name convention can be used to help keep track of which file is which.
+The filename convention `language_code.type.tags.datestamp.extension` uses the following elements :
 
-* `language`: language code. For example, `en`, `es`, `en_rGB`.
-* `datestamp`: Date and time based on either of the following formats.
-     * yyyyMMdd: 20200413 (year, month, day)
-     * yyyyMMdd_HHmm:  20200413_1327 (year, month, day, 0-24 hours, minutes)
-* `tag`: Use to provide some at-a-glance status. For example:
-    * `export`, `ExportToTranslate`
-    * `wip`, `WorkInProgress`
-    * `import`, `ReadyToImport` 
-* `poc`: individual point of contact, if applicable
-    * GitHub id
-    * initials
+* **`language` Language Name.** For example: `English`, `Spanish`, `German`.
+* **`code`: Language Code** which may also reference a region. For example, `en`, `es`, `pt-rBR`, `pt-rPT`.
+* **`type` Types** currently in use include:
+    * `app` Translation used directly in the Android and Apple applications.
+    * `store` Translation used in the App Store web page. 
+    * `url_fragments`  Url path fragments used in the applications. May be language dependent, but not "translated" per se.
+    * `url_topics` Urls for topic video url links. May be language dependent, but not "translated" per se.
+* **`tags`: Tags** provide additional descriptors, as needed, in the file name. For example:
+    * `changeset`: an incremental change to the overall translations
+    * `intake`: raw TSV file provided from a translator
+    * `normalized`: raw `intake` TSV file which has been processed, passed automated checks and normalized
+    * `wip`: some arbitrary "Work In Progress"
+* **`datestamp`: Date**, and optionally time, based on either of the following formats.
+     * `yyyyMMdd`: `20200413` (year, month, day)
+     * `yyyyMMdd_HHmm`:  `20200413_1327` (year, month, day, 0-24 hours, minutes)
+* **`.extension` Filetype Extension** may be `.tsv`, `.text`, `.txt` or `.zip` depending on the content format.
+    * `.text`, `.txt` or `.zip` can be posted in an issue tracker comment.
+    * `.tsv` is use in the processing code base and pull requests
 
 _File Name Examples_
 
-* `de-20200219_1600-ExportToTranslate.tsv` A file computer generated file to be translated.
-* `en_rGB-20200219-wip-ABC.tsv` A file which has been partially translated by person ABC. Perhaps, pending some review or feedback. 
-* `ru-20200819-ReadyToImport-XYZ.tsv` A translation completed by person XYZ which is ready for automated import processing back to the device source code.
--->
+* `English_US_en.app.tsv` The baseline US English spreadsheet for the Android and Apple applications.
+* `Russian_ru.app.changeset01.20220805.intake.tsv` Unprocessed Russian changeset version 01 received from the translator on August 5, 2022.
 
 ## Resources <a id="resources-"></a><sup>[▴](#contents)</sup>
 

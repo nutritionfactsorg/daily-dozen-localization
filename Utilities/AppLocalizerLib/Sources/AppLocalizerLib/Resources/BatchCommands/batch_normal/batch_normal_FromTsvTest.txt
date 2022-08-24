@@ -13,8 +13,8 @@ BASE_JSON_DIR="_Test/ios/test_reference/LocalStrings/en.lproj"
 
 BASE_TSV_INCLUDE="English_US/tsv/English_US_en.tsv"
 #BASE_TSV_INCLUDE="English_US/tsv/English_US_en.changeset01.tsv"
-BASE_TSV_INCLUDE="English_US/tsv/English_US_en.appstore.tsv"
-#BASE_TSV_INCLUDE="English_US/tsv/English_US_en.appstore.changeset01.tsv"
+BASE_TSV_INCLUDE="English_US/tsv/English_US_en.store.tsv"
+#BASE_TSV_INCLUDE="English_US/tsv/English_US_en.store.changeset01.tsv"
 BASE_TSV_INCLUDE="English_US/tsv/English_US_en.url_fragments.tsv"
 BASE_TSV_INCLUDE="English_US/tsv/English_US_en.url_topics.tsv"
 
@@ -27,8 +27,8 @@ URL_TOPICS_TSV="_Test/tsv/Test_English_US_en.url_topics.tsv"
 ####################
 ## Test Reference ##
 ####################
-SOURCE_TSV_INCLUDE="_Test/tsv/Test_English_US_en.newline.tsv"
+SOURCE_TSV_INCLUDE="_Test/tsv/Test_English_US_en.test.newline.tsv"
 DO_NORMALIZE_BATCH
 
-#SOURCE_TSV_INCLUDE="_Test/tsv/Test_English_US_en.return.tsv"
+#SOURCE_TSV_INCLUDE="_Test/tsv/Test_English_US_en.test.return.tsv"
 #DO_NORMALIZE_BATCH

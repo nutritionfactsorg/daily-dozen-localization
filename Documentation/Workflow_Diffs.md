@@ -27,16 +27,16 @@ _batch_diff_tsv_update_all.txt_
 #################################
 ### UPDATE DIFF: Afrikaans_af ###
 #################################
-DIFF_TSV_A="English_US/tsv/English_US_en.20210309.tsv"
-DIFF_TSV_B="Afrikaans/tsv/Afrikaans_af.tsv"
+DIFF_TSV_A="English_US/tsv/English_US_en.app.20210309.tsv"
+DIFF_TSV_B="Afrikaans/tsv/Afrikaans_af.app.tsv"
 DO_DIFF_KEYS
 CLEAR_ALL
 
 ##############################
 ### UPDATE DIFF: Arabic_ar ###
 ##############################
-DIFF_TSV_A="English_US/tsv/English_US_en.20210309.tsv"
-DIFF_TSV_B="Arabic/tsv/Arabic_ar.tsv"
+DIFF_TSV_A="English_US/tsv/English_US_en.app.20210309.tsv"
+DIFF_TSV_B="Arabic/tsv/Arabic_ar.app.tsv"
 DO_DIFF_KEYS
 CLEAR_ALL
 

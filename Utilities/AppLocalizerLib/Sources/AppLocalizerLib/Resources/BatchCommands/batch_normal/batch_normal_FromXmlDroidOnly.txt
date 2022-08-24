@@ -24,7 +24,7 @@ BASE_TSV_INCLUDE="English_US/tsv/English_US_en.tsv"
 ### ------ ANDROID_LANG --> NORMALIZE XML -----
 #BASE_XML_URL="English_US/android/values/strings.xml"
 ### .unified. does not fracture imperial and metric pseudo-quantity
-BASE_XML_URL="English_US/android/values/strings.unified.xml"
+BASE_XML_URL="English_US/android/values/strings.xml"
 
 ## Note: currently, URL_TOPICS_TSV is the same for all languages except Spanish.
 URL_FRAGMENTS_TSV="English_US/tsv/English_US_en.url_fragments.tsv"

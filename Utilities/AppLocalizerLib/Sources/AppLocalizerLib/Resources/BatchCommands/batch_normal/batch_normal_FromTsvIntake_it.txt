@@ -20,15 +20,15 @@ BASE_JSON_DIR="English_US/ios/en-US_reference/LocalStrings/en.lproj"
 BASE_TSV_INCLUDE="English_US/tsv/English_US_en.tsv"
 #BASE_TSV_INCLUDE="English_US/tsv/English_US_en.changeset01.tsv"
 
-BASE_TSV_INCLUDE="English_US/tsv/English_US_en.appstore.tsv"
-#BASE_TSV_INCLUDE="English_US/tsv/English_US_en.appstore.changeset01.tsv"
+BASE_TSV_INCLUDE="English_US/tsv/English_US_en.store.tsv"
+#BASE_TSV_INCLUDE="English_US/tsv/English_US_en.store.changeset01.tsv"
 
 BASE_TSV_INCLUDE="English_US/tsv/English_US_en.url_fragments.tsv"
 BASE_TSV_INCLUDE="English_US/tsv/English_US_en.url_topics.tsv"
 
 ### ------ ANDROID_LANG --> NORMALIZE XML -----
-BASE_XML_URL="English_US/android/values/strings.unified.xml"
-#BASE_XML_URL="English_US/android/values/strings.unified.changeset01.xml"
+BASE_XML_URL="English_US/android/values/strings.xml"
+#BASE_XML_URL="English_US/android/values/strings.changeset01.xml"
 
 ## Note: currently, URL_TOPICS_TSV is the same for all languages except Spanish.
 URL_FRAGMENTS_TSV="English_US/tsv/English_US_en.url_fragments.tsv"
@@ -47,12 +47,12 @@ DO_NORMALIZE_BATCH
 #SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.changeset01.tsv"
 #DO_NORMALIZE_BATCH
 
-SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.appstore.tsv"
-##SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.appstore.changeset01.tsv"
+SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.store.tsv"
+##SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.store.changeset01.tsv"
 DO_NORMALIZE_BATCH
 
 ### standalone change set processing
-#SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.appstore.changeset01.tsv"
+#SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.store.changeset01.tsv"
 #DO_NORMALIZE_BATCH
 
 SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.url_fragments.tsv"
@@ -75,6 +75,6 @@ SOURCE_TSV_INCLUDE="Italian/tsv/Italian_it.tsv"
 DO_NORMALIZE_BATCH
 
 ## -- (it) process appstore --
-SOURCE_TSV_INCLUDE="Italian/tsv/Italian_it.appstore.tsv"
+SOURCE_TSV_INCLUDE="Italian/tsv/Italian_it.store.tsv"
 DO_NORMALIZE_BATCH
 
