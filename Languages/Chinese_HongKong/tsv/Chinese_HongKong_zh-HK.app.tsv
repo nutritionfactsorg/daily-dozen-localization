@@ -490,7 +490,7 @@ error_cannot_handle_url		Could not open url. Please install a browser.	Could not
 food_history		Food History	Food History		
 food_info		Food Info	Food Info		
 format_num_days		%d days	%d days	Formatted string %d days	
-format_version		version %s	version %s	Place "%s" where the software should substitue in the version number.	
+format_version		version %s	version %s	Place `%s` where the software should substitue in the version number.	
 history_to_generate		History to Generate	History to Generate		
 history_to_generate_choices.0		1 month	1 month		
 history_to_generate_choices.1		3 months	3 months		

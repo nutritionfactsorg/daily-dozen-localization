@@ -486,7 +486,7 @@ enable_daily_reminder		Enable Daily Reminder	אפשר תזכורות יומיו�
 error_cannot_handle_url		Could not open url. Please install a browser.	לא ניתן היה לפתוח את כתובת האתר. אנא התקן דפדפן.		
 food_history		Food History	הסטוריית המזון		
 food_info		Food Info	מידע על מזון		
-format_version		version %s	%s	Place "%s" where the software should substitue in the version number.	
+format_version		version %s	%s	Place `%s` where the software should substitue in the version number.	
 history_to_generate		History to Generate	היסטוריה לייצוא		
 history_to_generate_choices.0		1 month	חודש 1		
 history_to_generate_choices.1		3 months	3 חודשים		
