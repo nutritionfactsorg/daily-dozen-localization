@@ -15,8 +15,8 @@ LOGGER_LEVEL_INFO
 ## Base English_US paths into which translations are mapped
 BASE_JSON_DIR="English_US/ios/en-US_reference/LocalStrings/en.lproj"
 
-BASE_TSV_INCLUDE="English_US/tsv/English_US_en.tsv"
-#BASE_TSV_INCLUDE="English_US/tsv/English_US_en.changeset01.tsv"
+BASE_TSV_INCLUDE="English_US/tsv/English_US_en.app.tsv"
+#BASE_TSV_INCLUDE="English_US/tsv/English_US_en.app.changeset01.tsv"
 BASE_TSV_INCLUDE="English_US/tsv/English_US_en.store.tsv"
 #BASE_TSV_INCLUDE="English_US/tsv/English_US_en.store.changeset01.tsv"
 BASE_TSV_INCLUDE="English_US/tsv/English_US_en.url_fragments.tsv"
@@ -35,12 +35,12 @@ URL_TOPICS_TSV="English_US/tsv/English_US_en.url_topics.tsv"
 ####################################
 LOGGER_FILENAME="_log_FromTsvMain__US_en"
 
-SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.tsv"
-#SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.changeset01.tsv"
+SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.app.tsv"
+#SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.app.changeset01.tsv"
 DO_NORMALIZE_BATCH
 
 ### standalone change set processing
-#SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.changeset01.tsv"
+#SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.app.changeset01.tsv"
 #DO_NORMALIZE_BATCH
 
 SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.store.tsv"

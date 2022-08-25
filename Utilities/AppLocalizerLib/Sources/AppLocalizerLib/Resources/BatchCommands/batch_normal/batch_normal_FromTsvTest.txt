@@ -11,8 +11,8 @@ DIRNAME_OUTPUT_NORMAL="StringsViaTsvTest"
 ## Base English_US paths into which translations are mapped
 BASE_JSON_DIR="_Test/ios/test_reference/LocalStrings/en.lproj"
 
-BASE_TSV_INCLUDE="English_US/tsv/English_US_en.tsv"
-#BASE_TSV_INCLUDE="English_US/tsv/English_US_en.changeset01.tsv"
+BASE_TSV_INCLUDE="English_US/tsv/English_US_en.app.tsv"
+#BASE_TSV_INCLUDE="English_US/tsv/English_US_en.app.changeset01.tsv"
 BASE_TSV_INCLUDE="English_US/tsv/English_US_en.store.tsv"
 #BASE_TSV_INCLUDE="English_US/tsv/English_US_en.store.changeset01.tsv"
 BASE_TSV_INCLUDE="English_US/tsv/English_US_en.url_fragments.tsv"

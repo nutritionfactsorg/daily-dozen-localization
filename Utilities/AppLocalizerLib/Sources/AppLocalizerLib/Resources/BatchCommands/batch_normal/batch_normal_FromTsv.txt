@@ -46,7 +46,7 @@ DO_NORMALIZE_BATCH
 SOURCE_TSV_INCLUDE="English_GB/tsv/English_GB_en-GB.tsv"
 DO_NORMALIZE_BATCH
 
-SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.tsv"
+SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.app.tsv"
 DO_NORMALIZE_BATCH
 
 SOURCE_TSV_INCLUDE="Estonian/tsv/Estonian_et.tsv"

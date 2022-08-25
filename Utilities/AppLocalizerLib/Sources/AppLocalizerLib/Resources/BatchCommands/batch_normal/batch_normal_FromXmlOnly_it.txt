@@ -16,8 +16,8 @@ LOGGER_LEVEL_INFO
 ## Base English_US directory paths from which translations are mapped
 BASE_JSON_DIR="English_US/ios/en-US_reference/LocalStrings/en.lproj"
 
-BASE_TSV_INCLUDE="English_US/tsv/English_US_en.tsv"
-#BASE_TSV_INCLUDE="English_US/tsv/English_US_en.changeset01.tsv"
+BASE_TSV_INCLUDE="English_US/tsv/English_US_en.app.tsv"
+#BASE_TSV_INCLUDE="English_US/tsv/English_US_en.app.changeset01.tsv"
 #BASE_TSV_INCLUDE="English_US/tsv/English_US_en.url_fragments.tsv"
 #BASE_TSV_INCLUDE="English_US/tsv/English_US_en.url_topics.tsv"
 
