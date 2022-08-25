@@ -38,7 +38,7 @@ struct BatchNormal {
     
     /// normalizes `*.tsv` and generates normalized `*.json`, `*.strings`, `*.xml`
     /// 
-    /// - parameter sourceTSV: …[…/Portuguese_Brazil/tsv/Portuguese_pt-BR.tsv] (example)
+    /// - parameter sourceTSV: …[…/Portuguese_Brazil/tsv/Portuguese_pt-BR.app.tsv] (example)
     /// - parameter resultsDir: …/_Normal__LOCAL/StringsViaTsvIntake example (example)
     /// - parameter baseJsonDir: …/English_US/ios/json/LocalStrings/en.lproj (example)
     /// - parameter baseListTsv: …/English_US/tsv/*.tsv `[URL]` (example)
@@ -146,7 +146,7 @@ struct BatchNormal {
     private func getTsvFilenameParts(_ url: URL) -> (lang: String, modifier: String, name: String) {
         // Pattern: FILE_NAME_LANG-REGION.modifier.modifier.tsv
         // Examples:
-        //     Spanish_es.20210309.Apple.20210629_1639.tsv
+        //     Spanish_es.app.20210309.tsv
         //     Chinese_Traditional_zh-Hant.store.20201028.tsv
         var langStr = ""
         var modifierStr = ""

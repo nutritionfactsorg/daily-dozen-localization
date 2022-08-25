@@ -70,7 +70,11 @@ DO_NORMALIZE_BATCH
 #################
 LOGGER_FILENAME="_log_FromTsvMain_German_de"
 ## -- (de) process app --
-SOURCE_TSV_INCLUDE="German/tsv/German_de.tsv"
+SOURCE_TSV_INCLUDE="German/tsv/German_de.app.tsv"
+DO_NORMALIZE_BATCH
+
+## -- (de) process store --
+SOURCE_TSV_INCLUDE="German/tsv/German_de.store.tsv"
 DO_NORMALIZE_BATCH
 
 ##################
@@ -84,10 +88,10 @@ URL_TOPICS_TSV="Spanish/tsv/Spanish_es.url_topics.tsv"
 LOGGER_FILENAME="_log_FromTsvMain_Spanish_es"
 
 ## -- (es) process app --
-SOURCE_TSV_INCLUDE="Spanish/tsv/Spanish_es.tsv"
+SOURCE_TSV_INCLUDE="Spanish/tsv/Spanish_es.app.tsv"
 DO_NORMALIZE_BATCH
 
-## -- (es) process appstore --
+## -- (es) process store --
 #SOURCE_TSV_INCLUDE="Spanish/tsv/Spanish_es.store.tsv"
 #DO_NORMALIZE_BATCH
 
@@ -109,5 +113,9 @@ URL_TOPICS_TSV="English_US/tsv/English_US_en.url_topics.tsv"
 #################
 LOGGER_FILENAME="_log_FromTsvMain_Polish_pl"
 ## -- (pl) process app --
-SOURCE_TSV_INCLUDE="Polish/tsv/Polish_pl.tsv"
+SOURCE_TSV_INCLUDE="Polish/tsv/Polish_pl.app.tsv"
+DO_NORMALIZE_BATCH
+
+## -- (pl) process store --
+SOURCE_TSV_INCLUDE="Polish/tsv/Polish_pl.store.tsv"
 DO_NORMALIZE_BATCH

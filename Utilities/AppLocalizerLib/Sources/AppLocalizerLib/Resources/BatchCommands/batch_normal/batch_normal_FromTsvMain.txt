@@ -73,10 +73,10 @@ DO_NORMALIZE_BATCH
 ##################
 LOGGER_FILENAME="_log_FromTsvMain_Catalan_ca"
 ## -- (ca) process app --
-SOURCE_TSV_INCLUDE="Catalan/tsv/Catalan_ca.tsv"
+SOURCE_TSV_INCLUDE="Catalan/tsv/Catalan_ca.app.tsv"
 DO_NORMALIZE_BATCH
 
-## -- (ca) process appstore --
+## -- (ca) process store --
 SOURCE_TSV_INCLUDE="Catalan/tsv/Catalan_ca.store.tsv"
 DO_NORMALIZE_BATCH
 
@@ -85,10 +85,10 @@ DO_NORMALIZE_BATCH
 #################
 LOGGER_FILENAME="_log_FromTsvMain_German_de"
 ## -- (de) process app --
-SOURCE_TSV_INCLUDE="German/tsv/German_de.tsv"
+SOURCE_TSV_INCLUDE="German/tsv/German_de.app.tsv"
 DO_NORMALIZE_BATCH
 
-## -- (de) process appstore --
+## -- (de) process store --
 SOURCE_TSV_INCLUDE="German/tsv/German_de.store.tsv"
 DO_NORMALIZE_BATCH
 
@@ -103,10 +103,10 @@ URL_TOPICS_TSV="Spanish/tsv/Spanish_es.url_topics.tsv"
 LOGGER_FILENAME="_log_FromTsvMain_Spanish_es"
 
 ## -- (es) process app --
-SOURCE_TSV_INCLUDE="Spanish/tsv/Spanish_es.tsv"
+SOURCE_TSV_INCLUDE="Spanish/tsv/Spanish_es.app.tsv"
 DO_NORMALIZE_BATCH
 
-## -- (es) process appstore --
+## -- (es) process store --
 SOURCE_TSV_INCLUDE="Spanish/tsv/Spanish_es.store.tsv"
 DO_NORMALIZE_BATCH
 
@@ -128,16 +128,16 @@ URL_TOPICS_TSV="English_US/tsv/English_US_en.url_topics.tsv"
 #################
 LOGGER_FILENAME="_log_FromTsvMain_Hebrew_he"
 ## -- (he) process app --
-SOURCE_TSV_INCLUDE="Hebrew/tsv/Hebrew_he.tsv"
+SOURCE_TSV_INCLUDE="Hebrew/tsv/Hebrew_he.app.tsv"
 DO_NORMALIZE_BATCH
 
-## -- (he) process appstore --
+## -- (he) process store --
 SOURCE_TSV_INCLUDE="Hebrew/tsv/Hebrew_he.store.tsv"
 DO_NORMALIZE_BATCH
 
 LOGGER_FILENAME="_log_FromTsvMain_Hebrew_iw"
 ## -- (iw) process app --
-SOURCE_TSV_INCLUDE="Hebrew/tsv/Hebrew_iw.tsv"
+SOURCE_TSV_INCLUDE="Hebrew/tsv/Hebrew_iw.app.tsv"
 DO_NORMALIZE_BATCH
 
 #################
@@ -145,10 +145,10 @@ DO_NORMALIZE_BATCH
 #################
 LOGGER_FILENAME="_log_FromTsvMain_Polish_pl"
 ## -- (pl) process app --
-SOURCE_TSV_INCLUDE="Polish/tsv/Polish_pl.tsv"
+SOURCE_TSV_INCLUDE="Polish/tsv/Polish_pl.app.tsv"
 DO_NORMALIZE_BATCH
 
-## -- (pl) process appstore --
+## -- (pl) process store --
 SOURCE_TSV_INCLUDE="Polish/tsv/Polish_pl.store.tsv"
 DO_NORMALIZE_BATCH
 
@@ -157,10 +157,10 @@ DO_NORMALIZE_BATCH
 ################################
 LOGGER_FILENAME="_log_FromTsvMain_Portuguese_pt-rBR"
 ## -- (pt-rBR) process app --
-SOURCE_TSV_INCLUDE="Portuguese_Brazil/tsv/Portuguese_pt-rBR.tsv"
+SOURCE_TSV_INCLUDE="Portuguese_Brazil/tsv/Portuguese_pt-rBR.app.tsv"
 DO_NORMALIZE_BATCH
 
-## -- (pt-rBR) process appstore --
+## -- (pt-rBR) process store --
 SOURCE_TSV_INCLUDE="Portuguese_Brazil/tsv/Portuguese_pt-rBR.store.tsv"
 DO_NORMALIZE_BATCH
 
@@ -169,10 +169,10 @@ DO_NORMALIZE_BATCH
 ##################################
 LOGGER_FILENAME="_log_FromTsvMain_Portuguese_pt-rPT"
 ## -- (pt-rPT) process app --
-SOURCE_TSV_INCLUDE="Portuguese_Portugal/tsv/Portuguese_pt-rPT.tsv"
+SOURCE_TSV_INCLUDE="Portuguese_Portugal/tsv/Portuguese_pt-rPT.app.tsv"
 DO_NORMALIZE_BATCH
 
-## -- (pt-rPT) process appstore --
+## -- (pt-rPT) process store --
 SOURCE_TSV_INCLUDE="Portuguese_Portugal/tsv/Portuguese_pt-rPT.store.tsv"
 DO_NORMALIZE_BATCH
 
@@ -181,10 +181,10 @@ DO_NORMALIZE_BATCH
 ##################
 LOGGER_FILENAME="_log_FromTsvMain_Russian_ru"
 ## -- (ru) process app --
-SOURCE_TSV_INCLUDE="Russian/tsv/Russian_ru.tsv"
+SOURCE_TSV_INCLUDE="Russian/tsv/Russian_ru.app.tsv"
 DO_NORMALIZE_BATCH
 
-## -- (ru) process appstore --
+## -- (ru) process store --
 SOURCE_TSV_INCLUDE="Russian/tsv/Russian_ru.store.tsv"
 DO_NORMALIZE_BATCH
 
@@ -197,10 +197,10 @@ DO_NORMALIZE_BATCH
 ####################
 LOGGER_FILENAME="_log_FromTsvMain_Bulgarian_bg"
 ## -- (bg) process app --
-SOURCE_TSV_INCLUDE="Bulgarian/tsv/Bulgarian_bg.tsv"
+SOURCE_TSV_INCLUDE="Bulgarian/tsv/Bulgarian_bg.app.tsv"
 DO_NORMALIZE_BATCH
 
-## -- (bg) process appstore --
+## -- (bg) process store --
 SOURCE_TSV_INCLUDE="Bulgarian/tsv/Bulgarian_bg.store.tsv"
 DO_NORMALIZE_BATCH
 
@@ -209,10 +209,10 @@ DO_NORMALIZE_BATCH
 ################
 LOGGER_FILENAME="_log_FromTsvMain_Greek_el"
 ## -- (el) process app --
-SOURCE_TSV_INCLUDE="Greek/tsv/Greek_el.tsv"
+SOURCE_TSV_INCLUDE="Greek/tsv/Greek_el.app.tsv"
 DO_NORMALIZE_BATCH
 
-## -- (el) process appstore --
+## -- (el) process store --
 SOURCE_TSV_INCLUDE="Greek/tsv/Greek_el.store.tsv"
 DO_NORMALIZE_BATCH
 
@@ -221,10 +221,10 @@ DO_NORMALIZE_BATCH
 #################
 LOGGER_FILENAME="_log_FromTsvMain_French_fr"
 ## -- (fr) process app --
-SOURCE_TSV_INCLUDE="French/tsv/French_fr.tsv"
+SOURCE_TSV_INCLUDE="French/tsv/French_fr.app.tsv"
 DO_NORMALIZE_BATCH
 
-## -- (fr) process appstore --
+## -- (fr) process store --
 SOURCE_TSV_INCLUDE="French/tsv/French_fr.store.tsv"
 DO_NORMALIZE_BATCH
 
@@ -233,10 +233,10 @@ DO_NORMALIZE_BATCH
 ##################
 LOGGER_FILENAME="_log_FromTsvMain_Italian_it"
 ## -- (it) process app --
-SOURCE_TSV_INCLUDE="Italian/tsv/Italian_it.tsv"
+SOURCE_TSV_INCLUDE="Italian/tsv/Italian_it.app.tsv"
 DO_NORMALIZE_BATCH
 
-## -- (it) process appstore --
+## -- (it) process store --
 SOURCE_TSV_INCLUDE="Italian/tsv/Italian_it.store.tsv"
 DO_NORMALIZE_BATCH
 
@@ -245,10 +245,10 @@ DO_NORMALIZE_BATCH
 ##################
 LOGGER_FILENAME="_log_FromTsvMain_Romanian_ro"
 ## -- (ro) process app --
-SOURCE_TSV_INCLUDE="Romanian/tsv/Romanian_ro.tsv"
+SOURCE_TSV_INCLUDE="Romanian/tsv/Romanian_ro.app.tsv"
 DO_NORMALIZE_BATCH
 
-## -- (ro) process appstore --
+## -- (ro) process store --
 SOURCE_TSV_INCLUDE="Romanian/tsv/Romanian_ro.store.tsv"
 DO_NORMALIZE_BATCH
 
@@ -262,10 +262,10 @@ DO_NORMALIZE_BATCH
 LOGGER_FILENAME="_log_FromTsvMain_Chinese_zh-HK"
 ## Hong Kong generally uses Traditional logogram characters
 ## -- (zh-HK) process app --
-SOURCE_TSV_INCLUDE="Chinese_HongKong/tsv/Chinese_HongKong_zh-HK.tsv"
+SOURCE_TSV_INCLUDE="Chinese_HongKong/tsv/Chinese_HongKong_zh-HK.app.tsv"
 DO_NORMALIZE_BATCH
 
-## -- (zh-HK) process appstore --
+## -- (zh-HK) process store --
 SOURCE_TSV_INCLUDE="Chinese_HongKong/tsv/Chinese_HongKong_zh-HK.store.tsv"
 DO_NORMALIZE_BATCH
 
@@ -274,10 +274,10 @@ DO_NORMALIZE_BATCH
 ########################
 LOGGER_FILENAME="_log_FromTsvMain_Chinese_zh-Hans"
 ## -- (zh-Hans) process app --
-SOURCE_TSV_INCLUDE="Chinese_Simplified/tsv/Chinese_Simplified_zh-Hans.tsv"
+SOURCE_TSV_INCLUDE="Chinese_Simplified/tsv/Chinese_Simplified_zh-Hans.app.tsv"
 DO_NORMALIZE_BATCH
 
-## -- (zh-Hans) process appstore --
+## -- (zh-Hans) process store --
 SOURCE_TSV_INCLUDE="Chinese_Simplified/tsv/Chinese_Simplified_zh-Hans.store.tsv"
 DO_NORMALIZE_BATCH
 
@@ -286,9 +286,9 @@ DO_NORMALIZE_BATCH
 #########################
 LOGGER_FILENAME="_log_FromTsvMain_Chinese_zh-Hant"
 ## -- (zh-Hant) process app --
-SOURCE_TSV_INCLUDE="Chinese_Traditional/tsv/Chinese_Traditional_zh-Hant.tsv"
+SOURCE_TSV_INCLUDE="Chinese_Traditional/tsv/Chinese_Traditional_zh-Hant.app.tsv"
 DO_NORMALIZE_BATCH
 
-## -- (zh-Hant) process appstore --
+## -- (zh-Hant) process store --
 SOURCE_TSV_INCLUDE="Chinese_Traditional/tsv/Chinese_Traditional_zh-Hant.store.tsv"
 DO_NORMALIZE_BATCH

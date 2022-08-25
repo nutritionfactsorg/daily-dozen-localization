@@ -64,14 +64,16 @@ DO_NORMALIZE_BATCH
 #############
 LOGGER_FILENAME="_log_FromTsvIntakeB+C_Russian_ru"
 ## -- (ru) process app --
-SOURCE_TSV_INCLUDE="Russian/tsv/Russian_ru.intake.20220513.tsv"
+SOURCE_TSV_INCLUDE="Russian/tsv/Russian_ru.app.20220513.intake.tsv"
 DO_NORMALIZE_BATCH
 
-## -- (ru) process appstore --
-SOURCE_TSV_INCLUDE="Russian/tsv/Russian_ru.store.intake.20220513.tsv"
+## -- (ru) process store --
+SOURCE_TSV_INCLUDE="Russian/tsv/Russian_ru.store.20220513.intake.tsv"
 DO_NORMALIZE_BATCH
 
+######################################################
 ### ----- STOP HERE (PROCESSING: 2022.05.13) ----- ###
+######################################################
 QUIT
 
 #############
@@ -79,13 +81,11 @@ QUIT
 #############
 LOGGER_FILENAME="_log_FromTsvIntakeB+C_Catalan_ca"
 ## -- (ca) process app --
-#SOURCE_TSV_INCLUDE="Catalan/tsv/Catalan_ca.intake.20220124.tsv"
-SOURCE_TSV_INCLUDE="Catalan/tsv/Catalan_ca.intake.20220214.tsv"
+SOURCE_TSV_INCLUDE="Catalan/tsv/Catalan_ca.app.20220214.intake.tsv"
 DO_NORMALIZE_BATCH
 
-## -- (ca) process appstore --
-#SOURCE_TSV_INCLUDE="Catalan/tsv/Catalan_ca.intake.store.20220124.tsv"
-#SOURCE_TSV_INCLUDE="Catalan/tsv/Catalan_ca.intake.store.20220214.tsv"
+## -- (ca) process store --
+#SOURCE_TSV_INCLUDE="Catalan/tsv/Catalan_ca.store.20220124.intake.tsv"
 #DO_NORMALIZE_BATCH
 
 ############
@@ -93,7 +93,11 @@ DO_NORMALIZE_BATCH
 ############
 LOGGER_FILENAME="_log_FromTsvIntakeB+C_Polish_pl"
 ## -- (pl) process app --
-SOURCE_TSV_INCLUDE="Polish/tsv/Polish_pl.intake.20220318.tsv"
+SOURCE_TSV_INCLUDE="Polish/tsv/Polish_pl.app.20220318.intake.tsv"
+DO_NORMALIZE_BATCH
+
+## -- (pl) process store --
+SOURCE_TSV_INCLUDE="Polish/tsv/Polish_pl.store.20220318.intake.tsv"
 DO_NORMALIZE_BATCH
 
 #########################
@@ -101,14 +105,11 @@ DO_NORMALIZE_BATCH
 #########################
 LOGGER_FILENAME="_log_FromTsvIntakeB+C_Portuguese_pt-rPT"
 ## -- (pt-rPT) process app --
-#SOURCE_TSV_INCLUDE="Portuguese_Portugal/tsv/Portuguese_pt-rPT.intake.20210929.tsv"
-SOURCE_TSV_INCLUDE="Portuguese_Portugal/tsv/Portuguese_pt-rPT.intake.20220203.tsv"
-SOURCE_TSV_INCLUDE="Portuguese_Portugal/tsv/Portuguese_pt-rPT.intake.additions.20220203.tsv"
+SOURCE_TSV_INCLUDE="Portuguese_Portugal/tsv/Portuguese_pt-rPT.app.20220203.intake.tsv"
 DO_NORMALIZE_BATCH
 
-## -- (pt-rPT) process appstore --
-#SOURCE_TSV_INCLUDE="Portuguese_Portugal/tsv/Portuguese_pt-rPT.intake.store.20211026.tsv"
-SOURCE_TSV_INCLUDE="Portuguese_Portugal/tsv/Portuguese_pt-rPT.intake.store.20220203.tsv"
+## -- (pt-rPT) process store --
+SOURCE_TSV_INCLUDE="Portuguese_Portugal/tsv/Portuguese_pt-rPT.store.20220203.intake.tsv"
 DO_NORMALIZE_BATCH
 
 #############
@@ -116,14 +117,12 @@ DO_NORMALIZE_BATCH
 #############
 LOGGER_FILENAME="_log_FromTsvIntakeB+C_Russian_ru"
 ## -- (ru) process app --
-#SOURCE_TSV_INCLUDE="Russian/tsv/Russian_ru.intake.20211019.tsv"
-#SOURCE_TSV_INCLUDE="Russian/tsv/Russian_ru.intake.additions.20211028.tsv"
-SOURCE_TSV_INCLUDE="Russian/tsv/Russian_ru.intake.20220210.tsv"
+SOURCE_TSV_INCLUDE="Russian/tsv/Russian_ru.app.20220210.intake.tsv"
 DO_NORMALIZE_BATCH
 
-## -- (ru) process appstore --
-#SOURCE_TSV_INCLUDE="Russian/tsv/Russian_ru.intake.store.20211028.tsv"
-SOURCE_TSV_INCLUDE="Russian/tsv/Russian_ru.intake.store.20220209.tsv"
+## -- (ru) process store --
+#SOURCE_TSV_INCLUDE="Russian/tsv/Russian_ru.store.20211028.intake.tsv"
+SOURCE_TSV_INCLUDE="Russian/tsv/Russian_ru.store.20220209.intake.tsv"
 DO_NORMALIZE_BATCH
 
 ### ----- STOP HERE (PROCESSING: 2022.02.24) ----- ###
@@ -134,11 +133,11 @@ QUIT
 #######################
 LOGGER_FILENAME="_log_FromTsvIntakeB+C_Portuguese_pt-rBR"
 ## -- (pt-rBR) process app --
-SOURCE_TSV_INCLUDE="Portuguese_Brazil/tsv/Portuguese_pt-rBR.intake.20220131.tsv"
+SOURCE_TSV_INCLUDE="Portuguese_Brazil/tsv/Portuguese_pt-rBR.app.20220131.intake.tsv"
 DO_NORMALIZE_BATCH
 
-## -- (pt-rBR) process appstore --
-SOURCE_TSV_INCLUDE="Portuguese_Brazil/tsv/Portuguese_pt-rBR.intake.store.20220131.tsv"
+## -- (pt-rBR) process store --
+SOURCE_TSV_INCLUDE="Portuguese_Brazil/tsv/Portuguese_pt-rBR.store.20220131.intake.tsv"
 DO_NORMALIZE_BATCH
 
 ### ----- STOP HERE ----- ###
@@ -149,11 +148,11 @@ QUIT
 ############
 LOGGER_FILENAME="_log_FromTsvIntakeB+C_German_de"
 ## -- (de) process app --
-SOURCE_TSV_INCLUDE="German/tsv/German_de.intake.20220321.tsv"
+SOURCE_TSV_INCLUDE="German/tsv/German_de.app.20220321.intake.tsv"
 DO_NORMALIZE_BATCH
 
-## -- (de) process appstore --
-SOURCE_TSV_INCLUDE="German/tsv/German_de.intake.store.20211129.tsv"
+## -- (de) process store --
+SOURCE_TSV_INCLUDE="German/tsv/German_de.store.20211129.intake.tsv"
 DO_NORMALIZE_BATCH
 
 ############
@@ -161,11 +160,10 @@ DO_NORMALIZE_BATCH
 ############
 LOGGER_FILENAME="_log_FromTsvIntakeB+C_Hebrew_he"
 ## -- (he) process app --
-SOURCE_TSV_INCLUDE="Hebrew/tsv/Hebrew_he.intake.20211004.tsv"
-SOURCE_TSV_INCLUDE="Hebrew/tsv/Hebrew_he.intake.additions.20211103.tsv"
+SOURCE_TSV_INCLUDE="Hebrew/tsv/Hebrew_he.app.20211004.intake.tsv"
 DO_NORMALIZE_BATCH
 
-## -- (he) process appstore --
+## -- (he) process store --
 SOURCE_TSV_INCLUDE="Hebrew/tsv/Hebrew_he.intake.store.20211027.tsv"
 DO_NORMALIZE_BATCH
 
@@ -180,11 +178,11 @@ URL_FRAGMENTS_TSV="Spanish/tsv/Spanish_es.url_fragments.tsv"
 URL_TOPICS_TSV="Spanish/tsv/Spanish_es.url_topics.tsv"
 
 LOGGER_FILENAME="_log_FromTsvIntakeB+C_Spanish_es_Android"
-SOURCE_TSV_INCLUDE="Spanish/tsv/Spanish_es.20210309.Android.tsv"
+SOURCE_TSV_INCLUDE="Spanish/tsv/Spanish_es.app.20210309.Android.tsv"
 DO_NORMALIZE_BATCH
 
 LOGGER_FILENAME="_log_FromTsvIntakeB+C_Spanish_es_Apple"
-SOURCE_TSV_INCLUDE="Spanish/tsv/Spanish_es.20210309.Apple.tsv"
+SOURCE_TSV_INCLUDE="Spanish/tsv/Spanish_es.app.20210309.Apple.tsv"
 DO_NORMALIZE_BATCH
 
 ## Note: setting URL_TOPICS_TSV to English_US as used by languages other than Spanish.
@@ -192,21 +190,21 @@ URL_FRAGMENTS_TSV="English_US/tsv/English_US_en.url_fragments.tsv"
 URL_TOPICS_TSV="English_US/tsv/English_US_en.url_topics.tsv"
 
 Chinese_Simplified_zh-Hans.store.changeset01.20220823.intake.tsv
-Chinese_Simplified_zh-Hans.changeset01.20220823.intake.tsv
+Chinese_Simplified_zh-Hans.app.changeset01.20220823.intake.tsv
 Chinese_Traditional_zh-Hant.store.changeset01.20220823.intake.tsv
-Chinese_Traditional_zh-Hant.changeset01.20220823.intake.tsv
+Chinese_Traditional_zh-Hant.app.changeset01.20220823.intake.tsv
 
-Hebrew_he.20220726.intake.tsv
+Hebrew_he.app.20220726.intake.tsv
 Hebrew_he.store.20220720.intake.tsv
 Hebrew_he.store.changeset01.20220819.intake.tsv
-Hebrew_he.changeset01.20220819.intake.tsv
+Hebrew_he.app.changeset01.20220819.intake.tsv
 
-Italian_it.20220802.intake.tsv
-Polish_pl.store.changeset01.20220729.intake.tsv
-Polish_pl.changeset01.20220729.intake.tsv
+Italian_it.app.20220802.intake.tsv
+Polish_pl.store.app.changeset01.20220729.intake.tsv
+Polish_pl.app.app.changeset01.20220729.intake.tsv
 Portuguese_pt-rBR.store.changeset01.20220722.intake.tsv
-Portuguese_pt-rBR.changeset01.20220722.intake.tsv
+Portuguese_pt-rBR.app.changeset01.20220722.intake.tsv
 Portuguese_pt-rPT.store.changeset01.20220721.intake.tsv
-Portuguese_pt-rPT.changeset01.20220721.intake.tsv
+Portuguese_pt-rPT.app.changeset01.20220721.intake.tsv
 Russian_ru.store.changeset01.20220805.intake.tsv
-Russian_ru.changeset01.20220805.intake.tsv
+Russian_ru.app.changeset01.20220805.intake.tsv

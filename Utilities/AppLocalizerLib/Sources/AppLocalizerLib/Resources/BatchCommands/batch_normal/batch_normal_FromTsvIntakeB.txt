@@ -51,10 +51,10 @@ DO_NORMALIZE_BATCH
 ############
 LOGGER_FILENAME="_log_FromTsvIntakeB_Hebrew_he"
 ## -- (he) process app --
-SOURCE_TSV_INCLUDE="Hebrew/tsv/Hebrew_he.20220726.intake.tsv"
+SOURCE_TSV_INCLUDE="Hebrew/tsv/Hebrew_he.app.20220726.intake.tsv"
 DO_NORMALIZE_BATCH
 
-## -- (he) process appstore --
+## -- (he) process store --
 SOURCE_TSV_INCLUDE="Hebrew/tsv/Hebrew_he.store.20220720.intake.tsv"
 DO_NORMALIZE_BATCH
 
@@ -63,10 +63,10 @@ DO_NORMALIZE_BATCH
 #############
 LOGGER_FILENAME="_log_FromTsvIntakeB_Italian_it"
 ## -- (it) process app --
-SOURCE_TSV_INCLUDE="Italian/tsv/Italian_it.20220802.intake.tsv"
+SOURCE_TSV_INCLUDE="Italian/tsv/Italian_it.app.20220802.intake.tsv"
 DO_NORMALIZE_BATCH
 
-## -- (it) process appstore --
+## -- (it) process store --
 #SOURCE_TSV_INCLUDE="Italian/tsv/Italian_it.store.?.intake.tsv"
 #DO_NORMALIZE_BATCH
 
@@ -79,10 +79,10 @@ URL_FRAGMENTS_TSV="Spanish/tsv/Spanish_es.url_fragments.tsv"
 URL_TOPICS_TSV="Spanish/tsv/Spanish_es.url_topics.tsv"
 
 ## -- (es) process app --
-SOURCE_TSV_INCLUDE="Spanish/tsv/Spanish_es.20220720.intake.tsv"
+SOURCE_TSV_INCLUDE="Spanish/tsv/Spanish_es.app.20220720.intake.tsv"
 DO_NORMALIZE_BATCH
 
-## -- (es) process appstore --
+## -- (es) process store --
 SOURCE_TSV_INCLUDE="Spanish/tsv/Spanish_es.store.20220720.intake.tsv"
 DO_NORMALIZE_BATCH
 
@@ -96,10 +96,10 @@ QUIT
 #############
 LOGGER_FILENAME="_log_FromTsvIntakeB_Catalan_ca"
 ## -- (ca) process app --
-SOURCE_TSV_INCLUDE="Catalan/tsv/Catalan_ca.20220214.intake.tsv"
+SOURCE_TSV_INCLUDE="Catalan/tsv/Catalan_ca.app.20220214.intake.tsv"
 DO_NORMALIZE_BATCH
 
-## -- (ca) process appstore --
+## -- (ca) process store --
 SOURCE_TSV_INCLUDE="Catalan/tsv/Catalan_ca.store.20220214.intake.tsv"
 DO_NORMALIZE_BATCH
 
@@ -108,10 +108,10 @@ DO_NORMALIZE_BATCH
 ############
 LOGGER_FILENAME="_log_FromTsvIntakeB_German_de"
 ## -- (de) process app --
-SOURCE_TSV_INCLUDE="German/tsv/German_de.20220321.intake.tsv"
+SOURCE_TSV_INCLUDE="German/tsv/German_de.app.20220321.intake.tsv"
 DO_NORMALIZE_BATCH
 
-## -- (de) process appstore --
+## -- (de) process store --
 SOURCE_TSV_INCLUDE="German/tsv/German_de.store.20211129.intake.tsv"
 DO_NORMALIZE_BATCH
 
@@ -120,7 +120,11 @@ DO_NORMALIZE_BATCH
 ############
 LOGGER_FILENAME="_log_FromTsvIntakeB_Polish_pl"
 ## -- (pl) process app --
-SOURCE_TSV_INCLUDE="Polish/tsv/Polish_pl.20220318.intake.tsv"
+SOURCE_TSV_INCLUDE="Polish/tsv/Polish_pl.app.20220318.intake.tsv"
+DO_NORMALIZE_BATCH
+
+## -- (pl) process store --
+SOURCE_TSV_INCLUDE="Polish/tsv/Polish_pl.store.20220318.intake.tsv"
 DO_NORMALIZE_BATCH
 
 #######################
@@ -128,10 +132,10 @@ DO_NORMALIZE_BATCH
 #######################
 LOGGER_FILENAME="_log_FromTsvIntakeB_Portuguese_pt-rBR"
 ## -- (pt-rBR) process app --
-SOURCE_TSV_INCLUDE="Portuguese_Brazil/tsv/Portuguese_pt-rBR.20220131.intake.tsv"
+SOURCE_TSV_INCLUDE="Portuguese_Brazil/tsv/Portuguese_pt-rBR.app.20220131.intake.tsv"
 DO_NORMALIZE_BATCH
 
-## -- (pt-rBR) process appstore --
+## -- (pt-rBR) process store --
 SOURCE_TSV_INCLUDE="Portuguese_Brazil/tsv/Portuguese_pt-rBR.store.20220131.intake.tsv"
 DO_NORMALIZE_BATCH
 
@@ -140,10 +144,10 @@ DO_NORMALIZE_BATCH
 #########################
 LOGGER_FILENAME="_log_FromTsvIntakeB_Portuguese_pt-rPT"
 ## -- (pt-rPT) process app --
-SOURCE_TSV_INCLUDE="Portuguese_Portugal/tsv/Portuguese_pt-rPT.20220203.intake.tsv"
+SOURCE_TSV_INCLUDE="Portuguese_Portugal/tsv/Portuguese_pt-rPT.app.20220203.intake.tsv"
 DO_NORMALIZE_BATCH
 
-## -- (pt-rPT) process appstore --
+## -- (pt-rPT) process store --
 SOURCE_TSV_INCLUDE="Portuguese_Portugal/tsv/Portuguese_pt-rPT.store.20220203.intake.tsv"
 DO_NORMALIZE_BATCH
 
@@ -152,18 +156,18 @@ DO_NORMALIZE_BATCH
 #############
 LOGGER_FILENAME="_log_FromTsvIntakeB_Russian_ru"
 ## -- (ru) process app --
-SOURCE_TSV_INCLUDE="Russian/tsv/Russian_ru.20220513.intake.tsv"
+SOURCE_TSV_INCLUDE="Russian/tsv/Russian_ru.app.20220513.intake.tsv"
 DO_NORMALIZE_BATCH
 
-## -- (ru) process appstore --
+## -- (ru) process store --
 SOURCE_TSV_INCLUDE="Russian/tsv/Russian_ru.store.20220513.intake.tsv"
 DO_NORMALIZE_BATCH
 
 ------------ edit line ------------
 
-Hebrew_he.20220726.intake.tsv
+Hebrew_he.app.20220726.intake.tsv
 Hebrew_he.store.20220720.intake.tsv
 
-Italian_it.20220802.intake.tsv
+Italian_it.app.20220802.intake.tsv
 
 Spanish
