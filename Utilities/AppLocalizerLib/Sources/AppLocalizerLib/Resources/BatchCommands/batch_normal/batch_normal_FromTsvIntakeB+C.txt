@@ -140,7 +140,9 @@ DO_NORMALIZE_BATCH
 SOURCE_TSV_INCLUDE="Portuguese_Brazil/tsv/Portuguese_pt-rBR.store.20220131.intake.tsv"
 DO_NORMALIZE_BATCH
 
-### ----- STOP HERE ----- ###
+########################################
+### ----- STOP HERE 2022.08.25 ----- ###
+########################################
 QUIT
 
 ############

@@ -436,9 +436,9 @@ weigh_twice	tweakWeightTwice.heading	Weigh Yourself Twice a Day	Pesarse dos vece
 weigh_twice_short	tweakWeightTwice.short	Weigh Yourself Twice a Day	Pesarse dos veces al día		
 weigh_twice_text	tweakWeightTwice.text	Regular self-weighing is considered crucial for long-term weight control, but there is insufficient evidence to support a specific frequency of weighing. My recommendation is based on the one study that found that twice daily—upon waking and right before bed—appeared superior to once a day (about six versus two pounds of weight loss over twelve weeks).	Se suele pensar que pesarse de manera habitual es un método crucial para el control del peso a largo plazo, pero no existen suficientes pruebas para respaldar esta frecuencia. Mi recomendación se basa en un estudio que encontró que dos veces al día, al despertarte y justo antes de acostarte, parece ser mejor que una vez al día (con una diferencia de entre 1 y 3 kg en doce semanas).		
 units	units_label	Units	Sistema		
-imperial	unitToggle.imperial	IMPERIAL	IMPERIAL	Units toggle button text: imperial measurement system	
-metric	unitToggle.metric	METRIC	MÉTRICO	Units toggle button text: metric measurement system	
-videos	videos.link.label	VIDEOS	VIDEOS	Label for hyperlink to nutritionfacts.org video topics	
+imperial	unitToggle.imperial	Imperial	IMPERIAL	Units toggle button text: imperial measurement system	
+metric	unitToggle.metric	Metric	MÉTRICO	Units toggle button text: metric measurement system	
+videos	videos.link.label	Videos	VIDEOS	Label for hyperlink to nutritionfacts.org video topics	
 	weight_entry_clear	Clear	Borrar	Weight Daily Entry: clear button which deletes values	
 	weight_entry_evening	Evening (right before bed)	Tarde (justo antes de acostarse)	Weight Daily Entry: label	
 	weight_entry_morning	Morning (upon waking)	Mañana (al despertar)	Weight Daily Entry: label	

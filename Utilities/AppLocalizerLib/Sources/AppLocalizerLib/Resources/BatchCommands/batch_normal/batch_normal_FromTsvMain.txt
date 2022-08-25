@@ -61,9 +61,6 @@ DO_NORMALIZE_BATCH
 SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.url_topics.tsv"
 DO_NORMALIZE_BATCH
 
-##### ----- NOT YET -----
-#QUIT
-
 ########################################
 ### COMMON TO BOTH ANDROID AND APPLE ###
 ########################################
@@ -91,37 +88,6 @@ DO_NORMALIZE_BATCH
 ## -- (de) process store --
 SOURCE_TSV_INCLUDE="German/tsv/German_de.store.tsv"
 DO_NORMALIZE_BATCH
-
-##################
-## (es) Spanish ##
-##################
-### SETUP: Spanish_es URLs
-### Note: Spanish has its own topic urls
-URL_FRAGMENTS_TSV="Spanish/tsv/Spanish_es.url_fragments.tsv"
-URL_TOPICS_TSV="Spanish/tsv/Spanish_es.url_topics.tsv"
-###
-LOGGER_FILENAME="_log_FromTsvMain_Spanish_es"
-
-## -- (es) process app --
-SOURCE_TSV_INCLUDE="Spanish/tsv/Spanish_es.app.tsv"
-DO_NORMALIZE_BATCH
-
-## -- (es) process store --
-SOURCE_TSV_INCLUDE="Spanish/tsv/Spanish_es.store.tsv"
-DO_NORMALIZE_BATCH
-
-SOURCE_TSV_INCLUDE="Spanish/tsv/Spanish_es.url_fragments.tsv"
-DO_NORMALIZE_BATCH
-
-SOURCE_TSV_INCLUDE="Spanish/tsv/Spanish_es.url_topics.tsv"
-DO_NORMALIZE_BATCH
-
-### RESTORE: English_US URLs
-### Note: re-setting URL_TOPICS_TSV to English_US 
-###       as used by languages other than Spanish.
-URL_FRAGMENTS_TSV="English_US/tsv/English_US_en.url_fragments.tsv"
-URL_TOPICS_TSV="English_US/tsv/English_US_en.url_topics.tsv"
-###
 
 #################
 ## (he) Hebrew ##
@@ -237,8 +203,8 @@ SOURCE_TSV_INCLUDE="Italian/tsv/Italian_it.app.tsv"
 DO_NORMALIZE_BATCH
 
 ## -- (it) process store --
-#SOURCE_TSV_INCLUDE="Italian/tsv/Italian_it.store.tsv"
-#DO_NORMALIZE_BATCH
+SOURCE_TSV_INCLUDE="Italian/tsv/Italian_it.store.tsv"
+DO_NORMALIZE_BATCH
 
 ##################
 ## (ro) Romanian ##
@@ -292,3 +258,43 @@ DO_NORMALIZE_BATCH
 ## -- (zh-Hant) process store --
 SOURCE_TSV_INCLUDE="Chinese_Traditional/tsv/Chinese_Traditional_zh-Hant.store.tsv"
 DO_NORMALIZE_BATCH
+
+################################################
+##### ---------- LOCALIZED URLS ---------- #####
+################################################
+
+##################
+## (es) Spanish ##
+##################
+### SETUP: Spanish_es URLs
+### Note: Spanish has its own topic urls
+URL_FRAGMENTS_TSV="Spanish/tsv/Spanish_es.url_fragments.tsv"
+URL_TOPICS_TSV="Spanish/tsv/Spanish_es.url_topics.tsv"
+###
+LOGGER_FILENAME="_log_FromTsvMain_Spanish_es"
+
+## -- (es) process app --
+SOURCE_TSV_INCLUDE="Spanish/tsv/Spanish_es.app.tsv"
+DO_NORMALIZE_BATCH
+
+## -- (es) process store --
+SOURCE_TSV_INCLUDE="Spanish/tsv/Spanish_es.store.tsv"
+DO_NORMALIZE_BATCH
+
+SOURCE_TSV_INCLUDE="Spanish/tsv/Spanish_es.url_fragments.tsv"
+DO_NORMALIZE_BATCH
+
+SOURCE_TSV_INCLUDE="Spanish/tsv/Spanish_es.url_topics.tsv"
+DO_NORMALIZE_BATCH
+
+### RESTORE: English_US URLs
+### Note: re-setting URL_TOPICS_TSV to English_US 
+###       as used by languages other than Spanish.
+URL_FRAGMENTS_TSV="English_US/tsv/English_US_en.url_fragments.tsv"
+URL_TOPICS_TSV="English_US/tsv/English_US_en.url_topics.tsv"
+###
+
+###############################
+##### ----- THE END ----- #####
+###############################
+QUIT
