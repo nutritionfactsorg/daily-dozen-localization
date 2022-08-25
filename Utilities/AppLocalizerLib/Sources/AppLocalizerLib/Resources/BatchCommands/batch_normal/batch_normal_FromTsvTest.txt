@@ -12,9 +12,9 @@ DIRNAME_OUTPUT_NORMAL="StringsViaTsvTest"
 BASE_JSON_DIR="_Test/ios/test_reference/LocalStrings/en.lproj"
 
 BASE_TSV_INCLUDE="English_US/tsv/English_US_en.app.tsv"
-#BASE_TSV_INCLUDE="English_US/tsv/English_US_en.app.changeset01.tsv"
+#BASE_TSV_INCLUDE="English_US/tsv/v01/English_US_en.app.changeset01.tsv"
 BASE_TSV_INCLUDE="English_US/tsv/English_US_en.store.tsv"
-#BASE_TSV_INCLUDE="English_US/tsv/English_US_en.store.changeset01.tsv"
+#BASE_TSV_INCLUDE="English_US/tsv/v01/English_US_en.store.changeset01.tsv"
 BASE_TSV_INCLUDE="English_US/tsv/English_US_en.url_fragments.tsv"
 BASE_TSV_INCLUDE="English_US/tsv/English_US_en.url_topics.tsv"
 

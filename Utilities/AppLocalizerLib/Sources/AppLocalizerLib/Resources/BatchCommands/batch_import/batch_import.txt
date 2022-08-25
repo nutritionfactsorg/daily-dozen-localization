@@ -10,7 +10,7 @@
 ##########################
 SOURCE_TSV_INCLUDE="German/tsv/German_de.app.tsv"
 ### Note: additional SOURCE_TSV_INCLUDE add-to or update previous SOURCE_TSV_INCLUDE 
-#SOURCE_TSV_INCLUDE="German/tsv/German_de.app.changeset01.tsv"
+#SOURCE_TSV_INCLUDE="German/tsv/v01/German_de.app.changeset01.tsv"
 OUTPUT_DROID="German/android/values-de/strings.xml"    
 OUTPUT_APPLE="German/ios/de.xcloc/Localized Contents/de.xliff"   
 DO_IMPORT_TSV
