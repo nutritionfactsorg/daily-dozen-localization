@@ -1,0 +1,13 @@
+key_droid	key_apple	base_value	lang_value	base_note	lang_note
+food_info_serving_sizes_cruciferous_vegetables_imperial.1	dozeVegetablesCruciferous.Serving.imperial.1	½ cup Brussels sprouts	חצי כוס כרוב ניצנים		
+food_info_serving_sizes_cruciferous_vegetables_imperial.2	dozeVegetablesCruciferous.Serving.imperial.2	¼ cup Broccoli sprouts	רבע כוס נבטי ברוקולי		
+food_info_serving_sizes_cruciferous_vegetables_imperial.3	dozeVegetablesCruciferous.Serving.imperial.3	1 tablespoon horseradish	כף חזרת		
+food_info_serving_sizes_cruciferous_vegetables_metric.1	dozeVegetablesCruciferous.Serving.metric.1	78 g Brussels sprouts	78 גרם כרוב ניצנים		
+food_info_serving_sizes_cruciferous_vegetables_metric.2	dozeVegetablesCruciferous.Serving.metric.2	14 g Broccoli sprouts	14 גרם נבטי ברוקולי		
+food_info_serving_sizes_cruciferous_vegetables_metric.3	dozeVegetablesCruciferous.Serving.metric.3	1 tablespoon horseradish	כף חזרת		
+android_about_text_translators	info_app_about_translators	Special thanks to our volunteer translators: Ricard Soler Roger (ca), Anke Schliessmann (de), Doron Barak (he), Ruth Levy (he), Joanna Klopotek (pl), Tania Bassi (pt-BR), João Madureira (pt-PT), Evgeniya Lyakh (ru).	תודה מיוחדת למתרגמים המתנדבים: Ricard Soler Roger (ca), Anke Schliessmann (de), Doron Barak (he), Ruth Levy (he), Joanna Klopotek (pl), Tania Bassi (pt-BR), João Madureira (pt-PT), Evgeniya Lyakh (ru). 	Info About View: Contributing Translators List	רשימת מתרגמים  בהתנדבות.
+	setting_analytics_body	Enable anonymous usage information to be collected to help improve this application.	אפשרו איסוף אנוניתי של מידע על שימוש כדי לשפר יישומון זה.	Google Firebase Analytics	Google Firebase Analytics
+	setting_analytics_enable	Enable Analytics	אפשרו Analytics	Google Firebase Analytics	Google Firebase Analytics
+	setting_analytics_opt_in	Opt In	אשרו	Google Firebase Analytics	Google Firebase Analytics
+	setting_analytics_opt_out	Opt Out	בטלו אישור	Google Firebase Analytics	Google Firebase Analytics
+	setting_analytics_title	Analytics	Analytics	Google Firebase Analytics	Google Firebase Analytics
