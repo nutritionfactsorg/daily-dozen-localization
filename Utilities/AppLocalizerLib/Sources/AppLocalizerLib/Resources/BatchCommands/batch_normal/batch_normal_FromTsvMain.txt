@@ -237,8 +237,8 @@ SOURCE_TSV_INCLUDE="Italian/tsv/Italian_it.app.tsv"
 DO_NORMALIZE_BATCH
 
 ## -- (it) process store --
-SOURCE_TSV_INCLUDE="Italian/tsv/Italian_it.store.tsv"
-DO_NORMALIZE_BATCH
+#SOURCE_TSV_INCLUDE="Italian/tsv/Italian_it.store.tsv"
+#DO_NORMALIZE_BATCH
 
 ##################
 ## (ro) Romanian ##

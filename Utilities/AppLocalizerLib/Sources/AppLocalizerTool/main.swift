@@ -64,18 +64,18 @@ var productsDir: URL {
 // -- Manually verify/sync normalized Englich results to existing App English files.
 // -- Rerun, and repeat verify/sync until English main repo is fully up to date.
 // -- Compare normalized English-Language tsv keywords. Updates as needed.
-//let BatchSubdir = "batch_normal"
-//let BatchCommands = "batch_normal_FromTsvMain.txt"
+let BatchSubdir = "batch_normal"
+let BatchCommands = "batch_normal_FromTsvMain.txt"
 //let BatchCommands = "batch_normal_FromTsvMain_es.txt" // update spanish
 
 // (2) TSV INTAKE to "NORMALIZED" .tsv, .json, .string, .xml  
 // -- INTAKE: include/exclude languages as needed
 // -- Compare/Update main repo with normalized intake tsv
 // -- Compare/Propagate intake/main result with app files (localization, android, ios)
-let BatchSubdir = "batch_normal"
-//let BatchCommands = "batch_normal_FromTsvIntakeB.txt"
-//let BatchCommands = "batch_normal_FromTsvIntakeB+C.txt"
-let BatchCommands = "batch_normal_FromTsvIntakeC.txt" // ChangeSet
+//let BatchSubdir = "batch_normal"
+//let BatchCommands = "batch_normal_FromTsvIntakeB.txt"   // *B*aseline
+//let BatchCommands = "batch_normal_FromTsvIntakeB+C.txt" // *B*aseline + *C*hangeSet
+//let BatchCommands = "batch_normal_FromTsvIntakeC.txt"   // *C*hangeSet
 //let BatchCommands = "batch_normal_FromTsvIntake_it.txt"
 
 // (*) TSV residual updates (files without submitted translations)

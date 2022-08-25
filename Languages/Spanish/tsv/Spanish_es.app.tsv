@@ -314,7 +314,7 @@ moving_average	historyRecord.movingAverage	Moving Average	Media móvil
 	historyRecordDoze.heading	Servings History	Historial de porciones	History View	
 	historyRecordDoze.legend	Servings	Porciones	History View	
 	historyRecordTweak.heading	Tweaks History	Historial de potenciadores	History View	
-tweaks	historyRecordTweak.legend	Tweaks	21 Potenciadores		
+tweaks	historyRecordTweak.legend	Tweaks	21 Potenciadores	History View	
 weight_history	historyRecordWeight.heading	Weight History	Historial de peso	History View	
 evening	historyRecordWeight.legendEvening	Evening	Noche	History View	
 morning	historyRecordWeight.legendMorning	Morning	Mañana	History View	
@@ -446,7 +446,7 @@ videos	videos.link.label	VIDEOS	VIDEOS	Label for hyperlink to nutritionfacts.org
 	weight_entry_units_kg	kg	kg	Weight Daily Entry Units: label	
 	weight_entry_units_lbs	lbs	libras	Weight Daily Entry Units: label	
 	weight_history_edit_data	Edit Data	Editar datos	Weight Daily Entry: edit button to change values	
-weight	weightEntry.heading	Weight	Peso		
+weight	weightEntry.heading	Weight	Peso	Weight Daily Entry: heading	
 about_text_lines.0		This app was created by John Slavick.	Esta app fue creada por John Slavick.		
 about_text_lines.1					
 about_text_lines.2		The following open source libraries are used: ActiveAndroid, android-iconify, EventBus, LikeAnimation, and MPAndroidChart.	Se utilizaron estas librerías de código abierto: ActiveAndroid, android-iconify, EventBus, LikeAnimation y MPAndroidChart.		
