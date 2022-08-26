@@ -1,5 +1,9 @@
 # [Daily Dozen Localization](https://github.com/nutritionfactsorg/daily-dozen-localization)
 
+If you are interested to be part of the _Daily Dozen App Translation Volunteer Team_, an online application is available at:
+
+* [https://nutritionfacts.org/volunteer/app-translation-volunteer/](https://nutritionfacts.org/volunteer/app-translation-volunteer/)
+
 ## Contents <a id="contents"></a>
 [Dashboard](#dashboard-) •
 [Localization Workflow](#localization-workflow-) •
@@ -9,8 +13,6 @@
 _The `nutritionfactsorg/daily-dozen-localization` repository supports the language translation work for the Daily Dozen applications on Android and Apple devices._
 
 _A Daily Dozen App Localization QuickStart Guide is located in the documentation folder at [Documentation/Quickstart.md](https://github.com/nutritionfactsorg/daily-dozen-localization/blob/master/Documentation/Quickstart.md). The guide is intended to provide a process that is approachable by contributors without software development expertise. For example, it is sufficient to download, edit and submit a single file without creating a local clone or online fork of the git repository._
-
-_Additionally, if you are interested to help create translated subtitles for NutritionFacts.org videos and help the NutritionFacts.org information reach more people all over the world, you can apply to be part of the Volunteer Translator Team at [https://nutritionfacts.org/volunteer](https://nutritionfacts.org/volunteer/)._
 
 ## Dashboard <a id="dashboard-"></a><sup>[▴](#contents)</sup>
 
