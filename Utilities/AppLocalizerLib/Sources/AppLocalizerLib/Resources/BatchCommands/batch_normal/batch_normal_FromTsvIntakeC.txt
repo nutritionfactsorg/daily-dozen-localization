@@ -1,8 +1,10 @@
 ### FILE: batch_normal_FromTsvIntakeC.txt
 ### WORKFLOW:  `*.strings` content based `*.tsv`
-### NOTE: STANDALONE CHANGESET `intake` processing
+### NOTE: standalone CHANGESET `intake` processing
 ###       use `normalized` output for later inclusion into overall normalization
-###
+### APPLY: 
+###    1. commit *.changeset01.yyyyMMdd.normalized.tsv
+###    2. compare to, update & commit LOCALIZE REPO CHANGESET *.tsv
 
 ###################
 ## General Setup ##
@@ -62,6 +64,18 @@ SOURCE_TSV_INCLUDE="Chinese_Traditional/tsv/v01/Chinese_Traditional_zh-Hant.stor
 DO_NORMALIZE_BATCH
 
 ############
+## German ##
+############
+LOGGER_FILENAME="_log_FromTsvIntakeC_German_de"
+## -- (de) process app --
+SOURCE_TSV_INCLUDE="German/tsv/v01/German_de.app.changeset01.20220906.intake.tsv"
+DO_NORMALIZE_BATCH
+
+## -- (de) process store --
+SOURCE_TSV_INCLUDE="German/tsv/v01/German_de.store.changeset01.20220906.intake.tsv"
+DO_NORMALIZE_BATCH
+
+############
 ## Hebrew ##
 ############
 LOGGER_FILENAME="_log_FromTsvIntakeC_Hebrew_he"
@@ -114,11 +128,11 @@ DO_NORMALIZE_BATCH
 #############
 LOGGER_FILENAME="_log_FromTsvIntakeC_Russian_ru"
 ## -- (ru) process app --
-SOURCE_TSV_INCLUDE="Russian/tsv/v01/Russian_ru.app.changeset01.20220805.intake.tsv"
+SOURCE_TSV_INCLUDE="Russian/tsv/v01/Russian_ru.app.changeset01.20220906.intake.tsv"
 DO_NORMALIZE_BATCH
 
 ## -- (ru) process store --
-SOURCE_TSV_INCLUDE="Russian/tsv/v01/Russian_ru.store.changeset01.20220805.intake.tsv"
+SOURCE_TSV_INCLUDE="Russian/tsv/v01/Russian_ru.store.changeset01.20220906.intake.tsv"
 DO_NORMALIZE_BATCH
 
 #############
@@ -138,7 +152,7 @@ SOURCE_TSV_INCLUDE="Spanish/tsv/v01/Spanish_es.store.changeset01.20220720.intake
 DO_NORMALIZE_BATCH
 
 ######################################################
-### ----- STOP HERE (PROCESSING: 2022.08.23) ----- ###
+### ----- STOP HERE (PROCESSING: 2022.09.06) ----- ###
 ######################################################
 QUIT
 
@@ -147,21 +161,9 @@ QUIT
 #############
 LOGGER_FILENAME="_log_FromTsvIntakeC_Catalan_ca"
 ## -- (ca) process app --
-#SOURCE_TSV_INCLUDE="Catalan/tsv/v01/Catalan_ca.app.changeset01.?.intake.tsv"
-#DO_NORMALIZE_BATCH
-
-## -- (ca) process store --
-#SOURCE_TSV_INCLUDE="Catalan/tsv/v01/Catalan_ca.store.changeset01.?.intake.tsv"
-#DO_NORMALIZE_BATCH
-
-############
-## German ##
-############
-LOGGER_FILENAME="_log_FromTsvIntakeC_German_de"
-## -- (de) process app --
-SOURCE_TSV_INCLUDE="German/tsv/v01/German_de.app.changeset01.?.intake.tsv"
+SOURCE_TSV_INCLUDE="Catalan/tsv/v01/Catalan_ca.app.changeset01.?.intake.tsv"
 DO_NORMALIZE_BATCH
 
-## -- (de) process store --
-SOURCE_TSV_INCLUDE="German/tsv/v01/German_de.store.changeset01.?.intake.tsv"
+## -- (ca) process store --
+SOURCE_TSV_INCLUDE="Catalan/tsv/v01/Catalan_ca.store.changeset01.?.intake.tsv"
 DO_NORMALIZE_BATCH

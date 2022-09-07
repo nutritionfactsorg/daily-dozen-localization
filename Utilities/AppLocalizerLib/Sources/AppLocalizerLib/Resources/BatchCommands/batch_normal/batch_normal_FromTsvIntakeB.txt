@@ -1,6 +1,10 @@
 ### FILE: batch_normal_FromTsvIntakeB.txt
 ### WORKFLOW:  `*.strings` content based `*.tsv`
-### NOTE: BASELINE `intake` processing (no changesets)
+### NOTE: standalone BASELINE `intake` processing (not changeset directory)
+### APPLY: 
+###    1. commit *.yyyyMMdd.normalized.tsv
+###    2. compare to, update & commit LOCALIZE REPO MAIN *.tsv
+###    3. (then process LOCALIZE MAIN to update APP MAIN BRANCH)
 ### SCOPE: all planned languages
 ###
 

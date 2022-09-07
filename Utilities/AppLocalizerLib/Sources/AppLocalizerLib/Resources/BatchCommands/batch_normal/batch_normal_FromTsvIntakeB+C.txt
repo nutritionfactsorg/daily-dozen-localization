@@ -1,5 +1,7 @@
 ### FILE: batch_normal_FromTsvIntakeB+C.txt
-### NOTE: BASELINE + CHANGESET `intake` processing
+### NOTE: "vNN BASELINE" + CHANGESET (post-`intake`) processing
+### APPLY: 
+###    1. run after intake process, update Firebase (full feature) branch
 ### SCOPE: all planned languages
 ###
 
