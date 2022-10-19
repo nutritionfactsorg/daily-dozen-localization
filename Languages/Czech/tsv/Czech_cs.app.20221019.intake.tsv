@@ -447,12 +447,12 @@ videos	videos.link.label	Videos	Videa	Label for hyperlink to nutritionfacts.org 
 	weight_entry_units_lbs	lbs	libry	Weight Daily Entry Units: label	
 	weight_history_edit_data	Edit Data	Upravit data	Weight Daily Entry: edit button to change values	
 weight	weightEntry.heading	Weight	Hmotnost	Weight Daily Entry: heading	
+about_tweak		About Tweak	O Jednadacítce Hubnutí		
 about_text_lines.0		This app was created by John Slavick.	Tuto aplikaci vytvořil John Slavick.		
 about_text_lines.1					
 about_text_lines.2		The following open source libraries are used: ActiveAndroid, android-iconify, EventBus, LikeAnimation, and MPAndroidChart.	Používají se následující open source knihovny: ActiveAndroid, android-iconify, EventBus, LikeAnimation a MPAndroidChart.		
 about_text_lines.3					
 about_text_lines.4		Special thanks to the volunteer efforts of the creators of the previous app: Chan Kruse, Allan Portera, and Sangeeta Kumar.	Zvláštní poděkování patří dobrovolnickému úsilí tvůrců předchozí aplikace: Chan Kruse, Allan Portera a Sangeeta Kumar.		
-about_tweak		About Tweak	O Jednadacítce Hubnutí		
 average_weight_on_day		Average weight on day	Průměrná váha za den		
 backup		Backup	Záloha		
 backup_failed		Backup failed	Zálohování se nezdařilo		

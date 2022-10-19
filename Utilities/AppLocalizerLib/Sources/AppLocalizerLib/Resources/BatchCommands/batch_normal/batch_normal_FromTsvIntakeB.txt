@@ -50,6 +50,18 @@ DO_NORMALIZE_BATCH
 SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.url_topics.tsv"
 DO_NORMALIZE_BATCH
 
+###########
+## Czech ##
+###########
+LOGGER_FILENAME="_log_FromTsvIntakeB_Czech_cs"
+## -- (cs) process app --
+SOURCE_TSV_INCLUDE="Czech/tsv/Czech_cs.app.20221019.intake.tsv"
+DO_NORMALIZE_BATCH
+
+## -- (cs) process store --
+SOURCE_TSV_INCLUDE="Czech/tsv/Czech_cs.store.20221019.intake.tsv"
+DO_NORMALIZE_BATCH
+
 ############
 ## Hebrew ##
 ############
@@ -73,6 +85,18 @@ DO_NORMALIZE_BATCH
 ## -- (it) process store --
 #SOURCE_TSV_INCLUDE="Italian/tsv/Italian_it.store.?.intake.tsv"
 #DO_NORMALIZE_BATCH
+
+##############
+## Romanian ##
+##############
+LOGGER_FILENAME="_log_FromTsvIntakeB_Romanian_ro"
+# ## -- (ro) process app --
+# SOURCE_TSV_INCLUDE="Romanian/tsv/Romanian_ro.app.???.intake.tsv"
+# DO_NORMALIZE_BATCH
+
+## -- (ro) process store --
+SOURCE_TSV_INCLUDE="Romanian/tsv/Romanian_ro.store.20220930.intake.tsv"
+DO_NORMALIZE_BATCH
 
 #############
 ## Spanish ##

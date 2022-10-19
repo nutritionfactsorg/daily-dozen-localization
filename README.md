@@ -41,7 +41,7 @@ _App Localizations & Store Distribution_
 | [Chinese_HongKong][locale-zh-HK]      |   | [zh-HK][droid-zh-HK]     |   | `zh-HK`   | [Hong Kong (HK)][apple-zh-HK]
 | [Chinese_Simplified][locale-zh-Hans]  |   | [zh-Hans][droid-zh-Hans] |   | `zh-Hans` | [China (CN)][apple-zh-Hans],<br>[Singapore (SG)][apple-zh-Hans-SG]
 | [Chinese_Traditional][locale-zh-Hant] | ✓ | [zh-Hant][droid-zh-Hant] |   | `zh-Hant` | [Macau (MO)][apple-zh-Hant-MO],<br>[Tiawan (TW)][apple-zh-Hant]
-| [Czech][locale-cs]       |   | [cs][droid-cs] |   | `cs` | [Czech Republic (CZ)][apple-cs]
+| [Czech][locale-cs]       | P | [cs][droid-cs] | P | `cs` | [Czech Republic (CZ)][apple-cs]
 | [Danish][locale-da]      |   | [da][droid-da] |   | `da` | [Denmark (DK)][apple-da]
 | [Dutch][locale-nl]       |   | [nl][droid-nl] |   | `nl` | [Netherlands (NL)][apple-nl]
 | [Estonian][locale-et]    |   | [et][droid-et] |   | `et` | [Estonia (EE)][apple-et]
@@ -65,7 +65,7 @@ _App Localizations & Store Distribution_
 | [Polish][locale-pl]       | ✓ | [pl][droid-pl] | ✓ | `pl` | [Poland (PL)][apple-pl]
 | [Portuguese_Brazil][locale-pt-BR]   | ✓ | [pt-BR][droid-pt-BR] | ✓ | `pt-BR` | [Brazil (BR)][apple-pt-BR]
 | [Portuguese_Portugal][locale-pt-PT] | ✓ | [pt-PT][droid-pt-PT] | ✓ | `pt-PT` | [Portugal (PT)][apple-pt-PT]
-| [Romanian][locale-ro]     | ✓ | [ro][droid-ro] |   | `ro` | [Romania (RO)][apple-ro]
+| [Romanian][locale-ro]     | ✓ | [ro][droid-ro] | P | `ro` | [Romania (RO)][apple-ro]
 | [Russian][locale-ru]      | ✓ | [ru][droid-ru] | ✓ | `ru` | [Russia (RU)][apple-ru]
 | [Serbian_Cyrillic][locale-sr]   |   | [sr][droid-sr] |   | `sr` |
 | [Serbian_Latin][locale-sr-Latn] |   | [sr-Latn][droid-sr-Latn] |   | `sr-Latn` |
