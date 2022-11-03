@@ -68,12 +68,12 @@ DO_NORMALIZE_BATCH
 ###########
 LOGGER_FILENAME="_log_FromTsvIntakeC_Czech_cs"
 # ## -- (cs) process app --
-#SOURCE_TSV_INCLUDE="Czech/tsv/v01/Czech_cs.app.changeset01.???.intake.tsv"
-#DO_NORMALIZE_BATCH
+SOURCE_TSV_INCLUDE="Czech/tsv/v01/Czech_cs.app.changeset01.20221024.intake.tsv"
+DO_NORMALIZE_BATCH
 
 # ## -- (cs) process store --
-#SOURCE_TSV_INCLUDE="Czech/tsv/v01/Czech_cs.store.changeset01.???.intaketsv"
-#DO_NORMALIZE_BATCH
+SOURCE_TSV_INCLUDE="Czech/tsv/v01/Czech_cs.store.changeset01.20221024.intake.tsv"
+DO_NORMALIZE_BATCH
 
 ############
 ## German ##
