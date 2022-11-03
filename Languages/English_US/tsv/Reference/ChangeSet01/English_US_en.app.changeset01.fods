@@ -379,7 +379,7 @@
       <text:p>info_app_about_translators</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
-      <text:p>Special thanks to our volunteer translators: Ricard Soler Roger (ca), Luděk Bouška (cz), Lenka Lukacová (cz), Anke Schliessmann (de), Doron Barak (he), Ruth Levy (he), Joanna Klopotek (pl), Tania Bassi (pt-BR), João Madureira (pt-PT), Evgeniya Lyakh (ru).</text:p>
+      <text:p>Special thanks to our volunteer translators: Ricard Soler Roger (ca), Luděk Bouška (cs), Lenka Lukacová (cs), Anke Schliessmann (de), Doron Barak (he), Ruth Levy (he), Joanna Klopotek (pl), Tania Bassi (pt-BR), João Madureira (pt-PT), Evgeniya Lyakh (ru).</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Info About View: Contributing Translators List</text:p>
