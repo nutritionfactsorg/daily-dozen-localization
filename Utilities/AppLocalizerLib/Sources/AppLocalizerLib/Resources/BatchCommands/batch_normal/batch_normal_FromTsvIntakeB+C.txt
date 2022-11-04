@@ -3,7 +3,7 @@
 ### APPLY: 
 ###    1. run after intake process baseline (B) and changesets (C)
 ###    2. use output to update branches. e.g. Firebase (full feature) branch
-### SCOPE: all planned languages
+### SCOPE: all translated languages
 ###
 
 ###################
@@ -202,12 +202,88 @@ SOURCE_TSV_INCLUDE="Spanish/tsv/v01/Spanish_es.store.tsv"
 SOURCE_TSV_INCLUDE="Spanish/tsv/v01/Spanish_es.store.changeset01.tsv"
 DO_NORMALIZE_BATCH
 
+# ======= ======= ======= ANDROID ONLY ======= ======= ======= 
+# ======= NOTE: lacking cruciferous (change set) updates 
+
 ## Note: setting URL_TOPICS_TSV to English_US as used by languages other than Spanish.
 URL_FRAGMENTS_TSV="English_US/tsv/English_US_en.url_fragments.tsv"
 URL_TOPICS_TSV="English_US/tsv/English_US_en.url_topics.tsv"
 
+###############
+## Bulgarian ##
+###############
+LOGGER_FILENAME="_log_FromTsvIntakeB+C_Russian_bg"
+## -- (bg) process app --
+SOURCE_TSV_INCLUDE="Bulgarian/tsv/v01/Bulgarian_bg.app.tsv"
+SOURCE_TSV_INCLUDE="Bulgarian/tsv/v01/Bulgarian_bg.app.changeset01.tsv"
+DO_NORMALIZE_BATCH
+
+## -- (bg) process store --
+SOURCE_TSV_INCLUDE="Bulgarian/tsv/v01/Bulgarian_bg.store.tsv"
+SOURCE_TSV_INCLUDE="Bulgarian/tsv/v01/Bulgarian_bg.store.changeset01.tsv"
+DO_NORMALIZE_BATCH
+
+###########
+## Greek ##
+###########
+LOGGER_FILENAME="_log_FromTsvIntakeB+C_Greek_el"
+## -- (el) process app --
+SOURCE_TSV_INCLUDE="Greek/tsv/v01/Greek_el.app.tsv"
+SOURCE_TSV_INCLUDE="Greek/tsv/v01/Greek_el.app.changeset01.tsv"
+DO_NORMALIZE_BATCH
+
+## -- (el) process store --
+SOURCE_TSV_INCLUDE="Greek/tsv/v01/Greek_el.store.tsv"
+SOURCE_TSV_INCLUDE="Greek/tsv/v01/Greek_el.store.changeset01.tsv"
+DO_NORMALIZE_BATCH
+
+############
+## French ##
+############
+LOGGER_FILENAME="_log_FromTsvIntakeB+C_French_fr"
+## -- (fr) process app --
+SOURCE_TSV_INCLUDE="French/tsv/v01/French_fr.app.tsv"
+SOURCE_TSV_INCLUDE="French/tsv/v01/French_fr.app.changeset01.tsv"
+DO_NORMALIZE_BATCH
+
+## -- (fr) process store --
+SOURCE_TSV_INCLUDE="French/tsv/v01/French_fr.store.tsv"
+SOURCE_TSV_INCLUDE="French/tsv/v01/French_fr.store.changeset01.tsv"
+DO_NORMALIZE_BATCH
+
+#############
+## Italian ##
+#############
+LOGGER_FILENAME="_log_FromTsvIntakeB+C_Italian_it"
+## -- (it) process app --
+SOURCE_TSV_INCLUDE="Italian/tsv/v01/Italian_it.app.tsv"
+SOURCE_TSV_INCLUDE="Italian/tsv/v01/Italian_it.app.changeset01.tsv"
+DO_NORMALIZE_BATCH
+
+## -- (it) process store --
+SOURCE_TSV_INCLUDE="Italian/tsv/v01/Italian_it.store.tsv"
+SOURCE_TSV_INCLUDE="Italian/tsv/v01/Italian_it.store.changeset01.tsv"
+DO_NORMALIZE_BATCH
+
+#############
+## Chinese ##
+#############
+## zh - mosly traditional in original Android translation
+
+LOGGER_FILENAME="_log_FromTsvIntakeB+C_Chinese_zh-Hant"
+## -- (zh-Hant) process app --
+SOURCE_TSV_INCLUDE="Chinese_Traditional/tsv/v01/Chinese_Traditional_zh-Hant.app.tsv"
+SOURCE_TSV_INCLUDE="Chinese_Traditional/tsv/v01/Chinese_Traditional_zh-Hant.app.changeset01.tsv"
+DO_NORMALIZE_BATCH
+
+## -- (zh-Hant) process store --
+SOURCE_TSV_INCLUDE="Chinese_Traditional/tsv/v01/Chinese_Traditional_zh-Hant.store.tsv"
+SOURCE_TSV_INCLUDE="Chinese_Traditional/tsv/v01/Chinese_Traditional_zh-Hant.store.changeset01.tsv"
+DO_NORMALIZE_BATCH
+
+
 ######################################################
-### ----- STOP HERE (PROCESSING: 2022.08.25) ----- ###
+### ----- STOP HERE (PROCESSING: 2022.11.03) ----- ###
 ######################################################
 QUIT
 
