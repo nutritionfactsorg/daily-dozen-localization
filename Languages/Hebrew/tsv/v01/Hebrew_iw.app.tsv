@@ -364,7 +364,7 @@ daily_dozen_and_tweaks	setting_doze_tweak_btn	Daily Dozen +\n21 Tweaks	התרי�
 	setting_doze_tweak_footer	For health alone, use “Daily Dozen Only”. For health and weight loss use “Daily Dozen + 21 Tweaks”.	לבריאות בלבד, השתמשו ב"תריסר היומי" בלבד ". לבריאות וירידה במשקל השתמשו ב- "תריסר היומי + 21 כיוונונים".	Preference Settings View: brief description text below Tweaks visibility control.	
 for_health_alone	setting_health_alone_txt	For Health Alone	עבור בריאות בלבד	First Launch Setting: brief description above ‘Daily Dozen Only’ button.	
 for_health_and_weight_loss	setting_health_weight_txt	For Health and Weight Loss	עבור בריאות והורדה במשקל	First Launch Setting: brief description above ‘Daily Dozen + 21 Tweaks’ button.	
-	setting_tweak_header	21 Tweak Visibility	ניראות של 21 הכיוונונים	Preference Settings View: tweaks visibilty subsection heading	
+	setting_tweak_header	21 Tweaks Visibility	ניראות של 21 הכיוונונים	Preference Settings View: tweaks visibilty subsection heading	
 	setting_units_0_imperial	Imperial	אימפריאלי	Preference Settings View: Part of ‘Imperial/Metric/Toggle Units’ selector	
 	setting_units_1_metric	Metric	מטרי	Preference Settings View: Part of ‘Imperial/Metric/Toggle Units’ selector	
 	setting_units_2_toggle	Toggle Units	החלף יחידות	Preference Settings View: Part of ‘Imperial/Metric/Toggle Units’ selector	

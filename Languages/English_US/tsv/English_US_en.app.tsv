@@ -361,7 +361,7 @@ daily_dozen_and_tweaks	setting_doze_tweak_btn	Daily Dozen +\n21 Tweaks	Daily Doz
 	setting_doze_tweak_footer	For health alone, use “Daily Dozen Only”. For health and weight loss use “Daily Dozen + 21 Tweaks”.	For health alone, use “Daily Dozen Only”. For health and weight loss use “Daily Dozen + 21 Tweaks”.	Preference Settings View: brief description text below Tweaks visibility control.	
 for_health_alone	setting_health_alone_txt	For Health Alone	For Health Alone	First Launch Setting: brief description above ‘Daily Dozen Only’ button.	
 for_health_and_weight_loss	setting_health_weight_txt	For Health and Weight Loss	For Health and Weight Loss	First Launch Setting: brief description above ‘Daily Dozen + 21 Tweaks’ button.	
-	setting_tweak_header	21 Tweak Visibility	21 Tweak Visibility	Preference Settings View: tweaks visibilty subsection heading	
+	setting_tweak_header	21 Tweaks Visibility	21 Tweaks Visibility	Preference Settings View: tweaks visibilty subsection heading	
 	setting_units_0_imperial	Imperial	Imperial	Preference Settings View: Part of ‘Imperial/Metric/Toggle Units’ selector	
 	setting_units_1_metric	Metric	Metric	Preference Settings View: Part of ‘Imperial/Metric/Toggle Units’ selector	
 	setting_units_2_toggle	Toggle Units	Toggle Units	Preference Settings View: Part of ‘Imperial/Metric/Toggle Units’ selector	

@@ -360,7 +360,7 @@ daily_dozen_and_tweaks	setting_doze_tweak_choice	Daily Dozen + 21 Tweaks	Codzien
 	setting_doze_tweak_footer	For health alone, use “Daily Dozen Only”. For health and weight loss use “Daily Dozen + 21 Tweaks”.	Dla samego zdrowia użyj „Tylko Codzienny Tuzin”. Dla zdrowia i utraty wagi użyj „Codzienny Tuzin + 21 Adaptacji”.	Preference Settings View: brief description text below Tweaks visibility control.	
 for_health_alone	setting_health_alone_txt	For Health Alone	Wyłącznie Dla Zdrowia	First Launch Setting: brief description above ‘Daily Dozen Only’ button.	
 for_health_and_weight_loss	setting_health_weight_txt	For Health and Weight Loss	Dla Zdrowia i Utraty Wagi	First Launch Setting: brief description above ‘Daily Dozen + 21 Tweaks’ button.	
-	setting_tweak_header	21 Tweak Visibility	Widoczność 21 Adaptacji	Preference Settings View: tweaks visibilty subsection heading	
+	setting_tweak_header	21 Tweaks Visibility	Widoczność 21 Adaptacji	Preference Settings View: tweaks visibilty subsection heading	
 	setting_units_0_imperial	Imperial	Imperialne	Preference Settings View: Part of ‘Imperial/Metric/Toggle Units’ selector	
 	setting_units_1_metric	Metric	Metryczne	Preference Settings View: Part of ‘Imperial/Metric/Toggle Units’ selector	
 	setting_units_2_toggle	Toggle Units	Zmień jednostki	Preference Settings View: Part of ‘Imperial/Metric/Toggle Units’ selector	

@@ -361,7 +361,7 @@ daily_dozen_and_tweaks	setting_doze_tweak_btn	Daily Dozen +\n21 Tweaks	Не cд�
 	setting_doze_tweak_footer	For health alone, use “Daily Dozen Only”. For health and weight loss use “Daily Dozen + 21 Tweaks”.	Только для здорового образа жизни используйте "Только Не cдохни!", для здоровья и потери веса используйте "Не cдохни + 21 уловка".	Preference Settings View: brief description text below Tweaks visibility control.	
 for_health_alone	setting_health_alone_txt	For Health Alone	Только для здоровья	First Launch Setting: brief description above ‘Daily Dozen Only’ button.	
 for_health_and_weight_loss	setting_health_weight_txt	For Health and Weight Loss	Для здоровья и похудения	First Launch Setting: brief description above ‘Daily Dozen + 21 Tweaks’ button.	
-	setting_tweak_header	21 Tweak Visibility	Видимость 21 уловки	Preference Settings View: tweaks visibilty subsection heading	
+	setting_tweak_header	21 Tweaks Visibility	Видимость 21 уловки	Preference Settings View: tweaks visibilty subsection heading	
 	setting_units_0_imperial	Imperial	Имперсая	Preference Settings View: Part of ‘Imperial/Metric/Toggle Units’ selector	
 	setting_units_1_metric	Metric	Метрическая	Preference Settings View: Part of ‘Imperial/Metric/Toggle Units’ selector	
 	setting_units_2_toggle	Toggle Units	Тумблер	Preference Settings View: Part of ‘Imperial/Metric/Toggle Units’ selector	

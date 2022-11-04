@@ -4809,7 +4809,7 @@
       <text:p>setting_tweak_header</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
-      <text:p>21 Tweak Visibility</text:p>
+      <text:p>21 Tweaks Visibility</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Preference Settings View: tweaks visibilty subsection heading</text:p>
