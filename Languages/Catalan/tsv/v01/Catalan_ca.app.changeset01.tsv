@@ -6,8 +6,8 @@ food_info_serving_sizes_cruciferous_vegetables_metric.1	dozeVegetablesCruciferou
 food_info_serving_sizes_cruciferous_vegetables_metric.2	dozeVegetablesCruciferous.Serving.metric.2	14 g Broccoli sprouts	14 g Broccoli sprouts		
 food_info_serving_sizes_cruciferous_vegetables_metric.3	dozeVegetablesCruciferous.Serving.metric.3	1 tablespoon horseradish	1 tablespoon horseradish		
 about_translators	info_app_about_translators	Special thanks to our volunteer translators: Ricard Soler Roger (ca), Luděk Bouška (cs), Lenka Lukacová (cs), Anke Schliessmann (de), Doron Barak (he), Ruth Levy (he), Joanna Klopotek (pl), Tania Bassi (pt-BR), João Madureira (pt-PT), Evgeniya Lyakh (ru).	Special thanks to our volunteer translators: Ricard Soler Roger (ca), Luděk Bouška (cs), Lenka Lukacová (cs), Anke Schliessmann (de), Doron Barak (he), Ruth Levy (he), Joanna Klopotek (pl), Tania Bassi (pt-BR), João Madureira (pt-PT), Evgeniya Lyakh (ru).	Info About View: Contributing Translators List	
-	setting_analytics_body	Enable anonymous usage information to be collected to help improve this application.	Enable anonymous usage information to be collected to help improve this application.	Google Firebase Analytics	
-	setting_analytics_enable	Enable Analytics	Enable Analytics	Google Firebase Analytics	
-	setting_analytics_opt_in	Opt In	Opt In	Google Firebase Analytics	
-	setting_analytics_opt_out	Opt Out	Opt Out	Google Firebase Analytics	
-	setting_analytics_title	Analytics	Analytics	Google Firebase Analytics	
+	setting_analytics_body	Enable anonymous usage information to be collected to help improve this application.	Habiliteu la recopilació d'informació d'ús anònima per ajudar a millorar aquesta aplicació.	Google Firebase Analytics	
+	setting_analytics_enable	Enable Analytics	Activa Analytics	Google Firebase Analytics	
+	setting_analytics_opt_in	Opt In	Activar	Google Firebase Analytics	
+	setting_analytics_opt_out	Opt Out	Desactivar	Google Firebase Analytics	
+	setting_analytics_title	Analytics	Analítica	Google Firebase Analytics	
