@@ -522,7 +522,7 @@
      </table:table-cell>
      <table:table-cell/>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>Dr. Greger’s Daily Dozen details the healthiest foods and how many servings of each we should try to check off every day from his book How Not Die—now including the 21 Tweaks from How Not to Diet—weight-loss accelerators to help maximize our natural fat-burning capabilities.</text:p>
+      <text:p>Dr. Greger’s Daily Dozen details the healthiest foods and how many servings of each we should try to check off every day from his book “How Not Die”—now including the 21 Tweaks from “How Not to Diet”—weight-loss accelerators to help maximize our natural fat-burning capabilities.</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Dr. Greger’s Daily Dozen details the healthiest foods and how many servings of each we should try to check off every day from his book &quot;How Not Die&quot;—now including the 21 Tweaks from &quot;How Not to Diet&quot;—weight-loss accelerators to help maximize our natural fat-burning capabilities.</text:p>
