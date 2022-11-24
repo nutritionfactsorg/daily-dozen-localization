@@ -55,7 +55,7 @@ DO_NORMALIZE_BATCH
 ###########
 LOGGER_FILENAME="_log_FromTsvIntakeB_Czech_cs"
 ## -- (cs) process app --
-SOURCE_TSV_INCLUDE="Czech/tsv/Czech_cs.app.20221123.intake.tsv"
+SOURCE_TSV_INCLUDE="Czech/tsv/Czech_cs.app.20221124.intake.tsv"
 DO_NORMALIZE_BATCH
 
 ## -- (cs) process store --

@@ -361,7 +361,7 @@ daily_dozen_and_tweaks	setting_doze_tweak_btn	Daily Dozen +\n21 Tweaks	Denní Dv
 	setting_doze_tweak_footer	For health alone, use “Daily Dozen Only”. For health and weight loss use “Daily Dozen + 21 Tweaks”.	Pouze pro zdraví použijte „Jen Denní Dvanáctka“. Pro zdraví a hubnutí použijte „Denní Dvanáctka + 21 Hubnutí“.	Preference Settings View: brief description text below Tweaks visibility control.	
 for_health_alone	setting_health_alone_txt	For Health Alone	Jen pro zdraví	First Launch Setting: brief description above ‘Daily Dozen Only’ button.	
 for_health_and_weight_loss	setting_health_weight_txt	For Health and Weight Loss	Pro zdraví a hubnutí	First Launch Setting: brief description above ‘Daily Dozen + 21 Tweaks’ button.	
-	setting_tweak_header	21 Tweaks Visibility	Viditelnost 21 Hubnutí	Preference Settings View: tweaks visibilty subsection heading	
+	setting_tweak_header	21 Tweak Visibility	Viditelnost 21 Hubnutí	Preference Settings View: tweaks visibilty subsection heading	
 	setting_units_0_imperial	Imperial	Imperiální	Preference Settings View: Part of ‘Imperial/Metric/Toggle Units’ selector	
 	setting_units_1_metric	Metric	Metrické	Preference Settings View: Part of ‘Imperial/Metric/Toggle Units’ selector	
 	setting_units_2_toggle	Toggle Units	Přepnout jednotky	Preference Settings View: Part of ‘Imperial/Metric/Toggle Units’ selector	
@@ -447,12 +447,12 @@ videos	videos.link.label	Videos	Videa	Label for hyperlink to nutritionfacts.org 
 	weight_entry_units_lbs	lbs	libry	Weight Daily Entry Units: label	
 	weight_history_edit_data	Edit Data	Upravit data	Weight Daily Entry: edit button to change values	
 weight	weightEntry.heading	Weight	Hmotnost	Weight Daily Entry: heading	
+about_tweak		About Tweak	O 21 Hubnutí		
 about_text_lines.0		This app was created by John Slavick.	Tuto aplikaci vytvořil John Slavick.		
 about_text_lines.1					
 about_text_lines.2		The following open source libraries are used: ActiveAndroid, android-iconify, EventBus, LikeAnimation, and MPAndroidChart.	Používají se následující open source knihovny: ActiveAndroid, android-iconify, EventBus, LikeAnimation a MPAndroidChart.		
 about_text_lines.3					
 about_text_lines.4		Special thanks to the volunteer efforts of the creators of the previous app: Chan Kruse, Allan Portera, and Sangeeta Kumar.	Zvláštní poděkování patří dobrovolnickému úsilí tvůrců předchozí aplikace: Chan Kruse, Allan Portera a Sangeeta Kumar.		
-about_tweak		About Tweak	O 21 Hubnutí		
 average_weight_on_day		Average weight on day	Průměrná váha za den		
 backup		Backup	Záloha		
 backup_failed		Backup failed	Zálohování se nezdařilo		
@@ -478,7 +478,7 @@ debug_generate_random_data		Generate random data	Generovat náhodná data
 debug_generate_weight_data		Generate Weight Data	Generování údajů o hmotnosti		
 dialog_ask_user_to_rate_app_message		Please give us feedback in the Play Store.	Dejte nám zpětnou vazbu v Obchodě Play.		
 dialog_ask_user_to_rate_app_title		Do you like this app?	Líbí se vám tato aplikace?		
-dialog_no_email_apps_message		Backing up your data requires you to have an email app installed so you can email the backup file to yourself. Please install an email app and try again.	Zálohování dat vyžaduje, abyste měli nainstalovanou e-mailovou aplikaci, abyste si mohli poslat e-mailem záložní soubor. Nainstalujte si e-mailovou aplikaci a zkuste to znovu.		
+dialog_no_email_apps_message		Backing up your data requires you to have an email app installed so you can email the .csv backup file to yourself. Please install an email app and try again.	Zálohování dat vyžaduje, abyste měli nainstalovanou e-mailovou aplikaci, abyste si mohli poslat e-mailem záložní soubor. Nainstalujte si e-mailovou aplikaci a zkuste to znovu.		
 dialog_no_email_apps_title		No email apps found	Nebyla nalezena e-mailové aplikace		
 dialog_streaks_message		Your database will now be upgraded to support the new streaks feature.	Vaše databáze bude nyní upgradována, aby podporovala novou funkci Grafy		
 dialog_streaks_title		New feature: Streaks!	Nová funkce: Grafy!		
