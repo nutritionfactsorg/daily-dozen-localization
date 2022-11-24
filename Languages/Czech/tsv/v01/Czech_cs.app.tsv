@@ -29,7 +29,7 @@ food_info_types_beans.12	dozeBeans.Variety.Text.12	Pinto beans	Fazole Pinto
 food_info_types_beans.13	dozeBeans.Variety.Text.13	Small red beans	Malé červené fazole		
 food_info_types_beans.14	dozeBeans.Variety.Text.14	Split peas (yellow or green)	Půlený hrách (žlutý nebo zelený)		
 food_info_types_beans.15	dozeBeans.Variety.Text.15	Tempeh	Tempeh		
-berries	dozeBerries.heading	Berries	Bobule	heading for daily data entry item	
+berries	dozeBerries.heading	Berries	Bobuloviny	heading for daily data entry item	
 food_info_serving_sizes_berries_imperial.0	dozeBerries.Serving.imperial.0	½ cup fresh or frozen	½ šálku čerstvého nebo mraženého		
 food_info_serving_sizes_berries_imperial.1	dozeBerries.Serving.imperial.1	¼ cup dried	¼ šálku sušené		
 food_info_serving_sizes_berries_metric.0	dozeBerries.Serving.metric.0	60 g fresh or frozen	60 g čerstvé nebo mražené		
@@ -286,7 +286,7 @@ food_info_types_other_vegetables.14	dozeVegetablesOther.Variety.Text.14	Squash (
 food_info_types_other_vegetables.15	dozeVegetablesOther.Variety.Text.15	Sweet potatoes/yams	Sladké brambory, batáty		
 food_info_types_other_vegetables.16	dozeVegetablesOther.Variety.Text.16	Tomatoes	Rajčata		
 food_info_types_other_vegetables.17	dozeVegetablesOther.Variety.Text.17	Zucchini	Cuketa		
-whole_grains	dozeWholeGrains.heading	Whole Grains	Celá zrna	heading for daily data entry item	
+whole_grains	dozeWholeGrains.heading	Whole Grains	Celozrnné obilniny	heading for daily data entry item	
 food_info_serving_sizes_whole_grains_imperial.0	dozeWholeGrains.Serving.imperial.0	½ cup hot cereal or cooked grains, pasta, or corn kernels	½ šálku obilné kaše nebo vařených zrn, těstovin nebo kukuřice		
 food_info_serving_sizes_whole_grains_imperial.1	dozeWholeGrains.Serving.imperial.1	1 cup cold cereal	1 šálek studených cereálií		
 food_info_serving_sizes_whole_grains_imperial.2	dozeWholeGrains.Serving.imperial.2	1 tortilla or slice of bread	1 tortilla nebo krajíc chleba		
@@ -320,7 +320,7 @@ evening	historyRecordWeight.legendEvening	Evening	Večer	History View
 morning	historyRecordWeight.legendMorning	Morning	Ráno	History View	
 	historyRecordWeight.titleImperial	Weight (lbs)	Váha (libry)	History View	
 	historyRecordWeight.titleMetric	Weight (kg)	Váha (kg)	History View	
-about	info_app_about	About	Menu	Info About Menu Item	
+about	info_app_about	About	O autorovi	Info About Menu Item	
 app_name	info_app_about_app_name	Daily Dozen	Denní Dvanáctka	Info About View: Application Name ‘Daily Dozen’	
 	info_app_about_created_by	This app was created by: NutritionFacts.org, Christi Richards, Konstantin Khokhlov, and Marc Campbell	Tuto aplikaci vytvořili: NutritionFacts.org, Christi Richards, Konstantin Khokhlov a Marc Campbell	Info About View: Created By	
 about_this_app	info_app_about_heading	About this app	O této aplikaci	Info About View	
@@ -373,13 +373,13 @@ format_num_days	streakDaysFormat	%d days	%d dnů	‘Streak’ count. Synonym: �
 	tweak_detail_section_description	Description	Popis	Tweaks Detail view section heading	
 twenty_one_tweaks	tweak_entry_header	21 Tweaks	21 Hubnutí	Tweaks daily entry header	
 complete_intentions	tweakCompleteIntentions.heading	Complete Your Implementation Intentions	Dokončete své implementační záměry	heading for daily data entry item	
-complete_intentions_short	tweakCompleteIntentions.short	Complete Your Implementation Intentions	Dokončete své implementační záměry		
+complete_intentions_short	tweakCompleteIntentions.short	Complete Your Implementation Intentions	Dokončujte své implementační záměry		
 complete_intentions_text	tweakCompleteIntentions.text	Every two months, create three new implementation intentions—“if X, then Y” plans to perform a particular behavior in a specific context—and check each one of them off as you complete them every day.	Každé dva měsíce vytvořte tři nové implementační záměry – plány „když X, pak Y“ pro provedení konkrétního chování v konkrétním kontextu – a každý z nich zaškrtněte, když je každý den dokončujete.		
 daily_blackcumin	tweakDailyBlackCumin.heading	Black Cumin (¼ tsp)	Černý kmín (¼ lžičky)	heading for daily data entry item	
 daily_blackcumin_short	tweakDailyBlackCumin.short	Black Cumin (Nigella sativa) (¼ tsp)	Černý kmín (Nigella sativa) (¼ lžičky)		
 daily_blackcumin_text	tweakDailyBlackCumin.text	As noted in the Appetite Suppression section, a systematic review and meta-analysis of randomized, controlled weight-loss trials found that about a quarter teaspoon of black cumin powder every day appears to reduce body mass index within a span of a couple of months. Note that black cumin is different from regular cumin, for which the dosing is different.	Jak je uvedeno v části Potlačení chuti k jídlu, systematický přehled a metaanalýza randomizovaných, kontrolovaných studií hubnutí zjistila, že asi čtvrtina čajové lžičky prášku z černého kmínu každý den snižuje index tělesné hmotnosti během několika měsíců. Všimněte si, že černý kmín se liší od běžného kmínu, u kterého se liší dávkování.		
 daily_cumin	tweakDailyCumin.heading	Cumin (½ tsp with lunch and dinner)	Římský kmin (½ lžičky s obědem a večeří)	heading for daily data entry item	
-daily_cumin_short	tweakDailyCumin.short	Cumin (Cuminum cyminum) (½ tsp with lunch and dinner)	Kmín (Cuminum cyminum) (½ lžičky s obědem a večeří)		
+daily_cumin_short	tweakDailyCumin.short	Cumin (Cuminum cyminum) (½ tsp with lunch and dinner)	Římský kmín (Cuminum cyminum) (½ lžičky s obědem a večeří)		
 daily_cumin_text	tweakDailyCumin.text	Overweight women randomized to add a half teaspoon of cumin to their lunches and dinners beat out the control group by four more pounds and an extra inch off their waists. There is also evidence to support the use of the spice saffron, but a pinch a day would cost a dollar, whereas a teaspoon of cumin costs less than ten cents.	Ženy s nadváhou náhodně vybrané do skupiny, která si k obědu a večeři dávala navíc půl lžičky římského kmínu, zhubly oproti kontrolní skupině o 4 kila a palec (2,5cm) v pase více. Existují také důkazy ohledně stejné účinnosti šafránu (koření), toho by ale špetka denně stála dolar, zatímco lžička římského kmínu stojí méně než deset centů.		
 daily_deflourdiet	tweakDailyDeflourDiet.heading	Deflour Your Diet	Zbavte se mouky	heading for daily data entry item	
 daily_deflourdiet_short	tweakDailyDeflourDiet.short	Deflour Your Diet	Zbavte se mouky		
@@ -423,7 +423,7 @@ meal_vinegar_text	tweakMealVinegar.text	Never drink vinegar straight. Instead, f
 meal_water	tweakMealWater.heading	Preload with Water	Pijte vodou před jídlem	heading for daily data entry item	
 meal_water_short	tweakMealWater.short	Preload with Water	Pijte vodou před jídlem		
 meal_water_text	tweakMealWater.text	Time your metabolism-boosting two cups of cool or cold unflavored water before each meal to also take advantage of its preload benefits.	Načasujte si vypití dvou šálků studené neochucené vody před každým jídlem na zrychlení metabolismu, abyste také využili výhody předplnění se vodou.		
-nightly_fast	tweakNightlyFast.heading	Fast After 7:00 pm	Nejezte po 19:00	heading for daily data entry item	
+nightly_fast	tweakNightlyFast.heading	Fast After 7:00 pm	Nejezte po 19:00 hodině	heading for daily data entry item	
 nightly_fast_short	tweakNightlyFast.short	Fast After 7:00 p.m.	Nejezte po 19:00		
 nightly_fast_text	tweakNightlyFast.text	Due to our circadian rhythms, food eaten at night is more fattening than the exact same food eaten earlier in the day, so fast every night for at least twelve hours starting before 7:00 p.m. The fewer calories after sundown, the better.	Kvůli našim cirkadiánním rytmům se z jídla konzumovaného večer a v noci uloží více tuku, než z úplně stejného jídla, konzumovaného v dřívější denní dobu. Proto se každou noc, počínaje 19:00, alespoň dvanáct hodin postěte. Čím méně kalorií po západu slunce, tím lépe.		
 nightly_sleep	tweakNightlySleep.heading	Get Sufficient Sleep	Dopřejte si dostatek spánku	heading for daily data entry item	
