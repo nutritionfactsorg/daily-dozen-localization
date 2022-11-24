@@ -478,7 +478,7 @@ debug_generate_random_data		Generate random data	Genera dades aleatòries
 debug_generate_weight_data		Generate Weight Data	Generar Dades de Pes		
 dialog_ask_user_to_rate_app_message		Please give us feedback in the Play Store.	Siusplau, deixa'ns una ressenya a la Play Store.		
 dialog_ask_user_to_rate_app_title		Do you like this app?	T'agrada aquesta app?		
-dialog_no_email_apps_message		Backing up your data requires you to have an email app installed so you can email the .csv backup file to yourself. Please install an email app and try again.	Per fer una còpia de seguretat de les teves dades, has de tenir instal·lada una aplicació de correu electrònic perquè et puguis enviar l'arxiu .csv amb la còpia a tu mateix. Sisuplau, instal·la una aplicació de correu electrònic i torna-ho a intentar.		
+dialog_no_email_apps_message		Backing up your data requires you to have an email app installed so you can email the backup file to yourself. Please install an email app and try again.	Per fer una còpia de seguretat de les teves dades, has de tenir instal·lada una aplicació de correu electrònic perquè et puguis enviar l'arxiu amb la còpia a tu mateix. Sisuplau, instal·la una aplicació de correu electrònic i torna-ho a intentar.		
 dialog_no_email_apps_title		No email apps found	No s'ha trobat cap aplicació de correu electrònic		
 dialog_streaks_message		Your database will now be upgraded to support the new streaks feature.	La teva base de dades s'actualitzarà per afegir la nova eina del gomet.		
 dialog_streaks_title		New feature: Streaks!	Nova eina: Gomets!		

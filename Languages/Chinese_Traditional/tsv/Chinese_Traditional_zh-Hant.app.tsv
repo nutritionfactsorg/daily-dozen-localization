@@ -478,7 +478,7 @@ debug_generate_random_data		Generate random data	產生隨機數據
 debug_generate_weight_data		Generate Weight Data	產生體重數據		
 dialog_ask_user_to_rate_app_message		Please give us feedback in the Play Store.	請在應用程式商店中給我們指教。		
 dialog_ask_user_to_rate_app_title		Do you like this app?	您喜歡這個應用程式嗎？		
-dialog_no_email_apps_message		Backing up your data requires you to have an email app installed so you can email the .csv backup file to yourself. Please install an email app and try again.	您需要安裝電子郵件應用程式才能使用備份數據功能，才能將.csv的備份檔案寄到自己的電子郵件信箱。請安裝電子郵件應用程式後再重試。		
+dialog_no_email_apps_message		Backing up your data requires you to have an email app installed so you can email the backup file to yourself. Please install an email app and try again.	您需要安裝電子郵件應用程式才能使用備份數據功能，才能將的備份檔案寄到自己的電子郵件信箱。請安裝電子郵件應用程式後再重試。		
 dialog_no_email_apps_title		No email apps found	找不到電子郵件應用程式		
 dialog_streaks_message		Your database will now be upgraded to support the new streaks feature.	現在將升級您的資料庫，以支持新的趨勢圖功能。		
 dialog_streaks_title		New feature: Streaks!	新功能：趨勢圖		

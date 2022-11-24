@@ -478,7 +478,7 @@ debug_generate_random_data		Generate random data	Получить случайн
 debug_generate_weight_data		Generate Weight Data	Получить данные по весу		
 dialog_ask_user_to_rate_app_message		Please give us feedback in the Play Store.	Пожалуйста, оставьте нам отзыв в Play Store.		
 dialog_ask_user_to_rate_app_title		Do you like this app?	Вам нравится это приложение?		
-dialog_no_email_apps_message		Backing up your data requires you to have an email app installed so you can email the .csv backup file to yourself. Please install an email app and try again.	Чтобы создать резервную копию ваших данных, вам нужно сначала установить приложение для работы с электронной почтой, чтобы вы смогли послать себе .csv файл с резервной копией. Пожалуйста, попробуйте установить приложение и повторите попытку.		
+dialog_no_email_apps_message		Backing up your data requires you to have an email app installed so you can email the backup file to yourself. Please install an email app and try again.	Чтобы создать резервную копию ваших данных, вам нужно сначала установить приложение для работы с электронной почтой, чтобы вы смогли послать себе файл с резервной копией. Пожалуйста, попробуйте установить приложение и повторите попытку.		
 dialog_no_email_apps_title		No email apps found	Не было найдено ни одного приложения для работы с электронной почтой.		
 dialog_streaks_message		Your database will now be upgraded to support the new streaks feature.	Ваша база данных сейчас будет обновлена до версии, поддерживающей новую функциональность прогресса.		
 dialog_streaks_title		New feature: Streaks!	Новая функциональность, отображающая прогресс, была добавлена!		

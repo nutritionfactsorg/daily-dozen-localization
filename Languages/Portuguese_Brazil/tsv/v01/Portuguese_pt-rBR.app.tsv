@@ -478,7 +478,7 @@ debug_generate_random_data		Generate random data	Gerar informações aleatórias
 debug_generate_weight_data		Generate Weight Data	Gerar Informações de Peso		
 dialog_ask_user_to_rate_app_message		Please give us feedback in the Play Store.	Por favor comente a sua experiência no Play Store.		
 dialog_ask_user_to_rate_app_title		Do you like this app?	Você gosta deste aplicativo?		
-dialog_no_email_apps_message		Backing up your data requires you to have an email app installed so you can email the .csv backup file to yourself. Please install an email app and try again.	Fazer uma cópia de segurança das suas informações requer que você tenha um aplicativo de email instalado para que você possa enviar por email o arquivo .csv para você mesmo. Por favor instale um aplicativo de email e tente novamente.		
+dialog_no_email_apps_message		Backing up your data requires you to have an email app installed so you can email the backup file to yourself. Please install an email app and try again.	Fazer uma cópia de segurança das suas informações requer que você tenha um aplicativo de email instalado para que você possa enviar por email o arquivo para você mesmo. Por favor instale um aplicativo de email e tente novamente.		
 dialog_no_email_apps_title		No email apps found	Aplicativo de email não encontrado		
 dialog_streaks_message		Your database will now be upgraded to support the new streaks feature.	A sua base de dados não será atualizada para suportar a nova função de progresso.		
 dialog_streaks_title		New feature: Streaks!	Nova função de progresso adicionada!		

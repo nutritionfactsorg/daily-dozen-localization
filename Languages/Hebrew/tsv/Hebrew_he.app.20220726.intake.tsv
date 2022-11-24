@@ -478,7 +478,7 @@ debug_generate_random_data		Generate random data	יצירת נתונים אקר�
 debug_generate_weight_data		Generate Weight Data	יצירת נתוני משקל		
 dialog_ask_user_to_rate_app_message		Please give us feedback in the Play Store.	אנא תנו לנו משוב בחנות Play.		
 dialog_ask_user_to_rate_app_title		Do you like this app?	האם אתם אוהבים את האפליקציה הזו?		
-dialog_no_email_apps_message		Backing up your data requires you to have an email app installed so you can email the .csv backup file to yourself. Please install an email app and try again.	גיבוי הנתונים שלכם מחייב התקנת יישום דוא"ל כדי שתוכלו לשלוח לעצמכם את קובץ הגיבוי .csv בדוא"ל. התקן יישום דוא"ל ונסה שוב.		
+dialog_no_email_apps_message		Backing up your data requires you to have an email app installed so you can email the backup file to yourself. Please install an email app and try again.	גיבוי הנתונים שלכם מחייב התקנת יישום דוא"ל כדי שתוכלו לשלוח לעצמכם את קובץ הגיבוי בדוא"ל. התקן יישום דוא"ל ונסה שוב.		
 dialog_no_email_apps_title		No email apps found	לא נמצאה אפליקציית email		
 dialog_streaks_message		Your database will now be upgraded to support the new streaks feature.	מסד הנתונים שלכם ישודרג כעת לתמיכה בתכונת ההתקדמות החדשה.		
 dialog_streaks_title		New feature: Streaks!	תכונה חדשה: התקדמות!		

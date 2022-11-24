@@ -478,7 +478,7 @@ debug_generate_random_data		Generate random data	Generează date aleatorii
 debug_generate_weight_data		Generate Weight Data	Generați date privind greutatea		
 dialog_ask_user_to_rate_app_message		Please give us feedback in the Play Store.	Spuneți-ne părerea în Magazinul Play.		
 dialog_ask_user_to_rate_app_title		Do you like this app?	Îți place această aplicație?		
-dialog_no_email_apps_message		Backing up your data requires you to have an email app installed so you can email the .csv backup file to yourself. Please install an email app and try again.	Copia de rezervă a datelor dvs. necesită instalarea unei aplicații de e-mail, astfel încât să puteți trimite fișierul de rezervă .csv prin e-mail. Instalați o aplicație de e-mail și încercați din nou.		
+dialog_no_email_apps_message		Backing up your data requires you to have an email app installed so you can email the backup file to yourself. Please install an email app and try again.	Copia de rezervă a datelor dvs. necesită instalarea unei aplicații de e-mail, astfel încât să puteți trimite fișierul de rezervă prin e-mail. Instalați o aplicație de e-mail și încercați din nou.		
 dialog_no_email_apps_title		No email apps found	Nu au fost găsite aplicații de e-mail		
 dialog_streaks_message		Your database will now be upgraded to support the new streaks feature.	Baza dvs. de date va fi acum actualizată pentru a accepta caracteristica nouă de secvenţe consecutive.		
 dialog_streaks_title		New feature: Streaks!	Caracteristică nouă: Secvenţe consecutive!		

@@ -6231,7 +6231,7 @@
      </table:table-cell>
      <table:table-cell/>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
-      <text:p>Backing up your data requires you to have an email app installed so you can email the .csv backup file to yourself. Please install an email app and try again.</text:p>
+      <text:p>Backing up your data requires you to have an email app installed so you can email the backup file to yourself. Please install an email app and try again.</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="2"/>
     </table:table-row>

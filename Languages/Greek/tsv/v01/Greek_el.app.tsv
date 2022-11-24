@@ -478,7 +478,7 @@ debug_generate_random_data		Generate random data	Παραγωγή τυχαίων
 debug_generate_weight_data		Generate Weight Data	Δημιουργία δεδομένων βάρους		
 dialog_ask_user_to_rate_app_message		Please give us feedback in the Play Store.	Παρακαλώ δώστε μας τα σχόλιά στο Play Store.		
 dialog_ask_user_to_rate_app_title		Do you like this app?	Σας αρέσει αυτή η εφαρμογή;		
-dialog_no_email_apps_message		Backing up your data requires you to have an email app installed so you can email the .csv backup file to yourself. Please install an email app and try again.	Η δημιουργία αντιγράφων ασφαλείας των δεδομένων σας απαιτεί να έχετε εγκαταστήσει μια εφαρμογή ηλεκτρονικού ταχυδρομείου, ώστε να μπορείτε να στείλετε το αρχείο .csv αντιγράφων ασφαλείας στον εαυτό σας. Παρακαλώ εγκαταστήστε μια εφαρμογή ηλεκτρονικού ταχυδρομείου και δοκιμάστε ξανά.		
+dialog_no_email_apps_message		Backing up your data requires you to have an email app installed so you can email the backup file to yourself. Please install an email app and try again.	Η δημιουργία αντιγράφων ασφαλείας των δεδομένων σας απαιτεί να έχετε εγκαταστήσει μια εφαρμογή ηλεκτρονικού ταχυδρομείου, ώστε να μπορείτε να στείλετε το αρχείο αντιγράφων ασφαλείας στον εαυτό σας. Παρακαλώ εγκαταστήστε μια εφαρμογή ηλεκτρονικού ταχυδρομείου και δοκιμάστε ξανά.		
 dialog_no_email_apps_title		No email apps found	Δεν βρέθηκαν εφαρμογές ηλεκτρονικού ταχυδρομείου		
 dialog_streaks_message		Your database will now be upgraded to support the new streaks feature.	Η βάση δεδομένων σας θα πρέπει τώρα να αναβαθμιστεί για να υποστηρίζει τη νέα λειτουργία για τα σερί.		
 dialog_streaks_title		New feature: Streaks!	Νέα λειτουργία: Σερί!		

@@ -478,7 +478,7 @@ debug_generate_random_data		Generate random data	Generovat náhodná data
 debug_generate_weight_data		Generate Weight Data	Generování údajů o hmotnosti		
 dialog_ask_user_to_rate_app_message		Please give us feedback in the Play Store.	Dejte nám zpětnou vazbu v Obchodě Play.		
 dialog_ask_user_to_rate_app_title		Do you like this app?	Líbí se vám tato aplikace?		
-dialog_no_email_apps_message		Backing up your data requires you to have an email app installed so you can email the .csv backup file to yourself. Please install an email app and try again.	Zálohování dat vyžaduje, abyste měli nainstalovanou e-mailovou aplikaci, abyste si mohli poslat e-mailem záložní soubor .csv. Nainstalujte si e-mailovou aplikaci a zkuste to znovu.		
+dialog_no_email_apps_message		Backing up your data requires you to have an email app installed so you can email the backup file to yourself. Please install an email app and try again.	Zálohování dat vyžaduje, abyste měli nainstalovanou e-mailovou aplikaci, abyste si mohli poslat e-mailem záložní soubor. Nainstalujte si e-mailovou aplikaci a zkuste to znovu.		
 dialog_no_email_apps_title		No email apps found	Nebyla nalezena e-mailové aplikace		
 dialog_streaks_message		Your database will now be upgraded to support the new streaks feature.	Vaše databáze bude nyní upgradována, aby podporovala novou funkci Grafy		
 dialog_streaks_title		New feature: Streaks!	Nová funkce: Grafy!		
