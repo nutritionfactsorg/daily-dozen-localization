@@ -41,7 +41,7 @@ _App Localizations & Store Distribution_
 | [Chinese_HongKong][locale-zh-HK]      |   | [zh-HK][droid-zh-HK]     |   | `zh-HK`   | [Hong Kong (HK)][apple-zh-HK]
 | [Chinese_Simplified][locale-zh-Hans]  |   | [zh-Hans][droid-zh-Hans] |   | `zh-Hans` | [China (CN)][apple-zh-Hans],<br>[Singapore (SG)][apple-zh-Hans-SG]
 | [Chinese_Traditional][locale-zh-Hant] | ✓ | [zh-Hant][droid-zh-Hant] |   | `zh-Hant` | [Macau (MO)][apple-zh-Hant-MO],<br>[Tiawan (TW)][apple-zh-Hant]
-| [Czech][locale-cs]       | T | [cs][droid-cs] | T | `cs` | [Czech Republic (CZ)][apple-cs]
+| [Czech][locale-cs]       | T | [cs][droid-cs] | ✓ | `cs` | [Czech Republic (CZ)][apple-cs]
 | [Danish][locale-da]      |   | [da][droid-da] |   | `da` | [Denmark (DK)][apple-da]
 | [Dutch][locale-nl]       |   | [nl][droid-nl] |   | `nl` | [Netherlands (NL)][apple-nl]
 | [Estonian][locale-et]    |   | [et][droid-et] |   | `et` | [Estonia (EE)][apple-et]
