@@ -1,6 +1,0 @@
-key_droid	key_apple	base_value	lang_value	base_note	lang_note
-android_store_whatsnew_analytics	apple_store_whatsnew_analytics	Adds anonymous opt-in analytics to support product improvement.	Přidává anonymní analytiku přihlášení na podporu zlepšování produktu.	What's New Item	
-	apple_store_whatsnew_darkmode	Adds support for Dark Mode.	Přidává podporu pro tmavý režim.	What's New Item	
-	apple_store_whatsnew_export	Adds support to export history data.	Přidává podporu pro export dat historie.	What's New Item	
-	apple_store_whatsnew_import	Adds support to import history data.	Přidává podporu pro import historických dat.	What's New Item	
-android_store_whatsnew_improvement	apple_store_whatsnew_improvement	General software quality improvements.	Obecná vylepšení kvality softwaru.	What's New Item	
