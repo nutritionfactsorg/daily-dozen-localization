@@ -63,18 +63,6 @@ DO_NORMALIZE_BATCH
 SOURCE_TSV_INCLUDE="Chinese_Traditional/tsv/v01/Chinese_Traditional_zh-Hant.store.changeset01.20220823.intake.tsv"
 DO_NORMALIZE_BATCH
 
-###########
-## Czech ##
-###########
-LOGGER_FILENAME="_log_FromTsvIntakeC_Czech_cs"
-# ## -- (cs) process app --
-SOURCE_TSV_INCLUDE="Czech/tsv/v01/Czech_cs.app.changeset01.20221024.intake.tsv"
-DO_NORMALIZE_BATCH
-
-# ## -- (cs) process store --
-SOURCE_TSV_INCLUDE="Czech/tsv/v01/Czech_cs.store.changeset01.20221024.intake.tsv"
-DO_NORMALIZE_BATCH
-
 ############
 ## German ##
 ############
@@ -147,7 +135,6 @@ LOGGER_FILENAME="_log_FromTsvIntakeC_Romanian_ro"
 #SOURCE_TSV_INCLUDE="Romanian/tsv/v01/Romanian_ro.store.changeset01.???.intake.tsv"
 #DO_NORMALIZE_BATCH
 
-
 #############
 ## Russian ##
 #############
@@ -158,6 +145,18 @@ DO_NORMALIZE_BATCH
 
 ## -- (ru) process store --
 SOURCE_TSV_INCLUDE="Russian/tsv/v01/Russian_ru.store.changeset01.20220906.intake.tsv"
+DO_NORMALIZE_BATCH
+
+############
+## Slovak ##
+############
+LOGGER_FILENAME="_log_FromTsvIntakeC_Slovak_sk"
+# ## -- (cs) process app --
+SOURCE_TSV_INCLUDE="Slovak/tsv/v01/Slovak_sk.app.changeset01.20221205.intake.tsv"
+DO_NORMALIZE_BATCH
+
+# ## -- (cs) process store --
+SOURCE_TSV_INCLUDE="Slovak/tsv/v01/Slovak_sk.store.changeset01.20221205.intake.tsv"
 DO_NORMALIZE_BATCH
 
 #############
@@ -191,4 +190,16 @@ DO_NORMALIZE_BATCH
 
 ## -- (ca) process store --
 SOURCE_TSV_INCLUDE="Catalan/tsv/v01/Catalan_ca.store.changeset01.?.intake.tsv"
+DO_NORMALIZE_BATCH
+
+###########
+## Czech ##
+###########
+LOGGER_FILENAME="_log_FromTsvIntakeC_Czech_cs"
+# ## -- (cs) process app --
+SOURCE_TSV_INCLUDE="Czech/tsv/v01/Czech_cs.app.changeset01.20221024.intake.tsv"
+DO_NORMALIZE_BATCH
+
+# ## -- (cs) process store --
+SOURCE_TSV_INCLUDE="Czech/tsv/v01/Czech_cs.store.changeset01.20221024.intake.tsv"
 DO_NORMALIZE_BATCH
