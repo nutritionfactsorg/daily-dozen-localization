@@ -184,6 +184,20 @@ SOURCE_TSV_INCLUDE="Russian/tsv/v01/Russian_ru.store.tsv"
 SOURCE_TSV_INCLUDE="Russian/tsv/v01/Russian_ru.store.changeset01.tsv"
 DO_NORMALIZE_BATCH
 
+############
+## Slovak ##
+############
+LOGGER_FILENAME="_log_FromTsvIntakeB+C_Slovak_sk"
+## -- (sk) process app --
+SOURCE_TSV_INCLUDE="Slovak/tsv/v01/Slovak_sk.app.tsv"
+SOURCE_TSV_INCLUDE="Slovak/tsv/v01/Slovak_sk.app.changeset01.tsv"
+DO_NORMALIZE_BATCH
+
+## -- (sk) process store --
+SOURCE_TSV_INCLUDE="Slovak/tsv/v01/Slovak_sk.store.tsv"
+SOURCE_TSV_INCLUDE="Slovak/tsv/v01/Slovak_sk.store.changeset01.tsv"
+DO_NORMALIZE_BATCH
+
 #############
 ## Spanish ##
 #############
