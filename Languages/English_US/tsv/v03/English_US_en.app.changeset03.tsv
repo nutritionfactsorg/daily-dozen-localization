@@ -1,4 +1,13 @@
 key_droid	key_apple	base_value	lang_value	base_note	lang_note
+serving_sizes	doze_detail_section_sizes	Serving Sizes (Suggested)	Serving Sizes (Suggested)	Doze Detail View subheading: ‘Serving Sizes’	
+food_info_serving_sizes_beans_imperial.0	dozeBeans.Serving.imperial.0	¼ cup hummus or bean dip	¼ cup hummus or bean dip		
+food_info_serving_sizes_beans_imperial.1	dozeBeans.Serving.imperial.1	½ cup cooked beans, split peas, lentils	½ cup cooked beans, split peas, lentils		
+food_info_serving_sizes_beans_imperial.2	dozeBeans.Serving.imperial.2	½ cup tofu, or tempeh	½ cup tofu, or tempeh		
+food_info_serving_sizes_beans_imperial.3	dozeBeans.Serving.imperial.3	1 cup fresh peas or sprouted beans (lentils, mung beans)	1 cup of fresh peas or sprouted beans (lentils, mung beans)		
+food_info_serving_sizes_beans_metric.0	dozeBeans.Serving.metric.0	60 g hummus or bean dip	60 g of hummus or bean dip		
+food_info_serving_sizes_beans_metric.1	dozeBeans.Serving.metric.1	90 g cooked beans, split peas, lentils	130 g cooked beans, split peas, lentils		
+food_info_serving_sizes_beans_metric.2	dozeBeans.Serving.metric.2	90 g tofu, or tempeh	130 g tofu, or tempeh		
+food_info_serving_sizes_beans_metric.3	dozeBeans.Serving.metric.3	150 g fresh peas or sprouted beans (lentils, mung beans)	150 g of fresh peas or sprouted beans (lentils, mung beans)		
 faq_scaling_question	faq_scaling_question	The Daily Dozen is too much/too little food for me! Can I adapt it?	The Daily Dozen is too much/too little food for me! Can I adapt it?		
 faq_scaling_response	faq_scaling_response	Yes, the Daily Dozen is simply meant to be a guide of the healthiest foods that we strive to include every day. It’s not a meal plan and is not meant to be prescriptive. Do your best to eat a diverse array of whole plant foods and adapt the Daily Dozen to the quantities that work for you.	Yes, the Daily Dozen is simply meant to be a guide of the healthiest foods that we strive to include every day. It’s not a meal plan and is not meant to be prescriptive. Do your best to eat a diverse array of whole plant foods and adapt the Daily Dozen to the quantities that work for you.		
 faq_age_question	faq_age_question	Is this adaptable for children, adolescents, and teens?	Is this adaptable for children, adolescents, and teens?		
