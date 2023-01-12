@@ -7,12 +7,12 @@ serving_sizes	doze_detail_section_sizes	Serving Sizes	份量大小	Doze Detail V
 types	doze_detail_section_types	Types	種類	Doze Detail View subheading: ‘Types’	
 servings	doze_entry_header	Servings	份量	Doze Entry View heading: ‘Servings’	
 beans	dozeBeans.heading	Beans	豆類	heading for daily data entry item	
-food_info_serving_sizes_beans_imperial.0	dozeBeans.Serving.imperial.0	¼ cup of hummus or bean dip	¼杯鷹嘴豆泥或豆子沾醬		
+food_info_serving_sizes_beans_imperial.0	dozeBeans.Serving.imperial.0	¼ cup hummus or bean dip	¼杯鷹嘴豆泥或豆子沾醬		
 food_info_serving_sizes_beans_imperial.1	dozeBeans.Serving.imperial.1	½ cup cooked beans, split peas, lentils, tofu, or tempeh	,		
-food_info_serving_sizes_beans_imperial.2	dozeBeans.Serving.imperial.2	1 cup of fresh peas or sprouted lentils	½杯煮熟的豆子、豌豆、扁豆、豆腐或天貝		
-food_info_serving_sizes_beans_metric.0	dozeBeans.Serving.metric.0	60 g of hummus or bean dip	¼杯鷹嘴豆泥或豆子沾醬		
+food_info_serving_sizes_beans_imperial.2	dozeBeans.Serving.imperial.2	1 cup fresh peas or sprouted lentils	½杯煮熟的豆子、豌豆、扁豆、豆腐或天貝		
+food_info_serving_sizes_beans_metric.0	dozeBeans.Serving.metric.0	60 g hummus or bean dip	¼杯鷹嘴豆泥或豆子沾醬		
 food_info_serving_sizes_beans_metric.1	dozeBeans.Serving.metric.1	130 g cooked beans, split peas, lentils, tofu, or tempeh	,		
-food_info_serving_sizes_beans_metric.2	dozeBeans.Serving.metric.2	150 g of fresh peas or sprouted lentils	½杯煮熟的豆子、豌豆、扁豆、豆腐或天貝		
+food_info_serving_sizes_beans_metric.2	dozeBeans.Serving.metric.2	150 g fresh peas or sprouted lentils	½杯煮熟的豆子、豌豆、扁豆、豆腐或天貝		
 food_info_types_beans.0	dozeBeans.Variety.Text.0	Black beans	黑豆		
 food_info_types_beans.1	dozeBeans.Variety.Text.1	Black-eyed peas	黑眼豆		
 food_info_types_beans.2	dozeBeans.Variety.Text.2	Butter beans	利馬豆		
@@ -290,12 +290,12 @@ whole_grains	dozeWholeGrains.heading	Whole Grains	全穀類	heading for daily da
 food_info_serving_sizes_whole_grains_imperial.0	dozeWholeGrains.Serving.imperial.0	½ cup hot cereal or cooked grains, pasta, or corn kernels	½杯熱麥片或煮熟的穀物、義大利麵或玉米粒		
 food_info_serving_sizes_whole_grains_imperial.1	dozeWholeGrains.Serving.imperial.1	1 cup cold cereal	1杯冷麥片		
 food_info_serving_sizes_whole_grains_imperial.2	dozeWholeGrains.Serving.imperial.2	1 tortilla or slice of bread	1份墨西哥薄餅或1片麵包		
-food_info_serving_sizes_whole_grains_imperial.3	dozeWholeGrains.Serving.imperial.3	½ a bagel or English muffin	½個貝果或英式鬆餅		
+food_info_serving_sizes_whole_grains_imperial.3	dozeWholeGrains.Serving.imperial.3	½ bagel or English muffin	½個貝果或英式鬆餅		
 food_info_serving_sizes_whole_grains_imperial.4	dozeWholeGrains.Serving.imperial.4	3 cups popped popcorn	3杯爆好的爆米花		
 food_info_serving_sizes_whole_grains_metric.0	dozeWholeGrains.Serving.metric.0	100 g hot cereal or cooked grains, pasta, or corn kernels	½杯熱麥片或煮熟的穀物、義大利麵或玉米粒		
 food_info_serving_sizes_whole_grains_metric.1	dozeWholeGrains.Serving.metric.1	50 g cold cereal	1杯冷麥片		
 food_info_serving_sizes_whole_grains_metric.2	dozeWholeGrains.Serving.metric.2	1 tortilla or slice of bread	1份墨西哥薄餅或1片麵包		
-food_info_serving_sizes_whole_grains_metric.3	dozeWholeGrains.Serving.metric.3	½ a bagel or English muffin	½個貝果或英式鬆餅		
+food_info_serving_sizes_whole_grains_metric.3	dozeWholeGrains.Serving.metric.3	½ bagel or English muffin	½個貝果或英式鬆餅		
 food_info_serving_sizes_whole_grains_metric.4	dozeWholeGrains.Serving.metric.4	30 g popped popcorn	3杯爆好的爆米花		
 food_info_types_whole_grains.0	dozeWholeGrains.Variety.Text.0	Barley	大麥		
 food_info_types_whole_grains.1	dozeWholeGrains.Variety.Text.1	Buckwheat	蕎麥		

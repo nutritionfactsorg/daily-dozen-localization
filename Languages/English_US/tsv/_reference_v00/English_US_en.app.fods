@@ -410,7 +410,7 @@
       <text:p>dozeBeans.Serving.imperial.0</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
-      <text:p>¼ cup of hummus or bean dip</text:p>
+      <text:p>¼ cup hummus or bean dip</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="2"/>
     </table:table-row>
@@ -434,7 +434,7 @@
       <text:p>dozeBeans.Serving.imperial.2</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
-      <text:p>1 cup of fresh peas or sprouted lentils</text:p>
+      <text:p>1 cup fresh peas or sprouted lentils</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="2"/>
     </table:table-row>
@@ -446,7 +446,7 @@
       <text:p>dozeBeans.Serving.metric.0</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
-      <text:p>60 g of hummus or bean dip</text:p>
+      <text:p>60 g hummus or bean dip</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="2"/>
     </table:table-row>
@@ -470,7 +470,7 @@
       <text:p>dozeBeans.Serving.metric.2</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
-      <text:p>150 g of fresh peas or sprouted lentils</text:p>
+      <text:p>150 g fresh peas or sprouted lentils</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="2"/>
     </table:table-row>
@@ -3845,7 +3845,7 @@
       <text:p>dozeWholeGrains.Serving.imperial.3</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
-      <text:p>½ a bagel or English muffin</text:p>
+      <text:p>½ bagel or English muffin</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="2"/>
     </table:table-row>
@@ -3905,7 +3905,7 @@
       <text:p>dozeWholeGrains.Serving.metric.3</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
-      <text:p>½ a bagel or English muffin</text:p>
+      <text:p>½ bagel or English muffin</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="2"/>
     </table:table-row>

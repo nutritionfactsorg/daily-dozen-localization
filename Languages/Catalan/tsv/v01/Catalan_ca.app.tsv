@@ -7,12 +7,12 @@ serving_sizes	doze_detail_section_sizes	Serving Sizes	Mida de les porcions	Doze 
 types	doze_detail_section_types	Types	Tipus	Doze Detail View subheading: ‘Types’	
 servings	doze_entry_header	Servings	Porcions	Doze Entry View heading: ‘Servings’	
 beans	dozeBeans.heading	Beans	Llegums	heading for daily data entry item	
-food_info_serving_sizes_beans_imperial.0	dozeBeans.Serving.imperial.0	¼ cup of hummus or bean dip	¼ tassa d'hummus o untable de llegums		
+food_info_serving_sizes_beans_imperial.0	dozeBeans.Serving.imperial.0	¼ cup hummus or bean dip	¼ tassa d'hummus o untable de llegums		
 food_info_serving_sizes_beans_imperial.1	dozeBeans.Serving.imperial.1	½ cup cooked beans, split peas, lentils, tofu, or tempeh	½ tassa de llegums cuits, mongetes seques, llenties, tofu o tempeh		
-food_info_serving_sizes_beans_imperial.2	dozeBeans.Serving.imperial.2	1 cup of fresh peas or sprouted lentils	1 tassa de pèsols frescos o germinats de llenties		
-food_info_serving_sizes_beans_metric.0	dozeBeans.Serving.metric.0	60 g of hummus or bean dip	60 g d'hummus o untable de llegums		
+food_info_serving_sizes_beans_imperial.2	dozeBeans.Serving.imperial.2	1 cup fresh peas or sprouted lentils	1 tassa de pèsols frescos o germinats de llenties		
+food_info_serving_sizes_beans_metric.0	dozeBeans.Serving.metric.0	60 g hummus or bean dip	60 g d'hummus o untable de llegums		
 food_info_serving_sizes_beans_metric.1	dozeBeans.Serving.metric.1	130 g cooked beans, split peas, lentils, tofu, or tempeh	130 g de llegums cuits, mongetes seques, llenties, tofu o tempeh		
-food_info_serving_sizes_beans_metric.2	dozeBeans.Serving.metric.2	150 g of fresh peas or sprouted lentils	150 g de pèsols frescos o germinats de llenties		
+food_info_serving_sizes_beans_metric.2	dozeBeans.Serving.metric.2	150 g fresh peas or sprouted lentils	150 g de pèsols frescos o germinats de llenties		
 food_info_types_beans.0	dozeBeans.Variety.Text.0	Black beans	Mongetes negres		
 food_info_types_beans.1	dozeBeans.Variety.Text.1	Black-eyed peas	Mongetes de l'ull negre		
 food_info_types_beans.2	dozeBeans.Variety.Text.2	Butter beans	Garrofons		
@@ -290,12 +290,12 @@ whole_grains	dozeWholeGrains.heading	Whole Grains	Cereals integrals	heading for 
 food_info_serving_sizes_whole_grains_imperial.0	dozeWholeGrains.Serving.imperial.0	½ cup hot cereal or cooked grains, pasta, or corn kernels	½ tassa de cereals cuits, pasta integral o grans de blat cuits		
 food_info_serving_sizes_whole_grains_imperial.1	dozeWholeGrains.Serving.imperial.1	1 cup cold cereal	1 tassa de cereals freds		
 food_info_serving_sizes_whole_grains_imperial.2	dozeWholeGrains.Serving.imperial.2	1 tortilla or slice of bread	1 tortilla o llesca de pa		
-food_info_serving_sizes_whole_grains_imperial.3	dozeWholeGrains.Serving.imperial.3	½ a bagel or English muffin	½ bagel o muffin anglès		
+food_info_serving_sizes_whole_grains_imperial.3	dozeWholeGrains.Serving.imperial.3	½ bagel or English muffin	½ bagel o muffin anglès		
 food_info_serving_sizes_whole_grains_imperial.4	dozeWholeGrains.Serving.imperial.4	3 cups popped popcorn	3 tasses de crispetes de blat de moro		
 food_info_serving_sizes_whole_grains_metric.0	dozeWholeGrains.Serving.metric.0	100 g hot cereal or cooked grains, pasta, or corn kernels	100 g de cereals cuits, pasta integral o grans de blat cuits		
 food_info_serving_sizes_whole_grains_metric.1	dozeWholeGrains.Serving.metric.1	50 g cold cereal	50 g de cereals freds		
 food_info_serving_sizes_whole_grains_metric.2	dozeWholeGrains.Serving.metric.2	1 tortilla or slice of bread	1 tortilla o llesca de pa		
-food_info_serving_sizes_whole_grains_metric.3	dozeWholeGrains.Serving.metric.3	½ a bagel or English muffin	½ bagel o muffin anglès		
+food_info_serving_sizes_whole_grains_metric.3	dozeWholeGrains.Serving.metric.3	½ bagel or English muffin	½ bagel o muffin anglès		
 food_info_serving_sizes_whole_grains_metric.4	dozeWholeGrains.Serving.metric.4	30 g popped popcorn	30 g de crispetes de blat de moro		
 food_info_types_whole_grains.0	dozeWholeGrains.Variety.Text.0	Barley	Ordi		
 food_info_types_whole_grains.1	dozeWholeGrains.Variety.Text.1	Buckwheat	Blat sarraí		

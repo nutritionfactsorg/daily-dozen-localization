@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:rpt="http://openoffice.org/2005/report" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" office:version="1.3" office:mimetype="application/vnd.oasis.opendocument.spreadsheet">
- <office:meta><dc:date>2023-01-09T22:57:25.937640571</dc:date><meta:editing-duration>PT9H57M38S</meta:editing-duration><meta:editing-cycles>14</meta:editing-cycles><meta:generator>LibreOffice/7.4.3.2$MacOSX_AARCH64 LibreOffice_project/1048a8393ae2eeec98dff31b5c133c5f1d08b890</meta:generator><meta:document-statistic meta:table-count="1" meta:cell-count="111" meta:object-count="0"/></office:meta>
+ <office:meta><dc:date>2023-01-12T10:03:25.266152303</dc:date><meta:editing-duration>PT9H58M8S</meta:editing-duration><meta:editing-cycles>15</meta:editing-cycles><meta:generator>LibreOffice/7.4.3.2$MacOSX_AARCH64 LibreOffice_project/1048a8393ae2eeec98dff31b5c133c5f1d08b890</meta:generator><meta:document-statistic meta:table-count="1" meta:cell-count="111" meta:object-count="0"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
    <config:config-item config:name="VisibleAreaTop" config:type="int">0</config:config-item>
@@ -16,7 +16,7 @@
        <config:config-item config:name="CursorPositionX" config:type="int">3</config:config-item>
        <config:config-item config:name="CursorPositionY" config:type="int">11</config:config-item>
        <config:config-item config:name="ActiveSplitRange" config:type="short">2</config:config-item>
-       <config:config-item config:name="PositionLeft" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionLeft" config:type="int">1</config:config-item>
        <config:config-item config:name="PositionRight" config:type="int">0</config:config-item>
        <config:config-item config:name="PositionTop" config:type="int">0</config:config-item>
        <config:config-item config:name="PositionBottom" config:type="int">0</config:config-item>
@@ -356,7 +356,7 @@
       <text:p>1 cup fresh peas or snow peas</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>1 cup of fresh peas or snow peas</text:p>
+      <text:p>1 cup fresh peas or snow peas</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="16380"/>
     </table:table-row>
@@ -367,9 +367,9 @@
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>dozeBeans.Serving.imperial.4</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:span text:style-name="T1">1½</text:span> cup fresh sprouted beans (lentils, mung beans)</text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:span text:style-name="T1">1</text:span> cup fresh sprouted beans (lentils, mung beans)</text:p>
      </table:table-cell>
-     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:span text:style-name="T1">1½</text:span> cup of fresh sprouted beans (lentils, mung beans)</text:p>
+     <table:table-cell office:value-type="string" calcext:value-type="string"><text:p><text:span text:style-name="T1">1</text:span> cup fresh sprouted beans (lentils, mung beans)</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="16380"/>
     </table:table-row>
@@ -384,7 +384,7 @@
       <text:p>60 g hummus or bean dip</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>60 g of hummus or bean dip</text:p>
+      <text:p>60 g hummus or bean dip</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="16380"/>
     </table:table-row>
@@ -423,7 +423,7 @@
       <text:p>130 g fresh peas or snow peas</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>130 g of fresh peas or snow peas</text:p>
+      <text:p>130 g fresh peas or snow peas</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="16380"/>
     </table:table-row>
@@ -435,10 +435,10 @@
       <text:p>dozeBeans.Serving.metric.4</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>150 g fresh sprouted beans (lentils, mung beans)</text:p>
+      <text:p>100 g fresh sprouted beans (lentils, mung beans)</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>150 g of fresh sprouted beans (lentils, mung beans)</text:p>
+      <text:p>100 g fresh sprouted beans (lentils, mung beans)</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="16380"/>
     </table:table-row>

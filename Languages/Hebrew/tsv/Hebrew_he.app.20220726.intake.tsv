@@ -3,12 +3,12 @@ key_droid	key_apple	base_value	lang_value	base_note	lang_note
 	NSHealthUpdateUsageDescription	The 21 Tweaks feature can write weight data to HealthKit to help you keep track of your progress.	התכונה של "21 הכיוונונים" יכולה לשמור  נתוני משקל ב- HealthKit כדי לעזור לכם לעקוב אחרי ההתקדמות שלכם.	Privacy - Health Update Usage Description	
 back_to_today	dateBackButtonTitle	Back to today	חזור להיום	Date Button Title: ‘Back to today’	
 	dateButtonTitle.today	Today	היום	Date Button Title: ‘Today’	
-food_info_serving_sizes_beans_imperial.0	dozeBeans.Serving.imperial.0	¼ cup of hummus or bean dip	¼ כוס חומוס או ממרח שעועית		
+food_info_serving_sizes_beans_imperial.0	dozeBeans.Serving.imperial.0	¼ cup hummus or bean dip	¼ כוס חומוס או ממרח שעועית		
 food_info_serving_sizes_beans_imperial.1	dozeBeans.Serving.imperial.1	½ cup cooked beans, split peas, lentils, tofu, or tempeh	½ כוס קטניות מבושלות: שעועית, אפונה יבשה, עדשים, טופו או טמפה		
-food_info_serving_sizes_beans_imperial.2	dozeBeans.Serving.imperial.2	1 cup of fresh peas or sprouted lentils	1 כוס אפונה טריה או עדשים מונבטות		
-food_info_serving_sizes_beans_metric.0	dozeBeans.Serving.metric.0	60 g of hummus or bean dip	60 גרם חומוס או ממרח שעועית		
+food_info_serving_sizes_beans_imperial.2	dozeBeans.Serving.imperial.2	1 cup fresh peas or sprouted lentils	1 כוס אפונה טריה או עדשים מונבטות		
+food_info_serving_sizes_beans_metric.0	dozeBeans.Serving.metric.0	60 g hummus or bean dip	60 גרם חומוס או ממרח שעועית		
 food_info_serving_sizes_beans_metric.1	dozeBeans.Serving.metric.1	130 g cooked beans, split peas, lentils, tofu, or tempeh	130 גרם קטניות מבושלות: שעועית, אפונה יבשה, עדשים, טופו או טמפה		
-food_info_serving_sizes_beans_metric.2	dozeBeans.Serving.metric.2	150 g of fresh peas or sprouted lentils	150גרם אפונה טריה או עדשים מונבטות		
+food_info_serving_sizes_beans_metric.2	dozeBeans.Serving.metric.2	150 g fresh peas or sprouted lentils	150גרם אפונה טריה או עדשים מונבטות		
 food_info_types_beans.0	dozeBeans.Variety.Text.0	Black beans	שעועית שחורה		
 food_info_types_beans.1	dozeBeans.Variety.Text.1	Black-eyed peas	לוביה		
 food_info_types_beans.10	dozeBeans.Variety.Text.10	Miso	מיסו		
@@ -286,12 +286,12 @@ other_vegetables	dozeVegetablesOther.heading	Other Vegetables	ירקות אחר�
 food_info_serving_sizes_whole_grains_imperial.0	dozeWholeGrains.Serving.imperial.0	½ cup hot cereal or cooked grains, pasta, or corn kernels	½ כוס דגני בוקר חמים או דגנים מבושלים, פסטה או גרעיני תירס		
 food_info_serving_sizes_whole_grains_imperial.1	dozeWholeGrains.Serving.imperial.1	1 cup cold cereal	1 כוס דגני בוקר קרים		
 food_info_serving_sizes_whole_grains_imperial.2	dozeWholeGrains.Serving.imperial.2	1 tortilla or slice of bread	1 טורטיה או פרוסת לחם		
-food_info_serving_sizes_whole_grains_imperial.3	dozeWholeGrains.Serving.imperial.3	½ a bagel or English muffin	½ בייגל או מאפין 		
+food_info_serving_sizes_whole_grains_imperial.3	dozeWholeGrains.Serving.imperial.3	½ bagel or English muffin	½ בייגל או מאפין 		
 food_info_serving_sizes_whole_grains_imperial.4	dozeWholeGrains.Serving.imperial.4	3 cups popped popcorn	3 כוסות פופקורן מוכן		
 food_info_serving_sizes_whole_grains_metric.0	dozeWholeGrains.Serving.metric.0	100 g hot cereal or cooked grains, pasta, or corn kernels	100 גרם דגני בוקר חמים או דגנים מבושלים, פסטה או לבבות תירס		
 food_info_serving_sizes_whole_grains_metric.1	dozeWholeGrains.Serving.metric.1	50 g cold cereal	50 גרם דגני בוקר קרים		
 food_info_serving_sizes_whole_grains_metric.2	dozeWholeGrains.Serving.metric.2	1 tortilla or slice of bread	1 טורטיה או פרוסת לחם		
-food_info_serving_sizes_whole_grains_metric.3	dozeWholeGrains.Serving.metric.3	½ a bagel or English muffin	½ בייגל או מאפין אנגלי		
+food_info_serving_sizes_whole_grains_metric.3	dozeWholeGrains.Serving.metric.3	½ bagel or English muffin	½ בייגל או מאפין אנגלי		
 food_info_serving_sizes_whole_grains_metric.4	dozeWholeGrains.Serving.metric.4	30 g popped popcorn	30 גרם פופקורן מוכן		
 food_info_types_whole_grains.0	dozeWholeGrains.Variety.Text.0	Barley	שעורה		
 food_info_types_whole_grains.1	dozeWholeGrains.Variety.Text.1	Buckwheat	כוסמת		

@@ -7,12 +7,12 @@ serving_sizes	doze_detail_section_sizes	Serving Sizes	Dimensiunea unei porții	D
 types	doze_detail_section_types	Types	Varietăți	Doze Detail View subheading: ‘Types’	
 servings	doze_entry_header	Servings	Porții	Doze Entry View heading: ‘Servings’	
 beans	dozeBeans.heading	Beans	Leguminoase boabe	heading for daily data entry item	
-food_info_serving_sizes_beans_imperial.0	dozeBeans.Serving.imperial.0	¼ cup of hummus or bean dip	¼ cană humus sau de fasole frecată		
+food_info_serving_sizes_beans_imperial.0	dozeBeans.Serving.imperial.0	¼ cup hummus or bean dip	¼ cană humus sau de fasole frecată		
 food_info_serving_sizes_beans_imperial.1	dozeBeans.Serving.imperial.1	½ cup cooked beans, split peas, lentils, tofu, or tempeh	½ cană fasole gătită, mazăre uscată (galbenă sau verde), linte, tofu sau tempeh		
-food_info_serving_sizes_beans_imperial.2	dozeBeans.Serving.imperial.2	1 cup of fresh peas or sprouted lentils	1 cană mazăre proaspată sau linte încolțită		
-food_info_serving_sizes_beans_metric.0	dozeBeans.Serving.metric.0	60 g of hummus or bean dip	60 g humus sau de fasole frecată		
+food_info_serving_sizes_beans_imperial.2	dozeBeans.Serving.imperial.2	1 cup fresh peas or sprouted lentils	1 cană mazăre proaspată sau linte încolțită		
+food_info_serving_sizes_beans_metric.0	dozeBeans.Serving.metric.0	60 g hummus or bean dip	60 g humus sau de fasole frecată		
 food_info_serving_sizes_beans_metric.1	dozeBeans.Serving.metric.1	130 g cooked beans, split peas, lentils, tofu, or tempeh	130 g fasole gătită, mazăre uscată (galbenă sau verde), linte, tofu sau tempeh		
-food_info_serving_sizes_beans_metric.2	dozeBeans.Serving.metric.2	150 g of fresh peas or sprouted lentils	150 g mazăre proaspată sau linte încolțită		
+food_info_serving_sizes_beans_metric.2	dozeBeans.Serving.metric.2	150 g fresh peas or sprouted lentils	150 g mazăre proaspată sau linte încolțită		
 food_info_types_beans.0	dozeBeans.Variety.Text.0	Black beans	Fasole neagră		
 food_info_types_beans.1	dozeBeans.Variety.Text.1	Black-eyed peas	Fasole ochi negru		
 food_info_types_beans.2	dozeBeans.Variety.Text.2	Butter beans	Fasole untoasă		
@@ -290,12 +290,12 @@ whole_grains	dozeWholeGrains.heading	Whole Grains	Cereale integrale	heading for 
 food_info_serving_sizes_whole_grains_imperial.0	dozeWholeGrains.Serving.imperial.0	½ cup hot cereal or cooked grains, pasta, or corn kernels	½ cup cereale calde sau cereale gătite, paste, sau boabe de porumb		
 food_info_serving_sizes_whole_grains_imperial.1	dozeWholeGrains.Serving.imperial.1	1 cup cold cereal	1 cup cereale reci		
 food_info_serving_sizes_whole_grains_imperial.2	dozeWholeGrains.Serving.imperial.2	1 tortilla or slice of bread	1 tortilla sau felie de pâine		
-food_info_serving_sizes_whole_grains_imperial.3	dozeWholeGrains.Serving.imperial.3	½ a bagel or English muffin	½ o baghetă sau brioșă englezească		
+food_info_serving_sizes_whole_grains_imperial.3	dozeWholeGrains.Serving.imperial.3	½ bagel or English muffin	½ o baghetă sau brioșă englezească		
 food_info_serving_sizes_whole_grains_imperial.4	dozeWholeGrains.Serving.imperial.4	3 cups popped popcorn	3 cups floricele de porumb (pop-corn)		
 food_info_serving_sizes_whole_grains_metric.0	dozeWholeGrains.Serving.metric.0	100 g hot cereal or cooked grains, pasta, or corn kernels	100 g cereale calde sau cereale gătite, paste, sau boabe de porumb		
 food_info_serving_sizes_whole_grains_metric.1	dozeWholeGrains.Serving.metric.1	50 g cold cereal	50 g cereale reci		
 food_info_serving_sizes_whole_grains_metric.2	dozeWholeGrains.Serving.metric.2	1 tortilla or slice of bread	1 tortilla sau felie de pâine		
-food_info_serving_sizes_whole_grains_metric.3	dozeWholeGrains.Serving.metric.3	½ a bagel or English muffin	½ o baghetă sau brioșă englezească		
+food_info_serving_sizes_whole_grains_metric.3	dozeWholeGrains.Serving.metric.3	½ bagel or English muffin	½ o baghetă sau brioșă englezească		
 food_info_serving_sizes_whole_grains_metric.4	dozeWholeGrains.Serving.metric.4	30 g popped popcorn	30 g floricele de porumb (pop-corn)		
 food_info_types_whole_grains.0	dozeWholeGrains.Variety.Text.0	Barley	Orz		
 food_info_types_whole_grains.1	dozeWholeGrains.Variety.Text.1	Buckwheat	Hrișcă		

@@ -7,12 +7,12 @@ serving_sizes	doze_detail_section_sizes	Serving Sizes	Portionsgrößen	Doze Deta
 types	doze_detail_section_types	Types	Arten	Doze Detail View subheading: ‘Types’	
 servings	doze_entry_header	Servings	Portionen	Doze Entry View heading: ‘Servings’	
 beans	dozeBeans.heading	Beans	Bohnen	heading for daily data entry item	
-food_info_serving_sizes_beans_imperial.0	dozeBeans.Serving.imperial.0	¼ cup of hummus or bean dip	¼ Tasse Hummus oder Bohnendip		
+food_info_serving_sizes_beans_imperial.0	dozeBeans.Serving.imperial.0	¼ cup hummus or bean dip	¼ Tasse Hummus oder Bohnendip		
 food_info_serving_sizes_beans_imperial.1	dozeBeans.Serving.imperial.1	½ cup cooked beans, split peas, lentils, tofu, or tempeh	½ Tasse gekochte Bohnen, Erbsen, Linsen, Tofu oder Tempeh		
-food_info_serving_sizes_beans_imperial.2	dozeBeans.Serving.imperial.2	1 cup of fresh peas or sprouted lentils	1 Tasse frische Erbsen oder gekeimte Linsen		
-food_info_serving_sizes_beans_metric.0	dozeBeans.Serving.metric.0	60 g of hummus or bean dip	60g Hummus oder Bohnendip		
+food_info_serving_sizes_beans_imperial.2	dozeBeans.Serving.imperial.2	1 cup fresh peas or sprouted lentils	1 Tasse frische Erbsen oder gekeimte Linsen		
+food_info_serving_sizes_beans_metric.0	dozeBeans.Serving.metric.0	60 g hummus or bean dip	60g Hummus oder Bohnendip		
 food_info_serving_sizes_beans_metric.1	dozeBeans.Serving.metric.1	130 g cooked beans, split peas, lentils, tofu, or tempeh	130g gekochte Bohnen, Erbsen, Linsen, Tofu oder Tempeh		
-food_info_serving_sizes_beans_metric.2	dozeBeans.Serving.metric.2	150 g of fresh peas or sprouted lentils	150g frische Erbsen oder gekeimte Linsen		
+food_info_serving_sizes_beans_metric.2	dozeBeans.Serving.metric.2	150 g fresh peas or sprouted lentils	150g frische Erbsen oder gekeimte Linsen		
 food_info_types_beans.0	dozeBeans.Variety.Text.0	Black beans	Schwarze Bohnen		
 food_info_types_beans.1	dozeBeans.Variety.Text.1	Black-eyed peas	Schwarzäugige Erbsen (Bohnen)		
 food_info_types_beans.2	dozeBeans.Variety.Text.2	Butter beans	Butterbohnen (Wachsbohnen)		
@@ -290,12 +290,12 @@ whole_grains	dozeWholeGrains.heading	Whole Grains	Vollkorn	heading for daily dat
 food_info_serving_sizes_whole_grains_imperial.0	dozeWholeGrains.Serving.imperial.0	½ cup hot cereal or cooked grains, pasta, or corn kernels	½ Tasse Getreideflockenbrei oder gekochte Körner, Nudeln oder Maiskörner		
 food_info_serving_sizes_whole_grains_imperial.1	dozeWholeGrains.Serving.imperial.1	1 cup cold cereal	1 Tasse Getreideflocken		
 food_info_serving_sizes_whole_grains_imperial.2	dozeWholeGrains.Serving.imperial.2	1 tortilla or slice of bread	1 Tortilla oder 1 Scheibe Brot		
-food_info_serving_sizes_whole_grains_imperial.3	dozeWholeGrains.Serving.imperial.3	½ a bagel or English muffin	½ Bagel oder ½ Englischer Muffin		
+food_info_serving_sizes_whole_grains_imperial.3	dozeWholeGrains.Serving.imperial.3	½ bagel or English muffin	½ Bagel oder ½ Englischer Muffin		
 food_info_serving_sizes_whole_grains_imperial.4	dozeWholeGrains.Serving.imperial.4	3 cups popped popcorn	3 Tassen Popcorn		
 food_info_serving_sizes_whole_grains_metric.0	dozeWholeGrains.Serving.metric.0	100 g hot cereal or cooked grains, pasta, or corn kernels	100 g Getreideflockenbrei oder gekochte Körner, Nudeln oder Maiskörner		
 food_info_serving_sizes_whole_grains_metric.1	dozeWholeGrains.Serving.metric.1	50 g cold cereal	50 g Getreideflocken		
 food_info_serving_sizes_whole_grains_metric.2	dozeWholeGrains.Serving.metric.2	1 tortilla or slice of bread	1 Tortilla oder 1 Scheibe Brot		
-food_info_serving_sizes_whole_grains_metric.3	dozeWholeGrains.Serving.metric.3	½ a bagel or English muffin	½ Bagel oder ½ Englischer Muffin		
+food_info_serving_sizes_whole_grains_metric.3	dozeWholeGrains.Serving.metric.3	½ bagel or English muffin	½ Bagel oder ½ Englischer Muffin		
 food_info_serving_sizes_whole_grains_metric.4	dozeWholeGrains.Serving.metric.4	30 g popped popcorn	30 g Popcorn		
 food_info_types_whole_grains.0	dozeWholeGrains.Variety.Text.0	Barley	Gerste		
 food_info_types_whole_grains.1	dozeWholeGrains.Variety.Text.1	Buckwheat	Buchweizen		
