@@ -315,7 +315,7 @@
       <text:p>Adds support to import history data.</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>Adds support to import data import.</text:p>
+      <text:p>Adds support to import history data.</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>What&apos;s New Item</text:p>
