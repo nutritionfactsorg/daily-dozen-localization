@@ -1,0 +1,75 @@
+### FILE: batch_normal_FromTsvIntake.txt
+### WORKFLOW:  `*.strings` content based `*.tsv`
+### SCOPE: all planned languages
+###
+
+### Note: changeset01 not currently included in this processing file.
+
+###################
+## General Setup ##
+###################
+DIRNAME_OUTPUT_NORMAL="FromTsvIntake_it"
+LOGGER_FILENAME="_log_FromTsvIntake_it__"
+LOGGER_LEVEL_INFO
+
+## Base English_US paths into which translations are mapped
+## use one or the other.
+BASE_JSON_DIR="English_US/ios/en-US_reference/LocalStrings/en.lproj"
+#BASE_JSON_DIR="English_US/ios/en-US_reference/LocalStrings/en.changeset01.lproj"
+
+BASE_TSV_INCLUDE="English_US/tsv/English_US_en.app.tsv"
+#BASE_TSV_INCLUDE="English_US/tsv/v01/English_US_en.app.changeset01.tsv"
+
+BASE_TSV_INCLUDE="English_US/tsv/English_US_en.store.tsv"
+#BASE_TSV_INCLUDE="English_US/tsv/v01/English_US_en.store.changeset01.tsv"
+
+BASE_TSV_INCLUDE="English_US/tsv/English_US_en.url_fragments.tsv"
+BASE_TSV_INCLUDE="English_US/tsv/English_US_en.url_topics.tsv"
+
+### ------ ANDROID_LANG --> NORMALIZE XML -----
+BASE_XML_URL="English_US/android/values/strings.xml"
+#BASE_XML_URL="English_US/android/values/strings.changeset01.xml"
+
+## Note: currently, URL_TOPICS_TSV is the same for all languages except Spanish.
+URL_FRAGMENTS_TSV="English_US/tsv/English_US_en.url_fragments.tsv"
+URL_TOPICS_TSV="English_US/tsv/English_US_en.url_topics.tsv"
+
+####################################
+## English_US: Baseline Reference ##
+####################################
+LOGGER_FILENAME="_log_FromTsvIntake__US_en"
+
+SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.app.tsv"
+#SOURCE_TSV_INCLUDE="English_US/tsv/v01/English_US_en.app.changeset01.tsv"
+DO_NORMALIZE_BATCH
+
+### standalone change set processing
+#SOURCE_TSV_INCLUDE="English_US/tsv/v01/English_US_en.app.changeset01.tsv"
+#DO_NORMALIZE_BATCH
+
+SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.store.tsv"
+##SOURCE_TSV_INCLUDE="English_US/tsv/v01/English_US_en.store.changeset01.tsv"
+DO_NORMALIZE_BATCH
+
+### standalone change set processing
+#SOURCE_TSV_INCLUDE="English_US/tsv/v01/English_US_en.store.changeset01.tsv"
+#DO_NORMALIZE_BATCH
+
+SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.url_fragments.tsv"
+DO_NORMALIZE_BATCH
+
+SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.url_topics.tsv"
+DO_NORMALIZE_BATCH
+
+##############
+## Romanian ##
+##############
+LOGGER_FILENAME="_log_FromTsvIntakeC_Romanian_ro"
+# ## -- (ro) process app --
+SOURCE_TSV_INCLUDE="Romanian/tsv/Romanian_ro.app.20230125.intake.tsv"
+DO_NORMALIZE_BATCH
+
+# ## -- (ro) process store --
+SOURCE_TSV_INCLUDE="Romanian/tsv/Romanian_ro.store.20230125.intake.tsv"
+DO_NORMALIZE_BATCH
+
