@@ -1,0 +1,6 @@
+key_droid	key_apple	base_value	lang_value	base_note	lang_note
+android_store_whatsnew_improvement	apple_store_whatsnew_improvement	General software quality improvements.	Îmbunătățiri generale ale calității software-ului.	What's New Item	
+android_store_whatsnew_analytics	apple_store_whatsnew_analytics	Adds anonymous opt-in analytics to support product improvement.	Adaugă analiza anonimă a datelor web pe bază de consimțământ explicit în scopul îmbunătățirii produsului.  	What's New Item	It depends on whether the anonymous refers to the opt-in or the data analysis. Changed to refer to the data analytics as anonymous. 
+	apple_store_whatsnew_darkmode	Adds support for Dark Mode.	Adaugă suport pentru Mod Nocturn.	What's New Item	
+	apple_store_whatsnew_export	Adds support to export history data.	Adaugă suport pentru exportarea istoricului datelor.  	What's New Item	
+	apple_store_whatsnew_import	Adds support to import history data.	Adaugă suport pentru importul istoricului datelor.  	What's New Item	
