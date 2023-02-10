@@ -8,8 +8,8 @@
 ###################
 ## General Setup ##
 ###################
-DIRNAME_OUTPUT_NORMAL="FromTsvIntake_it"
-LOGGER_FILENAME="_log_FromTsvIntake_it__"
+DIRNAME_OUTPUT_NORMAL="FromTsvIntake_ro"
+LOGGER_FILENAME="_log_FromTsvIntake_ro__"
 LOGGER_LEVEL_INFO
 
 ## Base English_US paths into which translations are mapped

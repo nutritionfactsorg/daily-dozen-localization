@@ -1,4 +1,4 @@
-### FILE: batch_normal_FromTsvIntakeC.txt
+### FILE: batch_normal_FromTsvIntakeC_2.txt
 ### WORKFLOW:  `*.strings` content based `*.tsv`
 ### NOTE: standalone CHANGESET `intake` processing
 ###       use `normalized` output for later inclusion into overall normalization
@@ -9,8 +9,8 @@
 ###################
 ## General Setup ##
 ###################
-DIRNAME_OUTPUT_NORMAL="FromTsvIntakeC"
-LOGGER_FILENAME="_log_FromTsvIntakeC__"
+DIRNAME_OUTPUT_NORMAL="FromTsvIntakeC_2"
+LOGGER_FILENAME="_log_FromTsvIntakeC_2__"
 LOGGER_LEVEL_INFO
 
 ## Base English_US paths into which translations are mapped
@@ -31,7 +31,7 @@ URL_TOPICS_TSV="English_US/tsv/English_US_en.url_topics.tsv"
 ####################################
 ## English_US: Baseline Reference ##
 ####################################
-LOGGER_FILENAME="_log_FromTsvIntakeC__US_en"
+LOGGER_FILENAME="_log_FromTsvIntakeC_2__US_en"
 
 SOURCE_TSV_INCLUDE="English_US/tsv/v02/English_US_en.app.changeset02.tsv"
 DO_NORMALIZE_BATCH
@@ -42,7 +42,7 @@ DO_NORMALIZE_BATCH
 #############
 ## Catalan ##
 #############
-LOGGER_FILENAME="_log_FromTsvIntakeC_Catalan_ca"
+LOGGER_FILENAME="_log_FromTsvIntakeC_2_Catalan_ca"
 ## -- (ca) process app --
 SOURCE_TSV_INCLUDE="Catalan/tsv/v02/Catalan_ca.app.changeset02.tsv"
 DO_NORMALIZE_BATCH
@@ -54,7 +54,7 @@ DO_NORMALIZE_BATCH
 ###########
 ## Czech ##
 ###########
-LOGGER_FILENAME="_log_FromTsvIntakeC_Czech_cs"
+LOGGER_FILENAME="_log_FromTsvIntakeC_2_Czech_cs"
 # ## -- (cs) process app --
 SOURCE_TSV_INCLUDE="Czech/tsv/v02/Czech_cs.app.changeset02.tsv"
 DO_NORMALIZE_BATCH
@@ -66,7 +66,7 @@ DO_NORMALIZE_BATCH
 ############
 ## German ##
 ############
-LOGGER_FILENAME="_log_FromTsvIntakeC_German_de"
+LOGGER_FILENAME="_log_FromTsvIntakeC_2_German_de"
 ## -- (de) process app --
 SOURCE_TSV_INCLUDE="German/tsv/v02/German_de.app.changeset02.tsv"
 DO_NORMALIZE_BATCH
@@ -78,7 +78,7 @@ DO_NORMALIZE_BATCH
 ############
 ## Hebrew ##
 ############
-LOGGER_FILENAME="_log_FromTsvIntakeC_Hebrew_he"
+LOGGER_FILENAME="_log_FromTsvIntakeC_2_Hebrew_he"
 ## -- (he) process app --
 SOURCE_TSV_INCLUDE="Hebrew/tsv/v02/Hebrew_he.app.changeset02.tsv"
 DO_NORMALIZE_BATCH
@@ -90,7 +90,7 @@ DO_NORMALIZE_BATCH
 ############
 ## Polish ##
 ############
-LOGGER_FILENAME="_log_FromTsvIntakeC_Polish_pl"
+LOGGER_FILENAME="_log_FromTsvIntakeC_2_Polish_pl"
 ## -- (pl) process app --
 SOURCE_TSV_INCLUDE="Polish/tsv/v02/Polish_pl.app.changeset02.tsv"
 DO_NORMALIZE_BATCH
@@ -102,7 +102,7 @@ DO_NORMALIZE_BATCH
 #######################
 ## Portuguese_Brazil ##
 #######################
-LOGGER_FILENAME="_log_FromTsvIntakeC_Portuguese_pt-rBR"
+LOGGER_FILENAME="_log_FromTsvIntakeC_2_Portuguese_pt-rBR"
 ## -- (pt-rBR) process app --
 SOURCE_TSV_INCLUDE="Portuguese_Brazil/tsv/v02/Portuguese_pt-rBR.app.changeset02.tsv"
 DO_NORMALIZE_BATCH
@@ -114,7 +114,7 @@ DO_NORMALIZE_BATCH
 #########################
 ## Portuguese_Portugal ##
 #########################
-LOGGER_FILENAME="_log_FromTsvIntakeC_Portuguese_pt-rPT"
+LOGGER_FILENAME="_log_FromTsvIntakeC_2_Portuguese_pt-rPT"
 ## -- (pt-rPT) process app --
 SOURCE_TSV_INCLUDE="Portuguese_Portugal/tsv/v02/Portuguese_pt-rPT.app.changeset02.tsv"
 DO_NORMALIZE_BATCH
@@ -126,7 +126,7 @@ DO_NORMALIZE_BATCH
 ##############
 ## Romanian ##
 ##############
-LOGGER_FILENAME="_log_FromTsvIntakeC_Romanian_ro"
+LOGGER_FILENAME="_log_FromTsvIntakeC_2_Romanian_ro"
 # ## -- (ro) process app --
 SOURCE_TSV_INCLUDE="Romanian/tsv/v02/Romanian_ro.app.changeset02.tsv"
 DO_NORMALIZE_BATCH
@@ -138,7 +138,7 @@ DO_NORMALIZE_BATCH
 #############
 ## Russian ##
 #############
-LOGGER_FILENAME="_log_FromTsvIntakeC_Russian_ru"
+LOGGER_FILENAME="_log_FromTsvIntakeC_2_Russian_ru"
 ## -- (ru) process app --
 SOURCE_TSV_INCLUDE="Russian/tsv/v02/Russian_ru.app.changeset02.tsv"
 DO_NORMALIZE_BATCH
@@ -150,7 +150,7 @@ DO_NORMALIZE_BATCH
 ############
 ## Slovak ##
 ############
-LOGGER_FILENAME="_log_FromTsvIntakeC_Slovak_sk"
+LOGGER_FILENAME="_log_FromTsvIntakeC_2_Slovak_sk"
 # ## -- (cs) process app --
 SOURCE_TSV_INCLUDE="Slovak/tsv/v02/Slovak_sk.app.changeset02.tsv"
 DO_NORMALIZE_BATCH
@@ -162,7 +162,7 @@ DO_NORMALIZE_BATCH
 #############
 ## Spanish ##
 #############
-LOGGER_FILENAME="_log_FromTsvIntakeC_Spanish_es"
+LOGGER_FILENAME="_log_FromTsvIntakeC_2_Spanish_es"
 ## Note: Spanish has its own topic urls
 URL_FRAGMENTS_TSV="Spanish/tsv/Spanish_es.url_fragments.tsv"
 URL_TOPICS_TSV="Spanish/tsv/Spanish_es.url_topics.tsv"
@@ -187,7 +187,7 @@ URL_TOPICS_TSV="English_US/tsv/English_US_en.url_topics.tsv"
 ###############
 ## Bulgarian ##
 ###############
-LOGGER_FILENAME="_log_FromTsvIntakeC_Bulgarian_bg"
+LOGGER_FILENAME="_log_FromTsvIntakeC_2_Bulgarian_bg"
 ## -- (bg) process app --
 SOURCE_TSV_INCLUDE="Bulgarian/tsv/v02/Bulgarian_bg.app.changeset02.tsv"
 DO_NORMALIZE_BATCH
@@ -199,7 +199,7 @@ DO_NORMALIZE_BATCH
 ########################
 ## Chinese_Simplified ##
 ########################
-LOGGER_FILENAME="_log_FromTsvIntakeC_Chinese_zh-Hans"
+LOGGER_FILENAME="_log_FromTsvIntakeC_2_Chinese_zh-Hans"
 ## -- (zh-Hans) process app --
 SOURCE_TSV_INCLUDE="Chinese_Simplified/tsv/v02/Chinese_Simplified_zh-Hans.app.changeset02.tsv"
 DO_NORMALIZE_BATCH
@@ -211,7 +211,7 @@ DO_NORMALIZE_BATCH
 #########################
 ## Chinese_Traditional ##
 #########################
-LOGGER_FILENAME="_log_FromTsvIntakeC_Chinese_zh-Hant"
+LOGGER_FILENAME="_log_FromTsvIntakeC_2_Chinese_zh-Hant"
 ## -- (zh-Hant) process app --
 SOURCE_TSV_INCLUDE="Chinese_Traditional/tsv/v02/Chinese_Traditional_zh-Hant.app.changeset02.tsv"
 DO_NORMALIZE_BATCH
@@ -223,7 +223,7 @@ DO_NORMALIZE_BATCH
 ############
 ## French ##
 ############
-LOGGER_FILENAME="_log_FromTsvIntakeC_French_fr"
+LOGGER_FILENAME="_log_FromTsvIntakeC_2_French_fr"
 ## -- (fr) process app --
 SOURCE_TSV_INCLUDE="French/tsv/v02/French_fr.app.changeset02.tsv"
 DO_NORMALIZE_BATCH
@@ -235,7 +235,7 @@ DO_NORMALIZE_BATCH
 ###########
 ## Greek ##
 ###########
-LOGGER_FILENAME="_log_FromTsvIntakeC_Greek_el"
+LOGGER_FILENAME="_log_FromTsvIntakeC_2_Greek_el"
 ## -- (el) process app --
 SOURCE_TSV_INCLUDE="Greek/tsv/v02/Greek_el.app.changeset02.tsv"
 DO_NORMALIZE_BATCH
@@ -247,7 +247,7 @@ DO_NORMALIZE_BATCH
 #############
 ## Italian ##
 #############
-LOGGER_FILENAME="_log_FromTsvIntakeC_Italian_it"
+LOGGER_FILENAME="_log_FromTsvIntakeC_2_Italian_it"
 ## -- (it) process app --
 SOURCE_TSV_INCLUDE="Italian/tsv/v02/Italian_it.app.changeset02.tsv"
 DO_NORMALIZE_BATCH

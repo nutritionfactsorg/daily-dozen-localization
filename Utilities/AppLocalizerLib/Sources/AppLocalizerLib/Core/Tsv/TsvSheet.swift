@@ -355,8 +355,8 @@ struct TsvSheet: TsvProtocol {
     }
     
     func removeDuplicatesExactMatch(tsvRowList: TsvRowList) -> TsvRowList {
-        guard tsvRowList.data.count >= 2 else {
-            print(":WARNING: TsvSheet.removeDuplicates() tsvRowList has less than 2 rows.")
+        guard tsvRowList.data.count >= 1 else {
+            print(":WARNING: TsvSheet.removeDuplicates() tsvRowList has less than 1 rows.")
             return tsvRowList
         }
         
@@ -383,8 +383,8 @@ struct TsvSheet: TsvProtocol {
     }
     
     func reportRowDuplicateKeys(tsvRowList: TsvRowList) {
-        guard tsvRowList.data.count >= 2 else {
-            print(":WARNING: TsvSheet.reportRowDuplicates(…) tsvRowList has less than 2 rows.")
+        guard tsvRowList.data.count >= 1 else {
+            print(":WARNING: TsvSheet.reportRowDuplicates(…) tsvRowList has less than 1 rows.")
             return
         }
         
