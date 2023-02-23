@@ -1,0 +1,12 @@
+key_droid	key_apple	base_value	lang_value	base_note	lang_note
+	history_data_alert_cancel	Cancel	Cancelar	History Data Alert: Cancel button	Alerta de Dados de Históric: botão de Cancelar
+	history_data_alert_clear	Clear	Limpar	History Data Alert: Clear button	Alerta de Dados de Históric: botão de Limpar
+	history_data_alert_import	Import	Importar	History Data Alert: Import buttom	Alerta de Dados de Históric: botão de Importar
+	history_data_alert_ok	OK	OK	History Data Alert: OK button	Alerta de Dados de Históric: botão de OK
+	history_data_export_btn	Export History Data	Exportar Dados do Histórico	History Data: export action button	Dados do Histórico: botão de ação de exportação
+	history_data_export_text	Export has been written to:	A exportação foi gravada em:	History Data: export description text	Dados do Histórico: texto de descrição da exportação
+	history_data_import_btn	Import History Data	Importar Dados do Histórico	History Data: import action button	Dados do Histórico: botão de ação de importação
+	history_data_import_caution_text	Caution: This import will overwrite all history data currently in this Daily Dozen application. Would you like to proceed with the import?	Aviso: Esta importação irá apagar todos os dados do histórico atualmente nesta aplicação da Dúzia Diária. Gostaria de continuar com a importação?	History Data: import caution text	Dados do Histórico: texto de aviso de importação
+	history_data_import_error_text	Error: The import was not performed because of a data error. The existing data has remained unchanged.	Erro: A importação não foi realizada devido a um erro dos dados. Os dados existentes permaneceram inalterados.	History Data: import data error text	Dados do Histórico: texto de erro de dados na importação
+	history_data_import_notfound_text	Did not find a valid import file in the Daily Dozen Documents folder.	Não foi encontrado um ficheiro válido para importação na pasta dos Documentos da Dúzia Diária.	History Data: import not found text	Dados do Histórico: texto de importação não encontrada
+	history_data_title	History	Histórico	History Data: preferences header & title	Dados do Histórico: título e cabeçalho das preferências

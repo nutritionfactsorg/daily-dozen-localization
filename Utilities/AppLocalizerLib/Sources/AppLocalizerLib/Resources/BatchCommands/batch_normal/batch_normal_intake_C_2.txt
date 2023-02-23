@@ -59,7 +59,7 @@ DO_NORMALIZE_BATCH
 ###########
 LOGGER_FILENAME="_log_FromTsvIntakeC_2_Czech_cs"
 # ## -- (cs) process app --
-SOURCE_TSV_INCLUDE="Czech/tsv/v02/Czech_cs.app.changeset02.tsv"
+SOURCE_TSV_INCLUDE="Czech/tsv/v02/Czech_cs.app.changeset02.20230210.intake.tsv"
 DO_NORMALIZE_BATCH
 
 # ## -- (cs) process store --
@@ -155,7 +155,7 @@ DO_NORMALIZE_BATCH
 ############
 LOGGER_FILENAME="_log_FromTsvIntakeC_2_Slovak_sk"
 # ## -- (cs) process app --
-SOURCE_TSV_INCLUDE="Slovak/tsv/v02/Slovak_sk.app.changeset02.tsv"
+SOURCE_TSV_INCLUDE="Slovak/tsv/v02/Slovak_sk.app.changeset02.20230210.intake.tsv"
 DO_NORMALIZE_BATCH
 
 # ## -- (cs) process store --

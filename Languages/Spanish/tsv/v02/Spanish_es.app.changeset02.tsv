@@ -1,12 +1,12 @@
 key_droid	key_apple	base_value	lang_value	base_note	lang_note
-	history_data_alert_cancel	Cancel	Cancel	History Data Alert: Cancel button	
-	history_data_alert_clear	Clear	Clear	History Data Alert: Clear button	
-	history_data_alert_import	Import	Import	History Data Alert: Import buttom	
-	history_data_alert_ok	OK	OK	History Data Alert: OK button	
-	history_data_export_btn	Export History Data	Export History Data	History Data: export action button	
-	history_data_export_text	Export has been written to:	Export has been written to:	History Data: export description text	
-	history_data_import_btn	Import History Data	Import History Data	History Data: import action button	
-	history_data_import_caution_text	Caution: This import will overwrite all history data currently in this Daily Dozen application. Would you like to proceed with the import?	Caution: This import will overwrite all history data currently in this Daily Dozen application. Would you like to proceed with the import?	History Data: import caution text	
-	history_data_import_error_text	Error: The import was not performed because of a data error. The existing data has remained unchanged.	Error: The import was not performed because of a data error. The existing data has remained unchanged.	History Data: import data error text	
-	history_data_import_notfound_text	Did not find a valid import file in the Daily Dozen Documents folder.	Did not find a valid import file in the Daily Dozen Documents folder.	History Data: import not found text	
-	history_data_title	History	History	History Data: preferences header & title	
+	history_data_alert_cancel	Cancel	Cancelar	History Data Alert: Cancel button	
+	history_data_alert_clear	Clear	Borrar	History Data Alert: Clear button	
+	history_data_alert_import	Import	Importar	History Data Alert: Import buttom	
+	history_data_alert_ok	OK	Ok	History Data Alert: OK button	
+	history_data_export_btn	Export History Data	Exportar historial	History Data: export action button	
+	history_data_export_text	Export has been written to:	El historial exportado se ha guardado en:	History Data: export description text	
+	history_data_import_btn	Import History Data	Importar historial	History Data: import action button	
+	history_data_import_caution_text	Caution: This import will overwrite all history data currently in this Daily Dozen application. Would you like to proceed with the import?	Cuidado: Importar un historial borrará todos los datos guardados hasta ahora en esta app de la Docena Diaria. ¿Quieres continuar con la importación?	History Data: import caution text	
+	history_data_import_error_text	Error: The import was not performed because of a data error. The existing data has remained unchanged.	Error: No se pudo proceder con la importación por un error de datos. El historial ya existente ha permanecido sin cambios. 	History Data: import data error text	
+	history_data_import_notfound_text	Did not find a valid import file in the Daily Dozen Documents folder.	No se encontró un fichero de importación válido en la carpeta de documentos de la Docena Diaria.	History Data: import not found text	
+	history_data_title	History	Historial	History Data: preferences header & title	
