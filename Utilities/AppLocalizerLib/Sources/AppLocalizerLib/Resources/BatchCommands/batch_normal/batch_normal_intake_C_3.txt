@@ -15,7 +15,7 @@ LOGGER_LEVEL_INFO
 
 ## Base English_US paths into which translations are mapped
 ## use one or the other.
-BASE_JSON_DIR="English_US/ios/en-US_reference/LocalStrings/en.changeset01.lproj"
+BASE_JSON_DIR="English_US/ios/en-US_reference/LocalStrings/en.changeset03.lproj"
 
 BASE_TSV_INCLUDE="English_US/tsv/v03/English_US_en.app.changeset03.tsv"
 
