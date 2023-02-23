@@ -78,7 +78,9 @@ let BatchSubdir = "batch_normal"
 //let BatchCommands = "batch_normal_intake_B.txt"   // *B*aseline
 //let BatchCommands = "batch_normal_intake_C.txt"   // *C*hangeSet
 //let BatchCommands = "batch_normal_intake_C_1.txt"   // *C*hangeSet01
-let BatchCommands = "batch_normal_intake_C_3.txt"   // *C*hangeSet03
+//let BatchCommands = "batch_normal_intake_C_1.txt"   // *C*hangeSet01
+let BatchCommands = "batch_normal_intake_C_2.txt"   // *C*hangeSet01
+//let BatchCommands = "batch_normal_intake_C_3.txt"   // *C*hangeSet03
 //let BatchCommands = "batch_normal_intake+BC.txt"  // *B*aseline + *C*hangeSet
 
 // (*) TSV residual updates (files without submitted translations)

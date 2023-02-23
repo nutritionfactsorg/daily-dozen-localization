@@ -168,11 +168,11 @@ URL_FRAGMENTS_TSV="Spanish/tsv/Spanish_es.url_fragments.tsv"
 URL_TOPICS_TSV="Spanish/tsv/Spanish_es.url_topics.tsv"
 
 ## -- (es) process app --
-SOURCE_TSV_INCLUDE="Spanish/tsv/v03/Spanish_es.app.changeset03.tsv"
+SOURCE_TSV_INCLUDE="Spanish/tsv/v03/Spanish_es.app.changeset03.20230221.intake.tsv"
 DO_NORMALIZE_BATCH
 
 ## -- (es) process store --
-SOURCE_TSV_INCLUDE="Spanish/tsv/v03/Spanish_es.store.changeset03.tsv"
+SOURCE_TSV_INCLUDE="Spanish/tsv/v03/Spanish_es.store.changeset03.20230221.intake.tsv"
 DO_NORMALIZE_BATCH
 
 ##### RESTORE URL_* #####
