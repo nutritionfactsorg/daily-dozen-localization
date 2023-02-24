@@ -11,6 +11,12 @@ key_droid	key_apple	base_value	lang_value	base_note	lang_note
 	apple_store_subtitle	NutritionFacts.org	NutritionFacts.org	Must be a maximum of 30 characters	
 android_store_title	apple_store_title	Dr. Greger’s Daily Dozen	Dr. Greger’s Daily Dozen	Must be a maximum of 30 characters	
 	apple_store_whatsnew	Adds language support for language_name_here.	Adds language support for language_name_here.	Replace language_name_here with the translated language name for this translation.	
+android_store_whatsnew_analytics	apple_store_whatsnew_analytics	Adds anonymous opt-in analytics to support product improvement.	Adds anonymous opt-in analytics to support product improvement.	What's New Item	
+	apple_store_whatsnew_darkmode	Adds support for Dark Mode.	Adds support for Dark Mode.	What's New Item	
+	apple_store_whatsnew_export	Adds support to export history data.	Adds support to export history data.	What's New Item	
+android_store_whatsnew_faq	apple_store_whatsnew_faq	Adds Frequently Asked Questions (FAQ)	Adds Frequently Asked Questions (FAQ)	What's New Item	
+	apple_store_whatsnew_import	Adds support to import history data.	Adds support to import history data.	What's New Item	
+android_store_whatsnew_improvement	apple_store_whatsnew_improvement	General software quality improvements.	General software quality improvements.	What's New Item	
 store_keywords	store_keywords	vegan, nutrition, food, vegetarian, health, healthy	vegan, nutrition, food, vegetarian, health, healthy		
 store_screen.0	store_screen.0	Eat. Track. Repeat. No calorie counting or macro tracking required.	Eat. Track. Repeat. No calorie counting or macro tracking required.		
 store_screen.1	store_screen.1	All for free!	All for free!		
