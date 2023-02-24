@@ -3,7 +3,7 @@
 ### NOTE: standalone CHANGESET `intake` processing
 ###       use `normalized` output for later inclusion into overall normalization
 ### APPLY: 
-###    1. commit *.changeset03.yyyyMMdd.normalized.tsv
+###    1. commit *.changeset03.yyyyMMddtsv
 ###    2. compare to, update & commit LOCALIZE REPO CHANGESET *.tsv
 
 ###################

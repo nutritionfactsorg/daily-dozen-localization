@@ -3,7 +3,7 @@
 ### NOTE: standalone CHANGESET `intake` processing
 ###       use `normalized` output for later inclusion into overall normalization
 ### APPLY: 
-###    1. commit *.changeset01.yyyyMMdd.normalized.tsv
+###    1. commit *.changeset01.yyyyMMddtsv
 ###    2. compare to, update & commit LOCALIZE REPO CHANGESET *.tsv
 
 ###################
@@ -56,11 +56,11 @@ DO_NORMALIZE_BATCH
 ###########
 LOGGER_FILENAME="_log_FromTsvIntakeC_1_Czech_cs"
 # ## -- (cs) process app --
-SOURCE_TSV_INCLUDE="Czech/tsv/v01/Czech_cs.app.changeset01.tsv"
+SOURCE_TSV_INCLUDE="Czech/tsv/v01/Czech_cs.app.changeset01.20221024.intake.tsv"
 DO_NORMALIZE_BATCH
 
 # ## -- (cs) process store --
-SOURCE_TSV_INCLUDE="Czech/tsv/v01/Czech_cs.store.changeset01.tsv"
+SOURCE_TSV_INCLUDE="Czech/tsv/v01/Czech_cs.store.changeset01.20221024.intake.tsv"
 DO_NORMALIZE_BATCH
 
 ############
@@ -257,6 +257,6 @@ SOURCE_TSV_INCLUDE="Italian/tsv/v01/Italian_it.store.changeset01.tsv"
 DO_NORMALIZE_BATCH
 
 ######################################################
-### ----- STOP HERE (PROCESSING: 2023.02.02) ----- ###
+### ----- STOP HERE (PROCESSING: 2023.02.23) ----- ###
 ######################################################
 QUIT

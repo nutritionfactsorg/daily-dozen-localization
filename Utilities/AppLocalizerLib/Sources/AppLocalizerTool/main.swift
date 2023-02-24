@@ -61,7 +61,7 @@ var productsDir: URL {
 
 // (1) TSV MAIN REPO ("truth") to "NORMALIZED" product files 
 // -- Generated normalized `*.tsv`, `*.json`, `*.string`, `*.xml`
-// -- Manually verify/sync normalized Englich results to existing App English files.
+// -- Manually verify/sync normalized English results to existing App English files.
 // -- Rerun, and repeat verify/sync until English main repo is fully up to date.
 // -- Compare normalized English-Language tsv keywords. Updates as needed.
 //let BatchSubdir = "batch_normal"
@@ -75,13 +75,14 @@ var productsDir: URL {
 let BatchSubdir = "batch_normal"
 //let BatchCommands = "batch_normal_intake__it.txt"
 //let BatchCommands = "batch_normal_intake__ro.txt"
-//let BatchCommands = "batch_normal_intake_B.txt"   // *B*aseline
-//let BatchCommands = "batch_normal_intake_C.txt"   // *C*hangeSet
-//let BatchCommands = "batch_normal_intake_C_1.txt"   // *C*hangeSet01
-//let BatchCommands = "batch_normal_intake_C_1.txt"   // *C*hangeSet01
-//let BatchCommands = "batch_normal_intake_C_2.txt"   // *C*hangeSet02
-let BatchCommands = "batch_normal_intake_C_3.txt"   // *C*hangeSet03
-//let BatchCommands = "batch_normal_intake+BC.txt"  // *B*aseline + *C*hangeSet
+//let BatchCommands = "batch_normal_intake_B.txt"        // *B*aseline
+//let BatchCommands = "batch_normal_intake_C.txt"        // *C*hangeSet
+//let BatchCommands = "batch_normal_intake_C_1.txt"      // *C*hangeSet01
+//let BatchCommands = "batch_normal_intake_C_1.txt"      // *C*hangeSet01
+//let BatchCommands = "batch_normal_intake_C_2.txt"      // *C*hangeSet02
+//let BatchCommands = "batch_normal_intake_C_3.txt"      // *C*hangeSet03
+//let BatchCommands = "batch_normal_intake+BC.txt"       // *B*aseline + *C*hangeSet
+let BatchCommands = "batch_normal_intake+BC_1_2_3.txt" // *B*aseline + *C*hangeSet
 
 // (*) TSV residual updates (files without submitted translations)
 //let BatchSubdir = "batch_normal"

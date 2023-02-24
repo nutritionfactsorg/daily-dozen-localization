@@ -9,8 +9,8 @@
 ###################
 ## General Setup ##
 ###################
-DIRNAME_OUTPUT_NORMAL="FromTsvIntakeB+C"
-LOGGER_FILENAME="_log_FromTsvIntakeB+C__"
+DIRNAME_OUTPUT_NORMAL="FromTsvIntakeBC"
+LOGGER_FILENAME="_log_FromTsvIntakeBC__"
 LOGGER_LEVEL_INFO
 
 ## Base English_US paths into which translations are mapped
