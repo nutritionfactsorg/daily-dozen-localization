@@ -239,7 +239,14 @@ struct BatchRunner {
                     let outputNormalDir = outputNormalDir,
                     (sourceStrings != nil || sourceListTSV != nil || sourceXLIFF != nil || sourceXML != nil)
                 else {
-                    print(":ERROR: DO_NORMALIZE_BATCH missing required url(s)")
+                    var s = ":ERROR: DO_NORMALIZE_BATCH missing required url(s)"
+                    if outputNormalDir == nil {
+                        s += "  missing DIRNAME_OUTPUT_NORMAL"
+                    }
+                    if sourceStrings == nil && sourceListTSV == nil && sourceXML == nil {
+                        s += " missing SOURCE_TSV_INCLUDE (*.Strings, *.TSV or *.XML)"
+                    }
+                    print(s)
                     continue
                 }
                 // GIVEN: `.strings` source list
