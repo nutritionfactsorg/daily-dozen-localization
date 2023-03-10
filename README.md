@@ -364,4 +364,8 @@ _File Name Examples_
         * [App Store countries and regions ⇗](https://help.apple.com/app-store-connect/#/dev997f9cf7c) List of countries and regions where the app can be made available.
         * [Required, localizable, and editable properties ⇗](https://help.apple.com/app-store-connect/#/devfc3066644)
     * [Localization ⇗](https://developer.apple.com/localization/)
-* [Language ISO 639-1 codes ⇗](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
+* Standard Codes
+    * [Language ISO 639-1 codes ⇗](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) _Codes for the representation of names of languages_
+        * [List of ISO 639-1 codes ⇗](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
+    * [ISO 3166 ⇗](https://en.wikipedia.org/wiki/ISO_3166) _geographic codes_
+        * [ISO 3166-1 alpha-2 ⇗](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) _two-letter country codes_
