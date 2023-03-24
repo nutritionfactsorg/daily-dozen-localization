@@ -1,6 +1,6 @@
 --- Checklist: Base ---
 
-                 English (en)  ____ ____ ____ ____         ____ ____ ____ ____
+              English_US (en)  ____ ____ ____ ____         ____ ____ ____ ____
 
 
 
@@ -16,9 +16,9 @@
 
                   Polish (pl)  ____ ____ ____ ____         ____ ____ ____ ____
 
-    Portuguese Brasil (pt-BR)  ____ ____ ____ ____         ____ ____ ____ ____
+    Portuguese_Brazil (pt-BR)  ____ ____ ____ ____         ____ ____ ____ ____
 
-  Portuguese Portugal (pt-PT)  ____ ____ ____ ____         ____ ____ ____ ____
+  Portuguese_Portugal (pt-PT)  ____ ____ ____ ____         ____ ____ ____ ____
 
                 Romanian (ro)  ____ ____ ____ ____         ____ ____ ____ ____
 
@@ -35,7 +35,7 @@
 
                Bulgarian (bg)  ____ ____ ____ ____         ____ ____ ____ ____
 
-    Chinese, Traditional (zh)  ____ ____ ____ ____         ____ ____ ____ ____
+     Chinese_Traditional (zh)  ____ ____ ____ ____         ____ ____ ____ ____
 
                    Greek (el)  ____ ____ ____ ____         ____ ____ ____ ____
 
@@ -48,9 +48,9 @@
 
 --- Checklist: In Progress --- 
 
- Chinese, Simplified (zh-Hans) ____ ____ ____ ____         ____ ____ ____ ____
+  Chinese_Simplified (zh-Hans) ____ ____ ____ ____         ____ ____ ____ ____
 
-Chinese, Traditional (zh-Hant) ____ ____ ____ ____         ____ ____ ____ ____
+ Chinese_Traditional (zh-Hant) ____ ____ ____ ____         ____ ____ ____ ____
 
 
 
