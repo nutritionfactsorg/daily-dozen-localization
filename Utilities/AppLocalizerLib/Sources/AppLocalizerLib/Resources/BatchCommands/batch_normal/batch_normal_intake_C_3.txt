@@ -104,11 +104,11 @@ DO_NORMALIZE_BATCH
 #######################
 LOGGER_FILENAME="_log_FromTsvIntakeC_3_Portuguese_pt-rBR"
 ## -- (pt-rBR) process app --
-SOURCE_TSV_INCLUDE="Portuguese_Brazil/tsv/v03/Portuguese_pt-rBR.app.changeset03.tsv"
+SOURCE_TSV_INCLUDE="Portuguese_Brazil/tsv/v03/Portuguese_pt-rBR.app.changeset03.20230331.intake.tsv"
 DO_NORMALIZE_BATCH
 
 ## -- (pt-rBR) process store --
-SOURCE_TSV_INCLUDE="Portuguese_Brazil/tsv/v03/Portuguese_pt-rBR.store.changeset03.tsv"
+SOURCE_TSV_INCLUDE="Portuguese_Brazil/tsv/v03/Portuguese_pt-rBR.store.changeset03.20230331.intake.tsv"
 DO_NORMALIZE_BATCH
 
 #########################
