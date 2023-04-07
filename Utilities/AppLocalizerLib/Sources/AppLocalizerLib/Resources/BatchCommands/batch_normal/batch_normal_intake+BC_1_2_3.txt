@@ -66,7 +66,7 @@ DO_NORMALIZE_BATCH
 ###############
 ## Bulgarian ##
 ###############
-### Note: v04 is a roll-up of Base + v01 + v02 + v03
+### Note: v04 is a roll-up of Base+v01+v02+v03
 LOGGER_FILENAME="_log_FromTsvIntakeB+C_Bulgarian_bg"
 ## -- (bg) process app --
 SOURCE_TSV_INCLUDE="Bulgarian/tsv/v04/Bulgarian_bg.app.v04.tsv"
@@ -154,19 +154,15 @@ DO_NORMALIZE_BATCH
 #############
 ## Italian ##
 #############
+### Note: v04 is a roll-up of Base+v01+v02+v03
 LOGGER_FILENAME="_log_FromTsvIntakeB+C_Italian_it"
 ## -- (it) process app --
-SOURCE_TSV_INCLUDE="Italian/tsv/v03/Italian_it.app.v03.tsv"
-SOURCE_TSV_INCLUDE="Italian/tsv/v01/Italian_it.app.changeset01.tsv"
-SOURCE_TSV_INCLUDE="Italian/tsv/v02/Italian_it.app.changeset02.tsv"
-SOURCE_TSV_INCLUDE="Italian/tsv/v03/Italian_it.app.changeset03.tsv"
+SOURCE_TSV_INCLUDE="Italian/tsv/v04/Italian_it.app.v04.tsv"
 DO_NORMALIZE_BATCH
 
 ## -- (it) process store --
-SOURCE_TSV_INCLUDE="Italian/tsv/v03/Italian_it.store.v03.tsv"
-SOURCE_TSV_INCLUDE="Italian/tsv/v01/Italian_it.store.changeset01.tsv"
-SOURCE_TSV_INCLUDE="Italian/tsv/v03/Italian_it.store.changeset03.tsv"
-DO_NORMALIZE_BATCH
+#SOURCE_TSV_INCLUDE="Italian/tsv/v04/Italian_it.store.v04.tsv"
+#DO_NORMALIZE_BATCH
 
 ############
 ## Polish ##

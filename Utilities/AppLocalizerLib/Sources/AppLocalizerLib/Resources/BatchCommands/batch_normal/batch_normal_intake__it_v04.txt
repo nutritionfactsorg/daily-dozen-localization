@@ -59,7 +59,7 @@ SOURCE_TSV_INCLUDE="Italian/tsv/Italian_it.app.tsv"
 ## WIP snapshot from translator
 #SOURCE_TSV_INCLUDE="Italian/tsv/Italian_it.wip.20220603.tsv"
 
-SOURCE_TSV_INCLUDE="Italian/tsv/Italian_it.app.20230406.intake.tsv"
+SOURCE_TSV_INCLUDE="Italian/tsv/v04/Italian_it.app.v04.20230406.intake.tsv"
 DO_NORMALIZE_BATCH
 
 ## -- (it) process store --
