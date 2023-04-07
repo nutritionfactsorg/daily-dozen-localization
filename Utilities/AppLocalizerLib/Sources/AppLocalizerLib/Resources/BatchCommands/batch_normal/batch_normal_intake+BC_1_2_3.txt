@@ -1,8 +1,13 @@
 ### FILE: batch_normal_FromTsvIntakeB+C.txt
-### NOTE: "vNN BASELINE" + CHANGESET (post-`intake`) processing
+###
+### NOTE: 
+###    * "vNN BASELINE" + CHANGESET (post-`intake`) processing
+###    * includes v04 rollup for Bulgarian & Italian
+###
 ### APPLY: 
 ###    1. run after intake processing of baseline (B) and changesets (C)
 ###    2. use output to update branches. e.g. Firebase (full feature) branch
+###
 ### SCOPE: all translated languages
 ###
 
@@ -57,6 +62,19 @@ DO_NORMALIZE_BATCH
 
 #SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.url_topics.tsv"
 #DO_NORMALIZE_BATCH
+
+###############
+## Bulgarian ##
+###############
+### Note: v04 is a roll-up of Base + v01 + v02 + v03
+LOGGER_FILENAME="_log_FromTsvIntakeB+C_Bulgarian_bg"
+## -- (bg) process app --
+SOURCE_TSV_INCLUDE="Bulgarian/tsv/v04/Bulgarian_bg.app.v04.tsv"
+DO_NORMALIZE_BATCH
+
+## -- (bg) process store --
+SOURCE_TSV_INCLUDE="Bulgarian/tsv/v04/Bulgarian_bg.store.v04.tsv"
+DO_NORMALIZE_BATCH
 
 #############
 ## Catalan ##
@@ -131,6 +149,23 @@ SOURCE_TSV_INCLUDE="Hebrew/tsv/v03/Hebrew_iw.app.v03.tsv"
 SOURCE_TSV_INCLUDE="Hebrew/tsv/v01/Hebrew_iw.app.changeset01.tsv"
 SOURCE_TSV_INCLUDE="Hebrew/tsv/v02/Hebrew_iw.app.changeset02.tsv"
 SOURCE_TSV_INCLUDE="Hebrew/tsv/v03/Hebrew_iw.app.changeset03.tsv"
+DO_NORMALIZE_BATCH
+
+#############
+## Italian ##
+#############
+LOGGER_FILENAME="_log_FromTsvIntakeB+C_Italian_it"
+## -- (it) process app --
+SOURCE_TSV_INCLUDE="Italian/tsv/v03/Italian_it.app.v03.tsv"
+SOURCE_TSV_INCLUDE="Italian/tsv/v01/Italian_it.app.changeset01.tsv"
+SOURCE_TSV_INCLUDE="Italian/tsv/v02/Italian_it.app.changeset02.tsv"
+SOURCE_TSV_INCLUDE="Italian/tsv/v03/Italian_it.app.changeset03.tsv"
+DO_NORMALIZE_BATCH
+
+## -- (it) process store --
+SOURCE_TSV_INCLUDE="Italian/tsv/v03/Italian_it.store.v03.tsv"
+SOURCE_TSV_INCLUDE="Italian/tsv/v01/Italian_it.store.changeset01.tsv"
+SOURCE_TSV_INCLUDE="Italian/tsv/v03/Italian_it.store.changeset03.tsv"
 DO_NORMALIZE_BATCH
 
 ############
@@ -263,23 +298,6 @@ DO_NORMALIZE_BATCH
 URL_FRAGMENTS_TSV="English_US/tsv/English_US_en.url_fragments.tsv"
 URL_TOPICS_TSV="English_US/tsv/English_US_en.url_topics.tsv"
 
-###############
-## Bulgarian ##
-###############
-LOGGER_FILENAME="_log_FromTsvIntakeB+C_Russian_bg"
-## -- (bg) process app --
-SOURCE_TSV_INCLUDE="Bulgarian/tsv/v03/Bulgarian_bg.app.v03.tsv"
-SOURCE_TSV_INCLUDE="Bulgarian/tsv/v01/Bulgarian_bg.app.changeset01.tsv"
-SOURCE_TSV_INCLUDE="Bulgarian/tsv/v02/Bulgarian_bg.app.changeset02.tsv"
-SOURCE_TSV_INCLUDE="Bulgarian/tsv/v03/Bulgarian_bg.app.changeset03.tsv"
-DO_NORMALIZE_BATCH
-
-## -- (bg) process store --
-SOURCE_TSV_INCLUDE="Bulgarian/tsv/v03/Bulgarian_bg.store.v03.tsv"
-SOURCE_TSV_INCLUDE="Bulgarian/tsv/v01/Bulgarian_bg.store.changeset01.tsv"
-SOURCE_TSV_INCLUDE="Bulgarian/tsv/v03/Bulgarian_bg.store.changeset03.tsv"
-DO_NORMALIZE_BATCH
-
 ########################
 ## Chinese Simplified ##
 ########################
@@ -350,26 +368,8 @@ SOURCE_TSV_INCLUDE="French/tsv/v01/French_fr.store.changeset01.tsv"
 SOURCE_TSV_INCLUDE="French/tsv/v03/French_fr.store.changeset03.tsv"
 DO_NORMALIZE_BATCH
 
-#############
-## Italian ##
-#############
-LOGGER_FILENAME="_log_FromTsvIntakeB+C_Italian_it"
-## -- (it) process app --
-SOURCE_TSV_INCLUDE="Italian/tsv/v03/Italian_it.app.v03.tsv"
-SOURCE_TSV_INCLUDE="Italian/tsv/v01/Italian_it.app.changeset01.tsv"
-SOURCE_TSV_INCLUDE="Italian/tsv/v02/Italian_it.app.changeset02.tsv"
-SOURCE_TSV_INCLUDE="Italian/tsv/v03/Italian_it.app.changeset03.tsv"
-DO_NORMALIZE_BATCH
-
-## -- (it) process store --
-SOURCE_TSV_INCLUDE="Italian/tsv/v03/Italian_it.store.v03.tsv"
-SOURCE_TSV_INCLUDE="Italian/tsv/v01/Italian_it.store.changeset01.tsv"
-SOURCE_TSV_INCLUDE="Italian/tsv/v03/Italian_it.store.changeset03.tsv"
-DO_NORMALIZE_BATCH
-
-
 ######################################################
-### ----- STOP HERE (PROCESSING: 2023.02.23) ----- ###
+### ----- STOP HERE (PROCESSING: 2023.04.06) ----- ###
 ######################################################
 QUIT
 
