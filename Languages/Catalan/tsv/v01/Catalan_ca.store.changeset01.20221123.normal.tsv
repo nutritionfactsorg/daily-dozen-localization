@@ -1,0 +1,6 @@
+key_droid	key_apple	base_value	lang_value	base_note	lang_note
+android_store_whatsnew_improvement	apple_store_whatsnew_improvement	General software quality improvements.	Millores generals de la qualitat del programari.	What's New Item	
+android_store_whatsnew_analytics	apple_store_whatsnew_analytics	Adds anonymous opt-in analytics to support product improvement.	Afegeix analítiques anònimes opcionals per donar suport a la millora del producte.	What's New Item	
+	apple_store_whatsnew_darkmode	Adds support for Dark Mode.	Afegeix suport per al mode fosc.	What's New Item	
+	apple_store_whatsnew_export	Adds support to export history data.	Afegeix suport per exportar dades de l'historial.	What's New Item	
+	apple_store_whatsnew_import	Adds support to import history data.	Afegeix suport per a la importació de dades.	What's New Item	
