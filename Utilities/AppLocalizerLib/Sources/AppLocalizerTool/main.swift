@@ -73,6 +73,7 @@ var productsDir: URL {
 // -- Compare/Update main repo with normalized intake tsv
 // -- Compare/Propagate intake/main result with app files (localization, android, ios)
 let BatchSubdir = "batch_normal"
+let BatchCommands = "batch_normal_intake__bg.txt"
 //let BatchCommands = "batch_normal_intake__it.txt"
 //let BatchCommands = "batch_normal_intake__ro.txt"
 //let BatchCommands = "batch_normal_intake_B.txt"        // *B*aseline
@@ -82,7 +83,7 @@ let BatchSubdir = "batch_normal"
 //let BatchCommands = "batch_normal_intake_C_2.txt"      // *C*hangeSet02
 //let BatchCommands = "batch_normal_intake_C_3.txt"      // *C*hangeSet03
 //let BatchCommands = "batch_normal_intake+BC.txt"       // *B*aseline + *C*hangeSet
-let BatchCommands = "batch_normal_intake+BC_1_2_3.txt" // *B*aseline + *C*hangeSet
+//let BatchCommands = "batch_normal_intake+BC_1_2_3.txt" // *B*aseline + *C*hangeSet
 
 // (*) TSV residual updates (files without submitted translations)
 //let BatchSubdir = "batch_normal"
