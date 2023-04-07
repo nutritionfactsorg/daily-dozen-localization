@@ -8,27 +8,23 @@
 ###################
 ## General Setup ##
 ###################
-DIRNAME_OUTPUT_NORMAL="FromTsvIntake_it"
-LOGGER_FILENAME="_log_FromTsvIntake_it__"
+DIRNAME_OUTPUT_NORMAL="FromTsvIntake_it_v04"
+LOGGER_FILENAME="_log_FromTsvIntake_it_v04__"
 LOGGER_LEVEL_INFO
 
 ## Base English_US paths into which translations are mapped
 ## use one or the other.
-BASE_JSON_DIR="English_US/ios/en-US_reference/LocalStrings/en.lproj"
-#BASE_JSON_DIR="English_US/ios/en-US_reference/LocalStrings/en.changeset01.lproj"
+BASE_JSON_DIR="English_US/ios/en-US_reference/LocalStrings/en.v04.lproj"
 
-BASE_TSV_INCLUDE="English_US/tsv/English_US_en.app.tsv"
-#BASE_TSV_INCLUDE="English_US/tsv/v01/English_US_en.app.changeset01.tsv"
+BASE_TSV_INCLUDE="English_US/tsv/v04/English_US_en.app.v04.tsv"
 
-BASE_TSV_INCLUDE="English_US/tsv/English_US_en.store.tsv"
-#BASE_TSV_INCLUDE="English_US/tsv/v01/English_US_en.store.changeset01.tsv"
+BASE_TSV_INCLUDE="English_US/tsv/v04/English_US_en.store.v04.tsv"
 
 BASE_TSV_INCLUDE="English_US/tsv/English_US_en.url_fragments.tsv"
 BASE_TSV_INCLUDE="English_US/tsv/English_US_en.url_topics.tsv"
 
 ### ------ ANDROID_LANG --> NORMALIZE XML -----
-BASE_XML_URL="English_US/android/values/strings.xml"
-#BASE_XML_URL="English_US/android/values/strings.changeset01.xml"
+BASE_XML_URL="English_US/android/values/strings.v04.xml"
 
 ## Note: currently, URL_TOPICS_TSV is the same for all languages except Spanish.
 URL_FRAGMENTS_TSV="English_US/tsv/English_US_en.url_fragments.tsv"
@@ -39,21 +35,11 @@ URL_TOPICS_TSV="English_US/tsv/English_US_en.url_topics.tsv"
 ####################################
 LOGGER_FILENAME="_log_FromTsvIntake__US_en"
 
-SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.app.tsv"
-#SOURCE_TSV_INCLUDE="English_US/tsv/v01/English_US_en.app.changeset01.tsv"
+SOURCE_TSV_INCLUDE="English_US/tsv/v04/English_US_en.app.v04.tsv"
 DO_NORMALIZE_BATCH
 
-### standalone change set processing
-#SOURCE_TSV_INCLUDE="English_US/tsv/v01/English_US_en.app.changeset01.tsv"
-#DO_NORMALIZE_BATCH
-
-SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.store.tsv"
-##SOURCE_TSV_INCLUDE="English_US/tsv/v01/English_US_en.store.changeset01.tsv"
+SOURCE_TSV_INCLUDE="English_US/tsv/v04/English_US_en.store.v04.tsv"
 DO_NORMALIZE_BATCH
-
-### standalone change set processing
-#SOURCE_TSV_INCLUDE="English_US/tsv/v01/English_US_en.store.changeset01.tsv"
-#DO_NORMALIZE_BATCH
 
 SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.url_fragments.tsv"
 DO_NORMALIZE_BATCH
@@ -61,9 +47,9 @@ DO_NORMALIZE_BATCH
 SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.url_topics.tsv"
 DO_NORMALIZE_BATCH
 
-##################
-## (it) Italian ##
-##################
+#############
+## Italian ##
+#############
 LOGGER_FILENAME="_log_FromTsvIntake_Italian_it"
 
 ## -- (it) process application values PICK ONE --
@@ -72,6 +58,8 @@ SOURCE_TSV_INCLUDE="Italian/tsv/Italian_it.app.tsv"
 #SOURCE_TSV_INCLUDE="Italian/tsv/Italian_it.20190223.tsv"
 ## WIP snapshot from translator
 #SOURCE_TSV_INCLUDE="Italian/tsv/Italian_it.wip.20220603.tsv"
+
+SOURCE_TSV_INCLUDE="Italian/tsv/Italian_it.app.20230406.intake.tsv"
 DO_NORMALIZE_BATCH
 
 ## -- (it) process store --
