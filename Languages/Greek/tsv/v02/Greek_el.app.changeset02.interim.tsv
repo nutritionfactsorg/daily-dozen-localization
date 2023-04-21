@@ -1,7 +1,6 @@
 key_droid	key_apple	base_value	lang_value	base_note	lang_note
 	history_data_alert_cancel	Cancel	Ματαίωση	History Data Alert: Cancel button	Cancel
 	history_data_alert_clear	Clear	Σαφή	History Data Alert: Clear button	
-	Clear
 		Clear Button	Κουμπί διαγραφής		Delete button
 		Clear Data	καθαρισμός δεδομένων		data cleaning
 		Erase Data	Διαγραφή δεδομένων		Clear data
