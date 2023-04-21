@@ -1,0 +1,25 @@
+key_droid	key_apple	base_value	lang_value	base_note	lang_note
+	history_data_alert_cancel	Cancel	取消	History Data Alert: Cancel button	Cancel
+		Cancel Button	取消按鈕		cancel button (Qǔxiāo ànniǔ)
+	history_data_alert_clear	Clear	清除	History Data Alert: Clear button	to clear
+		Clear Button	清除按鈕		clear button
+					
+	history_data_alert_import	Import	進口	History Data Alert: Import buttom	import
+		Import data	導入數據		import data
+	history_data_alert_ok	OK	好的	History Data Alert: OK button	
+		okay	好的		OK 
+		OK Button	確定按鈕		Confirm Button
+	history_data_export_btn	Export History Data	導出歷史數據	History Data: export action button	Export historical data
+		Export Data	導出數據		export data
+	history_data_export_text	Export has been written to:	導出已寫入：	History Data: export description text	The export is written to:
+		The export is written to:	導出被寫入：		The export is written:
+		The export is written:	導出被寫入：		The export is written:
+		File saved to	文件保存到：		file save to
+		Export file saved to:	導出文件保存到：		Save the export file to
+		Saved the export file to:	將導出文件保存到：		Save the export file to:
+	history_data_import_btn	Import History Data	導入歷史數據	History Data: import action button	Import historical data
+	history_data_import_caution_text	Caution: This import will overwrite all history data currently in this Daily Dozen application. Would you like to proceed with the import?	注意：此導入將覆蓋此 Daily Dozen 應用程序中當前的所有歷史數據。 您想繼續導入嗎？	History Data: import caution text	NOTE: This import will overwrite any historical data currently in this Daily Dozen application. Do you want to continue importing?
+		NOTE: This import will overwrite any historical data currently in this Daily Dozen application. Do you want to continue importing?	注意：此導入將覆蓋此 Daily Dozen 應用程序中當前的所有歷史數據。 是否繼續導入？		NOTE: This import will overwrite any historical data currently in this Daily Dozen application. Do you want to continue importing?
+	history_data_import_error_text	Error: The import was not performed because of a data error. The existing data has remained unchanged.	錯誤：由於數據錯誤而未執行導入。 現有數據保持不變。	History Data: import data error text	Error: The import was not performed due to bad data. Existing data remains unchanged.
+	history_data_import_notfound_text	Did not find a valid import file in the Daily Dozen Documents folder.	在 Daily Dozen Documents 文件夾中未找到有效的導入文件。	History Data: import not found text	No valid import files were found in the Daily Dozen Documents folder.
+	history_data_title	History	歷史	History Data: preferences header & title	history
