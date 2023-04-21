@@ -9,8 +9,8 @@ about_translators	info_app_about_translators	Special thanks to our volunteer tra
 	setting_analytics_body	Enable anonymous usage information to be collected to help improve this application.	Ενεργοποιήστε τη συλλογή ανώνυμων πληροφοριών χρήσης για τη βελτίωση αυτής της εφαρμογής.	Google Firebase Analytics	Enable the collection of anonymous usage information to improve this app
 	setting_analytics_enable	Enable Analytics	Ενεργοποιήστε τα αναλυτικά στοιχεία	Google Firebase Analytics	Turn on analytics
 		Turn on analytics	Ενεργοποιήστε τα αναλυτικά στοιχεία		Turn on analytics
-	setting_analytics_opt_in	Opt In	Συμμετοχή	Google Firebase Analytics "Accept"	Participation
-	setting_analytics_opt_out	Opt Out	Εξαίρεση	Google Firebase Analytics "Decline"	Exception
+	setting_analytics_opt_in	Opt In	Συμμετοχή	Google Firebase Analytics “Accept”	Participation
+	setting_analytics_opt_out	Opt Out	Εξαίρεση	Google Firebase Analytics “Decline”	Exception
 		Opt Out Buton	Κουμπί εξαίρεσης		Opt-out button
 		Opt out of cookies	Εξαίρεση από τα cookies		Exclusion from cookies
 	setting_analytics_title	Analytics	αναλυτικά στοιχεία	Google Firebase Analytics	detailed information
