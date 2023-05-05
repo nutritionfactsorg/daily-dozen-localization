@@ -48,7 +48,7 @@ DO_NORMALIZE_BATCH
 #############
 LOGGER_FILENAME="_log_FromTsvIntakeC_2_Catalan_ca"
 ## -- (ca) process app --
-SOURCE_TSV_INCLUDE="Catalan/tsv/v02/Catalan_ca.app.changeset02.tsv"
+SOURCE_TSV_INCLUDE="Catalan/tsv/v02/Catalan_ca.app.changeset02.interim.intake.tsv"
 DO_NORMALIZE_BATCH
 
 ###########
@@ -64,7 +64,7 @@ DO_NORMALIZE_BATCH
 ############
 LOGGER_FILENAME="_log_FromTsvIntakeC_2_German_de"
 ## -- (de) process app --
-SOURCE_TSV_INCLUDE="German/tsv/v02/German_de.app.changeset02.tsv"
+SOURCE_TSV_INCLUDE="German/tsv/v02/German_de.app.changeset02.20230426.intake.tsv"
 DO_NORMALIZE_BATCH
 
 ############
@@ -72,13 +72,17 @@ DO_NORMALIZE_BATCH
 ############
 LOGGER_FILENAME="_log_FromTsvIntakeC_2_Hebrew_he"
 ## -- (he) process app --
-SOURCE_TSV_INCLUDE="Hebrew/tsv/v02/Hebrew_he.app.changeset02.tsv"
+SOURCE_TSV_INCLUDE="Hebrew/tsv/v02/Hebrew_he.app.changeset02.20230424.intake.tsv"
 DO_NORMALIZE_BATCH
 
 #############
 ## Italian ##
 #############
 ### Note: Italian skipped to v04
+LOGGER_FILENAME="_log_FromTsvIntakeC_2_Italian_it"
+## -- (he) process app --
+SOURCE_TSV_INCLUDE="Italian/tsv/v02/Italian_it.app.changeset02.20230426.intake.tsv"
+DO_NORMALIZE_BATCH
 
 ############
 ## Polish ##
@@ -117,7 +121,7 @@ DO_NORMALIZE_BATCH
 #############
 LOGGER_FILENAME="_log_FromTsvIntakeC_2_Russian_ru"
 ## -- (ru) process app --
-SOURCE_TSV_INCLUDE="Russian/tsv/v02/Russian_ru.app.changeset02.tsv"
+SOURCE_TSV_INCLUDE="Russian/tsv/v02/Russian_ru.app.changeset02.interim.intake.tsv"
 DO_NORMALIZE_BATCH
 
 ############
@@ -162,7 +166,7 @@ DO_NORMALIZE_BATCH
 #########################
 LOGGER_FILENAME="_log_FromTsvIntakeC_2_Chinese_zh-Hant"
 ## -- (zh-Hant) process app --
-SOURCE_TSV_INCLUDE="Chinese_Traditional/tsv/v02/Chinese_Traditional_zh-Hant.app.changeset02.tsv"
+SOURCE_TSV_INCLUDE="Chinese_Traditional/tsv/v02/Chinese_Traditional_zh-Hant.app.changeset02.interim.intake.tsv"
 DO_NORMALIZE_BATCH
 
 ############
@@ -178,7 +182,7 @@ DO_NORMALIZE_BATCH
 ###########
 LOGGER_FILENAME="_log_FromTsvIntakeC_2_Greek_el"
 ## -- (el) process app --
-SOURCE_TSV_INCLUDE="Greek/tsv/v02/Greek_el.app.changeset02.tsv"
+SOURCE_TSV_INCLUDE="Greek/tsv/v02/Greek_el.app.changeset02.interim.intake.tsv"
 DO_NORMALIZE_BATCH
 
 ######################################################
