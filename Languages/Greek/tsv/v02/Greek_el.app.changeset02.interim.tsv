@@ -1,11 +1,7 @@
 key_droid	key_apple	base_value	lang_value	base_note	lang_note
 	history_data_alert_cancel	Cancel	Ματαίωση	History Data Alert: Cancel button	Cancel
-	history_data_alert_clear	Clear	Σαφή	History Data Alert: Clear button	
-		Clear Button	Κουμπί διαγραφής		Delete button
-		Clear Data	καθαρισμός δεδομένων		data cleaning
-		Erase Data	Διαγραφή δεδομένων		Clear data
-	history_data_alert_import	Import	Εισαγωγή	History Data Alert: Import buttom	Introduction
-		Import data	Εισαγωγή δεδομένων		Data input
+	history_data_alert_clear	Clear	Διαγραφή δεδομένων	History Data Alert: Clear button	Clear Data
+	history_data_alert_import	Import	Εισαγωγή	History Data Alert: Import buttom	Introduction, Import, Input
 	history_data_alert_ok	OK	Εντάξει	History Data Alert: OK button	Okay
 	history_data_export_btn	Export History Data	Εξαγωγή δεδομένων ιστορικού	History Data: export action button	Export history data
 	history_data_export_text	Export has been written to:	Η εξαγωγή έχει γραφτεί σε:	History Data: export description text	The export is written to:

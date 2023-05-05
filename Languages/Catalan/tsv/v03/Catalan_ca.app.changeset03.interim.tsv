@@ -2,9 +2,6 @@ key_droid	key_apple	base_value	lang_value	base_note	lang_note
 serving_sizes	doze_detail_section_sizes	Serving Sizes (Suggested)	Mides de la porció (suggerit)	Doze Detail View subheading: ‘Serving Sizes’	Serving Sizes (Suggested)
 food_info_serving_sizes_beans_imperial.0	dozeBeans.Serving.imperial.0	¼ cup hummus or bean dip	¼ tassa d'hummus o salsa de fesols		¼ cup hummus or bean dip
 food_info_serving_sizes_beans_imperial.1	dozeBeans.Serving.imperial.1	½ cup cooked beans, split peas, or lentils	½ tassa de mongetes cuites, pèsols o llenties		½ cup cooked beans, peas or lentils
-		split peas	pèsols partits	There really is no word for split peas. They are dried whole peas anyway.	
-		½ cup cooked beans, lentils, or split peas	½ tassa de mongetes, llenties o pèsols cuits		½ cup cooked beans, lentils or peas
-			pèsols cuits		cooked peas
 food_info_serving_sizes_beans_imperial.2	dozeBeans.Serving.imperial.2	½ cup tofu or tempeh	½ tassa de tofu o tempeh		
 food_info_serving_sizes_beans_imperial.3	dozeBeans.Serving.imperial.3	1 cup fresh peas or snow peas	1 tassa de pèsols frescos o pèsols de neu		1 cup fresh peas or snow peas
 food_info_serving_sizes_beans_imperial.4	dozeBeans.Serving.imperial.4	1 cup fresh sprouted beans (lentils, mung beans)	1 tassa de mongetes germinades fresques (llenties, mongetes mung)		1 cup fresh sprouted beans (lentils, mung beans)
