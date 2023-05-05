@@ -1,12 +1,12 @@
 key_droid	key_apple	base_value	lang_value	base_note	lang_note
-	history_data_alert_cancel	Cancel	Cancel	History Data Alert: Cancel button	
-	history_data_alert_clear	Clear	Clear	History Data Alert: Clear button	
-	history_data_alert_import	Import	Import	History Data Alert: Import buttom	
-	history_data_alert_ok	OK	OK	History Data Alert: OK button	
-	history_data_export_btn	Export History Data	Export History Data	History Data: export action button	
-	history_data_export_text	Export has been written to:	Export has been written to:	History Data: export description text	
-	history_data_import_btn	Import History Data	Import History Data	History Data: import action button	
-	history_data_import_caution_text	Caution: This import will overwrite all history data currently in this Daily Dozen application. Would you like to proceed with the import?	Caution: This import will overwrite all history data currently in this Daily Dozen application. Would you like to proceed with the import?	History Data: import caution text	
-	history_data_import_error_text	Error: The import was not performed because of a data error. The existing data has remained unchanged.	Error: The import was not performed because of a data error. The existing data has remained unchanged.	History Data: import data error text	
-	history_data_import_notfound_text	Did not find a valid import file in the Daily Dozen Documents folder.	Did not find a valid import file in the Daily Dozen Documents folder.	History Data: import not found text	
-	history_data_title	History	History	History Data: preferences header & title	
+	history_data_alert_cancel	Cancel	בטל	History Data Alert: Cancel button	הודעת נתוני היסטוריה: לחצן בטל
+	history_data_alert_clear	Clear	נקה	History Data Alert: Clear button	הודעת נתוני היסטוריה: לחצן נקה 
+	history_data_alert_import	Import	ייבוא	History Data Alert: Import buttom	הודעת נתוני היסטוריה: לחצן ייבוא
+	history_data_alert_ok	OK	אישור	History Data Alert: OK button	הודעת נתוני היסטוריה: לחצן אישור
+	history_data_export_btn	Export History Data	ייצוא נתוני היסטוריה	History Data: export action button	נתוני היסטוריה: לחצן פעולת ייצוא
+	history_data_export_text	Export has been written to:	ייצוא הועבר אל:	History Data: export description text	נתוני היסטוריה: כיתוב תיאור ייצוא
+	history_data_import_btn	Import History Data	ייבוא נתוני היסטוריה	History Data: import action button	נתוני היסטוריה: לחצן פעולת ייבוא
+	history_data_import_caution_text	Caution: This import will overwrite all history data currently in this Daily Dozen application. Would you like to proceed with the import?	שימו לב: ייבוא זה יחליף את כל מידע ההיסטוריה שנמצא עכשיו ביישומון התריסר היומי הזה.  האם תרצו להמשיך בייבוא?	History Data: import caution text	נתוני היסטוריה: כיתוב אזהרת  ייבוא
+	history_data_import_error_text	Error: The import was not performed because of a data error. The existing data has remained unchanged.	שגיאה: ייבוא זה לא בוצע בגלל שגיאת נתונים. המידע הקיים נשאר ללא שינוי.	History Data: import data error text	נתוני היסטוריה: כיתוב שגיאת נתוני ייבוא
+	history_data_import_notfound_text	Did not find a valid import file in the Daily Dozen Documents folder.	לא נמצא קובץ ייבוא תקף בתיק המסמכים של התריסר היומי.	History Data: import not found text	נתוני היסטוריה: כיתוב ייבוא לא נמצא
+	history_data_title	History	היסטוריה	History Data: preferences header & title	נתוני היסטוריה: כותרת העדפות

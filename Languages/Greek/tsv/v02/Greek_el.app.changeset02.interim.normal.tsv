@@ -1,0 +1,12 @@
+key_droid	key_apple	base_value	lang_value	base_note	lang_note
+	history_data_alert_cancel	Cancel	Ματαίωση	History Data Alert: Cancel button	Cancel
+	history_data_alert_clear	Clear	Διαγραφή δεδομένων	History Data Alert: Clear button	Clear Data
+	history_data_alert_import	Import	Εισαγωγή	History Data Alert: Import buttom	Introduction, Import, Input
+	history_data_alert_ok	OK	Εντάξει	History Data Alert: OK button	Okay
+	history_data_export_btn	Export History Data	Εξαγωγή δεδομένων ιστορικού	History Data: export action button	Export history data
+	history_data_export_text	Export has been written to:	Η εξαγωγή έχει γραφτεί σε:	History Data: export description text	The export is written to:
+	history_data_import_btn	Import History Data	Εισαγωγή δεδομένων ιστορικού	History Data: import action button	Import history data
+	history_data_import_caution_text	Caution: This import will overwrite all history data currently in this Daily Dozen application. Would you like to proceed with the import?	Προσοχή: Αυτή η εισαγωγή θα αντικαταστήσει όλα τα δεδομένα ιστορικού αυτήν τη στιγμή σε αυτήν την εφαρμογή Daily Dozen. Θα θέλατε να προχωρήσετε στην εισαγωγή;	History Data: import caution text	Caution: This import will overwrite all history data currently in this Daily Dozen app. Would you like to proceed with the import?
+	history_data_import_error_text	Error: The import was not performed because of a data error. The existing data has remained unchanged.	Σφάλμα: Η εισαγωγή δεν πραγματοποιήθηκε λόγω σφάλματος δεδομένων. Τα υπάρχοντα δεδομένα παρέμειναν αμετάβλητα.	History Data: import data error text	Error: Import failed due to a data error. Existing data remained unchanged.
+	history_data_import_notfound_text	Did not find a valid import file in the Daily Dozen Documents folder.	Δεν βρέθηκε έγκυρο αρχείο εισαγωγής στο φάκελο Daily Dozen Documents.	History Data: import not found text	No valid input file found in Daily Dozen Documents folder.
+	history_data_title	History	Ιστορία	History Data: preferences header & title	History

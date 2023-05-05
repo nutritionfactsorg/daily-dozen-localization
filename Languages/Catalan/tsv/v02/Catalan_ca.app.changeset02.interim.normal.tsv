@@ -1,0 +1,12 @@
+key_droid	key_apple	base_value	lang_value	base_note	lang_note
+	history_data_alert_cancel	Cancel	Cancel·lar	History Data Alert: Cancel button	Cancel
+	history_data_alert_clear	Clear	Esborrar	History Data Alert: Clear button	Erase
+	history_data_alert_import	Import	Importar	History Data Alert: Import buttom	Import
+	history_data_alert_ok	OK	D'acord	History Data Alert: OK button	OK
+	history_data_export_btn	Export History Data	Exporta dades	History Data: export action button	Export data
+	history_data_export_text	Export has been written to:	L'exportació s'ha escrit a:	History Data: export description text	The export was written to:
+	history_data_import_btn	Import History Data	Importa dades de l'historial	History Data: import action button	Import data from history
+	history_data_import_caution_text	Caution: This import will overwrite all history data currently in this Daily Dozen application. Would you like to proceed with the import?	Precaució: aquesta importació sobreescriurà totes les dades de l'historial actualment en aquesta aplicació Daily Dozen. Voleu continuar amb la importació?	History Data: import caution text	Caution: This import will overwrite all history data currently in this Daily Dozen app. Do you want to continue with the import?
+	history_data_import_error_text	Error: The import was not performed because of a data error. The existing data has remained unchanged.	Error: la importació ha fallat a causa d'un error de dades. Les dades existents no han canviat.	History Data: import data error text	Error: The import failed due to a data error. Existing data has not changed.
+	history_data_import_notfound_text	Did not find a valid import file in the Daily Dozen Documents folder.	No s'ha trobat cap fitxer d'importació vàlid a la carpeta Daily Dozen Documents.	History Data: import not found text	No valid import file found in the Daily Dozen Documents folder.
+	history_data_title	History	Història	History Data: preferences header & title	history
