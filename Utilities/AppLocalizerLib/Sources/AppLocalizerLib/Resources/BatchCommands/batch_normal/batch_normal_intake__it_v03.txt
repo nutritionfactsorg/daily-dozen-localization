@@ -51,18 +51,15 @@ DO_NORMALIZE_BATCH
 ## Italian ##
 #############
 LOGGER_FILENAME="_log_FromTsvIntake_Italian_it"
-
-## -- (it) process application values PICK ONE --
-SOURCE_TSV_INCLUDE="Italian/tsv/Italian_it.app.tsv"
-## Legacy PR 20190223
-#SOURCE_TSV_INCLUDE="Italian/tsv/Italian_it.20190223.tsv"
-## WIP snapshot from translator
-#SOURCE_TSV_INCLUDE="Italian/tsv/Italian_it.wip.20220603.tsv"
-
-SOURCE_TSV_INCLUDE="Italian/tsv/v04/Italian_it.app.v04.20230406.intake.tsv"
+## -- (it) process app --
+SOURCE_TSV_INCLUDE="Italian/tsv/v03/Italian_it.app.v03.tsv"
+SOURCE_TSV_INCLUDE="Italian/tsv/v01/Italian_it.app.changeset01.tsv"
+SOURCE_TSV_INCLUDE="Italian/tsv/v02/Italian_it.app.changeset02.tsv"
+SOURCE_TSV_INCLUDE="Italian/tsv/v03/Italian_it.app.changeset03.tsv"
 DO_NORMALIZE_BATCH
 
+### NOTE: store pending translations. tagged.
 ## -- (it) process store --
-SOURCE_TSV_INCLUDE="Italian/tsv/Italian_it.store.tsv"
-DO_NORMALIZE_BATCH
+#SOURCE_TSV_INCLUDE="Italian/tsv/Italian_it.store.tsv"
+#DO_NORMALIZE_BATCH
 
