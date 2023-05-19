@@ -51,7 +51,7 @@ DO_NORMALIZE_BATCH
 ## Bulgarian ##
 ###############
 ### Note: v04 is a roll-up of Base+v01+v02+v03
-LOGGER_FILENAME="_log_FromTsvIntakeB+C_Bulgarian_bg"
+LOGGER_FILENAME="_log_FromTsvIntake+BC_Bulgarian_bg"
 ## -- (bg) process app --
 SOURCE_TSV_INCLUDE="Bulgarian/tsv/v04/Bulgarian_bg.app.v04.230315.intake.tsv"
 DO_NORMALIZE_BATCH

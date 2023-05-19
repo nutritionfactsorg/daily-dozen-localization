@@ -53,13 +53,17 @@ DO_NORMALIZE_BATCH
 LOGGER_FILENAME="_log_FromTsvIntake_Italian_it"
 ## -- (it) process app --
 SOURCE_TSV_INCLUDE="Italian/tsv/v03/Italian_it.app.v03.tsv"
+### :WIP: it changeset01 ??
 SOURCE_TSV_INCLUDE="Italian/tsv/v01/Italian_it.app.changeset01.tsv"
-SOURCE_TSV_INCLUDE="Italian/tsv/v02/Italian_it.app.changeset02.tsv"
-SOURCE_TSV_INCLUDE="Italian/tsv/v03/Italian_it.app.changeset03.tsv"
+SOURCE_TSV_INCLUDE="Italian/tsv/v02/Italian_it.app.changeset02.20230426.normal.tsv"
+SOURCE_TSV_INCLUDE="Italian/tsv/v03/Italian_it.app.changeset03.20230426.intake.tsv"
 DO_NORMALIZE_BATCH
 
-### NOTE: store pending translations. tagged.
+### NOTE:WIP: store pending translations. tagged.
 ## -- (it) process store --
-#SOURCE_TSV_INCLUDE="Italian/tsv/Italian_it.store.tsv"
-#DO_NORMALIZE_BATCH
+SOURCE_TSV_INCLUDE="Italian/tsv/Italian_it.store.tsv"
+### :WIP: it changeset01 ??
+SOURCE_TSV_INCLUDE="Italian/tsv/v01/Italian_it.store.changeset01.tsv"
+SOURCE_TSV_INCLUDE="Italian/tsv/v03/Italian_it.store.changeset03.20230426.intake.tsv"
+DO_NORMALIZE_BATCH
 

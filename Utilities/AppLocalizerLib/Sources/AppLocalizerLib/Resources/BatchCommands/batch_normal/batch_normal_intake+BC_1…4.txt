@@ -1,8 +1,8 @@
-### FILE: batch_normal_FromTsvIntakeB+C.txt
+### FILE: batch_normal_FromTsvIntake+BC.txt
 ###
 ### NOTE: 
 ###    * "vNN BASELINE" + CHANGESET (post-`intake`) processing
-###    * includes v04 rollup for Bulgarian & Italian
+###    * includes v04 rollup for Bulgarian & French
 ###
 ### APPLY: 
 ###    1. run after intake processing of baseline (B) and changesets (C)
@@ -14,8 +14,8 @@
 ###################
 ## General Setup ##
 ###################
-DIRNAME_OUTPUT_NORMAL="FromTsvIntakeBC_1_2_3"
-LOGGER_FILENAME="_log_FromTsvIntakeBC_1_2_3__"
+DIRNAME_OUTPUT_NORMAL="FromTsvIntake+BC_1…4"
+LOGGER_FILENAME="_log_FromTsvIntake+BC_1…4__"
 LOGGER_LEVEL_INFO
 
 ## Base English_US paths into which translations are mapped
@@ -44,7 +44,7 @@ URL_TOPICS_TSV="English_US/tsv/English_US_en.url_topics.tsv"
 ####################################
 ## English_US: Baseline Reference ##
 ####################################
-LOGGER_FILENAME="_log_FromTsvIntakeBC_1_2_3__US_en"
+LOGGER_FILENAME="_log_FromTsvIntake+BC_1…4__US_en"
 
 SOURCE_TSV_INCLUDE="English_US/tsv/v03/English_US_en.app.v03.tsv"
 SOURCE_TSV_INCLUDE="English_US/tsv/v01/English_US_en.app.changeset01.tsv"
@@ -67,7 +67,7 @@ DO_NORMALIZE_BATCH
 ## Bulgarian ##
 ###############
 ### Note: v04 is a roll-up of Base+v01+v02+v03
-LOGGER_FILENAME="_log_FromTsvIntakeB+C_Bulgarian_bg"
+LOGGER_FILENAME="_log_FromTsvIntake+BC_Bulgarian_bg"
 ## -- (bg) process app --
 SOURCE_TSV_INCLUDE="Bulgarian/tsv/v04/Bulgarian_bg.app.v04.tsv"
 DO_NORMALIZE_BATCH
@@ -79,8 +79,8 @@ DO_NORMALIZE_BATCH
 #############
 ## Catalan ##
 #############
-### :TBD: NOT YET TRANSLATED
-LOGGER_FILENAME="_log_FromTsvIntakeB+C_Catalan_ca"
+### :WIP: PART INTERIM
+LOGGER_FILENAME="_log_FromTsvIntake+BC_Catalan_ca"
 ## -- (ca) process app --
 SOURCE_TSV_INCLUDE="Catalan/tsv/v03/Catalan_ca.app.v03.tsv"
 SOURCE_TSV_INCLUDE="Catalan/tsv/v01/Catalan_ca.app.changeset01.tsv"
@@ -91,12 +91,13 @@ DO_NORMALIZE_BATCH
 ## -- (ca) process store --
 SOURCE_TSV_INCLUDE="Catalan/tsv/v03/Catalan_ca.store.v03.tsv"
 SOURCE_TSV_INCLUDE="Catalan/tsv/v01/Catalan_ca.store.changeset01.tsv"
+SOURCE_TSV_INCLUDE="Catalan/tsv/v03/Catalan_ca.store.changeset03.tsv"
 DO_NORMALIZE_BATCH
 
 ###########
 ## Czech ##
 ###########
-LOGGER_FILENAME="_log_FromTsvIntakeB+C_Czech_cs"
+LOGGER_FILENAME="_log_FromTsvIntake+BC_Czech_cs"
 ## -- (cs) process app --
 SOURCE_TSV_INCLUDE="Czech/tsv/v03/Czech_cs.app.v03.tsv"
 SOURCE_TSV_INCLUDE="Czech/tsv/v01/Czech_cs.app.changeset01.tsv"
@@ -111,9 +112,30 @@ SOURCE_TSV_INCLUDE="Czech/tsv/v03/Czech_cs.store.changeset03.tsv"
 DO_NORMALIZE_BATCH
 
 ############
+## French ##
+############
+### Note: v04 is a roll-up of Base+v01+v02+v03
+LOGGER_FILENAME="_log_FromTsvIntake+BC_French_fr"
+## -- (fr) process app --
+#SOURCE_TSV_INCLUDE="French/tsv/v03/French_fr.app.v03.tsv"
+#SOURCE_TSV_INCLUDE="French/tsv/v01/French_fr.app.changeset01.tsv"
+#SOURCE_TSV_INCLUDE="French/tsv/v02/French_fr.app.changeset02.tsv"
+#SOURCE_TSV_INCLUDE="French/tsv/v03/French_fr.app.changeset03.tsv"
+SOURCE_TSV_INCLUDE="French/tsv/v04/French_fr.app.v04.tsv"
+DO_NORMALIZE_BATCH
+
+## -- (fr) process store --
+## :WIP: French store has yet to be translated
+#SOURCE_TSV_INCLUDE="French/tsv/v03/French_fr.store.v03.tsv"
+#SOURCE_TSV_INCLUDE="French/tsv/v01/French_fr.store.changeset01.tsv"
+#SOURCE_TSV_INCLUDE="French/tsv/v03/French_fr.store.changeset03.tsv"
+SOURCE_TSV_INCLUDE="French/tsv/v04/French_fr.store.v04.tsv"
+DO_NORMALIZE_BATCH
+
+############
 ## German ##
 ############
-LOGGER_FILENAME="_log_FromTsvIntakeB+C_German_de"
+LOGGER_FILENAME="_log_FromTsvIntake+BC_German_de"
 ## -- (de) process app --
 SOURCE_TSV_INCLUDE="German/tsv/v03/German_de.app.v03.tsv"
 SOURCE_TSV_INCLUDE="German/tsv/v01/German_de.app.changeset01.tsv"
@@ -130,7 +152,7 @@ DO_NORMALIZE_BATCH
 ############
 ## Hebrew ##
 ############
-LOGGER_FILENAME="_log_FromTsvIntakeB+C_Hebrew_he"
+LOGGER_FILENAME="_log_FromTsvIntake+BC_Hebrew_he"
 ## -- (he) process app --
 SOURCE_TSV_INCLUDE="Hebrew/tsv/v03/Hebrew_he.app.v03.tsv"
 SOURCE_TSV_INCLUDE="Hebrew/tsv/v01/Hebrew_he.app.changeset01.tsv"
@@ -155,19 +177,28 @@ DO_NORMALIZE_BATCH
 ## Italian ##
 #############
 ### Note: v04 is a roll-up of Base+v01+v02+v03
-LOGGER_FILENAME="_log_FromTsvIntakeB+C_Italian_it"
+LOGGER_FILENAME="_log_FromTsvIntake+BC_Italian_it"
 ## -- (it) process app --
-SOURCE_TSV_INCLUDE="Italian/tsv/v04/Italian_it.app.v04.tsv"
+SOURCE_TSV_INCLUDE="Italian/tsv/v03/Italian_it.app.v03.tsv"
+#SOURCE_TSV_INCLUDE="Italian/tsv/v03/Italian_it.app.v03.20230424.intake.tsv"
+### :WIP:???: changeset01…03 appears to also be in 20230424.intake with minor differences
+### :WIP:??? Dimensioni delle porzioni (suggerite) vs Porzioni (consigliate)
+#SOURCE_TSV_INCLUDE="Italian/tsv/v02/Italian_it.app.changeset01.tsv"
+#SOURCE_TSV_INCLUDE="Italian/tsv/v02/Italian_it.app.changeset02.tsv"
+#SOURCE_TSV_INCLUDE="Italian/tsv/v03/Italian_it.app.changeset03.tsv"
 DO_NORMALIZE_BATCH
 
 ## -- (it) process store --
-#SOURCE_TSV_INCLUDE="Italian/tsv/v04/Italian_it.store.v04.tsv"
-#DO_NORMALIZE_BATCH
+SOURCE_TSV_INCLUDE="Italian/tsv/v03/Italian_it.store.v03.tsv"
+### :WIP:???: somehow the changesets still process this to some English
+#SOURCE_TSV_INCLUDE="Italian/tsv/v01/Italian_it.store.changeset01.tsv"
+#SOURCE_TSV_INCLUDE="Italian/tsv/v03/Italian_it.store.changeset03.tsv"
+DO_NORMALIZE_BATCH
 
 ############
 ## Polish ##
 ############
-LOGGER_FILENAME="_log_FromTsvIntakeB+C_Polish_pl"
+LOGGER_FILENAME="_log_FromTsvIntake+BC_Polish_pl"
 ## -- (pl) process app --
 SOURCE_TSV_INCLUDE="Polish/tsv/v03/Polish_pl.app.v03.tsv"
 SOURCE_TSV_INCLUDE="Polish/tsv/v01/Polish_pl.app.changeset01.tsv"
@@ -184,7 +215,7 @@ DO_NORMALIZE_BATCH
 #######################
 ## Portuguese_Brazil ##
 #######################
-LOGGER_FILENAME="_log_FromTsvIntakeB+C_Portuguese_pt-rBR"
+LOGGER_FILENAME="_log_FromTsvIntake+BC_Portuguese_pt-rBR"
 ## -- (pt-rBR) process app --
 SOURCE_TSV_INCLUDE="Portuguese_Brazil/tsv/v03/Portuguese_pt-rBR.app.v03.tsv"
 SOURCE_TSV_INCLUDE="Portuguese_Brazil/tsv/v01/Portuguese_pt-rBR.app.changeset01.tsv"
@@ -201,7 +232,7 @@ DO_NORMALIZE_BATCH
 #########################
 ## Portuguese_Portugal ##
 #########################
-LOGGER_FILENAME="_log_FromTsvIntakeB+C_Portuguese_pt-rPT"
+LOGGER_FILENAME="_log_FromTsvIntake+BC_Portuguese_pt-rPT"
 ## -- (pt-rPT) process app --
 SOURCE_TSV_INCLUDE="Portuguese_Portugal/tsv/v03/Portuguese_pt-rPT.app.v03.tsv"
 SOURCE_TSV_INCLUDE="Portuguese_Portugal/tsv/v01/Portuguese_pt-rPT.app.changeset01.tsv"
@@ -218,7 +249,7 @@ DO_NORMALIZE_BATCH
 ##############
 ## Romanian ##
 ##############
-LOGGER_FILENAME="_log_FromTsvIntakeB+C_Romanian_ro"
+LOGGER_FILENAME="_log_FromTsvIntake+BC_Romanian_ro"
 ## -- (ro) process app --
 SOURCE_TSV_INCLUDE="Romanian/tsv/v03/Romanian_ro.app.v03.tsv"
 SOURCE_TSV_INCLUDE="Romanian/tsv/v01/Romanian_ro.app.changeset01.tsv"
@@ -235,7 +266,7 @@ DO_NORMALIZE_BATCH
 #############
 ## Russian ##
 #############
-LOGGER_FILENAME="_log_FromTsvIntakeB+C_Russian_ru"
+LOGGER_FILENAME="_log_FromTsvIntake+BC_Russian_ru"
 ## -- (ru) process app --
 SOURCE_TSV_INCLUDE="Russian/tsv/v03/Russian_ru.app.v03.tsv"
 SOURCE_TSV_INCLUDE="Russian/tsv/v01/Russian_ru.app.changeset01.tsv"
@@ -252,7 +283,7 @@ DO_NORMALIZE_BATCH
 ############
 ## Slovak ##
 ############
-LOGGER_FILENAME="_log_FromTsvIntakeB+C_Slovak_sk"
+LOGGER_FILENAME="_log_FromTsvIntake+BC_Slovak_sk"
 ## -- (sk) process app --
 SOURCE_TSV_INCLUDE="Slovak/tsv/v03/Slovak_sk.app.v03.tsv"
 SOURCE_TSV_INCLUDE="Slovak/tsv/v01/Slovak_sk.app.changeset01.tsv"
@@ -269,7 +300,7 @@ DO_NORMALIZE_BATCH
 #############
 ## Spanish ##
 #############
-LOGGER_FILENAME="_log_FromTsvIntakeB+C_Spanish_es"
+LOGGER_FILENAME="_log_FromTsvIntake+BC_Spanish_es"
 ## Note: Spanish has its own topic urls
 URL_FRAGMENTS_TSV="Spanish/tsv/Spanish_es.url_fragments.tsv"
 URL_TOPICS_TSV="Spanish/tsv/Spanish_es.url_topics.tsv"
@@ -297,7 +328,7 @@ URL_TOPICS_TSV="English_US/tsv/English_US_en.url_topics.tsv"
 ########################
 ## Chinese Simplified ##
 ########################
-LOGGER_FILENAME="_log_FromTsvIntakeB+C_Chinese_zh-Hans"
+LOGGER_FILENAME="_log_FromTsvIntake+BC_Chinese_zh-Hans"
 ## -- (zh-Hans) process app --
 SOURCE_TSV_INCLUDE="Chinese_Simplified/tsv/v03/Chinese_Simplified_zh-Hans.app.v03.tsv"
 SOURCE_TSV_INCLUDE="Chinese_Simplified/tsv/v01/Chinese_Simplified_zh-Hans.app.changeset01.tsv"
@@ -316,7 +347,7 @@ DO_NORMALIZE_BATCH
 #########################
 ## zh - mosly traditional in original Android translation
 
-LOGGER_FILENAME="_log_FromTsvIntakeB+C_Chinese_zh-Hant"
+LOGGER_FILENAME="_log_FromTsvIntake+BC_Chinese_zh-Hant"
 ## -- (zh-Hant) process app --
 SOURCE_TSV_INCLUDE="Chinese_Traditional/tsv/v03/Chinese_Traditional_zh-Hant.app.v03.tsv"
 SOURCE_TSV_INCLUDE="Chinese_Traditional/tsv/v01/Chinese_Traditional_zh-Hant.app.changeset01.tsv"
@@ -333,7 +364,7 @@ DO_NORMALIZE_BATCH
 ###########
 ## Greek ##
 ###########
-LOGGER_FILENAME="_log_FromTsvIntakeB+C_Greek_el"
+LOGGER_FILENAME="_log_FromTsvIntake+BC_Greek_el"
 ## -- (el) process app --
 SOURCE_TSV_INCLUDE="Greek/tsv/v03/Greek_el.app.v03.tsv"
 SOURCE_TSV_INCLUDE="Greek/tsv/v01/Greek_el.app.changeset01.tsv"
@@ -345,23 +376,6 @@ DO_NORMALIZE_BATCH
 SOURCE_TSV_INCLUDE="Greek/tsv/v03/Greek_el.store.v03.tsv"
 SOURCE_TSV_INCLUDE="Greek/tsv/v01/Greek_el.store.changeset01.tsv"
 SOURCE_TSV_INCLUDE="Greek/tsv/v03/Greek_el.store.changeset03.tsv"
-DO_NORMALIZE_BATCH
-
-############
-## French ##
-############
-LOGGER_FILENAME="_log_FromTsvIntakeB+C_French_fr"
-## -- (fr) process app --
-SOURCE_TSV_INCLUDE="French/tsv/v03/French_fr.app.v03.tsv"
-SOURCE_TSV_INCLUDE="French/tsv/v01/French_fr.app.changeset01.tsv"
-SOURCE_TSV_INCLUDE="French/tsv/v02/French_fr.app.changeset02.tsv"
-SOURCE_TSV_INCLUDE="French/tsv/v03/French_fr.app.changeset03.tsv"
-DO_NORMALIZE_BATCH
-
-## -- (fr) process store --
-SOURCE_TSV_INCLUDE="French/tsv/v03/French_fr.store.v03.tsv"
-SOURCE_TSV_INCLUDE="French/tsv/v01/French_fr.store.changeset01.tsv"
-SOURCE_TSV_INCLUDE="French/tsv/v03/French_fr.store.changeset03.tsv"
 DO_NORMALIZE_BATCH
 
 ######################################################
