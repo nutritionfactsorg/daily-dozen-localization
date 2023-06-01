@@ -24,7 +24,7 @@ BASE_JSON_DIR="English_US/ios/en-US_reference/LocalStrings/en.changeset02.lproj"
 BASE_TSV_INCLUDE="English_US/tsv/v02/English_US_en.app.changeset02.tsv"
 
 ### ------ ANDROID_LANG --> NORMALIZE XML -----
-BASE_XML_URL="English_US/android/values/strings.changeset02.xml"
+BASE_XML_URL="English_US/android/values/strings.v02.xml"
 
 ## Note: currently, URL_TOPICS_TSV is the same for all languages except Spanish.
 URL_FRAGMENTS_TSV="English_US/tsv/English_US_en.url_fragments.tsv"
