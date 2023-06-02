@@ -1,0 +1,560 @@
+key_droid	key_apple	base_value	lang_value	base_note	lang_note
+	CFBundleDisplayName	DailyDozen	DuzinaZilnică	User-visible application name. Visible under icon. Used by Siri.	If we use the Romaian translation for the title, it should be: 12 Alimente Zilnice OR Duzina Zilnică. I will further use Duzina Zilnică as it's shorter, to the point, and applies to non-food recommendations too. 
+	CFBundleName	DailyDozen	DuzinaZilnică	User-visible application short name (15 Characters max)	
+back_to_today	dateBackButtonTitle	Back to today	Înapoi la ziua de azi	Date Button Title: ‘Back to today’	
+	dateButtonTitle.today	Today	Azi	Date Button Title: ‘Today’	
+serving_sizes	doze_detail_section_sizes	Serving Sizes (Suggested)	Dimensiunea unei porții (Sugestie)	Doze Detail View subheading: ‘Serving Sizes’	
+types	doze_detail_section_types	Types	Tipuri	Doze Detail View subheading: ‘Types’	agree with edits
+servings	doze_entry_header	Servings	Porții	Doze Entry View heading: ‘Servings’	
+beans	dozeBeans.heading	Beans	Leguminoase boabe	heading for daily data entry item	
+food_info_serving_sizes_beans_imperial.0	dozeBeans.Serving.imperial.0	¼ cup hummus or bean dip	¼ cană humus sau de fasole frecată		
+food_info_serving_sizes_beans_imperial.1	dozeBeans.Serving.imperial.1	½ cup cooked beans, split peas, or lentils	½ cană fasole gătită, mazăre uscată (galbenă sau verde) sau linte		
+food_info_serving_sizes_beans_imperial.2	dozeBeans.Serving.imperial.2	½ cup tofu or tempeh	½ cană tofu sau tempeh		
+food_info_serving_sizes_beans_imperial.3	dozeBeans.Serving.imperial.3	1 cup fresh peas or snow peas	1 cană mazăre de grădină sau mazăre de zăpadă		
+food_info_serving_sizes_beans_imperial.4	dozeBeans.Serving.imperial.4	1 cup fresh sprouted beans (lentils, mung beans)	1 cană leguminoase încolțite (linte, fasole mung)		
+food_info_serving_sizes_beans_metric.0	dozeBeans.Serving.metric.0	60 g hummus or bean dip	60 g humus sau de fasole frecată		
+food_info_serving_sizes_beans_metric.1	dozeBeans.Serving.metric.1	90 g cooked beans, split peas, or lentils	90 g fasole gătită, mazăre uscată (galbenă sau verde) sau linte		
+food_info_serving_sizes_beans_metric.2	dozeBeans.Serving.metric.2	100 g tofu or tempeh	100 g tofu sau tempeh		
+food_info_serving_sizes_beans_metric.3	dozeBeans.Serving.metric.3	130 g fresh peas or snow peas	100 g mazăre de grădină sau mazăre de zăpadă		
+food_info_serving_sizes_beans_metric.4	dozeBeans.Serving.metric.4	100 g fresh sprouted beans (lentils, mung beans)	100 g leguminoase încolțite (linte, fasole mung)		
+food_info_types_beans.0	dozeBeans.Variety.Text.0	Black beans	Fasole neagră		
+food_info_types_beans.1	dozeBeans.Variety.Text.1	Black-eyed peas	Fasole ochi negru		
+food_info_types_beans.2	dozeBeans.Variety.Text.2	Butter beans	Fasole untoasă (Lima)		
+food_info_types_beans.3	dozeBeans.Variety.Text.3	Cannellini beans	Fasole Cannellini		
+food_info_types_beans.4	dozeBeans.Variety.Text.4	Chickpeas/Garbanzo Beans	Năut		
+food_info_types_beans.5	dozeBeans.Variety.Text.5	Edamame	Edamame (păstăi verzi de soia)		
+food_info_types_beans.6	dozeBeans.Variety.Text.6	English peas	Mazăre de grădină		
+food_info_types_beans.7	dozeBeans.Variety.Text.7	Great northern beans	Fasole albă mare		
+food_info_types_beans.8	dozeBeans.Variety.Text.8	Kidney beans	Fasole roșie		
+food_info_types_beans.9	dozeBeans.Variety.Text.9	Lentils (beluga, french, and red varieties)	Linte (beluga, franceză și roșie)		
+food_info_types_beans.10	dozeBeans.Variety.Text.10	Miso	Miso		
+food_info_types_beans.11	dozeBeans.Variety.Text.11	Navy beans	Fasole albă cu bob mic		
+food_info_types_beans.12	dozeBeans.Variety.Text.12	Pinto beans	Fasole Pinto		
+food_info_types_beans.13	dozeBeans.Variety.Text.13	Small red beans	Fasole roșie cu bobul mic		
+food_info_types_beans.14	dozeBeans.Variety.Text.14	Split peas (yellow or green)	Mazăre uscată (galbenă sau verde)		
+food_info_types_beans.15	dozeBeans.Variety.Text.15	Tempeh	Tempeh		
+berries	dozeBerries.heading	Berries	Fructe de pădure	heading for daily data entry item	
+food_info_serving_sizes_berries_imperial.0	dozeBerries.Serving.imperial.0	½ cup fresh or frozen	½ cană proaspete sau congelate		
+food_info_serving_sizes_berries_imperial.1	dozeBerries.Serving.imperial.1	¼ cup dried	¼ cană uscate		
+food_info_serving_sizes_berries_metric.0	dozeBerries.Serving.metric.0	60 g fresh or frozen	60 g proaspete sau congelate		
+food_info_serving_sizes_berries_metric.1	dozeBerries.Serving.metric.1	40 g dried	40 g uscate		
+food_info_types_berries.0	dozeBerries.Variety.Text.0	Acai berries	Acai		
+food_info_types_berries.1	dozeBerries.Variety.Text.1	Barberries	Agrișe		
+food_info_types_berries.2	dozeBerries.Variety.Text.2	Blackberries	Mure		
+food_info_types_berries.3	dozeBerries.Variety.Text.3	Blueberries	Afine		
+food_info_types_berries.4	dozeBerries.Variety.Text.4	Cherries (sweet or tart)	Cireșe sau vișine		
+food_info_types_berries.5	dozeBerries.Variety.Text.5	Concord grapes	Struguri violet		
+food_info_types_berries.6	dozeBerries.Variety.Text.6	Cranberries	Merișoare		
+food_info_types_berries.7	dozeBerries.Variety.Text.7	Goji berries	Goji (Cătină de garduri)		
+food_info_types_berries.8	dozeBerries.Variety.Text.8	Kumquats	Kumquat		
+food_info_types_berries.9	dozeBerries.Variety.Text.9	Mulberries	Dude		
+food_info_types_berries.10	dozeBerries.Variety.Text.10	Raspberries (black or red)	Zmeură (neagră sau roșie)		
+food_info_types_berries.11	dozeBerries.Variety.Text.11	Strawberries	Căpșuni		
+beverages	dozeBeverages.heading	Beverages	Băuturi	heading for daily data entry item	
+food_info_serving_sizes_beverages_imperial.0	dozeBeverages.Serving.imperial.0	One glass (12 ounces)	Un pahar (12 uncii)		
+food_info_serving_sizes_beverages_metric.0	dozeBeverages.Serving.metric.0	One glass (350 ml)	Un pahar (350 ml)		
+food_info_types_beverages.0	dozeBeverages.Variety.Text.0	Black tea	Ceai negru		
+food_info_types_beverages.1	dozeBeverages.Variety.Text.1	Chai tea	Ceai negru condimentat		
+food_info_types_beverages.2	dozeBeverages.Variety.Text.2	Vanilla chamomile tea	Ceai de mușețel cu vanilie		
+food_info_types_beverages.3	dozeBeverages.Variety.Text.3	Coffee	Cafea		
+food_info_types_beverages.4	dozeBeverages.Variety.Text.4	Earl grey tea	Ceai Earl Grey		
+food_info_types_beverages.5	dozeBeverages.Variety.Text.5	Green tea	Ceai verde		
+food_info_types_beverages.6	dozeBeverages.Variety.Text.6	Hibiscus tea	Ceai de hibiscus		
+food_info_types_beverages.7	dozeBeverages.Variety.Text.7	Hot chocolate	Ciocolată caldă		
+food_info_types_beverages.8	dozeBeverages.Variety.Text.8	Jasmine tea	Ceai de iasomie		
+food_info_types_beverages.9	dozeBeverages.Variety.Text.9	Lemon balm tea	Ceai de roiniță		
+food_info_types_beverages.10	dozeBeverages.Variety.Text.10	Matcha tea	Ceai matcha		
+food_info_types_beverages.11	dozeBeverages.Variety.Text.11	Almond blossom oolong tea	Ceai oolong cu flori de migdale		
+food_info_types_beverages.12	dozeBeverages.Variety.Text.12	Peppermint tea	Ceai de mentă		
+food_info_types_beverages.13	dozeBeverages.Variety.Text.13	Rooibos tea	Ceai rooibos		
+food_info_types_beverages.14	dozeBeverages.Variety.Text.14	Water	Apă		
+food_info_types_beverages.15	dozeBeverages.Variety.Text.15	White tea	Ceai alb		
+exercise	dozeExercise.heading	Exercise	Exerciții fizice	heading for daily data entry item	
+food_info_serving_sizes_exercise_imperial.0	dozeExercise.Serving.imperial.0	90 minutes of moderate-intensity activity	90 de minute de activitate fizică moderată		
+food_info_serving_sizes_exercise_imperial.1	dozeExercise.Serving.imperial.1	40 minutes of vigorous-intensity activity	40 de minute de activitate fizică intensă		
+food_info_serving_sizes_exercise_metric.0	dozeExercise.Serving.metric.0	90 minutes of moderate-intensity activity	90 de minute de activitate fizică moderată		
+food_info_serving_sizes_exercise_metric.1	dozeExercise.Serving.metric.1	40 minutes of vigorous-intensity activity	40 de minute de activitate fizică intensă		
+food_info_types_exercise.0	dozeExercise.Variety.Text.0	Bicycling	Ciclism		
+food_info_types_exercise.1	dozeExercise.Variety.Text.1	Canoeing	Canotaj		
+food_info_types_exercise.2	dozeExercise.Variety.Text.2	Dancing	Dans		
+food_info_types_exercise.3	dozeExercise.Variety.Text.3	Dodgeball	DodgeBall		
+food_info_types_exercise.4	dozeExercise.Variety.Text.4	Downhill skiing	Schiat în pantă		
+food_info_types_exercise.5	dozeExercise.Variety.Text.5	Fencing	Scrimă		
+food_info_types_exercise.6	dozeExercise.Variety.Text.6	Hiking	Drumeție		
+food_info_types_exercise.7	dozeExercise.Variety.Text.7	Housework	Muncă în gospodărie		
+food_info_types_exercise.8	dozeExercise.Variety.Text.8	Ice-skating	Patinaj pe gheață		
+food_info_types_exercise.9	dozeExercise.Variety.Text.9	Inline skating	Mers pe role		
+food_info_types_exercise.10	dozeExercise.Variety.Text.10	Juggling	Jonglat		
+food_info_types_exercise.11	dozeExercise.Variety.Text.11	Jumping on a trampoline	Sărituri pe o trambulină elastică		
+food_info_types_exercise.12	dozeExercise.Variety.Text.12	Paddle boating	Vâslit		
+food_info_types_exercise.13	dozeExercise.Variety.Text.13	Playing frisbee	Frisbee		
+food_info_types_exercise.14	dozeExercise.Variety.Text.14	Roller-skating	Patinaj cu rotile (patine cu 4 role)		
+food_info_types_exercise.15	dozeExercise.Variety.Text.15	Shooting baskets	Aruncări la coșul de baschet		
+food_info_types_exercise.16	dozeExercise.Variety.Text.16	Shoveling light snow	Curățarea zăpezii cu lopata		
+food_info_types_exercise.17	dozeExercise.Variety.Text.17	Skateboarding	Skateboarding		
+food_info_types_exercise.18	dozeExercise.Variety.Text.18	Snorkeling	Snorkeling		
+food_info_types_exercise.19	dozeExercise.Variety.Text.19	Surfing	Surfing		
+food_info_types_exercise.20	dozeExercise.Variety.Text.20	Swimming recreationally	Înot recreațional		
+food_info_types_exercise.21	dozeExercise.Variety.Text.21	Tennis (doubles)	Tenis (la dublu)		
+food_info_types_exercise.22	dozeExercise.Variety.Text.22	Treading water	Călcat apa (înot)		
+food_info_types_exercise.23	dozeExercise.Variety.Text.23	Walking briskly (4 mph)	Mers rapid (6,5 km pe oră)		Needs a metric option too. I've calculated the equivalent in metric system.
+food_info_types_exercise.24	dozeExercise.Variety.Text.24	Water aerobics	Aerobică în apă		
+food_info_types_exercise.25	dozeExercise.Variety.Text.25	Waterskiing	Schi nautic		
+food_info_types_exercise.26	dozeExercise.Variety.Text.26	Yard work	Grădinărit		
+food_info_types_exercise.27	dozeExercise.Variety.Text.27	Yoga	Yoga		
+food_info_types_exercise.28	dozeExercise.Variety.Text.28	Backpacking	Excursie cu rucsacul		
+food_info_types_exercise.29	dozeExercise.Variety.Text.29	Basketball	Baschet		
+food_info_types_exercise.30	dozeExercise.Variety.Text.30	Bicycling uphill	Ciclism în rampă		
+food_info_types_exercise.31	dozeExercise.Variety.Text.31	Circuit weight training	Antrenament cu greutăți în circuit		
+food_info_types_exercise.32	dozeExercise.Variety.Text.32	Cross-country skiing	Schi fond		
+food_info_types_exercise.33	dozeExercise.Variety.Text.33	Football	Fotbal american		
+food_info_types_exercise.34	dozeExercise.Variety.Text.34	Hockey	Hochei		
+food_info_types_exercise.35	dozeExercise.Variety.Text.35	Jogging	Jogging		
+food_info_types_exercise.36	dozeExercise.Variety.Text.36	Jumping jacks	Sărituri		
+food_info_types_exercise.37	dozeExercise.Variety.Text.37	Jumping rope	Sărituri cu coarda		
+food_info_types_exercise.38	dozeExercise.Variety.Text.38	Lacrosse	Lacrosse		
+food_info_types_exercise.39	dozeExercise.Variety.Text.39	Push-ups	Flotări		
+food_info_types_exercise.40	dozeExercise.Variety.Text.40	Pull-ups	Tracțiuni		
+food_info_types_exercise.41	dozeExercise.Variety.Text.41	Racquetball	Racquetball		
+food_info_types_exercise.42	dozeExercise.Variety.Text.42	Rock climbing	Alpinism		
+food_info_types_exercise.43	dozeExercise.Variety.Text.43	Rugby	Rugby		
+food_info_types_exercise.44	dozeExercise.Variety.Text.44	Running	Alergat		
+food_info_types_exercise.45	dozeExercise.Variety.Text.45	Scuba diving	Scufundări		
+food_info_types_exercise.46	dozeExercise.Variety.Text.46	Tennis (singles)	Tenis (simplu)		
+food_info_types_exercise.47	dozeExercise.Variety.Text.47	Soccer	Fotbal european		
+food_info_types_exercise.48	dozeExercise.Variety.Text.48	Speed skating	Patinaj viteză		
+food_info_types_exercise.49	dozeExercise.Variety.Text.49	Squash	Squash		
+food_info_types_exercise.50	dozeExercise.Variety.Text.50	Step aerobics	Step aerobic		
+food_info_types_exercise.51	dozeExercise.Variety.Text.51	Swimming laps	Înot profesionist (Ture de bazin)		
+food_info_types_exercise.52	dozeExercise.Variety.Text.52	Walking briskly uphill	Mers rapid la deal		
+food_info_types_exercise.53	dozeExercise.Variety.Text.53	Water jogging	Jogging acvatic		
+flaxseeds	dozeFlaxseeds.heading	Flaxseeds	Semințe de in	heading for daily data entry item	
+food_info_serving_sizes_flaxseeds_imperial.0	dozeFlaxseeds.Serving.imperial.0	1 tablespoon ground	1 lingură măcinate		
+food_info_serving_sizes_flaxseeds_metric.0	dozeFlaxseeds.Serving.metric.0	1 tablespoon ground	1 lingură măcinate		
+food_info_types_flaxseeds.0	dozeFlaxseeds.Variety.Text.0	Brown flaxseeds	Semințe de in brun		
+food_info_types_flaxseeds.1	dozeFlaxseeds.Variety.Text.1	Golden flaxseeds	Semințe de in auriu		
+other_fruits	dozeFruitsOther.heading	Other Fruits	Alte fructe	heading for daily data entry item	
+food_info_serving_sizes_other_fruits_imperial.0	dozeFruitsOther.Serving.imperial.0	1 medium-sized fruit	1 fruct de mărime medie		
+food_info_serving_sizes_other_fruits_imperial.1	dozeFruitsOther.Serving.imperial.1	1 cup cut-up fruit	1 cană fructe tăiate		
+food_info_serving_sizes_other_fruits_imperial.2	dozeFruitsOther.Serving.imperial.2	¼ cup dried fruit	¼ cană fructe uscate		
+food_info_serving_sizes_other_fruits_metric.0	dozeFruitsOther.Serving.metric.0	1 medium-sized fruit	1 fruct de mărime medie		
+food_info_serving_sizes_other_fruits_metric.1	dozeFruitsOther.Serving.metric.1	120 g cut-up fruit	120 g fructe tăiate		
+food_info_serving_sizes_other_fruits_metric.2	dozeFruitsOther.Serving.metric.2	40 g dried fruit	40 g fructe uscate		
+food_info_types_other_fruits.0	dozeFruitsOther.Variety.Text.0	Apples	Mere		
+food_info_types_other_fruits.1	dozeFruitsOther.Variety.Text.1	Apricots	Caise		
+food_info_types_other_fruits.2	dozeFruitsOther.Variety.Text.2	Avocados	Avocado		
+food_info_types_other_fruits.3	dozeFruitsOther.Variety.Text.3	Bananas	Banane		
+food_info_types_other_fruits.4	dozeFruitsOther.Variety.Text.4	Cantaloupe	Pepene galben Cantalup		
+food_info_types_other_fruits.5	dozeFruitsOther.Variety.Text.5	Clementines	Clementine		
+food_info_types_other_fruits.6	dozeFruitsOther.Variety.Text.6	Dates	Curmale		
+food_info_types_other_fruits.7	dozeFruitsOther.Variety.Text.7	Figs	Smochine		
+food_info_types_other_fruits.8	dozeFruitsOther.Variety.Text.8	Grapefruit	Grepfrut		
+food_info_types_other_fruits.9	dozeFruitsOther.Variety.Text.9	Honeydew	Pepene galben Honeydew		
+food_info_types_other_fruits.10	dozeFruitsOther.Variety.Text.10	Kiwifruit	Kiwi		
+food_info_types_other_fruits.11	dozeFruitsOther.Variety.Text.11	Lemons	Lămâi galbene		
+food_info_types_other_fruits.12	dozeFruitsOther.Variety.Text.12	Limes	Lămâi verzi		
+food_info_types_other_fruits.13	dozeFruitsOther.Variety.Text.13	Lychees	Litchi		
+food_info_types_other_fruits.14	dozeFruitsOther.Variety.Text.14	Mangos	Mango		
+food_info_types_other_fruits.15	dozeFruitsOther.Variety.Text.15	Nectarines	Nectarine		
+food_info_types_other_fruits.16	dozeFruitsOther.Variety.Text.16	Oranges	Portocale		
+food_info_types_other_fruits.17	dozeFruitsOther.Variety.Text.17	Papaya	Papaya		
+food_info_types_other_fruits.18	dozeFruitsOther.Variety.Text.18	Passion fruit	Fructul pasiunii		
+food_info_types_other_fruits.19	dozeFruitsOther.Variety.Text.19	Peaches	Piersici		
+food_info_types_other_fruits.20	dozeFruitsOther.Variety.Text.20	Pears	Pere		
+food_info_types_other_fruits.21	dozeFruitsOther.Variety.Text.21	Pineapple	Ananas		
+food_info_types_other_fruits.22	dozeFruitsOther.Variety.Text.22	Plums (especially black plums)	Prune (în special cele negre sau vineții închise)		
+food_info_types_other_fruits.23	dozeFruitsOther.Variety.Text.23	Pluots	Pluote (caise-prune)		Changed from renglote, that are a plum species. Pluote are a hybrid fruit half plum, half apricot
+food_info_types_other_fruits.24	dozeFruitsOther.Variety.Text.24	Pomegranates	Rodii		
+food_info_types_other_fruits.25	dozeFruitsOther.Variety.Text.25	Prunes	Prune uscate		
+food_info_types_other_fruits.26	dozeFruitsOther.Variety.Text.26	Tangerines	Mandarine		
+food_info_types_other_fruits.27	dozeFruitsOther.Variety.Text.27	Watermelon	Pepene roșu		
+greens	dozeGreens.heading	Greens	Verdețuri	heading for daily data entry item	
+food_info_serving_sizes_greens_imperial.0	dozeGreens.Serving.imperial.0	1 cup raw	1 cană crude		
+food_info_serving_sizes_greens_imperial.1	dozeGreens.Serving.imperial.1	½ cup cooked	½ cană gătite		
+food_info_serving_sizes_greens_metric.0	dozeGreens.Serving.metric.0	60 g raw	60 g crude		
+food_info_serving_sizes_greens_metric.1	dozeGreens.Serving.metric.1	90 g cooked	90 g gătite		
+food_info_types_greens.0	dozeGreens.Variety.Text.0	Arugula	Rucola		
+food_info_types_greens.1	dozeGreens.Variety.Text.1	Beet greens	Frunze de sfeclă		
+food_info_types_greens.2	dozeGreens.Variety.Text.2	Collard greens	Varză verde furajeră		
+food_info_types_greens.3	dozeGreens.Variety.Text.3	Kale (black, green, and red)	Varză Kale (neagră, verde și roșie)		
+food_info_types_greens.4	dozeGreens.Variety.Text.4	Mesclun mix (assorted young salad greens)	Amestec de salate tinere		
+food_info_types_greens.5	dozeGreens.Variety.Text.5	Mustard greens	Frunze de muștar		
+food_info_types_greens.6	dozeGreens.Variety.Text.6	Sorrel	Măcriș		
+food_info_types_greens.7	dozeGreens.Variety.Text.7	Spinach	Spanac		
+food_info_types_greens.8	dozeGreens.Variety.Text.8	Swiss chard	Mangold (Sfeclă elvețiană)		
+food_info_types_greens.9	dozeGreens.Variety.Text.9	Turnip greens	Frunze de nap		
+nuts	dozeNuts.heading	Nuts and Seeds	Nuci și semințe	heading for daily data entry item	
+food_info_serving_sizes_nuts_imperial.0	dozeNuts.Serving.imperial.0	¼ cup nuts or seeds	¼ cană nuci sau semințe		
+food_info_serving_sizes_nuts_imperial.1	dozeNuts.Serving.imperial.1	2 tablespoons nut or seed butter	2 linguri unt de nuci sau de semințe		
+food_info_serving_sizes_nuts_metric.0	dozeNuts.Serving.metric.0	30 g nuts or seeds	30 g nuci sau semințe		
+food_info_serving_sizes_nuts_metric.1	dozeNuts.Serving.metric.1	2 tablespoons nut or seed butter	2 linguri unt de nuci sau de semințe		
+food_info_types_nuts.0	dozeNuts.Variety.Text.0	Almonds	Migdale		
+food_info_types_nuts.1	dozeNuts.Variety.Text.1	Brazil nuts	Nuci braziliene		
+food_info_types_nuts.2	dozeNuts.Variety.Text.2	Cashews	Caju		
+food_info_types_nuts.3	dozeNuts.Variety.Text.3	Chia seeds	Semințe de chia		
+food_info_types_nuts.4	dozeNuts.Variety.Text.4	Hazelnuts	Alune de pădure		
+food_info_types_nuts.5	dozeNuts.Variety.Text.5	Hemp seeds	Semințe de cânepă		
+food_info_types_nuts.6	dozeNuts.Variety.Text.6	Macadamia nuts	Nuci macadamia		
+food_info_types_nuts.7	dozeNuts.Variety.Text.7	Pecans	Nuci pecan		
+food_info_types_nuts.8	dozeNuts.Variety.Text.8	Pistachios	Fistic		
+food_info_types_nuts.9	dozeNuts.Variety.Text.9	Pumpkin seeds	Semințe de dovleac		
+food_info_types_nuts.10	dozeNuts.Variety.Text.10	Sesame seeds	Semințe de susan		
+food_info_types_nuts.11	dozeNuts.Variety.Text.11	Sunflower seeds	Semințe de floarea soarelui		
+food_info_types_nuts.12	dozeNuts.Variety.Text.12	Walnuts	Nuci		
+OK	dozeOtherInfo.confirm	OK	OK	Daily Dozen supplement info alert: dismissal button text	
+	dozeOtherInfo.message	Vitamin B12 is essential for your health but does not count towards your daily servings.\n\nVitamin B12 is included in this app to provide you with an easy way to track your intake.	Vitamina B12 este esențială pentru sănătatea dvs., dar nu este inclusă în porțiile zilnice.\n\nVitamina B12 este inclusă în această aplicație pentru a vă oferi o modalitate ușoară de a vă urmări aportul.	Daily Dozen supplement info alert: message	
+	dozeOtherInfo.section	Supplements	Suplimente	Daily Dozen daily entry section heading	
+	dozeOtherInfo.title	Supplements	Suplimente	Daily Dozen supplement info alert: title	
+spices	dozeSpices.heading	Herbs and Spices	Plante aromatice și condimente	heading for daily data entry item	
+food_info_serving_sizes_spices_imperial.0	dozeSpices.Serving.imperial.0	¼ teaspoon of turmeric	¼ linguriță de turmeric		
+food_info_serving_sizes_spices_imperial.1	dozeSpices.Serving.imperial.1	Any other (salt-free) herbs and spices you enjoy	Orice alte plante aromatice și condimente (fără sare) care vă plac		
+food_info_serving_sizes_spices_metric.0	dozeSpices.Serving.metric.0	¼ teaspoon of turmeric	¼ linguriță de turmeric		
+food_info_serving_sizes_spices_metric.1	dozeSpices.Serving.metric.1	Any other (salt-free) herbs and spices you enjoy	Orice alte plante aromatice și condimente (fără sare) care vă plac		
+food_info_types_spices.0	dozeSpices.Variety.Text.0	Allspice	Ienibahar		
+food_info_types_spices.1	dozeSpices.Variety.Text.1	Barberries	Dracila (lemn-galben)		
+food_info_types_spices.2	dozeSpices.Variety.Text.2	Basil	Busuioc		
+food_info_types_spices.3	dozeSpices.Variety.Text.3	Bay leaves	Frunze de dafin		
+food_info_types_spices.4	dozeSpices.Variety.Text.4	Cardamom	Cardamom		
+food_info_types_spices.5	dozeSpices.Variety.Text.5	Chili powder	Pulbere de chili		
+food_info_types_spices.6	dozeSpices.Variety.Text.6	Cilantro	Frunze de coriandru		
+food_info_types_spices.7	dozeSpices.Variety.Text.7	Cinnamon	Scorţişoară		
+food_info_types_spices.8	dozeSpices.Variety.Text.8	Cloves	Cuișoare		
+food_info_types_spices.9	dozeSpices.Variety.Text.9	Coriander	Boabe de coriandru		
+food_info_types_spices.10	dozeSpices.Variety.Text.10	Cumin	Chimion		
+food_info_types_spices.11	dozeSpices.Variety.Text.11	Curry powder	Pulbere de curry		
+food_info_types_spices.12	dozeSpices.Variety.Text.12	Dill	Mărar		
+food_info_types_spices.13	dozeSpices.Variety.Text.13	Fenugreek	Schinduf		
+food_info_types_spices.14	dozeSpices.Variety.Text.14	Garlic	Usturoi		
+food_info_types_spices.15	dozeSpices.Variety.Text.15	Ginger	Ghimbir		
+food_info_types_spices.16	dozeSpices.Variety.Text.16	Horseradish	Hrean		
+food_info_types_spices.17	dozeSpices.Variety.Text.17	Lemongrass	Lemongrass		
+food_info_types_spices.18	dozeSpices.Variety.Text.18	Marjoram	Maghiran		
+food_info_types_spices.19	dozeSpices.Variety.Text.19	Mustard powder	Pulbere din semințe de muștar		
+food_info_types_spices.20	dozeSpices.Variety.Text.20	Nutmeg	Nucșoară		
+food_info_types_spices.21	dozeSpices.Variety.Text.21	Oregano	Oregano		
+food_info_types_spices.22	dozeSpices.Variety.Text.22	Smoked paprika	Boia afumată		
+food_info_types_spices.23	dozeSpices.Variety.Text.23	Parsley	Pătrunjel		
+food_info_types_spices.24	dozeSpices.Variety.Text.24	Pepper	Piper		
+food_info_types_spices.25	dozeSpices.Variety.Text.25	Peppermint	Mentă		
+food_info_types_spices.26	dozeSpices.Variety.Text.26	Rosemary	Rozmarin		
+food_info_types_spices.27	dozeSpices.Variety.Text.27	Saffron	Şofran		
+food_info_types_spices.28	dozeSpices.Variety.Text.28	Sage	Salvie		
+food_info_types_spices.29	dozeSpices.Variety.Text.29	Thyme	Cimbru		
+food_info_types_spices.30	dozeSpices.Variety.Text.30	Turmeric	Turmeric		
+food_info_types_spices.31	dozeSpices.Variety.Text.31	Vanilla	Vanilie		
+cruciferous_vegetables	dozeVegetablesCruciferous.heading	Cruciferous Vegetables	Legume crucifere	heading for daily data entry item	
+food_info_serving_sizes_cruciferous_vegetables_imperial.0	dozeVegetablesCruciferous.Serving.imperial.0	½ cup chopped	½ cană tocate		
+food_info_serving_sizes_cruciferous_vegetables_imperial.1	dozeVegetablesCruciferous.Serving.imperial.1	½ cup Brussels sprouts	½ cană varză de Bruxelles		
+food_info_serving_sizes_cruciferous_vegetables_imperial.2	dozeVegetablesCruciferous.Serving.imperial.2	¼ cup Broccoli sprouts	¼ cană germeni de broccoli		
+food_info_serving_sizes_cruciferous_vegetables_imperial.3	dozeVegetablesCruciferous.Serving.imperial.3	1 tablespoon horseradish	1 lingură de hrean		
+food_info_serving_sizes_cruciferous_vegetables_metric.0	dozeVegetablesCruciferous.Serving.metric.0	30–80 g chopped	30–80 g tocate		
+food_info_serving_sizes_cruciferous_vegetables_metric.1	dozeVegetablesCruciferous.Serving.metric.1	78 g Brussels sprouts	78 g varză de Bruxelles		
+food_info_serving_sizes_cruciferous_vegetables_metric.2	dozeVegetablesCruciferous.Serving.metric.2	14 g Broccoli sprouts	14 g cană germeni de broccoli		
+food_info_serving_sizes_cruciferous_vegetables_metric.3	dozeVegetablesCruciferous.Serving.metric.3	1 tablespoon horseradish	1 lingură de hrean		
+food_info_types_cruciferous_vegetables.0	dozeVegetablesCruciferous.Variety.Text.0	Arugula	Rucola		
+food_info_types_cruciferous_vegetables.1	dozeVegetablesCruciferous.Variety.Text.1	Bok choy	Varză chinezească (Pak choy)		In Romania you can also find it under the name of Pak choi
+food_info_types_cruciferous_vegetables.2	dozeVegetablesCruciferous.Variety.Text.2	Broccoli (incl. Romanesco)	Broccoli (incl. Romanesco)		
+food_info_types_cruciferous_vegetables.3	dozeVegetablesCruciferous.Variety.Text.3	Brussels sprouts	Varză de Bruxelles		Agree with Edits for a purely botanical translation. However, the eatable part of Bruxelles cabbage are only the sprouts so for a consumer the term we find in supermarket is ”Varză de Bruxelles” (meaning Bruxelles cabbage) which will refer to the sprouts. We won't find ”Germeni de varză” (Cabbage Sprouts) in a store. 
+food_info_types_cruciferous_vegetables.4	dozeVegetablesCruciferous.Variety.Text.4	Cabbage (green, red and savoy)	Varză (verde, roșie, creață)		
+food_info_types_cruciferous_vegetables.5	dozeVegetablesCruciferous.Variety.Text.5	Cauliflower (white, green, orange and purple)	Conopidă (albă, verde, portocalie, violet)		
+food_info_types_cruciferous_vegetables.6	dozeVegetablesCruciferous.Variety.Text.6	Collard greens	Varză verde furajeră		
+food_info_types_cruciferous_vegetables.7	dozeVegetablesCruciferous.Variety.Text.7	Horseradish	Hrean		
+food_info_types_cruciferous_vegetables.8	dozeVegetablesCruciferous.Variety.Text.8	Kale (black, green, and red)	Varză Kale (neagră, verde și roșie)		
+food_info_types_cruciferous_vegetables.9	dozeVegetablesCruciferous.Variety.Text.9	Kohlrabi (green and purple)	Gulie (verde, violet)		
+food_info_types_cruciferous_vegetables.10	dozeVegetablesCruciferous.Variety.Text.10	Mustard greens	Frunze de muștar		
+food_info_types_cruciferous_vegetables.11	dozeVegetablesCruciferous.Variety.Text.11	Radishes	Ridichi		
+food_info_types_cruciferous_vegetables.12	dozeVegetablesCruciferous.Variety.Text.12	Turnip greens	Frunze de nap		
+food_info_types_cruciferous_vegetables.13	dozeVegetablesCruciferous.Variety.Text.13	Watercress	Năsturel (Creson de apă)		
+other_vegetables	dozeVegetablesOther.heading	Other Vegetables	Alte legume	heading for daily data entry item	
+food_info_serving_sizes_other_vegetables_imperial.0	dozeVegetablesOther.Serving.imperial.0	1 cup raw leafy vegetables	1 cană legume frunzoase, crude		
+food_info_serving_sizes_other_vegetables_imperial.1	dozeVegetablesOther.Serving.imperial.1	½ cup raw or cooked nonleafy vegetables	½ cană legume fară frunze, crude sau gătite		
+food_info_serving_sizes_other_vegetables_imperial.2	dozeVegetablesOther.Serving.imperial.2	½ cup vegetable juice	½ cană suc de legume		
+food_info_serving_sizes_other_vegetables_imperial.3	dozeVegetablesOther.Serving.imperial.3	¼ cup dried mushrooms	¼ cană ciuperci uscate		
+food_info_serving_sizes_other_vegetables_metric.0	dozeVegetablesOther.Serving.metric.0	60 g raw leafy vegetables	60 g legume frunzoase, crude		
+food_info_serving_sizes_other_vegetables_metric.1	dozeVegetablesOther.Serving.metric.1	50 g raw or cooked nonleafy vegetables	50 g legume fară frunze, crude sau gătite		
+food_info_serving_sizes_other_vegetables_metric.2	dozeVegetablesOther.Serving.metric.2	125 ml vegetable juice	125 ml suc de legume		
+food_info_serving_sizes_other_vegetables_metric.3	dozeVegetablesOther.Serving.metric.3	7 g dried mushrooms	7 g ciuperci uscate		
+food_info_types_other_vegetables.0	dozeVegetablesOther.Variety.Text.0	Artichokes	Anghinare		
+food_info_types_other_vegetables.1	dozeVegetablesOther.Variety.Text.1	Asparagus	Sparanghel		
+food_info_types_other_vegetables.2	dozeVegetablesOther.Variety.Text.2	Beets	Sfeclă roșie		
+food_info_types_other_vegetables.3	dozeVegetablesOther.Variety.Text.3	Bell peppers	Ardei grași		
+food_info_types_other_vegetables.4	dozeVegetablesOther.Variety.Text.4	Carrots	Morcovi		
+food_info_types_other_vegetables.5	dozeVegetablesOther.Variety.Text.5	Corn	Porumb		
+food_info_types_other_vegetables.6	dozeVegetablesOther.Variety.Text.6	Garlic	Usturoi		
+food_info_types_other_vegetables.7	dozeVegetablesOther.Variety.Text.7	Mushrooms (button, oyster, portobello, and shiitake)	Ciuperci (champignon, pleurotus, portobello și shiitake)		
+food_info_types_other_vegetables.8	dozeVegetablesOther.Variety.Text.8	Okra	Bame		
+food_info_types_other_vegetables.9	dozeVegetablesOther.Variety.Text.9	Onions	Ceapă		
+food_info_types_other_vegetables.10	dozeVegetablesOther.Variety.Text.10	Purple potatoes	Cartofi mov		
+food_info_types_other_vegetables.11	dozeVegetablesOther.Variety.Text.11	Pumpkin	Dovleac		
+food_info_types_other_vegetables.12	dozeVegetablesOther.Variety.Text.12	Sea vegetables (arame, dulse, and nori)	Alge de mare (arame, dulse și nori)		
+food_info_types_other_vegetables.13	dozeVegetablesOther.Variety.Text.13	Snap peas	Mazăre dulce (păstăi)		
+food_info_types_other_vegetables.14	dozeVegetablesOther.Variety.Text.14	Squash (delicata, summer, and spaghetti squash varieties)	Dovleci (delicata, de vară, spaghetti)		
+food_info_types_other_vegetables.15	dozeVegetablesOther.Variety.Text.15	Sweet potatoes/yams	Cartofi dulci/igname		
+food_info_types_other_vegetables.16	dozeVegetablesOther.Variety.Text.16	Tomatoes	Roșii		
+food_info_types_other_vegetables.17	dozeVegetablesOther.Variety.Text.17	Zucchini	Dovlecei		
+whole_grains	dozeWholeGrains.heading	Whole Grains	Cereale integrale	heading for daily data entry item	
+food_info_serving_sizes_whole_grains_imperial.0	dozeWholeGrains.Serving.imperial.0	½ cup hot cereal or cooked grains, pasta, or corn kernels	½ cană terci de cereale sau cereale gătite, paste, sau boabe de porumb		
+food_info_serving_sizes_whole_grains_imperial.1	dozeWholeGrains.Serving.imperial.1	1 cup cold cereal	1 cană de cereale reci		
+food_info_serving_sizes_whole_grains_imperial.2	dozeWholeGrains.Serving.imperial.2	1 tortilla or slice of bread	1 tortilla sau felie de pâine		
+food_info_serving_sizes_whole_grains_imperial.3	dozeWholeGrains.Serving.imperial.3	½ bagel or English muffin	½ dintr-o baghetă sau brioșă englezească		Agree with edits
+food_info_serving_sizes_whole_grains_imperial.4	dozeWholeGrains.Serving.imperial.4	3 cups popped popcorn	3 căni de floricele de porumb (pop-corn)		
+food_info_serving_sizes_whole_grains_metric.0	dozeWholeGrains.Serving.metric.0	100 g hot cereal or cooked grains, pasta, or corn kernels	100 g terci de cereale sau cereale gătite, paste, sau boabe de porumb		
+food_info_serving_sizes_whole_grains_metric.1	dozeWholeGrains.Serving.metric.1	50 g cold cereal	50 g cereale reci		
+food_info_serving_sizes_whole_grains_metric.2	dozeWholeGrains.Serving.metric.2	1 tortilla or slice of bread	1 tortilla sau felie de pâine		
+food_info_serving_sizes_whole_grains_metric.3	dozeWholeGrains.Serving.metric.3	½ bagel or English muffin	½ baghetă sau brioșă englezească		
+food_info_serving_sizes_whole_grains_metric.4	dozeWholeGrains.Serving.metric.4	30 g popped popcorn	30 g floricele de porumb (pop-corn)		
+food_info_types_whole_grains.0	dozeWholeGrains.Variety.Text.0	Barley	Orz		
+food_info_types_whole_grains.1	dozeWholeGrains.Variety.Text.1	Buckwheat	Hrișcă		
+food_info_types_whole_grains.2	dozeWholeGrains.Variety.Text.2	Millet	Mei		
+food_info_types_whole_grains.3	dozeWholeGrains.Variety.Text.3	Oats	Ovăz		
+food_info_types_whole_grains.4	dozeWholeGrains.Variety.Text.4	Popcorn	Floricele de porumb (pop-corn)		
+food_info_types_whole_grains.5	dozeWholeGrains.Variety.Text.5	Quinoa	Quinoa		
+food_info_types_whole_grains.6	dozeWholeGrains.Variety.Text.6	Rye	Secară		
+food_info_types_whole_grains.7	dozeWholeGrains.Variety.Text.7	Teff	Taf (mei etiopian)		
+food_info_types_whole_grains.8	dozeWholeGrains.Variety.Text.8	Whole-wheat pasta	Paste din grâu integral		
+faq_adapt_question	faq_adapt_question	The Daily Dozen is too much/too little food for me! Can I adapt it?	Duzina Zilnică înseamnă prea multă/prea puțină mâncare pentru mine! Pot s-o adaptez?		
+faq_adapt_response	faq_adapt_response	Yes, the Daily Dozen is simply meant to be a guide of the healthiest foods that we strive to include every day. It’s not a meal plan and is not meant to be prescriptive. Do your best to eat a diverse array of whole plant foods and adapt the Daily Dozen to the quantities that work for you.	Da, Duzina Zilnică se dorește a fi un ghid al celor mai sănătoase alimente pe care ne străduim să le includem zilnic. Nu este un plan de mese și nu își propune să fie prescriptivă. Faceți tot posibilul pentru a mânca o gamă variată de alimente vegetale integrale și adaptați Duzina Zilnică la cantitățile care vă convin.		
+faq_age_question	faq_age_question	Is this adaptable for children, adolescents, and teens?	Este Duzina Zilnică adaptabilă pentru copii și adolescenți?		We don't really differentiate adolescents and teenagers, we just use "adolescents" for all. 
+faq_age_response.0	faq_age_response.0	Children, adolescents, and teenagers have different caloric needs throughout their lifecycle. These needs change to support growth and development at each stage.	Copiii și adolescenții au necesități calorice diferite pe parcursul evoluției lor. Aceste nevoi se schimbă astfel încât să le susțină creșterea și dezvoltarea în fiecare etapă. 		
+faq_age_response.1	faq_age_response.1	The Daily Dozen was designed as a guide to help people include some of the healthiest foods into their daily routine. While the same framework can be used for most people throughout the lifecycle, the amount of food one needs to eat will vary based on a number of factors like age and activity level. Since we can’t provide specific nutrition or medical advice for your growing child, parents should use this guide as they see best for their child’s needs and/or consult with a registered dietitian or other healthcare provider to help determine what is best for their individual needs.	Duzina Zilnică a fost concepută ca un ghid pentru a ajuta oamenii să includă unele dintre cele mai sănătoase alimente în rutina lor zilnică. În timp ce același sistem poate fi folosit pentru majoritatea oamenilor de-a lungul ciclului de viață, cantitatea de alimente pe care trebuie să o consume o persoană variază în funcție de o serie de factori, precum vârsta și nivelul de activitate. Deoarece nu putem oferi consiliere nutrițională sau medicală pentru copilul dvs. aflat în creștere, părinții ar trebui să folosească acest ghid așa cum consideră potrivit pentru nevoile copilului lor și/sau să consulte un dietetician autorizat sau alt furnizor de servicii medicale pentru a determina nevoile individuale ale acestuia.		
+faq_calories_question	faq_calories_question	How many calories are in the Daily Dozen?	Câte calorii sunt incluse în Duzina Zilnică?		
+faq_calories_response.0	faq_calories_response.0	The Daily Dozen averages about 1,200 calories, but given the wide array of food choices in each category, it can range anywhere from 800-1800. Consider the Other Vegetables category: a cup of bell peppers has a much lower caloric density than a cup of cooked sweet potatoes, therefore the caloric range will depend on your specific food choices. That’s the great thing about the Daily Dozen Checklist—it’s not a one size fits all approach, and can be adapted to your needs.	Duzina Zilnică are o medie de aproximativ 1.200 de calorii, dar având în vedere gama largă de opțiuni alimentare din fiecare categorie, poate varia între 800 și 1800 de calorii. De exemplu, în categoria „Alte Legume”: o cană de ardei gras are o densitate calorică mult mai mică decât o cană de cartofi dulci gătiți, prin urmare intervalul caloric va depinde de alegerile alimentare specifice. Acesta este lucrul grozav în legătură cu Lista de Verificare Duzina Zilnică - nu este o abordare unică, putând fi adaptată nevoilor dvs.		
+faq_calories_response.1	faq_calories_response.1	If your goal is weight loss, you can find more information in “How Not to Diet” and the accompanying Twenty-One Tweaks. In “How Not to Diet”, I noted: “A systematic review of successful weight-loss strategies concluded that given the metabolic slowing and increased appetite that accompanies weight loss, to achieve significant weight loss, calorie counts may need to drop as low as 1,200 calories a day for women and 1,500 calories a day for men.”	Dacă scopul dvs. este pierderea în greutate, puteți găsi mai multe informații în cartea „Cum să nu ții o dietă” și în cele „21 de Trucuri” incluse în carte. În „Cum să nu ții o dietă”, am notat: „O analiză sistematică a strategiilor de scădere în greutate eficiente a concluzionat că, având în vedere încetinirea metabolică și creșterea apetitului care însoțesc pierderea în greutate, pentru a obține o scădere în greutate semnificativă, ar putea fi nevoie ca numărul de calorii să scadă până la 1.200 de calorii pe zi pentru femei și 1.500 de calorii pe zi pentru bărbați.”		
+faq_calories_response.2	faq_calories_response.2	On the other hand, if your goal is weight gain, then you may want to focus on adding in more calorie-dense foods, such as sweet potatoes, avocados, nuts, and soy products.	Pe de altă parte, dacă obiectivul dvs. este creșterea în greutate, ați putea să vă concentrați pe adăugarea de alimente cu densitate calorică ridicată, cum ar fi cartofii dulci, avocado, nucile și produsele din soia.		
+faq_mother_question	faq_mother_question	Can I do this while pregnant or breastfeeding?	Pot să fac asta în timpul sarcinii sau alăptării?		
+faq_mother_response	faq_mother_response	People who are pregnant or breastfeeding have different caloric and nutritional needs than people who are not. As a reminder, the Daily Dozen is not a meal plan and should not be the only foods consumed within a day. People who are pregnant or breastfeeding should consult with their health care practitioner or a registered dietician for assistance with meeting their specific caloric requirements and nutritional needs.	Persoanele însărcinate sau care alăptează au nevoi calorice și nutriționale diferite față de persoanele care nu sunt în aceste situații. Vă reamintim că Duzina Zilnică nu este un plan de mese și nu ar trebui să reprezinte singurele alimente consumate într-o zi. Persoanele însărcinate sau care alăptează ar trebui să consulte medicul sau un dietetician autorizat pentru asistență în îndeplinirea necesarului caloric și a nevoilor nutriționale specifice.		
+faq_scaling_question	faq_scaling_question	I can’t possibly eat that many beans/grains/etc.!	Nu pot mânca atât de multe leguminoase/cereale/etc.!		
+faq_scaling_response	faq_scaling_response	That’s okay! The Daily Dozen is an aspirational guide. Do your best to incorporate as many of these healthy plant foods as possible. If you are new to eating a lot of beans (or grains, greens, etc!), you may need to start with smaller amounts and slowly increase the quantity in order to give your microbiome a chance to adjust. You can also get creative: for example, add some beans to your morning oatmeal. If you load it up with berries, flax seeds, and nuts, you won’t even notice the beans. You can also mash beans into a sandwich spread, or make my [BROL](https://nutritionfacts.org/recipe/basic-brol-barley-rye-oats-and-lentils)—barley, rye, oat groats, and lentils—that I use as a base for many meals and is a simple way to get a variety of whole grains with a built-in serving of legumes.	Este în regulă! Duzina Zilnică este un ghid aspirațional. Faceți tot posibilul să încorporați cât mai multe dintre aceste alimente vegetale sănătoase. Dacă abia ați început să consumați mai multe leguminoase (sau cereale, verdețuri, etc!), ați putea să începeți cu cantități mai mici pe care să le creșteți progresiv pentru a oferi microbiomului șansa de a se adapta. De asemenea, puteți fi creativi: de exemplu, adăugați niște leguminoase la fulgii de ovăz de la micul dejun. Dacă îl umpleți cu fructe de pădure, semințe de in și nuci, nici măcar nu veți observa leguminoasele. Puteți, de asemenea, să pasați leguminoasele într-o pastă tartinbilă sau să gătiți rețeta mea de [BROL](https://nutritionfacts.org/recipe/basic-brol-barley-rye-oats-and-lentils)—orz, secară, crupe de ovăz și linte — pe care o folosesc ca bază pentru multe rețete și este o modalitate simplă de a combina o varietate de cereale integrale cu o porție de leguminoase.		
+faq_supplements_question	faq_supplements_question	I thought that Dr. Greger recommends taking Vitamin D and DHA supplements. Why aren’t they included?	Credeam că dr. Greger recomandă luarea de suplimente de vitamina D și DHA (Omega-3). De ce nu sunt incluse?		I've added the mention of Omega-3 since this is the common name of EPA and DHA supplements on the Romanian market, so more people would understand what this is about.
+faq_supplements_response	faq_supplements_response	We have updated the Daily Dozen app to reflect only required supplements. For example, Vitamin D is only needed for people who get inadequate sun exposure. Our goal is to share the science with you so you can make your own informed decisions. You can see all of my recommendations on the [Optimum Nutrient](https://nutritionfacts.org/optimum-nutrient-recommendations) page.	Am actualizat aplicația Duzina Zilnică pentru a reflecta doar suplimentele necesare. De exemplu, Vitamina D este necesară doar pentru persoanele care nu se expun suficient la soare. Scopul nostru este să vă împărtășim datele științifice, astfel încât să puteți lua propriile decizii în cunoștință de cauză. Puteți vedea toate recomandările mele pe pagina [Optimum Nutrient](https://nutritionfacts.org/optimum-nutrient-recommendations).		
+faq_title	faq_title	Frequently Asked Questions	Întrebări Frecvente	Info Menu	
+	history_data_alert_cancel	Cancel	Anulează	History Data Alert: Cancel button	
+	history_data_alert_clear	Clear	Şterge	History Data Alert: Clear button	
+	history_data_alert_import	Import	Importă	History Data Alert: Import buttom	
+	history_data_alert_ok	OK	OK	History Data Alert: OK button	
+	history_data_export_btn	Export History Data	Exportă Istoricul Datelor	History Data: export action button	
+	history_data_export_text	Export has been written to:	Exportarea datelor s-a făcut la:	History Data: export description text	
+	history_data_import_btn	Import History Data	Importă Istoricul Datelor	History Data: import action button	
+	history_data_import_caution_text	Caution: This import will overwrite all history data currently in this Daily Dozen application. Would you like to proceed with the import?	Atenţie: Acest import va suprascrie toate datele existente în aplicaţia Duzina Zilnică. Vreţi să continuaţi importarea datelor?	History Data: import caution text	
+	history_data_import_error_text	Error: The import was not performed because of a data error. The existing data has remained unchanged.	Eroare: Importarea datelor nu s-a realizat din cauza unei erori. Datele existente au rămas nemodificate.	History Data: import data error text	
+	history_data_import_notfound_text	Did not find a valid import file in the Daily Dozen Documents folder.	Nu s-a găsit un fișier de import valid în folderul Documente. 	History Data: import not found text	
+	history_data_title	History	Istoric	History Data: preferences header & title	
+servings_time_scale_choices.0	history_scale_choice_day	Day	Zi	History View: calendar scale control	
+servings_time_scale_choices.1	history_scale_choice_month	Month	Lună	History View: calendar scale control	
+servings_time_scale_choices.2	history_scale_choice_year	Year	An	History View: calendar scale control	
+time_scale	history_scale_label	Time Scale	Interval	History View: scale text	
+moving_average	historyRecord.movingAverage	Moving Average	Medie exerciții fizice		
+	historyRecordDoze.heading	Servings History	Istoric porții	History View	
+	historyRecordDoze.legend	Servings	Porții	History View	
+	historyRecordTweak.heading	Tweaks History	Istoric Trucuri	History View	
+tweaks	historyRecordTweak.legend	Tweaks	Trucuri	History View	
+weight_history	historyRecordWeight.heading	Weight History	Istoric greutate	History View	
+evening	historyRecordWeight.legendEvening	Evening	Seară	History View	
+morning	historyRecordWeight.legendMorning	Morning	Dimineaţă	History View	
+	historyRecordWeight.titleImperial	Weight (lbs)	Greutate (lbs)	History View	
+	historyRecordWeight.titleMetric	Weight (kg)	Greutate (kg)	History View	
+about	info_app_about	About	Despre	Info About Menu Item	
+app_name	info_app_about_app_name	Daily Dozen	Duzina Zilnică	Info About View: Application Name ‘Daily Dozen’	
+	info_app_about_created_by	This app was created by: NutritionFacts.org, Christi Richards, Konstantin Khokhlov, and Marc Campbell	Această aplicație a fost creată de: NutritionFacts.org, Christi Richards, Konstantin Khokhlov și Marc Campbell.	Info About View: Created By	
+about_this_app	info_app_about_heading	About this app	Despre această aplicație	Info About View	
+	info_app_about_oss_credits	The following open source libraries are used: RealmSwift, Charts, FSCalendar, SimpleAnimation, ActiveLabel.	S-au folosit următoarele librării open source: RealmSwift, Charts, FSCalendar, SimpleAnimation, ActiveLabel.	Info About View: Open Source Credits	Open source is a term used in Romania as well
+activity_welcome_text	info_app_about_overview	Use this app on a daily basis to keep track of the foods and advice I recommend for optimal health and longevity in my books How Not to Die and How Not to Diet.	Utilizați această aplicație zilnic pentru a urmări alimentele și sfaturile pe care le recomand pentru o sănătate optimă și longevitate în cărțile mele „Cum să nu mori” și „Cum să nu ții o dietă”.	Info About View: Overview Text	
+android_about_text_translators	info_app_about_translators	Special thanks to our volunteer translators: Petar Enchev (bg), Tsveti Enchev (bg), Ricard Soler Roger (ca), Luděk Bouška (cs,sk), Lenka Lukacová (cs), Anke Schliessmann (de), Ángela Graña (es), Audray Harkins (fr), Doron Barak (he), Ruth Levy (he), Annalisa Guerrini-Körner (it), Ilaria Zanini (it), Hanna Gurzeda (pl), Joanna Klopotek (pl), Tania Bassi (pt-BR), João Madureira (pt-PT), Cristina Lauby (ro), Evgeniya Lyakh (ru), Katarína Mocáková (sk).	Mulțumiri speciale traducătorilor noștri voluntari: Petar Enchev (bg), Tsveti Enchev (bg), Ricard Soler Roger (ca), Luděk Bouška (cs,sk), Lenka Lukacová (cs), Anke Schliessmann (de), Ángela Graña (es), Audray Harkins (fr), Doron Barak (he), Ruth Levy (he), Annalisa Guerrini-Körner (it), Ilaria Zanini (it), Hanna Gurzeda (pl), Joanna Klopotek (pl), Tania Bassi (pt-BR), João Madureira (pt-PT), Cristina Lauby (ro), Evgeniya Lyakh (ru), Katarína Mocáková (sk).	Info About View: Contributing Translators List	
+	info_app_about_version	version 3.4.3	versiune 3.2.21	Info About View: Application release version	
+welcome_to_my_daily_dozen	info_app_about_welcome	Welcome to my Daily Dozen!	Bine ați venit în Duzina Zilnică!	Info About View: Welcome	
+	info_book_how_not_to_die	Book: How Not to Die	Carte: Cum să nu mori	Info Menu: book title	
+	info_book_how_not_to_die_cookbook	Book: How Not to Die Cookbook	Carte: 100+ rețete bazate pe studii științifice - Cum să nu mori	Info Menu: book title	This is the title under which this book was published in Romania
+	info_book_how_not_to_diet	Book: How Not to Diet	Carte: Cum să nu ții o rețetă	Info Menu: book title	
+daily_dozen_challenge	info_webpage_daily_dozen_challenge	Daily Dozen Challenge	Provocarea „Duzina Zilnică”	Info Menu	
+donate	info_webpage_donate	Donate	Donați	Info Menu	
+open_source	info_webpage_open_source	Open Source	Open Source	Info Menu	We use this term as is in Romanian
+subscribe	info_webpage_subscribe	Subscribe	Abonați-vă	Info Menu	
+latest_videos	info_webpage_videos_latest	Latest Videos	Ultimele videoclipuri	Info Menu	
+servings_all	item_history_completed_all	All servings	Toate porțiile	Item History Legend: ‘All completed’	
+servings_some	item_history_completed_some	Some servings	Câteva porții	Item History Legend: ‘Some completed’	
+history	item_history_heading	History	Istoric	Item History Heading	
+	navtab.doze	Daily Dozen	Duzina Zilnică	Main Navigation Tab Control: ‘Daily Dozen’ (proper noun)	
+	navtab.info	Information	Informații	Main Navigation Tab Control: show more information	
+	navtab.preferences	Preferences	Preferințe	Main Navigation Tab Control: ‘Preferences’ synonyms: Settings, Configuration. Choose a translations with is different from Tweaks.	
+	navtab.tweaks	21 Tweaks	21 de Trucuri	Main Navigation Tab Control: ‘21 Tweaks’ (proper noun)	
+	NSHealthShareUsageDescription	The 21 Tweaks feature accesses your HealthKit data to provide updates to your daily weight measurements.	Funcționalitatea „21 de Trucuri” accesează datele tale HealthKit pentru a oferi actualizări ale măsurătorilor zilnice privind greutatea.	Privacy - Health Share Usage Description	
+	NSHealthUpdateUsageDescription	The 21 Tweaks feature can write weight data to HealthKit to help you keep track of your progress.	Funcționalitatea „21 de Trucuri” poate înregistra în HealthKit date privind greutatea pentru a te ajuta să urmărești progresul.	Privacy - Health Update Usage Description	
+vitamin_b12	otherVitaminB12.heading	Vitamin B12	Vitamina B12	heading for daily data entry item	
+daily_reminder_text	reminder.alert.text	Update your servings for today	Actualizați porțiile pentru astăzi	Alert notification text	
+	reminder.heading	Daily Reminder	Memento zilnic	Daily Reminder (alert title, settings section heading)	
+	reminder.settings.enable	Enable Reminders	Activează Memento	Daily Reminder On/Off toggle switch label	
+play_sound	reminder.settings.sound	Play Sound	Redă sunetul	Daily Reminder sound control heading	
+remind_me_at	reminder.settings.time	Remind me at	Amintește-mi la	Daily Reminder time control heading	
+vibrate	reminder.settings.vibrate	Vibrate	Vibrează	Android notification `vibrate`	
+	reminder.state.off	Off	Oprit	‘Off’ as in ‘On (enabled) or Off (disabled)’, Daily Reminder is not enabled	
+	reminder.state.on	On	Pornit	‘On’ as in ‘On (enabled) or Off (disable)’. Daily Reminder is enabled	
+	setting_analytics_body	Enable anonymous usage information to be collected to help improve this application.	Permiteți colectarea informațiilor de utilizare anonime pentru a ajuta la îmbunătățirea acestei aplicații.	Google Firebase Analytics	
+	setting_analytics_enable	Enable Analytics	Permiteți analiza datelor	Google Firebase Analytics	
+	setting_analytics_opt_in	Opt In	Înscriere	Google Firebase Analytics	
+	setting_analytics_opt_out	Opt Out	Renunțare	Google Firebase Analytics	
+	setting_analytics_title	Analytics	Analiza datelor	Google Firebase Analytics	
+daily_dozen_only	setting_doze_only_btn	Daily Dozen\nOnly	Numai Duzina Zilnică	First Launch Setting: button text	
+	setting_doze_only_choice	Daily Dozen Only	Numai Duzina Zilnică	Preference Settings View: selection button text	
+daily_dozen_and_tweaks	setting_doze_tweak_btn	Daily Dozen +\n21 Tweaks	Duzina Zilnică +\n21 de Trucuri	First Launch Setting: button text	
+	setting_doze_tweak_choice	Daily Dozen + 21 Tweaks	Duzina Zilnică + 21 de Trucuri	Preference Settings View: selection button text	
+	setting_doze_tweak_footer	For health alone, use “Daily Dozen Only”. For health and weight loss use “Daily Dozen + 21 Tweaks”.	Pentru sănătate exclusiv, folosește “Duzina Zilnică”. Pentru sănătate și pierdere în greutate folosește “Duzina Zilnică + 21 de Trucuri”.	Preference Settings View: brief description text below Tweaks visibility control.	
+for_health_alone	setting_health_alone_txt	For Health Alone	Numai pentru Sănătate	First Launch Setting: brief description above ‘Daily Dozen Only’ button.	
+for_health_and_weight_loss	setting_health_weight_txt	For Health and Weight Loss	Pentru Sănătate și Pierdere în Greutate	First Launch Setting: brief description above ‘Daily Dozen + 21 Tweaks’ button.	
+	setting_tweak_header	21 Tweaks Visibility	Vizibilitate 21 de Trucuri	Preference Settings View: tweaks visibilty subsection heading	
+	setting_units_0_imperial	Imperial	Imperial	Preference Settings View: Part of ‘Imperial/Metric/Toggle Units’ selector	
+	setting_units_1_metric	Metric	Metric	Preference Settings View: Part of ‘Imperial/Metric/Toggle Units’ selector	
+	setting_units_2_toggle	Toggle Units	Comută unități de măsură	Preference Settings View: Part of ‘Imperial/Metric/Toggle Units’ selector	
+	setting_units_choice_footer	Set to always be one unit type or enable the ‘Units:’ toggle button.	Setați pentru a folosi întotdeauna aceeași unitate de măsură sau activați butonul de comutare „Unități de măsură:”	Preference Settings View: brief description text below units control.	
+	setting_units_header	Measurement Units	Unități de măsură	Preference Settings View	
+	setting_util_advanced	Advanced Utilities	Utilități avansate	Preference Settings View	
+format_num_days	streakDaysFormat	%d days	%d zile	‘Streak’ count. Synonym: ‘Progress‘. Formatted number ‘%d’ for consecutive days completed. Place translated text for ‘days’ on the right or left of ‘%d’ based on language directionality.	
+	tweak_detail_section_activity	Activity	Activitate	Tweaks Detail view section heading	
+	tweak_detail_section_description	Description	Descriere	Tweaks Detail view section heading	
+twenty_one_tweaks	tweak_entry_header	21 Tweaks	21 de Trucuri	Tweaks daily entry header	
+complete_intentions	tweakCompleteIntentions.heading	Complete Your Implementation Intentions	Completați-vă intențiile de implementare	heading for daily data entry item	
+complete_intentions_short	tweakCompleteIntentions.short	Complete Your Implementation Intentions	Completați-vă intențiile de implementare		
+complete_intentions_text	tweakCompleteIntentions.text	Every two months, create three new implementation intentions—“if X, then Y” plans to perform a particular behavior in a specific context—and check each one of them off as you complete them every day.	La fiecare două luni, creați trei noi intenții de implementare - „dacă X, atunci Y” presupune efectuarea unui anumit comportament într-un context specific - și bifați-le zilnic pe fiecare dintre ele pe măsură ce le realizați.		Agree with edits
+daily_blackcumin	tweakDailyBlackCumin.heading	Black Cumin (¼ tsp)	Chimion negru (¼ linguriță)	heading for daily data entry item	
+daily_blackcumin_short	tweakDailyBlackCumin.short	Black Cumin (Nigella sativa) (¼ tsp)	Chimion negru (Nigella sativa) (¼ linguriță)		
+daily_blackcumin_text	tweakDailyBlackCumin.text	As noted in the Appetite Suppression section, a systematic review and meta-analysis of randomized, controlled weight-loss trials found that about a quarter teaspoon of black cumin powder every day appears to reduce body mass index within a span of a couple of months. Note that black cumin is different from regular cumin, for which the dosing is different.	După cum s-a menționat în secțiunea Suprimarea Apetitului, o revizuire sistematică și meta-analiză a studiilor randomizate, controlate, legate de pierderea în greutate, a constatat că aproximativ un sfert de linguriță de pulbere de chimen negru în fiecare zi pare să reducă indicele de masă corporală într-o perioadă de câteva luni. Rețineți că chimenul negru este diferit de chimenul obișnuit, pentru care dozarea este diferită.		
+daily_cumin	tweakDailyCumin.heading	Cumin (½ tsp with lunch and dinner)	Chimion (½ linguriță cu prânzul și cina)	heading for daily data entry item	
+daily_cumin_short	tweakDailyCumin.short	Cumin (Cuminum cyminum) (½ tsp with lunch and dinner)	Chimion (Cuminum cyminum) (½ linguriță cu prânzul și cina)		
+daily_cumin_text	tweakDailyCumin.text	Overweight women randomized to add a half teaspoon of cumin to their lunches and dinners beat out the control group by four more pounds and an extra inch off their waists. There is also evidence to support the use of the spice saffron, but a pinch a day would cost a dollar, whereas a teaspoon of cumin costs less than ten cents.	Femeile supraponderale dintr-un studiu randomizat care au adăugat o jumatate de linguriță de chimion la prânzurile și cina lor, au avut față de grupul de control cu 1,8 kilograme și 2,5 cm de talie mai puțin. Există, de asemenea, dovezi care să sprijine utilizarea șofranului, dar câteva fire pe zi ar costa un dolar, în timp ce o linguriță de chimen costă mai puțin de zece cenți.		I think either translation is good. 
+daily_deflourdiet	tweakDailyDeflourDiet.heading	Deflour Your Diet	Defăinați-vă dieta	heading for daily data entry item	
+daily_deflourdiet_short	tweakDailyDeflourDiet.short	Deflour Your Diet	Defăinați-vă dieta		
+daily_deflourdiet_text	tweakDailyDeflourDiet.text	Check this box every day your whole grain servings are in the form of intact grains. The powdering of even 100 percent whole grains robs our microbiomes of the starch that would otherwise be ferried down to our colons enclosed in unbroken cell walls.	Bifează această casetă în fiecare zi în care porțiile de cereale integrale sunt sub formă de boabe intacte. Chiar și măcinarea cerealelor 100% integrale privează microbiomul de amidon, care altfel ar fi transportat până la colon închis în pereții intacți ai celulelor.		I don't agree with replacing ”privează” (robbing, missing) with ”curata” (cleaning). The meaning here is to say that the starch does not get to the microbiome, so the microbiome lacks it. The starch is not „cleansed”. 
+daily_frontload	tweakDailyFrontLoad.heading	Front-Load Your Calories	Consumați caloriile devreme	heading for daily data entry item	
+daily_frontload_short	tweakDailyFrontLoad.short	Front-Load Your Calories	Consumați caloriile devreme		
+daily_frontload_text	tweakDailyFrontLoad.text	There are metabolic benefits to distributing more calories to earlier in the day, so make breakfast (ideally) or lunch your largest meal of the day in true king/prince/pauper style.	Există avantaje metabolice ale distribuirii mai multor calorii la începutul zilei, așa că faceți ca micul dejun (ideal) sau prânzul să fie cea mai consistentă masă a zilei pe principiul rege/prinț/cerșetor.		
+daily_garlic	tweakDailyGarlic.heading	Garlic Powder (¼ tsp)	Usturoi praf (¼ linguriță)	heading for daily data entry item	
+daily_garlic_short	tweakDailyGarlic.short	Garlic Powder (¼ tsp)	Usturoi praf (¼ linguriță)		
+daily_garlic_text	tweakDailyGarlic.text	Randomized, double-blind, placebo-controlled studies have found that as little as a daily quarter teaspoon of garlic powder can reduce body fat at a cost of perhaps two cents a day.	Studiile randomizate, dublu-orb, controlate cu placebo au descoperit că doar un sfert de linguriță de praf de usturoi pe zi poate reduce grăsimea corporală cu un cost de aproximativ doi cenți pe zi.		
+daily_ginger	tweakDailyGinger.heading	Ground Ginger (1 tsp) or Cayenne Pepper (½ tsp)	Ghimbir măcinat (1 linguriță) sau ardei Cayenne (½ linguriță)	heading for daily data entry item	
+daily_ginger_short	tweakDailyGinger.short	Ground Ginger (1 tsp) or Cayenne Pepper (½ tsp)	Ghimbir măcinat (1 linguriță) sau ardei Cayenne (½ linguriță)		
+daily_ginger_text	tweakDailyGinger.text	Randomized controlled trials have found that ¼ teaspoon to 1½ teaspoons a day of ground ginger significantly decreased body weight for just pennies a day. It can be as easy as stirring the ground spice into a cup of hot water. Note: Ginger may work better in the morning than evening. Chai tea is a tasty way to combine the green tea and ginger tricks into a single beverage. Alternately, for BAT activation, you can add one raw jalapeño pepper or a half teaspoon of red pepper powder (or, presumably, crushed red pepper flakes) into your daily diet. To help beat the heat, you can very thinly slice or finely chop the jalapeño to reduce its bite to little prickles, or mix the red pepper into soup or the whole-food vegetable smoothie I featured in one of my cooking videos on NutritionFacts.org.	Studiile controlate randomizate au descoperit că o cantitate de ¼ până la 1½ lingurițe de ghimbir măcinat pe zi a scăzut semnificativ greutatea corporală la un cost modic. Pur și simplu amestecați condimentul măcinat într-o cană de apă fierbinte. Notă: Ghimbirul poate acționa mai eficient dimineața decât seara. Ca truc, puteți combina ceaiul verde și ghimbirul într-o singură băutură gustoasă. Alternativ, pentru activarea BAT, puteți adăuga un ardei jalapeño crud sau o jumătate de linguriță de boia de ardei iute (sau, eventual, fulgi de ardei iute mărunțiți) în dieta dumneavoastră zilnică. Pentru a reduce iuțeala, puteți tăia jalapeño în felii foarte subțiri sau să-l mărunțiți fin, astfel încât să simțiți doar mici înțepături la fiecare mușcătură, sau puteți amesteca ardeiul în supă sau în smoothie-ul de legume integrale pe care l-am prezentat într-unul dintre videoclipurile mele cu rețete pe NutritionFacts.org 		
+daily_greentea	tweakDailyGreenTea.heading	Green Tea (3 cups)	Ceai verde (3 căni)	heading for daily data entry item	
+daily_greentea_short	tweakDailyGreenTea.short	Green Tea (3 cups)	Ceai verde (3 căni)		
+daily_greentea_text	tweakDailyGreenTea.text	Drink three cups a day between meals (waiting at least an hour after a meal so as to not interfere with iron absorption). During meals, drink water, black coffee, or hibiscus tea mixed 6:1 with lemon verbena, but never exceed three cups of fluid an hour (important given my water preloading advice). Take advantage of the reinforcing effect of caffeine by drinking your green tea along with something healthy you wish you liked more, but don’t consume large amounts of caffeine within six hours of bedtime. Taking your tea without sweetener is best, but if you typically sweeten your tea with honey or sugar, try yacon syrup instead.	Beți trei căni pe zi între mese (așteptați cel puțin o oră după masă, pentru a nu interfera cu absorbția fierului). În timpul meselor, beți apă, cafea neagră sau ceai de hibiscus amestecat 6:1 cu verbenă de lămâie, dar nu depășiți niciodată trei căni de lichid pe oră (important având în vedere sfaturile mele privind consumul apei înainte de mese). Profitați de efectul revigorant al cofeinei, consumând ceaiul verde împreună cu ceva sănătos ce ați vrea să vă placă mai mult, dar nu consumați cantități mari de cofeină cu mai puțin de șase ore înainte de la culcare. Cel mai bine este să vă beți ceaiul neîndulcit, dar dacă în mod obișnuit îndulciți ceaiul cu miere sau zahăr, încercați în schimb siropul de yacon.		
+daily_hydrate	tweakDailyHydrate.heading	Stay Hydrated	Rămâi hidratat	heading for daily data entry item	
+daily_hydrate_short	tweakDailyHydrate.short	Stay Hydrated	Rămâi hidratat		
+daily_hydrate_text	tweakDailyHydrate.text	Check this box if your urine never appears darker than a pale yellow.\n\nNote that if you’re eating riboflavin-fortified foods (such as nutritional yeast), then base this instead on getting nine cups of unsweetened beverages a day for women (which would be taken care of by the green tea and water preloading recommendations) or thirteen cups a day for men.\n\nIf you have heart or kidney issues, don’t increase fluid intake at all without first talking with your physician.\n\nRemember, diet soda may be calorie-free, but it’s not consequence-free, as we learned in the Low in Added Sugar section.	Bifați această casetă dacă urina dvs. nu are niciodată culoare mai închisă decât galben pal. \n\nRețineți că, dacă mâncați alimente fortificate cu riboflavină (cum ar fi drojdia nutrițională), atunci beți nouă căni de băuturi neîndulcite pe zi pentru femei (care s-ar realiza în urma recomandărilor de a bea apa înainte de mese și ceai verde) sau treisprezece căni pe zi pentru bărbați. \n\nDacă aveți probleme cu inima sau rinichii, nu creșteți aportul de lichide fără să discutați mai întâi cu medicul dumneavoastră. \n\nAmintiți-vă, sucurile fără zahăr pot fi fără calorii, dar nu și fără consecințe, așa cum am învățat în secțiunea Reduceți Zahărul Adăugat.		
+daily_nutriyeast	tweakDailyNutriYeast.heading	Nutritional Yeast (2 tsp)	Drojdie inactivă (2 lingurițe)	heading for daily data entry item	
+daily_nutriyeast_short	tweakDailyNutriYeast.short	Nutritional Yeast (2 tsp)	Drojdie inactivă (2 lingurițe)		
+daily_nutriyeast_text	tweakDailyNutriYeast.text	Two teaspoons of baker’s, brewer’s, or nutritional yeast contains roughly the amount of beta 1,3/1,6 glucans found in randomized, double-blind, placebo-controlled clinical trials to facilitate weight loss.	Două lingurițe de drojdie de panificație, de bere sau nutrițională conțin cantitatea de β-1,3/1,6-glucan ce facilitează pierderea în greutate, conform studiilor clinice randomizate, în dublu-orb, controlate cu placebo ce au demonstrat acest lucru.		I dont agree with replacing ”drojdie nutrițională” (nutritional yeast) with ”drojdie inactivă” (inactive yeast). The active/inactive property is a different thing than the source/type of the yeast (which can be baker's, beer or nutritional - the nutritional yeast grows on sugar, while beer develops in beer fermentation and bakery yeast is indutrially produced).
+daily_timerestrict	tweakDailyTimeRestrict.heading	Time-Restrict Your Eating	Restricționați-vă mesele în intervale de timp	heading for daily data entry item	
+daily_timerestrict_short	tweakDailyTimeRestrict.short	Time-Restrict Your Eating	Restricționați-vă mesele în intervale de timp		
+daily_timerestrict_text	tweakDailyTimeRestrict.text	Confine eating to a daily window of time of your choosing under twelve hours in length that you can stick to consistently, seven days a week. Given the circadian benefits of reducing evening food intake, the window should end before 7:00 p.m.	Încercați să vă încadrați mesele într-o fereastră de timp de maxim 12 ore/zi, la alegerea dvs, pe care o puteți respecta zilnic, șapte zile pe săptămână. Având în vedere beneficiile circadiene ale reducerii aportului alimentar seara, fereastra ar trebui să se încheie înainte de ora 19:00.		
+exercise_timing	tweakExerciseTiming.heading	Optimize Exercise Timing	Optimizați cronometrarea exercițiilor	heading for daily data entry item	
+exercise_timing_short	tweakExerciseTiming.short	Optimize Exercise Timing	Optimizați cronometrarea exercițiilor		
+exercise_timing_text	tweakExerciseTiming.text	The Daily Dozen’s recommendation for optimum exercise duration for longevity is ninety minutes of moderately intense activity a day, which is also the optimum exercise duration for weight loss. Anytime is good, and the more, the better, but there may be an advantage to exercising in a fasted state, at least six hours after your last meal. Typically, this would mean before breakfast, but if you timed it right, you could exercise midday before a late lunch or, if lunch is eaten early enough, before dinner. This is the timing for nondiabetics. Diabetics and prediabetics should instead start exercising thirty minutes after the start of a meal and ideally go for at least an hour to completely straddle the blood sugar peak. If you had to choose a single meal to exercise after, it would be dinner, due to the circadian rhythm of blood sugar control that wanes throughout the day. Ideally, though, breakfast would be the largest meal of the day, and you’d exercise after that—or, even better, after every meal.	Recomandarea Duzina Zilnică privind durata optimă a exercițiilor fizice pentru longevitate este de nouăzeci de minute pe zi de activitate moderată spre intensă, aceasta fiind, de asemenea, durata optimă a exercițiilor pentru pierderea în greutate. Orice moment este bun, și cu cât mai mult, cu atât mai bine, dar poate constitui un avantaj să faceți exercițiile pe nemâncate, la cel puțin șase ore după ultima masă. De obicei, asta poate să însemne înainte de micul dejun, dar dacă vă faceți o planificare bună, puteți face exercițiile fizice înainte de masa de prânz dacă aceasta este târzie, sau, dacă prânzul este mâncat suficient de devreme, înainte de cină. Acesta este momentul potrivit pentru non-diabetici. Diabeticii și prediabeticii ar trebui, în schimb, să înceapă să facă exerciții fizice la treizeci de minute după începerea mesei și, în mod ideal, ar trebui să continue pentru cel puțin o oră pentru a acoperi complet vârful glicemiei post-prandiale. Dacă ar trebui să alegeți o singură masă după care să faceți exerciții, aceasta ar fi cina, din cauza ritmului circadian de control al nivelului glicemiei, care scade pe parcursul zilei. În mod ideal, totuși, micul dejun ar trebui să fie cea mai mare masă a zilei și ar trebui să faceți mișcare după aceea - sau, și mai bine, după fiecare masă.		
+meal_twentyminutes	tweakMeal20Minutes.heading	Follow the Twenty-Minute Rule	Urmați Regula celor douăzeci de minute	heading for daily data entry item	
+meal_twentyminutes_short	tweakMeal20Minutes.short	Follow the Twenty-Minute Rule	Urmați Regula celor douăzeci de minute		
+meal_twentyminutes_text	tweakMeal20Minutes.text	Whether through increasing viscosity or the number of chews, or decreasing bite size and eating rate, dozens of studies have demonstrated that no matter how we boost the amount of time food is in our mouths, it can result in lower caloric intake. So extend meal duration to at least twenty minutes to allow your natural satiety signals to take full effect. How? By choosing foods that take longer to eat and eating them in a way that prolongs the time they stay in your mouth. Think bulkier, hardier, chewier foods in smaller, well-chewed bites.	Indiferent dacă prin creșterea vâscozității sau a numărului de mestecări sau prin scăderea dimensiunii mușcăturilor și a vitezei cu care ne hrănim, zeci de studii au demonstrat că prelungirea timpului de masticație poate duce la un aport caloric mai mic. Așadar, prelungiți durata mesei până la cel puțin douăzeci de minute pentru a permite semnalelor naturale de sațietate să-și facă pe deplin efectul. Cum? Alegând alimente al căror consum durează mai mult timp și care necesită o mestecare mai îndelungată. Gândiți-vă la mâncărurile mai consistente în volum, mai dure, mai greu masticabile, consumate în mușcături mai mici, bine mestecate.		
+meal_negcal	tweakMealNegCal.heading	Preload with “Negative Calorie” Foods	Preîncărcați cu alimente cu „calorii negative”	heading for daily data entry item	
+meal_negcal_short	tweakMealNegCal.short	Preload with “Negative Calorie” Foods	Preîncărcați cu alimente cu „calorii negative”		
+meal_negcal_text	tweakMealNegCal.text	As the first course, start each meal with an apple or a Green Light soup or salad containing fewer than one hundred calories per cup.	Ca prim fel, începeți fiecare masă cu un măr sau o supă Lumina Verde (a semaforului nutrițional) sau o salată care conține mai puțin de o sută de calorii pe cană.		Assuming „Green Light” refers to the traffic light nutrition system.
+meal_undistracted	tweakMealUndistracted.heading	Enjoy Undistracted Meals	Bucurați-vă de mese fără distrageri	heading for daily data entry item	
+meal_undistracted_short	tweakMealUndistracted.short	Enjoy Undistracted Meals	Bucurați-vă de mese fără distrageri		
+meal_undistracted_text	tweakMealUndistracted.text	Don’t eat while watching TV or playing on your phone. Give yourself a check for each meal you’re able to eat without distraction.	Nu mâncați în timp ce vizionați televizorul sau vă jucați pe telefon. Acordați-vă o bifă pentru fiecare masă pe care o mâncați fără distragere.		
+meal_vinegar	tweakMealVinegar.heading	Incorporate Vinegar (2 tsp with each meal)	Încorporați oțet (2 lingurițe cu fiecare masă)	heading for daily data entry item	Assuming Apple cider vinegar
+meal_vinegar_short	tweakMealVinegar.short	Incorporate Vinegar (2 tsp with each meal)	Încorporați oțet (2 lingurițe cu fiecare masă)		
+meal_vinegar_text	tweakMealVinegar.text	Never drink vinegar straight. Instead, flavor meals or dress a side salad with any of the sweet and savory vinegars out there. If you want to drink it, make sure to mix it in a glass of water and, afterward, be sure to rinse your mouth out with water to protect your tooth enamel.	Nu beți niciodată oțet gol. În schimb, aromatizați felurile principale sau salata cu orice sortiment de oțet balsamic. Dacă doriți să îl beți, asigurați-vă că îl amestecați cu un pahar cu apă și, apoi, clătiți-vă gura cu apă pentru a vă proteja smalțul dinților.		We say „oțet balsamic” as in „balm vinegar” to a sweet and savory vinegar as opposed to the one used as preservative 
+meal_water	tweakMealWater.heading	Preload with Water	Preîncărcați cu apă	heading for daily data entry item	
+meal_water_short	tweakMealWater.short	Preload with Water	Preîncărcați cu apă		
+meal_water_text	tweakMealWater.text	Time your metabolism-boosting two cups of cool or cold unflavored water before each meal to also take advantage of its preload benefits.	Înaintea fiecărei mese, intensificați-vă metabolismul cu două căni de apă răcoroasă sau rece, nearomatizată, pentru a profita de beneficiile hidratării înainte de masă.		
+nightly_fast	tweakNightlyFast.heading	Fast After 7:00 pm	Postiți după ora 19:00	heading for daily data entry item	
+nightly_fast_short	tweakNightlyFast.short	Fast After 7:00 p.m.	Postiți după ora 19:00		
+nightly_fast_text	tweakNightlyFast.text	Due to our circadian rhythms, food eaten at night is more fattening than the exact same food eaten earlier in the day, so fast every night for at least twelve hours starting before 7:00 p.m. The fewer calories after sundown, the better.	Din cauza ritmurilor noastre circadiene, mâncarea consumată noaptea îngrașă mai mult decât aceeași mâncare consumată mai devreme în timpul zilei, așa că postiți în timpul nopții pentru cel puțin douăsprezece ore începând cu ora 19:00. Cu cât mai puține calorii după apusul soarelui, cu atât mai bine.		
+nightly_sleep	tweakNightlySleep.heading	Get Sufficient Sleep	Dormiți suficient	heading for daily data entry item	
+nightly_sleep_short	tweakNightlySleep.short	Get Sufficient Sleep	Dormiți suficient		
+nightly_sleep_text	tweakNightlySleep.text	Check this box if you get at least seven hours of sleep at your regular bedtime.	Bifați această căsuță dacă dormiți cel puțin șapte ore, începând cu ora de culcare obișnuită.		
+nightly_trendelenburg	tweakNightlyTrendelenbrug.heading	Experiment with Mild Trendelenburg	Experimentați cu poziția Trendelenburg ușoară	heading for daily data entry item	
+nightly_trendelenburg_short	tweakNightlyTrendelenbrug.short	Experiment with Mild Trendelenburg	Experimentați cu poziția Trendelenburg ușoară		
+nightly_trendelenburg_text	tweakNightlyTrendelenbrug.text	Try spending at least four hours a night lying with your body tilted head-down six degrees by elevating the posts at the foot of your bed by eight inches (or by nine inches if you have a California king). Be extremely careful when you get out of bed, as this causes orthostatic intolerance in most people, even if you’re young and healthy—meaning if you get up too fast, you can feel dizzy, faint, or light-headed and could fall and hurt yourself. So get up slowly. Drinking two cups of cold water thirty minutes before rising may also help prevent this potentially hazardous side effect.\n\n*IMPORTANT: Do not try this at home at all if you have any heart or lung issues, acid reflux, or problems with your brain (like head trauma) or eyes (even a family history of glaucoma disqualifies you). Also do not try this until you ask your physician if they think it’s safe for you to sleep in mild Trendelenburg.*	Încercați să petreceți cel puțin patru ore pe noapte culcați cu corpul înclinat cu capul în jos cu șase grade, ridicând rosturile de la poalele patului dvs. cu 20 de centimetri (sau cu 23 de centimetri dacă aveți un pat de dimensiuni mari). Fiți extrem de atenți când vă ridicați din pat, deoarece acest lucru provoacă intoleranță ortostatică la majoritatea oamenilor, chiar și la persoanele tinere și sănătoase - provocând amețeli, leșin, căzături și răniri. Deci ridicați-vă încet. Consumul a două căni de apă rece cu treizeci de minute înainte de a vă ridica din pat poate ajuta, de asemenea, la prevenirea acestui efect secundar potențial periculos.\n\n* IMPORTANT: Nu încercați deloc asta acasă dacă aveți probleme cu inima sau cu plămânii, cu refluxul acid sau probleme cerebrale (ca traumatisme craniene) sau oculare (chiar și un istoric familial de glaucom vă descalifică). De asemenea, nu încercați acest lucru până când nu vă întrebați medicul dacă consideră că este sigur să dormiți în Trendelenburg ușor. *		
+weigh_twice	tweakWeightTwice.heading	Weigh Yourself Twice a Day	Cântăriți-vă de două ori pe zi	heading for daily data entry item	
+weigh_twice_short	tweakWeightTwice.short	Weigh Yourself Twice a Day	Cântăriți-vă de două ori pe zi		
+weigh_twice_text	tweakWeightTwice.text	Regular self-weighing is considered crucial for long-term weight control, but there is insufficient evidence to support a specific frequency of weighing. My recommendation is based on the one study that found that twice daily—upon waking and right before bed—appeared superior to once a day (about six versus two pounds of weight loss over twelve weeks).	Auto-cântărirea regulată este considerată crucială pentru controlul greutății pe termen lung, dar nu există dovezi suficiente pentru a susține o frecvență specifică de cântărire. Recomandarea mea se bazează pe studiul care a constatat că o cântărire de două ori pe zi - la trezire și înainte de culcare - părea mai bună decât cântărirea o dată pe zi (aproximativ 2,7 kg pierdute în plus, față de 0,9 kg, în decurs de 12 săptămâni).		
+units	units_label	Units	Unități		
+imperial	unitToggle.imperial	Imperial	Imperial	Units toggle button text: imperial measurement system	
+metric	unitToggle.metric	Metric	Metric	Units toggle button text: metric measurement system	
+videos	videos.link.label	Videos	Videoclipuri	Label for hyperlink to nutritionfacts.org video topics	
+	weight_entry_clear	Clear	Șterge	Weight Daily Entry: clear button which deletes values	
+	weight_entry_evening	Evening (right before bed)	Seara (înainte de culcare)	Weight Daily Entry: label	
+	weight_entry_morning	Morning (upon waking)	Dimineața (la trezire)	Weight Daily Entry: label	
+	weight_entry_time	Time	Timp	Weight Daily Entry: label	
+	weight_entry_units_kg	kg	kg	Weight Daily Entry Units: label	
+	weight_entry_units_lbs	lbs	lbs	Weight Daily Entry Units: label	
+	weight_history_edit_data	Edit Data	Editează Datele	Weight Daily Entry: edit button to change values	
+weight	weightEntry.heading	Weight	Greutate	Weight Daily Entry: heading	
+about_text_lines.0		This app was created by John Slavick.	Această aplicație a fost creată de John Slavick.		
+about_text_lines.1					
+about_text_lines.2		The following open source libraries are used: ActiveAndroid, android-iconify, EventBus, LikeAnimation, and MPAndroidChart.	Următoarele biblioteci open-source sunt utilizate în crearea aplicației: ActiveAndroid, android-iconify, EventBus, LikeAnimation și MPAndroidChart.		
+about_text_lines.3					
+about_text_lines.4		Special thanks to the volunteer efforts of the creators of the previous app: Chan Kruse, Allan Portera, and Sangeeta Kumar.	Mulțumiri speciale sunt aduse eforturilor de voluntariat ale creatorilor aplicației anterioare: Chan Kruse, Allan Portera și Sangeeta Kumar.		
+about_tweak		About Tweak	Despre Trucuri		I have translated Tweak, if the meaning is to refer to 21 Tweaks 
+average_weight_on_day		Average weight on day	Greutate medie pe zi		
+backup		Backup	Copie de rezervă		
+backup_failed		Backup failed	Efectuarea copiei de rezervă a datelor a eşuat.		
+backup_instructions_lines.0		Follow these steps to restore this backup in the Daily Dozen app	Urmați acești pași pentru a restaura copia de siguranță a datelor în aplicația Duzina Zilnică.		
+backup_instructions_lines.1					
+backup_instructions_lines.2		1. The Daily Dozen app must be installed on your Android phone. You can download it here: https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen	1. Aplicația Duzina Zilnică trebuie să fie instalată pe telefonul tău cu Android. Puteți să o descărcați aici: https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen		
+backup_instructions_lines.3					
+backup_instructions_lines.4		2. Tap on the backup file attached to this email.	2. Accesați fișierul atașat la acest e-mail.		
+backup_instructions_lines.5					
+backup_instructions_lines.6		3. Select Open with Daily Dozen	3. Selectați Deschidere cu Duzina Zilnică		
+backup_success		Backup successful	Copia de rezervă a datelor a fost efectuată cu succes		
+channel_reminders_name		Reminders	Mementouri		
+daily_reminder_settings		Daily Reminder Settings	Setări pentru mementouri zilnice	a reminder that is triggered every day	
+daily_reminder_title		Daily Dozen Reminder	Memento Duzina Zilnică		
+daily_servings_history		Daily Servings History	Istoricul porțiilor zilnice		
+daily_tweaks_history		Daily Tweaks History	Istoricul Trucurilor zilnice		
+debug		Debug	Depanare		
+debug_clear_data		Clear all data	Ștergeți toate datele		
+debug_clear_data_message		This will delete all entered Servings. Do you wish to continue?	Această acțiune va șterge toate intrările introduse. Doriți să continuați?		
+debug_generate_data_message		All existing data will be replaced. Do you wish to continue?	Toate datele existente vor fi înlocuite. Doriți să continuați?		
+debug_generate_full_data		Generate full data	Generează date complete		
+debug_generate_random_data		Generate random data	Generează date aleatorii		
+debug_generate_weight_data		Generate Weight Data	Generează date privind greutatea		
+dialog_ask_user_to_rate_app_message		Please give us feedback in the Play Store.	Spuneți-ne părerea în Magazinul Play.		
+dialog_ask_user_to_rate_app_title		Do you like this app?	Vă place această aplicație?		
+dialog_no_email_apps_message		Backing up your data requires you to have an email app installed so you can email the backup file to yourself. Please install an email app and try again.	Copia de rezervă a datelor dvs. necesită instalarea unei aplicații de e-mail, astfel încât să vă puteți trimite fișierul de rezervă prin e-mail. Instalați o aplicație de e-mail și încercați din nou.		
+dialog_no_email_apps_title		No email apps found	Nu au fost găsite aplicații de e-mail		
+dialog_streaks_message		Your database will now be upgraded to support the new streaks feature.	Baza dvs. de date va fi acum actualizată pentru a accepta caracteristica nouă de Zile Consecutive.		
+dialog_streaks_title		New feature: Streaks!	Caracteristică nouă: Zile consecutive!		
+enable_daily_reminder		Enable Daily Reminder	Activați Memento Zilnic	On/Off toggle label	
+error_cannot_handle_url		Could not open url. Please install a browser.	Nu s-a putut deschide adresa URL. Vă rugăm să instalați un browser.		
+food_history		Food History	Istoric al Alimentelor		
+food_info		Food Info	Informații Alimentare		
+format_version		version %s	]	Place `%s` where the software should substitue in the version number.	
+history_to_generate		History to Generate	Istoric pentru generare		
+history_to_generate_choices.0		1 month	1 lună		
+history_to_generate_choices.1		3 months	3 luni		
+history_to_generate_choices.2		6 months	6 luni		
+history_to_generate_choices.3		1 year	1 an		
+history_to_generate_choices.4		2 years	2 ani		
+history_to_generate_choices.5		5 years	5 ani		
+no		No	Nu		
+no_servings_recorded		You have not recorded any servings yet!	Încă nu ați înregistrat porții!		
+no_weights_recorded		You have not recorded any weights yet!	Încă nu ați înregistrat greutatea!		
+not_now		Not Now	Nu acum		
+out_of		out of	din	Part of ‘0 out of 24’	
+permission_needed_to_write_storage		Can’t backup without permission to write to storage	Nu se poate face copie de rezervă a datelor fără permisiunea de a scrie în spațiul de stocare		
+rate_now		Give Feedback	Trimiteți părerea		
+restore_confirm_message		Any existing data will be deleted before restoring from backup. Do you wish to continue?	Orice date existente vor fi șterse înainte de a fi restaurate din copia de rezervă. Doriți să continuați?		
+restore_confirm_title		Restore Backup	Restaurează datele din copia de rezervă		
+restore_failed		Restore failed	Restaurarea copiei de rezervă a datelor a eşuat		
+restore_success		Restore successful	Restaurarea copiei de rezervă a datelor a fost efectuată cu succes		
+task_backup_title		Backing up	Se efectuează copie de rezervă a datelor		
+task_calculating_streaks_title		Calculating streaks	Se calculează zilele consecutive	:WIP: progress	
+task_generating_random_data		Generating random data	Se generează date aleatorii		
+task_loading_servings_history_title		Loading Servings History	Se încarcă istoricul porțiilor		
+task_loading_weights_history_title		Loading Weights History	Se încarcă istoricul greutății		
+task_restore_title		Restoring	Restaurare		
+title_cookbook		Cookbook	Carte de bucate		
+title_how_not_to_die		How Not to Die	Cum să nu mori		
+title_how_not_to_diet		How Not to Diet	Cum să nu ții o dietă		
+tweak_group_daily		Every Day	Zilnic		
+tweak_group_dailydoses		Take your daily doses	Luați-vă dozele zilnice		
+tweak_group_meal		At Each Meal	La fiecare masă		
+tweak_group_nightly		Every Night	In fiecare noapte		
+yes		Yes	Da		
