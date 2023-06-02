@@ -1,4 +1,4 @@
-### FILE: batch_normal_FromTsvIntake+BC.txt
+### FILE: batch_normal_FromTsvIntake+BC_1…4.txt
 ###
 ### NOTE: 
 ###    * "vNN BASELINE" + CHANGESET (post-`intake`) processing

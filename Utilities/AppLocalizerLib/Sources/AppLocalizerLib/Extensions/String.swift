@@ -7,21 +7,37 @@ import Foundation
 
 public extension String {
     
-    func keyParts() -> (base: String, post: UInt?) {
+    func keyParts(lowercased: Bool = true) -> (base: String, post: UInt?) {
         let base: String
         let postUInt: UInt?
                                 
         if let i = UInt(self.suffix(3)) {
-            base = String(self.dropLast(3)).lowercased()
+            if lowercased {
+                base = String(self.dropLast(3)).lowercased()
+            } else {
+                base = String(self.dropLast(3))
+            }
             postUInt = i
         } else if let i = UInt(self.suffix(2)) {
-            base = String(self.dropLast(2)).lowercased()
+            if lowercased {
+                base = String(self.dropLast(2)).lowercased()
+            } else {
+                base = String(self.dropLast(2))
+            }
             postUInt = i
         } else if let i = UInt(self.suffix(1)) {
-            base = String(self.dropLast()).lowercased()
+            if lowercased {
+                base = String(self.dropLast()).lowercased()
+            } else {
+                base = String(self.dropLast())
+            }
             postUInt = i
         } else {
-            base = self.lowercased()
+            if lowercased {
+                base = self.lowercased()
+            } else {
+                base = self
+            }
             postUInt = nil
         }
         return (base, postUInt)

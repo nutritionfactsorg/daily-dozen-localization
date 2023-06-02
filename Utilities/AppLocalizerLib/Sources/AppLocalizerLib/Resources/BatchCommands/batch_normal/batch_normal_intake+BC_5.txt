@@ -1,0 +1,205 @@
+### FILE: batch_normal_FromTsvIntake+BC_5.txt
+###
+### NOTE: 
+###    - process inset05 into normalized v05
+###    - for .app. files
+###
+### APPLY: 
+###    1. run after completing inset (I)
+###
+### SCOPE: all translated languages
+###
+
+###################
+## General Setup ##
+###################
+DIRNAME_OUTPUT_NORMAL="FromTsvIntake+BC_5"
+LOGGER_FILENAME="_log_FromTsvIntake+BC_5__"
+LOGGER_LEVEL_INFO
+
+## Base English_US paths into which translations are mapped
+## use one or the other.
+BASE_JSON_DIR="English_US/ios/en-US_reference/LocalStrings/en.v05.lproj"
+
+BASE_TSV_INCLUDE="English_US/tsv/v05_Peanuts/English_US_en.app.v05.inset.tsv"
+
+URL_FRAGMENTS_TSV="English_US/tsv/v05_Peanuts/English_US_en.url_fragments.v05.tsv"
+URL_TOPICS_TSV="English_US/tsv/v05_Peanuts/English_US_en.url_topics.v05.tsv"
+
+### ------ ANDROID_LANG --> NORMALIZE XML -----
+BASE_XML_URL="English_US/android/values/strings.v05.xml"
+
+## Note: currently, URL_TOPICS_TSV is the same for all languages except Spanish.
+URL_FRAGMENTS_TSV="English_US/tsv/v05_Peanuts/English_US_en.url_fragments.v05.tsv"
+URL_TOPICS_TSV="English_US/tsv/v05_Peanuts/English_US_en.url_topics.v05.tsv"
+
+####################################
+## English_US: Baseline Reference ##
+####################################
+LOGGER_FILENAME="_log_FromTsvIntake+BC_5__US_en"
+
+SOURCE_TSV_INCLUDE="English_US/tsv/v05_Peanuts/English_US_en.app.v05.inset.tsv"
+DO_NORMALIZE_BATCH
+
+#SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.url_fragments.tsv"
+#DO_NORMALIZE_BATCH
+
+#SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.url_topics.tsv"
+#DO_NORMALIZE_BATCH
+
+###############
+## Bulgarian ##
+###############
+LOGGER_FILENAME="_log_FromTsvIntake+BC_Bulgarian_bg"
+## -- (bg) process app --
+SOURCE_TSV_INCLUDE="Bulgarian/tsv/v05_Peanuts/Bulgarian_bg.app.v05.inset.tsv"
+DO_NORMALIZE_BATCH
+
+#############
+## Catalan ##
+#############
+LOGGER_FILENAME="_log_FromTsvIntake+BC_Catalan_ca"
+## -- (ca) process app --
+SOURCE_TSV_INCLUDE="Catalan/tsv/v05_Peanuts/Catalan_ca.app.v05.inset.tsv"
+DO_NORMALIZE_BATCH
+
+###########
+## Czech ##
+###########
+LOGGER_FILENAME="_log_FromTsvIntake+BC_Czech_cs"
+## -- (cs) process app --
+SOURCE_TSV_INCLUDE="Czech/tsv/v05_Peanuts/Czech_cs.app.v05.inset.tsv"
+DO_NORMALIZE_BATCH
+
+############
+## French ##
+############
+LOGGER_FILENAME="_log_FromTsvIntake+BC_French_fr"
+## -- (fr) process app --
+SOURCE_TSV_INCLUDE="French/tsv/v05_Peanuts/French_fr.app.v05.inset.tsv"
+DO_NORMALIZE_BATCH
+
+############
+## German ##
+############
+LOGGER_FILENAME="_log_FromTsvIntake+BC_German_de"
+## -- (de) process app --
+SOURCE_TSV_INCLUDE="German/tsv/v05_Peanuts/German_de.app.v05.inset.tsv"
+DO_NORMALIZE_BATCH
+
+############
+## Hebrew ##
+############
+LOGGER_FILENAME="_log_FromTsvIntake+BC_Hebrew_he"
+## -- (he) process app --
+SOURCE_TSV_INCLUDE="Hebrew/tsv/v05_Peanuts/Hebrew_he.app.v05.inset.tsv"
+DO_NORMALIZE_BATCH
+
+## -- (iw) process app --
+SOURCE_TSV_INCLUDE="Hebrew/tsv/v05_Peanuts/Hebrew_iw.app.v05.inset.tsv"
+DO_NORMALIZE_BATCH
+
+#############
+## Italian ##
+#############
+LOGGER_FILENAME="_log_FromTsvIntake+BC_Italian_it"
+## -- (it) process app --
+SOURCE_TSV_INCLUDE="Italian/tsv/v05_Peanuts/Italian_it.app.v05.inset.tsv"
+DO_NORMALIZE_BATCH
+
+############
+## Polish ##
+############
+LOGGER_FILENAME="_log_FromTsvIntake+BC_Polish_pl"
+## -- (pl) process app --
+SOURCE_TSV_INCLUDE="Polish/tsv/v05_Peanuts/Polish_pl.app.v05.inset.tsv"
+DO_NORMALIZE_BATCH
+
+#######################
+## Portuguese_Brazil ##
+#######################
+LOGGER_FILENAME="_log_FromTsvIntake+BC_Portuguese_pt-rBR"
+## -- (pt-rBR) process app --
+SOURCE_TSV_INCLUDE="Portuguese_Brazil/tsv/v05_Peanuts/Portuguese_pt-rBR.app.v05.inset.tsv"
+DO_NORMALIZE_BATCH
+
+#########################
+## Portuguese_Portugal ##
+#########################
+LOGGER_FILENAME="_log_FromTsvIntake+BC_Portuguese_pt-rPT"
+## -- (pt-rPT) process app --
+SOURCE_TSV_INCLUDE="Portuguese_Portugal/tsv/v05_Peanuts/Portuguese_pt-rPT.app.v05.inset.tsv"
+DO_NORMALIZE_BATCH
+
+##############
+## Romanian ##
+##############
+LOGGER_FILENAME="_log_FromTsvIntake+BC_Romanian_ro"
+## -- (ro) process app --
+SOURCE_TSV_INCLUDE="Romanian/tsv/v05_Peanuts/Romanian_ro.app.v05.inset.tsv"
+DO_NORMALIZE_BATCH
+
+#############
+## Russian ##
+#############
+LOGGER_FILENAME="_log_FromTsvIntake+BC_Russian_ru"
+## -- (ru) process app --
+SOURCE_TSV_INCLUDE="Russian/tsv/v05_Peanuts/Russian_ru.app.v05.inset.tsv"
+DO_NORMALIZE_BATCH
+
+############
+## Slovak ##
+############
+LOGGER_FILENAME="_log_FromTsvIntake+BC_Slovak_sk"
+## -- (sk) process app --
+SOURCE_TSV_INCLUDE="Slovak/tsv/v05_Peanuts/Slovak_sk.app.v05.inset.tsv"
+DO_NORMALIZE_BATCH
+
+#############
+## Spanish ##
+#############
+LOGGER_FILENAME="_log_FromTsvIntake+BC_Spanish_es"
+## Note: Spanish has its own topic urls
+URL_FRAGMENTS_TSV="Spanish/tsv/v05_Peanuts/Spanish_es.url_fragments.v05.tsv"
+URL_TOPICS_TSV="Spanish/tsv/v05_Peanuts/Spanish_es.url_topics.v05.tsv"
+
+## -- (es) process app --
+SOURCE_TSV_INCLUDE="Spanish/tsv/v05_Peanuts/Spanish_es.app.v05.inset.tsv"
+DO_NORMALIZE_BATCH
+
+# ======= ======= ======= ANDROID ONLY ======= ======= ======= 
+
+## Note: setting URL_TOPICS_TSV to English_US as used by languages other than Spanish.
+URL_FRAGMENTS_TSV="English_US/tsv/v05_Peanuts/English_US_en.url_fragments.v05.tsv"
+URL_TOPICS_TSV="English_US/tsv/v05_Peanuts/English_US_en.url_topics.v05.tsv"
+
+########################
+## Chinese Simplified ##
+########################
+LOGGER_FILENAME="_log_FromTsvIntake+BC_Chinese_zh-Hans"
+## -- (zh-Hans) process app --
+SOURCE_TSV_INCLUDE="Chinese_Simplified/tsv/v05_Peanuts/Chinese_Simplified_zh-Hans.app.v05.inset.tsv"
+DO_NORMALIZE_BATCH
+
+#########################
+## Chinese Traditional ##
+#########################
+## NOTE: zh - mosly traditional in original Android translation
+LOGGER_FILENAME="_log_FromTsvIntake+BC_Chinese_zh-Hant"
+## -- (zh-Hant) process app --
+SOURCE_TSV_INCLUDE="Chinese_Traditional/tsv/v05_Peanuts/Chinese_Traditional_zh-Hant.app.v05.inset.tsv"
+DO_NORMALIZE_BATCH
+
+###########
+## Greek ##
+###########
+LOGGER_FILENAME="_log_FromTsvIntake+BC_Greek_el"
+## -- (el) process app --
+SOURCE_TSV_INCLUDE="Greek/tsv/v05_Peanuts/Greek_el.app.v05.inset.tsv"
+DO_NORMALIZE_BATCH
+
+######################################################
+### ----- STOP HERE (PROCESSING: 2023.05.01) ----- ###
+######################################################
+QUIT
+

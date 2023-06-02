@@ -16,6 +16,12 @@ struct TsvSheet: TsvProtocol {
         case apple
     }
     
+    /// Result: sorted with exact matches removed
+    init(_ urlTsv: URL, loglevel: LogServiceLevel = .info) {
+        self.init(urlList: [urlTsv], loglevel: loglevel)
+    }
+    
+    /// Result: sorted with exact matches removed
     init(urlList: [URL], loglevel: LogServiceLevel = .info) {
         logger.logLevel = loglevel
         guard let url = urlList.first  else {
@@ -202,6 +208,42 @@ struct TsvSheet: TsvProtocol {
             paired[row.key_apple+row.key_android] = row
         } 
         return (apple, droid, paired)
+    }
+    
+    // MARK: - Inset Row
+    
+    /// Scope: implemented case limited numbered sequence keys
+    mutating func doInset(addTsvRow: TsvRow) {
+        let addKey = addTsvRow.key_apple
+        let addParts = addKey.keyParts(lowercased: false)
+        guard let _ = addParts.post else { 
+            fatalError(":NYI: doInset(tsvRow: TsvRow) is only implemented for numbered sequence key. addParts = \(addParts)")
+        }
+        
+        // Step 1. Find the inset idx
+        var idx = 0
+        var dataKey = tsvRowList.data[idx].key_apple
+        while (dataKey != addKey) && (idx < tsvRowList.data.count - 1) {
+            idx += 1                                  // next index
+            dataKey = tsvRowList.data[idx].key_apple  // next baseKey
+        }
+        
+        // Step 2. Insert tsvRow
+        tsvRowList.data.insert(addTsvRow, at: idx)
+        
+        // Step 3. Renumber subsequent keys with the same base part
+        idx += 1
+        var androidParts = tsvRowList.data[idx].key_android.keyParts(lowercased: false)
+        var appleParts = tsvRowList.data[idx].key_apple.keyParts(lowercased: false)
+        while appleParts.base == addParts.base, let n = appleParts.post {
+            // update
+            tsvRowList.data[idx].key_android = "\(androidParts.base)\(n + 1)"
+            tsvRowList.data[idx].key_apple = "\(appleParts.base)\(n + 1)"
+            // next
+            idx += 1
+            androidParts = tsvRowList.data[idx].key_android.keyParts(lowercased: false)
+            appleParts = tsvRowList.data[idx].key_apple.keyParts(lowercased: false)
+        }
     }
     
     // MARK: - Normalize Keys

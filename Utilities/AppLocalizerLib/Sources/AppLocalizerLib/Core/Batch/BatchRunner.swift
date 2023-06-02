@@ -232,6 +232,26 @@ struct BatchRunner {
                     print(":ERROR: BatchRunner run() missing SOURCE_TSV_INCLUDE")
                 }
             }
+            else if command.cmdKey.hasPrefix("DO_INSET_BATCH") {
+                // Additive: inserts secondary *.tsv into primary *.tsv.
+                //     will reindex any key which ends with a dot-number
+                logger.info("\n##### ----- DO_INSET_BATCH ----- ######")
+                guard 
+                    let outputNormalDir = outputNormalDir,
+                    let source = sourceListTSV,
+                    source.count > 1
+                else {
+                    let s = """
+                    :ERROR: DO_INSET_BATCH
+                        - verify DIRNAME_OUTPUT_NORMAL
+                        - verify SOURCE_TSV_INCLUDE has two files
+                    """
+                    print(s)
+                    continue
+                }
+                BatchNormal.shared.doInsetTsv(sourceTSV: source, resultsDir: outputNormalDir)
+                sourceListTSV = nil
+            }
             else if command.cmdKey.hasPrefix("DO_NORMALIZE_BATCH") {
                 // Normalizes base on the given *.string, *.tsv, *.xliff, *.xml source
                 logger.info("\n##### ----- DO_NORMALIZE_BATCH ----- ######")

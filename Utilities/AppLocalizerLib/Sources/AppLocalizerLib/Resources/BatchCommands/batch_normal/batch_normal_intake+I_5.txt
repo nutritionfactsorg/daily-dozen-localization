@@ -1,0 +1,199 @@
+### FILE: batch_normal_FromTsv_I_5.txt
+###
+### NOTE: 
+###    - derived from "intake+I_5"
+###    - inserts v05 peanuts.
+###    - generates a merged TSV. 
+###    - merged TSV needs another processed step to generate json/strings/xml files
+###
+### APPLY: 
+###    1. run inserts rows (I) into fully processed v04
+###
+### SCOPE: all translated languages
+###
+
+###################
+## General Setup ##
+###################
+DIRNAME_OUTPUT_NORMAL="FromTsv_I_5"
+LOGGER_FILENAME="_log_FromTsv_I_5__"
+LOGGER_LEVEL_INFO
+
+## Base English_US paths into which translations are mapped
+## use one or the other.
+BASE_TSV_INCLUDE="English_US/tsv/v04/English_US_en.app.v04.tsv"
+
+####################################
+## English_US: Baseline Reference ##
+####################################
+LOGGER_FILENAME="_log_FromTsv_I_5__US_en"
+
+SOURCE_TSV_INCLUDE="English_US/tsv/v04/English_US_en.app.v04.tsv"
+SOURCE_TSV_INCLUDE="English_US/tsv/v05_peanuts/English_US_en.app.changeset05.tsv"
+DO_INSET_BATCH
+
+###############
+## Bulgarian ##
+###############
+LOGGER_FILENAME="_log_FromTsv_I_5_Bulgarian_bg"
+## -- (bg) process app --
+SOURCE_TSV_INCLUDE="Bulgarian/tsv/v04/Bulgarian_bg.app.v04.tsv"
+SOURCE_TSV_INCLUDE="Bulgarian/tsv/v05_peanuts/Bulgarian_bg.app.changeset05.tsv"
+DO_INSET_BATCH
+
+#############
+## Catalan ##
+#############
+LOGGER_FILENAME="_log_FromTsv_I_5_Catalan_ca"
+## -- (ca) process app --
+SOURCE_TSV_INCLUDE="Catalan/tsv/v04/Catalan_ca.app.v04.tsv"
+SOURCE_TSV_INCLUDE="Catalan/tsv/v05_peanuts/Catalan_ca.app.changeset05.tsv"
+DO_INSET_BATCH
+
+###########
+## Czech ##
+###########
+LOGGER_FILENAME="_log_FromTsv_I_5_Czech_cs"
+## -- (cs) process app --
+SOURCE_TSV_INCLUDE="Czech/tsv/v04/Czech_cs.app.v04.tsv"
+SOURCE_TSV_INCLUDE="Czech/tsv/v05_peanuts/Czech_cs.app.changeset05.tsv"
+DO_INSET_BATCH
+
+############
+## French ##
+############
+LOGGER_FILENAME="_log_FromTsv_I_5_French_fr"
+## -- (fr) process app --
+SOURCE_TSV_INCLUDE="French/tsv/v04/French_fr.app.v04.tsv"
+SOURCE_TSV_INCLUDE="French/tsv/v05_peanuts/French_fr.app.changeset05.tsv"
+DO_INSET_BATCH
+
+############
+## German ##
+############
+LOGGER_FILENAME="_log_FromTsv_I_5_German_de"
+## -- (de) process app --
+SOURCE_TSV_INCLUDE="German/tsv/v04/German_de.app.v04.tsv"
+SOURCE_TSV_INCLUDE="German/tsv/v05_peanuts/German_de.app.changeset05.tsv"
+DO_INSET_BATCH
+
+############
+## Hebrew ##
+############
+LOGGER_FILENAME="_log_FromTsv_I_5_Hebrew_he"
+## -- (he) process app --
+SOURCE_TSV_INCLUDE="Hebrew/tsv/v04/Hebrew_he.app.v04.tsv"
+SOURCE_TSV_INCLUDE="Hebrew/tsv/v05_peanuts/Hebrew_he.app.changeset05.tsv"
+DO_INSET_BATCH
+
+## -- (iw) process app --
+SOURCE_TSV_INCLUDE="Hebrew/tsv/v04/Hebrew_iw.app.v04.tsv"
+SOURCE_TSV_INCLUDE="Hebrew/tsv/v05_peanuts/Hebrew_iw.app.changeset05.tsv"
+DO_INSET_BATCH
+
+#############
+## Italian ##
+#############
+### Note: v04 is a roll-up of Base+v01+v02+v04
+LOGGER_FILENAME="_log_FromTsv_I_5_Italian_it"
+## -- (it) process app --
+SOURCE_TSV_INCLUDE="Italian/tsv/v04/Italian_it.app.v04.tsv"
+SOURCE_TSV_INCLUDE="Italian/tsv/v05_peanuts/Italian_it.app.changeset05.tsv"
+DO_INSET_BATCH
+
+############
+## Polish ##
+############
+LOGGER_FILENAME="_log_FromTsv_I_5_Polish_pl"
+## -- (pl) process app --
+SOURCE_TSV_INCLUDE="Polish/tsv/v04/Polish_pl.app.v04.tsv"
+SOURCE_TSV_INCLUDE="Polish/tsv/v05_peanuts/Polish_pl.app.changeset05.tsv"
+DO_INSET_BATCH
+
+#######################
+## Portuguese_Brazil ##
+#######################
+LOGGER_FILENAME="_log_FromTsv_I_5_Portuguese_pt-rBR"
+## -- (pt-rBR) process app --
+SOURCE_TSV_INCLUDE="Portuguese_Brazil/tsv/v04/Portuguese_pt-rBR.app.v04.tsv"
+SOURCE_TSV_INCLUDE="Portuguese_Brazil/tsv/v05_peanuts/Portuguese_pt-rBR.app.changeset05.tsv"
+DO_INSET_BATCH
+
+#########################
+## Portuguese_Portugal ##
+#########################
+LOGGER_FILENAME="_log_FromTsv_I_5_Portuguese_pt-rPT"
+## -- (pt-rPT) process app --
+SOURCE_TSV_INCLUDE="Portuguese_Portugal/tsv/v04/Portuguese_pt-rPT.app.v04.tsv"
+SOURCE_TSV_INCLUDE="Portuguese_Portugal/tsv/v05_peanuts/Portuguese_pt-rPT.app.changeset05.tsv"
+DO_INSET_BATCH
+
+##############
+## Romanian ##
+##############
+LOGGER_FILENAME="_log_FromTsv_I_5_Romanian_ro"
+## -- (ro) process app --
+SOURCE_TSV_INCLUDE="Romanian/tsv/v04/Romanian_ro.app.v04.tsv"
+SOURCE_TSV_INCLUDE="Romanian/tsv/v05_peanuts/Romanian_ro.app.changeset05.tsv"
+DO_INSET_BATCH
+
+#############
+## Russian ##
+#############
+LOGGER_FILENAME="_log_FromTsv_I_5_Russian_ru"
+## -- (ru) process app --
+SOURCE_TSV_INCLUDE="Russian/tsv/v04/Russian_ru.app.v04.tsv"
+SOURCE_TSV_INCLUDE="Russian/tsv/v05_peanuts/Russian_ru.app.changeset05.tsv"
+DO_INSET_BATCH
+
+############
+## Slovak ##
+############
+LOGGER_FILENAME="_log_FromTsv_I_5_Slovak_sk"
+## -- (sk) process app --
+SOURCE_TSV_INCLUDE="Slovak/tsv/v04/Slovak_sk.app.v04.tsv"
+SOURCE_TSV_INCLUDE="Slovak/tsv/v05_peanuts/Slovak_sk.app.changeset05.tsv"
+DO_INSET_BATCH
+
+#############
+## Spanish ##
+#############
+LOGGER_FILENAME="_log_FromTsv_I_5_Spanish_es"
+## -- (es) process app --
+SOURCE_TSV_INCLUDE="Spanish/tsv/v04/Spanish_es.app.v04.tsv"
+SOURCE_TSV_INCLUDE="Spanish/tsv/v05_peanuts/Spanish_es.app.changeset05.tsv"
+DO_INSET_BATCH
+
+# ======= ======= ======= ANDROID ONLY ======= ======= ======= 
+
+########################
+## Chinese Simplified ##
+########################
+LOGGER_FILENAME="_log_FromTsv_I_5_Chinese_zh-Hans"
+## -- (zh-Hans) process app --
+SOURCE_TSV_INCLUDE="Chinese_Simplified/tsv/v04/Chinese_Simplified_zh-Hans.app.v04.tsv"
+SOURCE_TSV_INCLUDE="Chinese_Simplified/tsv/v05_peanuts/Chinese_Simplified_zh-Hans.app.changeset05.tsv"
+DO_INSET_BATCH
+
+#########################
+## Chinese Traditional ##
+#########################
+LOGGER_FILENAME="_log_FromTsv_I_5_Chinese_zh-Hant"
+## -- (zh-Hant) process app --
+SOURCE_TSV_INCLUDE="Chinese_Traditional/tsv/v04/Chinese_Traditional_zh-Hant.app.v04.tsv"
+SOURCE_TSV_INCLUDE="Chinese_Traditional/tsv/v05_peanuts/Chinese_Traditional_zh-Hant.app.changeset05.tsv"
+DO_INSET_BATCH
+
+###########
+## Greek ##
+###########
+LOGGER_FILENAME="_log_FromTsv_I_5_Greek_el"
+## -- (el) process app --
+SOURCE_TSV_INCLUDE="Greek/tsv/v04/Greek_el.app.v04.tsv"
+SOURCE_TSV_INCLUDE="Greek/tsv/v05_peanuts/Greek_el.app.changeset05.tsv"
+DO_INSET_BATCH
+
+######################################################
+### ----- STOP HERE (PROCESSING: 2023.05.01) ----- ###
+######################################################
+QUIT

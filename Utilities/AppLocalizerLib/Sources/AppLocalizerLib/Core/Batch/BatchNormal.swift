@@ -428,4 +428,31 @@ struct BatchNormal {
         }
     }
     
+    // MARK: - Insert Normalized TSV Files
+    
+    /// Caveats: initial implementation has the following limitations
+    /// - single file to merge into a base file
+    /// - based on `key_apple`
+    func doInsetTsv(sourceTSV: [URL], resultsDir: URL) {
+        guard sourceTSV.count > 1 else {
+            fatalError("BatchNormal doMerge requires at least 2 source file urls")
+        }
+        guard sourceTSV.count == 2 else {
+            fatalError(":NYI: doInset(tsvRow: TsvRow) is only implemented for 2 TSV files.")
+        }        
+        var baseTsvSheet = TsvSheet(sourceTSV[0])
+        let insetTsvSheet = TsvSheet(sourceTSV[1])
+        
+        for tsvRow in insetTsvSheet.tsvRowList.data {
+            baseTsvSheet.doInset(addTsvRow: tsvRow)
+        }
+        
+        let filename = sourceTSV[0].deletingPathExtension().lastPathComponent
+        let outUrl = resultsDir.appending(component: "\(filename).inset.tsv", directoryHint: .notDirectory)
+        
+        baseTsvSheet.writeTsvFile(fullUrl: outUrl)
+        
+        print("doInsetTsv completed")
+    }
+    
 }
