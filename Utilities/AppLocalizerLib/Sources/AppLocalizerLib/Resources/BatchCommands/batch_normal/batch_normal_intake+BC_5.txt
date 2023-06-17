@@ -21,7 +21,7 @@ LOGGER_LEVEL_INFO
 ## use one or the other.
 BASE_JSON_DIR="English_US/ios/en-US_reference/LocalStrings/en.v05.lproj"
 
-BASE_TSV_INCLUDE="English_US/tsv/v05_Peanuts/English_US_en.app.v05.inset.tsv"
+BASE_TSV_INCLUDE="English_US/tsv/v05_Peanuts/English_US_en.app.v05.tsv"
 
 URL_FRAGMENTS_TSV="English_US/tsv/v05_Peanuts/English_US_en.url_fragments.v05.tsv"
 URL_TOPICS_TSV="English_US/tsv/v05_Peanuts/English_US_en.url_topics.v05.tsv"
@@ -38,7 +38,7 @@ URL_TOPICS_TSV="English_US/tsv/v05_Peanuts/English_US_en.url_topics.v05.tsv"
 ####################################
 LOGGER_FILENAME="_log_FromTsvIntake+BC_5__US_en"
 
-SOURCE_TSV_INCLUDE="English_US/tsv/v05_Peanuts/English_US_en.app.v05.inset.tsv"
+SOURCE_TSV_INCLUDE="English_US/tsv/v05_Peanuts/English_US_en.app.v05.tsv"
 DO_NORMALIZE_BATCH
 
 #SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.url_fragments.tsv"
@@ -52,7 +52,7 @@ DO_NORMALIZE_BATCH
 ###############
 LOGGER_FILENAME="_log_FromTsvIntake+BC_Bulgarian_bg"
 ## -- (bg) process app --
-SOURCE_TSV_INCLUDE="Bulgarian/tsv/v05_Peanuts/Bulgarian_bg.app.v05.inset.tsv"
+SOURCE_TSV_INCLUDE="Bulgarian/tsv/v05_Peanuts/Bulgarian_bg.app.v05.tsv"
 DO_NORMALIZE_BATCH
 
 #############
@@ -60,7 +60,7 @@ DO_NORMALIZE_BATCH
 #############
 LOGGER_FILENAME="_log_FromTsvIntake+BC_Catalan_ca"
 ## -- (ca) process app --
-SOURCE_TSV_INCLUDE="Catalan/tsv/v05_Peanuts/Catalan_ca.app.v05.inset.tsv"
+SOURCE_TSV_INCLUDE="Catalan/tsv/v05_Peanuts/Catalan_ca.app.v05.tsv"
 DO_NORMALIZE_BATCH
 
 ###########
@@ -68,7 +68,7 @@ DO_NORMALIZE_BATCH
 ###########
 LOGGER_FILENAME="_log_FromTsvIntake+BC_Czech_cs"
 ## -- (cs) process app --
-SOURCE_TSV_INCLUDE="Czech/tsv/v05_Peanuts/Czech_cs.app.v05.inset.tsv"
+SOURCE_TSV_INCLUDE="Czech/tsv/v05_Peanuts/Czech_cs.app.v05.tsv"
 DO_NORMALIZE_BATCH
 
 ############
@@ -76,7 +76,7 @@ DO_NORMALIZE_BATCH
 ############
 LOGGER_FILENAME="_log_FromTsvIntake+BC_French_fr"
 ## -- (fr) process app --
-SOURCE_TSV_INCLUDE="French/tsv/v05_Peanuts/French_fr.app.v05.inset.tsv"
+SOURCE_TSV_INCLUDE="French/tsv/v05_Peanuts/French_fr.app.v05.tsv"
 DO_NORMALIZE_BATCH
 
 ############
@@ -84,7 +84,7 @@ DO_NORMALIZE_BATCH
 ############
 LOGGER_FILENAME="_log_FromTsvIntake+BC_German_de"
 ## -- (de) process app --
-SOURCE_TSV_INCLUDE="German/tsv/v05_Peanuts/German_de.app.v05.inset.tsv"
+SOURCE_TSV_INCLUDE="German/tsv/v05_Peanuts/German_de.app.v05.tsv"
 DO_NORMALIZE_BATCH
 
 ############
@@ -92,11 +92,11 @@ DO_NORMALIZE_BATCH
 ############
 LOGGER_FILENAME="_log_FromTsvIntake+BC_Hebrew_he"
 ## -- (he) process app --
-SOURCE_TSV_INCLUDE="Hebrew/tsv/v05_Peanuts/Hebrew_he.app.v05.inset.tsv"
+SOURCE_TSV_INCLUDE="Hebrew/tsv/v05_Peanuts/Hebrew_he.app.v05.tsv"
 DO_NORMALIZE_BATCH
 
 ## -- (iw) process app --
-SOURCE_TSV_INCLUDE="Hebrew/tsv/v05_Peanuts/Hebrew_iw.app.v05.inset.tsv"
+SOURCE_TSV_INCLUDE="Hebrew/tsv/v05_Peanuts/Hebrew_iw.app.v05.tsv"
 DO_NORMALIZE_BATCH
 
 #############
@@ -104,7 +104,7 @@ DO_NORMALIZE_BATCH
 #############
 LOGGER_FILENAME="_log_FromTsvIntake+BC_Italian_it"
 ## -- (it) process app --
-SOURCE_TSV_INCLUDE="Italian/tsv/v05_Peanuts/Italian_it.app.v05.inset.tsv"
+SOURCE_TSV_INCLUDE="Italian/tsv/v05_Peanuts/Italian_it.app.v05.tsv"
 DO_NORMALIZE_BATCH
 
 ############
@@ -112,7 +112,7 @@ DO_NORMALIZE_BATCH
 ############
 LOGGER_FILENAME="_log_FromTsvIntake+BC_Polish_pl"
 ## -- (pl) process app --
-SOURCE_TSV_INCLUDE="Polish/tsv/v05_Peanuts/Polish_pl.app.v05.inset.tsv"
+SOURCE_TSV_INCLUDE="Polish/tsv/v05_Peanuts/Polish_pl.app.v05.tsv"
 DO_NORMALIZE_BATCH
 
 #######################
@@ -120,7 +120,7 @@ DO_NORMALIZE_BATCH
 #######################
 LOGGER_FILENAME="_log_FromTsvIntake+BC_Portuguese_pt-rBR"
 ## -- (pt-rBR) process app --
-SOURCE_TSV_INCLUDE="Portuguese_Brazil/tsv/v05_Peanuts/Portuguese_pt-rBR.app.v05.inset.tsv"
+SOURCE_TSV_INCLUDE="Portuguese_Brazil/tsv/v05_Peanuts/Portuguese_pt-rBR.app.v05.tsv"
 DO_NORMALIZE_BATCH
 
 #########################
@@ -128,7 +128,7 @@ DO_NORMALIZE_BATCH
 #########################
 LOGGER_FILENAME="_log_FromTsvIntake+BC_Portuguese_pt-rPT"
 ## -- (pt-rPT) process app --
-SOURCE_TSV_INCLUDE="Portuguese_Portugal/tsv/v05_Peanuts/Portuguese_pt-rPT.app.v05.inset.tsv"
+SOURCE_TSV_INCLUDE="Portuguese_Portugal/tsv/v05_Peanuts/Portuguese_pt-rPT.app.v05.tsv"
 DO_NORMALIZE_BATCH
 
 ##############
@@ -136,7 +136,7 @@ DO_NORMALIZE_BATCH
 ##############
 LOGGER_FILENAME="_log_FromTsvIntake+BC_Romanian_ro"
 ## -- (ro) process app --
-SOURCE_TSV_INCLUDE="Romanian/tsv/v05_Peanuts/Romanian_ro.app.v05.inset.tsv"
+SOURCE_TSV_INCLUDE="Romanian/tsv/v05_Peanuts/Romanian_ro.app.v05.tsv"
 DO_NORMALIZE_BATCH
 
 #############
@@ -144,7 +144,7 @@ DO_NORMALIZE_BATCH
 #############
 LOGGER_FILENAME="_log_FromTsvIntake+BC_Russian_ru"
 ## -- (ru) process app --
-SOURCE_TSV_INCLUDE="Russian/tsv/v05_Peanuts/Russian_ru.app.v05.inset.tsv"
+SOURCE_TSV_INCLUDE="Russian/tsv/v05_Peanuts/Russian_ru.app.v05.tsv"
 DO_NORMALIZE_BATCH
 
 ############
@@ -152,7 +152,7 @@ DO_NORMALIZE_BATCH
 ############
 LOGGER_FILENAME="_log_FromTsvIntake+BC_Slovak_sk"
 ## -- (sk) process app --
-SOURCE_TSV_INCLUDE="Slovak/tsv/v05_Peanuts/Slovak_sk.app.v05.inset.tsv"
+SOURCE_TSV_INCLUDE="Slovak/tsv/v05_Peanuts/Slovak_sk.app.v05.tsv"
 DO_NORMALIZE_BATCH
 
 #############
@@ -164,7 +164,7 @@ URL_FRAGMENTS_TSV="Spanish/tsv/v05_Peanuts/Spanish_es.url_fragments.v05.tsv"
 URL_TOPICS_TSV="Spanish/tsv/v05_Peanuts/Spanish_es.url_topics.v05.tsv"
 
 ## -- (es) process app --
-SOURCE_TSV_INCLUDE="Spanish/tsv/v05_Peanuts/Spanish_es.app.v05.inset.tsv"
+SOURCE_TSV_INCLUDE="Spanish/tsv/v05_Peanuts/Spanish_es.app.v05.tsv"
 DO_NORMALIZE_BATCH
 
 # ======= ======= ======= ANDROID ONLY ======= ======= ======= 
@@ -178,7 +178,7 @@ URL_TOPICS_TSV="English_US/tsv/v05_Peanuts/English_US_en.url_topics.v05.tsv"
 ########################
 LOGGER_FILENAME="_log_FromTsvIntake+BC_Chinese_zh-Hans"
 ## -- (zh-Hans) process app --
-SOURCE_TSV_INCLUDE="Chinese_Simplified/tsv/v05_Peanuts/Chinese_Simplified_zh-Hans.app.v05.inset.tsv"
+SOURCE_TSV_INCLUDE="Chinese_Simplified/tsv/v05_Peanuts/Chinese_Simplified_zh-Hans.app.v05.tsv"
 DO_NORMALIZE_BATCH
 
 #########################
@@ -187,7 +187,7 @@ DO_NORMALIZE_BATCH
 ## NOTE: zh - mosly traditional in original Android translation
 LOGGER_FILENAME="_log_FromTsvIntake+BC_Chinese_zh-Hant"
 ## -- (zh-Hant) process app --
-SOURCE_TSV_INCLUDE="Chinese_Traditional/tsv/v05_Peanuts/Chinese_Traditional_zh-Hant.app.v05.inset.tsv"
+SOURCE_TSV_INCLUDE="Chinese_Traditional/tsv/v05_Peanuts/Chinese_Traditional_zh-Hant.app.v05.tsv"
 DO_NORMALIZE_BATCH
 
 ###########
@@ -195,7 +195,7 @@ DO_NORMALIZE_BATCH
 ###########
 LOGGER_FILENAME="_log_FromTsvIntake+BC_Greek_el"
 ## -- (el) process app --
-SOURCE_TSV_INCLUDE="Greek/tsv/v05_Peanuts/Greek_el.app.v05.inset.tsv"
+SOURCE_TSV_INCLUDE="Greek/tsv/v05_Peanuts/Greek_el.app.v05.tsv"
 DO_NORMALIZE_BATCH
 
 ######################################################
