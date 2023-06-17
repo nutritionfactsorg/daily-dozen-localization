@@ -60,21 +60,29 @@ public final class UrlCheck {
         let tweakJsonUrl = baseJsonUrl.appendingPathComponent("TweakDetailData.json")
 
         do {
+            print(":PROCESSING: \(dozeJsonUrl.lastPathComponent)")
             let decoder = JSONDecoder()
             let jsonDozeStr = try String(contentsOf: dozeJsonUrl, encoding: .utf8)
             let jsonDozeData = jsonDozeStr.data(using: .utf8)!
             let dozeInfo = try decoder.decode(DozeDetailInfo.self, from: jsonDozeData)
             checkDozeInfo(dozeInfo, languageCode: languageCode)
+        } catch {
+            print("doze \(error)")
+            fatalError()
+        }
 
+        do {
+            print(":PROCESSING: \(tweakJsonUrl.lastPathComponent)")
+            let decoder = JSONDecoder()
             let jsonTweakStr = try String(contentsOf: tweakJsonUrl, encoding: .utf8)
             let jsonTweakData = jsonTweakStr.data(using: .utf8)!
             let tweakInfo = try decoder.decode(TweakDetailInfo.self, from: jsonTweakData)
             checkTweakInfo(tweakInfo, languageCode: languageCode)
         } catch {
-            print("\(error)")
+            print("tweaks \(error)")
             fatalError()
         }
-                
+
         print(":COMPLETED: processJsonSource \(languageCode)")
     }
     

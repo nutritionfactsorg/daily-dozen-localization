@@ -8,6 +8,10 @@ print(":MAIN: Bundle.moduleDir=\(Bundle.resourceModuleDir)")
 
 let tool = UrlCheck()
 
+/// run() // languageCode: en, es
+///   processJsonSource(languageCode: String)
+///     en.lproj, es.lproj
+
 do {
     try tool.run()
     exit(EXIT_SUCCESS)
