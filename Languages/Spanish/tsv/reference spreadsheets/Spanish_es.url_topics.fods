@@ -2692,11 +2692,11 @@
       <text:p>topics/coriander</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>es/topics/cilantro-es-2</text:p>
+      <text:p>es/topics/cilantro-es</text:p>
      </table:table-cell>
      <table:table-cell/>
      <table:table-cell office:value-type="string" calcext:value-type="string">
-      <text:p>https://nutritionfacts.org/es/topics/cilantro-es-2</text:p>
+      <text:p>https://nutritionfacts.org/es/topics/cilantro-es</text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row table:style-name="ro1">
