@@ -83,7 +83,7 @@ let BatchSubdir = "batch_normal"
 //let BatchCommands = "batch_normal_intake_C_2.txt"      // *C*hangeSet02
 //let BatchCommands = "batch_normal_intake_C_3.txt"      // *C*hangeSet03
 //let BatchCommands = "batch_normal_intake+BC.txt"       // *B*aseline + *C*hangeSet
-//let BatchCommands = "batch_normal_intake+BC_1…4.txt"   // *B*aseline + *C*hangeSet
+let BatchCommands = "batch_normal_intake+BC_1…4.txt"   // *B*aseline + *C*hangeSet
 //let BatchCommands = "batch_normal_intake+I_5.txt"      // *I*nset
 //let BatchCommands = "batch_normal_intake+BC_5.txt"       // after inset
 

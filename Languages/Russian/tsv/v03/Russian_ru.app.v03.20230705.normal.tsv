@@ -195,13 +195,12 @@ food_info_types_nuts.3	dozeNuts.Variety.Text.3	Chia seeds	Семена чиа
 food_info_types_nuts.4	dozeNuts.Variety.Text.4	Hazelnuts	Фундук		
 food_info_types_nuts.5	dozeNuts.Variety.Text.5	Hemp seeds	Семена конопли		
 food_info_types_nuts.6	dozeNuts.Variety.Text.6	Macadamia nuts	Макадамия		
-food_info_types_nuts.7	dozeNuts.Variety.Text.7	Peanuts	Арахис		
-food_info_types_nuts.8	dozeNuts.Variety.Text.8	Pecans	Орех пекан		
-food_info_types_nuts.9	dozeNuts.Variety.Text.9	Pistachios	Фисташки		
-food_info_types_nuts.10	dozeNuts.Variety.Text.10	Pumpkin seeds	Семена тыквы		
-food_info_types_nuts.11	dozeNuts.Variety.Text.11	Sesame seeds	Кунжут		
-food_info_types_nuts.12	dozeNuts.Variety.Text.12	Sunflower seeds	Семечки подсолнечника		
-food_info_types_nuts.13	dozeNuts.Variety.Text.13	Walnuts	Грецкие орехи		
+food_info_types_nuts.7	dozeNuts.Variety.Text.7	Pecans	Орех пекан		
+food_info_types_nuts.8	dozeNuts.Variety.Text.8	Pistachios	Фисташки		
+food_info_types_nuts.9	dozeNuts.Variety.Text.9	Pumpkin seeds	Семена тыквы		
+food_info_types_nuts.10	dozeNuts.Variety.Text.10	Sesame seeds	Кунжут		
+food_info_types_nuts.11	dozeNuts.Variety.Text.11	Sunflower seeds	Семечки подсолнечника		
+food_info_types_nuts.12	dozeNuts.Variety.Text.12	Walnuts	Грецкие орехи		
 OK	dozeOtherInfo.confirm	OK	ОК	Daily Dozen supplement info alert: dismissal button text	
 	dozeOtherInfo.message	Vitamin B12 is essential for your health but does not count towards your daily servings.\n\nVitamin B12 is included in this app to provide you with an easy way to track your intake.	Витамин B12 крайне важен для вашего здоровья, но он не считается с другими ежедневными порциями.\n\nВитамин B12 добавлен в это приложение, чтобы облегчить отслеживание приема добавки.	Daily Dozen supplement info alert: message	
 	dozeOtherInfo.section	Supplements	Пищевые добавки	Daily Dozen daily entry section heading	
