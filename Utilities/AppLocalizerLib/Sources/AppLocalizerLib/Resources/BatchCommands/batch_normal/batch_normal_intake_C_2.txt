@@ -121,7 +121,7 @@ DO_NORMALIZE_BATCH
 #############
 LOGGER_FILENAME="_log_FromTsvIntakeC_2_Russian_ru"
 ## -- (ru) process app --
-SOURCE_TSV_INCLUDE="Russian/tsv/v02/Russian_ru.app.changeset02.interim.intake.tsv"
+SOURCE_TSV_INCLUDE="Russian/tsv/v02/Russian_ru.app.changeset02.20230705.intake.tsv"
 DO_NORMALIZE_BATCH
 
 ############
