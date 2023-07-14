@@ -36,17 +36,17 @@ _App Localizations & Store Distribution_
 | [Afrikaans][locale-af]   |   | [af][droid-af]   |   | `af` | <!-- [Namibia (NA)][apple-af-NA]@en,<br>[South Africa (ZA)][apple-af-ZA]@en --> |
 | [Arabic][locale-ar]      |   | [ar][droid-ar]   |   | `ar` | [Egypt (ar-EG)][apple-ar-EG],<br>[Saudi Arabia (ar-SA)][apple-ar-SA], ... |
 | [Bhojpuri][locale-bho]   |   | [bho][droid-bho] |   |  --  | _(not available)_ |
-| [Bulgarian][locale-bg]   | ✓ | [bg][droid-bg]   |   | `bg` | [Bulgarian (BG)][apple-bg]
+| [Bulgarian][locale-bg]   | ✓ | [bg][droid-bg]   | ✓ | `bg` | [Bulgarian (BG)][apple-bg]
 | [Catalan][locale-ca]   | ✓ | [ca][droid-ca]   | ✓ | `ca` | [Spain (ca-ES)][apple-es-ca]
 | [Chinese_HongKong][locale-zh-HK]      |   | [zh-HK][droid-zh-HK]     |   | `zh-HK`   | [Hong Kong (HK)][apple-zh-HK]
 | [Chinese_Simplified][locale-zh-Hans]  |   | [zh-Hans][droid-zh-Hans] |   | `zh-Hans` | [China (CN)][apple-zh-Hans],<br>[Singapore (SG)][apple-zh-Hans-SG]
 | [Chinese_Traditional][locale-zh-Hant] | ✓ | [zh-Hant][droid-zh-Hant] |   | `zh-Hant` | [Macau (MO)][apple-zh-Hant-MO],<br>[Tiawan (TW)][apple-zh-Hant]
-| [Czech][locale-cs]       | T | [cs][droid-cs] | ✓ | `cs` | [Czech Republic (CZ)][apple-cs]
+| [Czech][locale-cs]       | ✓ | [cs][droid-cs] | ✓ | `cs` | [Czech Republic (CZ)][apple-cs]
 | [Danish][locale-da]      |   | [da][droid-da] |   | `da` | [Denmark (DK)][apple-da]
 | [Dutch][locale-nl]       |   | [nl][droid-nl] |   | `nl` | [Netherlands (NL)][apple-nl]
 | [Estonian][locale-et]    |   | [et][droid-et] |   | `et` | [Estonia (EE)][apple-et]
 | [Finnish][locale-fi]     |   | [fi][droid-fi] |   | `fi` | [Finland (FI)][apple-fi]
-| [French][locale-fr]      | ✓ | [fr][droid-fr] |  | `fr` | [France (FR)][apple-fr] |
+| [French][locale-fr]      | ✓ | [fr][droid-fr] | ✓ | `fr` | [France (FR)][apple-fr] |
 | [French_Canada][locale-fr-CA] |   | [fr-CA][droid-fr-CA] |   | `fr-CA` | [Canada French (fr-CA)][apple-fr-ca]
 | [Georgian][locale-ka]     |   | [ka][droid-ka] |   | `ka` |
 | [German][locale-de]       | ✓ | [de][droid-de] | ✓ | `de` | [Germany (DE)][apple-de]
@@ -54,7 +54,7 @@ _App Localizations & Store Distribution_
 | [Hebrew][locale-he]       | ✓ | [he][droid-he] | ✓ | `he` | [Isreal (IL)][apple-he-il]
 | [Hindi][locale-hi]        |   | [hi][droid-hi] |   | `hi` | [India (IN)][apple-hi-in]
 | [Hungarian][locale-hu]    |   | [hu][droid-hu] |   | `hu` | [Hungary (HU)][apple-hu]
-| [Italian][locale-it]      | ✓ | [it][droid-it] |   | `it` | [Italy (IT)][apple-it]
+| [Italian][locale-it]      | ✓ | [it][droid-it] | ✓ | `it` | [Italy (IT)][apple-it]
 | [Japanese][locale-ja]     |   | [ja][droid-ja] |   | `ja` | [Japan (JP)][apple-ja-jp]
 | [Kannada][locale-kn]      |   | [kn][droid-kn] |   | `kn` |
 | [Korean][locale-ko]       |   | [ko][droid-ko] |   | `ko` | [Korea (KR)][apple-ko-kr]
@@ -65,11 +65,11 @@ _App Localizations & Store Distribution_
 | [Polish][locale-pl]       | ✓ | [pl][droid-pl] | ✓ | `pl` | [Poland (PL)][apple-pl]
 | [Portuguese_Brazil][locale-pt-BR]   | ✓ | [pt-BR][droid-pt-BR] | ✓ | `pt-BR` | [Brazil (BR)][apple-pt-BR]
 | [Portuguese_Portugal][locale-pt-PT] | ✓ | [pt-PT][droid-pt-PT] | ✓ | `pt-PT` | [Portugal (PT)][apple-pt-PT]
-| [Romanian][locale-ro]     | ✓ | [ro][droid-ro] | P | `ro` | [Romania (RO)][apple-ro]
+| [Romanian][locale-ro]     | ✓ | [ro][droid-ro] | ✓ | `ro` | [Romania (RO)][apple-ro]
 | [Russian][locale-ru]      | ✓ | [ru][droid-ru] | ✓ | `ru` | [Russia (RU)][apple-ru]
 | [Serbian_Cyrillic][locale-sr]   |   | [sr][droid-sr] |   | `sr` |
 | [Serbian_Latin][locale-sr-Latn] |   | [sr-Latn][droid-sr-Latn] |   | `sr-Latn` |
-| [Slovak][locale-sk]       |   | [sk][droid-sk] |   | `sk` | [Slovakia (SK)][apple-sk]
+| [Slovak][locale-sk]       | ✓ | [sk][droid-sk] | ✓ | `sk` | [Slovakia (SK)][apple-sk]
 | [Slovenian][locale-sl]    |   | [sl][droid-sl] |   | `sl` |
 | [Spanish][locale-es]      | ✓ | [es][droid-es] | ✓ | `es`, `mx` | [Mexico (es-MX)][apple-es-mx],<br>[Spain (es-ES)][apple-es-es]
 | [Swedish][locale-sv]      |   | [sv][droid-sv] |   | `sv` | [Sweden (SE)][apple-sv-se]
