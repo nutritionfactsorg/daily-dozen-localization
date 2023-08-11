@@ -36,7 +36,7 @@ _App Localizations & Store Distribution_
 | [Afrikaans][locale-af]   |   | [af][droid-af]   |   | `af` | <!-- [Namibia (NA)][apple-af-NA]@en,<br>[South Africa (ZA)][apple-af-ZA]@en --> |
 | [Arabic][locale-ar]      |   | [ar][droid-ar]   |   | `ar` | [Egypt (ar-EG)][apple-ar-EG],<br>[Saudi Arabia (ar-SA)][apple-ar-SA], ... |
 | [Bhojpuri][locale-bho]   |   | [bho][droid-bho] |   |  --  | _(not available)_ |
-| [Bulgarian][locale-bg]   | ✓ | [bg][droid-bg]   | ✓ | `bg` | [Bulgarian (BG)][apple-bg]
+| [Bulgarian][locale-bg]   | ✓ | [bg][droid-bg]   | ✓ | `bg` | [Bulgarian (BG)][apple-bg] uses English
 | [Catalan][locale-ca]   | ✓ | [ca][droid-ca]   | ✓ | `ca` | [Spain (ca-ES)][apple-es-ca]
 | [Chinese_HongKong][locale-zh-HK]      |   | [zh-HK][droid-zh-HK]     |   | `zh-HK`   | [Hong Kong (HK)][apple-zh-HK]
 | [Chinese_Simplified][locale-zh-Hans]  |   | [zh-Hans][droid-zh-Hans] |   | `zh-Hans` | [China (CN)][apple-zh-Hans],<br>[Singapore (SG)][apple-zh-Hans-SG]
@@ -360,8 +360,8 @@ _File Name Examples_
 * Apple Developer 
     * [Article: "Localizing Your App" ⇗](https://developer.apple.com/documentation/xcode/localizing_your_app)
     * App Store
-        * [App Store localizations ⇗](https://help.apple.com/app-store-connect/#/dev656087953) List of localizations supported in App Store. The following can be localized on the App Store page: app name, description, keywords, and screenshots.
-        * [App Store countries and regions ⇗](https://help.apple.com/app-store-connect/#/dev997f9cf7c) List of countries and regions where the app can be made available.
+        * [Localize App Store information ⇗](https://developer.apple.com/help/app-store-connect/manage-app-information/localize-app-store-information) List of localizations supported in App Store. The following can be localized on the App Store page: app name, description, keywords, and screenshots.
+        * [App Store countries and regions ⇗](https://developer.apple.com/help/app-store-connect/reference/app-store-localizations) List of countries and regions where the app can be made available.
         * [Required, localizable, and editable properties ⇗](https://help.apple.com/app-store-connect/#/devfc3066644)
     * [Localization ⇗](https://developer.apple.com/localization/)
 * Standard Codes
