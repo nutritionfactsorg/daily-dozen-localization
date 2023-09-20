@@ -53,10 +53,10 @@ DO_NORMALIZE_BATCH
 ### Note: v04 is a roll-up of Base+v01+v02+v03
 LOGGER_FILENAME="_log_FromTsvIntake+BC_French_fr"
 ## -- (fr) process app --
-SOURCE_TSV_INCLUDE="French/tsv/v04/French_fr.app.v04.20230426.intake.tsv"
+SOURCE_TSV_INCLUDE="French/tsv/v04/French_fr.app.v04.20230828.intake.tsv"
 DO_NORMALIZE_BATCH
 
 ### :WIP: pending french store translation
 ## -- (fr) process store --
-#SOURCE_TSV_INCLUDE="French/tsv/v04/French_fr.store.v04.???.intake.tsv"
-#DO_NORMALIZE_BATCH
+SOURCE_TSV_INCLUDE="French/tsv/v04/French_fr.store.v04.20230828.intake.tsv"
+DO_NORMALIZE_BATCH
