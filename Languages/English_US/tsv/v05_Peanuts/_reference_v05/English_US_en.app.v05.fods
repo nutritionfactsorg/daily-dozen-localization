@@ -3398,7 +3398,7 @@
       <text:p>dozeVegetablesCruciferous.Serving.metric.1</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
-      <text:p>78 g Brussels sprouts</text:p>
+      <text:p>80 g Brussels sprouts</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="2"/>
     </table:table-row>
@@ -3410,7 +3410,7 @@
       <text:p>dozeVegetablesCruciferous.Serving.metric.2</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
-      <text:p>14 g Broccoli sprouts</text:p>
+      <text:p>15 g Broccoli sprouts</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="2"/>
     </table:table-row>
