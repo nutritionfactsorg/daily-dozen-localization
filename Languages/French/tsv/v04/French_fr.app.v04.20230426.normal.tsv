@@ -4,7 +4,7 @@ key_droid	key_apple	base_value	lang_value	base_note	lang_note
 back_to_today	dateBackButtonTitle	Back to today	Retour à aujourd'hui	Date Button Title: ‘Back to today’	
 	dateButtonTitle.today	Today	Aujourd'hui	Date Button Title: ‘Today’	
 serving_sizes	doze_detail_section_sizes	Serving Sizes (Suggested)	Portions (à titre indicatif)	Doze Detail View subheading: ‘Serving Sizes’	
-types	doze_detail_section_types	Types	Exemples	Doze Detail View subheading: ‘Types’	AH: "Types" in French sounds unnatural, they feel like examples of the type of food we're looking at so thought this would make more sense in French
+types	doze_detail_section_types	Types	Exemples	Doze Detail View subheading: ‘Types’	AH: ‘Types’ in French sounds unnatural, they feel like examples of the type of food we're looking at so thought this would make more sense in French
 servings	doze_entry_header	Servings	Portions	Doze Entry View heading: ‘Servings’	
 beans	dozeBeans.heading	Beans	Légumineuses	heading for daily data entry item	
 food_info_serving_sizes_beans_imperial.0	dozeBeans.Serving.imperial.0	¼ cup hummus or bean dip	¼ tasse de houmous ou autre crème de haricots		
@@ -397,7 +397,7 @@ daily_dozen_only	setting_doze_only_btn	Daily Dozen\nOnly	Daily Dozen Uniquement	
 	setting_doze_only_choice	Daily Dozen Only	Daily Dozen Uniquement	Preference Settings View: selection button text	
 daily_dozen_and_tweaks	setting_doze_tweak_btn	Daily Dozen +\n21 Tweaks	Daily Dozen + 21 Astuces	First Launch Setting: button text	
 	setting_doze_tweak_choice	Daily Dozen + 21 Tweaks	Daily Dozen + 21 Astuces	Preference Settings View: selection button text	
-	setting_doze_tweak_footer	For health alone, use “Daily Dozen Only”. For health and weight loss use “Daily Dozen + 21 Tweaks”.	Pour des recommandations de santé uniquement, utilisez "Daily Dozen Uniquement". Pour des recommandations de santé et de perte de poids, utilisez “Daily Dozen + 21 Astuces”.	Preference Settings View: brief description text below Tweaks visibility control.	
+	setting_doze_tweak_footer	For health alone, use “Daily Dozen Only”. For health and weight loss use “Daily Dozen + 21 Tweaks”.	Pour des recommandations de santé uniquement, utilisez “Daily Dozen Uniquement”. Pour des recommandations de santé et de perte de poids, utilisez “Daily Dozen + 21 Astuces”.	Preference Settings View: brief description text below Tweaks visibility control.	
 for_health_alone	setting_health_alone_txt	For Health Alone	Recommandations de santé uniquement	First Launch Setting: brief description above ‘Daily Dozen Only’ button.	
 for_health_and_weight_loss	setting_health_weight_txt	For Health and Weight Loss	Recommandations de santé et de perte de poids	First Launch Setting: brief description above ‘Daily Dozen + 21 Tweaks’ button.	
 	setting_tweak_header	21 Tweaks Visibility	Option 21 Astuces	Preference Settings View: tweaks visibilty subsection heading	

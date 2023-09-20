@@ -4,7 +4,7 @@ key_droid	key_apple	base_value	lang_value	base_note	lang_note
 back_to_today	dateBackButtonTitle	Back to today	Retour à aujourd'hui	Date Button Title: ‘Back to today’	
 	dateButtonTitle.today	Today	Aujourd'hui	Date Button Title: ‘Today’	
 serving_sizes	doze_detail_section_sizes	Serving Sizes (Suggested)	Portions (à titre indicatif)	Doze Detail View subheading: ‘Serving Sizes’	
-types	doze_detail_section_types	Types	Exemples	Doze Detail View subheading: ‘Types’	AH: "Types" in French sounds unnatural, they feel like examples of the type of food we're looking at so thought this would make more sense in French
+types	doze_detail_section_types	Types	Exemples	Doze Detail View subheading: ‘Types’	AH: ‘Types’ in French sounds unnatural, they feel like examples of the type of food we're looking at so thought this would make more sense in French
 servings	doze_entry_header	Servings	Portions	Doze Entry View heading: ‘Servings’	
 beans	dozeBeans.heading	Beans	Légumineuses	heading for daily data entry item	
 food_info_serving_sizes_beans_imperial.0	dozeBeans.Serving.imperial.0	¼ cup hummus or bean dip	¼ tasse de houmous ou autre crème de haricots		
@@ -83,12 +83,12 @@ food_info_types_exercise.5	dozeExercise.Variety.Text.5	Fencing	Escrime
 food_info_types_exercise.6	dozeExercise.Variety.Text.6	Hiking	Randonnée		
 food_info_types_exercise.7	dozeExercise.Variety.Text.7	Housework	Travaux ménagers		
 food_info_types_exercise.8	dozeExercise.Variety.Text.8	Ice-skating	Patinage sur glace		
-food_info_types_exercise.9	dozeExercise.Variety.Text.9	Inline skating	Patin à roulettes		
+food_info_types_exercise.9	dozeExercise.Variety.Text.9	Inline skating	Patin à roulettes		AH: I swapped the translations around between ‘Roller’ and ‘Roller’ to stay as much as possible in an alphabetical order. As there are no links or images to match I don't think it poses any problem
 food_info_types_exercise.10	dozeExercise.Variety.Text.10	Juggling	Jonglage		
 food_info_types_exercise.11	dozeExercise.Variety.Text.11	Jumping on a trampoline	Trampoline		
-food_info_types_exercise.12	dozeExercise.Variety.Text.12	Paddle boating	Pédalo		
+food_info_types_exercise.12	dozeExercise.Variety.Text.12	Paddle boating	Pédalo		AH: A paddle boat is a pédalo (in the UK at least, that is what they call it, not a pedal boat). Paddle in French is Stand Up Paddle, so a different type of exercise. As this is just a list of types of exercises, I'm not sure it is that important. Canoeing is mentioned above as a form of paddling so might as well keep the pédalo here
 food_info_types_exercise.13	dozeExercise.Variety.Text.13	Playing frisbee	Frisbee		
-food_info_types_exercise.14	dozeExercise.Variety.Text.14	Roller-skating	Roller		
+food_info_types_exercise.14	dozeExercise.Variety.Text.14	Roller-skating	Roller		AH: see comment above for Roller/Parin à roulettes
 food_info_types_exercise.15	dozeExercise.Variety.Text.15	Shooting baskets	Tir au panier		
 food_info_types_exercise.16	dozeExercise.Variety.Text.16	Shoveling light snow	Déblayer la neige		
 food_info_types_exercise.17	dozeExercise.Variety.Text.17	Skateboarding	Skateboard		
@@ -114,7 +114,7 @@ food_info_types_exercise.36	dozeExercise.Variety.Text.36	Jumping jacks	Jumping j
 food_info_types_exercise.37	dozeExercise.Variety.Text.37	Jumping rope	Corde à sauter		
 food_info_types_exercise.38	dozeExercise.Variety.Text.38	Lacrosse	Crosse		
 food_info_types_exercise.39	dozeExercise.Variety.Text.39	Push-ups	Pompes		
-food_info_types_exercise.40	dozeExercise.Variety.Text.40	Pull-ups	Abdos		
+food_info_types_exercise.40	dozeExercise.Variety.Text.40	Pull-ups	Tractions		AH: Indeed, confused it with sit-ups
 food_info_types_exercise.41	dozeExercise.Variety.Text.41	Racquetball	Racquetball		
 food_info_types_exercise.42	dozeExercise.Variety.Text.42	Rock climbing	Escalade		
 food_info_types_exercise.43	dozeExercise.Variety.Text.43	Rugby	Rugby		
@@ -153,7 +153,7 @@ food_info_types_other_fruits.9	dozeFruitsOther.Variety.Text.9	Honeydew	Melon jau
 food_info_types_other_fruits.10	dozeFruitsOther.Variety.Text.10	Kiwifruit	Kiwis		
 food_info_types_other_fruits.11	dozeFruitsOther.Variety.Text.11	Lemons	Citrons		
 food_info_types_other_fruits.12	dozeFruitsOther.Variety.Text.12	Limes	Citrons verts		
-food_info_types_other_fruits.13	dozeFruitsOther.Variety.Text.13	Lychees	Lychees		
+food_info_types_other_fruits.13	dozeFruitsOther.Variety.Text.13	Lychees	Litchi		AH: Agreed, this was a mistake on my part
 food_info_types_other_fruits.14	dozeFruitsOther.Variety.Text.14	Mangos	Mangues		
 food_info_types_other_fruits.15	dozeFruitsOther.Variety.Text.15	Nectarines	Nectarines		
 food_info_types_other_fruits.16	dozeFruitsOther.Variety.Text.16	Oranges	Oranges		
@@ -163,7 +163,7 @@ food_info_types_other_fruits.19	dozeFruitsOther.Variety.Text.19	Peaches	Pêches
 food_info_types_other_fruits.20	dozeFruitsOther.Variety.Text.20	Pears	Poires		
 food_info_types_other_fruits.21	dozeFruitsOther.Variety.Text.21	Pineapple	Ananas		
 food_info_types_other_fruits.22	dozeFruitsOther.Variety.Text.22	Plums (especially black plums)	Prunes (en particulier les prunes noires)		
-food_info_types_other_fruits.23	dozeFruitsOther.Variety.Text.23	Pluots	Brugnons		
+food_info_types_other_fruits.23	dozeFruitsOther.Variety.Text.23	Pluots	Brugnons		AH: I have never seen any Pluots in a French shop but there are Brugnons everywhere so seems like a better option
 food_info_types_other_fruits.24	dozeFruitsOther.Variety.Text.24	Pomegranates	Grenades		
 food_info_types_other_fruits.25	dozeFruitsOther.Variety.Text.25	Prunes	Pruneaux		
 food_info_types_other_fruits.26	dozeFruitsOther.Variety.Text.26	Tangerines	Mandarines		
@@ -175,7 +175,7 @@ food_info_serving_sizes_greens_metric.0	dozeGreens.Serving.metric.0	60 g raw	60 
 food_info_serving_sizes_greens_metric.1	dozeGreens.Serving.metric.1	90 g cooked	90 g cuits		
 food_info_types_greens.0	dozeGreens.Variety.Text.0	Arugula	Roquette		
 food_info_types_greens.1	dozeGreens.Variety.Text.1	Beet greens	Fanes de betteraves		
-food_info_types_greens.2	dozeGreens.Variety.Text.2	Collard greens	Chou vert		
+food_info_types_greens.2	dozeGreens.Variety.Text.2	Collard greens	Chou vert		AH: Choux cavaliers is very specific and I did translate it to that in the Crucuferous section but preferred to keep it more general here with Chou vert
 food_info_types_greens.3	dozeGreens.Variety.Text.3	Kale (black, green, and red)	Chou kale (noir, vert et rouge)		
 food_info_types_greens.4	dozeGreens.Variety.Text.4	Mesclun mix (assorted young salad greens)	Mesclun (mélange de pousses de salade)		
 food_info_types_greens.5	dozeGreens.Variety.Text.5	Mustard greens	Feuilles de moutarde		
@@ -183,7 +183,7 @@ food_info_types_greens.6	dozeGreens.Variety.Text.6	Sorrel	Oseille
 food_info_types_greens.7	dozeGreens.Variety.Text.7	Spinach	Épinards		
 food_info_types_greens.8	dozeGreens.Variety.Text.8	Swiss chard	Blettes		
 food_info_types_greens.9	dozeGreens.Variety.Text.9	Turnip greens	Fanes de navets		
-nuts	dozeNuts.heading	Nuts and Seeds	Noix	heading for daily data entry item	
+nuts	dozeNuts.heading	Nuts and Seeds	Noix et graines	heading for daily data entry item	AH: Happy to change this
 food_info_serving_sizes_nuts_imperial.0	dozeNuts.Serving.imperial.0	¼ cup nuts or seeds	¼ tasse de noix ou graines		
 food_info_serving_sizes_nuts_imperial.1	dozeNuts.Serving.imperial.1	2 tablespoons nut or seed butter	2 cuillères à soupe de beurre de noix ou graines		
 food_info_serving_sizes_nuts_metric.0	dozeNuts.Serving.metric.0	30 g nuts or seeds	30 g de noix ou graines		
@@ -217,10 +217,10 @@ food_info_types_spices.2	dozeSpices.Variety.Text.2	Basil	Basilic
 food_info_types_spices.3	dozeSpices.Variety.Text.3	Bay leaves	Laurier		
 food_info_types_spices.4	dozeSpices.Variety.Text.4	Cardamom	Cardamome		
 food_info_types_spices.5	dozeSpices.Variety.Text.5	Chili powder	Poudre de piment		
-food_info_types_spices.6	dozeSpices.Variety.Text.6	Cilantro	Coriandre fraîche		
+food_info_types_spices.6	dozeSpices.Variety.Text.6	Cilantro	Coriandre (feuilles)		AH: Coriandre can easily be understood as ground coriander in France rather than cilantro, so will use Feuilles to avoid the confusion Fraîche could bring
 food_info_types_spices.7	dozeSpices.Variety.Text.7	Cinnamon	Cannelle		
 food_info_types_spices.8	dozeSpices.Variety.Text.8	Cloves	Clous de girofle		
-food_info_types_spices.9	dozeSpices.Variety.Text.9	Coriander	Coriandre		
+food_info_types_spices.9	dozeSpices.Variety.Text.9	Coriander	Coriandre (graines)		AH: Changed to avoid confusion and kept it consistent with the new translation for Cilantro
 food_info_types_spices.10	dozeSpices.Variety.Text.10	Cumin	Cumin		
 food_info_types_spices.11	dozeSpices.Variety.Text.11	Curry powder	Curry en poudre		
 food_info_types_spices.12	dozeSpices.Variety.Text.12	Dill	Aneth		
@@ -233,7 +233,7 @@ food_info_types_spices.18	dozeSpices.Variety.Text.18	Marjoram	Marjolaine
 food_info_types_spices.19	dozeSpices.Variety.Text.19	Mustard powder	Moutarde en poudre		
 food_info_types_spices.20	dozeSpices.Variety.Text.20	Nutmeg	Noix de muscade		
 food_info_types_spices.21	dozeSpices.Variety.Text.21	Oregano	Origan		
-food_info_types_spices.22	dozeSpices.Variety.Text.22	Smoked paprika	Paprika		
+food_info_types_spices.22	dozeSpices.Variety.Text.22	Smoked paprika	Paprika		AH: Smoked paprika is very specific so have taken the option of staying more general as paprika isn't mentioned otherwise
 food_info_types_spices.23	dozeSpices.Variety.Text.23	Parsley	Persil		
 food_info_types_spices.24	dozeSpices.Variety.Text.24	Pepper	Poivre		
 food_info_types_spices.25	dozeSpices.Variety.Text.25	Peppermint	Menthe poivrée		
@@ -285,10 +285,10 @@ food_info_types_other_vegetables.6	dozeVegetablesOther.Variety.Text.6	Garlic	Ail
 food_info_types_other_vegetables.7	dozeVegetablesOther.Variety.Text.7	Mushrooms (button, oyster, portobello, and shiitake)	Champignons (de Paris, pleurote, portobello, shiitake)		
 food_info_types_other_vegetables.8	dozeVegetablesOther.Variety.Text.8	Okra	Gombo		
 food_info_types_other_vegetables.9	dozeVegetablesOther.Variety.Text.9	Onions	Oignons		
-food_info_types_other_vegetables.10	dozeVegetablesOther.Variety.Text.10	Purple potatoes	Pommes de terre		
+food_info_types_other_vegetables.10	dozeVegetablesOther.Variety.Text.10	Purple potatoes	Pommes de terre		AH: link is to ‘Potatoes’ so don't think it needs to be that specific and not mention potatoes anywhere
 food_info_types_other_vegetables.11	dozeVegetablesOther.Variety.Text.11	Pumpkin	Citrouille		
 food_info_types_other_vegetables.12	dozeVegetablesOther.Variety.Text.12	Sea vegetables (arame, dulse, and nori)	Algues (brunes, rouges, vertes)		
-food_info_types_other_vegetables.13	dozeVegetablesOther.Variety.Text.13	Snap peas	Petits pois		
+food_info_types_other_vegetables.13	dozeVegetablesOther.Variety.Text.13	Snap peas	Pois gourmand		AH: Petits pois and Mangetout have both been used in the Beans section so changed to Pois gourmand here
 food_info_types_other_vegetables.14	dozeVegetablesOther.Variety.Text.14	Squash (delicata, summer, and spaghetti squash varieties)	Courges		
 food_info_types_other_vegetables.15	dozeVegetablesOther.Variety.Text.15	Sweet potatoes/yams	Patates douces/Ignames		
 food_info_types_other_vegetables.16	dozeVegetablesOther.Variety.Text.16	Tomatoes	Tomates		
@@ -320,7 +320,7 @@ faq_age_response.0	faq_age_response.0	Children, adolescents, and teenagers have 
 faq_age_response.1	faq_age_response.1	The Daily Dozen was designed as a guide to help people include some of the healthiest foods into their daily routine. While the same framework can be used for most people throughout the lifecycle, the amount of food one needs to eat will vary based on a number of factors like age and activity level. Since we can’t provide specific nutrition or medical advice for your growing child, parents should use this guide as they see best for their child’s needs and/or consult with a registered dietitian or other healthcare provider to help determine what is best for their individual needs.	Le but de Daily Dozen est d’aiguiller les gens vers une alimentation journalière saine. Même si ces recommandations conviendront à la plupart des gens, les quantités de nourriture nécessaires à une personne en particulier peuvent varier en fonction de divers critères tels que l’âge ou le niveau d’activité physique. Nous ne pouvons pas fournir de conseils nutritionnels ou médicaux spécifiques à chaque enfant et conseillons donc aux parents d’utiliser ces recommandations comme un guide à adapter au mieux aux besoins de leur enfant et/ou de consulter un nutritionniste ou professionnel de santé afin d’établir les besoins spécifiques de leur enfant.		
 faq_calories_question	faq_calories_question	How many calories are in the Daily Dozen?	Combien de calories représentent les quantités Daily Dozen?		
 faq_calories_response.0	faq_calories_response.0	The Daily Dozen averages about 1,200 calories, but given the wide array of food choices in each category, it can range anywhere from 800-1800. Consider the Other Vegetables category: a cup of bell peppers has a much lower caloric density than a cup of cooked sweet potatoes, therefore the caloric range will depend on your specific food choices. That’s the great thing about the Daily Dozen Checklist—it’s not a one size fits all approach, and can be adapted to your needs.	Il y a environ 1 200 calories en tout dans les recommandations Daily Dozen mais, vu la multitude d’options dans chaque catégorie d’aliment, le total peut varier de 800 à 1 800 calories. Si l’on prend, par exemple, la catégorie des “Autres légumes”, une portion de poivrons contient beaucoup moins de calories qu’une portion de patates douces ; la quantité totale de calories dépend donc de vos choix d’aliments dans chaque catégorie. C’est l’avantage de la liste Daily Dozen : ce n’est pas une liste gravée dans la pierre et elle peut parfaitement être adaptée à chaque besoin spécifique.		
-faq_calories_response.1	faq_calories_response.1	If your goal is weight loss, you can find more information in “How Not to Diet” and the accompanying Twenty-One Tweaks. In “How Not to Diet”, I noted: “A systematic review of successful weight-loss strategies concluded that given the metabolic slowing and increased appetite that accompanies weight loss, to achieve significant weight loss, calorie counts may need to drop as low as 1,200 calories a day for women and 1,500 calories a day for men.”	Si votre but est de perdre du poids, vous pourrez trouver plus d’informations dans mon livre “Comment ne pas faire de régime” et les 21 astuces incluses. Comme je l’ai écrit dans ce livre : “Un examen systématique des stratégies d’amincissement efficaces a conclu que, compte tenu du ralentissement du métabolisme et de l’augmentation de l’appétit qui accompagnent tout régime, pour parvenir à une perte de poids significative, le nombre de calories doit être relativement bas, soit 1 200 calories par jour pour les femmes et 1 500 pour les hommes.”		
+faq_calories_response.1	faq_calories_response.1	If your goal is weight loss, you can find more information in “How Not to Diet” and the accompanying Twenty-One Tweaks. In “How Not to Diet”, I noted: “A systematic review of successful weight-loss strategies concluded that given the metabolic slowing and increased appetite that accompanies weight loss, to achieve significant weight loss, calorie counts may need to drop as low as 1,200 calories a day for women and 1,500 calories a day for men.”	Si votre but est de perdre du poids, vous pourrez trouver plus d’informations dans mon livre “Comment ne pas faire de régime” et les 21 astuces incluses. Comme je l’ai écrit dans ce livre : “Un examen systématique des stratégies d’amincissement efficaces a conclu que, compte tenu du ralentissement du métabolisme et de l’augmentation de l’appétit qui accompagnent tout régime, pour parvenir à une perte de poids significative, le nombre de calories doit être relativement bas, soit 1 200 calories par jour pour les femmes et 1 500 pour les hommes.”		AH: This is a direct quote from the book in French, hence the quotation marks
 faq_calories_response.2	faq_calories_response.2	On the other hand, if your goal is weight gain, then you may want to focus on adding in more calorie-dense foods, such as sweet potatoes, avocados, nuts, and soy products.	Par contre, si votre de but est de prendre du poids, il faudra alors vous orienter vers des aliments riches en calories tels que les patates douces, avocats, noix ou produits à base de soja.		
 faq_mother_question	faq_mother_question	Can I do this while pregnant or breastfeeding?	Est-ce que je peux suivre Daily Dozen si je suis enceinte ou si j’allaite ?		
 faq_mother_response	faq_mother_response	People who are pregnant or breastfeeding have different caloric and nutritional needs than people who are not. As a reminder, the Daily Dozen is not a meal plan and should not be the only foods consumed within a day. People who are pregnant or breastfeeding should consult with their health care practitioner or a registered dietician for assistance with meeting their specific caloric requirements and nutritional needs.	Lorsque vous êtes enceinte ou allaitez, vos besoins caloriques et nutritionnels changent. Nous tenons à rappeler que Daily Dozen n’est pas un plan alimentaire et ne devrait pas être votre unique source d’alimentation quotidienne. Les personnes enceintes ou en phase d’allaitement devraient consulter un professionnel de santé ou un nutritionniste afin de s’assurer de répondre à leur besoins caloriques et nutritionnels spécifiques.		
@@ -360,7 +360,7 @@ app_name	info_app_about_app_name	Daily Dozen	Daily Dozen	Info About View: Applic
 about_this_app	info_app_about_heading	About this app	À propos de cette app	Info About View	
 	info_app_about_oss_credits	The following open source libraries are used: RealmSwift, Charts, FSCalendar, SimpleAnimation, ActiveLabel.	Librairies open source utilisées : RealmSwift, Charts, FSCalendar, SimpleAnimation, ActiveLabel.	Info About View: Open Source Credits	
 activity_welcome_text	info_app_about_overview	Use this app on a daily basis to keep track of the foods and advice I recommend for optimal health and longevity in my books How Not to Die and How Not to Diet.	Utilisez cette app tous les jours pour suivre les aliments que je recommande pour une santé et une longévité optimales dans mes livres 'Comment ne pas mourir' et 'Comment ne pas faire de régime.'	Info About View: Overview Text	
-about_translators	info_app_about_translators	Special thanks to our volunteer translators: Petar Enchev (bg), Tsveti Enchev (bg), Ricard Soler Roger (ca), Luděk Bouška (cs,sk), Lenka Lukacová (cs), Anke Schliessmann (de), Ángela Graña (es), Audray Harkins (fr), Doron Barak (he), Ruth Levy (he), Annalisa Guerrini-Körner (it), Ilaria Zanini (it), Hanna Gurzeda (pl), Joanna Klopotek (pl), Tania Bassi (pt-BR), João Madureira (pt-PT), Cristina Lauby (ro), Evgeniya Lyakh (ru), Katarína Mocáková (sk).	Remerciements particuliers à nos traducteurs bénévoles : Petar Enchev (bg), Tsveti Enchev (bg), Ricard Soler Roger (ca), Luděk Bouška (cs,sk), Lenka Lukacová (cs), Anke Schliessmann (de), Ángela Graña (es), Audray Harkins (fr), Doron Barak (he), Ruth Levy (he), Annalisa Guerrini-Körner (it), Ilaria Zanini (it), Hanna Gurzeda (pl), Joanna Klopotek (pl), Tania Bassi (pt-BR), João Madureira (pt-PT), Cristina Lauby (ro), Evgeniya Lyakh (ru), Katarína Mocáková (sk).	Info About View: Contributing Translators List (language code)  See https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes	
+about_translators	info_app_about_translators	Special thanks to our volunteer translators: Petar Enchev (bg), Tsveti Enchev (bg), Ricard Soler Roger (ca), Luděk Bouška (cs,sk), Lenka Lukacová (cs), Anke Schliessmann (de), Ángela Graña (es), Audray Harkins (fr), Doron Barak (he), Ruth Levy (he), Annalisa Guerrini-Körner (it), Ilaria Zanini (it), Hanna Gurzeda (pl), Joanna Klopotek (pl), Tania Bassi (pt-BR), João Madureira (pt-PT), Cristina Lauby (ro), Evgeniya Lyakh (ru), Katarína Mocáková (sk).	Remerciements particuliers à nos traducteurs bénévoles: Petar Enchev (bg), Tsveti Enchev (bg), Ricard Soler Roger (ca), Luděk Bouška (cs,sk), Lenka Lukacová (cs), Anke Schliessmann (de), Ángela Graña (es), Audray Harkins (fr), Doron Barak (he), Ruth Levy (he), Annalisa Guerrini-Körner (it), Ilaria Zanini (it), Hanna Gurzeda (pl), Joanna Klopotek (pl), Tania Bassi (pt-BR), João Madureira (pt-PT), Cristina Lauby (ro), Evgeniya Lyakh (ru), Katarína Mocáková (sk).	Info About View: Contributing Translators List (language code)  See https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes	
 	info_app_about_version	version 3.4.9	version 3.4.9	Info About View: Application release version	
 welcome_to_my_daily_dozen	info_app_about_welcome	Welcome to my Daily Dozen!	Bienvenue dans Daily Dozen!	Info About View: Welcome	
 	info_book_how_not_to_die	Book: How Not to Die	Livre : Comment ne pas mourir	Info Menu: book title	
@@ -398,7 +398,7 @@ daily_dozen_only	setting_doze_only_btn	Daily Dozen\nOnly	Daily Dozen Uniquement	
 	setting_doze_only_choice	Daily Dozen Only	Daily Dozen Uniquement	Preference Settings View: selection button text	
 daily_dozen_and_tweaks	setting_doze_tweak_btn	Daily Dozen +\n21 Tweaks	Daily Dozen + 21 Astuces	First Launch Setting: button text	
 	setting_doze_tweak_choice	Daily Dozen + 21 Tweaks	Daily Dozen + 21 Astuces	Preference Settings View: selection button text	
-	setting_doze_tweak_footer	For health alone, use “Daily Dozen Only”. For health and weight loss use “Daily Dozen + 21 Tweaks”.	Pour des recommandations de santé uniquement, utilisez "Daily Dozen Uniquement". Pour des recommandations de santé et de perte de poids, utilisez “Daily Dozen + 21 Astuces”.	Preference Settings View: brief description text below Tweaks visibility control.	
+	setting_doze_tweak_footer	For health alone, use “Daily Dozen Only”. For health and weight loss use “Daily Dozen + 21 Tweaks”.	Pour des recommandations de santé uniquement, utilisez “Daily Dozen Uniquement”. Pour des recommandations de santé et de perte de poids, utilisez “Daily Dozen + 21 Astuces”.	Preference Settings View: brief description text below Tweaks visibility control.	
 for_health_alone	setting_health_alone_txt	For Health Alone	Recommandations de santé uniquement	First Launch Setting: brief description above ‘Daily Dozen Only’ button.	
 for_health_and_weight_loss	setting_health_weight_txt	For Health and Weight Loss	Recommandations de santé et de perte de poids	First Launch Setting: brief description above ‘Daily Dozen + 21 Tweaks’ button.	
 	setting_tweak_header	21 Tweaks Visibility	Option 21 Astuces	Preference Settings View: tweaks visibilty subsection heading	
@@ -508,7 +508,7 @@ channel_reminders_name		Reminders	Rappels
 daily_reminder_settings		Daily Reminder Settings	Paramètres du rappel quotidien	a reminder that is triggered every day	
 daily_reminder_title		Daily Dozen Reminder	Rappel Daily Dozen		
 daily_servings_history		Daily Servings History	Historique des portions par jour		
-daily_tweaks_history		Daily Tweaks History	Historique des modifications par jour		
+daily_tweaks_history		Daily Tweaks History	Historique des astuces par jour		AH: Agreed, changed
 debug		Debug	Déboguer		
 debug_clear_data		Clear all data	Effacer toutes les données		
 debug_clear_data_message		This will delete all entered Servings. Do you wish to continue?	Cela supprimera toutes les portions saisies. Souhaitez-vous continuer ?		
@@ -539,7 +539,7 @@ no_servings_recorded		You have not recorded any servings yet!	Vous n'avez pas en
 no_weights_recorded		You have not recorded any weights yet!	Vous n'avez pas encore enregistré de poids !		
 not_now		Not Now	Pas maintenant		
 out_of		out of	sur	Part of ‘0 out of 24’	
-permission_needed_to_write_storage		Can’t backup without permission to write to storage	Impossible de sauvegarder sans accès au stockage		
+permission_needed_to_write_storage		Can’t backup without permission to write to storage	Impossible de sauvegarder sans autorisation d'accès au stockage		AH: seems like a slightly heavy wording but why not
 rate_now		Give Feedback	Envoyer un commentaire		
 restore_confirm_message		Any existing data will be deleted before restoring from backup. Do you wish to continue?	Toutes les données existantes seront supprimées avant la restauration de la sauvegarde. Souhaitez-vous continuer ?		
 restore_confirm_title		Restore Backup	Restaurer la sauvegarde		
