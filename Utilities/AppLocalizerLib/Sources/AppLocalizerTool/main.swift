@@ -74,6 +74,7 @@ var productsDir: URL {
 // -- Compare/Propagate intake/main result with app files (localization, android, ios)
 let BatchSubdir = "batch_normal"
 //let BatchCommands = "batch_normal_intake__bg.txt"
+let BatchCommands = "batch_normal_intake__de_v05.txt"
 //let BatchCommands = "batch_normal_intake__it_v03.txt"
 //let BatchCommands = "batch_normal_intake__fr_v04.txt"
 //let BatchCommands = "batch_normal_intake__ro.txt"
@@ -85,7 +86,7 @@ let BatchSubdir = "batch_normal"
 //let BatchCommands = "batch_normal_intake+BC.txt"       // *B*aseline + *C*hangeSet
 //let BatchCommands = "batch_normal_intake+BC_1…4.txt"   // *B*aseline + *C*hangeSet
 //let BatchCommands = "batch_normal_intake+I_5.txt"      // *I*nset
-let BatchCommands = "batch_normal_intake+BC_5.txt"       // after inset
+//let BatchCommands = "batch_normal_intake+BC_5.txt"       // after inset
 
 // (*) TSV residual updates (files without submitted translations)
 //let BatchSubdir = "batch_normal"
