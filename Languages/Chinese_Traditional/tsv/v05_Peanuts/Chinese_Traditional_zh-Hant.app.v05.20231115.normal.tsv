@@ -1,0 +1,561 @@
+key_droid	key_apple	base_value	lang_value	base_note	lang_note
+	CFBundleDisplayName	DailyDozen	每日12清單	User-visible application name. Visible under icon. Used by Siri.	
+	CFBundleName	DailyDozen	每日12清單	User-visible application short name (15 Characters max)	
+back_to_today	dateBackButtonTitle	Back to today	回到今天	Date Button Title: ‘Back to today’	
+	dateButtonTitle.today	Today	今天	Date Button Title: ‘Today’	
+serving_sizes	doze_detail_section_sizes	Serving Sizes (Suggested)	份量（建議）	Doze Detail View subheading: ‘Serving Sizes’	Serving Size (recommended)
+types	doze_detail_section_types	Types	種類	Doze Detail View subheading: ‘Types’	
+servings	doze_entry_header	Servings	份量	Doze Entry View heading: ‘Servings’	
+beans	dozeBeans.heading	Beans	豆類	heading for daily data entry item	
+food_info_serving_sizes_beans_imperial.0	dozeBeans.Serving.imperial.0	¼ cup hummus or bean dip	¼杯鷹嘴豆泥		1/4 cup hummus
+food_info_serving_sizes_beans_imperial.1	dozeBeans.Serving.imperial.1	½ cup cooked beans, split peas, or lentils	½杯煮熟的豆子、豌豆或扁豆		½ cup cooked beans, peas, or lentils
+food_info_serving_sizes_beans_imperial.2	dozeBeans.Serving.imperial.2	½ cup tofu or tempeh	½杯豆腐或天貝		½ cup tofu or tempeh
+food_info_serving_sizes_beans_imperial.3	dozeBeans.Serving.imperial.3	1 cup fresh peas or snow peas	1杯新鮮豌豆或荷蘭豆		1 cup fresh peas or snow peas
+food_info_serving_sizes_beans_imperial.4	dozeBeans.Serving.imperial.4	1 cup fresh sprouted beans (lentils, mung beans)	1杯新鮮萌芽豆（扁豆、綠豆）		1 cup fresh sprouted beans (lentils, mung beans)
+food_info_serving_sizes_beans_metric.0	dozeBeans.Serving.metric.0	60 g hummus or bean dip	60克鷹嘴豆或其他豆泥		60 g hummus
+food_info_serving_sizes_beans_metric.1	dozeBeans.Serving.metric.1	90 g cooked beans, split peas, or lentils	90克煮熟的豆子、豌豆或扁豆		90g cooked beans, peas or lentils
+food_info_serving_sizes_beans_metric.2	dozeBeans.Serving.metric.2	100 g tofu or tempeh	100克豆腐或豆豉		100 g tofu or tempeh
+food_info_serving_sizes_beans_metric.3	dozeBeans.Serving.metric.3	130 g fresh peas or snow peas	130克新鮮豌豆或荷蘭豆		130 g fresh peas or snow peas
+food_info_serving_sizes_beans_metric.4	dozeBeans.Serving.metric.4	100 g fresh sprouted beans (lentils, mung beans)	100克新鮮萌芽豆（扁豆、綠豆）		100 g fresh sprouted beans (lentils, mung beans)
+food_info_types_beans.0	dozeBeans.Variety.Text.0	Black beans	黑豆		
+food_info_types_beans.1	dozeBeans.Variety.Text.1	Black-eyed peas	黑眼豆		
+food_info_types_beans.2	dozeBeans.Variety.Text.2	Butter beans	利馬豆		
+food_info_types_beans.3	dozeBeans.Variety.Text.3	Cannellini beans	白腰豆		
+food_info_types_beans.4	dozeBeans.Variety.Text.4	Chickpeas/Garbanzo Beans	鷹嘴豆		
+food_info_types_beans.5	dozeBeans.Variety.Text.5	Edamame	毛豆		
+food_info_types_beans.6	dozeBeans.Variety.Text.6	English peas	麥豌豆		
+food_info_types_beans.7	dozeBeans.Variety.Text.7	Great northern beans	北美腰豆		
+food_info_types_beans.8	dozeBeans.Variety.Text.8	Kidney beans	菜豆		
+food_info_types_beans.9	dozeBeans.Variety.Text.9	Lentils (beluga, french, and red varieties)	扁豆（包括黑扁豆、法國扁豆與紅扁豆等品種）		
+food_info_types_beans.10	dozeBeans.Variety.Text.10	Miso	味噌		
+food_info_types_beans.11	dozeBeans.Variety.Text.11	Navy beans	白豆		
+food_info_types_beans.12	dozeBeans.Variety.Text.12	Pinto beans	花豆		
+food_info_types_beans.13	dozeBeans.Variety.Text.13	Small red beans	小紅豆		
+food_info_types_beans.14	dozeBeans.Variety.Text.14	Split peas (yellow or green)	豌豆（黃豌豆或綠豌豆）		
+food_info_types_beans.15	dozeBeans.Variety.Text.15	Tempeh	天貝		
+berries	dozeBerries.heading	Berries	莓果類	heading for daily data entry item	
+food_info_serving_sizes_berries_imperial.0	dozeBerries.Serving.imperial.0	½ cup fresh or frozen	½杯新鮮或冷凍莓果		
+food_info_serving_sizes_berries_imperial.1	dozeBerries.Serving.imperial.1	¼ cup dried	¼杯莓果乾		
+food_info_serving_sizes_berries_metric.0	dozeBerries.Serving.metric.0	60 g fresh or frozen	½杯新鮮或冷凍莓果		
+food_info_serving_sizes_berries_metric.1	dozeBerries.Serving.metric.1	40 g dried	¼杯莓果乾		
+food_info_types_berries.0	dozeBerries.Variety.Text.0	Acai berries	巴西莓		
+food_info_types_berries.1	dozeBerries.Variety.Text.1	Barberries	莿莓		
+food_info_types_berries.2	dozeBerries.Variety.Text.2	Blackberries	黑莓		
+food_info_types_berries.3	dozeBerries.Variety.Text.3	Blueberries	藍莓		
+food_info_types_berries.4	dozeBerries.Variety.Text.4	Cherries (sweet or tart)	櫻桃（甜或酸）		
+food_info_types_berries.5	dozeBerries.Variety.Text.5	Concord grapes	康科德葡萄		
+food_info_types_berries.6	dozeBerries.Variety.Text.6	Cranberries	蔓越莓		
+food_info_types_berries.7	dozeBerries.Variety.Text.7	Goji berries	枸杞		
+food_info_types_berries.8	dozeBerries.Variety.Text.8	Kumquats	金桔		
+food_info_types_berries.9	dozeBerries.Variety.Text.9	Mulberries	桑葚		
+food_info_types_berries.10	dozeBerries.Variety.Text.10	Raspberries (black or red)	覆盆子（黑色或紅色）		
+food_info_types_berries.11	dozeBerries.Variety.Text.11	Strawberries	草莓		
+beverages	dozeBeverages.heading	Beverages	飲料	heading for daily data entry item	
+food_info_serving_sizes_beverages_imperial.0	dozeBeverages.Serving.imperial.0	One glass (12 ounces)	一杯（12盎司）		
+food_info_serving_sizes_beverages_metric.0	dozeBeverages.Serving.metric.0	One glass (350 ml)	一杯（350毫升）		
+food_info_types_beverages.0	dozeBeverages.Variety.Text.0	Black tea	紅茶		
+food_info_types_beverages.1	dozeBeverages.Variety.Text.1	Chai tea	印度香料奶茶		
+food_info_types_beverages.2	dozeBeverages.Variety.Text.2	Vanilla chamomile tea	香草菊花茶		
+food_info_types_beverages.3	dozeBeverages.Variety.Text.3	Coffee	咖啡		
+food_info_types_beverages.4	dozeBeverages.Variety.Text.4	Earl grey tea	伯爵茶		
+food_info_types_beverages.5	dozeBeverages.Variety.Text.5	Green tea	綠茶		
+food_info_types_beverages.6	dozeBeverages.Variety.Text.6	Hibiscus tea	洛神花茶		
+food_info_types_beverages.7	dozeBeverages.Variety.Text.7	Hot chocolate	熱巧克力		
+food_info_types_beverages.8	dozeBeverages.Variety.Text.8	Jasmine tea	茉莉花茶		
+food_info_types_beverages.9	dozeBeverages.Variety.Text.9	Lemon balm tea	香蜂草茶		
+food_info_types_beverages.10	dozeBeverages.Variety.Text.10	Matcha tea	抹茶		
+food_info_types_beverages.11	dozeBeverages.Variety.Text.11	Almond blossom oolong tea	杏仁花烏龍茶		
+food_info_types_beverages.12	dozeBeverages.Variety.Text.12	Peppermint tea	薄荷茶		
+food_info_types_beverages.13	dozeBeverages.Variety.Text.13	Rooibos tea	南非國寶茶		
+food_info_types_beverages.14	dozeBeverages.Variety.Text.14	Water	水		
+food_info_types_beverages.15	dozeBeverages.Variety.Text.15	White tea	白茶		
+exercise	dozeExercise.heading	Exercise	運動	heading for daily data entry item	
+food_info_serving_sizes_exercise_imperial.0	dozeExercise.Serving.imperial.0	90 minutes of moderate-intensity activity	90分鐘的中等強度運動		
+food_info_serving_sizes_exercise_imperial.1	dozeExercise.Serving.imperial.1	40 minutes of vigorous-intensity activity	40分鐘的劇烈運動		
+food_info_serving_sizes_exercise_metric.0	dozeExercise.Serving.metric.0	90 minutes of moderate-intensity activity	90分鐘的中等強度運動		
+food_info_serving_sizes_exercise_metric.1	dozeExercise.Serving.metric.1	40 minutes of vigorous-intensity activity	40分鐘的劇烈運動		
+food_info_types_exercise.0	dozeExercise.Variety.Text.0	Bicycling	騎單車		
+food_info_types_exercise.1	dozeExercise.Variety.Text.1	Canoeing	滑獨木舟		
+food_info_types_exercise.2	dozeExercise.Variety.Text.2	Dancing	跳舞		
+food_info_types_exercise.3	dozeExercise.Variety.Text.3	Dodgeball	躲避球		
+food_info_types_exercise.4	dozeExercise.Variety.Text.4	Downhill skiing	下坡滑雪		
+food_info_types_exercise.5	dozeExercise.Variety.Text.5	Fencing	擊劍		
+food_info_types_exercise.6	dozeExercise.Variety.Text.6	Hiking	健行		
+food_info_types_exercise.7	dozeExercise.Variety.Text.7	Housework	做家事		
+food_info_types_exercise.8	dozeExercise.Variety.Text.8	Ice-skating	溜冰		
+food_info_types_exercise.9	dozeExercise.Variety.Text.9	Inline skating	溜直排輪		
+food_info_types_exercise.10	dozeExercise.Variety.Text.10	Juggling	雜耍		
+food_info_types_exercise.11	dozeExercise.Variety.Text.11	Jumping on a trampoline	跳彈簧床		
+food_info_types_exercise.12	dozeExercise.Variety.Text.12	Paddle boating	踩腳踏船		
+food_info_types_exercise.13	dozeExercise.Variety.Text.13	Playing frisbee	玩飛盤		
+food_info_types_exercise.14	dozeExercise.Variety.Text.14	Roller-skating	四輪溜冰		
+food_info_types_exercise.15	dozeExercise.Variety.Text.15	Shooting baskets	投籃		
+food_info_types_exercise.16	dozeExercise.Variety.Text.16	Shoveling light snow	剷雪（輕微積雪）		
+food_info_types_exercise.17	dozeExercise.Variety.Text.17	Skateboarding	玩滑板		
+food_info_types_exercise.18	dozeExercise.Variety.Text.18	Snorkeling	浮潛		
+food_info_types_exercise.19	dozeExercise.Variety.Text.19	Surfing	衝浪		
+food_info_types_exercise.20	dozeExercise.Variety.Text.20	Swimming recreationally	休閒式游泳		
+food_info_types_exercise.21	dozeExercise.Variety.Text.21	Tennis (doubles)	網球（雙打）		
+food_info_types_exercise.22	dozeExercise.Variety.Text.22	Treading water	立泳		
+food_info_types_exercise.23	dozeExercise.Variety.Text.23	Walking briskly (4 mph)	健走（每小時6公里）		
+food_info_types_exercise.24	dozeExercise.Variety.Text.24	Water aerobics	水中有氧		
+food_info_types_exercise.25	dozeExercise.Variety.Text.25	Waterskiing	滑水		
+food_info_types_exercise.26	dozeExercise.Variety.Text.26	Yard work	整理庭院		
+food_info_types_exercise.27	dozeExercise.Variety.Text.27	Yoga	瑜珈		
+food_info_types_exercise.28	dozeExercise.Variety.Text.28	Backpacking	背包旅行		
+food_info_types_exercise.29	dozeExercise.Variety.Text.29	Basketball	打籃球		
+food_info_types_exercise.30	dozeExercise.Variety.Text.30	Bicycling uphill	單車爬坡		
+food_info_types_exercise.31	dozeExercise.Variety.Text.31	Circuit weight training	循環重量訓練		
+food_info_types_exercise.32	dozeExercise.Variety.Text.32	Cross-country skiing	越野滑雪		
+food_info_types_exercise.33	dozeExercise.Variety.Text.33	Football	美式足球		
+food_info_types_exercise.34	dozeExercise.Variety.Text.34	Hockey	曲棍球		
+food_info_types_exercise.35	dozeExercise.Variety.Text.35	Jogging	慢跑		
+food_info_types_exercise.36	dozeExercise.Variety.Text.36	Jumping jacks	開合跳		
+food_info_types_exercise.37	dozeExercise.Variety.Text.37	Jumping rope	跳繩		
+food_info_types_exercise.38	dozeExercise.Variety.Text.38	Lacrosse	袋棍球		
+food_info_types_exercise.39	dozeExercise.Variety.Text.39	Push-ups	伏地挺身		
+food_info_types_exercise.40	dozeExercise.Variety.Text.40	Pull-ups	引體向上		
+food_info_types_exercise.41	dozeExercise.Variety.Text.41	Racquetball	短柄牆球		
+food_info_types_exercise.42	dozeExercise.Variety.Text.42	Rock climbing	攀岩		
+food_info_types_exercise.43	dozeExercise.Variety.Text.43	Rugby	橄欖球		
+food_info_types_exercise.44	dozeExercise.Variety.Text.44	Running	跑步		
+food_info_types_exercise.45	dozeExercise.Variety.Text.45	Scuba diving	潛水		
+food_info_types_exercise.46	dozeExercise.Variety.Text.46	Tennis (singles)	網球（單打）		
+food_info_types_exercise.47	dozeExercise.Variety.Text.47	Soccer	足球		
+food_info_types_exercise.48	dozeExercise.Variety.Text.48	Speed skating	競速滑冰		
+food_info_types_exercise.49	dozeExercise.Variety.Text.49	Squash	壁球		
+food_info_types_exercise.50	dozeExercise.Variety.Text.50	Step aerobics	階梯有氧		
+food_info_types_exercise.51	dozeExercise.Variety.Text.51	Swimming laps	來回游泳		
+food_info_types_exercise.52	dozeExercise.Variety.Text.52	Walking briskly uphill	上坡快走		
+food_info_types_exercise.53	dozeExercise.Variety.Text.53	Water jogging	水中慢跑		
+flaxseeds	dozeFlaxseeds.heading	Flaxseeds	亞麻籽	heading for daily data entry item	
+food_info_serving_sizes_flaxseeds_imperial.0	dozeFlaxseeds.Serving.imperial.0	1 tablespoon ground	1大匙磨碎的亞麻籽		
+food_info_serving_sizes_flaxseeds_metric.0	dozeFlaxseeds.Serving.metric.0	1 tablespoon ground	1大匙磨碎的亞麻籽		
+food_info_types_flaxseeds.0	dozeFlaxseeds.Variety.Text.0	Brown flaxseeds	棕色亞麻籽		
+food_info_types_flaxseeds.1	dozeFlaxseeds.Variety.Text.1	Golden flaxseeds	黃金亞麻籽		
+other_fruits	dozeFruitsOther.heading	Other Fruits	其他水果	heading for daily data entry item	
+food_info_serving_sizes_other_fruits_imperial.0	dozeFruitsOther.Serving.imperial.0	1 medium-sized fruit	1顆中型水果		
+food_info_serving_sizes_other_fruits_imperial.1	dozeFruitsOther.Serving.imperial.1	1 cup cut-up fruit	1杯水果丁		
+food_info_serving_sizes_other_fruits_imperial.2	dozeFruitsOther.Serving.imperial.2	¼ cup dried fruit	¼杯果乾		
+food_info_serving_sizes_other_fruits_metric.0	dozeFruitsOther.Serving.metric.0	1 medium-sized fruit	1顆中型水果		
+food_info_serving_sizes_other_fruits_metric.1	dozeFruitsOther.Serving.metric.1	120 g cut-up fruit	120克水果丁		
+food_info_serving_sizes_other_fruits_metric.2	dozeFruitsOther.Serving.metric.2	40 g dried fruit	40克果乾		
+food_info_types_other_fruits.0	dozeFruitsOther.Variety.Text.0	Apples	蘋果		
+food_info_types_other_fruits.1	dozeFruitsOther.Variety.Text.1	Apricots	杏子乾		
+food_info_types_other_fruits.2	dozeFruitsOther.Variety.Text.2	Avocados	酪梨		
+food_info_types_other_fruits.3	dozeFruitsOther.Variety.Text.3	Bananas	香蕉		
+food_info_types_other_fruits.4	dozeFruitsOther.Variety.Text.4	Cantaloupe	哈密瓜		
+food_info_types_other_fruits.5	dozeFruitsOther.Variety.Text.5	Clementines	小柑橘		
+food_info_types_other_fruits.6	dozeFruitsOther.Variety.Text.6	Dates	椰棗		
+food_info_types_other_fruits.7	dozeFruitsOther.Variety.Text.7	Figs	無花果		
+food_info_types_other_fruits.8	dozeFruitsOther.Variety.Text.8	Grapefruit	葡萄柚		
+food_info_types_other_fruits.9	dozeFruitsOther.Variety.Text.9	Honeydew	香瓜		
+food_info_types_other_fruits.10	dozeFruitsOther.Variety.Text.10	Kiwifruit	奇異果		
+food_info_types_other_fruits.11	dozeFruitsOther.Variety.Text.11	Lemons	檸檬		
+food_info_types_other_fruits.12	dozeFruitsOther.Variety.Text.12	Limes	萊姆		
+food_info_types_other_fruits.13	dozeFruitsOther.Variety.Text.13	Lychees	荔枝		
+food_info_types_other_fruits.14	dozeFruitsOther.Variety.Text.14	Mangos	芒果		
+food_info_types_other_fruits.15	dozeFruitsOther.Variety.Text.15	Nectarines	油桃		
+food_info_types_other_fruits.16	dozeFruitsOther.Variety.Text.16	Oranges	柳橙		
+food_info_types_other_fruits.17	dozeFruitsOther.Variety.Text.17	Papaya	木瓜		
+food_info_types_other_fruits.18	dozeFruitsOther.Variety.Text.18	Passion fruit	百香果		
+food_info_types_other_fruits.19	dozeFruitsOther.Variety.Text.19	Peaches	桃子		
+food_info_types_other_fruits.20	dozeFruitsOther.Variety.Text.20	Pears	梨		
+food_info_types_other_fruits.21	dozeFruitsOther.Variety.Text.21	Pineapple	鳳梨		
+food_info_types_other_fruits.22	dozeFruitsOther.Variety.Text.22	Plums (especially black plums)	李子（尤其是黑李）		
+food_info_types_other_fruits.23	dozeFruitsOther.Variety.Text.23	Pluots	杏李		
+food_info_types_other_fruits.24	dozeFruitsOther.Variety.Text.24	Pomegranates	石榴		
+food_info_types_other_fruits.25	dozeFruitsOther.Variety.Text.25	Prunes	黑棗		
+food_info_types_other_fruits.26	dozeFruitsOther.Variety.Text.26	Tangerines	橘子		
+food_info_types_other_fruits.27	dozeFruitsOther.Variety.Text.27	Watermelon	西瓜		
+greens	dozeGreens.heading	Greens	綠葉蔬菜	heading for daily data entry item	
+food_info_serving_sizes_greens_imperial.0	dozeGreens.Serving.imperial.0	1 cup raw	1杯生菜		
+food_info_serving_sizes_greens_imperial.1	dozeGreens.Serving.imperial.1	½ cup cooked	½杯煮過的蔬菜		
+food_info_serving_sizes_greens_metric.0	dozeGreens.Serving.metric.0	60 g raw	60克生菜		
+food_info_serving_sizes_greens_metric.1	dozeGreens.Serving.metric.1	90 g cooked	90克煮過的蔬菜		
+food_info_types_greens.0	dozeGreens.Variety.Text.0	Arugula	芝麻葉		
+food_info_types_greens.1	dozeGreens.Variety.Text.1	Beet greens	甜菜葉		
+food_info_types_greens.2	dozeGreens.Variety.Text.2	Collard greens	芥藍菜葉		
+food_info_types_greens.3	dozeGreens.Variety.Text.3	Kale (black, green, and red)	羽衣甘藍（黑色、綠色與紅色品種）		
+food_info_types_greens.4	dozeGreens.Variety.Text.4	Mesclun mix (assorted young salad greens)	綜合生菜葉（綜合幼嫩綠色沙拉）		
+food_info_types_greens.5	dozeGreens.Variety.Text.5	Mustard greens	芥菜		
+food_info_types_greens.6	dozeGreens.Variety.Text.6	Sorrel	酸模		
+food_info_types_greens.7	dozeGreens.Variety.Text.7	Spinach	菠菜		
+food_info_types_greens.8	dozeGreens.Variety.Text.8	Swiss chard	牛皮菜		
+food_info_types_greens.9	dozeGreens.Variety.Text.9	Turnip greens	蕪菁葉		
+nuts	dozeNuts.heading	Nuts and Seeds	堅果類	heading for daily data entry item	
+food_info_serving_sizes_nuts_imperial.0	dozeNuts.Serving.imperial.0	¼ cup nuts or seeds	¼杯堅果或種籽		
+food_info_serving_sizes_nuts_imperial.1	dozeNuts.Serving.imperial.1	2 tablespoons nut or seed butter	2大匙果仁醬或種籽醬		
+food_info_serving_sizes_nuts_metric.0	dozeNuts.Serving.metric.0	30 g nuts or seeds	30克堅果或種籽		
+food_info_serving_sizes_nuts_metric.1	dozeNuts.Serving.metric.1	2 tablespoons nut or seed butter	2大匙果仁醬或種籽醬		
+food_info_types_nuts.0	dozeNuts.Variety.Text.0	Almonds	杏仁		
+food_info_types_nuts.1	dozeNuts.Variety.Text.1	Brazil nuts	巴西堅果		
+food_info_types_nuts.2	dozeNuts.Variety.Text.2	Cashews	腰果		
+food_info_types_nuts.3	dozeNuts.Variety.Text.3	Chia seeds	奇亞籽		
+food_info_types_nuts.4	dozeNuts.Variety.Text.4	Hazelnuts	榛果		
+food_info_types_nuts.5	dozeNuts.Variety.Text.5	Hemp seeds	火麻仁		
+food_info_types_nuts.6	dozeNuts.Variety.Text.6	Macadamia nuts	夏威夷豆		
+food_info_types_nuts.7	dozeNuts.Variety.Text.7	Peanuts	花生		
+food_info_types_nuts.8	dozeNuts.Variety.Text.8	Pecans	胡桃		
+food_info_types_nuts.9	dozeNuts.Variety.Text.9	Pistachios	開心果		
+food_info_types_nuts.10	dozeNuts.Variety.Text.10	Pumpkin seeds	南瓜籽		
+food_info_types_nuts.11	dozeNuts.Variety.Text.11	Sesame seeds	芝麻籽		
+food_info_types_nuts.12	dozeNuts.Variety.Text.12	Sunflower seeds	葵花籽		
+food_info_types_nuts.13	dozeNuts.Variety.Text.13	Walnuts	核桃		
+OK	dozeOtherInfo.confirm	OK	確定	Daily Dozen supplement info alert: dismissal button text	
+	dozeOtherInfo.message	Vitamin B12 is essential for your health but does not count towards your daily servings.\n\nVitamin B12 is included in this app to provide you with an easy way to track your intake.	維生素B12對健康來說至關重要，但不算在每日12清單的份量當中。\n\n本應用程序包含維生素B12，讓您能方便追蹤攝取量。	Daily Dozen supplement info alert: message	
+	dozeOtherInfo.section	Supplements	補充劑	Daily Dozen daily entry section heading	
+	dozeOtherInfo.title	Supplements	補充劑	Daily Dozen supplement info alert: title	
+spices	dozeSpices.heading	Herbs and Spices	香草和香料	heading for daily data entry item	
+food_info_serving_sizes_spices_imperial.0	dozeSpices.Serving.imperial.0	¼ teaspoon of turmeric	¼茶匙的薑黃		
+food_info_serving_sizes_spices_imperial.1	dozeSpices.Serving.imperial.1	Any other (salt-free) herbs and spices you enjoy	任何其他您所喜歡的（無鹽）香草和香料		
+food_info_serving_sizes_spices_metric.0	dozeSpices.Serving.metric.0	¼ teaspoon of turmeric	¼茶匙的薑黃		
+food_info_serving_sizes_spices_metric.1	dozeSpices.Serving.metric.1	Any other (salt-free) herbs and spices you enjoy	任何其他您所喜歡的（無鹽）香草和香料		
+food_info_types_spices.0	dozeSpices.Variety.Text.0	Allspice	眾香子		
+food_info_types_spices.1	dozeSpices.Variety.Text.1	Barberries	莿莓		
+food_info_types_spices.2	dozeSpices.Variety.Text.2	Basil	羅勒		
+food_info_types_spices.3	dozeSpices.Variety.Text.3	Bay leaves	月桂葉		
+food_info_types_spices.4	dozeSpices.Variety.Text.4	Cardamom	小荳蔻		
+food_info_types_spices.5	dozeSpices.Variety.Text.5	Chili powder	辣椒粉		
+food_info_types_spices.6	dozeSpices.Variety.Text.6	Cilantro	芫荽		
+food_info_types_spices.7	dozeSpices.Variety.Text.7	Cinnamon	肉桂		
+food_info_types_spices.8	dozeSpices.Variety.Text.8	Cloves	丁香		
+food_info_types_spices.9	dozeSpices.Variety.Text.9	Coriander	香菜		
+food_info_types_spices.10	dozeSpices.Variety.Text.10	Cumin	孜然		
+food_info_types_spices.11	dozeSpices.Variety.Text.11	Curry powder	咖哩粉		
+food_info_types_spices.12	dozeSpices.Variety.Text.12	Dill	蒔蘿		
+food_info_types_spices.13	dozeSpices.Variety.Text.13	Fenugreek	葫蘆巴		
+food_info_types_spices.14	dozeSpices.Variety.Text.14	Garlic	大蒜		
+food_info_types_spices.15	dozeSpices.Variety.Text.15	Ginger	薑		
+food_info_types_spices.16	dozeSpices.Variety.Text.16	Horseradish	辣根		
+food_info_types_spices.17	dozeSpices.Variety.Text.17	Lemongrass	香茅		
+food_info_types_spices.18	dozeSpices.Variety.Text.18	Marjoram	墨角蘭		
+food_info_types_spices.19	dozeSpices.Variety.Text.19	Mustard powder	芥末粉		
+food_info_types_spices.20	dozeSpices.Variety.Text.20	Nutmeg	肉豆蔻		
+food_info_types_spices.21	dozeSpices.Variety.Text.21	Oregano	牛至		
+food_info_types_spices.22	dozeSpices.Variety.Text.22	Smoked paprika	煙燻紅椒粉		
+food_info_types_spices.23	dozeSpices.Variety.Text.23	Parsley	荷蘭芹		
+food_info_types_spices.24	dozeSpices.Variety.Text.24	Pepper	胡椒		
+food_info_types_spices.25	dozeSpices.Variety.Text.25	Peppermint	薄荷		
+food_info_types_spices.26	dozeSpices.Variety.Text.26	Rosemary	迷迭香		
+food_info_types_spices.27	dozeSpices.Variety.Text.27	Saffron	番紅花		
+food_info_types_spices.28	dozeSpices.Variety.Text.28	Sage	鼠尾草		
+food_info_types_spices.29	dozeSpices.Variety.Text.29	Thyme	百里香		
+food_info_types_spices.30	dozeSpices.Variety.Text.30	Turmeric	薑黃		
+food_info_types_spices.31	dozeSpices.Variety.Text.31	Vanilla	香草		
+cruciferous_vegetables	dozeVegetablesCruciferous.heading	Cruciferous Vegetables	十字花科蔬菜	heading for daily data entry item	
+food_info_serving_sizes_cruciferous_vegetables_imperial.0	dozeVegetablesCruciferous.Serving.imperial.0	½ cup chopped	½杯切碎的		
+food_info_serving_sizes_cruciferous_vegetables_imperial.1	dozeVegetablesCruciferous.Serving.imperial.1	½ cup Brussels sprouts	½杯孢子甘藍苗		
+food_info_serving_sizes_cruciferous_vegetables_imperial.2	dozeVegetablesCruciferous.Serving.imperial.2	¼ cup Broccoli sprouts	¼杯花椰菜苗		
+food_info_serving_sizes_cruciferous_vegetables_imperial.3	dozeVegetablesCruciferous.Serving.imperial.3	1 tablespoon horseradish	一大匙辣根		
+food_info_serving_sizes_cruciferous_vegetables_metric.0	dozeVegetablesCruciferous.Serving.metric.0	30–80 g chopped	30至80克切碎的		
+food_info_serving_sizes_cruciferous_vegetables_metric.1	dozeVegetablesCruciferous.Serving.metric.1	80 g Brussels sprouts	80克孢子甘藍苗		
+food_info_serving_sizes_cruciferous_vegetables_metric.2	dozeVegetablesCruciferous.Serving.metric.2	15 g Broccoli sprouts	15克花椰菜苗		
+food_info_serving_sizes_cruciferous_vegetables_metric.3	dozeVegetablesCruciferous.Serving.metric.3	1 tablespoon horseradish	一大匙辣根		
+food_info_types_cruciferous_vegetables.0	dozeVegetablesCruciferous.Variety.Text.0	Arugula	芝麻葉		
+food_info_types_cruciferous_vegetables.1	dozeVegetablesCruciferous.Variety.Text.1	Bok choy	青江菜		
+food_info_types_cruciferous_vegetables.2	dozeVegetablesCruciferous.Variety.Text.2	Broccoli (incl. Romanesco)	綠色花椰菜（寶塔花菜）		
+food_info_types_cruciferous_vegetables.3	dozeVegetablesCruciferous.Variety.Text.3	Brussels sprouts	球芽甘藍		
+food_info_types_cruciferous_vegetables.4	dozeVegetablesCruciferous.Variety.Text.4	Cabbage (green, red and savoy)	甘藍（綠，紫，野甘藍）		
+food_info_types_cruciferous_vegetables.5	dozeVegetablesCruciferous.Variety.Text.5	Cauliflower (white, green, orange and purple)	花椰菜（白色，綠色，橙色，紫色）		
+food_info_types_cruciferous_vegetables.6	dozeVegetablesCruciferous.Variety.Text.6	Collard greens	芥藍菜葉		
+food_info_types_cruciferous_vegetables.7	dozeVegetablesCruciferous.Variety.Text.7	Horseradish	辣根		
+food_info_types_cruciferous_vegetables.8	dozeVegetablesCruciferous.Variety.Text.8	Kale (black, green, and red)	羽衣甘藍（黑色、綠色與紅色品種）		
+food_info_types_cruciferous_vegetables.9	dozeVegetablesCruciferous.Variety.Text.9	Kohlrabi (green and purple)	大頭菜（綠色，紫色）		
+food_info_types_cruciferous_vegetables.10	dozeVegetablesCruciferous.Variety.Text.10	Mustard greens	芥菜		
+food_info_types_cruciferous_vegetables.11	dozeVegetablesCruciferous.Variety.Text.11	Radishes	白蘿蔔		
+food_info_types_cruciferous_vegetables.12	dozeVegetablesCruciferous.Variety.Text.12	Turnip greens	蕪菁葉		
+food_info_types_cruciferous_vegetables.13	dozeVegetablesCruciferous.Variety.Text.13	Watercress	西洋菜		
+other_vegetables	dozeVegetablesOther.heading	Other Vegetables	其他蔬菜	heading for daily data entry item	
+food_info_serving_sizes_other_vegetables_imperial.0	dozeVegetablesOther.Serving.imperial.0	1 cup raw leafy vegetables	1杯生葉菜		
+food_info_serving_sizes_other_vegetables_imperial.1	dozeVegetablesOther.Serving.imperial.1	½ cup raw or cooked nonleafy vegetables	½杯生或熟的非葉菜		
+food_info_serving_sizes_other_vegetables_imperial.2	dozeVegetablesOther.Serving.imperial.2	½ cup vegetable juice	½杯蔬菜汁		
+food_info_serving_sizes_other_vegetables_imperial.3	dozeVegetablesOther.Serving.imperial.3	¼ cup dried mushrooms	¼杯乾燥菇類		
+food_info_serving_sizes_other_vegetables_metric.0	dozeVegetablesOther.Serving.metric.0	60 g raw leafy vegetables	60克生葉菜		
+food_info_serving_sizes_other_vegetables_metric.1	dozeVegetablesOther.Serving.metric.1	50 g raw or cooked nonleafy vegetables	50克生或熟的非葉菜		
+food_info_serving_sizes_other_vegetables_metric.2	dozeVegetablesOther.Serving.metric.2	125 ml vegetable juice	125毫升蔬菜汁		
+food_info_serving_sizes_other_vegetables_metric.3	dozeVegetablesOther.Serving.metric.3	7 g dried mushrooms	7克乾燥菇類		
+food_info_types_other_vegetables.0	dozeVegetablesOther.Variety.Text.0	Artichokes	朝鮮薊		
+food_info_types_other_vegetables.1	dozeVegetablesOther.Variety.Text.1	Asparagus	蘆筍		
+food_info_types_other_vegetables.2	dozeVegetablesOther.Variety.Text.2	Beets	甜菜		
+food_info_types_other_vegetables.3	dozeVegetablesOther.Variety.Text.3	Bell peppers	甜椒		
+food_info_types_other_vegetables.4	dozeVegetablesOther.Variety.Text.4	Carrots	胡蘿蔔		
+food_info_types_other_vegetables.5	dozeVegetablesOther.Variety.Text.5	Corn	玉米		
+food_info_types_other_vegetables.6	dozeVegetablesOther.Variety.Text.6	Garlic	大蒜		
+food_info_types_other_vegetables.7	dozeVegetablesOther.Variety.Text.7	Mushrooms (button, oyster, portobello, and shiitake)	菇類（洋菇、秀珍菇、波特菇與香菇）		
+food_info_types_other_vegetables.8	dozeVegetablesOther.Variety.Text.8	Okra	秋葵		
+food_info_types_other_vegetables.9	dozeVegetablesOther.Variety.Text.9	Onions	洋蔥		
+food_info_types_other_vegetables.10	dozeVegetablesOther.Variety.Text.10	Purple potatoes	紫薯		
+food_info_types_other_vegetables.11	dozeVegetablesOther.Variety.Text.11	Pumpkin	南瓜		
+food_info_types_other_vegetables.12	dozeVegetablesOther.Variety.Text.12	Sea vegetables (arame, dulse, and nori)	海帶（海藻、紅藻與海苔）		
+food_info_types_other_vegetables.13	dozeVegetablesOther.Variety.Text.13	Snap peas	甜脆豌豆		
+food_info_types_other_vegetables.14	dozeVegetablesOther.Variety.Text.14	Squash (delicata, summer, and spaghetti squash varieties)	南瓜屬（包括花生南瓜、夏南瓜與金線南瓜等品種）		
+food_info_types_other_vegetables.15	dozeVegetablesOther.Variety.Text.15	Sweet potatoes/yams	地瓜／番薯		
+food_info_types_other_vegetables.16	dozeVegetablesOther.Variety.Text.16	Tomatoes	番茄		
+food_info_types_other_vegetables.17	dozeVegetablesOther.Variety.Text.17	Zucchini	櫛瓜		
+whole_grains	dozeWholeGrains.heading	Whole Grains	全穀類	heading for daily data entry item	
+food_info_serving_sizes_whole_grains_imperial.0	dozeWholeGrains.Serving.imperial.0	½ cup hot cereal or cooked grains, pasta, or corn kernels	½杯熱麥片或煮熟的穀物、義大利麵或玉米粒		
+food_info_serving_sizes_whole_grains_imperial.1	dozeWholeGrains.Serving.imperial.1	1 cup cold cereal	1杯冷麥片		
+food_info_serving_sizes_whole_grains_imperial.2	dozeWholeGrains.Serving.imperial.2	1 tortilla or slice of bread	1份墨西哥薄餅或1片麵包		
+food_info_serving_sizes_whole_grains_imperial.3	dozeWholeGrains.Serving.imperial.3	½ bagel or English muffin	½個貝果或英式鬆餅		
+food_info_serving_sizes_whole_grains_imperial.4	dozeWholeGrains.Serving.imperial.4	3 cups popped popcorn	3杯爆米花		
+food_info_serving_sizes_whole_grains_metric.0	dozeWholeGrains.Serving.metric.0	100 g hot cereal or cooked grains, pasta, or corn kernels	100克熱麥片或煮熟的穀物、義大利麵或玉米粒		
+food_info_serving_sizes_whole_grains_metric.1	dozeWholeGrains.Serving.metric.1	50 g cold cereal	50克冷麥片		
+food_info_serving_sizes_whole_grains_metric.2	dozeWholeGrains.Serving.metric.2	1 tortilla or slice of bread	1份墨西哥薄餅或1片麵包		
+food_info_serving_sizes_whole_grains_metric.3	dozeWholeGrains.Serving.metric.3	½ bagel or English muffin	½個貝果或英式鬆餅		
+food_info_serving_sizes_whole_grains_metric.4	dozeWholeGrains.Serving.metric.4	30 g popped popcorn	30克爆米花		
+food_info_types_whole_grains.0	dozeWholeGrains.Variety.Text.0	Barley	大麥		
+food_info_types_whole_grains.1	dozeWholeGrains.Variety.Text.1	Buckwheat	蕎麥		
+food_info_types_whole_grains.2	dozeWholeGrains.Variety.Text.2	Millet	小米		
+food_info_types_whole_grains.3	dozeWholeGrains.Variety.Text.3	Oats	燕麥		
+food_info_types_whole_grains.4	dozeWholeGrains.Variety.Text.4	Popcorn	爆米花		
+food_info_types_whole_grains.5	dozeWholeGrains.Variety.Text.5	Quinoa	藜麥		
+food_info_types_whole_grains.6	dozeWholeGrains.Variety.Text.6	Rye	裸麥		
+food_info_types_whole_grains.7	dozeWholeGrains.Variety.Text.7	Teff	畫眉草籽		
+food_info_types_whole_grains.8	dozeWholeGrains.Variety.Text.8	Whole-wheat pasta	全麥義大利麵		
+faq_adapt_question	faq_adapt_question	The Daily Dozen is too much/too little food for me! Can I adapt it?	每日12清單建議我吃太多/太少！我可以調整嗎？		Daily Dozen advises me to eat too much/too little! Can I adjust it?
+faq_adapt_response	faq_adapt_response	Yes, the Daily Dozen is simply meant to be a guide of the healthiest foods that we strive to include every day. It’s not a meal plan and is not meant to be prescriptive. Do your best to eat a diverse array of whole plant foods and adapt the Daily Dozen to the quantities that work for you.	是的，每日12清單只是為了指導我們每天努力攝取的最健康的食物。這不是膳食計劃，也不是規定性的。盡最大努力吃各種各樣的全食物蔬食食品，並根據適合您的數量調整每日12清單。		Yes, the Daily Dozen is just to guide the healthiest foods we strive to eat every day. This is not a meal plan, nor is it prescriptive. Do your best to eat a variety of whole plant foods, and adjust your daily dozen to amounts that work for you.
+faq_age_question	faq_age_question	Is this adaptable for children, adolescents, and teens?	這是否適用於兒童和青少年？		Does this apply to children, teens and teens?
+faq_age_response.0	faq_age_response.0	Children, adolescents, and teenagers have different caloric needs throughout their lifecycle. These needs change to support growth and development at each stage.	兒童和青少年在整個生命週期中有不同的熱量需求。 這些需求在每個階段發生改變，是為了支持每個階段的增長和發展。		Children, teens and teens have different caloric needs throughout the lifespan. These needs change to support each stage of growth and development.
+faq_age_response.1	faq_age_response.1	The Daily Dozen was designed as a guide to help people include some of the healthiest foods into their daily routine. While the same framework can be used for most people throughout the lifecycle, the amount of food one needs to eat will vary based on a number of factors like age and activity level. Since we can’t provide specific nutrition or medical advice for your growing child, parents should use this guide as they see best for their child’s needs and/or consult with a registered dietitian or other healthcare provider to help determine what is best for their individual needs.	每日12清單旨在作為指南，幫助人們將一些最健康的食物納入日常生活。雖然同一框架可用於大多數人的整個生命週期，但一個人需要吃的食物量會因年齡和活動水平等多種因素而異。由於我們無法為您成長中的孩子提供具體的營養或醫療建議，因此父母應該根據他們認為最適合孩子需求的方式使用本指南和/或諮詢註冊營養師或其他醫療保健提供者，以幫助確定最適合他們個人的內容需要。		The Daily Dozen is intended as a guide to help people incorporate some of the healthiest foods into their daily lives. While the same framework can be used throughout most people's lifespan, the amount of food a person needs to eat will vary based on a variety of factors, including age and activity level. Since we are unable to provide specific nutritional or medical advice for your growing child, parents should use this guide and/or consult with a registered dietitian or other healthcare provider to help determine the best tailored to their individual content needs.
+faq_calories_question	faq_calories_question	How many calories are in the Daily Dozen?	每日12清單中含有多少卡路里？		How many calories are in Daily Dozen?
+faq_calories_response.0	faq_calories_response.0	The Daily Dozen averages about 1,200 calories, but given the wide array of food choices in each category, it can range anywhere from 800-1800. Consider the Other Vegetables category: a cup of bell peppers has a much lower caloric density than a cup of cooked sweet potatoes, therefore the caloric range will depend on your specific food choices. That’s the great thing about the Daily Dozen Checklist—it’s not a one size fits all approach, and can be adapted to your needs.	每日12清單平均約1,200卡路里，但考慮到每個類別的食物選擇範圍廣泛，它可以在800-1800之間的任何地方。想想「其他蔬菜」類別：一杯甜椒的熱量密度比一杯煮熟的紅薯低得多，因此熱量範圍將取決於您的具體食物選擇。這就是每日12清單的偉大之處——它不是一種放之四海而皆準的方法，可以根據您的需要進行調整。		The Daily Dozen averages around 1,200 calories, but given the wide range of food options in each category, it could be anywhere between 800-1800. Consider other vegetable groups: A cup of bell peppers is much lower in calorie density than a cup of cooked sweet potatoes, so the calorie range will depend on your specific food choices. That’s the great thing about the Daily Dozen Checklist—it’s not a one-size-fits-all approach and can be adjusted to suit your needs.
+faq_calories_response.1	faq_calories_response.1	If your goal is weight loss, you can find more information in “How Not to Diet” and the accompanying Twenty-One Tweaks. In “How Not to Diet”, I noted: “A systematic review of successful weight-loss strategies concluded that given the metabolic slowing and increased appetite that accompanies weight loss, to achieve significant weight loss, calorie counts may need to drop as low as 1,200 calories a day for women and 1,500 calories a day for men.”	如果您的目標是減重，您可以在《食療聖經減重版》和隨附的21項調整中找到更多信息。 在《食療聖經減重版》一書中，我指出：「一項對成功減重策略的系統回顧得出的結論是，考慮到伴隨減重而來的新陳代謝減慢和食慾增加，要實現顯著減重，卡路里計數可能需要降低至女性每天1,200卡路里，男性每天1,500卡路里。」		If your goal is to lose weight, you can find more information in How Not to Diet and the accompanying twenty-one tweaks. In “How Not to Diet,” I note: “A systematic review of successful weight loss strategies concluded that, given the slowed metabolism and increased appetite that accompany weight loss, calorie counting may This needs to be reduced to 1,200 calories per day for women and 1,500 calories per day for men.”
+faq_calories_response.2	faq_calories_response.2	On the other hand, if your goal is weight gain, then you may want to focus on adding in more calorie-dense foods, such as sweet potatoes, avocados, nuts, and soy products.	另一方面，如果您的目標是增加體重，那麼您可能需要專注於添加更多高熱量食物，例如紅薯、酪梨、堅果和豆製品。		On the other hand, if your goal is to gain weight, you may want to focus on adding more high-calorie foods, such as sweet potatoes, avocados, nuts, and soy products.
+faq_mother_question	faq_mother_question	Can I do this while pregnant or breastfeeding?	我可以在懷孕或哺乳期間這樣做嗎？		Can I do this while pregnant or breastfeeding?
+faq_mother_response	faq_mother_response	People who are pregnant or breastfeeding have different caloric and nutritional needs than people who are not. As a reminder, the Daily Dozen is not a meal plan and should not be the only foods consumed within a day. People who are pregnant or breastfeeding should consult with their health care practitioner or a registered dietician for assistance with meeting their specific caloric requirements and nutritional needs.	懷孕或哺乳的人與未懷孕或哺乳的人有不同的熱量和營養需求。 提醒一下，每日12清單不是膳食計劃，也不應該是一天內食用的唯一食物。 懷孕或哺乳的人應該諮詢她們的保健醫生或註冊營養師，以獲得滿足其特定熱量需求和營養需求的幫助。		People who are pregnant or breastfeeding have different caloric and nutrient needs than those who are not pregnant or breastfeeding. As a reminder, the Daily Dozen is not a meal plan, nor should it be the only food eaten in a day. Those who are pregnant or breastfeeding should consult their healthcare practitioner or registered dietitian for help in meeting their specific caloric and nutritional needs.
+faq_scaling_question	faq_scaling_question	I can’t possibly eat that many beans/grains/etc.!	我不可能吃那麼多豆子/穀物/等等！		There's no way I'm eating that many beans/grains/etc!
+faq_scaling_response	faq_scaling_response	That’s okay! The Daily Dozen is an aspirational guide. Do your best to incorporate as many of these healthy plant foods as possible. If you are new to eating a lot of beans (or grains, greens, etc!), you may need to start with smaller amounts and slowly increase the quantity in order to give your microbiome a chance to adjust. You can also get creative: for example, add some beans to your morning oatmeal. If you load it up with berries, flax seeds, and nuts, you won’t even notice the beans. You can also mash beans into a sandwich spread, or make my [BROL](https://nutritionfacts.org/recipe/basic-brol-barley-rye-oats-and-lentils)—barley, rye, oat groats, and lentils—that I use as a base for many meals and is a simple way to get a variety of whole grains with a built-in serving of legumes.	根據個人需求變化是可以的。每日12清單是一本勵志指南。盡可能多地攝入這些健康的植物性食物。 如果您剛開始大量食用豆類（或穀物、蔬菜等！），您可能需要從少量開始，然後慢慢增加數量，以便讓您的微生物組有機會進行調整。您也可以發揮創意：例如，在早餐燕麥片中加入一些豆類。如果您用漿果、亞麻籽和堅果裝滿它，您甚至不會注意到豆子。您也可以將豆子搗碎成三明治塗抹醬，或製作我的BROL（https://nutritionfacts.org/recipe/basic-brol-barley-rye-oats-and-lentils）——大麥、黑麥、去殼燕麥和小扁豆——我用它作為許多餐食的基礎，是一種簡單的方法來獲取各種全穀物和豆類。		It is possible to vary according to individual needs. The Daily Dozen is an inspirational guide. Get as many of these healthy plant foods as you can. If you're new to eating a lot of legumes (or grains, veggies, etc.!), you may want to start with small amounts and build up slowly to give your microbiome a chance to adjust. You can also get creative: add some beans to your breakfast oatmeal, for example. If you load it up with berries, flaxseeds, and nuts, you won't even notice the beans. You can also mash the beans for a sandwich spread, or make my [BROL](https://nutritionfacts.org/recipe/basic-brol-barley-rye-oats-and-lentils) - barley, rye , Hulled Oats & Lentils - I use this as the base of many meals and is an easy way to get a variety of whole grains and legumes.
+faq_supplements_question	faq_supplements_question	I thought that Dr. Greger recommends taking Vitamin D and DHA supplements. Why aren’t they included?	我以為葛雷格醫生建議服用維生素D和DHA補充劑，為什麼不包括它們？		I think Dr. Greger recommends taking vitamin D and DHA supplements. Why are they not included?
+faq_supplements_response	faq_supplements_response	We have updated the Daily Dozen app to reflect only required supplements. For example, Vitamin D is only needed for people who get inadequate sun exposure. Our goal is to share the science with you so you can make your own informed decisions. You can see all of my recommendations on the [Optimum Nutrient](https://nutritionfacts.org/optimum-nutrient-recommendations) page.	我們更新了每日12清單應用程序，僅反映必需的補充劑。例如，只有陽光照射不足的人才需要維生素D。我們的目標是與您分享科學知識，以便您做出明智的決定。您可以在「最佳營養」（https://nutritionfacts.org/optimum-nutrient-recommendations）頁面上查看我的所有建議。		We've updated the Daily Dozen app to reflect only essential supplements. For example, vitamin D is only needed by people who don't get enough sun exposure. Our goal is to share scientific knowledge with you so you can make an informed decision. You can see all of my recommendations on the [Optimum Nutrition](https://nutritionfacts.org/optimum-nutrient-recommendations) page.
+faq_title	faq_title	Frequently Asked Questions	常見問題	Info Menu	
+	history_data_alert_cancel	Cancel	取消	History Data Alert: Cancel button	cancel button (Qǔxiāo ànniǔ)
+	history_data_alert_clear	Clear	清除	History Data Alert: Clear button	to clear
+	history_data_alert_import	Import	導入	History Data Alert: Import buttom	import data
+	history_data_alert_ok	OK	確認	History Data Alert: OK button	OK
+	history_data_export_btn	Export History Data	導出歷史數據	History Data: export action button	Export Data
+	history_data_export_text	Export has been written to:	導出已寫入：	History Data: export description text	The export is written to:
+	history_data_import_btn	Import History Data	導入歷史數據	History Data: import action button	Import historical data
+	history_data_import_caution_text	Caution: This import will overwrite all history data currently in this Daily Dozen application. Would you like to proceed with the import?	注意：此導入將覆蓋此每日12清單應用程序中當前的所有歷史數據。 是否繼續導入？	History Data: import caution text	NOTE: This import will overwrite any historical data currently in this Daily Dozen application. Do you want to continue importing?
+	history_data_import_error_text	Error: The import was not performed because of a data error. The existing data has remained unchanged.	錯誤：由於數據錯誤而未執行導入。現有數據保持不變。	History Data: import data error text	Error: The import was not performed due to bad data. Existing data remains unchanged.
+	history_data_import_notfound_text	Did not find a valid import file in the Daily Dozen Documents folder.	在每日12清單文件夾中未找到有效的導入文件。	History Data: import not found text	No valid import files were found in the Daily Dozen Documents folder.
+	history_data_title	History	歷史	History Data: preferences header & title	history
+servings_time_scale_choices.0	history_scale_choice_day	Day	日	History View: calendar scale control	
+servings_time_scale_choices.1	history_scale_choice_month	Month	月	History View: calendar scale control	
+servings_time_scale_choices.2	history_scale_choice_year	Year	年	History View: calendar scale control	
+time_scale	history_scale_label	Time Scale	時間尺度	History View: scale text	
+moving_average	historyRecord.movingAverage	Moving Average	移動平均數		
+	historyRecordDoze.heading	Servings History	份量歷史	History View	
+	historyRecordDoze.legend	Servings	份量	History View	
+	historyRecordTweak.heading	Tweaks History	調整歷史	History View	
+tweaks	historyRecordTweak.legend	Tweaks	調整	History View	
+weight_history	historyRecordWeight.heading	Weight History	體重歷史	History View	
+evening	historyRecordWeight.legendEvening	Evening	晚上	History View	
+morning	historyRecordWeight.legendMorning	Morning	早上	History View	
+	historyRecordWeight.titleImperial	Weight (lbs)	體重（磅）	History View	
+	historyRecordWeight.titleMetric	Weight (kg)	體重（公斤）	History View	
+about	info_app_about	About	關於我們	Info About Menu Item	
+app_name	info_app_about_app_name	Daily Dozen	每日12清單	Info About View: Application Name ‘Daily Dozen’	
+	info_app_about_created_by	This app was created by: NutritionFacts.org, Christi Richards, Konstantin Khokhlov, and Marc Campbell	本應用程序由以下單位及個人製作：NutritionFacts.org、Christi Richards、Konstantin Khokhlov和Marc Campbell	Info About View: Created By	
+about_this_app	info_app_about_heading	About this app	關於本應用程序	Info About View	
+	info_app_about_oss_credits	The following open source libraries are used: RealmSwift, Charts, FSCalendar, SimpleAnimation, ActiveLabel.	使用了以下的開放資源：RealmSwift、Charts、FSCalendar、SimpleAnimation、ActiveLabel	Info About View: Open Source Credits	
+activity_welcome_text	info_app_about_overview	Use this app on a daily basis to keep track of the foods and advice I recommend for optimal health and longevity in my books How Not to Die and How Not to Diet.	我在《食療聖經》中推薦了能夠讓您健康長壽的食物，請每天使用這個應用程序來記錄與追蹤您對這些食物的攝取量。	Info About View: Overview Text	
+about_translators	info_app_about_translators	Special thanks to our volunteer translators: Petar Enchev (bg), Tsveti Enchev (bg), Ricard Soler Roger (ca), Luděk Bouška (cs,sk), Lenka Lukacová (cs), Anke Schliessmann (de), Ángela Graña (es), Audray Harkins (fr), Doron Barak (he), Ruth Levy (he), Annalisa Guerrini-Körner (it), Ilaria Zanini (it), Hanna Gurzeda (pl), Joanna Klopotek (pl), Tania Bassi (pt-BR), João Madureira (pt-PT), Cristina Lauby (ro), Evgeniya Lyakh (ru), Katarína Mocáková (sk).	特別鳴謝翻譯志願者：Petar Enchev（bg）、Tsveti Enchev（bg）、Ricard Soler Roger（ca）、Luděk Bouška（cs,sk）、Lenka Lukacová（cs）、Anke Schliessmann（de）、Ángela Graña（es）、Audray Harkins（fr）、Doron Barak（he）、Ruth Levy（he）、Annalisa Guerrini-Körner（it）、Ilaria Zanini（it）、Hanna Gurzeda（pl）、Joanna Klopotek（pl）、Tania Bassi（pt-BR）、João Madureira（pt-PT）、Cristina Lauby（ro）、Evgeniya Lyakh（ru）、Katarína Mocáková（sk)。	Info About View: Contributing Translators List (language code)  See https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes	
+	info_app_about_version	version 3.4.13	3.4.13版本	Info About View: Application release version	
+welcome_to_my_daily_dozen	info_app_about_welcome	Welcome to my Daily Dozen!	歡迎來到我的《每日12清單》！	Info About View: Welcome	
+	info_book_how_not_to_die	Book: How Not to Die	書籍：食療聖經	Info Menu: book title	
+	info_book_how_not_to_die_cookbook	Book: How Not to Die Cookbook	書籍：食療聖經食譜版	Info Menu: book title	
+	info_book_how_not_to_diet	Book: How Not to Diet	書籍：食療聖經減重版	Info Menu: book title	
+daily_dozen_challenge	info_webpage_daily_dozen_challenge	Daily Dozen Challenge	每日12清單挑戰	Info Menu	
+donate	info_webpage_donate	Donate	捐款	Info Menu	
+open_source	info_webpage_open_source	Open Source	開放資源	Info Menu	
+subscribe	info_webpage_subscribe	Subscribe	訂閱	Info Menu	
+latest_videos	info_webpage_videos_latest	Latest Videos	最新影片	Info Menu	
+servings_all	item_history_completed_all	All servings	全部份量	Item History Legend: ‘All completed’	
+servings_some	item_history_completed_some	Some servings	部分份量	Item History Legend: ‘Some completed’	
+history	item_history_heading	History	歷史紀錄	Item History Heading	
+	navtab.doze	Daily Dozen	每日12清單	Main Navigation Tab Control: ‘Daily Dozen’ (proper noun)	
+	navtab.info	Information	資訊	Main Navigation Tab Control: show more information	
+	navtab.preferences	Preferences	喜好	Main Navigation Tab Control: ‘Preferences’ synonyms: Settings, Configuration. Choose a translations with is different from Tweaks.	
+	navtab.tweaks	21 Tweaks	21項調整	Main Navigation Tab Control: ‘21 Tweaks’ (proper noun)	
+	NSHealthShareUsageDescription	The 21 Tweaks feature accesses your HealthKit data to provide updates to your daily weight measurements.	21項調整取得您的HealthKit數據，提供您每日的體重計量	Privacy - Health Share Usage Description	
+	NSHealthUpdateUsageDescription	The 21 Tweaks feature can write weight data to HealthKit to help you keep track of your progress.	21項調整能將體重數據紀錄到HealthKit，幫助追蹤您的進步	Privacy - Health Update Usage Description	
+vitamin_b12	otherVitaminB12.heading	Vitamin B12	維生素B12	heading for daily data entry item	
+daily_reminder_text	reminder.alert.text	Update your servings for today	更新您的今日份量	Alert notification text	
+	reminder.heading	Daily Reminder	每日提醒	Daily Reminder (alert title, settings section heading)	
+	reminder.settings.enable	Enable Reminders	開啟提醒	Daily Reminder On/Off toggle switch label	
+play_sound	reminder.settings.sound	Play Sound	播放聲音	Daily Reminder sound control heading	
+remind_me_at	reminder.settings.time	Remind me at	提醒時間	Daily Reminder time control heading	
+vibrate	reminder.settings.vibrate	Vibrate	震動	Android notification `vibrate`	
+	reminder.state.off	Off	關	‘Off’ as in ‘On (enabled) or Off (disabled)’, Daily Reminder is not enabled	
+	reminder.state.on	On	開	‘On’ as in ‘On (enabled) or Off (disable)’. Daily Reminder is enabled	
+	setting_analytics_body	Enable anonymous usage information to be collected to help improve this application.	允許收集匿名使用資訊以幫助改進此應用程序	Google Firebase Analytics	
+	setting_analytics_enable	Enable Analytics	啟用分析	Google Firebase Analytics	
+	setting_analytics_opt_in	Opt In	選擇同意	Google Firebase Analytics	
+	setting_analytics_opt_out	Opt Out	選擇退出	Google Firebase Analytics	
+	setting_analytics_title	Analytics	分析	Google Firebase Analytics	
+daily_dozen_only	setting_doze_only_btn	Daily Dozen\nOnly	仅限每日12清單\n	First Launch Setting: button text	
+	setting_doze_only_choice	Daily Dozen Only	仅限每日12清單	Preference Settings View: selection button text	
+daily_dozen_and_tweaks	setting_doze_tweak_btn	Daily Dozen +\n21 Tweaks	每日21項調整\n	First Launch Setting: button text	
+	setting_doze_tweak_choice	Daily Dozen + 21 Tweaks	每日12清單 + 每日21項調整	Preference Settings View: selection button text	
+	setting_doze_tweak_footer	For health alone, use “Daily Dozen Only”. For health and weight loss use “Daily Dozen + 21 Tweaks”.	僅為健康考慮，使用「每日12清單」。為了健康和減重，則使用「每日12清單 + 21項調整」。	Preference Settings View: brief description text below Tweaks visibility control.	
+for_health_alone	setting_health_alone_txt	For Health Alone	僅為健康	First Launch Setting: brief description above ‘Daily Dozen Only’ button.	
+for_health_and_weight_loss	setting_health_weight_txt	For Health and Weight Loss	为健康和减重	First Launch Setting: brief description above ‘Daily Dozen + 21 Tweaks’ button.	
+	setting_tweak_header	21 Tweaks Visibility	21項調整的可見性	Preference Settings View: tweaks visibilty subsection heading	
+	setting_units_0_imperial	Imperial	英制	Preference Settings View: Part of ‘Imperial/Metric/Toggle Units’ selector	
+	setting_units_1_metric	Metric	公制	Preference Settings View: Part of ‘Imperial/Metric/Toggle Units’ selector	
+	setting_units_2_toggle	Toggle Units	切換單位	Preference Settings View: Part of ‘Imperial/Metric/Toggle Units’ selector	
+	setting_units_choice_footer	Set to always be one unit type or enable the ‘Units:’ toggle button.	設置為始終為一種單位類型，或啟用「單位：」切換按鈕。	Preference Settings View: brief description text below units control.	
+	setting_units_header	Measurement Units	計量單位	Preference Settings View	
+	setting_util_advanced	Advanced Utilities	進階工具	Preference Settings View	
+format_num_days	streakDaysFormat	%d days	%d 天	‘Streak’ count. Synonym: ‘Progress‘. Formatted number ‘%d’ for consecutive days completed. Place translated text for ‘days’ on the right or left of ‘%d’ based on language directionality.	
+	tweak_detail_section_activity	Activity	活動	Tweaks Detail view section heading	
+	tweak_detail_section_description	Description	描述	Tweaks Detail view section heading	
+twenty_one_tweaks	tweak_entry_header	21 Tweaks	21項調整	Tweaks daily entry header	
+complete_intentions	tweakCompleteIntentions.heading	Complete Your Implementation Intentions	完成您的實施意圖	heading for daily data entry item	
+complete_intentions_short	tweakCompleteIntentions.short	Complete Your Implementation Intentions	完成您的實施意圖		
+complete_intentions_text	tweakCompleteIntentions.text	Every two months, create three new implementation intentions—“if X, then Y” plans to perform a particular behavior in a specific context—and check each one of them off as you complete them every day.	每兩個月，創建三個新的實施意圖-“如果是X，則是Y”計劃在特定的上下文中執行特定的行爲-並在每天完成它們時檢查每個目標。		
+daily_blackcumin	tweakDailyBlackCumin.heading	Black Cumin (¼ tsp)	黑孜然（¼茶匙）	heading for daily data entry item	
+daily_blackcumin_short	tweakDailyBlackCumin.short	Black Cumin (Nigella sativa) (¼ tsp)	黑孜然（¼茶匙）		
+daily_blackcumin_text	tweakDailyBlackCumin.text	As noted in the Appetite Suppression section, a systematic review and meta-analysis of randomized, controlled weight-loss trials found that about a quarter teaspoon of black cumin powder every day appears to reduce body mass index within a span of a couple of months. Note that black cumin is different from regular cumin, for which the dosing is different.	如同在抑制食慾一節中所提到的，一項隨機、對照的減重試驗系統回顧和元分析發現，每天大約¼茶匙（約1.25毫升）的黑孜然粉在幾個月的時間內似乎能降低體質指數。請注意，黑孜然與普通孜然不同，其劑量也有所不同。		
+daily_cumin	tweakDailyCumin.heading	Cumin (½ tsp with lunch and dinner)	孜然（午餐和晚餐½茶匙）	heading for daily data entry item	
+daily_cumin_short	tweakDailyCumin.short	Cumin (Cuminum cyminum) (½ tsp with lunch and dinner)	孜然（午餐和晚餐½茶匙）		
+daily_cumin_text	tweakDailyCumin.text	Overweight women randomized to add a half teaspoon of cumin to their lunches and dinners beat out the control group by four more pounds and an extra inch off their waists. There is also evidence to support the use of the spice saffron, but a pinch a day would cost a dollar, whereas a teaspoon of cumin costs less than ten cents.	被隨機分配在午餐和晚餐中加入半茶匙（約2.5毫升）孜然的超重女性，比對照組多減輕了約1.8公斤（4磅），並且腰圍額外減少了約2.5公分。同時，也有證據支持使用藏紅花這種香料，但每天一撮的成本為1美元，而一茶匙孜然的成本不到10美分。		
+daily_deflourdiet	tweakDailyDeflourDiet.heading	Deflour Your Diet	減少麵粉食品	heading for daily data entry item	
+daily_deflourdiet_short	tweakDailyDeflourDiet.short	Deflour Your Diet	減少麵粉食品		
+daily_deflourdiet_text	tweakDailyDeflourDiet.text	Check this box every day your whole grain servings are in the form of intact grains. The powdering of even 100 percent whole grains robs our microbiomes of the starch that would otherwise be ferried down to our colons enclosed in unbroken cell walls.	如果您每天攝入的全穀物都是以完整穀物的形式，請勾選此框。即使是100%全穀物，粉末化也會剝奪我們的微生物群能夠得到的澱粉。這些澱粉原本會被完整的細胞壁包裹著送到我們的結腸。		
+daily_frontload	tweakDailyFrontLoad.heading	Front-Load Your Calories	前置您的卡路里攝入	heading for daily data entry item	
+daily_frontload_short	tweakDailyFrontLoad.short	Front-Load Your Calories	前置您的卡路里攝入		
+daily_frontload_text	tweakDailyFrontLoad.text	There are metabolic benefits to distributing more calories to earlier in the day, so make breakfast (ideally) or lunch your largest meal of the day in true king/prince/pauper style.	在一天中的早些時候分配更多的卡路里有代謝的好處，就像中文俗話「早上吃飽、中午吃好、晚上吃少」，理想狀態下，早餐或午餐應是您一天中最大的一餐。		
+daily_garlic	tweakDailyGarlic.heading	Garlic Powder (¼ tsp)	大蒜粉（¼茶匙）	heading for daily data entry item	
+daily_garlic_short	tweakDailyGarlic.short	Garlic Powder (¼ tsp)	大蒜粉（¼茶匙）		
+daily_garlic_text	tweakDailyGarlic.text	Randomized, double-blind, placebo-controlled studies have found that as little as a daily quarter teaspoon of garlic powder can reduce body fat at a cost of perhaps two cents a day.	隨機、雙盲、安慰劑對照的研究發現，每天少到一茶匙的大蒜粉就可以減少體內脂肪，每天的費用可能只有兩美分。		
+daily_ginger	tweakDailyGinger.heading	Ground Ginger (1 tsp) or Cayenne Pepper (½ tsp)	生薑粉（1茶匙）或卡宴辣椒粉（½茶匙）	heading for daily data entry item	
+daily_ginger_short	tweakDailyGinger.short	Ground Ginger (1 tsp) or Cayenne Pepper (½ tsp)	生薑粉（1茶匙）或卡宴辣椒粉（½茶匙）		
+daily_ginger_text	tweakDailyGinger.text	Randomized controlled trials have found that ¼ teaspoon to 1½ teaspoons a day of ground ginger significantly decreased body weight for just pennies a day. It can be as easy as stirring the ground spice into a cup of hot water. Note: Ginger may work better in the morning than evening. Chai tea is a tasty way to combine the green tea and ginger tricks into a single beverage. Alternately, for BAT activation, you can add one raw jalapeño pepper or a half teaspoon of red pepper powder (or, presumably, crushed red pepper flakes) into your daily diet. To help beat the heat, you can very thinly slice or finely chop the jalapeño to reduce its bite to little prickles, or mix the red pepper into soup or the whole-food vegetable smoothie I featured in one of my cooking videos on NutritionFacts.org.	隨機對照試驗發現，每天攝入¼茶匙至1½茶匙的磨碎生薑可以顯著減少體重，而且成本僅為每天幾分錢。這可以像將磨碎的生薑攪入一杯熱水那樣簡單。注意：生薑在早上可能比晚上效果更好。印度香料茶是將綠茶和生薑的妙招結合成一種飲料的美味方式。或者，為了激活棕色脂肪組織（BAT），您可以將一個生的墨西哥辣椒或半茶匙紅辣椒粉（或者，假設可以是碎紅辣椒片）加入您的日常飲食中。為了幫助抵抗辣味，您可以將墨西哥辣椒切成非常薄的片或細碎，以減少其辛辣程度，或者將紅辣椒混入湯中，或像是我在NutritionFacts.org上發佈過的全食物蔬食蔬果昔烹飪視頻中。		
+daily_greentea	tweakDailyGreenTea.heading	Green Tea (3 cups)	綠茶（3杯）	heading for daily data entry item	
+daily_greentea_short	tweakDailyGreenTea.short	Green Tea (3 cups)	綠茶（3杯）		
+daily_greentea_text	tweakDailyGreenTea.text	Drink three cups a day between meals (waiting at least an hour after a meal so as to not interfere with iron absorption). During meals, drink water, black coffee, or hibiscus tea mixed 6:1 with lemon verbena, but never exceed three cups of fluid an hour (important given my water preloading advice). Take advantage of the reinforcing effect of caffeine by drinking your green tea along with something healthy you wish you liked more, but don’t consume large amounts of caffeine within six hours of bedtime. Taking your tea without sweetener is best, but if you typically sweeten your tea with honey or sugar, try yacon syrup instead.	每天在餐間飲用三杯（至少在餐後等候一小時再飲用，以免干擾鐵的吸收）。在用餐時，可飲用水、黑咖啡或與檸檬馬鞭草混合的洛神花茶（比例為6:1），但每小時的液體攝入量不要超過三杯（鑑於我之前關於預先補水的建議，這一點很重要）。利用咖啡因的增強效應，將綠茶與您希望更喜歡的健康食品一同飲用，但不要在睡前六小時內攝入大量咖啡因。不加甜味劑飲用茶是最好的，但如果您通常用蜂蜜或糖來甜化茶，可以嘗試使用雅康糖漿代替。		
+daily_hydrate	tweakDailyHydrate.heading	Stay Hydrated	充分補水	heading for daily data entry item	
+daily_hydrate_short	tweakDailyHydrate.short	Stay Hydrated	充分補水		
+daily_hydrate_text	tweakDailyHydrate.text	Check this box if your urine never appears darker than a pale yellow.\n\nNote that if you’re eating riboflavin-fortified foods (such as nutritional yeast), then base this instead on getting nine cups of unsweetened beverages a day for women (which would be taken care of by the green tea and water preloading recommendations) or thirteen cups a day for men.\n\nIf you have heart or kidney issues, don’t increase fluid intake at all without first talking with your physician.\n\nRemember, diet soda may be calorie-free, but it’s not consequence-free, as we learned in the Low in Added Sugar section.	如果您的尿液從來不顯示出比淡黃色更深的顏色，請勾選此框。請注意，如果您食用富含核黃素的食物（如營養酵母），那麼請根據每天攝取9杯無糖飲料（對於女性來說，這可以通過綠茶和預先補水的建議來滿足）或每天13杯（對於男性）來判斷。  如果您有心臟或腎臟問題，在未與您的醫生商談前，請不要增加液體攝入量。記住，雖然無糖汽水可能不含卡路里，但並非沒有後果，正如我們在「低添加糖」一節中了解到的那樣。		
+daily_nutriyeast	tweakDailyNutriYeast.heading	Nutritional Yeast (2 tsp)	營養酵母（2茶匙）	heading for daily data entry item	
+daily_nutriyeast_short	tweakDailyNutriYeast.short	Nutritional Yeast (2 tsp)	營養酵母（2茶匙）		
+daily_nutriyeast_text	tweakDailyNutriYeast.text	Two teaspoons of baker’s, brewer’s, or nutritional yeast contains roughly the amount of beta 1,3/1,6 glucans found in randomized, double-blind, placebo-controlled clinical trials to facilitate weight loss.	兩茶匙的烘焙酵母、啤酒酵母或營養酵母大約含有在隨機、雙盲、安慰劑對照臨床試驗中發現的β-1,3/1,6葡聚糖的量，這些葡聚糖有助於減輕體重。		
+daily_timerestrict	tweakDailyTimeRestrict.heading	Time-Restrict Your Eating	限時飲食	heading for daily data entry item	
+daily_timerestrict_short	tweakDailyTimeRestrict.short	Time-Restrict Your Eating	限時飲食		
+daily_timerestrict_text	tweakDailyTimeRestrict.text	Confine eating to a daily window of time of your choosing under twelve hours in length that you can stick to consistently, seven days a week. Given the circadian benefits of reducing evening food intake, the window should end before 7:00 p.m.	將每日進食時間限制在您選擇的不超過12小時的時間窗口內，並能夠每週七天持續遵守。鑒於減少晚間食物攝入的生理時鐘好處，這個時間窗口應在晚上7點之前結束。		
+exercise_timing	tweakExerciseTiming.heading	Optimize Exercise Timing	優化運動時間	heading for daily data entry item	
+exercise_timing_short	tweakExerciseTiming.short	Optimize Exercise Timing	優化運動時間		
+exercise_timing_text	tweakExerciseTiming.text	The Daily Dozen’s recommendation for optimum exercise duration for longevity is ninety minutes of moderately intense activity a day, which is also the optimum exercise duration for weight loss. Anytime is good, and the more, the better, but there may be an advantage to exercising in a fasted state, at least six hours after your last meal. Typically, this would mean before breakfast, but if you timed it right, you could exercise midday before a late lunch or, if lunch is eaten early enough, before dinner. This is the timing for nondiabetics. Diabetics and prediabetics should instead start exercising thirty minutes after the start of a meal and ideally go for at least an hour to completely straddle the blood sugar peak. If you had to choose a single meal to exercise after, it would be dinner, due to the circadian rhythm of blood sugar control that wanes throughout the day. Ideally, though, breakfast would be the largest meal of the day, and you’d exercise after that—or, even better, after every meal.	為了延壽，《每日12清單》推薦的最佳運動時間為每天90分鐘的中等強度活動，這也是減重的最佳運動時間。任何時間運動都好，而且越多越好，但在空腹狀態下運動可能有優勢，至少要在最後一餐後六小時。通常，這意味著在早餐前運動，但如果您安排得當，您可以在午餐前或晚餐前運動，前提是午餐吃得夠早。這是非糖尿病患者的時間安排。糖尿病患者和糖尿病前期患者應該在進餐開始後30分鐘開始運動，理想情況下至少持續一小時，完全覆蓋血糖高峰期。如果您必須選擇一餐後運動，那應該是晚餐，因為血糖控制的晝夜節律會隨著一天的過去而減弱。理想情況下，早餐應該是一天中最大的一餐，並應該在那之後運動，或者更好的是，每餐後都運動。		
+meal_twentyminutes	tweakMeal20Minutes.heading	Follow the Twenty-Minute Rule	遵循20分鐘規則	heading for daily data entry item	
+meal_twentyminutes_short	tweakMeal20Minutes.short	Follow the Twenty-Minute Rule	遵循20分鐘規則		
+meal_twentyminutes_text	tweakMeal20Minutes.text	Whether through increasing viscosity or the number of chews, or decreasing bite size and eating rate, dozens of studies have demonstrated that no matter how we boost the amount of time food is in our mouths, it can result in lower caloric intake. So extend meal duration to at least twenty minutes to allow your natural satiety signals to take full effect. How? By choosing foods that take longer to eat and eating them in a way that prolongs the time they stay in your mouth. Think bulkier, hardier, chewier foods in smaller, well-chewed bites.	無論是通過增加粘度、咀嚼次數，還是減少每口食物的大小和進食速度，數十項研究都表明，無論我們如何增加食物在口中停留的時間，都可能導致攝入的熱量降低。因此，將用餐時間延長至少20分鐘，以讓您的自然飽腹感充分發揮作用。如何做到？通過選擇需要更長時間吃的食物，並以延長它們在口中停留時間的方式進食。想想那些體積更大、結實、耐嚼的食物，並且以小口、咀嚼充分的方式食用。		
+meal_negcal	tweakMealNegCal.heading	Preload with “Negative Calorie” Foods	預先吃「負熱量」食品	heading for daily data entry item	
+meal_negcal_short	tweakMealNegCal.short	Preload with “Negative Calorie” Foods	預先吃「負熱量」食品		
+meal_negcal_text	tweakMealNegCal.text	As the first course, start each meal with an apple or a Green Light soup or salad containing fewer than one hundred calories per cup.	作爲第一道菜，每餐都以每杯少於100卡路里的蘋果、「綠燈」湯或色拉開始。		
+meal_undistracted	tweakMealUndistracted.heading	Enjoy Undistracted Meals	專心用餐	heading for daily data entry item	
+meal_undistracted_short	tweakMealUndistracted.short	Enjoy Undistracted Meals	專心用餐		
+meal_undistracted_text	tweakMealUndistracted.text	Don’t eat while watching TV or playing on your phone. Give yourself a check for each meal you’re able to eat without distraction.	看電視或玩手機時不要吃飯。每當您可以不分心地進食一餐，就給自己打個勾。		
+meal_vinegar	tweakMealVinegar.heading	Incorporate Vinegar (2 tsp with each meal)	加醋（每餐2茶匙）	heading for daily data entry item	
+meal_vinegar_short	tweakMealVinegar.short	Incorporate Vinegar (2 tsp with each meal)	加醋（每餐2茶匙）		
+meal_vinegar_text	tweakMealVinegar.text	Never drink vinegar straight. Instead, flavor meals or dress a side salad with any of the sweet and savory vinegars out there. If you want to drink it, make sure to mix it in a glass of water and, afterward, be sure to rinse your mouth out with water to protect your tooth enamel.	切勿直接喝醋。把醋作爲調料或配上沙拉配甜味和鹹味醋。如果要喝，請確保將其與一杯水混合，然後再用水沖洗口腔以保護牙釉質。		
+meal_water	tweakMealWater.heading	Preload with Water	預先補水	heading for daily data entry item	
+meal_water_short	tweakMealWater.short	Preload with Water	預先補水		
+meal_water_text	tweakMealWater.text	Time your metabolism-boosting two cups of cool or cold unflavored water before each meal to also take advantage of its preload benefits.	在每餐前，安排好時間飲用兩杯涼爽或冷卻、無調味的水，以利用其預先補充的好處，從而提升新陈代谢。		
+nightly_fast	tweakNightlyFast.heading	Fast After 7:00 pm	晚上７點後禁食	heading for daily data entry item	
+nightly_fast_short	tweakNightlyFast.short	Fast After 7:00 p.m.	晚上７點後禁食		
+nightly_fast_text	tweakNightlyFast.text	Due to our circadian rhythms, food eaten at night is more fattening than the exact same food eaten earlier in the day, so fast every night for at least twelve hours starting before 7:00 p.m. The fewer calories after sundown, the better.	由於我們的晝夜節律，晚上進食的食物比白天早些時候吃的完全相同的食物更容易發胖，所以由每天晚上7點前開始，至少每晚要禁食12個小時。日落後卡路里攝入越少越好。		
+nightly_sleep	tweakNightlySleep.heading	Get Sufficient Sleep	獲得充足的睡眠	heading for daily data entry item	
+nightly_sleep_short	tweakNightlySleep.short	Get Sufficient Sleep	獲得充足的睡眠		
+nightly_sleep_text	tweakNightlySleep.text	Check this box if you get at least seven hours of sleep at your regular bedtime.	如果您在正常就寢時間至少有七個小時的睡眠時間，請打勾。		
+nightly_trendelenburg	tweakNightlyTrendelenbrug.heading	Experiment with Mild Trendelenburg	試試睡覺時讓頭稍微比較低	heading for daily data entry item	
+nightly_trendelenburg_short	tweakNightlyTrendelenbrug.short	Experiment with Mild Trendelenburg	試試睡覺時讓頭稍微比較低		
+nightly_trendelenburg_text	tweakNightlyTrendelenbrug.text	Try spending at least four hours a night lying with your body tilted head-down six degrees by elevating the posts at the foot of your bed by eight inches (or by nine inches if you have a California king). Be extremely careful when you get out of bed, as this causes orthostatic intolerance in most people, even if you’re young and healthy—meaning if you get up too fast, you can feel dizzy, faint, or light-headed and could fall and hurt yourself. So get up slowly. Drinking two cups of cold water thirty minutes before rising may also help prevent this potentially hazardous side effect.\n\n*IMPORTANT: Do not try this at home at all if you have any heart or lung issues, acid reflux, or problems with your brain (like head trauma) or eyes (even a family history of glaucoma disqualifies you). Also do not try this until you ask your physician if they think it’s safe for you to sleep in mild Trendelenburg.*	嘗試每晚至少花四小時躺在床上，將床尾的支柱抬高20公分（如果您有加州特大號床，則提高23公分），使身體呈現頭部低於六度的傾斜狀態。起床時要非常小心，因為這會在大多數人身上引起直立性不耐受，即使您年輕且健康——意味著如果您起床太快，可能會感到頭暈、昏厥或頭輕，可能會跌倒並受傷。所以起床時要慢慢來。在起身前三十分鐘喝兩杯冷水，也可能有助於預防這種潛在的危險副作用。  *重要提示：如果您有任何心臟或肺部問題、酸逆症，或者大腦（如頭部創傷）或眼睛（即使是家族史中有青光眼）的問題，請勿在家嘗試這種做法。在問過您的醫生並且他們認為您躺在輕度的特倫德倫伯臥位姿勢下睡覺是安全的之前，也不要嘗試這種做法。*		
+weigh_twice	tweakWeightTwice.heading	Weigh Yourself Twice a Day	一天兩次自我稱重	heading for daily data entry item	
+weigh_twice_short	tweakWeightTwice.short	Weigh Yourself Twice a Day	一天兩次自我稱重		
+weigh_twice_text	tweakWeightTwice.text	Regular self-weighing is considered crucial for long-term weight control, but there is insufficient evidence to support a specific frequency of weighing. My recommendation is based on the one study that found that twice daily—upon waking and right before bed—appeared superior to once a day (about six versus two pounds of weight loss over twelve weeks).	定期自我稱重對於長期控制體重至關重要，但沒有足夠的證據支持特定的稱重頻率。我的建議是根據一項研究。該研究發現每天秤重兩次（起床時和就寢前），似乎效果比每天一次來得更好（在12周內體重減輕約6磅，對比2磅）。		
+units	units_label	Units	單位		
+imperial	unitToggle.imperial	Imperial	英制	Units toggle button text: imperial measurement system	
+metric	unitToggle.metric	Metric	公制	Units toggle button text: metric measurement system	
+videos	videos.link.label	Videos	影片	Label for hyperlink to nutritionfacts.org video topics	
+	weight_entry_clear	Clear	清除	Weight Daily Entry: clear button which deletes values	
+	weight_entry_evening	Evening (right before bed)	夜間（就寢前）	Weight Daily Entry: label	
+	weight_entry_morning	Morning (upon waking)	早晨（起床時）	Weight Daily Entry: label	
+	weight_entry_time	Time	時間	Weight Daily Entry: label	
+	weight_entry_units_kg	kg	公斤	Weight Daily Entry Units: label	
+	weight_entry_units_lbs	lbs	磅	Weight Daily Entry Units: label	
+	weight_history_edit_data	Edit Data	編輯數據	Weight Daily Entry: edit button to change values	
+weight	weightEntry.heading	Weight	體重	Weight Daily Entry: heading	
+about_text_lines.0		This app was created by John Slavick.	本應用程式是由John Slavick所製作的		
+about_text_lines.1					
+about_text_lines.2		The following open source libraries are used: ActiveAndroid, android-iconify, EventBus, LikeAnimation, and MPAndroidChart.	使用了以下免費程式庫：ActiveAndroid、android-iconify、EventBus、LikeAnimation和MPAndroidChart。		
+about_text_lines.3					
+about_text_lines.4		Special thanks to the volunteer efforts of the creators of the previous app: Chan Kruse, Allan Portera, and Sangeeta Kumar.	特別感謝製作前一代應用程式志願者的貢獻：Chan Kruse、Allan Portera和Sangeeta Kumar。		
+about_tweak		About Tweak	關於調整		
+average_weight_on_day		Average weight on day	日平均體重		
+backup		Backup	備份		
+backup_failed		Backup failed	備份失敗		
+backup_instructions_lines.0		Follow these steps to restore this backup in the Daily Dozen app	按照以下步驟在《每日12清單》應用程序中還原此備份：		
+backup_instructions_lines.1					
+backup_instructions_lines.2		1. The Daily Dozen app must be installed on your Android phone. You can download it here: https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen	1. 您必須在安卓手機上安裝《每日12清單》應用程序。您可以從這裡下載： https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen		
+backup_instructions_lines.3					
+backup_instructions_lines.4		2. Tap on the backup file attached to this email.	2. 點擊附加在此電子郵件的備份檔案。		
+backup_instructions_lines.5					
+backup_instructions_lines.6		3. Select Open with Daily Dozen	3. 選擇以《每日12清單》應用程式開啟		
+backup_success		Backup successful	備份成功		
+channel_reminders_name		Reminders	提醒		
+daily_reminder_settings		Daily Reminder Settings	每日提醒設定	a reminder that is triggered every day	
+daily_reminder_title		Daily Dozen Reminder	每日12清單提醒		
+daily_servings_history		Daily Servings History	每日份量歷史紀錄		
+daily_tweaks_history		Daily Tweaks History	每日調整記錄		
+debug		Debug	偵錯		
+debug_clear_data		Clear all data	清除所有數據		
+debug_clear_data_message		This will delete all entered Servings. Do you wish to continue?	這將刪除所有已輸入的份量。確定要繼續嗎？		
+debug_generate_data_message		All existing data will be replaced. Do you wish to continue?	所有現存的數據都將被取代。確定要繼續嗎？		
+debug_generate_full_data		Generate full data	產生完整數據		
+debug_generate_random_data		Generate random data	產生隨機數據		
+debug_generate_weight_data		Generate Weight Data	產生體重數據		
+dialog_ask_user_to_rate_app_message		Please give us feedback in the Play Store.	請在應用程式商店中給我們指教。		
+dialog_ask_user_to_rate_app_title		Do you like this app?	您喜歡這個應用程式嗎？		
+dialog_no_email_apps_message		Backing up your data requires you to have an email app installed so you can email the backup file to yourself. Please install an email app and try again.	您需要安裝電子郵件應用程式才能使用備份數據功能，並將備份檔案寄到自己的電子郵件信箱。請安裝電子郵件應用程式後再重試。		
+dialog_no_email_apps_title		No email apps found	找不到電子郵件應用程式		
+dialog_streaks_message		Your database will now be upgraded to support the new streaks feature.	現在將升級您的資料庫，以支持新的連勝功能。		
+dialog_streaks_title		New feature: Streaks!	新功能：連勝！		
+enable_daily_reminder		Enable Daily Reminder	啟用每日提醒	On/Off toggle label	
+error_cannot_handle_url		Could not open url. Please install a browser.	無法開啟網頁。請安裝瀏覽器。		
+food_history		Food History	食物歷史紀錄		
+food_info		Food Info	食物資訊		
+format_version		version %s	版本 %s	Place `%s` where the software should substitue in the version number.	
+history_to_generate		History to Generate	產生歷史記錄		
+history_to_generate_choices.0		1 month	1個月		
+history_to_generate_choices.1		3 months	3個月		
+history_to_generate_choices.2		6 months	6個月		
+history_to_generate_choices.3		1 year	1年		
+history_to_generate_choices.4		2 years	2年		
+history_to_generate_choices.5		5 years	5年		
+no		No	否		
+no_servings_recorded		You have not recorded any servings yet!	您尚未紀錄任何份量！		
+no_weights_recorded		You have not recorded any weights yet!	您尚未記錄任何體重！		
+not_now		Not Now	稍後再說		
+out_of		out of	/	Part of ‘0 out of 24’	
+permission_needed_to_write_storage		Can’t backup without permission to write to storage	不具權限，無法備份至記憶體		
+rate_now		Give Feedback	提供反饋		
+restore_confirm_message		Any existing data will be deleted before restoring from backup. Do you wish to continue?	在從備份資料還原前，所有現存的數據都會被刪除。確定要繼續嗎？		
+restore_confirm_title		Restore Backup	還原備份		
+restore_failed		Restore failed	還原失敗		
+restore_success		Restore successful	還原成功		
+task_backup_title		Backing up	備份中		
+task_calculating_streaks_title		Calculating streaks	計算連勝	:WIP: progress	
+task_generating_random_data		Generating random data	產生隨機數據		
+task_loading_servings_history_title		Loading Servings History	載入份量歷史記錄		
+task_loading_weights_history_title		Loading Weights History	體重歷史加載中		
+task_restore_title		Restoring	還原中		
+title_cookbook		Cookbook	食譜		
+title_how_not_to_die		How Not to Die	食療聖經		
+title_how_not_to_diet		How Not to Diet	食療聖經減重版		
+tweak_group_daily		Every Day	每天		
+tweak_group_dailydoses		Take your daily doses	每天服用		
+tweak_group_meal		At Each Meal	每頓飯		
+tweak_group_nightly		Every Night	每天晚上		
+yes		Yes	是		
