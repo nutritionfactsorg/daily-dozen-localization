@@ -63,6 +63,18 @@ LOGGER_FILENAME="_log_FromTsvIntake+BC_Catalan_ca"
 SOURCE_TSV_INCLUDE="Catalan/tsv/v05_Peanuts/Catalan_ca.app.v05.tsv"
 DO_NORMALIZE_BATCH
 
+#########################
+## Chinese Traditional ##
+#########################
+LOGGER_FILENAME="_log_FromTsvIntake+BC_Chinese_zh-Hant"
+## -- (zh-Hant) process app --
+SOURCE_TSV_INCLUDE="Chinese_Traditional/tsv/v05_Peanuts/Chinese_Traditional_zh-Hant.app.v05.tsv"
+DO_NORMALIZE_BATCH
+
+## -- (zh-Hant) process store --
+#SOURCE_TSV_INCLUDE="Chinese_Traditional/tsv/v05_Peanuts/Chinese_Traditional_zh-Hant.store.tsv"
+#DO_NORMALIZE_BATCH
+
 ###########
 ## Czech ##
 ###########
@@ -179,15 +191,6 @@ URL_TOPICS_TSV="English_US/tsv/v05_Peanuts/English_US_en.url_topics.v05.tsv"
 LOGGER_FILENAME="_log_FromTsvIntake+BC_Chinese_zh-Hans"
 ## -- (zh-Hans) process app --
 SOURCE_TSV_INCLUDE="Chinese_Simplified/tsv/v05_Peanuts/Chinese_Simplified_zh-Hans.app.v05.tsv"
-DO_NORMALIZE_BATCH
-
-#########################
-## Chinese Traditional ##
-#########################
-## NOTE: zh - mosly traditional in original Android translation
-LOGGER_FILENAME="_log_FromTsvIntake+BC_Chinese_zh-Hant"
-## -- (zh-Hant) process app --
-SOURCE_TSV_INCLUDE="Chinese_Traditional/tsv/v05_Peanuts/Chinese_Traditional_zh-Hant.app.v05.tsv"
 DO_NORMALIZE_BATCH
 
 ###########
