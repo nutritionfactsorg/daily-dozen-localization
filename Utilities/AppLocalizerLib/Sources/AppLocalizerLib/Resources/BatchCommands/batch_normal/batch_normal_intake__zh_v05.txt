@@ -48,9 +48,9 @@ DO_NORMALIZE_BATCH
 #########################
 LOGGER_FILENAME="_log_FromTsvIntake_Chinese_zh-Hant"
 ## -- (zh-Hant) process app --
-SOURCE_TSV_INCLUDE="Chinese_Traditional/tsv/v05_Peanuts/Chinese_Traditional_zh-Hant.app.v05.20231127.intake.tsv"
+SOURCE_TSV_INCLUDE="Chinese_Traditional/tsv/v05_Peanuts/Chinese_Traditional_zh-Hant.app.v05.20231204.intake.tsv"
 DO_NORMALIZE_BATCH
 
 ## -- (zh-Hant) process store --
-#SOURCE_TSV_INCLUDE="Chinese_Traditional/tsv/v05_Peanuts/Chinese_Traditional_zh-Hant.store.tsv"
-#DO_NORMALIZE_BATCH
+SOURCE_TSV_INCLUDE="Chinese_Traditional/tsv/v05_Peanuts/Chinese_Traditional_zh-Hant.store.v05.20231204.intake.tsv"
+DO_NORMALIZE_BATCH
