@@ -477,7 +477,7 @@ weigh_twice_text	tweakWeightTwice.text	Regular self-weighing is considered cruci
 units	units_label	Units	единици		
 imperial	unitToggle.imperial	Imperial	имперски	Units toggle button text: imperial measurement system	
 metric	unitToggle.metric	Metric	метричен	Units toggle button text: metric measurement system	
-videos	videos.link.label	Videos	Видео клипове	Label for hyperlink to nutritionfacts.org video topics	
+videos	videos.link.label	Videos	Видео	Label for hyperlink to nutritionfacts.org video topics	
 	weight_entry_clear	Clear	Clear	Weight Daily Entry: clear button which deletes values	
 	weight_entry_evening	Evening (right before bed)	Evening (right before bed)	Weight Daily Entry: label	
 	weight_entry_morning	Morning (upon waking)	Morning (upon waking)	Weight Daily Entry: label	
