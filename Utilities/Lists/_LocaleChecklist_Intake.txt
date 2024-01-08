@@ -11,6 +11,10 @@
 
                 Catalan (ca)  20220318 20221123 interim_ interim_ _✓______ _✓______ ________
 
+ Chinese_Simplified (zh-Hans) _✓______ _✓______ _✓______ _✓______ _✓______ 20240107 ________
+
+Chinese_Traditional (zh-Hant) _✓______ _✓______ _✓______ _✓______ _✓______ ________ ________
+
                   Czech (cs)  20221019 20221024 20230210 20230112 _✓______ _✓______ ________
 
                  French (fr)  20230426 20230426 20230426 20230426 _✓______ _✓______ ________
@@ -37,15 +41,7 @@
 
 --- Checklist: Android Only ---
 
-    Chinese_Traditional (zh)  legacy__ 20220823 interim_ interim_ _✓______ _✓______ ________
-
                   Greek (el)  legacy__ 20220823 interim_ interim_ _✓______ _✓______ ________
 
                  Hebrew (iw)  same as Hebrew (he)
-
---- Checklist: In Progress --- 
-
- Chinese_Simplified (zh-Hans) ________ ________ ________ ________ ________ ________ ________
-
-Chinese_Traditional (zh-Hant) same as Chinese_Traditional (zh)
-
+                 
