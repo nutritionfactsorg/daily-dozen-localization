@@ -44,6 +44,18 @@ DO_NORMALIZE_BATCH
 #DO_NORMALIZE_BATCH
 
 #########################
+## Chinese_Simplified ##
+#########################
+LOGGER_FILENAME="_log_FromTsvIntake_Chinese_zh-Hans"
+## -- (zh-Hant) process app --
+SOURCE_TSV_INCLUDE="Chinese_Simplified/tsv/v05_Peanuts/Chinese_Simplified_zh-Hans.app.v05.20240107.intake.tsv"
+DO_NORMALIZE_BATCH
+
+## -- (zh-Hant) process store --
+SOURCE_TSV_INCLUDE="Chinese_Simplified/tsv/v05_Peanuts/Chinese_Simplified_zh-Hans.store.v05.20240107.intake.tsv"
+DO_NORMALIZE_BATCH
+
+#########################
 ## Chinese_Traditional ##
 #########################
 LOGGER_FILENAME="_log_FromTsvIntake_Chinese_zh-Hant"
