@@ -1,0 +1,528 @@
+key_droid	key_apple	base_value	lang_value	base_note	lang_note
+	CFBundleDisplayName	DailyDozen	دوازده‌تای روزانه	User-visible application name. Visible under icon. Used by Siri.	
+	CFBundleName	DailyDozen	دوازده‌تای روزانه	User-visible application short name (15 Characters max)	
+back_to_today	dateBackButtonTitle	Back to today	بازگشت به امروز	Date Button Title: ‘Back to today’	
+	dateButtonTitle.today	Today	امروز	Date Button Title: ‘Today’	
+serving_sizes	doze_detail_section_sizes	Serving Sizes (Suggested)	اندازه سهم‌ها	Doze Detail View subheading: ‘Serving Sizes’	
+types	doze_detail_section_types	Types	انواع	Doze Detail View subheading: ‘Types’	
+servings	doze_entry_header	Servings	سهم‌ها	Doze Entry View heading: ‘Servings’	
+beans	dozeBeans.heading	Beans	حبوبات	heading for daily data entry item	
+food_info_serving_sizes_beans_imperial.0	dozeBeans.Serving.imperial.0	¼ cup hummus or bean dip	یک‌چهارم فنجان حُمُص یا دیپ لوبیا		
+food_info_serving_sizes_beans_imperial.1	dozeBeans.Serving.imperial.1	½ cup cooked beans, split peas, or lentils	½ cup cooked beans, split peas, or lentils		
+food_info_serving_sizes_beans_imperial.2	dozeBeans.Serving.imperial.2	½ cup tofu or tempeh	½ cup tofu or tempeh		
+food_info_serving_sizes_beans_imperial.3	dozeBeans.Serving.imperial.3	1 cup fresh peas or snow peas	1 cup fresh peas or snow peas		
+food_info_serving_sizes_beans_imperial.4	dozeBeans.Serving.imperial.4	1 cup fresh sprouted beans (lentils, mung beans)	1 cup fresh sprouted beans (lentils, mung beans)		
+food_info_serving_sizes_beans_metric.0	dozeBeans.Serving.metric.0	60 g hummus or bean dip	۶۰ گرم حُمُص یا دیپ لوبیا		
+food_info_serving_sizes_beans_metric.1	dozeBeans.Serving.metric.1	90 g cooked beans, split peas, or lentils	90 g cooked beans, split peas, or lentils		
+food_info_serving_sizes_beans_metric.2	dozeBeans.Serving.metric.2	100 g tofu or tempeh	100 g tofu or tempeh		
+food_info_serving_sizes_beans_metric.3	dozeBeans.Serving.metric.3	130 g fresh peas or snow peas	130 g fresh peas or snow peas		
+food_info_serving_sizes_beans_metric.4	dozeBeans.Serving.metric.4	100 g fresh sprouted beans (lentils, mung beans)	100 g fresh sprouted beans (lentils, mung beans)		
+food_info_types_beans.0	dozeBeans.Variety.Text.0	Black beans	لوبیا سیاه		
+food_info_types_beans.1	dozeBeans.Variety.Text.1	Black-eyed peas	لوبیا چشم‌بلبلی		
+food_info_types_beans.2	dozeBeans.Variety.Text.2	Butter beans	لوبیا عروس		
+food_info_types_beans.3	dozeBeans.Variety.Text.3	Cannellini beans	لوبیا کشاورزی		
+food_info_types_beans.4	dozeBeans.Variety.Text.4	Chickpeas/Garbanzo Beans	نخود		
+food_info_types_beans.5	dozeBeans.Variety.Text.5	Edamame	اِدامامه (سویای نارس پخته‌شده)		
+food_info_types_beans.6	dozeBeans.Variety.Text.6	English peas	نخود فرنگی		
+food_info_types_beans.7	dozeBeans.Variety.Text.7	Great northern beans	سویا		
+food_info_types_beans.8	dozeBeans.Variety.Text.8	Kidney beans	لوبیا قرمز		
+food_info_types_beans.9	dozeBeans.Variety.Text.9	Lentils (beluga, french, and red varieties)	عدس (سیاه، سبز، زرد، قهوه‌ای و قرمز)		
+food_info_types_beans.10	dozeBeans.Variety.Text.10	Miso	میسو (خمیر سویا)		
+food_info_types_beans.11	dozeBeans.Variety.Text.11	Navy beans	لوبیا سفید		
+food_info_types_beans.12	dozeBeans.Variety.Text.12	Pinto beans	لوبیا چیتی		
+food_info_types_beans.13	dozeBeans.Variety.Text.13	Small red beans	لوبیا قرمز ریز		
+food_info_types_beans.14	dozeBeans.Variety.Text.14	Split peas (yellow or green)	لپه (زرد یا سبز)		
+food_info_types_beans.15	dozeBeans.Variety.Text.15	Tempeh	تِمپه		
+berries	dozeBerries.heading	Berries	توت‌ها	heading for daily data entry item	
+food_info_serving_sizes_berries_imperial.0	dozeBerries.Serving.imperial.0	½ cup fresh or frozen	یک‌دوم فنجان تازه یا منجمد		
+food_info_serving_sizes_berries_imperial.1	dozeBerries.Serving.imperial.1	¼ cup dried	یک‌چهارم فنجان خشک‌شده		
+food_info_serving_sizes_berries_metric.0	dozeBerries.Serving.metric.0	60 g fresh or frozen	۶۰ گرم تازه یا منجمد		
+food_info_serving_sizes_berries_metric.1	dozeBerries.Serving.metric.1	40 g dried	۴۰ گرم خشک‌شده		
+food_info_types_berries.0	dozeBerries.Variety.Text.0	Acai berries	توت آکای		
+food_info_types_berries.1	dozeBerries.Variety.Text.1	Barberries	زرشک		
+food_info_types_berries.2	dozeBerries.Variety.Text.2	Blackberries	تمشک		
+food_info_types_berries.3	dozeBerries.Variety.Text.3	Blueberries	توت‌آبی/سیاه گیله/بلوبِری		
+food_info_types_berries.4	dozeBerries.Variety.Text.4	Cherries (sweet or tart)	گیلاس یا آلبالو		
+food_info_types_berries.5	dozeBerries.Variety.Text.5	Concord grapes	انگور		
+food_info_types_berries.6	dozeBerries.Variety.Text.6	Cranberries	توت خرس/کرَن‌بری		
+food_info_types_berries.7	dozeBerries.Variety.Text.7	Goji berries	گوجی‌بِری		
+food_info_types_berries.8	dozeBerries.Variety.Text.8	Kumquats	کامکوات		
+food_info_types_berries.9	dozeBerries.Variety.Text.9	Mulberries	توت		
+food_info_types_berries.10	dozeBerries.Variety.Text.10	Raspberries (black or red)	رَزبِری (سیاه یا قرمز)		
+food_info_types_berries.11	dozeBerries.Variety.Text.11	Strawberries	توت فرنگی		
+beverages	dozeBeverages.heading	Beverages	نوشیدنی‌ها	heading for daily data entry item	
+food_info_serving_sizes_beverages_imperial.0	dozeBeverages.Serving.imperial.0	One glass (12 ounces)	یک لیوان (۱۲ اونس)		
+food_info_serving_sizes_beverages_metric.0	dozeBeverages.Serving.metric.0	One glass (350 ml)	یک لیوان (۳۵۰ میلی‌لیتر)		
+food_info_types_beverages.0	dozeBeverages.Variety.Text.0	Black tea	چای سیاه		
+food_info_types_beverages.1	dozeBeverages.Variety.Text.1	Chai tea	چای ماسالا		
+food_info_types_beverages.2	dozeBeverages.Variety.Text.2	Vanilla chamomile tea	چای وانیل و بابونه		
+food_info_types_beverages.3	dozeBeverages.Variety.Text.3	Coffee	قهوه		
+food_info_types_beverages.4	dozeBeverages.Variety.Text.4	Earl grey tea	چای اِرل گرِی		
+food_info_types_beverages.5	dozeBeverages.Variety.Text.5	Green tea	چای سبز		
+food_info_types_beverages.6	dozeBeverages.Variety.Text.6	Hibiscus tea	چای ترش		
+food_info_types_beverages.7	dozeBeverages.Variety.Text.7	Hot chocolate	شکلات داغ/هات چاکلت		
+food_info_types_beverages.8	dozeBeverages.Variety.Text.8	Jasmine tea	چای گل یاس		
+food_info_types_beverages.9	dozeBeverages.Variety.Text.9	Lemon balm tea	چای بادرَنجبویه		
+food_info_types_beverages.10	dozeBeverages.Variety.Text.10	Matcha tea	چای ماچا		
+food_info_types_beverages.11	dozeBeverages.Variety.Text.11	Almond blossom oolong tea	چای شکوفه بادام و اولانگ		
+food_info_types_beverages.12	dozeBeverages.Variety.Text.12	Peppermint tea	چای نعناع		
+food_info_types_beverages.13	dozeBeverages.Variety.Text.13	Rooibos tea	چای قرمز/چای رویبوس		
+food_info_types_beverages.14	dozeBeverages.Variety.Text.14	Water	آب		
+food_info_types_beverages.15	dozeBeverages.Variety.Text.15	White tea	چای سفید		
+exercise	dozeExercise.heading	Exercise	ورزش	heading for daily data entry item	
+food_info_serving_sizes_exercise_imperial.0	dozeExercise.Serving.imperial.0	90 minutes of moderate-intensity activity	۹۰ دقیقه فعالیت با شدت متوسط		
+food_info_serving_sizes_exercise_imperial.1	dozeExercise.Serving.imperial.1	40 minutes of vigorous-intensity activity	۴۰ دقیقه فعالیت با شدت بالا		
+food_info_serving_sizes_exercise_metric.0	dozeExercise.Serving.metric.0	90 minutes of moderate-intensity activity	۹۰ دقیقه فعالیت با شدت متوسط		
+food_info_serving_sizes_exercise_metric.1	dozeExercise.Serving.metric.1	40 minutes of vigorous-intensity activity	۴۰ دقیقه فعالیت با شدت بالا		
+food_info_types_exercise.0	dozeExercise.Variety.Text.0	Bicycling	دوچرخه‌سواری		
+food_info_types_exercise.1	dozeExercise.Variety.Text.1	Canoeing	قایق‌رانی		
+food_info_types_exercise.2	dozeExercise.Variety.Text.2	Dancing	رقص		
+food_info_types_exercise.3	dozeExercise.Variety.Text.3	Dodgeball	بازی وسطی		
+food_info_types_exercise.4	dozeExercise.Variety.Text.4	Downhill skiing	اسکی آلپاین		
+food_info_types_exercise.5	dozeExercise.Variety.Text.5	Fencing	شمشیربازی		
+food_info_types_exercise.6	dozeExercise.Variety.Text.6	Hiking	تپه‌نوردی		
+food_info_types_exercise.7	dozeExercise.Variety.Text.7	Housework	کار منزل/خانه‌داری		
+food_info_types_exercise.8	dozeExercise.Variety.Text.8	Ice-skating	اسکیت روی یخ		
+food_info_types_exercise.9	dozeExercise.Variety.Text.9	Inline skating	اسکیت این‌لاین		
+food_info_types_exercise.10	dozeExercise.Variety.Text.10	Juggling	ژانگولربازی/تردستی با توپ		
+food_info_types_exercise.11	dozeExercise.Variety.Text.11	Jumping on a trampoline	پریدن روی جَستانه/ترامپولین		
+food_info_types_exercise.12	dozeExercise.Variety.Text.12	Paddle boating	قایق‌سواری پدالی		
+food_info_types_exercise.13	dozeExercise.Variety.Text.13	Playing frisbee	بازی فریزبی		
+food_info_types_exercise.14	dozeExercise.Variety.Text.14	Roller-skating	رول‌اسکیت/پالیزه		
+food_info_types_exercise.15	dozeExercise.Variety.Text.15	Shooting baskets	پرتاب توپ در سبد		
+food_info_types_exercise.16	dozeExercise.Variety.Text.16	Shoveling light snow	پارو زدن برف سبک		
+food_info_types_exercise.17	dozeExercise.Variety.Text.17	Skateboarding	اسکیت‌بُردسواری		
+food_info_types_exercise.18	dozeExercise.Variety.Text.18	Snorkeling	غواصی سطحی/غواصی کم‌عمق/غواصی با لوله تنفسی		
+food_info_types_exercise.19	dozeExercise.Variety.Text.19	Surfing	موج‌سواری		
+food_info_types_exercise.20	dozeExercise.Variety.Text.20	Swimming recreationally	شنا		
+food_info_types_exercise.21	dozeExercise.Variety.Text.21	Tennis (doubles)	تنیس دو‌به‌دو/دوبل		
+food_info_types_exercise.22	dozeExercise.Variety.Text.22	Treading water	پای دوچرخه (شنا)		
+food_info_types_exercise.23	dozeExercise.Variety.Text.23	Walking briskly (4 mph)	راه رفتن تند (۶/۵ کیلومتر بر ساعت)		
+food_info_types_exercise.24	dozeExercise.Variety.Text.24	Water aerobics	اِروبیک آبی		
+food_info_types_exercise.25	dozeExercise.Variety.Text.25	Waterskiing	اسکی روی آب		
+food_info_types_exercise.26	dozeExercise.Variety.Text.26	Yard work	کارهای حیاط		
+food_info_types_exercise.27	dozeExercise.Variety.Text.27	Yoga	یوگا		
+food_info_types_exercise.28	dozeExercise.Variety.Text.28	Backpacking	کوله‌گردی		
+food_info_types_exercise.29	dozeExercise.Variety.Text.29	Basketball	بسکتبال		
+food_info_types_exercise.30	dozeExercise.Variety.Text.30	Bicycling uphill	دوچرخه‌سواری در سربالایی		
+food_info_types_exercise.31	dozeExercise.Variety.Text.31	Circuit weight training	تمرینات گردشی/چرخشی/دایره‌ای با وزنه		
+food_info_types_exercise.32	dozeExercise.Variety.Text.32	Cross-country skiing	اسکی صحرانوردی/کراس کانتری		
+food_info_types_exercise.33	dozeExercise.Variety.Text.33	Football	فوتبال آمریکایی		
+food_info_types_exercise.34	dozeExercise.Variety.Text.34	Hockey	هاکی		
+food_info_types_exercise.35	dozeExercise.Variety.Text.35	Jogging	دوی آهسته		
+food_info_types_exercise.36	dozeExercise.Variety.Text.36	Jumping jacks	پروانه		
+food_info_types_exercise.37	dozeExercise.Variety.Text.37	Jumping rope	طناب‌بازی		
+food_info_types_exercise.38	dozeExercise.Variety.Text.38	Lacrosse	لاکراس		
+food_info_types_exercise.39	dozeExercise.Variety.Text.39	Push-ups	شنای سوئدی		
+food_info_types_exercise.40	dozeExercise.Variety.Text.40	Pull-ups	بالاکش/بارفیکس/پول‌آپ		
+food_info_types_exercise.41	dozeExercise.Variety.Text.41	Racquetball	راکت‌بال		
+food_info_types_exercise.42	dozeExercise.Variety.Text.42	Rock climbing	صخره‌نوردی		
+food_info_types_exercise.43	dozeExercise.Variety.Text.43	Rugby	راگبی		
+food_info_types_exercise.44	dozeExercise.Variety.Text.44	Running	دویدن		
+food_info_types_exercise.45	dozeExercise.Variety.Text.45	Scuba diving	غواصی با تجهیزات و کپسول اکسیژن		
+food_info_types_exercise.46	dozeExercise.Variety.Text.46	Tennis (singles)	تنیس یک‌به‌یک/سینگل		
+food_info_types_exercise.47	dozeExercise.Variety.Text.47	Soccer	فوتبال		
+food_info_types_exercise.48	dozeExercise.Variety.Text.48	Speed skating	اسکیت سرعت		
+food_info_types_exercise.49	dozeExercise.Variety.Text.49	Squash	اِسکواش		
+food_info_types_exercise.50	dozeExercise.Variety.Text.50	Step aerobics	اِستِپ اِیروبیک		
+food_info_types_exercise.51	dozeExercise.Variety.Text.51	Swimming laps	زومبا		
+food_info_types_exercise.52	dozeExercise.Variety.Text.52	Walking briskly uphill	تند راه رفتن در سربالایی		
+food_info_types_exercise.53	dozeExercise.Variety.Text.53	Water jogging	دویدن نرم در آب		
+flaxseeds	dozeFlaxseeds.heading	Flaxseeds	تخم کتان	heading for daily data entry item	
+food_info_serving_sizes_flaxseeds_imperial.0	dozeFlaxseeds.Serving.imperial.0	1 tablespoon ground	۱ قاشق غذاخوری آسیاب‌شده		
+food_info_serving_sizes_flaxseeds_metric.0	dozeFlaxseeds.Serving.metric.0	1 tablespoon ground	۱ قاشق غذاخوری آسیاب‌شده		
+food_info_types_flaxseeds.0	dozeFlaxseeds.Variety.Text.0	Brown flaxseeds	تخم کتان قهوه‌ای		
+food_info_types_flaxseeds.1	dozeFlaxseeds.Variety.Text.1	Golden flaxseeds	تخم کتان طلایی		
+other_fruits	dozeFruitsOther.heading	Other Fruits	سایر میوه‌ها	heading for daily data entry item	
+food_info_serving_sizes_other_fruits_imperial.0	dozeFruitsOther.Serving.imperial.0	1 medium-sized fruit	۱ میوه با اندازه متوسط		
+food_info_serving_sizes_other_fruits_imperial.1	dozeFruitsOther.Serving.imperial.1	1 cup cut-up fruit	۱ فنجان میوه خردشده		
+food_info_serving_sizes_other_fruits_imperial.2	dozeFruitsOther.Serving.imperial.2	¼ cup dried fruit	یک‌چهارم فنجان میوه خشک‌شده		
+food_info_serving_sizes_other_fruits_metric.0	dozeFruitsOther.Serving.metric.0	1 medium-sized fruit	۱ میوه با اندازه متوسط		
+food_info_serving_sizes_other_fruits_metric.1	dozeFruitsOther.Serving.metric.1	120 g cut-up fruit	۱۲۰ گرم میوه خردشده		
+food_info_serving_sizes_other_fruits_metric.2	dozeFruitsOther.Serving.metric.2	40 g dried fruit	۴۰ گرم میوه خشک‌شده		
+food_info_types_other_fruits.0	dozeFruitsOther.Variety.Text.0	Apples	سیب		
+food_info_types_other_fruits.1	dozeFruitsOther.Variety.Text.1	Apricots	زردآلو		
+food_info_types_other_fruits.2	dozeFruitsOther.Variety.Text.2	Avocados	آووکادو		
+food_info_types_other_fruits.3	dozeFruitsOther.Variety.Text.3	Bananas	موز		
+food_info_types_other_fruits.4	dozeFruitsOther.Variety.Text.4	Cantaloupe	گرمک		
+food_info_types_other_fruits.5	dozeFruitsOther.Variety.Text.5	Clementines	یافا		
+food_info_types_other_fruits.6	dozeFruitsOther.Variety.Text.6	Dates	خرما		
+food_info_types_other_fruits.7	dozeFruitsOther.Variety.Text.7	Figs	انجیر		
+food_info_types_other_fruits.8	dozeFruitsOther.Variety.Text.8	Grapefruit	نارَنگور/گریپ‌فروت		
+food_info_types_other_fruits.9	dozeFruitsOther.Variety.Text.9	Honeydew	طالبی		
+food_info_types_other_fruits.10	dozeFruitsOther.Variety.Text.10	Kiwifruit	کیوی		
+food_info_types_other_fruits.11	dozeFruitsOther.Variety.Text.11	Lemons	لیموترش		
+food_info_types_other_fruits.12	dozeFruitsOther.Variety.Text.12	Limes	لیموی شیراز/لیموترش کوچک		
+food_info_types_other_fruits.13	dozeFruitsOther.Variety.Text.13	Lychees	سُرخالو/لیچی		
+food_info_types_other_fruits.14	dozeFruitsOther.Variety.Text.14	Mangos	انبه		
+food_info_types_other_fruits.15	dozeFruitsOther.Variety.Text.15	Nectarines	شلیل		
+food_info_types_other_fruits.16	dozeFruitsOther.Variety.Text.16	Oranges	پرتقال		
+food_info_types_other_fruits.17	dozeFruitsOther.Variety.Text.17	Papaya	پاپایا		
+food_info_types_other_fruits.18	dozeFruitsOther.Variety.Text.18	Passion fruit	میوه شهوت/پشن‌فروت		
+food_info_types_other_fruits.19	dozeFruitsOther.Variety.Text.19	Peaches	هلو		
+food_info_types_other_fruits.20	dozeFruitsOther.Variety.Text.20	Pears	گلابی		
+food_info_types_other_fruits.21	dozeFruitsOther.Variety.Text.21	Pineapple	آناناس		
+food_info_types_other_fruits.22	dozeFruitsOther.Variety.Text.22	Plums (especially black plums)	آلو (مخصوصا آلوی سیاه)		
+food_info_types_other_fruits.23	dozeFruitsOther.Variety.Text.23	Pluots	خرمالو		
+food_info_types_other_fruits.24	dozeFruitsOther.Variety.Text.24	Pomegranates	انار		
+food_info_types_other_fruits.25	dozeFruitsOther.Variety.Text.25	Prunes	آلو بخارا		
+food_info_types_other_fruits.26	dozeFruitsOther.Variety.Text.26	Tangerines	نارنگی 		
+food_info_types_other_fruits.27	dozeFruitsOther.Variety.Text.27	Watermelon	هندوانه		
+greens	dozeGreens.heading	Greens	سبزیجات	heading for daily data entry item	
+food_info_serving_sizes_greens_imperial.0	dozeGreens.Serving.imperial.0	1 cup raw	۱ فنجان خام		
+food_info_serving_sizes_greens_imperial.1	dozeGreens.Serving.imperial.1	½ cup cooked	یک‌دوم فنجان پخته		
+food_info_serving_sizes_greens_metric.0	dozeGreens.Serving.metric.0	60 g raw	۶۰ گرم خام		
+food_info_serving_sizes_greens_metric.1	dozeGreens.Serving.metric.1	90 g cooked	۹۰ گرم پخته		
+food_info_types_greens.0	dozeGreens.Variety.Text.0	Arugula	منداب راکتی/راکت/آروگولا		
+food_info_types_greens.1	dozeGreens.Variety.Text.1	Beet greens	برگ چغندر		
+food_info_types_greens.2	dozeGreens.Variety.Text.2	Collard greens	کلم سبز/کلم‌برگ سبز/سبزی کولارد		
+food_info_types_greens.3	dozeGreens.Variety.Text.3	Kale (black, green, and red)	کِیل (سیاه، سبز، و قرمز)		
+food_info_types_greens.4	dozeGreens.Variety.Text.4	Mesclun mix (assorted young salad greens)	مخلوط مِسکلون (ترکیبی از انواع سبزیجات سالادی)		
+food_info_types_greens.5	dozeGreens.Variety.Text.5	Mustard greens	برگ خردل		
+food_info_types_greens.6	dozeGreens.Variety.Text.6	Sorrel	سبزی خوردن		
+food_info_types_greens.7	dozeGreens.Variety.Text.7	Spinach	اسفناج		
+food_info_types_greens.8	dozeGreens.Variety.Text.8	Swiss chard	برگ چغندر		
+food_info_types_greens.9	dozeGreens.Variety.Text.9	Turnip greens	برگ شلغم		
+nuts	dozeNuts.heading	Nuts and Seeds	آجیل‌ها و تخمه‌ها	heading for daily data entry item	
+food_info_serving_sizes_nuts_imperial.0	dozeNuts.Serving.imperial.0	¼ cup nuts or seeds	یک‌چهارم فنجان آجیل یا تخمه		
+food_info_serving_sizes_nuts_imperial.1	dozeNuts.Serving.imperial.1	2 tablespoons nut or seed butter	۲ قاشق غذاخوری کره آجیل یا تخمه		
+food_info_serving_sizes_nuts_metric.0	dozeNuts.Serving.metric.0	30 g nuts or seeds	۳۰ گرم خشکبار یا تخمه		
+food_info_serving_sizes_nuts_metric.1	dozeNuts.Serving.metric.1	2 tablespoons nut or seed butter	۲ قاشق غذاخوری کره آجیل یا تخمه		
+food_info_types_nuts.0	dozeNuts.Variety.Text.0	Almonds	بادام		
+food_info_types_nuts.1	dozeNuts.Variety.Text.1	Brazil nuts	بادام برزیلی		
+food_info_types_nuts.2	dozeNuts.Variety.Text.2	Cashews	بادام هندی		
+food_info_types_nuts.3	dozeNuts.Variety.Text.3	Chia seeds	دانه چیا		
+food_info_types_nuts.4	dozeNuts.Variety.Text.4	Hazelnuts	فندق		
+food_info_types_nuts.5	dozeNuts.Variety.Text.5	Hemp seeds	شاهدانه		
+food_info_types_nuts.6	dozeNuts.Variety.Text.6	Macadamia nuts	فندق خامه‌ای/فندق ماکادامیا/فندق استرالیایی		
+food_info_types_nuts.7	dozeNuts.Variety.Text.7	Peanuts	Peanuts		
+food_info_types_nuts.7	dozeNuts.Variety.Text.8	Pecans	گردوی آمریکایی/پِکان		
+food_info_types_nuts.8	dozeNuts.Variety.Text.9	Pistachios	پسته		
+food_info_types_nuts.9	dozeNuts.Variety.Text.10	Pumpkin seeds	تخمه کدو		
+food_info_types_nuts.10	dozeNuts.Variety.Text.11	Sesame seeds	کنجد		
+food_info_types_nuts.11	dozeNuts.Variety.Text.12	Sunflower seeds	تخمه آفتاب‌گردان		
+food_info_types_nuts.12	dozeNuts.Variety.Text.13	Walnuts	گردو		
+OK	dozeOtherInfo.confirm	OK	بسیارخب	Daily Dozen supplement info alert: dismissal button text	
+	dozeOtherInfo.message	Vitamin B12 is essential for your health but does not count towards your daily servings.\n\nVitamin B12 is included in this app to provide you with an easy way to track your intake.	ویتامین ب۱۲ برای سلامتی‌تان ضروری است؛ اما شامل سهم‌های هرروزه‌تان نمی‌شود./n/n عنوان «ویتامین ب۱۲» در این اپ، به منظور ارائه راهی ساده برای نظارت بر مصرف‌تان آورده شده است.	Daily Dozen supplement info alert: message	
+	dozeOtherInfo.section	Supplements	مکمل‌های غذایی	Daily Dozen daily entry section heading	
+	dozeOtherInfo.title	Supplements	مکمل‌های غذایی	Daily Dozen supplement info alert: title	
+spices	dozeSpices.heading	Herbs and Spices	ادویه‌ها و سبزیجات معطر	heading for daily data entry item	
+food_info_serving_sizes_spices_imperial.0	dozeSpices.Serving.imperial.0	¼ teaspoon of turmeric	یک‌چهارم قاشق چای‌خوری زردچوبه		
+food_info_serving_sizes_spices_imperial.1	dozeSpices.Serving.imperial.1	Any other (salt-free) herbs and spices you enjoy	هر سبزی معطر و ادویه (بدون نمک) دیگری که از آن لذت می‌برید		
+food_info_serving_sizes_spices_metric.0	dozeSpices.Serving.metric.0	¼ teaspoon of turmeric	یک‌چهارم قاشق چای‌خوری زردچوبه		
+food_info_serving_sizes_spices_metric.1	dozeSpices.Serving.metric.1	Any other (salt-free) herbs and spices you enjoy	هر سبزی معطر و ادویه (بدون نمک) دیگری که از آن لذت می‌برید		
+food_info_types_spices.0	dozeSpices.Variety.Text.0	Allspice	فلفل رنگی		
+food_info_types_spices.1	dozeSpices.Variety.Text.1	Barberries	زرشک		
+food_info_types_spices.2	dozeSpices.Variety.Text.2	Basil	ریحان		
+food_info_types_spices.3	dozeSpices.Variety.Text.3	Bay leaves	برگ بو		
+food_info_types_spices.4	dozeSpices.Variety.Text.4	Cardamom	هل		
+food_info_types_spices.5	dozeSpices.Variety.Text.5	Chili powder	پودر چیلی		
+food_info_types_spices.6	dozeSpices.Variety.Text.6	Cilantro	گشنیز		
+food_info_types_spices.7	dozeSpices.Variety.Text.7	Cinnamon	دارچین		
+food_info_types_spices.8	dozeSpices.Variety.Text.8	Cloves	میخک		
+food_info_types_spices.9	dozeSpices.Variety.Text.9	Coriander	گشنیز		
+food_info_types_spices.10	dozeSpices.Variety.Text.10	Cumin	زیره		
+food_info_types_spices.11	dozeSpices.Variety.Text.11	Curry powder	پودر کاری		
+food_info_types_spices.12	dozeSpices.Variety.Text.12	Dill	شوید		
+food_info_types_spices.13	dozeSpices.Variety.Text.13	Fenugreek	شنبلیله		
+food_info_types_spices.14	dozeSpices.Variety.Text.14	Garlic	سیر		
+food_info_types_spices.15	dozeSpices.Variety.Text.15	Ginger	زنجبیل		
+food_info_types_spices.16	dozeSpices.Variety.Text.16	Horseradish	ترب کوهی		
+food_info_types_spices.17	dozeSpices.Variety.Text.17	Lemongrass	علف لیمو		
+food_info_types_spices.18	dozeSpices.Variety.Text.18	Marjoram	مرزنگوش		
+food_info_types_spices.19	dozeSpices.Variety.Text.19	Mustard powder	پودر خردل		
+food_info_types_spices.20	dozeSpices.Variety.Text.20	Nutmeg	جوز هندی		
+food_info_types_spices.21	dozeSpices.Variety.Text.21	Oregano	پونه کوهی		
+food_info_types_spices.22	dozeSpices.Variety.Text.22	Smoked paprika	پاپریکای دودی		
+food_info_types_spices.23	dozeSpices.Variety.Text.23	Parsley	جعفری		
+food_info_types_spices.24	dozeSpices.Variety.Text.24	Pepper	فلفل		
+food_info_types_spices.25	dozeSpices.Variety.Text.25	Peppermint	نعناع		
+food_info_types_spices.26	dozeSpices.Variety.Text.26	Rosemary	رُزماری		
+food_info_types_spices.27	dozeSpices.Variety.Text.27	Saffron	زعفران		
+food_info_types_spices.28	dozeSpices.Variety.Text.28	Sage	مریم‌گُلی		
+food_info_types_spices.29	dozeSpices.Variety.Text.29	Thyme	آویشن		
+food_info_types_spices.30	dozeSpices.Variety.Text.30	Turmeric	زردچوبه		
+food_info_types_spices.31	dozeSpices.Variety.Text.31	Vanilla	وانیل		
+cruciferous_vegetables	dozeVegetablesCruciferous.heading	Cruciferous Vegetables	سبزیجات چَلیپایی/صلیبی	heading for daily data entry item	
+food_info_serving_sizes_cruciferous_vegetables_imperial.0	dozeVegetablesCruciferous.Serving.imperial.0	½ cup chopped	یک‌دوم فنجان خردشده		
+food_info_serving_sizes_cruciferous_vegetables_imperial.1	dozeVegetablesCruciferous.Serving.imperial.1	½ cup Brussels sprouts	یک‌چهارم فنجان کلم بروکسل یا کلم بروکلی		
+food_info_serving_sizes_cruciferous_vegetables_imperial.2	dozeVegetablesCruciferous.Serving.imperial.2	¼ cup Broccoli sprouts	۱ قاشق غذاخوری ترب کوهی		
+food_info_serving_sizes_cruciferous_vegetables_imperial.3	dozeVegetablesCruciferous.Serving.imperial.3	1 tablespoon horseradish	۱ قاشق غذاخوری ترب کوهی		
+food_info_serving_sizes_cruciferous_vegetables_metric.0	dozeVegetablesCruciferous.Serving.metric.0	30–80 g chopped	۳۰-۸۰ گرم خردشده		
+food_info_serving_sizes_cruciferous_vegetables_metric.1	dozeVegetablesCruciferous.Serving.metric.1	80 g Brussels sprouts	۱۲ گرم کلم بروکسل یا کلم بروکلی		
+food_info_serving_sizes_cruciferous_vegetables_metric.2	dozeVegetablesCruciferous.Serving.metric.2	15 g Broccoli sprouts	۱ قاشق غذاخوری ترب کوهی		
+food_info_serving_sizes_cruciferous_vegetables_metric.3	dozeVegetablesCruciferous.Serving.metric.3	1 tablespoon horseradish	۱ قاشق غذاخوری ترب کوهی		
+food_info_types_cruciferous_vegetables.0	dozeVegetablesCruciferous.Variety.Text.0	Arugula	منداب راکتی/راکت/آروگولا		
+food_info_types_cruciferous_vegetables.1	dozeVegetablesCruciferous.Variety.Text.1	Bok choy	باک چوی (نوعی کلم‌برگ چینی)		
+food_info_types_cruciferous_vegetables.2	dozeVegetablesCruciferous.Variety.Text.2	Broccoli (incl. Romanesco)	کلم بروکلی (از جمله کلم رومی/رومانسکو)		
+food_info_types_cruciferous_vegetables.3	dozeVegetablesCruciferous.Variety.Text.3	Brussels sprouts	کلم بروکسل		
+food_info_types_cruciferous_vegetables.4	dozeVegetablesCruciferous.Variety.Text.4	Cabbage (green, red and savoy)	کلم (سبز، قرمز، پیچ)		
+food_info_types_cruciferous_vegetables.5	dozeVegetablesCruciferous.Variety.Text.5	Cauliflower (white, green, orange and purple)	گل‌کلم (سفید، سبز، نارنجی و بنفش)		
+food_info_types_cruciferous_vegetables.6	dozeVegetablesCruciferous.Variety.Text.6	Collard greens	کلم سبز/کلم‌برگ سبز/سبزی کولارد		
+food_info_types_cruciferous_vegetables.7	dozeVegetablesCruciferous.Variety.Text.7	Horseradish	ترب کوهی		
+food_info_types_cruciferous_vegetables.8	dozeVegetablesCruciferous.Variety.Text.8	Kale (black, green, and red)	کلم کِیل (سیاه، سبز، و قرمز)		
+food_info_types_cruciferous_vegetables.9	dozeVegetablesCruciferous.Variety.Text.9	Kohlrabi (green and purple)	کلم قُمری (سبز و بنفش)		
+food_info_types_cruciferous_vegetables.10	dozeVegetablesCruciferous.Variety.Text.10	Mustard greens	برگ خردل		
+food_info_types_cruciferous_vegetables.11	dozeVegetablesCruciferous.Variety.Text.11	Radishes	تربچه		
+food_info_types_cruciferous_vegetables.12	dozeVegetablesCruciferous.Variety.Text.12	Turnip greens	برگ شلغم		
+food_info_types_cruciferous_vegetables.13	dozeVegetablesCruciferous.Variety.Text.13	Watercress	شاهی آبی/ترتیزک آبی/علف چشمه		
+other_vegetables	dozeVegetablesOther.heading	Other Vegetables	سایر سبزیجات	heading for daily data entry item	
+food_info_serving_sizes_other_vegetables_imperial.0	dozeVegetablesOther.Serving.imperial.0	1 cup raw leafy vegetables	۱ فنجان سبزیجات برگ‌دار خام		
+food_info_serving_sizes_other_vegetables_imperial.1	dozeVegetablesOther.Serving.imperial.1	½ cup raw or cooked nonleafy vegetables	یک‌دوم فنجان سبزیجات بی‌برگ خام یا پخته		
+food_info_serving_sizes_other_vegetables_imperial.2	dozeVegetablesOther.Serving.imperial.2	½ cup vegetable juice	یک‌دوم فنجان آب سبزیجات		
+food_info_serving_sizes_other_vegetables_imperial.3	dozeVegetablesOther.Serving.imperial.3	¼ cup dried mushrooms	یک‌چهارم فنجان قارچ خشک‌شده		
+food_info_serving_sizes_other_vegetables_metric.0	dozeVegetablesOther.Serving.metric.0	60 g raw leafy vegetables	۶۰ گرم سبزیجات برگ‌دار خام		
+food_info_serving_sizes_other_vegetables_metric.1	dozeVegetablesOther.Serving.metric.1	50 g raw or cooked nonleafy vegetables	۵۰ گرم سبزیجات بی‌برگ خام یا پخته		
+food_info_serving_sizes_other_vegetables_metric.2	dozeVegetablesOther.Serving.metric.2	125 ml vegetable juice	۱۲۵ میلی‌لیتر		
+food_info_serving_sizes_other_vegetables_metric.3	dozeVegetablesOther.Serving.metric.3	7 g dried mushrooms	۷ گرم  قارچ خشک‌شده		
+food_info_types_other_vegetables.0	dozeVegetablesOther.Variety.Text.0	Artichokes	کنگرفرنگی/آرتیشو		
+food_info_types_other_vegetables.1	dozeVegetablesOther.Variety.Text.1	Asparagus	مارچوبه		
+food_info_types_other_vegetables.2	dozeVegetablesOther.Variety.Text.2	Beets	چغندر		
+food_info_types_other_vegetables.3	dozeVegetablesOther.Variety.Text.3	Bell peppers	فلفل دلمه‌ای		
+food_info_types_other_vegetables.4	dozeVegetablesOther.Variety.Text.4	Carrots	هویج		
+food_info_types_other_vegetables.5	dozeVegetablesOther.Variety.Text.5	Corn	بلال		
+food_info_types_other_vegetables.6	dozeVegetablesOther.Variety.Text.6	Garlic	سیر		
+food_info_types_other_vegetables.7	dozeVegetablesOther.Variety.Text.7	Mushrooms (button, oyster, portobello, and shiitake)	قارچ (دکمه‌ای، صدفی، پُرتابِلّا، و شیتاکه)		
+food_info_types_other_vegetables.8	dozeVegetablesOther.Variety.Text.8	Okra	بامیه		
+food_info_types_other_vegetables.9	dozeVegetablesOther.Variety.Text.9	Onions	پیاز		
+food_info_types_other_vegetables.10	dozeVegetablesOther.Variety.Text.10	Purple potatoes	سیب‌زمینی بنفش		
+food_info_types_other_vegetables.11	dozeVegetablesOther.Variety.Text.11	Pumpkin	کدو حلوایی		
+food_info_types_other_vegetables.12	dozeVegetablesOther.Variety.Text.12	Sea vegetables (arame, dulse, and nori)	جلبک دریایی (آرامه، دولس، و نوری)		
+food_info_types_other_vegetables.13	dozeVegetablesOther.Variety.Text.13	Snap peas	لوبیا سبز		
+food_info_types_other_vegetables.14	dozeVegetablesOther.Variety.Text.14	Squash (delicata, summer, and spaghetti squash varieties)	کدو (دِلیکاتا، مُسَمّا، و انواع کدو اسپاگتی/سبزیجاتی)		
+food_info_types_other_vegetables.15	dozeVegetablesOther.Variety.Text.15	Sweet potatoes/yams	سیب‌زمینی شیرین/یَم		
+food_info_types_other_vegetables.16	dozeVegetablesOther.Variety.Text.16	Tomatoes	گوجه‌فرنگی		
+food_info_types_other_vegetables.17	dozeVegetablesOther.Variety.Text.17	Zucchini	کدو سبز		
+whole_grains	dozeWholeGrains.heading	Whole Grains	غلات کامل/سبوس‌دار	heading for daily data entry item	
+food_info_serving_sizes_whole_grains_imperial.0	dozeWholeGrains.Serving.imperial.0	½ cup hot cereal or cooked grains, pasta, or corn kernels	یک‌دوم فنجان غلات گرم یا غلات پخته، پاستا یا دانه ذرت		
+food_info_serving_sizes_whole_grains_imperial.1	dozeWholeGrains.Serving.imperial.1	1 cup cold cereal	۱ فنجان غلات سرد		
+food_info_serving_sizes_whole_grains_imperial.2	dozeWholeGrains.Serving.imperial.2	1 tortilla or slice of bread	۱ تُرتیلا یا ۱ برش نان		
+food_info_serving_sizes_whole_grains_imperial.3	dozeWholeGrains.Serving.imperial.3	½ bagel or English muffin	یک‌دوم نان شیرینی حلقوی یا مافین انگلیسی		
+food_info_serving_sizes_whole_grains_imperial.4	dozeWholeGrains.Serving.imperial.4	3 cups popped popcorn	۳ فنجان ذرت بوداده		
+food_info_serving_sizes_whole_grains_metric.0	dozeWholeGrains.Serving.metric.0	100 g hot cereal or cooked grains, pasta, or corn kernels	۱۰۰ گرم غلات گرم یا غلات پخته، پاستا یا دانه ذرت		
+food_info_serving_sizes_whole_grains_metric.1	dozeWholeGrains.Serving.metric.1	50 g cold cereal	۵۰ گرم غلات سرد		
+food_info_serving_sizes_whole_grains_metric.2	dozeWholeGrains.Serving.metric.2	1 tortilla or slice of bread	۱ ترتیلا یا ۱ برش نان		
+food_info_serving_sizes_whole_grains_metric.3	dozeWholeGrains.Serving.metric.3	½ bagel or English muffin	یک‌دوم نان شیرینی حلقوی یا مافین انگلیسی		
+food_info_serving_sizes_whole_grains_metric.4	dozeWholeGrains.Serving.metric.4	30 g popped popcorn	۳۰ گرم ذرت بوداده		
+food_info_types_whole_grains.0	dozeWholeGrains.Variety.Text.0	Barley	جو		
+food_info_types_whole_grains.1	dozeWholeGrains.Variety.Text.1	Buckwheat	گندم سیاه		
+food_info_types_whole_grains.2	dozeWholeGrains.Variety.Text.2	Millet	ارزن		
+food_info_types_whole_grains.3	dozeWholeGrains.Variety.Text.3	Oats	جو دوسر		
+food_info_types_whole_grains.4	dozeWholeGrains.Variety.Text.4	Popcorn	ذرت بوداده		
+food_info_types_whole_grains.5	dozeWholeGrains.Variety.Text.5	Quinoa	کینوا		
+food_info_types_whole_grains.6	dozeWholeGrains.Variety.Text.6	Rye	چاودار		
+food_info_types_whole_grains.7	dozeWholeGrains.Variety.Text.7	Teff	تِف		
+food_info_types_whole_grains.8	dozeWholeGrains.Variety.Text.8	Whole-wheat pasta	ماکارونی با گندم کامل		
+servings_time_scale_choices.0	history_scale_choice_day	Day	روز	History View: calendar scale control	
+servings_time_scale_choices.1	history_scale_choice_month	Month	ماه	History View: calendar scale control	
+servings_time_scale_choices.2	history_scale_choice_year	Year	سال	History View: calendar scale control	
+time_scale	history_scale_label	Time Scale	مقیاس زمانی	History View: scale text	
+moving_average	historyRecord.movingAverage	Moving Average	میانگین تحرک		
+	historyRecordDoze.heading	Servings History	سابقه سهم‌ها	History View	
+	historyRecordDoze.legend	Servings	سهم‌ها	History View	
+	historyRecordTweak.heading	Tweaks History	سابقه ترفندها	History View	
+tweaks	historyRecordTweak.legend	Tweaks	ترفندها	History View	
+weight_history	historyRecordWeight.heading	Weight History	سابقه وزن	History View	
+evening	historyRecordWeight.legendEvening	Evening	شب	History View	
+morning	historyRecordWeight.legendMorning	Morning	صبح	History View	
+	historyRecordWeight.titleImperial	Weight (lbs)	وزن (پوند)	History View	
+	historyRecordWeight.titleMetric	Weight (kg)	وزن (کیلوگرم)	History View	
+about	info_app_about	About	درباره	Info About Menu Item	
+app_name	info_app_about_app_name	Daily Dozen	دوازه‌تای روزانه	Info About View: Application Name ‘Daily Dozen’	
+	info_app_about_created_by	This app was created by: NutritionFacts.org, Christi Richards, Konstantin Khokhlov, and Marc Campbell	این اپ توسط NutritionFacts.org، کریستی ریچاردز، کُنستانتین خُخلُف، و مارک کَمپبِل ساخته شده است.	Info About View: Created By	
+about_this_app	info_app_about_heading	About this app	درباره این اپ	Info About View	
+	info_app_about_oss_credits	The following open source libraries are used: RealmSwift, Charts, FSCalendar, SimpleAnimation, ActiveLabel.	بایگانی‌های منبع‌بازی که در ادامه می‌آید مورد استفاده قرار گرفته‌اند: RealmSwift، Charts، FSCalendar، SimpleAnimation، ActiveLabel.	Info About View: Open Source Credits	
+activity_welcome_text	info_app_about_overview	Use this app on a daily basis to keep track of the foods and advice I recommend for optimal health and longevity in my books How Not to Die and How Not to Diet.	از این اپ برای ثبت و نظارت بر غذاهای‌تان به‌صورت روزانه بهره بگیرید و برای توصیه‌هایی که جهت دستیابی به سلامتی مطلوب و طول عمر ارائه کرده‌ام، به کتاب‌هایم «چگونه نمیریم» و «چگونه رژیم نگیریم» مراجعه کنید.	Info About View: Overview Text	
+	info_app_about_version	version 3.4.17	نسخه ۳.۴.۹	Info About View: Application release version	
+welcome_to_my_daily_dozen	info_app_about_welcome	Welcome to my Daily Dozen!	به «دوازده‌تای روزانه» من خوش آمدید!	Info About View: Welcome	
+	info_book_how_not_to_die	Book: How Not to Die	کتاب: چگونه نمیریم	Info Menu: book title	
+	info_book_how_not_to_die_cookbook	Book: How Not to Die Cookbook	کتاب آشپزی: چگونه نمیریم	Info Menu: book title	
+	info_book_how_not_to_diet	Book: How Not to Diet	کتاب: چگونه رژیم نگیریم	Info Menu: book title	
+daily_dozen_challenge	info_webpage_daily_dozen_challenge	Daily Dozen Challenge	چالش «دوازده‌تای روزانه»	Info Menu	
+donate	info_webpage_donate	Donate	حمایت مالی	Info Menu	
+open_source	info_webpage_open_source	Open Source	منبع‌باز	Info Menu	
+subscribe	info_webpage_subscribe	Subscribe	مشترک شدن	Info Menu	
+latest_videos	info_webpage_videos_latest	Latest Videos	آخرین ویدئوها	Info Menu	
+servings_all	item_history_completed_all	All servings	همه سهم‌ها	Item History Legend: ‘All completed’	
+servings_some	item_history_completed_some	Some servings	برخی سهم‌ها	Item History Legend: ‘Some completed’	
+history	item_history_heading	History	سابقه	Item History Heading	
+	navtab.doze	Daily Dozen	دوازده‌تای روزانه	Main Navigation Tab Control: ‘Daily Dozen’ (proper noun)	
+	navtab.info	Information	اطلاعات	Main Navigation Tab Control: show more information	
+	navtab.preferences	Preferences	ترجیحات	Main Navigation Tab Control: ‘Preferences’ synonyms: Settings, Configuration. Choose a translations with is different from Tweaks.	
+	navtab.tweaks	21 Tweaks	۲۱ ترفند	Main Navigation Tab Control: ‘21 Tweaks’ (proper noun)	
+	NSHealthShareUsageDescription	The 21 Tweaks feature accesses your HealthKit data to provide updates to your daily weight measurements.	ویژگی «۲۱ ترفند» برای به‌روزرسانی میزان وزن روزانه‌تان، از داده‌های HealthKitتان استفاده می‌کند.	Privacy - Health Share Usage Description	
+	NSHealthUpdateUsageDescription	The 21 Tweaks feature can write weight data to HealthKit to help you keep track of your progress.	ویژگی «۲۱ ترفند» می‌تواند داده‌های مربوط به وزن‌تان را در HealthKitتان وارد کند تا به این طریق به نظارت بر پیشروی‌تان کمک کند.	Privacy - Health Update Usage Description	
+vitamin_b12	otherVitaminB12.heading	Vitamin B12	ویتامین ب۱۲	heading for daily data entry item	
+daily_reminder_text	reminder.alert.text	Update your servings for today	سهم‌های امروزتان را ثبت کنید	Alert notification text	
+	reminder.heading	Daily Reminder	یادآوری روزانه	Daily Reminder (alert title, settings section heading)	
+	reminder.settings.enable	Enable Reminders	فعالسازی یادآورنده‌ها	Daily Reminder On/Off toggle switch label	
+play_sound	reminder.settings.sound	Play Sound	پخش صدا	Daily Reminder sound control heading	
+remind_me_at	reminder.settings.time	Remind me at	در این زمان به من یادآوری کن	Daily Reminder time control heading	
+vibrate	reminder.settings.vibrate	Vibrate	لرزش	Android notification `vibrate`	
+	reminder.state.off	Off	غیرفعال	‘Off’ as in ‘On (enabled) or Off (disabled)’, Daily Reminder is not enabled	
+	reminder.state.on	On	فعال	‘On’ as in ‘On (enabled) or Off (disable)’. Daily Reminder is enabled	
+daily_dozen_only	setting_doze_only_btn	Daily Dozen\nOnly	دوازده‌تای روزانه \nفقط	First Launch Setting: button text	
+	setting_doze_only_choice	Daily Dozen Only	فقط دوازده‌تای روزانه	Preference Settings View: selection button text	
+daily_dozen_and_tweaks	setting_doze_tweak_btn	Daily Dozen +\n21 Tweaks	دوازده‌تای روزانه +\n ۲۱ ترفند	First Launch Setting: button text	
+	setting_doze_tweak_choice	Daily Dozen + 21 Tweaks	دوازده‌تای روزانه + ۲۱ ترفند	Preference Settings View: selection button text	
+	setting_doze_tweak_footer	For health alone, use “Daily Dozen Only”. For health and weight loss use “Daily Dozen + 21 Tweaks”.	اگر فقط دستیابی به سلامتی را در نظر دارید، از «فقط دوازده‌تای روزانه» استفاده کنید. اگر علاوه‌بر سلامتی، کاهش وزن را هم در نظر دارید از «دوازده‌تای روزانه + ۲۱ ترفند» استفاده کنید.	Preference Settings View: brief description text below Tweaks visibility control.	
+for_health_alone	setting_health_alone_txt	For Health Alone	فقط برای سلامتی	First Launch Setting: brief description above ‘Daily Dozen Only’ button.	
+for_health_and_weight_loss	setting_health_weight_txt	For Health and Weight Loss	برای سلامتی و کاهش وزن	First Launch Setting: brief description above ‘Daily Dozen + 21 Tweaks’ button.	
+	setting_tweak_header	21 Tweaks Visibility	وضعیت نمایش «۲۱ ترفند»	Preference Settings View: tweaks visibilty subsection heading	
+	setting_units_0_imperial	Imperial	انگلیسی (امپریال)	Preference Settings View: Part of ‘Imperial/Metric/Toggle Units’ selector	
+	setting_units_1_metric	Metric	مِتریک	Preference Settings View: Part of ‘Imperial/Metric/Toggle Units’ selector	
+	setting_units_2_toggle	Toggle Units	تغییر واحد اندازه‌گیری	Preference Settings View: Part of ‘Imperial/Metric/Toggle Units’ selector	
+	setting_units_choice_footer	Set to always be one unit type or enable the ‘Units:’ toggle button.	تنظیم کنید که همیشه یک نوع واحد اندازه‌گیری به‌کار رود، یا این‌که دکمه «واحدها» را فعال کنید.	Preference Settings View: brief description text below units control.	
+	setting_units_header	Measurement Units	واحدهای اندازه‌گیری	Preference Settings View	
+	setting_util_advanced	Advanced Utilities	ابزارهای پیشرفته	Preference Settings View	
+format_num_days	streakDaysFormat	%d days	%d روز	‘Streak’ count. Synonym: ‘Progress‘. Formatted number ‘%d’ for consecutive days completed. Place translated text for ‘days’ on the right or left of ‘%d’ based on language directionality.	
+	tweak_detail_section_activity	Activity	فعالیت	Tweaks Detail view section heading	
+	tweak_detail_section_description	Description	توضیحات	Tweaks Detail view section heading	
+twenty_one_tweaks	tweak_entry_header	21 Tweaks	۲۱ ترفند	Tweaks daily entry header	
+complete_intentions	tweakCompleteIntentions.heading	Complete Your Implementation Intentions	اهداف اجرایی‌تان را به انجام برسانید	heading for daily data entry item	
+complete_intentions_short	tweakCompleteIntentions.short	Complete Your Implementation Intentions	اهداف اجرایی‌تان را به انجام برسانید		
+complete_intentions_text	tweakCompleteIntentions.text	Every two months, create three new implementation intentions—“if X, then Y” plans to perform a particular behavior in a specific context—and check each one of them off as you complete them every day.	هر دو ماه، سه هدف اجرایی جدید برای خود در نظر بگیرید - برنامه‌ریزی‌هایی به‌صورت «اگر X شد، سپس Y» تا به‌این‌ترتیب رفتار به‌خصوصی را در شرایط مشخصی انجام دهید - و هرکدام از آن‌ها را که در هر روز به انجام رساندید، تیک بزنید.		
+daily_blackcumin	tweakDailyBlackCumin.heading	Black Cumin (¼ tsp)	سیاه‌دانه (یک‌چهارم قاشق چای‌خوری)	heading for daily data entry item	
+daily_blackcumin_short	tweakDailyBlackCumin.short	Black Cumin (Nigella sativa) (¼ tsp)	سیاه‌دانه (یک‌چهارم قاشق چای‌خوری)		
+daily_blackcumin_text	tweakDailyBlackCumin.text	As noted in the Appetite Suppression section, a systematic review and meta-analysis of randomized, controlled weight-loss trials found that about a quarter teaspoon of black cumin powder every day appears to reduce body mass index within a span of a couple of months. Note that black cumin is different from regular cumin, for which the dosing is different.	همان‌طور که در بخش «سرکوب اشتها» از کتاب «چگونه رژیم نگیریم» آورده شده است، بررسی نظام‌مند و فراتحلیلی آزمایش‌های کاهش وزنِ کنترل‌شده و تصادفی‌سازی‌شده، حاکی از آن است که مصرف روزانه حدود یک‌چهارم قاشق چای‌خوری پودر سیاه‌دانه، به فاصله چند ماه، باعث کاهش شاخص توده بدنی می‌شود.		
+daily_cumin	tweakDailyCumin.heading	Cumin (½ tsp with lunch and dinner)	زیره سبز (یک‌دوم قاشق چای‌خوری همراه با ناهار و شام)	heading for daily data entry item	
+daily_cumin_short	tweakDailyCumin.short	Cumin (Cuminum cyminum) (½ tsp with lunch and dinner)	زیره سبز (یک‌دوم قاشق چای‌خوری همراه با ناهار و شام)		
+daily_cumin_text	tweakDailyCumin.text	Overweight women randomized to add a half teaspoon of cumin to their lunches and dinners beat out the control group by four more pounds and an extra inch off their waists. There is also evidence to support the use of the spice saffron, but a pinch a day would cost a dollar, whereas a teaspoon of cumin costs less than ten cents.	زنانی که اضافه‌وزن داشته و به‌صورت تصادفی گزینش شده بودند، و نصف قاشق چای‌خوری زیره معمولی به ناهار و شام خود اضافه کردند، با ۱/۸ کیلوگرم کاهش وزن بیشتر، و ۲/۵ سانتی‌متر کاهش اندازه بیشتر از دور کمرشان، گروه دیگر را شکست دادند. همچنین شواهدی وجود دارد که از تأثیر مشابه زعفران در این زمینه پشتیبانی می‌کند، اما یک نیشگون زعفران در روز، ۱ دلار (حدودا ۵۰ هزار تومان) هزینه دارد، در حالی که یک قاشق غذاخوری زیره، کمتر از ۱۰ سِنت (حدودا ۵ هزار تومان) هزینه می‌برد.		
+daily_deflourdiet	tweakDailyDeflourDiet.heading	Deflour Your Diet	خوراک روزانه‌تان را از آرد غلات خالی کنید	heading for daily data entry item	
+daily_deflourdiet_short	tweakDailyDeflourDiet.short	Deflour Your Diet	خوراک روزانه‌تان را از آرد غلات خالی کنید		
+daily_deflourdiet_text	tweakDailyDeflourDiet.text	Check this box every day your whole grain servings are in the form of intact grains. The powdering of even 100 percent whole grains robs our microbiomes of the starch that would otherwise be ferried down to our colons enclosed in unbroken cell walls.	هر روزی که سهم‌های غلات کامل‌تان به‌صورت دانه‌های درسته و آردنشده بود، این مربع را تیک بزنید. پودر کردن ۱۰۰ درصد غلات کامل، میکروبیوم بدن‌مان را از نشاسته آن‌ها محروم می‌کند. درغیراین‌صورت، نشاسته‌شان درحالی‌که با دیواره‌های سلولی ناشکسته احاطه شده، به روده بزرگ‌مان منتقل می‌شود.		
+daily_frontload	tweakDailyFrontLoad.heading	Front-Load Your Calories	کالری‌های‌تان را اوایل روز دریافت کنید	heading for daily data entry item	
+daily_frontload_short	tweakDailyFrontLoad.short	Front-Load Your Calories	کالری‌های‌تان را اوایل روز دریافت کنید		
+daily_frontload_text	tweakDailyFrontLoad.text	There are metabolic benefits to distributing more calories to earlier in the day, so make breakfast (ideally) or lunch your largest meal of the day in true king/prince/pauper style.	از جهت سوخت‌و‌ساز، دریافت کالری‌های بیشتر در ابتدای روز سودمندتر است. به‌این‌ترتیب، صبحانه (در حالت ایده‌آل) یا ناهار، بزرگترین وعده غذای هر روز در هرنوع سبک زندگی، اعم از شاهانه/شاهزاده‌وار/فقیرانه است.		
+daily_garlic	tweakDailyGarlic.heading	Garlic Powder (¼ tsp)	پودر سیر (یک‌چهارم قاشق چای‌خوری)	heading for daily data entry item	
+daily_garlic_short	tweakDailyGarlic.short	Garlic Powder (¼ tsp)	پودر سیر (یک‌چهارم قاشق چای‌خوری)		
+daily_garlic_text	tweakDailyGarlic.text	Randomized, double-blind, placebo-controlled studies have found that as little as a daily quarter teaspoon of garlic powder can reduce body fat at a cost of perhaps two cents a day.	مطالعات تصادفی‌سازی‌شده، دوسوکور و کنترل شده با دارونما نشان داده‌اند که روزانه یک‌چهارم قاشق چای‌خوری پودر سیر می‌تواند چربی بدن را با هزینه‌ی ناچیزی در روز کاهش دهد.		
+daily_ginger	tweakDailyGinger.heading	Ground Ginger (1 tsp) or Cayenne Pepper (½ tsp)	زنجبیل آسیاب‌شده (۱ قاشق چای‌خوری) یا فلفل کایِن (یک‌دوم قاشق چای‌خوری)	heading for daily data entry item	
+daily_ginger_short	tweakDailyGinger.short	Ground Ginger (1 tsp) or Cayenne Pepper (½ tsp)	زنجبیل آسیاب‌شده (۱ قاشق چای‌خوری) یا فلفل کایِن (یک‌دوم قاشق چای‌خوری)		
+daily_ginger_text	tweakDailyGinger.text	Randomized controlled trials have found that ¼ teaspoon to 1½ teaspoons a day of ground ginger significantly decreased body weight for just pennies a day. It can be as easy as stirring the ground spice into a cup of hot water. Note: Ginger may work better in the morning than evening. Chai tea is a tasty way to combine the green tea and ginger tricks into a single beverage. Alternately, for BAT activation, you can add one raw jalapeño pepper or a half teaspoon of red pepper powder (or, presumably, crushed red pepper flakes) into your daily diet. To help beat the heat, you can very thinly slice or finely chop the jalapeño to reduce its bite to little prickles, or mix the red pepper into soup or the whole-food vegetable smoothie I featured in one of my cooking videos on NutritionFacts.org.	آزمایش‌های تصادفی‌سازی‌شده و کنترل‌شده نشان داده‌اند که مصرف روزانه یک‌چهارم قاشق چای‌خوری تا یک و نیم قاشق چای‌خوری زنجبیل، در ازای هزینه ناچیزی در روز، وزن بدن را به‌طور قابل‌توجهی کاهش می‌دهد. این کار می‌تواند به آسانیِ مخلوط کردن این ادویه آسیاب‌شده در یک فنجان آب داغ انجام شود. توجه: زنجبیل ممکن است در صبح بهتر از عصر عمل کند. چای ماسالا یک راه خوشمزه برای ترکیب خواص چای سبز و زنجبیل در یک نوشیدنی است. متناوبا، برای به فعالیت واداشتن بافت چربی قهوه‌ای بدن‌تان، می‌توانید یک فلفل هالوپینوی خام یا نصف قاشق چای‌خوری پودر فلفل قرمز (یا احتمالاً تکه‌های فلفل قرمز خرد شده) را به برنامه غذایی روزانه خود اضافه کنید. برای کمک به غلبه بر تندی هالوپینو، می‌توانید آن را خیلی نازک یا ریز خرد کنید تا نیش آن به خارهای کوچک کاهش یابد، یا فلفل قرمز را با سوپ یا اسموتی سبزیجاتی که در یکی از ویدیوهای آشپزی خود در NutritionFacts.org معرفی کرده‌ام، مخلوط کنید.		
+daily_greentea	tweakDailyGreenTea.heading	Green Tea (3 cups)	چای سبز (۳ فنجان)	heading for daily data entry item	
+daily_greentea_short	tweakDailyGreenTea.short	Green Tea (3 cups)	چای سبز (۳ فنجان)		
+daily_greentea_text	tweakDailyGreenTea.text	Drink three cups a day between meals (waiting at least an hour after a meal so as to not interfere with iron absorption). During meals, drink water, black coffee, or hibiscus tea mixed 6:1 with lemon verbena, but never exceed three cups of fluid an hour (important given my water preloading advice). Take advantage of the reinforcing effect of caffeine by drinking your green tea along with something healthy you wish you liked more, but don’t consume large amounts of caffeine within six hours of bedtime. Taking your tea without sweetener is best, but if you typically sweeten your tea with honey or sugar, try yacon syrup instead.	۳ فنجان در روز بین وعده‌های غذایی‌تان (حداقل یک ساعت بعد از غذا صبر کنید تا در جذب آهن اختلال ایجاد نشود) بنوشید. در طول وعده‌های غذایی، آب، قهوه سیاه یا چای ترش را به نسبت ۶ به ۱ با دمنوش لیمو مخلوط کنید و بنوشید، اما هرگز بیش از ۳ فنجان مایع در ساعت ننوشید (با توجه به توصیه مهم من برای نوشیدن آب پیش از غذا). با نوشیدن چای سبز همراه با چیز سالمی که زیاد دوست ندارید اما حس می‌کنید که به‌خاطر فوایدش باید از آن بیشتر بخورید، از اثر تسهیل‌کننده کافئین چای سبز در این فرآیند بهره ببرید. اما در بازه زمانی شش ساعته وقت خواب‌تان، زیاد کافئین مصرف نکنید. بهترین حالت این است که چای خود را بدون شیرین‌کننده مصرف کنید، اما اگر معمولاً چای خود را با عسل یا شکر شیرین می‌کنید، به جای آن از شربت یاکون استفاده کنید.		
+daily_hydrate	tweakDailyHydrate.heading	Stay Hydrated	بدن‌تان را پرآب (هیدراته) نگه دارید	heading for daily data entry item	
+daily_hydrate_short	tweakDailyHydrate.short	Stay Hydrated	بدن‌تان را پرآب (هیدراته) نگه دارید		
+daily_hydrate_text	tweakDailyHydrate.text	Check this box if your urine never appears darker than a pale yellow.\n\nNote that if you’re eating riboflavin-fortified foods (such as nutritional yeast), then base this instead on getting nine cups of unsweetened beverages a day for women (which would be taken care of by the green tea and water preloading recommendations) or thirteen cups a day for men.\n\nIf you have heart or kidney issues, don’t increase fluid intake at all without first talking with your physician.\n\nRemember, diet soda may be calorie-free, but it’s not consequence-free, as we learned in the Low in Added Sugar section.	اگر ظاهر ادرارتان هرگز تیره‌تر از زرد کم‌رنگ نمی‌شود، این مربع را علامت بزنید.\n\nتوجه داشته باشید که اگر غذاهای غنی‌شده با ریبوفلاوین (مانند مخمرهای مغذی) می‌خورید، براین‌اساس، مصرف ۹ فنجان نوشیدنی‌های شیرین‌نشده در روز برای زنان (که باید با احتساب توصیه‌های مربوط به چای سبز و خوردن آب پیش از غذا مورد توجه قرار گیرد) یا ۱۳ فنجان در روز برای مردان توصیه می‌شود.\n\nاگر مشکلات قلبی یا کلیوی دارید، مصرف مایعات را به‌هیچ‌وجه بدون مشورت با پزشک خود افزایش ندهید. \n\nبه یاد داشته باشید، همان‌طور که در بخش «کاهش قندِ افزوده» در کتاب «چگونه رژیم نگیریم» آموختیم، نوشابه رژیمی ممکن است بدون کالری باشد، اما بدون عواقب نیست.		
+daily_nutriyeast	tweakDailyNutriYeast.heading	Nutritional Yeast (2 tsp)	مخمر مغذی (۲ قاشق چای‌خوری)	heading for daily data entry item	
+daily_nutriyeast_short	tweakDailyNutriYeast.short	Nutritional Yeast (2 tsp)	مخمر مغذی (۲ قاشق چای‌خوری)		
+daily_nutriyeast_text	tweakDailyNutriYeast.text	Two teaspoons of baker’s, brewer’s, or nutritional yeast contains roughly the amount of beta 1,3/1,6 glucans found in randomized, double-blind, placebo-controlled clinical trials to facilitate weight loss.	۲ قاشق چای‌خوری مخمر نانوایی، مخمر آبجو یا مخمر مغذی حاوی مقدار اندکی بتاگلوکان ۱،۳/۱،۶ است که در آزمایش‌های بالینی تصادفی‌سازی‌شده، دوسوکور و کنترل‌شده با دارونما، نشان‌داده‌شده که می‌تواند کاهش وزن را تسهیل کند.		
+daily_timerestrict	tweakDailyTimeRestrict.heading	Time-Restrict Your Eating	زمان غذا خوردن‌تان را محدود کنید	heading for daily data entry item	
+daily_timerestrict_short	tweakDailyTimeRestrict.short	Time-Restrict Your Eating	زمان غذا خوردن‌تان را محدود کنید		
+daily_timerestrict_text	tweakDailyTimeRestrict.text	Confine eating to a daily window of time of your choosing under twelve hours in length that you can stick to consistently, seven days a week. Given the circadian benefits of reducing evening food intake, the window should end before 7:00 p.m.	بازه زمانی غذا خوردن‌تان را به کمتر از دوازده ساعت در روز محدود کنید؛ به نحوی که بتوانید هفت روز در هفته به‌طور مداوم به آن پایبند باشید. با توجه به مزایای کاهش مصرف غذای شامگاهی بر روی چرخه زیست‌شناختی بدن، بازه زمانی روزانه غذا خوردن‌تان بهتر است قبل از ساعت ۷:۰۰ شب به پایان برسد.		
+exercise_timing	tweakExerciseTiming.heading	Optimize Exercise Timing	زمانبندی ورزش‌تان را بهینه کنید	heading for daily data entry item	
+exercise_timing_short	tweakExerciseTiming.short	Optimize Exercise Timing	زمانبندی ورزش‌تان را بهینه کنید		
+exercise_timing_text	tweakExerciseTiming.text	The Daily Dozen’s recommendation for optimum exercise duration for longevity is ninety minutes of moderately intense activity a day, which is also the optimum exercise duration for weight loss. Anytime is good, and the more, the better, but there may be an advantage to exercising in a fasted state, at least six hours after your last meal. Typically, this would mean before breakfast, but if you timed it right, you could exercise midday before a late lunch or, if lunch is eaten early enough, before dinner. This is the timing for nondiabetics. Diabetics and prediabetics should instead start exercising thirty minutes after the start of a meal and ideally go for at least an hour to completely straddle the blood sugar peak. If you had to choose a single meal to exercise after, it would be dinner, due to the circadian rhythm of blood sugar control that wanes throughout the day. Ideally, though, breakfast would be the largest meal of the day, and you’d exercise after that—or, even better, after every meal.	توصیه اپ «دوازده‌تای روزانه» برای مدت زمان بهینه ورزش به‌منظور افزایش طول عمر، ۹۰ دقیقه فعالیت روزانه با شدت متوسط است. این مدت زمان برای کاهش وزن نیز مناسب است. به‌طور کلی ورزش در هرزمانی که انجام شود خوب است و هرچه بیشتر باشد بهتر خواهد بود. اما ممکن است ورزش در حالت ناشتا - دست‌کم شش ساعت پس از آخرین وعده غذایی - سودمندتر باشد. معمولا منظور از حالت ناشتا، پیش از صبحانه است، اما اگر زمان آن را درست تنظیم کرده باشید، می‌توانید ظهر پیش از ناهارِ دیرهنگام، یا اگر ناهارتان را زود میل کرده باشید، پیش از شام هم می‌توانید ورزش کنید. این زمان‌بندی برای افراد غیردیابتی است. افراد دیابتی و پیش‌دیابتی سی دقیقه پس از شروع غذا باید ورزش را شروع کنند و در حالت ایده‌آل، حداقل یک ساعت تا  کاهش سطح قند خون خود، این کار را ادامه دهند. به‌دلیل آن که چرخه زیست‌شناختی کنترل قند خون بدن در طی روز به تدریج ضعیف می‌شود، اگر مجبور شدید که یک وعده غذایی را انتخاب نمایید تا پس از آن ورزش کنید، آن وعده باید شام باشد. بااین‌حال، در حالت ایده‌آل، صبحانه بزرگترین وعده غذایی‌تان در روز خواهد بود، و بعد از آن ورزش می‌کنید – یا حتی بهتر از آن، بعد از هروعده غذایی، ورزش می‌کنید.		
+meal_twentyminutes	tweakMeal20Minutes.heading	Follow the Twenty-Minute Rule	از «قانون بیست دقیقه» پیروی کنید	heading for daily data entry item	
+meal_twentyminutes_short	tweakMeal20Minutes.short	Follow the Twenty-Minute Rule	از «قانون بیست دقیقه» پیروی کنید		
+meal_twentyminutes_text	tweakMeal20Minutes.text	Whether through increasing viscosity or the number of chews, or decreasing bite size and eating rate, dozens of studies have demonstrated that no matter how we boost the amount of time food is in our mouths, it can result in lower caloric intake. So extend meal duration to at least twenty minutes to allow your natural satiety signals to take full effect. How? By choosing foods that take longer to eat and eating them in a way that prolongs the time they stay in your mouth. Think bulkier, hardier, chewier foods in smaller, well-chewed bites.	ده‌ها مطالعه نشان داده‌اند که، چه غذا را بیشتر بجوید، و چه لقمه‌های‌تان را کوچک‌تر کرده و تعدادشان را بیشتر کنید، هر روشی که غذا را بیشتر در دهان‌تان نگه دارد، می‌تواند منجر به دریافت کالری کمتری شود. بنابراین مدت‌زمان غذا را به حداقل بیست دقیقه افزایش دهید تا سیگنال‌های سیری طبیعی‌تان تأثیر کامل بگذارند. چگونه؟ با انتخاب غذاهایی که خوردن آن‌ها بیشتر طول می‌کشد و همچنین خوردن غذا به نحوی که زمان ماندن آن در دهان‌تان طولانی شود. غذاهای حجیم‌تر، سفت‌تر و جویدنی‌تر را در لقمه‌های کوچک‌تر و خوب‌جویده‌شده در نظر بگیرید.		
+meal_negcal	tweakMealNegCal.heading	Preload with “Negative Calorie” Foods	قبل از غذای اصلی، غذاهای دارای «کالری منفی» بخورید	heading for daily data entry item	
+meal_negcal_short	tweakMealNegCal.short	Preload with “Negative Calorie” Foods	قبل از غذای اصلی، غذاهای دارای «کالری منفی» بخورید		
+meal_negcal_text	tweakMealNegCal.text	As the first course, start each meal with an apple or a Green Light soup or salad containing fewer than one hundred calories per cup.	هروعده غذایی را با سیب یا سوپ سبز رقیق یا سالادی که هر فنجان آن کمتر از ۱۰۰ کالری باشد، شروع کنید.		
+meal_undistracted	tweakMealUndistracted.heading	Enjoy Undistracted Meals	بدون حواس‌پرتی از وعده‌های غذای‌تان لذت ببرید	heading for daily data entry item	
+meal_undistracted_short	tweakMealUndistracted.short	Enjoy Undistracted Meals	بدون حواس‌پرتی از وعده‌های غذای‌تان لذت ببرید		
+meal_undistracted_text	tweakMealUndistracted.text	Don’t eat while watching TV or playing on your phone. Give yourself a check for each meal you’re able to eat without distraction.	همزمان با تماشای تلویزیون یا بازی کردن با گوشی موبایل‌تان غذا نخورید. به‌ازای هروعده غذایی که می‌توانید بدون حواس‌پرتی بخورید، مربع این گزینه را تیک بزنید.		
+meal_vinegar	tweakMealVinegar.heading	Incorporate Vinegar (2 tsp with each meal)	سرکه اضافه کنید (۲ قاشق چای‌خوری با هر وعده غذا) 	heading for daily data entry item	
+meal_vinegar_short	tweakMealVinegar.short	Incorporate Vinegar (2 tsp with each meal)	سرکه اضافه کنید (۲ قاشق چای‌خوری با هر وعده غذا) 		
+meal_vinegar_text	tweakMealVinegar.text	Never drink vinegar straight. Instead, flavor meals or dress a side salad with any of the sweet and savory vinegars out there. If you want to drink it, make sure to mix it in a glass of water and, afterward, be sure to rinse your mouth out with water to protect your tooth enamel.	هرگز سرکه را به تنهایی ننوشید. به‌جای این کار، غذای‌تان یا سالاد کنار غذای‌تان را با هرکدام از سرکه‌های شیرین و خوش‌طعم مزه‌دار کنید. اگر می‌خواهید سرکه بنوشید، آن را در یک لیوان آب مخلوط کنید، و بعد از نوشیدن، دهان‌تان را آب بکشید تا به این طریق از مینای دندان‌تان محافظت کنید.		
+meal_water	tweakMealWater.heading	Preload with Water	قبل از غذا آب بنوشید 	heading for daily data entry item	
+meal_water_short	tweakMealWater.short	Preload with Water	قبل از غذا آب بنوشید 		
+meal_water_text	tweakMealWater.text	Time your metabolism-boosting two cups of cool or cold unflavored water before each meal to also take advantage of its preload benefits.	قبل از هرنوبت غذا، دو فنجان آب خنک یا سرد بدون طعم بنوشید تا علاوه‌ بر مزایای نوشیدن آب پیش از غذا، از تأثیر آن بر افزایش سوخت‌و‌ساز بدن‌تان هم بهره‌مند شوید.		
+nightly_fast	tweakNightlyFast.heading	Fast After 7:00 pm	بعد از ساعت ۷:۰۰ شب ناشتا بمانید	heading for daily data entry item	
+nightly_fast_short	tweakNightlyFast.short	Fast After 7:00 p.m.	بعد از ساعت ۷:۰۰ شب ناشتا بمانید		
+nightly_fast_text	tweakNightlyFast.text	Due to our circadian rhythms, food eaten at night is more fattening than the exact same food eaten earlier in the day, so fast every night for at least twelve hours starting before 7:00 p.m. The fewer calories after sundown, the better.	با توجه به چرخه زیست‌شناختی بدن ما، غذایی که در شب خورده می‌شود چاق‌کننده‌تر از دقیقا همان غذا در اوایل روز است. به‌این‌ترتیب هرشب از پیش از ساعت ۷:۰۰ تا حداقل دوازده ساعت ناشتا بمانید. بعد از غروب خورشید هرچه کالری کمتری دریافت کنید، بهتر است.		
+nightly_sleep	tweakNightlySleep.heading	Get Sufficient Sleep	به اندازه کافی بخوابید	heading for daily data entry item	
+nightly_sleep_short	tweakNightlySleep.short	Get Sufficient Sleep	به اندازه کافی بخوابید		
+nightly_sleep_text	tweakNightlySleep.text	Check this box if you get at least seven hours of sleep at your regular bedtime.	اگر در زمان معمول خواب‌تان، حداقل هفت ساعت خوابیدید این مربع را تیک بزنید.		
+nightly_trendelenburg	tweakNightlyTrendelenbrug.heading	Experiment with Mild Trendelenburg	حالت ترِندِلِنبِرگ با شیب کم را امتحان کنید	heading for daily data entry item	
+nightly_trendelenburg_short	tweakNightlyTrendelenbrug.short	Experiment with Mild Trendelenburg	حالت ترِندِلِنبِرگ با شیب کم را امتحان کنید		
+nightly_trendelenburg_text	tweakNightlyTrendelenbrug.text	Try spending at least four hours a night lying with your body tilted head-down six degrees by elevating the posts at the foot of your bed by eight inches (or by nine inches if you have a California king). Be extremely careful when you get out of bed, as this causes orthostatic intolerance in most people, even if you’re young and healthy—meaning if you get up too fast, you can feel dizzy, faint, or light-headed and could fall and hurt yourself. So get up slowly. Drinking two cups of cold water thirty minutes before rising may also help prevent this potentially hazardous side effect.\n\n*IMPORTANT: Do not try this at home at all if you have any heart or lung issues, acid reflux, or problems with your brain (like head trauma) or eyes (even a family history of glaucoma disqualifies you). Also do not try this until you ask your physician if they think it’s safe for you to sleep in mild Trendelenburg.*	از طریق بالا آوردن پایه‌های تخت‌تان در سمت پاها به اندازه ۲۰ سانت (یا ۲۳ سانت اگر تخت‌تان سایز ۱۸۳x۲۱۲ است) سعی کنید حداقل چهار ساعت در شب را به نحوی دراز بکشید که سرتان شش درجه  به سمت پایین خم شده باشد. هنگامی که از تخت بلند می‌شوید بسیار مراقب باشید، زیرا این امر باعث عدم تحمل اُرتواِستاتیک در اکثر افراد می‌شود - حتی اگر جوان و سالم باشید - به این معنی که اگر خیلی سریع از جای خود بلند شوید، ممکن است احساس سرگیجه، ضعف یا مَنگی داشته باشید و ممکن است زمین بخورید و به خودتان صدمه بزنید. پس به‌آرامی برخیزید. نوشیدن دو فنجان آب سرد سی دقیقه قبل از بلند شدن نیز ممکن است به جلوگیری از این عارضه جانبی بالقوه خطرناک کمک کند.\n\n*نکته مهم: اگر مشکلات قلبی یا ریوی، رفلاکس اسید معده یا مشکلات مغزی (مانند ضربه مغزی) یا چشمی (حتی سابقه خانوادگی گلوکوم) دارید، به‌هیچ‌وجه این کار را در خانه امتحان نکنید. همچنین تا زمانی که از پزشک خود نپرسیدید که آیا خوابیدن در حالت ترِندِلِنبِرگ با شیب کم برای شما بی‌خطر است یا نه، این کار را امتحان نکنید.		
+weigh_twice	tweakWeightTwice.heading	Weigh Yourself Twice a Day	خودتان را دوبار در روز وزن کنید	heading for daily data entry item	
+weigh_twice_short	tweakWeightTwice.short	Weigh Yourself Twice a Day	خودتان را دوبار در روز وزن کنید		
+weigh_twice_text	tweakWeightTwice.text	Regular self-weighing is considered crucial for long-term weight control, but there is insufficient evidence to support a specific frequency of weighing. My recommendation is based on the one study that found that twice daily—upon waking and right before bed—appeared superior to once a day (about six versus two pounds of weight loss over twelve weeks).	وزن کردن منظم خود برای کنترل بلندمدت وزن بسیار مهم قلمداد می‌شود، اما شواهد کافی که از تعداد دفعات وزن‌کشی به‌خصوصی پشتیبانی کند، در دست نیست. پیشنهاد من براساس مطالعه‌ای است که وزن‌کشی روزانه دوبار - بلافاصله پس از بیدار شدن و درست پیش از خواب - را نسبت به روزانه یکبار ارجح یافته است (حدود ۲/۷ کیلوگرم کاهش وزن در مقابل ۹۰۰ گرم طی دوازده هفته).		
+units	units_label	Units	واحدها		
+imperial	unitToggle.imperial	Imperial	انگلیسی (امپریال)	Units toggle button text: imperial measurement system	
+metric	unitToggle.metric	Metric	متریک	Units toggle button text: metric measurement system	
+videos	videos.link.label	Videos	ویدئوها	Label for hyperlink to nutritionfacts.org video topics	
+	weight_entry_clear	Clear	پاکسازی	Weight Daily Entry: clear button which deletes values	
+	weight_entry_evening	Evening (right before bed)	شب (درست پیش از خواب)	Weight Daily Entry: label	
+	weight_entry_morning	Morning (upon waking)	صبح (بلافاصله پس از بیدار شدن)	Weight Daily Entry: label	
+	weight_entry_time	Time	زمان	Weight Daily Entry: label	
+	weight_entry_units_kg	kg	کیلوگرم	Weight Daily Entry Units: label	
+	weight_entry_units_lbs	lbs	پوند	Weight Daily Entry Units: label	
+	weight_history_edit_data	Edit Data	ویرایش اطلاعات	Weight Daily Entry: edit button to change values	
+weight	weightEntry.heading	Weight	وزن	Weight Daily Entry: heading	
+about_text_lines.0		This app was created by John Slavick.	این اپ توسط جان اِسلاویک ساخته شده است.		
+about_text_lines.1					
+about_text_lines.2		The following open source libraries are used: ActiveAndroid, android-iconify, EventBus, LikeAnimation, and MPAndroidChart.	بایگانی‌های منابع بازی که در ادامه می‌آید مورد استفاده قرار گرفته‌اند: ActiveAndroid، android-iconify، EventBus، LikeAnimation، و  MPAndroidChart.		
+about_text_lines.3					
+about_text_lines.4		Special thanks to the volunteer efforts of the creators of the previous app: Chan Kruse, Allan Portera, and Sangeeta Kumar.	با تشکر ویژه از تلاش‌های داوطلبانه سازندگان نسخه پیشین این اپ: چان کروز، اَلَن پورتِرا، و سانگیتا کومار.		
+about_tweak		About Tweak	درباره ترفند		
+average_weight_on_day		Average weight on day	میانگین وزن در روز		
+backup		Backup	پشتیبان		
+backup_failed		Backup failed	عملیات پشتیبان‌گیری با شکست مواجه شد.		
+backup_instructions_lines.0		Follow these steps to restore this backup in the Daily Dozen app	برای بازیابی این پشتیبان در اپ «دوازده‌تای روزانه»تان از این مراحل پیروی کنید		
+backup_instructions_lines.1					
+backup_instructions_lines.2		1. The Daily Dozen app must be installed on your Android phone. You can download it here: https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen	۱. اپ «دوازده‌تای روزانه» باید بر روی گوشی اندرویدتان نصب باشد. می‌توانید آن را از این نشانی بارگیری کنید: https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen		
+backup_instructions_lines.3					
+backup_instructions_lines.4		2. Tap on the backup file attached to this email.	۲. بر روی فایل پشتیبانی که به این رایانامه ضمیمه شده انگشت بزنید.		
+backup_instructions_lines.5					
+backup_instructions_lines.6		3. Select Open with Daily Dozen	۳. از منوی Open With گزینه «دوازده‌تای روزانه» را انتخاب کنید.		
+backup_success		Backup successful	پشتیبان‌گیری با موفقیت انجام شد		
+channel_reminders_name		Reminders	یادآورنده‌ها		
+daily_reminder_settings		Daily Reminder Settings	تنظیمات یادآورنده روزانه	a reminder that is triggered every day	
+daily_reminder_title		Daily Dozen Reminder	یادآورنده «دوازده‌تای روزانه»		
+daily_servings_history		Daily Servings History	سابقه روزانه سهم‌ها 		
+daily_tweaks_history		Daily Tweaks History	سابقه روزانه ترفندها 		
+debug		Debug	رفع اشکال		
+debug_clear_data		Clear all data	پاکسازی تمام اطلاعات		
+debug_clear_data_message		This will delete all entered Servings. Do you wish to continue?	این کار تمام سهم‌های ثبت شده را پاک خواهد کرد. آیا مایل به ادامه هستید؟		
+debug_generate_data_message		All existing data will be replaced. Do you wish to continue?	تمام اطلاعات موجود جایگزین می‌شوند. آیا مایل به ادامه هستید؟		
+debug_generate_full_data		Generate full data	تولید اطلاعات کامل		
+debug_generate_random_data		Generate random data	تولید اطلاعات به‌صورت تصادفی 		
+debug_generate_weight_data		Generate Weight Data	تولید اطلاعات وزن		
+dialog_ask_user_to_rate_app_message		Please give us feedback in the Play Store.	لطفا در Play Store به ما بازخورد بدهید.		
+dialog_ask_user_to_rate_app_title		Do you like this app?	از این برنامه خوش‌تان می‌آید؟		
+dialog_no_email_apps_message		Backing up your data requires you to have an email app installed so you can email the backup file to yourself. Please install an email app and try again.	برای پشتیبان‌گیری از اطلاعات‌تان لازم است که یک برنامه ایمیل نصب کرده باشید تا بتوانید فایل پشتیبان را به خودتان ایمیل کنید. لطفا یک برنامه ایمیل نصب نموده و دوبار امتحان کنید.		
+dialog_no_email_apps_title		No email apps found	برنامه‌ای برای ارسال ایمیل پیدا نشد		
+dialog_streaks_message		Your database will now be upgraded to support the new streaks feature.	پایگاه اطلاعات‌تان هم‌اکنون ارتقاء خواهد یافت تا از ویژگی جدید «روزهای پی‌در‌پی» پشتیبانی کند.		
+dialog_streaks_title		New feature: Streaks!	ویژگی جدید: روزهای پی‌در‌پی!		
+enable_daily_reminder		Enable Daily Reminder	فعال‌سازی یادآورنده روزانه	On/Off toggle label	
+error_cannot_handle_url		Could not open url. Please install a browser.	آدرس URL را نمی‌توان باز کرد. لطفا یک مرورگر اینترنت نصب کنید.		
+food_history		Food History	سابقه غذا		
+food_info		Food Info	اطلاعات غذا		
+format_version		version %s	نسخه %s	Place `%s` where the software should substitue in the version number.	
+history_to_generate		History to Generate	سابقه تولید		
+history_to_generate_choices.0		1 month	۱ ماه		
+history_to_generate_choices.1		3 months	۳ ماه		
+history_to_generate_choices.2		6 months	۶ ماه		
+history_to_generate_choices.3		1 year	۱ سال		
+history_to_generate_choices.4		2 years	۲ سال		
+history_to_generate_choices.5		5 years	۵ سال		
+no		No	نه		
+no_servings_recorded		You have not recorded any servings yet!	هنوز هیچ سهمی از مواد غذایی روزانه‌تان را ثبت نکرده‌اید!		
+no_weights_recorded		You have not recorded any weights yet!	هنوز هیچ سهمی از مواد غذایی روزانه‌تان را ثبت نکرده‌اید!		
+not_now		Not Now	حالا نه		
+out_of		out of	از	Part of ‘0 out of 24’	
+permission_needed_to_write_storage		Can’t backup without permission to write to storage	بدون اجازه نوشتن اطلاعات بر روی حافظه، نمی‌توان از اطلاعات پشتیبان‌گیری کرد		
+rate_now		Give Feedback	ارائه بازخورد		
+restore_confirm_message		Any existing data will be deleted before restoring from backup. Do you wish to continue?	قبل از بازیابی داده‌ها از نسخه پشتیبان، تمامی داده‌های موجود پاک خواهند شد. آیا مایل به ادامه این فرآیند هستید؟		
+restore_confirm_title		Restore Backup	بازیابی نسخه پشتیبان		
+restore_failed		Restore failed	بازیابی با شکست مواجه شد		
+restore_success		Restore successful	بازیابی با موفقیت انجام شد		
+task_backup_title		Backing up	درحال پشتیبان‌گیری		
+task_calculating_streaks_title		Calculating streaks	درحال محاسبه روزهای پی‌در‌پی	:WIP: progress	
+task_generating_random_data		Generating random data	درحال تولید اطلاعات به‌صورت تصادفی		
+task_loading_servings_history_title		Loading Servings History	درحال بارگیری سابقه سهم‌ها		
+task_loading_weights_history_title		Loading Weights History	درحال بارگیری سابقه وزن‌ها		
+task_restore_title		Restoring	درحال بازیابی		
+title_cookbook		Cookbook	کتاب آشپزی		
+title_how_not_to_die		How Not to Die	چگونه نمیریم		
+title_how_not_to_diet		How Not to Diet	چگونه تغذیه نکنیم		
+tweak_group_daily		Every Day	هرروز		
+tweak_group_dailydoses		Take your daily doses	مقادیر مواد غذایی روزانه‌تان را دریافت کنید		
+tweak_group_meal		At Each Meal	در هر وعده غذا		
+tweak_group_nightly		Every Night	هرشب		
+yes		Yes	بله		
