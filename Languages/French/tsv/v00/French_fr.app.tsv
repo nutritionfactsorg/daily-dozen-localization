@@ -326,7 +326,7 @@ app_name	info_app_about_app_name	Daily Dozen	Daily Dozen	Info About View: Applic
 about_this_app	info_app_about_heading	About this app	À propos de cette application	Info About View	
 	info_app_about_oss_credits	The following open source libraries are used: RealmSwift, Charts, FSCalendar, SimpleAnimation, ActiveLabel.	The following open source libraries are used: RealmSwift, Charts, FSCalendar, SimpleAnimation, ActiveLabel.	Info About View: Open Source Credits	
 activity_welcome_text	info_app_about_overview	Use this app on a daily basis to keep track of the foods and advice I recommend for optimal health and longevity in my books How Not to Die and How Not to Diet.	Utilisez cette application quotidiennement pour suivre les aliments que je recommande pour une santé et une longévité optimales dans mon livre How Not to Die.	Info About View: Overview Text	
-	info_app_about_version	version 3.4.17	version 3.4.17	Info About View: Application release version	
+	info_app_about_version	version 3.4.19	version 3.4.19	Info About View: Application release version	
 welcome_to_my_daily_dozen	info_app_about_welcome	Welcome to my Daily Dozen!	Bienvenue dans mon Daily Dozen!	Info About View: Welcome	
 	info_book_how_not_to_die	Book: How Not to Die	Book: How Not to Die	Info Menu: book title	
 	info_book_how_not_to_die_cookbook	Book: How Not to Die Cookbook	Book: How Not to Die Cookbook	Info Menu: book title	
