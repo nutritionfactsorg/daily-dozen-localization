@@ -4318,7 +4318,7 @@
       <text:p>info_app_about_version</text:p>
      </table:table-cell>
      <table:table-cell table:number-columns-repeated="2" office:value-type="string" calcext:value-type="string">
-      <text:p>version 3.4.19</text:p>
+      <text:p>version 3.5.1</text:p>
      </table:table-cell>
      <table:table-cell office:value-type="string" calcext:value-type="string">
       <text:p>Info About View: Application release version</text:p>
