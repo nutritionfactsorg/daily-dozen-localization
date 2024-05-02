@@ -48,10 +48,9 @@ DO_NORMALIZE_BATCH
 #############
 LOGGER_FILENAME="_log_FromTsvIntake_Persian_fa"
 ## -- (fa) process app --
-SOURCE_TSV_INCLUDE="Persian/tsv/v05/Persian_fa.app.v05.20240328.intake.tsv"
-#SOURCE_TSV_INCLUDE="Persian/tsv/v05/Persian_fa.app.v05.20240215.missing.intake.tsv"
+SOURCE_TSV_INCLUDE="Persian/tsv/v05/Persian_fa.app.v05.20240426.intake.tsv"
 DO_NORMALIZE_BATCH
 
 ## -- (fa) process store --
-SOURCE_TSV_INCLUDE="Persian/tsv/v05/Persian_fa.store.v05.20240328.intake.tsv"
+SOURCE_TSV_INCLUDE="Persian/tsv/v05/Persian_fa.store.v05.20240426.intake.tsv"
 DO_NORMALIZE_BATCH
