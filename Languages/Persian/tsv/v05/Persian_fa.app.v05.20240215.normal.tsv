@@ -196,12 +196,12 @@ food_info_types_nuts.4	dozeNuts.Variety.Text.4	Hazelnuts	فندق
 food_info_types_nuts.5	dozeNuts.Variety.Text.5	Hemp seeds	شاهدانه		
 food_info_types_nuts.6	dozeNuts.Variety.Text.6	Macadamia nuts	فندق خامه‌ای/فندق ماکادامیا/فندق استرالیایی		
 food_info_types_nuts.7	dozeNuts.Variety.Text.7	Peanuts	بادام‌زمینی		
-food_info_types_nuts.7	dozeNuts.Variety.Text.8	Pecans	گردوی آمریکایی/پِکان		
-food_info_types_nuts.8	dozeNuts.Variety.Text.9	Pistachios	پسته		
-food_info_types_nuts.9	dozeNuts.Variety.Text.10	Pumpkin seeds	تخمه‌کدو		
-food_info_types_nuts.10	dozeNuts.Variety.Text.11	Sesame seeds	کنجد		
-food_info_types_nuts.11	dozeNuts.Variety.Text.12	Sunflower seeds	تخمه‌آفتابگردان		
-food_info_types_nuts.12	dozeNuts.Variety.Text.13	Walnuts	گردو		
+food_info_types_nuts.8	dozeNuts.Variety.Text.8	Pecans	گردوی آمریکایی/پِکان		
+food_info_types_nuts.9	dozeNuts.Variety.Text.9	Pistachios	پسته		
+food_info_types_nuts.10	dozeNuts.Variety.Text.10	Pumpkin seeds	تخمه‌کدو		
+food_info_types_nuts.11	dozeNuts.Variety.Text.11	Sesame seeds	کنجد		
+food_info_types_nuts.12	dozeNuts.Variety.Text.12	Sunflower seeds	تخمه‌آفتابگردان		
+food_info_types_nuts.13	dozeNuts.Variety.Text.13	Walnuts	گردو		
 OK	dozeOtherInfo.confirm	OK	بسیارخب	Daily Dozen supplement info alert: dismissal button text	
 	dozeOtherInfo.message	Vitamin B12 is essential for your health but does not count towards your daily servings.\n\nVitamin B12 is included in this app to provide you with an easy way to track your intake.	ویتامین ب۱۲ برای سلامتی‌تان ضروری است؛ اما شامل سهم‌های هرروزه‌تان نمی‌شود./n/n عنوان «ویتامین ب۱۲» در این اپ، به‌منظور ارائه راهی ساده برای نظارت بر مصرفتان آورده شده است.	Daily Dozen supplement info alert: message	
 	dozeOtherInfo.section	Supplements	مکمل‌های غذایی	Daily Dozen daily entry section heading	
