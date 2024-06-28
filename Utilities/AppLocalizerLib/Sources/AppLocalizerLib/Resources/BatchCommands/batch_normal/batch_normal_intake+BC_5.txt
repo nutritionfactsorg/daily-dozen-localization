@@ -191,6 +191,16 @@ LOGGER_FILENAME="_log_FromTsvIntake+BC_Slovak_sk"
 SOURCE_TSV_INCLUDE="Slovak/tsv/v05_Peanuts/Slovak_sk.app.v05.tsv"
 DO_NORMALIZE_BATCH
 
+##############
+## Ukranian ##
+##############
+LOGGER_FILENAME="_log_FromTsvIntake+BC_Ukranian_uk"
+## -- (sk) process app --
+SOURCE_TSV_INCLUDE="Ukranian/tsv/v05/Ukranian_uk.app.v05.tsv"
+DO_NORMALIZE_BATCH
+
+# ======= SPANISH: URL SET CHANGE ======= ======= ======= ======= 
+
 #############
 ## Spanish ##
 #############
@@ -203,7 +213,7 @@ URL_TOPICS_TSV="Spanish/tsv/v05_Peanuts/Spanish_es.url_topics.v05.tsv"
 SOURCE_TSV_INCLUDE="Spanish/tsv/v05_Peanuts/Spanish_es.app.v05.tsv"
 DO_NORMALIZE_BATCH
 
-# ======= ======= ======= ANDROID ONLY ======= ======= ======= 
+# ======= ANDROID ONLY ======= ======= ======= ======= ======= 
 
 ## Note: setting URL_TOPICS_TSV to English_US as used by languages other than Spanish.
 URL_FRAGMENTS_TSV="English_US/tsv/v05_Peanuts/English_US_en.url_fragments.v05.tsv"
