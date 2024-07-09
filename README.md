@@ -75,7 +75,7 @@ _App Localizations & Store Distribution_
 | [Swedish][locale-sv]      | - | [sv][droid-sv] | - | `sv` | [Sweden (SE)][apple-sv-se]
 | [Thai][locale-th]         | - | [th][droid-th] | - | `th` | [Thailand (TH)][apple-th]
 | [Turkish][locale-tr]      | - | [tr][droid-tr] | - | `tr` | [Turkey (TR)][apple-tr]
-| [Ukranian][locale-uk]      | R | [uk][droid-uk] | R | `uk` | [Ukraine (UK)][apple-tr]
+| [Ukranian][locale-uk]      | T | [uk][droid-uk] | T | `uk` | [Ukraine (UK)][apple-tr]
 | [Vietnamese][locale-vi]   | - | [vi][droid-vi] | - | `vi` | [Viet Nam (VN)][apple-vi-vn]
 
 _Legend:_
@@ -336,7 +336,9 @@ Extra columns can be added for the translators' convenience. The extra column na
 The filename convention `language_code.type.tags.datestamp.extension` uses the following elements :
 
 * **`language` Language Name.** For example: `English`, `Spanish`, `German`.
-* **`code`: Language Code** which may also reference a region. For example, `en`, `es`, `pt-rBR`, `pt-rPT`.
+* **`code` [Language Code](https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes)** is a ISO 639 Set 1 two letter language code. The code may also include the hyphenated `-` addition of a region code.
+    * Language code examples: `en`, `es`
+    * Language code examples which include a regtion: `pt-BR`, `pt-PT`.
 * **`type` Types** currently in use include:
     * `app` Translation used directly in the Android and Apple applications.
     * `store` Translation used in the App Store web page. 
