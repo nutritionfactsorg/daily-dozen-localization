@@ -6,8 +6,8 @@
 ###################
 ## General Setup ##
 ###################
-DIRNAME_OUTPUT_NORMAL="FromTsvIntake_fa_v05"
-LOGGER_FILENAME="_log_FromTsvIntake_fa_v05__"
+DIRNAME_OUTPUT_NORMAL="FromTsvIntake_uk_v05"
+LOGGER_FILENAME="_log_FromTsvIntake_uk_v05__"
 LOGGER_LEVEL_INFO
 
 ## Base English_US paths into which translations are mapped
@@ -48,7 +48,7 @@ DO_NORMALIZE_BATCH
 #############
 LOGGER_FILENAME="_log_FromTsvIntake_Ukranian_uk"
 ## -- (uk) process app --
-SOURCE_TSV_INCLUDE="Ukranian/tsv/v05/Ukranian_uk.app.v05.20240624.intake.tsv"
+SOURCE_TSV_INCLUDE="Ukranian/tsv/v05/Ukranian_uk.app.v05.20240708.intake.tsv"
 DO_NORMALIZE_BATCH
 
 ## -- (uk) process store --
