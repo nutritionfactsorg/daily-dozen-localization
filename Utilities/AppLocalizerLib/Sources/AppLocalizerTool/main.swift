@@ -89,7 +89,7 @@ let BatchSubdir = "batch_normal"
 //let BatchCommands = "batch_normal_intake__it_v03.txt"
 //let BatchCommands = "batch_normal_intake__fr_v04.txt"
 //let BatchCommands = "batch_normal_intake__ro.txt"
-//let BatchCommands = "batch_normal_intake__uk_v05.txt" // Ukrainian
+let BatchCommands = "batch_normal_intake__uk_v05.txt" // Ukrainian
 //let BatchCommands = "batch_normal_intake__zh_v05.txt"
 //let BatchCommands = "batch_normal_intake_B.txt"        // *B*aseline
 //let BatchCommands = "batch_normal_intake_C.txt"        // *C*hangeSet
@@ -100,7 +100,7 @@ let BatchSubdir = "batch_normal"
 //let BatchCommands = "batch_normal_intake+BC_1…4.txt"   // *B*aseline + *C*hangeSet
 //let BatchCommands = "batch_normal_intake+I_5.txt"      // *I*nset
 
-let BatchCommands = "batch_normal_intake+BC_5.txt"     // last step (aka after inset)
+//let BatchCommands = "batch_normal_intake+BC_5.txt"     // last step (aka after inset)
 
 print("### \(BatchCommands) ###")
 
