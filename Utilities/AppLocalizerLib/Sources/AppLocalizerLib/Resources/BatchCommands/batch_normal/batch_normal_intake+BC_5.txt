@@ -131,6 +131,18 @@ LOGGER_FILENAME="_log_FromTsvIntake+BC_Italian_it"
 SOURCE_TSV_INCLUDE="Italian/tsv/v05_Peanuts/Italian_it.app.v05.tsv"
 DO_NORMALIZE_BATCH
 
+################
+## Macedonian ##
+################
+LOGGER_FILENAME="_log_FromTsvIntake+BC_Macedonian_mk"
+## -- (mk) process app --
+SOURCE_TSV_INCLUDE="Macedonian/tsv/v05/Macedonian_mk.app.v05.tsv"
+DO_NORMALIZE_BATCH
+
+## -- (mk) process store --
+SOURCE_TSV_INCLUDE="Macedonian/tsv/v05/Macedonian_mk.store.v05.tsv"
+DO_NORMALIZE_BATCH
+
 #############
 ## Persian ##
 #############
