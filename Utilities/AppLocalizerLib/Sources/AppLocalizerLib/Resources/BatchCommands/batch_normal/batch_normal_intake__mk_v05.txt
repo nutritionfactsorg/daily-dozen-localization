@@ -1,0 +1,56 @@
+### FILE: batch_normal_FromTsvIntake.txt
+### WORKFLOW:  `*.strings` content based `*.tsv`
+### SCOPE: Macedonian individual update
+###
+
+###################
+## General Setup ##
+###################
+DIRNAME_OUTPUT_NORMAL="FromTsvIntake_mk_v05"
+LOGGER_FILENAME="_log_FromTsvIntake_mk_v05__"
+LOGGER_LEVEL_INFO
+
+## Base English_US paths into which translations are mapped
+## use one or the other.
+BASE_JSON_DIR="English_US/ios/en-US_reference/LocalStrings/en.v05.lproj"
+
+BASE_TSV_INCLUDE="English_US/tsv/v05_Peanuts/English_US_en.app.v05.tsv"
+
+URL_FRAGMENTS_TSV="English_US/tsv/v05_Peanuts/English_US_en.url_fragments.v05.tsv"
+URL_TOPICS_TSV="English_US/tsv/v05_Peanuts/English_US_en.url_topics.v05.tsv"
+
+### ------ ANDROID_LANG --> NORMALIZE XML -----
+BASE_XML_URL="English_US/android/values/strings.v05.xml"
+
+## Note: currently, URL_TOPICS_TSV is the same for all languages except Spanish.
+URL_FRAGMENTS_TSV="English_US/tsv/v05_Peanuts/English_US_en.url_fragments.v05.tsv"
+URL_TOPICS_TSV="English_US/tsv/v05_Peanuts/English_US_en.url_topics.v05.tsv"
+
+####################################
+## English_US: Baseline Reference ##
+####################################
+LOGGER_FILENAME="_log_FromTsvIntake__US_en"
+
+SOURCE_TSV_INCLUDE="English_US/tsv/v05_Peanuts/English_US_en.app.v05.tsv"
+DO_NORMALIZE_BATCH
+
+#SOURCE_TSV_INCLUDE="English_US/tsv/v05_Peanuts/English_US_en.store.v05.tsv"
+#DO_NORMALIZE_BATCH
+
+#SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.url_fragments.tsv"
+#DO_NORMALIZE_BATCH
+
+#SOURCE_TSV_INCLUDE="English_US/tsv/English_US_en.url_topics.tsv"
+#DO_NORMALIZE_BATCH
+
+##############
+## Macedonian ##
+##############
+LOGGER_FILENAME="_log_FromTsvIntake_Macedonian_mk"
+## -- (mk) process app --
+SOURCE_TSV_INCLUDE="Macedonian/tsv/v05/Macedonian_mk.app.v05.20240713.intake.tsv"
+DO_NORMALIZE_BATCH
+
+## -- (mk) process store --
+SOURCE_TSV_INCLUDE="Macedonian/tsv/v05/Macedonian_mk.store.v05.20240713.intake.tsv"
+DO_NORMALIZE_BATCH
