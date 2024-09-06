@@ -7,10 +7,19 @@ U+201E
 UTF-8 E2 80 9E
 Double Low-9 Quotation Mark
 
-
 “
 Left Double Quotation Mark
 U+201C
 UTF-8 E2 80 9C
 
 ’…‘
+
+’
+U+2019
+UTF-8 E2 80 99
+Right Single Quotation Mark
+
+‘
+U+2018
+UTF-8 E2 80 98
+Left Single Quotation Mark
