@@ -324,7 +324,7 @@ about	info_app_about	About	Informació	Info About Menu Item
 app_name	info_app_about_app_name	Daily Dozen	Dotzena Diària	Info About View: Application Name ‘Daily Dozen’	
 	info_app_about_created_by	This app was created by: NutritionFacts.org, Christi Richards, Konstantin Khokhlov, and Marc Campbell	Aquesta app ha estat creada per: NutritionFacts.org, Christi Richards, Konstantin Khokhlov i Marc Campbell	Info About View: Created By	
 about_this_app	info_app_about_heading	About this app	Sobre aquesta app	Info About View	
-	info_app_about_oss_credits	The following open source libraries are used: RealmSwift, Charts, FSCalendar, SimpleAnimation, ActiveLabel.	S'utilitzen les següents biblioteques de codi obert: RealmSwift, Charts, FSCalendar, SimpleAnimation, ActiveLabel.	Info About View: Open Source Credits	
+	info_app_about_oss_credits	The following open source libraries are used: RealmSwift, Charts, FSCalendar, SimpleAnimation.	S'utilitzen les següents biblioteques de codi obert: RealmSwift, Charts, FSCalendar, SimpleAnimation.	Info About View: Open Source Credits	
 activity_welcome_text	info_app_about_overview	Use this app on a daily basis to keep track of the foods and advice I recommend for optimal health and longevity in my books How Not to Die and How Not to Diet.	Utilitza aquesta app cada dia per fer un seguiment dels aliments i els consells que dono per una salut i longevitat òptimes als meus llibres How Not to Die i How Not to Diet.	Info About View: Overview Text	
 	info_app_about_version	version 3.5.1	versió 3.5.1	Info About View: Application release version	
 welcome_to_my_daily_dozen	info_app_about_welcome	Welcome to my Daily Dozen!	Benvingut a la meva Dotzena Diària!	Info About View: Welcome	

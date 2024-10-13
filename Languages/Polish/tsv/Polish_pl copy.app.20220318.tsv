@@ -323,7 +323,7 @@ about	info_app_about	About	O aplikacji	Info About Menu Item
 app_name	info_app_about_app_name	Daily Dozen	Codzienny Tuzin	Info About View: Application Name ‘Daily Dozen’	
 	info_app_about_created_by	This app was created by: NutritionFacts.org, Christi Richards, Konstantin Khokhlov, and Marc Campbell	Ta aplikacja została stworzona przez: NutritionFacts.org, Christi Richards, Konstantin Khokhlov i Marc Campbell	Info About View: Created By	
 about_this_app	info_app_about_heading	About this app	O aplikacji	Info About View	
-	info_app_about_oss_credits	The following open source libraries are used: RealmSwift, Charts, FSCalendar, SimpleAnimation, ActiveLabel.	Używane są następujące biblioteki open source: RealmSwift, Charts, FSCalendar, SimpleAnimation i ActiveLabel.	Info About View: Open Source Credits	
+	info_app_about_oss_credits	The following open source libraries are used: RealmSwift, Charts, FSCalendar, SimpleAnimation.	Używane są następujące biblioteki open source: RealmSwift, Charts, FSCalendar i SimpleAnimation.	Info About View: Open Source Credits	
 activity_welcome_text	info_app_about_overview	Use this app on a daily basis to keep track of the foods and advice I recommend for optimal health and longevity in my books How Not to Die and How Not to Diet.	Korzystaj z tej aplikacji codziennie, aby śledzić żywność i porady, które polecam dla optymalnego zdrowia i długowieczności w moich książkach „Jak nie umrzeć przedwcześnie” i „How Not to Diet”.	Info About View: Overview Text	
 	info_app_about_version	version 3.5.1	wersja 3.5.1	Info About View: Application release version	
 welcome_to_my_daily_dozen	info_app_about_welcome	Welcome to my Daily Dozen!	Witaj w moim Codziennym Tuzinie!	Info About View: Welcome	
