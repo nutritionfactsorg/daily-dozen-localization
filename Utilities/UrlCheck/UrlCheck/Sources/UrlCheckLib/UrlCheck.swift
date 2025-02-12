@@ -178,10 +178,9 @@ public extension UrlCheck {
 let mdHeader = """
 # DailyDozen App Topics URL Link Check Report
 
-This report shows status result (e.g. 200, 404) from the NutritionFacts.org website for the topics urls in use by the Daily Dozen apps.
+This report shows the status results (e.g. 200, 404) from the NutritionFacts.org website for the `topics` urls in use by the Daily Dozen apps.
 
-The `Title` urls click to a word-based search on NutritionFacts.org for reviewer convience. The `Topic` urls click to the a topic link on NutritionFacts.org as used by the AndroidOS and AppleOS Daily Dozen apps.
-
+The "Title" urls click to a word-based search on NutritionFacts.org for report reviewer convience. The "Topic" urls click to the a `topics` link on NutritionFacts.org as used in the AndroidOS and AppleOS Daily Dozen apps.
 
 ``` html
 <!-- Title: word search url -->
