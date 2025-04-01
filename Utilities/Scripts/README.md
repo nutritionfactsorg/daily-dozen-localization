@@ -16,8 +16,6 @@
 * `daily-dozen-ios` paths
     * **`NF_APPLE_V3_LANG`** path to v3-languages branch `daily-dozen-ios-v3-languages`
     * **`NF_APPLE_V3_MAIN`** path to main branch of `daily-dozen-ios-master`
-    * **`NF_XCLOC_LANG`** path to current Xcode `.xcloc` export for the _languages_ branch.
-    * **`NF_XCLOC_MAIN`** path to current Xcode `.xcloc` export for the _main_ branch.
 
 * `daily-dozen-localization` paths
     * **`NF_LOCALE_LANG_ALL`** path to `…/Languages/`
@@ -28,7 +26,7 @@
 
 * `daily-dozen-android/app/main/src/res/`
     * **`droid`** refers to the Android `values-*/strings.xml` file set.
-* `daily-dozen-ios` -> `/*.xloc`
+* `daily-dozen-ios` -> `/*.xloc` **:OBSOLETE:XILFF:XLOC:**
     * **`xloc`** refers the exported Xcode `*.xloc` localization files placed in some an intermediate `xliff` directory.
 * `daily-dozen-localization/Languages/`
     * **`base`** indicates the "baseline" `English_US` directory.

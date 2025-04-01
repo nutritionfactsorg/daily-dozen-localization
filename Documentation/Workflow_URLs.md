@@ -39,7 +39,7 @@ URL tsv files can be diff'd.
 
 **Utilities**
 
-* [AppLocalizer ⇗](../Utilities/AppLocalizerLib/README.md)
-* [UrlCheck ⇗](../Utilities/UrlCheck/README.md)
-* [UrlReportGenerator ⇗](../Utilities/UrlCheck/README.md)
+* [AppLocalizer ↗︎](../Utilities/AppLocalizerLib/README.md)
+* [UrlCheck ↗︎](../Utilities/UrlCheck/README.md)
+* [UrlReportGenerator ↗︎](../Utilities/UrlCheck/README.md)
 
