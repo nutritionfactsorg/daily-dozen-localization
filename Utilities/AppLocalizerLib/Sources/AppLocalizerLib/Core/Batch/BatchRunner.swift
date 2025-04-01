@@ -61,7 +61,7 @@ struct BatchRunner {
             //print("cmd `\(command.cmdKey)` \(cmd.cmdUrl?.absoluteString ?? "nil")")
             
             // Clear
-            if command.cmdKey.hasPrefix("CLEAR_ALL") {
+            if command.cmdKey.hasPrefix(Cmd.CLEAR_ALL.txt) {
                 BatchExport.shared.clearAll()
                 BatchImport.shared.clearAll()
                 baseJsonDir = nil
@@ -90,7 +90,7 @@ struct BatchRunner {
                 urlTopicsTsv = nil
             } 
             // Diff
-            else if command.cmdKey.hasPrefix("DIFF_TSV_A") {
+            else if command.cmdKey.hasPrefix(Cmd.DIFF_TSV_A.txt) {
                 if let url = command.cmdUrl {
                     if diffTsvA == nil {
                         diffTsvA = [url]
@@ -99,7 +99,7 @@ struct BatchRunner {
                     } 
                 }
             }             
-            else if command.cmdKey.hasPrefix("DIFF_TSV_B") {
+            else if command.cmdKey.hasPrefix(Cmd.DIFF_TSV_B.txt) {
                 if let url = command.cmdUrl {
                     if diffTsvB == nil {
                         diffTsvB = [url]
@@ -108,41 +108,41 @@ struct BatchRunner {
                     } 
                 }
             }             
-            else if command.cmdKey.hasPrefix("DIFF_XML_A") {
+            else if command.cmdKey.hasPrefix(Cmd.DIFF_XML_A.txt) {
                 diffXmlA = command.cmdUrl
             }             
-            else if command.cmdKey.hasPrefix("DIFF_XML_B") {
+            else if command.cmdKey.hasPrefix(Cmd.DIFF_XML_B.txt) {
                 diffXmlB = command.cmdUrl
             }             
-            else if command.cmdKey.hasPrefix("DIFF_XLIFF_A") {
+            else if command.cmdKey.hasPrefix(Cmd.DIFF_XLIFF_A.txt) {
                 diffXliffA = command.cmdUrl
             }             
-            else if command.cmdKey.hasPrefix("DIFF_XLIFF_B") {
+            else if command.cmdKey.hasPrefix(Cmd.DIFF_XLIFF_B.txt) {
                 diffXliffB = command.cmdUrl
             }             
-            else if command.cmdKey.hasPrefix("DO_DIFF_KEYS") {
+            else if command.cmdKey.hasPrefix(Cmd.DO_DIFF_KEYS.txt) {
                 BatchDiff.shared.doDiffKeys(tsvUrlListA: diffTsvA, tsvUrlListB: diffTsvB, xmlUrlA: diffXmlA, xmlUrlB: diffXmlB, xliffUrlA: diffXliffA, xliffUrlB: diffXliffB)
             }             
             // Export
-            else if command.cmdKey.hasPrefix("OUTPUT_LANG_TSV") {
+            else if command.cmdKey.hasPrefix(Cmd.OUTPUT_LANG_TSV.txt) {
                 outputLangTsv = command.cmdUrl
             } 
-            else if command.cmdKey.hasPrefix("SOURCE_ENUS_TSV") {
+            else if command.cmdKey.hasPrefix(Cmd.SOURCE_ENUS_TSV.txt) {
                 sourceEnUSTsv = command.cmdUrl
             } 
-            else if command.cmdKey.hasPrefix("SOURCE_ENUS_DROID") {
+            else if command.cmdKey.hasPrefix(Cmd.SOURCE_ENUS_DROID.txt) {
                 sourceEnUSDroid = command.cmdUrl
             }
-            else if command.cmdKey.hasPrefix("SOURCE_LANG_DROID") {
+            else if command.cmdKey.hasPrefix(Cmd.SOURCE_LANG_DROID.txt) {
                 sourceLangDroid = command.cmdUrl
             } 
-            else if command.cmdKey.hasPrefix("SOURCE_ENUS_APPLE") {
+            else if command.cmdKey.hasPrefix(Cmd.SOURCE_ENUS_APPLE.txt) {
                 sourceEnUSApple = command.cmdUrl
             } 
-            else if command.cmdKey.hasPrefix("SOURCE_LANG_APPLE") {
+            else if command.cmdKey.hasPrefix(Cmd.SOURCE_LANG_APPLE.txt) {
                 sourceLangApple = command.cmdUrl
             } 
-            else if command.cmdKey.hasPrefix("DO_EXPORT_TSV") {
+            else if command.cmdKey.hasPrefix(Cmd.DO_EXPORT_TSV.txt) {
                 if 
                     let outputLangTsv = outputLangTsv,
                     let sourceEnUSTsv = sourceEnUSTsv,
@@ -163,7 +163,7 @@ struct BatchRunner {
                     print(":ERROR: DO_EXPORT_TSV some required url missing.")
                 }
             } 
-            else if command.cmdKey.hasPrefix("SOURCE_STRINGS") {
+            else if command.cmdKey.hasPrefix(Cmd.SOURCE_STRINGS.txt) {
                 if let url = command.cmdUrl {
                     if sourceStrings == nil {
                         sourceStrings = [URL]()
@@ -171,7 +171,7 @@ struct BatchRunner {
                     sourceStrings?.append(url)
                 }
             }
-            else if command.cmdKey.hasPrefix("SOURCE_TSV_INCLUDE") {
+            else if command.cmdKey.hasPrefix(Cmd.SOURCE_TSV_INCLUDE.txt) {
                 if let url = command.cmdUrl {
                     if sourceListTSV == nil {
                         sourceListTSV = [URL]()
@@ -179,12 +179,12 @@ struct BatchRunner {
                     sourceListTSV?.append(url)
                 }
             } 
-            else if command.cmdKey.hasPrefix("BASE_JSON_DIR") {
+            else if command.cmdKey.hasPrefix(Cmd.BASE_JSON_DIR.txt) {
                 if let url = command.cmdUrl {
                     baseJsonDir = url
                 }
             }
-            else if command.cmdKey.hasPrefix("BASE_TSV_INCLUDE") {
+            else if command.cmdKey.hasPrefix(Cmd.BASE_TSV_INCLUDE.txt) {
                 if let url = command.cmdUrl {
                     if baseListTsv == nil {
                         baseListTsv = [URL]()
@@ -192,38 +192,38 @@ struct BatchRunner {
                     baseListTsv?.append(url)
                 }
             }
-            else if command.cmdKey.hasPrefix("BASE_XML_URL") {
+            else if command.cmdKey.hasPrefix(Cmd.BASE_XML_URL.txt) {
                 if let url = command.cmdUrl {
                     baseXmlUrl = url
                 }
             }
-            else if command.cmdKey.hasPrefix("URL_FRAGMENTS_TSV") {
+            else if command.cmdKey.hasPrefix(Cmd.URL_FRAGMENTS_TSV.txt) {
                 if let url = command.cmdUrl {
                     urlFragmentsTsv = url
                 }
             }
-            else if command.cmdKey.hasPrefix("URL_TOPICS_TSV") {
+            else if command.cmdKey.hasPrefix(Cmd.URL_TOPICS_TSV.txt) {
                 if let url = command.cmdUrl {
                     urlTopicsTsv = url
                 }
             } 
-            else if command.cmdKey.hasPrefix("SOURCE_XLIFF") {
+            else if command.cmdKey.hasPrefix(Cmd.SOURCE_XLIFF.txt) {
                 sourceXLIFF = command.cmdUrl
             }
-            else if command.cmdKey.hasPrefix("SOURCE_XML") {
+            else if command.cmdKey.hasPrefix(Cmd.SOURCE_XML.txt) {
                 sourceXML = command.cmdUrl
             }
-            else if command.cmdKey.hasPrefix("OUTPUT_APPLE") {
+            else if command.cmdKey.hasPrefix(Cmd.OUTPUT_APPLE.txt) {
                 outputApple = command.cmdUrl
             } 
-            else if command.cmdKey.hasPrefix("OUTPUT_DROID") {
+            else if command.cmdKey.hasPrefix(Cmd.OUTPUT_DROID.txt) {
                 outputDroid = command.cmdUrl
             } 
-            else if command.cmdKey.hasPrefix("DIRNAME_OUTPUT_NORMAL") {
+            else if command.cmdKey.hasPrefix(Cmd.DIRNAME_OUTPUT_NORMAL.txt) {
                 // dirname used inside "…/_Normal__LOCAL/"  
                 outputNormalDir = command.cmdUrl
             }
-            else if command.cmdKey.hasPrefix("DO_IMPORT_TSV") {
+            else if command.cmdKey.hasPrefix(Cmd.DO_IMPORT_TSV.txt) {
                 if let sourceTSV = sourceListTSV {
                     BatchImport.shared.doImport(sourceTSV: sourceTSV, 
                              outputAndroid: outputDroid, 
@@ -232,7 +232,7 @@ struct BatchRunner {
                     print(":ERROR: BatchRunner run() missing SOURCE_TSV_INCLUDE")
                 }
             }
-            else if command.cmdKey.hasPrefix("DO_INSET_BATCH") {
+            else if command.cmdKey.hasPrefix(Cmd.DO_INSET_BATCH.txt) {
                 // Additive: inserts secondary *.tsv into primary *.tsv.
                 //     will reindex any key which ends with a dot-number
                 logger.info("\n##### ----- DO_INSET_BATCH ----- ######")
@@ -252,7 +252,7 @@ struct BatchRunner {
                 BatchNormal.shared.doInsetTsv(sourceTSV: source, resultsDir: outputNormalDir)
                 sourceListTSV = nil
             }
-            else if command.cmdKey.hasPrefix("DO_NORMALIZE_BATCH") {
+            else if command.cmdKey.hasPrefix(Cmd.DO_NORMALIZE_BATCH.txt) {
                 // Normalizes base on the given *.string, *.tsv, *.xliff, *.xml source
                 logger.info("\n##### ----- DO_NORMALIZE_BATCH ----- ######")
                 guard 
@@ -302,29 +302,29 @@ struct BatchRunner {
                 } 
             }
             // ----- LogService -----
-            else if command.cmdKey.hasPrefix("LOGGER_FILENAME") {
+            else if command.cmdKey.hasPrefix(Cmd.LOGGER_FILENAME.txt) {
                 // logfile placed inside "…/_Normal__LOCAL/"
                 logger.useLogfile(url: command.cmdUrl)
             }
-            else if command.cmdKey.hasPrefix("LOGGER_LEVEL_") {
-                if command.cmdKey.hasPrefix("LOGGER_LEVEL_ALL") {
+            else if command.cmdKey.hasPrefix(Cmd.LOGGER_LEVEL_.txt) {
+                if command.cmdKey.hasPrefix(Cmd.LOGGER_LEVEL_ALL.txt) {
                     logger.logLevel = .all
-                } else if command.cmdKey.hasPrefix("LOGGER_LEVEL_VERBOSE") {
+                } else if command.cmdKey.hasPrefix(Cmd.LOGGER_LEVEL_VERBOSE.txt) {
                     logger.logLevel = .verbose
-                } else if command.cmdKey.hasPrefix("LOGGER_LEVEL_DEBUG") {
+                } else if command.cmdKey.hasPrefix(Cmd.LOGGER_LEVEL_DEBUG.txt) {
                     logger.logLevel = .debug
-                } else if command.cmdKey.hasPrefix("LOGGER_LEVEL_INFO") {
+                } else if command.cmdKey.hasPrefix(Cmd.LOGGER_LEVEL_INFO.txt) {
                     logger.logLevel = .info
-                } else if command.cmdKey.hasPrefix("LOGGER_LEVEL_WARNING") {
+                } else if command.cmdKey.hasPrefix(Cmd.LOGGER_LEVEL_WARNING.txt) {
                     logger.logLevel = .warning
-                } else if command.cmdKey.hasPrefix("LOGGER_LEVEL_ERROR") {
+                } else if command.cmdKey.hasPrefix(Cmd.LOGGER_LEVEL_ERROR.txt) {
                     logger.logLevel = .error
-                } else if command.cmdKey.hasPrefix("LOGGER_LEVEL_OFF") {
+                } else if command.cmdKey.hasPrefix(Cmd.LOGGER_LEVEL_OFF.txt) {
                     logger.logLevel = .off
                 }
             }
             // ----- Quit -----
-            else if command.cmdKey.hasPrefix("QUIT") {
+            else if command.cmdKey.hasPrefix(Cmd.QUIT.txt) {
                 return // exit loop and run()
             }
         }
