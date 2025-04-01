@@ -10,13 +10,6 @@ import Foundation
 // * StdioExtensions.swift provides three approaches for adding stderr access.
 // * StdioExtensions.swift is not needed if only stdout output will be used.
 
-extension FileHandle : TextOutputStream {
-    public func write(_ string: String) {
-        guard let data = string.data(using: .utf8) else { return }
-        self.write(data)
-    }
-}
-
 ////////////////////////////
 // Approach: add function //
 ////////////////////////////
