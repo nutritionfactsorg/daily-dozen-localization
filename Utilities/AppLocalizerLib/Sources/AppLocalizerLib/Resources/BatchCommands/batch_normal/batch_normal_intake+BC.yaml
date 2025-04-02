@@ -1,4 +1,4 @@
-### FILE: batch_normal_FromTsvIntake+BC.txt
+### FILE: batch_normal_FromTsvIntake+BC.yaml
 ### NOTE: "vNN BASELINE" + CHANGESET (post-`intake`) processing
 ### APPLY: 
 ###    1. run after intake process baseline (B) and changesets (C)

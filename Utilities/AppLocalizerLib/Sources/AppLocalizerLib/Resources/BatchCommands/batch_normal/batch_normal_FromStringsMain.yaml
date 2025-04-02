@@ -1,4 +1,4 @@
-###     FILE: batch_normal_FromStringsMain.txt
+###     FILE: batch_normal_FromStringsMain.yaml
 ### WORKFLOW: from `*.lproj/*.strings` to `normal/*.lproj/*.strings`
 ###    SCOPE: all `*.strings` files in daily-dozen-ios main branch
 ###

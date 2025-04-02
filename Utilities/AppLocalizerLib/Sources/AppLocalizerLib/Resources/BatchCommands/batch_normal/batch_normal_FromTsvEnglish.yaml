@@ -1,4 +1,4 @@
-### FILE: batch_normal_FromTsvEnglish.txt
+### FILE: batch_normal_FromTsvEnglish.yaml
 ### WORKFLOW:  `English_us*.tsv` to normalized strings, tsv
 ### SCOPE: English_us primary reference
 ###

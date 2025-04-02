@@ -1,4 +1,4 @@
-### FILE: batch_normal_FromTsvIntakeC_2.txt
+### FILE: batch_normal_FromTsvIntakeC_2.yaml
 ### WORKFLOW:  `*.strings` content based `*.tsv`
 ### NOTE: standalone CHANGESET `intake` processing
 ###       use `normalized` output for later inclusion into overall normalization

@@ -1,4 +1,4 @@
-### FILE: batch_import.txt
+### FILE: batch_import.yaml
 ### WORKFLOW: Documentation/Workflow_ImportIntoApps.md
 ###
 ### USE: imports tsv data in the Android and Apple source files.

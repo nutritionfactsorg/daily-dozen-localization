@@ -1,4 +1,4 @@
-### FILE: batch_normal_FromTsvIntakeB.txt
+### FILE: batch_normal_FromTsvIntakeB.yaml
 ### WORKFLOW:  `*.strings` content based `*.tsv`
 ### NOTE: standalone BASELINE `intake` processing (not changeset directory)
 ### APPLY: 

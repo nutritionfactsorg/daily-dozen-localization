@@ -28,36 +28,36 @@ var productsDir: URL {
 
 // :NYI: support `BatchCommands` as parameter. check for default file is no parameter.
 
-// batch_replicate_DroidToTSV.txt
-// batch_replicate_TsvToApple.txt
+// batch_replicate_DroidToTSV.yaml
+// batch_replicate_TsvToApple.yaml
 
-// batch_diff_xliff.txt
-// batch_diff_tsv_update_af.txt
-// batch_diff_tsv_update__all.txt
-// batch_export_es.txt
-// batch_export_pl_es.txt
-// batch_import_es.txt
-// batch_import_pl.txt
-// batch_import_de.txt: de, pl
+// batch_diff_xliff.yaml
+// batch_diff_tsv_update_af.yaml
+// batch_diff_tsv_update__all.yaml
+// batch_export_es.yaml
+// batch_export_pl_es.yaml
+// batch_import_es.yaml
+// batch_import_pl.yaml
+// batch_import_de.yaml: de, pl
 
 // :NOTES: batch_export_pass01 vs batch_replicate_DroidToTsv
-// batch_export_pass01.txt
-// batch_replicate_DroidToTsv.txt
-// "batch_replicate_TsvToApple.txt" // :WIP: for test version
+// batch_export_pass01.yaml
+// batch_replicate_DroidToTsv.yaml
+// "batch_replicate_TsvToApple.yaml" // :WIP: for test version
 
 // ::WIP::
-// ___ Check en_US baseline: batch_diff_tsv_enUS.txt
+// ___ Check en_US baseline: batch_diff_tsv_enUS.yaml
 
 // ::WIP:: Normalize
 
 // (TEST)
 //let BatchSubdir = "batch_normal"
-//let BatchCommands = "batch_normal_FromTsvTest.txt"
+//let batchCommands = "batch_normal_FromTsvTest.yaml"
 
 // (0) XLIFF use to review current App keywords to lang repo
 // -- NORMALIZE: repo xliff -> strings
 //let BatchSubdir = "batch_normal"
-//let BatchCommands = "batch_normal_FromXliff.txt"
+//let batchCommands = "batch_normal_FromXliff.yaml"
 
 // (1) TSV MAIN REPO ("truth") to "NORMALIZED" product files 
 // -- Generated normalized `*.tsv`, `*.json`, `*.string`, `*.xml`
@@ -65,8 +65,8 @@ var productsDir: URL {
 // -- Rerun, and repeat verify/sync until English main repo is fully up to date.
 // -- Compare normalized English-Language tsv keywords. Updates as needed.
 //let BatchSubdir = "batch_normal"
-//let BatchCommands = "batch_normal_FromTsvMain.txt"
-//let BatchCommands = "batch_normal_FromTsvMain_es.txt" // update spanish
+//let batchCommands = "batch_normal_FromTsvMain.yaml"
+//let batchCommands = "batch_normal_FromTsvMain_es.yaml" // update spanish
 
 // (2) TSV INTAKE to "NORMALIZED" .tsv, .json, .string, .xml  
 // -- INTAKE: include/exclude languages as needed
@@ -75,33 +75,33 @@ var productsDir: URL {
 
 // (*) TSV residual updates (files without submitted translations)
 //let BatchSubdir = "batch_normal"
-//let BatchCommands = "batch_normal_FromTsvResidual.txt"
+//let batchCommands = "batch_normal_FromTsvResidual.yaml"
 
 // (*) XML Android Migration (not yet translated for Apple devices)
 //let BatchSubdir = "batch_normal"
-//let BatchCommands = "batch_normal_FromXmlDroidOnly.txt"
-//let BatchCommands = "batch_normal_FromXmlOnly_it.txt"
+//let batchCommands = "batch_normal_FromXmlDroidOnly.yaml"
+//let batchCommands = "batch_normal_FromXmlOnly_it.yaml"
 
 let BatchSubdir = "batch_normal"
-//let BatchCommands = "batch_normal_intake__bg.txt"
-//let BatchCommands = "batch_normal_intake__de_v05.txt"
-//let BatchCommands = "batch_normal_intake__fa_v05.txt" // Persian
-//let BatchCommands = "batch_normal_intake__it_v03.txt"
-//let BatchCommands = "batch_normal_intake__fr_v04.txt"
-//let BatchCommands = "batch_normal_intake__mk_v05.txt"
-//let BatchCommands = "batch_normal_intake__ro.txt"
-//let BatchCommands = "batch_normal_intake__uk_v05.txt" // Ukrainian
-//let BatchCommands = "batch_normal_intake__zh_v05.txt"
-//let BatchCommands = "batch_normal_intake_B.txt"        // *B*aseline
-//let BatchCommands = "batch_normal_intake_C.txt"        // *C*hangeSet
-//let BatchCommands = "batch_normal_intake_C_1.txt"      // *C*hangeSet01
-//let BatchCommands = "batch_normal_intake_C_2.txt"      // *C*hangeSet02
-//let BatchCommands = "batch_normal_intake_C_3.txt"      // *C*hangeSet03
-//let BatchCommands = "batch_normal_intake+BC.txt"       // *B*aseline + *C*hangeSet
-//let BatchCommands = "batch_normal_intake+BC_1…4.txt"   // *B*aseline + *C*hangeSet
-//let BatchCommands = "batch_normal_intake+I_5.txt"      // *I*nset
+//let batchCommands = "batch_normal_intake__bg.yaml"
+//let batchCommands = "batch_normal_intake__de_v05.yaml"
+//let batchCommands = "batch_normal_intake__fa_v05.yaml" // Persian
+//let batchCommands = "batch_normal_intake__it_v03.yaml"
+//let batchCommands = "batch_normal_intake__fr_v04.yaml"
+//let batchCommands = "batch_normal_intake__mk_v05.yaml"
+//let batchCommands = "batch_normal_intake__ro.yaml"
+//let batchCommands = "batch_normal_intake__uk_v05.yaml" // Ukrainian
+//let batchCommands = "batch_normal_intake__zh_v05.yaml"
+//let batchCommands = "batch_normal_intake_B.yaml"        // *B*aseline
+//let batchCommands = "batch_normal_intake_C.yaml"        // *C*hangeSet
+//let batchCommands = "batch_normal_intake_C_1.yaml"      // *C*hangeSet01
+//let batchCommands = "batch_normal_intake_C_2.yaml"      // *C*hangeSet02
+//let batchCommands = "batch_normal_intake_C_3.yaml"      // *C*hangeSet03
+//let batchCommands = "batch_normal_intake+BC.yaml"       // *B*aseline + *C*hangeSet
+//let batchCommands = "batch_normal_intake+BC_1…4.yaml"   // *B*aseline + *C*hangeSet
+//let batchCommands = "batch_normal_intake+I_5.yaml"      // *I*nset
 
-let BatchCommands = "batch_normal_intake+BC_5.txt"     // last step (aka after inset)
+let batchCommands = "batch_normal_intake+BC_5.yaml"     // last step (aka after inset)
 
 print("### \(BatchCommands) ###")
 
