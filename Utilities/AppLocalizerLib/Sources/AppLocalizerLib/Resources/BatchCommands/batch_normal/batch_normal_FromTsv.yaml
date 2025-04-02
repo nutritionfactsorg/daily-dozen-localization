@@ -1,0 +1,168 @@
+### FILE: batch_normal_FromTsv.txt
+### WORKFLOW:  `*.strings` content based `*.tsv`
+### SCOPE: all planned languages
+###
+
+DIRNAME_OUTPUT_NORMAL: "FromTsv"
+LOGGER_FILENAME: "_log_FromTsv"
+LOGGER_LEVEL_INFO
+
+SOURCE_TSV_INCLUDE: "Afrikaans/tsv/Afrikaans_af.app.tsv"
+DO_NORMALIZE_BATCH
+
+SOURCE_TSV_INCLUDE: "Arabic/tsv/Arabic_ar.app.tsv"
+DO_NORMALIZE_BATCH
+
+SOURCE_TSV_INCLUDE: "Bhojpuri/tsv/Bhojpuri_bho.app.tsv"
+DO_NORMALIZE_BATCH
+
+## Pick one
+#SOURCE_TSV_INCLUDE: "Bulgarian/tsv/Bulgarian_bg.app.20211015_1757.tsv"
+SOURCE_TSV_INCLUDE: "Bulgarian/tsv/Bulgarian_bg.app.tsv"
+DO_NORMALIZE_BATCH
+
+SOURCE_TSV_INCLUDE: "Chinese_HongKong/tsv/Chinese_HongKong_zh-HK.app.tsv"
+DO_NORMALIZE_BATCH
+
+SOURCE_TSV_INCLUDE: "Chinese_Simplified/tsv/Chinese_Simplified_zh-Hans.app.tsv"
+DO_NORMALIZE_BATCH
+
+## Pick one
+#SOURCE_TSV_INCLUDE: "Chinese_Traditional/tsv/Chinese_Traditional_zh-Hant.app.20211015_1919.tsv"
+SOURCE_TSV_INCLUDE: "Chinese_Traditional/tsv/Chinese_Traditional_zh-Hant.app.tsv"
+DO_NORMALIZE_BATCH
+
+DO_NORMALIZE_BATCH
+
+SOURCE_TSV_INCLUDE: "Czech/tsv/Czech_cs.app.tsv"
+DO_NORMALIZE_BATCH
+
+SOURCE_TSV_INCLUDE: "Danish/tsv/Danish_da.app.tsv"
+DO_NORMALIZE_BATCH
+
+SOURCE_TSV_INCLUDE: "Dutch/tsv/Dutch_nl.app.tsv"
+DO_NORMALIZE_BATCH
+
+SOURCE_TSV_INCLUDE: "English_GB/tsv/English_GB_en-GB.app.tsv"
+DO_NORMALIZE_BATCH
+
+SOURCE_TSV_INCLUDE: "English_US/tsv/English_US_en.app.tsv"
+DO_NORMALIZE_BATCH
+
+SOURCE_TSV_INCLUDE: "Estonian/tsv/Estonian_et.app.tsv"
+DO_NORMALIZE_BATCH
+
+SOURCE_TSV_INCLUDE: "Finnish/tsv/Finnish_fi.app.tsv"
+DO_NORMALIZE_BATCH
+
+SOURCE_TSV_INCLUDE: "French/tsv/French_fr.app.tsv"
+DO_NORMALIZE_BATCH
+
+SOURCE_TSV_INCLUDE: "French_Canada/tsv/French_Canada_fr-CA.app.tsv"
+DO_NORMALIZE_BATCH
+
+SOURCE_TSV_INCLUDE: "Georgian/tsv/Georgian_ka.app.tsv"
+DO_NORMALIZE_BATCH
+
+## Pick one
+#SOURCE_TSV_INCLUDE: "German/tsv/German_de.app.20211015_1924.tsv"
+#SOURCE_TSV_INCLUDE: "German/tsv/German_deapp..combo.tsv"
+#SOURCE_TSV_INCLUDE: "German/tsv/German_de.app.combo.20211015_1924.tsv"
+SOURCE_TSV_INCLUDE: "German/tsv/German_de.app.tsv"
+DO_NORMALIZE_BATCH
+
+## Pick one
+#SOURCE_TSV_INCLUDE: "Greek/tsv/Greek_el.app.20211015_1931.tsv"
+SOURCE_TSV_INCLUDE: "Greek/tsv/Greek_el.app.tsv"
+DO_NORMALIZE_BATCH
+
+SOURCE_TSV_INCLUDE: "Hebrew/tsv/Hebrew_he.app.tsv"
+DO_NORMALIZE_BATCH
+
+SOURCE_TSV_INCLUDE: "Hindi/tsv/Hindi_hi.app.tsv"
+DO_NORMALIZE_BATCH
+
+SOURCE_TSV_INCLUDE: "Hungarian/tsv/Hungarian_hu.app.tsv"
+DO_NORMALIZE_BATCH
+
+## Pick one
+#SOURCE_TSV_INCLUDE: "Italian/tsv/Italian_it.app.20211015_1933.tsv"
+SOURCE_TSV_INCLUDE: "Italian/tsv/Italian_it.app.tsv"
+DO_NORMALIZE_BATCH
+
+SOURCE_TSV_INCLUDE: "Japanese/tsv/Japanese_ja.app.tsv"
+DO_NORMALIZE_BATCH
+
+SOURCE_TSV_INCLUDE: "Kannada/tsv/Kannada_kn.app.tsv"
+DO_NORMALIZE_BATCH
+
+SOURCE_TSV_INCLUDE: "Korean/tsv/Korean_ko.app.tsv"
+DO_NORMALIZE_BATCH
+
+SOURCE_TSV_INCLUDE: "Lithuanian/tsv/Lithuanian_lt.app.tsv"
+DO_NORMALIZE_BATCH
+
+SOURCE_TSV_INCLUDE: "Mongolian/tsv/Mongolian_mn.app.tsv"
+DO_NORMALIZE_BATCH
+
+SOURCE_TSV_INCLUDE: "Norwegian_nb/tsv/Norwegian_nb.app.tsv"
+DO_NORMALIZE_BATCH
+
+SOURCE_TSV_INCLUDE: "Persian/tsv/Persian_fa.app.tsv"
+DO_NORMALIZE_BATCH
+
+## :OTHER: SOURCE_TSV_INCLUDE: "Polish/__LOCAL/…
+## :OTHER: SOURCE_TSV_INCLUDE: "Polish/tsv/__INTAKE__LOCAL/Polish_pl.20210309_Hungar.tsv"
+SOURCE_TSV_INCLUDE: "Polish/tsv/Polish_pl.tsv"
+DO_NORMALIZE_BATCH
+
+SOURCE_TSV_INCLUDE: "Portuguese_Brazil/tsv/Portuguese_pt-rBR.app.tsv"
+DO_NORMALIZE_BATCH
+
+SOURCE_TSV_INCLUDE: "Portuguese_Portugal/tsv/Portuguese_pt-rPT.tsv"
+DO_NORMALIZE_BATCH
+
+## Pick one
+#SOURCE_TSV_INCLUDE: "Romanian/tsv/Romanian_ro.20211015_1939.tsv"
+SOURCE_TSV_INCLUDE: "Romanian/tsv/Romanian_ro.app.tsv"
+DO_NORMALIZE_BATCH
+
+## Pick one
+#SOURCE_TSV_INCLUDE: "Russian/tsv/Russian_ru.20211015_1941.tsv"
+SOURCE_TSV_INCLUDE: "Russian/tsv/Russian_ru.app.tsv"
+DO_NORMALIZE_BATCH
+
+SOURCE_TSV_INCLUDE: "Serbian_Cyrillic/tsv/Serbian_Cyrillic_sr.app.tsv"
+DO_NORMALIZE_BATCH
+
+SOURCE_TSV_INCLUDE: "Serbian_Latin/tsv/Serbian_Latin_sr-Latn.app.tsv"
+DO_NORMALIZE_BATCH
+
+SOURCE_TSV_INCLUDE: "Slovak/tsv/Slovak_sk.app.tsv"
+DO_NORMALIZE_BATCH
+
+SOURCE_TSV_INCLUDE: "Slovenian/tsv/Slovenian_sl.app.tsv"
+DO_NORMALIZE_BATCH
+
+## Pick one
+#SOURCE_TSV_INCLUDE: "Spanish/tsv/Spanish_es.20210309.Android copy.tsv"
+#SOURCE_TSV_INCLUDE: "Spanish/tsv/Spanish_es.20210309.Android.tsv"
+#SOURCE_TSV_INCLUDE: "Spanish/tsv/Spanish_es.20210309.Apple.20210629_1639.tsv"
+#SOURCE_TSV_INCLUDE: "Spanish/tsv/Spanish_es.20210309.Apple.tsv"
+SOURCE_TSV_INCLUDE: "Spanish/tsv/Spanish_es.app.tsv"
+DO_NORMALIZE_BATCH
+
+SOURCE_TSV_INCLUDE: "Swedish/tsv/Swedish_sv.app.tsv"
+DO_NORMALIZE_BATCH
+
+SOURCE_TSV_INCLUDE: "Thai/tsv/Thai_th.app.tsv"
+DO_NORMALIZE_BATCH
+
+SOURCE_TSV_INCLUDE: "Turkish/tsv/Turkish_tr.app.tsv"
+DO_NORMALIZE_BATCH
+
+SOURCE_TSV_INCLUDE: "Vietnamese/tsv/Vietnamese_vi.app.tsv"
+DO_NORMALIZE_BATCH
+
+### ALL DONE
+QUIT

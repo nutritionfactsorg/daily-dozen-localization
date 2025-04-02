@@ -1,0 +1,11 @@
+### FILE: batch_diff_xml.txt
+### WORKFLOW: Documentation/Workflow_Diffs.md
+###
+### :WIP: not fully implemented
+###
+##################
+### DIFF FILES ###
+##################
+$DIFF_XML_A: "Polish/android/values-pl/strings.xml"    
+#DIFF_XML_B: "Polish/android/values-pl/strings.xml"    
+

@@ -1,0 +1,16 @@
+### FILE: batch_export_en.txt
+### WORKFLOW: Documentation/Workflow_ExportFromApps.md
+###
+###
+###################################################
+### ----- EXPORT XML/XLIFF SOURCES TO TSV ----- ###
+###################################################
+
+##### Engligh_US_en (reference set generation)
+OUTPUT_LANG_TSV: "English_US/tsv/English_US_en.EXPORTED.tsv"
+SOURCE_enUS_TSV: "English_US/tsv/English_US_en.EXPORTED.tsv"
+SOURCE_enUS_DROID: "English_US/android/values/strings.xml"
+SOURCE_LANG_DROID: "English_US/android/values/strings.xml"
+SOURCE_enUS_APPLE: "English_US/ios/en.xcloc/Localized Contents/en.xliff" 
+SOURCE_LANG_APPLE: "English_US/ios/en.xcloc/Localized Contents/en.xliff"
+DO_EXPORT_TSV

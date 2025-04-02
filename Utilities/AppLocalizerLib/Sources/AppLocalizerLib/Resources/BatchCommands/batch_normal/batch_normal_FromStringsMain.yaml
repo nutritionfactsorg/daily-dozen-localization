@@ -1,0 +1,19 @@
+###     FILE: batch_normal_FromStringsMain.txt
+### WORKFLOW: from `*.lproj/*.strings` to `normal/*.lproj/*.strings`
+###    SCOPE: all `*.strings` files in daily-dozen-ios main branch
+###
+
+DIRNAME_OUTPUT_NORMAL: "FromStringsMain"
+LOGGER_FILENAME: "_log_FromStringsMain"
+LOGGER_LEVEL_INFO
+
+SOURCE_STRINGS: "daily-dozen-ios-master/DailyDozen/DailyDozen/App/InfoPlist/en.lproj/InfoPlist.strings"
+SOURCE_STRINGS: "daily-dozen-ios-master/DailyDozen/DailyDozen/App/Texts/LocalStrings/en.lproj/Localizable.strings"
+DO_NORMALIZE_BATCH
+
+SOURCE_STRINGS: "daily-dozen-ios-master/DailyDozen/DailyDozen/App/InfoPlist/es.lproj/InfoPlist.strings"
+SOURCE_STRINGS: "daily-dozen-ios-master/DailyDozen/DailyDozen/App/Texts/LocalStrings/es.lproj/Localizable.strings"
+DO_NORMALIZE_BATCH
+
+### DONE TO HERE
+QUIT

@@ -1,0 +1,10 @@
+### FILE: batch_diff_tsv_enUS.txt
+
+###################
+### UPDATE DIFF ###
+###################
+DIFF_TSV_A: "English_US/tsv/English_US_en.app.tsv"
+## v3.2.9 has prior version with random ids
+DIFF_TSV_B: "English_US/history/v3.2.9/tsv/English_US_en.app.tsv"
+DO_DIFF_KEYS
+CLEAR_ALL

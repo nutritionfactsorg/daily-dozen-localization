@@ -1,0 +1,76 @@
+###     FILE: batch_normal_FromXmlDroidOnly.txt
+### WORKFLOW: Documentation/:WIP:.md
+###
+### Note: batch_export_pass01 in updating IDs
+###
+### Use: migrate pre-existing Android XML to normalized *.TSV, strings.xml
+### Scope: Android languages which are not yet translated for Apple devices.
+
+###################
+## General Setup ##
+###################
+DIRNAME_OUTPUT_NORMAL: "FromXmlDroidOnly"
+LOGGER_FILENAME: "_log_FromXmlDroidOnly"
+LOGGER_LEVEL_INFO
+
+## Base English_US directory paths from which translations are mapped
+BASE_JSON_DIR: "English_US/ios/en-US_reference/LocalStrings/en.lproj"
+
+BASE_TSV_INCLUDE: "English_US/tsv/English_US_en.app.tsv"
+#BASE_TSV_INCLUDE: "English_US/tsv/v01/English_US_en.app.changeset01.tsv"
+#BASE_TSV_INCLUDE: "English_US/tsv/English_US_en.url_fragments.tsv"
+#BASE_TSV_INCLUDE: "English_US/tsv/English_US_en.url_topics.tsv"
+
+### ------ ANDROID_LANG --> NORMALIZE XML -----
+#BASE_XML_URL: "English_US/android/values/strings.xml"
+### .unified. does not fracture imperial and metric pseudo-quantity
+BASE_XML_URL: "English_US/android/values/strings.xml"
+
+## Note: currently, URL_TOPICS_TSV is the same for all languages except Spanish.
+URL_FRAGMENTS_TSV: "English_US/tsv/English_US_en.url_fragments.tsv"
+URL_TOPICS_TSV: "English_US/tsv/English_US_en.url_topics.tsv"
+
+#########################
+### (bg) Bulgarian_bg ###
+#########################
+SOURCE_XML: "Bulgarian/android/values-bg/strings.xml"
+DO_NORMALIZE_BATCH
+
+###################################
+### Chinese_Traditional_zh-Hant ###
+###################################
+SOURCE_XML: "Chinese_Traditional/android/values-zh/strings.xml"
+DO_NORMALIZE_BATCH
+
+#################
+### French_fr ###
+#################
+SOURCE_XML: "French/android/values-fr/strings.xml"
+DO_NORMALIZE_BATCH
+
+################
+### Greek_el ###
+################
+SOURCE_XML: "Greek/android/values-el/strings.xml"
+DO_NORMALIZE_BATCH
+
+##################
+### Italian_it ###
+##################
+SOURCE_XML: "Italian/android/values-it/strings.xml"
+DO_NORMALIZE_BATCH
+
+###################
+### Romanian_ro ###
+###################
+SOURCE_XML: "Romanian/android/values-ro/strings.xml"
+DO_NORMALIZE_BATCH
+
+######################
+##### Spanish_es #####
+######################
+SOURCE_XML: "Spanish/android/values-es/strings.xml"
+DO_NORMALIZE_BATCH
+
+##### ----- NOT YET -----
+#QUIT
