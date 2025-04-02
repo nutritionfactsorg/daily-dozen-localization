@@ -335,7 +335,7 @@ struct BatchRunner {
         if line.isEmpty { return nil }
         if line.prefix(1) == "#" { return nil }
         
-        let parts = line.components(separatedBy: "=")
+        let parts = line.components(separatedBy: ": ")
         let cmdKey = parts[0]
             .trimmingCharacters(in: CharacterSet.whitespaces)
             .uppercased()
