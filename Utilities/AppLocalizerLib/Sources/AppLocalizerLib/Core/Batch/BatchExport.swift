@@ -29,7 +29,7 @@ struct BatchExport {
         sourceLangDroid: URL,
         sourceEnUSApple: URL,
         sourceLangApple: URL
-    ) {        
+    ) {
         print("""
         ### DO_EXPORT_TSV doExport() ###
           outputLangTsv = \(outputLangTsv.absoluteString.removingPercentEncoding!)

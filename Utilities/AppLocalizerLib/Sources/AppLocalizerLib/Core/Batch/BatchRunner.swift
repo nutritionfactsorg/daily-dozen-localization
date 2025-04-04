@@ -39,7 +39,7 @@ struct BatchRunner {
         // Batch Import Parameters
         var baseJsonDir: URL?
         var baseXmlUrl: URL?
-        var sourceListTSV: [URL]?  // Batch: import, normal
+        var sourceListTsv: [URL]?  // Batch: import, normal
         var outputDroid: URL?
         var outputApple: URL?
         // Batch Normal Parameters
@@ -80,7 +80,7 @@ struct BatchRunner {
                 sourceEnUSApple = nil
                 sourceLangApple = nil
                 sourceStrings = nil
-                sourceListTSV = nil
+                sourceListTsv = nil
                 sourceXLIFF = nil
                 sourceXML = nil
                 outputDroid = nil
@@ -173,10 +173,10 @@ struct BatchRunner {
             }
             else if command.cmdKey.hasPrefix(Cmd.SOURCE_TSV_INCLUDE.txt) {
                 if let url = command.cmdUrl {
-                    if sourceListTSV == nil {
-                        sourceListTSV = [URL]()
+                    if sourceListTsv == nil {
+                        sourceListTsv = [URL]()
                     }
-                    sourceListTSV?.append(url)
+                    sourceListTsv?.append(url)
                 }
             } 
             else if command.cmdKey.hasPrefix(Cmd.BASE_JSON_DIR.txt) {
@@ -224,7 +224,7 @@ struct BatchRunner {
                 outputNormalDir = command.cmdUrl
             }
             else if command.cmdKey.hasPrefix(Cmd.DO_IMPORT_TSV.txt) {
-                if let sourceTSV = sourceListTSV {
+                if let sourceTSV = sourceListTsv {
                     BatchImport.shared.doImport(sourceTSV: sourceTSV, 
                              outputAndroid: outputDroid, 
                              outputApple: outputApple)
@@ -238,7 +238,7 @@ struct BatchRunner {
                 logger.info("\n##### ----- DO_INSET_BATCH ----- ######")
                 guard 
                     let outputNormalDir = outputNormalDir,
-                    let source = sourceListTSV,
+                    let source = sourceListTsv,
                     source.count > 1
                 else {
                     let s = """
@@ -250,20 +250,20 @@ struct BatchRunner {
                     continue
                 }
                 BatchNormal.shared.doInsetTsv(sourceTSV: source, resultsDir: outputNormalDir)
-                sourceListTSV = nil
+                sourceListTsv = nil
             }
             else if command.cmdKey.hasPrefix(Cmd.DO_NORMALIZE_BATCH.txt) {
                 // Normalizes base on the given *.string, *.tsv, *.xliff, *.xml source
                 logger.info("\n##### ----- DO_NORMALIZE_BATCH ----- ######")
                 guard 
                     let outputNormalDir = outputNormalDir,
-                    (sourceStrings != nil || sourceListTSV != nil || sourceXLIFF != nil || sourceXML != nil)
+                    (sourceStrings != nil || sourceListTsv != nil || sourceXLIFF != nil || sourceXML != nil)
                 else {
                     var s = ":ERROR: DO_NORMALIZE_BATCH missing required url(s)"
                     if outputNormalDir == nil {
                         s += "  missing DIRNAME_OUTPUT_NORMAL"
                     }
-                    if sourceStrings == nil && sourceListTSV == nil && sourceXML == nil {
+                    if sourceStrings == nil && sourceListTsv == nil && sourceXML == nil {
                         s += " missing SOURCE_TSV_INCLUDE (*.Strings, *.TSV or *.XML)"
                     }
                     print(s)
@@ -275,11 +275,11 @@ struct BatchRunner {
                     sourceStrings = nil
                 }
                 // GIVEN: `.tsv` source list
-                if let source = sourceListTSV, let baseJsonDir = baseJsonDir, let baseListTsv = baseListTsv, let baseXmlUrl = baseXmlUrl, let fragments = urlFragmentsTsv, let topics = urlTopicsTsv {
+                if let source = sourceListTsv, let baseJsonDir = baseJsonDir, let baseListTsv = baseListTsv, let baseXmlUrl = baseXmlUrl, let fragments = urlFragmentsTsv, let topics = urlTopicsTsv {
                     BatchNormal.shared.doNormalize(sourceTSV: source, resultsDir: outputNormalDir, baseJsonDir: baseJsonDir, baseListTsv: baseListTsv, baseTsvUrlFragments: fragments, baseTsvUrlTopics: topics, baseXmlUrl: baseXmlUrl)
-                    sourceListTSV = nil
+                    sourceListTsv = nil
                 }
-                // GIVEN: `.xliff` source list
+                // GIVEN: `.xliff` source list :OBSOLETE:
                 if let source = sourceXLIFF {
                     BatchNormal.shared.doNormalize(sourceXLIFF: source, resultsDir: outputNormalDir)
                     sourceXLIFF = nil
@@ -301,7 +301,44 @@ struct BatchRunner {
                     sourceXML = nil
                 } 
             }
-            // ----- LogService -----
+            // ------- Changeset -------
+            else if command.cmdKey.hasPrefix(Cmd.DO_CHANGESET_ENUS_TO_LANG.txt) {
+                // Generates changeset deltas to review
+                logger.info("\n##### ----- DO_CHANGESET_ENUS_TO_LANG ----- ######")
+                guard let baseListTsv, let sourceListTsv, let outputLangTsv
+                else {
+                    let s = """
+                    \n::: ERROR :::
+                    DO_CHANGESET_ENUS_TO_LANG is missing one or more of 
+                        BASE_TSV_INCLUDE, SOURCE_TSV_INCLUDE, OUTPUT_LANG_TSV\n
+                    """
+                    print(s)
+                    continue
+                }
+                BatchChangeset.shared.doChangesetEnusToLang(baseListTsv: baseListTsv, sourceListTsv: sourceListTsv, outputLangTsv: outputLangTsv)
+            }
+            else if command.cmdKey.hasPrefix(Cmd.DO_CHANGESET_ENUS_TO_MULTI.txt) {
+                // Generates multiple changeset deltas into a single file to review
+                logger.info("\n##### ----- DO_CHANGESET_ENUS_TO_MULTI ----- ######")
+                guard let baseListTsv, let outputLangTsv
+                else {
+                    let s = """
+                    \n::: ERROR :::
+                    DO_CHANGESET_ENUS_TO_MULTI is missing one or more of 
+                        BASE_TSV_INCLUDE, OUTPUT_LANG_TSV\n
+                    """
+                    print(s)
+                    continue
+                }
+                BatchChangeset.shared.doChangesetEnusToMulti(baseListTsv: baseListTsv, outputLangTsv: outputLangTsv)
+            }
+            else if command.cmdKey.hasPrefix(Cmd.DO_CHANGESET_INTAKE_MULTI.txt) {
+                // Separates changset multi-delta intake into separate files 
+                logger.info("\n##### ----- DO_CHANGESET_INTAKE_MULTI ----- ######")
+                BatchChangeset.shared.doChangesetIntakeMulti()
+                fatalError("DO_CHANGESET_INTAKE_MULTI not yet implemented.")
+            }
+            // ------- LogService -------
             else if command.cmdKey.hasPrefix(Cmd.LOGGER_FILENAME.txt) {
                 // logfile placed inside "…/_Normal__LOCAL/"
                 logger.useLogfile(url: command.cmdUrl)

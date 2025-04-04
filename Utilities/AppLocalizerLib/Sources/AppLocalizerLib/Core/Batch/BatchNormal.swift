@@ -152,11 +152,11 @@ struct BatchNormal {
         }
     }
     
+    /// Pattern: `FILE_NAME_LANG-REGION.lang-modifier.date-modifier.tsv`
+    /// Examples:
+    ///     `Spanish_es.app.20210309.tsv`
+    ///     `Chinese_Traditional_zh-Hant.store.20201028.tsv`
     private func getTsvFilenameParts(_ url: URL) -> (lang: String, modifier: String, name: String) {
-        // Pattern: FILE_NAME_LANG-REGION.modifier.modifier.tsv
-        // Examples:
-        //     Spanish_es.app.20210309.tsv
-        //     Chinese_Traditional_zh-Hant.store.20201028.tsv
         var langStr = ""
         var modifierStr = ""
         var nameStr = ""
@@ -177,9 +177,9 @@ struct BatchNormal {
         return (langStr, modifierStr, nameStr)
     }
     
+    /// Example:
+    ///     `Bulgarian/android/values-bg/strings.xml`
     private func getXmlFilenameParts(_ url: URL) -> (lang: String, code: String) {
-        // Example:
-        //     Bulgarian/android/values-bg/strings.xml
         let langStr = url
             .deletingLastPathComponent() // strings.xml
             .deletingLastPathComponent() // values-lang
