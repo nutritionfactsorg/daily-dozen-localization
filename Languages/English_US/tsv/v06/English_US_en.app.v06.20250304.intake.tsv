@@ -164,7 +164,6 @@ food_info_types_other_fruits.24	dozeFruitsOther.Variety.Text.24	Pomegranates	Pom
 food_info_types_other_fruits.25	dozeFruitsOther.Variety.Text.25	Prunes	Prunes		
 food_info_types_other_fruits.26	dozeFruitsOther.Variety.Text.26	Tangerines	Tangerines		
 food_info_types_other_fruits.27	dozeFruitsOther.Variety.Text.27	Watermelon	Watermelon		
-food_info_types_other_fruits.28	dozeFruitsOther.Variety.Text.28	Lychees	Lychees		
 greens	dozeGreens.heading	Greens	Greens	heading for daily data entry item	
 food_info_serving_sizes_greens_imperial.0	dozeGreens.Serving.imperial.0	1 cup raw	1 cup raw		
 food_info_serving_sizes_greens_imperial.1	dozeGreens.Serving.imperial.1	½ cup cooked	½ cup cooked		
@@ -298,8 +297,8 @@ food_info_serving_sizes_whole_grains_imperial.2	dozeWholeGrains.Serving.imperial
 food_info_serving_sizes_whole_grains_imperial.3	dozeWholeGrains.Serving.imperial.3	1 slice of 100% whole grain bread	1 slice of 100% whole grain bread		
 food_info_serving_sizes_whole_grains_imperial.4	dozeWholeGrains.Serving.imperial.4	½ bagel or English muffin	½ bagel or English muffin		
 food_info_serving_sizes_whole_grains_imperial.5	dozeWholeGrains.Serving.imperial.5	3 cups popped popcorn	3 cups popped popcorn		
-food_info_serving_sizes_whole_grains_metric.0	dozeWholeGrains.Serving.metric.0	100 g hot cereal or cooked grains, pasta, or corn kernels	100 g hot cereal or cooked grains, pasta, or corn kernels		
-food_info_serving_sizes_whole_grains_metric.1	dozeWholeGrains.Serving.metric.1	50 g cold cereal	50 g cold cereal		
+food_info_serving_sizes_whole_grains_metric.0	dozeWholeGrains.Serving.metric.0	100 g cooked whole grains, whole-wheat pasta, or corn kernels	100 g cooked whole grains, whole-wheat pasta, or corn kernels		
+food_info_serving_sizes_whole_grains_metric.1	dozeWholeGrains.Serving.metric.1	50 g 100% whole grain cold cereal	50 g 100% whole grain cold cereal		
 food_info_serving_sizes_whole_grains_metric.2	dozeWholeGrains.Serving.metric.2	1 100% whole grain tortilla (or 2 smaller corn tortillas)	1 100% whole grain tortilla (or 2 smaller corn tortillas)		
 food_info_serving_sizes_whole_grains_metric.3	dozeWholeGrains.Serving.metric.3	1 slice of 100% whole grain bread	1 slice of 100% whole grain bread		
 food_info_serving_sizes_whole_grains_metric.4	dozeWholeGrains.Serving.metric.4	½ bagel or English muffin	½ bagel or English muffin		
