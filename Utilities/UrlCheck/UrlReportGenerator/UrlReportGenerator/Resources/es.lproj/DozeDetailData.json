@@ -4,16 +4,24 @@
       "heading" : "Legumbres",
       "servings" : [
         {
-          "imperial" : "¼ taza de hummus o untable de legumbres",
-          "metric" : "60 g de hummus o untable de legumbres"
+          "imperial" : "¼ taza de hummus o paté de otras legumbres",
+          "metric" : "60 g de hummus o paté de otras legumbres"
         },
         {
-          "imperial" : "½ taza de frijoles cocidos, arvejas partidas, lentejas, tofu o tempeh",
-          "metric" : "130 g de frijoles cocidos, arvejas partidas, lentejas, tofu o tempeh"
+          "imperial" : "½ taza de legumbres cocinadas",
+          "metric" : "90 g de legumbres cocinadas"
         },
         {
-          "imperial" : "1 taza de guisantes frescos o brotes de lentejas",
-          "metric" : "150 g de guisantes frescos o brotes de lentejas"
+          "imperial" : "½ taza de tofu o tempeh",
+          "metric" : "100 g de tofu o tempeh"
+        },
+        {
+          "imperial" : "1 taza de arvejas o tirabeques",
+          "metric" : "130 g de arvejas o tirabeques"
+        },
+        {
+          "imperial" : "1 taza de brotes de legumbres ",
+          "metric" : "100 g de brotes de legumbres"
         }
       ],
       "topic" : "es/topics/legumbres-es",
@@ -112,7 +120,7 @@
         },
         {
           "text" : "Arándanos azules",
-          "topic" : ""
+          "topic" : "es/topics/arandanos"
         },
         {
           "text" : "Cerezas (dulces o ácidas)",
@@ -196,7 +204,7 @@
         },
         {
           "text" : "Té de limón",
-          "topic" : ""
+          "topic" : "es/topics/toronjil"
         },
         {
           "text" : "Té matcha",
@@ -287,7 +295,7 @@
           "topic" : ""
         },
         {
-          "text" : "Remo",
+          "text" : "Remos",
           "topic" : ""
         },
         {
@@ -299,7 +307,7 @@
           "topic" : ""
         },
         {
-          "text" : "Canastas",
+          "text" : "Tirar canastas",
           "topic" : ""
         },
         {
@@ -492,7 +500,7 @@
           "metric" : "40 g de fruta seca"
         }
       ],
-      "topic" : "",
+      "topic" : "es/topics/fruta",
       "varieties" : [
         {
           "text" : "Manzanas",
@@ -508,7 +516,7 @@
         },
         {
           "text" : "Bananas",
-          "topic" : ""
+          "topic" : "es/topics/platanos"
         },
         {
           "text" : "Melón cantalupo",
@@ -540,7 +548,7 @@
         },
         {
           "text" : "Limones amarillos",
-          "topic" : "topics/lemons"
+          "topic" : "es/topics/limones"
         },
         {
           "text" : "Limones verdes",
@@ -583,7 +591,7 @@
           "topic" : ""
         },
         {
-          "text" : "Ciruelas (en especial las negras)",
+          "text" : "Ciruelas (en especial ciruelas negras)",
           "topic" : "es/topics/ciruelas"
         },
         {
@@ -599,7 +607,7 @@
           "topic" : "es/topics/ciruelas-pasas"
         },
         {
-          "text" : "Mandarina",
+          "text" : "Mandarinas",
           "topic" : ""
         },
         {
@@ -632,15 +640,15 @@
         },
         {
           "text" : "Col",
-          "topic" : ""
+          "topic" : "es/topics/acelgas-es"
         },
         {
-          "text" : "Berza (negra, verde y roja)",
+          "text" : "Col rizada (negra, verde y roja)",
           "topic" : "es/topics/col-rizada-es"
         },
         {
           "text" : "Mesclun (hojas tiernas)",
-          "topic" : ""
+          "topic" : "es/topics/ensaladas"
         },
         {
           "text" : "Hojas de mostaza",
@@ -707,6 +715,10 @@
           "topic" : "es/topics/nueces-de-macadamia"
         },
         {
+          "text" : "Cacahuete",
+          "topic" : "es/topics/cacahuete"
+        },
+        {
           "text" : "Nueces pecanas",
           "topic" : "es/topics/nuez-pecana"
         },
@@ -759,7 +771,7 @@
           "topic" : "es/topics/albahaca"
         },
         {
-          "text" : "Laurel",
+          "text" : "Hojas de laurel",
           "topic" : ""
         },
         {
@@ -784,7 +796,7 @@
         },
         {
           "text" : "Cilantro",
-          "topic" : ""
+          "topic" : "es/topics/cilantro-es"
         },
         {
           "text" : "Comino",
@@ -815,7 +827,7 @@
           "topic" : ""
         },
         {
-          "text" : "Limoncillo",
+          "text" : "Citronela",
           "topic" : ""
         },
         {
@@ -884,15 +896,19 @@
           "metric" : "30–80 g picadas"
         },
         {
-          "imperial" : "¼ taza de coles de Bruselas o brotes de brócoli",
-          "metric" : "12 g de coles de Bruselas o brotes de brócoli"
+          "imperial" : "½ taza de coles de Bruselas",
+          "metric" : "80 g de coles de Bruselas"
+        },
+        {
+          "imperial" : "¼ taza de brotes de brócoli",
+          "metric" : "15 g de brotes de brócoli"
         },
         {
           "imperial" : "1 cucharada de rábano picante",
           "metric" : "1 cucharada de rábano picante"
         }
       ],
-      "topic" : "",
+      "topic" : "es/topics/vegetales-cruciferos",
       "varieties" : [
         {
           "text" : "Rúcula",
@@ -919,7 +935,7 @@
           "topic" : "es/topics/coliflor"
         },
         {
-          "text" : "Berza",
+          "text" : "Col",
           "topic" : "es/topics/acelgas-es"
         },
         {
@@ -927,7 +943,7 @@
           "topic" : ""
         },
         {
-          "text" : "Col rizada",
+          "text" : "Col rizada (negra, verde y roja)",
           "topic" : "es/topics/col-rizada-es"
         },
         {
@@ -947,7 +963,7 @@
           "topic" : ""
         },
         {
-          "text" : "Berros",
+          "text" : "Berro",
           "topic" : "es/topics/berros-es"
         }
       ]
@@ -972,7 +988,7 @@
           "metric" : "7 g de champiñones secos"
         }
       ],
-      "topic" : "",
+      "topic" : "es/topics/vegetales",
       "varieties" : [
         {
           "text" : "Alcachofas",
@@ -1011,7 +1027,7 @@
           "topic" : "es/topics/okra-es"
         },
         {
-          "text" : "Cebollas",
+          "text" : "Cebolla",
           "topic" : "es/topics/cebollas"
         },
         {
@@ -1031,7 +1047,7 @@
           "topic" : ""
         },
         {
-          "text" : "Calabaza",
+          "text" : "Calabaza pequeña",
           "topic" : "es/topics/calabaza-es"
         },
         {
@@ -1117,7 +1133,7 @@
       "servings" : [
 
       ],
-      "topic" : "es/topics/vitamin-b12",
+      "topic" : "es/topics/vitamina-b12",
       "varieties" : [
 
       ]
