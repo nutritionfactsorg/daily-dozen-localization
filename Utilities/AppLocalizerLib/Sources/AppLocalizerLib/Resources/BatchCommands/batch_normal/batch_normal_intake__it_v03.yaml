@@ -8,7 +8,7 @@
 ###################
 ## General Setup ##
 ###################
-DIRNAME_OUTPUT_NORMAL: "FromTsvIntake_it_v04"
+OUTPUT_CACHE_LOCAL_DIR: "FromTsvIntake_it_v04"
 LOGGER_FILENAME: "_log_FromTsvIntake_it_v04__"
 LOGGER_LEVEL_INFO
 

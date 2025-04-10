@@ -8,7 +8,7 @@
 ###################
 ## General Setup ##
 ###################
-DIRNAME_OUTPUT_NORMAL: "FromTsvResidual"
+OUTPUT_CACHE_LOCAL_DIR: "FromTsvResidual"
 LOGGER_FILENAME: "_log_FromTsvResidual"
 LOGGER_LEVEL_INFO
 

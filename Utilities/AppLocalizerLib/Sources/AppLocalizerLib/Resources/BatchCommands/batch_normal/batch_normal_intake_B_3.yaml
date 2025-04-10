@@ -11,7 +11,7 @@
 ###################
 ## General Setup ##
 ###################
-DIRNAME_OUTPUT_NORMAL: "FromTsvIntakeB"
+OUTPUT_CACHE_LOCAL_DIR: "FromTsvIntakeB"
 LOGGER_FILENAME: "_log_FromTsvIntakeB__"
 LOGGER_LEVEL_INFO
 
@@ -115,7 +115,7 @@ SOURCE_TSV_INCLUDE: "Spanish/tsv/Spanish_es.store.20220720.intake.tsv"
 DO_NORMALIZE_BATCH
 
 ######################################################
-### ----- STOP HERE (PROCESSING: 2022.12.05) ----- ###
+### ----- QUIT HERE (PROCESSING: 2022.12.05) ----- ###
 ######################################################
 QUIT
 

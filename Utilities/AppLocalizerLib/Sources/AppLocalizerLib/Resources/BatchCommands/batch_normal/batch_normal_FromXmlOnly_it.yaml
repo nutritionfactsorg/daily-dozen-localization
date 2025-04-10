@@ -9,7 +9,7 @@
 ###################
 ## General Setup ##
 ###################
-DIRNAME_OUTPUT_NORMAL: "FromXmlDroidOnly_it"
+OUTPUT_CACHE_LOCAL_DIR: "FromXmlDroidOnly_it"
 LOGGER_FILENAME: "_log_FromXmlDroidOnly_it"
 LOGGER_LEVEL_INFO
 

@@ -6,7 +6,7 @@
 ###################
 ## General Setup ##
 ###################
-DIRNAME_OUTPUT_NORMAL: "StringsViaTsvTest"
+OUTPUT_CACHE_LOCAL_DIR: "StringsViaTsvTest"
 
 ## Base English_US paths into which translations are mapped
 BASE_JSON_DIR: "_Test/ios/test_reference/LocalStrings/en.lproj"

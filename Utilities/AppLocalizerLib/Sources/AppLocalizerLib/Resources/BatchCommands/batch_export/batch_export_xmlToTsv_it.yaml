@@ -4,7 +4,7 @@
 ###################
 ## General Setup ##
 ###################
-DIRNAME_OUTPUT_NORMAL: "XmlToTsv_it"
+OUTPUT_CACHE_LOCAL_DIR: "XmlToTsv_it"
 LOGGER_FILENAME: "_log_XmlToTsv_it"
 LOGGER_LEVEL_INFO
 

@@ -3,7 +3,7 @@
 ### SCOPE: all planned languages
 ###
 
-DIRNAME_OUTPUT_NORMAL: "FromTsv"
+OUTPUT_CACHE_LOCAL_DIR: "FromTsv"
 LOGGER_FILENAME: "_log_FromTsv"
 LOGGER_LEVEL_INFO
 
@@ -66,8 +66,8 @@ DO_NORMALIZE_BATCH
 
 ## Pick one
 #SOURCE_TSV_INCLUDE: "German/tsv/German_de.app.20211015_1924.tsv"
-#SOURCE_TSV_INCLUDE: "German/tsv/German_deapp..combo.tsv"
-#SOURCE_TSV_INCLUDE: "German/tsv/German_de.app.combo.20211015_1924.tsv"
+#SOURCE_TSV_INCLUDE: "German/tsv/German_deapp..multi.tsv"
+#SOURCE_TSV_INCLUDE: "German/tsv/German_de.app.multi.20211015_1924.tsv"
 SOURCE_TSV_INCLUDE: "German/tsv/German_de.app.tsv"
 DO_NORMALIZE_BATCH
 

@@ -3,7 +3,7 @@
 ###    SCOPE: all `*.strings` files in daily-dozen-ios main branch
 ###
 
-DIRNAME_OUTPUT_NORMAL: "FromStringsMain"
+OUTPUT_CACHE_LOCAL_DIR: "FromStringsMain"
 LOGGER_FILENAME: "_log_FromStringsMain"
 LOGGER_LEVEL_INFO
 

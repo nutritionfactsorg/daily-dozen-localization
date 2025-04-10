@@ -15,7 +15,7 @@
 ###################
 ## General Setup ##
 ###################
-DIRNAME_OUTPUT_NORMAL: "FromTsv_I_5"
+OUTPUT_CACHE_LOCAL_DIR: "FromTsv_I_5"
 LOGGER_FILENAME: "_log_FromTsv_I_5__"
 LOGGER_LEVEL_INFO
 
@@ -194,6 +194,6 @@ SOURCE_TSV_INCLUDE: "Greek/tsv/v05_peanuts/Greek_el.app.changeset05.tsv"
 DO_INSET_BATCH
 
 ######################################################
-### ----- STOP HERE (PROCESSING: 2023.05.01) ----- ###
+### ----- QUIT HERE (PROCESSING: 2023.05.01) ----- ###
 ######################################################
 QUIT

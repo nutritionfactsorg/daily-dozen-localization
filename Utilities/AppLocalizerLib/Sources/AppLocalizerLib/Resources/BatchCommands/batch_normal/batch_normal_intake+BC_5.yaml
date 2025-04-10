@@ -13,7 +13,7 @@
 ###################
 ## General Setup ##
 ###################
-DIRNAME_OUTPUT_NORMAL: "FromTsvIntake+BC_5"
+OUTPUT_CACHE_LOCAL_DIR: "FromTsvIntake+BC_5"
 LOGGER_FILENAME: "_log_FromTsvIntake+BC_5__"
 LOGGER_LEVEL_INFO
 
@@ -240,7 +240,7 @@ SOURCE_TSV_INCLUDE: "Greek/tsv/v05_Peanuts/Greek_el.app.v05.tsv"
 DO_NORMALIZE_BATCH
 
 ######################################################
-### ----- STOP HERE (PROCESSING: 2023.05.01) ----- ###
+### ----- QUIT HERE (PROCESSING: 2023.05.01) ----- ###
 ######################################################
 QUIT
 

@@ -9,7 +9,7 @@
 ###################
 ## General Setup ##
 ###################
-DIRNAME_OUTPUT_NORMAL: "FromTsvIntakeC_1"
+OUTPUT_CACHE_LOCAL_DIR: "FromTsvIntakeC_1"
 LOGGER_FILENAME: "_log_FromTsvIntakeC_1__"
 LOGGER_LEVEL_INFO
 
@@ -257,6 +257,6 @@ SOURCE_TSV_INCLUDE: "Italian/tsv/v01/Italian_it.store.changeset01.tsv"
 DO_NORMALIZE_BATCH
 
 ######################################################
-### ----- STOP HERE (PROCESSING: 2023.02.23) ----- ###
+### ----- QUIT HERE (PROCESSING: 2023.02.23) ----- ###
 ######################################################
 QUIT

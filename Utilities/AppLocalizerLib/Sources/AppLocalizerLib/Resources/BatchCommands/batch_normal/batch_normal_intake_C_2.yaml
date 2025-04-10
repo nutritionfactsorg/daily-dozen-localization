@@ -13,7 +13,7 @@
 ###################
 ## General Setup ##
 ###################
-DIRNAME_OUTPUT_NORMAL: "FromTsvIntakeC_2"
+OUTPUT_CACHE_LOCAL_DIR: "FromTsvIntakeC_2"
 LOGGER_FILENAME: "_log_FromTsvIntakeC_2__"
 LOGGER_LEVEL_INFO
 
@@ -186,6 +186,6 @@ SOURCE_TSV_INCLUDE: "Greek/tsv/v02/Greek_el.app.changeset02.interim.intake.tsv"
 DO_NORMALIZE_BATCH
 
 ######################################################
-### ----- STOP HERE (PROCESSING: 2023.02.02) ----- ###
+### ----- QUIT HERE (PROCESSING: 2023.02.02) ----- ###
 ######################################################
 QUIT

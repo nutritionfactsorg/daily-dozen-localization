@@ -9,7 +9,7 @@
 ###################
 ## General Setup ##
 ###################
-DIRNAME_OUTPUT_NORMAL: "FromTsvIntake+BC"
+OUTPUT_CACHE_LOCAL_DIR: "FromTsvIntake+BC"
 LOGGER_FILENAME: "_log_FromTsvIntake+BC__"
 LOGGER_LEVEL_INFO
 
@@ -297,7 +297,7 @@ DO_NORMALIZE_BATCH
 
 
 ######################################################
-### ----- STOP HERE (PROCESSING: 2022.11.03) ----- ###
+### ----- QUIT HERE (PROCESSING: 2022.11.03) ----- ###
 ######################################################
 QUIT
 
