@@ -1,0 +1,277 @@
+### FILE: cs_create_multi_store.yaml
+###
+### NOTES:
+###  
+### DO_CHANGESET_APPLY_TSVS 
+###    Inputs: `BASE_TSV_INCLUDE`   English_US changeset subset segment
+###                               …/English_US_en.store.vAA.yyyyMMdd.delta_lang.tsv
+###            `CS_LANG_INPUT_TSV` Language existing complete  
+###                               …/Language.store.vAA.tsv
+###   Outputs: `OUTPUT_LANG_TSV`    Language generated complete
+###                               …/Language.store.vBB.yyyyMMdd.toreview.tsv
+###                                 Language generated delta subset
+###                               …/Language.store.vBB.yyyyMMdd.deltatoreview.tsv
+###                                 Combined delta subset segments
+###                    English_US/…/Multi.store.vBB.yyyyMMdd.toreview.tsv
+###
+### SCOPE: all translated languages
+###
+
+###################
+## General Setup ##
+###################
+OUTPUT_CACHE_LOCAL_DIR: "CS_App"
+LOGGER_FILENAME: "_log_CS_App__"
+LOGGER_LEVEL_INFO
+
+## Baseline English_US to which translations are mapped
+#CS_BASE_TSV: "English_US/tsv/v06/English_US_en.store.v06.20250304.delta_lang.tsv"
+CS_BASE_TSV: "English_US/tsv/v06/English_US_en.store.v06.20250304.intake.tsv"
+
+# Removes "fresh sprouted beans (lentils, mung beans)"
+CS_DELETE_KEY: "dozeBeans.Serving.imperial.4"
+CS_DELETE_KEY: "dozeBeans.Serving.metric.4"
+# Removes "Miso"
+CS_DELETE_KEY: "dozeBeans.Variety.Text.10"
+# Verify Lychees  not duplicated the end … likely a NO-OP
+CS_DELETE_KEY: "dozeFruitsOther.Variety.Text.28"
+# Removes "Hot chocolate"
+CS_DELETE_KEY: "dozeBeverages.Variety.Text.7"
+# Removes "Brazil nuts"
+CS_DELETE_KEY: "dozeNuts.Variety.Text.1"
+
+### Uses PrimaryKey: `\(key_android):::\(key_apple)` format
+CS_INSERT_KEY: "food_info_serving_sizes_cruciferous_vegetables_imperial.2:::dozeVegetablesCruciferous.Serving.imperial.2"
+CS_INSERT_KEY: "food_info_serving_sizes_cruciferous_vegetables_metric.2:::dozeVegetablesCruciferous.Serving.metric.2"
+CS_INSERT_KEY: "food_info_serving_sizes_whole_grains_imperial.2:::dozeWholeGrains.Serving.imperial.2"
+CS_INSERT_KEY: "food_info_serving_sizes_whole_grains_metric.2:::dozeWholeGrains.Serving.metric.2"
+
+
+################
+## English_US ##
+#################
+LOGGER_FILENAME: "_log_CS_English_US"
+## -- (en) process store --
+CS_LANG_INPUT_TSV:  "English_US/tsv/v05_Peanuts/English_US_en.store.v05.tsv"
+CS_LANG_OUTPUT_TSV: "English_US/tsv/v06/English_US_en.store.v06.toreview.tsv"
+DO_CHANGESET_APPLY_TSV
+
+#######################
+## Portuguese_Brazil ##
+#######################
+#LOGGER_FILENAME: "_log_CS_Portuguese_pt-rBR"
+## -- (pt-rBR) process store --
+#CS_LANG_INPUT_TSV:  "Portuguese_Brazil/tsv/v05_Peanuts/Portuguese_pt-rBR.store.v05.tsv"
+#CS_LANG_OUTPUT_TSV: "Portuguese_Brazil/tsv/v06/Portuguese_pt-rBR.store.v06.toreview.tsv"
+#DO_CHANGESET_APPLY_TSV
+
+#############
+## Spanish ##
+#############
+#LOGGER_FILENAME: "_log_CS_Spanish_es"
+## -- (es) process store --
+#CS_LANG_INPUT_TSV:  "Spanish/tsv/v05_Peanuts/Spanish_es.store.v05.tsv"
+#CS_LANG_OUTPUT_TSV: "Spanish/tsv/v06/Spanish_es.store.v06.toreview.tsv"
+#DO_CHANGESET_APPLY_TSV
+
+##################################################
+### GENERATE MULTIFILE: Translations Aggregate ###
+##################################################
+#DO_CHANGESET_WRITE_MULTI_TSV: "English_US/tsv/v06/Multi.store.v06.toreview.tsv"
+
+############################
+### ------- QUIT ------- ###
+############################
+#QUIT
+
+###############
+## Bulgarian ##
+###############
+LOGGER_FILENAME: "_log_CS_Bulgarian_bg"
+## -- (bg) process store --
+CS_LANG_INPUT_TSV: "Bulgarian/tsv/v05_Peanuts/Bulgarian_bg.store.v05.tsv"
+CS_LANG_OUTPUT_TSV: "Bulgarian/tsv/v06/Bulgarian_bg.store.v06.toreview.tsv"
+DO_CHANGESET_APPLY_TSV
+
+#############
+## Catalan ##
+#############
+LOGGER_FILENAME: "_log_CS_Catalan_ca"
+## -- (ca) process store --
+CS_LANG_INPUT_TSV: "Catalan/tsv/v05_Peanuts/Catalan_ca.store.v05.tsv"
+CS_LANG_OUTPUT_TSV: "Catalan/tsv/v06/Catalan_ca.store.v06.toreview.tsv"
+DO_CHANGESET_APPLY_TSV
+
+########################
+## Chinese Simplified ##
+########################
+LOGGER_FILENAME: "_log_CS_Chinese_zh-Hans"
+## -- (zh-Hans) process store --
+CS_LANG_INPUT_TSV: "Chinese_Simplified/tsv/v05_Peanuts/Chinese_Simplified_zh-Hans.store.v05.tsv"
+CS_LANG_OUTPUT_TSV: "Chinese_Simplified/tsv/v06/Chinese_Simplified_zh-Hans.store.v06.toreview.tsv"
+DO_CHANGESET_APPLY_TSV
+
+#########################
+## Chinese Traditional ##
+#########################
+LOGGER_FILENAME: "_log_CS_Chinese_zh-Hant"
+## -- (zh-Hant) process store --
+CS_LANG_INPUT_TSV: "Chinese_Traditional/tsv/v05_Peanuts/Chinese_Traditional_zh-Hant.store.v05.tsv"
+CS_LANG_OUTPUT_TSV: "Chinese_Traditional/tsv/v06/Chinese_Traditional_zh-Hant.store.v06.toreview.tsv"
+DO_CHANGESET_APPLY_TSV
+
+###########
+## Czech ##
+###########
+LOGGER_FILENAME: "_log_CS_Czech_cs"
+## -- (cs) process store --
+CS_LANG_INPUT_TSV: "Czech/tsv/v05_Peanuts/Czech_cs.store.v05.tsv"
+CS_LANG_OUTPUT_TSV: "Czech/tsv/v06/Czech_cs.store.v06.toreview.tsv"
+DO_CHANGESET_APPLY_TSV
+
+############
+## French ##
+############
+LOGGER_FILENAME: "_log_CS_French_fr"
+## -- (fr) process store --
+CS_LANG_INPUT_TSV: "French/tsv/v05_Peanuts/French_fr.store.v05.tsv"
+CS_LANG_OUTPUT_TSV: "French/tsv/v06/French_fr.store.v06.toreview.tsv"
+DO_CHANGESET_APPLY_TSV
+
+############
+## German ##
+############
+LOGGER_FILENAME: "_log_CS_German_de"
+## -- (de) process store --
+CS_LANG_INPUT_TSV: "German/tsv/v05_Peanuts/German_de.store.v05.tsv"
+CS_LANG_OUTPUT_TSV: "German/tsv/v06/German_de.store.v06.toreview.tsv"
+DO_CHANGESET_APPLY_TSV
+
+############
+## Hebrew ##
+############
+LOGGER_FILENAME: "_log_CS_Hebrew_he"
+## -- (he) process store --
+CS_LANG_INPUT_TSV: "Hebrew/tsv/v05_Peanuts/Hebrew_he.store.v05.tsv"
+CS_LANG_OUTPUT_TSV: "Hebrew/tsv/v06/Hebrew_he.store.v06.toreview.tsv"
+DO_CHANGESET_APPLY_TSV
+
+#############
+## Italian ##
+#############
+LOGGER_FILENAME: "_log_CS_Italian_it"
+## -- (it) process store --
+CS_LANG_INPUT_TSV: "Italian/tsv/v05_Peanuts/Italian_it.store.v05.tsv"
+CS_LANG_OUTPUT_TSV: "Italian/tsv/v06/Italian_it.store.v06.toreview.tsv"
+DO_CHANGESET_APPLY_TSV
+
+################
+## Macedonian ##
+################
+LOGGER_FILENAME: "_log_CS_Macedonian_mk"
+## -- (mk) process store --
+CS_LANG_INPUT_TSV: "Macedonian/tsv/v05/Macedonian_mk.store.v05.tsv"
+CS_LANG_OUTPUT_TSV: "Macedonian/tsv/v06/Macedonian_mk.store.v06.toreview.tsv"
+DO_CHANGESET_APPLY_TSV
+
+#############
+## Persian ##
+#############
+LOGGER_FILENAME: "_log_FromTsvIntake_Persian_fa"
+## -- (fa) process store --
+CS_LANG_INPUT_TSV: "Persian/tsv/v05/Persian_fa.store.v05.tsv"
+CS_LANG_OUTPUT_TSV: "Persian/tsv/v06/Persian_fa.store.v06.toreview.tsv"
+DO_CHANGESET_APPLY_TSV
+
+############
+## Polish ##
+############
+LOGGER_FILENAME: "_log_CS_Polish_pl"
+## -- (pl) process store --
+CS_LANG_INPUT_TSV: "Polish/tsv/v05_Peanuts/Polish_pl.store.v05.tsv"
+CS_LANG_OUTPUT_TSV: "Polish/tsv/v06/Polish_pl.store.v06.toreview.tsv"
+DO_CHANGESET_APPLY_TSV
+
+#######################
+## Portuguese_Brazil ##
+#######################
+LOGGER_FILENAME: "_log_CS_Portuguese_pt-rBR"
+## -- (pt-rBR) process store --
+CS_LANG_INPUT_TSV:  "Portuguese_Brazil/tsv/v05_Peanuts/Portuguese_pt-rBR.store.v05.tsv"
+CS_LANG_OUTPUT_TSV: "Portuguese_Brazil/tsv/v06/Portuguese_pt-rBR.store.v06.toreview.tsv"
+DO_CHANGESET_APPLY_TSV
+
+#########################
+## Portuguese_Portugal ##
+#########################
+LOGGER_FILENAME: "_log_CS_Portuguese_pt-rPT"
+## -- (pt-rPT) process store --
+CS_LANG_INPUT_TSV: "Portuguese_Portugal/tsv/v05_Peanuts/Portuguese_pt-rPT.store.v05.tsv"
+CS_LANG_OUTPUT_TSV: "Portuguese_Portugal/tsv/v06/Portuguese_pt-rPT.store.v06.toreview.tsv"
+DO_CHANGESET_APPLY_TSV
+
+##############
+## Romanian ##
+##############
+LOGGER_FILENAME: "_log_CS_Romanian_ro"
+## -- (ro) process store --
+CS_LANG_INPUT_TSV: "Romanian/tsv/v05_Peanuts/Romanian_ro.store.v05.tsv"
+CS_LANG_OUTPUT_TSV: "Romanian/tsv/v06/Romanian_ro.store.v06.toreview.tsv"
+DO_CHANGESET_APPLY_TSV
+
+#############
+## Russian ##
+#############
+LOGGER_FILENAME: "_log_CS_Russian_ru"
+## -- (ru) process store --
+CS_LANG_INPUT_TSV: "Russian/tsv/v05_Peanuts/Russian_ru.store.v05.tsv"
+CS_LANG_OUTPUT_TSV: "Russian/tsv/v06/Russian_ru.store.v06.toreview.tsv"
+DO_CHANGESET_APPLY_TSV
+
+############
+## Slovak ##
+############
+LOGGER_FILENAME: "_log_CS_Slovak_sk"
+## -- (sk) process store --
+CS_LANG_INPUT_TSV: "Slovak/tsv/v05_Peanuts/Slovak_sk.store.v05.tsv"
+CS_LANG_OUTPUT_TSV: "Slovak/tsv/v06/Slovak_sk.store.v06.toreview.tsv"
+DO_CHANGESET_APPLY_TSV
+
+#############
+## Spanish ##
+#############
+LOGGER_FILENAME: "_log_CS_Spanish_es"
+## -- (es) process store --
+CS_LANG_INPUT_TSV:  "Spanish/tsv/v05_Peanuts/Spanish_es.store.v05.tsv"
+CS_LANG_OUTPUT_TSV: "Spanish/tsv/v06/Spanish_es.store.v06.toreview.tsv"
+DO_CHANGESET_APPLY_TSV
+
+##############
+## Ukranian ##
+##############
+LOGGER_FILENAME: "_log_CS_Ukranian_uk"
+## -- (sk) process store --
+CS_LANG_INPUT_TSV: "Ukranian/tsv/v05/Ukranian_uk.store.v05.tsv"
+CS_LANG_OUTPUT_TSV: "Ukranian/tsv/v06/Ukranian_uk.store.v06.toreview.tsv"
+DO_CHANGESET_APPLY_TSV
+
+# ======= ANDROID ONLY ======= ======= ======= ======= ======= 
+
+###########
+## Greek ##
+###########
+LOGGER_FILENAME: "_log_CS_Greek_el"
+## -- (el) process store --
+CS_LANG_INPUT_TSV: "Greek/tsv/v05_Peanuts/Greek_el.store.v05.tsv"
+CS_LANG_OUTPUT_TSV: "Greek/tsv/v06/Greek_el.store.v06.toreview.tsv"
+DO_CHANGESET_APPLY_TSV
+
+##################################################
+### GENERATE MULTIFILE: Translations Aggregate ###
+##################################################
+DO_CHANGESET_WRITE_MULTI_TSV: "English_US/tsv/v06/Multi.store.v06.toreview.tsv"
+
+############################
+### ------- QUIT ------- ###
+############################
+QUIT

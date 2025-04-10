@@ -123,6 +123,7 @@ struct TsvRow: Equatable {
         return s
     }
     
+    /// Uses windows `CRLF`
     func toTsv() -> String {
         var s = "\(key_android)\t"
         s.append("\(key_apple)\t")
@@ -131,6 +132,11 @@ struct TsvRow: Equatable {
         s.append("\(base_note)\t")
         s.append("\(lang_note)\r\n")
         return s
+    }
+    
+    /// Uses windows `CRLF`
+    static func toTsvHeader() -> String {
+        return "key_droid\tkey_apple\tbase_value\tlang_value\tbase_note\tlang_note\r\n"
     }
     
 }

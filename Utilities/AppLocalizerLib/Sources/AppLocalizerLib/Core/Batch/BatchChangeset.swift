@@ -30,7 +30,11 @@ struct BatchChangeset {
     var outputCacheLocalDir: URL? // Batch: `Languages/../_CACHE__LOCAL/`
     
     /// Multiple Combined Changesets
-    var multiChangesets: [TsvRow] = []
+    struct DeltaChangesetRecord {
+        let data: [TsvRow]
+        let language: String
+    }
+    var deltaChangesetList: [DeltaChangesetRecord] = []
     
     mutating func addBaseTsvSheet(_ sheet: TsvSheet) {
         writeTsv(sheet.tsvRowList.data, filename: "90_baseDataAsis")
@@ -58,7 +62,7 @@ struct BatchChangeset {
         }
         
         // --- read & parse sourceListTsv -> sourceSheet
-        var inputSheet: TsvSheet =  TsvSheet(inputUrl)
+        let inputSheet: TsvSheet =  TsvSheet(inputUrl)
         writeTsv(inputSheet.tsvRowList.data, filename: "01_inputSheet")
         
         // --- SORT --- 
@@ -83,7 +87,13 @@ struct BatchChangeset {
         let resultAfterSyncBase = applySyncWithBase(reindexResult: resultAfterReindex, base: baseSheet.tsvRowList.data)
         writeTsv(resultAfterSyncBase.lang, filename: "06_afterSyncBase")
         writeTsv(resultAfterSyncBase.delta, filename: "07_delta")
-                
+        deltaChangesetList.append(
+            DeltaChangesetRecord(
+                data: resultAfterSyncBase.delta,
+                language: langStr
+            )
+        )
+        
         // Reset for next language
         langInputTsvUrl = nil
         langOutputTsvUrl = nil
@@ -91,8 +101,18 @@ struct BatchChangeset {
 
     /// `DO_CHANGESET_WRITE_MULTI_TSV`
     func doChangesetWriteMulti(toUrl: URL) {
-        let multi = TsvSheet(tsvRowList: TsvRowList(data: multiChangesets))
-        multi.writeTsvFile(toUrl)
+        var s = "language\tdone\t\(TsvRow.toTsvHeader())"
+        for d in deltaChangesetList {
+            for r in d.data {
+                let tsv = "\(d.language)\tno\t\(r.toTsv())"
+                s.append(tsv)
+            }
+        }
+        try? s.write(to: toUrl, atomically: true, encoding: .utf8)
+        if let outputCacheLocalDir {
+            let cacheUrl = outputCacheLocalDir.appending(component: toUrl.lastPathComponent, directoryHint: .notDirectory)
+            try? s.write(to: cacheUrl, atomically: true, encoding: .utf8)
+        }
     }
 
     /// `DO_CHANGESET_INTAKE_MULTI` after translations are complete.
@@ -220,7 +240,11 @@ struct BatchChangeset {
                     """)
             }
             
-            if rowLang.lang_value.isEmpty {
+            if rowBase.base_value.trimmingCharacters(in: .whitespaces).isEmpty && 
+                rowBase.lang_value.trimmingCharacters(in: .whitespaces).isEmpty {
+                // blank line. keep as-is. not part of delta.
+                resultLang.append(rowLang)
+            } else if rowLang.lang_value.isEmpty {
                 // new entry. update the row
                 rowLang.base_value = rowBase.base_value
                 rowLang.lang_value = rowBase.lang_value

@@ -1,0 +1,11 @@
+### FILE: cs_intake_multi_store.yaml
+###
+### NOTES:
+###  
+### DO_CHANGESET_MULTI_INTAKE
+
+####################################
+LOGGER_FILENAME: "_log_CS_Intake_Multi_Store"
+
+
+DO_CHANGESET_MULTI_INTAKE

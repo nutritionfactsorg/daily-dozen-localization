@@ -441,12 +441,12 @@ struct TsvRowList {
     }
     
     func toTsv() -> String {
-        var s = "key_droid\tkey_apple\tbase_value\tlang_value\tbase_note\tlang_note\r\n"
+        var s = TsvRow.toTsvHeader()
         for tsvRow in self.sorted().data {
             s.append(tsvRow.toTsv())
         }
         return s
-    } 
+    }
     
     func writeTsvFile(_ url: URL) {
         let outputString = self.toTsv()
