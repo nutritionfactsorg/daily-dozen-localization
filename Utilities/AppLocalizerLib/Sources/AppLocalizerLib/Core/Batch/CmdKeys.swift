@@ -33,7 +33,7 @@ enum Cmd: String {
     case SOURCE_XML
     case OUTPUT_APPLE
     case OUTPUT_DROID
-    case DIRNAME_OUTPUT_NORMAL
+    case OUTPUT_CACHE_LOCAL_DIR
     case DO_IMPORT_TSV
     case DO_INSET_BATCH
     case DO_NORMALIZE_BATCH
@@ -52,15 +52,23 @@ enum Cmd: String {
     case LOGGER_LEVEL_WARNING
     case LOGGER_LEVEL_ERROR
     case LOGGER_LEVEL_OFF
+    
     // --- CHANGESET: MULTI ---
+    case CS_BASE_TSV
+    case CS_DELETE_KEY
+    case CS_INSERT_KEY
+    case CS_LANG_INPUT_TSV
+    case CS_LANG_OUTPUT_TSV
     /// Use `English_US` Change Set to generate all Language Change Sets
     /// `English_US` file may be only a subset of the full TSV file
     /// Outputs to review: language delta TSV, language full TSV, multi changeset TSV
-    case DO_CHANGESET_ENUS_TO_LANG
-    case DO_CHANGESET_ENUS_TO_MULTI
+    case DO_CHANGESET_APPLY_TSV
+    case DO_CHANGESET_WRITE_MULTI_TSV
+    
     /// Use Language Change Sets intake to update Language TSV files
     /// LANG intake MULTI file contains the change set for 1 or more LANG files
     case DO_CHANGESET_INTAKE_MULTI
+    
     // --- :OBSOLETE: ---
     case DIFF_XLIFF_A /// :OBSOLETE:
     case DIFF_XLIFF_B /// :OBSOLETE:

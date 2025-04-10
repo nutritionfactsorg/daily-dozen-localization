@@ -39,7 +39,7 @@ struct BatchNormal {
     /// normalizes `*.tsv` and generates normalized `*.json`, `*.strings`, `*.xml`
     /// 
     /// - parameter sourceTSV: …[…/Portuguese_Brazil/tsv/Portuguese_pt-BR.app.tsv] (example)
-    /// - parameter resultsDir: …/_Normal__LOCAL/StringsViaTsvIntake example (example)
+    /// - parameter resultsDir: `…/_CACHE__LOCAL/StringsViaTsvIntake example` (example)
     /// - parameter baseJsonDir: …/English_US/ios/json/LocalStrings/en.lproj (example)
     /// - parameter baseListTsv: …/English_US/tsv/*.tsv `[URL]` (example)
     /// - parameter baseTsvUrlFragments: …/English_US/tsv/English_US_en.url_fragments.tsv (example)

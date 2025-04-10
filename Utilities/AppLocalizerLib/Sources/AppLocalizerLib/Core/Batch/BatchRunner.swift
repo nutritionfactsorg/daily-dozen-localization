@@ -13,7 +13,7 @@ struct BatchRunner {
     let mappingsUrl: URL   // currently not used
     let logger = LogService.shared
     
-    var outputNormalDir: URL? // Batch: normal
+    var outputCacheLocalDir: URL? // Batch: `Languages/../_CACHE__LOCAL/`
 
     init(commandsUrl: URL, languagesUrl: URL, mappingsUrl: URL) {
         self.commandsUrl = commandsUrl
@@ -85,7 +85,7 @@ struct BatchRunner {
                 sourceXML = nil
                 outputDroid = nil
                 outputApple = nil
-                outputNormalDir = nil
+                outputCacheLocalDir = nil
                 urlFragmentsTsv = nil
                 urlTopicsTsv = nil
             } 
@@ -219,9 +219,10 @@ struct BatchRunner {
             else if command.cmdKey.hasPrefix(Cmd.OUTPUT_DROID.txt) {
                 outputDroid = command.cmdUrl
             } 
-            else if command.cmdKey.hasPrefix(Cmd.DIRNAME_OUTPUT_NORMAL.txt) {
-                // dirname used inside "…/_Normal__LOCAL/"  
-                outputNormalDir = command.cmdUrl
+            else if command.cmdKey.hasPrefix(Cmd.OUTPUT_CACHE_LOCAL_DIR.txt) {
+                // dirname used inside `…/_CACHE__LOCAL/`  
+                outputCacheLocalDir = command.cmdUrl
+                BatchChangeset.shared.outputCacheLocalDir = outputCacheLocalDir
             }
             else if command.cmdKey.hasPrefix(Cmd.DO_IMPORT_TSV.txt) {
                 if let sourceTSV = sourceListTsv {
@@ -237,13 +238,13 @@ struct BatchRunner {
                 //     will reindex any key which ends with a dot-number
                 logger.info("\n##### ----- DO_INSET_BATCH ----- ######")
                 guard 
-                    let outputNormalDir = outputNormalDir,
+                    let outputNormalDir = outputCacheLocalDir,
                     let source = sourceListTsv,
                     source.count > 1
                 else {
                     let s = """
                     :ERROR: DO_INSET_BATCH
-                        - verify DIRNAME_OUTPUT_NORMAL
+                        - verify OUTPUT_CACHE_LOCAL_DIR
                         - verify SOURCE_TSV_INCLUDE has two files
                     """
                     print(s)
@@ -256,12 +257,12 @@ struct BatchRunner {
                 // Normalizes base on the given *.string, *.tsv, *.xliff, *.xml source
                 logger.info("\n##### ----- DO_NORMALIZE_BATCH ----- ######")
                 guard 
-                    let outputNormalDir = outputNormalDir,
+                    let outputNormalDir = outputCacheLocalDir,
                     (sourceStrings != nil || sourceListTsv != nil || sourceXLIFF != nil || sourceXML != nil)
                 else {
                     var s = ":ERROR: DO_NORMALIZE_BATCH missing required url(s)"
-                    if outputNormalDir == nil {
-                        s += "  missing DIRNAME_OUTPUT_NORMAL"
+                    if outputCacheLocalDir == nil {
+                        s += "  missing OUTPUT_CACHE_LOCAL_DIR"
                     }
                     if sourceStrings == nil && sourceListTsv == nil && sourceXML == nil {
                         s += " missing SOURCE_TSV_INCLUDE (*.Strings, *.TSV or *.XML)"
@@ -301,36 +302,54 @@ struct BatchRunner {
                     sourceXML = nil
                 } 
             }
+            
             // ------- Changeset -------
-            else if command.cmdKey.hasPrefix(Cmd.DO_CHANGESET_ENUS_TO_LANG.txt) {
-                // Generates changeset deltas to review
-                logger.info("\n##### ----- DO_CHANGESET_ENUS_TO_LANG ----- ######")
-                guard let baseListTsv, let sourceListTsv, let outputLangTsv
-                else {
-                    let s = """
-                    \n::: ERROR :::
-                    DO_CHANGESET_ENUS_TO_LANG is missing one or more of 
-                        BASE_TSV_INCLUDE, SOURCE_TSV_INCLUDE, OUTPUT_LANG_TSV\n
-                    """
-                    print(s)
+            else if command.cmdKey.hasPrefix(Cmd.CS_BASE_TSV.txt) {
+                logger.info("\n##### ----- CS_BASE_TSV ----- ######")
+                guard let csBaseTsvUrl = command.cmdUrl else { 
+                    print("::: ERROR ::: CS_BASE_TSV missing url value")
                     continue
                 }
-                BatchChangeset.shared.doChangesetEnusToLang(baseListTsv: baseListTsv, sourceListTsv: sourceListTsv, outputLangTsv: outputLangTsv)
+                BatchChangeset.shared.addBaseTsvSheet(TsvSheet(csBaseTsvUrl))
             }
-            else if command.cmdKey.hasPrefix(Cmd.DO_CHANGESET_ENUS_TO_MULTI.txt) {
-                // Generates multiple changeset deltas into a single file to review
-                logger.info("\n##### ----- DO_CHANGESET_ENUS_TO_MULTI ----- ######")
-                guard let baseListTsv, let outputLangTsv
-                else {
-                    let s = """
-                    \n::: ERROR :::
-                    DO_CHANGESET_ENUS_TO_MULTI is missing one or more of 
-                        BASE_TSV_INCLUDE, OUTPUT_LANG_TSV\n
-                    """
-                    print(s)
+            else if command.cmdKey.hasPrefix(Cmd.CS_DELETE_KEY.txt) {
+                logger.info("\n##### ----- CS_DELETE_KEY ----- ######")
+                guard let deleteKey = command.cmdValue else { 
+                    print("::: ERROR ::: CS_DELETE_KEY missing key value")
                     continue
                 }
-                BatchChangeset.shared.doChangesetEnusToMulti(baseListTsv: baseListTsv, outputLangTsv: outputLangTsv)
+                BatchChangeset.shared.deleteSet.insert(deleteKey)
+            }
+            else if command.cmdKey.hasPrefix(Cmd.CS_INSERT_KEY.txt) {
+                logger.info("\n##### ----- CS_INSERT_KEY ----- ######")
+                guard let primaryKey = command.cmdValue else { 
+                    print("::: ERROR ::: CS_INSERT_KEY missing key value")
+                    continue
+                }
+                let tsvRow = TsvRow(primaryKey: primaryKey)
+                BatchChangeset.shared.insertList.append(tsvRow)
+            }
+            else if command.cmdKey.hasPrefix(Cmd.CS_LANG_INPUT_TSV.txt) {
+                logger.info("\n##### ----- CS_LANG_INPUT_TSV ----- ######\n\(command)")
+                BatchChangeset.shared.langInputTsvUrl = command.cmdUrl
+            }
+            else if command.cmdKey.hasPrefix(Cmd.CS_LANG_OUTPUT_TSV.txt) {
+                logger.info("\n##### ----- CS_LANG_OUTPUT_TSV ----- ######\n\(command)")
+                BatchChangeset.shared.langOutputTsvUrl = command.cmdUrl
+            }
+            else if command.cmdKey.hasPrefix(Cmd.DO_CHANGESET_APPLY_TSV.txt) {
+                // Generates changeset deltas to review
+                logger.info("\n##### ----- DO_CHANGESET_APPLY_TSV ----- ######\n\(command)")
+                BatchChangeset.shared.doChangesetApply()
+            }
+            else if command.cmdKey.hasPrefix(Cmd.DO_CHANGESET_WRITE_MULTI_TSV.txt) {
+                // Generates multiple changeset deltas into a single file to review
+                logger.info("\n##### ----- DO_CHANGESET_WRITE_MULTI_TSV ----- ######")
+                guard let toUrl = command.cmdUrl else { 
+                    print("::: ERROR ::: DO_CHANGESET_WRITE_MULTI_TSV missing path")
+                    continue
+                }
+                BatchChangeset.shared.doChangesetWriteMulti(toUrl: toUrl)
             }
             else if command.cmdKey.hasPrefix(Cmd.DO_CHANGESET_INTAKE_MULTI.txt) {
                 // Separates changset multi-delta intake into separate files 
@@ -338,9 +357,10 @@ struct BatchRunner {
                 BatchChangeset.shared.doChangesetIntakeMulti()
                 fatalError("DO_CHANGESET_INTAKE_MULTI not yet implemented.")
             }
+            
             // ------- LogService -------
             else if command.cmdKey.hasPrefix(Cmd.LOGGER_FILENAME.txt) {
-                // logfile placed inside "…/_Normal__LOCAL/"
+                // logfile placed inside `…/_CACHE__LOCAL/`
                 logger.useLogfile(url: command.cmdUrl)
             }
             else if command.cmdKey.hasPrefix(Cmd.LOGGER_LEVEL_.txt) {
@@ -367,19 +387,19 @@ struct BatchRunner {
         }
     }
     
-    private func parseCommandLine(_ line: String) -> (cmdKey: String, cmdUrl: URL?)? {
+    private func parseCommandLine(_ line: String) -> (cmdKey: String, cmdUrl: URL?, cmdValue: String?)? {
         let line = line.trimmingCharacters(in: CharacterSet.whitespaces)
         if line.isEmpty { return nil }
         if line.prefix(1) == "#" { return nil }
         
-        let parts = line.components(separatedBy: ": ")
+        let parts: [String] = line.split(separator: #/:\s+/#).map(String.init)
         let cmdKey = parts[0]
             .trimmingCharacters(in: CharacterSet.whitespaces)
             .uppercased()
         var cmdValue = ""
         
         if parts.count == 1 {
-            return (cmdKey: cmdKey, cmdUrl: nil)
+            return (cmdKey: cmdKey, cmdUrl: nil, cmdValue: nil)
         } 
         else if parts.count == 2 {
             cmdValue = parts[1].trimmingCharacters(in: CharacterSet.whitespaces)
@@ -389,27 +409,27 @@ struct BatchRunner {
             }
             cmdValue = String(parts[1].dropFirst().dropLast())
             if cmdValue.isEmpty {
-                return (cmdKey: cmdKey, cmdUrl: nil)
+                return (cmdKey: cmdKey, cmdUrl: nil, cmdValue: nil)
             } else if cmdKey == "LOGGER_FILENAME" {
-                if let outputNormalDir = outputNormalDir {
+                if let outputNormalDir = outputCacheLocalDir {
                     let cmdUrl = outputNormalDir
                         .appendingPathComponent("_logs_")
                         .appendingPathComponent(cmdValue, isDirectory: false)
-                    return (cmdKey: cmdKey, cmdUrl: cmdUrl)
+                    return (cmdKey: cmdKey, cmdUrl: cmdUrl, cmdValue: cmdValue)
                 } else {
                     let cmdUrl = languagesUrl
                         .deletingLastPathComponent() // Languages
-                        .appendingPathComponent("_Normal__LOCAL")
+                        .appendingPathComponent("_CACHE__LOCAL")
                         .appendingPathComponent(cmdValue, isDirectory: false)
-                    return (cmdKey: cmdKey, cmdUrl: cmdUrl)
+                    return (cmdKey: cmdKey, cmdUrl: cmdUrl, cmdValue: cmdValue)
                 }
-            } else if cmdKey == "DIRNAME_OUTPUT_NORMAL" {
+            } else if cmdKey == "OUTPUT_CACHE_LOCAL_DIR" {
                 let dirname = "\(cmdValue)_\(Date.datestampyyyyMMddHHmm)"
                 let cmdUrl = languagesUrl
                     .deletingLastPathComponent() // Languages
-                    .appendingPathComponent("_Normal__LOCAL")
+                    .appendingPathComponent("_CACHE__LOCAL")
                     .appendingPathComponent(dirname, isDirectory: true)
-                return (cmdKey: cmdKey, cmdUrl: cmdUrl)
+                return (cmdKey: cmdKey, cmdUrl: cmdUrl, cmdValue: cmdValue)
             } else if cmdKey == "SOURCE_STRINGS" {
                 // Prerequisite: Development git repositories at same directory level.
                 //               This level is used for relative path resolution.
@@ -426,10 +446,12 @@ struct BatchRunner {
                     i += 1
                 }
                 cmdUrl.appendPathComponent(pathSegments[i], isDirectory: false)
-                return (cmdKey: cmdKey, cmdUrl: cmdUrl) 
+                return (cmdKey: cmdKey, cmdUrl: cmdUrl, cmdValue: cmdValue) 
+            } else if cmdKey == "CS_DELETE_KEY" || cmdKey == "CS_INSERT_KEY" {
+                return (cmdKey: cmdKey, cmdUrl: nil, cmdValue: cmdValue) 
             } else {
                 let cmdUrl = languagesUrl.appendingPathComponent(cmdValue)
-                return (cmdKey: cmdKey, cmdUrl: cmdUrl)
+                return (cmdKey: cmdKey, cmdUrl: cmdUrl, cmdValue: cmdValue)
             }
         }
         else { // parts.count > 2

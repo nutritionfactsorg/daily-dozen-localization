@@ -51,12 +51,12 @@ var productsDir: URL {
 // ::WIP:: Normalize
 
 // (TEST)
-//let BatchSubdir = "batch_normal"
+//let batchSubdir = "batch_normal"
 //let batchCommands = "batch_normal_FromTsvTest.yaml"
 
 // (0) XLIFF use to review current App keywords to lang repo
 // -- NORMALIZE: repo xliff -> strings
-//let BatchSubdir = "batch_normal"
+//let batchSubdir = "batch_normal"
 //let batchCommands = "batch_normal_FromXliff.yaml"
 
 // (1) TSV MAIN REPO ("truth") to "NORMALIZED" product files 
@@ -64,7 +64,7 @@ var productsDir: URL {
 // -- Manually verify/sync normalized English results to existing App English files.
 // -- Rerun, and repeat verify/sync until English main repo is fully up to date.
 // -- Compare normalized English-Language tsv keywords. Updates as needed.
-//let BatchSubdir = "batch_normal"
+//let batchSubdir = "batch_normal"
 //let batchCommands = "batch_normal_FromTsvMain.yaml"
 //let batchCommands = "batch_normal_FromTsvMain_es.yaml" // update spanish
 
@@ -74,15 +74,16 @@ var productsDir: URL {
 // -- Compare/Propagate intake/main result with app files (localization, android, ios)
 
 // (*) TSV residual updates (files without submitted translations)
-//let BatchSubdir = "batch_normal"
+//let batchSubdir = "batch_normal"
 //let batchCommands = "batch_normal_FromTsvResidual.yaml"
 
 // (*) XML Android Migration (not yet translated for Apple devices)
-//let BatchSubdir = "batch_normal"
+//let batchSubdir = "batch_normal"
 //let batchCommands = "batch_normal_FromXmlDroidOnly.yaml"
 //let batchCommands = "batch_normal_FromXmlOnly_it.yaml"
 
-let BatchSubdir = "batch_normal"
+// ------- BATCH NORMAL -------
+//let batchSubdir = "batch_normal"
 //let batchCommands = "batch_normal_intake__bg.yaml"
 //let batchCommands = "batch_normal_intake__de_v05.yaml"
 //let batchCommands = "batch_normal_intake__fa_v05.yaml" // Persian
@@ -101,9 +102,15 @@ let BatchSubdir = "batch_normal"
 //let batchCommands = "batch_normal_intake+BC_1…4.yaml"   // *B*aseline + *C*hangeSet
 //let batchCommands = "batch_normal_intake+I_5.yaml"      // *I*nset
 
-let batchCommands = "batch_normal_intake+BC_5.yaml"     // last step (aka after inset)
+//let batchCommands = "batch_normal_intake+BC_5.yaml"     // last step (aka after inset)
 
-print("### \(BatchCommands) ###")
+// ------- CHANGESET MULTI -------
+let batchSubdir = "batch_changeset"
+let batchCommands = "cs_create_multi_app.yaml"
+// let batchCommands = "cs_create_multi_store.yaml"
+
+
+print("### \(batchCommands) ###")
 
 // …/AppLocalizerLibTests.bundle/Resources/commands_*.txt
 // Content: batch commands file
@@ -113,11 +120,11 @@ var commandsDir = productsDir
     .appendingPathComponent("Contents", isDirectory: true)
     .appendingPathComponent("Resources", isDirectory: true)
     .appendingPathComponent("BatchCommands", isDirectory: true)
-if BatchSubdir.isEmpty == false {
-    commandsDir.appendPathComponent(BatchSubdir, isDirectory: true)
+if batchSubdir.isEmpty == false {
+    commandsDir.appendPathComponent(batchSubdir, isDirectory: true)
 }
 let commandsFile = commandsDir
-    .appendingPathComponent(BatchCommands, isDirectory: false)
+    .appendingPathComponent(batchCommands, isDirectory: false)
 print("commandsDir=\(commandsDir.absoluteString)")
 print("commandsFile=\(commandsFile.absoluteString)")
 
