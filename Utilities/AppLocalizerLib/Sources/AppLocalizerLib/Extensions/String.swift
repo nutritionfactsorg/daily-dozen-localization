@@ -7,40 +7,57 @@ import Foundation
 
 public extension String {
     
-    func keyParts(lowercased: Bool = true) -> (base: String, post: UInt?) {
-        let base: String
-        let postUInt: UInt?
-                                
-        if let i = UInt(self.suffix(3)) {
-            if lowercased {
-                base = String(self.dropLast(3)).lowercased()
-            } else {
-                base = String(self.dropLast(3))
-            }
-            postUInt = i
-        } else if let i = UInt(self.suffix(2)) {
-            if lowercased {
-                base = String(self.dropLast(2)).lowercased()
-            } else {
-                base = String(self.dropLast(2))
-            }
-            postUInt = i
-        } else if let i = UInt(self.suffix(1)) {
-            if lowercased {
-                base = String(self.dropLast()).lowercased()
-            } else {
-                base = String(self.dropLast())
-            }
-            postUInt = i
+    /// Key Parts: namePart indexPart
+    /// `A.b.21` becomes `namePart` "A.b", `indexPart` "21"
+    func keyParts(lowercased: Bool = false) -> (namePart: String, indexPart: Int?) {
+        let namePart: String
+        let indexPart: Int?
+
+        let regex = #/^(.*)\.(\d+)$/#
+        if let match = try? regex.firstMatch(in: self) {
+            namePart = String(match.1)
+            indexPart = Int(match.2)
         } else {
-            if lowercased {
-                base = self.lowercased()
-            } else {
-                base = self
-            }
-            postUInt = nil
+            namePart = self
+            indexPart = nil
         }
-        return (base, postUInt)
+        
+        if lowercased {
+            return (namePart.lowercased(), indexPart)
+        } else {
+            return (namePart, indexPart)
+        }
+    }
+    
+    enum KeyOrderRelation {
+        case lessThan
+        case equalTo
+        case greaterThan
+    }
+    
+    func keyOrderRelation(to other: String) -> KeyOrderRelation {
+        let left = self.keyParts(lowercased: true)
+        let right = other.keyParts(lowercased: true)
+        
+        switch (left.namePart, right.namePart) {
+        case let (l, r) where l < r:
+            return .lessThan
+        case let (l, r) where l > r:
+            return .greaterThan
+        default:
+            switch (left.indexPart, right.indexPart) {
+            case let (.some(l), .some(r)) where l < r:
+                return .lessThan
+            case let (.some(l), .some(r)) where l > r:
+                return .greaterThan
+            case (nil, .some(_)):
+                return .greaterThan
+            case (.some(_), nil):
+                return .lessThan
+            default:
+                return .equalTo
+            }
+        }
     }
     
     //
