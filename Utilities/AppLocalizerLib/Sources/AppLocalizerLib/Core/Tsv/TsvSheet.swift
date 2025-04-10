@@ -1,7 +1,5 @@
-//
-//  TsvSheet.swift
+//  File: TsvSheet.swift
 //  AppLocalizerLib
-//
 
 import Foundation
 
@@ -52,6 +50,15 @@ struct TsvSheet: TsvProtocol {
         logger.info(msg)
         self.tsvRowList = self.tsvRowList.sorted()
         self.tsvRowList = removeDuplicatesExactMatch(tsvRowList: self.tsvRowList)
+    }
+    
+    init(tsvRows: [TsvRow]) {
+        self.urlLanguage = nil
+        var tmpTsvRowList = TsvRowList(data: tsvRows)
+        tmpTsvRowList = normalizeAndroidKeys(tsvRowList: tmpTsvRowList)
+        tmpTsvRowList = normalizeAppleKeys(tsvRowList: tmpTsvRowList)
+        tmpTsvRowList = removeDuplicatesExactMatch(tsvRowList: tmpTsvRowList)
+        self.tsvRowList = tmpTsvRowList
     }
     
     init(tsvRowList trl: TsvRowList) {
@@ -215,8 +222,8 @@ struct TsvSheet: TsvProtocol {
     /// Scope: implemented case limited numbered sequence keys
     mutating func doInset(addTsvRow: TsvRow) {
         let addKey = addTsvRow.key_apple
-        let addParts = addKey.keyParts(lowercased: false)
-        guard let _ = addParts.post else { 
+        let addParts = addKey.keyParts()
+        guard let _ = addParts.indexPart else { 
             fatalError(":NYI: doInset(tsvRow: TsvRow) is only implemented for numbered sequence key. addParts = \(addParts)")
         }
         
@@ -233,16 +240,16 @@ struct TsvSheet: TsvProtocol {
         
         // Step 3. Renumber subsequent keys with the same base part
         idx += 1
-        var androidParts = tsvRowList.data[idx].key_android.keyParts(lowercased: false)
-        var appleParts = tsvRowList.data[idx].key_apple.keyParts(lowercased: false)
-        while appleParts.base == addParts.base, let n = appleParts.post {
+        var androidParts = tsvRowList.data[idx].key_android.keyParts()
+        var appleParts = tsvRowList.data[idx].key_apple.keyParts()
+        while appleParts.namePart == addParts.namePart, let n = appleParts.indexPart {
             // update
-            tsvRowList.data[idx].key_android = "\(androidParts.base)\(n + 1)"
-            tsvRowList.data[idx].key_apple = "\(appleParts.base)\(n + 1)"
+            tsvRowList.data[idx].key_android = "\(androidParts.namePart)\(n + 1)"
+            tsvRowList.data[idx].key_apple = "\(appleParts.namePart)\(n + 1)"
             // next
             idx += 1
-            androidParts = tsvRowList.data[idx].key_android.keyParts(lowercased: false)
-            appleParts = tsvRowList.data[idx].key_apple.keyParts(lowercased: false)
+            androidParts = tsvRowList.data[idx].key_android.keyParts()
+            appleParts = tsvRowList.data[idx].key_apple.keyParts()
         }
     }
     
@@ -364,8 +371,8 @@ struct TsvSheet: TsvProtocol {
     func merge(basis: TsvRowList, addin: TsvRowList) -> TsvRowList {
         var mergeResult = TsvRowList()
                 
-        let basisRows = basis.sortedByPrimaryKey().data
-        let addinRows = addin.sortedByPrimaryKey().data
+        let basisRows = basis.sortedByApple().data
+        let addinRows = addin.sortedByApple().data
         
         var i = 0
         var j = 0

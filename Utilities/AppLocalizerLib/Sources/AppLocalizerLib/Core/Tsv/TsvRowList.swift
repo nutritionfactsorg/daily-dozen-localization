@@ -1,7 +1,5 @@
-//
-//  TsvRowList.swift
+//  File: TsvRowList.swift
 //  AppLocalizerLib
-//
 
 import Foundation
 
@@ -302,7 +300,7 @@ struct TsvRowList {
             // Return true to order first element before the second.
             if !a.key_apple.isEmpty && !b.key_apple.isEmpty {
                 if a.key_apple.isRandomKey == false && b.key_apple.isRandomKey == false {
-                    return a.precedes(b, key: .appleKey)       // key_apple x key_apple
+                    return a.precedes(b, keyType: .appleKeyType)       // key_apple x key_apple
                 } else if a.key_apple.isRandomKey {
                     return false                               // random_id x key_apple
                 } else if b.key_apple.isRandomKey {
@@ -310,7 +308,7 @@ struct TsvRowList {
                 } else {
                     // case: apple has two random_id, check for any android keys
                     if a.key_android.isEmpty == false && b.key_android.isEmpty == false {
-                        return a.precedes(b, key: .androidKey) // key_droid x key_droid
+                        return a.precedes(b, keyType: .androidKeyType) // key_droid x key_droid
                     } else if a.key_android.isEmpty {
                         return false                           // _________ x key_droid
                     } else if b.key_android.isEmpty {
@@ -321,7 +319,7 @@ struct TsvRowList {
                 let a_base_value = a.base_value.trimmingCharacters(in: .whitespaces)
                 let b_base_value = b.base_value.trimmingCharacters(in: .whitespaces)
                 if a_base_value == b_base_value {
-                    return a.precedes(b, key: .appleKey)       // random_id x random_id
+                    return a.precedes(b, keyType: .appleKeyType)       // random_id x random_id
                 } else {
                     return a.base_value < b.base_value         // base_value x base_value
                 }
@@ -332,7 +330,7 @@ struct TsvRowList {
             }
             // case: no key_apple, may have random_id
             if a.key_android.isEmpty == false && b.key_android.isEmpty == false {
-                return a.precedes(b, key: .androidKey)        // key_droid x key_droid
+                return a.precedes(b, keyType: .androidKeyType)        // key_droid x key_droid
             } else if a.key_android.isEmpty == false && b.key_android.isEmpty {
                 return true                                   // key_droid x _________
             } else if a.key_android.isEmpty && b.key_android.isEmpty == false {
@@ -344,17 +342,28 @@ struct TsvRowList {
         return TsvRowList(data: list)
     }
     
-    /// sorts on  `key_android`
+    /// sorts with `key_android` priority
     func sortedByAndroid() -> TsvRowList {
         var list = data
         list.sort { (a: TsvRow, b: TsvRow) -> Bool in
             // Return true to order first element before the second.
-            return a.precedes(b, key: .androidKey)
+            return a.precedes(b, keyType: .androidKeyType)
         }
         return TsvRowList(data: list)
     }
 
+    /// sorts with `key_apple` priority
+    func sortedByApple() -> TsvRowList {
+        var list = data
+        list.sort { (a: TsvRow, b: TsvRow) -> Bool in
+            // Return true to order first element before the second.
+            return a.precedes(b, keyType: .appleKeyType)
+        }
+        return TsvRowList(data: list)
+    }
+    
     /// sorts on  combined `lang_value` and `base_value`
+    /// Use: find duplicate rows of copy independent of `key_android` or `key_apple`
     func sortedByLang() -> TsvRowList {
         var list = data
         list.sort { (a: TsvRow, b: TsvRow) -> Bool in
@@ -366,15 +375,10 @@ struct TsvRowList {
         return TsvRowList(data: list)
     }
     
+    /// :OBSOLETE: Use `sortedByApple()`
     func sortedByPrimaryKey() -> TsvRowList {
-        var list = data
-        list.sort { (a: TsvRow, b: TsvRow) -> Bool in
-            // Return true to order first element before the second.
-            return a.primaryKey() < b.primaryKey()
-        }
-        return TsvRowList(data: list)
+        return sortedByApple()
     }
-    
     
     func subtracting(_ toRemove: TsvRowList, byKeyType: TsvKeyType) -> TsvRowList {
         // Prerequisite: key pairing completed. multi-key cases have uniform values.

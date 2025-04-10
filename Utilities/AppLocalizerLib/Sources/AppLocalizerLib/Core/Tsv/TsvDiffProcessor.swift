@@ -9,7 +9,7 @@ import Foundation
 ///
 /// Scope: difference detection is only based on `key_apple&key_android` primary key
 /// 
-/// Consider "A" is typically the reference e.g. English_US.
+/// Consider "A" is typically the reference e.g. `English_US`.
 /// Consider "B" as the target which may needs to be adjusted. 
 /// 
 /// File Output: "B" url is used as the basis for file output.
