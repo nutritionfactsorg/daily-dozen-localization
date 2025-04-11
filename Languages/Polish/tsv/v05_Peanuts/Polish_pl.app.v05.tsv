@@ -533,7 +533,7 @@ history_to_generate_choices.2		6 months	6 miesięcy
 history_to_generate_choices.3		1 year	1 rok		
 history_to_generate_choices.4		2 years	2 lata		
 history_to_generate_choices.5		5 years	5 lat		
-moving_average		Moving Average	Średnia ruchoma		
+moving_average	historyRecord.movingAverage	Moving Average	Średnia ruchoma		
 no		No	Nie		
 no_servings_recorded		You have not recorded any servings yet!	Jeszcze nie zapisałeś/aś żadnych porcji!		
 no_weights_recorded		You have not recorded any weights yet!	Nie zapisałeś/aś wagi!		

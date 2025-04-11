@@ -355,16 +355,13 @@ morning	historyRecordWeight.legendMorning	Morning	בוקר	History View
 	historyRecordWeight.titleImperial	Weight (lbs)	משקל (פאונד)	History View	
 	historyRecordWeight.titleMetric	Weight (kg)	משקל (ק"ג)	History View	
 about	info_app_about	About	לגבי	Info About Menu Item	
-	info_app_about_app_name	Daily Dozen	"התריסר היומי"	Info Menu About: line 2	
 app_name	info_app_about_app_name	Daily Dozen	"התריסר היומי"	Info About View: Application Name ‘Daily Dozen’	
 	info_app_about_created_by	This app was created by: NutritionFacts.org, Christi Richards, Konstantin Khokhlov, and Marc Campbell	אפליקציה זו נוצרה על ידי: NutritionFacts.org, כריסטי ריצ'רדס, קונסטנטין חוחלוב ומארק קמפבל	Info About View: Created By	
 about_this_app	info_app_about_heading	About this app	בקשר לאפליקציה זו	Info About View	
 	info_app_about_oss_credits	The following open source libraries are used: RealmSwift, Charts, FSCalendar, SimpleAnimation.	נעשה שימוש בספריות הקוד הפתוח הבאות: RealmSwift, Charts,, FSCalendar, SimpleAnimation.	Info About View: Open Source Credits	
-	info_app_about_overview	Use this app on a daily basis to keep track of the foods and advice I recommend for optimal health and longevity in my books How Not to Die and How Not to Diet.	השתמשו באפליקציה זו על בסיס יומי כדי לעקוב אחר המזונות והעצות שאני ממליץ עליהם לבריאות ואריכות ימים בצורה אופטימלית בספרים שלי "איך לא למות" ו"איך לא לעשות דיאטה".	Info Menu About: line 1	
 activity_welcome_text	info_app_about_overview	Use this app on a daily basis to keep track of the foods and advice I recommend for optimal health and longevity in my books How Not to Die and How Not to Diet.	השתמשו באפליקציה זו על בסיס יומי כדי לעקוב אחר המזונות והעצות שאני ממליץ עליהם לבריאות ואריכות ימים בצורה אופטימלית בספרים שלי "איך לא למות" ו"איך לא לעשות דיאטה".	Info About View: Overview Text	
 about_translators	info_app_about_translators	Special thanks to our volunteer translators: Petar Enchev (bg), Tsveti Enchev (bg), Ricard Soler Roger (ca), Luděk Bouška (cs,sk), Lenka Lukacová (cs), Anke Schliessmann (de), Ángela Graña (es), Saeed Salamian (fa), Audray Harkins (fr), Doron Barak (he), Ruth Levy (he), Annalisa Guerrini-Körner (it), Ilaria Zanini (it), Hanna Gurzeda (pl), Joanna Klopotek (pl), Tania Bassi (pt-BR), João Madureira (pt-PT), Cristina Lauby (ro), Evgeniya Lyakh (ru), Katarína Mocáková (sk), Sabina Aliieva (uk).	תודה מיוחדת למתרגמים המתנדבים: Petar Enchev (bg), Tsveti Enchev (bg), Ricard Soler Roger (ca), Luděk Bouška (cs,sk), Lenka Lukacová (cs), Anke Schliessmann (de), Ángela Graña (es), Saeed Salamian (fa), Audray Harkins (fr), Doron Barak (he), Ruth Levy (he), Annalisa Guerrini-Körner (it), Ilaria Zanini (it), Hanna Gurzeda (pl), Joanna Klopotek (pl), Tania Bassi (pt-BR), João Madureira (pt-PT), Cristina Lauby (ro), Evgeniya Lyakh (ru), Katarína Mocáková (sk), Sabina Aliieva (uk).	Info About View: Contributing Translators List (language code)  See https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes	רשימת מתרגמים  בהתנדבות.
 	info_app_about_version	version 3.5.1	גירסה 3.5.1	Info About View: Application release version	
-	info_app_about_welcome	Welcome to my Daily Dozen!	ברוכים הבאים ל- "התריסר השבועי" שלי!	Info Menu About: line 0	
 welcome_to_my_daily_dozen	info_app_about_welcome	Welcome to my Daily Dozen!	ברוכים הבאים ל- "התריסר השבועי" שלי!	Info About View: Welcome	
 	info_book_how_not_to_die	Book: How Not to Die	ספר: "איך לא למות"	Info Menu: book title	
 	info_book_how_not_to_die_cookbook	Book: How Not to Die Cookbook	ספר "איך לא למות- ספר הבישול"	Info Menu: book title	
@@ -491,9 +488,11 @@ videos	videos.link.label	Videos	סרטונים	Label for hyperlink to nutritionf
 	weight_history_edit_data	Edit Data	ערוך נתונים	Weight Daily Entry: edit button to change values	
 weight	weightEntry.heading	Weight	משקל	Weight Daily Entry: heading	
 about_tweak		About Tweak	לגבי כוונון		
-android.about_text_lines.0		This app was created by John Slavick.	אפליקציה זו נוצרה ע"י ג'והן סלביק		
-android.about_text_lines.1		The following open source libraries are used: ActiveAndroid, android-iconify, ButterKnife, EventBus, LikeAnimation, and MPAndroidChart.	נעשה שימוש בספריות הקוד הפתוחות הבאות: ActiveAndroid, android-iconify, ButterKnife, EventBus, LikeAnimation ו- MPAndroidChart.		
-android.about_text_lines.2		Special thanks to the volunteer efforts of the creators of the previous app: Chan Kruse, Allan Portera, and Sangeeta Kumar.	תודה מיוחדת למאמצי ההתנדבות של יוצרי האפליקציה הקודמת: צ'אן קרוזה, אלן פורטרה וסנג'טה קומאר ".		
+about_text_lines.0		This app was created by John Slavick.	אפליקציה זו נוצרה ע"י ג'והן סלביק		
+about_text_lines.1					
+about_text_lines.2		The following open source libraries are used: ActiveAndroid, android-iconify, ButterKnife, EventBus, LikeAnimation, and MPAndroidChart.	נעשה שימוש בספריות הקוד הפתוחות הבאות: ActiveAndroid, android-iconify, ButterKnife, EventBus, LikeAnimation ו- MPAndroidChart.		
+about_text_lines.3					
+about_text_lines.4		Special thanks to the volunteer efforts of the creators of the previous app: Chan Kruse, Allan Portera, and Sangeeta Kumar.	תודה מיוחדת למאמצי ההתנדבות של יוצרי האפליקציה הקודמת: צ'אן קרוזה, אלן פורטרה וסנג'טה קומאר ".		
 average_weight_on_day		Average weight on day	המשקל הממוצע ביום		
 backup		Backup	גיבוי		
 backup_failed		Backup failed	הגיבוי נכשל		
