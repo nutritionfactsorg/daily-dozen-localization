@@ -37,11 +37,11 @@ struct BatchChangeset {
     var deltaChangesetList: [DeltaChangesetRecord] = []
     
     mutating func addBaseTsvSheet(_ sheet: TsvSheet) {
-        writeTsv(sheet.tsvRowList.data, filename: "90_baseDataAsis")
+        writeTsv(sheet.tsvRowList.data, cacheFilename: "90_baseDataAsis")
         let tsvRowList = sheet.tsvRowList.sortedByApple()
-        writeTsv(tsvRowList.data, filename: "91_basePrimaryKeySorted")
+        writeTsv(tsvRowList.data, cacheFilename: "91_basePrimaryKeySorted")
         let tsvReindex = applyReindex(resultAfterInsert: tsvRowList.data)
-        writeTsv(tsvReindex, filename: "92_baseReindexed")
+        writeTsv(tsvReindex, cacheFilename: "92_baseReindexed")
         let newSheet = TsvSheet(tsvRows: tsvReindex)
         baseTsvSheet = newSheet
     }
@@ -63,7 +63,7 @@ struct BatchChangeset {
         
         // --- read & parse sourceListTsv -> sourceSheet
         let inputSheet: TsvSheet =  TsvSheet(inputUrl)
-        writeTsv(inputSheet.tsvRowList.data, filename: "01_inputSheet")
+        writeTsv(inputSheet.tsvRowList.data, cacheFilename: "01_inputSheet")
         
         // --- SORT --- 
         // TsvSheet sorted sorted and deduplicated via init()
@@ -72,27 +72,36 @@ struct BatchChangeset {
         
         // --- APPLY DELETES ---        
         let resultAfterDelete = applyDeletes(inputRows: inputSheet.tsvRowList.data)
-        writeTsv(resultAfterDelete, filename: "02_afterDelete")
+        writeTsv(resultAfterDelete, cacheFilename: "02_afterDelete")
         
         // --- APPLY INSERTS ---
         let resultAfterInsert = applyInserts(resultAfterDelete: resultAfterDelete)
-        writeTsv(resultAfterInsert, filename: "03_afterInsert")
+        writeTsv(resultAfterInsert, cacheFilename: "03_afterInsert")
                 
         // --- REINDEX ---
         let resultAfterReindex = applyReindex(resultAfterInsert: resultAfterInsert)
-        writeTsv(resultAfterReindex, filename: "04_afterReindex")
+        writeTsv(resultAfterReindex, cacheFilename: "04_afterReindex")
         
         // --- SYNC BASE ---
-        writeTsv(baseSheet.tsvRowList.data, filename: "05_baseSheet")
+        writeTsv(baseSheet.tsvRowList.data, cacheFilename: "05_baseSheet")
         let resultAfterSyncBase = applySyncWithBase(reindexResult: resultAfterReindex, base: baseSheet.tsvRowList.data)
-        writeTsv(resultAfterSyncBase.lang, filename: "06_afterSyncBase")
-        writeTsv(resultAfterSyncBase.delta, filename: "07_delta")
+        writeTsv(resultAfterSyncBase.lang, cacheFilename: "06_afterSyncBase")
+        writeTsv(resultAfterSyncBase.change, cacheFilename: "07_change")
         deltaChangesetList.append(
             DeltaChangesetRecord(
-                data: resultAfterSyncBase.delta,
+                data: resultAfterSyncBase.change,
                 language: langStr
             )
         )
+        
+        // "….toreview.tsv"
+        writeTsv(resultAfterSyncBase.lang, url: outputUrl)
+        // "….change.tsv"
+        let changeUrl = outputUrl
+            .deletingPathExtension() // ".tsv"
+            .deletingPathExtension() // ".toreview"
+            .appendingPathExtension("change.tsv")
+        writeTsv(resultAfterSyncBase.change, url: changeUrl)
         
         // Reset for next language
         langInputTsvUrl = nil
@@ -139,6 +148,11 @@ struct BatchChangeset {
         var insertIdx = 0
         var resultAfterInsert = [TsvRow]()
         
+        guard insertList.isEmpty == false else {
+            print("applyInserts() none to apply")
+            return resultAfterDelete
+        }
+        
         var rowA = resultAfterDelete[inputIdx]
         var rowB = insertList[insertIdx]
         while inputIdx < resultAfterDelete.count && insertIdx < insertList.count {
@@ -184,94 +198,113 @@ struct BatchChangeset {
     ///     -any mismatching `key_android` and `key_apple` indices are logged.
     func applyReindex(resultAfterInsert tsvRowList: [TsvRow]) -> [TsvRow] {
         // Dictionary to track the next index for each namePart
-        var indexCounters: [String: Int] = [:]
+        var indexCounters: [String: Int] = [:] // [counterKey: count]
         // Result
         var resultAfterReindex = [TsvRow]()
         
         for var row in tsvRowList {
-            let (nameAndroid, indexAndroid) = row.key_android.keyParts()
             let (nameApple, indexApple) = row.key_apple.keyParts()
-            
-            if indexAndroid != indexApple {
-                logger.error("non-matching key indices:\n\(row)")
-            }
+            let (nameAndroid, indexAndroid) = row.key_android.keyParts()
+            let counterKey = "\(nameApple):::\(nameAndroid)"
             
             // If there's no index part, keep the string as is
-            guard indexApple != nil else {
+            if indexApple == nil && indexAndroid == nil {
                 resultAfterReindex.append(row)
                 continue
             }
             
-            // Get or initialize the counter for this namePart
-            let currentIndex = indexCounters[nameApple] ?? 0
-            // Create the new string with the current index
-            row.key_android = "\(nameAndroid).\(currentIndex)"
-            row.key_apple = "\(nameApple).\(currentIndex)"
-            resultAfterReindex.append(row)
-            // Increment the counter for next occurrence
-            indexCounters[nameApple] = currentIndex + 1
+            if indexApple != nil, indexAndroid != nil {
+                // Get or initialize the counter for this namePart
+                let currentIndex = indexCounters[counterKey] ?? 0
+                // Create the new string with the current index
+                row.key_apple = "\(nameApple).\(currentIndex)"                
+                row.key_android = "\(nameAndroid).\(currentIndex)"
+                resultAfterReindex.append(row)
+                // Increment the counter for next occurrence
+                indexCounters[counterKey] = currentIndex + 1
+            } else if indexApple != nil {
+                let currentIndex = indexCounters[counterKey] ?? 0
+                row.key_apple = "\(nameApple).\(currentIndex)"                
+                resultAfterReindex.append(row)
+                indexCounters[counterKey] = currentIndex + 1
+            } else { // indexAndroid != nil
+                let currentIndex = indexCounters[counterKey] ?? 0
+                row.key_android = "\(nameAndroid).\(currentIndex)"
+                resultAfterReindex.append(row)
+                indexCounters[counterKey] = currentIndex + 1
+            }            
         }
         
         return resultAfterReindex
     }
     
-    func applySyncWithBase(reindexResult lang: [TsvRow], base: [TsvRow]) -> (lang: [TsvRow], delta: [TsvRow]) {
+    func applySyncWithBase(reindexResult lang: [TsvRow], base: [TsvRow]) -> (lang: [TsvRow], change: [TsvRow]) {
+        print("Sync Processing: \(langStr), base: \(base.count), lang: \(lang.count)")
         var resultLang = [TsvRow]()
         var resultDelta = [TsvRow]()
         
-        guard  lang.count == base.count else {
-            print("""
-            applySyncWithBase() row count mismatch
-                lang.count \(lang.count)
-                base.count \(base.count)\n
-            """)
-            return ([], [])
+        var baseIdx = 0
+        var langIdx = 0
+        while baseIdx < base.count && langIdx < lang.count {
+            let rowBase = base[baseIdx]
+            var rowLang = lang[langIdx]
+            
+            let comparison = rowBase.compare(to: rowLang)
+            switch comparison {
+            case .lessThan: 
+                // base has item to insert as-is (add to lang)
+                resultLang.append(rowBase)
+                resultDelta.append(rowBase)
+                print("    WARNING: inserted base \(rowBase.primaryKey())")
+                baseIdx += 1
+                
+            case .greaterThan: 
+                // lang has item to skip (aka delete, not retain)
+                print("    WARNING: skipped lang \(rowLang.primaryKey())")
+                langIdx += 1
+                
+            case .equalTo: //
+                if rowBase.base_value.trimmingCharacters(in: .whitespaces).isEmpty && 
+                    rowBase.lang_value.trimmingCharacters(in: .whitespaces).isEmpty {
+                    // blank line. keep as-is. not part of delta.
+                    resultLang.append(rowLang)
+                } else if rowLang.lang_value.isEmpty {
+                    // new entry. update the row
+                    rowLang.base_value = rowBase.base_value
+                    rowLang.lang_value = rowBase.lang_value
+                    rowLang.base_note = rowBase.base_note
+                    resultLang.append(rowLang)
+                    resultDelta.append(rowLang)
+                } else if rowLang.base_value != rowBase.base_value {
+                    // update just the `English_US` `base_value`
+                    rowLang.base_value = rowBase.base_value
+                    resultLang.append(rowLang)
+                    resultDelta.append(rowLang)
+                } else {
+                    resultLang.append(rowLang)
+                }
+                baseIdx += 1
+                langIdx += 1
+            }
         }
         
-        for i in 0 ..< lang.count {
-            var rowLang = lang[i]
-            let rowBase = base[i]
-            
-            if rowLang.primaryKey() != rowBase.primaryKey() {
-                logger.error("""
-                    applySyncWithBase() primary key mismatch
-                    Language primary key \(rowLang.primaryKey())
-                    Baseline primary key \(rowBase.primaryKey())\n
-                    """)
-            }
-            
-            if rowBase.base_value.trimmingCharacters(in: .whitespaces).isEmpty && 
-                rowBase.lang_value.trimmingCharacters(in: .whitespaces).isEmpty {
-                // blank line. keep as-is. not part of delta.
-                resultLang.append(rowLang)
-            } else if rowLang.lang_value.isEmpty {
-                // new entry. update the row
-                rowLang.base_value = rowBase.base_value
-                rowLang.lang_value = rowBase.lang_value
-                rowLang.base_note = rowBase.base_note
-                resultLang.append(rowLang)
-                resultDelta.append(rowLang)
-            } else if rowLang.base_value != rowBase.base_value {
-                // update just the `English_US` `base_value`
-                rowLang.base_value = rowBase.base_value
-                resultLang.append(rowLang)
-                resultDelta.append(rowLang)
-            } else {
-                resultLang.append(rowLang)
-            }
-        }
-        
+        print("    resultLang: \(resultLang.count), resultDelta: \(resultDelta.count)")
         return (resultLang, resultDelta)
     }
     
-    func writeTsv(_ tsvRows: [TsvRow], filename: String) {
+    func writeTsv(_ tsvRows: [TsvRow], cacheFilename: String) {
         guard let cacheDir = outputCacheLocalDir
         else {
             logger.error("outputCacheLocalDir not provided")
             return
         }
         let sheet = TsvSheet(tsvRows: tsvRows)
-        let url = cacheDir.appending(path: "\(langStr)_\(filename).tsv", directoryHint: .notDirectory)
+        let url = cacheDir.appending(path: "\(langStr)_\(cacheFilename).tsv", directoryHint: .notDirectory)
+        sheet.writeTsvFile(url)
+    }
+
+    func writeTsv(_ tsvRows: [TsvRow], url: URL) {
+        let sheet = TsvSheet(tsvRows: tsvRows)
         sheet.writeTsvFile(url)
     }
 

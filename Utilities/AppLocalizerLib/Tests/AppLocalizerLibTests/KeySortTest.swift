@@ -40,11 +40,23 @@ public extension Array where Element == String {
 
 struct Test {
     
-    @Test func testSortByKeyParts() async throws {
+    @Test
+    func testSortByKeyParts() async throws {
         var stringList = ["A.b.21", "a.b.1", "B.c.5", "A.b.2", "C.d", "a.B.10"]
         stringList.sortByKeyParts()
         print("\(stringList)")
         // Result: ["a.b.1", "a.B.10", "A.b.2", "A.b.21", "B.c.5", "C.d"]
+    }
+    
+    @Test
+    func testCompare() async throws {
+        let a: Int!
+        let b: Int!
+        
+        a = 1
+        b = 2
+        
+        print(a == b)
     }
 
 }

@@ -61,11 +61,11 @@ struct TsvRowList {
         return indices
     }
     
-    /// find `self.data[]` indices for rows which match `apple_key&key_android` `primaryKey`
+    /// find `self.data[]` indices for rows which match `apple_key:::key_android` `primaryKey`
     func findIndices(primaryKey: String) -> [Int] {
-        let keys = primaryKey.components(separatedBy: "&")
+        let keys = primaryKey.components(separatedBy: ":::")
         guard keys.count == 2 else {
-            fatalError("primaryKey must have two parts: `apple_key&key_android`")
+            fatalError("primaryKey must have two parts: `apple_key:::key_android`")
         }
         var found = [Int]()
         for i in 0 ..< data.count {
@@ -375,7 +375,7 @@ struct TsvRowList {
         return TsvRowList(data: list)
     }
     
-    /// :OBSOLETE: Use `sortedByApple()`
+    /// aka `sortedByApple()`
     func sortedByPrimaryKey() -> TsvRowList {
         return sortedByApple()
     }
