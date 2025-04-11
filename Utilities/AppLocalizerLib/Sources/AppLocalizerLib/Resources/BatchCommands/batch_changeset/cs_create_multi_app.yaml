@@ -28,24 +28,25 @@ LOGGER_LEVEL_INFO
 #CS_BASE_TSV: "English_US/tsv/v06/English_US_en.app.v06.20250304.delta_lang.tsv"
 CS_BASE_TSV: "English_US/tsv/v06/English_US_en.app.v06.20250304.intake.tsv"
 
-# Removes "fresh sprouted beans (lentils, mung beans)"
+### Note: CS_DELETE_KEY is currently based on `key_apple`
+###
+### Removes "fresh sprouted beans (lentils, mung beans)"
 CS_DELETE_KEY: "dozeBeans.Serving.imperial.4"
 CS_DELETE_KEY: "dozeBeans.Serving.metric.4"
-# Removes "Miso"
+### Removes "Miso"
 CS_DELETE_KEY: "dozeBeans.Variety.Text.10"
-# Verify Lychees  not duplicated the end … likely a NO-OP
+### Verify Lychees  not duplicated the end … likely a NO-OP
 CS_DELETE_KEY: "dozeFruitsOther.Variety.Text.28"
-# Removes "Hot chocolate"
+### Removes "Hot chocolate"
 CS_DELETE_KEY: "dozeBeverages.Variety.Text.7"
-# Removes "Brazil nuts"
+### Removes "Brazil nuts"
 CS_DELETE_KEY: "dozeNuts.Variety.Text.1"
 
-### Uses PrimaryKey: `\(key_android):::\(key_apple)` format
-CS_INSERT_KEY: "food_info_serving_sizes_cruciferous_vegetables_imperial.2:::dozeVegetablesCruciferous.Serving.imperial.2"
-CS_INSERT_KEY: "food_info_serving_sizes_cruciferous_vegetables_metric.2:::dozeVegetablesCruciferous.Serving.metric.2"
-CS_INSERT_KEY: "food_info_serving_sizes_whole_grains_imperial.2:::dozeWholeGrains.Serving.imperial.2"
-CS_INSERT_KEY: "food_info_serving_sizes_whole_grains_metric.2:::dozeWholeGrains.Serving.metric.2"
-
+### Uses PrimaryKey: `\(key_apple):::\(key_android)` format
+CS_INSERT_KEY: "dozeVegetablesCruciferous.Serving.imperial.2:::food_info_serving_sizes_cruciferous_vegetables_imperial.2"
+CS_INSERT_KEY: "dozeVegetablesCruciferous.Serving.metric.2:::food_info_serving_sizes_cruciferous_vegetables_metric.2"
+CS_INSERT_KEY: "dozeWholeGrains.Serving.imperial.2:::food_info_serving_sizes_whole_grains_imperial.2"
+CS_INSERT_KEY: "dozeWholeGrains.Serving.metric.2:::food_info_serving_sizes_whole_grains_metric.2"
 
 ################
 ## English_US ##

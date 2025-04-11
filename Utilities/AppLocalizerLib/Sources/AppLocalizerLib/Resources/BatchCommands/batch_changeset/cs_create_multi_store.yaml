@@ -20,32 +20,21 @@
 ###################
 ## General Setup ##
 ###################
-OUTPUT_CACHE_LOCAL_DIR: "CS_App"
-LOGGER_FILENAME: "_log_CS_App__"
+OUTPUT_CACHE_LOCAL_DIR: "CS_Store"
+LOGGER_FILENAME: "_log_CS_Store__"
 LOGGER_LEVEL_INFO
 
 ## Baseline English_US to which translations are mapped
 #CS_BASE_TSV: "English_US/tsv/v06/English_US_en.store.v06.20250304.delta_lang.tsv"
 CS_BASE_TSV: "English_US/tsv/v06/English_US_en.store.v06.20250304.intake.tsv"
 
-# Removes "fresh sprouted beans (lentils, mung beans)"
-CS_DELETE_KEY: "dozeBeans.Serving.imperial.4"
-CS_DELETE_KEY: "dozeBeans.Serving.metric.4"
-# Removes "Miso"
-CS_DELETE_KEY: "dozeBeans.Variety.Text.10"
-# Verify Lychees  not duplicated the end … likely a NO-OP
-CS_DELETE_KEY: "dozeFruitsOther.Variety.Text.28"
-# Removes "Hot chocolate"
-CS_DELETE_KEY: "dozeBeverages.Variety.Text.7"
-# Removes "Brazil nuts"
-CS_DELETE_KEY: "dozeNuts.Variety.Text.1"
+### Note: CS_DELETE_KEY is currently based on `key_apple`
+###
+### Removes "…"
+#CS_DELETE_KEY: "…"
 
-### Uses PrimaryKey: `\(key_android):::\(key_apple)` format
-CS_INSERT_KEY: "food_info_serving_sizes_cruciferous_vegetables_imperial.2:::dozeVegetablesCruciferous.Serving.imperial.2"
-CS_INSERT_KEY: "food_info_serving_sizes_cruciferous_vegetables_metric.2:::dozeVegetablesCruciferous.Serving.metric.2"
-CS_INSERT_KEY: "food_info_serving_sizes_whole_grains_imperial.2:::dozeWholeGrains.Serving.imperial.2"
-CS_INSERT_KEY: "food_info_serving_sizes_whole_grains_metric.2:::dozeWholeGrains.Serving.metric.2"
-
+### Uses PrimaryKey: `\(key_apple):::\(key_android)` format
+#CS_INSERT_KEY: "…"
 
 ################
 ## English_US ##
@@ -85,7 +74,7 @@ DO_CHANGESET_APPLY_TSV
 #QUIT
 
 ###############
-## Bulgarian ##
+## Bulgarian ## no store page
 ###############
 LOGGER_FILENAME: "_log_CS_Bulgarian_bg"
 ## -- (bg) process store --
@@ -94,7 +83,7 @@ CS_LANG_OUTPUT_TSV: "Bulgarian/tsv/v06/Bulgarian_bg.store.v06.toreview.tsv"
 DO_CHANGESET_APPLY_TSV
 
 #############
-## Catalan ##
+## Catalan ## no store page
 #############
 LOGGER_FILENAME: "_log_CS_Catalan_ca"
 ## -- (ca) process store --
