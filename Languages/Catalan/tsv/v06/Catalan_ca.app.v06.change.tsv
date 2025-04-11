@@ -1,0 +1,29 @@
+key_droid	key_apple	base_value	lang_value	base_note	lang_note
+food_info_serving_sizes_beans_imperial.2	dozeBeans.Serving.imperial.2	⅓ cup tofu or tempeh	½ tassa de tofu o tempeh		
+food_info_serving_sizes_beans_imperial.3	dozeBeans.Serving.imperial.3	1 cup fresh peas or sprouted lentils	1 tassa de pèsols frescos o pèsols de neu		1 cup fresh peas or snow peas
+food_info_serving_sizes_beans_metric.0	dozeBeans.Serving.metric.0	70 g hummus or bean dip	60 g d'hummus o salsa de mongetes		60 g hummus or bean dip
+food_info_serving_sizes_beans_metric.1	dozeBeans.Serving.metric.1	100 g cooked beans, split peas, or lentils	90 g de mongetes cuites, pèsols o llenties		90 g of cooked beans, peas or lentils
+food_info_serving_sizes_beans_metric.2	dozeBeans.Serving.metric.2	80 g tofu or tempeh	100 g de tofu o tempeh		
+food_info_serving_sizes_beans_metric.3	dozeBeans.Serving.metric.3	100 g fresh peas or sprouted lentils	130 g de pèsols frescos o pèsols de neu		130 g of fresh peas or snow peas
+food_info_serving_sizes_berries_metric.0	dozeBerries.Serving.metric.0	70 g fresh or frozen	60 g frescos o congelats		
+food_info_serving_sizes_other_fruits_metric.1	dozeFruitsOther.Serving.metric.1	150 g cut-up fruit	120 g de fruita tallada		
+food_info_serving_sizes_cruciferous_vegetables_imperial.0	dozeVegetablesCruciferous.Serving.imperial.0	½ cup cooked leafy vegetables	½ tassa tallat		
+food_info_serving_sizes_cruciferous_vegetables_imperial.1	dozeVegetablesCruciferous.Serving.imperial.1	½ cup raw or cooked non-leafy vegetables	½ tassa de cols de Brussel·les		
+food_info_serving_sizes_cruciferous_vegetables_imperial.2	dozeVegetablesCruciferous.Serving.imperial.2	1 cup raw leafy vegetables	1 cup raw leafy vegetables		
+food_info_serving_sizes_cruciferous_vegetables_imperial.3	dozeVegetablesCruciferous.Serving.imperial.3	¼ cup broccoli sprouts	¼ tassa brots de bròquil		
+food_info_serving_sizes_cruciferous_vegetables_metric.0	dozeVegetablesCruciferous.Serving.metric.0	90 g cooked leafy vegetables	30-80 g tallat		
+food_info_serving_sizes_cruciferous_vegetables_metric.1	dozeVegetablesCruciferous.Serving.metric.1	60 g raw or cooked non-leafy vegetables	80 g de cols de Brussel·les		
+food_info_serving_sizes_cruciferous_vegetables_metric.2	dozeVegetablesCruciferous.Serving.metric.2	90 g raw leafy vegetables	90 g raw leafy vegetables		
+food_info_serving_sizes_cruciferous_vegetables_metric.3	dozeVegetablesCruciferous.Serving.metric.3	20 g broccoli sprouts	15 g brots de bròquil		
+food_info_serving_sizes_other_vegetables_metric.1	dozeVegetablesOther.Serving.metric.1	90 g raw or cooked nonleafy vegetables	50 g de verdures sense fulla crues o cuites		
+food_info_serving_sizes_other_vegetables_metric.2	dozeVegetablesOther.Serving.metric.2	120 ml vegetable juice	125 ml de suc de verdures		
+food_info_serving_sizes_other_vegetables_metric.3	dozeVegetablesOther.Serving.metric.3	10 g dried mushrooms	7 g de bolets dessecats		
+food_info_types_other_vegetables.7	dozeVegetablesOther.Variety.Text.7	Mushrooms (button, oyster, porcini, portobello, and shiitake)	Bolets (xampinyons, gírgoles, portobello i xiitake)		
+food_info_serving_sizes_whole_grains_imperial.0	dozeWholeGrains.Serving.imperial.0	½ cup cooked whole grains, whole-wheat pasta, or corn kernels	½ tassa de cereals cuits, pasta integral o grans de blat cuits		
+food_info_serving_sizes_whole_grains_imperial.1	dozeWholeGrains.Serving.imperial.1	1 cup 100% whole grain cold cereal	1 tassa de cereals freds		
+food_info_serving_sizes_whole_grains_imperial.2	dozeWholeGrains.Serving.imperial.2	1 100% whole grain tortilla (or 2 smaller corn tortillas)	1 100% whole grain tortilla (or 2 smaller corn tortillas)		
+food_info_serving_sizes_whole_grains_imperial.3	dozeWholeGrains.Serving.imperial.3	1 slice of 100% whole grain bread	1 tortilla o llesca de pa		
+food_info_serving_sizes_whole_grains_metric.0	dozeWholeGrains.Serving.metric.0	100 g cooked whole grains, whole-wheat pasta, or corn kernels	100 g de cereals cuits, pasta integral o grans de blat cuits		
+food_info_serving_sizes_whole_grains_metric.1	dozeWholeGrains.Serving.metric.1	50 g 100% whole grain cold cereal	50 g de cereals freds		
+food_info_serving_sizes_whole_grains_metric.2	dozeWholeGrains.Serving.metric.2	1 100% whole grain tortilla (or 2 smaller corn tortillas)	1 100% whole grain tortilla (or 2 smaller corn tortillas)		
+food_info_serving_sizes_whole_grains_metric.3	dozeWholeGrains.Serving.metric.3	1 slice of 100% whole grain bread	1 tortilla o llesca de pa		
