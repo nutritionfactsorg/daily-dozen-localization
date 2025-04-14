@@ -343,8 +343,8 @@ history	item_history_heading	History	Cronologia	Item History Heading
 	navtab.info	Information	Informazioni	Main Navigation Tab Control: show more information	
 	navtab.preferences	Preferences	Preferenze	Main Navigation Tab Control: ‘Preferences’ synonyms: Settings, Configuration. Choose a translations with is different from Tweaks.	
 	navtab.tweaks	21 Tweaks	21 Tweaks	Main Navigation Tab Control: ‘21 Tweaks’ (proper noun)	
-	NSHealthShareUsageDescription	The 21 Tweaks feature accesses your HealthKit data to provide updates to your daily weight measurements.	La funzione "21 Tweaks" ha accesso ai dati del tuo HealthKit cosi` da fornire aggiornamenti al tuo monitoraggio giornaliero del peso	Privacy - Health Share Usage Description	
-	NSHealthUpdateUsageDescription	The 21 Tweaks feature can write weight data to HealthKit to help you keep track of your progress.	La funzione "21 Tweaks" puo` mandare i dati sul peso a HealthKit per aiutarti a tracciare i tuoi progressi	Privacy - Health Update Usage Description	
+	NSHealthShareUsageDescription	The 21 Tweaks feature accesses your HealthKit data to provide updates to your daily weight measurements.	La funzione “21 Tweaks” ha accesso ai dati del tuo HealthKit cosi` da fornire aggiornamenti al tuo monitoraggio giornaliero del peso	Privacy - Health Share Usage Description	
+	NSHealthUpdateUsageDescription	The 21 Tweaks feature can write weight data to HealthKit to help you keep track of your progress.	La funzione “21 Tweaks” puo` mandare i dati sul peso a HealthKit per aiutarti a tracciare i tuoi progressi	Privacy - Health Update Usage Description	
 vitamin_b12	otherVitaminB12.heading	Vitamin B12	Vitamina B12	heading for daily data entry item	
 daily_reminder_text	reminder.alert.text	Update your servings for today	Aggiorna le tue porzioni di oggi	Alert notification text	
 	reminder.heading	Daily Reminder	Promemoria giornaliero	Daily Reminder (alert title, settings section heading)	
@@ -358,14 +358,14 @@ daily_dozen_only	setting_doze_only_btn	Daily Dozen\nOnly	\nSolo Daily Dozen	Firs
 	setting_doze_only_choice	Daily Dozen Only	Solo Daily Dozen	Preference Settings View: selection button text	
 daily_dozen_and_tweaks	setting_doze_tweak_btn	Daily Dozen +\n21 Tweaks	Daily Dozen +\n21 Tweaks	First Launch Setting: button text	
 	setting_doze_tweak_choice	Daily Dozen + 21 Tweaks	Daily Dozen + 21 Tweaks	Preference Settings View: selection button text	
-	setting_doze_tweak_footer	For health alone, use “Daily Dozen Only”. For health and weight loss use “Daily Dozen + 21 Tweaks”.	Per il percorso salute, usa "Solo Daily Dozen". Per il percorso salute e perdita di peso, usa “Daily Dozen + 21 Tweaks”.	Preference Settings View: brief description text below Tweaks visibility control.	
+	setting_doze_tweak_footer	For health alone, use “Daily Dozen Only”. For health and weight loss use “Daily Dozen + 21 Tweaks”.	Per il percorso salute, usa “Solo Daily Dozen”. Per il percorso salute e perdita di peso, usa “Daily Dozen + 21 Tweaks”.	Preference Settings View: brief description text below Tweaks visibility control.	
 for_health_alone	setting_health_alone_txt	For Health Alone	Solo per la salute	First Launch Setting: brief description above ‘Daily Dozen Only’ button.	
 for_health_and_weight_loss	setting_health_weight_txt	For Health and Weight Loss	Per la salute e la perdita di peso	First Launch Setting: brief description above ‘Daily Dozen + 21 Tweaks’ button.	
 	setting_tweak_header	21 Tweaks Visibility	21 Tweak Visualizzazione	Preference Settings View: tweaks visibilty subsection heading	
 	setting_units_0_imperial	Imperial	Sistema imperiale	Preference Settings View: Part of ‘Imperial/Metric/Toggle Units’ selector	
 	setting_units_1_metric	Metric	Sistema metrico	Preference Settings View: Part of ‘Imperial/Metric/Toggle Units’ selector	
 	setting_units_2_toggle	Toggle Units	Cambia unità	Preference Settings View: Part of ‘Imperial/Metric/Toggle Units’ selector	
-	setting_units_choice_footer	Set to always be one unit type or enable the ‘Units:’ toggle button.	Imposta un sistema predefinito o attiva l'opzione "Unità" per cambiare sistema.	Preference Settings View: brief description text below units control.	
+	setting_units_choice_footer	Set to always be one unit type or enable the ‘Units:’ toggle button.	Imposta un sistema predefinito o attiva l'opzione “Unità” per cambiare sistema.	Preference Settings View: brief description text below units control.	
 	setting_units_header	Measurement Units	Unità di misura	Preference Settings View	
 	setting_util_advanced	Advanced Utilities	Avanzate	Preference Settings View	
 format_num_days	streakDaysFormat	%d days	%d giorni	‘Streak’ count. Synonym: ‘Progress‘. Formatted number ‘%d’ for consecutive days completed. Place translated text for ‘days’ on the right or left of ‘%d’ based on language directionality.	
@@ -374,7 +374,7 @@ format_num_days	streakDaysFormat	%d days	%d giorni	‘Streak’ count. Synonym: 
 twenty_one_tweaks	tweak_entry_header	21 Tweaks	21 Tweaks	Tweaks daily entry header	
 complete_intentions	tweakCompleteIntentions.heading	Complete Your Implementation Intentions	Completa le tue strategie di attuazione	heading for daily data entry item	
 complete_intentions_short	tweakCompleteIntentions.short	Complete Your Implementation Intentions	Completa le tue strategie di attuazione		
-complete_intentions_text	tweakCompleteIntentions.text	Every two months, create three new implementation intentions—“if X, then Y” plans to perform a particular behavior in a specific context—and check each one of them off as you complete them every day.	Ogni due mesi, crea tre nuove strategie di autoregolamentazione ("se X, allora Y") per adottare un certo comportamento in un contesto specifico, e spuntali ogni giorno una volta completati.		
+complete_intentions_text	tweakCompleteIntentions.text	Every two months, create three new implementation intentions—“if X, then Y” plans to perform a particular behavior in a specific context—and check each one of them off as you complete them every day.	Ogni due mesi, crea tre nuove strategie di autoregolamentazione (“se X, allora Y”) per adottare un certo comportamento in un contesto specifico, e spuntali ogni giorno una volta completati.		
 daily_blackcumin	tweakDailyBlackCumin.heading	Black Cumin (¼ tsp)	Cumino nero (¼ cucchiaino)	heading for daily data entry item	
 daily_blackcumin_short	tweakDailyBlackCumin.short	Black Cumin (Nigella sativa) (¼ tsp)	Cumino nero (Nigella sativa) (¼ cucchiaino)		
 daily_blackcumin_text	tweakDailyBlackCumin.text	As noted in the Appetite Suppression section, a systematic review and meta-analysis of randomized, controlled weight-loss trials found that about a quarter teaspoon of black cumin powder every day appears to reduce body mass index within a span of a couple of months. Note that black cumin is different from regular cumin, for which the dosing is different.	Come già detto nella sezione Soppressione dell'appetito, una revisione sistematica e una meta-analisi di studi controllati randomizzati sulla perdita di peso hanno scoperto che circa un quarto di cucchiaino di cumino nero in polvere ogni giorno sembra ridurre l'indice di massa corporea nell'arco di un paio di mesi. Ricorda che il cumino nero è diverso dal cumino normale, per il quale il dosaggio è diverso.		
