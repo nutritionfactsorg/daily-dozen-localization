@@ -10,6 +10,7 @@
 ###   Outputs: `OUTPUT_LANG_TSV`    Language generated complete
 ###                               …/Language.store.vBB.yyyyMMdd.toreview.tsv
 ###                                 Language generated delta subset
+###                                 (Note: copy from cache *_07_change.tsv)
 ###                               …/Language.store.vBB.yyyyMMdd.deltatoreview.tsv
 ###                                 Combined delta subset segments
 ###                    English_US/…/Multi.store.vBB.yyyyMMdd.toreview.tsv
