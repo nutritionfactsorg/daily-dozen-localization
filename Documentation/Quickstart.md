@@ -69,6 +69,8 @@ Extra columns can be added for the translators' convenience for status, note tak
 
 Export the spreadsheet back to a TSV file format.  Add a `.txt` extension to the translated file. GitHub requires the `.txt` extension to accept the uploaded file.
 
+> _**Note: The TSV file needs to use the international standard [UTF-8 character encoding](https://en.wikipedia.org/wiki/UTF-8).**_
+
 ![](Quickstart_files/TSV_TXT_extension.png)
 
 Create a [nutritionfactsorg/daily-dozen-localization issue](https://github.com/nutritionfactsorg/daily-dozen-localization/issues) to submit the completed translation. Put the language (see folder name) at the beginning of the subject. Also add "translation submitted" to the subject.
