@@ -1,0 +1,521 @@
+key_droid	key_apple	base_value	lang_value	base_note	lang_note
+	CFBundleDisplayName	DailyDozen	Napi Tucat	User-visible application name. Visible under icon. Used by Siri.	
+	CFBundleName	DailyDozen	Napi Tucat	User-visible application short name (15 Characters max)	
+back_to_today	dateBackButtonTitle	Back to today	Vissza a mai naphoz	Date Button Title: ‘Back to today’	
+	dateButtonTitle.today	Today	Ma	Date Button Title: ‘Today’	
+serving_sizes	doze_detail_section_sizes	Serving Sizes	Adagok mérete	Doze Detail View subheading: ‘Serving Sizes’	
+types	doze_detail_section_types	Types	Típusok	Doze Detail View subheading: ‘Types’	
+servings	doze_entry_header	Servings	Adagok	Doze Entry View heading: ‘Servings’	
+beans	dozeBeans.heading	Beans	Babfélék	heading for daily data entry item	
+food_info_serving_sizes_beans_imperial.0	dozeBeans.Serving.imperial.0	¼ cup hummus or bean dip	¼ csésze humusz vagy babkrém		
+food_info_serving_sizes_beans_imperial.1	dozeBeans.Serving.imperial.1	½ cup cooked beans, split peas, lentils, tofu, or tempeh	½ csésze főtt bab, sárgaborsó, lencse, tofu vagy tempeh		
+food_info_serving_sizes_beans_imperial.2	dozeBeans.Serving.imperial.2	1 cup fresh peas or sprouted lentils	1 csésze friss borsó vagy csíráztatott lencse		
+food_info_serving_sizes_beans_metric.0	dozeBeans.Serving.metric.0	60 g hummus or bean dip	60 g humusz vagy babkrém		
+food_info_serving_sizes_beans_metric.1	dozeBeans.Serving.metric.1	130 g cooked beans, split peas, lentils, tofu, or tempeh	130 g főtt bab, sárgaborsó, lencse, tofu vagy tempeh		
+food_info_serving_sizes_beans_metric.2	dozeBeans.Serving.metric.2	150 g fresh peas or sprouted lentils	150 g friss borsó vagy csíráztatott lencse		
+food_info_types_beans.0	dozeBeans.Variety.Text.0	Black beans	Fekete bab		
+food_info_types_beans.1	dozeBeans.Variety.Text.1	Black-eyed peas	Fekete szemű bab		
+food_info_types_beans.2	dozeBeans.Variety.Text.2	Butter beans	Vajbab		
+food_info_types_beans.3	dozeBeans.Variety.Text.3	Cannellini beans	Cannellini bab		
+food_info_types_beans.4	dozeBeans.Variety.Text.4	Chickpeas/Garbanzo Beans	Csicseriborsó/Garbanzo bab		
+food_info_types_beans.5	dozeBeans.Variety.Text.5	Edamame	Edamame		
+food_info_types_beans.6	dozeBeans.Variety.Text.6	English peas	Zöldborsó		
+food_info_types_beans.7	dozeBeans.Variety.Text.7	Great northern beans	Nagyszemű északi fehérbab		
+food_info_types_beans.8	dozeBeans.Variety.Text.8	Kidney beans	Vesebab		
+food_info_types_beans.9	dozeBeans.Variety.Text.9	Lentils (beluga, french, and red varieties)	Lencsék (beluga, francialencse és vöröslencse fajták)		
+food_info_types_beans.10	dozeBeans.Variety.Text.10	Miso	Miso		
+food_info_types_beans.11	dozeBeans.Variety.Text.11	Navy beans	Apró fehérbab		
+food_info_types_beans.12	dozeBeans.Variety.Text.12	Pinto beans	Tarkabab		
+food_info_types_beans.13	dozeBeans.Variety.Text.13	Small red beans	Kis vörösbab		
+food_info_types_beans.14	dozeBeans.Variety.Text.14	Split peas (yellow or green)	Felesborsó (sárga vagy zöld)		
+food_info_types_beans.15	dozeBeans.Variety.Text.15	Tempeh	Tempeh		
+berries	dozeBerries.heading	Berries	Bogyós gyümölcsök	heading for daily data entry item	
+food_info_serving_sizes_berries_imperial.0	dozeBerries.Serving.imperial.0	½ cup fresh or frozen	½ csésze frissen vagy fagyasztva		
+food_info_serving_sizes_berries_imperial.1	dozeBerries.Serving.imperial.1	¼ cup dried	¼ csésze szárított		
+food_info_serving_sizes_berries_metric.0	dozeBerries.Serving.metric.0	60 g fresh or frozen	60 g frissen vagy fagyasztva		
+food_info_serving_sizes_berries_metric.1	dozeBerries.Serving.metric.1	40 g dried	40 g szárított		
+food_info_types_berries.0	dozeBerries.Variety.Text.0	Acai berries	Acai bogyó		
+food_info_types_berries.1	dozeBerries.Variety.Text.1	Barberries	Borbolya		
+food_info_types_berries.2	dozeBerries.Variety.Text.2	Blackberries	Szeder		
+food_info_types_berries.3	dozeBerries.Variety.Text.3	Blueberries	Áfonya		
+food_info_types_berries.4	dozeBerries.Variety.Text.4	Cherries (sweet or tart)	Cseresznye vagy meggy		
+food_info_types_berries.5	dozeBerries.Variety.Text.5	Concord grapes	Konkord (kék) szőlő		
+food_info_types_berries.6	dozeBerries.Variety.Text.6	Cranberries	Vörösáfonya		
+food_info_types_berries.7	dozeBerries.Variety.Text.7	Goji berries	Goji bogyó		
+food_info_types_berries.8	dozeBerries.Variety.Text.8	Kumquats	Kumkvat		
+food_info_types_berries.9	dozeBerries.Variety.Text.9	Mulberries	Faeper		
+food_info_types_berries.10	dozeBerries.Variety.Text.10	Raspberries (black or red)	Málna (fekete vagy piros)		
+food_info_types_berries.11	dozeBerries.Variety.Text.11	Strawberries	Eper		
+beverages	dozeBeverages.heading	Beverages	Italok	heading for daily data entry item	
+food_info_serving_sizes_beverages_imperial.0	dozeBeverages.Serving.imperial.0	One glass (12 ounces)	Egy pohár (12 uncia)		
+food_info_serving_sizes_beverages_metric.0	dozeBeverages.Serving.metric.0	One glass (350 ml)	Egy pohár (350 ml)		
+food_info_types_beverages.0	dozeBeverages.Variety.Text.0	Black tea	Fekete tea		
+food_info_types_beverages.1	dozeBeverages.Variety.Text.1	Chai tea	Chai tea		
+food_info_types_beverages.2	dozeBeverages.Variety.Text.2	Vanilla chamomile tea	Vaníliás kamilla tea		
+food_info_types_beverages.3	dozeBeverages.Variety.Text.3	Coffee	Kávé		
+food_info_types_beverages.4	dozeBeverages.Variety.Text.4	Earl grey tea	Earl grey tea		
+food_info_types_beverages.5	dozeBeverages.Variety.Text.5	Green tea	Zöld tea		
+food_info_types_beverages.6	dozeBeverages.Variety.Text.6	Hibiscus tea	Hibiszkusz tea		
+food_info_types_beverages.7	dozeBeverages.Variety.Text.7	Hot chocolate	Forró csokoládé		
+food_info_types_beverages.8	dozeBeverages.Variety.Text.8	Jasmine tea	Jázmintea		
+food_info_types_beverages.9	dozeBeverages.Variety.Text.9	Lemon balm tea	Citromfű tea		
+food_info_types_beverages.10	dozeBeverages.Variety.Text.10	Matcha tea	Matcha tea		
+food_info_types_beverages.11	dozeBeverages.Variety.Text.11	Almond blossom oolong tea	Mandulavirágos oolong tea		
+food_info_types_beverages.12	dozeBeverages.Variety.Text.12	Peppermint tea	Borsmenta tea		
+food_info_types_beverages.13	dozeBeverages.Variety.Text.13	Rooibos tea	Rooibos tea		
+food_info_types_beverages.14	dozeBeverages.Variety.Text.14	Water	Víz		
+food_info_types_beverages.15	dozeBeverages.Variety.Text.15	White tea	Fehér tea		
+exercise	dozeExercise.heading	Exercise	Testmozgás	heading for daily data entry item	
+food_info_serving_sizes_exercise_imperial.0	dozeExercise.Serving.imperial.0	90 minutes of moderate-intensity activity	90 perc közepes intenzitású mozgás		
+food_info_serving_sizes_exercise_imperial.1	dozeExercise.Serving.imperial.1	40 minutes of vigorous-intensity activity	40 perc intenzív mozgás		
+food_info_serving_sizes_exercise_metric.0	dozeExercise.Serving.metric.0	90 minutes of moderate-intensity activity	90 perc közepes intenzitású mozgás		
+food_info_serving_sizes_exercise_metric.1	dozeExercise.Serving.metric.1	40 minutes of vigorous-intensity activity	40 perc intenzív mozgás		
+food_info_types_exercise.0	dozeExercise.Variety.Text.0	Bicycling	Biciklizés		
+food_info_types_exercise.1	dozeExercise.Variety.Text.1	Canoeing	Kenuzás		
+food_info_types_exercise.2	dozeExercise.Variety.Text.2	Dancing	Táncolás		
+food_info_types_exercise.3	dozeExercise.Variety.Text.3	Dodgeball	Kidobós		
+food_info_types_exercise.4	dozeExercise.Variety.Text.4	Downhill skiing	Síelés		
+food_info_types_exercise.5	dozeExercise.Variety.Text.5	Fencing	Vívás		
+food_info_types_exercise.6	dozeExercise.Variety.Text.6	Hiking	Túrázás		
+food_info_types_exercise.7	dozeExercise.Variety.Text.7	Housework	Házimunka		
+food_info_types_exercise.8	dozeExercise.Variety.Text.8	Ice-skating	Jégkorcsolyázás		
+food_info_types_exercise.9	dozeExercise.Variety.Text.9	Inline skating	Görkorcsolyázás		
+food_info_types_exercise.10	dozeExercise.Variety.Text.10	Juggling	Zsonglőrködés		
+food_info_types_exercise.11	dozeExercise.Variety.Text.11	Jumping on a trampoline	Ugrálás trambulinon		
+food_info_types_exercise.12	dozeExercise.Variety.Text.12	Paddle boating	Stand Up Paddle (SUP)		
+food_info_types_exercise.13	dozeExercise.Variety.Text.13	Playing frisbee	Frizbizés		
+food_info_types_exercise.14	dozeExercise.Variety.Text.14	Roller-skating	Görkorcsolyázás		
+food_info_types_exercise.15	dozeExercise.Variety.Text.15	Shooting baskets	Kosárra dobás		
+food_info_types_exercise.16	dozeExercise.Variety.Text.16	Shoveling light snow	Könnyed hólapátolás		
+food_info_types_exercise.17	dozeExercise.Variety.Text.17	Skateboarding	Gördeszkázás		
+food_info_types_exercise.18	dozeExercise.Variety.Text.18	Snorkeling	Sznorkelezés		
+food_info_types_exercise.19	dozeExercise.Variety.Text.19	Surfing	Szörfözés		
+food_info_types_exercise.20	dozeExercise.Variety.Text.20	Swimming recreationally	Rekreációs úszás		
+food_info_types_exercise.21	dozeExercise.Variety.Text.21	Tennis (doubles)	Teniszezés (páros)		
+food_info_types_exercise.22	dozeExercise.Variety.Text.22	Treading water	Helyben úszás (taposás)		
+food_info_types_exercise.23	dozeExercise.Variety.Text.23	Walking briskly (4 mph)	Gyors séta (6,5 km/h)		
+food_info_types_exercise.24	dozeExercise.Variety.Text.24	Water aerobics	Vízi aerobikozás		
+food_info_types_exercise.25	dozeExercise.Variety.Text.25	Waterskiing	Vízisíelés		
+food_info_types_exercise.26	dozeExercise.Variety.Text.26	Yard work	Kerti munka		
+food_info_types_exercise.27	dozeExercise.Variety.Text.27	Yoga	Jóga		
+food_info_types_exercise.28	dozeExercise.Variety.Text.28	Backpacking	Hátizsákkal túrázás		
+food_info_types_exercise.29	dozeExercise.Variety.Text.29	Basketball	Kosárlabda		
+food_info_types_exercise.30	dozeExercise.Variety.Text.30	Bicycling uphill	Kerékpározás hegyre fel		
+food_info_types_exercise.31	dozeExercise.Variety.Text.31	Circuit weight training	Súlyzós köredzés		
+food_info_types_exercise.32	dozeExercise.Variety.Text.32	Cross-country skiing	Sífutás		
+food_info_types_exercise.33	dozeExercise.Variety.Text.33	Football	Futball		
+food_info_types_exercise.34	dozeExercise.Variety.Text.34	Hockey	Jégkorong		
+food_info_types_exercise.35	dozeExercise.Variety.Text.35	Jogging	Kocogás		
+food_info_types_exercise.36	dozeExercise.Variety.Text.36	Jumping jacks	Terpeszugrás (Jumping jacks)		
+food_info_types_exercise.37	dozeExercise.Variety.Text.37	Jumping rope	Ugrókötelezés		
+food_info_types_exercise.38	dozeExercise.Variety.Text.38	Lacrosse	Lacrosse		
+food_info_types_exercise.39	dozeExercise.Variety.Text.39	Push-ups	Fekvőtámasz		
+food_info_types_exercise.40	dozeExercise.Variety.Text.40	Pull-ups	Húzódzkodás		
+food_info_types_exercise.41	dozeExercise.Variety.Text.41	Racquetball	Raketball		
+food_info_types_exercise.42	dozeExercise.Variety.Text.42	Rock climbing	Sziklamászás		
+food_info_types_exercise.43	dozeExercise.Variety.Text.43	Rugby	Rögbi		
+food_info_types_exercise.44	dozeExercise.Variety.Text.44	Running	Futás		
+food_info_types_exercise.45	dozeExercise.Variety.Text.45	Scuba diving	Búvárkodás		
+food_info_types_exercise.46	dozeExercise.Variety.Text.46	Tennis (singles)	Tenisz (egyes)		
+food_info_types_exercise.47	dozeExercise.Variety.Text.47	Soccer	Futball		
+food_info_types_exercise.48	dozeExercise.Variety.Text.48	Speed skating	Gyorskorcsolya		
+food_info_types_exercise.49	dozeExercise.Variety.Text.49	Squash	Fallabda		
+food_info_types_exercise.50	dozeExercise.Variety.Text.50	Step aerobics	Step aerobic		
+food_info_types_exercise.51	dozeExercise.Variety.Text.51	Swimming laps	Úszodai úszás		
+food_info_types_exercise.52	dozeExercise.Variety.Text.52	Walking briskly uphill	Gyors séta hegyre fel		
+food_info_types_exercise.53	dozeExercise.Variety.Text.53	Water jogging	Aqua fitnesz		
+flaxseeds	dozeFlaxseeds.heading	Flaxseeds	Lenmag	heading for daily data entry item	
+food_info_serving_sizes_flaxseeds_imperial.0	dozeFlaxseeds.Serving.imperial.0	1 tablespoon ground	1 evőkanál őrölt		
+food_info_serving_sizes_flaxseeds_metric.0	dozeFlaxseeds.Serving.metric.0	1 tablespoon ground	1 evőkanál őrölt		
+food_info_types_flaxseeds.0	dozeFlaxseeds.Variety.Text.0	Brown flaxseeds	Barna lenmag		
+food_info_types_flaxseeds.1	dozeFlaxseeds.Variety.Text.1	Golden flaxseeds	Arany lenmag		
+other_fruits	dozeFruitsOther.heading	Other Fruits	Egyéb gyümölcsök	heading for daily data entry item	
+food_info_serving_sizes_other_fruits_imperial.0	dozeFruitsOther.Serving.imperial.0	1 medium-sized fruit	1 közepes méretű gyümölcs		
+food_info_serving_sizes_other_fruits_imperial.1	dozeFruitsOther.Serving.imperial.1	1 cup cut-up fruit	1 csésze darabolt gyümölcs		
+food_info_serving_sizes_other_fruits_imperial.2	dozeFruitsOther.Serving.imperial.2	¼ cup dried fruit	¼ csésze szárított gyümölcs		
+food_info_serving_sizes_other_fruits_metric.0	dozeFruitsOther.Serving.metric.0	1 medium-sized fruit	1 közepes méretű gyümölcs		
+food_info_serving_sizes_other_fruits_metric.1	dozeFruitsOther.Serving.metric.1	120 g cut-up fruit	120 g darabolt gyümölcs		
+food_info_serving_sizes_other_fruits_metric.2	dozeFruitsOther.Serving.metric.2	40 g dried fruit	40 g szárított gyümölcs		
+food_info_types_other_fruits.0	dozeFruitsOther.Variety.Text.0	Apples	Alma		
+food_info_types_other_fruits.1	dozeFruitsOther.Variety.Text.1	Apricots	Sárgabarack		
+food_info_types_other_fruits.2	dozeFruitsOther.Variety.Text.2	Avocados	Avokádó		
+food_info_types_other_fruits.3	dozeFruitsOther.Variety.Text.3	Bananas	Banán		
+food_info_types_other_fruits.4	dozeFruitsOther.Variety.Text.4	Cantaloupe	Sárgadinnye		
+food_info_types_other_fruits.5	dozeFruitsOther.Variety.Text.5	Clementines	Klementin		
+food_info_types_other_fruits.6	dozeFruitsOther.Variety.Text.6	Dates	Datolya		
+food_info_types_other_fruits.7	dozeFruitsOther.Variety.Text.7	Figs	Füge		
+food_info_types_other_fruits.8	dozeFruitsOther.Variety.Text.8	Grapefruit	Grapefruit		
+food_info_types_other_fruits.9	dozeFruitsOther.Variety.Text.9	Honeydew	Mézdinnye		
+food_info_types_other_fruits.10	dozeFruitsOther.Variety.Text.10	Kiwifruit	Kiwi		
+food_info_types_other_fruits.11	dozeFruitsOther.Variety.Text.11	Lemons	Citrom		
+food_info_types_other_fruits.12	dozeFruitsOther.Variety.Text.12	Limes	Lime		
+food_info_types_other_fruits.13	dozeFruitsOther.Variety.Text.13	Lychees	Licsi		
+food_info_types_other_fruits.14	dozeFruitsOther.Variety.Text.14	Mangos	Mangó		
+food_info_types_other_fruits.15	dozeFruitsOther.Variety.Text.15	Nectarines	Nektarin		
+food_info_types_other_fruits.16	dozeFruitsOther.Variety.Text.16	Oranges	Narancs		
+food_info_types_other_fruits.17	dozeFruitsOther.Variety.Text.17	Papaya	Papaya		
+food_info_types_other_fruits.18	dozeFruitsOther.Variety.Text.18	Passion fruit	Maracuja/passiógyümölcs		
+food_info_types_other_fruits.19	dozeFruitsOther.Variety.Text.19	Peaches	Őszibarack		
+food_info_types_other_fruits.20	dozeFruitsOther.Variety.Text.20	Pears	Körte		
+food_info_types_other_fruits.21	dozeFruitsOther.Variety.Text.21	Pineapple	Ananász		
+food_info_types_other_fruits.22	dozeFruitsOther.Variety.Text.22	Plums (especially black plums)	Szilva (főleg fekete szilva)		
+food_info_types_other_fruits.23	dozeFruitsOther.Variety.Text.23	Pluots	Pluot (kajszilva)		
+food_info_types_other_fruits.24	dozeFruitsOther.Variety.Text.24	Pomegranates	Gránátalma		
+food_info_types_other_fruits.25	dozeFruitsOther.Variety.Text.25	Prunes	Aszalt szilva		
+food_info_types_other_fruits.26	dozeFruitsOther.Variety.Text.26	Tangerines	Mandarinfélék		
+food_info_types_other_fruits.27	dozeFruitsOther.Variety.Text.27	Watermelon	Görögdinnye		
+greens	dozeGreens.heading	Greens	Zöldek	heading for daily data entry item	
+food_info_serving_sizes_greens_imperial.0	dozeGreens.Serving.imperial.0	1 cup raw	1 csésze nyersen		
+food_info_serving_sizes_greens_imperial.1	dozeGreens.Serving.imperial.1	½ cup cooked	½ csésze főtt		
+food_info_serving_sizes_greens_metric.0	dozeGreens.Serving.metric.0	60 g raw	60 g nyersen		
+food_info_serving_sizes_greens_metric.1	dozeGreens.Serving.metric.1	90 g cooked	90 g főzve		
+food_info_types_greens.0	dozeGreens.Variety.Text.0	Arugula	Rukkola		
+food_info_types_greens.1	dozeGreens.Variety.Text.1	Beet greens	Cékla zöldje		
+food_info_types_greens.2	dozeGreens.Variety.Text.2	Collard greens	Káposztafélék		
+food_info_types_greens.3	dozeGreens.Variety.Text.3	Kale (black, green, and red)	Kelkáposzta (fekete, zöld és piros)		
+food_info_types_greens.4	dozeGreens.Variety.Text.4	Mesclun mix (assorted young salad greens)	Saláta mix (zsenge zöldsaláta válogatás)		
+food_info_types_greens.5	dozeGreens.Variety.Text.5	Mustard greens	Mustár zöldek		
+food_info_types_greens.6	dozeGreens.Variety.Text.6	Sorrel	Sóska		
+food_info_types_greens.7	dozeGreens.Variety.Text.7	Spinach	Spenót		
+food_info_types_greens.8	dozeGreens.Variety.Text.8	Swiss chard	Svájci (piros) mángold		
+food_info_types_greens.9	dozeGreens.Variety.Text.9	Turnip greens	Tarlórépa levele		
+nuts	dozeNuts.heading	Nuts and Seeds	Diófélék és magvak	heading for daily data entry item	
+food_info_serving_sizes_nuts_imperial.0	dozeNuts.Serving.imperial.0	¼ cup nuts or seeds	¼ csésze dióféle vagy olajos mag		
+food_info_serving_sizes_nuts_imperial.1	dozeNuts.Serving.imperial.1	2 tablespoons nut or seed butter	2 evőkanál dió- vagy magvaj		
+food_info_serving_sizes_nuts_metric.0	dozeNuts.Serving.metric.0	30 g nuts or seeds	30 g dióféle vagy olajos mag		
+food_info_serving_sizes_nuts_metric.1	dozeNuts.Serving.metric.1	2 tablespoons nut or seed butter	2 evőkanál dió- vagy magvaj		
+food_info_types_nuts.0	dozeNuts.Variety.Text.0	Almonds	Mandula		
+food_info_types_nuts.1	dozeNuts.Variety.Text.1	Brazil nuts	Brazil dió		
+food_info_types_nuts.2	dozeNuts.Variety.Text.2	Cashews	Kesudió		
+food_info_types_nuts.3	dozeNuts.Variety.Text.3	Chia seeds	Chiamag		
+food_info_types_nuts.4	dozeNuts.Variety.Text.4	Hazelnuts	Mogyoró		
+food_info_types_nuts.5	dozeNuts.Variety.Text.5	Hemp seeds	Kendermag		
+food_info_types_nuts.6	dozeNuts.Variety.Text.6	Macadamia nuts	Makadámdió		
+food_info_types_nuts.7	dozeNuts.Variety.Text.7	Pecans	Pekándió		
+food_info_types_nuts.8	dozeNuts.Variety.Text.8	Pistachios	Pisztácia		
+food_info_types_nuts.9	dozeNuts.Variety.Text.9	Pumpkin seeds	Tökmag		
+food_info_types_nuts.10	dozeNuts.Variety.Text.10	Sesame seeds	Szezámmag		
+food_info_types_nuts.11	dozeNuts.Variety.Text.11	Sunflower seeds	Napraforgómag		
+food_info_types_nuts.12	dozeNuts.Variety.Text.12	Walnuts	Dió		
+OK	dozeOtherInfo.confirm	OK	OK	Daily Dozen supplement info alert: dismissal button text	
+	dozeOtherInfo.message	Vitamin B12 is essential for your health but does not count towards your daily servings.\n\nVitamin B12 is included in this app to provide you with an easy way to track your intake.	A B12-vitamin alapvető fontosságú az egészsége szempontjából, de nem számít bele a napi adagokba.\n\nA B12-vitamint felvettük az alkalmazásba, hogy könnyen nyomon követhesse a bevitelét.	Daily Dozen supplement info alert: message	
+	dozeOtherInfo.section	Supplements	Táplálékkiegészítők	Daily Dozen daily entry section heading	
+	dozeOtherInfo.title	Supplements	Táplálékkiegészítők	Daily Dozen supplement info alert: title	
+spices	dozeSpices.heading	Herbs and Spices	Gyógynövények és fűszerek	heading for daily data entry item	
+food_info_serving_sizes_spices_imperial.0	dozeSpices.Serving.imperial.0	¼ teaspoon of turmeric	¼ teáskanál kurkuma		
+food_info_serving_sizes_spices_imperial.1	dozeSpices.Serving.imperial.1	Any other (salt-free) herbs and spices you enjoy	Bármilyen más (sómentes) gyógynövény és fűszer, amit szeret		
+food_info_serving_sizes_spices_metric.0	dozeSpices.Serving.metric.0	¼ teaspoon of turmeric	¼ teáskanál kurkuma		
+food_info_serving_sizes_spices_metric.1	dozeSpices.Serving.metric.1	Any other (salt-free) herbs and spices you enjoy	Bármilyen más (sómentes) gyógynövény és fűszer, amit szeret		
+food_info_types_spices.0	dozeSpices.Variety.Text.0	Allspice	Vegyesfűszer		
+food_info_types_spices.1	dozeSpices.Variety.Text.1	Barberries	Borbolya		
+food_info_types_spices.2	dozeSpices.Variety.Text.2	Basil	Bazsalikom		
+food_info_types_spices.3	dozeSpices.Variety.Text.3	Bay leaves	Babérlevél		
+food_info_types_spices.4	dozeSpices.Variety.Text.4	Cardamom	Kardamom		
+food_info_types_spices.5	dozeSpices.Variety.Text.5	Chili powder	Chili por		
+food_info_types_spices.6	dozeSpices.Variety.Text.6	Cilantro	Koriander (levél)		
+food_info_types_spices.7	dozeSpices.Variety.Text.7	Cinnamon	Fahéj		
+food_info_types_spices.8	dozeSpices.Variety.Text.8	Cloves	Szegfűszeg		
+food_info_types_spices.9	dozeSpices.Variety.Text.9	Coriander	Koriander (fűszer)		
+food_info_types_spices.10	dozeSpices.Variety.Text.10	Cumin	Kömény		
+food_info_types_spices.11	dozeSpices.Variety.Text.11	Curry powder	Curry por		
+food_info_types_spices.12	dozeSpices.Variety.Text.12	Dill	Kapor		
+food_info_types_spices.13	dozeSpices.Variety.Text.13	Fenugreek	Görögszéna		
+food_info_types_spices.14	dozeSpices.Variety.Text.14	Garlic	Fokhagyma		
+food_info_types_spices.15	dozeSpices.Variety.Text.15	Ginger	Gyömbér		
+food_info_types_spices.16	dozeSpices.Variety.Text.16	Horseradish	Torma		
+food_info_types_spices.17	dozeSpices.Variety.Text.17	Lemongrass	Citromfű		
+food_info_types_spices.18	dozeSpices.Variety.Text.18	Marjoram	Majoránna		
+food_info_types_spices.19	dozeSpices.Variety.Text.19	Mustard powder	Mustárpor		
+food_info_types_spices.20	dozeSpices.Variety.Text.20	Nutmeg	Szerecsendió		
+food_info_types_spices.21	dozeSpices.Variety.Text.21	Oregano	Oregano		
+food_info_types_spices.22	dozeSpices.Variety.Text.22	Smoked paprika	Füstölt paprika		
+food_info_types_spices.23	dozeSpices.Variety.Text.23	Parsley	Petrezselyem		
+food_info_types_spices.24	dozeSpices.Variety.Text.24	Pepper	Bors		
+food_info_types_spices.25	dozeSpices.Variety.Text.25	Peppermint	Borsmenta		
+food_info_types_spices.26	dozeSpices.Variety.Text.26	Rosemary	Rozmaring		
+food_info_types_spices.27	dozeSpices.Variety.Text.27	Saffron	Sáfrány		
+food_info_types_spices.28	dozeSpices.Variety.Text.28	Sage	Zsálya		
+food_info_types_spices.29	dozeSpices.Variety.Text.29	Thyme	Kakukkfű		
+food_info_types_spices.30	dozeSpices.Variety.Text.30	Turmeric	Kurkuma		
+food_info_types_spices.31	dozeSpices.Variety.Text.31	Vanilla	Vanília		
+cruciferous_vegetables	dozeVegetablesCruciferous.heading	Cruciferous Vegetables	Keresztes virágú zöldségek	heading for daily data entry item	
+food_info_serving_sizes_cruciferous_vegetables_imperial.0	dozeVegetablesCruciferous.Serving.imperial.0	½ cup chopped	½ csésze apróra vágva		
+food_info_serving_sizes_cruciferous_vegetables_imperial.1	dozeVegetablesCruciferous.Serving.imperial.1	¼ cup Brussels or broccoli sprouts	¼ csésze kel- vagy brokkolicsíra		
+food_info_serving_sizes_cruciferous_vegetables_imperial.2	dozeVegetablesCruciferous.Serving.imperial.2	1 tablespoon horseradish	1 evőkanál torma		
+food_info_serving_sizes_cruciferous_vegetables_metric.0	dozeVegetablesCruciferous.Serving.metric.0	30–80 g chopped	30-80 g apróra vágva		
+food_info_serving_sizes_cruciferous_vegetables_metric.1	dozeVegetablesCruciferous.Serving.metric.1	12 g Brussels or broccoli sprouts	12 g kel- vagy brokkolicsíra		
+food_info_serving_sizes_cruciferous_vegetables_metric.2	dozeVegetablesCruciferous.Serving.metric.2	1 tablespoon horseradish	1 evőkanál torma		
+food_info_types_cruciferous_vegetables.0	dozeVegetablesCruciferous.Variety.Text.0	Arugula	Rukkola		
+food_info_types_cruciferous_vegetables.1	dozeVegetablesCruciferous.Variety.Text.1	Bok choy	Bordás kel		
+food_info_types_cruciferous_vegetables.2	dozeVegetablesCruciferous.Variety.Text.2	Broccoli (incl. Romanesco)	Brokkoli (beleértve a romanescót is)		
+food_info_types_cruciferous_vegetables.3	dozeVegetablesCruciferous.Variety.Text.3	Brussels sprouts	Kelbimbó		
+food_info_types_cruciferous_vegetables.4	dozeVegetablesCruciferous.Variety.Text.4	Cabbage (green, red and savoy)	Káposzta (zöld, vörös és kelkáposzta)		
+food_info_types_cruciferous_vegetables.5	dozeVegetablesCruciferous.Variety.Text.5	Cauliflower (white, green, orange and purple)	Karfiol (fehér, zöld, narancs és lila)		
+food_info_types_cruciferous_vegetables.6	dozeVegetablesCruciferous.Variety.Text.6	Collard greens	Káposztafélék		
+food_info_types_cruciferous_vegetables.7	dozeVegetablesCruciferous.Variety.Text.7	Horseradish	Torma		
+food_info_types_cruciferous_vegetables.8	dozeVegetablesCruciferous.Variety.Text.8	Kale (black, green, and red)	Fodros kel (fekete, zöld és piros)		
+food_info_types_cruciferous_vegetables.9	dozeVegetablesCruciferous.Variety.Text.9	Kohlrabi (green and purple)	Karalábé (zöld és lila)		
+food_info_types_cruciferous_vegetables.10	dozeVegetablesCruciferous.Variety.Text.10	Mustard greens	Mustár levél (Szareptai mustár)		
+food_info_types_cruciferous_vegetables.11	dozeVegetablesCruciferous.Variety.Text.11	Radishes	Retekfélék		
+food_info_types_cruciferous_vegetables.12	dozeVegetablesCruciferous.Variety.Text.12	Turnip greens	Tarlórépa levele		
+food_info_types_cruciferous_vegetables.13	dozeVegetablesCruciferous.Variety.Text.13	Watercress	Vízitorma		
+other_vegetables	dozeVegetablesOther.heading	Other Vegetables	Egyéb zöldségek	heading for daily data entry item	
+food_info_serving_sizes_other_vegetables_imperial.0	dozeVegetablesOther.Serving.imperial.0	1 cup raw leafy vegetables	1 csésze nyers leveles zöldség		
+food_info_serving_sizes_other_vegetables_imperial.1	dozeVegetablesOther.Serving.imperial.1	½ cup raw or cooked nonleafy vegetables	½ csésze nyers vagy főtt nem leveles zöldség		
+food_info_serving_sizes_other_vegetables_imperial.2	dozeVegetablesOther.Serving.imperial.2	½ cup vegetable juice	½ csésze zöldséglé		
+food_info_serving_sizes_other_vegetables_imperial.3	dozeVegetablesOther.Serving.imperial.3	¼ cup dried mushrooms	¼ csésze szárított gomba		
+food_info_serving_sizes_other_vegetables_metric.0	dozeVegetablesOther.Serving.metric.0	60 g raw leafy vegetables	60 g nyers leveles zöldség		
+food_info_serving_sizes_other_vegetables_metric.1	dozeVegetablesOther.Serving.metric.1	50 g raw or cooked nonleafy vegetables	50 g nyers vagy főtt nem leveles zöldség		
+food_info_serving_sizes_other_vegetables_metric.2	dozeVegetablesOther.Serving.metric.2	125 ml vegetable juice	125 ml zöldséglé		
+food_info_serving_sizes_other_vegetables_metric.3	dozeVegetablesOther.Serving.metric.3	7 g dried mushrooms	7 g szárított gomba		
+food_info_types_other_vegetables.0	dozeVegetablesOther.Variety.Text.0	Artichokes	Articsóka		
+food_info_types_other_vegetables.1	dozeVegetablesOther.Variety.Text.1	Asparagus	Spárga		
+food_info_types_other_vegetables.2	dozeVegetablesOther.Variety.Text.2	Beets	Cékla		
+food_info_types_other_vegetables.3	dozeVegetablesOther.Variety.Text.3	Bell peppers	Kaliforniai paprika		
+food_info_types_other_vegetables.4	dozeVegetablesOther.Variety.Text.4	Carrots	Sárgarépa		
+food_info_types_other_vegetables.5	dozeVegetablesOther.Variety.Text.5	Corn	Kukorica		
+food_info_types_other_vegetables.6	dozeVegetablesOther.Variety.Text.6	Garlic	Fokhagyma		
+food_info_types_other_vegetables.7	dozeVegetablesOther.Variety.Text.7	Mushrooms (button, oyster, portobello, and shiitake)	Gomba (csiperke, laska, portobello és shiitake)		
+food_info_types_other_vegetables.8	dozeVegetablesOther.Variety.Text.8	Okra	Okra		
+food_info_types_other_vegetables.9	dozeVegetablesOther.Variety.Text.9	Onions	Hagymafélék		
+food_info_types_other_vegetables.10	dozeVegetablesOther.Variety.Text.10	Purple potatoes	Lila burgonyák		
+food_info_types_other_vegetables.11	dozeVegetablesOther.Variety.Text.11	Pumpkin	Tök		
+food_info_types_other_vegetables.12	dozeVegetablesOther.Variety.Text.12	Sea vegetables (arame, dulse, and nori)	Tengeri zöldségek (arame, dulse és nori)		
+food_info_types_other_vegetables.13	dozeVegetablesOther.Variety.Text.13	Snap peas	Cukorborsó		
+food_info_types_other_vegetables.14	dozeVegetablesOther.Variety.Text.14	Squash (delicata, summer, and spaghetti squash varieties)	Tökfélék (mogyorótök, zsenge tök, spárgatök-variációk)		
+food_info_types_other_vegetables.15	dozeVegetablesOther.Variety.Text.15	Sweet potatoes/yams	Édesburgonya / jamgyökér		
+food_info_types_other_vegetables.16	dozeVegetablesOther.Variety.Text.16	Tomatoes	Paradicsom		
+food_info_types_other_vegetables.17	dozeVegetablesOther.Variety.Text.17	Zucchini	Cukkini		
+whole_grains	dozeWholeGrains.heading	Whole Grains	Teljes kiőrlésű gabonák	heading for daily data entry item	
+food_info_serving_sizes_whole_grains_imperial.0	dozeWholeGrains.Serving.imperial.0	½ cup hot cereal or cooked grains, pasta, or corn kernels	½ csésze főtt gabonakása vagy főtt gabona, tészta vagy kukorica		
+food_info_serving_sizes_whole_grains_imperial.1	dozeWholeGrains.Serving.imperial.1	1 cup cold cereal	1 csésze hideg gabonapehely		
+food_info_serving_sizes_whole_grains_imperial.2	dozeWholeGrains.Serving.imperial.2	1 tortilla or slice of bread	1 tortilla vagy szelet kenyér		
+food_info_serving_sizes_whole_grains_imperial.3	dozeWholeGrains.Serving.imperial.3	½ bagel or English muffin	½ bagel vagy angol muffin		
+food_info_serving_sizes_whole_grains_imperial.4	dozeWholeGrains.Serving.imperial.4	3 cups popped popcorn	3 csésze pattogatott kukorica		
+food_info_serving_sizes_whole_grains_metric.0	dozeWholeGrains.Serving.metric.0	100 g hot cereal or cooked grains, pasta, or corn kernels	100 g főtt gabonakása vagy főtt gabona, tészta vagy kukorica		
+food_info_serving_sizes_whole_grains_metric.1	dozeWholeGrains.Serving.metric.1	50 g cold cereal	50 g hideg gabonapehely		
+food_info_serving_sizes_whole_grains_metric.2	dozeWholeGrains.Serving.metric.2	1 tortilla or slice of bread	1 tortilla vagy szelet kenyér		
+food_info_serving_sizes_whole_grains_metric.3	dozeWholeGrains.Serving.metric.3	½ bagel or English muffin	½ bagel vagy angol muffin		
+food_info_serving_sizes_whole_grains_metric.4	dozeWholeGrains.Serving.metric.4	30 g popped popcorn	30 g pattogatott kukorica		
+food_info_types_whole_grains.0	dozeWholeGrains.Variety.Text.0	Barley	Árpa		
+food_info_types_whole_grains.1	dozeWholeGrains.Variety.Text.1	Buckwheat	Hajdina		
+food_info_types_whole_grains.2	dozeWholeGrains.Variety.Text.2	Millet	Köles		
+food_info_types_whole_grains.3	dozeWholeGrains.Variety.Text.3	Oats	Zab		
+food_info_types_whole_grains.4	dozeWholeGrains.Variety.Text.4	Popcorn	Pattogatott kukorica		
+food_info_types_whole_grains.5	dozeWholeGrains.Variety.Text.5	Quinoa	Quinoa		
+food_info_types_whole_grains.6	dozeWholeGrains.Variety.Text.6	Rye	Rozs		
+food_info_types_whole_grains.7	dozeWholeGrains.Variety.Text.7	Teff	Teff (törpe köles)		
+food_info_types_whole_grains.8	dozeWholeGrains.Variety.Text.8	Whole-wheat pasta	Teljes kiőrlésű tészta		
+servings_time_scale_choices.0	history_scale_choice_day	Day	Nap	History View: calendar scale control	
+servings_time_scale_choices.1	history_scale_choice_month	Month	Hónap	History View: calendar scale control	
+servings_time_scale_choices.2	history_scale_choice_year	Year	Év	History View: calendar scale control	
+time_scale	history_scale_label	Time Scale	Időskála	History View: scale text	
+moving_average	historyRecord.movingAverage	Moving Average	Mozgóátlag		
+	historyRecordDoze.heading	Servings History	Adag történet	History View	
+	historyRecordDoze.legend	Servings	Adagok	History View	
+	historyRecordTweak.heading	Tweaks History	Trükkök előzményei	History View	
+tweaks	historyRecordTweak.legend	Tweaks	Trükkök	History View	
+weight_history	historyRecordWeight.heading	Weight History	Súlytörténet	History View	
+evening	historyRecordWeight.legendEvening	Evening	Este	History View	
+morning	historyRecordWeight.legendMorning	Morning	Reggel	History View	
+	historyRecordWeight.titleImperial	Weight (lbs)	Súly (font)	History View	
+	historyRecordWeight.titleMetric	Weight (kg)	Súly (kg)	History View	
+about	info_app_about	About	Az alkalmazásról	Info About Menu Item	
+app_name	info_app_about_app_name	Daily Dozen	Napi tucat	Info About View: Application Name ‘Daily Dozen’	
+	info_app_about_created_by	This app was created by: NutritionFacts.org, Christi Richards, Konstantin Khokhlov, and Marc Campbell	Ezt az alkalmazást készítette: NutritionFacts.org, Christi Richards, Konstantin Khokhlov és Marc Campbell	Info About View: Created By	
+about_this_app	info_app_about_heading	About this app	Erről az alkalmazásról	Info About View	
+	info_app_about_oss_credits	The following open source libraries are used: RealmSwift, Charts, FSCalendar, SimpleAnimation.	A következő nyílt forráskódú könyvtárak használatosak: RealmSwift, Charts, FSCalendar, SimpleAnimation.	Info About View: Open Source Credits	
+activity_welcome_text	info_app_about_overview	Use this app on a daily basis to keep track of the foods and advice I recommend for optimal health and longevity in my books How Not to Die and How Not to Diet.	Használja ezt az alkalmazást naponta! Így könnyedén követheti a tanácsaimat és fogyaszthatja az általam ajánlott élelmiszereket, amelyeket az optimális egészség és a hosszú élet eléréséhez ajánlok a Hogy ne halj meg és a Hogyan ne diétázz című könyveimben.	Info About View: Overview Text	
+	info_app_about_version	version 3.5.1	3.5.1 verzió	Info About View: Application release version	
+welcome_to_my_daily_dozen	info_app_about_welcome	Welcome to my Daily Dozen!	Üdvözöljük a személyes Napi Tucat oldalán!	Info About View: Welcome	
+	info_book_how_not_to_die	Book: How Not to Die	Könyv: Hogy ne halj meg	Info Menu: book title	
+	info_book_how_not_to_die_cookbook	Book: How Not to Die Cookbook	Könyv: Hogy ne halj meg Szakácskönyv	Info Menu: book title	
+	info_book_how_not_to_diet	Book: How Not to Diet	Könyv: Hogyan ne diétázz	Info Menu: book title	
+daily_dozen_challenge	info_webpage_daily_dozen_challenge	Daily Dozen Challenge	Napi tucat kihívás	Info Menu	
+donate	info_webpage_donate	Donate	Adományozz	Info Menu	
+open_source	info_webpage_open_source	Open Source	Nyílt forráskód	Info Menu	
+subscribe	info_webpage_subscribe	Subscribe	Iratkozz fel	Info Menu	
+latest_videos	info_webpage_videos_latest	Latest Videos	Legújabb videók	Info Menu	
+servings_all	item_history_completed_all	All servings	Minden adag	Item History Legend: ‘All completed’	
+servings_some	item_history_completed_some	Some servings	Néhány adag	Item History Legend: ‘Some completed’	
+history	item_history_heading	History	Előzmények	Item History Heading	
+	navtab.doze	Daily Dozen	Napi tucat	Main Navigation Tab Control: ‘Daily Dozen’ (proper noun)	
+	navtab.info	Information	Információ	Main Navigation Tab Control: show more information	
+	navtab.preferences	Preferences	Preferenciák	Main Navigation Tab Control: ‘Preferences’ synonyms: Settings, Configuration. Choose a translations with is different from Tweaks.	
+	navtab.tweaks	21 Tweaks	21 Trükk	Main Navigation Tab Control: ‘21 Tweaks’ (proper noun)	
+	NSHealthShareUsageDescription	The 21 Tweaks feature accesses your HealthKit data to provide updates to your daily weight measurements.	A 21 Trükk funkció hozzáfér az Ön HealthKit adataihoz, hogy frissítse a napi súlyméréseket.	Privacy - Health Share Usage Description	
+	NSHealthUpdateUsageDescription	The 21 Tweaks feature can write weight data to HealthKit to help you keep track of your progress.	A 21 Trükk funkció súlyadatokat írhat a HealthKitbe, hogy segítsen nyomon követni fejlődését.	Privacy - Health Update Usage Description	
+vitamin_b12	otherVitaminB12.heading	Vitamin B12	B12 vitamin	heading for daily data entry item	
+daily_reminder_text	reminder.alert.text	Update your servings for today	Mai adagok megadása	Alert notification text	
+	reminder.heading	Daily Reminder	Napi emlékeztető	Daily Reminder (alert title, settings section heading)	
+	reminder.settings.enable	Enable Reminders	Emlékeztetők engedélyezése	Daily Reminder On/Off toggle switch label	
+play_sound	reminder.settings.sound	Play Sound	Hang lejátszása	Daily Reminder sound control heading	
+remind_me_at	reminder.settings.time	Remind me at	Emlékeztessen ekkor:	Daily Reminder time control heading	
+vibrate	reminder.settings.vibrate	Vibrate	Rezgés	Android notification `vibrate`	
+	reminder.state.off	Off	Ki	‘Off’ as in ‘On (enabled) or Off (disabled)’, Daily Reminder is not enabled	
+	reminder.state.on	On	Be	‘On’ as in ‘On (enabled) or Off (disable)’. Daily Reminder is enabled	
+daily_dozen_only	setting_doze_only_btn	Daily Dozen\nOnly	Napi tucat\nCsak	First Launch Setting: button text	
+	setting_doze_only_choice	Daily Dozen Only	Csak napi tucat	Preference Settings View: selection button text	
+daily_dozen_and_tweaks	setting_doze_tweak_btn	Daily Dozen +\n21 Tweaks	Napi tucat +\n21 Trükk	First Launch Setting: button text	
+	setting_doze_tweak_choice	Daily Dozen + 21 Tweaks	Napi tucat + 21 Trükk	Preference Settings View: selection button text	
+	setting_doze_tweak_footer	For health alone, use “Daily Dozen Only”. For health and weight loss use “Daily Dozen + 21 Tweaks”.	Egészséges életmód eléréséhez használja a „Csak Napi Tucat” ajánlást. Ha az egészséges életmód mellett fogyni is szeretne, akkor használja a „Napi Tucat + 21 Trükk” ajánlásokat.	Preference Settings View: brief description text below Tweaks visibility control.	
+for_health_alone	setting_health_alone_txt	For Health Alone	Csak egészséges életmód	First Launch Setting: brief description above ‘Daily Dozen Only’ button.	
+for_health_and_weight_loss	setting_health_weight_txt	For Health and Weight Loss	Egészséges életmód és fogyás	First Launch Setting: brief description above ‘Daily Dozen + 21 Tweaks’ button.	
+	setting_tweak_header	21 Tweaks Visibility	21 Trükk Láthatóság	Preference Settings View: tweaks visibilty subsection heading	
+	setting_units_0_imperial	Imperial	Angolszász	Preference Settings View: Part of ‘Imperial/Metric/Toggle Units’ selector	
+	setting_units_1_metric	Metric	Metrikus	Preference Settings View: Part of ‘Imperial/Metric/Toggle Units’ selector	
+	setting_units_2_toggle	Toggle Units	Mértékegységek váltása	Preference Settings View: Part of ‘Imperial/Metric/Toggle Units’ selector	
+	setting_units_choice_footer	Set to always be one unit type or enable the ‘Units:’ toggle button.	Beállíthatja, hogy egy mértékegységet használ, vagy engedélyezi az „Mértékegység:” váltógombot.	Preference Settings View: brief description text below units control.	
+	setting_units_header	Measurement Units	Mértékegységek	Preference Settings View	
+	setting_util_advanced	Advanced Utilities	Speciális segédprogramok	Preference Settings View	
+format_num_days	streakDaysFormat	%d days	%d nap	‘Streak’ count. Synonym: ‘Progress‘. Formatted number ‘%d’ for consecutive days completed. Place translated text for ‘days’ on the right or left of ‘%d’ based on language directionality.	
+	tweak_detail_section_activity	Activity	Tevékenység	Tweaks Detail view section heading	
+	tweak_detail_section_description	Description	Leírás	Tweaks Detail view section heading	
+twenty_one_tweaks	tweak_entry_header	21 Tweaks	21 Trükk	Tweaks daily entry header	
+complete_intentions	tweakCompleteIntentions.heading	Complete Your Implementation Intentions	Megvalósítási tervek végrehajtása	heading for daily data entry item	
+complete_intentions_short	tweakCompleteIntentions.short	Complete Your Implementation Intentions	Megvalósítási tervek végrehajtása		
+complete_intentions_text	tweakCompleteIntentions.text	Every two months, create three new implementation intentions—“if X, then Y” plans to perform a particular behavior in a specific context—and check each one of them off as you complete them every day.	Kéthavonta hozzon létre három új megvalósítási tervet – „ha X, akkor Y” formában. Tervezze meg, hogy egy konkrét tevékenységet egy adott módon végre fog hajtani, és pipálja is ki minden nap, amikor végrehajtja őket.		
+daily_blackcumin	tweakDailyBlackCumin.heading	Black Cumin (¼ tsp)	Fekete kömény (¼ teáskanál)	heading for daily data entry item	
+daily_blackcumin_short	tweakDailyBlackCumin.short	Black Cumin (Nigella sativa) (¼ tsp)	Fekete kömény (Nigella sativa) (¼ tk)		
+daily_blackcumin_text	tweakDailyBlackCumin.text	As noted in the Appetite Suppression section, a systematic review and meta-analysis of randomized, controlled weight-loss trials found that about a quarter teaspoon of black cumin powder every day appears to reduce body mass index within a span of a couple of months. Note that black cumin is different from regular cumin, for which the dosing is different.	Ahogy az Étvágycsökkentő szakaszban megjegyeztük, a randomizált, kontrollált súlycsökkentő kísérletek szisztematikus áttekintése és metaanalízise azt találta, hogy naponta körülbelül negyed teáskanál fekete kömény por néhány hónapon belül csökkenti a testtömeg-indexet. Vegye figyelembe, hogy a fekete kömény eltér a hagyományos köménytől, amelynek adagolása eltérő.		
+daily_cumin	tweakDailyCumin.heading	Cumin (½ tsp with lunch and dinner)	Római kömény (½ teáskanál ebédhez és vacsorához)	heading for daily data entry item	
+daily_cumin_short	tweakDailyCumin.short	Cumin (Cuminum cyminum) (½ tsp with lunch and dinner)	Római kömény (Cuminum cyminum) (½ teáskanál ebédhez és vacsorához)		
+daily_cumin_text	tweakDailyCumin.text	Overweight women randomized to add a half teaspoon of cumin to their lunches and dinners beat out the control group by four more pounds and an extra inch off their waists. There is also evidence to support the use of the spice saffron, but a pinch a day would cost a dollar, whereas a teaspoon of cumin costs less than ten cents.	A véletlenszerűen kiválasztott túlsúlyos nők egy fél teáskanálnyi köményt adtak az ebédjükhöz és a vacsorájukhoz és testsúlyban négy kilogrammal, derékbőségben egy centiméterrel nagyobb fogyást értek el, mint a kontrollcsoport. Bizonyított a fűszersáfrány hatásossága is, de abból egy csipetnyi ~400Ft-ba kerülne, míg egy teáskanál kömény kevesebb, mint 40Ft. (2025-ös árfolyam szerint)		
+daily_deflourdiet	tweakDailyDeflourDiet.heading	Deflour Your Diet	Lisztmentesítse az étrendjét	heading for daily data entry item	
+daily_deflourdiet_short	tweakDailyDeflourDiet.short	Deflour Your Diet	Lisztmentesítse az étrendjét		
+daily_deflourdiet_text	tweakDailyDeflourDiet.text	Check this box every day your whole grain servings are in the form of intact grains. The powdering of even 100 percent whole grains robs our microbiomes of the starch that would otherwise be ferried down to our colons enclosed in unbroken cell walls.	Jelölje be ezt a négyzetet azokon a napokon, amikor teljes kiőrlésű gabonát egész, sértetlen szemek formájában fogyaszt. Az egész gabonaszemek töretlen sejtfala keményítőt szállít a vastagbélbe. Ha porrá őrölt gabonát fogyaszt, akkor ettől a tápanyagtól megfosztja a vastagbelet, még 100%-os, teljes kiőrlésű gabonák esetében is.		
+daily_frontload	tweakDailyFrontLoad.heading	Front-Load Your Calories	Kalóriák előtöltése a nap korábbi szakaszában.	heading for daily data entry item	
+daily_frontload_short	tweakDailyFrontLoad.short	Front-Load Your Calories	Kalóriák előtöltése a nap korábbi szakaszában.		
+daily_frontload_text	tweakDailyFrontLoad.text	There are metabolic benefits to distributing more calories to earlier in the day, so make breakfast (ideally) or lunch your largest meal of the day in true king/prince/pauper style.	Jót tesz az anyagcserének, ha több kalória jut a nap korai szakaszára, ezért legyen a reggeli (ideális esetben) vagy az ebéd a nap legbőségesebb étkezés a közmondásos király-polgár-koldus minta szerint.		
+daily_garlic	tweakDailyGarlic.heading	Garlic Powder (¼ tsp)	Fokhagyma por (¼ teáskanál)	heading for daily data entry item	
+daily_garlic_short	tweakDailyGarlic.short	Garlic Powder (¼ tsp)	Fokhagyma por (¼ teáskanál)		
+daily_garlic_text	tweakDailyGarlic.text	Randomized, double-blind, placebo-controlled studies have found that as little as a daily quarter teaspoon of garlic powder can reduce body fat at a cost of perhaps two cents a day.	Randomizált, kettős-vak, placebóval kontrollált kísérletek arra jutottak, hogy csupán napi negyed teáskanálnyi fokhagymapor csökkenti a testzsírt, minimális költségek mellett.		
+daily_ginger	tweakDailyGinger.heading	Ground Ginger (1 tsp) or Cayenne Pepper (½ tsp)	Őrölt gyömbér (1 teáskanál) vagy cayenne bors (½ teáskanál)	heading for daily data entry item	
+daily_ginger_short	tweakDailyGinger.short	Ground Ginger (1 tsp) or Cayenne Pepper (½ tsp)	Őrölt gyömbér (1 teáskanál) vagy cayenne bors (½ teáskanál)		
+daily_ginger_text	tweakDailyGinger.text	Randomized controlled trials have found that ¼ teaspoon to 1½ teaspoons a day of ground ginger significantly decreased body weight for just pennies a day. It can be as easy as stirring the ground spice into a cup of hot water. Note: Ginger may work better in the morning than evening. Chai tea is a tasty way to combine the green tea and ginger tricks into a single beverage. Alternately, for BAT activation, you can add one raw jalapeño pepper or a half teaspoon of red pepper powder (or, presumably, crushed red pepper flakes) into your daily diet. To help beat the heat, you can very thinly slice or finely chop the jalapeño to reduce its bite to little prickles, or mix the red pepper into soup or the whole-food vegetable smoothie I featured in one of my cooking videos on NutritionFacts.org.	Randomizált, kontrollált kísérletek arra jutottak, hogy napi negyed - másfél teáskanálnyi gyömbérpor jelentősen csökkenti a testsúlyt, minimális költségek mellett. Egyszerűen csak keverje a gyömbérport egy csészényi meleg vízbe. Megjegyzés: A gyömbér hatásosabb reggel, mint este. A chai teával ízletesen egyesítheti a zöld tea és a gyömbér előnyeit. Tovább fokozhatja a hatást - és egyben aktiválhatja a barna zsírszövetet is - ha egy nyers jalapeño paprikát vagy fél teáskanálnyi chilipaprika port - vagy ugyanennyi chilipelyhet - fogyaszt naponta. A csípősséget csökkenti, ha hajszál vékonyra szeleteli, vagy apróra vágja a jalapeñot, illetve ha levesbe vagy teljes értékű zöldségturmixba keveri a chilit, ahogyan ezt az egyik főzős videómban bemutattam a NutritionFacts.org oldalon.		
+daily_greentea	tweakDailyGreenTea.heading	Green Tea (3 cups)	Zöld tea (3 csésze)	heading for daily data entry item	
+daily_greentea_short	tweakDailyGreenTea.short	Green Tea (3 cups)	Zöld tea (3 csésze)		
+daily_greentea_text	tweakDailyGreenTea.text	Drink three cups a day between meals (waiting at least an hour after a meal so as to not interfere with iron absorption). During meals, drink water, black coffee, or hibiscus tea mixed 6:1 with lemon verbena, but never exceed three cups of fluid an hour (important given my water preloading advice). Take advantage of the reinforcing effect of caffeine by drinking your green tea along with something healthy you wish you liked more, but don’t consume large amounts of caffeine within six hours of bedtime. Taking your tea without sweetener is best, but if you typically sweeten your tea with honey or sugar, try yacon syrup instead.	Igyon három csészényi folyadékot az étkezések között (várjon legalább egy órát az étkezés után, hogy ne zavarja a vas felszívódását). Az étkezések alatt igyon vizet, feketekávét, vagy hibiszkusz teát, 6:1 arányban citromverbénával keverve, de soha ne igyon egy órán belül három csészénél többet (ez a víz előtöltési tanácsom miatt fontos). Használja ki a koffein megerősítő hatását, igyon zöld teát, amikor valami olyan egészséges ételt fogyaszt, amit szeretne jobban megkedvelni. Soha ne fogyasszon nagy mennyiségű koffeint a lefekvés előtti hat órában. A tea édesítés nélkül a legjobb, de ha mézzel, vagy cukorral szokta inni, akkor próbálja ki a yaconból (inkagumóból) készült szirupot.		
+daily_hydrate	tweakDailyHydrate.heading	Stay Hydrated	Hidratáljon	heading for daily data entry item	
+daily_hydrate_short	tweakDailyHydrate.short	Stay Hydrated	Hidratáljon		
+daily_hydrate_text	tweakDailyHydrate.text	Check this box if your urine never appears darker than a pale yellow.\n\nNote that if you’re eating riboflavin-fortified foods (such as nutritional yeast), then base this instead on getting nine cups of unsweetened beverages a day for women (which would be taken care of by the green tea and water preloading recommendations) or thirteen cups a day for men.\n\nIf you have heart or kidney issues, don’t increase fluid intake at all without first talking with your physician.\n\nRemember, diet soda may be calorie-free, but it’s not consequence-free, as we learned in the Low in Added Sugar section.	Jelölje be ezt a négyzetet, ha a vizelete soha nem sötétebb halványsárgánál.\n\nNe feledje, hogy ha riboflavinnal dúsított ételeket (például étkezési sörélesztőpelyhet) fogyaszt, akkor nők esetében napi kilenc csésze cukrozatlan italt legyen az alap (például zöld tea, vagy víz a folyadék előtöltési ajánlások szerint), férfiak esetében az ajánlott mennyiség tizenhárom csésze. Ha szív- vagy veseproblémái vannak, akkor egyáltalán ne növelje a folyadékbevitelt anélkül, hogy ezt az orvosával megbeszélné.\n\nNe feledje, hogy a diétás üdítőitalok lehetnek kalóriamentesek, de nem következménymentesek, ahogyan azt a Csökkentett Cukortartalom fejezetből megtudtuk.		
+daily_nutriyeast	tweakDailyNutriYeast.heading	Nutritional Yeast (2 tsp)	Étkezési sörélesztőpehely (2 teáskanál)	heading for daily data entry item	
+daily_nutriyeast_short	tweakDailyNutriYeast.short	Nutritional Yeast (2 tsp)	Étkezési sörélesztőpehely (2 teáskanál)		
+daily_nutriyeast_text	tweakDailyNutriYeast.text	Two teaspoons of baker’s, brewer’s, or nutritional yeast contains roughly the amount of beta 1,3/1,6 glucans found in randomized, double-blind, placebo-controlled clinical trials to facilitate weight loss.	Két teáskanál sütő-élesztő vagy étkezési sörélesztőpehely nagyjából annyi béta 1,3/1,6-glükánt tartalmaz, amennyit randomizált, kettős vak, placebo-kontrollos klinikai vizsgálatok szerint elősegíti a fogyást.		
+daily_timerestrict	tweakDailyTimeRestrict.heading	Time-Restrict Your Eating	Időablakos étkezés	heading for daily data entry item	
+daily_timerestrict_short	tweakDailyTimeRestrict.short	Time-Restrict Your Eating	Időablakos étkezés		
+daily_timerestrict_text	tweakDailyTimeRestrict.text	Confine eating to a daily window of time of your choosing under twelve hours in length that you can stick to consistently, seven days a week. Given the circadian benefits of reducing evening food intake, the window should end before 7:00 p.m.	Korlátozza az étkezését egy ön által kiválasztott napi időablakra, amely nem haladja meg a tizenkét órát, és amelyet folyamatosan, a hét minden napján be tud tartani. Tekintettel az esti étkezés csökkentésének cirkadián előnyeire, az ablaknak 19:00 előtt kell véget érnie.		
+exercise_timing	tweakExerciseTiming.heading	Optimize Exercise Timing	Eddzen optimális időben	heading for daily data entry item	
+exercise_timing_short	tweakExerciseTiming.short	Optimize Exercise Timing	Eddzen optimális időben		
+exercise_timing_text	tweakExerciseTiming.text	The Daily Dozen’s recommendation for optimum exercise duration for longevity is ninety minutes of moderately intense activity a day, which is also the optimum exercise duration for weight loss. Anytime is good, and the more, the better, but there may be an advantage to exercising in a fasted state, at least six hours after your last meal. Typically, this would mean before breakfast, but if you timed it right, you could exercise midday before a late lunch or, if lunch is eaten early enough, before dinner. This is the timing for nondiabetics. Diabetics and prediabetics should instead start exercising thirty minutes after the start of a meal and ideally go for at least an hour to completely straddle the blood sugar peak. If you had to choose a single meal to exercise after, it would be dinner, due to the circadian rhythm of blood sugar control that wanes throughout the day. Ideally, though, breakfast would be the largest meal of the day, and you’d exercise after that—or, even better, after every meal.	A Daily Dozen ajánlása az optimális edzésidőre a hosszú élettartam érdekében napi kilencven perc közepesen intenzív tevékenység, ami egyben az optimális edzésidő a fogyáshoz is. Bármikor jó, és minél több, annál jobb, de előnye lehet annak, ha éhgyomorra mozog, legalább hat órával az utolsó étkezés után. Ez általában reggeli előtti időpontot jelenti, de ha jól időzítette, akkor délben is mozoghat egy késői ebéd előtt, vagy ha elég korán ebédel, akkor vacsora előtt. Az időzítés cukrobetegeknél és prediabétesz esetében eltérő. A cukorbetegeknek és a prediabéteszeseknek az étkezés megkezdése után harminc perccel kell elkezdeniük a testmozgást, és ideális esetben legalább egy órát kell mozogniuk, hogy teljesen átlépjék a vércukorszint csúcsát. Ha egyetlen étkezést kellene választania edzés után, az a vacsora legyen, a vércukorszint szabályozásának cirkadián ritmusa miatt, amely a nap folyamán csökken. Ideális esetben azonban a reggeli a nap legnagyobb étkezése, és utána jó edzeni – vagy ami még jobb, minden étkezés után.		
+meal_twentyminutes	tweakMeal20Minutes.heading	Follow the Twenty-Minute Rule	Kövesse a húszperces szabályt	heading for daily data entry item	
+meal_twentyminutes_short	tweakMeal20Minutes.short	Follow the Twenty-Minute Rule	Kövesse a húszperces szabályt		
+meal_twentyminutes_text	tweakMeal20Minutes.text	Whether through increasing viscosity or the number of chews, or decreasing bite size and eating rate, dozens of studies have demonstrated that no matter how we boost the amount of time food is in our mouths, it can result in lower caloric intake. So extend meal duration to at least twenty minutes to allow your natural satiety signals to take full effect. How? By choosing foods that take longer to eat and eating them in a way that prolongs the time they stay in your mouth. Think bulkier, hardier, chewier foods in smaller, well-chewed bites.	Akár sűrűbb, rágósabb ételek fogyasztásával, akár több rágással, akár kisebb harapásokkal és lassabb étkezéssel érjük el, tanulmányok tucatjai bizonyították, hogy ha növeljük az időt, amit az étel a szánkban tölt, az csökkentheti a kalóriabevitelt. Tehát tartson az étkezés legalább húsz percig, hogy a természetes jóllakottság érzése is érvényesüljön. Hogyan? Válasszon olyan ételeket, amelyeknek az elfogyasztása hosszabb ideig tart, és egyen úgy, hogy a falat hosszabb ideig legyen a szájában. Gondoljon darabosabb, keményebb, rágósabb ételekre, amiket kisebb, jól megrágott falatokban fogyaszt el.		
+meal_negcal	tweakMealNegCal.heading	Preload with “Negative Calorie” Foods	„Negatív kalóriatartalmú” ételek előtöltése	heading for daily data entry item	
+meal_negcal_short	tweakMealNegCal.short	Preload with “Negative Calorie” Foods	„Negatív kalóriatartalmú” ételek előtöltése		
+meal_negcal_text	tweakMealNegCal.text	As the first course, start each meal with an apple or a Green Light soup or salad containing fewer than one hundred calories per cup.	Minden étkezés első fogása egy alma legyen, vagy egy olyan Zöld Lámpás leves vagy saláta, amely csészénként száznál kevesebb kalóriát tartalmaz.		
+meal_undistracted	tweakMealUndistracted.heading	Enjoy Undistracted Meals	Élvezze zavartalanul az étkezést	heading for daily data entry item	
+meal_undistracted_short	tweakMealUndistracted.short	Enjoy Undistracted Meals	Élvezze zavartalanul az étkezést		
+meal_undistracted_text	tweakMealUndistracted.text	Don’t eat while watching TV or playing on your phone. Give yourself a check for each meal you’re able to eat without distraction.	Ne nézzen tévét, ne játsszon a telefonján evés közben. Adjon magának egy pipát minden étkezés után, amelyet zavartalanul tudott elfogyasztani.		
+meal_vinegar	tweakMealVinegar.heading	Incorporate Vinegar (2 tsp with each meal)	Adjunk hozzá ecetet (2 tk minden étkezéshez)	heading for daily data entry item	
+meal_vinegar_short	tweakMealVinegar.short	Incorporate Vinegar (2 tsp with each meal)	Adjunk hozzá ecetet (2 tk minden étkezéshez)		
+meal_vinegar_text	tweakMealVinegar.text	Never drink vinegar straight. Instead, flavor meals or dress a side salad with any of the sweet and savory vinegars out there. If you want to drink it, make sure to mix it in a glass of water and, afterward, be sure to rinse your mouth out with water to protect your tooth enamel.	Soha ne igyon ecetet közvetlenül. Használja az ételek ízesítésére, vagy fogyasszon köretként salátát és a különféle ecetek bármelyikével készítsen hozzá öntetet. Ha az ecetet italként fogyasztaná, akkor feltétlenül keverje el egy pohár vízben, és utána alaposan öblítse ki a száját, hogy megvédje a fogzománcot a károsodástól.		
+meal_water	tweakMealWater.heading	Preload with Water	Étkezés előtt igyon vizet	heading for daily data entry item	
+meal_water_short	tweakMealWater.short	Preload with Water	Étkezés előtt igyon vizet		
+meal_water_text	tweakMealWater.text	Time your metabolism-boosting two cups of cool or cold unflavored water before each meal to also take advantage of its preload benefits.	Minden étkezés előtt ütemezzen be két csésze hideg vagy hűvös ízesítetlen vizet. Ezzel egyszerre serkenti az anyagcserét, és kihasználja az előtöltés előnyeit.		
+nightly_fast	tweakNightlyFast.heading	Fast After 7:00 pm	Böjtöljön 19:00 után	heading for daily data entry item	
+nightly_fast_short	tweakNightlyFast.short	Fast After 7:00 p.m.	Böjtöljön 19:00 után		
+nightly_fast_text	tweakNightlyFast.text	Due to our circadian rhythms, food eaten at night is more fattening than the exact same food eaten earlier in the day, so fast every night for at least twelve hours starting before 7:00 p.m. The fewer calories after sundown, the better.	A cirkadián ritmusunkból adódóan az éjszaka elfogyasztott ételek hizlalóbbak, mint a nap során korábban elfogyasztott ételek, ezért böjtöljünk minden éjjel legalább tizenkét órán keresztül, 19:00 óra előtt kezdve. Minél kevesebb kalóriát viszünk be naplemente után, annál jobb.		
+nightly_sleep	tweakNightlySleep.heading	Get Sufficient Sleep	Aludjon eleget	heading for daily data entry item	
+nightly_sleep_short	tweakNightlySleep.short	Get Sufficient Sleep	Aludjon eleget		
+nightly_sleep_text	tweakNightlySleep.text	Check this box if you get at least seven hours of sleep at your regular bedtime.	Jelölje be ezt a négyzetet, ha legalább hét órát alszik, a szokásos ritmusa szerint.		
+nightly_trendelenburg	tweakNightlyTrendelenbrug.heading	Experiment with Mild Trendelenburg	Kísérletezzen Enyhe Trendelenburggal	heading for daily data entry item	
+nightly_trendelenburg_short	tweakNightlyTrendelenbrug.short	Experiment with Mild Trendelenburg	Kísérletezzen Enyhe Trendelenburggal		
+nightly_trendelenburg_text	tweakNightlyTrendelenbrug.text	Try spending at least four hours a night lying with your body tilted head-down six degrees by elevating the posts at the foot of your bed by eight inches (or by nine inches if you have a California king). Be extremely careful when you get out of bed, as this causes orthostatic intolerance in most people, even if you’re young and healthy—meaning if you get up too fast, you can feel dizzy, faint, or light-headed and could fall and hurt yourself. So get up slowly. Drinking two cups of cold water thirty minutes before rising may also help prevent this potentially hazardous side effect.\n\n*IMPORTANT: Do not try this at home at all if you have any heart or lung issues, acid reflux, or problems with your brain (like head trauma) or eyes (even a family history of glaucoma disqualifies you). Also do not try this until you ask your physician if they think it’s safe for you to sleep in mild Trendelenburg.*	Próbáljon meg éjszakánként legalább négy órát úgy feküdni, hogy a feje enyhén lejjebb van a lábánál. Emelje meg az ágy láb felőli végét kb. 20 centiméterrel (22 centiméterrel, ha extra nagyméretű, 2 méternél hosszabb ágya van). Figyelem! Rendkívül óvatosan keljen fel az ágyból, mivel ez a testhelyzet ortosztatikus intoleranciát okoz a többségnél, még a fiatal és egészséges embereknél is. Ez azt jelenti, hogy ha túl gyorsan kel fel, akkor elszédülhet, vagy el is ájulhat, ami balesetet és sérülést okozhat. Ha kipróbálja ezt a módszert, mindig lassan keljen fel. Ha 30 perccel a felkelés előtt iszik két csésze hideg vizet, az is segíthet megelőzni ezeket a potenciálisan veszélyes mellékhatást.\n\n*FONTOS: Egyáltalán ne próbálja ki ezt otthon, ha szív- vagy tüdőproblémája, savas refluxja vagy agyi problémái vannak (például fejsérülés)		
+weigh_twice	tweakWeightTwice.heading	Weigh Yourself Twice a Day	Mérje meg a súlyát naponta kétszer	heading for daily data entry item	
+weigh_twice_short	tweakWeightTwice.short	Weigh Yourself Twice a Day	Mérje meg a súlyát naponta kétszer		
+weigh_twice_text	tweakWeightTwice.text	Regular self-weighing is considered crucial for long-term weight control, but there is insufficient evidence to support a specific frequency of weighing. My recommendation is based on the one study that found that twice daily—upon waking and right before bed—appeared superior to once a day (about six versus two pounds of weight loss over twelve weeks).	A rendszeres súlymérés kulcsfontosságú a hosszú távú testsúlykontroll szempontjából, de nincs rá elegendő bizonyíték, hogy mi az optimális gyakoriság. Javaslatom azon az egyetlen tanulmányon alapul, amely megállapította, hogy a napi kétszeri mérés – ébredés után és lefekvés előtt – jobbnak tűnt, mint a napi egyszeri (az első esetben körülbelül hat, a második esetben kettő kiló fogyást értek el tizenkét hét alatt).		
+units	units_label	Units	Mértékegységek		
+imperial	unitToggle.imperial	Imperial	Angolszász	Units toggle button text: imperial measurement system	
+metric	unitToggle.metric	Metric	Metrikus	Units toggle button text: metric measurement system	
+videos	videos.link.label	Videos	Videók	Label for hyperlink to nutritionfacts.org video topics	
+	weight_entry_clear	Clear	Törlés	Weight Daily Entry: clear button which deletes values	
+	weight_entry_evening	Evening (right before bed)	Este (közvetlenül lefekvés előtt)	Weight Daily Entry: label	
+	weight_entry_morning	Morning (upon waking)	Reggel (ébredés után)	Weight Daily Entry: label	
+	weight_entry_time	Time	Idő	Weight Daily Entry: label	
+	weight_entry_units_kg	kg	kg	Weight Daily Entry Units: label	
+	weight_entry_units_lbs	lbs	font	Weight Daily Entry Units: label	
+	weight_history_edit_data	Edit Data	Adatok szerkesztése	Weight Daily Entry: edit button to change values	
+weight	weightEntry.heading	Weight	Súly	Weight Daily Entry: heading	
+about_text_lines.0		This app was created by John Slavick.	Ezt az alkalmazást John Slavick készítette.		
+about_text_lines.1					
+about_text_lines.2		The following open source libraries are used: ActiveAndroid, android-iconify, EventBus, LikeAnimation, and MPAndroidChart.	A következő nyílt forráskódú könyvtárak használatosak: ActiveAndroid, android-iconify, EventBus, LikeAnimation és MPAndroidChart.		
+about_text_lines.3					
+about_text_lines.4		Special thanks to the volunteer efforts of the creators of the previous app: Chan Kruse, Allan Portera, and Sangeeta Kumar.	Külön köszönet az előző alkalmazás készítőinek önkéntes erőfeszítéseikért: Chan Kruse, Allan Portera és Sangeeta Kumar.		
+about_tweak		About Tweak	A Trükkökről		
+average_weight_on_day		Average weight on day	Átlagos napi súly		
+backup		Backup	Biztonsági mentés		
+backup_failed		Backup failed	A biztonsági mentés nem sikerült		
+backup_instructions_lines.0		Follow these steps to restore this backup in the Daily Dozen app	Kövesse ezeket a lépéseket a biztonsági mentés visszaállításához a Napi Tucat alkalmazásban		
+backup_instructions_lines.1					
+backup_instructions_lines.2		1. The Daily Dozen app must be installed on your Android phone. You can download it here: https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen	1. A Napi Tucat alkalmazást telepíteni kell Android készülékére. Innen töltheti le: https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen		
+backup_instructions_lines.3					
+backup_instructions_lines.4		2. Tap on the backup file attached to this email.	2. Koppintson az ehhez az e-mail címhez tartozó biztonsági másolat fájlra.		
+backup_instructions_lines.5					
+backup_instructions_lines.6		3. Select Open with Daily Dozen	3. Válassza a megnyitás Napi Tucattal lehetőséget		
+backup_success		Backup successful	A biztonsági mentés sikeres		
+channel_reminders_name		Reminders	Emlékeztetők		
+daily_reminder_settings		Daily Reminder Settings	Napi emlékeztető beállításai	a reminder that is triggered every day	
+daily_reminder_title		Daily Dozen Reminder	Napi Tucat emlékeztető		
+daily_servings_history		Daily Servings History	Napi adagok előzményei		
+daily_tweaks_history		Daily Tweaks History	Napi Trükkök előzményei		
+debug		Debug	Hibakeresés		
+debug_clear_data		Clear all data	Minden adat törlése		
+debug_clear_data_message		This will delete all entered Servings. Do you wish to continue?	Ezzel törli az összes megadott étkezést. Szeretné folytatni?		
+debug_generate_data_message		All existing data will be replaced. Do you wish to continue?	Minden meglévő adat felülírása. Szeretné folytatni?		
+debug_generate_full_data		Generate full data	Minden adat generálása		
+debug_generate_random_data		Generate random data	Véletlenszerű adatokat generál		
+debug_generate_weight_data		Generate Weight Data	Súlyadatokat generál		
+dialog_ask_user_to_rate_app_message		Please give us feedback in the Play Store.	Kérjük, írjon visszajelzést a Play Áruházban.		
+dialog_ask_user_to_rate_app_title		Do you like this app?	Tetszik ez az alkalmazás?		
+dialog_no_email_apps_message		Backing up your data requires you to have an email app installed so you can email the backup file to yourself. Please install an email app and try again.	Az adatok biztonsági mentéséhez telepítenie kell egy e-mail alkalmazást, így elküldheti magának a biztonsági másolatot. Kérjük, telepítsen egy e-mail alkalmazást és próbálja újra.		
+dialog_no_email_apps_title		No email apps found	Nem található e-mail alkalmazás		
+dialog_streaks_message		Your database will now be upgraded to support the new streaks feature.	Az adatbázisa most frissítésre kerül, hogy támogassa az új Strigulák funkciót.		
+dialog_streaks_title		New feature: Streaks!	Új funkció: Szériák!		
+enable_daily_reminder		Enable Daily Reminder	Napi emlékeztető engedélyezése	On/Off toggle label	
+error_cannot_handle_url		Could not open url. Please install a browser.	Nem sikerült megnyitni az url-t. Kérjük, telepítsen egy böngészőt.		
+food_history		Food History	Élelmiszer előzmények		
+food_info		Food Info	Élelmiszer Infó		
+format_version		version %s	%s verzió	Place `%s` where the software should substitue in the version number.	
+history_to_generate		History to Generate	Előzmények létrehozása		
+history_to_generate_choices.0		1 month	1 hónap		
+history_to_generate_choices.1		3 months	3 hónap		
+history_to_generate_choices.2		6 months	6 hónap		
+history_to_generate_choices.3		1 year	1 év		
+history_to_generate_choices.4		2 years	2 év		
+history_to_generate_choices.5		5 years	5 év		
+no		No	Nem		
+no_servings_recorded		You have not recorded any servings yet!	Még nem adtál meg egyetlen adagot sem!		
+no_weights_recorded		You have not recorded any weights yet!	Még nem adtál meg egyetlen súlyadatot sem!		
+not_now		Not Now	Most nem		
+out_of		out of	Kívül	Part of ‘0 out of 24’	
+permission_needed_to_write_storage		Can’t backup without permission to write to storage	Nem lehet biztonsági másolatot készíteni, ha a tárhelyre írás nincs engedélyezve		
+rate_now		Give Feedback	Visszajelzés küldése		
+restore_confirm_message		Any existing data will be deleted before restoring from backup. Do you wish to continue?	A biztonsági mentés visszaállítása előtt minden adat törlődik. Szeretné folytatni?		
+restore_confirm_title		Restore Backup	Biztonsági másolat visszaállítása		
+restore_failed		Restore failed	A visszaállítás nem sikerült		
+restore_success		Restore successful	Sikeres visszaállítás		
+task_backup_title		Backing up	Biztonsági mentés		
+task_calculating_streaks_title		Calculating streaks	Szériák kiszámítása	:WIP: progress	
+task_generating_random_data		Generating random data	Véletlenszerű adatok generálása		
+task_loading_servings_history_title		Loading Servings History	Keresési előzmények betöltése		
+task_loading_weights_history_title		Loading Weights History	Súly előzmények betöltése		
+task_restore_title		Restoring	Helyreállítás		
+title_cookbook		Cookbook	Szakácskönyv		
+title_how_not_to_die		How Not to Die	Hogy ne halj meg!		
+title_how_not_to_diet		How Not to Diet	Hogyan ne diétázz		
+tweak_group_daily		Every Day	Minden nap		
+tweak_group_dailydoses		Take your daily doses	Fogyassza el a napi adagot		
+tweak_group_meal		At Each Meal	Minden étkezésnél		
+tweak_group_nightly		Every Night	Minden este		
+yes		Yes	Igen		
