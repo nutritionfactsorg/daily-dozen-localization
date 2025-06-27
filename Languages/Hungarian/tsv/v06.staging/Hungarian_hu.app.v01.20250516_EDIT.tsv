@@ -191,12 +191,12 @@ food_info_types_nuts.3	dozeNuts.Variety.Text.3	Chia seeds	Chiamag
 food_info_types_nuts.4	dozeNuts.Variety.Text.4	Hazelnuts	Mogyoró		
 food_info_types_nuts.5	dozeNuts.Variety.Text.5	Hemp seeds	Kendermag		
 food_info_types_nuts.6	dozeNuts.Variety.Text.6	Macadamia nuts	Makadámdió		
-food_info_types_nuts.7	dozeNuts.Variety.Text.7	Pecans	Pekándió		
-food_info_types_nuts.8	dozeNuts.Variety.Text.8	Pistachios	Pisztácia		
-food_info_types_nuts.9	dozeNuts.Variety.Text.9	Pumpkin seeds	Tökmag		
-food_info_types_nuts.10	dozeNuts.Variety.Text.10	Sesame seeds	Szezámmag		
-food_info_types_nuts.11	dozeNuts.Variety.Text.11	Sunflower seeds	Napraforgómag		
-food_info_types_nuts.12	dozeNuts.Variety.Text.12	Walnuts	Dió		
+food_info_types_nuts.8	dozeNuts.Variety.Text.8	Pecans	Pekándió		
+food_info_types_nuts.9	dozeNuts.Variety.Text.9	Pistachios	Pisztácia		
+food_info_types_nuts.10	dozeNuts.Variety.Text.10	Pumpkin seeds	Tökmag		
+food_info_types_nuts.11	dozeNuts.Variety.Text.11	Sesame seeds	Szezámmag		
+food_info_types_nuts.12	dozeNuts.Variety.Text.12	Sunflower seeds	Napraforgómag		
+food_info_types_nuts.13	dozeNuts.Variety.Text.13	Walnuts	Dió		
 OK	dozeOtherInfo.confirm	OK	OK	Daily Dozen supplement info alert: dismissal button text	
 	dozeOtherInfo.message	Vitamin B12 is essential for your health but does not count towards your daily servings.\n\nVitamin B12 is included in this app to provide you with an easy way to track your intake.	A B12-vitamin alapvető fontosságú az egészsége szempontjából, de nem számít bele a napi adagokba.\n\nA B12-vitamint felvettük az alkalmazásba, hogy könnyen nyomon követhesse a bevitelét.	Daily Dozen supplement info alert: message	
 	dozeOtherInfo.section	Supplements	Táplálékkiegészítők	Daily Dozen daily entry section heading	
@@ -241,10 +241,10 @@ food_info_types_spices.31	dozeSpices.Variety.Text.31	Vanilla	Vanília
 cruciferous_vegetables	dozeVegetablesCruciferous.heading	Cruciferous Vegetables	Keresztes virágú zöldségek	heading for daily data entry item	
 food_info_serving_sizes_cruciferous_vegetables_imperial.0	dozeVegetablesCruciferous.Serving.imperial.0	½ cup chopped	½ csésze apróra vágva		
 food_info_serving_sizes_cruciferous_vegetables_imperial.1	dozeVegetablesCruciferous.Serving.imperial.1	¼ cup Brussels or broccoli sprouts	¼ csésze kel- vagy brokkolicsíra		
-food_info_serving_sizes_cruciferous_vegetables_imperial.2	dozeVegetablesCruciferous.Serving.imperial.2	1 tablespoon horseradish	1 evőkanál torma		
+food_info_serving_sizes_cruciferous_vegetables_imperial.3	dozeVegetablesCruciferous.Serving.imperial.3	1 tablespoon horseradish	1 evőkanál torma		
 food_info_serving_sizes_cruciferous_vegetables_metric.0	dozeVegetablesCruciferous.Serving.metric.0	30–80 g chopped	30-80 g apróra vágva		
 food_info_serving_sizes_cruciferous_vegetables_metric.1	dozeVegetablesCruciferous.Serving.metric.1	12 g Brussels or broccoli sprouts	12 g kel- vagy brokkolicsíra		
-food_info_serving_sizes_cruciferous_vegetables_metric.2	dozeVegetablesCruciferous.Serving.metric.2	1 tablespoon horseradish	1 evőkanál torma		
+food_info_serving_sizes_cruciferous_vegetables_metric.3	dozeVegetablesCruciferous.Serving.metric.3	1 tablespoon horseradish	1 evőkanál torma		
 food_info_types_cruciferous_vegetables.0	dozeVegetablesCruciferous.Variety.Text.0	Arugula	Rukkola		
 food_info_types_cruciferous_vegetables.1	dozeVegetablesCruciferous.Variety.Text.1	Bok choy	Bordás kel		
 food_info_types_cruciferous_vegetables.2	dozeVegetablesCruciferous.Variety.Text.2	Broccoli (incl. Romanesco)	Brokkoli (beleértve a romanescót is)		
