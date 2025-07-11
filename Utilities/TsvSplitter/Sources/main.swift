@@ -14,8 +14,16 @@ func splitTSV(inputFile: String) throws {
     let lines = fileContent.split(separator: "\n").map { String($0) }
     
     // Step 3: Check for empty lines and handle them
-    guard !lines.isEmpty else { return }
+    guard !lines.isEmpty else {
+        print("Error: empty file")
+        return 
+    }
     
+    guard lines.count > 1 else {
+        print("Error: Only 'one line'. Check for Unix (LF) vs Windows (CRLF) line endings.")
+        return 
+    }
+        
     // Step 4: Handle the header row by skipping the first two columns
     let headerRow = lines[0]
     let headerColumns = headerRow.split(separator: "\t").map { String($0) }
@@ -35,7 +43,7 @@ func splitTSV(inputFile: String) throws {
         // Step 6: Write the header to new files if not already written
         if fileHandles[filename] == nil {
             // Create the full URL for the output file, which will be in the same parent directory as the input file
-            let outputFileURL = parentDirectory.appendingPathComponent("\(filename).app.v06.20250703.intake.tsv")
+            let outputFileURL = parentDirectory.appendingPathComponent("\(filename).store.v06.20250703.intake.tsv")
             
             // Ensure the parent directory exists
             let outputDirectory = outputFileURL.deletingLastPathComponent()
