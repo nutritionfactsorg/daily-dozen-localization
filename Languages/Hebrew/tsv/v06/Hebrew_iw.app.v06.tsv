@@ -1,0 +1,560 @@
+key_droid	key_apple	base_value	lang_value	base_note	lang_note
+	CFBundleDisplayName	DailyDozen	DailyDozen	User-visible application name. Visible under icon. Used by Siri.	
+	CFBundleName	DailyDozen	DailyDozen	User-visible application short name (15 Characters max)	
+back_to_today	dateBackButtonTitle	Back to today	חזור להיום	Date Button Title: ‘Back to today’	
+	dateButtonTitle.today	Today	היום	Date Button Title: ‘Today’	
+serving_sizes	doze_detail_section_sizes	Serving Sizes (Suggested)	גודל מנה (מוצע)	Doze Detail View subheading: ‘Serving Sizes’	כותרת משנה מבט פרטי מינון: ״גודל מנות״
+types	doze_detail_section_types	Types	סוגים	Doze Detail View subheading: ‘Types’	
+servings	doze_entry_header	Servings	מנות	Doze Entry View heading: ‘Servings’	
+beans	dozeBeans.heading	Beans	שעועית	heading for daily data entry item	
+food_info_serving_sizes_beans_imperial.0	dozeBeans.Serving.imperial.0	¼ cup hummus or bean dip	1/4 כוס חומוס או מתבל קיטניות		
+food_info_serving_sizes_beans_imperial.1	dozeBeans.Serving.imperial.1	½ cup cooked beans, split peas, or lentils	1/2 כוס שעועית, אפונה יבשה, או עדשים- מבושלות		
+food_info_serving_sizes_beans_imperial.2	dozeBeans.Serving.imperial.2	⅓ cup tofu or tempeh	1/2 כוס טופו או טמפה		
+food_info_serving_sizes_beans_imperial.3	dozeBeans.Serving.imperial.3	1 cup fresh peas or sprouted lentils	1 כוס אפונה טריה או אפונת שלג		
+food_info_serving_sizes_beans_metric.0	dozeBeans.Serving.metric.0	70 g hummus or bean dip	60 גרם חומוס או מתבל קיטניות		
+food_info_serving_sizes_beans_metric.1	dozeBeans.Serving.metric.1	100 g cooked beans, split peas, or lentils	90 גרם שעועית, אפונה יבשה, או עדשים- מבושלות		
+food_info_serving_sizes_beans_metric.2	dozeBeans.Serving.metric.2	80 g tofu or tempeh	100 גרם טופו או טמפה		
+food_info_serving_sizes_beans_metric.3	dozeBeans.Serving.metric.3	100 g fresh peas or sprouted lentils	130 גרם אפונה טריה או אפונת שלג		
+food_info_types_beans.0	dozeBeans.Variety.Text.0	Black beans	שעועית שחורה		
+food_info_types_beans.1	dozeBeans.Variety.Text.1	Black-eyed peas	לוביה		
+food_info_types_beans.2	dozeBeans.Variety.Text.2	Butter beans	שעועית לבנה		
+food_info_types_beans.3	dozeBeans.Variety.Text.3	Cannellini beans	שעועית קנליני		
+food_info_types_beans.4	dozeBeans.Variety.Text.4	Chickpeas/Garbanzo Beans	גרגרי חומוס		
+food_info_types_beans.5	dozeBeans.Variety.Text.5	Edamame	אדממה		
+food_info_types_beans.6	dozeBeans.Variety.Text.6	English peas	אפונה ירוקה טריה		
+food_info_types_beans.7	dozeBeans.Variety.Text.7	Great northern beans	שעועית צפונית גדולה		
+food_info_types_beans.8	dozeBeans.Variety.Text.8	Kidney beans	שעועית אדומה		
+food_info_types_beans.9	dozeBeans.Variety.Text.9	Lentils (beluga, french, and red varieties)	עדשים (שחורות ירוקות ואדומות)		
+food_info_types_beans.10	dozeBeans.Variety.Text.10	Navy beans	שעועית לבנה		
+food_info_types_beans.11	dozeBeans.Variety.Text.11	Pinto beans	שעועית מנוקדת		
+food_info_types_beans.12	dozeBeans.Variety.Text.12	Small red beans	שעועית אדומה קטנה		
+food_info_types_beans.13	dozeBeans.Variety.Text.13	Split peas (yellow or green)	אפונה יבשה (צהובה או ירוקה)		
+food_info_types_beans.14	dozeBeans.Variety.Text.14	Tempeh	טמפה		
+berries	dozeBerries.heading	Berries	פירות יער	heading for daily data entry item	
+food_info_serving_sizes_berries_imperial.0	dozeBerries.Serving.imperial.0	½ cup fresh or frozen	½ כוס טרי או קפוא		
+food_info_serving_sizes_berries_imperial.1	dozeBerries.Serving.imperial.1	¼ cup dried	¼ כוס יבשים		
+food_info_serving_sizes_berries_metric.0	dozeBerries.Serving.metric.0	70 g fresh or frozen	60 גרם טרי או קפוא		
+food_info_serving_sizes_berries_metric.1	dozeBerries.Serving.metric.1	40 g dried	40 גרם יבשים		
+food_info_types_berries.0	dozeBerries.Variety.Text.0	Acai berries	אסאי		
+food_info_types_berries.1	dozeBerries.Variety.Text.1	Barberries	ברברית (פירות יער אדומים)		
+food_info_types_berries.2	dozeBerries.Variety.Text.2	Blackberries	אוסנה (פרי יער שחור)		
+food_info_types_berries.3	dozeBerries.Variety.Text.3	Blueberries	אוכמניות		
+food_info_types_berries.4	dozeBerries.Variety.Text.4	Cherries (sweet or tart)	דובדבנים		
+food_info_types_berries.5	dozeBerries.Variety.Text.5	Concord grapes	ענבים שחורים		
+food_info_types_berries.6	dozeBerries.Variety.Text.6	Cranberries	חמוציות		
+food_info_types_berries.7	dozeBerries.Variety.Text.7	Goji berries	גוג'י ברי		
+food_info_types_berries.8	dozeBerries.Variety.Text.8	Kumquats	תפוז סיני		
+food_info_types_berries.9	dozeBerries.Variety.Text.9	Mulberries	תות עץ		
+food_info_types_berries.10	dozeBerries.Variety.Text.10	Raspberries (black or red)	פטל שחור או אדום		
+food_info_types_berries.11	dozeBerries.Variety.Text.11	Strawberries	תות שדה		
+beverages	dozeBeverages.heading	Beverages	משקאות קלים	heading for daily data entry item	
+food_info_serving_sizes_beverages_imperial.0	dozeBeverages.Serving.imperial.0	One glass (12 ounces)	כוס אחת (350 גרם)		
+food_info_serving_sizes_beverages_metric.0	dozeBeverages.Serving.metric.0	One glass (350 ml)	כוס אחת (350 מ״ל)		
+food_info_types_beverages.0	dozeBeverages.Variety.Text.0	Black tea	תה שחור		
+food_info_types_beverages.1	dozeBeverages.Variety.Text.1	Chai tea	צ'אי		
+food_info_types_beverages.2	dozeBeverages.Variety.Text.2	Vanilla chamomile tea	תה קמומיל-וניל		
+food_info_types_beverages.3	dozeBeverages.Variety.Text.3	Coffee	קפה		
+food_info_types_beverages.4	dozeBeverages.Variety.Text.4	Earl grey tea	תה ארל-גריי		
+food_info_types_beverages.5	dozeBeverages.Variety.Text.5	Green tea	תה ירוק		
+food_info_types_beverages.6	dozeBeverages.Variety.Text.6	Hibiscus tea	תה היביסקוס		
+food_info_types_beverages.7	dozeBeverages.Variety.Text.7	Jasmine tea	תה יסמין		
+food_info_types_beverages.8	dozeBeverages.Variety.Text.8	Lemon balm tea	תה מליסה		
+food_info_types_beverages.9	dozeBeverages.Variety.Text.9	Matcha tea	תה מאצ'ה		
+food_info_types_beverages.10	dozeBeverages.Variety.Text.10	Almond blossom oolong tea	תה אולונג		
+food_info_types_beverages.11	dozeBeverages.Variety.Text.11	Peppermint tea	תה מנטה		
+food_info_types_beverages.12	dozeBeverages.Variety.Text.12	Rooibos tea	תה רויבוש		
+food_info_types_beverages.13	dozeBeverages.Variety.Text.13	Water	מים		
+food_info_types_beverages.14	dozeBeverages.Variety.Text.14	White tea	תה לבן		
+exercise	dozeExercise.heading	Exercise	תרגול גופני	heading for daily data entry item	
+food_info_serving_sizes_exercise_imperial.0	dozeExercise.Serving.imperial.0	90 minutes of moderate-intensity activity	90 דקות פעילות בעצימות בינונית		
+food_info_serving_sizes_exercise_imperial.1	dozeExercise.Serving.imperial.1	40 minutes of vigorous-intensity activity	40 דקות פעילות בעצימות גבוהה		
+food_info_serving_sizes_exercise_metric.0	dozeExercise.Serving.metric.0	90 minutes of moderate-intensity activity	90 דקות פעילות בעצימות בינונית		
+food_info_serving_sizes_exercise_metric.1	dozeExercise.Serving.metric.1	40 minutes of vigorous-intensity activity	40 דקות פעילות בעצימות גבוהה		
+food_info_types_exercise.0	dozeExercise.Variety.Text.0	Bicycling	רכיבה על אופניים		
+food_info_types_exercise.1	dozeExercise.Variety.Text.1	Canoeing	חתירה בקאנו		
+food_info_types_exercise.2	dozeExercise.Variety.Text.2	Dancing	ריקוד		
+food_info_types_exercise.3	dozeExercise.Variety.Text.3	Dodgeball	מחניים		
+food_info_types_exercise.4	dozeExercise.Variety.Text.4	Downhill skiing	סקי במורד 		
+food_info_types_exercise.5	dozeExercise.Variety.Text.5	Fencing	סייף		
+food_info_types_exercise.6	dozeExercise.Variety.Text.6	Hiking	סיורי הליכה		
+food_info_types_exercise.7	dozeExercise.Variety.Text.7	Housework	עבודות בית		
+food_info_types_exercise.8	dozeExercise.Variety.Text.8	Ice-skating	החלקה על קרח		
+food_info_types_exercise.9	dozeExercise.Variety.Text.9	Inline skating	החלקה על גלגיליות		
+food_info_types_exercise.10	dozeExercise.Variety.Text.10	Juggling	להטוטים		
+food_info_types_exercise.11	dozeExercise.Variety.Text.11	Jumping on a trampoline	קפיצה בטרמפולינה		
+food_info_types_exercise.12	dozeExercise.Variety.Text.12	Paddle boating	חתירה בסירות אופניים		
+food_info_types_exercise.13	dozeExercise.Variety.Text.13	Playing frisbee	משחק פריסבי		
+food_info_types_exercise.14	dozeExercise.Variety.Text.14	Roller-skating	החלקה בגלגיליות		
+food_info_types_exercise.15	dozeExercise.Variety.Text.15	Shooting baskets	קליעה לסל		
+food_info_types_exercise.16	dozeExercise.Variety.Text.16	Shoveling light snow	גירוף שלג קל		
+food_info_types_exercise.17	dozeExercise.Variety.Text.17	Skateboarding	גלישה בסקייטבורד		
+food_info_types_exercise.18	dozeExercise.Variety.Text.18	Snorkeling	צלילה		
+food_info_types_exercise.19	dozeExercise.Variety.Text.19	Surfing	גלישת גלים		
+food_info_types_exercise.20	dozeExercise.Variety.Text.20	Swimming recreationally	תנועה במים		
+food_info_types_exercise.21	dozeExercise.Variety.Text.21	Tennis (doubles)	טניס בזוגות		
+food_info_types_exercise.22	dozeExercise.Variety.Text.22	Treading water	תנועה במים		
+food_info_types_exercise.23	dozeExercise.Variety.Text.23	Walking briskly (4 mph)	הליכה מהירה (6 ק׳מ לשעה)		
+food_info_types_exercise.24	dozeExercise.Variety.Text.24	Water aerobics	אירובי במים		
+food_info_types_exercise.25	dozeExercise.Variety.Text.25	Waterskiing	סקי מים		
+food_info_types_exercise.26	dozeExercise.Variety.Text.26	Yard work	עבודת גינה		
+food_info_types_exercise.27	dozeExercise.Variety.Text.27	Yoga	יוגה		
+food_info_types_exercise.28	dozeExercise.Variety.Text.28	Backpacking	תרמילאות		
+food_info_types_exercise.29	dozeExercise.Variety.Text.29	Basketball	כדורסל		
+food_info_types_exercise.30	dozeExercise.Variety.Text.30	Bicycling uphill	רכיבת אופניים בשטח		
+food_info_types_exercise.31	dozeExercise.Variety.Text.31	Circuit weight training	אימוני משקולות מחזוריים		
+food_info_types_exercise.32	dozeExercise.Variety.Text.32	Cross-country skiing	סקי במישור		
+food_info_types_exercise.33	dozeExercise.Variety.Text.33	Football	כדורגל		
+food_info_types_exercise.34	dozeExercise.Variety.Text.34	Hockey	הוקי		
+food_info_types_exercise.35	dozeExercise.Variety.Text.35	Jogging	ריצה קלה		
+food_info_types_exercise.36	dozeExercise.Variety.Text.36	Jumping jacks	תרגילי קפיצה		
+food_info_types_exercise.37	dozeExercise.Variety.Text.37	Jumping rope	קפיצה על חבל		
+food_info_types_exercise.38	dozeExercise.Variety.Text.38	Lacrosse	לאקרוס		
+food_info_types_exercise.39	dozeExercise.Variety.Text.39	Push-ups	שכיבות סמיכה		
+food_info_types_exercise.40	dozeExercise.Variety.Text.40	Pull-ups	עליות מתח		
+food_info_types_exercise.41	dozeExercise.Variety.Text.41	Racquetball	סקווש		
+food_info_types_exercise.42	dozeExercise.Variety.Text.42	Rock climbing	טיפוס הרים		
+food_info_types_exercise.43	dozeExercise.Variety.Text.43	Rugby	רוגבי		
+food_info_types_exercise.44	dozeExercise.Variety.Text.44	Running	ריצה		
+food_info_types_exercise.45	dozeExercise.Variety.Text.45	Scuba diving	צלילה		
+food_info_types_exercise.46	dozeExercise.Variety.Text.46	Tennis (singles)	טניס יחידים		
+food_info_types_exercise.47	dozeExercise.Variety.Text.47	Soccer	כדורגל אמריקאי		
+food_info_types_exercise.48	dozeExercise.Variety.Text.48	Speed skating	החלקה על גלגיליות		
+food_info_types_exercise.49	dozeExercise.Variety.Text.49	Squash	סקווש		
+food_info_types_exercise.50	dozeExercise.Variety.Text.50	Step aerobics	תרגול מדרגה		
+food_info_types_exercise.51	dozeExercise.Variety.Text.51	Swimming laps	שחיה 		
+food_info_types_exercise.52	dozeExercise.Variety.Text.52	Walking briskly uphill	הליכה נמרצת בהרים		
+food_info_types_exercise.53	dozeExercise.Variety.Text.53	Water jogging	הליכה במים		
+flaxseeds	dozeFlaxseeds.heading	Flaxseeds	זרעי פשתן	heading for daily data entry item	
+food_info_serving_sizes_flaxseeds_imperial.0	dozeFlaxseeds.Serving.imperial.0	1 tablespoon ground	1 כף טחונים		
+food_info_serving_sizes_flaxseeds_metric.0	dozeFlaxseeds.Serving.metric.0	1 tablespoon ground	1 כף טחונים		
+food_info_types_flaxseeds.0	dozeFlaxseeds.Variety.Text.0	Brown flaxseeds	זרעי פשתן חומים		
+food_info_types_flaxseeds.1	dozeFlaxseeds.Variety.Text.1	Golden flaxseeds	זרעי פשתן זהובים		
+other_fruits	dozeFruitsOther.heading	Other Fruits	פירות אחרים	heading for daily data entry item	
+food_info_serving_sizes_other_fruits_imperial.0	dozeFruitsOther.Serving.imperial.0	1 medium-sized fruit	1 פרי בינוני		
+food_info_serving_sizes_other_fruits_imperial.1	dozeFruitsOther.Serving.imperial.1	1 cup cut-up fruit	1 כוס פירות חתוכים		
+food_info_serving_sizes_other_fruits_imperial.2	dozeFruitsOther.Serving.imperial.2	¼ cup dried fruit	¼ כוס פירות יבשים		
+food_info_serving_sizes_other_fruits_metric.0	dozeFruitsOther.Serving.metric.0	1 medium-sized fruit	1 פרי בינוני		
+food_info_serving_sizes_other_fruits_metric.1	dozeFruitsOther.Serving.metric.1	150 g cut-up fruit	120 גרם פירות חתוכים		
+food_info_serving_sizes_other_fruits_metric.2	dozeFruitsOther.Serving.metric.2	40 g dried fruit	40 גרם פירות יבשים		
+food_info_types_other_fruits.0	dozeFruitsOther.Variety.Text.0	Apples	תפוחים		
+food_info_types_other_fruits.1	dozeFruitsOther.Variety.Text.1	Apricots	משמש		
+food_info_types_other_fruits.2	dozeFruitsOther.Variety.Text.2	Avocados	אבוקדו		
+food_info_types_other_fruits.3	dozeFruitsOther.Variety.Text.3	Bananas	בננות		
+food_info_types_other_fruits.4	dozeFruitsOther.Variety.Text.4	Cantaloupe	מלון כתום		
+food_info_types_other_fruits.5	dozeFruitsOther.Variety.Text.5	Clementines	קלמנטינות		
+food_info_types_other_fruits.6	dozeFruitsOther.Variety.Text.6	Dates	תמרים		
+food_info_types_other_fruits.7	dozeFruitsOther.Variety.Text.7	Figs	תאנים 		
+food_info_types_other_fruits.8	dozeFruitsOther.Variety.Text.8	Grapefruit	אשכולית		
+food_info_types_other_fruits.9	dozeFruitsOther.Variety.Text.9	Honeydew	מלון ירוק		
+food_info_types_other_fruits.10	dozeFruitsOther.Variety.Text.10	Kiwifruit	קיווי		
+food_info_types_other_fruits.11	dozeFruitsOther.Variety.Text.11	Lemons	לימונים		
+food_info_types_other_fruits.12	dozeFruitsOther.Variety.Text.12	Limes	ליים		
+food_info_types_other_fruits.13	dozeFruitsOther.Variety.Text.13	Lychees	ליצ'י		
+food_info_types_other_fruits.14	dozeFruitsOther.Variety.Text.14	Mangos	מנגו		
+food_info_types_other_fruits.15	dozeFruitsOther.Variety.Text.15	Nectarines	נקטרינות		
+food_info_types_other_fruits.16	dozeFruitsOther.Variety.Text.16	Oranges	תפוזים		
+food_info_types_other_fruits.17	dozeFruitsOther.Variety.Text.17	Papaya	פאפיה		
+food_info_types_other_fruits.18	dozeFruitsOther.Variety.Text.18	Passion fruit	פסיפלורה		
+food_info_types_other_fruits.19	dozeFruitsOther.Variety.Text.19	Peaches	אפרסקים		
+food_info_types_other_fruits.20	dozeFruitsOther.Variety.Text.20	Pears	אגסים		
+food_info_types_other_fruits.21	dozeFruitsOther.Variety.Text.21	Pineapple	אננס		
+food_info_types_other_fruits.22	dozeFruitsOther.Variety.Text.22	Plums (especially black plums)	שזיפים (במיוחד שחורים)		
+food_info_types_other_fruits.23	dozeFruitsOther.Variety.Text.23	Pluots	נקטרינות		
+food_info_types_other_fruits.24	dozeFruitsOther.Variety.Text.24	Pomegranates	רימונים		
+food_info_types_other_fruits.25	dozeFruitsOther.Variety.Text.25	Prunes	שזיפים מיובשים		
+food_info_types_other_fruits.26	dozeFruitsOther.Variety.Text.26	Tangerines	מנדרינות		
+food_info_types_other_fruits.27	dozeFruitsOther.Variety.Text.27	Watermelon	אבטיח		
+greens	dozeGreens.heading	Greens	עלים ירוקים	heading for daily data entry item	
+food_info_serving_sizes_greens_imperial.0	dozeGreens.Serving.imperial.0	1 cup raw	1 כוס נא		
+food_info_serving_sizes_greens_imperial.1	dozeGreens.Serving.imperial.1	½ cup cooked	½ כוס מבושל		
+food_info_serving_sizes_greens_metric.0	dozeGreens.Serving.metric.0	60 g raw	60 גרם נא		
+food_info_serving_sizes_greens_metric.1	dozeGreens.Serving.metric.1	90 g cooked	90 גרם מבושל		
+food_info_types_greens.0	dozeGreens.Variety.Text.0	Arugula	רוקולה		
+food_info_types_greens.1	dozeGreens.Variety.Text.1	Beet greens	עלי סלק		
+food_info_types_greens.2	dozeGreens.Variety.Text.2	Collard greens	עלי קולרד		
+food_info_types_greens.3	dozeGreens.Variety.Text.3	Kale (black, green, and red)	קייל (שחור, ירוק ואדום)		
+food_info_types_greens.4	dozeGreens.Variety.Text.4	Mesclun mix (assorted young salad greens)	תערובת עלי בייבי		
+food_info_types_greens.5	dozeGreens.Variety.Text.5	Mustard greens	עלי חרדל		
+food_info_types_greens.6	dozeGreens.Variety.Text.6	Sorrel	חומעה		
+food_info_types_greens.7	dozeGreens.Variety.Text.7	Spinach	תרד		
+food_info_types_greens.8	dozeGreens.Variety.Text.8	Swiss chard	מנגולד		
+food_info_types_greens.9	dozeGreens.Variety.Text.9	Turnip greens	עלי לפת		
+nuts	dozeNuts.heading	Nuts and Seeds	אגוזים וזרעים	heading for daily data entry item	
+food_info_serving_sizes_nuts_imperial.0	dozeNuts.Serving.imperial.0	¼ cup nuts or seeds	¼ כוס אגוזים או זרעים		
+food_info_serving_sizes_nuts_imperial.1	dozeNuts.Serving.imperial.1	2 tablespoons nut or seed butter	2 כפות חמאת אגוזים או זרעים		
+food_info_serving_sizes_nuts_metric.0	dozeNuts.Serving.metric.0	30 g nuts or seeds	30 גרם אגוזים או זרעים		
+food_info_serving_sizes_nuts_metric.1	dozeNuts.Serving.metric.1	2 tablespoons nut or seed butter	2 כפות חמאת אגוזים או זרעים		
+food_info_types_nuts.0	dozeNuts.Variety.Text.0	Almonds	שקדים		
+food_info_types_nuts.1	dozeNuts.Variety.Text.1	Cashews	קשיו		
+food_info_types_nuts.2	dozeNuts.Variety.Text.2	Chia seeds	זרעי צ'יה		
+food_info_types_nuts.3	dozeNuts.Variety.Text.3	Hazelnuts	אגוזי לוז		
+food_info_types_nuts.4	dozeNuts.Variety.Text.4	Hemp seeds	זרעי קנבוס		
+food_info_types_nuts.5	dozeNuts.Variety.Text.5	Macadamia nuts	אגוזי מקדמיה		
+food_info_types_nuts.6	dozeNuts.Variety.Text.6	Peanuts	בוטנים		
+food_info_types_nuts.7	dozeNuts.Variety.Text.7	Pecans	פקאן		
+food_info_types_nuts.8	dozeNuts.Variety.Text.8	Pistachios	פיסטוק		
+food_info_types_nuts.9	dozeNuts.Variety.Text.9	Pumpkin seeds	גרעיני דלעת		
+food_info_types_nuts.10	dozeNuts.Variety.Text.10	Sesame seeds	סומסום		
+food_info_types_nuts.11	dozeNuts.Variety.Text.11	Sunflower seeds	גרעיני חמניה		
+food_info_types_nuts.12	dozeNuts.Variety.Text.12	Walnuts	אגוז מלך		
+OK	dozeOtherInfo.confirm	OK	בסדר	Daily Dozen supplement info alert: dismissal button text	
+	dozeOtherInfo.message	Vitamin B12 is essential for your health but does not count towards your daily servings.\n\nVitamin B12 is included in this app to provide you with an easy way to track your intake.	ויטמין B12 חיוני לבריאותכם אך אינו כלול במנות היומיות שלכם. \n\n ויטמין B12 כלול באפליקציה זו כדי לספק לכם דרך קלה לעקוב אחר צריכתכם.	Daily Dozen supplement info alert: message	
+	dozeOtherInfo.section	Supplements	תוספי תזונה	Daily Dozen daily entry section heading	
+	dozeOtherInfo.title	Supplements	תוספי תזונה	Daily Dozen supplement info alert: title	
+spices	dozeSpices.heading	Herbs and Spices	צמחי מרפא ותבלינים	heading for daily data entry item	
+food_info_serving_sizes_spices_imperial.0	dozeSpices.Serving.imperial.0	¼ teaspoon of turmeric	¼ כפית כורכום		
+food_info_serving_sizes_spices_imperial.1	dozeSpices.Serving.imperial.1	Any other (salt-free) herbs and spices you enjoy	עשבי מרפא ותבלינים נוספים (ללא מלח) שאתם אוהבים		
+food_info_serving_sizes_spices_metric.0	dozeSpices.Serving.metric.0	¼ teaspoon of turmeric	¼ כפית כורכום		
+food_info_serving_sizes_spices_metric.1	dozeSpices.Serving.metric.1	Any other (salt-free) herbs and spices you enjoy	עשבי מרפא ותבלינים נוספים (ללא מלח) שאתם אוהבים		
+food_info_types_spices.0	dozeSpices.Variety.Text.0	Allspice	פלפל אנגלי		
+food_info_types_spices.1	dozeSpices.Variety.Text.1	Barberries	ברברית - פרי יער אדום		
+food_info_types_spices.2	dozeSpices.Variety.Text.2	Basil	בזיליקום		
+food_info_types_spices.3	dozeSpices.Variety.Text.3	Bay leaves	עלי דפנה		
+food_info_types_spices.4	dozeSpices.Variety.Text.4	Cardamom	הל		
+food_info_types_spices.5	dozeSpices.Variety.Text.5	Chili powder	אבקת צ'ילי		
+food_info_types_spices.6	dozeSpices.Variety.Text.6	Cilantro	כוסברה		
+food_info_types_spices.7	dozeSpices.Variety.Text.7	Cinnamon	קינמון		
+food_info_types_spices.8	dozeSpices.Variety.Text.8	Cloves	ציפורן		
+food_info_types_spices.9	dozeSpices.Variety.Text.9	Coriander	כוסברה		
+food_info_types_spices.10	dozeSpices.Variety.Text.10	Cumin	כמון		
+food_info_types_spices.11	dozeSpices.Variety.Text.11	Curry powder	אבקת קארי		
+food_info_types_spices.12	dozeSpices.Variety.Text.12	Dill	שמיר		
+food_info_types_spices.13	dozeSpices.Variety.Text.13	Fenugreek	חילבה		
+food_info_types_spices.14	dozeSpices.Variety.Text.14	Garlic	שום		
+food_info_types_spices.15	dozeSpices.Variety.Text.15	Ginger	זנגויל		
+food_info_types_spices.16	dozeSpices.Variety.Text.16	Horseradish	חזרת		
+food_info_types_spices.17	dozeSpices.Variety.Text.17	Lemongrass	עשב לימון		
+food_info_types_spices.18	dozeSpices.Variety.Text.18	Marjoram	מיורן		
+food_info_types_spices.19	dozeSpices.Variety.Text.19	Mustard powder	אבקת חרדל		
+food_info_types_spices.20	dozeSpices.Variety.Text.20	Nutmeg	אגוז מוסקט		
+food_info_types_spices.21	dozeSpices.Variety.Text.21	Oregano	אורגנו		
+food_info_types_spices.22	dozeSpices.Variety.Text.22	Smoked paprika	פפריקה מעושנת		
+food_info_types_spices.23	dozeSpices.Variety.Text.23	Parsley	פטרוזיליה		
+food_info_types_spices.24	dozeSpices.Variety.Text.24	Pepper	פלפל שחור		
+food_info_types_spices.25	dozeSpices.Variety.Text.25	Peppermint	מנטה		
+food_info_types_spices.26	dozeSpices.Variety.Text.26	Rosemary	רוזמרין		
+food_info_types_spices.27	dozeSpices.Variety.Text.27	Saffron	זעפרן		
+food_info_types_spices.28	dozeSpices.Variety.Text.28	Sage	מרווה		
+food_info_types_spices.29	dozeSpices.Variety.Text.29	Thyme	קורנית		
+food_info_types_spices.30	dozeSpices.Variety.Text.30	Turmeric	כורכום		
+food_info_types_spices.31	dozeSpices.Variety.Text.31	Vanilla	וניל		
+cruciferous_vegetables	dozeVegetablesCruciferous.heading	Cruciferous Vegetables	ירקות מצליבים	heading for daily data entry item	
+food_info_serving_sizes_cruciferous_vegetables_imperial.0	dozeVegetablesCruciferous.Serving.imperial.0	½ cup cooked leafy vegetables	½ כוס קצוצים		
+food_info_serving_sizes_cruciferous_vegetables_imperial.1	dozeVegetablesCruciferous.Serving.imperial.1	½ cup raw or cooked non-leafy vegetables	חצי כוס כרוב ניצנים		
+food_info_serving_sizes_cruciferous_vegetables_imperial.2	dozeVegetablesCruciferous.Serving.imperial.2	1 cup raw leafy vegetables	1 cup raw leafy vegetables		
+food_info_serving_sizes_cruciferous_vegetables_imperial.3	dozeVegetablesCruciferous.Serving.imperial.3	¼ cup broccoli sprouts	רבע כוס נבטי ברוקולי		
+food_info_serving_sizes_cruciferous_vegetables_imperial.4	dozeVegetablesCruciferous.Serving.imperial.4	1 tablespoon horseradish	כף חזרת		
+food_info_serving_sizes_cruciferous_vegetables_metric.0	dozeVegetablesCruciferous.Serving.metric.0	90 g cooked leafy vegetables	30-80 גרם קצוצים		
+food_info_serving_sizes_cruciferous_vegetables_metric.1	dozeVegetablesCruciferous.Serving.metric.1	60 g raw or cooked non-leafy vegetables	80 גרם כרוב ניצנים		
+food_info_serving_sizes_cruciferous_vegetables_metric.2	dozeVegetablesCruciferous.Serving.metric.2	90 g raw leafy vegetables	90 g raw leafy vegetables		
+food_info_serving_sizes_cruciferous_vegetables_metric.3	dozeVegetablesCruciferous.Serving.metric.3	20 g broccoli sprouts	15 גרם נבטי ברוקולי		
+food_info_serving_sizes_cruciferous_vegetables_metric.4	dozeVegetablesCruciferous.Serving.metric.4	1 tablespoon horseradish	כף חזרת		
+food_info_types_cruciferous_vegetables.0	dozeVegetablesCruciferous.Variety.Text.0	Arugula	רוקולה		
+food_info_types_cruciferous_vegetables.1	dozeVegetablesCruciferous.Variety.Text.1	Bok choy	בוק צ'וי		
+food_info_types_cruciferous_vegetables.2	dozeVegetablesCruciferous.Variety.Text.2	Broccoli (incl. Romanesco)	ברוקולי (כולל כרובית אלמוגים)		
+food_info_types_cruciferous_vegetables.3	dozeVegetablesCruciferous.Variety.Text.3	Brussels sprouts	כרוב ניצנים		
+food_info_types_cruciferous_vegetables.4	dozeVegetablesCruciferous.Variety.Text.4	Cabbage (green, red and savoy)	כרוב (ירוק, אדום ומסולסל)		
+food_info_types_cruciferous_vegetables.5	dozeVegetablesCruciferous.Variety.Text.5	Cauliflower (white, green, orange and purple)	כרובית (לבנה, ירוקה, כתומה וסגולה)		
+food_info_types_cruciferous_vegetables.6	dozeVegetablesCruciferous.Variety.Text.6	Collard greens	עלי קולארד		
+food_info_types_cruciferous_vegetables.7	dozeVegetablesCruciferous.Variety.Text.7	Horseradish	חזרת		
+food_info_types_cruciferous_vegetables.8	dozeVegetablesCruciferous.Variety.Text.8	Kale (black, green, and red)	קייל (שחור, ירוק ואדום)		
+food_info_types_cruciferous_vegetables.9	dozeVegetablesCruciferous.Variety.Text.9	Kohlrabi (green and purple)	קולרבי (ירוק וסגול)		
+food_info_types_cruciferous_vegetables.10	dozeVegetablesCruciferous.Variety.Text.10	Mustard greens	עלי חרדל		
+food_info_types_cruciferous_vegetables.11	dozeVegetablesCruciferous.Variety.Text.11	Radishes	צנוניות		
+food_info_types_cruciferous_vegetables.12	dozeVegetablesCruciferous.Variety.Text.12	Turnip greens	עלי לפת		
+food_info_types_cruciferous_vegetables.13	dozeVegetablesCruciferous.Variety.Text.13	Watercress	גרגר הנחלים		
+other_vegetables	dozeVegetablesOther.heading	Other Vegetables	ירקות אחרים	heading for daily data entry item	
+food_info_serving_sizes_other_vegetables_imperial.0	dozeVegetablesOther.Serving.imperial.0	1 cup raw leafy vegetables	כוס ירקות עלים נאים		
+food_info_serving_sizes_other_vegetables_imperial.1	dozeVegetablesOther.Serving.imperial.1	½ cup raw or cooked nonleafy vegetables	½ כוס ירקות לא עליים טריים או מבושלים		
+food_info_serving_sizes_other_vegetables_imperial.2	dozeVegetablesOther.Serving.imperial.2	½ cup vegetable juice	½ כוס מיץ ירקות		
+food_info_serving_sizes_other_vegetables_imperial.3	dozeVegetablesOther.Serving.imperial.3	¼ cup dried mushrooms	¼ כוס פטריות מיובשות		
+food_info_serving_sizes_other_vegetables_metric.0	dozeVegetablesOther.Serving.metric.0	60 g raw leafy vegetables	60 גרם ירקות עליים טריים		
+food_info_serving_sizes_other_vegetables_metric.1	dozeVegetablesOther.Serving.metric.1	90 g raw or cooked nonleafy vegetables	50 גרם ירקות לא עליים טריים או מבושלים		
+food_info_serving_sizes_other_vegetables_metric.2	dozeVegetablesOther.Serving.metric.2	120 ml vegetable juice	125 מל מיץ ירקות		
+food_info_serving_sizes_other_vegetables_metric.3	dozeVegetablesOther.Serving.metric.3	10 g dried mushrooms	7 גרם פטריות מיובשות		
+food_info_types_other_vegetables.0	dozeVegetablesOther.Variety.Text.0	Artichokes	ארטישוק		
+food_info_types_other_vegetables.1	dozeVegetablesOther.Variety.Text.1	Asparagus	אספרגוס		
+food_info_types_other_vegetables.2	dozeVegetablesOther.Variety.Text.2	Beets	סלק		
+food_info_types_other_vegetables.3	dozeVegetablesOther.Variety.Text.3	Bell peppers	פלפלים		
+food_info_types_other_vegetables.4	dozeVegetablesOther.Variety.Text.4	Carrots	גזר		
+food_info_types_other_vegetables.5	dozeVegetablesOther.Variety.Text.5	Corn	תירס		
+food_info_types_other_vegetables.6	dozeVegetablesOther.Variety.Text.6	Garlic	שום		
+food_info_types_other_vegetables.7	dozeVegetablesOther.Variety.Text.7	Mushrooms (button, oyster, porcini, portobello, and shiitake)	פטריות (כפתור, אויסטר, פורטובלו ושיטאקה)		
+food_info_types_other_vegetables.8	dozeVegetablesOther.Variety.Text.8	Okra	במיה		
+food_info_types_other_vegetables.9	dozeVegetablesOther.Variety.Text.9	Onions	בצלים		
+food_info_types_other_vegetables.10	dozeVegetablesOther.Variety.Text.10	Purple potatoes	תפוחי אדמה סגולים		
+food_info_types_other_vegetables.11	dozeVegetablesOther.Variety.Text.11	Pumpkin	דלעת		
+food_info_types_other_vegetables.12	dozeVegetablesOther.Variety.Text.12	Sea vegetables (arame, dulse, and nori)	אצות (אראמה, דולסה ונורי)		
+food_info_types_other_vegetables.13	dozeVegetablesOther.Variety.Text.13	Snap peas	אפונה ירוקה		
+food_info_types_other_vegetables.14	dozeVegetablesOther.Variety.Text.14	Squash (delicata, summer, and spaghetti squash varieties)	דלעות (מסוג השדה, ערמונים, וספגטי)		
+food_info_types_other_vegetables.15	dozeVegetablesOther.Variety.Text.15	Sweet potatoes/yams	בטטות ויאם		
+food_info_types_other_vegetables.16	dozeVegetablesOther.Variety.Text.16	Tomatoes	עגבניות		
+food_info_types_other_vegetables.17	dozeVegetablesOther.Variety.Text.17	Zucchini	קישואים		
+whole_grains	dozeWholeGrains.heading	Whole Grains	דגנים מלאים	heading for daily data entry item	
+food_info_serving_sizes_whole_grains_imperial.0	dozeWholeGrains.Serving.imperial.0	½ cup cooked whole grains, whole-wheat pasta, or corn kernels	½ כוס דגני בוקר חמים או דגנים מבושלים, פסטה או גרעיני תירס		
+food_info_serving_sizes_whole_grains_imperial.1	dozeWholeGrains.Serving.imperial.1	1 cup 100% whole grain cold cereal	1 כוס דגני בוקר קרים		
+food_info_serving_sizes_whole_grains_imperial.2	dozeWholeGrains.Serving.imperial.2	1 100% whole grain tortilla (or 2 smaller corn tortillas)	1 100% whole grain tortilla (or 2 smaller corn tortillas)		
+food_info_serving_sizes_whole_grains_imperial.3	dozeWholeGrains.Serving.imperial.3	1 slice of 100% whole grain bread	1 טורטיה או פרוסת לחם		
+food_info_serving_sizes_whole_grains_imperial.4	dozeWholeGrains.Serving.imperial.4	½ bagel or English muffin	½ בייגל או מאפין 		
+food_info_serving_sizes_whole_grains_imperial.5	dozeWholeGrains.Serving.imperial.5	3 cups popped popcorn	3 כוסות פופקורן מוכן		
+food_info_serving_sizes_whole_grains_metric.0	dozeWholeGrains.Serving.metric.0	100 g cooked whole grains, whole-wheat pasta, or corn kernels	100 גרם דגני בוקר חמים או דגנים מבושלים, פסטה או לבבות תירס		
+food_info_serving_sizes_whole_grains_metric.1	dozeWholeGrains.Serving.metric.1	50 g 100% whole grain cold cereal	50 גרם דגני בוקר קרים		
+food_info_serving_sizes_whole_grains_metric.2	dozeWholeGrains.Serving.metric.2	1 100% whole grain tortilla (or 2 smaller corn tortillas)	1 100% whole grain tortilla (or 2 smaller corn tortillas)		
+food_info_serving_sizes_whole_grains_metric.3	dozeWholeGrains.Serving.metric.3	1 slice of 100% whole grain bread	1 טורטיה או פרוסת לחם		
+food_info_serving_sizes_whole_grains_metric.4	dozeWholeGrains.Serving.metric.4	½ bagel or English muffin	½ בייגל או מאפין אנגלי		
+food_info_serving_sizes_whole_grains_metric.5	dozeWholeGrains.Serving.metric.5	30 g popped popcorn	30 גרם פופקורן מוכן		
+food_info_types_whole_grains.0	dozeWholeGrains.Variety.Text.0	Barley	שעורה		
+food_info_types_whole_grains.1	dozeWholeGrains.Variety.Text.1	Buckwheat	כוסמת		
+food_info_types_whole_grains.2	dozeWholeGrains.Variety.Text.2	Millet	דוחן		
+food_info_types_whole_grains.3	dozeWholeGrains.Variety.Text.3	Oats	שיבולת שועל		
+food_info_types_whole_grains.4	dozeWholeGrains.Variety.Text.4	Popcorn	פופקורן		
+food_info_types_whole_grains.5	dozeWholeGrains.Variety.Text.5	Quinoa	קינואה		
+food_info_types_whole_grains.6	dozeWholeGrains.Variety.Text.6	Rye	שיפון		
+food_info_types_whole_grains.7	dozeWholeGrains.Variety.Text.7	Teff	טף		
+food_info_types_whole_grains.8	dozeWholeGrains.Variety.Text.8	Whole-wheat pasta	פסטה מחיטה מלאה		
+faq_adapt_question	faq_adapt_question	The Daily Dozen is too much/too little food for me! Can I adapt it?	״התריסר היומי״ זה יותר מדי אוכל בשבילי! האם אוכל להתאים את זה?		
+faq_adapt_response	faq_adapt_response	Yes, the Daily Dozen is simply meant to be a guide of the healthiest foods that we strive to include every day. It’s not a meal plan and is not meant to be prescriptive. Do your best to eat a diverse array of whole plant foods and adapt the Daily Dozen to the quantities that work for you.	כן, ״התריסר היומי״ אמור להיות רק מדריך למזונות הבריאים ביותר שאנו שואפים לכלול כל יום. הוא אינו תכנית ארוחות ולא אמור להיות הנחיות מדוייקות. השתדלו לאכול מגוון רחב של מזונות צמחיים שלמים והתאימו את ״התריסר היומי״ לכמויות שמתאימות לכם.		
+faq_age_question	faq_age_question	Is this adaptable for children, adolescents, and teens?	האם זה ניתן להתאמה לילדים, מתבגרים, ובני עשרה?		
+faq_age_response.0	faq_age_response.0	Children, adolescents, and teenagers have different caloric needs throughout their lifecycle. These needs change to support growth and development at each stage.	לילדים, מתבגרים ובני עשרה יש דרישות קלוריות שונות בשלבים שונים של החיים. צרכים אלו משתנים כדי לתמוך בצמיחה והתפתחות בכל שלב.		
+faq_age_response.1	faq_age_response.1	The Daily Dozen was designed as a guide to help people include some of the healthiest foods into their daily routine. While the same framework can be used for most people throughout the lifecycle, the amount of food one needs to eat will vary based on a number of factors like age and activity level. Since we can’t provide specific nutrition or medical advice for your growing child, parents should use this guide as they see best for their child’s needs and/or consult with a registered dietitian or other healthcare provider to help determine what is best for their individual needs.	״התריסר היומי״ תוכנן להיות מדריך שעוזר לאנשים להכליל כמה מהמזונות הבריאים ביותר בתזונתם היומיומית. בעוד שניתן להשתמש באותה התבנית עבור רוב האנשים בכל שלבי החיים, כמות המזון הנדרשת לכם משתנה לפי מספר גורמים כמו גיל ורמת פעילות. מאחר ואיננו יכולים לתת ייעוץ תזונתי או רפואי עבור ילדכם הגדל, הורים צריכים להשתמש במדריך זה לפי מיטב הבנתם עבור הצרכים של הילד, ו/או להתייעץ עם דיאטנית מוסמכת או עם יועץ רפואי אחר שיעזרו לקבוע מה עדיף  לצרכים המסויימים שלהם.		
+faq_calories_question	faq_calories_question	How many calories are in the Daily Dozen?	כמה קלוריות יש ב-״תריסר היומי״?		
+faq_calories_response.0	faq_calories_response.0	The Daily Dozen averages about 1,200 calories, but given the wide array of food choices in each category, it can range anywhere from 800-1800. Consider the Other Vegetables category: a cup of bell peppers has a much lower caloric density than a cup of cooked sweet potatoes, therefore the caloric range will depend on your specific food choices. That’s the great thing about the Daily Dozen Checklist—it’s not a one size fits all approach, and can be adapted to your needs.	ב-״תריסר היומי״ יש בממוצע כ-1200 קלוריות, אבל בגלל המגוון הרחב של מזונות שונים בכל קטגוריה, זה יכול להשתנות בין 800 ל-1800 קלוריות. למשל, בקטגוריה ״ירקות אחרים״: בכוס של פלפלים ירוקים יש הרבה פחות קלוריות מאשר בכוס של בטטה מבושלת, לכן טווח הקלוריות תלוי בבחירות המסויימות שלכם. זה היתרון של הרשימות ב-״תריסר היומי״- אין זו גישה של דבר אחד לכולם, אלא ניתן להתאים זאת לצרכים שלכם.		
+faq_calories_response.1	faq_calories_response.1	If your goal is weight loss, you can find more information in “How Not to Diet” and the accompanying Twenty-One Tweaks. In “How Not to Diet”, I noted: “A systematic review of successful weight-loss strategies concluded that given the metabolic slowing and increased appetite that accompanies weight loss, to achieve significant weight loss, calorie counts may need to drop as low as 1,200 calories a day for women and 1,500 calories a day for men.”	אם המטרה שלכם היא הפחתת משקל, תוכלו למצוא מידע נוסף בספר “How Not to Diet”, ובתוספת שלו ״Twenty-One Tweaks״. ב-“How Not to Diet״ ציינתי: ״סקירה שיטתית של אסטרטגיות מוצלחות להפחתת משקל הסיקה שבגלל ההאטה המטבולית והתאבון המוגבר שמלווים הפחתת משקל, כדי להשיג הפחתת משקל משמעותית, ייתכן שצריכת הקלוריות צריכה לרדת עד 1200 קלוריות ליום בנשים ו-1500 קלוריות ביום בגברים.		
+faq_calories_response.2	faq_calories_response.2	On the other hand, if your goal is weight gain, then you may want to focus on adding in more calorie-dense foods, such as sweet potatoes, avocados, nuts, and soy products.	מצד שני, אם מטרתכם היא עלייה במשקל, אולי תרצו להתמקד בהוספת מזונות עתירי קלוריות כמו בטטה, אבוקדו, אגוזים ומוצרי סויה.		
+faq_mother_question	faq_mother_question	Can I do this while pregnant or breastfeeding?	אוכל לעשות זאת בזמן הריון או הנקה?		
+faq_mother_response	faq_mother_response	People who are pregnant or breastfeeding have different caloric and nutritional needs than people who are not. As a reminder, the Daily Dozen is not a meal plan and should not be the only foods consumed within a day. People who are pregnant or breastfeeding should consult with their health care practitioner or a registered dietician for assistance with meeting their specific caloric requirements and nutritional needs.	לנשים בהריון או מניקות יש צרכים קלוריים ותזונתיים שונים מאנשים אחרים. נזכיר שה״תריסר היומי״ אינו תכנית ארוחות ולא צריך להיות המזונות שרק אותם תצרכו במהלך היום. נשים בהריון או מניקות צריכות להתייעץ עם מומחי רפואה או דיאטניות מוסמכות לעזרה בהשגת הדרישות הקלוריות והתזונתיות שלהן. 		
+faq_scaling_question	faq_scaling_question	I can’t possibly eat that many beans/grains/etc.!	אינני יכול בשום אופן לאכול כל כך הרבה קטניות/דגנים/וכו.!		
+faq_scaling_response	faq_scaling_response	That’s okay! The Daily Dozen is an aspirational guide. Do your best to incorporate as many of these healthy plant foods as possible. If you are new to eating a lot of beans (or grains, greens, etc!), you may need to start with smaller amounts and slowly increase the quantity in order to give your microbiome a chance to adjust. You can also get creative: for example, add some beans to your morning oatmeal. If you load it up with berries, flax seeds, and nuts, you won’t even notice the beans. You can also mash beans into a sandwich spread, or make my [BROL](https://nutritionfacts.org/recipe/basic-brol-barley-rye-oats-and-lentils)—barley, rye, oat groats, and lentils—that I use as a base for many meals and is a simple way to get a variety of whole grains with a built-in serving of legumes.	זה בסדר. התריסר היומי מדריך לכוון לשאוף אליו. עשו כמיטב יכולתכם להכליל את מירב המזונות הצמחיים הבריאים הללו. אם זה חדש לכם לאכול הרבה קטניות (או דגנים, ירוקים, וכו.), ייתכן שתצטרכו להתחיל בכמויות קטנות יותר ולהגדילן בהדרגה, כדי לתת לחיידקי המעיים שלכם זמן להתאמה. תוכלו גם להיות יצירתיים. למשל, הוספת שעועית לשיבולת השועל שלכם בבוקר. אם תוסיפו להם הרבה פירות יער, פשתן, זרעים ואגוזים, לא תרגישו את השעועית כלל. תוכלו גם לרסק את השעועית לממרח סנדביץ, או להכין את המתכון שלי לשיפון, שיבולת שועל, שעורה ועדשים [BROL](https://nutritionfacts.org/recipe/basic-brol-barley-rye-oats-and-lentils) שמשמש לי כבסיס לארוחות רבות והוא דרך פשוטה לקבל מגוון דגנים מלאים ומכיל גם מנת קטניות. 		
+faq_supplements_question	faq_supplements_question	I thought that Dr. Greger recommends taking Vitamin D and DHA supplements. Why aren’t they included?	חשבתי שד״ר גרגר ממליץ לקחת תוספי ויטמין די ו-DHA. מדוע הם אינם נכללים כאן?		
+faq_supplements_response	faq_supplements_response	We have updated the Daily Dozen app to reflect only required supplements. For example, Vitamin D is only needed for people who get inadequate sun exposure. Our goal is to share the science with you so you can make your own informed decisions. You can see all of my recommendations on the [Optimum Nutrient](https://nutritionfacts.org/optimum-nutrient-recommendations) page.	עדכנו את התריסר היומי כך שיכיל רק תוספים נדרשים. לדוגמה, ויטמין די נדרש רק לאנשים שאינם נחשפים מספיק לשמש. מטרתנו לחלוק אתכם את המדע כדי שתוכלו לעשות החלטות מודעות בעצמכם. תוכלו למצוא את כל המלצותי בדף [Optimum Nutrient](https://nutritionfacts.org/optimum-nutrient-recommendations) 		
+faq_title	faq_title	Frequently Asked Questions	שאלה נפוצה	Info Menu	
+	history_data_alert_cancel	Cancel	בטל	History Data Alert: Cancel button	הודעת נתוני היסטוריה: לחצן בטל
+	history_data_alert_clear	Clear	נקה	History Data Alert: Clear button	הודעת נתוני היסטוריה: לחצן נקה 
+	history_data_alert_import	Import	ייבוא	History Data Alert: Import buttom	הודעת נתוני היסטוריה: לחצן ייבוא
+	history_data_alert_ok	OK	אישור	History Data Alert: OK button	הודעת נתוני היסטוריה: לחצן אישור
+	history_data_export_btn	Export History Data	ייצוא נתוני היסטוריה	History Data: export action button	נתוני היסטוריה: לחצן פעולת ייצוא
+	history_data_export_text	Export has been written to:	ייצוא הועבר אל:	History Data: export description text	נתוני היסטוריה: כיתוב תיאור ייצוא
+	history_data_import_btn	Import History Data	ייבוא נתוני היסטוריה	History Data: import action button	נתוני היסטוריה: לחצן פעולת ייבוא
+	history_data_import_caution_text	Caution: This import will overwrite all history data currently in this Daily Dozen application. Would you like to proceed with the import?	שימו לב: ייבוא זה יחליף את כל מידע ההיסטוריה שנמצא עכשיו ביישומון התריסר היומי הזה.  האם תרצו להמשיך בייבוא?	History Data: import caution text	נתוני היסטוריה: כיתוב אזהרת  ייבוא
+	history_data_import_error_text	Error: The import was not performed because of a data error. The existing data has remained unchanged.	שגיאה: ייבוא זה לא בוצע בגלל שגיאת נתונים. המידע הקיים נשאר ללא שינוי.	History Data: import data error text	נתוני היסטוריה: כיתוב שגיאת נתוני ייבוא
+	history_data_import_notfound_text	Did not find a valid import file in the Daily Dozen Documents folder.	לא נמצא קובץ ייבוא תקף בתיק המסמכים של התריסר היומי.	History Data: import not found text	נתוני היסטוריה: כיתוב ייבוא לא נמצא
+	history_data_title	History	היסטוריה	History Data: preferences header & title	נתוני היסטוריה: כותרת העדפות
+servings_time_scale_choices.0	history_scale_choice_day	Day	יום	History View: calendar scale control	
+servings_time_scale_choices.0	history_scale_choice_month	Month	חודש	History View: calendar scale control	
+servings_time_scale_choices.0	history_scale_choice_year	Year	שנה	History View: calendar scale control	
+time_scale	history_scale_label	Time Scale	קנה מידה של זמן	History View: scale text	
+moving_average	historyRecord.movingAverage	Moving Average	ממוצע נע		
+	historyRecordDoze.heading	Servings History	הסטוריית המנות	History View	
+	historyRecordDoze.legend	Servings	מנות	History View	
+	historyRecordTweak.heading	Tweaks History	הסטוריה של הכוונונים	History View	
+tweaks	historyRecordTweak.legend	Tweaks	כוונונים	History View	
+weight_history	historyRecordWeight.heading	Weight History	הסטוריית המשקל	History View	
+evening	historyRecordWeight.legendEvening	Evening	ערב	History View	
+morning	historyRecordWeight.legendMorning	Morning	בוקר	History View	
+	historyRecordWeight.titleImperial	Weight (lbs)	משקל (פאונד)	History View	
+	historyRecordWeight.titleMetric	Weight (kg)	משקל (ק״ג)	History View	
+about	info_app_about	About	לגבי	Info About Menu Item	
+app_name	info_app_about_app_name	Daily Dozen	״התריסר היומי״	Info About View: Application Name ‘Daily Dozen’	
+	info_app_about_created_by	This app was created by: NutritionFacts.org, Christi Richards, Konstantin Khokhlov, and Marc Campbell	אפליקציה זו נוצרה על ידי: NutritionFacts.org, כריסטי ריצ'רדס, קונסטנטין חוחלוב ומארק קמפבל	Info About View: Created By	
+about_this_app	info_app_about_heading	About this app	בקשר לאפליקציה זו	Info About View	
+	info_app_about_oss_credits	The following open source libraries are used: RealmSwift, Charts, FSCalendar, SimpleAnimation.	נעשה שימוש בספריות הקוד הפתוח הבאות: RealmSwift, Charts,, FSCalendar, SimpleAnimation.	Info About View: Open Source Credits	
+activity_welcome_text	info_app_about_overview	Use this app on a daily basis to keep track of the foods and advice I recommend for optimal health and longevity in my books How Not to Die and How Not to Diet.	השתמשו באפליקציה זו על בסיס יומי כדי לעקוב אחר המזונות והעצות שאני ממליץ עליהם לבריאות ואריכות ימים בצורה אופטימלית בספרים שלי ״איך לא למות״ ו״איך לא לעשות דיאטה״.	Info About View: Overview Text	
+about_translators	info_app_about_translators	Special thanks to our volunteer translators: Petar Enchev (bg), Tsveti Enchev (bg), Ricard Soler Roger (ca), Luděk Bouška (cs,sk), Lenka Lukacová (cs), Anke Schliessmann (de), Ángela Graña (es), Saeed Salamian (fa), Audray Harkins (fr), Doron Barak (he), Ruth Levy (he), Annalisa Guerrini-Körner (it), Ilaria Zanini (it), Hanna Gurzeda (pl), Joanna Klopotek (pl), Tania Bassi (pt-BR), João Madureira (pt-PT), Cristina Lauby (ro), Evgeniya Lyakh (ru), Katarína Mocáková (sk), Sabina Aliieva (uk).	תודה מיוחדת למתרגמים המתנדבים: Petar Enchev (bg), Tsveti Enchev (bg), Ricard Soler Roger (ca), Luděk Bouška (cs,sk), Lenka Lukacová (cs), Anke Schliessmann (de), Ángela Graña (es), Saeed Salamian (fa), Audray Harkins (fr), Doron Barak (he), Ruth Levy (he), Annalisa Guerrini-Körner (it), Ilaria Zanini (it), Hanna Gurzeda (pl), Joanna Klopotek (pl), Tania Bassi (pt-BR), João Madureira (pt-PT), Cristina Lauby (ro), Evgeniya Lyakh (ru), Katarína Mocáková (sk), Sabina Aliieva (uk).	Info About View: Contributing Translators List (language code)  See https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes	רשימת מתרגמים  בהתנדבות.
+	info_app_about_version	version 3.5.1	גירסה 3.5.1	Info About View: Application release version	
+welcome_to_my_daily_dozen	info_app_about_welcome	Welcome to my Daily Dozen!	ברוכים הבאים ל- ״התריסר השבועי״ שלי!	Info About View: Welcome	
+	info_book_how_not_to_die	Book: How Not to Die	ספר: ״איך לא למות״	Info Menu: book title	
+	info_book_how_not_to_die_cookbook	Book: How Not to Die Cookbook	ספר ״איך לא למות- ספר הבישול״	Info Menu: book title	
+	info_book_how_not_to_diet	Book: How Not to Diet	ספר: ״איך לא למות״	Info Menu: book title	
+daily_dozen_challenge	info_webpage_daily_dozen_challenge	Daily Dozen Challenge	האתגר של ״התריסר היומי״	Info Menu	
+donate	info_webpage_donate	Donate	תירמו	Info Menu	
+open_source	info_webpage_open_source	Open Source	מקור פתוח	Info Menu	
+subscribe	info_webpage_subscribe	Subscribe	הירשמו	Info Menu	
+latest_videos	info_webpage_videos_latest	Latest Videos	הסרטונים האחרונים	Info Menu	
+servings_all	item_history_completed_all	All servings	כל המנות	Item History Legend: ‘All completed’	
+servings_some	item_history_completed_some	Some servings	חלק מהמנות	Item History Legend: ‘Some completed’	
+history	item_history_heading	History	היסטוריה	Item History Heading	
+	navtab.doze	Daily Dozen	״התריסר היומי״	Main Navigation Tab Control: ‘Daily Dozen’ (proper noun)	
+	navtab.info	Information	מידע	Main Navigation Tab Control: show more information	
+	navtab.preferences	Preferences	העדפות	Main Navigation Tab Control: ‘Preferences’ synonyms: Settings, Configuration. Choose a translations with is different from Tweaks.	
+	navtab.tweaks	21 Tweaks	21 כוונונים	Main Navigation Tab Control: ‘21 Tweaks’ (proper noun)	
+	NSHealthShareUsageDescription	The 21 Tweaks feature accesses your HealthKit data to provide updates to your daily weight measurements.	התכונה של ״21 הכיוונונים״ מקבלת נתונים מ- HealthKit כדי לעדכן את מדידות המשקל היומיות שלכם.	Privacy - Health Share Usage Description	
+	NSHealthUpdateUsageDescription	The 21 Tweaks feature can write weight data to HealthKit to help you keep track of your progress.	התכונה של ״21 הכיוונונים״ יכולה לשמור  נתוני משקל ב- HealthKit כדי לעזור לכם לעקוב אחרי ההתקדמות שלכם.	Privacy - Health Update Usage Description	
+vitamin_b12	otherVitaminB12.heading	Vitamin B12	ויטמין B12	heading for daily data entry item	
+daily_reminder_text	reminder.alert.text	Update your servings for today	עדכנו את המנות שלכם להיום	Alert notification text	
+	reminder.heading	Daily Reminder	תזכורת יומית	Daily Reminder (alert title, settings section heading)	
+	reminder.settings.enable	Enable Reminders	אפשר תזכורות	Daily Reminder On/Off toggle switch label	
+play_sound	reminder.settings.sound	Play Sound	השמע צליל	Daily Reminder sound control heading	
+remind_me_at	reminder.settings.time	Remind me at	הזכר לי ב:	Daily Reminder time control heading	
+vibrate	reminder.settings.vibrate	Vibrate	רטט	Android notification `vibrate`	
+	reminder.state.off	Off	מופסק	‘Off’ as in ‘On (enabled) or Off (disabled)’, Daily Reminder is not enabled	
+	reminder.state.on	On	מופעל	‘On’ as in ‘On (enabled) or Off (disable)’. Daily Reminder is enabled	
+	setting_analytics_body	Enable anonymous usage information to be collected to help improve this application.	אפשרו איסוף אנוניתי של מידע על שימוש כדי לשפר יישומון זה.	Google Firebase Analytics	Google Firebase Analytics
+	setting_analytics_enable	Enable Analytics	אפשרו Analytics	Google Firebase Analytics	Google Firebase Analytics
+	setting_analytics_opt_in	Opt In	אשרו	Google Firebase Analytics	Google Firebase Analytics
+	setting_analytics_opt_out	Opt Out	בטלו אישור	Google Firebase Analytics	Google Firebase Analytics
+	setting_analytics_title	Analytics	Analytics	Google Firebase Analytics	Google Firebase Analytics
+daily_dozen_only	setting_doze_only_btn	Daily Dozen\nOnly	״התריסר היומי״ \nבלבד	First Launch Setting: button text	
+	setting_doze_only_choice	Daily Dozen Only	״התריסר היומי״ בלבד	Preference Settings View: selection button text	
+daily_dozen_and_tweaks	setting_doze_tweak_btn	Daily Dozen +\n21 Tweaks	התריסר היומי +\n עשרים ואחד כוונונים	First Launch Setting: button text	
+	setting_doze_tweak_choice	Daily Dozen + 21 Tweaks	התריסר היומי +  21 כיוונונים	Preference Settings View: selection button text	
+	setting_doze_tweak_footer	For health alone, use “Daily Dozen Only”. For health and weight loss use “Daily Dozen + 21 Tweaks”.	לבריאות בלבד, השתמשו ב״תריסר היומי״ בלבד ״. לבריאות וירידה במשקל השתמשו ב- ״תריסר היומי + 21 כיוונונים״.	Preference Settings View: brief description text below Tweaks visibility control.	
+for_health_alone	setting_health_alone_txt	For Health Alone	עבור בריאות בלבד	First Launch Setting: brief description above ‘Daily Dozen Only’ button.	
+for_health_and_weight_loss	setting_health_weight_txt	For Health and Weight Loss	עבור בריאות והורדה במשקל	First Launch Setting: brief description above ‘Daily Dozen + 21 Tweaks’ button.	
+	setting_tweak_header	21 Tweaks Visibility	ניראות של 21 הכיוונונים	Preference Settings View: tweaks visibilty subsection heading	
+	setting_units_0_imperial	Imperial	אימפריאלי	Preference Settings View: Part of ‘Imperial/Metric/Toggle Units’ selector	
+	setting_units_1_metric	Metric	מטרי	Preference Settings View: Part of ‘Imperial/Metric/Toggle Units’ selector	
+	setting_units_2_toggle	Toggle Units	החלף יחידות	Preference Settings View: Part of ‘Imperial/Metric/Toggle Units’ selector	
+	setting_units_choice_footer	Set to always be one unit type or enable the ‘Units:’ toggle button.	הגדירו תמיד סוג יחידה אחד או הפעילו את לחצן ההחלפה של 'יחידות'.	Preference Settings View: brief description text below units control.	
+	setting_units_header	Measurement Units	יחידות מדידה	Preference Settings View	
+	setting_util_advanced	Advanced Utilities	כלי עזר מתקדמים	Preference Settings View	
+format_num_days	streakDaysFormat	%d days	%d ימים	‘Streak’ count. Synonym: ‘Progress‘. Formatted number ‘%d’ for consecutive days completed. Place translated text for ‘days’ on the right or left of ‘%d’ based on language directionality.	
+	tweak_detail_section_activity	Activity	פעילות	Tweaks Detail view section heading	
+	tweak_detail_section_description	Description	תיאור	Tweaks Detail view section heading	
+twenty_one_tweaks	tweak_entry_header	21 Tweaks	21 כוונונים	Tweaks daily entry header	
+complete_intentions	tweakCompleteIntentions.heading	Complete Your Implementation Intentions	סיימו יישום כוונותיכם	heading for daily data entry item	
+complete_intentions_short	tweakCompleteIntentions.short	Complete Your Implementation Intentions	סיימו יישום כוונותיכם		
+complete_intentions_text	tweakCompleteIntentions.text	Every two months, create three new implementation intentions—“if X, then Y” plans to perform a particular behavior in a specific context—and check each one of them off as you complete them every day.	כל חודשיים, צרו שלוש כוונות יישום חדשות - ״אם X, אז Y״ לקידום התנהגות מסוימת בהקשר ספציפי - וסמנו כל אחת מהן כאשר אתם משלימים אותן מדי יום.		
+daily_blackcumin	tweakDailyBlackCumin.heading	Black Cumin (¼ tsp)	קצח (¼ כפית)	heading for daily data entry item	
+daily_blackcumin_short	tweakDailyBlackCumin.short	Black Cumin (Nigella sativa) (¼ tsp)	קצח (¼ כפית)		
+daily_blackcumin_text	tweakDailyBlackCumin.text	As noted in the Appetite Suppression section, a systematic review and meta-analysis of randomized, controlled weight-loss trials found that about a quarter teaspoon of black cumin powder every day appears to reduce body mass index within a span of a couple of months. Note that black cumin is different from regular cumin, for which the dosing is different.	כפי שצוין בפרק דיכוי התיאבון, סקירה שיטתית ומטא-אנליזה של ניסויים אקראיים ומבוקרים לירידה במשקל מצאו כי כרבע כפית אבקת קצח מדי יום מורידה את מדד מסת הגוף תוך מספר חודשים. שימו לב שקצח שונה מכמון רגיל, עבורו יש מינון שונה.		
+daily_cumin	tweakDailyCumin.heading	Cumin (½ tsp with lunch and dinner)	כמון (½ כפית עם ארוחות צהריים וערב)	heading for daily data entry item	
+daily_cumin_short	tweakDailyCumin.short	Cumin (Cuminum cyminum) (½ tsp with lunch and dinner)	כמון (½ כפית עם ארוחות צהריים וערב)		
+daily_cumin_text	tweakDailyCumin.text	Overweight women randomized to add a half teaspoon of cumin to their lunches and dinners beat out the control group by four more pounds and an extra inch off their waists. There is also evidence to support the use of the spice saffron, but a pinch a day would cost a dollar, whereas a teaspoon of cumin costs less than ten cents.	נשים בעלות עודף משקל שהוקצו באקראי להוסיף חצי כפית כמון לארוחות הצהריים והערב שלהן הפחיתו שני ק״ג יותר מקבוצת הביקורת ו-2.5 ס״מ נוספים מהקף המותניים שלהן. יש גם ראיות התומכות בשימוש בזעפרן, אך קמצוץ ביום יעלה 3 שקלים, בעוד שכפית כמון עולה פחות מ-30 אגורות.		
+daily_deflourdiet	tweakDailyDeflourDiet.heading	Deflour Your Diet	הוציאו קמח מתזונתכם	heading for daily data entry item	
+daily_deflourdiet_short	tweakDailyDeflourDiet.short	Deflour Your Diet	הוציאו קמח מתזונתכם		
+daily_deflourdiet_text	tweakDailyDeflourDiet.text	Check this box every day your whole grain servings are in the form of intact grains. The powdering of even 100 percent whole grains robs our microbiomes of the starch that would otherwise be ferried down to our colons enclosed in unbroken cell walls.	סמנו תיבה זו בכל יום בו מנות הדגנים שלכם הן בצורת דגנים שלמים. צריכת קמח אפילו של 100% דגנים מלאים מונעת מהמיקרוביום שלנו את העמילן שאחרת היה יורד אל המעי הגס שלנו כשהוא סגור בדפנות תאים שלא נפגעו.		
+daily_frontload	tweakDailyFrontLoad.heading	Front-Load Your Calories	צרכו את הקלוריות שלכם מוקדם	heading for daily data entry item	
+daily_frontload_short	tweakDailyFrontLoad.short	Front-Load Your Calories	צרכו את הקלוריות שלכם מוקדם		
+daily_frontload_text	tweakDailyFrontLoad.text	There are metabolic benefits to distributing more calories to earlier in the day, so make breakfast (ideally) or lunch your largest meal of the day in true king/prince/pauper style.	יש יתרונות מטבוליים לצריכת קלוריות מוקדם יותר ביום, לכן הפכו את ארוחת הבוקר (באופן אידיאלי), או את ארוחת הצהריים, לארוחה הגדולה ביותר ביום בסגנון מלך/נסיך/עני		
+daily_garlic	tweakDailyGarlic.heading	Garlic Powder (¼ tsp)	אבקת שום (¼ כפית)	heading for daily data entry item	
+daily_garlic_short	tweakDailyGarlic.short	Garlic Powder (¼ tsp)	אבקת שום (¼ כפית)		
+daily_garlic_text	tweakDailyGarlic.text	Randomized, double-blind, placebo-controlled studies have found that as little as a daily quarter teaspoon of garlic powder can reduce body fat at a cost of perhaps two cents a day.	מחקרים אקראיים, כפולי סמיות, מבוקרי פלסבו, מצאו שכרבע כפית אבקת שום ביום בלבד יכולה להפחית את שומן הגוף במחיר של כ-8 אגורות ביום.		
+daily_ginger	tweakDailyGinger.heading	Ground Ginger (1 tsp) or Cayenne Pepper (½ tsp)	גינגר טחון (1 כפית) או פלפל קאיין (½ כפית)	heading for daily data entry item	
+daily_ginger_short	tweakDailyGinger.short	Ground Ginger (1 tsp) or Cayenne Pepper (½ tsp)	גינגר טחון (1 כפית) או פלפל קאיין (½ כפית)		
+daily_ginger_text	tweakDailyGinger.text	Randomized controlled trials have found that ¼ teaspoon to 1½ teaspoons a day of ground ginger significantly decreased body weight for just pennies a day. It can be as easy as stirring the ground spice into a cup of hot water. Note: Ginger may work better in the morning than evening. Chai tea is a tasty way to combine the green tea and ginger tricks into a single beverage. Alternately, for BAT activation, you can add one raw jalapeño pepper or a half teaspoon of red pepper powder (or, presumably, crushed red pepper flakes) into your daily diet. To help beat the heat, you can very thinly slice or finely chop the jalapeño to reduce its bite to little prickles, or mix the red pepper into soup or the whole-food vegetable smoothie I featured in one of my cooking videos on NutritionFacts.org.	ניסויים מבוקרים אקראיים מצאו כי ¼ כפית עד 1.5 כפיות ביום של גינגר טחון הורידו את משקל הגוף משמעותית בפרוטות בלבד ביום. זה יכול להיות ממש קל כמו למשל ערבוב התבלין הטחון בכוס מים חמים. הערה: גינגר עשוי לעבוד טוב יותר בבוקר מאשר בערב. תה צ'אי הוא דרך טעימה לשלב את התה הירוק ויכולות הגינגר למשקה אחד. לחלופין, להפעלת BAT, ניתן להוסיף לתפריט היומי שלכם פלפל ירוק חריף נא, או חצי כפית אבקת פלפל אדום (או, ככל הנראה, פתיתי פלפל אדום כתוש). כדי לעזור להתמודד עם החריפות, אתם יכולים לפרוס דק מאוד או לקצוץ את הפלפל החריף כדי לצמצם את הנגיסות לכמויות קטנות, או לערבב את הפלפל האדום במרק או שייק ירקות שהצגתי באחד מסרטוני הבישול שלי ב- NutritionFacts.org .		
+daily_greentea	tweakDailyGreenTea.heading	Green Tea (3 cups)	תה ירוק (3 כוסות)	heading for daily data entry item	
+daily_greentea_short	tweakDailyGreenTea.short	Green Tea (3 cups)	תה ירוק (3 כוסות)		
+daily_greentea_text	tweakDailyGreenTea.text	Drink three cups a day between meals (waiting at least an hour after a meal so as to not interfere with iron absorption). During meals, drink water, black coffee, or hibiscus tea mixed 6:1 with lemon verbena, but never exceed three cups of fluid an hour (important given my water preloading advice). Take advantage of the reinforcing effect of caffeine by drinking your green tea along with something healthy you wish you liked more, but don’t consume large amounts of caffeine within six hours of bedtime. Taking your tea without sweetener is best, but if you typically sweeten your tea with honey or sugar, try yacon syrup instead.	שתו שלוש כוסות ביום בין הארוחות (המתינו לפחות שעה לאחר הארוחה כדי לא להפריע לספיגת הברזל). במהלך הארוחות, יש לשתות מים, קפה שחור או תה היביסקוס מעורבב 6: 1 עם לימון ורבנה, אך לעולם אל תישתו יותר משלוש כוסות נוזל בשעה (חשוב בהתחשב בעצותי לטעינת מים מראש). נצלו את האפקט המחזק של הקפאין על ידי שתיית התה הירוק שלכם יחד עם משהו בריא שהייתם רוצים לאהוב יותר, אך אל תצרכו כמויות גדולות של קפאין שש שעות לפני השינה. עדיף לשתות את התה  ללא ממתיק, אך אם אתם ממתיקים את התה בדבש או בסוכר, נסו במקום זאת סירופ יאקון.		
+daily_hydrate	tweakDailyHydrate.heading	Stay Hydrated	שתו מספיק	heading for daily data entry item	
+daily_hydrate_short	tweakDailyHydrate.short	Stay Hydrated	שתו מספיק		
+daily_hydrate_text	tweakDailyHydrate.text	Check this box if your urine never appears darker than a pale yellow.\n\nNote that if you’re eating riboflavin-fortified foods (such as nutritional yeast), then base this instead on getting nine cups of unsweetened beverages a day for women (which would be taken care of by the green tea and water preloading recommendations) or thirteen cups a day for men.\n\nIf you have heart or kidney issues, don’t increase fluid intake at all without first talking with your physician.\n\nRemember, diet soda may be calorie-free, but it’s not consequence-free, as we learned in the Low in Added Sugar section.	סמנו תיבה זו אם השתן שלכם אף פעם לא נראה כהה יותר מאשר צהוב בהיר. שימו לב שאם אתם אוכלים מזונות מועשרים בריבופלבין (כגון שמרים תזונתיים), אז הסתמכו במקום זאת על  שתיית 9 כוסות של משקאות לא ממותקים ביום לנשים (שיושגו ע״י ההמלצות לשתיה של תה ירוק ומים), או 13 כוסות ביום לגברים. אם אתם סובלים מבעיות לב או כליות, אל תגדילו את צריכת הנוזלים מבלי לדבר תחילה עם הרופא שלכם.\n\n זיכרו, משקאות דיאט עשויים להיות ללא קלוריות, אך יכולות להיות להם תוצאות, כפי שלמדנו בסעיף על הפחתת סוכר מוסף.		
+daily_nutriyeast	tweakDailyNutriYeast.heading	Nutritional Yeast (2 tsp)	שמרי בירה (2 כפיות)	heading for daily data entry item	
+daily_nutriyeast_short	tweakDailyNutriYeast.short	Nutritional Yeast (2 tsp)	שמרי בירה (2 כפיות)		
+daily_nutriyeast_text	tweakDailyNutriYeast.text	Two teaspoons of baker’s, brewer’s, or nutritional yeast contains roughly the amount of beta 1,3/1,6 glucans found in randomized, double-blind, placebo-controlled clinical trials to facilitate weight loss.	שתי כפיות של שמרי בירה או שמרים תזונתיים מכילות בערך את כמות הבטא 1,3/1,6 גלוקן שנמצאו בניסויים קליניים אקראיים, כפולי סמיות, מבוקרי פלסבו, כמקלים על ירידה במשקל.		
+daily_timerestrict	tweakDailyTimeRestrict.heading	Time-Restrict Your Eating	הגבילו את זמן האכילה שלכם	heading for daily data entry item	
+daily_timerestrict_short	tweakDailyTimeRestrict.short	Time-Restrict Your Eating	הגבילו את זמן האכילה שלכם		
+daily_timerestrict_text	tweakDailyTimeRestrict.text	Confine eating to a daily window of time of your choosing under twelve hours in length that you can stick to consistently, seven days a week. Given the circadian benefits of reducing evening food intake, the window should end before 7:00 p.m.	הגדירו חלון אכילה יומי לבחירכם של פחות מ-12 שעות שאתם יכולים להצמד אליו בעקביות, שבעה ימים בשבוע. בהתחשב ביתרונות השעון הביולוגי להפחתת אכילה בלילה, חלון האכילה צריך להסתיים ב-19:00.		
+exercise_timing	tweakExerciseTiming.heading	Optimize Exercise Timing	בצעו תרגול גופני במשך הזמן המומלץ	heading for daily data entry item	
+exercise_timing_short	tweakExerciseTiming.short	Optimize Exercise Timing	בצעו תרגול גופני במשך הזמן המומלץ		
+exercise_timing_text	tweakExerciseTiming.text	The Daily Dozen’s recommendation for optimum exercise duration for longevity is ninety minutes of moderately intense activity a day, which is also the optimum exercise duration for weight loss. Anytime is good, and the more, the better, but there may be an advantage to exercising in a fasted state, at least six hours after your last meal. Typically, this would mean before breakfast, but if you timed it right, you could exercise midday before a late lunch or, if lunch is eaten early enough, before dinner. This is the timing for nondiabetics. Diabetics and prediabetics should instead start exercising thirty minutes after the start of a meal and ideally go for at least an hour to completely straddle the blood sugar peak. If you had to choose a single meal to exercise after, it would be dinner, due to the circadian rhythm of blood sugar control that wanes throughout the day. Ideally, though, breakfast would be the largest meal of the day, and you’d exercise after that—or, even better, after every meal.	ההמלצה של The Daily Dozen למשך זמן האימון האופטימלי להארכת חיים היא תשעים דקות של פעילות אינטנסיבית בינונית ביום, שהיא גם משך האימון האופטימלי לירידה במשקל. בכל עת טוב, ומה שיותר, יותר טוב, אך יתכן שיש יתרון לפעילות גופנית בצום, לפחות שש שעות לאחר הארוחה האחרונה שלכם. בדרך כלל זה אומר לפני ארוחת הבוקר, אבל אם תזמנתם את זה נכון, תוכלו להתאמן בצהריים לפני ארוחת צהריים מאוחרת או, אם ארוחת הצהריים נאכלת מוקדם מספיק, לפני ארוחת הערב. זהו העיתוי לאלו שאינם חולי סוכרת. חולי סוכרת וקדם סוכרת צריכים במקום זאת להתחיל להתאמן שלושים דקות לאחר תחילת הארוחה ולפנות לכך באופן אידיאלי לפחות שעה כדי לתאם עם שיא הסוכר בדם. אם הייתם צריכים לבחור ארוחה אחת שתתאמנו אחריה, זו תהיה ארוחת ערב, בגלל קצב השעון הביולוגי ששליטתו ברמת הסוכר בדם דועכת לאורך כל היום. אך באופן אידיאלי, ארוחת הבוקר תהיה הארוחה הגדולה ביותר ביום, ואימון לאחר מכן - או, אפילו יותר טוב, אחרי כל ארוחה.		
+meal_twentyminutes	tweakMeal20Minutes.heading	Follow the Twenty-Minute Rule	בצעו את חוק 20 הדקות	heading for daily data entry item	
+meal_twentyminutes_short	tweakMeal20Minutes.short	Follow the Twenty-Minute Rule	בצעו את חוק 20 הדקות		
+meal_twentyminutes_text	tweakMeal20Minutes.text	Whether through increasing viscosity or the number of chews, or decreasing bite size and eating rate, dozens of studies have demonstrated that no matter how we boost the amount of time food is in our mouths, it can result in lower caloric intake. So extend meal duration to at least twenty minutes to allow your natural satiety signals to take full effect. How? By choosing foods that take longer to eat and eating them in a way that prolongs the time they stay in your mouth. Think bulkier, hardier, chewier foods in smaller, well-chewed bites.	בין אם העלאת הצמיגות או כמות הלעיסות, או הקטנת גודל הנשיכה וקצב האכילה, עשרות מחקרים הוכיחו שבכל צורה בה אנו מעלים את משך הזמן שהמזון נמצא בפה שלנו, זה יכול להסתכם בכמות קלוריות קטנה יותר. אז האריכו את משך הארוחה לפחות ל-20 דקות כדי לאפשר לאיתותי השובע הטבעי להגיע למלוא השפעתם. כיצד? ע״י בחירת מאכלים שלוקח זמן רב יותר לאכול ולאוכלם בדרך שמאריכה את הזמן שהם נשארים בפה שלכם. חישבו על מזונות קשים יותר, לעיסים יותר בנשיכות קטנות ולעוסות היטב.		
+meal_negcal	tweakMealNegCal.heading	Preload with “Negative Calorie” Foods	איכלו קודם מזונות עם ״קלוריות שליליות״	heading for daily data entry item	
+meal_negcal_short	tweakMealNegCal.short	Preload with “Negative Calorie” Foods	איכלו קודם מזונות עם ״קלוריות שליליות״		
+meal_negcal_text	tweakMealNegCal.text	As the first course, start each meal with an apple or a Green Light soup or salad containing fewer than one hundred calories per cup.	כמנה ראשונה, התחילו כל ארוחה בתפוח או מרק ירוק או סלט המכיל פחות ממאה קלוריות לכוס.		
+meal_undistracted	tweakMealUndistracted.heading	Enjoy Undistracted Meals	איכלו ארוחות ללא הפרעה	heading for daily data entry item	
+meal_undistracted_short	tweakMealUndistracted.short	Enjoy Undistracted Meals	איכלו ארוחות ללא הפרעה		
+meal_undistracted_text	tweakMealUndistracted.text	Don’t eat while watching TV or playing on your phone. Give yourself a check for each meal you’re able to eat without distraction.	אל תאכלו תוך כדי צפיה בטלויזיה או תוך כדי משחק בפלאפון. סמנו כל פעם שהצלחתם לאכול ללא הפרעות		
+meal_vinegar	tweakMealVinegar.heading	Incorporate Vinegar (2 tsp with each meal)	שלבו חומץ (2 כפיות בכל ארוחה)	heading for daily data entry item	
+meal_vinegar_short	tweakMealVinegar.short	Incorporate Vinegar (2 tsp with each meal)	שלבו חומץ (2 כפיות בכל ארוחה)		
+meal_vinegar_text	tweakMealVinegar.text	Never drink vinegar straight. Instead, flavor meals or dress a side salad with any of the sweet and savory vinegars out there. If you want to drink it, make sure to mix it in a glass of water and, afterward, be sure to rinse your mouth out with water to protect your tooth enamel.	לעולם אל תשתו חומץ ישירות. במקום זה, הוסיפו טעם לארוחות או הכינו מתבל לסלט עם כל חומץ מתוק וערב לחיך שיש לכם. אם תירצו לשתות אותו, אל תשכחו לערבב אותו בכוס מים ולאחר ששתיתם יש לשטוף את הפה במים כדי למנוע פגיעה באמייל השן		
+meal_water	tweakMealWater.heading	Preload with Water	שתו קודם מים	heading for daily data entry item	
+meal_water_short	tweakMealWater.short	Preload with Water	שתו קודם מים		
+meal_water_text	tweakMealWater.text	Time your metabolism-boosting two cups of cool or cold unflavored water before each meal to also take advantage of its preload benefits.	זמנו את חילוף החומרים שלכם- שתי כוסות מים קרירים או קרים ללא טעמים לפני כל ארוחה כדי ליהנות גם מיתרונות השתייה המוקדמת שלהם.		
+nightly_fast	tweakNightlyFast.heading	Fast After 7:00 pm	צומו לאחר 19:00	heading for daily data entry item	
+nightly_fast_short	tweakNightlyFast.short	Fast After 7:00 p.m.	צומו לאחר 19:00		
+nightly_fast_text	tweakNightlyFast.text	Due to our circadian rhythms, food eaten at night is more fattening than the exact same food eaten earlier in the day, so fast every night for at least twelve hours starting before 7:00 p.m. The fewer calories after sundown, the better.	בשל מקצבי היממה שלנו, אוכל שנאכל בלילה משמין יותר מאותו אוכל בדיוק שנאכל מוקדם יותר ביום, אז צומו כל לילה במשך שתים עשרה שעות לפחות החל מהשעה 19:00. כמה שפחות קלוריות אחרי השקיעה, כך ייטב.		
+nightly_sleep	tweakNightlySleep.heading	Get Sufficient Sleep	שנו מספיק	heading for daily data entry item	
+nightly_sleep_short	tweakNightlySleep.short	Get Sufficient Sleep	שנו מספיק		
+nightly_sleep_text	tweakNightlySleep.text	Check this box if you get at least seven hours of sleep at your regular bedtime.	סמנו תיבה זו אם אתם ישנים לפחות 7 שעות שינה בזמן השינה הרגיל שלכם		
+nightly_trendelenburg	tweakNightlyTrendelenbrug.heading	Experiment with Mild Trendelenburg	התנסו ב-Trendelenburg מתון	heading for daily data entry item	
+nightly_trendelenburg_short	tweakNightlyTrendelenbrug.short	Experiment with Mild Trendelenburg	התנסו ב-Trendelenburg מתון		
+nightly_trendelenburg_text	tweakNightlyTrendelenbrug.text	Try spending at least four hours a night lying with your body tilted head-down six degrees by elevating the posts at the foot of your bed by eight inches (or by nine inches if you have a California king). Be extremely careful when you get out of bed, as this causes orthostatic intolerance in most people, even if you’re young and healthy—meaning if you get up too fast, you can feel dizzy, faint, or light-headed and could fall and hurt yourself. So get up slowly. Drinking two cups of cold water thirty minutes before rising may also help prevent this potentially hazardous side effect.\n\n*IMPORTANT: Do not try this at home at all if you have any heart or lung issues, acid reflux, or problems with your brain (like head trauma) or eyes (even a family history of glaucoma disqualifies you). Also do not try this until you ask your physician if they think it’s safe for you to sleep in mild Trendelenburg.*	נסו להקדיש לפחות ארבע שעות בלילה בשכיבה כשגופכם מוטה ראש כלפי מטה שש מעלות על ידי הרמת העמודים למרגלות המיטה בשמונה סנטימטרים (או תשעה סנטימטרים אם יש לכם California king). היזהרו במיוחד כאשר אתם קמים מהמיטה, מכיוון שזה גורם לחוסר סובלנות אורתוסטטית אצל רוב האנשים, גם אם אתם צעירים ובריאים-כלומר, אם אתם קמים מהר מדי, אתם יכולים להרגיש סחרחורת, חולשה או ראש קל ועלולים ליפול ולפגוע בעצמכם. אז קומו לאט. שתיית שתי כוסות מים קרים שלושים דקות לפני שקמים עשויה לסייע גם במניעת תופעת לוואי זו שעלולה להיות מסוכנת. *חשוב: אל תנסו זאת בבית כלל אם יש לכם בעיות לב או ריאה, ריפלוקס חומצי או בעיות במוח (כמו טראומת ראש) או עיניים (אפילו היסטוריה משפחתית של גלאוקומה פוסלת אתכם). גם אל תנסו את זה עד שתשאלו את הרופא שלכם אם הוא חושב שזה בטוח לכם לישון בטרנדלנבורג מתון*		
+weigh_twice	tweakWeightTwice.heading	Weigh Yourself Twice a Day	שיקלו את עצמכם פעמיים ביום	heading for daily data entry item	
+weigh_twice_short	tweakWeightTwice.short	Weigh Yourself Twice a Day	שיקלו את עצמכם פעמיים ביום		
+weigh_twice_text	tweakWeightTwice.text	Regular self-weighing is considered crucial for long-term weight control, but there is insufficient evidence to support a specific frequency of weighing. My recommendation is based on the one study that found that twice daily—upon waking and right before bed—appeared superior to once a day (about six versus two pounds of weight loss over twelve weeks).	שקילה עצמית סדירה נחשבת מכרעת לבקרת משקל ארוכת טווח, אך אין מספיק הוכחות לתמיכה בתדירות שקילה מסוימת. ההמלצה שלי מבוססת על המחקר האחד שמצא כי פעמיים ביום - כשמתעוררים ומיד לפני השינה - נראית עדיפה על פעם ביום (כששה לעומת שני קילוגרמים של ירידה במשקל במשך שנים עשר שבועות).		
+units	units_label	Units	יחידות		
+imperial	unitToggle.imperial	Imperial	אימפריאלי	Units toggle button text: imperial measurement system	
+metric	unitToggle.metric	Metric	מטרי	Units toggle button text: metric measurement system	
+videos	videos.link.label	Videos	סרטונים	Label for hyperlink to nutritionfacts.org video topics	
+	weight_entry_clear	Clear	נקה	Weight Daily Entry: clear button which deletes values	
+	weight_entry_evening	Evening (right before bed)	ערב (מיד לפני השינה)	Weight Daily Entry: label	
+	weight_entry_morning	Morning (upon waking)	בוקר (בזמן הליכה)	Weight Daily Entry: label	
+	weight_entry_time	Time	זמן	Weight Daily Entry: label	
+	weight_entry_units_kg	kg	ק״ג	Weight Daily Entry Units: label	
+	weight_entry_units_lbs	lbs	פאונד	Weight Daily Entry Units: label	
+	weight_history_edit_data	Edit Data	ערוך נתונים	Weight Daily Entry: edit button to change values	
+weight	weightEntry.heading	Weight	משקל	Weight Daily Entry: heading	
+about_text_lines.0		This app was created by John Slavick.	אפליקציה זו נוצרה ע״י ג'והן סלביק		
+about_text_lines.1					
+about_text_lines.2		The following open source libraries are used: ActiveAndroid, android-iconify, EventBus, LikeAnimation, and MPAndroidChart.	נעשה שימוש בספריות הקוד הפתוחות הבאות: ActiveAndroid, android-iconify, ButterKnife, EventBus, LikeAnimation ו- MPAndroidChart.		
+about_text_lines.3					
+about_text_lines.4		Special thanks to the volunteer efforts of the creators of the previous app: Chan Kruse, Allan Portera, and Sangeeta Kumar.	תודה מיוחדת למאמצי ההתנדבות של יוצרי האפליקציה הקודמת: צ'אן קרוזה, אלן פורטרה וסנג'טה קומאר ״.		
+about_tweak		About Tweak	לגבי כוונון		
+average_weight_on_day		Average weight on day	המשקל הממוצע ביום		
+backup		Backup	גיבוי		
+backup_failed		Backup failed	הגיבוי נכשל		
+backup_instructions_lines.0		Follow these steps to restore this backup in the Daily Dozen app	בצע את השלבים הבאים כדי לשחזר גיבוי זה באפליקציית ״התריסר היומי״		
+backup_instructions_lines.1					
+backup_instructions_lines.2		1. The Daily Dozen app must be installed on your Android phone. You can download it here: https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen	1. יש להתקין את אפליקציית Daily Dozen בטלפון Android שלכם. אתם יכולים להוריד אותה כאן: https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen		
+backup_instructions_lines.3					
+backup_instructions_lines.4		2. Tap on the backup file attached to this email.	2. הקישו על קובץ הגיבוי המצורף לדוא״ל זה.		
+backup_instructions_lines.5					
+backup_instructions_lines.6		3. Select Open with Daily Dozen	3. בחרו ״פתח עם התריסר היומי״		
+backup_success		Backup successful	הגיבוי הצליח		
+channel_reminders_name		Reminders	תזכורות		
+daily_reminder_settings		Daily Reminder Settings	הגדרות תזכורת יומית	a reminder that is triggered every day	
+daily_reminder_title		Daily Dozen Reminder	תזכורת של התריסר היומי		
+daily_servings_history		Daily Servings History	היסטוריית מנות יומית		
+daily_tweaks_history		Daily Tweaks History	הסטוריית כוונונים יומית		
+debug		Debug	ניפוי תכנה		
+debug_clear_data		Clear all data	נקו את כל הנתונים		
+debug_clear_data_message		This will delete all entered Servings. Do you wish to continue?	פעולה זו תמחק את כל המנות שהוזנו. האם אתם רוצים להמשיך?		
+debug_generate_data_message		All existing data will be replaced. Do you wish to continue?	כל הנתונים הקיימים יוחלפו. האם אתם רוצים להמשיך?		
+debug_generate_full_data		Generate full data	יצירת נתונים מלאים		
+debug_generate_random_data		Generate random data	יצירת נתונים אקראיים		
+debug_generate_weight_data		Generate Weight Data	יצירת נתוני משקל		
+dialog_ask_user_to_rate_app_message		Please give us feedback in the Play Store.	אנא תנו לנו משוב בחנות Play.		
+dialog_ask_user_to_rate_app_title		Do you like this app?	האם אתם אוהבים את האפליקציה הזו?		
+dialog_no_email_apps_message		Backing up your data requires you to have an email app installed so you can email the backup file to yourself. Please install an email app and try again.	גיבוי הנתונים שלכם מחייב התקנת יישום דוא״ל כדי שתוכלו לשלוח לעצמכם את קובץ הגיבוי בדוא״ל. התקן יישום דוא״ל ונסה שוב.		
+dialog_no_email_apps_title		No email apps found	לא נמצאה אפליקציית email		
+dialog_streaks_message		Your database will now be upgraded to support the new streaks feature.	מסד הנתונים שלכם ישודרג כעת לתמיכה בתכונת ההתקדמות החדשה.		
+dialog_streaks_title		New feature: Streaks!	תכונה חדשה: התקדמות!		
+enable_daily_reminder		Enable Daily Reminder	אפשר תזכורות יומיות	On/Off toggle label	
+error_cannot_handle_url		Could not open url. Please install a browser.	לא ניתן היה לפתוח את כתובת האתר. אנא התקן דפדפן.		
+food_history		Food History	הסטוריית המזון		
+food_info		Food Info	מידע על מזון		
+format_version		version %s	גירסה %s	Place `%s` where the software should substitue in the version number.	
+history_to_generate		History to Generate	היסטוריה לייצוא		
+history_to_generate_choices.0		1 month	חודש 1		
+history_to_generate_choices.1		3 months	3 חודשים		
+history_to_generate_choices.2		6 months	6 חודשים		
+history_to_generate_choices.3		1 year	שנה אחת		
+history_to_generate_choices.4		2 years	שנתיים		
+history_to_generate_choices.5		5 years	5 שנים		
+no		No	לא		
+no_servings_recorded		You have not recorded any servings yet!	טרם תעדתם מנה כלשהי!		
+no_weights_recorded		You have not recorded any weights yet!	טרם תעדתם משקל כלשהו!		
+not_now		Not Now	לא עכשיו		
+out_of		out of	מתוך	Part of ‘0 out of 24’	
+permission_needed_to_write_storage		Can’t backup without permission to write to storage	לא ניתן לגבות ללא הרשאה לכתיבה לאחסון		
+rate_now		Give Feedback	תנו משוב		
+restore_confirm_message		Any existing data will be deleted before restoring from backup. Do you wish to continue?	כל הנתונים הקיימים יימחקו לפני שחזורם מהגיבוי. האם אתם רוצים להמשיך?		
+restore_confirm_title		Restore Backup	שחזרו גיבוי		
+restore_failed		Restore failed	שחזור נכשל		
+restore_success		Restore successful	שחזור הצליח		
+task_backup_title		Backing up	מגבה		
+task_calculating_streaks_title		Calculating streaks	מחשב התקדמות	:WIP: progress	
+task_generating_random_data		Generating random data	מייצר מידע אקראי		
+task_loading_servings_history_title		Loading Servings History	טוען הסטוריית מנות		
+task_loading_weights_history_title		Loading Weights History	טוען הסטוריית משקלים		
+task_restore_title		Restoring	מאחזר		
+title_cookbook		Cookbook	ספר בישול		
+title_how_not_to_die		How Not to Die	״איך לא למות״		
+title_how_not_to_diet		How Not to Diet	״איך לא לעשות דיאטה״		
+tweak_group_daily		Every Day	כל יום		
+tweak_group_dailydoses		Take your daily doses	קחו את המנות היומיות שלכם		
+tweak_group_meal		At Each Meal	בכל ארוחה		
+tweak_group_nightly		Every Night	כל לילה		
+yes		Yes	כן		
