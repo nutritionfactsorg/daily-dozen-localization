@@ -1,0 +1,30 @@
+key_droid	key_apple	base_value	lang_value	base_note	lang_note
+	apple_store_description.0	Keep track of the foods recommended by Dr. Greger in his New York Times Bestselling book, “How Not to Die”, and now his new book, “How Not to Diet”.	記錄葛雷格醫師在他的紐約時報暢銷書《食療聖經》中推薦的食物，以及他的新書《食療聖經減重版》中的建議。	Use language-applicable quotation marks for book titles.	
+	apple_store_description.1	The 21 Tweaks feature, based on “How Not to Diet”, also provides a weight tracker. The weight tracker can use HealthKit to either save manually entered weight values or to read weight data from HealthKit enabled scales.	《食療聖經減重版》中的21招功能還包括了一個體重追踪器。這個體重追踪器可以使用HealthKit來保存手動輸入的體重數值，或從支持HealthKit的體重秤讀取體重數據。	Use language-applicable quotation marks for book titles.	
+	apple_store_description.2	In the years of research required to create the more than two-thousand evidence-based videos on his website NutritionFacts.org, Michael Greger, M.D, FACLM, has arrived at a list of what he considers the most important foods to include in a healthy daily diet.	在為他的網站NutritionFacts.org創建超過一千個基於實證的影片所需的多年研究中，葛雷格醫師得出了他認為在健康日常飲食中應包含的最重要食物的清單。		
+	apple_store_description.3	Dr. Greger’s Daily Dozen details the healthiest foods and how many servings of each we should try to check off every day. He explains his rationale in his book “How Not to Die”.	葛雷格醫師的「每日12清單」詳細介紹了最健康的食物，以及我們每天應該努力攝取的每種食物的份量。他在他的著作《食療聖經》中解釋了其理由。	Use language-applicable quotation marks for book titles.	
+	apple_store_description.4	All the proceeds from his books, DVDs, and speaking engagements are all donated to charity.	他的所有書籍、DVD和演講的收益都捐贈給了慈善機構。		
+	apple_store_description.5	NutritionFacts.org is a non-commercial, non-profit, science-based public service provided by Dr. Greger, delivering free daily updates on the latest in nutrition research via bite-sized videos. He has more than two-thousand videos on every aspect of healthy eating, with new videos and articles uploaded every day.	NutritionFacts.org是由葛雷格醫師提供的非商業性、非營利性、基於科學的公共服務。該網站每天提供最新營養研究的免費更新，內容通過簡短的影片呈現。網站上有上千個關於健康飲食各個方面的影片，並且每天都有新的影片和文章上傳。		
+	apple_store_description.6	Like this app, everything on the website is both free of ads and free of charge.	與此應用程序一樣，該網站上的所有內容都不含廣告且免費。		
+	apple_store_description.7	Application level language selection, via Settings, requires iOS 13 or newer.	應用程序級別的語言選擇在「設定」中，需要 iOS 13或更新版本。		
+	apple_store_promotion	Check out the Daily Dozen’s brand new functionality! Includes 21 Tweaks from the new book, “How Not to Diet”.	查看「每日12清單」全新功能！包括來自新書《食療聖經減重版》的 21 招。	Use language-applicable quotation marks for book titles.	
+	apple_store_subtitle	NutritionFacts.org	NutritionFacts.org	Must be a maximum of 30 characters	
+android_store_title	apple_store_title	Dr. Greger’s Daily Dozen	葛雷格醫師的每日12清單	Must be a maximum of 30 characters	
+	apple_store_whatsnew	Adds language support for language_name_here.	新增對繁體中文的語言支持。	Replace language_name_here with the translated language name for this translation.	
+android_store_whatsnew_analytics	apple_store_whatsnew_analytics	Adds anonymous opt-in analytics to support product improvement.	添加匿名選擇加入分析以支持產品改進。	What's New Item	
+	apple_store_whatsnew_darkmode	Adds support for Dark Mode.	添加對深色模式的支持。	What's New Item	
+	apple_store_whatsnew_export	Adds support to export history data.	添加對導出歷史數據的支持。	What's New Item	
+android_store_whatsnew_faq	apple_store_whatsnew_faq	Adds Frequently Asked Questions (FAQ)	添加常見問題	What's New Item	Add Frequently Asked Questions (FAQ)
+	apple_store_whatsnew_import	Adds support to import history data.	添加對導入歷史數據的支持。	What's New Item	
+android_store_whatsnew_improvement	apple_store_whatsnew_improvement	General software quality improvements.	一般軟體品質改善。	What's New Item	
+store_keywords	store_keywords	vegan, nutrition, food, vegetarian, health, healthy	純素食、營養、食物、蛋奶素、健康、健康飲食		
+store_screen.0	store_screen.0	Eat. Track. Repeat. No calorie counting or macro tracking required.	食用。記錄。重複。無需計算卡路里或追踪營養素。		
+store_screen.1	store_screen.1	All for free!	完全免費！		
+store_screen.2	store_screen.2	Eat delicious meals that include Daily Dozen foods.	享用包含每日12清單的美味餐點。		
+store_screen.3	store_screen.3	Track your daily servings in the app.	在應用程式中追蹤您每天的份量。		
+store_screen.4	store_screen.4	Repeat until healthy eating becomes second nature.	重複進行，直到健康飲食成為第二天性。		
+store_screen.5	store_screen.5	Dr. Greger’s Daily Dozen - It’s your regular routine that determines your long-term health. Download today!	「葛雷格醫師的每日12清單」是您的日常習慣決定了您的長期健康。今天就下載吧！		
+android_store_description.0		Dr. Greger’s Daily Dozen details the healthiest foods and how many servings of each we should try to check off every day from his book “How Not Die”—now including the 21 Tweaks from “How Not to Diet”—weight-loss accelerators to help maximize our natural fat-burning capabilities.	葛雷格醫師的「每日12清單」詳細列出了健康食品及其每天應試圖攝入的份量，這些內容源於他的著作《食療聖經》。現在還包括了來自《食療聖經｜減重版》的21招——這是一些加速減重的方法，旨在幫助最大化我們自然的脂肪燃燒能力。	Use language-applicable quotation marks for book titles.	
+android_store_description.1		All proceeds from his books, DVDs, and speaking engagements are donated to charity.	他的所有書籍、DVD和演講的收益都捐贈給了慈善機構。		
+android_store_description.2		NutritionFacts.org is a non-commercial, non-profit, science-based public service provided by Dr. Greger, delivering free daily updates on the latest in nutrition research via bite-sized videos. He has more than two-thousand videos on every aspect of healthy eating, with new videos and articles uploaded every day. Like this app, everything on the website is both free of ads and free of charge.	NutritionFacts.org是由葛雷格醫師提供的非商業性、非營利性、基於科學的公共服務。該網站每天提供最新營養研究的免費更新，內容通過簡短的影片呈現。網站上有上千個關於健康飲食各個方面的影片，並且每天都有新的影片和文章上傳。與此應用程序一樣，該網站上的所有內容都不含廣告且免費。		
+android_store_whatsnew		Adds language support for language_name_here.	新增對繁體中文的語言支持。	Replace language_name_here with the translated language name for this translation.	

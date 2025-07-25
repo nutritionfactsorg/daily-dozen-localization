@@ -1,0 +1,560 @@
+key_droid	key_apple	base_value	lang_value	base_note	lang_note
+	CFBundleDisplayName	DailyDozen	DailyDozen	User-visible application name. Visible under icon. Used by Siri.	
+	CFBundleName	DailyDozen	DailyDozen	User-visible application short name (15 Characters max)	
+back_to_today	dateBackButtonTitle	Back to today	Zurück zu heute	Date Button Title: ‘Back to today’	
+	dateButtonTitle.today	Today	Heute	Date Button Title: ‘Today’	
+serving_sizes	doze_detail_section_sizes	Serving Sizes (Suggested)	Portionsgröße (empfohlen)	Doze Detail View subheading: ‘Serving Sizes’	
+types	doze_detail_section_types	Types	Arten	Doze Detail View subheading: ‘Types’	
+servings	doze_entry_header	Servings	Portionen	Doze Entry View heading: ‘Servings’	
+beans	dozeBeans.heading	Beans	Bohnen	heading for daily data entry item	
+food_info_serving_sizes_beans_imperial.0	dozeBeans.Serving.imperial.0	¼ cup hummus or bean dip	¼ Tasse Hummus oder Bohnendip		
+food_info_serving_sizes_beans_imperial.1	dozeBeans.Serving.imperial.1	½ cup cooked beans, split peas, or lentils	½ Tasse gekochte Bohnen, Erbsen oder Linsen		
+food_info_serving_sizes_beans_imperial.2	dozeBeans.Serving.imperial.2	⅓ cup tofu or tempeh	½ Tasse Tofu oder Tempeh		
+food_info_serving_sizes_beans_imperial.3	dozeBeans.Serving.imperial.3	1 cup fresh peas or sprouted lentils	1 Tasse frische Erbsen oder Zuckererbsen		
+food_info_serving_sizes_beans_metric.0	dozeBeans.Serving.metric.0	70 g hummus or bean dip	60 Gramm Hummus oder Bohnendip		
+food_info_serving_sizes_beans_metric.1	dozeBeans.Serving.metric.1	100 g cooked beans, split peas, or lentils	90 Gramm gekochte Bohnen, Erbsen oder Linsen		
+food_info_serving_sizes_beans_metric.2	dozeBeans.Serving.metric.2	80 g tofu or tempeh	100 Gramm Tofu oder Tempeh		
+food_info_serving_sizes_beans_metric.3	dozeBeans.Serving.metric.3	100 g fresh peas or sprouted lentils	130 Gramm frische Erbsen oder Zuckererbsen		
+food_info_types_beans.0	dozeBeans.Variety.Text.0	Black beans	Schwarze Bohnen		
+food_info_types_beans.1	dozeBeans.Variety.Text.1	Black-eyed peas	Schwarzäugige Erbsen (Bohnen)		
+food_info_types_beans.2	dozeBeans.Variety.Text.2	Butter beans	Butterbohnen (Wachsbohnen)		
+food_info_types_beans.3	dozeBeans.Variety.Text.3	Cannellini beans	Cannelini Bohnen		
+food_info_types_beans.4	dozeBeans.Variety.Text.4	Chickpeas/Garbanzo Beans	Kichererbsen		
+food_info_types_beans.5	dozeBeans.Variety.Text.5	Edamame	Edamame (grüne Sojabohnen)		
+food_info_types_beans.6	dozeBeans.Variety.Text.6	English peas	Grüne Erbsen		
+food_info_types_beans.7	dozeBeans.Variety.Text.7	Great northern beans	Dicke Bohnen		
+food_info_types_beans.8	dozeBeans.Variety.Text.8	Kidney beans	Kidneybohnen		
+food_info_types_beans.9	dozeBeans.Variety.Text.9	Lentils (beluga, french, and red varieties)	Linsen (Beluga, Puy, rote Sorten)		
+food_info_types_beans.10	dozeBeans.Variety.Text.10	Navy beans	Marinebohnen (Michigan Erbse)		
+food_info_types_beans.11	dozeBeans.Variety.Text.11	Pinto beans	Pintobohnen		
+food_info_types_beans.12	dozeBeans.Variety.Text.12	Small red beans	Kleine rote Bohnen		
+food_info_types_beans.13	dozeBeans.Variety.Text.13	Split peas (yellow or green)	Spalterbsen (gelb oder grün)		
+food_info_types_beans.14	dozeBeans.Variety.Text.14	Tempeh	Tempeh		
+berries	dozeBerries.heading	Berries	Beeren	heading for daily data entry item	
+food_info_serving_sizes_berries_imperial.0	dozeBerries.Serving.imperial.0	½ cup fresh or frozen	½ Tasse frisch oder gefroren		
+food_info_serving_sizes_berries_imperial.1	dozeBerries.Serving.imperial.1	¼ cup dried	¼ Tasse getrocknet		
+food_info_serving_sizes_berries_metric.0	dozeBerries.Serving.metric.0	70 g fresh or frozen	60g frisch oder gefroren		
+food_info_serving_sizes_berries_metric.1	dozeBerries.Serving.metric.1	40 g dried	40g getrocknet		
+food_info_types_berries.0	dozeBerries.Variety.Text.0	Acai berries	Acai Beeren		
+food_info_types_berries.1	dozeBerries.Variety.Text.1	Barberries	Berberitzen		
+food_info_types_berries.2	dozeBerries.Variety.Text.2	Blackberries	Brombeeren		
+food_info_types_berries.3	dozeBerries.Variety.Text.3	Blueberries	Blaubeeren		
+food_info_types_berries.4	dozeBerries.Variety.Text.4	Cherries (sweet or tart)	Kirschen (süß oder sauer)		
+food_info_types_berries.5	dozeBerries.Variety.Text.5	Concord grapes	Blaue Trauben		
+food_info_types_berries.6	dozeBerries.Variety.Text.6	Cranberries	Preiselbeeren		
+food_info_types_berries.7	dozeBerries.Variety.Text.7	Goji berries	Gojibeeren		
+food_info_types_berries.8	dozeBerries.Variety.Text.8	Kumquats	Kumquats		
+food_info_types_berries.9	dozeBerries.Variety.Text.9	Mulberries	Maulbeeen		
+food_info_types_berries.10	dozeBerries.Variety.Text.10	Raspberries (black or red)	Himbeeren		
+food_info_types_berries.11	dozeBerries.Variety.Text.11	Strawberries	Erdbeeren		
+beverages	dozeBeverages.heading	Beverages	Getränke	heading for daily data entry item	
+food_info_serving_sizes_beverages_imperial.0	dozeBeverages.Serving.imperial.0	One glass (12 ounces)	1½ Gläser (12 Unzen)		
+food_info_serving_sizes_beverages_metric.0	dozeBeverages.Serving.metric.0	One glass (350 ml)	1½ Gläser (350ml)		
+food_info_types_beverages.0	dozeBeverages.Variety.Text.0	Black tea	Schwarzer Tee		
+food_info_types_beverages.1	dozeBeverages.Variety.Text.1	Chai tea	Chai Tee		
+food_info_types_beverages.2	dozeBeverages.Variety.Text.2	Vanilla chamomile tea	Vanille-Kamilletee		
+food_info_types_beverages.3	dozeBeverages.Variety.Text.3	Coffee	Kaffee		
+food_info_types_beverages.4	dozeBeverages.Variety.Text.4	Earl grey tea	Earl Grey Tee		
+food_info_types_beverages.5	dozeBeverages.Variety.Text.5	Green tea	Grüner Tee		
+food_info_types_beverages.6	dozeBeverages.Variety.Text.6	Hibiscus tea	Hibiskustee		
+food_info_types_beverages.7	dozeBeverages.Variety.Text.7	Jasmine tea	Jasmintee		
+food_info_types_beverages.8	dozeBeverages.Variety.Text.8	Lemon balm tea	Zitronenmelisse-Tee		
+food_info_types_beverages.9	dozeBeverages.Variety.Text.9	Matcha tea	Matcha Tee		
+food_info_types_beverages.10	dozeBeverages.Variety.Text.10	Almond blossom oolong tea	Mandelblüten Oolong-Tee		
+food_info_types_beverages.11	dozeBeverages.Variety.Text.11	Peppermint tea	Pfefferminztee		
+food_info_types_beverages.12	dozeBeverages.Variety.Text.12	Rooibos tea	Rooibos (Rotbusch) Tee		
+food_info_types_beverages.13	dozeBeverages.Variety.Text.13	Water	Wasser		
+food_info_types_beverages.14	dozeBeverages.Variety.Text.14	White tea	Weißer Tee		
+exercise	dozeExercise.heading	Exercise	Bewegung	heading for daily data entry item	
+food_info_serving_sizes_exercise_imperial.0	dozeExercise.Serving.imperial.0	90 minutes of moderate-intensity activity	90 Minuten Aktivität mit mäßiger Intensität		
+food_info_serving_sizes_exercise_imperial.1	dozeExercise.Serving.imperial.1	40 minutes of vigorous-intensity activity	40 Minuten Aktivität mit hoher Intensität		
+food_info_serving_sizes_exercise_metric.0	dozeExercise.Serving.metric.0	90 minutes of moderate-intensity activity	90 Minuten Aktivität mit mäßiger Intensität		
+food_info_serving_sizes_exercise_metric.1	dozeExercise.Serving.metric.1	40 minutes of vigorous-intensity activity	40 Minuten Aktivität mit hoher Intensität		
+food_info_types_exercise.0	dozeExercise.Variety.Text.0	Bicycling	Radfahren		
+food_info_types_exercise.1	dozeExercise.Variety.Text.1	Canoeing	Kanufahren		
+food_info_types_exercise.2	dozeExercise.Variety.Text.2	Dancing	Tanzen		
+food_info_types_exercise.3	dozeExercise.Variety.Text.3	Dodgeball	Völkerball		
+food_info_types_exercise.4	dozeExercise.Variety.Text.4	Downhill skiing	Ski Alpin (Abfahrtslauf)		
+food_info_types_exercise.5	dozeExercise.Variety.Text.5	Fencing	Fechten		
+food_info_types_exercise.6	dozeExercise.Variety.Text.6	Hiking	Wandern		
+food_info_types_exercise.7	dozeExercise.Variety.Text.7	Housework	Hausarbeit		
+food_info_types_exercise.8	dozeExercise.Variety.Text.8	Ice-skating	Schlittschuhlaufen		
+food_info_types_exercise.9	dozeExercise.Variety.Text.9	Inline skating	Inline-Skating		
+food_info_types_exercise.10	dozeExercise.Variety.Text.10	Juggling	Jonglieren		
+food_info_types_exercise.11	dozeExercise.Variety.Text.11	Jumping on a trampoline	Jonglieren auf einem Trampolin		
+food_info_types_exercise.12	dozeExercise.Variety.Text.12	Paddle boating	Paddelbootfahren		
+food_info_types_exercise.13	dozeExercise.Variety.Text.13	Playing frisbee	Frisbee spielen		
+food_info_types_exercise.14	dozeExercise.Variety.Text.14	Roller-skating	Rollschuhlaufen		
+food_info_types_exercise.15	dozeExercise.Variety.Text.15	Shooting baskets	Körbe werfen		
+food_info_types_exercise.16	dozeExercise.Variety.Text.16	Shoveling light snow	Leichten Schnee schippen		
+food_info_types_exercise.17	dozeExercise.Variety.Text.17	Skateboarding	Skateboardfahren		
+food_info_types_exercise.18	dozeExercise.Variety.Text.18	Snorkeling	Schnorcheln		
+food_info_types_exercise.19	dozeExercise.Variety.Text.19	Surfing	Wellenreiten		
+food_info_types_exercise.20	dozeExercise.Variety.Text.20	Swimming recreationally	Schwimmen als Freizeitbeschäftigung		
+food_info_types_exercise.21	dozeExercise.Variety.Text.21	Tennis (doubles)	Tennis (Doppel)		
+food_info_types_exercise.22	dozeExercise.Variety.Text.22	Treading water	Wassertreten		
+food_info_types_exercise.23	dozeExercise.Variety.Text.23	Walking briskly (4 mph)	Zügiges Gehen (6,5 km/h)		
+food_info_types_exercise.24	dozeExercise.Variety.Text.24	Water aerobics	Wassergymnastik		
+food_info_types_exercise.25	dozeExercise.Variety.Text.25	Waterskiing	Wasserskifahren		
+food_info_types_exercise.26	dozeExercise.Variety.Text.26	Yard work	Gartenarbeit		
+food_info_types_exercise.27	dozeExercise.Variety.Text.27	Yoga	Yoga		
+food_info_types_exercise.28	dozeExercise.Variety.Text.28	Backpacking	Rucksackwandern		
+food_info_types_exercise.29	dozeExercise.Variety.Text.29	Basketball	Basketball		
+food_info_types_exercise.30	dozeExercise.Variety.Text.30	Bicycling uphill	Mountainbiking (bergauf)		
+food_info_types_exercise.31	dozeExercise.Variety.Text.31	Circuit weight training	Zirkeltraining mit Gewichten		
+food_info_types_exercise.32	dozeExercise.Variety.Text.32	Cross-country skiing	Skilanglauf		
+food_info_types_exercise.33	dozeExercise.Variety.Text.33	Football	American Football		
+food_info_types_exercise.34	dozeExercise.Variety.Text.34	Hockey	Hockey		
+food_info_types_exercise.35	dozeExercise.Variety.Text.35	Jogging	Jogging		
+food_info_types_exercise.36	dozeExercise.Variety.Text.36	Jumping jacks	Hampelmann		
+food_info_types_exercise.37	dozeExercise.Variety.Text.37	Jumping rope	Seilspringen		
+food_info_types_exercise.38	dozeExercise.Variety.Text.38	Lacrosse	Lacrosse		
+food_info_types_exercise.39	dozeExercise.Variety.Text.39	Push-ups	Liegestütze		
+food_info_types_exercise.40	dozeExercise.Variety.Text.40	Pull-ups	Klimmzüge		
+food_info_types_exercise.41	dozeExercise.Variety.Text.41	Racquetball	Racquetball		
+food_info_types_exercise.42	dozeExercise.Variety.Text.42	Rock climbing	Klettern		
+food_info_types_exercise.43	dozeExercise.Variety.Text.43	Rugby	Rugby		
+food_info_types_exercise.44	dozeExercise.Variety.Text.44	Running	Laufen		
+food_info_types_exercise.45	dozeExercise.Variety.Text.45	Scuba diving	Sporttauchen		
+food_info_types_exercise.46	dozeExercise.Variety.Text.46	Tennis (singles)	Tennis (Einzel)		
+food_info_types_exercise.47	dozeExercise.Variety.Text.47	Soccer	Fußball		
+food_info_types_exercise.48	dozeExercise.Variety.Text.48	Speed skating	Eisschnelllauf		
+food_info_types_exercise.49	dozeExercise.Variety.Text.49	Squash	Squash		
+food_info_types_exercise.50	dozeExercise.Variety.Text.50	Step aerobics	Step-Aerobic		
+food_info_types_exercise.51	dozeExercise.Variety.Text.51	Swimming laps	Bahnen schwimmen		
+food_info_types_exercise.52	dozeExercise.Variety.Text.52	Walking briskly uphill	Zügig bergauf gehen		
+food_info_types_exercise.53	dozeExercise.Variety.Text.53	Water jogging	Wasserjogging		
+flaxseeds	dozeFlaxseeds.heading	Flaxseeds	Leinsamen	heading for daily data entry item	
+food_info_serving_sizes_flaxseeds_imperial.0	dozeFlaxseeds.Serving.imperial.0	1 tablespoon ground	1 Esslöffel gemahlen		
+food_info_serving_sizes_flaxseeds_metric.0	dozeFlaxseeds.Serving.metric.0	1 tablespoon ground	15ml gemahlen		
+food_info_types_flaxseeds.0	dozeFlaxseeds.Variety.Text.0	Brown flaxseeds	Braune Leinsamen		
+food_info_types_flaxseeds.1	dozeFlaxseeds.Variety.Text.1	Golden flaxseeds	Goldleinsamen		
+other_fruits	dozeFruitsOther.heading	Other Fruits	Anderes Obst	heading for daily data entry item	
+food_info_serving_sizes_other_fruits_imperial.0	dozeFruitsOther.Serving.imperial.0	1 medium-sized fruit	1 mittelgroße Frucht		
+food_info_serving_sizes_other_fruits_imperial.1	dozeFruitsOther.Serving.imperial.1	1 cup cut-up fruit	1 Tasse geschnittene Früchte		
+food_info_serving_sizes_other_fruits_imperial.2	dozeFruitsOther.Serving.imperial.2	¼ cup dried fruit	¼ Tasse getrocknete Früchte		
+food_info_serving_sizes_other_fruits_metric.0	dozeFruitsOther.Serving.metric.0	1 medium-sized fruit	1 mittelgroße Frucht		
+food_info_serving_sizes_other_fruits_metric.1	dozeFruitsOther.Serving.metric.1	150 g cut-up fruit	120g geschnittene Früchte		
+food_info_serving_sizes_other_fruits_metric.2	dozeFruitsOther.Serving.metric.2	40 g dried fruit	60g getrocknete Früchte		
+food_info_types_other_fruits.0	dozeFruitsOther.Variety.Text.0	Apples	Äpfel		
+food_info_types_other_fruits.1	dozeFruitsOther.Variety.Text.1	Apricots	Getrocknete Aprikosen		
+food_info_types_other_fruits.2	dozeFruitsOther.Variety.Text.2	Avocados	Avocados		
+food_info_types_other_fruits.3	dozeFruitsOther.Variety.Text.3	Bananas	Bananen		
+food_info_types_other_fruits.4	dozeFruitsOther.Variety.Text.4	Cantaloupe	Cantaloupe Melone		
+food_info_types_other_fruits.5	dozeFruitsOther.Variety.Text.5	Clementines	Klementinen		
+food_info_types_other_fruits.6	dozeFruitsOther.Variety.Text.6	Dates	Datteln		
+food_info_types_other_fruits.7	dozeFruitsOther.Variety.Text.7	Figs	Getrocknete Feigen		
+food_info_types_other_fruits.8	dozeFruitsOther.Variety.Text.8	Grapefruit	Grapefruit		
+food_info_types_other_fruits.9	dozeFruitsOther.Variety.Text.9	Honeydew	Honigmelone		
+food_info_types_other_fruits.10	dozeFruitsOther.Variety.Text.10	Kiwifruit	Kiwi		
+food_info_types_other_fruits.11	dozeFruitsOther.Variety.Text.11	Lemons	Zitronen		
+food_info_types_other_fruits.12	dozeFruitsOther.Variety.Text.12	Limes	Limetten		
+food_info_types_other_fruits.13	dozeFruitsOther.Variety.Text.13	Lychees	Lychees		
+food_info_types_other_fruits.14	dozeFruitsOther.Variety.Text.14	Mangos	Mangos		
+food_info_types_other_fruits.15	dozeFruitsOther.Variety.Text.15	Nectarines	Nektarinen		
+food_info_types_other_fruits.16	dozeFruitsOther.Variety.Text.16	Oranges	Orangen		
+food_info_types_other_fruits.17	dozeFruitsOther.Variety.Text.17	Papaya	Papaya		
+food_info_types_other_fruits.18	dozeFruitsOther.Variety.Text.18	Passion fruit	Passionsfrüchte		
+food_info_types_other_fruits.19	dozeFruitsOther.Variety.Text.19	Peaches	Pfirsiche		
+food_info_types_other_fruits.20	dozeFruitsOther.Variety.Text.20	Pears	Birnen		
+food_info_types_other_fruits.21	dozeFruitsOther.Variety.Text.21	Pineapple	Ananas		
+food_info_types_other_fruits.22	dozeFruitsOther.Variety.Text.22	Plums (especially black plums)	Pflaumen (speziell Schwarzpflaumen)		
+food_info_types_other_fruits.23	dozeFruitsOther.Variety.Text.23	Pluots	Pluots (Kreuzung aus Aprikose und japanischer Pflaume)		
+food_info_types_other_fruits.24	dozeFruitsOther.Variety.Text.24	Pomegranates	Granatäpfel		
+food_info_types_other_fruits.25	dozeFruitsOther.Variety.Text.25	Prunes	Zwetschgen		
+food_info_types_other_fruits.26	dozeFruitsOther.Variety.Text.26	Tangerines	Mandarinen		
+food_info_types_other_fruits.27	dozeFruitsOther.Variety.Text.27	Watermelon	Wassermelone		
+greens	dozeGreens.heading	Greens	Blattgemüse	heading for daily data entry item	
+food_info_serving_sizes_greens_imperial.0	dozeGreens.Serving.imperial.0	1 cup raw	1 Tasse roh		
+food_info_serving_sizes_greens_imperial.1	dozeGreens.Serving.imperial.1	½ cup cooked	½ Tasse gekocht		
+food_info_serving_sizes_greens_metric.0	dozeGreens.Serving.metric.0	60 g raw	60g roh		
+food_info_serving_sizes_greens_metric.1	dozeGreens.Serving.metric.1	90 g cooked	90g gekocht		
+food_info_types_greens.0	dozeGreens.Variety.Text.0	Arugula	Rucola, Rauke		
+food_info_types_greens.1	dozeGreens.Variety.Text.1	Beet greens	Rübengemüse		
+food_info_types_greens.2	dozeGreens.Variety.Text.2	Collard greens	Kohlgemüse		
+food_info_types_greens.3	dozeGreens.Variety.Text.3	Kale (black, green, and red)	Grünkohl, Schwarzkohl		
+food_info_types_greens.4	dozeGreens.Variety.Text.4	Mesclun mix (assorted young salad greens)	Mischsalat (verschiedene junge Salate)		
+food_info_types_greens.5	dozeGreens.Variety.Text.5	Mustard greens	Senfkohl		
+food_info_types_greens.6	dozeGreens.Variety.Text.6	Sorrel	Sauerampfer		
+food_info_types_greens.7	dozeGreens.Variety.Text.7	Spinach	Spinat		
+food_info_types_greens.8	dozeGreens.Variety.Text.8	Swiss chard	Mangold		
+food_info_types_greens.9	dozeGreens.Variety.Text.9	Turnip greens	Kohlrabi		
+nuts	dozeNuts.heading	Nuts and Seeds	Nüsse und Saaten	heading for daily data entry item	
+food_info_serving_sizes_nuts_imperial.0	dozeNuts.Serving.imperial.0	¼ cup nuts or seeds	¼ Tasse Nüsse oder Samen		
+food_info_serving_sizes_nuts_imperial.1	dozeNuts.Serving.imperial.1	2 tablespoons nut or seed butter	2 Esslöffel (30 ml) Nuß- oder Samenmus		
+food_info_serving_sizes_nuts_metric.0	dozeNuts.Serving.metric.0	30 g nuts or seeds	30 g Nüsse oder Samen		
+food_info_serving_sizes_nuts_metric.1	dozeNuts.Serving.metric.1	2 tablespoons nut or seed butter	2 Esslöffel (30 ml) Nuß- oder Samenmus		
+food_info_types_nuts.0	dozeNuts.Variety.Text.0	Almonds	Mandeln		
+food_info_types_nuts.1	dozeNuts.Variety.Text.1	Cashews	Cashew Nüsse		
+food_info_types_nuts.2	dozeNuts.Variety.Text.2	Chia seeds	Chiasamen		
+food_info_types_nuts.3	dozeNuts.Variety.Text.3	Hazelnuts	Haselnüsse		
+food_info_types_nuts.4	dozeNuts.Variety.Text.4	Hemp seeds	Hanfnüsse, -samen		
+food_info_types_nuts.5	dozeNuts.Variety.Text.5	Macadamia nuts	Macadamia-Nüsse		
+food_info_types_nuts.6	dozeNuts.Variety.Text.6	Peanuts	Erdnüsse		
+food_info_types_nuts.7	dozeNuts.Variety.Text.7	Pecans	Pekannüsse		
+food_info_types_nuts.8	dozeNuts.Variety.Text.8	Pistachios	Pistazien		
+food_info_types_nuts.9	dozeNuts.Variety.Text.9	Pumpkin seeds	Kürbiskerne		
+food_info_types_nuts.10	dozeNuts.Variety.Text.10	Sesame seeds	Sesamsamen		
+food_info_types_nuts.11	dozeNuts.Variety.Text.11	Sunflower seeds	Sonnenblumenkerne		
+food_info_types_nuts.12	dozeNuts.Variety.Text.12	Walnuts	Walnüsse		
+OK	dozeOtherInfo.confirm	OK	OK	Daily Dozen supplement info alert: dismissal button text	
+	dozeOtherInfo.message	Vitamin B12 is essential for your health but does not count towards your daily servings.\n\nVitamin B12 is included in this app to provide you with an easy way to track your intake.	Vitamin B12 ist wichtig für die Gesundheit, wird aber nicht auf die tägliche Portion angerechnet.\n\nVitamin B12 ist in dieser App enthalten, um Ihnen eine einfache Möglichkeit zu bieten, Ihre Einnahme zu verfolgen.	Daily Dozen supplement info alert: message	
+	dozeOtherInfo.section	Supplements	Nahrungsergänzungsmittel	Daily Dozen daily entry section heading	
+	dozeOtherInfo.title	Supplements	Nahrungsergänzungsmittel	Daily Dozen supplement info alert: title	
+spices	dozeSpices.heading	Herbs and Spices	Gewürze	heading for daily data entry item	
+food_info_serving_sizes_spices_imperial.0	dozeSpices.Serving.imperial.0	¼ teaspoon of turmeric	¼ Teelöffel (1,2 ml) Kurkuma		
+food_info_serving_sizes_spices_imperial.1	dozeSpices.Serving.imperial.1	Any other (salt-free) herbs and spices you enjoy	Alle anderen (salzfreien) Kräuter und Gewürze, die Sie mögen		
+food_info_serving_sizes_spices_metric.0	dozeSpices.Serving.metric.0	¼ teaspoon of turmeric	¼ Teelöffel (1,2 ml) Kurkuma		
+food_info_serving_sizes_spices_metric.1	dozeSpices.Serving.metric.1	Any other (salt-free) herbs and spices you enjoy	Alle anderen (salzfreien) Kräuter und Gewürze, die Sie mögen		
+food_info_types_spices.0	dozeSpices.Variety.Text.0	Allspice	Piment		
+food_info_types_spices.1	dozeSpices.Variety.Text.1	Barberries	Berberitzen		
+food_info_types_spices.2	dozeSpices.Variety.Text.2	Basil	Basilikum		
+food_info_types_spices.3	dozeSpices.Variety.Text.3	Bay leaves	Lorbeerblätter		
+food_info_types_spices.4	dozeSpices.Variety.Text.4	Cardamom	Kardamom		
+food_info_types_spices.5	dozeSpices.Variety.Text.5	Chili powder	Chilipulver		
+food_info_types_spices.6	dozeSpices.Variety.Text.6	Cilantro	Koriandergrün		
+food_info_types_spices.7	dozeSpices.Variety.Text.7	Cinnamon	Zimt		
+food_info_types_spices.8	dozeSpices.Variety.Text.8	Cloves	Gewürznelken		
+food_info_types_spices.9	dozeSpices.Variety.Text.9	Coriander	Koriander		
+food_info_types_spices.10	dozeSpices.Variety.Text.10	Cumin	Kreuzkümmel		
+food_info_types_spices.11	dozeSpices.Variety.Text.11	Curry powder	Currypulver		
+food_info_types_spices.12	dozeSpices.Variety.Text.12	Dill	Dill		
+food_info_types_spices.13	dozeSpices.Variety.Text.13	Fenugreek	Bockshornklee		
+food_info_types_spices.14	dozeSpices.Variety.Text.14	Garlic	Knoblauch		
+food_info_types_spices.15	dozeSpices.Variety.Text.15	Ginger	Ingwer		
+food_info_types_spices.16	dozeSpices.Variety.Text.16	Horseradish	Meerrettich		
+food_info_types_spices.17	dozeSpices.Variety.Text.17	Lemongrass	Zitronengras		
+food_info_types_spices.18	dozeSpices.Variety.Text.18	Marjoram	Majoran		
+food_info_types_spices.19	dozeSpices.Variety.Text.19	Mustard powder	Senfpulver		
+food_info_types_spices.20	dozeSpices.Variety.Text.20	Nutmeg	Muskatnuss		
+food_info_types_spices.21	dozeSpices.Variety.Text.21	Oregano	Oregano		
+food_info_types_spices.22	dozeSpices.Variety.Text.22	Smoked paprika	geräucherter Paprika		
+food_info_types_spices.23	dozeSpices.Variety.Text.23	Parsley	Petersilie		
+food_info_types_spices.24	dozeSpices.Variety.Text.24	Pepper	Pfeffer		
+food_info_types_spices.25	dozeSpices.Variety.Text.25	Peppermint	Pfefferminze		
+food_info_types_spices.26	dozeSpices.Variety.Text.26	Rosemary	Rosmarin		
+food_info_types_spices.27	dozeSpices.Variety.Text.27	Saffron	Safran		
+food_info_types_spices.28	dozeSpices.Variety.Text.28	Sage	Salbei		
+food_info_types_spices.29	dozeSpices.Variety.Text.29	Thyme	Thymian		
+food_info_types_spices.30	dozeSpices.Variety.Text.30	Turmeric	Kurkuma		
+food_info_types_spices.31	dozeSpices.Variety.Text.31	Vanilla	Vanille		
+cruciferous_vegetables	dozeVegetablesCruciferous.heading	Cruciferous Vegetables	Kreuzblütler-Gemüse	heading for daily data entry item	
+food_info_serving_sizes_cruciferous_vegetables_imperial.0	dozeVegetablesCruciferous.Serving.imperial.0	½ cup cooked leafy vegetables	½ Tasse gehackt		
+food_info_serving_sizes_cruciferous_vegetables_imperial.1	dozeVegetablesCruciferous.Serving.imperial.1	½ cup raw or cooked non-leafy vegetables	½ Tasse Rosenkohl		
+food_info_serving_sizes_cruciferous_vegetables_imperial.2	dozeVegetablesCruciferous.Serving.imperial.2	1 cup raw leafy vegetables	1 cup raw leafy vegetables		
+food_info_serving_sizes_cruciferous_vegetables_imperial.3	dozeVegetablesCruciferous.Serving.imperial.3	¼ cup broccoli sprouts	¼ Tasse Broccolisprossen		
+food_info_serving_sizes_cruciferous_vegetables_imperial.4	dozeVegetablesCruciferous.Serving.imperial.4	1 tablespoon horseradish	1 Eßlöffel Meerrettich		
+food_info_serving_sizes_cruciferous_vegetables_metric.0	dozeVegetablesCruciferous.Serving.metric.0	90 g cooked leafy vegetables	30–80 g gehackt		
+food_info_serving_sizes_cruciferous_vegetables_metric.1	dozeVegetablesCruciferous.Serving.metric.1	60 g raw or cooked non-leafy vegetables	80 g Rosenkohl		
+food_info_serving_sizes_cruciferous_vegetables_metric.2	dozeVegetablesCruciferous.Serving.metric.2	90 g raw leafy vegetables	90 g raw leafy vegetables		
+food_info_serving_sizes_cruciferous_vegetables_metric.3	dozeVegetablesCruciferous.Serving.metric.3	20 g broccoli sprouts	15 g Broccolisprossen		
+food_info_serving_sizes_cruciferous_vegetables_metric.4	dozeVegetablesCruciferous.Serving.metric.4	1 tablespoon horseradish	1 Eßlöffel Meerrettich		
+food_info_types_cruciferous_vegetables.0	dozeVegetablesCruciferous.Variety.Text.0	Arugula	Rucola, Rauke		
+food_info_types_cruciferous_vegetables.1	dozeVegetablesCruciferous.Variety.Text.1	Bok choy	Pak Choi		
+food_info_types_cruciferous_vegetables.2	dozeVegetablesCruciferous.Variety.Text.2	Broccoli (incl. Romanesco)	Brokkoli (auch Romanesco)		
+food_info_types_cruciferous_vegetables.3	dozeVegetablesCruciferous.Variety.Text.3	Brussels sprouts	Rosenkohl		
+food_info_types_cruciferous_vegetables.4	dozeVegetablesCruciferous.Variety.Text.4	Cabbage (green, red and savoy)	Kohl (Weiß-, Rot- und Wirsingkohl)		
+food_info_types_cruciferous_vegetables.5	dozeVegetablesCruciferous.Variety.Text.5	Cauliflower (white, green, orange and purple)	Blumenkohl (weiß, grün, orange und violett)		
+food_info_types_cruciferous_vegetables.6	dozeVegetablesCruciferous.Variety.Text.6	Collard greens	Kohlgemüse		
+food_info_types_cruciferous_vegetables.7	dozeVegetablesCruciferous.Variety.Text.7	Horseradish	Meerrettich		
+food_info_types_cruciferous_vegetables.8	dozeVegetablesCruciferous.Variety.Text.8	Kale (black, green, and red)	Grünkohl, Schwarzkohl		
+food_info_types_cruciferous_vegetables.9	dozeVegetablesCruciferous.Variety.Text.9	Kohlrabi (green and purple)	Kohlrabi (grün und violett)		
+food_info_types_cruciferous_vegetables.10	dozeVegetablesCruciferous.Variety.Text.10	Mustard greens	Senfkohl		
+food_info_types_cruciferous_vegetables.11	dozeVegetablesCruciferous.Variety.Text.11	Radishes	Radieschen		
+food_info_types_cruciferous_vegetables.12	dozeVegetablesCruciferous.Variety.Text.12	Turnip greens	Mairübchen		
+food_info_types_cruciferous_vegetables.13	dozeVegetablesCruciferous.Variety.Text.13	Watercress	Brunnenkresse		
+other_vegetables	dozeVegetablesOther.heading	Other Vegetables	Anderes Gemüse	heading for daily data entry item	
+food_info_serving_sizes_other_vegetables_imperial.0	dozeVegetablesOther.Serving.imperial.0	1 cup raw leafy vegetables	1 Tasse rohes Blattgemüse		
+food_info_serving_sizes_other_vegetables_imperial.1	dozeVegetablesOther.Serving.imperial.1	½ cup raw or cooked nonleafy vegetables	½ Tasse rohes oder gekochtes nicht-blättriges Gemüse		
+food_info_serving_sizes_other_vegetables_imperial.2	dozeVegetablesOther.Serving.imperial.2	½ cup vegetable juice	½ Tasse Gemüsesaft		
+food_info_serving_sizes_other_vegetables_imperial.3	dozeVegetablesOther.Serving.imperial.3	¼ cup dried mushrooms	¼ Tasse getrocknete Pilze		
+food_info_serving_sizes_other_vegetables_metric.0	dozeVegetablesOther.Serving.metric.0	60 g raw leafy vegetables	60 g rohes Blattgemüse		
+food_info_serving_sizes_other_vegetables_metric.1	dozeVegetablesOther.Serving.metric.1	90 g raw or cooked nonleafy vegetables	50 g rohes oder gekochtes nicht-blättriges Gemüse		
+food_info_serving_sizes_other_vegetables_metric.2	dozeVegetablesOther.Serving.metric.2	120 ml vegetable juice	125 ml Gemüsesaft		
+food_info_serving_sizes_other_vegetables_metric.3	dozeVegetablesOther.Serving.metric.3	10 g dried mushrooms	7 g getrocknete Pilze		
+food_info_types_other_vegetables.0	dozeVegetablesOther.Variety.Text.0	Artichokes	Artischocken		
+food_info_types_other_vegetables.1	dozeVegetablesOther.Variety.Text.1	Asparagus	Spargel		
+food_info_types_other_vegetables.2	dozeVegetablesOther.Variety.Text.2	Beets	Rote Beete		
+food_info_types_other_vegetables.3	dozeVegetablesOther.Variety.Text.3	Bell peppers	Glockenpaprika		
+food_info_types_other_vegetables.4	dozeVegetablesOther.Variety.Text.4	Carrots	Karotten, Möhren		
+food_info_types_other_vegetables.5	dozeVegetablesOther.Variety.Text.5	Corn	Mais		
+food_info_types_other_vegetables.6	dozeVegetablesOther.Variety.Text.6	Garlic	Knoblauch		
+food_info_types_other_vegetables.7	dozeVegetablesOther.Variety.Text.7	Mushrooms (button, oyster, porcini, portobello, and shiitake)	Pilze (Champignons, Austern, Portobello und Shiitake)		
+food_info_types_other_vegetables.8	dozeVegetablesOther.Variety.Text.8	Okra	Okraschoten		
+food_info_types_other_vegetables.9	dozeVegetablesOther.Variety.Text.9	Onions	Zwiebeln		
+food_info_types_other_vegetables.10	dozeVegetablesOther.Variety.Text.10	Purple potatoes	Violette Kartoffeln		
+food_info_types_other_vegetables.11	dozeVegetablesOther.Variety.Text.11	Pumpkin	Speisekürbis		
+food_info_types_other_vegetables.12	dozeVegetablesOther.Variety.Text.12	Sea vegetables (arame, dulse, and nori)	Meeresgemüse (Arame, Dulse und Nori)		
+food_info_types_other_vegetables.13	dozeVegetablesOther.Variety.Text.13	Snap peas	Zuckerschoten		
+food_info_types_other_vegetables.14	dozeVegetablesOther.Variety.Text.14	Squash (delicata, summer, and spaghetti squash varieties)	Kürbis (Delikatesskürbis, Sommerkürbis und Spaghettikürbis)		
+food_info_types_other_vegetables.15	dozeVegetablesOther.Variety.Text.15	Sweet potatoes/yams	Süßkartoffeln, Jamswurzeln		
+food_info_types_other_vegetables.16	dozeVegetablesOther.Variety.Text.16	Tomatoes	Tomaten		
+food_info_types_other_vegetables.17	dozeVegetablesOther.Variety.Text.17	Zucchini	Zucchini		
+whole_grains	dozeWholeGrains.heading	Whole Grains	Vollkorn	heading for daily data entry item	
+food_info_serving_sizes_whole_grains_imperial.0	dozeWholeGrains.Serving.imperial.0	½ cup cooked whole grains, whole-wheat pasta, or corn kernels	½ Tasse Getreideflockenbrei oder gekochte Körner, Nudeln oder Maiskörner		
+food_info_serving_sizes_whole_grains_imperial.1	dozeWholeGrains.Serving.imperial.1	1 cup 100% whole grain cold cereal	1 Tasse Getreideflocken		
+food_info_serving_sizes_whole_grains_imperial.2	dozeWholeGrains.Serving.imperial.2	1 100% whole grain tortilla (or 2 smaller corn tortillas)	1 100% whole grain tortilla (or 2 smaller corn tortillas)		
+food_info_serving_sizes_whole_grains_imperial.3	dozeWholeGrains.Serving.imperial.3	1 slice of 100% whole grain bread	1 Tortilla oder 1 Scheibe Brot		
+food_info_serving_sizes_whole_grains_imperial.4	dozeWholeGrains.Serving.imperial.4	½ bagel or English muffin	½ Bagel oder ½ Englischer Muffin		
+food_info_serving_sizes_whole_grains_imperial.5	dozeWholeGrains.Serving.imperial.5	3 cups popped popcorn	3 Tassen Popcorn		
+food_info_serving_sizes_whole_grains_metric.0	dozeWholeGrains.Serving.metric.0	100 g cooked whole grains, whole-wheat pasta, or corn kernels	100 g Getreideflockenbrei oder gekochte Körner, Nudeln oder Maiskörner		
+food_info_serving_sizes_whole_grains_metric.1	dozeWholeGrains.Serving.metric.1	50 g 100% whole grain cold cereal	50 g Getreideflocken		
+food_info_serving_sizes_whole_grains_metric.2	dozeWholeGrains.Serving.metric.2	1 100% whole grain tortilla (or 2 smaller corn tortillas)	1 100% whole grain tortilla (or 2 smaller corn tortillas)		
+food_info_serving_sizes_whole_grains_metric.3	dozeWholeGrains.Serving.metric.3	1 slice of 100% whole grain bread	1 Tortilla oder 1 Scheibe Brot		
+food_info_serving_sizes_whole_grains_metric.4	dozeWholeGrains.Serving.metric.4	½ bagel or English muffin	½ Bagel oder ½ Englischer Muffin		
+food_info_serving_sizes_whole_grains_metric.5	dozeWholeGrains.Serving.metric.5	30 g popped popcorn	30 g Popcorn		
+food_info_types_whole_grains.0	dozeWholeGrains.Variety.Text.0	Barley	Gerste		
+food_info_types_whole_grains.1	dozeWholeGrains.Variety.Text.1	Buckwheat	Buchweizen		
+food_info_types_whole_grains.2	dozeWholeGrains.Variety.Text.2	Millet	Hirse		
+food_info_types_whole_grains.3	dozeWholeGrains.Variety.Text.3	Oats	Hafer		
+food_info_types_whole_grains.4	dozeWholeGrains.Variety.Text.4	Popcorn	Popcorn		
+food_info_types_whole_grains.5	dozeWholeGrains.Variety.Text.5	Quinoa	Quinoa		
+food_info_types_whole_grains.6	dozeWholeGrains.Variety.Text.6	Rye	Roggen		
+food_info_types_whole_grains.7	dozeWholeGrains.Variety.Text.7	Teff	Teff		
+food_info_types_whole_grains.8	dozeWholeGrains.Variety.Text.8	Whole-wheat pasta	Vollkornnudeln		
+faq_adapt_question	faq_adapt_question	The Daily Dozen is too much/too little food for me! Can I adapt it?	Die Daily Dozen ist zu viel/zu wenig Essen für mich! Kann ich es anpassen?		
+faq_adapt_response	faq_adapt_response	Yes, the Daily Dozen is simply meant to be a guide of the healthiest foods that we strive to include every day. It’s not a meal plan and is not meant to be prescriptive. Do your best to eat a diverse array of whole plant foods and adapt the Daily Dozen to the quantities that work for you.	Ja, die Daily Dozen ist einfach ein Leitfaden der gesündesten Nahrungsmittel, die wir versuchen jeden Tag zu uns zu nehmen. Es ist kein Speiseplan und sollte nicht vorschriftsmäßig gesehen werden. Versuch dein Bestes eine Vielfalt von vollwertigen pflanzlichen Lebensmitteln zu essen und passe die Daily Dozen zu den Mengen an, die für dich am besten passen.		
+faq_age_question	faq_age_question	Is this adaptable for children, adolescents, and teens?	Kann die Daily Dozen für Kinder, Jugendliche und Teenager angepasst werden?		
+faq_age_response.0	faq_age_response.0	Children, adolescents, and teenagers have different caloric needs throughout their lifecycle. These needs change to support growth and development at each stage.	Kinder, Jugendliche und Teenager haben einen verschiedenen Kalorienbedarf während ihrer Lebensdauer. Dieser Bedarf ändert sich, um Wachstum und die Entwicklung bei jedem Abschnitt zu fördern.		
+faq_age_response.1	faq_age_response.1	The Daily Dozen was designed as a guide to help people include some of the healthiest foods into their daily routine. While the same framework can be used for most people throughout the lifecycle, the amount of food one needs to eat will vary based on a number of factors like age and activity level. Since we can’t provide specific nutrition or medical advice for your growing child, parents should use this guide as they see best for their child’s needs and/or consult with a registered dietitian or other healthcare provider to help determine what is best for their individual needs.	Die Daily Dozen ist ein Leitfaden, um Menschen zu helfen einige der gesündesten Lebensmittel in ihre tägliche Routine einzubauen. Obwohl der gleiche Rahmen für die meisten Menschen während ihrer Lebensdauer genutzt werden kann, hängt die Menge der Nahrungsmittel, die ein Mensch konsumieren sollte von verschiedenen Faktoren ab, wie Alter und Aktivitätslevel. Da wir keinen spezifischen Ernährungs- oder medizinischen Rat für ihr heranwachsendes Kind geben können, sollten Eltern diese Richtschnur so annehmen, wie sie es am besten für den Bedarf ihres Kindes ansehen. Zusätzlich können Sie einen Ernährungsberater oder Arzt konsultieren, um zu bestimmen was das Beste für den individuellen Bedarf ist.		
+faq_calories_question	faq_calories_question	How many calories are in the Daily Dozen?	Wie viele Kalorien sind die Daily Dozen?		
+faq_calories_response.0	faq_calories_response.0	The Daily Dozen averages about 1,200 calories, but given the wide array of food choices in each category, it can range anywhere from 800-1800. Consider the Other Vegetables category: a cup of bell peppers has a much lower caloric density than a cup of cooked sweet potatoes, therefore the caloric range will depend on your specific food choices. That’s the great thing about the Daily Dozen Checklist—it’s not a one size fits all approach, and can be adapted to your needs.	Die Daily Dozen sind durchschnittlich 1.200 Kalorien aber aufgrund der Vielfalt und Auswahl an Nahrungsmitteln in jeder Kategorie, kann dies zwischen 800-1.800 schwanken. Schau dir zum Beispiel die Kategorie Gemüse an: 240 Gramm Paprika hat eine niedrigere Kaloriendichte als 240 Gramm Süßkartoffeln, daher hängt der Kalorienbereich davon ab, welche Nahrungsmittel ausgewählt werden. Das ist das gute an der Daily Dozen Checkliste - sie ist keine Einheitslösung und kann an die eigenen Bedürfnisse angepasst werden.		
+faq_calories_response.1	faq_calories_response.1	If your goal is weight loss, you can find more information in “How Not to Diet” and the accompanying Twenty-One Tweaks. In “How Not to Diet”, I noted: “A systematic review of successful weight-loss strategies concluded that given the metabolic slowing and increased appetite that accompanies weight loss, to achieve significant weight loss, calorie counts may need to drop as low as 1,200 calories a day for women and 1,500 calories a day for men.”	Wenn du Gewicht verlieren möchtest, kannst du mehr Informationen in “How Not to Diet” finden und den beigelegten einundzwanzig Optimierungen. In “How Not to Diet” habe ich geschrieben: “Eine systemische Überprüfung von Strategien des Gewichtsverlusts schließt, dass aufgrund des verlangsamten Stoffwechsel und dem gesteigertem Appetit, welches den Gewichtsverlust begleitet, kann ein bedeutender Gewichtsverlust eventuell nur dann erreicht werden, wenn die Kalorien auf ungefähr 1.200 für Frauen und 1.500 für Männer reduziert werden.”		
+faq_calories_response.2	faq_calories_response.2	On the other hand, if your goal is weight gain, then you may want to focus on adding in more calorie-dense foods, such as sweet potatoes, avocados, nuts, and soy products.	Auf der anderen Seite, wenn dein Ziel ist, Gewicht zuzunehmen, dann konzentriere dich darauf mehr kalorienreiche Nahrungsmittel zu dir zu nehmen, wie Süßkartoffeln, Avocados, Nüsse und Sojaprodukte.		
+faq_mother_question	faq_mother_question	Can I do this while pregnant or breastfeeding?	Kann ich den Daily Dozen folgen, wenn ich schwanger bin oder stille?		
+faq_mother_response	faq_mother_response	People who are pregnant or breastfeeding have different caloric and nutritional needs than people who are not. As a reminder, the Daily Dozen is not a meal plan and should not be the only foods consumed within a day. People who are pregnant or breastfeeding should consult with their health care practitioner or a registered dietician for assistance with meeting their specific caloric requirements and nutritional needs.	Schwangere oder stillende Frauen haben einen verschiedenen Kalorien- und Nährstoffbedarf als Menschen die dies nicht sind. Zur Erinnerung, die Daily Dozen ist kein Speiseplan und sollten nicht die einzigen Nahrungsmittel sein, die pro Tag zu sich genommen werden sollten. Schwangere und stillende Frauen sollten sich mit einem Arzt oder einem Ernährungswissenschaftler beraten, um ihren spezifischen Kalorien- und Nährstoffbedarf zu erzielen.		
+faq_scaling_question	faq_scaling_question	I can’t possibly eat that many beans/grains/etc.!	Ich kann doch unmöglich so viele Bohnen/Vollkorn/usw. essen!		
+faq_scaling_response	faq_scaling_response	That’s okay! The Daily Dozen is an aspirational guide. Do your best to incorporate as many of these healthy plant foods as possible. If you are new to eating a lot of beans (or grains, greens, etc!), you may need to start with smaller amounts and slowly increase the quantity in order to give your microbiome a chance to adjust. You can also get creative: for example, add some beans to your morning oatmeal. If you load it up with berries, flax seeds, and nuts, you won’t even notice the beans. You can also mash beans into a sandwich spread, or make my [BROL](https://nutritionfacts.org/recipe/basic-brol-barley-rye-oats-and-lentils)—barley, rye, oat groats, and lentils—that I use as a base for many meals and is a simple way to get a variety of whole grains with a built-in serving of legumes.	Das ist ok! Die Daily Dozen ist ein ehrgeiziger Leitfaden. Gib dein Bestes, um so viele von diesen gesunden Nahrungsmittel zu dir zu nehmen wie möglich. Wenn du es nicht gewöhnt bist viele Bohnen (oder Vollkorn, Gemüse usw.!) zu essen, dann kannst du mit einer kleinen Mengen anfangen und dann langsam anfangen die Menge zu erhöhen, um deinem Mikrobiom die Möglichkeit zu geben sich anzupassen. Du kannst auch experimentieren: zum Beispiel, füge Bohnen zu deinem Haferbrei zum Frühstück dazu. Wenn du diesen mit Beeren, Leimsamen und Nüssen belädst, dann fallen dir die Bohnen gar nicht auf. Du kannst auch pürierte Bohnen in deinen Brotaufstrich mischen oder mache meinen [BROL](https://nutritionfacts.org/recipe/basic-brol-barley-rye-oats-and-lentils) - Gerste, Roggen, Hafergrütze und Linsen - welches ich als eine Basis für viele meiner Mahlzeiten nehme. Ein einfacher Weg um eine Vielfalt von Vollkorn mit einer eingebauten Portion von Hülsenfrüchte zu konsumieren.		
+faq_supplements_question	faq_supplements_question	I thought that Dr. Greger recommends taking Vitamin D and DHA supplements. Why aren’t they included?	Ich dachte, dass Dr. Greger empfiehlt Vitamin D und DHA Ergänzungsmittel zu nehmen. Warum werden diese hier nicht genannt?		
+faq_supplements_response	faq_supplements_response	We have updated the Daily Dozen app to reflect only required supplements. For example, Vitamin D is only needed for people who get inadequate sun exposure. Our goal is to share the science with you so you can make your own informed decisions. You can see all of my recommendations on the [Optimum Nutrient](https://nutritionfacts.org/optimum-nutrient-recommendations) page.	Wir haben die Daily Dozen App aktualisiert, damit diese nur die notwendigen Ergänzungsmittel wiederspiegelt. Zum Beispiel, Vitamin D ist nur notwendig für Menschen, die nicht genügend Sonne bekommen. Unser Ziel ist es, die Wissenschaft mit euch zu teilen, damit ihr informierte Entscheidungen treffen könnt. Du kannst alle meine Empfehlungen hier finden: [optimale Nährstoffe](https://nutritionfacts.org/optimum-nutrient-recommendations)		
+faq_title	faq_title	Frequently Asked Questions	Häufig gestellte Fragen	Info Menu	
+	history_data_alert_cancel	Cancel	Abbrechen	History Data Alert: Cancel button	
+	history_data_alert_clear	Clear	Löschen	History Data Alert: Clear button	
+	history_data_alert_import	Import	Importieren	History Data Alert: Import buttom	
+	history_data_alert_ok	OK	OK	History Data Alert: OK button	
+	history_data_export_btn	Export History Data	Verlaufsdaten exportieren	History Data: export action button	
+	history_data_export_text	Export has been written to:	Der Export wurde geschrieben an:	History Data: export description text	
+	history_data_import_btn	Import History Data	Verlaufsdaten importieren	History Data: import action button	
+	history_data_import_caution_text	Caution: This import will overwrite all history data currently in this Daily Dozen application. Would you like to proceed with the import?	Warnung: Dieser Import wird alle Verlaufsdaten überschreiben, die zur Zeit in der Daily Dozen app vorhanden sind. Wollen Sie mit dem Import fortfahren?	History Data: import caution text	
+	history_data_import_error_text	Error: The import was not performed because of a data error. The existing data has remained unchanged.	Fehler: Der Import konnte aufgrund eines Datenfehlers nicht ausgeführt werden. Die vorhandenen Daten bleiben unverändert.	History Data: import data error text	
+	history_data_import_notfound_text	Did not find a valid import file in the Daily Dozen Documents folder.	Es konnte keine gültige Importdatei in dem Daily Dozen Dokumente-Ordner gefunden werden	History Data: import not found text	
+	history_data_title	History	Verlauf	History Data: preferences header & title	
+servings_time_scale_choices.0	history_scale_choice_day	Day	Tag	History View: calendar scale control	
+servings_time_scale_choices.0	history_scale_choice_month	Month	Monat	History View: calendar scale control	
+servings_time_scale_choices.0	history_scale_choice_year	Year	Jahr	History View: calendar scale control	
+time_scale	history_scale_label	Time Scale	Zeitskala	History View: scale text	
+moving_average	historyRecord.movingAverage	Moving Average	Gleitender Mittelwert		
+	historyRecordDoze.heading	Servings History	Portionen Verlauf	History View	
+	historyRecordDoze.legend	Servings	Portionen Verlauf	History View	
+	historyRecordTweak.heading	Tweaks History	Optimierungen Verlauf	History View	
+tweaks	historyRecordTweak.legend	Tweaks	Optimierungen Verlauf	History View	
+weight_history	historyRecordWeight.heading	Weight History	Gewichtsverlauf	History View	
+evening	historyRecordWeight.legendEvening	Evening	Abend	History View	
+morning	historyRecordWeight.legendMorning	Morning	Morgen	History View	
+	historyRecordWeight.titleImperial	Weight (lbs)	Gewicht (Pfund)	History View	
+	historyRecordWeight.titleMetric	Weight (kg)	Gewicht (kg)	History View	
+about	info_app_about	About	Über	Info About Menu Item	
+app_name	info_app_about_app_name	Daily Dozen	Tägliches Dutzend	Info About View: Application Name ‘Daily Dozen’	
+	info_app_about_created_by	This app was created by: NutritionFacts.org, Christi Richards, Konstantin Khokhlov, and Marc Campbell	Diese App wurde erstellt von: NutritionFacts.org, Christi Richards, Konstantin Khokhlov, und Marc Campbell	Info About View: Created By	
+about_this_app	info_app_about_heading	About this app	Über diese Anwendung	Info About View	
+	info_app_about_oss_credits	The following open source libraries are used: RealmSwift, Charts, FSCalendar, SimpleAnimation.	Die folgenden Open-Source-Bibliotheken werden verwendet: RealmSwift, Charts, FSCalendar, SimpleAnimation.	Info About View: Open Source Credits	
+activity_welcome_text	info_app_about_overview	Use this app on a daily basis to keep track of the foods and advice I recommend for optimal health and longevity in my books How Not to Die and How Not to Diet.	Verwenden Sie diese App täglich, um den Überblick über die Lebensmittel und Ratschläge zu behalten, die ich in meinen Büchern How Not to Die und How Not to Diet für optimale Gesundheit und Langlebigkeit empfehle.	Info About View: Overview Text	
+about_translators	info_app_about_translators	Special thanks to our volunteer translators: Petar Enchev (bg), Tsveti Enchev (bg), Ricard Soler Roger (ca), Luděk Bouška (cs,sk), Lenka Lukacová (cs), Anke Schliessmann (de), Ángela Graña (es), Saeed Salamian (fa), Audray Harkins (fr), Doron Barak (he), Ruth Levy (he), Annalisa Guerrini-Körner (it), Ilaria Zanini (it), Hanna Gurzeda (pl), Joanna Klopotek (pl), Tania Bassi (pt-BR), João Madureira (pt-PT), Cristina Lauby (ro), Evgeniya Lyakh (ru), Katarína Mocáková (sk), Sabina Aliieva (uk).	Besonderer Dank an unsere ehrenamtlichen Übersetzer: Petar Enchev (bg), Tsveti Enchev (bg), Ricard Soler Roger (ca), Luděk Bouška (cs,sk), Lenka Lukacová (cs), Anke Schliessmann (de), Ángela Graña (es), Saeed Salamian (fa), Audray Harkins (fr), Doron Barak (he), Ruth Levy (he), Annalisa Guerrini-Körner (it), Ilaria Zanini (it), Hanna Gurzeda (pl), Joanna Klopotek (pl), Tania Bassi (pt-BR), João Madureira (pt-PT), Cristina Lauby (ro), Evgeniya Lyakh (ru), Katarína Mocáková (sk), Sabina Aliieva (uk).	Info About View: Contributing Translators List (language code)  See https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes	
+	info_app_about_version	version 3.5.1	Version 3.5.1	Info About View: Application release version	
+welcome_to_my_daily_dozen	info_app_about_welcome	Welcome to my Daily Dozen!	Willkommen zu meinem Täglichen Dutzend!	Info About View: Welcome	
+	info_book_how_not_to_die	Book: How Not to Die	Buch: How Not to Die	Info Menu: book title	
+	info_book_how_not_to_die_cookbook	Book: How Not to Die Cookbook	Buch: How Not to Die Kochbuch	Info Menu: book title	
+	info_book_how_not_to_diet	Book: How Not to Diet	Buch: How Not to Diet	Info Menu: book title	
+daily_dozen_challenge	info_webpage_daily_dozen_challenge	Daily Dozen Challenge	Tägliches Dutzend Herausforderung	Info Menu	
+donate	info_webpage_donate	Donate	Spenden Sie	Info Menu	
+open_source	info_webpage_open_source	Open Source	Open Source	Info Menu	
+subscribe	info_webpage_subscribe	Subscribe	Abonnieren	Info Menu	
+latest_videos	info_webpage_videos_latest	Latest Videos	Neueste Videos	Info Menu	
+servings_all	item_history_completed_all	All servings	Alle Portionen	Item History Legend: ‘All completed’	
+servings_some	item_history_completed_some	Some servings	Einige Portionen	Item History Legend: ‘Some completed’	
+history	item_history_heading	History	Hintergrund	Item History Heading	
+	navtab.doze	Daily Dozen	Tägliches Dutzend	Main Navigation Tab Control: ‘Daily Dozen’ (proper noun)	
+	navtab.info	Information	Information	Main Navigation Tab Control: show more information	
+	navtab.preferences	Preferences	Einstellungen	Main Navigation Tab Control: ‘Preferences’ synonyms: Settings, Configuration. Choose a translations with is different from Tweaks.	
+	navtab.tweaks	21 Tweaks	21 Optimierungen	Main Navigation Tab Control: ‘21 Tweaks’ (proper noun)	
+	NSHealthShareUsageDescription	The 21 Tweaks feature accesses your HealthKit data to provide updates to your daily weight measurements.	Die Funktion “21 Optimierungen” greift auf Ihre HealthKit-Daten zu, um Aktualisierungen für Ihre täglichen Gewichtsmessungen bereitzustellen.	Privacy - Health Share Usage Description	
+	NSHealthUpdateUsageDescription	The 21 Tweaks feature can write weight data to HealthKit to help you keep track of your progress.	Die Funktion “21 Optimierungen” kann Gewichtsdaten in HealthKit schreiben, damit Sie Ihren Fortschritt verfolgen können.	Privacy - Health Update Usage Description	
+vitamin_b12	otherVitaminB12.heading	Vitamin B12	Vitamin B12	heading for daily data entry item	
+daily_reminder_text	reminder.alert.text	Update your servings for today	Aktualisieren Sie Ihre Portionen für heute	Alert notification text	
+	reminder.heading	Daily Reminder	Tägliche Erinnerung	Daily Reminder (alert title, settings section heading)	
+	reminder.settings.enable	Enable Reminders	Erinnerungen einschalten	Daily Reminder On/Off toggle switch label	
+play_sound	reminder.settings.sound	Play Sound	Ton abspielen	Daily Reminder sound control heading	
+remind_me_at	reminder.settings.time	Remind me at	Errinnere mich um:	Daily Reminder time control heading	
+vibrate	reminder.settings.vibrate	Vibrate	Vibrieren	Android notification `vibrate`	
+	reminder.state.off	Off	Aus	‘Off’ as in ‘On (enabled) or Off (disabled)’, Daily Reminder is not enabled	
+	reminder.state.on	On	An	‘On’ as in ‘On (enabled) or Off (disable)’. Daily Reminder is enabled	
+	setting_analytics_body	Enable anonymous usage information to be collected to help improve this application.	Aktivierung der Sammlung anonymer Nutzungsinformation um diese Anwendung zu verbessern.	Google Firebase Analytics	
+	setting_analytics_enable	Enable Analytics	Analytik aktivieren.	Google Firebase Analytics	
+	setting_analytics_opt_in	Opt In	Opt-in	Google Firebase Analytics	
+	setting_analytics_opt_out	Opt Out	Opt-out	Google Firebase Analytics	
+	setting_analytics_title	Analytics	Analytik	Google Firebase Analytics	
+daily_dozen_only	setting_doze_only_btn	Daily Dozen\nOnly	Nur Tägliches Dutzend	First Launch Setting: button text	
+	setting_doze_only_choice	Daily Dozen Only	Nur Tägliches Dutzend	Preference Settings View: selection button text	
+daily_dozen_and_tweaks	setting_doze_tweak_btn	Daily Dozen +\n21 Tweaks	Tägliches Dutzend + 21 Optimierungen	First Launch Setting: button text	
+	setting_doze_tweak_choice	Daily Dozen + 21 Tweaks	Tägliches Dutzend + 21 Optimierungen	Preference Settings View: selection button text	
+	setting_doze_tweak_footer	For health alone, use “Daily Dozen Only”. For health and weight loss use “Daily Dozen + 21 Tweaks”.	Für Gesundheit allein verwenden Sie “Nur das tägliche Dutzend”. Für Gesundheit und Gewichtsabnahme verwenden Sie “Tägliches Dutzend + 21 Optimierungen”.	Preference Settings View: brief description text below Tweaks visibility control.	
+for_health_alone	setting_health_alone_txt	For Health Alone	Nur für die Gesundheit	First Launch Setting: brief description above ‘Daily Dozen Only’ button.	
+for_health_and_weight_loss	setting_health_weight_txt	For Health and Weight Loss	Für Gesundheit und Gewichtsabnahme	First Launch Setting: brief description above ‘Daily Dozen + 21 Tweaks’ button.	
+	setting_tweak_header	21 Tweaks Visibility	21 Optimierungen Transparenz	Preference Settings View: tweaks visibilty subsection heading	
+	setting_units_0_imperial	Imperial	Imperial	Preference Settings View: Part of ‘Imperial/Metric/Toggle Units’ selector	
+	setting_units_1_metric	Metric	Metrisch	Preference Settings View: Part of ‘Imperial/Metric/Toggle Units’ selector	
+	setting_units_2_toggle	Toggle Units	Umschalten	Preference Settings View: Part of ‘Imperial/Metric/Toggle Units’ selector	
+	setting_units_choice_footer	Set to always be one unit type or enable the ‘Units:’ toggle button.	Legen Sie fest, dass es sich immer um denselben Einheitentyp handelt, oder aktivieren Sie die Umschalttaste “Einheiten:”.	Preference Settings View: brief description text below units control.	
+	setting_units_header	Measurement Units	Maßeinheiten	Preference Settings View	
+	setting_util_advanced	Advanced Utilities	Erweiterte Hilfsmittel	Preference Settings View	
+format_num_days	streakDaysFormat	%d days	%d Tage	‘Streak’ count. Synonym: ‘Progress‘. Formatted number ‘%d’ for consecutive days completed. Place translated text for ‘days’ on the right or left of ‘%d’ based on language directionality.	
+	tweak_detail_section_activity	Activity	Aktivität	Tweaks Detail view section heading	
+	tweak_detail_section_description	Description	Beschreibung	Tweaks Detail view section heading	
+twenty_one_tweaks	tweak_entry_header	21 Tweaks	21 Optimierungen	Tweaks daily entry header	
+complete_intentions	tweakCompleteIntentions.heading	Complete Your Implementation Intentions	Vervollständigen Sie Ihre Umsetzungsabsichten	heading for daily data entry item	
+complete_intentions_short	tweakCompleteIntentions.short	Complete Your Implementation Intentions	Vervollständigen Sie Ihre Umsetzungsabsichten		
+complete_intentions_text	tweakCompleteIntentions.text	Every two months, create three new implementation intentions—“if X, then Y” plans to perform a particular behavior in a specific context—and check each one of them off as you complete them every day.	Erstellen Sie alle zwei Monate drei neue Umsetzungsabsichten - “wenn X, dann Y”-Pläne, um ein bestimmtes Verhalten in einem bestimmten Kontext auszuführen - und haken Sie jeden dieser Pläne ab, wenn Sie ihn jeden Tag erfüllen.		
+daily_blackcumin	tweakDailyBlackCumin.heading	Black Cumin (¼ tsp)	Schwarzkümmel (¼ TL)	heading for daily data entry item	
+daily_blackcumin_short	tweakDailyBlackCumin.short	Black Cumin (Nigella sativa) (¼ tsp)	Schwarzkümmel (Nigella sativa) (¼ TL)		
+daily_blackcumin_text	tweakDailyBlackCumin.text	As noted in the Appetite Suppression section, a systematic review and meta-analysis of randomized, controlled weight-loss trials found that about a quarter teaspoon of black cumin powder every day appears to reduce body mass index within a span of a couple of months. Note that black cumin is different from regular cumin, for which the dosing is different.	Wie im Abschnitt Appetitzügler erwähnt, ergab eine systematische Überprüfung und Metaanalyse randomisierter, kontrollierter Studien zur Gewichtsabnahme, dass etwa ein viertel Teelöffel Schwarzkümmelpulver pro Tag den Body-Mass-Index innerhalb weniger Monate zu senken scheint. Beachten Sie, dass sich Schwarzkümmel von normalem Kreuzkümmel unterscheidet, bei dem die Dosierung anders ist.		
+daily_cumin	tweakDailyCumin.heading	Cumin (½ tsp with lunch and dinner)	Kreuzkümmel (½ TL zum Mittag- und Abendessen)	heading for daily data entry item	
+daily_cumin_short	tweakDailyCumin.short	Cumin (Cuminum cyminum) (½ tsp with lunch and dinner)	Kreuzkümmel (Cuminum cyminum) (½ TL zum Mittag- und Abendessen)		
+daily_cumin_text	tweakDailyCumin.text	Overweight women randomized to add a half teaspoon of cumin to their lunches and dinners beat out the control group by four more pounds and an extra inch off their waists. There is also evidence to support the use of the spice saffron, but a pinch a day would cost a dollar, whereas a teaspoon of cumin costs less than ten cents.	Übergewichtige Frauen, die in einer randomisierten Studie ½ Teelöffel Kreuzkümmel zu ihrem Mittag- und Abendessen hinzufügten, übertrafen die Kontrollgruppe um weitere vier Pfund und 2,5 Zentimeter an der Taille. Es gibt auch Beweise für den Nutzen des Gewürz Safrans, aber eine Prise pro Tag würde einen Euro kosten, während ein Teelöffel Kreuzkümmel weniger als zehn Cent kostet.		
+daily_deflourdiet	tweakDailyDeflourDiet.heading	Deflour Your Diet	Mehl durch Vollkorn ersetzen	heading for daily data entry item	
+daily_deflourdiet_short	tweakDailyDeflourDiet.short	Deflour Your Diet	Mehl durch Vollkorn ersetzen		
+daily_deflourdiet_text	tweakDailyDeflourDiet.text	Check this box every day your whole grain servings are in the form of intact grains. The powdering of even 100 percent whole grains robs our microbiomes of the starch that would otherwise be ferried down to our colons enclosed in unbroken cell walls.	Kreuzen Sie dieses Kästchen jeden Tag an, an dem Sie Vollkornprodukte in Form von unversehrten Körnern zu sich nehmen. Selbst bei 100-prozentigem Vollkorn wird unserem Mikrobiom durch die Pulverisierung die Stärke entzogen, die sonst in unversehrten Zellwänden in unseren Dickdarm transportiert würde.		
+daily_frontload	tweakDailyFrontLoad.heading	Front-Load Your Calories	Verzehren Sie die Kalorien früh am Tag	heading for daily data entry item	
+daily_frontload_short	tweakDailyFrontLoad.short	Front-Load Your Calories	Verzehren Sie die Kalorien früh am Tag		
+daily_frontload_text	tweakDailyFrontLoad.text	There are metabolic benefits to distributing more calories to earlier in the day, so make breakfast (ideally) or lunch your largest meal of the day in true king/prince/pauper style.	Es ist für den Stoffwechsel vorteilhaft, mehr Kalorien auf einen früheren Zeitpunkt am Tag zu verteilen. Machen Sie also das Frühstück (idealerweise) oder das Mittagessen zu Ihrer größten Mahlzeit des Tages, ganz im Stil von König/Prinz/Bettler.		
+daily_garlic	tweakDailyGarlic.heading	Garlic Powder (¼ tsp)	Knoblauchpulver (¼ TL)	heading for daily data entry item	
+daily_garlic_short	tweakDailyGarlic.short	Garlic Powder (¼ tsp)	Knoblauchpulver (¼ TL)		
+daily_garlic_text	tweakDailyGarlic.text	Randomized, double-blind, placebo-controlled studies have found that as little as a daily quarter teaspoon of garlic powder can reduce body fat at a cost of perhaps two cents a day.	Randomisierte, doppelblinde, placebokontrollierte Studien haben ergeben, dass bereits ein viertel Teelöffel Knoblauchpulver pro Tag das Körperfett reduzieren kann, und das zu Kosten von vielleicht zwei Cent pro Tag.		
+daily_ginger	tweakDailyGinger.heading	Ground Ginger (1 tsp) or Cayenne Pepper (½ tsp)	Gemahlener Ingwer (1 TL) oder Cayenne-Pfeffer (½ TL)	heading for daily data entry item	
+daily_ginger_short	tweakDailyGinger.short	Ground Ginger (1 tsp) or Cayenne Pepper (½ tsp)	Gemahlener Ingwer (1 TL) oder Cayenne-Pfeffer (½ TL)		
+daily_ginger_text	tweakDailyGinger.text	Randomized controlled trials have found that ¼ teaspoon to 1½ teaspoons a day of ground ginger significantly decreased body weight for just pennies a day. It can be as easy as stirring the ground spice into a cup of hot water. Note: Ginger may work better in the morning than evening. Chai tea is a tasty way to combine the green tea and ginger tricks into a single beverage. Alternately, for BAT activation, you can add one raw jalapeño pepper or a half teaspoon of red pepper powder (or, presumably, crushed red pepper flakes) into your daily diet. To help beat the heat, you can very thinly slice or finely chop the jalapeño to reduce its bite to little prickles, or mix the red pepper into soup or the whole-food vegetable smoothie I featured in one of my cooking videos on NutritionFacts.org.	Randomisierte kontrollierte Studien haben gezeigt, dass ¼ Teelöffel bis 1½ Teelöffel gemahlener Ingwer das Gewicht für nur ein paar Cent pro Tag signifikant senken. Es reicht bereits, das gemahlene Gewürz in eine Tasse heißes Wasser zu rühren. Hinweis: Ingwer kann morgens besser wirken als abends. Chai-Tee ist eine leckere Möglichkeit, die Vorteile von grünem Tee und Ingwer in einem einzigen Getränk zu kombinieren. Alternativ können Sie zur Aktivierung des braunen Fettgewebes (BAT) einen rohen Jalapeño-Pfeffer oder ½ Teelöffel rotes Pfefferpulver (oder vermutlich auch zerkleinerte rote Pfefferflocken) zur täglichen Ernährung hinzufügen. Um die Schärfe in Schach zu halten, können Sie den Jalapeño sehr dünn in Scheiben schneiden oder fein hacken, um die Wirkung auf kleines Kribbeln zu reduzieren. Oder geben Sie den roten Pfeffer in eine Suppe oder in den Vollwertgemüse-Smoothie, den ich in einem meiner Kochvideos auf NutritionFacts.org vorgestellt habe.		
+daily_greentea	tweakDailyGreenTea.heading	Green Tea (3 cups)	Grüner Tee (3 Tassen)	heading for daily data entry item	
+daily_greentea_short	tweakDailyGreenTea.short	Green Tea (3 cups)	Grüner Tee (3 Tassen)		
+daily_greentea_text	tweakDailyGreenTea.text	Drink three cups a day between meals (waiting at least an hour after a meal so as to not interfere with iron absorption). During meals, drink water, black coffee, or hibiscus tea mixed 6:1 with lemon verbena, but never exceed three cups of fluid an hour (important given my water preloading advice). Take advantage of the reinforcing effect of caffeine by drinking your green tea along with something healthy you wish you liked more, but don’t consume large amounts of caffeine within six hours of bedtime. Taking your tea without sweetener is best, but if you typically sweeten your tea with honey or sugar, try yacon syrup instead.	Trinken Sie täglich drei Tassen grüner Tee zwischen den Mahlzeiten (warten Sie  mindestens eine Stunde nach einer Mahlzeit, um die Eisenaufnahme nicht zu beeinträchtigen). Trinken Sie zu den Mahlzeiten Wasser, schwarzen Kaffee oder Hibiskus-Tee mit Zitronenverbene (im Verhältnis 6:1), aber überschreiten Sie niemals 750 ml Flüssigkeit pro Stunde (wichtig im Hinblick auf die zwei Gläser Wasser vor jeder Mahlzeit). Nutzen Sie die verstärkende Wirkung von Koffein, indem Sie Ihren grünen Tee zusammen mit etwas Gesundem trinkst, das Sie lieber mögen, aber trinken Sie keine großen Mengen an Koffein in den sechs Stunden vor dem Schlafengehen. Verwenden Sie keinen Süßstoff. Wenn Sie Ihren Tee normalerweise mit Honig oder Zucker süßen, versuchen Sie es stattdessen mit Yacon-Sirup.		
+daily_hydrate	tweakDailyHydrate.heading	Stay Hydrated	Genug trinken	heading for daily data entry item	
+daily_hydrate_short	tweakDailyHydrate.short	Stay Hydrated	Genug trinken		
+daily_hydrate_text	tweakDailyHydrate.text	Check this box if your urine never appears darker than a pale yellow.\n\nNote that if you’re eating riboflavin-fortified foods (such as nutritional yeast), then base this instead on getting nine cups of unsweetened beverages a day for women (which would be taken care of by the green tea and water preloading recommendations) or thirteen cups a day for men.\n\nIf you have heart or kidney issues, don’t increase fluid intake at all without first talking with your physician.\n\nRemember, diet soda may be calorie-free, but it’s not consequence-free, as we learned in the Low in Added Sugar section.	Setzen Sie dieses Häkchen, wenn Ihr Urin nie dunkler als blassgelb ist. Bei Zufuhr von Lebensmitteln, die mit Riboflavin (Vitamin B2) angereichert sind (z.B. Hefeflocken), sollten sich Frauen an 9 Tassen ungesüßte Getränke pro Tag orientieren (was durch die zwei Gläser Wasser vor jeder Mahlzeit und die drei Tassen grünen Tee zwischen den Mahlzeiten bereits abgedeckt wird) und Männer an 13 Tassen pro Tag.\n\nWenn Sie Herz- oder Nierenprobleme haben, erhöhen Sie die Flüssigkeitsaufnahme nicht, ohne vorher mit dem Arzt zu sprechen.\n\nDenken Sie daran, dass Diät-Soda zwar kalorienfrei sein mag, aber trotzdem Konsequenzen hat, wie wir im Kapitel “Ohne Zuckerzusatz” (Low in Added Sugar) erfahren haben.		
+daily_nutriyeast	tweakDailyNutriYeast.heading	Nutritional Yeast (2 tsp)	Hefeflocken (2 TL)	heading for daily data entry item	
+daily_nutriyeast_short	tweakDailyNutriYeast.short	Nutritional Yeast (2 tsp)	Hefeflocken (2 TL)		
+daily_nutriyeast_text	tweakDailyNutriYeast.text	Two teaspoons of baker’s, brewer’s, or nutritional yeast contains roughly the amount of beta 1,3/1,6 glucans found in randomized, double-blind, placebo-controlled clinical trials to facilitate weight loss.	Zwei Teelöffel Bäcker-, Bier- oder Nährhefe enthalten ungefähr die Menge an Beta-1,3/1,6-Glucanen, die in randomisierten, doppelblinden, placebokontrollierten klinischen Studien eine Gewichtsreduktion begünstigt haben.		
+daily_timerestrict	tweakDailyTimeRestrict.heading	Time-Restrict Your Eating	Essen zeitlich beschränken	heading for daily data entry item	
+daily_timerestrict_short	tweakDailyTimeRestrict.short	Time-Restrict Your Eating	Essen zeitlich beschränken		
+daily_timerestrict_text	tweakDailyTimeRestrict.text	Confine eating to a daily window of time of your choosing under twelve hours in length that you can stick to consistently, seven days a week. Given the circadian benefits of reducing evening food intake, the window should end before 7:00 p.m.	Beschränken Sie das Essen auf ein tägliches Zeitfenster Ihrer Wahl von weniger als zwölf Stunden, an das Sie sich sieben Tage die Woche konsequent halten können. Angesichts der Vorteile einer Reduzierung der abendlichen Nahrungsaufnahme für den Biorythmus sollte das Fenster spätestens um 19 Uhr enden.		
+exercise_timing	tweakExerciseTiming.heading	Optimize Exercise Timing	Bewegung zeitlich abstimmen	heading for daily data entry item	
+exercise_timing_short	tweakExerciseTiming.short	Optimize Exercise Timing	Bewegung zeitlich abstimmen		
+exercise_timing_text	tweakExerciseTiming.text	The Daily Dozen’s recommendation for optimum exercise duration for longevity is ninety minutes of moderately intense activity a day, which is also the optimum exercise duration for weight loss. Anytime is good, and the more, the better, but there may be an advantage to exercising in a fasted state, at least six hours after your last meal. Typically, this would mean before breakfast, but if you timed it right, you could exercise midday before a late lunch or, if lunch is eaten early enough, before dinner. This is the timing for nondiabetics. Diabetics and prediabetics should instead start exercising thirty minutes after the start of a meal and ideally go for at least an hour to completely straddle the blood sugar peak. If you had to choose a single meal to exercise after, it would be dinner, due to the circadian rhythm of blood sugar control that wanes throughout the day. Ideally, though, breakfast would be the largest meal of the day, and you’d exercise after that—or, even better, after every meal.	Das tägliche Dutzend empfiehlt für ein langes Leben eine optimale Bewegungsdauer von 90 Minuten mäßig intensiver Aktivität pro Tag. Dies ist auch die optimale Bewegungsdauer für Gewichtsverlust. Bewegung ist immer gut – je mehr davon, desto besser. Es könnte jedoch vorteilhaft sein, die Aktivität in nüchternem Zustand durchzuführen, mit einem Abstand von sechs Stunden zur letzten Mahlzeit. Üblicherweise wäre dies vor dem Frühstück, aber wenn Sie es zeitlich abstimmen, können Sie Ihre Aktivität auch vor einem späten Mittagessen durchführen oder, bei einem frühen Mittagessen, vor dem Abendessen. Diese Zeiten richten sich wohlgemerkt an Nicht-Diabetiker. Diabetiker und Prädiabetiker sollten stattdessen 30 Minuten nach dem Beginn einer Mahlzeit mit einer idealerweise einstündigen Aktivität beginnen, um die Zeitspanne mit dem höchsten Blutzuckerspiegel vollständig abzudecken. Wenn Sie eine einzige Mahlzeit wählen müssten, nach der Sie aktiv werden, wäre es das Abendessen, da die Blutzuckerkontrolle durch den Biorhythmus im Laufe des Tages abnimmt. Im Idealfall wäre das Frühstück die größte Mahlzeit des Tages, und Sie würden Ihre Aktivität danach durchführen – oder, noch besser, nach jeder Mahlzeit.		
+meal_twentyminutes	tweakMeal20Minutes.heading	Follow the Twenty-Minute Rule	20-Minuten-Regel befolgen	heading for daily data entry item	
+meal_twentyminutes_short	tweakMeal20Minutes.short	Follow the Twenty-Minute Rule	20-Minuten-Regel befolgen		
+meal_twentyminutes_text	tweakMeal20Minutes.text	Whether through increasing viscosity or the number of chews, or decreasing bite size and eating rate, dozens of studies have demonstrated that no matter how we boost the amount of time food is in our mouths, it can result in lower caloric intake. So extend meal duration to at least twenty minutes to allow your natural satiety signals to take full effect. How? By choosing foods that take longer to eat and eating them in a way that prolongs the time they stay in your mouth. Think bulkier, hardier, chewier foods in smaller, well-chewed bites.	Dutzende Studien haben gezeigt, dass die Kalorienaufnahme verringert werden kann, wenn wir die Zeitspanne des Essens im Mund verlängern. Und zwar unabhängig davon, ob wir dies durch Essen mit zäherer Konsistenz, längeres Kauen, kleinere Portionen im Mund oder langsameres Essen erreichen. Verlängern Sie also die Dauer der Mahlzeit auf mindestens zwanzig Minuten, damit Ihre natürlichen Sättigungssignale ihre volle Wirkung entfalten können. Und wie? Indem Sie Lebensmittel auswählen, deren Verzehr länger dauert, und sie so essen, dass sie möglichst lange im Mund verbleiben. Denken Sie an sperrigere, härtere, kaubarere Lebensmittel in kleineren, gut durchgekauten Portionen.		
+meal_negcal	tweakMealNegCal.heading	Preload with “Negative Calorie” Foods	Mahlzeit mit “Negativ-Kalorien” beginnen	heading for daily data entry item	
+meal_negcal_short	tweakMealNegCal.short	Preload with “Negative Calorie” Foods	Mahlzeit mit “Negativ-Kalorien” beginnen		
+meal_negcal_text	tweakMealNegCal.text	As the first course, start each meal with an apple or a Green Light soup or salad containing fewer than one hundred calories per cup.	Beginnen Sie  jede Mahlzeit als ersten Gang mit einem Apfel, einer leichten Suppe oder einem Salat mit weniger als 100 Kalorien pro Tasse.		
+meal_undistracted	tweakMealUndistracted.heading	Enjoy Undistracted Meals	Ungestört essen	heading for daily data entry item	
+meal_undistracted_short	tweakMealUndistracted.short	Enjoy Undistracted Meals	Ungestört essen		
+meal_undistracted_text	tweakMealUndistracted.text	Don’t eat while watching TV or playing on your phone. Give yourself a check for each meal you’re able to eat without distraction.	Sehen Sie nicht fern und spielen Sie nicht mit dem Handy, während Sie essen. Setzen Sie  ein Häkchen für jede Mahlzeit ohne Ablenkung.		
+meal_vinegar	tweakMealVinegar.heading	Incorporate Vinegar (2 tsp with each meal)	Essig hinzufügen (2 TL zu jeder Mahlzeit)	heading for daily data entry item	
+meal_vinegar_short	tweakMealVinegar.short	Incorporate Vinegar (2 tsp with each meal)	Essig hinzufügen (2 TL zu jeder Mahlzeit)		
+meal_vinegar_text	tweakMealVinegar.text	Never drink vinegar straight. Instead, flavor meals or dress a side salad with any of the sweet and savory vinegars out there. If you want to drink it, make sure to mix it in a glass of water and, afterward, be sure to rinse your mouth out with water to protect your tooth enamel.	Trinken Sie Essig niemals pur. Würzen Sie stattdessen Ihre Mahlzeiten oder gönnen Sie sich einen Beilagensalat mit einem beliebigen süßen und herzhaften Essig. Wenn Sie den Essig trinken möchten, mischen Sie ihn mit einem Glas Wasser und spülen Sie anschließend Ihren Mund mit Wasser, um Ihren Zahnschmelz zu schützen.		
+meal_water	tweakMealWater.heading	Preload with Water	Mahlzeit mit kaltem Wasser beginnen	heading for daily data entry item	
+meal_water_short	tweakMealWater.short	Preload with Water	Mahlzeit mit kaltem Wasser beginnen		
+meal_water_text	tweakMealWater.text	Time your metabolism-boosting two cups of cool or cold unflavored water before each meal to also take advantage of its preload benefits.	Förderen Sie Ihren Stoffwechsel, indem Sie vor jeder Mahlzeit zwei Tassen kühles oder kaltes Wasser (ohne Geschmack) zu dir nehmen.		
+nightly_fast	tweakNightlyFast.heading	Fast After 7:00 pm	Fasten nach 19 Uhr	heading for daily data entry item	
+nightly_fast_short	tweakNightlyFast.short	Fast After 7:00 p.m.	Fasten nach 19 Uhr		
+nightly_fast_text	tweakNightlyFast.text	Due to our circadian rhythms, food eaten at night is more fattening than the exact same food eaten earlier in the day, so fast every night for at least twelve hours starting before 7:00 p.m. The fewer calories after sundown, the better.	Aufgrund unseres Biorhytmus begünstigt das Essen am Abend eine Gewichtszunahme mehr als die gleiche Anzahl an Kalorien früher am Tag. Fasten Sie also jeden Abend für mindestens zwölf Stunden, beginnend spätestens um 19 Uhr. Je weniger Kalorien nach Sonnenuntergang, desto besser.		
+nightly_sleep	tweakNightlySleep.heading	Get Sufficient Sleep	Genug schlafen	heading for daily data entry item	
+nightly_sleep_short	tweakNightlySleep.short	Get Sufficient Sleep	Genug schlafen		
+nightly_sleep_text	tweakNightlySleep.text	Check this box if you get at least seven hours of sleep at your regular bedtime.	Setzen Sie dieses Häkchen, wenn Sie mindestens 7 Stunden geschlafen haben und zur üblichen Zeit ins Bett gegangen sind.		
+nightly_trendelenburg	tweakNightlyTrendelenbrug.heading	Experiment with Mild Trendelenburg	Mit leichter Trendelenburg-Lage experimentieren	heading for daily data entry item	
+nightly_trendelenburg_short	tweakNightlyTrendelenbrug.short	Experiment with Mild Trendelenburg	Mit leichter Trendelenburg-Lage experimentieren		
+nightly_trendelenburg_text	tweakNightlyTrendelenbrug.text	Try spending at least four hours a night lying with your body tilted head-down six degrees by elevating the posts at the foot of your bed by eight inches (or by nine inches if you have a California king). Be extremely careful when you get out of bed, as this causes orthostatic intolerance in most people, even if you’re young and healthy—meaning if you get up too fast, you can feel dizzy, faint, or light-headed and could fall and hurt yourself. So get up slowly. Drinking two cups of cold water thirty minutes before rising may also help prevent this potentially hazardous side effect.\n\n*IMPORTANT: Do not try this at home at all if you have any heart or lung issues, acid reflux, or problems with your brain (like head trauma) or eyes (even a family history of glaucoma disqualifies you). Also do not try this until you ask your physician if they think it’s safe for you to sleep in mild Trendelenburg.*	Versuchen Sie, mindestens vier Stunden pro Nacht so zu liegen, dass Ihr Körper von Fuß bis Kopf um etwa sechs Grad geneigt ist, indem Sie das Bett am Fußende um 20 Zentimeter anheben (bzw. um 23 Zentimeter bei einer Bettlänge von mehr als 210 Zentimeter). Seien Sie beim Aufstehen jedoch äußerst vorsichtig, da dies bei den meisten Menschen zu einer orthostatischen Unverträglichkeit führt, auch wenn sie jung und gesund sind. Wenn Sie also zu schnell aufstehen, können Sie sich schwindelig, ohnmächtig oder benommen fühlen und Sie könnten fallen und sich verletzen. Stehen Sie also langsam auf. Zwei Tassen kaltes Wasser 30 Minuten vor dem Aufstehen können auch dazu beitragen, diese potenziell gefährliche Nebenwirkung zu vermeiden.\n\n*WICHTIG: Versuchen Sie dies auf keinen Fall zu Hause, wenn Sie Herz- oder Lungenprobleme haben, an gastroösophagealem Reflux leiden oder Probleme mit Ihrem Gehirn (z.B. Schädel-Hirn-Trauma) oder Ihren Augen haben (eine Glaukom-Erkrankung in der Familie genügt bereits). Versuchen Sie dies auch nicht, ohne Ihren Arzt zu fragen, ob er der Meinung ist, dass Sie in leichter Trendelenburg-Lage sicher schlafen können.*		
+weigh_twice	tweakWeightTwice.heading	Weigh Yourself Twice a Day	Zweimal täglich wiegen	heading for daily data entry item	
+weigh_twice_short	tweakWeightTwice.short	Weigh Yourself Twice a Day	Zweimal täglich wiegen		
+weigh_twice_text	tweakWeightTwice.text	Regular self-weighing is considered crucial for long-term weight control, but there is insufficient evidence to support a specific frequency of weighing. My recommendation is based on the one study that found that twice daily—upon waking and right before bed—appeared superior to once a day (about six versus two pounds of weight loss over twelve weeks).	Regelmäßiges Selbstwiegen wird als entscheidend angesehen für die langfristige Gewichtskontrolle. Es gibt jedoch nicht ausreichend Belege für eine bestimmte Häufigkeit des Wiegens. Meine Empfehlung basiert auf der einen Studie, die ergab, dass zweimal täglich – beim Aufwachen und direkt vor dem Schlafengehen – besser zu sein scheint als einmal täglich (etwa 3 Kilogramm Gewichtsverlust über 12 Wochen im Vergleich zu 1 Kilogramm).		
+units	units_label	Units	Masseinheiten:		
+imperial	unitToggle.imperial	Imperial	imperial	Units toggle button text: imperial measurement system	
+metric	unitToggle.metric	Metric	metrisch	Units toggle button text: metric measurement system	
+videos	videos.link.label	Videos	VIDEOS	Label for hyperlink to nutritionfacts.org video topics	
+	weight_entry_clear	Clear	Löschen	Weight Daily Entry: clear button which deletes values	
+	weight_entry_evening	Evening (right before bed)	Abends (direkt vor dem Schlafengehen)	Weight Daily Entry: label	
+	weight_entry_morning	Morning (upon waking)	Morgens (nach dem Aufwachen)	Weight Daily Entry: label	
+	weight_entry_time	Time	Uhrzeit	Weight Daily Entry: label	
+	weight_entry_units_kg	kg	kg	Weight Daily Entry Units: label	
+	weight_entry_units_lbs	lbs	Pfund	Weight Daily Entry Units: label	
+	weight_history_edit_data	Edit Data	Daten bearbeiten	Weight Daily Entry: edit button to change values	
+weight	weightEntry.heading	Weight	Gewicht	Weight Daily Entry: heading	
+about_text_lines.0		This app was created by John Slavick.	Diese Anwendung wurde von John Slavick erstellt.		
+about_text_lines.1					
+about_text_lines.2		The following open source libraries are used: ActiveAndroid, android-iconify, EventBus, LikeAnimation, and MPAndroidChart.	Die folgenden Open-Source-Bibliotheken werden verwendet: ActiveAndroid, android-iconify, EventBus, LikeAnimation und MPAndroidChart.		
+about_text_lines.3					
+about_text_lines.4		Special thanks to the volunteer efforts of the creators of the previous app: Chan Kruse, Allan Portera, and Sangeeta Kumar.	Besonderer Dank gilt den freiwilligen Helfern, die die vorherige App entwickelt haben: Chan Kruse, Allan Portera und Sangeeta Kumar.		
+about_tweak		About Tweak	Über Optimierungen		
+average_weight_on_day		Average weight on day	Durchschnittliches Gewicht am Tag		
+backup		Backup	Sicherung		
+backup_failed		Backup failed	Sicherung fehlgeschlagen		
+backup_instructions_lines.0		Follow these steps to restore this backup in the Daily Dozen app	Gehen Sie folgendermaßen vor, um diese Sicherung in der Daily Dozen-App wiederherzustellen		
+backup_instructions_lines.1					
+backup_instructions_lines.2		1. The Daily Dozen app must be installed on your Android phone. You can download it here: https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen	1. Die Daily Dozen-App muss auf Ihrem Android-Telefon installiert sein. Sie können sie hier herunterladen: https://play.google.com/store/apps/details?id=org.nutritionfacts.dailydozen		
+backup_instructions_lines.3					
+backup_instructions_lines.4		2. Tap on the backup file attached to this email.	2. Tippen Sie auf die an diese E-Mail angehängte Sicherungsdatei.		
+backup_instructions_lines.5					
+backup_instructions_lines.6		3. Select Open with Daily Dozen	3. Wählen Sie Mit täglichem Dutzend öffnen		
+backup_success		Backup successful	Sicherung erfolgreich		
+channel_reminders_name		Reminders	Erinnerungen		
+daily_reminder_settings		Daily Reminder Settings	Einstellungen für die tägliche Benachrichtigung	a reminder that is triggered every day	
+daily_reminder_title		Daily Dozen Reminder	Erinnerung für das tägliche Dutzend		
+daily_servings_history		Daily Servings History	Verlauf der täglichen Portionen		
+daily_tweaks_history		Daily Tweaks History	Verlauf der täglichen Optimierungen		
+debug		Debug	Debuggen		
+debug_clear_data		Clear all data	Alle Daten löschen		
+debug_clear_data_message		This will delete all entered Servings. Do you wish to continue?	Dadurch werden alle eingegebenen Portionen gelöscht. Möchten Sie fortfahren?		
+debug_generate_data_message		All existing data will be replaced. Do you wish to continue?	Alle vorhandenen Daten werden ersetzt. Möchten Sie fortfahren?		
+debug_generate_full_data		Generate full data	Vollständige Daten erzeugen		
+debug_generate_random_data		Generate random data	Zufallsdaten erzeugen		
+debug_generate_weight_data		Generate Weight Data	Gewichtsdaten erzeugen		
+dialog_ask_user_to_rate_app_message		Please give us feedback in the Play Store.	Bitte geben Sie uns Feedback im Play Store.		
+dialog_ask_user_to_rate_app_title		Do you like this app?	Gefällt Ihnen diese App?		
+dialog_no_email_apps_message		Backing up your data requires you to have an email app installed so you can email the backup file to yourself. Please install an email app and try again.	Um Ihre Daten zu sichern, müssen Sie eine E-Mail-Anwendung installieren, damit Sie sich die Sicherungsdatei per E-Mail zusenden können. Bitte installieren Sie eine E-Mail-Anwendung und versuchen Sie es erneut.		
+dialog_no_email_apps_title		No email apps found	Keine E-Mail-Anwendungen gefunden		
+dialog_streaks_message		Your database will now be upgraded to support the new streaks feature.	Ihre Datenbank wird nun aktualisiert, um die neue Fortschrittsfunktion zu unterstützen.		
+dialog_streaks_title		New feature: Streaks!	Neue Fortschrittsfunktion hinzugefügt!		
+enable_daily_reminder		Enable Daily Reminder	Tägliche Erinnerungsfunktion aktivieren	On/Off toggle label	
+error_cannot_handle_url		Could not open url. Please install a browser.	Die Url konnte nicht geöffnet werden. Bitte installieren Sie einen Browser.		
+food_history		Food History	Nahrungsmittelverlauf		
+food_info		Food Info	Nahrungsmittelinformation		
+format_version		version %s	Version %s	Place `%s` where the software should substitue in the version number.	
+history_to_generate		History to Generate	Zu generierender Verlauf		
+history_to_generate_choices.0		1 month	1 Monat		
+history_to_generate_choices.1		3 months	3 Monate		
+history_to_generate_choices.2		6 months	6 Monate		
+history_to_generate_choices.3		1 year	1 Jahr		
+history_to_generate_choices.4		2 years	2 Jahre		
+history_to_generate_choices.5		5 years	5 Jahre		
+no		No	Nein		
+no_servings_recorded		You have not recorded any servings yet!	Sie haben noch keine Portionen aufgezeichnet!		
+no_weights_recorded		You have not recorded any weights yet!	Sie haben noch keine Gewichte aufgezeichnet!		
+not_now		Not Now	Nicht jetzt		
+out_of		out of	von	Part of ‘0 out of 24’	
+permission_needed_to_write_storage		Can’t backup without permission to write to storage	Keine Sicherung ohne Berechtigung zum Schreiben in den Speicher möglich		
+rate_now		Give Feedback	Rückmeldung geben		
+restore_confirm_message		Any existing data will be deleted before restoring from backup. Do you wish to continue?	Alle vorhandenen Daten werden vor der Wiederherstellung aus dem Backup gelöscht. Möchten Sie fortfahren?		
+restore_confirm_title		Restore Backup	Sicherung wiederherstellen		
+restore_failed		Restore failed	Wiederherstellen fehlgeschlagen		
+restore_success		Restore successful	Wiederherstellen erfolgreich		
+task_backup_title		Backing up	Sicherung läuft		
+task_calculating_streaks_title		Calculating streaks	Fortschirtte wird berechnet	:WIP: progress	
+task_generating_random_data		Generating random data	Zufallsdaten werden generiert		
+task_loading_servings_history_title		Loading Servings History	Lade Verlauf der Portionen		
+task_loading_weights_history_title		Loading Weights History	Lade Verlauf des Gewichts		
+task_restore_title		Restoring	Wiederherstellung läuft		
+title_cookbook		Cookbook	Kochbuch		
+title_how_not_to_die		How Not to Die	How Not to Die (Wie man nicht stirbt)		
+title_how_not_to_diet		How Not to Diet	How not to Diet (Wie man sich nicht ernährt)		
+tweak_group_daily		Every Day	Jeden Tag		
+tweak_group_dailydoses		Take your daily doses	Nehmen Sie Ihre tägliche Dosis		
+tweak_group_meal		At Each Meal	Zu jeder Mahlzeit		
+tweak_group_nightly		Every Night	Jede Nacht		
+yes		Yes	Ja		
