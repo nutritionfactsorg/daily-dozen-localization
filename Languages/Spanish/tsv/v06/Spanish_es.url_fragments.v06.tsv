@@ -1,0 +1,20 @@
+key_droid	key_apple	base_value	lang_value	base_note	lang_note
+	urlSegment.base	urlSegment.base	https://nutritionfacts.org/	URL path	
+	urlSegment.lang	urlSegment.lang	es/		
+	urlSegmentInfoMenu.book	urlSegmentInfoMenu.book	es/libro/comer-para-no-morir	main info menu: book	
+	urlSegmentInfoMenu.challenge	urlSegmentInfoMenu.challenge	es/objetivo-la-docena-diaria	main info menu: daily-dozen-challenge	
+	urlSegmentInfoMenu.cookbook	urlSegmentInfoMenu.cookbook	es/libro/libro-de-recetas	main info menu: cookbook	
+	urlSegmentInfoMenu.diet	urlSegmentInfoMenu.diet	es/libro/comer-para-no-engordar/	main info menu: how-not-to-diet	
+	urlSegmentInfoMenu.donate	urlSegmentInfoMenu.donate	es/dona-a-nutritionfacts-org	main info menu: donate	
+	urlSegmentInfoMenu.source	urlSegmentInfoMenu.source	es/open-source	main info menu: open-source	
+	urlSegmentInfoMenu.subscribe	urlSegmentInfoMenu.subscribe	es/suscribete	main info menu: subscribe	
+	urlSegmentInfoMenu.team	urlSegmentInfoMenu.team	es/equipo	team	
+	urlSegmentInfoMenu.videos	urlSegmentInfoMenu.videos	es/videos	main info menu: videos	
+url_cookbook		https://nutritionfacts.org/book/how-not-to-die-cookbook/	https://nutritionfacts.org/es/libro/libro-de-recetas/	Book URL: How Not to Die Cookbook	
+url_daily_dozen_challenge		https://nutritionfacts.org/daily-dozen-challenge/	https://nutritionfacts.org/es/objetivo-la-docena-diaria/	Info URL: Daily Dozen Challenge	
+url_donate		https://nutritionfacts.org/donate/	https://nutritionfacts.org/es/dona-a-nutritionfacts-org/	Info URL: Donate	
+url_how_not_to_die		https://nutritionfacts.org/book/how-not-to-die/	https://nutritionfacts.org/es/libro/comer-para-no-morir/	Book URL: How Not to Die	
+url_how_not_to_diet		https://nutritionfacts.org/book/how-not-to-diet/	https://nutritionfacts.org/es/libro/comer-para-no-engordar/	Book URL: How Not to Diet	
+url_latest_videos		http://nutritionfacts.org/videos/	https://nutritionfacts.org/es/videos/	Videos URL: Latest Videos	
+url_open_source		https://nutritionfacts.org/open-source/	https://nutritionfacts.org/es/open-source/	Info URL: Open Source	
+url_subscribe		https://nutritionfacts.org/subscribe/	https://nutritionfacts.org/es/suscribete/	Info URL: Subscribe	
