@@ -10,12 +10,11 @@ food_videos_beans.6	dozeBeans.Variety.topic.6
 food_videos_beans.7	dozeBeans.Variety.topic.7				
 food_videos_beans.8	dozeBeans.Variety.topic.8	topics/kidney-beans	es/topics/frijoles-rojos	https://nutritionfacts.org/topics/kidney-beans	https://nutritionfacts.org/es/topics/frijoles-rojos
 food_videos_beans.9	dozeBeans.Variety.topic.9	topics/lentils	es/topics/lentejas	https://nutritionfacts.org/topics/lentils	https://nutritionfacts.org/es/topics/lentejas
-food_videos_beans.10	dozeBeans.Variety.topic.10	topics/miso	es/topics/miso-es	https://nutritionfacts.org/topics/miso	https://nutritionfacts.org/es/topics/miso-es
-food_videos_beans.11	dozeBeans.Variety.topic.11	topics/navy-beans	es/topics/frijoles-blancos	https://nutritionfacts.org/topics/navy-beans	https://nutritionfacts.org/es/topics/frijoles-blancos
-food_videos_beans.12	dozeBeans.Variety.topic.12	topics/pinto-beans	es/topics/frijoles-pintos	https://nutritionfacts.org/topics/pinto-beans	https://nutritionfacts.org/es/topics/frijoles-pintos
-food_videos_beans.13	dozeBeans.Variety.topic.13				
-food_videos_beans.14	dozeBeans.Variety.topic.14	topics/split-peas	es/topics/guisantes-partidos	https://nutritionfacts.org/topics/split-peas	https://nutritionfacts.org/es/topics/guisantes-partidos
-food_videos_beans.15	dozeBeans.Variety.topic.15	topics/tempeh	es/topics/tempeh-es	https://nutritionfacts.org/topics/tempeh	https://nutritionfacts.org/es/topics/tempeh-es
+food_videos_beans.10	dozeBeans.Variety.topic.10	topics/navy-beans	es/topics/frijoles-blancos	https://nutritionfacts.org/topics/navy-beans	https://nutritionfacts.org/es/topics/frijoles-blancos
+food_videos_beans.11	dozeBeans.Variety.topic.11	topics/pinto-beans	es/topics/frijoles-pintos	https://nutritionfacts.org/topics/pinto-beans	https://nutritionfacts.org/es/topics/frijoles-pintos
+food_videos_beans.12	dozeBeans.Variety.topic.12				
+food_videos_beans.13	dozeBeans.Variety.topic.13	topics/split-peas	es/topics/guisantes-partidos	https://nutritionfacts.org/topics/split-peas	https://nutritionfacts.org/es/topics/guisantes-partidos
+food_videos_beans.14	dozeBeans.Variety.topic.14	topics/tempeh	es/topics/tempeh-es	https://nutritionfacts.org/topics/tempeh	https://nutritionfacts.org/es/topics/tempeh-es
 food_info_videos_berries	dozeBerries.topic	topics/berries	es/topics/bayas-es	https://nutritionfacts.org/topics/berries	https://nutritionfacts.org/es/topics/bayas-es
 food_videos_berries.0	dozeBerries.Variety.topic.0	topics/acai-berries	es/topics/bayas-de-acai	https://nutritionfacts.org/topics/acai-berries	https://nutritionfacts.org/es/topics/bayas-de-acai
 food_videos_berries.1	dozeBerries.Variety.topic.1	topics/barberries	es/topics/berberos-es	https://nutritionfacts.org/topics/barberries	https://nutritionfacts.org/es/topics/berberos-es
@@ -38,14 +37,13 @@ food_videos_beverages.4	dozeBeverages.Variety.topic.4	topics/earl-grey-tea	es/to
 food_videos_beverages.5	dozeBeverages.Variety.topic.5	topics/green-tea	es/topics/te-verde	https://nutritionfacts.org/topics/green-tea	https://nutritionfacts.org/es/topics/te-verde
 food_videos_beverages.6	dozeBeverages.Variety.topic.6	topics/hibiscus-tea	es/topics/hibiscus-tea-es	https://nutritionfacts.org/topics/hibiscus-tea	https://nutritionfacts.org/es/topics/hibiscus-tea-es
 food_videos_beverages.7	dozeBeverages.Variety.topic.7				
-food_videos_beverages.8	dozeBeverages.Variety.topic.8				
-food_videos_beverages.9	dozeBeverages.Variety.topic.9	topics/lemon-balm	es/topics/toronjil	https://nutritionfacts.org/topics/lemon-balm	https://nutritionfacts.org/es/topics/toronjil/
-food_videos_beverages.10	dozeBeverages.Variety.topic.10	topics/matcha	es/topics/matcha-es	https://nutritionfacts.org/topics/matcha	https://nutritionfacts.org/es/topics/matcha-es
-food_videos_beverages.11	dozeBeverages.Variety.topic.11	topics/oolong-tea	es/topics/te-oolong-es	https://nutritionfacts.org/topics/oolong-tea	https://nutritionfacts.org/es/topics/te-oolong-es
-food_videos_beverages.12	dozeBeverages.Variety.topic.12	topics/peppermint	es/topics/menta-es	https://nutritionfacts.org/topics/peppermint	https://nutritionfacts.org/es/topics/menta-es
-food_videos_beverages.13	dozeBeverages.Variety.topic.13	topics/rooibos-tea	es/topics/te-rooibos-es	https://nutritionfacts.org/topics/rooibos-tea	https://nutritionfacts.org/es/topics/te-rooibos-es
-food_videos_beverages.14	dozeBeverages.Variety.topic.14	topics/water	es/topics/agua	https://nutritionfacts.org/topics/water	https://nutritionfacts.org/es/topics/agua
-food_videos_beverages.15	dozeBeverages.Variety.topic.15	topics/white-tea	es/topics/te-blanco	https://nutritionfacts.org/topics/white-tea	https://nutritionfacts.org/es/topics/te-blanco
+food_videos_beverages.8	dozeBeverages.Variety.topic.8	topics/lemon-balm	es/topics/toronjil	https://nutritionfacts.org/topics/lemon-balm	https://nutritionfacts.org/es/topics/toronjil/
+food_videos_beverages.9	dozeBeverages.Variety.topic.9	topics/matcha	es/topics/matcha-es	https://nutritionfacts.org/topics/matcha	https://nutritionfacts.org/es/topics/matcha-es
+food_videos_beverages.10	dozeBeverages.Variety.topic.10	topics/oolong-tea	es/topics/te-oolong-es	https://nutritionfacts.org/topics/oolong-tea	https://nutritionfacts.org/es/topics/te-oolong-es
+food_videos_beverages.11	dozeBeverages.Variety.topic.11	topics/peppermint	es/topics/menta-es	https://nutritionfacts.org/topics/peppermint	https://nutritionfacts.org/es/topics/menta-es
+food_videos_beverages.12	dozeBeverages.Variety.topic.12	topics/rooibos-tea	es/topics/te-rooibos-es	https://nutritionfacts.org/topics/rooibos-tea	https://nutritionfacts.org/es/topics/te-rooibos-es
+food_videos_beverages.13	dozeBeverages.Variety.topic.13	topics/water	es/topics/agua	https://nutritionfacts.org/topics/water	https://nutritionfacts.org/es/topics/agua
+food_videos_beverages.14	dozeBeverages.Variety.topic.14	topics/white-tea	es/topics/te-blanco	https://nutritionfacts.org/topics/white-tea	https://nutritionfacts.org/es/topics/te-blanco
 food_info_videos_exercise	dozeExercise.topic	topics/exercise	es/topics/ejercicio	https://nutritionfacts.org/topics/exercise	https://nutritionfacts.org/es/topics/ejercicio
 	dozeExercise.Variety.topic.0				
 	dozeExercise.Variety.topic.1				
@@ -146,19 +144,18 @@ food_videos_greens.8	dozeGreens.Variety.topic.8	topics/swiss-chard	es/topics/ace
 food_videos_greens.9	dozeGreens.Variety.topic.9				
 food_info_videos_nuts	dozeNuts.topic	topics/nuts	es/topics/nueces	https://nutritionfacts.org/topics/nuts	https://nutritionfacts.org/es/topics/nueces
 food_videos_nuts.0	dozeNuts.Variety.topic.0	topics/almonds	es/topics/almendras	https://nutritionfacts.org/topics/almonds	https://nutritionfacts.org/es/topics/almendras
-food_videos_nuts.1	dozeNuts.Variety.topic.1	topics/brazil-nuts	es/topics/nueces-de-brasil-es	https://nutritionfacts.org/topics/brazil-nuts	https://nutritionfacts.org/es/topics/nueces-de-brasil-es
-food_videos_nuts.2	dozeNuts.Variety.topic.2	topics/cashews	es/topics/anacardos	https://nutritionfacts.org/topics/cashews	https://nutritionfacts.org/es/topics/anacardos
-food_videos_nuts.3	dozeNuts.Variety.topic.3	topics/chia-seeds	es/topics/semillas-de-chia	https://nutritionfacts.org/topics/chia-seeds	https://nutritionfacts.org/es/topics/semillas-de-chia
-food_videos_nuts.4	dozeNuts.Variety.topic.4	topics/hazelnuts	es/topics/avellanas-es	https://nutritionfacts.org/topics/hazelnuts	https://nutritionfacts.org/es/topics/avellanas-es
-food_videos_nuts.5	dozeNuts.Variety.topic.5				
-food_videos_nuts.6	dozeNuts.Variety.topic.6	topics/macadamia-nuts	es/topics/nueces-de-macadamia	https://nutritionfacts.org/topics/macadamia-nuts	https://nutritionfacts.org/es/topics/nueces-de-macadamia
-food_videos_nuts.7	dozeNuts.Variety.topic.7	topics/peanuts	es/topics/cacahuete	https://nutritionfacts.org/topics/peanuts	https://nutritionfacts.org/es/topics/cacahuete
-food_videos_nuts.8	dozeNuts.Variety.topic.8	topics/pecans	es/topics/nuez-pecana	https://nutritionfacts.org/topics/pecans	https://nutritionfacts.org/es/topics/nuez-pecana
-food_videos_nuts.9	dozeNuts.Variety.topic.9	topics/pistachios	es/topics/pistachos	https://nutritionfacts.org/topics/pistachios	https://nutritionfacts.org/es/topics/pistachos
-food_videos_nuts.10	dozeNuts.Variety.topic.10	topics/pumpkin-seeds	es/topics/semillas-de-calabaza	https://nutritionfacts.org/topics/pumpkin-seeds	https://nutritionfacts.org/es/topics/semillas-de-calabaza
-food_videos_nuts.11	dozeNuts.Variety.topic.11	topics/sesame-seeds	es/topics/ajonjoli	https://nutritionfacts.org/topics/sesame-seeds	https://nutritionfacts.org/es/topics/ajonjoli
-food_videos_nuts.12	dozeNuts.Variety.topic.12	topics/sunflower-seeds	es/topics/semillas-de-girasol	https://nutritionfacts.org/topics/sunflower-seeds	https://nutritionfacts.org/es/topics/semillas-de-girasol
-food_videos_nuts.13	dozeNuts.Variety.topic.13	topics/walnuts	es/topics/nueces-es	https://nutritionfacts.org/topics/walnuts	https://nutritionfacts.org/es/topics/nueces-es
+food_videos_nuts.1	dozeNuts.Variety.topic.1	topics/cashews	es/topics/anacardos	https://nutritionfacts.org/topics/cashews	https://nutritionfacts.org/es/topics/anacardos
+food_videos_nuts.2	dozeNuts.Variety.topic.2	topics/chia-seeds	es/topics/semillas-de-chia	https://nutritionfacts.org/topics/chia-seeds	https://nutritionfacts.org/es/topics/semillas-de-chia
+food_videos_nuts.3	dozeNuts.Variety.topic.3	topics/hazelnuts	es/topics/avellanas-es	https://nutritionfacts.org/topics/hazelnuts	https://nutritionfacts.org/es/topics/avellanas-es
+food_videos_nuts.4	dozeNuts.Variety.topic.4				
+food_videos_nuts.5	dozeNuts.Variety.topic.5	topics/macadamia-nuts	es/topics/nueces-de-macadamia	https://nutritionfacts.org/topics/macadamia-nuts	https://nutritionfacts.org/es/topics/nueces-de-macadamia
+food_videos_nuts.6	dozeNuts.Variety.topic.6	topics/peanuts	es/topics/cacahuete	https://nutritionfacts.org/topics/peanuts	https://nutritionfacts.org/es/topics/cacahuete
+food_videos_nuts.7	dozeNuts.Variety.topic.7	topics/pecans	es/topics/nuez-pecana	https://nutritionfacts.org/topics/pecans	https://nutritionfacts.org/es/topics/nuez-pecana
+food_videos_nuts.8	dozeNuts.Variety.topic.8	topics/pistachios	es/topics/pistachos	https://nutritionfacts.org/topics/pistachios	https://nutritionfacts.org/es/topics/pistachos
+food_videos_nuts.9	dozeNuts.Variety.topic.9	topics/pumpkin-seeds	es/topics/semillas-de-calabaza	https://nutritionfacts.org/topics/pumpkin-seeds	https://nutritionfacts.org/es/topics/semillas-de-calabaza
+food_videos_nuts.10	dozeNuts.Variety.topic.10	topics/sesame-seeds	es/topics/ajonjoli	https://nutritionfacts.org/topics/sesame-seeds	https://nutritionfacts.org/es/topics/ajonjoli
+food_videos_nuts.11	dozeNuts.Variety.topic.11	topics/sunflower-seeds	es/topics/semillas-de-girasol	https://nutritionfacts.org/topics/sunflower-seeds	https://nutritionfacts.org/es/topics/semillas-de-girasol
+food_videos_nuts.12	dozeNuts.Variety.topic.12	topics/walnuts	es/topics/nueces-es	https://nutritionfacts.org/topics/walnuts	https://nutritionfacts.org/es/topics/nueces-es
 food_info_videos_spices	dozeSpices.topic	topics/spices	es/topics/especias	https://nutritionfacts.org/topics/spices	https://nutritionfacts.org/es/topics/especias
 food_videos_spices.0	dozeSpices.Variety.topic.0	topics/allspice		https://nutritionfacts.org/topics/allspice	
 food_videos_spices.1	dozeSpices.Variety.topic.1	topics/barberries	es/topics/berberos-es	https://nutritionfacts.org/topics/barberries	https://nutritionfacts.org/es/topics/berberos-es
@@ -169,7 +166,7 @@ food_videos_spices.5	dozeSpices.Variety.topic.5
 food_videos_spices.6	dozeSpices.Variety.topic.6	topics/cilantro	es/topics/cilantro-es	https://nutritionfacts.org/topics/cilantro	https://nutritionfacts.org/es/topics/cilantro-es
 food_videos_spices.7	dozeSpices.Variety.topic.7	topics/cinnamon	es/topics/canela	https://nutritionfacts.org/topics/cinnamon	https://nutritionfacts.org/es/topics/canela
 food_videos_spices.8	dozeSpices.Variety.topic.8	topics/cloves	es/topics/clavos-de-olor	https://nutritionfacts.org/topics/cloves	https://nutritionfacts.org/es/topics/clavos-de-olor
-food_videos_spices.9	dozeSpices.Variety.topic.9	topics/coriander	es/topics/cilantro-es		https://nutritionfacts.org/es/topics/cilantro-es
+food_videos_spices.9	dozeSpices.Variety.topic.9				
 food_videos_spices.10	dozeSpices.Variety.topic.10	topics/cumin	es/topics/comino	https://nutritionfacts.org/topics/cumin	https://nutritionfacts.org/es/topics/comino
 food_videos_spices.11	dozeSpices.Variety.topic.11	topics/curry-powder	es/topics/curry-en-polvo	https://nutritionfacts.org/topics/curry-powder	https://nutritionfacts.org/es/topics/curry-en-polvo
 food_videos_spices.12	dozeSpices.Variety.topic.12				
@@ -239,24 +236,3 @@ food_videos_whole_grains.8	dozeWholeGrains.Variety.topic.8	topics/pasta	es/topic
 food_info_videos_omega3	otherOmega3.topic	topics/omega-3-fatty-acids	es/topics/acidos-grasos-omega-3	https://nutritionfacts.org/topics/omega-3-fatty-acids	https://nutritionfacts.org/es/topics/acidos-grasos-omega-3
 food_info_videos_vitamin_b12	otherVitaminB12.topic	topics/vitamin-b12	es/topics/vitamina-b12	https://nutritionfacts.org/topics/vitamin-b12	https://nutritionfacts.org/es/topics/vitamina-b12
 food_info_videos_vitamin_d	otherVitaminD.topic	topics/vitamin-d-supplements	es/topics/suplementos-de-vitamina-d	https://nutritionfacts.org/topics/vitamin-d-supplements	https://nutritionfacts.org/es/topics/suplementos-de-vitamina-d
-	tweakCompleteIntentions.topic				
-	tweakDailyBlackCumin.topic				
-	tweakDailyCumin.topic				
-	tweakDailyDeflourDiet.topic				
-	tweakDailyFrontLoad.topic				
-	tweakDailyGarlic.topic				
-	tweakDailyGinger.topic				
-	tweakDailyGreenTea.topic				
-	tweakDailyHydrate.topic				
-	tweakDailyNutriYeast.topic				
-	tweakDailyTimeRestrict.topic				
-	tweakExerciseTiming.topic				
-	tweakMeal20Minutes.topic				
-	tweakMealNegCal.topic				
-	tweakMealUndistracted.topic				
-	tweakMealVinegar.topic				
-	tweakMealWater.topic				
-	tweakNightlyFast.topic				
-	tweakNightlySleep.topic				
-	tweakNightlyTrendelenbrug.topic				
-	tweakWeightTwice.topic				

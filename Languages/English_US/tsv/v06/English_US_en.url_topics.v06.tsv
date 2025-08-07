@@ -10,12 +10,11 @@ food_videos_beans.6	dozeBeans.Variety.topic.6
 food_videos_beans.7	dozeBeans.Variety.topic.7				
 food_videos_beans.8	dozeBeans.Variety.topic.8	topics/kidney-beans	topics/kidney-beans	https://nutritionfacts.org/topics/kidney-beans	
 food_videos_beans.9	dozeBeans.Variety.topic.9	topics/lentils	topics/lentils	https://nutritionfacts.org/topics/lentils	
-food_videos_beans.10	dozeBeans.Variety.topic.10	topics/miso	topics/miso	https://nutritionfacts.org/topics/miso	
-food_videos_beans.11	dozeBeans.Variety.topic.11	topics/navy-beans	topics/navy-beans	https://nutritionfacts.org/topics/navy-beans	
-food_videos_beans.12	dozeBeans.Variety.topic.12	topics/pinto-beans	topics/pinto-beans	https://nutritionfacts.org/topics/pinto-beans	
-food_videos_beans.13	dozeBeans.Variety.topic.13				
-food_videos_beans.14	dozeBeans.Variety.topic.14	topics/split-peas	topics/split-peas	https://nutritionfacts.org/topics/split-peas	
-food_videos_beans.15	dozeBeans.Variety.topic.15	topics/tempeh	topics/tempeh	https://nutritionfacts.org/topics/tempeh	
+food_videos_beans.10	dozeBeans.Variety.topic.10	topics/navy-beans	topics/navy-beans	https://nutritionfacts.org/topics/navy-beans	
+food_videos_beans.11	dozeBeans.Variety.topic.11	topics/pinto-beans	topics/pinto-beans	https://nutritionfacts.org/topics/pinto-beans	
+food_videos_beans.12	dozeBeans.Variety.topic.12				
+food_videos_beans.13	dozeBeans.Variety.topic.13	topics/split-peas	topics/split-peas	https://nutritionfacts.org/topics/split-peas	
+food_videos_beans.14	dozeBeans.Variety.topic.14	topics/tempeh	topics/tempeh	https://nutritionfacts.org/topics/tempeh	
 food_info_videos_berries	dozeBerries.topic	topics/berries	topics/berries	https://nutritionfacts.org/topics/berries	
 food_videos_berries.0	dozeBerries.Variety.topic.0	topics/acai-berries	topics/acai-berries	https://nutritionfacts.org/topics/acai-berries	
 food_videos_berries.1	dozeBerries.Variety.topic.1	topics/barberries	topics/barberries	https://nutritionfacts.org/topics/barberries	
@@ -38,14 +37,13 @@ food_videos_beverages.4	dozeBeverages.Variety.topic.4	topics/earl-grey-tea	topic
 food_videos_beverages.5	dozeBeverages.Variety.topic.5	topics/green-tea	topics/green-tea	https://nutritionfacts.org/topics/green-tea	
 food_videos_beverages.6	dozeBeverages.Variety.topic.6	topics/hibiscus-tea	topics/hibiscus-tea	https://nutritionfacts.org/topics/hibiscus-tea	
 food_videos_beverages.7	dozeBeverages.Variety.topic.7				
-food_videos_beverages.8	dozeBeverages.Variety.topic.8				
-food_videos_beverages.9	dozeBeverages.Variety.topic.9	topics/lemon-balm	topics/lemon-balm	https://nutritionfacts.org/topics/lemon-balm	
-food_videos_beverages.10	dozeBeverages.Variety.topic.10	topics/matcha	topics/matcha	https://nutritionfacts.org/topics/matcha	
-food_videos_beverages.11	dozeBeverages.Variety.topic.11	topics/oolong-tea	topics/oolong-tea	https://nutritionfacts.org/topics/oolong-tea	
-food_videos_beverages.12	dozeBeverages.Variety.topic.12	topics/peppermint	topics/peppermint	https://nutritionfacts.org/topics/peppermint	
-food_videos_beverages.13	dozeBeverages.Variety.topic.13	topics/rooibos-tea	topics/rooibos-tea	https://nutritionfacts.org/topics/rooibos-tea	
-food_videos_beverages.14	dozeBeverages.Variety.topic.14	topics/water	topics/water	https://nutritionfacts.org/topics/water	
-food_videos_beverages.15	dozeBeverages.Variety.topic.15	topics/white-tea	topics/white-tea	https://nutritionfacts.org/topics/white-tea	
+food_videos_beverages.8	dozeBeverages.Variety.topic.8	topics/lemon-balm	topics/lemon-balm	https://nutritionfacts.org/topics/lemon-balm	
+food_videos_beverages.9	dozeBeverages.Variety.topic.9	topics/matcha	topics/matcha	https://nutritionfacts.org/topics/matcha	
+food_videos_beverages.10	dozeBeverages.Variety.topic.10	topics/oolong-tea	topics/oolong-tea	https://nutritionfacts.org/topics/oolong-tea	
+food_videos_beverages.11	dozeBeverages.Variety.topic.11	topics/peppermint	topics/peppermint	https://nutritionfacts.org/topics/peppermint	
+food_videos_beverages.12	dozeBeverages.Variety.topic.12	topics/rooibos-tea	topics/rooibos-tea	https://nutritionfacts.org/topics/rooibos-tea	
+food_videos_beverages.13	dozeBeverages.Variety.topic.13	topics/water	topics/water	https://nutritionfacts.org/topics/water	
+food_videos_beverages.14	dozeBeverages.Variety.topic.14	topics/white-tea	topics/white-tea	https://nutritionfacts.org/topics/white-tea	
 food_info_videos_exercise	dozeExercise.topic	topics/exercise	topics/exercise	https://nutritionfacts.org/topics/exercise	
 	dozeExercise.Variety.topic.0				
 	dozeExercise.Variety.topic.1				
@@ -146,19 +144,18 @@ food_videos_greens.8	dozeGreens.Variety.topic.8	topics/swiss-chard	topics/swiss-
 food_videos_greens.9	dozeGreens.Variety.topic.9				
 food_info_videos_nuts	dozeNuts.topic	topics/nuts	topics/nuts	https://nutritionfacts.org/topics/nuts	
 food_videos_nuts.0	dozeNuts.Variety.topic.0	topics/almonds	topics/almonds	https://nutritionfacts.org/topics/almonds	
-food_videos_nuts.1	dozeNuts.Variety.topic.1	topics/brazil-nuts	topics/brazil-nuts	https://nutritionfacts.org/topics/brazil-nuts	
-food_videos_nuts.2	dozeNuts.Variety.topic.2	topics/cashews	topics/cashews	https://nutritionfacts.org/topics/cashews	
-food_videos_nuts.3	dozeNuts.Variety.topic.3	topics/chia-seeds	topics/chia-seeds	https://nutritionfacts.org/topics/chia-seeds	
-food_videos_nuts.4	dozeNuts.Variety.topic.4	topics/hazelnuts	topics/hazelnuts	https://nutritionfacts.org/topics/hazelnuts	
-food_videos_nuts.5	dozeNuts.Variety.topic.5				
-food_videos_nuts.6	dozeNuts.Variety.topic.6	topics/macadamia-nuts	topics/macadamia-nuts	https://nutritionfacts.org/topics/macadamia-nuts	
-food_videos_nuts.7	dozeNuts.Variety.topic.7	topics/peanuts	topics/peanuts	https://nutritionfacts.org/topics/peanuts	
-food_videos_nuts.8	dozeNuts.Variety.topic.8	topics/pecans	topics/pecans	https://nutritionfacts.org/topics/pecans	
-food_videos_nuts.9	dozeNuts.Variety.topic.9	topics/pistachios	topics/pistachios	https://nutritionfacts.org/topics/pistachios	
-food_videos_nuts.10	dozeNuts.Variety.topic.10	topics/pumpkin-seeds	topics/pumpkin-seeds	https://nutritionfacts.org/topics/pumpkin-seeds	
-food_videos_nuts.11	dozeNuts.Variety.topic.11	topics/sesame-seeds	topics/sesame-seeds	https://nutritionfacts.org/topics/sesame-seeds	
-food_videos_nuts.12	dozeNuts.Variety.topic.12	topics/sunflower-seeds	topics/sunflower-seeds	https://nutritionfacts.org/topics/sunflower-seeds	
-food_videos_nuts.13	dozeNuts.Variety.topic.13	topics/walnuts	topics/walnuts	https://nutritionfacts.org/topics/walnuts	
+food_videos_nuts.1	dozeNuts.Variety.topic.1	topics/cashews	topics/cashews	https://nutritionfacts.org/topics/cashews	
+food_videos_nuts.2	dozeNuts.Variety.topic.2	topics/chia-seeds	topics/chia-seeds	https://nutritionfacts.org/topics/chia-seeds	
+food_videos_nuts.3	dozeNuts.Variety.topic.3	topics/hazelnuts	topics/hazelnuts	https://nutritionfacts.org/topics/hazelnuts	
+food_videos_nuts.4	dozeNuts.Variety.topic.4				
+food_videos_nuts.5	dozeNuts.Variety.topic.5	topics/macadamia-nuts	topics/macadamia-nuts	https://nutritionfacts.org/topics/macadamia-nuts	
+food_videos_nuts.6	dozeNuts.Variety.topic.6	topics/peanuts	topics/peanuts	https://nutritionfacts.org/topics/peanuts	
+food_videos_nuts.7	dozeNuts.Variety.topic.7	topics/pecans	topics/pecans	https://nutritionfacts.org/topics/pecans	
+food_videos_nuts.8	dozeNuts.Variety.topic.8	topics/pistachios	topics/pistachios	https://nutritionfacts.org/topics/pistachios	
+food_videos_nuts.9	dozeNuts.Variety.topic.9	topics/pumpkin-seeds	topics/pumpkin-seeds	https://nutritionfacts.org/topics/pumpkin-seeds	
+food_videos_nuts.10	dozeNuts.Variety.topic.10	topics/sesame-seeds	topics/sesame-seeds	https://nutritionfacts.org/topics/sesame-seeds	
+food_videos_nuts.11	dozeNuts.Variety.topic.11	topics/sunflower-seeds	topics/sunflower-seeds	https://nutritionfacts.org/topics/sunflower-seeds	
+food_videos_nuts.12	dozeNuts.Variety.topic.12	topics/walnuts	topics/walnuts	https://nutritionfacts.org/topics/walnuts	
 food_info_videos_spices	dozeSpices.topic	topics/spices	topics/spices	https://nutritionfacts.org/topics/spices	
 food_videos_spices.0	dozeSpices.Variety.topic.0	topics/allspice	topics/allspice	https://nutritionfacts.org/topics/allspice	
 food_videos_spices.1	dozeSpices.Variety.topic.1	topics/barberries	topics/barberries	https://nutritionfacts.org/topics/barberries	
