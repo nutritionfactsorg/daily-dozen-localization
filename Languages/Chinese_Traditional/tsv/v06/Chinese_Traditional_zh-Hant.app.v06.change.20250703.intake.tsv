@@ -1,10 +1,10 @@
 key_droid	key_apple	base_value	lang_value	base_note	lang_note
-food_info_serving_sizes_beans_imperial.2	dozeBeans.Serving.imperial.2	⅓ cup tofu or tempeh	1/3杯豆腐或天貝		½ cup tofu or tempeh
-food_info_serving_sizes_beans_imperial.3	dozeBeans.Serving.imperial.3	1 cup fresh peas or sprouted lentils	1杯新鮮豌豆或萌芽扁豆		1 cup fresh peas or snow peas
-food_info_serving_sizes_beans_metric.0	dozeBeans.Serving.metric.0	70 g hummus or bean dip	70克鷹嘴豆或其他豆泥		60 g hummus
-food_info_serving_sizes_beans_metric.1	dozeBeans.Serving.metric.1	100 g cooked beans, split peas, or lentils	100克煮熟的豆子、去皮豌豆或扁豆		90g cooked beans, peas or lentils
-food_info_serving_sizes_beans_metric.2	dozeBeans.Serving.metric.2	80 g tofu or tempeh	80克豆腐或天貝		100 g tofu or tempeh
-food_info_serving_sizes_beans_metric.3	dozeBeans.Serving.metric.3	100 g fresh peas or sprouted lentils	100克新鮮豌豆或萌芽扁豆		130 g fresh peas or snow peas
+food_info_serving_sizes_beans_imperial.2	dozeBeans.Serving.imperial.2	⅓ cup tofu or tempeh	1/3杯豆腐或天貝		
+food_info_serving_sizes_beans_imperial.3	dozeBeans.Serving.imperial.3	1 cup fresh peas or sprouted lentils	1杯新鮮豌豆或萌芽扁豆		
+food_info_serving_sizes_beans_metric.0	dozeBeans.Serving.metric.0	70 g hummus or bean dip	70克鷹嘴豆或其他豆泥		
+food_info_serving_sizes_beans_metric.1	dozeBeans.Serving.metric.1	100 g cooked beans, split peas, or lentils	100克煮熟的豆子、去皮豌豆或扁豆		
+food_info_serving_sizes_beans_metric.2	dozeBeans.Serving.metric.2	80 g tofu or tempeh	80克豆腐或天貝		
+food_info_serving_sizes_beans_metric.3	dozeBeans.Serving.metric.3	100 g fresh peas or sprouted lentils	100克新鮮豌豆或萌芽扁豆		
 food_info_serving_sizes_berries_metric.0	dozeBerries.Serving.metric.0	70 g fresh or frozen	70克新鮮或冷凍		
 food_info_serving_sizes_other_fruits_metric.1	dozeFruitsOther.Serving.metric.1	150 g cut-up fruit	150克水果丁		
 food_info_serving_sizes_cruciferous_vegetables_imperial.0	dozeVegetablesCruciferous.Serving.imperial.0	½ cup cooked leafy vegetables	½杯熟綠葉菜		

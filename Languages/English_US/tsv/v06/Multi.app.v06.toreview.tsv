@@ -56,11 +56,11 @@ Bulgarian_bg	no	food_info_serving_sizes_whole_grains_metric.1	dozeWholeGrains.Se
 Bulgarian_bg	no	food_info_serving_sizes_whole_grains_metric.2	dozeWholeGrains.Serving.metric.2	1 100% whole grain tortilla (or 2 smaller corn tortillas)	1 100% whole grain tortilla (or 2 smaller corn tortillas)		
 Bulgarian_bg	no	food_info_serving_sizes_whole_grains_metric.3	dozeWholeGrains.Serving.metric.3	1 slice of 100% whole grain bread	1 тортила или филия хляб		
 Catalan_ca	no	food_info_serving_sizes_beans_imperial.2	dozeBeans.Serving.imperial.2	⅓ cup tofu or tempeh	½ tassa de tofu o tempeh		
-Catalan_ca	no	food_info_serving_sizes_beans_imperial.3	dozeBeans.Serving.imperial.3	1 cup fresh peas or sprouted lentils	1 tassa de pèsols frescos o pèsols de neu		1 cup fresh peas or snow peas
-Catalan_ca	no	food_info_serving_sizes_beans_metric.0	dozeBeans.Serving.metric.0	70 g hummus or bean dip	60 g d'hummus o salsa de mongetes		60 g hummus or bean dip
+Catalan_ca	no	food_info_serving_sizes_beans_imperial.3	dozeBeans.Serving.imperial.3	1 cup fresh peas or sprouted lentils	1 tassa de pèsols frescos o pèsols de neu		
+Catalan_ca	no	food_info_serving_sizes_beans_metric.0	dozeBeans.Serving.metric.0	70 g hummus or bean dip	60 g d'hummus o salsa de mongetes		
 Catalan_ca	no	food_info_serving_sizes_beans_metric.1	dozeBeans.Serving.metric.1	100 g cooked beans, split peas, or lentils	90 g de mongetes cuites, pèsols o llenties		90 g of cooked beans, peas or lentils
 Catalan_ca	no	food_info_serving_sizes_beans_metric.2	dozeBeans.Serving.metric.2	80 g tofu or tempeh	100 g de tofu o tempeh		
-Catalan_ca	no	food_info_serving_sizes_beans_metric.3	dozeBeans.Serving.metric.3	100 g fresh peas or sprouted lentils	130 g de pèsols frescos o pèsols de neu		130 g of fresh peas or snow peas
+Catalan_ca	no	food_info_serving_sizes_beans_metric.3	dozeBeans.Serving.metric.3	100 g fresh peas or sprouted lentils	130 g de pèsols frescos o pèsols de neu		
 Catalan_ca	no	food_info_serving_sizes_berries_metric.0	dozeBerries.Serving.metric.0	70 g fresh or frozen	60 g frescos o congelats		
 Catalan_ca	no	food_info_serving_sizes_other_fruits_metric.1	dozeFruitsOther.Serving.metric.1	150 g cut-up fruit	120 g de fruita tallada		
 Catalan_ca	no	food_info_serving_sizes_cruciferous_vegetables_imperial.0	dozeVegetablesCruciferous.Serving.imperial.0	½ cup cooked leafy vegetables	½ tassa tallat		
@@ -83,12 +83,12 @@ Catalan_ca	no	food_info_serving_sizes_whole_grains_metric.0	dozeWholeGrains.Serv
 Catalan_ca	no	food_info_serving_sizes_whole_grains_metric.1	dozeWholeGrains.Serving.metric.1	50 g 100% whole grain cold cereal	50 g de cereals freds		
 Catalan_ca	no	food_info_serving_sizes_whole_grains_metric.2	dozeWholeGrains.Serving.metric.2	1 100% whole grain tortilla (or 2 smaller corn tortillas)	1 100% whole grain tortilla (or 2 smaller corn tortillas)		
 Catalan_ca	no	food_info_serving_sizes_whole_grains_metric.3	dozeWholeGrains.Serving.metric.3	1 slice of 100% whole grain bread	1 tortilla o llesca de pa		
-Chinese_Simplified_zh-Hans	no	food_info_serving_sizes_beans_imperial.2	dozeBeans.Serving.imperial.2	⅓ cup tofu or tempeh	½杯豆腐或天贝		½ cup tofu or tempeh
-Chinese_Simplified_zh-Hans	no	food_info_serving_sizes_beans_imperial.3	dozeBeans.Serving.imperial.3	1 cup fresh peas or sprouted lentils	1杯新鲜豌豆或荷兰豆		1 cup fresh peas or snow peas
-Chinese_Simplified_zh-Hans	no	food_info_serving_sizes_beans_metric.0	dozeBeans.Serving.metric.0	70 g hummus or bean dip	60克鹰嘴豆或其他豆泥		60 g hummus
-Chinese_Simplified_zh-Hans	no	food_info_serving_sizes_beans_metric.1	dozeBeans.Serving.metric.1	100 g cooked beans, split peas, or lentils	90克煮熟的豆子、豌豆或小扁豆		90g cooked beans, peas or lentils
-Chinese_Simplified_zh-Hans	no	food_info_serving_sizes_beans_metric.2	dozeBeans.Serving.metric.2	80 g tofu or tempeh	100克豆腐或天贝		100 g tofu or tempeh
-Chinese_Simplified_zh-Hans	no	food_info_serving_sizes_beans_metric.3	dozeBeans.Serving.metric.3	100 g fresh peas or sprouted lentils	130克新鲜豌豆或荷兰豆		130 g fresh peas or snow peas
+Chinese_Simplified_zh-Hans	no	food_info_serving_sizes_beans_imperial.2	dozeBeans.Serving.imperial.2	⅓ cup tofu or tempeh	½杯豆腐或天贝		
+Chinese_Simplified_zh-Hans	no	food_info_serving_sizes_beans_imperial.3	dozeBeans.Serving.imperial.3	1 cup fresh peas or sprouted lentils	1杯新鲜豌豆或荷兰豆		
+Chinese_Simplified_zh-Hans	no	food_info_serving_sizes_beans_metric.0	dozeBeans.Serving.metric.0	70 g hummus or bean dip	60克鹰嘴豆或其他豆泥		
+Chinese_Simplified_zh-Hans	no	food_info_serving_sizes_beans_metric.1	dozeBeans.Serving.metric.1	100 g cooked beans, split peas, or lentils	90克煮熟的豆子、豌豆或小扁豆		
+Chinese_Simplified_zh-Hans	no	food_info_serving_sizes_beans_metric.2	dozeBeans.Serving.metric.2	80 g tofu or tempeh	100克豆腐或天贝		
+Chinese_Simplified_zh-Hans	no	food_info_serving_sizes_beans_metric.3	dozeBeans.Serving.metric.3	100 g fresh peas or sprouted lentils	130克新鲜豌豆或荷兰豆		
 Chinese_Simplified_zh-Hans	no	food_info_serving_sizes_berries_metric.0	dozeBerries.Serving.metric.0	70 g fresh or frozen	60克新鲜或冷冻浆果		
 Chinese_Simplified_zh-Hans	no	food_info_serving_sizes_other_fruits_metric.1	dozeFruitsOther.Serving.metric.1	150 g cut-up fruit	120克水果丁		
 Chinese_Simplified_zh-Hans	no	food_info_serving_sizes_cruciferous_vegetables_imperial.0	dozeVegetablesCruciferous.Serving.imperial.0	½ cup cooked leafy vegetables	½杯切碎的十字花科蔬菜		
@@ -111,12 +111,12 @@ Chinese_Simplified_zh-Hans	no	food_info_serving_sizes_whole_grains_metric.0	doze
 Chinese_Simplified_zh-Hans	no	food_info_serving_sizes_whole_grains_metric.1	dozeWholeGrains.Serving.metric.1	50 g 100% whole grain cold cereal	50克冷麦片		
 Chinese_Simplified_zh-Hans	no	food_info_serving_sizes_whole_grains_metric.2	dozeWholeGrains.Serving.metric.2	1 100% whole grain tortilla (or 2 smaller corn tortillas)	1 100% whole grain tortilla (or 2 smaller corn tortillas)		
 Chinese_Simplified_zh-Hans	no	food_info_serving_sizes_whole_grains_metric.3	dozeWholeGrains.Serving.metric.3	1 slice of 100% whole grain bread	1份墨西哥薄饼或1片面包		
-Chinese_Traditional_zh-Hant	no	food_info_serving_sizes_beans_imperial.2	dozeBeans.Serving.imperial.2	⅓ cup tofu or tempeh	½杯豆腐或天貝		½ cup tofu or tempeh
-Chinese_Traditional_zh-Hant	no	food_info_serving_sizes_beans_imperial.3	dozeBeans.Serving.imperial.3	1 cup fresh peas or sprouted lentils	1杯新鮮豌豆或荷蘭豆		1 cup fresh peas or snow peas
-Chinese_Traditional_zh-Hant	no	food_info_serving_sizes_beans_metric.0	dozeBeans.Serving.metric.0	70 g hummus or bean dip	60克鷹嘴豆或其他豆泥		60 g hummus
-Chinese_Traditional_zh-Hant	no	food_info_serving_sizes_beans_metric.1	dozeBeans.Serving.metric.1	100 g cooked beans, split peas, or lentils	90克煮熟的豆子、豌豆或扁豆		90g cooked beans, peas or lentils
-Chinese_Traditional_zh-Hant	no	food_info_serving_sizes_beans_metric.2	dozeBeans.Serving.metric.2	80 g tofu or tempeh	100克豆腐或豆豉		100 g tofu or tempeh
-Chinese_Traditional_zh-Hant	no	food_info_serving_sizes_beans_metric.3	dozeBeans.Serving.metric.3	100 g fresh peas or sprouted lentils	130克新鮮豌豆或荷蘭豆		130 g fresh peas or snow peas
+Chinese_Traditional_zh-Hant	no	food_info_serving_sizes_beans_imperial.2	dozeBeans.Serving.imperial.2	⅓ cup tofu or tempeh	½杯豆腐或天貝		
+Chinese_Traditional_zh-Hant	no	food_info_serving_sizes_beans_imperial.3	dozeBeans.Serving.imperial.3	1 cup fresh peas or sprouted lentils	1杯新鮮豌豆或荷蘭豆		
+Chinese_Traditional_zh-Hant	no	food_info_serving_sizes_beans_metric.0	dozeBeans.Serving.metric.0	70 g hummus or bean dip	60克鷹嘴豆或其他豆泥		
+Chinese_Traditional_zh-Hant	no	food_info_serving_sizes_beans_metric.1	dozeBeans.Serving.metric.1	100 g cooked beans, split peas, or lentils	90克煮熟的豆子、豌豆或扁豆		
+Chinese_Traditional_zh-Hant	no	food_info_serving_sizes_beans_metric.2	dozeBeans.Serving.metric.2	80 g tofu or tempeh	100克豆腐或豆豉		
+Chinese_Traditional_zh-Hant	no	food_info_serving_sizes_beans_metric.3	dozeBeans.Serving.metric.3	100 g fresh peas or sprouted lentils	130克新鮮豌豆或荷蘭豆		
 Chinese_Traditional_zh-Hant	no	food_info_serving_sizes_berries_metric.0	dozeBerries.Serving.metric.0	70 g fresh or frozen	60克新鮮或冷凍漿果		
 Chinese_Traditional_zh-Hant	no	food_info_serving_sizes_other_fruits_metric.1	dozeFruitsOther.Serving.metric.1	150 g cut-up fruit	120克水果丁		
 Chinese_Traditional_zh-Hant	no	food_info_serving_sizes_cruciferous_vegetables_imperial.0	dozeVegetablesCruciferous.Serving.imperial.0	½ cup cooked leafy vegetables	½杯切碎的十字花科蔬菜		
@@ -560,12 +560,12 @@ Ukranian_uk	no	food_info_serving_sizes_whole_grains_metric.0	dozeWholeGrains.Ser
 Ukranian_uk	no	food_info_serving_sizes_whole_grains_metric.1	dozeWholeGrains.Serving.metric.1	50 g 100% whole grain cold cereal	50 г хлоп'їв		
 Ukranian_uk	no	food_info_serving_sizes_whole_grains_metric.2	dozeWholeGrains.Serving.metric.2	1 100% whole grain tortilla (or 2 smaller corn tortillas)	1 100% whole grain tortilla (or 2 smaller corn tortillas)		
 Ukranian_uk	no	food_info_serving_sizes_whole_grains_metric.3	dozeWholeGrains.Serving.metric.3	1 slice of 100% whole grain bread	1 тортилья або скибка хліба		
-Greek_el	no	food_info_serving_sizes_beans_imperial.2	dozeBeans.Serving.imperial.2	⅓ cup tofu or tempeh	½ φλιτζάνι τόφου ή τέμπε		½ cup tofu or tempeh
-Greek_el	no	food_info_serving_sizes_beans_imperial.3	dozeBeans.Serving.imperial.3	1 cup fresh peas or sprouted lentils	1 φλιτζάνι φρέσκο αρακά ή αρακά χιονιού		1 cup fresh peas or snow peas
-Greek_el	no	food_info_serving_sizes_beans_metric.0	dozeBeans.Serving.metric.0	70 g hummus or bean dip	60 γραμμάρια χούμους ή ντιπ φασολιών		60 grams of hummus or bean dip
+Greek_el	no	food_info_serving_sizes_beans_imperial.2	dozeBeans.Serving.imperial.2	⅓ cup tofu or tempeh	½ φλιτζάνι τόφου ή τέμπε		
+Greek_el	no	food_info_serving_sizes_beans_imperial.3	dozeBeans.Serving.imperial.3	1 cup fresh peas or sprouted lentils	1 φλιτζάνι φρέσκο αρακά ή αρακά χιονιού		
+Greek_el	no	food_info_serving_sizes_beans_metric.0	dozeBeans.Serving.metric.0	70 g hummus or bean dip	60 γραμμάρια χούμους ή ντιπ φασολιών		
 Greek_el	no	food_info_serving_sizes_beans_metric.1	dozeBeans.Serving.metric.1	100 g cooked beans, split peas, or lentils	90 γραμμάρια μαγειρεμένα φασόλια, σπαστά μπιζέλια ή φακές		90g cooked beans, split peas or lentils
-Greek_el	no	food_info_serving_sizes_beans_metric.2	dozeBeans.Serving.metric.2	80 g tofu or tempeh	100 g τόφου ή τέμπε		100 g of tofu or tempeh
-Greek_el	no	food_info_serving_sizes_beans_metric.3	dozeBeans.Serving.metric.3	100 g fresh peas or sprouted lentils	130 γραμμάρια φρέσκου αρακά ή αρακά χιονιού		130 grams of fresh peas or snow peas
+Greek_el	no	food_info_serving_sizes_beans_metric.2	dozeBeans.Serving.metric.2	80 g tofu or tempeh	100 g τόφου ή τέμπε		
+Greek_el	no	food_info_serving_sizes_beans_metric.3	dozeBeans.Serving.metric.3	100 g fresh peas or sprouted lentils	130 γραμμάρια φρέσκου αρακά ή αρακά χιονιού		
 Greek_el	no	food_info_serving_sizes_berries_metric.0	dozeBerries.Serving.metric.0	70 g fresh or frozen	60 γραμμάρια φρέσκα ή κατεψυγμένα		
 Greek_el	no	food_info_serving_sizes_other_fruits_metric.1	dozeFruitsOther.Serving.metric.1	150 g cut-up fruit	120 γραμμάρια κομμένο φρούτο		
 Greek_el	no	food_info_serving_sizes_cruciferous_vegetables_imperial.0	dozeVegetablesCruciferous.Serving.imperial.0	½ cup cooked leafy vegetables	½ φλιτζάνι ψιλοκομμένα		

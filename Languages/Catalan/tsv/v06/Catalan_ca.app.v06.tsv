@@ -9,12 +9,12 @@ servings	doze_entry_header	Servings	Porcions	Doze Entry View heading: ‘Serving
 beans	dozeBeans.heading	Beans	Llegums	heading for daily data entry item	
 food_info_serving_sizes_beans_imperial.0	dozeBeans.Serving.imperial.0	¼ cup hummus or bean dip	¼ tassa d'hummus o salsa de fesols		¼ cup hummus or bean dip
 food_info_serving_sizes_beans_imperial.1	dozeBeans.Serving.imperial.1	½ cup cooked beans, split peas, or lentils	½ tassa de mongetes cuites, pèsols o llenties		½ cup cooked beans, peas or lentils
-food_info_serving_sizes_beans_imperial.2	dozeBeans.Serving.imperial.2	⅓ cup tofu or tempeh	½ tassa de tofu o tempeh		
-food_info_serving_sizes_beans_imperial.3	dozeBeans.Serving.imperial.3	1 cup fresh peas or sprouted lentils	1 tassa de pèsols frescos o pèsols de neu		1 cup fresh peas or snow peas
-food_info_serving_sizes_beans_metric.0	dozeBeans.Serving.metric.0	70 g hummus or bean dip	60 g d'hummus o salsa de mongetes		60 g hummus or bean dip
-food_info_serving_sizes_beans_metric.1	dozeBeans.Serving.metric.1	100 g cooked beans, split peas, or lentils	90 g de mongetes cuites, pèsols o llenties		90 g of cooked beans, peas or lentils
-food_info_serving_sizes_beans_metric.2	dozeBeans.Serving.metric.2	80 g tofu or tempeh	100 g de tofu o tempeh		
-food_info_serving_sizes_beans_metric.3	dozeBeans.Serving.metric.3	100 g fresh peas or sprouted lentils	130 g de pèsols frescos o pèsols de neu		130 g of fresh peas or snow peas
+food_info_serving_sizes_beans_imperial.2	dozeBeans.Serving.imperial.2	⅓ cup tofu or tempeh	⅓ tassa de tofu o tempeh		
+food_info_serving_sizes_beans_imperial.3	dozeBeans.Serving.imperial.3	1 cup fresh peas or sprouted lentils	1 tassa de pèsols frescos o brots de llegums germinats		
+food_info_serving_sizes_beans_metric.0	dozeBeans.Serving.metric.0	70 g hummus or bean dip	70 g d'hummus o salsa de mongetes		
+food_info_serving_sizes_beans_metric.1	dozeBeans.Serving.metric.1	100 g cooked beans, split peas, or lentils	100 g de mongetes cuites, pèsols o llenties		
+food_info_serving_sizes_beans_metric.2	dozeBeans.Serving.metric.2	80 g tofu or tempeh	80 g de tofu o tempeh		
+food_info_serving_sizes_beans_metric.3	dozeBeans.Serving.metric.3	100 g fresh peas or sprouted lentils	100 g de pèsols frescos o llegums germinats		
 food_info_types_beans.0	dozeBeans.Variety.Text.0	Black beans	Mongetes negres		
 food_info_types_beans.1	dozeBeans.Variety.Text.1	Black-eyed peas	Mongetes de l'ull negre		
 food_info_types_beans.2	dozeBeans.Variety.Text.2	Butter beans	Garrofons		
@@ -33,7 +33,7 @@ food_info_types_beans.14	dozeBeans.Variety.Text.14	Tempeh	Tempeh
 berries	dozeBerries.heading	Berries	Fruits del bosc	heading for daily data entry item	
 food_info_serving_sizes_berries_imperial.0	dozeBerries.Serving.imperial.0	½ cup fresh or frozen	½ tassa frescos o congelats		
 food_info_serving_sizes_berries_imperial.1	dozeBerries.Serving.imperial.1	¼ cup dried	¼ tassa dessecats		
-food_info_serving_sizes_berries_metric.0	dozeBerries.Serving.metric.0	70 g fresh or frozen	60 g frescos o congelats		
+food_info_serving_sizes_berries_metric.0	dozeBerries.Serving.metric.0	70 g fresh or frozen	70 g frescos o congelats		
 food_info_serving_sizes_berries_metric.1	dozeBerries.Serving.metric.1	40 g dried	40 g dessecats		
 food_info_types_berries.0	dozeBerries.Variety.Text.0	Acai berries	Baies d'açaí		
 food_info_types_berries.1	dozeBerries.Variety.Text.1	Barberries	Coralets / Espinavinetes		
@@ -134,7 +134,7 @@ food_info_serving_sizes_other_fruits_imperial.0	dozeFruitsOther.Serving.imperial
 food_info_serving_sizes_other_fruits_imperial.1	dozeFruitsOther.Serving.imperial.1	1 cup cut-up fruit	1 tassa de fruita tallada		
 food_info_serving_sizes_other_fruits_imperial.2	dozeFruitsOther.Serving.imperial.2	¼ cup dried fruit	¼ tassa de fruita dessecada		
 food_info_serving_sizes_other_fruits_metric.0	dozeFruitsOther.Serving.metric.0	1 medium-sized fruit	1 fruita de mida mitjana		
-food_info_serving_sizes_other_fruits_metric.1	dozeFruitsOther.Serving.metric.1	150 g cut-up fruit	120 g de fruita tallada		
+food_info_serving_sizes_other_fruits_metric.1	dozeFruitsOther.Serving.metric.1	150 g cut-up fruit	150 g de fruita tallada		
 food_info_serving_sizes_other_fruits_metric.2	dozeFruitsOther.Serving.metric.2	40 g dried fruit	40 g de fruita dessecada		
 food_info_types_other_fruits.0	dozeFruitsOther.Variety.Text.0	Apples	Pomes		
 food_info_types_other_fruits.1	dozeFruitsOther.Variety.Text.1	Apricots	Albercocs		
@@ -239,15 +239,15 @@ food_info_types_spices.29	dozeSpices.Variety.Text.29	Thyme	Farigola
 food_info_types_spices.30	dozeSpices.Variety.Text.30	Turmeric	Cúrcuma		
 food_info_types_spices.31	dozeSpices.Variety.Text.31	Vanilla	Vainilla		
 cruciferous_vegetables	dozeVegetablesCruciferous.heading	Cruciferous Vegetables	Crucíferes	heading for daily data entry item	
-food_info_serving_sizes_cruciferous_vegetables_imperial.0	dozeVegetablesCruciferous.Serving.imperial.0	½ cup cooked leafy vegetables	½ tassa tallat		
-food_info_serving_sizes_cruciferous_vegetables_imperial.1	dozeVegetablesCruciferous.Serving.imperial.1	½ cup raw or cooked non-leafy vegetables	½ tassa de cols de Brussel·les		
-food_info_serving_sizes_cruciferous_vegetables_imperial.2	dozeVegetablesCruciferous.Serving.imperial.2	1 cup raw leafy vegetables	1 cup raw leafy vegetables		
-food_info_serving_sizes_cruciferous_vegetables_imperial.3	dozeVegetablesCruciferous.Serving.imperial.3	¼ cup broccoli sprouts	¼ tassa brots de bròquil		
+food_info_serving_sizes_cruciferous_vegetables_imperial.0	dozeVegetablesCruciferous.Serving.imperial.0	½ cup cooked leafy vegetables	½ tassa de verdures de fulla cuites		
+food_info_serving_sizes_cruciferous_vegetables_imperial.1	dozeVegetablesCruciferous.Serving.imperial.1	½ cup raw or cooked non-leafy vegetables	½ tassa de verdures sense fulla cuites o crues		
+food_info_serving_sizes_cruciferous_vegetables_imperial.2	dozeVegetablesCruciferous.Serving.imperial.2	1 cup raw leafy vegetables	1 tassa de verdures de fulla crues		
+food_info_serving_sizes_cruciferous_vegetables_imperial.3	dozeVegetablesCruciferous.Serving.imperial.3	¼ cup broccoli sprouts	¼ tassa de brots germinats de bròquil		
 food_info_serving_sizes_cruciferous_vegetables_imperial.4	dozeVegetablesCruciferous.Serving.imperial.4	1 tablespoon horseradish	1 cullerada de rave picant		
-food_info_serving_sizes_cruciferous_vegetables_metric.0	dozeVegetablesCruciferous.Serving.metric.0	90 g cooked leafy vegetables	30-80 g tallat		
-food_info_serving_sizes_cruciferous_vegetables_metric.1	dozeVegetablesCruciferous.Serving.metric.1	60 g raw or cooked non-leafy vegetables	80 g de cols de Brussel·les		
-food_info_serving_sizes_cruciferous_vegetables_metric.2	dozeVegetablesCruciferous.Serving.metric.2	90 g raw leafy vegetables	90 g raw leafy vegetables		
-food_info_serving_sizes_cruciferous_vegetables_metric.3	dozeVegetablesCruciferous.Serving.metric.3	20 g broccoli sprouts	15 g brots de bròquil		
+food_info_serving_sizes_cruciferous_vegetables_metric.0	dozeVegetablesCruciferous.Serving.metric.0	90 g cooked leafy vegetables	90 g de verdures de fulla cuites		
+food_info_serving_sizes_cruciferous_vegetables_metric.1	dozeVegetablesCruciferous.Serving.metric.1	60 g raw or cooked non-leafy vegetables	60 g de verdures sense fulla cuites o crues		
+food_info_serving_sizes_cruciferous_vegetables_metric.2	dozeVegetablesCruciferous.Serving.metric.2	90 g raw leafy vegetables	90 g de verdures de fulla crues		
+food_info_serving_sizes_cruciferous_vegetables_metric.3	dozeVegetablesCruciferous.Serving.metric.3	20 g broccoli sprouts	20 g de brots germinats de bròquil		
 food_info_serving_sizes_cruciferous_vegetables_metric.4	dozeVegetablesCruciferous.Serving.metric.4	1 tablespoon horseradish	1 cullerada de rave picant		
 food_info_types_cruciferous_vegetables.0	dozeVegetablesCruciferous.Variety.Text.0	Arugula	Rúcula		
 food_info_types_cruciferous_vegetables.1	dozeVegetablesCruciferous.Variety.Text.1	Bok choy	Bleda xinesa		
@@ -269,9 +269,9 @@ food_info_serving_sizes_other_vegetables_imperial.1	dozeVegetablesOther.Serving.
 food_info_serving_sizes_other_vegetables_imperial.2	dozeVegetablesOther.Serving.imperial.2	½ cup vegetable juice	½ tassa de suc de verdures		
 food_info_serving_sizes_other_vegetables_imperial.3	dozeVegetablesOther.Serving.imperial.3	¼ cup dried mushrooms	¼ tassa de bolets dessecats		
 food_info_serving_sizes_other_vegetables_metric.0	dozeVegetablesOther.Serving.metric.0	60 g raw leafy vegetables	60 g de verdures de fulla crues		
-food_info_serving_sizes_other_vegetables_metric.1	dozeVegetablesOther.Serving.metric.1	90 g raw or cooked nonleafy vegetables	50 g de verdures sense fulla crues o cuites		
-food_info_serving_sizes_other_vegetables_metric.2	dozeVegetablesOther.Serving.metric.2	120 ml vegetable juice	125 ml de suc de verdures		
-food_info_serving_sizes_other_vegetables_metric.3	dozeVegetablesOther.Serving.metric.3	10 g dried mushrooms	7 g de bolets dessecats		
+food_info_serving_sizes_other_vegetables_metric.1	dozeVegetablesOther.Serving.metric.1	90 g raw or cooked nonleafy vegetables	90 g de verdures sense fulla cuites o crues 		
+food_info_serving_sizes_other_vegetables_metric.2	dozeVegetablesOther.Serving.metric.2	120 ml vegetable juice	120 ml de suc de verdures		
+food_info_serving_sizes_other_vegetables_metric.3	dozeVegetablesOther.Serving.metric.3	10 g dried mushrooms	10 g de bolets dessecats		
 food_info_types_other_vegetables.0	dozeVegetablesOther.Variety.Text.0	Artichokes	Carxofes		
 food_info_types_other_vegetables.1	dozeVegetablesOther.Variety.Text.1	Asparagus	Espàrrecs		
 food_info_types_other_vegetables.2	dozeVegetablesOther.Variety.Text.2	Beets	Remolatxes		
@@ -291,16 +291,16 @@ food_info_types_other_vegetables.15	dozeVegetablesOther.Variety.Text.15	Sweet po
 food_info_types_other_vegetables.16	dozeVegetablesOther.Variety.Text.16	Tomatoes	Tomàquets		
 food_info_types_other_vegetables.17	dozeVegetablesOther.Variety.Text.17	Zucchini	Carbassó		
 whole_grains	dozeWholeGrains.heading	Whole Grains	Cereals integrals	heading for daily data entry item	
-food_info_serving_sizes_whole_grains_imperial.0	dozeWholeGrains.Serving.imperial.0	½ cup cooked whole grains, whole-wheat pasta, or corn kernels	½ tassa de cereals cuits, pasta integral o grans de blat cuits		
-food_info_serving_sizes_whole_grains_imperial.1	dozeWholeGrains.Serving.imperial.1	1 cup 100% whole grain cold cereal	1 tassa de cereals freds		
-food_info_serving_sizes_whole_grains_imperial.2	dozeWholeGrains.Serving.imperial.2	1 100% whole grain tortilla (or 2 smaller corn tortillas)	1 100% whole grain tortilla (or 2 smaller corn tortillas)		
-food_info_serving_sizes_whole_grains_imperial.3	dozeWholeGrains.Serving.imperial.3	1 slice of 100% whole grain bread	1 tortilla o llesca de pa		
+food_info_serving_sizes_whole_grains_imperial.0	dozeWholeGrains.Serving.imperial.0	½ cup cooked whole grains, whole-wheat pasta, or corn kernels	½ tassa de cereals integrals, pasta integral o grans de blat cuits		
+food_info_serving_sizes_whole_grains_imperial.1	dozeWholeGrains.Serving.imperial.1	1 cup 100% whole grain cold cereal	1 tassa de cereals 100% integrals freds		
+food_info_serving_sizes_whole_grains_imperial.2	dozeWholeGrains.Serving.imperial.2	1 100% whole grain tortilla (or 2 smaller corn tortillas)	1 tortilla 100% integral (o 2 tortilles més petites de blat de moro)		
+food_info_serving_sizes_whole_grains_imperial.3	dozeWholeGrains.Serving.imperial.3	1 slice of 100% whole grain bread	1 tortilla o llesca de pa 100% integral		
 food_info_serving_sizes_whole_grains_imperial.4	dozeWholeGrains.Serving.imperial.4	½ bagel or English muffin	½ bagel o muffin anglès		
 food_info_serving_sizes_whole_grains_imperial.5	dozeWholeGrains.Serving.imperial.5	3 cups popped popcorn	3 tasses de crispetes de blat de moro		
-food_info_serving_sizes_whole_grains_metric.0	dozeWholeGrains.Serving.metric.0	100 g cooked whole grains, whole-wheat pasta, or corn kernels	100 g de cereals cuits, pasta integral o grans de blat cuits		
-food_info_serving_sizes_whole_grains_metric.1	dozeWholeGrains.Serving.metric.1	50 g 100% whole grain cold cereal	50 g de cereals freds		
-food_info_serving_sizes_whole_grains_metric.2	dozeWholeGrains.Serving.metric.2	1 100% whole grain tortilla (or 2 smaller corn tortillas)	1 100% whole grain tortilla (or 2 smaller corn tortillas)		
-food_info_serving_sizes_whole_grains_metric.3	dozeWholeGrains.Serving.metric.3	1 slice of 100% whole grain bread	1 tortilla o llesca de pa		
+food_info_serving_sizes_whole_grains_metric.0	dozeWholeGrains.Serving.metric.0	100 g cooked whole grains, whole-wheat pasta, or corn kernels	100 g de cereals integrals, pasta integral o grans de blat cuits		
+food_info_serving_sizes_whole_grains_metric.1	dozeWholeGrains.Serving.metric.1	50 g 100% whole grain cold cereal	50 g de cereals 100% integrals freds		
+food_info_serving_sizes_whole_grains_metric.2	dozeWholeGrains.Serving.metric.2	1 100% whole grain tortilla (or 2 smaller corn tortillas)	1 tortilla 100% integral (o 2 tortilles més petites de blat de moro)		
+food_info_serving_sizes_whole_grains_metric.3	dozeWholeGrains.Serving.metric.3	1 slice of 100% whole grain bread	1 tortilla o llesca de pa 100% integral		
 food_info_serving_sizes_whole_grains_metric.4	dozeWholeGrains.Serving.metric.4	½ bagel or English muffin	½ bagel o muffin anglès		
 food_info_serving_sizes_whole_grains_metric.5	dozeWholeGrains.Serving.metric.5	30 g popped popcorn	30 g de crispetes de blat de moro		
 food_info_types_whole_grains.0	dozeWholeGrains.Variety.Text.0	Barley	Ordi		

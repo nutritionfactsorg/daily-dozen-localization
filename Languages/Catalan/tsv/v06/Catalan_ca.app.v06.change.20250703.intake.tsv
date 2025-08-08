@@ -1,10 +1,10 @@
 key_droid	key_apple	base_value	lang_value	base_note	lang_note
 food_info_serving_sizes_beans_imperial.2	dozeBeans.Serving.imperial.2	⅓ cup tofu or tempeh	⅓ tassa de tofu o tempeh		
-food_info_serving_sizes_beans_imperial.3	dozeBeans.Serving.imperial.3	1 cup fresh peas or sprouted lentils	1 tassa de pèsols frescos o brots de llegums germinats		1 cup fresh peas or snow peas
-food_info_serving_sizes_beans_metric.0	dozeBeans.Serving.metric.0	70 g hummus or bean dip	70 g d'hummus o salsa de mongetes		60 g hummus or bean dip
-food_info_serving_sizes_beans_metric.1	dozeBeans.Serving.metric.1	100 g cooked beans, split peas, or lentils	100 g de mongetes cuites, pèsols o llenties		90 g of cooked beans, peas or lentils
+food_info_serving_sizes_beans_imperial.3	dozeBeans.Serving.imperial.3	1 cup fresh peas or sprouted lentils	1 tassa de pèsols frescos o brots de llegums germinats		
+food_info_serving_sizes_beans_metric.0	dozeBeans.Serving.metric.0	70 g hummus or bean dip	70 g d'hummus o salsa de mongetes		
+food_info_serving_sizes_beans_metric.1	dozeBeans.Serving.metric.1	100 g cooked beans, split peas, or lentils	100 g de mongetes cuites, pèsols o llenties		
 food_info_serving_sizes_beans_metric.2	dozeBeans.Serving.metric.2	80 g tofu or tempeh	80 g de tofu o tempeh		
-food_info_serving_sizes_beans_metric.3	dozeBeans.Serving.metric.3	100 g fresh peas or sprouted lentils	100 g de pèsols frescos o llegums germinats		130 g of fresh peas or snow peas
+food_info_serving_sizes_beans_metric.3	dozeBeans.Serving.metric.3	100 g fresh peas or sprouted lentils	100 g de pèsols frescos o llegums germinats		
 food_info_serving_sizes_berries_metric.0	dozeBerries.Serving.metric.0	70 g fresh or frozen	70 g frescos o congelats		
 food_info_serving_sizes_other_fruits_metric.1	dozeFruitsOther.Serving.metric.1	150 g cut-up fruit	150 g de fruita tallada		
 food_info_serving_sizes_cruciferous_vegetables_imperial.0	dozeVegetablesCruciferous.Serving.imperial.0	½ cup cooked leafy vegetables	½ tassa de verdures de fulla cuites		

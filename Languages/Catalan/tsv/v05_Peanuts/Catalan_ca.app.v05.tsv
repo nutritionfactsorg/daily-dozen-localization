@@ -10,12 +10,12 @@ beans	dozeBeans.heading	Beans	Llegums	heading for daily data entry item
 food_info_serving_sizes_beans_imperial.0	dozeBeans.Serving.imperial.0	¼ cup hummus or bean dip	¼ tassa d'hummus o salsa de fesols		¼ cup hummus or bean dip
 food_info_serving_sizes_beans_imperial.1	dozeBeans.Serving.imperial.1	½ cup cooked beans, split peas, or lentils	½ tassa de mongetes cuites, pèsols o llenties		½ cup cooked beans, peas or lentils
 food_info_serving_sizes_beans_imperial.2	dozeBeans.Serving.imperial.2	½ cup tofu or tempeh	½ tassa de tofu o tempeh		
-food_info_serving_sizes_beans_imperial.3	dozeBeans.Serving.imperial.3	1 cup fresh peas or snow peas	1 tassa de pèsols frescos o pèsols de neu		1 cup fresh peas or snow peas
+food_info_serving_sizes_beans_imperial.3	dozeBeans.Serving.imperial.3	1 cup fresh peas or snow peas	1 tassa de pèsols frescos o pèsols de neu		
 food_info_serving_sizes_beans_imperial.4	dozeBeans.Serving.imperial.4	1 cup fresh sprouted beans (lentils, mung beans)	1 tassa de mongetes germinades fresques (llenties, mongetes mung)		1 cup fresh sprouted beans (lentils, mung beans)
-food_info_serving_sizes_beans_metric.0	dozeBeans.Serving.metric.0	60 g hummus or bean dip	60 g d'hummus o salsa de mongetes		60 g hummus or bean dip
+food_info_serving_sizes_beans_metric.0	dozeBeans.Serving.metric.0	60 g hummus or bean dip	60 g d'hummus o salsa de mongetes		
 food_info_serving_sizes_beans_metric.1	dozeBeans.Serving.metric.1	90 g cooked beans, split peas, or lentils	90 g de mongetes cuites, pèsols o llenties		90 g of cooked beans, peas or lentils
 food_info_serving_sizes_beans_metric.2	dozeBeans.Serving.metric.2	100 g tofu or tempeh	100 g de tofu o tempeh		
-food_info_serving_sizes_beans_metric.3	dozeBeans.Serving.metric.3	130 g fresh peas or snow peas	130 g de pèsols frescos o pèsols de neu		130 g of fresh peas or snow peas
+food_info_serving_sizes_beans_metric.3	dozeBeans.Serving.metric.3	130 g fresh peas or snow peas	130 g de pèsols frescos o pèsols de neu		
 food_info_serving_sizes_beans_metric.4	dozeBeans.Serving.metric.4	100 g fresh sprouted beans (lentils, mung beans)	100 g de mongetes fresques germinades (llenties, mongetes mung)		100 g fresh sprouted beans (lentils, mung beans)
 food_info_types_beans.0	dozeBeans.Variety.Text.0	Black beans	Mongetes negres		
 food_info_types_beans.1	dozeBeans.Variety.Text.1	Black-eyed peas	Mongetes de l'ull negre		

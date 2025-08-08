@@ -2,13 +2,13 @@ key_droid	key_apple	base_value	lang_value	base_note	lang_note
 serving_sizes	doze_detail_section_sizes	Serving Sizes (Suggested)	份量（建議）	Doze Detail View subheading: ‘Serving Sizes’	Serving Size (recommended)
 food_info_serving_sizes_beans_imperial.0	dozeBeans.Serving.imperial.0	¼ cup hummus or bean dip	¼ 杯鷹嘴豆泥		1/4 cup hummus
 food_info_serving_sizes_beans_imperial.1	dozeBeans.Serving.imperial.1	½ cup cooked beans, split peas, or lentils	½ 杯煮熟的豆子、豌豆或扁豆		½ cup cooked beans, peas, or lentils
-food_info_serving_sizes_beans_imperial.2	dozeBeans.Serving.imperial.2	½ cup tofu or tempeh	½ 杯豆腐或豆豉		½ cup tofu or tempeh
-food_info_serving_sizes_beans_imperial.3	dozeBeans.Serving.imperial.3	1 cup fresh peas or snow peas	1 杯新鮮豌豆或荷蘭豆		1 cup fresh peas or snow peas
+food_info_serving_sizes_beans_imperial.2	dozeBeans.Serving.imperial.2	½ cup tofu or tempeh	½ 杯豆腐或豆豉		
+food_info_serving_sizes_beans_imperial.3	dozeBeans.Serving.imperial.3	1 cup fresh peas or snow peas	1 杯新鮮豌豆或荷蘭豆		
 food_info_serving_sizes_beans_imperial.4	dozeBeans.Serving.imperial.4	1 cup fresh sprouted beans (lentils, mung beans)	1杯新鮮發芽豆（扁豆、綠豆）		1 cup fresh sprouted beans (lentils, mung beans)
-food_info_serving_sizes_beans_metric.0	dozeBeans.Serving.metric.0	60 g hummus or bean dip	60 克鷹嘴豆泥		60 g hummus
-food_info_serving_sizes_beans_metric.1	dozeBeans.Serving.metric.1	90 g cooked beans, split peas, or lentils	90 克煮熟的豆子、豌豆或扁豆		90g cooked beans, peas or lentils
-food_info_serving_sizes_beans_metric.2	dozeBeans.Serving.metric.2	100 g tofu or tempeh	100 克豆腐或豆豉		100 g tofu or tempeh
-food_info_serving_sizes_beans_metric.3	dozeBeans.Serving.metric.3	130 g fresh peas or snow peas	130 克新鮮豌豆或荷蘭豆		130 g fresh peas or snow peas
+food_info_serving_sizes_beans_metric.0	dozeBeans.Serving.metric.0	60 g hummus or bean dip	60 克鷹嘴豆泥		
+food_info_serving_sizes_beans_metric.1	dozeBeans.Serving.metric.1	90 g cooked beans, split peas, or lentils	90 克煮熟的豆子、豌豆或扁豆		
+food_info_serving_sizes_beans_metric.2	dozeBeans.Serving.metric.2	100 g tofu or tempeh	100 克豆腐或豆豉		
+food_info_serving_sizes_beans_metric.3	dozeBeans.Serving.metric.3	130 g fresh peas or snow peas	130 克新鮮豌豆或荷蘭豆		
 food_info_serving_sizes_beans_metric.4	dozeBeans.Serving.metric.4	100 g fresh sprouted beans (lentils, mung beans)	100 克新鮮發芽豆（扁豆、綠豆）		100 g fresh sprouted beans (lentils, mung beans)
 faq_adapt_question	faq_adapt_question	The Daily Dozen is too much/too little food for me! Can I adapt it?	Daily Dozen 建議我吃太多/太少！ 我可以調整嗎？		Daily Dozen advises me to eat too much/too little! Can I adjust it?
 faq_adapt_response	faq_adapt_response	Yes, the Daily Dozen is simply meant to be a guide of the healthiest foods that we strive to include every day. It’s not a meal plan and is not meant to be prescriptive. Do your best to eat a diverse array of whole plant foods and adapt the Daily Dozen to the quantities that work for you.	是的，Daily Dozen 只是為了指導我們每天努力攝取的最健康的食物。 這不是膳食計劃，也不是規定性的。 盡最大努力吃各種各樣的全植物食品，並根據適合您的數量調整每日一打。		Yes, the Daily Dozen is just to guide the healthiest foods we strive to eat every day. This is not a meal plan, nor is it prescriptive. Do your best to eat a variety of whole plant foods, and adjust your daily dozen to amounts that work for you.

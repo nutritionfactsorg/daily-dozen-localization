@@ -9,13 +9,13 @@ servings	doze_entry_header	Servings	Порции	Doze Entry View heading: ‘Ser
 beans	dozeBeans.heading	Beans	Бобовые	heading for daily data entry item	
 food_info_serving_sizes_beans_imperial.0	dozeBeans.Serving.imperial.0	¼ cup hummus or bean dip	¼ стакана хумуса или соуса из фасоли		¼ cup hummus or bean sauce
 food_info_serving_sizes_beans_imperial.1	dozeBeans.Serving.imperial.1	½ cup cooked beans, split peas, or lentils	½ стакана вареной фасоли, гороха или чечевицы		½ cup boiled beans, peas or lentils
-food_info_serving_sizes_beans_imperial.2	dozeBeans.Serving.imperial.2	½ cup tofu or tempeh	½ стакана тофу или темпе		½ cup tofu or tempeh
-food_info_serving_sizes_beans_imperial.3	dozeBeans.Serving.imperial.3	1 cup fresh peas or snow peas	1 стакан свежего горошка		1 cup fresh peas
+food_info_serving_sizes_beans_imperial.2	dozeBeans.Serving.imperial.2	½ cup tofu or tempeh	½ стакана тофу или темпе		
+food_info_serving_sizes_beans_imperial.3	dozeBeans.Serving.imperial.3	1 cup fresh peas or snow peas	1 стакан свежего горошка		
 food_info_serving_sizes_beans_imperial.4	dozeBeans.Serving.imperial.4	1 cup fresh sprouted beans (lentils, mung beans)	1 стакан свежей пророщенной фасоли (чечевица, маш)		1 cup fresh sprouted beans (lentils, mung beans)
-food_info_serving_sizes_beans_metric.0	dozeBeans.Serving.metric.0	60 g hummus or bean dip	60 г хумуса или соуса из фасоли		60 g hummus or bean sauce
+food_info_serving_sizes_beans_metric.0	dozeBeans.Serving.metric.0	60 g hummus or bean dip	60 г хумуса или соуса из фасоли		
 food_info_serving_sizes_beans_metric.1	dozeBeans.Serving.metric.1	90 g cooked beans, split peas, or lentils	90 г вареной фасоли, гороха или чечевицы		90 g boiled beans, peas or lentils
-food_info_serving_sizes_beans_metric.2	dozeBeans.Serving.metric.2	100 g tofu or tempeh	100 г тофу или темпе		100 g tofu or tempeh
-food_info_serving_sizes_beans_metric.3	dozeBeans.Serving.metric.3	130 g fresh peas or snow peas	130 г свежего горошка		130 g fresh peas
+food_info_serving_sizes_beans_metric.2	dozeBeans.Serving.metric.2	100 g tofu or tempeh	100 г тофу или темпе		
+food_info_serving_sizes_beans_metric.3	dozeBeans.Serving.metric.3	130 g fresh peas or snow peas	130 г свежего горошка		
 food_info_serving_sizes_beans_metric.4	dozeBeans.Serving.metric.4	100 g fresh sprouted beans (lentils, mung beans)	100 г свежей пророщенной фасоли (чечевица, маш)		100 g fresh sprouted beans (lentils, mung bean)
 food_info_types_beans.0	dozeBeans.Variety.Text.0	Black beans	Чёрная фасоль		
 food_info_types_beans.1	dozeBeans.Variety.Text.1	Black-eyed peas	Черноглазая фасоль		

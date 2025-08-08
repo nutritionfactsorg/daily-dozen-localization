@@ -2,14 +2,14 @@ key_droid	key_apple	base_value	lang_value	base_note	lang_note
 serving_sizes	doze_detail_section_sizes	Serving Sizes (Suggested)	Μεγέθη σερβιρίσματος (Προτεινόμενα)	Doze Detail View subheading: ‘Serving Sizes’	Serving Sizes (Recommended)
 food_info_serving_sizes_beans_imperial.0	dozeBeans.Serving.imperial.0	¼ cup hummus or bean dip	¼ φλιτζάνι ντιπ χούμους ή φασολιών		¼ cup hummus or bean dip
 food_info_serving_sizes_beans_imperial.1	dozeBeans.Serving.imperial.1	½ cup cooked beans, split peas, or lentils	½ φλιτζάνι μαγειρεμένα φασόλια, μπιζέλια ή φακές		½ cup cooked beans, peas, or lentils
-food_info_serving_sizes_beans_imperial.2	dozeBeans.Serving.imperial.2	½ cup tofu or tempeh	½ φλιτζάνι τόφου ή τέμπε		½ cup tofu or tempeh
-food_info_serving_sizes_beans_imperial.3	dozeBeans.Serving.imperial.3	1 cup fresh peas or snow peas	1 φλιτζάνι φρέσκο αρακά ή αρακά χιονιού		1 cup fresh peas or snow peas
+food_info_serving_sizes_beans_imperial.2	dozeBeans.Serving.imperial.2	½ cup tofu or tempeh	½ φλιτζάνι τόφου ή τέμπε		
+food_info_serving_sizes_beans_imperial.3	dozeBeans.Serving.imperial.3	1 cup fresh peas or snow peas	1 φλιτζάνι φρέσκο αρακά ή αρακά χιονιού		
 food_info_serving_sizes_beans_imperial.4	dozeBeans.Serving.imperial.4	1 cup fresh bean sprouts (lentils, mung)	1 φλιτζάνι φύτρα φρέσκων φασολιών (φακές, mung)		1 cup fresh bean sprouts (lentils, mung beans)
 		bean sprouts			
-food_info_serving_sizes_beans_metric.0	dozeBeans.Serving.metric.0	60 g hummus or bean dip	60 γραμμάρια χούμους ή ντιπ φασολιών		60 grams of hummus or bean dip
+food_info_serving_sizes_beans_metric.0	dozeBeans.Serving.metric.0	60 g hummus or bean dip	60 γραμμάρια χούμους ή ντιπ φασολιών		
 food_info_serving_sizes_beans_metric.1	dozeBeans.Serving.metric.1	90 g cooked beans, split peas, or lentils	90 γραμμάρια μαγειρεμένα φασόλια, σπαστά μπιζέλια ή φακές		90g cooked beans, split peas or lentils
-food_info_serving_sizes_beans_metric.2	dozeBeans.Serving.metric.2	100 g tofu or tempeh	100 g τόφου ή τέμπε		100 g of tofu or tempeh
-food_info_serving_sizes_beans_metric.3	dozeBeans.Serving.metric.3	130 g fresh peas or snow peas	130 γραμμάρια φρέσκου αρακά ή αρακά χιονιού		130 grams of fresh peas or snow peas
+food_info_serving_sizes_beans_metric.2	dozeBeans.Serving.metric.2	100 g tofu or tempeh	100 g τόφου ή τέμπε		
+food_info_serving_sizes_beans_metric.3	dozeBeans.Serving.metric.3	130 g fresh peas or snow peas	130 γραμμάρια φρέσκου αρακά ή αρακά χιονιού		
 food_info_serving_sizes_beans_metric.4	dozeBeans.Serving.metric.4	100 g fresh bean sprouts (lentils, mung)	100 g φύτρα φρέσκων φασολιών (φακές, mung)		100 g fresh bean sprouts (lentils, mung beans)
 faq_adapt_question	faq_adapt_question	The Daily Dozen is too much/too little food for me! Can I adapt it?	Το Daily Dozen είναι πάρα πολύ/λίγο φαγητό για μένα! Μπορώ να το προσαρμόσω;		The Daily Dozen is too much/too little food for me! Can I customize it?
 faq_adapt_response	faq_adapt_response	Yes, the Daily Dozen is simply meant to be a guide of the healthiest foods that we strive to include every day. It’s not a meal plan and is not meant to be prescriptive. Do your best to eat a diverse array of whole plant foods and adapt the Daily Dozen to the quantities that work for you.	Ναι, το Daily Dozen προορίζεται απλώς να είναι ένας οδηγός για τα πιο υγιεινά τρόφιμα που προσπαθούμε να συμπεριλάβουμε καθημερινά. Δεν είναι ένα πρόγραμμα γευμάτων και δεν προορίζεται να είναι συνταγογραφικό. Κάντε ό,τι καλύτερο μπορείτε για να φάτε μια ποικιλία από ολόκληρα φυτικά τρόφιμα και προσαρμόστε το Daily Dozen στις ποσότητες που σας εξυπηρετούν.		Yes, the Daily Dozen is just meant to be a guide to the healthiest foods we try to include every day. It is not a meal plan and is not intended to be prescriptive. Do your best to eat a variety of whole plant foods and adjust the Daily Dozen to the amounts that work for you.

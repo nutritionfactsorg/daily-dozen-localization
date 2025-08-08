@@ -9,13 +9,13 @@ servings	doze_entry_header	Servings	Μερίδες	Doze Entry View heading: ‘S
 beans	dozeBeans.heading	Beans	Όσπρια	heading for daily data entry item	
 food_info_serving_sizes_beans_imperial.0	dozeBeans.Serving.imperial.0	¼ cup hummus or bean dip	¼ φλιτζάνι ντιπ χούμους ή φασολιών		¼ cup hummus or bean dip
 food_info_serving_sizes_beans_imperial.1	dozeBeans.Serving.imperial.1	½ cup cooked beans, split peas, or lentils	½ φλιτζάνι μαγειρεμένα φασόλια, μπιζέλια ή φακές		½ cup cooked beans, peas, or lentils
-food_info_serving_sizes_beans_imperial.2	dozeBeans.Serving.imperial.2	½ cup tofu or tempeh	½ φλιτζάνι τόφου ή τέμπε		½ cup tofu or tempeh
-food_info_serving_sizes_beans_imperial.3	dozeBeans.Serving.imperial.3	1 cup fresh peas or snow peas	1 φλιτζάνι φρέσκο αρακά ή αρακά χιονιού		1 cup fresh peas or snow peas
+food_info_serving_sizes_beans_imperial.2	dozeBeans.Serving.imperial.2	½ cup tofu or tempeh	½ φλιτζάνι τόφου ή τέμπε		
+food_info_serving_sizes_beans_imperial.3	dozeBeans.Serving.imperial.3	1 cup fresh peas or snow peas	1 φλιτζάνι φρέσκο αρακά ή αρακά χιονιού		
 food_info_serving_sizes_beans_imperial.4	dozeBeans.Serving.imperial.4	1 cup fresh sprouted beans (lentils, mung beans)	1 φλιτζάνι φύτρα φρέσκων φασολιών (φακές, mung)		1 cup fresh bean sprouts (lentils, mung beans)
-food_info_serving_sizes_beans_metric.0	dozeBeans.Serving.metric.0	60 g hummus or bean dip	60 γραμμάρια χούμους ή ντιπ φασολιών		60 grams of hummus or bean dip
+food_info_serving_sizes_beans_metric.0	dozeBeans.Serving.metric.0	60 g hummus or bean dip	60 γραμμάρια χούμους ή ντιπ φασολιών		
 food_info_serving_sizes_beans_metric.1	dozeBeans.Serving.metric.1	90 g cooked beans, split peas, or lentils	90 γραμμάρια μαγειρεμένα φασόλια, σπαστά μπιζέλια ή φακές		90g cooked beans, split peas or lentils
-food_info_serving_sizes_beans_metric.2	dozeBeans.Serving.metric.2	100 g tofu or tempeh	100 g τόφου ή τέμπε		100 g of tofu or tempeh
-food_info_serving_sizes_beans_metric.3	dozeBeans.Serving.metric.3	130 g fresh peas or snow peas	130 γραμμάρια φρέσκου αρακά ή αρακά χιονιού		130 grams of fresh peas or snow peas
+food_info_serving_sizes_beans_metric.2	dozeBeans.Serving.metric.2	100 g tofu or tempeh	100 g τόφου ή τέμπε		
+food_info_serving_sizes_beans_metric.3	dozeBeans.Serving.metric.3	130 g fresh peas or snow peas	130 γραμμάρια φρέσκου αρακά ή αρακά χιονιού		
 food_info_serving_sizes_beans_metric.4	dozeBeans.Serving.metric.4	100 g fresh sprouted beans (lentils, mung beans)	100 g φύτρα φρέσκων φασολιών (φακές, mung)		100 g fresh bean sprouts (lentils, mung beans)
 food_info_types_beans.0	dozeBeans.Variety.Text.0	Black beans	Μαύρα		
 food_info_types_beans.1	dozeBeans.Variety.Text.1	Black-eyed peas	Μαυρομάτικα		

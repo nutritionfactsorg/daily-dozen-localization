@@ -1,10 +1,10 @@
 key_droid	key_apple	base_value	lang_value	base_note	lang_note
-food_info_serving_sizes_beans_imperial.2	dozeBeans.Serving.imperial.2	⅓ cup tofu or tempeh	½ φλιτζάνι τόφου ή τέμπε		½ cup tofu or tempeh
-food_info_serving_sizes_beans_imperial.3	dozeBeans.Serving.imperial.3	1 cup fresh peas or sprouted lentils	1 φλιτζάνι φρέσκο αρακά ή αρακά χιονιού		1 cup fresh peas or snow peas
-food_info_serving_sizes_beans_metric.0	dozeBeans.Serving.metric.0	70 g hummus or bean dip	60 γραμμάρια χούμους ή ντιπ φασολιών		60 grams of hummus or bean dip
+food_info_serving_sizes_beans_imperial.2	dozeBeans.Serving.imperial.2	⅓ cup tofu or tempeh	½ φλιτζάνι τόφου ή τέμπε		
+food_info_serving_sizes_beans_imperial.3	dozeBeans.Serving.imperial.3	1 cup fresh peas or sprouted lentils	1 φλιτζάνι φρέσκο αρακά ή αρακά χιονιού		
+food_info_serving_sizes_beans_metric.0	dozeBeans.Serving.metric.0	70 g hummus or bean dip	60 γραμμάρια χούμους ή ντιπ φασολιών		
 food_info_serving_sizes_beans_metric.1	dozeBeans.Serving.metric.1	100 g cooked beans, split peas, or lentils	90 γραμμάρια μαγειρεμένα φασόλια, σπαστά μπιζέλια ή φακές		90g cooked beans, split peas or lentils
-food_info_serving_sizes_beans_metric.2	dozeBeans.Serving.metric.2	80 g tofu or tempeh	100 g τόφου ή τέμπε		100 g of tofu or tempeh
-food_info_serving_sizes_beans_metric.3	dozeBeans.Serving.metric.3	100 g fresh peas or sprouted lentils	130 γραμμάρια φρέσκου αρακά ή αρακά χιονιού		130 grams of fresh peas or snow peas
+food_info_serving_sizes_beans_metric.2	dozeBeans.Serving.metric.2	80 g tofu or tempeh	100 g τόφου ή τέμπε		
+food_info_serving_sizes_beans_metric.3	dozeBeans.Serving.metric.3	100 g fresh peas or sprouted lentils	130 γραμμάρια φρέσκου αρακά ή αρακά χιονιού		
 food_info_serving_sizes_berries_metric.0	dozeBerries.Serving.metric.0	70 g fresh or frozen	60 γραμμάρια φρέσκα ή κατεψυγμένα		
 food_info_serving_sizes_other_fruits_metric.1	dozeFruitsOther.Serving.metric.1	150 g cut-up fruit	120 γραμμάρια κομμένο φρούτο		
 food_info_serving_sizes_cruciferous_vegetables_imperial.0	dozeVegetablesCruciferous.Serving.imperial.0	½ cup cooked leafy vegetables	½ φλιτζάνι ψιλοκομμένα		
