@@ -9,12 +9,12 @@ servings	doze_entry_header	Servings	份量	Doze Entry View heading: ‘Servings�
 beans	dozeBeans.heading	Beans	豆類	heading for daily data entry item	
 food_info_serving_sizes_beans_imperial.0	dozeBeans.Serving.imperial.0	¼ cup hummus or bean dip	¼杯鷹嘴豆泥		1/4 cup hummus
 food_info_serving_sizes_beans_imperial.1	dozeBeans.Serving.imperial.1	½ cup cooked beans, split peas, or lentils	½杯煮熟的豆子、豌豆或扁豆		½ cup cooked beans, peas, or lentils
-food_info_serving_sizes_beans_imperial.2	dozeBeans.Serving.imperial.2	⅓ cup tofu or tempeh	½杯豆腐或天貝		
-food_info_serving_sizes_beans_imperial.3	dozeBeans.Serving.imperial.3	1 cup fresh peas or sprouted lentils	1杯新鮮豌豆或荷蘭豆		
-food_info_serving_sizes_beans_metric.0	dozeBeans.Serving.metric.0	70 g hummus or bean dip	60克鷹嘴豆或其他豆泥		
-food_info_serving_sizes_beans_metric.1	dozeBeans.Serving.metric.1	100 g cooked beans, split peas, or lentils	90克煮熟的豆子、豌豆或扁豆		
-food_info_serving_sizes_beans_metric.2	dozeBeans.Serving.metric.2	80 g tofu or tempeh	100克豆腐或豆豉		
-food_info_serving_sizes_beans_metric.3	dozeBeans.Serving.metric.3	100 g fresh peas or sprouted lentils	130克新鮮豌豆或荷蘭豆		
+food_info_serving_sizes_beans_imperial.2	dozeBeans.Serving.imperial.2	⅓ cup tofu or tempeh	1/3杯豆腐或天貝		
+food_info_serving_sizes_beans_imperial.3	dozeBeans.Serving.imperial.3	1 cup fresh peas or sprouted lentils	1杯新鮮豌豆或萌芽扁豆		
+food_info_serving_sizes_beans_metric.0	dozeBeans.Serving.metric.0	70 g hummus or bean dip	70克鷹嘴豆或其他豆泥		
+food_info_serving_sizes_beans_metric.1	dozeBeans.Serving.metric.1	100 g cooked beans, split peas, or lentils	100克煮熟的豆子、去皮豌豆或扁豆		
+food_info_serving_sizes_beans_metric.2	dozeBeans.Serving.metric.2	80 g tofu or tempeh	80克豆腐或天貝		
+food_info_serving_sizes_beans_metric.3	dozeBeans.Serving.metric.3	100 g fresh peas or sprouted lentils	100克新鮮豌豆或萌芽扁豆		
 food_info_types_beans.0	dozeBeans.Variety.Text.0	Black beans	黑豆		
 food_info_types_beans.1	dozeBeans.Variety.Text.1	Black-eyed peas	黑眼豆		
 food_info_types_beans.2	dozeBeans.Variety.Text.2	Butter beans	利馬豆		
@@ -33,7 +33,7 @@ food_info_types_beans.14	dozeBeans.Variety.Text.14	Tempeh	天貝
 berries	dozeBerries.heading	Berries	漿果類	heading for daily data entry item	
 food_info_serving_sizes_berries_imperial.0	dozeBerries.Serving.imperial.0	½ cup fresh or frozen	½杯新鮮或冷凍漿果		
 food_info_serving_sizes_berries_imperial.1	dozeBerries.Serving.imperial.1	¼ cup dried	¼杯漿果乾		
-food_info_serving_sizes_berries_metric.0	dozeBerries.Serving.metric.0	70 g fresh or frozen	60克新鮮或冷凍漿果		
+food_info_serving_sizes_berries_metric.0	dozeBerries.Serving.metric.0	70 g fresh or frozen	70克新鮮或冷凍		
 food_info_serving_sizes_berries_metric.1	dozeBerries.Serving.metric.1	40 g dried	40克漿果乾		
 food_info_types_berries.0	dozeBerries.Variety.Text.0	Acai berries	巴西莓		
 food_info_types_berries.1	dozeBerries.Variety.Text.1	Barberries	莿莓		
@@ -134,7 +134,7 @@ food_info_serving_sizes_other_fruits_imperial.0	dozeFruitsOther.Serving.imperial
 food_info_serving_sizes_other_fruits_imperial.1	dozeFruitsOther.Serving.imperial.1	1 cup cut-up fruit	1杯水果丁		
 food_info_serving_sizes_other_fruits_imperial.2	dozeFruitsOther.Serving.imperial.2	¼ cup dried fruit	¼杯果乾		
 food_info_serving_sizes_other_fruits_metric.0	dozeFruitsOther.Serving.metric.0	1 medium-sized fruit	1顆中型水果		
-food_info_serving_sizes_other_fruits_metric.1	dozeFruitsOther.Serving.metric.1	150 g cut-up fruit	120克水果丁		
+food_info_serving_sizes_other_fruits_metric.1	dozeFruitsOther.Serving.metric.1	150 g cut-up fruit	150克水果丁		
 food_info_serving_sizes_other_fruits_metric.2	dozeFruitsOther.Serving.metric.2	40 g dried fruit	40克果乾		
 food_info_types_other_fruits.0	dozeFruitsOther.Variety.Text.0	Apples	蘋果		
 food_info_types_other_fruits.1	dozeFruitsOther.Variety.Text.1	Apricots	杏子乾		
@@ -239,15 +239,15 @@ food_info_types_spices.29	dozeSpices.Variety.Text.29	Thyme	百里香
 food_info_types_spices.30	dozeSpices.Variety.Text.30	Turmeric	薑黃		
 food_info_types_spices.31	dozeSpices.Variety.Text.31	Vanilla	香草		
 cruciferous_vegetables	dozeVegetablesCruciferous.heading	Cruciferous Vegetables	十字花科蔬菜	heading for daily data entry item	
-food_info_serving_sizes_cruciferous_vegetables_imperial.0	dozeVegetablesCruciferous.Serving.imperial.0	½ cup cooked leafy vegetables	½杯切碎的十字花科蔬菜		
-food_info_serving_sizes_cruciferous_vegetables_imperial.1	dozeVegetablesCruciferous.Serving.imperial.1	½ cup raw or cooked non-leafy vegetables	½杯孢子甘藍苗		
-food_info_serving_sizes_cruciferous_vegetables_imperial.2	dozeVegetablesCruciferous.Serving.imperial.2	1 cup raw leafy vegetables	1 cup raw leafy vegetables		
+food_info_serving_sizes_cruciferous_vegetables_imperial.0	dozeVegetablesCruciferous.Serving.imperial.0	½ cup cooked leafy vegetables	½杯熟綠葉菜		
+food_info_serving_sizes_cruciferous_vegetables_imperial.1	dozeVegetablesCruciferous.Serving.imperial.1	½ cup raw or cooked non-leafy vegetables	½杯生或熟非綠葉菜		
+food_info_serving_sizes_cruciferous_vegetables_imperial.2	dozeVegetablesCruciferous.Serving.imperial.2	1 cup raw leafy vegetables	1杯生綠葉菜		
 food_info_serving_sizes_cruciferous_vegetables_imperial.3	dozeVegetablesCruciferous.Serving.imperial.3	¼ cup broccoli sprouts	¼杯花椰菜苗		
 food_info_serving_sizes_cruciferous_vegetables_imperial.4	dozeVegetablesCruciferous.Serving.imperial.4	1 tablespoon horseradish	一大匙辣根		
-food_info_serving_sizes_cruciferous_vegetables_metric.0	dozeVegetablesCruciferous.Serving.metric.0	90 g cooked leafy vegetables	30至80克切碎的十字花科蔬菜		
-food_info_serving_sizes_cruciferous_vegetables_metric.1	dozeVegetablesCruciferous.Serving.metric.1	60 g raw or cooked non-leafy vegetables	80克孢子甘藍苗		
-food_info_serving_sizes_cruciferous_vegetables_metric.2	dozeVegetablesCruciferous.Serving.metric.2	90 g raw leafy vegetables	90 g raw leafy vegetables		
-food_info_serving_sizes_cruciferous_vegetables_metric.3	dozeVegetablesCruciferous.Serving.metric.3	20 g broccoli sprouts	15克花椰菜苗		
+food_info_serving_sizes_cruciferous_vegetables_metric.0	dozeVegetablesCruciferous.Serving.metric.0	90 g cooked leafy vegetables	90克熟綠葉菜		
+food_info_serving_sizes_cruciferous_vegetables_metric.1	dozeVegetablesCruciferous.Serving.metric.1	60 g raw or cooked non-leafy vegetables	60克生或熟非綠葉菜		
+food_info_serving_sizes_cruciferous_vegetables_metric.2	dozeVegetablesCruciferous.Serving.metric.2	90 g raw leafy vegetables	90克生綠葉菜		
+food_info_serving_sizes_cruciferous_vegetables_metric.3	dozeVegetablesCruciferous.Serving.metric.3	20 g broccoli sprouts	20克花椰菜苗		
 food_info_serving_sizes_cruciferous_vegetables_metric.4	dozeVegetablesCruciferous.Serving.metric.4	1 tablespoon horseradish	一大匙辣根		
 food_info_types_cruciferous_vegetables.0	dozeVegetablesCruciferous.Variety.Text.0	Arugula	芝麻葉		
 food_info_types_cruciferous_vegetables.1	dozeVegetablesCruciferous.Variety.Text.1	Bok choy	青江菜		
@@ -269,9 +269,9 @@ food_info_serving_sizes_other_vegetables_imperial.1	dozeVegetablesOther.Serving.
 food_info_serving_sizes_other_vegetables_imperial.2	dozeVegetablesOther.Serving.imperial.2	½ cup vegetable juice	½杯蔬菜汁		
 food_info_serving_sizes_other_vegetables_imperial.3	dozeVegetablesOther.Serving.imperial.3	¼ cup dried mushrooms	¼杯乾燥菇類		
 food_info_serving_sizes_other_vegetables_metric.0	dozeVegetablesOther.Serving.metric.0	60 g raw leafy vegetables	60克生葉菜		
-food_info_serving_sizes_other_vegetables_metric.1	dozeVegetablesOther.Serving.metric.1	90 g raw or cooked nonleafy vegetables	50克生或熟的非葉菜		
-food_info_serving_sizes_other_vegetables_metric.2	dozeVegetablesOther.Serving.metric.2	120 ml vegetable juice	125毫升蔬菜汁		
-food_info_serving_sizes_other_vegetables_metric.3	dozeVegetablesOther.Serving.metric.3	10 g dried mushrooms	7克乾燥菇類		
+food_info_serving_sizes_other_vegetables_metric.1	dozeVegetablesOther.Serving.metric.1	90 g raw or cooked nonleafy vegetables	90克生或熟非綠葉菜		
+food_info_serving_sizes_other_vegetables_metric.2	dozeVegetablesOther.Serving.metric.2	120 ml vegetable juice	120毫升蔬菜汁		
+food_info_serving_sizes_other_vegetables_metric.3	dozeVegetablesOther.Serving.metric.3	10 g dried mushrooms	10克乾菇類		
 food_info_types_other_vegetables.0	dozeVegetablesOther.Variety.Text.0	Artichokes	朝鮮薊		
 food_info_types_other_vegetables.1	dozeVegetablesOther.Variety.Text.1	Asparagus	蘆筍		
 food_info_types_other_vegetables.2	dozeVegetablesOther.Variety.Text.2	Beets	甜菜		
@@ -279,7 +279,7 @@ food_info_types_other_vegetables.3	dozeVegetablesOther.Variety.Text.3	Bell peppe
 food_info_types_other_vegetables.4	dozeVegetablesOther.Variety.Text.4	Carrots	胡蘿蔔		
 food_info_types_other_vegetables.5	dozeVegetablesOther.Variety.Text.5	Corn	玉米		
 food_info_types_other_vegetables.6	dozeVegetablesOther.Variety.Text.6	Garlic	大蒜		
-food_info_types_other_vegetables.7	dozeVegetablesOther.Variety.Text.7	Mushrooms (button, oyster, porcini, portobello, and shiitake)	菇類（洋菇、秀珍菇、波特菇與香菇）		
+food_info_types_other_vegetables.7	dozeVegetablesOther.Variety.Text.7	Mushrooms (button, oyster, porcini, portobello, and shiitake)	菇類（洋菇、秀珍菇、牛肝菌菇、波特菇與香菇）		
 food_info_types_other_vegetables.8	dozeVegetablesOther.Variety.Text.8	Okra	秋葵		
 food_info_types_other_vegetables.9	dozeVegetablesOther.Variety.Text.9	Onions	洋蔥		
 food_info_types_other_vegetables.10	dozeVegetablesOther.Variety.Text.10	Purple potatoes	紫薯		
@@ -291,16 +291,16 @@ food_info_types_other_vegetables.15	dozeVegetablesOther.Variety.Text.15	Sweet po
 food_info_types_other_vegetables.16	dozeVegetablesOther.Variety.Text.16	Tomatoes	蕃茄		
 food_info_types_other_vegetables.17	dozeVegetablesOther.Variety.Text.17	Zucchini	櫛瓜		
 whole_grains	dozeWholeGrains.heading	Whole Grains	全穀類	heading for daily data entry item	
-food_info_serving_sizes_whole_grains_imperial.0	dozeWholeGrains.Serving.imperial.0	½ cup cooked whole grains, whole-wheat pasta, or corn kernels	½杯熱麥片或煮熟的穀物、義大利麵或玉米粒		
-food_info_serving_sizes_whole_grains_imperial.1	dozeWholeGrains.Serving.imperial.1	1 cup 100% whole grain cold cereal	1杯冷麥片		
-food_info_serving_sizes_whole_grains_imperial.2	dozeWholeGrains.Serving.imperial.2	1 100% whole grain tortilla (or 2 smaller corn tortillas)	1 100% whole grain tortilla (or 2 smaller corn tortillas)		
-food_info_serving_sizes_whole_grains_imperial.3	dozeWholeGrains.Serving.imperial.3	1 slice of 100% whole grain bread	1份墨西哥薄餅或1片麵包		
+food_info_serving_sizes_whole_grains_imperial.0	dozeWholeGrains.Serving.imperial.0	½ cup cooked whole grains, whole-wheat pasta, or corn kernels	½杯熟全穀物、全麥義大利麵或玉米粒		
+food_info_serving_sizes_whole_grains_imperial.1	dozeWholeGrains.Serving.imperial.1	1 cup 100% whole grain cold cereal	1杯100%冷全穀物麥片		
+food_info_serving_sizes_whole_grains_imperial.2	dozeWholeGrains.Serving.imperial.2	1 100% whole grain tortilla (or 2 smaller corn tortillas)	1塊100%全穀物墨西哥餅（或2塊小玉米餅）		
+food_info_serving_sizes_whole_grains_imperial.3	dozeWholeGrains.Serving.imperial.3	1 slice of 100% whole grain bread	1片100%全穀物麵包		
 food_info_serving_sizes_whole_grains_imperial.4	dozeWholeGrains.Serving.imperial.4	½ bagel or English muffin	½個貝果或英式鬆餅		
 food_info_serving_sizes_whole_grains_imperial.5	dozeWholeGrains.Serving.imperial.5	3 cups popped popcorn	3杯爆米花		
-food_info_serving_sizes_whole_grains_metric.0	dozeWholeGrains.Serving.metric.0	100 g cooked whole grains, whole-wheat pasta, or corn kernels	100克熱麥片或煮熟的穀物、義大利麵或玉米粒		
-food_info_serving_sizes_whole_grains_metric.1	dozeWholeGrains.Serving.metric.1	50 g 100% whole grain cold cereal	50克冷麥片		
-food_info_serving_sizes_whole_grains_metric.2	dozeWholeGrains.Serving.metric.2	1 100% whole grain tortilla (or 2 smaller corn tortillas)	1 100% whole grain tortilla (or 2 smaller corn tortillas)		
-food_info_serving_sizes_whole_grains_metric.3	dozeWholeGrains.Serving.metric.3	1 slice of 100% whole grain bread	1份墨西哥薄餅或1片麵包		
+food_info_serving_sizes_whole_grains_metric.0	dozeWholeGrains.Serving.metric.0	100 g cooked whole grains, whole-wheat pasta, or corn kernels	100克熟全穀物、全麥義大利麵或玉米粒		
+food_info_serving_sizes_whole_grains_metric.1	dozeWholeGrains.Serving.metric.1	50 g 100% whole grain cold cereal	50克100%冷全穀物麥片		
+food_info_serving_sizes_whole_grains_metric.2	dozeWholeGrains.Serving.metric.2	1 100% whole grain tortilla (or 2 smaller corn tortillas)	1塊100%全穀物墨西哥餅（或2塊小玉米餅）		
+food_info_serving_sizes_whole_grains_metric.3	dozeWholeGrains.Serving.metric.3	1 slice of 100% whole grain bread	1片100%全穀物麵包		
 food_info_serving_sizes_whole_grains_metric.4	dozeWholeGrains.Serving.metric.4	½ bagel or English muffin	½個貝果或英式鬆餅		
 food_info_serving_sizes_whole_grains_metric.5	dozeWholeGrains.Serving.metric.5	30 g popped popcorn	30克爆米花		
 food_info_types_whole_grains.0	dozeWholeGrains.Variety.Text.0	Barley	大麥		
