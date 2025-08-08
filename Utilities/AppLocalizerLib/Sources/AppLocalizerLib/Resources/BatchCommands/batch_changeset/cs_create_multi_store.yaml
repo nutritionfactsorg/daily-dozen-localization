@@ -237,12 +237,12 @@ CS_LANG_OUTPUT_TSV: "Spanish/tsv/v06/Spanish_es.store.v06.toreview.tsv"
 DO_CHANGESET_APPLY_TSV
 
 ##############
-## Ukranian ##
+## Ukrainian ##
 ##############
-LOGGER_FILENAME: "_log_CS_Ukranian_uk"
+LOGGER_FILENAME: "_log_CS_Ukrainian_uk"
 ## -- (sk) process store --
-CS_LANG_INPUT_TSV: "Ukranian/tsv/v05/Ukranian_uk.store.v05.tsv"
-CS_LANG_OUTPUT_TSV: "Ukranian/tsv/v06/Ukranian_uk.store.v06.toreview.tsv"
+CS_LANG_INPUT_TSV: "Ukrainian/tsv/v05/Ukrainian_uk.store.v05.tsv"
+CS_LANG_OUTPUT_TSV: "Ukrainian/tsv/v06/Ukrainian_uk.store.v06.toreview.tsv"
 DO_CHANGESET_APPLY_TSV
 
 # ======= ANDROID ONLY ======= ======= ======= ======= ======= 

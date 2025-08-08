@@ -204,11 +204,11 @@ SOURCE_TSV_INCLUDE: "Slovak/tsv/v05_Peanuts/Slovak_sk.app.v05.tsv"
 DO_NORMALIZE_BATCH
 
 ##############
-## Ukranian ##
+## Ukrainian ##
 ##############
-LOGGER_FILENAME: "_log_FromTsvIntake+BC_Ukranian_uk"
+LOGGER_FILENAME: "_log_FromTsvIntake+BC_Ukrainian_uk"
 ## -- (sk) process app --
-SOURCE_TSV_INCLUDE: "Ukranian/tsv/v05/Ukranian_uk.app.v05.tsv"
+SOURCE_TSV_INCLUDE: "Ukrainian/tsv/v05/Ukrainian_uk.app.v05.tsv"
 DO_NORMALIZE_BATCH
 
 # ======= SPANISH: URL SET CHANGE ======= ======= ======= ======= 

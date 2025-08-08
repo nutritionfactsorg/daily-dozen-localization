@@ -1,6 +1,6 @@
 ### FILE: batch_normal_FromTsvIntake.yaml
 ### WORKFLOW:  `*.strings` content based `*.tsv`
-### SCOPE: Ukranian individual update
+### SCOPE: Ukrainian individual update
 ###
 
 ###################
@@ -44,13 +44,13 @@ DO_NORMALIZE_BATCH
 #DO_NORMALIZE_BATCH
 
 ##############
-## Ukranian ##
+## Ukrainian ##
 ##############
-LOGGER_FILENAME: "_log_FromTsvIntake_Ukranian_uk"
+LOGGER_FILENAME: "_log_FromTsvIntake_Ukrainian_uk"
 ## -- (uk) process app --
-SOURCE_TSV_INCLUDE: "Ukranian/tsv/v05/Ukranian_uk.app.v05.20240822.intake.tsv"
+SOURCE_TSV_INCLUDE: "Ukrainian/tsv/v05/Ukrainian_uk.app.v05.20240822.intake.tsv"
 DO_NORMALIZE_BATCH
 
 ## -- (uk) process store --
-SOURCE_TSV_INCLUDE: "Ukranian/tsv/v05/Ukranian_uk.store.v05.20240624.intake.tsv"
+SOURCE_TSV_INCLUDE: "Ukrainian/tsv/v05/Ukrainian_uk.store.v05.20240624.intake.tsv"
 DO_NORMALIZE_BATCH
