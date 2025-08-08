@@ -58,7 +58,7 @@ struct BatchRunner {
         
         for l in lines {
             guard let command = parseCommandLine(l) else { continue }
-            //print("cmd `\(command.cmdKey)` \(cmd.cmdUrl?.absoluteString ?? "nil")")
+            print("cmd `\(command.cmdKey)` \(command.cmdUrl?.lastPathComponent ?? "")")
             
             // Clear
             if command.cmdKey.hasPrefix(Cmd.CLEAR_ALL.txt) {
@@ -265,7 +265,7 @@ struct BatchRunner {
                         s += "  missing OUTPUT_CACHE_LOCAL_DIR"
                     }
                     if sourceStrings == nil && sourceListTsv == nil && sourceXML == nil {
-                        s += " missing SOURCE_TSV_INCLUDE (*.Strings, *.TSV or *.XML)"
+                        s += " missing `SOURCE_TSV_INCLUDE` (*.Strings, *.TSV or *.XML)"
                     }
                     print(s)
                     continue
