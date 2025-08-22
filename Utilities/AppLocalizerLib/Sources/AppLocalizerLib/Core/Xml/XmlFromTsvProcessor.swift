@@ -130,7 +130,7 @@ struct XmlFromTsvProcessor {
            var keyId = element.attribute(forName: "name")?.stringValue {
             keyId = normalizeAndroidKey(keyId)
             if watched(keyId) {
-                print(":WATCH: \(keyId)")
+                print(":WATCH:XmlFromTsv: \(keyId)")
                 print("- - - - - - - - -")
             }
             if let translatable = element.attribute(forName: "translatable"),
@@ -215,7 +215,7 @@ struct XmlFromTsvProcessor {
                 _lookupTableDroid[imperialKey] = parts.imperialMeasure
                 _lookupTableDroid[metricKey] = parts.metricMeasure
                 if watched(baseKey) {
-                    var s = ":WATCH: \(baseKey)\n"
+                    var s = ":WATCH:XmlFromTsv:DescriptionSplit: \(baseKey)\n"
                     s.append("  [\(baseKeyIndexed)] '\(parts.description)'\n")
                     s.append("  [\(imperialKey)] '\(parts.imperialMeasure)'\n")
                     s.append("  [\(metricKey)] '\(parts.metricMeasure)'\n\n")

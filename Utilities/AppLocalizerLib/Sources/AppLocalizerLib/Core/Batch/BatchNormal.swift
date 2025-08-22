@@ -56,16 +56,16 @@ struct BatchNormal {
         let modifier = nameParts.modifier
         
         let tsvLanguage = tsvFirstUrl.deletingPathExtension().lastPathComponent
-        logger.info("\n##### DO_NORMALIZE_BATCH TSV LANGUAGE: \(tsvLanguage)")
-        print("\n##### DO_NORMALIZE_BATCH TSV LANGUAGE: \(tsvLanguage)")
-        if 
-            tsvLanguage.starts(with: "Catalan_ca") // ||
-        // tsvLanguage == "Catalan_ca.app" // ||
-        // tsvLanguage ==  "Catalan_ca.store" // ||
-        // tsvLanguage == "Spanish_es" // ||
-        { 
-            print(":WATCH: \(tsvLanguage)")
-        }
+        logger.info("##### DO_NORMALIZE_BATCH TSV LANGUAGE: \(tsvLanguage)\n")
+        print("##### DO_NORMALIZE_BATCH TSV LANGUAGE: \(tsvLanguage)\n")
+        //if 
+        //    tsvLanguage.starts(with: "Catalan_ca") // ||
+        // // tsvLanguage == "Catalan_ca.app" // ||
+        // // tsvLanguage ==  "Catalan_ca.store" // ||
+        // // tsvLanguage == "Spanish_es" // ||
+        //{ 
+        //    print(":WATCH:BatchNormal:TSV: \(tsvLanguage)")
+        //}
         
         // ----- to TSV -----
         // Base Language TSV (English_US)
@@ -233,7 +233,7 @@ struct BatchNormal {
         logger.info("\n##### DO_NORMALIZE_BATCH XML LANGUAGE: \(tsvLanguage)")
         print("\n##### DO_NORMALIZE_BATCH XML LANGUAGE: \(tsvLanguage)")
         if tsvLanguage == "Bulgarian" {
-            print(":WATCH: \(tsvLanguage)")
+            print(":WATCH:BatchNormal:XML: \(tsvLanguage)")
         }
         
         // ----- to TSV -----
