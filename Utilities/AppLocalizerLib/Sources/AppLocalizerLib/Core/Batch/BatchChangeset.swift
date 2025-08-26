@@ -70,15 +70,18 @@ struct BatchChangeset {
         //deleteSet = deleteSet.sortedByKeyParts()
         //insertSet = insertSet.sortedByKeyParts()
         
-        // --- APPLY DELETES ---        
+        // --- APPLY DELETES `CS_DELETE_KEY`---        
         let resultAfterDelete = applyDeletes(inputRows: inputSheet.tsvRowList.data)
         writeTsv(resultAfterDelete, cacheFilename: "02_afterDelete")
         
-        // --- APPLY INSERTS ---
+        // --- APPLY INSERTS `CS_INSERT_KEY` ---
+        // Inserts `\(key_apple):::\(key_android)` key pair without content.
+        // Duplicate index until subsequent keys are renumbered.
         let resultAfterInsert = applyInserts(resultAfterDelete: resultAfterDelete)
         writeTsv(resultAfterInsert, cacheFilename: "03_afterInsert")
                 
         // --- REINDEX ---
+        // Reindexes key numberings
         let resultAfterReindex = applyReindex(resultAfterInsert: resultAfterInsert)
         writeTsv(resultAfterReindex, cacheFilename: "04_afterReindex")
         
@@ -195,43 +198,49 @@ struct BatchChangeset {
     
     /// LIMIT:
     ///     - Reindexing is only based `row.key_apple`.
-    ///     -any mismatching `key_android` and `key_apple` indices are logged.
+    ///     - any mismatching `key_android` and `key_apple` indices are logged.
     func applyReindex(resultAfterInsert tsvRowList: [TsvRow]) -> [TsvRow] {
         // Dictionary to track the next index for each namePart
-        var indexCounters: [String: Int] = [:] // [counterKey: count]
+        var idxCountersApple: [String: Int] = [:] // [counterKey: count]
+        var idxCountersDroid: [String: Int] = [:] // [counterKey: count]
         // Result
         var resultAfterReindex = [TsvRow]()
         
         for var row in tsvRowList {
             let (nameApple, indexApple) = row.key_apple.keyParts()
-            let (nameAndroid, indexAndroid) = row.key_android.keyParts()
-            let counterKey = "\(nameApple):::\(nameAndroid)"
+            let (nameDroid, indexDroid) = row.key_android.keyParts()
             
-            // If there's no index part, keep the string as is
-            if indexApple == nil && indexAndroid == nil {
+            if nameDroid == "servings_time_scale_choices" {
+                print("DEBUG: found servings_time_scale_choices")
+            }
+            
+            // Neither have index parts, keep the tsv row string as-is
+            if indexApple == nil && indexDroid == nil {
                 resultAfterReindex.append(row)
                 continue
             }
-            
-            if indexApple != nil, indexAndroid != nil {
+            // Both have index parts
+            if indexApple != nil, indexDroid != nil {
                 // Get or initialize the counter for this namePart
-                let currentIndex = indexCounters[counterKey] ?? 0
+                let currentIdxApple = idxCountersApple[nameApple] ?? 0
+                let currentIdxDroid = idxCountersDroid[nameDroid] ?? 0
                 // Create the new string with the current index
-                row.key_apple = "\(nameApple).\(currentIndex)"                
-                row.key_android = "\(nameAndroid).\(currentIndex)"
+                row.key_apple = "\(nameApple).\(currentIdxApple)"                
+                row.key_android = "\(nameDroid).\(currentIdxDroid)"
                 resultAfterReindex.append(row)
                 // Increment the counter for next occurrence
-                indexCounters[counterKey] = currentIndex + 1
-            } else if indexApple != nil {
-                let currentIndex = indexCounters[counterKey] ?? 0
-                row.key_apple = "\(nameApple).\(currentIndex)"                
+                idxCountersApple[nameApple] = currentIdxApple + 1
+                idxCountersDroid[nameDroid] = currentIdxDroid + 1
+            } else if indexApple != nil { // Only Apple is indexed
+                let currentIdxApple = idxCountersApple[nameApple] ?? 0
+                row.key_apple = "\(nameApple).\(currentIdxApple)"                
                 resultAfterReindex.append(row)
-                indexCounters[counterKey] = currentIndex + 1
-            } else { // indexAndroid != nil
-                let currentIndex = indexCounters[counterKey] ?? 0
-                row.key_android = "\(nameAndroid).\(currentIndex)"
+                idxCountersApple[nameApple] = currentIdxApple + 1
+            } else { // indexAndroid != nil. Only Droid is indexed
+                let currentIdxDroid = idxCountersDroid[nameDroid] ?? 0
+                row.key_android = "\(nameDroid).\(currentIdxDroid)"
                 resultAfterReindex.append(row)
-                indexCounters[counterKey] = currentIndex + 1
+                idxCountersDroid[nameDroid] = currentIdxDroid + 1
             }            
         }
         
