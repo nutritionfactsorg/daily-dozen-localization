@@ -340,8 +340,8 @@ faq_title	faq_title	Frequently Asked Questions	Συχνές Ερωτήσεις	I
 	history_data_import_notfound_text	Did not find a valid import file in the Daily Dozen Documents folder.	Δεν βρέθηκε έγκυρο αρχείο εισαγωγής στο φάκελο Daily Dozen Documents.	History Data: import not found text	No valid input file found in Daily Dozen Documents folder.
 	history_data_title	History	Ιστορία	History Data: preferences header & title	History
 servings_time_scale_choices.0	history_scale_choice_day	Day	Ημέρα	History View: calendar scale control	
-servings_time_scale_choices.0	history_scale_choice_month	Month	Μήνας	History View: calendar scale control	
-servings_time_scale_choices.0	history_scale_choice_year	Year	Έτος	History View: calendar scale control	
+servings_time_scale_choices.1	history_scale_choice_month	Month	Μήνας	History View: calendar scale control	
+servings_time_scale_choices.2	history_scale_choice_year	Year	Έτος	History View: calendar scale control	
 time_scale	history_scale_label	Time Scale	Χρονοδιάγραμμα	History View: scale text	
 moving_average	historyRecord.movingAverage	Moving Average	Κινητός Μέσος Όρος		
 	historyRecordDoze.heading	Servings History	Servings History	History View	

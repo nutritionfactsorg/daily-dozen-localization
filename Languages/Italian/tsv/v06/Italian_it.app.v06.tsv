@@ -340,8 +340,8 @@ faq_title	faq_title	Frequently Asked Questions	Domande frequenti	Info Menu
 	history_data_import_notfound_text	Did not find a valid import file in the Daily Dozen Documents folder.	Non sono stati trovati file d'importazione validi nella cartella documenti di Daily Dozen.	History Data: import not found text	
 	history_data_title	History	Cronologia	History Data: preferences header & title	
 servings_time_scale_choices.0	history_scale_choice_day	Day	Giorno	History View: calendar scale control	
-servings_time_scale_choices.0	history_scale_choice_month	Month	Mese	History View: calendar scale control	
-servings_time_scale_choices.0	history_scale_choice_year	Year	Anno	History View: calendar scale control	
+servings_time_scale_choices.1	history_scale_choice_month	Month	Mese	History View: calendar scale control	
+servings_time_scale_choices.2	history_scale_choice_year	Year	Anno	History View: calendar scale control	
 time_scale	history_scale_label	Time Scale	Periodo temporale	History View: scale text	
 moving_average	historyRecord.movingAverage	Moving Average	Media dei movimenti		
 	historyRecordDoze.heading	Servings History	Cronologia porzioni	History View	

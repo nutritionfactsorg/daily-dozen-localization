@@ -340,8 +340,8 @@ faq_title	faq_title	Frequently Asked Questions	Questões Frequentes	Info Menu
 	history_data_import_notfound_text	Did not find a valid import file in the Daily Dozen Documents folder.	Não foi encontrado um ficheiro válido para importação na pasta dos Documentos da Dúzia Diária.	History Data: import not found text	Dados do Histórico: texto de importação não encontrada
 	history_data_title	History	Histórico	History Data: preferences header & title	Dados do Histórico: título e cabeçalho das preferências
 servings_time_scale_choices.0	history_scale_choice_day	Day	Dia	History View: calendar scale control	
-servings_time_scale_choices.0	history_scale_choice_month	Month	Mês	History View: calendar scale control	
-servings_time_scale_choices.0	history_scale_choice_year	Year	Ano	History View: calendar scale control	
+servings_time_scale_choices.1	history_scale_choice_month	Month	Mês	History View: calendar scale control	
+servings_time_scale_choices.2	history_scale_choice_year	Year	Ano	History View: calendar scale control	
 time_scale	history_scale_label	Time Scale	Escala de Tempo	History View: scale text	
 moving_average	historyRecord.movingAverage	Moving Average	Média Móvel		
 	historyRecordDoze.heading	Servings History	Histórico de Porções	History View	

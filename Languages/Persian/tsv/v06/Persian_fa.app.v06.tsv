@@ -340,8 +340,8 @@ faq_title	faq_title	Frequently Asked Questions	سؤالاتِ متداول	Info 
 	history_data_import_notfound_text	Did not find a valid import file in the Daily Dozen Documents folder.	در پوشۀ اسنادِ «دوازده‌تای روزانه» فایلِ ورودیِ معتبری یافت نشد.	History Data: import not found text	
 	history_data_title	History	سابقه	History Data: preferences header & title	
 servings_time_scale_choices.0	history_scale_choice_day	Day	روز	History View: calendar scale control	
-servings_time_scale_choices.0	history_scale_choice_month	Month	ماه	History View: calendar scale control	
-servings_time_scale_choices.0	history_scale_choice_year	Year	سال	History View: calendar scale control	
+servings_time_scale_choices.1	history_scale_choice_month	Month	ماه	History View: calendar scale control	
+servings_time_scale_choices.2	history_scale_choice_year	Year	سال	History View: calendar scale control	
 time_scale	history_scale_label	Time Scale	مقیاسِ زمانی	History View: scale text	
 moving_average	historyRecord.movingAverage	Moving Average	میانگینِ تحرک		
 	historyRecordDoze.heading	Servings History	سابقۀ سهم‌ها	History View	

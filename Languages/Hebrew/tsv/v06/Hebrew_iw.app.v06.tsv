@@ -340,8 +340,8 @@ faq_title	faq_title	Frequently Asked Questions	שאלה נפוצה	Info Menu
 	history_data_import_notfound_text	Did not find a valid import file in the Daily Dozen Documents folder.	לא נמצא קובץ ייבוא תקף בתיק המסמכים של התריסר היומי.	History Data: import not found text	נתוני היסטוריה: כיתוב ייבוא לא נמצא
 	history_data_title	History	היסטוריה	History Data: preferences header & title	נתוני היסטוריה: כותרת העדפות
 servings_time_scale_choices.0	history_scale_choice_day	Day	יום	History View: calendar scale control	
-servings_time_scale_choices.0	history_scale_choice_month	Month	חודש	History View: calendar scale control	
-servings_time_scale_choices.0	history_scale_choice_year	Year	שנה	History View: calendar scale control	
+servings_time_scale_choices.1	history_scale_choice_month	Month	חודש	History View: calendar scale control	
+servings_time_scale_choices.2	history_scale_choice_year	Year	שנה	History View: calendar scale control	
 time_scale	history_scale_label	Time Scale	קנה מידה של זמן	History View: scale text	
 moving_average	historyRecord.movingAverage	Moving Average	ממוצע נע		
 	historyRecordDoze.heading	Servings History	הסטוריית המנות	History View	

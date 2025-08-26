@@ -340,8 +340,8 @@ faq_title	faq_title	Frequently Asked Questions	Поширені Запитанн
 	history_data_import_notfound_text	Did not find a valid import file in the Daily Dozen Documents folder.	Не знайдено дійсний файл імпорту в папці  Дюжина доктора Грегера Документи	History Data: import not found text	
 	history_data_title	History	Історія	History Data: preferences header & title	
 servings_time_scale_choices.0	history_scale_choice_day	Day	День	History View: calendar scale control	
-servings_time_scale_choices.0	history_scale_choice_month	Month	Місяць	History View: calendar scale control	
-servings_time_scale_choices.0	history_scale_choice_year	Year	Рік	History View: calendar scale control	
+servings_time_scale_choices.1	history_scale_choice_month	Month	Місяць	History View: calendar scale control	
+servings_time_scale_choices.2	history_scale_choice_year	Year	Рік	History View: calendar scale control	
 time_scale	history_scale_label	Time Scale	Шкала часу	History View: scale text	
 moving_average	historyRecord.movingAverage	Moving Average	Середня кількість руху		
 	historyRecordDoze.heading	Servings History	Історія порцій	History View	

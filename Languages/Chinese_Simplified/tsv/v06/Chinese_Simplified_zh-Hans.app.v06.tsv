@@ -340,8 +340,8 @@ faq_title	faq_title	Frequently Asked Questions	常见问题	Info Menu
 	history_data_import_notfound_text	Did not find a valid import file in the Daily Dozen Documents folder.	在每日12清单文件夹中未找到有效的导入文件。	History Data: import not found text	No valid import files were found in the Daily Dozen Documents folder.
 	history_data_title	History	历史	History Data: preferences header & title	history
 servings_time_scale_choices.0	history_scale_choice_day	Day	日	History View: calendar scale control	
-servings_time_scale_choices.0	history_scale_choice_month	Month	月	History View: calendar scale control	
-servings_time_scale_choices.0	history_scale_choice_year	Year	年	History View: calendar scale control	
+servings_time_scale_choices.1	history_scale_choice_month	Month	月	History View: calendar scale control	
+servings_time_scale_choices.2	history_scale_choice_year	Year	年	History View: calendar scale control	
 time_scale	history_scale_label	Time Scale	时间尺度	History View: scale text	
 moving_average	historyRecord.movingAverage	Moving Average	活动平均数		
 	historyRecordDoze.heading	Servings History	份量历史	History View	
