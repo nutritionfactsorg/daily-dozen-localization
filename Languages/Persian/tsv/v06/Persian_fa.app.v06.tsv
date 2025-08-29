@@ -9,12 +9,12 @@ servings	doze_entry_header	Servings	سهم‌ها	Doze Entry View heading: ‘Se
 beans	dozeBeans.heading	Beans	حبوبات	heading for daily data entry item	
 food_info_serving_sizes_beans_imperial.0	dozeBeans.Serving.imperial.0	¼ cup hummus or bean dip	یک‌چهارمِ پیمانه حُمُص یا دیپِ لوبیا		
 food_info_serving_sizes_beans_imperial.1	dozeBeans.Serving.imperial.1	½ cup cooked beans, split peas, or lentils	یک‌دومِ پیمانه لوبیا، نخود، لپه، یا عدسِ پخته		
-food_info_serving_sizes_beans_imperial.2	dozeBeans.Serving.imperial.2	⅓ cup tofu or tempeh	یک‌دومِ پیمانه توفو یا تِمپه		
+food_info_serving_sizes_beans_imperial.2	dozeBeans.Serving.imperial.2	⅓ cup tofu or tempeh	یک‌سومِ پیمانه توفو یا تِمپه		
 food_info_serving_sizes_beans_imperial.3	dozeBeans.Serving.imperial.3	1 cup fresh peas or sprouted lentils	۱ پیمانه نخودسبز یا نخودفرنگی		
-food_info_serving_sizes_beans_metric.0	dozeBeans.Serving.metric.0	70 g hummus or bean dip	۶۰ گرم حُمُص یا دیپِ لوبیا		
-food_info_serving_sizes_beans_metric.1	dozeBeans.Serving.metric.1	100 g cooked beans, split peas, or lentils	۹۰ گرم لوبیا، نخود، لپه، یا عدسِ پخته		
-food_info_serving_sizes_beans_metric.2	dozeBeans.Serving.metric.2	80 g tofu or tempeh	۱۰۰ گرم توفو یا تِمپه		
-food_info_serving_sizes_beans_metric.3	dozeBeans.Serving.metric.3	100 g fresh peas or sprouted lentils	۱۳۰ گرم نخودسبز یا نخودفرنگی		
+food_info_serving_sizes_beans_metric.0	dozeBeans.Serving.metric.0	70 g hummus or bean dip	۷۰ گرم حُمُص یا دیپِ لوبیا		
+food_info_serving_sizes_beans_metric.1	dozeBeans.Serving.metric.1	100 g cooked beans, split peas, or lentils	۱۰۰ گرم لوبیا، نخود، لپه، یا عدسِ پخته		
+food_info_serving_sizes_beans_metric.2	dozeBeans.Serving.metric.2	80 g tofu or tempeh	۸۰ گرم توفو یا تِمپه		
+food_info_serving_sizes_beans_metric.3	dozeBeans.Serving.metric.3	100 g fresh peas or sprouted lentils	۱۰۰ گرم نخودسبز یا نخودفرنگی		
 food_info_types_beans.0	dozeBeans.Variety.Text.0	Black beans	لوبیاسیاه		
 food_info_types_beans.1	dozeBeans.Variety.Text.1	Black-eyed peas	لوبیاچشم‌بلبلی		
 food_info_types_beans.2	dozeBeans.Variety.Text.2	Butter beans	لوبیاعروس		
@@ -33,7 +33,7 @@ food_info_types_beans.14	dozeBeans.Variety.Text.14	Tempeh	تِمپه
 berries	dozeBerries.heading	Berries	توت‌ها	heading for daily data entry item	
 food_info_serving_sizes_berries_imperial.0	dozeBerries.Serving.imperial.0	½ cup fresh or frozen	یک‌دومِ پیمانه تازه یا منجمد		
 food_info_serving_sizes_berries_imperial.1	dozeBerries.Serving.imperial.1	¼ cup dried	یک‌چهارمِ پیمانه خشک‌شده		
-food_info_serving_sizes_berries_metric.0	dozeBerries.Serving.metric.0	70 g fresh or frozen	۶۰ گرم تازه یا منجمد		
+food_info_serving_sizes_berries_metric.0	dozeBerries.Serving.metric.0	70 g fresh or frozen	۷۰ گرم تازه یا منجمد		
 food_info_serving_sizes_berries_metric.1	dozeBerries.Serving.metric.1	40 g dried	۴۰ گرم خشک‌شده		
 food_info_types_berries.0	dozeBerries.Variety.Text.0	Acai berries	توتِ آکای		
 food_info_types_berries.1	dozeBerries.Variety.Text.1	Barberries	زرشک		
@@ -134,7 +134,7 @@ food_info_serving_sizes_other_fruits_imperial.0	dozeFruitsOther.Serving.imperial
 food_info_serving_sizes_other_fruits_imperial.1	dozeFruitsOther.Serving.imperial.1	1 cup cut-up fruit	۱ پیمانه میوۀ خردشده		
 food_info_serving_sizes_other_fruits_imperial.2	dozeFruitsOther.Serving.imperial.2	¼ cup dried fruit	یک‌چهارمِ پیمانه میوۀ خشک‌شده		
 food_info_serving_sizes_other_fruits_metric.0	dozeFruitsOther.Serving.metric.0	1 medium-sized fruit	۱ میوه با اندازۀ متوسط		
-food_info_serving_sizes_other_fruits_metric.1	dozeFruitsOther.Serving.metric.1	150 g cut-up fruit	۱۲۰ گرم میوۀ خردشده		
+food_info_serving_sizes_other_fruits_metric.1	dozeFruitsOther.Serving.metric.1	150 g cut-up fruit	۱۵۰ گرم میوۀ خردشده		
 food_info_serving_sizes_other_fruits_metric.2	dozeFruitsOther.Serving.metric.2	40 g dried fruit	۴۰ گرم میوۀ خشک‌شده		
 food_info_types_other_fruits.0	dozeFruitsOther.Variety.Text.0	Apples	سیب		
 food_info_types_other_fruits.1	dozeFruitsOther.Variety.Text.1	Apricots	زردآلو		
@@ -239,15 +239,15 @@ food_info_types_spices.29	dozeSpices.Variety.Text.29	Thyme	آویشن
 food_info_types_spices.30	dozeSpices.Variety.Text.30	Turmeric	زردچوبه		
 food_info_types_spices.31	dozeSpices.Variety.Text.31	Vanilla	وانیل		
 cruciferous_vegetables	dozeVegetablesCruciferous.heading	Cruciferous Vegetables	سبزیجاتِ چَلیپایی/صلیبی	heading for daily data entry item	
-food_info_serving_sizes_cruciferous_vegetables_imperial.0	dozeVegetablesCruciferous.Serving.imperial.0	½ cup cooked leafy vegetables	یک‌دومِ پیمانه خردشده		
-food_info_serving_sizes_cruciferous_vegetables_imperial.1	dozeVegetablesCruciferous.Serving.imperial.1	½ cup raw or cooked non-leafy vegetables	یک‌دومِ پیمانه کلم‌بروکسل/کلم‌فندقی		
-food_info_serving_sizes_cruciferous_vegetables_imperial.2	dozeVegetablesCruciferous.Serving.imperial.2	1 cup raw leafy vegetables	1 cup raw leafy vegetables		
-food_info_serving_sizes_cruciferous_vegetables_imperial.3	dozeVegetablesCruciferous.Serving.imperial.3	¼ cup broccoli sprouts	یک‌چهارمِ پیمانه کلم‌بروکلی		
+food_info_serving_sizes_cruciferous_vegetables_imperial.0	dozeVegetablesCruciferous.Serving.imperial.0	½ cup cooked leafy vegetables	یک‌دومِ پیمانه سبزیجاتِ برگدارِ پخته		
+food_info_serving_sizes_cruciferous_vegetables_imperial.1	dozeVegetablesCruciferous.Serving.imperial.1	½ cup raw or cooked non-leafy vegetables	یک‌دومِ پیمانه سبزیجاتِ بی‌برگِ خام یا پخته		
+food_info_serving_sizes_cruciferous_vegetables_imperial.2	dozeVegetablesCruciferous.Serving.imperial.2	1 cup raw leafy vegetables	۱ پیمانه سبزیجاتِ برگدارِ خام		
+food_info_serving_sizes_cruciferous_vegetables_imperial.3	dozeVegetablesCruciferous.Serving.imperial.3	¼ cup broccoli sprouts	یک‌چهارمِ پیمانه جوانۀ کلم‌بروکلی		
 food_info_serving_sizes_cruciferous_vegetables_imperial.4	dozeVegetablesCruciferous.Serving.imperial.4	1 tablespoon horseradish	۱ قاشقِ غذاخوری تربِ کوهی		
-food_info_serving_sizes_cruciferous_vegetables_metric.0	dozeVegetablesCruciferous.Serving.metric.0	90 g cooked leafy vegetables	۳۰-۸۰ گرم خردشده		
-food_info_serving_sizes_cruciferous_vegetables_metric.1	dozeVegetablesCruciferous.Serving.metric.1	60 g raw or cooked non-leafy vegetables	۸۰ گرم کلم‌بروکسل/کلم‌فندقی		
-food_info_serving_sizes_cruciferous_vegetables_metric.2	dozeVegetablesCruciferous.Serving.metric.2	90 g raw leafy vegetables	90 g raw leafy vegetables		
-food_info_serving_sizes_cruciferous_vegetables_metric.3	dozeVegetablesCruciferous.Serving.metric.3	20 g broccoli sprouts	۱۵ گرم کلم‌بروکلی		
+food_info_serving_sizes_cruciferous_vegetables_metric.0	dozeVegetablesCruciferous.Serving.metric.0	90 g cooked leafy vegetables	۹۰ گرم سبزیجاتِ برگدارِ پخته		
+food_info_serving_sizes_cruciferous_vegetables_metric.1	dozeVegetablesCruciferous.Serving.metric.1	60 g raw or cooked non-leafy vegetables	۶۰ گرم سبزیجاتِ بی‌برگِ خام یا پخته		
+food_info_serving_sizes_cruciferous_vegetables_metric.2	dozeVegetablesCruciferous.Serving.metric.2	90 g raw leafy vegetables	۹۰ گرم سبزیجاتِ برگدارِ خام		
+food_info_serving_sizes_cruciferous_vegetables_metric.3	dozeVegetablesCruciferous.Serving.metric.3	20 g broccoli sprouts	۲۰ گرم جوانۀ کلم‌بروکلی		
 food_info_serving_sizes_cruciferous_vegetables_metric.4	dozeVegetablesCruciferous.Serving.metric.4	1 tablespoon horseradish	۱ قاشقِ غذاخوری تربِ کوهی		
 food_info_types_cruciferous_vegetables.0	dozeVegetablesCruciferous.Variety.Text.0	Arugula	مَندابِ راکِتی/راکِت/آروگولا		
 food_info_types_cruciferous_vegetables.1	dozeVegetablesCruciferous.Variety.Text.1	Bok choy	بوک‌چوی (نوعی کلم‌برگِ چینی)		
@@ -269,9 +269,9 @@ food_info_serving_sizes_other_vegetables_imperial.1	dozeVegetablesOther.Serving.
 food_info_serving_sizes_other_vegetables_imperial.2	dozeVegetablesOther.Serving.imperial.2	½ cup vegetable juice	یک‌دومِ پیمانه آبِ سبزیجات		
 food_info_serving_sizes_other_vegetables_imperial.3	dozeVegetablesOther.Serving.imperial.3	¼ cup dried mushrooms	یک‌چهارمِ پیمانه قارچِ خشک‌شده		
 food_info_serving_sizes_other_vegetables_metric.0	dozeVegetablesOther.Serving.metric.0	60 g raw leafy vegetables	۶۰ گرم سبزیجاتِ برگدارِ خام		
-food_info_serving_sizes_other_vegetables_metric.1	dozeVegetablesOther.Serving.metric.1	90 g raw or cooked nonleafy vegetables	۵۰ گرم سبزیجاتِ بی‌برگِ خام یا پخته		
-food_info_serving_sizes_other_vegetables_metric.2	dozeVegetablesOther.Serving.metric.2	120 ml vegetable juice	۱۲۵ میلی‌لیتر آبِ سبزیجات		
-food_info_serving_sizes_other_vegetables_metric.3	dozeVegetablesOther.Serving.metric.3	10 g dried mushrooms	۷ گرم قارچِ خشک‌شده		
+food_info_serving_sizes_other_vegetables_metric.1	dozeVegetablesOther.Serving.metric.1	90 g raw or cooked nonleafy vegetables	۹۰ گرم سبزیجاتِ بی‌برگِ خام یا پخته		
+food_info_serving_sizes_other_vegetables_metric.2	dozeVegetablesOther.Serving.metric.2	120 ml vegetable juice	۱۲۰ میلی‌لیتر آبِ سبزیجات		
+food_info_serving_sizes_other_vegetables_metric.3	dozeVegetablesOther.Serving.metric.3	10 g dried mushrooms	۱۰ گرم قارچِ خشک‌شده		
 food_info_types_other_vegetables.0	dozeVegetablesOther.Variety.Text.0	Artichokes	کنگرفرنگی/آرتیشو		
 food_info_types_other_vegetables.1	dozeVegetablesOther.Variety.Text.1	Asparagus	مارچوبه		
 food_info_types_other_vegetables.2	dozeVegetablesOther.Variety.Text.2	Beets	چغندر		
@@ -279,7 +279,7 @@ food_info_types_other_vegetables.3	dozeVegetablesOther.Variety.Text.3	Bell peppe
 food_info_types_other_vegetables.4	dozeVegetablesOther.Variety.Text.4	Carrots	هویج		
 food_info_types_other_vegetables.5	dozeVegetablesOther.Variety.Text.5	Corn	بلال		
 food_info_types_other_vegetables.6	dozeVegetablesOther.Variety.Text.6	Garlic	سیر		
-food_info_types_other_vegetables.7	dozeVegetablesOther.Variety.Text.7	Mushrooms (button, oyster, porcini, portobello, and shiitake)	قارچ (دکمه‌ای، صدفی، پُرتابِلّا، و شیتاکه)		
+food_info_types_other_vegetables.7	dozeVegetablesOther.Variety.Text.7	Mushrooms (button, oyster, porcini, portobello, and shiitake)	قارچ (دکمه‌ای، صدفی، پورچینی، پُرتابِلّا، و شیتاکه)		
 food_info_types_other_vegetables.8	dozeVegetablesOther.Variety.Text.8	Okra	بامیه		
 food_info_types_other_vegetables.9	dozeVegetablesOther.Variety.Text.9	Onions	پیاز		
 food_info_types_other_vegetables.10	dozeVegetablesOther.Variety.Text.10	Purple potatoes	سیب‌زمینیِ بنفش		
@@ -291,16 +291,16 @@ food_info_types_other_vegetables.15	dozeVegetablesOther.Variety.Text.15	Sweet po
 food_info_types_other_vegetables.16	dozeVegetablesOther.Variety.Text.16	Tomatoes	گوجه‌فرنگی		
 food_info_types_other_vegetables.17	dozeVegetablesOther.Variety.Text.17	Zucchini	کدوسبز		
 whole_grains	dozeWholeGrains.heading	Whole Grains	غلاتِ کامل/سبوس‌دار	heading for daily data entry item	
-food_info_serving_sizes_whole_grains_imperial.0	dozeWholeGrains.Serving.imperial.0	½ cup cooked whole grains, whole-wheat pasta, or corn kernels	یک‌دومِ پیمانه غلاتِ گرم یا غلاتِ پخته، پاستا یا دانۀ ذرت		
-food_info_serving_sizes_whole_grains_imperial.1	dozeWholeGrains.Serving.imperial.1	1 cup 100% whole grain cold cereal	۱ پیمانه غلاتِ سرد		
-food_info_serving_sizes_whole_grains_imperial.2	dozeWholeGrains.Serving.imperial.2	1 100% whole grain tortilla (or 2 smaller corn tortillas)	1 100% whole grain tortilla (or 2 smaller corn tortillas)		
-food_info_serving_sizes_whole_grains_imperial.3	dozeWholeGrains.Serving.imperial.3	1 slice of 100% whole grain bread	۱ تُرتیلا یا ۱ برش نان		
+food_info_serving_sizes_whole_grains_imperial.0	dozeWholeGrains.Serving.imperial.0	½ cup cooked whole grains, whole-wheat pasta, or corn kernels	یک‌دومِ پیمانه غلاتِ کامل، پاستای غلاتِ کامل یا دانه‌های ذرتِ پخته		
+food_info_serving_sizes_whole_grains_imperial.1	dozeWholeGrains.Serving.imperial.1	1 cup 100% whole grain cold cereal	۱ پیمانه غلاتِ صبحانۀ سرد از ۱۰۰% غلاتِ کامل		
+food_info_serving_sizes_whole_grains_imperial.2	dozeWholeGrains.Serving.imperial.2	1 100% whole grain tortilla (or 2 smaller corn tortillas)	۱ تُرتیلا از ۱۰۰% غلاتِ کامل (یا ۲ ترتیلای ذرتِ کوچکتر)		
+food_info_serving_sizes_whole_grains_imperial.3	dozeWholeGrains.Serving.imperial.3	1 slice of 100% whole grain bread	۱ برش نان از ۱۰۰% غلاتِ کامل		
 food_info_serving_sizes_whole_grains_imperial.4	dozeWholeGrains.Serving.imperial.4	½ bagel or English muffin	یک‌دومِ نان‌شیرینیِ حلقوی یا مافینِ انگلیسی		
 food_info_serving_sizes_whole_grains_imperial.5	dozeWholeGrains.Serving.imperial.5	3 cups popped popcorn	۳ پیمانه ذرتِ بوداده		
-food_info_serving_sizes_whole_grains_metric.0	dozeWholeGrains.Serving.metric.0	100 g cooked whole grains, whole-wheat pasta, or corn kernels	۱۰۰ گرم غلاتِ گرم یا غلاتِ پخته، پاستا یا دانۀ ذرت		
-food_info_serving_sizes_whole_grains_metric.1	dozeWholeGrains.Serving.metric.1	50 g 100% whole grain cold cereal	۵۰ گرم غلاتِ سرد		
-food_info_serving_sizes_whole_grains_metric.2	dozeWholeGrains.Serving.metric.2	1 100% whole grain tortilla (or 2 smaller corn tortillas)	1 100% whole grain tortilla (or 2 smaller corn tortillas)		
-food_info_serving_sizes_whole_grains_metric.3	dozeWholeGrains.Serving.metric.3	1 slice of 100% whole grain bread	۱ تُرتیلا یا ۱ برش نان		
+food_info_serving_sizes_whole_grains_metric.0	dozeWholeGrains.Serving.metric.0	100 g cooked whole grains, whole-wheat pasta, or corn kernels	۱۰۰ گرم غلاتِ کامل، پاستای غلاتِ کامل یا دانه‌های ذرتِ پخته		
+food_info_serving_sizes_whole_grains_metric.1	dozeWholeGrains.Serving.metric.1	50 g 100% whole grain cold cereal	۵۰ گرم غلاتِ صبحانۀ سرد از ۱۰۰% غلاتِ کامل		
+food_info_serving_sizes_whole_grains_metric.2	dozeWholeGrains.Serving.metric.2	1 100% whole grain tortilla (or 2 smaller corn tortillas)	۱ تُرتیلا از ۱۰۰% غلاتِ کامل (یا ۲ ترتیلای ذرتِ کوچکتر)		
+food_info_serving_sizes_whole_grains_metric.3	dozeWholeGrains.Serving.metric.3	1 slice of 100% whole grain bread	۱ برش نان از ۱۰۰% غلاتِ کامل		
 food_info_serving_sizes_whole_grains_metric.4	dozeWholeGrains.Serving.metric.4	½ bagel or English muffin	یک‌دومِ نان‌شیرینیِ حلقوی یا مافینِ انگلیسی		
 food_info_serving_sizes_whole_grains_metric.5	dozeWholeGrains.Serving.metric.5	30 g popped popcorn	۳۰ گرم ذرتِ بوداده		
 food_info_types_whole_grains.0	dozeWholeGrains.Variety.Text.0	Barley	جو		

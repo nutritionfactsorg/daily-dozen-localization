@@ -9,12 +9,12 @@ servings	doze_entry_header	Servings	Порции	Doze Entry View heading: ‘Ser
 beans	dozeBeans.heading	Beans	Бобовые	heading for daily data entry item	
 food_info_serving_sizes_beans_imperial.0	dozeBeans.Serving.imperial.0	¼ cup hummus or bean dip	¼ стакана хумуса или соуса из фасоли		
 food_info_serving_sizes_beans_imperial.1	dozeBeans.Serving.imperial.1	½ cup cooked beans, split peas, or lentils	½ стакана вареной фасоли, гороха или чечевицы		
-food_info_serving_sizes_beans_imperial.2	dozeBeans.Serving.imperial.2	⅓ cup tofu or tempeh	½ стакана тофу или темпе		
-food_info_serving_sizes_beans_imperial.3	dozeBeans.Serving.imperial.3	1 cup fresh peas or sprouted lentils	1 чашка свежего гороха или стручкового горошка		
-food_info_serving_sizes_beans_metric.0	dozeBeans.Serving.metric.0	70 g hummus or bean dip	60 г хумуса или соуса из фасоли		
-food_info_serving_sizes_beans_metric.1	dozeBeans.Serving.metric.1	100 g cooked beans, split peas, or lentils	90 г вареной фасоли, гороха или чечевицы		
-food_info_serving_sizes_beans_metric.2	dozeBeans.Serving.metric.2	80 g tofu or tempeh	100 г тофу или темпе		
-food_info_serving_sizes_beans_metric.3	dozeBeans.Serving.metric.3	100 g fresh peas or sprouted lentils	130 г свежего или стручкового горошка		
+food_info_serving_sizes_beans_imperial.2	dozeBeans.Serving.imperial.2	⅓ cup tofu or tempeh	⅓ стакана тофу или темпе		
+food_info_serving_sizes_beans_imperial.3	dozeBeans.Serving.imperial.3	1 cup fresh peas or sprouted lentils	1 стакан свежего горошка или пророщенной чечевицы		
+food_info_serving_sizes_beans_metric.0	dozeBeans.Serving.metric.0	70 g hummus or bean dip	70 г хумуса или фасолевого соуса		
+food_info_serving_sizes_beans_metric.1	dozeBeans.Serving.metric.1	100 g cooked beans, split peas, or lentils	100 г вареной фасоли, гороха или чечевицы		
+food_info_serving_sizes_beans_metric.2	dozeBeans.Serving.metric.2	80 g tofu or tempeh	80 г тофу или темпе		
+food_info_serving_sizes_beans_metric.3	dozeBeans.Serving.metric.3	100 g fresh peas or sprouted lentils	100 г свежего горошка или пророщенной чечевицы		
 food_info_types_beans.0	dozeBeans.Variety.Text.0	Black beans	Чёрная фасоль		
 food_info_types_beans.1	dozeBeans.Variety.Text.1	Black-eyed peas	Черноглазая фасоль		
 food_info_types_beans.2	dozeBeans.Variety.Text.2	Butter beans	Фасоль лима		
@@ -33,7 +33,7 @@ food_info_types_beans.14	dozeBeans.Variety.Text.14	Tempeh	Темпе
 berries	dozeBerries.heading	Berries	Ягоды	heading for daily data entry item	
 food_info_serving_sizes_berries_imperial.0	dozeBerries.Serving.imperial.0	½ cup fresh or frozen	½ чашки свежих или замороженных		
 food_info_serving_sizes_berries_imperial.1	dozeBerries.Serving.imperial.1	¼ cup dried	¼ чашки сушёных		
-food_info_serving_sizes_berries_metric.0	dozeBerries.Serving.metric.0	70 g fresh or frozen	60 г свежих или замороженных		
+food_info_serving_sizes_berries_metric.0	dozeBerries.Serving.metric.0	70 g fresh or frozen	70 г свежих или замороженных		
 food_info_serving_sizes_berries_metric.1	dozeBerries.Serving.metric.1	40 g dried	40 г сушёных		
 food_info_types_berries.0	dozeBerries.Variety.Text.0	Acai berries	Ягоды асаи		
 food_info_types_berries.1	dozeBerries.Variety.Text.1	Barberries	Барбарис		
@@ -134,7 +134,7 @@ food_info_serving_sizes_other_fruits_imperial.0	dozeFruitsOther.Serving.imperial
 food_info_serving_sizes_other_fruits_imperial.1	dozeFruitsOther.Serving.imperial.1	1 cup cut-up fruit	1 чашка нарезанных фруктов		
 food_info_serving_sizes_other_fruits_imperial.2	dozeFruitsOther.Serving.imperial.2	¼ cup dried fruit	¼ чашки сушёного фрукта		
 food_info_serving_sizes_other_fruits_metric.0	dozeFruitsOther.Serving.metric.0	1 medium-sized fruit	1 фрукт среднего размера		
-food_info_serving_sizes_other_fruits_metric.1	dozeFruitsOther.Serving.metric.1	150 g cut-up fruit	120 г нарезанного фрукта		
+food_info_serving_sizes_other_fruits_metric.1	dozeFruitsOther.Serving.metric.1	150 g cut-up fruit	150 г нарезанных фруктов		
 food_info_serving_sizes_other_fruits_metric.2	dozeFruitsOther.Serving.metric.2	40 g dried fruit	40 г сушёного фрукта		
 food_info_types_other_fruits.0	dozeFruitsOther.Variety.Text.0	Apples	Яблоки		
 food_info_types_other_fruits.1	dozeFruitsOther.Variety.Text.1	Apricots	Курага		
@@ -239,15 +239,15 @@ food_info_types_spices.29	dozeSpices.Variety.Text.29	Thyme	Тимьян
 food_info_types_spices.30	dozeSpices.Variety.Text.30	Turmeric	Куркума		
 food_info_types_spices.31	dozeSpices.Variety.Text.31	Vanilla	Ваниль		
 cruciferous_vegetables	dozeVegetablesCruciferous.heading	Cruciferous Vegetables	Крестоцветные Овощи	heading for daily data entry item	
-food_info_serving_sizes_cruciferous_vegetables_imperial.0	dozeVegetablesCruciferous.Serving.imperial.0	½ cup cooked leafy vegetables	½ чашки нарезанных		
-food_info_serving_sizes_cruciferous_vegetables_imperial.1	dozeVegetablesCruciferous.Serving.imperial.1	½ cup raw or cooked non-leafy vegetables	½ чашки брюссельской капусты		
-food_info_serving_sizes_cruciferous_vegetables_imperial.2	dozeVegetablesCruciferous.Serving.imperial.2	1 cup raw leafy vegetables	1 cup raw leafy vegetables		
-food_info_serving_sizes_cruciferous_vegetables_imperial.3	dozeVegetablesCruciferous.Serving.imperial.3	¼ cup broccoli sprouts	¼ чашки проростков брокколи		
+food_info_serving_sizes_cruciferous_vegetables_imperial.0	dozeVegetablesCruciferous.Serving.imperial.0	½ cup cooked leafy vegetables	½ стакана приготовленных листовых овощей		
+food_info_serving_sizes_cruciferous_vegetables_imperial.1	dozeVegetablesCruciferous.Serving.imperial.1	½ cup raw or cooked non-leafy vegetables	½ стакана сырых или приготовленных нелистовых овощей		
+food_info_serving_sizes_cruciferous_vegetables_imperial.2	dozeVegetablesCruciferous.Serving.imperial.2	1 cup raw leafy vegetables	1 чашка сырых листовых овощей		
+food_info_serving_sizes_cruciferous_vegetables_imperial.3	dozeVegetablesCruciferous.Serving.imperial.3	¼ cup broccoli sprouts	¼ стакана ростков брокколи		
 food_info_serving_sizes_cruciferous_vegetables_imperial.4	dozeVegetablesCruciferous.Serving.imperial.4	1 tablespoon horseradish	1 столовая ложка хрена		
-food_info_serving_sizes_cruciferous_vegetables_metric.0	dozeVegetablesCruciferous.Serving.metric.0	90 g cooked leafy vegetables	30–80 г нарезанных		
-food_info_serving_sizes_cruciferous_vegetables_metric.1	dozeVegetablesCruciferous.Serving.metric.1	60 g raw or cooked non-leafy vegetables	80 г брюссельской капусты		
-food_info_serving_sizes_cruciferous_vegetables_metric.2	dozeVegetablesCruciferous.Serving.metric.2	90 g raw leafy vegetables	90 g raw leafy vegetables		
-food_info_serving_sizes_cruciferous_vegetables_metric.3	dozeVegetablesCruciferous.Serving.metric.3	20 g broccoli sprouts	15 г проростков брокколи		
+food_info_serving_sizes_cruciferous_vegetables_metric.0	dozeVegetablesCruciferous.Serving.metric.0	90 g cooked leafy vegetables	90 г приготовленных листовых овощей		
+food_info_serving_sizes_cruciferous_vegetables_metric.1	dozeVegetablesCruciferous.Serving.metric.1	60 g raw or cooked non-leafy vegetables	60 г сырых или приготовленных нелистовых овощей		
+food_info_serving_sizes_cruciferous_vegetables_metric.2	dozeVegetablesCruciferous.Serving.metric.2	90 g raw leafy vegetables	90 г сырых листовых овощей		
+food_info_serving_sizes_cruciferous_vegetables_metric.3	dozeVegetablesCruciferous.Serving.metric.3	20 g broccoli sprouts	20 г ростков брокколи		
 food_info_serving_sizes_cruciferous_vegetables_metric.4	dozeVegetablesCruciferous.Serving.metric.4	1 tablespoon horseradish	1 столовая ложка хрена		
 food_info_types_cruciferous_vegetables.0	dozeVegetablesCruciferous.Variety.Text.0	Arugula	Руккола		
 food_info_types_cruciferous_vegetables.1	dozeVegetablesCruciferous.Variety.Text.1	Bok choy	Пак-чой		
@@ -269,9 +269,9 @@ food_info_serving_sizes_other_vegetables_imperial.1	dozeVegetablesOther.Serving.
 food_info_serving_sizes_other_vegetables_imperial.2	dozeVegetablesOther.Serving.imperial.2	½ cup vegetable juice	½ чашки овощного сока		
 food_info_serving_sizes_other_vegetables_imperial.3	dozeVegetablesOther.Serving.imperial.3	¼ cup dried mushrooms	¼ чашки сушёных грибов		
 food_info_serving_sizes_other_vegetables_metric.0	dozeVegetablesOther.Serving.metric.0	60 g raw leafy vegetables	60 г сырых листовых овощей		
-food_info_serving_sizes_other_vegetables_metric.1	dozeVegetablesOther.Serving.metric.1	90 g raw or cooked nonleafy vegetables	50 г сырых или приготовленных нелистовых овощей		
-food_info_serving_sizes_other_vegetables_metric.2	dozeVegetablesOther.Serving.metric.2	120 ml vegetable juice	125 мл овощного сока		
-food_info_serving_sizes_other_vegetables_metric.3	dozeVegetablesOther.Serving.metric.3	10 g dried mushrooms	7 г сушёных грибов		
+food_info_serving_sizes_other_vegetables_metric.1	dozeVegetablesOther.Serving.metric.1	90 g raw or cooked nonleafy vegetables	90 г сырых или приготовленных нелистовых овощей		
+food_info_serving_sizes_other_vegetables_metric.2	dozeVegetablesOther.Serving.metric.2	120 ml vegetable juice	120 мл овощного сока		
+food_info_serving_sizes_other_vegetables_metric.3	dozeVegetablesOther.Serving.metric.3	10 g dried mushrooms	10 г сушеных грибов		
 food_info_types_other_vegetables.0	dozeVegetablesOther.Variety.Text.0	Artichokes	Артишоки		
 food_info_types_other_vegetables.1	dozeVegetablesOther.Variety.Text.1	Asparagus	Спаржа		
 food_info_types_other_vegetables.2	dozeVegetablesOther.Variety.Text.2	Beets	Свёкла		
@@ -279,7 +279,7 @@ food_info_types_other_vegetables.3	dozeVegetablesOther.Variety.Text.3	Bell peppe
 food_info_types_other_vegetables.4	dozeVegetablesOther.Variety.Text.4	Carrots	Морковь		
 food_info_types_other_vegetables.5	dozeVegetablesOther.Variety.Text.5	Corn	Кукуруза		
 food_info_types_other_vegetables.6	dozeVegetablesOther.Variety.Text.6	Garlic	Чеснок		
-food_info_types_other_vegetables.7	dozeVegetablesOther.Variety.Text.7	Mushrooms (button, oyster, porcini, portobello, and shiitake)	Грибы (шампиньоны, вёшенки, портобелло и шиитаке)		
+food_info_types_other_vegetables.7	dozeVegetablesOther.Variety.Text.7	Mushrooms (button, oyster, porcini, portobello, and shiitake)	Грибы (шампиньоны, вешенки, белые грибы, портобелло и шиитаке)		
 food_info_types_other_vegetables.8	dozeVegetablesOther.Variety.Text.8	Okra	Бамия (окра)		
 food_info_types_other_vegetables.9	dozeVegetablesOther.Variety.Text.9	Onions	Лук		
 food_info_types_other_vegetables.10	dozeVegetablesOther.Variety.Text.10	Purple potatoes	Фиолетовый картофель		
@@ -291,16 +291,16 @@ food_info_types_other_vegetables.15	dozeVegetablesOther.Variety.Text.15	Sweet po
 food_info_types_other_vegetables.16	dozeVegetablesOther.Variety.Text.16	Tomatoes	Помидоры		
 food_info_types_other_vegetables.17	dozeVegetablesOther.Variety.Text.17	Zucchini	Цуккини		
 whole_grains	dozeWholeGrains.heading	Whole Grains	Цельнозерновые Продукты	heading for daily data entry item	
-food_info_serving_sizes_whole_grains_imperial.0	dozeWholeGrains.Serving.imperial.0	½ cup cooked whole grains, whole-wheat pasta, or corn kernels	½ чашки приготовленных злаков/зерновых, пасты или кукурузных зёрен		
-food_info_serving_sizes_whole_grains_imperial.1	dozeWholeGrains.Serving.imperial.1	1 cup 100% whole grain cold cereal	1 чашка цельнозерновых хлопьев		
-food_info_serving_sizes_whole_grains_imperial.2	dozeWholeGrains.Serving.imperial.2	1 100% whole grain tortilla (or 2 smaller corn tortillas)	1 100% whole grain tortilla (or 2 smaller corn tortillas)		
-food_info_serving_sizes_whole_grains_imperial.3	dozeWholeGrains.Serving.imperial.3	1 slice of 100% whole grain bread	1 тортилья или ломтик хлеба		
+food_info_serving_sizes_whole_grains_imperial.0	dozeWholeGrains.Serving.imperial.0	½ cup cooked whole grains, whole-wheat pasta, or corn kernels	½ стакана вареных цельнозерновых макарон из цельной пшеницы или кукурузных зерен		
+food_info_serving_sizes_whole_grains_imperial.1	dozeWholeGrains.Serving.imperial.1	1 cup 100% whole grain cold cereal	1 стакан 100% цельнозерновых хлопьев		
+food_info_serving_sizes_whole_grains_imperial.2	dozeWholeGrains.Serving.imperial.2	1 100% whole grain tortilla (or 2 smaller corn tortillas)	1 100% цельнозерновая тортилья (или 2 кукурузные тортильи меньшего размера)		
+food_info_serving_sizes_whole_grains_imperial.3	dozeWholeGrains.Serving.imperial.3	1 slice of 100% whole grain bread	1 ломтик 100% цельнозернового хлеба		
 food_info_serving_sizes_whole_grains_imperial.4	dozeWholeGrains.Serving.imperial.4	½ bagel or English muffin	½ бублика или английского маффина		
 food_info_serving_sizes_whole_grains_imperial.5	dozeWholeGrains.Serving.imperial.5	3 cups popped popcorn	3 чашки приготовленного попкорна		
-food_info_serving_sizes_whole_grains_metric.0	dozeWholeGrains.Serving.metric.0	100 g cooked whole grains, whole-wheat pasta, or corn kernels	100 г приготовленных злаков/зерновых, пасты или кукурузных зёрен		
-food_info_serving_sizes_whole_grains_metric.1	dozeWholeGrains.Serving.metric.1	50 g 100% whole grain cold cereal	50 г цельнозерновых хлопьев		
-food_info_serving_sizes_whole_grains_metric.2	dozeWholeGrains.Serving.metric.2	1 100% whole grain tortilla (or 2 smaller corn tortillas)	1 100% whole grain tortilla (or 2 smaller corn tortillas)		
-food_info_serving_sizes_whole_grains_metric.3	dozeWholeGrains.Serving.metric.3	1 slice of 100% whole grain bread	1 тортилья или ломтик хлеба		
+food_info_serving_sizes_whole_grains_metric.0	dozeWholeGrains.Serving.metric.0	100 g cooked whole grains, whole-wheat pasta, or corn kernels	100 г вареных цельнозерновых макарон из цельной пшеницы, или кукурузных зерен		
+food_info_serving_sizes_whole_grains_metric.1	dozeWholeGrains.Serving.metric.1	50 g 100% whole grain cold cereal	50 г 100% цельнозерновых хлопьев		
+food_info_serving_sizes_whole_grains_metric.2	dozeWholeGrains.Serving.metric.2	1 100% whole grain tortilla (or 2 smaller corn tortillas)	1 100% цельнозерновая тортилья (или 2 кукурузные тортильи меньшего размера)		
+food_info_serving_sizes_whole_grains_metric.3	dozeWholeGrains.Serving.metric.3	1 slice of 100% whole grain bread	1 ломтик 100% цельнозернового хлеба		
 food_info_serving_sizes_whole_grains_metric.4	dozeWholeGrains.Serving.metric.4	½ bagel or English muffin	½ бублика или английской булочки		
 food_info_serving_sizes_whole_grains_metric.5	dozeWholeGrains.Serving.metric.5	30 g popped popcorn	30 г приготовленного попкорна		
 food_info_types_whole_grains.0	dozeWholeGrains.Variety.Text.0	Barley	Ячмень		

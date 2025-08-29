@@ -9,7 +9,7 @@ servings	doze_entry_header	Servings	份量	Doze Entry View heading: ‘Servings�
 beans	dozeBeans.heading	Beans	豆類	heading for daily data entry item	
 food_info_serving_sizes_beans_imperial.0	dozeBeans.Serving.imperial.0	¼ cup hummus or bean dip	¼杯鷹嘴豆泥		1/4 cup hummus
 food_info_serving_sizes_beans_imperial.1	dozeBeans.Serving.imperial.1	½ cup cooked beans, split peas, or lentils	½杯煮熟的豆子、豌豆或扁豆		½ cup cooked beans, peas, or lentils
-food_info_serving_sizes_beans_imperial.2	dozeBeans.Serving.imperial.2	⅓ cup tofu or tempeh	1/3杯豆腐或天貝		
+food_info_serving_sizes_beans_imperial.2	dozeBeans.Serving.imperial.2	⅓ cup tofu or tempeh	⅓杯豆腐或天貝		
 food_info_serving_sizes_beans_imperial.3	dozeBeans.Serving.imperial.3	1 cup fresh peas or sprouted lentils	1杯新鮮豌豆或萌芽扁豆		
 food_info_serving_sizes_beans_metric.0	dozeBeans.Serving.metric.0	70 g hummus or bean dip	70克鷹嘴豆或其他豆泥		
 food_info_serving_sizes_beans_metric.1	dozeBeans.Serving.metric.1	100 g cooked beans, split peas, or lentils	100克煮熟的豆子、去皮豌豆或扁豆		
