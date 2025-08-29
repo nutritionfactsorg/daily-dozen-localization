@@ -22,16 +22,24 @@ struct TsvSheet: TsvProtocol {
     /// Result: sorted with exact matches removed
     init(urlList: [URL], loglevel: LogServiceLevel = .info) {
         logger.logLevel = loglevel
-        guard let url = urlList.first  else {
+        guard let urlFirst = urlList.first  else {
             fatalError("At least 1 TSV import file is required.")
         }
-        urlLanguage = url
+        urlLanguage = urlFirst
             .deletingLastPathComponent() // "filename.ext"
             .deletingLastPathComponent() // "tsv/"
         var initNameList = ""
         for url in urlList {
             initNameList.append("\(url.lastPathComponent); ")
-        }        
+        }
+        
+        //if urlFirst.lastPathComponent.starts(with: "Spanish_es.app.v06.tsv") {
+        //    print("WATCH POINT: TsvSheet init()")
+        //    print("urlList:\n\(urlList)")
+        //    print("… Spanish")
+        //    traceMerge = true
+        //}
+        
         var msg = """
         \n########################################
         ########################################
@@ -46,6 +54,7 @@ struct TsvSheet: TsvProtocol {
             //writeTsvFile(tmpTsvRowList, baseTsvFileUrl: url)
             self.tsvRowList = merge(basis: self.tsvRowList, addin: tmpTsvRowList)
         }
+        traceMerge = false
         
         logger.info(msg)
         self.tsvRowList = self.tsvRowList.sorted()
@@ -367,34 +376,48 @@ struct TsvSheet: TsvProtocol {
         return newTsvRowList
     }
     
-    /// 
+    /// Merges `basis` and `addin`.
     func merge(basis: TsvRowList, addin: TsvRowList) -> TsvRowList {
         var mergeResult = TsvRowList()
                 
-        let basisRows = basis.sortedByApple().data
-        let addinRows = addin.sortedByApple().data
-        
+        let basisRows = basis.sortedByPrimaryKey().data
+        let addinRows = addin.sortedByPrimaryKey().data
+                
         var i = 0
         var j = 0
         while i < basisRows.count && j < addinRows.count {
             let basisKey = basisRows[i].primaryKey()
             let addinKey = addinRows[j].primaryKey()
+            
+            if traceMerge {
+                print("""
+                Trace\ti\(i)\tj\(j)
+                Trace\t\(basisKey)
+                Trace\t\(addinKey)
+                """)
+            }
+            
             if basisKey == addinKey {
+                // case: same keys. keep `addin` and drop `basis`.
                 mergeResult.append(addinRows[j])
                 i += 1
                 j += 1
             } else if basisKey < addinKey {
+                // case: keep `basis` while `basisKey` lags sort order
                 mergeResult.append(basisRows[i])
                 i += 1
             } else {
+                // case: keep `addin` while `addinKey` lags sort order
                 mergeResult.append(addinRows[j])
                 j += 1
             }            
         }
+        // case: remainders are alll `basis`
         while i < basisRows.count {
             mergeResult.append(basisRows[i])
             i += 1
         }
+        // case: remainders are alll `addin`
         while j < addinRows.count {
             mergeResult.append(addinRows[j])
             j += 1

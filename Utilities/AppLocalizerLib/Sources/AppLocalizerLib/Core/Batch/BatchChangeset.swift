@@ -38,7 +38,7 @@ struct BatchChangeset {
     
     mutating func addBaseTsvSheet(_ sheet: TsvSheet) {
         writeTsv(sheet.tsvRowList.data, cacheFilename: "90_baseDataAsis")
-        let tsvRowList = sheet.tsvRowList.sortedByApple()
+        let tsvRowList = sheet.tsvRowList.sortedBy1Apple2Droid()
         writeTsv(tsvRowList.data, cacheFilename: "91_basePrimaryKeySorted")
         let tsvReindex = applyReindex(resultAfterInsert: tsvRowList.data)
         writeTsv(tsvReindex, cacheFilename: "92_baseReindexed")
@@ -86,6 +86,9 @@ struct BatchChangeset {
         writeTsv(resultAfterReindex, cacheFilename: "04_afterReindex")
         
         // --- SYNC BASE ---
+        // -- 05_baseSheet       All English (base_value == lang_value)
+        // -- 06_afterSyncBase   base_value, lang_value == prior value or English
+        // -- 07_change          review subset lang_value == prior value or English 
         writeTsv(baseSheet.tsvRowList.data, cacheFilename: "05_baseSheet")
         let resultAfterSyncBase = applySyncWithBase(reindexResult: resultAfterReindex, base: baseSheet.tsvRowList.data)
         writeTsv(resultAfterSyncBase.lang, cacheFilename: "06_afterSyncBase")

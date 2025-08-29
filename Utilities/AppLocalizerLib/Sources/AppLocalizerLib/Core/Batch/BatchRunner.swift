@@ -270,6 +270,7 @@ struct BatchRunner {
                     print(s)
                     continue
                 }
+
                 // GIVEN: `.strings` source list
                 if let source = sourceStrings {
                     BatchNormal.shared.doNormalize(sourceStrings: source, resultsDir: outputNormalDir)
@@ -280,11 +281,42 @@ struct BatchRunner {
                     BatchNormal.shared.doNormalize(sourceTSV: source, resultsDir: outputNormalDir, baseJsonDir: baseJsonDir, baseListTsv: baseListTsv, baseTsvUrlFragments: fragments, baseTsvUrlTopics: topics, baseXmlUrl: baseXmlUrl)
                     sourceListTsv = nil
                 }
+                
+                // --- print files ---
+                if let source = sourceXLIFF { // :OBSOLETE:
+                    print("sourceXLIFF: \(source)")
+                }
+                if let sourceXml = sourceXML,
+                   let baseListTsv = baseListTsv,
+                   let baseXmlUrl = baseXmlUrl {
+                    print("sourceXML: \(sourceXml)")
+                    print("baseListTsv: \(baseListTsv)")
+                    print("baseXmlUrl: \(baseXmlUrl)")
+                }
+                if let source = sourceStrings {
+                    print("sourceStrings: \(source)")
+                }
+                if let source = sourceListTsv, 
+                    let baseJsonDir = baseJsonDir, 
+                    let baseListTsv = baseListTsv, 
+                    let baseXmlUrl = baseXmlUrl, 
+                    let fragments = urlFragmentsTsv, 
+                    let topics = urlTopicsTsv {
+                    print("  sourceListTsv: \(source)")
+                    print("    baseJsonDir: \(baseJsonDir)")
+                    print("    baseListTsv: \(baseListTsv)")
+                    print("     baseXmlUrl: \(baseXmlUrl)")
+                    print("urlFragmentsTsv: \(fragments)")
+                    print("   urlTopicsTsv: \(topics)")
+                }
+                
+                // --- process files ---
                 // GIVEN: `.xliff` source list :OBSOLETE:
                 if let source = sourceXLIFF {
                     BatchNormal.shared.doNormalize(sourceXLIFF: source, resultsDir: outputNormalDir)
                     sourceXLIFF = nil
                 }
+                
                 // GIVEN: `.xml` source list
                 if let sourceXml = sourceXML,
                     let baseListTsv = baseListTsv,

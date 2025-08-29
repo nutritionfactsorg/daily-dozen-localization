@@ -58,14 +58,6 @@ struct BatchNormal {
         let tsvLanguage = tsvFirstUrl.deletingPathExtension().lastPathComponent
         logger.info("##### DO_NORMALIZE_BATCH TSV LANGUAGE: \(tsvLanguage)\n")
         print("##### DO_NORMALIZE_BATCH TSV LANGUAGE: \(tsvLanguage)\n")
-        //if 
-        //    tsvLanguage.starts(with: "Catalan_ca") // ||
-        // // tsvLanguage == "Catalan_ca.app" // ||
-        // // tsvLanguage ==  "Catalan_ca.store" // ||
-        // // tsvLanguage == "Spanish_es" // ||
-        //{ 
-        //    print(":WATCH:BatchNormal:TSV: \(tsvLanguage)")
-        //}
         
         // ----- to TSV -----
         // Base Language TSV (English_US)
@@ -80,6 +72,14 @@ struct BatchNormal {
         baseUrlTopicsSheet.updateBaseNotes(baseTsvSheet)
         baseUrlTopicsSheet.updateBaseValues(baseTsvSheet)
         
+        //if 
+        //    tsvLanguage.starts(with: "Spanish") // ||
+        // // tsvLanguage == "Catalan_ca.app" // ||
+        // // tsvLanguage ==  "Catalan_ca.store" // ||
+        // // tsvLanguage == "Spanish_es" ||
+        //{ 
+        //    print(":WATCH:BatchNormal:TSV: \(tsvLanguage)")
+        //}
         // Source TSV
         var sourceSheet = TsvSheet(urlList: sourceTSV)
         sourceSheet.updateBaseNotes(baseTsvSheet)

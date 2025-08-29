@@ -352,8 +352,8 @@ struct TsvRowList {
         return TsvRowList(data: list)
     }
 
-    /// sorts with `key_apple` priority
-    func sortedByApple() -> TsvRowList {
+    /// sorts with `key_apple` primary. `key_droid` secondary. 
+    func sortedBy1Apple2Droid() -> TsvRowList {
         var list = data
         list.sort { (a: TsvRow, b: TsvRow) -> Bool in
             // Return true to order first element before the second.
@@ -375,9 +375,15 @@ struct TsvRowList {
         return TsvRowList(data: list)
     }
     
-    /// aka `sortedByApple()`
     func sortedByPrimaryKey() -> TsvRowList {
-        return sortedByApple()
+        var list = data
+        list.sort { (a: TsvRow, b: TsvRow) -> Bool in
+            let aStr = "\(a.key_apple):::\(a.key_android)"
+            let bStr = "\(b.key_apple):::\(b.key_android)"
+            // Return true to order first element before the second.
+            return aStr < bStr
+        }
+        return TsvRowList(data: list)
     }
     
     func subtracting(_ toRemove: TsvRowList, byKeyType: TsvKeyType) -> TsvRowList {
