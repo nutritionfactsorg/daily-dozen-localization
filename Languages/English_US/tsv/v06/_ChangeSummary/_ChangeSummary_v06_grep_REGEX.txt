@@ -1,0 +1,7 @@
+dozeBeans|dozeBerries|dozeFruitsOther|dozeVegetablesCruciferous|dozeVegetablesOther|dozeWholeGrains
+
+dozeBeans|dozeBeverages|dozeFruitsOther|dozeNuts|dozeVegetablesOther
+
+
+dozeBeans|dozeBerries|dozeBeverages|dozeFruitsOther|dozeNuts|dozeVegetablesCruciferous|dozeVegetablesOther|dozeWholeGrains
+
