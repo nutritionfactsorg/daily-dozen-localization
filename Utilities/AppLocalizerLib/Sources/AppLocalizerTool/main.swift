@@ -108,7 +108,8 @@ var productsDir: URL {
 let batchSubdir = "batch_changeset"
 //let batchCommands = "cs_create_multi_app.yaml"
 //let batchCommands = "cs_create_multi_store.yaml"
-let batchCommands = "cs_intake_multi_v6.yaml"
+//let batchCommands = "cs_intake_multi_v6.yaml"
+let batchCommands = "cs_intake_multi_v6_B.yaml"
 
 print("### \(batchCommands) ###")
 

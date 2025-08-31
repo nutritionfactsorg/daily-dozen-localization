@@ -5,19 +5,19 @@
       "servings" : [
         {
           "imperial" : "¼ cup hummus or bean dip",
-          "metric" : "60 g hummus or bean dip"
+          "metric" : "70 g hummus or bean dip"
         },
         {
           "imperial" : "½ cup cooked beans, split peas, or lentils",
-          "metric" : "90 g cooked beans, split peas, or lentils"
+          "metric" : "100 g cooked beans, split peas, or lentils"
         },
         {
-          "imperial" : "½ cup tofu or tempeh",
-          "metric" : "100 g tofu or tempeh"
+          "imperial" : "⅓ cup tofu or tempeh",
+          "metric" : "80 g tofu or tempeh"
         },
         {
           "imperial" : "1 cup fresh peas or sprouted lentils",
-          "metric" : "130 g fresh peas or sprouted lentils"
+          "metric" : "100 g fresh peas or sprouted lentils"
         }
       ],
       "topic" : "",
@@ -89,7 +89,7 @@
       "servings" : [
         {
           "imperial" : "½ cup fresh or frozen",
-          "metric" : "60 g fresh or frozen"
+          "metric" : "70 g fresh or frozen"
         },
         {
           "imperial" : "¼ cup dried",
@@ -481,7 +481,7 @@
         },
         {
           "imperial" : "1 cup cut-up fruit",
-          "metric" : "120 g cut-up fruit"
+          "metric" : "150 g cut-up fruit"
         },
         {
           "imperial" : "¼ cup dried fruit",
@@ -965,15 +965,15 @@
         },
         {
           "imperial" : "½ cup raw or cooked nonleafy vegetables",
-          "metric" : "50 g raw or cooked nonleafy vegetables"
+          "metric" : "90 g raw or cooked nonleafy vegetables"
         },
         {
           "imperial" : "½ cup vegetable juice",
-          "metric" : "125 ml vegetable juice"
+          "metric" : "120 ml vegetable juice"
         },
         {
           "imperial" : "¼ cup dried mushrooms",
-          "metric" : "7 g dried mushrooms"
+          "metric" : "10 g dried mushrooms"
         }
       ],
       "topic" : "",
@@ -1007,7 +1007,7 @@
           "topic" : ""
         },
         {
-          "text" : "Mushrooms (button, oyster, portobello, and shiitake)",
+          "text" : "Mushrooms (button, oyster, porcini, portobello, and shiitake)",
           "topic" : ""
         },
         {

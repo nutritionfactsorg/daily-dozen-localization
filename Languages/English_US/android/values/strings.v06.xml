@@ -14,7 +14,7 @@
     <string name="beverages">Beverages</string>
     <string name="exercise">Exercise</string>
     <string name="vitamin_b12">Vitamin B12</string>
-    <string name="serving_sizes">Serving Sizes</string>
+    <string name="serving_sizes">Serving Sizes (Suggested)</string>
     <string name="types">Types</string>
     <string name="history">History</string>
     <string name="servings_some">Some servings</string>
@@ -24,7 +24,7 @@
     <string name="moving_average">Moving Average</string>
     <string name="about">About</string>
     <string name="about_this_app">About this app</string>
-    <string name="about_translators">Special thanks to our volunteer translators: Petar Enchev (bg), Tsveti Enchev (bg), Ricard Soler Roger (ca), Luděk Bouška (cs), Lenka Lukacová (cs), Anke Schliessmann (de), Ángela Graña (es), Audray Harkins (fr), Doron Barak (he), Ruth Levy (he), Annalisa Guerrini-Körner (it), Ilaria Zanini (it), Hanna Gurzeda (pl), Joanna Klopotek (pl), Tania Bassi (pt-BR), João Madureira (pt-PT), Cristina Lauby (ro), Evgeniya Lyakh (ru), Katarína Mocáková (sk).</string>
+    <string name="about_translators">Special thanks to our volunteer translators: Petar Enchev (bg), Tsveti Enchev (bg), Ricard Soler Roger (ca), Luděk Bouška (cs,sk), Lenka Lukacová (cs), Anke Schliessmann (de), Ángela Graña (es), Saeed Salamian (fa), Audray Harkins (fr), Doron Barak (he), Ruth Levy (he), Annalisa Guerrini-Körner (it), Ilaria Zanini (it), Hanna Gurzeda (pl), Joanna Klopotek (pl), Tania Bassi (pt-BR), João Madureira (pt-PT), Cristina Lauby (ro), Evgeniya Lyakh (ru), Katarína Mocáková (sk), Sabina Aliieva (uk).</string>
     <string name="latest_videos">Latest Videos</string>
     <string name="url_latest_videos" translatable="false">http://nutritionfacts.org/videos/</string>
     <string name="title_how_not_to_die" translatable="false">How Not to Die</string>
@@ -85,7 +85,7 @@
     <string name="dialog_streaks_title">New feature: Streaks!</string>
     <string name="dialog_streaks_message">Your database will now be upgraded to support the new streaks feature.</string>
     <string name="dialog_no_email_apps_title">No email apps found</string>
-    <string name="dialog_no_email_apps_message">Backing up your data requires you to have an email app installed so you can email the .csv backup file to yourself. Please install an email app and try again.</string>
+    <string name="dialog_no_email_apps_message">Backing up your data requires you to have an email app installed so you can email the backup file to yourself. Please install an email app and try again.</string>
     <string name="debug_generate_random_data">Generate random data</string>
     <string name="debug_generate_full_data">Generate full data</string>
     <string name="debug_generate_data_message">All existing data will be replaced. Do you wish to continue?</string>
@@ -485,7 +485,7 @@
         <item>Carrots</item>
         <item>Corn</item>
         <item>Garlic</item>
-        <item>Mushrooms (button, oyster, portobello, and shiitake)</item>
+        <item>Mushrooms (button, oyster, porcini, portobello, and shiitake)</item>
         <item>Okra</item>
         <item>Onions</item>
         <item>Purple potatoes</item>
@@ -637,21 +637,21 @@
     <string-array name="food_info_serving_sizes_beans_imperial">
         <item>¼ cup hummus or bean dip</item>
         <item>½ cup cooked beans, split peas, or lentils</item>
-        <item>½ cup tofu or tempeh</item>
+        <item>⅓ cup tofu or tempeh</item>
         <item>1 cup fresh peas or sprouted lentils</item>
     </string-array>
     <string-array name="food_info_serving_sizes_beans_metric">
-        <item>60 g hummus or bean dip</item>
-        <item>90 g cooked beans, split peas, or lentils</item>
-        <item>100 g tofu or tempeh</item>
-        <item>130 g fresh peas or sprouted lentils</item>
+        <item>70 g hummus or bean dip</item>
+        <item>100 g cooked beans, split peas, or lentils</item>
+        <item>80 g tofu or tempeh</item>
+        <item>100 g fresh peas or sprouted lentils</item>
     </string-array>
     <string-array name="food_info_serving_sizes_berries_imperial">
         <item>½ cup fresh or frozen</item>
         <item>¼ cup dried</item>
     </string-array>
     <string-array name="food_info_serving_sizes_berries_metric">
-        <item>60 g fresh or frozen</item>
+        <item>70 g fresh or frozen</item>
         <item>40 g dried</item>
     </string-array>
     <string-array name="food_info_serving_sizes_other_fruits_imperial">
@@ -661,7 +661,7 @@
     </string-array>
     <string-array name="food_info_serving_sizes_other_fruits_metric">
         <item>1 medium-sized fruit</item>
-        <item>120 g cut-up fruit</item>
+        <item>150 g cut-up fruit</item>
         <item>40 g dried fruit</item>
     </string-array>
     <string-array name="food_info_serving_sizes_cruciferous_vegetables_imperial">
@@ -694,9 +694,9 @@
     </string-array>
     <string-array name="food_info_serving_sizes_other_vegetables_metric">
         <item>60 g raw leafy vegetables</item>
-        <item>50 g raw or cooked nonleafy vegetables</item>
-        <item>125 ml vegetable juice</item>
-        <item>7 g dried mushrooms</item>
+        <item>90 g raw or cooked nonleafy vegetables</item>
+        <item>120 ml vegetable juice</item>
+        <item>10 g dried mushrooms</item>
     </string-array>
     <string-array name="food_info_serving_sizes_flaxseeds_imperial">
         <item>1 tablespoon ground</item>

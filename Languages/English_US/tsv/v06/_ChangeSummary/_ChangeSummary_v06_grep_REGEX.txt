@@ -5,3 +5,66 @@ dozeBeans|dozeBeverages|dozeFruitsOther|dozeNuts|dozeVegetablesOther
 
 dozeBeans|dozeBerries|dozeBeverages|dozeFruitsOther|dozeNuts|dozeVegetablesCruciferous|dozeVegetablesOther|dozeWholeGrains
 
+REMOVED:
+Miso
+Hot Chocolate
+Brazil nuts
+
+ADDED:
+raw leafy
+
+
+	  "imperial" : "½ csésze kelbimbó",
+	  "metric" : "80 g kelbimbó"
+
+food_info_serving_sizes_beans_imperial.3
+food_info_serving_sizes_beans_metric.3
+
+food_info_types_beans.14
+
+food_info_serving_sizes_berries_metric.1
+
+food_info_types_other_fruits.27
+
+food_info_types_beverages.14
+
+food_info_serving_sizes_other_fruits_metric.2
+
+food_info_types_nuts.12
+
+food_info_serving_sizes_cruciferous_vegetables_imperial.4
+food_info_serving_sizes_cruciferous_vegetables_metric.4
+
+food_info_serving_sizes_other_vegetables_metric.3
+
+food_info_types_other_vegetables.17
+
+food_info_serving_sizes_whole_grains_imperial.5
+food_info_serving_sizes_whole_grains_metric.5
+
+=============
+
+dozeBeans.Serving.imperial.3
+dozeBeans.Serving.metric.3
+
+dozeBeans.Variety.Text.14
+
+dozeBerries.Serving.metric.1
+
+dozeFruitsOther.Variety.Text.27
+
+dozeBeverages.Variety.Text.14
+
+dozeFruitsOther.Serving.metric.2
+
+dozeNuts.Variety.Text.12
+
+dozeVegetablesCruciferous.Serving.imperial.4
+dozeVegetablesCruciferous.Serving.metric.4
+
+dozeVegetablesOther.Serving.metric.3
+
+dozeVegetablesOther.Variety.Text.17
+
+dozeWholeGrains.Serving.imperial.5
+dozeWholeGrains.Serving.metric.5
