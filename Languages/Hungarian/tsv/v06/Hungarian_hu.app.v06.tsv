@@ -10,11 +10,11 @@ beans	dozeBeans.heading	Beans	Babfélék	heading for daily data entry item
 food_info_serving_sizes_beans_imperial.0	dozeBeans.Serving.imperial.0	¼ cup hummus or bean dip	¼ csésze humusz vagy babkrém		
 food_info_serving_sizes_beans_imperial.1	dozeBeans.Serving.imperial.1	½ cup cooked beans, split peas, or lentils	½ csésze főtt bab, sárgaborsó vagy lencse		
 food_info_serving_sizes_beans_imperial.2	dozeBeans.Serving.imperial.2	⅓ cup tofu or tempeh	⅓ csésze tofu vagy tempeh		
-food_info_serving_sizes_beans_imperial.3	dozeBeans.Serving.imperial.3	1 cup fresh peas or sprouted lentils	1 csésze friss borsó vagy csírázott lencse		
+food_info_serving_sizes_beans_imperial.3	dozeBeans.Serving.imperial.3	1 cup fresh peas or sprouted lentils	1 csésze friss borsó vagy csíráztatott lencse		
 food_info_serving_sizes_beans_metric.0	dozeBeans.Serving.metric.0	70 g hummus or bean dip	70 g humusz vagy babkrém		
 food_info_serving_sizes_beans_metric.1	dozeBeans.Serving.metric.1	100 g cooked beans, split peas, or lentils	100 g főtt bab, sárgaborsó, vagy lencse		
 food_info_serving_sizes_beans_metric.2	dozeBeans.Serving.metric.2	80 g tofu or tempeh	80 g tofu vagy tempeh		
-food_info_serving_sizes_beans_metric.3	dozeBeans.Serving.metric.3	100 g fresh peas or sprouted lentils	100 g friss borsó vagy csírázott lencse		
+food_info_serving_sizes_beans_metric.3	dozeBeans.Serving.metric.3	100 g fresh peas or sprouted lentils	100 g friss borsó vagy csíráztatott lencse		
 food_info_types_beans.0	dozeBeans.Variety.Text.0	Black beans	Fekete bab		
 food_info_types_beans.1	dozeBeans.Variety.Text.1	Black-eyed peas	Fekete szemű bab		
 food_info_types_beans.2	dozeBeans.Variety.Text.2	Butter beans	Vajbab		
@@ -239,14 +239,14 @@ food_info_types_spices.29	dozeSpices.Variety.Text.29	Thyme	Kakukkfű
 food_info_types_spices.30	dozeSpices.Variety.Text.30	Turmeric	Kurkuma		
 food_info_types_spices.31	dozeSpices.Variety.Text.31	Vanilla	Vanília		
 cruciferous_vegetables	dozeVegetablesCruciferous.heading	Cruciferous Vegetables	Keresztes virágú zöldségek	heading for daily data entry item	
-food_info_serving_sizes_cruciferous_vegetables_imperial.0	dozeVegetablesCruciferous.Serving.imperial.0	½ cup cooked leafy vegetables	½ csésze főtt leveles zöldségek		
-food_info_serving_sizes_cruciferous_vegetables_imperial.1	dozeVegetablesCruciferous.Serving.imperial.1	½ cup raw or cooked non-leafy vegetables	½ csésze nyers vagy főtt nem leveles zöldségek		
-food_info_serving_sizes_cruciferous_vegetables_imperial.2	dozeVegetablesCruciferous.Serving.imperial.2	1 cup raw leafy vegetables	1 csésze nyers leveles zöldségek		
+food_info_serving_sizes_cruciferous_vegetables_imperial.0	dozeVegetablesCruciferous.Serving.imperial.0	½ cup cooked leafy vegetables	½ csésze főtt leveles zöldség		
+food_info_serving_sizes_cruciferous_vegetables_imperial.1	dozeVegetablesCruciferous.Serving.imperial.1	½ cup raw or cooked non-leafy vegetables	½ csésze nyers vagy főtt nem leveles zöldség		
+food_info_serving_sizes_cruciferous_vegetables_imperial.2	dozeVegetablesCruciferous.Serving.imperial.2	1 cup raw leafy vegetables	1 csésze nyers leveles zöldség		
 food_info_serving_sizes_cruciferous_vegetables_imperial.3	dozeVegetablesCruciferous.Serving.imperial.3	¼ cup broccoli sprouts	¼ csésze brokkolicsíra		
 food_info_serving_sizes_cruciferous_vegetables_imperial.4	dozeVegetablesCruciferous.Serving.imperial.4	1 tablespoon horseradish	1 evőkanál torma		
-food_info_serving_sizes_cruciferous_vegetables_metric.0	dozeVegetablesCruciferous.Serving.metric.0	90 g cooked leafy vegetables	90 g főtt leveles zöldségek		
-food_info_serving_sizes_cruciferous_vegetables_metric.1	dozeVegetablesCruciferous.Serving.metric.1	60 g raw or cooked non-leafy vegetables	60 g nyers vagy főtt nem leveles zöldségek		
-food_info_serving_sizes_cruciferous_vegetables_metric.2	dozeVegetablesCruciferous.Serving.metric.2	90 g raw leafy vegetables	90 g nyers leveles zöldségek		
+food_info_serving_sizes_cruciferous_vegetables_metric.0	dozeVegetablesCruciferous.Serving.metric.0	90 g cooked leafy vegetables	90 g főtt leveles zöldség		
+food_info_serving_sizes_cruciferous_vegetables_metric.1	dozeVegetablesCruciferous.Serving.metric.1	60 g raw or cooked non-leafy vegetables	60 g nyers vagy főtt nem leveles zöldség		
+food_info_serving_sizes_cruciferous_vegetables_metric.2	dozeVegetablesCruciferous.Serving.metric.2	90 g raw leafy vegetables	90 g nyers leveles zöldség		
 food_info_serving_sizes_cruciferous_vegetables_metric.3	dozeVegetablesCruciferous.Serving.metric.3	20 g broccoli sprouts	15 g brokkolicsíra		
 food_info_serving_sizes_cruciferous_vegetables_metric.4	dozeVegetablesCruciferous.Serving.metric.4	1 tablespoon horseradish	1 evőkanál torma		
 food_info_types_cruciferous_vegetables.0	dozeVegetablesCruciferous.Variety.Text.0	Arugula	Rukkola		
@@ -291,7 +291,7 @@ food_info_types_other_vegetables.15	dozeVegetablesOther.Variety.Text.15	Sweet po
 food_info_types_other_vegetables.16	dozeVegetablesOther.Variety.Text.16	Tomatoes	Paradicsom		
 food_info_types_other_vegetables.17	dozeVegetablesOther.Variety.Text.17	Zucchini	Cukkini		
 whole_grains	dozeWholeGrains.heading	Whole Grains	Teljes kiőrlésű gabonák	heading for daily data entry item	
-food_info_serving_sizes_whole_grains_imperial.0	dozeWholeGrains.Serving.imperial.0	½ cup cooked whole grains, whole-wheat pasta, or corn kernels	½ csésze főtt teljes kiőrlésű gabona, teljes kiőrlésű tészta vagy kukoricaszem		
+food_info_serving_sizes_whole_grains_imperial.0	dozeWholeGrains.Serving.imperial.0	½ cup cooked whole grains, whole-wheat pasta, or corn kernels	½ csésze főtt teljes kiőrlésű gabona, teljes kiőrlésű tészta vagy kukorica		
 food_info_serving_sizes_whole_grains_imperial.1	dozeWholeGrains.Serving.imperial.1	1 cup 100% whole grain cold cereal	1 csésze 100% teljes kiőrlésű hideg gabonapehely		
 food_info_serving_sizes_whole_grains_imperial.2	dozeWholeGrains.Serving.imperial.2	1 100% whole grain tortilla (or 2 smaller corn tortillas)	1 100% teljes kiőrlésű (búza)tortilla (vagy 2 kisebb kukoricatortilla)		
 food_info_serving_sizes_whole_grains_imperial.3	dozeWholeGrains.Serving.imperial.3	1 slice of 100% whole grain bread	1 szelet 100% teljes kiőrlésű kenyér		
