@@ -19,7 +19,7 @@ food_info_types_beans.0	dozeBeans.Variety.Text.0	Black beans	Fekete bab
 food_info_types_beans.1	dozeBeans.Variety.Text.1	Black-eyed peas	Fekete szemű bab		
 food_info_types_beans.2	dozeBeans.Variety.Text.2	Butter beans	Vajbab		
 food_info_types_beans.3	dozeBeans.Variety.Text.3	Cannellini beans	Cannellini bab		
-food_info_types_beans.4	dozeBeans.Variety.Text.4	Chickpeas/Garbanzo Beans	Csicseriborsó/Garbanzo bab		
+food_info_types_beans.4	dozeBeans.Variety.Text.4	Chickpeas/Garbanzo Beans	Csicseriborsó/garbanzo bab		
 food_info_types_beans.5	dozeBeans.Variety.Text.5	Edamame	Edamame		
 food_info_types_beans.6	dozeBeans.Variety.Text.6	English peas	Zöldborsó		
 food_info_types_beans.7	dozeBeans.Variety.Text.7	Great northern beans	Nagyszemű északi fehérbab		
@@ -82,7 +82,7 @@ food_info_types_exercise.8	dozeExercise.Variety.Text.8	Ice-skating	Jégkorcsoly�
 food_info_types_exercise.9	dozeExercise.Variety.Text.9	Inline skating	Görkorcsolyázás		
 food_info_types_exercise.10	dozeExercise.Variety.Text.10	Juggling	Zsonglőrködés		
 food_info_types_exercise.11	dozeExercise.Variety.Text.11	Jumping on a trampoline	Ugrálás trambulinon		
-food_info_types_exercise.12	dozeExercise.Variety.Text.12	Paddle boating	Stand Up Paddle (SUP)		
+food_info_types_exercise.12	dozeExercise.Variety.Text.12	Paddle boating	Evezés		
 food_info_types_exercise.13	dozeExercise.Variety.Text.13	Playing frisbee	Frizbizés		
 food_info_types_exercise.14	dozeExercise.Variety.Text.14	Roller-skating	Görkorcsolyázás		
 food_info_types_exercise.15	dozeExercise.Variety.Text.15	Shooting baskets	Kosárra dobás		
@@ -146,9 +146,9 @@ food_info_types_other_fruits.6	dozeFruitsOther.Variety.Text.6	Dates	Datolya
 food_info_types_other_fruits.7	dozeFruitsOther.Variety.Text.7	Figs	Füge		
 food_info_types_other_fruits.8	dozeFruitsOther.Variety.Text.8	Grapefruit	Grapefruit		
 food_info_types_other_fruits.9	dozeFruitsOther.Variety.Text.9	Honeydew	Mézdinnye		
-food_info_types_other_fruits.10	dozeFruitsOther.Variety.Text.10	Kiwifruit	Kiwi		
+food_info_types_other_fruits.10	dozeFruitsOther.Variety.Text.10	Kiwifruit	Kivi		
 food_info_types_other_fruits.11	dozeFruitsOther.Variety.Text.11	Lemons	Citrom		
-food_info_types_other_fruits.12	dozeFruitsOther.Variety.Text.12	Limes	Lime		
+food_info_types_other_fruits.12	dozeFruitsOther.Variety.Text.12	Limes	Lime (zöldcitrom)		
 food_info_types_other_fruits.13	dozeFruitsOther.Variety.Text.13	Lychees	Licsi		
 food_info_types_other_fruits.14	dozeFruitsOther.Variety.Text.14	Mangos	Mangó		
 food_info_types_other_fruits.15	dozeFruitsOther.Variety.Text.15	Nectarines	Nektarin		
@@ -164,7 +164,7 @@ food_info_types_other_fruits.24	dozeFruitsOther.Variety.Text.24	Pomegranates	Gr�
 food_info_types_other_fruits.25	dozeFruitsOther.Variety.Text.25	Prunes	Aszalt szilva		
 food_info_types_other_fruits.26	dozeFruitsOther.Variety.Text.26	Tangerines	Mandarinfélék		
 food_info_types_other_fruits.27	dozeFruitsOther.Variety.Text.27	Watermelon	Görögdinnye		
-greens	dozeGreens.heading	Greens	Zöldek	heading for daily data entry item	
+greens	dozeGreens.heading	Greens	Zöld leveles zöldségek	heading for daily data entry item	
 food_info_serving_sizes_greens_imperial.0	dozeGreens.Serving.imperial.0	1 cup raw	1 csésze nyersen		
 food_info_serving_sizes_greens_imperial.1	dozeGreens.Serving.imperial.1	½ cup cooked	½ csésze főtt		
 food_info_serving_sizes_greens_metric.0	dozeGreens.Serving.metric.0	60 g raw	60 g nyersen		
@@ -174,7 +174,7 @@ food_info_types_greens.1	dozeGreens.Variety.Text.1	Beet greens	Cékla zöldje
 food_info_types_greens.2	dozeGreens.Variety.Text.2	Collard greens	Káposztafélék		
 food_info_types_greens.3	dozeGreens.Variety.Text.3	Kale (black, green, and red)	Kelkáposzta (fekete, zöld és piros)		
 food_info_types_greens.4	dozeGreens.Variety.Text.4	Mesclun mix (assorted young salad greens)	Saláta mix (zsenge zöldsaláta válogatás)		
-food_info_types_greens.5	dozeGreens.Variety.Text.5	Mustard greens	Mustár zöldek		
+food_info_types_greens.5	dozeGreens.Variety.Text.5	Mustard greens	Mustár zöldje (szareptai mustár)		
 food_info_types_greens.6	dozeGreens.Variety.Text.6	Sorrel	Sóska		
 food_info_types_greens.7	dozeGreens.Variety.Text.7	Spinach	Spenót		
 food_info_types_greens.8	dozeGreens.Variety.Text.8	Swiss chard	Svájci (piros) mángold		
@@ -187,10 +187,10 @@ food_info_serving_sizes_nuts_metric.1	dozeNuts.Serving.metric.1	2 tablespoons nu
 food_info_types_nuts.0	dozeNuts.Variety.Text.0	Almonds	Mandula		
 food_info_types_nuts.1	dozeNuts.Variety.Text.1	Cashews	Kesudió		
 food_info_types_nuts.2	dozeNuts.Variety.Text.2	Chia seeds	Chiamag		
-food_info_types_nuts.3	dozeNuts.Variety.Text.3	Hazelnuts	Mogyoró		
+food_info_types_nuts.3	dozeNuts.Variety.Text.3	Hazelnuts	Törökmogyoró		
 food_info_types_nuts.4	dozeNuts.Variety.Text.4	Hemp seeds	Kendermag		
 food_info_types_nuts.5	dozeNuts.Variety.Text.5	Macadamia nuts	Makadámdió		
-food_info_types_nuts.6	dozeNuts.Variety.Text.6	Peanuts	mogyoró		
+food_info_types_nuts.6	dozeNuts.Variety.Text.6	Peanuts	Földimogyoró		
 food_info_types_nuts.7	dozeNuts.Variety.Text.7	Pecans	Pekándió		
 food_info_types_nuts.8	dozeNuts.Variety.Text.8	Pistachios	Pisztácia		
 food_info_types_nuts.9	dozeNuts.Variety.Text.9	Pumpkin seeds	Tökmag		
@@ -206,7 +206,7 @@ food_info_serving_sizes_spices_imperial.0	dozeSpices.Serving.imperial.0	¼ teasp
 food_info_serving_sizes_spices_imperial.1	dozeSpices.Serving.imperial.1	Any other (salt-free) herbs and spices you enjoy	Bármilyen más (sómentes) gyógynövény és fűszer, amit szeret		
 food_info_serving_sizes_spices_metric.0	dozeSpices.Serving.metric.0	¼ teaspoon of turmeric	¼ teáskanál kurkuma		
 food_info_serving_sizes_spices_metric.1	dozeSpices.Serving.metric.1	Any other (salt-free) herbs and spices you enjoy	Bármilyen más (sómentes) gyógynövény és fűszer, amit szeret		
-food_info_types_spices.0	dozeSpices.Variety.Text.0	Allspice	Vegyesfűszer		
+food_info_types_spices.0	dozeSpices.Variety.Text.0	Allspice	Szegfűbors		
 food_info_types_spices.1	dozeSpices.Variety.Text.1	Barberries	Borbolya		
 food_info_types_spices.2	dozeSpices.Variety.Text.2	Basil	Bazsalikom		
 food_info_types_spices.3	dozeSpices.Variety.Text.3	Bay leaves	Babérlevél		
@@ -223,7 +223,7 @@ food_info_types_spices.13	dozeSpices.Variety.Text.13	Fenugreek	Görögszéna
 food_info_types_spices.14	dozeSpices.Variety.Text.14	Garlic	Fokhagyma		
 food_info_types_spices.15	dozeSpices.Variety.Text.15	Ginger	Gyömbér		
 food_info_types_spices.16	dozeSpices.Variety.Text.16	Horseradish	Torma		
-food_info_types_spices.17	dozeSpices.Variety.Text.17	Lemongrass	Citromfű		
+food_info_types_spices.17	dozeSpices.Variety.Text.17	Lemongrass	Citronella		
 food_info_types_spices.18	dozeSpices.Variety.Text.18	Marjoram	Majoránna		
 food_info_types_spices.19	dozeSpices.Variety.Text.19	Mustard powder	Mustárpor		
 food_info_types_spices.20	dozeSpices.Variety.Text.20	Nutmeg	Szerecsendió		
@@ -255,7 +255,7 @@ food_info_types_cruciferous_vegetables.2	dozeVegetablesCruciferous.Variety.Text.
 food_info_types_cruciferous_vegetables.3	dozeVegetablesCruciferous.Variety.Text.3	Brussels sprouts	Kelbimbó		
 food_info_types_cruciferous_vegetables.4	dozeVegetablesCruciferous.Variety.Text.4	Cabbage (green, red and savoy)	Káposzta (zöld, vörös és kelkáposzta)		
 food_info_types_cruciferous_vegetables.5	dozeVegetablesCruciferous.Variety.Text.5	Cauliflower (white, green, orange and purple)	Karfiol (fehér, zöld, narancs és lila)		
-food_info_types_cruciferous_vegetables.6	dozeVegetablesCruciferous.Variety.Text.6	Collard greens	Káposztafélék		
+food_info_types_cruciferous_vegetables.6	dozeVegetablesCruciferous.Variety.Text.6	Collard greens	Vadkáposzta (leveles kel)		
 food_info_types_cruciferous_vegetables.7	dozeVegetablesCruciferous.Variety.Text.7	Horseradish	Torma		
 food_info_types_cruciferous_vegetables.8	dozeVegetablesCruciferous.Variety.Text.8	Kale (black, green, and red)	Fodros kel (fekete, zöld és piros)		
 food_info_types_cruciferous_vegetables.9	dozeVegetablesCruciferous.Variety.Text.9	Kohlrabi (green and purple)	Karalábé (zöld és lila)		
@@ -279,7 +279,7 @@ food_info_types_other_vegetables.3	dozeVegetablesOther.Variety.Text.3	Bell peppe
 food_info_types_other_vegetables.4	dozeVegetablesOther.Variety.Text.4	Carrots	Sárgarépa		
 food_info_types_other_vegetables.5	dozeVegetablesOther.Variety.Text.5	Corn	Kukorica		
 food_info_types_other_vegetables.6	dozeVegetablesOther.Variety.Text.6	Garlic	Fokhagyma		
-food_info_types_other_vegetables.7	dozeVegetablesOther.Variety.Text.7	Mushrooms (button, oyster, porcini, portobello, and shiitake)	gomba (csiperke, laska, portobello és shiitake)		
+food_info_types_other_vegetables.7	dozeVegetablesOther.Variety.Text.7	Mushrooms (button, oyster, porcini, portobello, and shiitake)	Gomba (csiperke, laska, portobello és shiitake)		
 food_info_types_other_vegetables.8	dozeVegetablesOther.Variety.Text.8	Okra	Okra		
 food_info_types_other_vegetables.9	dozeVegetablesOther.Variety.Text.9	Onions	Hagymafélék		
 food_info_types_other_vegetables.10	dozeVegetablesOther.Variety.Text.10	Purple potatoes	Lila burgonyák		
@@ -437,7 +437,7 @@ daily_greentea_short	tweakDailyGreenTea.short	Green Tea (3 cups)	Zöld tea (3 cs
 daily_greentea_text	tweakDailyGreenTea.text	Drink three cups a day between meals (waiting at least an hour after a meal so as to not interfere with iron absorption). During meals, drink water, black coffee, or hibiscus tea mixed 6:1 with lemon verbena, but never exceed three cups of fluid an hour (important given my water preloading advice). Take advantage of the reinforcing effect of caffeine by drinking your green tea along with something healthy you wish you liked more, but don’t consume large amounts of caffeine within six hours of bedtime. Taking your tea without sweetener is best, but if you typically sweeten your tea with honey or sugar, try yacon syrup instead.	Igyon három csészényi folyadékot az étkezések között (várjon legalább egy órát az étkezés után, hogy ne zavarja a vas felszívódását). Az étkezések alatt igyon vizet, feketekávét, vagy hibiszkusz teát, 6:1 arányban citromverbénával keverve, de soha ne igyon egy órán belül három csészénél többet (ez a víz előtöltési tanácsom miatt fontos). Használja ki a koffein megerősítő hatását, igyon zöld teát, amikor valami olyan egészséges ételt fogyaszt, amit szeretne jobban megkedvelni. Soha ne fogyasszon nagy mennyiségű koffeint a lefekvés előtti hat órában. A tea édesítés nélkül a legjobb, de ha mézzel, vagy cukorral szokta inni, akkor próbálja ki a yaconból (inkagumóból) készült szirupot.		
 daily_hydrate	tweakDailyHydrate.heading	Stay Hydrated	Hidratáljon	heading for daily data entry item	
 daily_hydrate_short	tweakDailyHydrate.short	Stay Hydrated	Hidratáljon		
-daily_hydrate_text	tweakDailyHydrate.text	Check this box if your urine never appears darker than a pale yellow.\n\nNote that if you’re eating riboflavin-fortified foods (such as nutritional yeast), then base this instead on getting nine cups of unsweetened beverages a day for women (which would be taken care of by the green tea and water preloading recommendations) or thirteen cups a day for men.\n\nIf you have heart or kidney issues, don’t increase fluid intake at all without first talking with your physician.\n\nRemember, diet soda may be calorie-free, but it’s not consequence-free, as we learned in the Low in Added Sugar section.	Jelölje be ezt a négyzetet, ha a vizelete soha nem sötétebb halványsárgánál.\n\nNe feledje, hogy ha riboflavinnal dúsított ételeket (például étkezési sörélesztőpelyhet) fogyaszt, akkor nők esetében napi kilenc csésze cukrozatlan italt legyen az alap (például zöld tea, vagy víz a folyadék előtöltési ajánlások szerint), férfiak esetében az ajánlott mennyiség tizenhárom csésze. Ha szív- vagy veseproblémái vannak, akkor egyáltalán ne növelje a folyadékbevitelt anélkül, hogy ezt az orvosával megbeszélné.\n\nNe feledje, hogy a diétás üdítőitalok lehetnek kalóriamentesek, de nem következménymentesek, ahogyan azt a Csökkentett Cukortartalom fejezetből megtudtuk.		
+daily_hydrate_text	tweakDailyHydrate.text	Check this box if your urine never appears darker than a pale yellow.\n\nNote that if you’re eating riboflavin-fortified foods (such as nutritional yeast), then base this instead on getting nine cups of unsweetened beverages a day for women (which would be taken care of by the green tea and water preloading recommendations) or thirteen cups a day for men.\n\nIf you have heart or kidney issues, don’t increase fluid intake at all without first talking with your physician.\n\nRemember, diet soda may be calorie-free, but it’s not consequence-free, as we learned in the Low in Added Sugar section.	Jelölje be ezt a négyzetet, ha a vizelete soha nem sötétebb halványsárgánál.\n\nNe feledje, hogy ha riboflavinnal dúsított ételeket (például étkezési sörélesztőpelyhet) fogyaszt, akkor nők esetében napi kilenc csésze cukrozatlan italt legyen az alap (például zöld tea, vagy víz a folyadék előtöltési ajánlások szerint), férfiak esetében az ajánlott mennyiség tizenhárom csésze. Ha szív- vagy veseproblémái vannak, akkor egyáltalán ne növelje a folyadékbevitelt anélkül, hogy ezt az orvosával megbeszélné.\n\nNe feledje, hogy a diétás üdítőitalok lehetnek kalóriamentesek, de nem következménymentesek, ahogyan azt a Csökkentett Cukortartalom fejezetből megtudtuk.		
 daily_nutriyeast	tweakDailyNutriYeast.heading	Nutritional Yeast (2 tsp)	Étkezési sörélesztőpehely (2 teáskanál)	heading for daily data entry item	
 daily_nutriyeast_short	tweakDailyNutriYeast.short	Nutritional Yeast (2 tsp)	Étkezési sörélesztőpehely (2 teáskanál)		
 daily_nutriyeast_text	tweakDailyNutriYeast.text	Two teaspoons of baker’s, brewer’s, or nutritional yeast contains roughly the amount of beta 1,3/1,6 glucans found in randomized, double-blind, placebo-controlled clinical trials to facilitate weight loss.	Két teáskanál sütő-élesztő vagy étkezési sörélesztőpehely nagyjából annyi béta 1,3/1,6-glükánt tartalmaz, amennyit randomizált, kettős vak, placebo-kontrollos klinikai vizsgálatok szerint elősegíti a fogyást.		
@@ -458,7 +458,7 @@ meal_undistracted_short	tweakMealUndistracted.short	Enjoy Undistracted Meals	Él
 meal_undistracted_text	tweakMealUndistracted.text	Don’t eat while watching TV or playing on your phone. Give yourself a check for each meal you’re able to eat without distraction.	Ne nézzen tévét, ne játsszon a telefonján evés közben. Adjon magának egy pipát minden étkezés után, amelyet zavartalanul tudott elfogyasztani.		
 meal_vinegar	tweakMealVinegar.heading	Incorporate Vinegar (2 tsp with each meal)	Adjunk hozzá ecetet (2 tk minden étkezéshez)	heading for daily data entry item	
 meal_vinegar_short	tweakMealVinegar.short	Incorporate Vinegar (2 tsp with each meal)	Adjunk hozzá ecetet (2 tk minden étkezéshez)		
-meal_vinegar_text	tweakMealVinegar.text	Never drink vinegar straight. Instead, flavor meals or dress a side salad with any of the sweet and savory vinegars out there. If you want to drink it, make sure to mix it in a glass of water and, afterward, be sure to rinse your mouth out with water to protect your tooth enamel.	Soha ne igyon ecetet közvetlenül. Használja az ételek ízesítésére, vagy fogyasszon köretként salátát és a különféle ecetek bármelyikével készítsen hozzá öntetet. Ha az ecetet italként fogyasztaná, akkor feltétlenül keverje el egy pohár vízben, és utána alaposan öblítse ki a száját, hogy megvédje a fogzománcot a károsodástól.		
+meal_vinegar_text	tweakMealVinegar.text	Never drink vinegar straight. Instead, flavor meals or dress a side salad with any of the sweet and savory vinegars out there. If you want to drink it, make sure to mix it in a glass of water and, afterward, be sure to rinse your mouth out with water to protect your tooth enamel.	Soha ne igyon ecetet közvetlenül. Használja az ételek ízesítésére, vagy fogyasszon köretként salátát és a különféle ecetek bármelyikével készítsen hozzá öntetet. Ha az ecetet italként fogyasztaná, akkor feltétlenül keverje el egy pohár vízben, és utána alaposan öblítse ki a száját, hogy megvédje a fogzománcot a károsodástól.		
 meal_water	tweakMealWater.heading	Preload with Water	Étkezés előtt igyon vizet	heading for daily data entry item	
 meal_water_short	tweakMealWater.short	Preload with Water	Étkezés előtt igyon vizet		
 meal_water_text	tweakMealWater.text	Time your metabolism-boosting two cups of cool or cold unflavored water before each meal to also take advantage of its preload benefits.	Minden étkezés előtt ütemezzen be két csésze hideg vagy hűvös ízesítetlen vizet. Ezzel egyszerre serkenti az anyagcserét, és kihasználja az előtöltés előnyeit.		
@@ -525,7 +525,7 @@ enable_daily_reminder		Enable Daily Reminder	Napi emlékeztető engedélyezése	
 error_cannot_handle_url		Could not open url. Please install a browser.	Nem sikerült megnyitni az url-t. Kérjük, telepítsen egy böngészőt.		
 food_history		Food History	Élelmiszer előzmények		
 food_info		Food Info	Élelmiszer Infó		
-format_version		version %s	%s verzió	Place `%s` where the software should substitue in the version number.	
+format_version		version %s	%s. verzió	Place `%s` where the software should substitue in the version number.	
 history_to_generate		History to Generate	Előzmények létrehozása		
 history_to_generate_choices.0		1 month	1 hónap		
 history_to_generate_choices.1		3 months	3 hónap		
@@ -537,7 +537,7 @@ no		No	Nem
 no_servings_recorded		You have not recorded any servings yet!	Még nem adtál meg egyetlen adagot sem!		
 no_weights_recorded		You have not recorded any weights yet!	Még nem adtál meg egyetlen súlyadatot sem!		
 not_now		Not Now	Most nem		
-out_of		out of	Kívül	Part of ‘0 out of 24’	
+out_of		out of	/	Part of ‘0 out of 24’	
 permission_needed_to_write_storage		Can’t backup without permission to write to storage	Nem lehet biztonsági másolatot készíteni, ha a tárhelyre írás nincs engedélyezve		
 rate_now		Give Feedback	Visszajelzés küldése		
 restore_confirm_message		Any existing data will be deleted before restoring from backup. Do you wish to continue?	A biztonsági mentés visszaállítása előtt minden adat törlődik. Szeretné folytatni?		
@@ -547,7 +547,7 @@ restore_success		Restore successful	Sikeres visszaállítás
 task_backup_title		Backing up	Biztonsági mentés		
 task_calculating_streaks_title		Calculating streaks	Szériák kiszámítása	:WIP: progress	
 task_generating_random_data		Generating random data	Véletlenszerű adatok generálása		
-task_loading_servings_history_title		Loading Servings History	Keresési előzmények betöltése		
+task_loading_servings_history_title		Loading Servings History	Adagok előzményeinek betöltése		
 task_loading_weights_history_title		Loading Weights History	Súly előzmények betöltése		
 task_restore_title		Restoring	Helyreállítás		
 title_cookbook		Cookbook	Szakácskönyv		
